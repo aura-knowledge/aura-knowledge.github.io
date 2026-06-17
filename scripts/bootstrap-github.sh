@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-OWNER="${OWNER:-v-i-s-h-a-l}"
-REPO="${REPO:-knowledge}"
+OWNER="${OWNER:-aura-knowledge}"
+REPO="${REPO:-aura-knowledge.github.io}"
 FEATURE_BRANCH="${FEATURE_BRANCH:-feature/knowledge-garden-foundation}"
 DEFAULT_BRANCH="${DEFAULT_BRANCH:-main}"
 REMOTE_URL="${REMOTE_URL:-https://github.com/${OWNER}/${REPO}.git}"
@@ -37,7 +37,7 @@ fi
 if ! gh repo view "$FULL_NAME" >/dev/null 2>&1; then
   gh repo create "$FULL_NAME" \
     --public \
-    --description "AI-era knowledge garden with human-readable essays and agent-auditable research packets"
+    --description "Aura Knowledge: human-readable essays and agent-auditable research packets"
 fi
 
 if git remote get-url origin >/dev/null 2>&1; then
@@ -56,7 +56,7 @@ if ! gh pr view "$FEATURE_BRANCH" --repo "$FULL_NAME" >/dev/null 2>&1; then
 
 Creates the first version of the AI-native knowledge garden:
 
-- Astro GitHub Pages site under `/knowledge/`
+- Astro GitHub Pages site at the organization root
 - first article on agent-auditable research
 - agent-readable article and roadmap packets
 - generated `llms.txt`, graph files, JSON/JSONL discovery feeds

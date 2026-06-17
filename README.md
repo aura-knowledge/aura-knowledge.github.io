@@ -1,4 +1,4 @@
-# Knowledge Garden
+# Aura Knowledge
 
 A focused GitHub Pages knowledge garden for human-readable essays and agent-auditable research artifacts.
 
@@ -47,8 +47,8 @@ npm run check
 Work must happen on feature branches and worktrees, not directly on `main`.
 
 ```bash
-git worktree add ../.worktrees/knowledge-<topic> -b feature/<topic> main
-cd ../.worktrees/knowledge-<topic>
+git worktree add ../.worktrees/aura-knowledge-<topic> -b feature/<topic> main
+cd ../.worktrees/aura-knowledge-<topic>
 npm install
 npm run check
 ```
@@ -59,11 +59,11 @@ Before committing, install local hooks:
 ./scripts/install-hooks.sh
 ```
 
-Remote `main` should be protected with required PR review, required checks, conversation resolution, linear history, and no bypass.
+Remote `main` should be protected with required checks, conversation resolution, linear history, and no bypass.
 
 ## GitHub Pages
 
-The intended remote is `v-i-s-h-a-l/knowledge`.
+The intended remote is `aura-knowledge/aura-knowledge.github.io`.
 
 Once the repository exists on GitHub:
 
@@ -73,7 +73,7 @@ Once the repository exists on GitHub:
 4. Protect `main` using the settings in `CONTRIBUTING.md`.
 5. Merge through the PR after checks pass.
 
-The site is configured for `https://v-i-s-h-a-l.github.io/knowledge/`.
+The site is configured for `https://aura-knowledge.github.io/`.
 
 If `gh` is authenticated, the repo bootstrap can be automated:
 
@@ -81,6 +81,6 @@ If `gh` is authenticated, the repo bootstrap can be automated:
 ./scripts/bootstrap-github.sh
 ```
 
-The script creates `v-i-s-h-a-l/knowledge` as a public repository if it is missing,
+The script creates `aura-knowledge/aura-knowledge.github.io` as a public repository if it is missing,
 sets `origin`, pushes `main` and `feature/knowledge-garden-foundation`, and opens a
 draft pull request.
