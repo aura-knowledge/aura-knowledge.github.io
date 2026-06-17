@@ -724,6 +724,7 @@ h3 {
 .graph-stems {
   display: grid;
   gap: 1rem;
+  margin-bottom: clamp(2rem, 5vw, 4rem);
 }
 
 .graph-stem {
@@ -736,6 +737,47 @@ h3 {
   font-family: inherit;
   font-size: var(--step-2);
   text-transform: capitalize;
+}
+
+.graph-topic-links,
+.graph-article-topics {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 0.55rem;
+}
+
+.graph-topic-links a,
+.graph-article-topics a {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.4rem 0.65rem;
+  color: var(--text);
+  font-size: var(--step--1);
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    border-color 180ms ease,
+    color 180ms ease,
+    background-color 180ms ease;
+}
+
+.graph-topic-links a:hover,
+.graph-topic-links a:focus-visible,
+.graph-article-topics a:hover,
+.graph-article-topics a:focus-visible {
+  border-color: var(--accent);
+  outline: none;
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  color: var(--accent-strong);
+}
+
+.graph-article-branches {
+  scroll-margin-top: 6rem;
+}
+
+.graph-article-topics {
+  margin-bottom: 0.8rem;
 }
 
 .graph-branch ol {

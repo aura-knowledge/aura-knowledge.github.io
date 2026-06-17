@@ -13,6 +13,8 @@ for (const article of articles) {
     topics.set(topic, current);
   }
 }
+
+const topicEntries = Array.from(topics.entries()).sort(([left], [right]) => left.localeCompare(right));
 ---
 
 <BaseLayout
@@ -24,38 +26,52 @@ for (const article of articles) {
       <p class="eyebrow">Graph</p>
       <h1>Browse the stems, then inspect the claims.</h1>
       <p class="lede">
-        The graph is deliberately simple in the first release: topics lead to articles, articles
-        lead to claims, and claims lead to sources. The generated JSON files expose the same map to
-        agents.
+        The graph is deliberately simple in the first release: topics point to articles, then each
+        article exposes its claim map once. The generated JSON files expose the same map to agents.
       </p>
     </header>
 
     <section class="graph-stems" aria-label="Topic stems">
-      {Array.from(topics.entries()).map(([topic, topicArticles]) => (
-        <article class="graph-stem">
+      {topicEntries.map(([topic, topicArticles]) => (
+        <article class="graph-stem" id={`topic-${topic}`}>
           <header>
             <p class="eyebrow">Topic</p>
             <h2>{topic.replaceAll("-", " ")}</h2>
           </header>
-          <div class="graph-branch-list">
+          <div class="graph-topic-links">
             {topicArticles.map((article) => (
-              <section class="graph-branch">
-                <h3>
-                  <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
-                </h3>
-                <p>{article.artifact.thesis}</p>
-                <ol>
-                  {article.artifact.claims.map((claim) => (
-                    <li>
-                      <span>{claim.id.replace("claim-", "C")}</span>
-                      {claim.claim}
-                    </li>
-                  ))}
-                </ol>
-              </section>
+              <a href={`#${article.slug}-claims`}>{article.title}</a>
             ))}
           </div>
         </article>
+      ))}
+    </section>
+
+    <section class="graph-branch-list graph-article-branches" aria-labelledby="article-claim-maps">
+      <div class="roadmap-section-head">
+        <p class="eyebrow">Article maps</p>
+        <h2 id="article-claim-maps">Each article appears once with its claims.</h2>
+      </div>
+      {articles.map((article) => (
+        <section class="graph-branch" id={`${article.slug}-claims`}>
+          <div class="graph-article-topics" aria-label="Topics">
+            {article.artifact.topics.map((topic) => (
+              <a href={`#topic-${topic}`}>{topic.replaceAll("-", " ")}</a>
+            ))}
+          </div>
+          <h3>
+            <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
+          </h3>
+          <p>{article.artifact.thesis}</p>
+          <ol>
+            {article.artifact.claims.map((claim) => (
+              <li>
+                <span>{claim.id.replace("claim-", "C")}</span>
+                {claim.claim}
+              </li>
+            ))}
+          </ol>
+        </section>
       ))}
     </section>
   </div>
