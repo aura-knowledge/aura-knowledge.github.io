@@ -21,6 +21,10 @@
 
 ---
 
+## Execution Note
+
+Local implementation and validation completed in the site worktree. Live GitHub organization profile publishing is blocked by authentication: `gh auth status` reports that the active `v-i-s-h-a-l` token for `github.com` is invalid. The source README is ready at `.github/profile/README.md`, but it has not been pushed to the special `aura-knowledge/.github` repository.
+
 ## File Structure
 
 - Create `.github/profile/README.md`: source Markdown for the GitHub organization profile repository.
@@ -320,7 +324,7 @@ Expected: generation succeeds, validation succeeds, Astro builds 6 pages, build 
 Run:
 
 ```bash
-git diff -- .github/profile/README.md src/pages/organization.astro src/layouts/BaseLayout.astro docs/superpowers/plans/2026-06-18-organization-human-home.md
+git diff -- .github/profile/README.md src/pages/organization.astro src/layouts/BaseLayout.astro docs/superpowers/specs/2026-06-18-organization-human-home-design.md docs/superpowers/plans/2026-06-18-organization-human-home.md
 git status --short
 ```
 
@@ -331,7 +335,7 @@ Expected: changes are limited to the profile README, organization page, layout n
 Run:
 
 ```bash
-git add .github/profile/README.md src/pages/organization.astro src/layouts/BaseLayout.astro docs/superpowers/plans/2026-06-18-organization-human-home.md
+git add .github/profile/README.md src/pages/organization.astro src/layouts/BaseLayout.astro docs/superpowers/specs/2026-06-18-organization-human-home-design.md docs/superpowers/plans/2026-06-18-organization-human-home.md
 git commit -m "feat: add organization human home"
 ```
 
