@@ -23,7 +23,7 @@
 
 ## Execution Note
 
-Local implementation and validation completed in the site worktree. The correct GitHub CLI environment is `HOME=/Users/vishalsingh` with `GH_CONFIG_DIR=/Users/vishalsingh/.config/gh-personal`, which authenticates as `v-i-s-h-a-l` through the keyring with `admin:org` and `repo` scopes. The stale Codex-home `vishal-zaps` auth was removed before publishing.
+Local implementation and validation completed in the site worktree. The correct GitHub CLI environment is `HOME=/Users/vishalsingh` with `GH_CONFIG_DIR=/Users/vishalsingh/.config/gh-personal`, which authenticates as `v-i-s-h-a-l` through the keyring with `admin:org` and `repo` scopes. The stale Codex-home `vishal-zaps` auth was removed before publishing. The special `aura-knowledge/.github` repository was created and `profile/README.md` was pushed to its `main` branch.
 
 ## File Structure
 
