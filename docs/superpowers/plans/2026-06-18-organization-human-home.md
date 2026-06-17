@@ -23,7 +23,7 @@
 
 ## Execution Note
 
-Local implementation and validation completed in the site worktree. Live GitHub organization profile publishing is blocked by authentication: `gh auth status` reports that the active `v-i-s-h-a-l` token for `github.com` is invalid. The source README is ready at `.github/profile/README.md`, but it has not been pushed to the special `aura-knowledge/.github` repository.
+Local implementation and validation completed in the site worktree. The shell default `GH_CONFIG_DIR=/Users/vishalsingh/.config/gh-personal` points to an invalid `v-i-s-h-a-l` token, but `GH_CONFIG_DIR=/Users/vishalsingh/.codex-homes/personal/.config/gh` authenticates successfully as `vishal-zaps`. Live GitHub organization profile publishing is still blocked because `vishal-zaps` does not have permission to create the special `aura-knowledge/.github` repository. The source README is ready at `.github/profile/README.md`, but it has not been pushed to the special organization profile repository.
 
 ## File Structure
 
