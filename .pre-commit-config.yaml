@@ -1,0 +1,13 @@
+repos:
+  - repo: local
+    hooks:
+      - id: knowledge-check
+        name: knowledge garden check
+        entry: npm run check
+        language: system
+        pass_filenames: false
+      - id: dependency-audit
+        name: npm audit
+        entry: npm audit --audit-level=moderate
+        language: system
+        pass_filenames: false

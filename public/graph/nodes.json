@@ -1,0 +1,134 @@
+[
+  {
+    "id": "article:agent-auditable-research",
+    "type": "article",
+    "label": "The Future of Publishing Is Agent-Auditable Research",
+    "path": "/articles/agent-auditable-research/",
+    "maturity": "seed"
+  },
+  {
+    "id": "claim-001",
+    "type": "claim",
+    "label": "Polished prose is becoming cheap; inspectable reasoning is becoming scarce.",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "claim-002",
+    "type": "claim",
+    "label": "A future-ready publishing artifact should pair a human essay with a claim graph, evidence ledger, provenance, revision history, and agent contribution record.",
+    "confidence": "medium-high",
+    "status": "proposal"
+  },
+  {
+    "id": "claim-003",
+    "type": "claim",
+    "label": "Research is the best first wedge because the audience already values citations, methods, uncertainty, and credibility.",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "claim-004",
+    "type": "claim",
+    "label": "Existing publishing, AI research, and protocol tools solve important pieces but not the combined readable-plus-auditable source object.",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "claim-005",
+    "type": "claim",
+    "label": "AI assistance should be disclosed while the human remains accountable for thesis, source selection, wording, and conclusions.",
+    "confidence": "high",
+    "status": "normative"
+  },
+  {
+    "id": "claim-006",
+    "type": "claim",
+    "label": "Attention-aware reading and machine-readable structure are compatible when the page uses progressive disclosure.",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "source-agentic-publications-2025",
+    "type": "source",
+    "label": "Agentic Publications: An LLM-Driven Framework for Interactive Scientific Publishing",
+    "url": "https://arxiv.org/abs/2505.13246",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-beehiiv-mcp-v2",
+    "type": "source",
+    "label": "beehiiv MCP v2",
+    "url": "https://product.beehiiv.com/p/beehiiv-mcp-v2",
+    "sourceType": "product"
+  },
+  {
+    "id": "source-cloudflare-emdash",
+    "type": "source",
+    "label": "Introducing EmDash",
+    "url": "https://blog.cloudflare.com/emdash-wordpress/",
+    "sourceType": "product"
+  },
+  {
+    "id": "source-digital-gardens-appleton",
+    "type": "source",
+    "label": "A Brief History & Ethos of the Digital Garden",
+    "url": "https://maggieappleton.com/nontechnical-gardening",
+    "sourceType": "design"
+  },
+  {
+    "id": "source-digital-gardens-qu",
+    "type": "source",
+    "label": "Digital Gardens",
+    "url": "https://vivqu.com/blog/2020/10/18/digital-gardens/",
+    "sourceType": "design"
+  },
+  {
+    "id": "source-llms-txt",
+    "type": "source",
+    "label": "llms.txt proposal",
+    "url": "https://github.com/answerdotai/llms-txt",
+    "sourceType": "protocol"
+  },
+  {
+    "id": "source-nng-cognitive-load",
+    "type": "source",
+    "label": "4 Principles for Reducing Cognitive Load in Forms",
+    "url": "https://www.nngroup.com/articles/4-principles-reduce-cognitive-load/",
+    "sourceType": "design"
+  },
+  {
+    "id": "source-provenance-2026",
+    "type": "source",
+    "label": "Responsible Agentic AI Requires Explicit Provenance",
+    "url": "https://arxiv.org/abs/2605.17169",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-wordpress-mcp-adapter",
+    "type": "source",
+    "label": "From Abilities to AI Agents: Introducing the WordPress MCP Adapter",
+    "url": "https://developer.wordpress.org/news/2026/02/from-abilities-to-ai-agents-introducing-the-wordpress-mcp-adapter/",
+    "sourceType": "product"
+  },
+  {
+    "id": "topic:agent-provenance",
+    "type": "topic",
+    "label": "agent-provenance"
+  },
+  {
+    "id": "topic:ai-native-publishing",
+    "type": "topic",
+    "label": "ai-native-publishing"
+  },
+  {
+    "id": "topic:digital-gardens",
+    "type": "topic",
+    "label": "digital-gardens"
+  },
+  {
+    "id": "topic:research-workflows",
+    "type": "topic",
+    "label": "research-workflows"
+  }
+]

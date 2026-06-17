@@ -1,0 +1,132 @@
+[
+  {
+    "from": "article:agent-auditable-research",
+    "to": "claim-001",
+    "type": "argues"
+  },
+  {
+    "from": "article:agent-auditable-research",
+    "to": "claim-002",
+    "type": "argues"
+  },
+  {
+    "from": "article:agent-auditable-research",
+    "to": "claim-003",
+    "type": "argues"
+  },
+  {
+    "from": "article:agent-auditable-research",
+    "to": "claim-004",
+    "type": "argues"
+  },
+  {
+    "from": "article:agent-auditable-research",
+    "to": "claim-005",
+    "type": "argues"
+  },
+  {
+    "from": "article:agent-auditable-research",
+    "to": "claim-006",
+    "type": "argues"
+  },
+  {
+    "from": "article:agent-auditable-research",
+    "to": "topic:agent-provenance",
+    "type": "covers"
+  },
+  {
+    "from": "article:agent-auditable-research",
+    "to": "topic:ai-native-publishing",
+    "type": "covers"
+  },
+  {
+    "from": "article:agent-auditable-research",
+    "to": "topic:digital-gardens",
+    "type": "covers"
+  },
+  {
+    "from": "article:agent-auditable-research",
+    "to": "topic:research-workflows",
+    "type": "covers"
+  },
+  {
+    "from": "claim-001",
+    "to": "source-agentic-publications-2025",
+    "type": "supported-by"
+  },
+  {
+    "from": "claim-001",
+    "to": "source-provenance-2026",
+    "type": "supported-by"
+  },
+  {
+    "from": "claim-002",
+    "to": "source-agentic-publications-2025",
+    "type": "supported-by"
+  },
+  {
+    "from": "claim-002",
+    "to": "source-digital-gardens-appleton",
+    "type": "supported-by"
+  },
+  {
+    "from": "claim-002",
+    "to": "source-llms-txt",
+    "type": "supported-by"
+  },
+  {
+    "from": "claim-003",
+    "to": "source-agentic-publications-2025",
+    "type": "supported-by"
+  },
+  {
+    "from": "claim-003",
+    "to": "source-nng-cognitive-load",
+    "type": "supported-by"
+  },
+  {
+    "from": "claim-004",
+    "to": "source-agentic-publications-2025",
+    "type": "supported-by"
+  },
+  {
+    "from": "claim-004",
+    "to": "source-beehiiv-mcp-v2",
+    "type": "supported-by"
+  },
+  {
+    "from": "claim-004",
+    "to": "source-cloudflare-emdash",
+    "type": "supported-by"
+  },
+  {
+    "from": "claim-004",
+    "to": "source-wordpress-mcp-adapter",
+    "type": "supported-by"
+  },
+  {
+    "from": "claim-005",
+    "to": "source-agentic-publications-2025",
+    "type": "supported-by"
+  },
+  {
+    "from": "claim-005",
+    "to": "source-provenance-2026",
+    "type": "supported-by"
+  },
+  {
+    "from": "claim-006",
+    "to": "source-digital-gardens-appleton",
+    "type": "supported-by"
+  },
+  {
+    "from": "claim-006",
+    "to": "source-digital-gardens-qu",
+    "type": "supported-by"
+  },
+  {
+    "from": "claim-006",
+    "to": "source-nng-cognitive-load",
+    "type": "supported-by"
+  }
+]

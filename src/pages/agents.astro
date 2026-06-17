@@ -1,0 +1,84 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getArticles } from "../lib/content";
+import roadmap from "../../content/roadmap/awesome-llm-apps-roadmap.json";
+
+const base = import.meta.env.BASE_URL;
+const articles = getArticles();
+---
+
+<BaseLayout
+  title="Agent Entry"
+  description="Machine-readable entry points for the knowledge garden."
+>
+  <div class="page-shell utility-page">
+    <header class="utility-hero">
+      <p class="eyebrow">Agent entry</p>
+      <h1>Low-noise paths into the garden.</h1>
+      <p class="lede">
+        These files are generated from the same article folders that power the human site. Agents
+        should start with the compact index, then fetch article packets by slug.
+      </p>
+    </header>
+
+    <section class="utility-grid" aria-labelledby="feeds-title">
+      <div>
+        <h2 id="feeds-title">Discovery feeds</h2>
+        <p>
+          The index files are intentionally compact. They expose article IDs, topics, maturity,
+          claim counts, source counts, and packet locations without forcing an agent to parse prose.
+        </p>
+      </div>
+      <div class="artifact-list">
+        <a href={`${base}agents/index.json`}>agents/index.json</a>
+        <a href={`${base}agents/index.jsonl`}>agents/index.jsonl</a>
+        <a href={`${base}llms.txt`}>llms.txt</a>
+        <a href={`${base}graph/nodes.json`}>graph/nodes.json</a>
+        <a href={`${base}graph/edges.json`}>graph/edges.json</a>
+      </div>
+    </section>
+
+    <section class="utility-grid" aria-labelledby="packets-title">
+      <div>
+        <h2 id="packets-title">Article packets</h2>
+        <p>
+          Each article has a human page, an agent Markdown brief, and a JSON packet with claims,
+          sources, relationships, review state, and a content hash.
+        </p>
+      </div>
+      <div class="packet-list">
+        {articles.map((article) => (
+          <article class="packet-item">
+            <p>{article.maturity} / {article.status}</p>
+            <h3>{article.title}</h3>
+            <div class="button-row">
+              <a class="button" href={`${base}articles/${article.slug}/`}>Human page</a>
+              <a class="button" href={`${base}agents/articles/${article.slug}.json`}>JSON</a>
+              <a class="button" href={`${base}agents/articles/${article.slug}.md`}>Markdown</a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="utility-grid" aria-labelledby="roadmap-packets-title">
+      <div>
+        <h2 id="roadmap-packets-title">Roadmap packet</h2>
+        <p>
+          The roadmap packet is a compact product backlog for future agent-native publishing work.
+          Use idea IDs and priorities as retrieval units.
+        </p>
+      </div>
+      <div class="packet-list">
+        <article class="packet-item">
+          <p>{roadmap.status} / {roadmap.updatedAt}</p>
+          <h3>{roadmap.title}</h3>
+          <div class="button-row">
+            <a class="button" href={`${base}roadmap/`}>Human page</a>
+            <a class="button" href={`${base}agents/roadmap/${roadmap.slug}.json`}>JSON</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

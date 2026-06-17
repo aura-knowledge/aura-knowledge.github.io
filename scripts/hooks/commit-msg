@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+branch="$(git branch --show-current)"
+identity_hook="${GIT_IDENTITY_HOOK:-"$HOME/.githooks/identity-current"}"
+
+if [[ -x "$identity_hook" ]]; then
+  "$identity_hook"
+fi
+
+if [[ "$branch" == "main" || "$branch" == "master" ]]; then
+  echo "Direct commits to $branch are blocked. Use a feature branch/worktree and PR merge." >&2
+  exit 1
+fi
+
+subject="$(head -n 1 "$1")"
+
+if [[ ! "$subject" =~ ^(feat|fix|docs|content|schema|graph|infra|ci|chore|refactor|test):[[:space:]].+ ]]; then
+  echo "Commit subject must use a known scope, e.g. 'content: add article' or 'infra: update CI'." >&2
+  echo "Got: $subject" >&2
+  exit 1
+fi

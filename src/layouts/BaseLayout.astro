@@ -1,0 +1,67 @@
+---
+import "../styles/global.css";
+import ThemeToggle from "../components/ThemeToggle.astro";
+
+interface Props {
+  title?: string;
+  description?: string;
+  bodyClass?: string;
+}
+
+const {
+  title = "Knowledge Garden",
+  description = "A focused knowledge garden for human essays and agent-readable research artifacts.",
+  bodyClass = ""
+} = Astro.props;
+
+const base = import.meta.env.BASE_URL;
+const pageTitle = title === "Knowledge Garden" ? title : `${title} | Knowledge Garden`;
+---
+
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f7f7f3" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href={`${base}favicon.svg`} type="image/svg+xml" />
+    <title>{pageTitle}</title>
+    <script is:inline>
+      (() => {
+        const stored = localStorage.getItem("knowledge-theme");
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        const theme = stored || (prefersDark ? "dark" : "light");
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+  </head>
+  <body class={bodyClass}>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="brand" href={base}>
+          <span class="brand-mark" aria-hidden="true">K</span>
+          <span>Knowledge Garden</span>
+        </a>
+        <div class="nav-links">
+          <a href={`${base}articles/agent-auditable-research/`}>First Article</a>
+          <a href={`${base}roadmap/`}>Roadmap</a>
+          <a href={`${base}graph/`}>Graph</a>
+          <a href={`${base}agents/`}>Agents</a>
+          <ThemeToggle />
+        </div>
+      </nav>
+    </header>
+    <main id="content">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <span>Readable essays, auditable research packets.</span>
+        <span>Built for humans first; structured for agents by design.</span>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,133 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import roadmap from "../../content/roadmap/awesome-llm-apps-roadmap.json";
+
+const base = import.meta.env.BASE_URL;
+const sourceBase = `${roadmap.sourceRepo.url}/tree/${roadmap.sourceRepo.commit}`;
+const reportUrl =
+  "https://github.com/v-i-s-h-a-l/knowledge/blob/main/docs/research/2026-06-17-awesome-llm-apps-roadmap.md";
+const priorities = [
+  { id: "P0", label: "Foundation", count: roadmap.priorityCounts.P0 },
+  { id: "P1", label: "Near term", count: roadmap.priorityCounts.P1 },
+  { id: "P2", label: "Later", count: roadmap.priorityCounts.P2 }
+];
+const ideaById = new Map(roadmap.ideas.map((idea) => [idea.id, idea]));
+---
+
+<BaseLayout
+  title="Roadmap"
+  description="A research-backed roadmap for the AI-native knowledge garden."
+>
+  <div class="page-shell utility-page roadmap-page">
+    <header class="utility-hero roadmap-hero">
+      <p class="eyebrow">Roadmap</p>
+      <h1>{roadmap.title}</h1>
+      <p class="lede">{roadmap.summary}</p>
+      <div class="roadmap-actions" aria-label="Roadmap artifacts">
+        <a class="button primary" href={`${base}agents/roadmap/${roadmap.slug}.json`}>
+          Agent JSON
+        </a>
+        <a class="button" href={reportUrl}>Research report</a>
+        <a class="button" href={roadmap.sourceRepo.url}>Source repo</a>
+      </div>
+    </header>
+
+    <section class="roadmap-snapshot" aria-label="Roadmap snapshot">
+      <article>
+        <span>Reviewed</span>
+        <strong>{roadmap.updatedAt}</strong>
+        <p>{roadmap.sourceRepo.name} at {roadmap.sourceRepo.commit}</p>
+      </article>
+      {priorities.map((priority) => (
+        <article>
+          <span>{priority.id}</span>
+          <strong>{priority.count}</strong>
+          <p>{priority.label} ideas</p>
+        </article>
+      ))}
+    </section>
+
+    <section class="section-band section-grid" aria-labelledby="roadmap-thesis">
+      <div>
+        <p class="eyebrow">Synthesis</p>
+        <h2 id="roadmap-thesis">Strengthen the research object before adding runtime agency.</h2>
+      </div>
+      <div>
+        <p>{roadmap.thesis}</p>
+        <ul class="signal-list">
+          {roadmap.principles.slice(0, 4).map((principle) => <li>{principle}</li>)}
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-band" aria-labelledby="phase-title">
+      <div class="roadmap-section-head">
+        <p class="eyebrow">Sequence</p>
+        <h2 id="phase-title">Four phases, each with a concrete artifact outcome.</h2>
+      </div>
+      <div class="phase-lane">
+        {roadmap.phases.map((phase, index) => (
+          <article class="phase-card">
+            <header>
+              <span>{String(index + 1).padStart(2, "0")}</span>
+              <div>
+                <p>{phase.horizon}</p>
+                <h3>{phase.name}</h3>
+              </div>
+            </header>
+            <p>{phase.outcome}</p>
+            <ol>
+              {phase.ideaIds.map((id) => (
+                <li>{ideaById.get(id)?.title ?? id}</li>
+              ))}
+            </ol>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="section-band" aria-labelledby="ideas-title">
+      <div class="roadmap-section-head">
+        <p class="eyebrow">Product ideas</p>
+        <h2 id="ideas-title">Buildable slices from the research pass.</h2>
+      </div>
+      <div class="idea-grid">
+        {roadmap.ideas.map((idea) => (
+          <article class={`idea-card priority-${idea.priority.toLowerCase()}`}>
+            <header>
+              <span>{idea.priority}</span>
+              <small>{idea.category}</small>
+            </header>
+            <h3>{idea.title}</h3>
+            <p>{idea.gardenMapping}</p>
+            <details>
+              <summary>Pattern and first implementation</summary>
+              <p>{idea.pattern}</p>
+              <p><strong>First:</strong> {idea.firstImplementation}</p>
+              <ul>
+                {idea.sourcePaths.slice(0, 3).map((sourcePath) => (
+                  <li>
+                    <a href={`${sourceBase}/${sourcePath}`}>{sourcePath}</a>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="section-band section-grid" aria-labelledby="review-title">
+      <div>
+        <p class="eyebrow">Review</p>
+        <h2 id="review-title">Cross-agent review treated runtime UI as a later layer.</h2>
+      </div>
+      <div>
+        <p>{roadmap.crossAgentReview.notes}</p>
+        <ul class="signal-list">
+          {roadmap.crossAgentReview.reviewers.map((reviewer) => <li>{reviewer}</li>)}
+        </ul>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

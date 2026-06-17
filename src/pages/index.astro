@@ -1,0 +1,107 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getArticles } from "../lib/content";
+
+const base = import.meta.env.BASE_URL;
+const articles = getArticles();
+const latest = articles[0];
+---
+
+<BaseLayout
+  title="Knowledge Garden"
+  description="A focused AI-era knowledge garden for human-readable essays and agent-auditable research artifacts."
+>
+  <div class="page-shell">
+    <section class="home-hero" aria-labelledby="home-title">
+      <div>
+        <p class="eyebrow">AI-era publishing</p>
+        <h1 id="home-title">Readable by humans. Auditable by agents.</h1>
+        <p class="lede">
+          This garden treats the article as one rendering of a deeper research object: claim map,
+          evidence ledger, source trail, revision history, and compact agent brief.
+        </p>
+        <div class="button-row" aria-label="Primary actions">
+          <a class="button primary" href={`${base}articles/${latest.slug}/`}>
+            Read the first article
+          </a>
+          <a class="button" href={`${base}roadmap/`}>View roadmap</a>
+          <a class="button" href={`${base}agents/`}>Open agent entry</a>
+          <a class="button" href={`${base}graph/`}>Browse the graph</a>
+        </div>
+      </div>
+
+      <aside class="stem-panel" aria-label="Knowledge stem preview">
+        <div class="stem-node">
+          <div>
+            <strong>Root idea</strong>
+            <span>Publishing shifts from polished prose to inspectable reasoning.</span>
+          </div>
+        </div>
+        <div class="stem-node">
+          <div>
+            <strong>First article</strong>
+            <span>The future is not AI-written content; it is agent-auditable research.</span>
+          </div>
+        </div>
+        <div class="stem-node">
+          <div>
+            <strong>Next branches</strong>
+            <span>Evidence packets, source-ledger scouts, author workspaces, and compact agent feeds.</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section-band section-grid" aria-labelledby="shape-title">
+      <div>
+        <p class="eyebrow">Publishing shape</p>
+        <h2 id="shape-title">The garden is not a feed.</h2>
+      </div>
+      <div>
+        <p>
+          A feed rewards recency. This site rewards return visits to an evolving idea. Articles are
+          designed as focused paths through one argument, then connected through topic stems and
+          machine-readable artifacts.
+        </p>
+        <ul class="signal-list">
+          <li>Humans get a calm reading sequence with impact blocks and visible provenance.</li>
+          <li>Agents get structured metadata, claim IDs, source IDs, and compact index files.</li>
+          <li>Future posts inherit the same validation, graph, and publication workflow.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-band section-grid" aria-labelledby="latest-title">
+      <div>
+        <p class="eyebrow">Latest path</p>
+        <h2 id="latest-title">Start with the source object.</h2>
+      </div>
+      <div class="article-list">
+        {articles.map((article) => (
+          <article class="article-teaser">
+            <p>{article.maturity} / {article.topic.replaceAll("-", " ")}</p>
+            <h3>
+              <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
+            </h3>
+            <span>{article.summary}</span>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="section-band section-grid" aria-labelledby="roadmap-title">
+      <div>
+        <p class="eyebrow">Future path</p>
+        <h2 id="roadmap-title">The roadmap starts with evidence, not runtime chat.</h2>
+      </div>
+      <div>
+        <p>
+          A review of runnable LLM app patterns points to a practical sequence: stronger claim
+          packets, evidence diagnostics, author workspaces, source intake, and then agent-native
+          inspectors once the artifact contract is stable.
+        </p>
+        <a class="packet-link" href={`${base}roadmap/`}>Open the roadmap</a>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

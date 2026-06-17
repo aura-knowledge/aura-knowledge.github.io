@@ -1,0 +1,43 @@
+---
+import type { ArticleArtifact } from "../lib/content";
+
+interface Props {
+  claims: ArticleArtifact["claims"];
+}
+
+const { claims } = Astro.props;
+---
+
+<aside class="focus-rail focus-rail-desktop" aria-labelledby="claims-title" data-focus-rail>
+  <div class="reading-progress" aria-hidden="true">
+    <span data-reading-progress></span>
+  </div>
+  <p class="eyebrow">Claim rail</p>
+  <h2 id="claims-title">Audit path</h2>
+  <ol>
+    {claims.map((claim) => (
+      <li>
+        <a href={`#${claim.id}`} data-focus-link={claim.id}>
+          <span>{claim.id.replace("claim-", "C")}</span>
+          <strong>{claim.status}</strong>
+          <em>{claim.claim}</em>
+        </a>
+      </li>
+    ))}
+  </ol>
+</aside>
+
+<details class="focus-rail-mobile">
+  <summary>View audit path</summary>
+  <ol>
+    {claims.map((claim) => (
+      <li>
+        <a href={`#${claim.id}`} data-focus-link={claim.id}>
+          <span>{claim.id.replace("claim-", "C")}</span>
+          <strong>{claim.confidence}</strong>
+          <em>{claim.claim}</em>
+        </a>
+      </li>
+    ))}
+  </ol>
+</details>

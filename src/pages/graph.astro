@@ -1,0 +1,62 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getArticles } from "../lib/content";
+
+const base = import.meta.env.BASE_URL;
+const articles = getArticles();
+const topics = new Map<string, typeof articles>();
+
+for (const article of articles) {
+  for (const topic of article.artifact.topics) {
+    const current = topics.get(topic) ?? [];
+    current.push(article);
+    topics.set(topic, current);
+  }
+}
+---
+
+<BaseLayout
+  title="Knowledge Graph"
+  description="A topic and claim graph for the knowledge garden."
+>
+  <div class="page-shell utility-page">
+    <header class="utility-hero">
+      <p class="eyebrow">Graph</p>
+      <h1>Browse the stems, then inspect the claims.</h1>
+      <p class="lede">
+        The graph is deliberately simple in the first release: topics lead to articles, articles
+        lead to claims, and claims lead to sources. The generated JSON files expose the same map to
+        agents.
+      </p>
+    </header>
+
+    <section class="graph-stems" aria-label="Topic stems">
+      {Array.from(topics.entries()).map(([topic, topicArticles]) => (
+        <article class="graph-stem">
+          <header>
+            <p class="eyebrow">Topic</p>
+            <h2>{topic.replaceAll("-", " ")}</h2>
+          </header>
+          <div class="graph-branch-list">
+            {topicArticles.map((article) => (
+              <section class="graph-branch">
+                <h3>
+                  <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
+                </h3>
+                <p>{article.artifact.thesis}</p>
+                <ol>
+                  {article.artifact.claims.map((claim) => (
+                    <li>
+                      <span>{claim.id.replace("claim-", "C")}</span>
+                      {claim.claim}
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            ))}
+          </div>
+        </article>
+      ))}
+    </section>
+  </div>
+</BaseLayout>

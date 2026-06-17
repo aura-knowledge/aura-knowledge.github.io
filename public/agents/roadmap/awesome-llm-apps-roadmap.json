@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 1,
+  "id": "roadmap:awesome-llm-apps-roadmap",
+  "slug": "awesome-llm-apps-roadmap",
+  "title": "AI-Native Knowledge Garden Roadmap",
+  "summary": "A product roadmap for turning the knowledge garden into an agent-auditable publishing system, informed by runnable examples in Shubhamsaboo/awesome-llm-apps.",
+  "status": "published",
+  "updatedAt": "2026-06-17",
+  "sourceRepo": {
+    "name": "Shubhamsaboo/awesome-llm-apps",
+    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "commit": "ca3a3d3",
+    "commitDate": "2026-06-14",
+    "reviewedAt": "2026-06-17"
+  },
+  "thesis": "The knowledge garden should evolve from static article plus agent packet into a validated research object pipeline: source intake, claim verification, deterministic artifacts, reviewer gates, and optional agent-native authoring tools.",
+  "priorityCounts": {
+    "P0": 7,
+    "P1": 7,
+    "P2": 2
+  },
+  "phases": [
+    {
+      "id": "phase-0",
+      "name": "Make Evidence Packets Real",
+      "horizon": "next foundation pass",
+      "outcome": "Every public claim has structured support, counterevidence, source quality, and validation rules that fail weak packets before publish.",
+      "ideaIds": [
+        "idea-claim-evidence-packet-v2",
+        "idea-evidence-ci-diagnostics",
+        "idea-claim-verification-workbench",
+        "idea-ux-governance-checks"
+      ]
+    },
+    {
+      "id": "phase-1",
+      "name": "Build The Authoring Workspace",
+      "horizon": "near-term author workflow",
+      "outcome": "Research plans, source captures, article drafts, artifact diffs, and reviewer results become durable files rather than disappearing in chat history.",
+      "ideaIds": [
+        "idea-research-workspace-builder",
+        "idea-artifact-widget-catalog",
+        "idea-trust-gated-publishing-pipeline"
+      ]
+    },
+    {
+      "id": "phase-2",
+      "name": "Expand Intake And Retrieval",
+      "horizon": "after first public launch",
+      "outcome": "The garden can scout new sources, import papers and URLs, suggest graph relations, and expose tool-safe retrieval paths for agents.",
+      "ideaIds": [
+        "idea-always-on-source-ledger-scout",
+        "idea-provenance-graph-v2",
+        "idea-source-ledger-importer",
+        "idea-corrective-research-assistant",
+        "idea-garden-mcp-router"
+      ]
+    },
+    {
+      "id": "phase-3",
+      "name": "Optimize Agent Consumption",
+      "horizon": "later workflow layer",
+      "outcome": "Agents can consume compact packets, inspect evidence interactively, and regression-test briefs without turning the public site into a runtime app.",
+      "ideaIds": [
+        "idea-compact-agent-feeds",
+        "idea-claim-evidence-canvas",
+        "idea-agent-brief-evaluation-harness",
+        "idea-agent-native-packet-inspector"
+      ]
+    }
+  ],
+  "ideas": [
+    {
+      "id": "idea-claim-evidence-packet-v2",
+      "title": "Claim Evidence Packet v2",
+      "priority": "P0",
+      "category": "evidence",
+      "sourcePaths": [
+        "rag_tutorials/knowledge_graph_rag_citations/README.md",
+        "rag_tutorials/multimodal_agentic_rag/README.md",
+        "advanced_ai_agents/single_agent_apps/earnings_call_analyst_agent/schemas.py"
+      ],
+      "pattern": "Retrieval results and citation UI are backed by typed objects that carry source, evidence, confidence, and provenance.",
+      "gardenMapping": "Extend claim records beyond source IDs into evidence snippets, source locations, support type, counterevidence, extraction metadata, and reviewer status.",
+      "firstImplementation": "Add an evidencePackets array to artifact.json and render one compact evidence card per claim in the article audit section.",
+      "risks": [
+        "Citation IDs can become theater if snippets do not actually support the claim.",
+        "Evidence snippets must be short and attributable without copying long copyrighted passages."
+      ]
+    },
+    {
+      "id": "idea-evidence-ci-diagnostics",
+      "title": "Evidence CI And RAG Diagnostics",
+      "priority": "P0",
+      "category": "governance",
+      "sourcePaths": [
+        "rag_tutorials/rag_failure_diagnostics_clinic/README.md",
+        "rag_tutorials/corrective_rag/README.md",
+        "rag_tutorials/contextualai_rag_agent/README.md"
+      ],
+      "pattern": "A small failure taxonomy, relevance grading, and answer evaluation can catch structural problems earlier than prompt tweaks.",
+      "gardenMapping": "Fail CI for orphan claims, empty evidence, missing counterevidence, stale source dates, low source diversity, and dangling graph edges.",
+      "firstImplementation": "Add deterministic validators first, then allow optional LLM audit reports as non-blocking artifacts until the taxonomy is stable.",
+      "risks": [
+        "LLM audits can be noisy and should not replace deterministic schema checks.",
+        "External link checks can be flaky and should use retries or scheduled mode."
+      ]
+    },
+    {
+      "id": "idea-claim-verification-workbench",
+      "title": "Claim Verification Workbench",
+      "priority": "P0",
+      "category": "evidence",
+      "sourcePaths": [
+        "awesome_agent_skills/fact-checker/SKILL.md",
+        "awesome_agent_skills/deep-research/SKILL.md",
+        "awesome_agent_skills/academic-researcher/SKILL.md",
+        "advanced_ai_agents/single_agent_apps/ai_deep_research_agent/README.md"
+      ],
+      "pattern": "Research agents extract claims, define required evidence, rate source quality, and synthesize findings with citations.",
+      "gardenMapping": "Create an author-side workflow that walks each claim through required evidence, source quality, gap notes, counterclaims, and last-checked date.",
+      "firstImplementation": "Add verification fields to claim objects and a report command that lists claims by verified, needs evidence, contested, or stale.",
+      "risks": [
+        "Source quality ratings need human review for contested or interpretive claims.",
+        "The workbench should help authors decide; it should not silently approve claims."
+      ]
+    },
+    {
+      "id": "idea-ux-governance-checks",
+      "title": "UX Governance Checks",
+      "priority": "P0",
+      "category": "interface",
+      "sourcePaths": [
+        "awesome_agent_skills/ux-designer/SKILL.md"
+      ],
+      "pattern": "UX review can be encoded as reusable criteria for accessibility, hierarchy, interaction, and information architecture.",
+      "gardenMapping": "Make reading quality part of the publishing gate: mobile flow, keyboard access, source ledger scanability, claim marker clarity, and dark mode.",
+      "firstImplementation": "Add a docs checklist and optional Playwright assertions for no horizontal overflow, collapsed mobile audit rail, visible focus, and route availability.",
+      "risks": [
+        "Visual polish can drift into dashboard creep if every data point becomes a widget.",
+        "Automated checks cannot judge whether the article actually reads well."
+      ]
+    },
+    {
+      "id": "idea-research-workspace-builder",
+      "title": "Research Workspace Builder",
+      "priority": "P0",
+      "category": "authoring",
+      "sourcePaths": [
+        "generative_ui_agents/ai-deep-research-agent/README.md",
+        "advanced_ai_agents/single_agent_apps/research_agent_gemini_interaction_api/README.md"
+      ],
+      "pattern": "A sidecar workspace captures plans, todos, files, research runs, and synthesis outputs as the agent works.",
+      "gardenMapping": "Create a local authoring mode where research plans, source captures, claim packets, and final article artifacts are durable files in the repo.",
+      "firstImplementation": "Start with CLI scaffolding for an article workspace before adding any live UI.",
+      "risks": [
+        "A runtime authoring app is larger than the static site and should remain local until the workflow proves itself.",
+        "Chat history should not become the source of truth."
+      ]
+    },
+    {
+      "id": "idea-artifact-widget-catalog",
+      "title": "Artifact Widget Catalog",
+      "priority": "P0",
+      "category": "interface",
+      "sourcePaths": [
+        "generative_ui_agents/generative-ui-starter-project/README.md",
+        "generative_ui_agents/ai-shadcn-component-generator/README.md"
+      ],
+      "pattern": "Generative UI works best when agents choose from bounded, typed components rather than arbitrary executable UI.",
+      "gardenMapping": "Define approved static components for ClaimCard, SourceLedger, MaturityBadge, StemGraph, AgentPacketPreview, and RoadmapItem.",
+      "firstImplementation": "Document component contracts and render the roadmap page from a schema-validated JSON artifact.",
+      "risks": [
+        "Unbounded generated UI is a security and maintenance risk for a public static site.",
+        "Widget schemas must stay aligned with article and roadmap schemas."
+      ]
+    },
+    {
+      "id": "idea-trust-gated-publishing-pipeline",
+      "title": "Trust-Gated Publishing Pipeline",
+      "priority": "P0",
+      "category": "governance",
+      "sourcePaths": [
+        "advanced_ai_agents/multi_agent_apps/trust_gated_agent_team/README.md",
+        "advanced_ai_agents/multi_agent_apps/multi_agent_trust_layer/README.md"
+      ],
+      "pattern": "Agent participation is gated by trust checks, scoped roles, and hash-chained audit records.",
+      "gardenMapping": "Record agent roles, inputs, output hashes, review status, policy scope, and human approval before an article can move to published.",
+      "firstImplementation": "Add optional provenance.json per article and make published status require a humanReview block plus generated artifact diff.",
+      "risks": [
+        "Hash chains alone are not a complete security model without signing or trusted timestamps.",
+        "Sensitive prompts and private notes should be hashed or summarized, not published."
+      ]
+    },
+    {
+      "id": "idea-always-on-source-ledger-scout",
+      "title": "Always-On Source Ledger Scout",
+      "priority": "P1",
+      "category": "authoring",
+      "sourcePaths": [
+        "always_on_agents/always_on_hn_briefing_agent/README.md",
+        "advanced_ai_agents/multi_agent_apps/devpulse_ai/README.md"
+      ],
+      "pattern": "Scheduled agents collect, rank, normalize, and deliver high-signal briefs with dry-run delivery by default.",
+      "gardenMapping": "Monitor papers, product docs, protocols, GitHub repos, and newsletters for new evidence, counterevidence, and article seeds.",
+      "firstImplementation": "Create a dry-run scout that writes candidate source-ledger entries and article issue drafts without sending or publishing anything.",
+      "risks": [
+        "Always-on collection can create noise without clear scoring and deduplication.",
+        "Live browsing sources must be normalized before they support a public claim."
+      ]
+    },
+    {
+      "id": "idea-provenance-graph-v2",
+      "title": "Provenance Graph v2",
+      "priority": "P1",
+      "category": "retrieval",
+      "sourcePaths": [
+        "rag_tutorials/knowledge_graph_rag_citations/README.md"
+      ],
+      "pattern": "Knowledge graph RAG uses entity and relation extraction with multi-hop reasoning traces and source attribution.",
+      "gardenMapping": "Expand the graph from topic/article/claim/source into concept, entity, method, supports, contests, depends-on, mentions, and derived-from edges.",
+      "firstImplementation": "Add reviewed edge metadata and show why each public graph edge exists.",
+      "risks": [
+        "LLM-extracted edges can invent relation labels or merge distinct concepts.",
+        "Graph visuals can create false confidence if provenance is hidden."
+      ]
+    },
+    {
+      "id": "idea-source-ledger-importer",
+      "title": "Source Ledger Importer",
+      "priority": "P1",
+      "category": "authoring",
+      "sourcePaths": [
+        "advanced_llm_apps/chat_with_X_tutorials/chat_with_research_papers/README.md",
+        "advanced_llm_apps/llm_apps_with_memory_tutorials/ai_arxiv_agent_memory/README.md",
+        "advanced_llm_apps/chat_with_X_tutorials/chat_with_substack/README.md"
+      ],
+      "pattern": "Paper, newsletter, and URL chat examples show how to ingest external corpora for retrieval and summarization.",
+      "gardenMapping": "Add a source CLI that imports arXiv, DOI, URL, GitHub, and newsletter items into the ledger with normalized metadata and candidate claim links.",
+      "firstImplementation": "Start with URL and arXiv metadata import, then require manual approval before sources can support claims.",
+      "risks": [
+        "Personal memory should stay private and not leak into public artifacts.",
+        "Imported summaries must be treated as draft notes, not evidence by themselves."
+      ]
+    },
+    {
+      "id": "idea-corrective-research-assistant",
+      "title": "Corrective Research Assistant",
+      "priority": "P1",
+      "category": "evidence",
+      "sourcePaths": [
+        "rag_tutorials/corrective_rag/README.md",
+        "advanced_ai_agents/multi_agent_apps/ai_domain_deep_research_agent/README.md",
+        "rag_tutorials/ai_blog_search/README.md"
+      ],
+      "pattern": "Agentic RAG can grade relevance, rewrite weak queries, retrieve more context, and identify missing evidence.",
+      "gardenMapping": "Audit drafts for missing sources, weak counterarguments, ungrounded claims, and unclear research questions before publication.",
+      "firstImplementation": "Add a non-blocking draft audit report that groups suggestions by claim ID and severity.",
+      "risks": [
+        "Query rewrite decisions need observability so agents do not silently chase a different question.",
+        "The assistant should produce suggestions, not rewrite the article automatically."
+      ]
+    },
+    {
+      "id": "idea-garden-mcp-router",
+      "title": "Garden MCP Router",
+      "priority": "P1",
+      "category": "retrieval",
+      "sourcePaths": [
+        "mcp_ai_agents/multi_mcp_agent_router/README.md",
+        "mcp_ai_agents/github_mcp_agent/README.md",
+        "mcp_ai_agents/browser_mcp_agent/README.md",
+        "mcp_ai_agents/notion_mcp_agent/README.md"
+      ],
+      "pattern": "A router sends requests to specialist agents with only the MCP tools needed for that task.",
+      "gardenMapping": "Expose safe garden operations as tools: query artifacts, inspect graph slices, validate packets, create scaffolds, update source ledgers, and open PRs.",
+      "firstImplementation": "Define tool contracts and dry-run semantics before adding any write-capable MCP server.",
+      "risks": [
+        "Over-permissioned MCP tools can mutate repos or browse accounts unexpectedly.",
+        "Write operations need explicit dry-run previews and human approval."
+      ]
+    },
+    {
+      "id": "idea-compact-agent-feeds",
+      "title": "Compact Agent Feeds",
+      "priority": "P1",
+      "category": "optimization",
+      "sourcePaths": [
+        "advanced_llm_apps/llm_optimization_tools/toonify_token_optimization/README.md",
+        "advanced_llm_apps/llm_optimization_tools/headroom_context_optimization/README.md"
+      ],
+      "pattern": "Compact serializations and context compression reduce redundant structured data while preserving retrieval hooks.",
+      "gardenMapping": "Generate derived compact feeds for claims, sources, roadmap items, and graph edges beside canonical JSON and JSONL.",
+      "firstImplementation": "Add token estimates to agent feeds and experiment with a compact TSV or TOON-style claims table as a derived artifact.",
+      "risks": [
+        "Canonical artifacts should remain JSON; compact packets must be derived and hash-linked.",
+        "Compression must not remove counterevidence or maturity markers."
+      ]
+    },
+    {
+      "id": "idea-claim-evidence-canvas",
+      "title": "Claim Evidence Canvas",
+      "priority": "P1",
+      "category": "interface",
+      "sourcePaths": [
+        "generative_ui_agents/ai-dashboard-canvas-agent/README.md"
+      ],
+      "pattern": "Agents populate addressable dashboard state, charts, and panels instead of returning only text.",
+      "gardenMapping": "Add an optional evidence view showing claim coverage, source diversity, maturity, counterevidence, and graph health from artifacts.",
+      "firstImplementation": "Start as a static summary on the roadmap or graph page, not a runtime dashboard.",
+      "risks": [
+        "Dashboard creep can distract from focused reading.",
+        "Every metric must trace back to artifact.json or a source-ledger entry."
+      ]
+    },
+    {
+      "id": "idea-agent-brief-evaluation-harness",
+      "title": "Agent Brief Evaluation Harness",
+      "priority": "P2",
+      "category": "optimization",
+      "sourcePaths": [
+        "awesome_agent_skills/self-improving-agent-skills/README.md"
+      ],
+      "pattern": "A multi-agent loop generates scenarios, scores outputs against criteria, diagnoses failures, and keeps only targeted improvements.",
+      "gardenMapping": "Regression-test agent.md and generated packets against expected retrieval queries and citation behavior.",
+      "firstImplementation": "Create a small static eval set before attempting self-improvement.",
+      "risks": [
+        "Optimization loops can overfit narrow evals.",
+        "Human prose quality should not be optimized by an automated loop."
+      ]
+    },
+    {
+      "id": "idea-agent-native-packet-inspector",
+      "title": "Agent-Native Packet Inspector",
+      "priority": "P2",
+      "category": "interface",
+      "sourcePaths": [
+        "generative_ui_agents/mcp-apps-generative-ui-showcase/README.md",
+        "generative_ui_agents/ai-mcp-app-builder/README.md"
+      ],
+      "pattern": "MCP app examples link tool calls to sandboxed interactive resources and generated apps.",
+      "gardenMapping": "Expose a local or server-side inspector where agents request graph slices, packet summaries, or review reports from garden artifacts.",
+      "firstImplementation": "Keep this out of the public GitHub Pages site until the static artifact contract stabilizes.",
+      "risks": [
+        "Runtime agent apps add hosting, security, and authentication concerns.",
+        "Sandboxed tools should never write to main without PR review."
+      ]
+    }
+  ],
+  "principles": [
+    "Keep the public site static, readable, and inspectable; move runtime agent features into local authoring or separate services.",
+    "Use deterministic validation for schemas, paths, hashes, generated files, and graph integrity before adding LLM judgment.",
+    "Treat source-ledger entries as the only path from external material to public claims.",
+    "Make every agent-facing compression or UI surface a derived artifact with a canonical JSON source.",
+    "Prefer dry-run previews and PR-based workflows for any write-capable automation.",
+    "Keep personal research memory private unless a specific note is intentionally promoted into a public source or article artifact."
+  ],
+  "crossAgentReview": {
+    "status": "reviewed-with-agent-input",
+    "reviewedAt": "2026-06-17",
+    "reviewers": [
+      "Codex main agent",
+      "Ohm RAG and memory reviewer",
+      "Bacon agent workflow reviewer",
+      "Gauss generative UI reviewer"
+    ],
+    "notes": "Three independent research passes reviewed RAG/research memory examples, agent/MCP workflows, and generative UI/token-efficiency examples. The roadmap prioritizes durable evidence and governance before runtime agent interfaces."
+  },
+  "agentInstructions": [
+    "Use idea IDs as retrieval units.",
+    "Treat P0 as next foundation work, P1 as near-term roadmap, and P2 as later experiment.",
+    "Prefer deterministic validators over agent judgment when a check can be expressed structurally.",
+    "Do not infer that every source example should be adopted as a dependency; most are pattern references."
+  ],
+  "generatedAt": "2026-06-17T00:00:00.000Z",
+  "pageUrl": "https://v-i-s-h-a-l.github.io/knowledge/roadmap/",
+  "agentJsonPath": "/agents/roadmap/awesome-llm-apps-roadmap.json",
+  "sourceRepoPath": "content/roadmap/awesome-llm-apps-roadmap.json",
+  "sourceGitHubUrl": "https://github.com/v-i-s-h-a-l/knowledge/blob/main/content/roadmap/awesome-llm-apps-roadmap.json"
+}

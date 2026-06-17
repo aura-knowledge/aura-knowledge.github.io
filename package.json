@@ -1,0 +1,23 @@
+{
+  "name": "@v-i-s-h-a-l/knowledge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run generate && astro build",
+    "preview": "astro preview",
+    "generate": "node scripts/generate-agent-index.mjs",
+    "validate": "node scripts/validate-content.mjs",
+    "check": "npm run generate && npm run validate && astro build"
+  },
+  "overrides": {
+    "esbuild": "0.28.1"
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "astro": "^6.4.7",
+    "js-yaml": "^4.2.0",
+    "typescript": "^6.0.3"
+  }
+}

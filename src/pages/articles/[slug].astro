@@ -1,0 +1,119 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import FocusRail from "../../components/FocusRail.astro";
+import { getArticles } from "../../lib/content";
+
+export function getStaticPaths() {
+  return getArticles().map((article) => ({
+    params: { slug: article.slug },
+    props: { article }
+  }));
+}
+
+const { article } = Astro.props;
+const Content = article.Content;
+const base = import.meta.env.BASE_URL;
+const sourceById = new Map(article.artifact.sources.map((source) => [source.id, source]));
+const canonicalUrl = new URL(
+  `${base}${article.canonicalPath.replace(/^\/+/, "")}`,
+  Astro.site ?? "https://v-i-s-h-a-l.github.io"
+).toString();
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: article.title,
+  description: article.summary,
+  datePublished: article.date,
+  dateModified: article.updated,
+  author: {
+    "@type": "Person",
+    name: "Vishal Singh"
+  },
+  mainEntityOfPage: canonicalUrl
+};
+---
+
+<BaseLayout title={article.title} description={article.summary} bodyClass="article-page">
+  <div class="page-shell article-shell">
+    <header class="article-hero" aria-labelledby="article-title">
+      <p class="eyebrow">{article.topic.replaceAll("-", " ")}</p>
+      <h1 id="article-title">{article.title}</h1>
+      <p class="lede">{article.dek}</p>
+      <div class="article-meta" aria-label="Article metadata">
+        <span>{article.date}</span>
+        <span>{article.readingTime}</span>
+        <span>{article.maturity}</span>
+      </div>
+      <div class="button-row">
+        <a class="button primary" href={`${base}agents/articles/${article.slug}.json`}>
+          Agent JSON
+        </a>
+        <a class="button" href={`${base}agents/articles/${article.slug}.md`}>
+          Agent brief
+        </a>
+      </div>
+    </header>
+
+    <div class="article-layout">
+      <FocusRail claims={article.artifact.claims} />
+
+      <article class="article-body">
+        <Content />
+        <section class="claim-audit" aria-labelledby="claim-audit-title">
+          <p class="eyebrow">Audit layer</p>
+          <h2 id="claim-audit-title">Claim packets</h2>
+          <p>
+            Each card is generated from the same artifact that agents consume. The essay stays
+            readable; the claim packet keeps the trust layer inspectable.
+          </p>
+          <div class="claim-audit-grid">
+            {article.artifact.claims.map((claim) => (
+              <article class="claim-audit-card" id={`${claim.id}-packet`}>
+                <header>
+                  <span>{claim.id.replace("claim-", "C")}</span>
+                  <strong>{claim.confidence}</strong>
+                </header>
+                <h3>{claim.claim}</h3>
+                <dl>
+                  <div>
+                    <dt>Evidence</dt>
+                    <dd>
+                      {claim.evidence.slice(0, 2).map((sourceId) => {
+                        const source = sourceById.get(sourceId);
+                        return source ? (
+                          <a href={source.url}>{source.title}</a>
+                        ) : (
+                          <span>{sourceId}</span>
+                        );
+                      })}
+                    </dd>
+                  </div>
+                  <div>
+                    <dt>Counterpoint</dt>
+                    <dd>{claim.counterevidence[0] ?? "No counterpoint recorded yet."}</dd>
+                  </div>
+                </dl>
+                <a class="packet-link" href={`${base}agents/articles/${article.slug}.json`}>
+                  Open packet
+                </a>
+              </article>
+            ))}
+          </div>
+        </section>
+        <section class="source-ledger" aria-labelledby="sources-title">
+          <h2 id="sources-title">Source Ledger</h2>
+          <ul>
+            {article.artifact.sources.map((source) => (
+              <li>
+                <a href={source.url}>{source.title}</a>
+                <span>{source.type}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      </article>
+    </div>
+  </div>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <script src={`${base}scripts/focus.js`} defer></script>
+</BaseLayout>

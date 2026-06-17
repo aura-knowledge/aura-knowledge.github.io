@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Knowledge Garden">
+  <rect width="64" height="64" rx="14" fill="#0d1117"/>
+  <path d="M18 44V18h13c8 0 15 6 15 14s-7 12-15 12H18zm7-6h7c4 0 7-2 7-6 0-5-3-8-8-8h-6v14z" fill="#26c6da"/>
+  <path d="M19 50h27" stroke="#62c370" stroke-width="4" stroke-linecap="round"/>
+</svg>

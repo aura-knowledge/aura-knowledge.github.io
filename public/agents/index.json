@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-17T00:00:00.000Z",
+  "site": "https://v-i-s-h-a-l.github.io",
+  "base": "/knowledge",
+  "articles": [
+    {
+      "id": "article:agent-auditable-research",
+      "slug": "agent-auditable-research",
+      "title": "The Future of Publishing Is Agent-Auditable Research",
+      "summary": "A first-principles argument for publishing essays as human-readable narratives backed by portable, agent-auditable research bundles.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-native-publishing",
+        "research-workflows",
+        "agent-provenance",
+        "digital-gardens"
+      ],
+      "tags": [
+        "ai-agents",
+        "publishing",
+        "research-workflows",
+        "digital-gardens"
+      ],
+      "canonicalPath": "/articles/agent-auditable-research/",
+      "articleUrl": "https://v-i-s-h-a-l.github.io/knowledge/articles/agent-auditable-research/",
+      "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+      "agentMarkdownPath": "/agents/articles/agent-auditable-research.md",
+      "updatedAt": "2026-06-17",
+      "claimCount": 6,
+      "sourceCount": 9,
+      "contentHash": "9cc411aa12445fd609490b32242da73e065ef4052557270e21a9f0ef8b724aa4"
+    }
+  ],
+  "roadmaps": [
+    {
+      "id": "roadmap:awesome-llm-apps-roadmap",
+      "slug": "awesome-llm-apps-roadmap",
+      "title": "AI-Native Knowledge Garden Roadmap",
+      "summary": "A product roadmap for turning the knowledge garden into an agent-auditable publishing system, informed by runnable examples in Shubhamsaboo/awesome-llm-apps.",
+      "status": "published",
+      "updatedAt": "2026-06-17",
+      "priorityCounts": {
+        "P0": 7,
+        "P1": 7,
+        "P2": 2
+      },
+      "pageUrl": "https://v-i-s-h-a-l.github.io/knowledge/roadmap/",
+      "agentJsonPath": "/agents/roadmap/awesome-llm-apps-roadmap.json",
+      "sourceRepoPath": "content/roadmap/awesome-llm-apps-roadmap.json"
+    }
+  ]
+}
