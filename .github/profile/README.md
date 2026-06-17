@@ -1,8 +1,8 @@
 # Aura Knowledge
 
-Aura Knowledge is a public knowledge garden for human-readable essays, inspectable research artifacts, and experiments in agent-auditable publishing.
+Aura Knowledge is a public place for essays and research notes that should be easy for people to read, trace, and review.
 
-The public site is the front door for people. The repositories stay public so the claims, sources, review workflow, and generated machine-readable packets can be inspected.
+The public site is the front door for people. The repositories stay public so the claims, sources, review workflow, and generated machine-readable packets behind the work can be inspected.
 
 ## Start here
 
