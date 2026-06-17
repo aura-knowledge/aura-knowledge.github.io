@@ -9,13 +9,13 @@ interface Props {
 }
 
 const {
-  title = "Knowledge Garden",
+  title = "Aura Knowledge",
   description = "A focused knowledge garden for human essays and agent-readable research artifacts.",
   bodyClass = ""
 } = Astro.props;
 
 const base = import.meta.env.BASE_URL;
-const pageTitle = title === "Knowledge Garden" ? title : `${title} | Knowledge Garden`;
+const pageTitle = title === "Aura Knowledge" ? title : `${title} | Aura Knowledge`;
 ---
 
 <!doctype html>
@@ -42,8 +42,8 @@ const pageTitle = title === "Knowledge Garden" ? title : `${title} | Knowledge G
     <header class="site-header">
       <nav class="site-nav" aria-label="Primary navigation">
         <a class="brand" href={base}>
-          <span class="brand-mark" aria-hidden="true">K</span>
-          <span>Knowledge Garden</span>
+          <span class="brand-mark" aria-hidden="true">A</span>
+          <span>Aura Knowledge</span>
         </a>
         <div class="nav-links">
           <a href={`${base}articles/agent-auditable-research/`}>First Article</a>

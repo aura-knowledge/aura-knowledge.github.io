@@ -1,24 +1,24 @@
-# Knowledge Garden
+# Aura Knowledge
 
 > Focused essays for humans, backed by compact agent-auditable research packets.
 
 ## Primary Pages
-- [Home](https://v-i-s-h-a-l.github.io/knowledge/)
-- [Roadmap](https://v-i-s-h-a-l.github.io/knowledge/roadmap/)
-- [Agent Entry](https://v-i-s-h-a-l.github.io/knowledge/agents/)
-- [Knowledge Graph](https://v-i-s-h-a-l.github.io/knowledge/graph/)
+- [Home](https://aura-knowledge.github.io/)
+- [Roadmap](https://aura-knowledge.github.io/roadmap/)
+- [Agent Entry](https://aura-knowledge.github.io/agents/)
+- [Knowledge Graph](https://aura-knowledge.github.io/graph/)
 
 ## Articles
-- [The Future of Publishing Is Agent-Auditable Research](https://v-i-s-h-a-l.github.io/knowledge/articles/agent-auditable-research/)
+- [The Future of Publishing Is Agent-Auditable Research](https://aura-knowledge.github.io/articles/agent-auditable-research/)
 
 ## Agent Artifacts
-- [Agent Index JSON](https://v-i-s-h-a-l.github.io/knowledge/agents/index.json)
-- [Agent Index JSONL](https://v-i-s-h-a-l.github.io/knowledge/agents/index.jsonl)
-- [Graph Nodes](https://v-i-s-h-a-l.github.io/knowledge/graph/nodes.json)
-- [Graph Edges](https://v-i-s-h-a-l.github.io/knowledge/graph/edges.json)
-- [awesome-llm-apps-roadmap roadmap JSON](https://v-i-s-h-a-l.github.io/knowledge/agents/roadmap/awesome-llm-apps-roadmap.json)
-- [agent-auditable-research JSON](https://v-i-s-h-a-l.github.io/knowledge/agents/articles/agent-auditable-research.json)
-- [agent-auditable-research Markdown](https://v-i-s-h-a-l.github.io/knowledge/agents/articles/agent-auditable-research.md)
+- [Agent Index JSON](https://aura-knowledge.github.io/agents/index.json)
+- [Agent Index JSONL](https://aura-knowledge.github.io/agents/index.jsonl)
+- [Graph Nodes](https://aura-knowledge.github.io/graph/nodes.json)
+- [Graph Edges](https://aura-knowledge.github.io/graph/edges.json)
+- [awesome-llm-apps-roadmap roadmap JSON](https://aura-knowledge.github.io/agents/roadmap/awesome-llm-apps-roadmap.json)
+- [agent-auditable-research JSON](https://aura-knowledge.github.io/agents/articles/agent-auditable-research.json)
+- [agent-auditable-research Markdown](https://aura-knowledge.github.io/agents/articles/agent-auditable-research.md)
 
 ## Use
 Use article packets as the retrieval unit. Treat maturity values as uncertainty markers. Prefer claim IDs and source IDs over inferred citations.

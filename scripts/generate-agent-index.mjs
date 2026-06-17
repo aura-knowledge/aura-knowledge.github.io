@@ -9,8 +9,9 @@ import {
   writeJson
 } from "./lib/content-utils.mjs";
 
-const site = "https://v-i-s-h-a-l.github.io";
-const base = "/knowledge";
+const site = "https://aura-knowledge.github.io";
+const base = "";
+const repoUrl = "https://github.com/aura-knowledge/aura-knowledge.github.io";
 let generatedAt = "";
 
 function publicPath(...parts) {
@@ -18,7 +19,7 @@ function publicPath(...parts) {
 }
 
 function siteUrl(localPath) {
-  return new URL(`${base}${localPath}`, site).toString();
+  return new URL(localPath, site).toString();
 }
 
 function articlePacket(article) {
@@ -30,7 +31,7 @@ function articlePacket(article) {
     agentJsonPath: `/agents/articles/${article.slug}.json`,
     agentMarkdownPath: `/agents/articles/${article.slug}.md`,
     sourceRepoPath: article.sourcePath,
-    sourceGitHubUrl: `https://github.com/v-i-s-h-a-l/knowledge/blob/main/${article.sourcePath}`,
+    sourceGitHubUrl: `${repoUrl}/blob/main/${article.sourcePath}`,
     sectionOutline: Array.from(article.articleBody.matchAll(/<h2 id="([^"]+)">([^<]+)<\/h2>/g)).map(
       (match) => ({
         id: match[1],
@@ -165,7 +166,7 @@ for (const roadmap of roadmaps) {
     pageUrl: siteUrl(`/roadmap/`),
     agentJsonPath: `/agents/roadmap/${roadmap.slug}.json`,
     sourceRepoPath: roadmap.sourcePath,
-    sourceGitHubUrl: `https://github.com/v-i-s-h-a-l/knowledge/blob/main/${roadmap.sourcePath}`
+    sourceGitHubUrl: `${repoUrl}/blob/main/${roadmap.sourcePath}`
   };
   delete packet.filePath;
   delete packet.sourcePath;
@@ -203,7 +204,7 @@ await writeJson(publicPath("graph", "nodes.json"), graph.nodes);
 await writeJson(publicPath("graph", "edges.json"), graph.edges);
 
 const llms = [
-  "# Knowledge Garden",
+  "# Aura Knowledge",
   "",
   "> Focused essays for humans, backed by compact agent-auditable research packets.",
   "",

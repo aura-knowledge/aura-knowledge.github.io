@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "roadmap:awesome-llm-apps-roadmap",
   "slug": "awesome-llm-apps-roadmap",
-  "title": "AI-Native Knowledge Garden Roadmap",
-  "summary": "A product roadmap for turning the knowledge garden into an agent-auditable publishing system, informed by runnable examples in Shubhamsaboo/awesome-llm-apps.",
+  "title": "Aura Knowledge Roadmap",
+  "summary": "A product roadmap for turning Aura Knowledge into an agent-auditable publishing system, informed by runnable examples in Shubhamsaboo/awesome-llm-apps.",
   "status": "published",
   "updatedAt": "2026-06-17",
   "sourceRepo": {
@@ -373,8 +373,8 @@
     "Do not infer that every source example should be adopted as a dependency; most are pattern references."
   ],
   "generatedAt": "2026-06-17T00:00:00.000Z",
-  "pageUrl": "https://v-i-s-h-a-l.github.io/knowledge/roadmap/",
+  "pageUrl": "https://aura-knowledge.github.io/roadmap/",
   "agentJsonPath": "/agents/roadmap/awesome-llm-apps-roadmap.json",
   "sourceRepoPath": "content/roadmap/awesome-llm-apps-roadmap.json",
-  "sourceGitHubUrl": "https://github.com/v-i-s-h-a-l/knowledge/blob/main/content/roadmap/awesome-llm-apps-roadmap.json"
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/roadmap/awesome-llm-apps-roadmap.json"
 }

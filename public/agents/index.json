@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-06-17T00:00:00.000Z",
-  "site": "https://v-i-s-h-a-l.github.io",
-  "base": "/knowledge",
+  "site": "https://aura-knowledge.github.io",
+  "base": "",
   "articles": [
     {
       "id": "article:agent-auditable-research",
@@ -24,7 +24,7 @@
         "digital-gardens"
       ],
       "canonicalPath": "/articles/agent-auditable-research/",
-      "articleUrl": "https://v-i-s-h-a-l.github.io/knowledge/articles/agent-auditable-research/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
       "agentJsonPath": "/agents/articles/agent-auditable-research.json",
       "agentMarkdownPath": "/agents/articles/agent-auditable-research.md",
       "updatedAt": "2026-06-17",
@@ -37,8 +37,8 @@
     {
       "id": "roadmap:awesome-llm-apps-roadmap",
       "slug": "awesome-llm-apps-roadmap",
-      "title": "AI-Native Knowledge Garden Roadmap",
-      "summary": "A product roadmap for turning the knowledge garden into an agent-auditable publishing system, informed by runnable examples in Shubhamsaboo/awesome-llm-apps.",
+      "title": "Aura Knowledge Roadmap",
+      "summary": "A product roadmap for turning Aura Knowledge into an agent-auditable publishing system, informed by runnable examples in Shubhamsaboo/awesome-llm-apps.",
       "status": "published",
       "updatedAt": "2026-06-17",
       "priorityCounts": {
@@ -46,7 +46,7 @@
         "P1": 7,
         "P2": 2
       },
-      "pageUrl": "https://v-i-s-h-a-l.github.io/knowledge/roadmap/",
+      "pageUrl": "https://aura-knowledge.github.io/roadmap/",
       "agentJsonPath": "/agents/roadmap/awesome-llm-apps-roadmap.json",
       "sourceRepoPath": "content/roadmap/awesome-llm-apps-roadmap.json"
     }

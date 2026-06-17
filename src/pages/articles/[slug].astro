@@ -16,7 +16,7 @@ const base = import.meta.env.BASE_URL;
 const sourceById = new Map(article.artifact.sources.map((source) => [source.id, source]));
 const canonicalUrl = new URL(
   `${base}${article.canonicalPath.replace(/^\/+/, "")}`,
-  Astro.site ?? "https://v-i-s-h-a-l.github.io"
+  Astro.site ?? "https://aura-knowledge.github.io"
 ).toString();
 const jsonLd = {
   "@context": "https://schema.org",
