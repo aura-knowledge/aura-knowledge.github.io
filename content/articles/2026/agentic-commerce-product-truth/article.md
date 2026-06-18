@@ -6,7 +6,7 @@ title: Agentic Commerce and the Product Truth Layer
 dek: As AI agents begin shopping for people, commerce may shift from capturing human attention to earning delegated, evidence-aware product assurance.
 date: 2026-06-18
 updated: 2026-06-18
-status: review
+status: published
 maturity: seed
 topic: agentic-commerce
 tags:
@@ -63,7 +63,7 @@ Human states preference -> agent explores category -> agent compares evidence ->
 
 <span id="claim-003" class="claim-marker" data-claim="claim-003">Claim C3</span> One plausible next commerce shift is from the attention economy to delegated-intent commerce: agents will increasingly translate user preferences into product discovery and purchase decisions.
 
-This shift has already started. Adobe reported that traffic from AI sources to U.S. retail sites grew 393% year over year in the first three months of 2026, and that AI traffic converted 42% better than non-AI traffic in March 2026. A 2025 Adobe report also found that consumers used generative AI for research, recommendations, deals, gift ideas, unique products, and shopping lists. Google is publishing Universal Commerce Protocol for agentic actions and AP2 for agent-authorized payments. OpenAI is building shopping discovery and Instant Checkout around merchant participation. Amazon's Rufus was trained on product catalog, reviews, community Q&A, and web data to answer shopping questions.
+Early signals point in this direction. Adobe reported that traffic from AI sources to U.S. retail sites grew 393% year over year in the first three months of 2026, and that AI traffic converted 42% better than non-AI traffic in March 2026. A 2025 Adobe report also found that consumers used generative AI for research, recommendations, deals, gift ideas, unique products, and shopping lists. Google is publishing Universal Commerce Protocol for agentic actions and AP2 for agent-authorized payments. OpenAI is building shopping discovery and Instant Checkout around merchant participation. Amazon's Rufus was trained on product catalog, reviews, community Q&A, and web data to answer shopping questions.
 
 The first wave is "AI helps humans shop." The deeper wave is "products become legible to buyer agents."
 

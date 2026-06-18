@@ -191,7 +191,7 @@
     "notes": "Initial seed article shaped through cross-agent review. Human author retains final judgment before public launch."
   },
   "contentHash": "9cc411aa12445fd609490b32242da73e065ef4052557270e21a9f0ef8b724aa4",
-  "generatedAt": "2026-06-17T00:00:00.000Z",
+  "generatedAt": "2026-06-18T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
   "agentJsonPath": "/agents/articles/agent-auditable-research.json",
   "agentMarkdownPath": "/agents/articles/agent-auditable-research.md",

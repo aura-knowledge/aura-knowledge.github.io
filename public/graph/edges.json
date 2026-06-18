@@ -1,33 +1,113 @@
 [
   {
     "from": "article:agent-auditable-research",
-    "to": "claim-001",
+    "to": "article:agent-auditable-research:claim-001",
     "type": "argues"
   },
   {
     "from": "article:agent-auditable-research",
-    "to": "claim-002",
+    "to": "article:agent-auditable-research:claim-002",
     "type": "argues"
   },
   {
     "from": "article:agent-auditable-research",
-    "to": "claim-003",
+    "to": "article:agent-auditable-research:claim-003",
     "type": "argues"
   },
   {
     "from": "article:agent-auditable-research",
-    "to": "claim-004",
+    "to": "article:agent-auditable-research:claim-004",
     "type": "argues"
   },
   {
     "from": "article:agent-auditable-research",
-    "to": "claim-005",
+    "to": "article:agent-auditable-research:claim-005",
     "type": "argues"
   },
   {
     "from": "article:agent-auditable-research",
-    "to": "claim-006",
+    "to": "article:agent-auditable-research:claim-006",
     "type": "argues"
+  },
+  {
+    "from": "article:agent-auditable-research:claim-001",
+    "to": "source-agentic-publications-2025",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agent-auditable-research:claim-001",
+    "to": "source-provenance-2026",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agent-auditable-research:claim-002",
+    "to": "source-agentic-publications-2025",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agent-auditable-research:claim-002",
+    "to": "source-digital-gardens-appleton",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agent-auditable-research:claim-002",
+    "to": "source-llms-txt",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agent-auditable-research:claim-003",
+    "to": "source-agentic-publications-2025",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agent-auditable-research:claim-003",
+    "to": "source-nng-cognitive-load",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agent-auditable-research:claim-004",
+    "to": "source-agentic-publications-2025",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agent-auditable-research:claim-004",
+    "to": "source-beehiiv-mcp-v2",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agent-auditable-research:claim-004",
+    "to": "source-cloudflare-emdash",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agent-auditable-research:claim-004",
+    "to": "source-wordpress-mcp-adapter",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agent-auditable-research:claim-005",
+    "to": "source-agentic-publications-2025",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agent-auditable-research:claim-005",
+    "to": "source-provenance-2026",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agent-auditable-research:claim-006",
+    "to": "source-digital-gardens-appleton",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agent-auditable-research:claim-006",
+    "to": "source-digital-gardens-qu",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agent-auditable-research:claim-006",
+    "to": "source-nng-cognitive-load",
+    "type": "supported-by"
   },
   {
     "from": "article:agent-auditable-research",
@@ -50,83 +130,438 @@
     "type": "covers"
   },
   {
-    "from": "claim-001",
-    "to": "source-agentic-publications-2025",
+    "from": "article:agentic-commerce-product-truth",
+    "to": "article:agentic-commerce-product-truth:claim-001",
+    "type": "argues"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "article:agentic-commerce-product-truth:claim-002",
+    "type": "argues"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "article:agentic-commerce-product-truth:claim-003",
+    "type": "argues"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "article:agentic-commerce-product-truth:claim-004",
+    "type": "argues"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "article:agentic-commerce-product-truth:claim-005",
+    "type": "argues"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "article:agentic-commerce-product-truth:claim-006",
+    "type": "argues"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "article:agentic-commerce-product-truth:claim-007",
+    "type": "argues"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "article:agentic-commerce-product-truth:claim-008",
+    "type": "argues"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "article:agentic-commerce-product-truth:claim-009",
+    "type": "argues"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "article:agentic-commerce-product-truth:claim-010",
+    "type": "argues"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "article:agentic-commerce-product-truth:claim-011",
+    "type": "argues"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "article:agentic-commerce-product-truth:claim-012",
+    "type": "argues"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "article:agentic-commerce-product-truth:claim-013",
+    "type": "argues"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "article:agentic-commerce-product-truth:claim-014",
+    "type": "argues"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "article:agentic-commerce-product-truth:claim-015",
+    "type": "argues"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "article:agent-auditable-research",
+    "type": "article"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-001",
+    "to": "source-adobe-ai-traffic-2025",
     "type": "supported-by"
   },
   {
-    "from": "claim-001",
-    "to": "source-provenance-2026",
+    "from": "article:agentic-commerce-product-truth:claim-001",
+    "to": "source-amazon-rufus",
     "type": "supported-by"
   },
   {
-    "from": "claim-002",
-    "to": "source-agentic-publications-2025",
+    "from": "article:agentic-commerce-product-truth:claim-001",
+    "to": "source-openai-merchants",
     "type": "supported-by"
   },
   {
-    "from": "claim-002",
-    "to": "source-digital-gardens-appleton",
+    "from": "article:agentic-commerce-product-truth:claim-001",
+    "to": "source-simon-attention-scarcity",
     "type": "supported-by"
   },
   {
-    "from": "claim-002",
-    "to": "source-llms-txt",
+    "from": "article:agentic-commerce-product-truth:claim-002",
+    "to": "source-choice-overload",
     "type": "supported-by"
   },
   {
-    "from": "claim-003",
-    "to": "source-agentic-publications-2025",
+    "from": "article:agentic-commerce-product-truth:claim-002",
+    "to": "source-status-quo-bias",
     "type": "supported-by"
   },
   {
-    "from": "claim-003",
-    "to": "source-nng-cognitive-load",
+    "from": "article:agentic-commerce-product-truth:claim-003",
+    "to": "source-adobe-ai-traffic-2026",
     "type": "supported-by"
   },
   {
-    "from": "claim-004",
-    "to": "source-agentic-publications-2025",
+    "from": "article:agentic-commerce-product-truth:claim-003",
+    "to": "source-google-ap2",
     "type": "supported-by"
   },
   {
-    "from": "claim-004",
-    "to": "source-beehiiv-mcp-v2",
+    "from": "article:agentic-commerce-product-truth:claim-003",
+    "to": "source-google-ucp",
     "type": "supported-by"
   },
   {
-    "from": "claim-004",
-    "to": "source-cloudflare-emdash",
+    "from": "article:agentic-commerce-product-truth:claim-003",
+    "to": "source-lee-see-automation-trust",
     "type": "supported-by"
   },
   {
-    "from": "claim-004",
-    "to": "source-wordpress-mcp-adapter",
+    "from": "article:agentic-commerce-product-truth:claim-003",
+    "to": "source-openai-chatgpt-shopping",
     "type": "supported-by"
   },
   {
-    "from": "claim-005",
-    "to": "source-agentic-publications-2025",
+    "from": "article:agentic-commerce-product-truth:claim-004",
+    "to": "source-google-product-structured-data",
     "type": "supported-by"
   },
   {
-    "from": "claim-005",
-    "to": "source-provenance-2026",
+    "from": "article:agentic-commerce-product-truth:claim-004",
+    "to": "source-google-ucp",
     "type": "supported-by"
   },
   {
-    "from": "claim-006",
-    "to": "source-digital-gardens-appleton",
+    "from": "article:agentic-commerce-product-truth:claim-004",
+    "to": "source-gs1-digital-link",
     "type": "supported-by"
   },
   {
-    "from": "claim-006",
-    "to": "source-digital-gardens-qu",
+    "from": "article:agentic-commerce-product-truth:claim-004",
+    "to": "source-schema-product",
     "type": "supported-by"
   },
   {
-    "from": "claim-006",
-    "to": "source-nng-cognitive-load",
+    "from": "article:agentic-commerce-product-truth:claim-004",
+    "to": "source-schema-review",
     "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-005",
+    "to": "source-google-ucp",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-005",
+    "to": "source-gs1-digital-link",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-005",
+    "to": "source-schema-product",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-005",
+    "to": "source-schema-review",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-005",
+    "to": "source-w3c-vc-data-model",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-006",
+    "to": "source-amazon-rufus",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-006",
+    "to": "source-ftc-fake-reviews-2024",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-006",
+    "to": "source-google-product-structured-data",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-006",
+    "to": "source-schema-review",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-007",
+    "to": "source-deloitte-cpo-2025",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-007",
+    "to": "source-epa-safer-choice-products",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-007",
+    "to": "source-forrester-b2b-genai-2024",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-007",
+    "to": "source-gartner-b2b-ai-2026",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-008",
+    "to": "source-amazon-rufus",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-008",
+    "to": "source-google-ucp",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-008",
+    "to": "source-lee-see-automation-trust",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-008",
+    "to": "source-openai-merchants",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-008",
+    "to": "source-openai-stripe-acp",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-009",
+    "to": "source-bayesian-truth-serum",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-009",
+    "to": "source-eigentrust",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-009",
+    "to": "source-ftc-fake-reviews-2024",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-009",
+    "to": "source-truth-discovery-survey",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-010",
+    "to": "source-eu-digital-product-passport",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-010",
+    "to": "source-gs1-digital-link",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-010",
+    "to": "source-schema-review",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-010",
+    "to": "source-w3c-vc-data-model",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-011",
+    "to": "source-amazon-brand-protection-2024",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-011",
+    "to": "source-c2pa",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-011",
+    "to": "source-eigentrust",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-011",
+    "to": "source-ftc-fake-reviews-2024",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-011",
+    "to": "source-truth-discovery-survey",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-012",
+    "to": "source-gs1-digital-link",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-012",
+    "to": "source-privacy-pass-architecture",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-012",
+    "to": "source-w3c-bbs",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-012",
+    "to": "source-w3c-vc-data-model",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-013",
+    "to": "source-amazon-rufus",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-013",
+    "to": "source-c2pa",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-013",
+    "to": "source-lee-see-automation-trust",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-013",
+    "to": "source-openai-merchants",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-014",
+    "to": "source-gs1-digital-link",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-014",
+    "to": "source-nist-ai-rmf",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-014",
+    "to": "source-w3c-prov-o",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-014",
+    "to": "source-w3c-vc-data-model",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-015",
+    "to": "source-cpsc-recalls-api",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-015",
+    "to": "source-epa-safer-choice-products",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-015",
+    "to": "source-eu-digital-product-passport",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-015",
+    "to": "source-gs1-digital-link",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-015",
+    "to": "source-nist-ai-rmf",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth:claim-015",
+    "to": "source-openfda-food-enforcement",
+    "type": "supported-by"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "topic:agentic-commerce",
+    "type": "covers"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "topic:consumer-behavior",
+    "type": "covers"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "topic:incumbent-adjacent-ventures",
+    "type": "covers"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "topic:open-protocols",
+    "type": "covers"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "topic:product-truth",
+    "type": "covers"
+  },
+  {
+    "from": "article:agentic-commerce-product-truth",
+    "to": "topic:open-protocols",
+    "type": "topic"
   }
 ]

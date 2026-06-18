@@ -540,5 +540,73 @@
     ],
     "notes": "Reviewed for public sharing, privacy leakage, repository fit, claim/source coherence, and future-agent usefulness. No privacy blocker found; dense evidence claims were annotated before publication."
   },
-  "contentHash": "b15e8a079afa29973272063e9980d5498984c6d27f9f4f8dee3c0f1186ffaee3"
+  "contentHash": "b15e8a079afa29973272063e9980d5498984c6d27f9f4f8dee3c0f1186ffaee3",
+  "generatedAt": "2026-06-18T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+  "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+  "agentMarkdownPath": "/agents/articles/agentic-commerce-product-truth.md",
+  "sourceRepoPath": "content/articles/2026/agentic-commerce-product-truth/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/agentic-commerce-product-truth/article.md",
+  "sectionOutline": [
+    {
+      "id": "brand-loyalty-friction",
+      "title": "Brand loyalty as exploration friction"
+    },
+    {
+      "id": "delegated-intent",
+      "title": "From browsing to delegated intent"
+    },
+    {
+      "id": "the-product-truth-layer",
+      "title": "The product truth layer"
+    },
+    {
+      "id": "product-assurance",
+      "title": "From product truth to product assurance"
+    },
+    {
+      "id": "open-not-owned",
+      "title": "Open, not owned"
+    },
+    {
+      "id": "experience-packets",
+      "title": "From reviews to experience packets"
+    },
+    {
+      "id": "private-review-entitlements",
+      "title": "Private review entitlements"
+    },
+    {
+      "id": "claim-ledgers",
+      "title": "From reviews to claim ledgers"
+    },
+    {
+      "id": "offline-and-small-sellers",
+      "title": "Offline and small sellers"
+    },
+    {
+      "id": "remaining-challenges",
+      "title": "What remains hard"
+    },
+    {
+      "id": "secondary-ecosystem-layers",
+      "title": "Secondary ecosystem layers"
+    },
+    {
+      "id": "human-evidence-surface",
+      "title": "The human evidence surface"
+    },
+    {
+      "id": "mvp-wedges",
+      "title": "MVP wedges: retail narrative, B2B proof"
+    },
+    {
+      "id": "incumbent-adjacent-commerce",
+      "title": "Incumbent-adjacent commerce"
+    },
+    {
+      "id": "evidence-notes",
+      "title": "Evidence notes"
+    }
+  ]
 }

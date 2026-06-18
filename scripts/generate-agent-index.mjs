@@ -93,17 +93,19 @@ function buildGraph(articles) {
     }
 
     for (const claim of artifact.claims) {
+      const claimNodeId = `${artifact.id}:${claim.id}`;
       addNode({
-        id: claim.id,
+        id: claimNodeId,
         type: "claim",
         label: claim.claim,
+        localId: claim.id,
         confidence: claim.confidence,
         status: claim.status
       });
-      addEdge(artifact.id, claim.id, "argues");
+      addEdge(artifact.id, claimNodeId, "argues");
 
       for (const sourceId of claim.evidence) {
-        addEdge(claim.id, sourceId, "supported-by");
+        addEdge(claimNodeId, sourceId, "supported-by");
       }
     }
 
