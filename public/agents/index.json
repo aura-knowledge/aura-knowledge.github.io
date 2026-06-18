@@ -36,7 +36,7 @@
       "id": "article:agentic-commerce-product-truth",
       "slug": "agentic-commerce-product-truth",
       "title": "Agentic Commerce and the Product Truth Layer",
-      "summary": "A seed thesis on how AI shopping agents could weaken passive brand loyalty, increase product exploration, and create demand for privacy-preserving, adversarially tested product assurance infrastructure.",
+      "summary": "A possibility thesis on how AI shopping agents could weaken passive brand loyalty, increase product exploration, and create demand for privacy-preserving, adversarially tested product assurance infrastructure.",
       "status": "published",
       "maturity": "seed",
       "topics": [
@@ -60,7 +60,7 @@
       "updatedAt": "2026-06-18",
       "claimCount": 15,
       "sourceCount": 34,
-      "contentHash": "b15e8a079afa29973272063e9980d5498984c6d27f9f4f8dee3c0f1186ffaee3"
+      "contentHash": "4014d7d5a97200dd5194fd5c82e83c9d74f602ccc90fc5ec9abf2e393643e302"
     }
   ],
   "roadmaps": [

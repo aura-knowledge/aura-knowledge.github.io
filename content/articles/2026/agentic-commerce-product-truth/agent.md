@@ -11,22 +11,22 @@ updated: 2026-06-18
 
 ## Thesis
 
-AI shopping agents may shift commerce from capturing human attention to satisfying delegated buyer intent. The result could weaken passive brand loyalty, increase product exploration, and create demand for open, privacy-preserving, adversarially tested product assurance infrastructure that agents can inspect.
+AI shopping agents may shift commerce from capturing human attention to satisfying delegated buyer intent. The article treats this as a possibility thesis, not a verified market conclusion: if shopping becomes more agent-mediated, passive brand loyalty could weaken, product exploration could increase, and open, privacy-preserving product assurance infrastructure may become more valuable.
 
 ## Core Frame
 
-Modern commerce still assumes a human is browsing product cards, ads, packaging, ratings, and reviews. Agents change the cost structure: they can explore categories, compare evidence, remember user preferences, and surface meaningful product upgrades without making the human perform the search manually. The deeper trust problem is adversarial and privacy-sensitive: fake reviews, seller exaggeration, competitor attacks, offline purchases, small-seller cold starts, social-proof manipulation, and buyer privacy mean product assurance cannot depend on text reviews or public receipt linkage alone. The article explicitly rejects an oracle model: the durable object is a claim-scoped evidence and dispute graph.
+Modern commerce still assumes a human is browsing product cards, ads, packaging, ratings, and reviews. Agents could change the cost structure: they can explore categories, compare evidence, remember user preferences, and surface meaningful product upgrades without making the human perform the search manually. The deeper trust problem is adversarial and privacy-sensitive: fake reviews, seller exaggeration, competitor attacks, offline purchases, small-seller cold starts, social-proof manipulation, and buyer privacy mean product assurance cannot depend on text reviews or public receipt linkage alone. The article explicitly rejects an oracle model: the durable object is a claim-scoped evidence and dispute graph.
 
 ## Claims
 
 - `claim-001`: Online commerce is still organized around human attention, even when AI is used for ranking and recommendations.
 - `claim-002`: Some brand loyalty is actually status quo bias plus choice overload.
-- `claim-003`: Commerce is moving from attention capture toward delegated-intent shopping.
-- `claim-004`: Agentic commerce needs richer product-truth data than current structured product listings.
+- `claim-003`: Commerce may move from attention capture toward delegated-intent shopping.
+- `claim-004`: Agentic commerce is likely to need richer product assurance data than current structured product listings.
 - `claim-005`: The healthiest product-truth layer should be open, contestable, provenance-rich, and forkable.
 - `claim-006`: Reviews can evolve into structured post-purchase experience packets.
 - `claim-007`: B2B agentic buying may move slower across complex purchases, but narrow recurring procurement categories can be stronger MVP wedges because outcomes are measurable.
-- `claim-008`: The incumbent-adjacent opportunity is to prove new agentic behaviors that larger commerce platforms may adopt, adapt, or standardize around.
+- `claim-008`: The incumbent-adjacent opportunity is to demonstrate new agentic behaviors that larger commerce platforms may adopt, adapt, or standardize around.
 - `claim-009`: Product trust should shift from review aggregation to adversarial claim ledgers.
 - `claim-010`: Offline buyers and small sellers need graded evidence tiers, not all-or-nothing verification.
 - `claim-011`: Product-truth infrastructure reduces the value of fake reviews but cannot eradicate manipulation.
@@ -90,4 +90,4 @@ The article uses shower gel as a retail micro-case. A buyer may keep buying a fa
 
 ## Maturity
 
-This is a seed/review article from thesis development. It is not yet a finished standard or implementation proposal.
+This is a seed possibility thesis from thesis development. It is not a finished standard, implementation proposal, or verified market conclusion.

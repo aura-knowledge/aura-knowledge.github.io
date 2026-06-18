@@ -6,7 +6,7 @@
   "canonicalPath": "/articles/agentic-commerce-product-truth/",
   "sourcePath": "content/articles/2026/agentic-commerce-product-truth/article.md",
   "agentBriefPath": "content/articles/2026/agentic-commerce-product-truth/agent.md",
-  "thesis": "AI shopping agents may shift commerce from capturing human attention to satisfying delegated buyer intent, creating demand for open, privacy-preserving, adversarially tested product assurance infrastructure that agents can inspect.",
+  "thesis": "AI shopping agents may shift commerce from capturing human attention to satisfying delegated buyer intent; if that possibility develops, it could create demand for open, privacy-preserving, adversarially tested product assurance infrastructure that agents can inspect.",
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-18",
@@ -56,7 +56,7 @@
     },
     {
       "id": "claim-003",
-      "claim": "One plausible next commerce shift is from the attention economy to delegated-intent commerce: agents will increasingly translate user preferences into product discovery and purchase decisions.",
+      "claim": "One plausible next commerce shift is from the attention economy to delegated-intent commerce: agents may increasingly translate user preferences into product discovery and purchase decisions.",
       "confidence": "medium",
       "status": "forecast",
       "evidence": [
@@ -77,7 +77,7 @@
     },
     {
       "id": "claim-004",
-      "claim": "Agentic commerce requires a product-truth layer richer than current product structured data, because agents need evidence, constraints, provenance, and user-fit signals rather than only titles, offers, ratings, and images.",
+      "claim": "Agentic commerce is likely to need a product assurance layer richer than current product structured data, because agents need evidence, constraints, provenance, and user-fit signals rather than only titles, offers, ratings, and images.",
       "confidence": "medium",
       "status": "proposal",
       "evidence": [
@@ -144,7 +144,7 @@
     },
     {
       "id": "claim-008",
-      "claim": "The strategic opportunity is not necessarily to replace commerce incumbents, but to prove a concrete agentic behavior, such as buyer-aligned product switching backed by evidence packets and post-purchase feedback, that incumbents may later adopt, adapt, or standardize around.",
+      "claim": "The strategic opportunity is not necessarily to replace commerce incumbents, but to demonstrate a concrete agentic behavior, such as buyer-aligned product switching backed by evidence packets and post-purchase feedback, that incumbents may later adopt, adapt, or standardize around.",
       "confidence": "medium",
       "status": "strategy",
       "evidence": [
@@ -518,7 +518,7 @@
     }
   ],
   "agentInstructions": [
-    "Treat this article as a seed thesis, not a finalized standard.",
+    "Treat this article as a seed possibility thesis, not a finalized standard or verified market conclusion.",
     "Use claim IDs as retrieval units and source IDs for evidence tracing.",
     "Do not infer that open product truth already exists as a mature protocol; it is proposed here as a direction.",
     "Separate buyer-agent alignment from marketplace-owned shopping assistants when analyzing the claims.",
@@ -538,9 +538,9 @@
       "AI assistant",
       "Sibling AI reviewer"
     ],
-    "notes": "Reviewed for public sharing, privacy leakage, repository fit, claim/source coherence, and future-agent usefulness. No privacy blocker found; dense evidence claims were annotated before publication."
+    "notes": "Reviewed for public sharing, privacy leakage, repository fit, claim/source coherence, and future-agent usefulness as a possibility thesis rather than a verified market conclusion. No privacy blocker found; dense evidence claims were annotated before publication."
   },
-  "contentHash": "b15e8a079afa29973272063e9980d5498984c6d27f9f4f8dee3c0f1186ffaee3",
+  "contentHash": "4014d7d5a97200dd5194fd5c82e83c9d74f602ccc90fc5ec9abf2e393643e302",
   "generatedAt": "2026-06-18T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
   "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
@@ -549,64 +549,40 @@
   "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/agentic-commerce-product-truth/article.md",
   "sectionOutline": [
     {
-      "id": "brand-loyalty-friction",
-      "title": "Brand loyalty as exploration friction"
+      "id": "a-small-behavior-change",
+      "title": "A Small Behavior Change"
     },
     {
-      "id": "delegated-intent",
-      "title": "From browsing to delegated intent"
+      "id": "the-possible-shift",
+      "title": "The Possible Shift"
     },
     {
-      "id": "the-product-truth-layer",
-      "title": "The product truth layer"
+      "id": "the-new-bottleneck",
+      "title": "The New Bottleneck"
     },
     {
-      "id": "product-assurance",
-      "title": "From product truth to product assurance"
+      "id": "not-product-truth-product-assurance",
+      "title": "Not Product Truth, Product Assurance"
     },
     {
-      "id": "open-not-owned",
-      "title": "Open, not owned"
+      "id": "evidence-not-reviews",
+      "title": "Evidence, Not Reviews"
     },
     {
-      "id": "experience-packets",
-      "title": "From reviews to experience packets"
+      "id": "what-can-go-wrong",
+      "title": "What Can Go Wrong"
     },
     {
-      "id": "private-review-entitlements",
-      "title": "Private review entitlements"
+      "id": "where-to-test-it",
+      "title": "Where to Test It"
     },
     {
-      "id": "claim-ledgers",
-      "title": "From reviews to claim ledgers"
-    },
-    {
-      "id": "offline-and-small-sellers",
-      "title": "Offline and small sellers"
-    },
-    {
-      "id": "remaining-challenges",
-      "title": "What remains hard"
-    },
-    {
-      "id": "secondary-ecosystem-layers",
-      "title": "Secondary ecosystem layers"
-    },
-    {
-      "id": "human-evidence-surface",
-      "title": "The human evidence surface"
-    },
-    {
-      "id": "mvp-wedges",
-      "title": "MVP wedges: retail narrative, B2B proof"
-    },
-    {
-      "id": "incumbent-adjacent-commerce",
-      "title": "Incumbent-adjacent commerce"
+      "id": "the-incumbent-adjacent-opportunity",
+      "title": "The Incumbent-Adjacent Opportunity"
     },
     {
       "id": "evidence-notes",
-      "title": "Evidence notes"
+      "title": "Evidence Notes"
     }
   ]
 }

@@ -80,7 +80,7 @@
   {
     "id": "article:agentic-commerce-product-truth:claim-003",
     "type": "claim",
-    "label": "One plausible next commerce shift is from the attention economy to delegated-intent commerce: agents will increasingly translate user preferences into product discovery and purchase decisions.",
+    "label": "One plausible next commerce shift is from the attention economy to delegated-intent commerce: agents may increasingly translate user preferences into product discovery and purchase decisions.",
     "localId": "claim-003",
     "confidence": "medium",
     "status": "forecast"
@@ -88,7 +88,7 @@
   {
     "id": "article:agentic-commerce-product-truth:claim-004",
     "type": "claim",
-    "label": "Agentic commerce requires a product-truth layer richer than current product structured data, because agents need evidence, constraints, provenance, and user-fit signals rather than only titles, offers, ratings, and images.",
+    "label": "Agentic commerce is likely to need a product assurance layer richer than current product structured data, because agents need evidence, constraints, provenance, and user-fit signals rather than only titles, offers, ratings, and images.",
     "localId": "claim-004",
     "confidence": "medium",
     "status": "proposal"
@@ -120,7 +120,7 @@
   {
     "id": "article:agentic-commerce-product-truth:claim-008",
     "type": "claim",
-    "label": "The strategic opportunity is not necessarily to replace commerce incumbents, but to prove a concrete agentic behavior, such as buyer-aligned product switching backed by evidence packets and post-purchase feedback, that incumbents may later adopt, adapt, or standardize around.",
+    "label": "The strategic opportunity is not necessarily to replace commerce incumbents, but to demonstrate a concrete agentic behavior, such as buyer-aligned product switching backed by evidence packets and post-purchase feedback, that incumbents may later adopt, adapt, or standardize around.",
     "localId": "claim-008",
     "confidence": "medium",
     "status": "strategy"
