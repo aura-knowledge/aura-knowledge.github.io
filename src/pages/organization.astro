@@ -1,0 +1,134 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getArticles } from "../lib/content";
+
+const base = import.meta.env.BASE_URL;
+const repoUrl = "https://github.com/aura-knowledge/aura-knowledge.github.io";
+const articles = getArticles();
+const latest = articles[0];
+---
+
+<BaseLayout
+  title="Organization"
+  description="A human guide to the Aura Knowledge organization, its public repositories, and its operating principles."
+>
+  <div class="page-shell utility-page">
+    <header class="utility-hero">
+      <p class="eyebrow">Organization</p>
+      <h1>A public home for inspectable knowledge work.</h1>
+      <p class="lede">
+        Aura Knowledge is a public place for essays and research notes that should be easy to read,
+        trace, and review. The human path starts with readable pages; the source remains public so
+        the work behind them can be inspected and improved.
+      </p>
+      <div class="button-row" aria-label="Organization starting points">
+        <a class="button primary" href={`${base}articles/${latest.slug}/`}>
+          Read the latest article
+        </a>
+        <a class="button" href={`${base}roadmap/`}>View roadmap</a>
+        <a class="button" href={repoUrl}>Inspect repository</a>
+      </div>
+    </header>
+
+    <section class="section-band section-grid" aria-labelledby="purpose-title">
+      <div>
+        <p class="eyebrow">Purpose</p>
+        <h2 id="purpose-title">The organization exists to make research easier to read and audit.</h2>
+      </div>
+      <div>
+        <p>
+          The central idea is that an article should not be the only public object. Each essay can
+          sit beside claims, sources, review notes, graph relationships, and compact packets that
+          make the reasoning easier to revisit.
+        </p>
+        <ul class="signal-list">
+          <li>Humans get a calm reading path before seeing machine-oriented files.</li>
+          <li>Reviewers can inspect claims, sources, and maturity state.</li>
+          <li>Automation gets stable artifacts without taking over the human interface.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-band section-grid" aria-labelledby="browse-title">
+      <div>
+        <p class="eyebrow">Browse</p>
+        <h2 id="browse-title">Start with the site, then follow the structure when you need depth.</h2>
+      </div>
+      <div class="packet-list">
+        <article class="packet-item">
+          <p>Human path</p>
+          <h3>Essays</h3>
+          <p>Read published arguments as prose first.</p>
+          <a class="packet-link" href={`${base}articles/${latest.slug}/`}>
+            Open the latest article
+          </a>
+        </article>
+        <article class="packet-item">
+          <p>Direction</p>
+          <h3>Roadmap</h3>
+          <p>See the product and research sequence behind the garden.</p>
+          <a class="packet-link" href={`${base}roadmap/`}>Open the roadmap</a>
+        </article>
+        <article class="packet-item">
+          <p>Relationships</p>
+          <h3>Graph</h3>
+          <p>Move from topics to articles, then into claim maps.</p>
+          <a class="packet-link" href={`${base}graph/`}>Browse the graph</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-band section-grid" aria-labelledby="repository-title">
+      <div>
+        <p class="eyebrow">Repositories</p>
+        <h2 id="repository-title">The public source explains how the public knowledge is made.</h2>
+      </div>
+      <div>
+        <p>
+          The current repository, <code>aura-knowledge.github.io</code>, contains the site, content
+          sources, schemas, generated discovery files, and publication scripts. Future repositories
+          can extend the same idea with focused tools or experiments.
+        </p>
+        <ul class="signal-list">
+          <li><code>content/articles</code> keeps the human article, agent brief, and artifact together.</li>
+          <li><code>public/agents</code> exposes generated machine-readable packets.</li>
+          <li><code>public/graph</code> exposes topic, article, and claim relationships.</li>
+        </ul>
+        <div class="button-row">
+          <a class="button" href={`${repoUrl}#readme`}>Repository README</a>
+          <a class="button" href={`${repoUrl}/blob/main/CONTRIBUTING.md`}>Contributing guide</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band section-grid" aria-labelledby="principles-title">
+      <div>
+        <p class="eyebrow">Principles</p>
+        <h2 id="principles-title">The operating model stays human-first and evidence-aware.</h2>
+      </div>
+      <div>
+        <ul class="signal-list">
+          <li>Readable pages are the front door.</li>
+          <li>Claims should be inspectable without turning the page into a database UI.</li>
+          <li>Sources and provenance are part of the artifact, not an afterthought.</li>
+          <li>Maturity labels should be honest about whether an idea is early or stable.</li>
+          <li>Machine-readable files should support agents without becoming the human path.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-band section-grid" aria-labelledby="agents-title">
+      <div>
+        <p class="eyebrow">Agents</p>
+        <h2 id="agents-title">Automation has a separate entrance.</h2>
+      </div>
+      <div>
+        <p>
+          Agent-facing files exist so tools can retrieve compact metadata, claim IDs, source IDs,
+          article packets, roadmap packets, and graph data without scraping the human pages first.
+        </p>
+        <a class="packet-link" href={`${base}agents/`}>Open the agent entry page</a>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
