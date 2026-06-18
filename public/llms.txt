@@ -10,6 +10,7 @@
 
 ## Articles
 - [The Future of Publishing Is Agent-Auditable Research](https://aura-knowledge.github.io/articles/agent-auditable-research/)
+- [Agentic Commerce and the Product Truth Layer](https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/)
 
 ## Agent Artifacts
 - [Agent Index JSON](https://aura-knowledge.github.io/agents/index.json)
@@ -19,6 +20,8 @@
 - [awesome-llm-apps-roadmap roadmap JSON](https://aura-knowledge.github.io/agents/roadmap/awesome-llm-apps-roadmap.json)
 - [agent-auditable-research JSON](https://aura-knowledge.github.io/agents/articles/agent-auditable-research.json)
 - [agent-auditable-research Markdown](https://aura-knowledge.github.io/agents/articles/agent-auditable-research.md)
+- [agentic-commerce-product-truth JSON](https://aura-knowledge.github.io/agents/articles/agentic-commerce-product-truth.json)
+- [agentic-commerce-product-truth Markdown](https://aura-knowledge.github.io/agents/articles/agentic-commerce-product-truth.md)
 
 ## Use
 Use article packets as the retrieval unit. Treat maturity values as uncertainty markers. Prefer claim IDs and source IDs over inferred citations.

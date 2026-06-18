@@ -7,52 +7,220 @@
     "maturity": "seed"
   },
   {
-    "id": "claim-001",
+    "id": "article:agent-auditable-research:claim-001",
     "type": "claim",
     "label": "Polished prose is becoming cheap; inspectable reasoning is becoming scarce.",
+    "localId": "claim-001",
     "confidence": "high",
     "status": "core"
   },
   {
-    "id": "claim-002",
+    "id": "article:agent-auditable-research:claim-002",
     "type": "claim",
     "label": "A future-ready publishing artifact should pair a human essay with a claim graph, evidence ledger, provenance, revision history, and agent contribution record.",
+    "localId": "claim-002",
     "confidence": "medium-high",
     "status": "proposal"
   },
   {
-    "id": "claim-003",
+    "id": "article:agent-auditable-research:claim-003",
     "type": "claim",
     "label": "Research is the best first wedge because the audience already values citations, methods, uncertainty, and credibility.",
+    "localId": "claim-003",
     "confidence": "medium",
     "status": "argument"
   },
   {
-    "id": "claim-004",
+    "id": "article:agent-auditable-research:claim-004",
     "type": "claim",
     "label": "Existing publishing, AI research, and protocol tools solve important pieces but not the combined readable-plus-auditable source object.",
+    "localId": "claim-004",
     "confidence": "medium-high",
     "status": "landscape"
   },
   {
-    "id": "claim-005",
+    "id": "article:agent-auditable-research:claim-005",
     "type": "claim",
     "label": "AI assistance should be disclosed while the human remains accountable for thesis, source selection, wording, and conclusions.",
+    "localId": "claim-005",
     "confidence": "high",
     "status": "normative"
   },
   {
-    "id": "claim-006",
+    "id": "article:agent-auditable-research:claim-006",
     "type": "claim",
     "label": "Attention-aware reading and machine-readable structure are compatible when the page uses progressive disclosure.",
+    "localId": "claim-006",
     "confidence": "medium-high",
     "status": "design"
+  },
+  {
+    "id": "article:agentic-commerce-product-truth",
+    "type": "article",
+    "label": "Agentic Commerce and the Product Truth Layer",
+    "path": "/articles/agentic-commerce-product-truth/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:agentic-commerce-product-truth:claim-001",
+    "type": "claim",
+    "label": "Modern online commerce is still largely organized around human attention, even when AI is used behind the scenes for targeting, ranking, and recommendation.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:agentic-commerce-product-truth:claim-002",
+    "type": "claim",
+    "label": "Some brand loyalty is actually status quo bias plus choice overload: the customer sticks with a known product because the market has made exploration expensive.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "behavioral"
+  },
+  {
+    "id": "article:agentic-commerce-product-truth:claim-003",
+    "type": "claim",
+    "label": "One plausible next commerce shift is from the attention economy to delegated-intent commerce: agents may increasingly translate user preferences into product discovery and purchase decisions.",
+    "localId": "claim-003",
+    "confidence": "medium",
+    "status": "forecast"
+  },
+  {
+    "id": "article:agentic-commerce-product-truth:claim-004",
+    "type": "claim",
+    "label": "Agentic commerce is likely to need a product assurance layer richer than current product structured data, because agents need evidence, constraints, provenance, and user-fit signals rather than only titles, offers, ratings, and images.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "proposal"
+  },
+  {
+    "id": "article:agentic-commerce-product-truth:claim-005",
+    "type": "claim",
+    "label": "The healthiest version of agentic commerce is an open product-truth commons: a contestable, forkable, provenance-rich vocabulary for product claims, evidence, reviews, and buyer-agent preferences.",
+    "localId": "claim-005",
+    "confidence": "medium",
+    "status": "normative"
+  },
+  {
+    "id": "article:agentic-commerce-product-truth:claim-006",
+    "type": "claim",
+    "label": "Post-purchase feedback can evolve from star ratings into structured experience packets that preserve human judgment while making outcomes legible to agents.",
+    "localId": "claim-006",
+    "confidence": "medium",
+    "status": "proposal"
+  },
+  {
+    "id": "article:agentic-commerce-product-truth:claim-007",
+    "type": "claim",
+    "label": "B2B agentic buying may move slower across complex purchases, but narrow recurring procurement categories can be stronger MVP wedges because outcomes are measurable.",
+    "localId": "claim-007",
+    "confidence": "medium-high",
+    "status": "forecast"
+  },
+  {
+    "id": "article:agentic-commerce-product-truth:claim-008",
+    "type": "claim",
+    "label": "The strategic opportunity is not necessarily to replace commerce incumbents, but to demonstrate a concrete agentic behavior, such as buyer-aligned product switching backed by evidence packets and post-purchase feedback, that incumbents may later adopt, adapt, or standardize around.",
+    "localId": "claim-008",
+    "confidence": "medium",
+    "status": "strategy"
+  },
+  {
+    "id": "article:agentic-commerce-product-truth:claim-009",
+    "type": "claim",
+    "label": "Agentic product trust should shift from review aggregation to adversarial claim ledgers: each product claim should carry source, scope, evidence, counter-evidence, incentive, expiry, and dispute state.",
+    "localId": "claim-009",
+    "confidence": "medium",
+    "status": "proposal"
+  },
+  {
+    "id": "article:agentic-commerce-product-truth:claim-010",
+    "type": "claim",
+    "label": "A fair product-truth commons needs graded evidence tiers so offline buyers and small sellers can participate without pretending every attestation has the same trust weight.",
+    "localId": "claim-010",
+    "confidence": "medium",
+    "status": "proposal"
+  },
+  {
+    "id": "article:agentic-commerce-product-truth:claim-011",
+    "type": "claim",
+    "label": "Product-truth infrastructure can reduce the value of fake reviews, but it cannot eradicate manipulation; it moves the battlefield from cheap text generation to collusion, credential abuse, data access, privacy leakage, and governance capture.",
+    "localId": "claim-011",
+    "confidence": "medium-high",
+    "status": "risk"
+  },
+  {
+    "id": "article:agentic-commerce-product-truth:claim-012",
+    "type": "claim",
+    "label": "Private review entitlements should separate purchase or use verification from public identity: the public system should verify an unlinkable, one-time entitlement token rather than linking a review to a user, receipt, store, or account.",
+    "localId": "claim-012",
+    "confidence": "medium",
+    "status": "proposal"
+  },
+  {
+    "id": "article:agentic-commerce-product-truth:claim-013",
+    "type": "claim",
+    "label": "Agentic commerce should expose a dual evidence surface: machine-readable claim ledgers for agents and human-readable media, social, community, and brand context for final human judgment.",
+    "localId": "claim-013",
+    "confidence": "medium",
+    "status": "proposal"
+  },
+  {
+    "id": "article:agentic-commerce-product-truth:claim-014",
+    "type": "claim",
+    "label": "Agentic product assurance should be built around signed, scoped, contestable claims about specific product identities, not aggregate reviews or universal truth labels.",
+    "localId": "claim-014",
+    "confidence": "medium-high",
+    "status": "framing"
+  },
+  {
+    "id": "article:agentic-commerce-product-truth:claim-015",
+    "type": "claim",
+    "label": "Robust agentic product assurance needs infrastructure beyond reviews and credentials: product identity/versioning, recall feeds, liability, auditors, decision receipts, dispute propagation, portability, red-team benchmarks, and accessible presentation.",
+    "localId": "claim-015",
+    "confidence": "medium",
+    "status": "proposal"
+  },
+  {
+    "id": "source-adobe-ai-traffic-2025",
+    "type": "source",
+    "label": "Adobe Analytics: Traffic to U.S. Retail Websites from Generative AI Sources Jumps 1,200 Percent",
+    "url": "https://blog.adobe.com/en/publish/2025/03/17/adobe-analytics-traffic-to-us-retail-websites-from-generative-ai-sources-jumps-1200-percent",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-adobe-ai-traffic-2026",
+    "type": "source",
+    "label": "AI traffic grows but retail sites lag in AI search visibility",
+    "url": "https://business.adobe.com/blog/ai-traffic-surge-retail-sites-not-machine-readable",
+    "sourceType": "research"
   },
   {
     "id": "source-agentic-publications-2025",
     "type": "source",
     "label": "Agentic Publications: An LLM-Driven Framework for Interactive Scientific Publishing",
     "url": "https://arxiv.org/abs/2505.13246",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-amazon-brand-protection-2024",
+    "type": "source",
+    "label": "How Amazon uses AI innovations to stop fraud and counterfeits",
+    "url": "https://www.aboutamazon.com/news/policy-new-views/amazon-brand-protection-report-2024-counterfeit-products",
+    "sourceType": "industry-report"
+  },
+  {
+    "id": "source-amazon-rufus",
+    "type": "source",
+    "label": "Amazon Rufus AI experience comes to the Amazon Shopping app",
+    "url": "https://www.aboutamazon.com/news/retail/amazon-rufus",
+    "sourceType": "product"
+  },
+  {
+    "id": "source-bayesian-truth-serum",
+    "type": "source",
+    "label": "Bayesian Truth Serum",
+    "url": "https://nel.mit.edu/bayesian-truth-serum/",
     "sourceType": "research"
   },
   {
@@ -63,11 +231,39 @@
     "sourceType": "product"
   },
   {
+    "id": "source-c2pa",
+    "type": "source",
+    "label": "C2PA Content Credentials and Provenance Standard",
+    "url": "https://c2pa.org/",
+    "sourceType": "standard"
+  },
+  {
+    "id": "source-choice-overload",
+    "type": "source",
+    "label": "When Choice is Demotivating: Can One Desire Too Much of a Good Thing?",
+    "url": "https://business.columbia.edu/faculty/research/when-choice-demotivating-can-one-desire-too-much-good-thing",
+    "sourceType": "research"
+  },
+  {
     "id": "source-cloudflare-emdash",
     "type": "source",
     "label": "Introducing EmDash",
     "url": "https://blog.cloudflare.com/emdash-wordpress/",
     "sourceType": "product"
+  },
+  {
+    "id": "source-cpsc-recalls-api",
+    "type": "source",
+    "label": "CPSC Recalls Application Program Interface API Information",
+    "url": "https://www.cpsc.gov/Recalls/CPSC-Recalls-Application-Program-Interface-API-Information",
+    "sourceType": "regulatory-data"
+  },
+  {
+    "id": "source-deloitte-cpo-2025",
+    "type": "source",
+    "label": "2025 Global Chief Procurement Officer Survey",
+    "url": "https://www.deloitte.com/us/en/about/press-room/2025-chief-procurement-officer-survey.html",
+    "sourceType": "research"
   },
   {
     "id": "source-digital-gardens-appleton",
@@ -84,11 +280,95 @@
     "sourceType": "design"
   },
   {
+    "id": "source-eigentrust",
+    "type": "source",
+    "label": "The EigenTrust Algorithm for Reputation Management in P2P Networks",
+    "url": "https://nlp.stanford.edu/pubs/eigentrust.pdf",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-epa-safer-choice-products",
+    "type": "source",
+    "label": "Search Products that Meet the Safer Choice Standard",
+    "url": "https://www.epa.gov/saferchoice/products",
+    "sourceType": "regulatory-data"
+  },
+  {
+    "id": "source-eu-digital-product-passport",
+    "type": "source",
+    "label": "EU's Digital Product Passport: Advancing transparency and sustainability",
+    "url": "https://data.europa.eu/en/news-events/news/eus-digital-product-passport-advancing-transparency-and-sustainability",
+    "sourceType": "regulatory"
+  },
+  {
+    "id": "source-forrester-b2b-genai-2024",
+    "type": "source",
+    "label": "The Future Of B2B Buying Will Come Slowly And Then All At Once",
+    "url": "https://www.forrester.com/blogs/the-future-of-b2b-buying-will-come-slowly-and-then-all-at-once/",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-ftc-fake-reviews-2024",
+    "type": "source",
+    "label": "Federal Trade Commission Announces Final Rule Banning Fake Reviews and Testimonials",
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials",
+    "sourceType": "regulatory"
+  },
+  {
+    "id": "source-gartner-b2b-ai-2026",
+    "type": "source",
+    "label": "Gartner Sales Survey Finds 67% of B2B Buyers Prefer a Rep-Free Experience",
+    "url": "https://www.gartner.com/en/newsroom/press-releases/2026-03-09-gartner-sales-survey-finds-67-percent-of-b2b-buyers-prefer-a-rep-free-experience",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-google-ap2",
+    "type": "source",
+    "label": "Announcing Agent Payments Protocol (AP2)",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol",
+    "sourceType": "protocol"
+  },
+  {
+    "id": "source-google-product-structured-data",
+    "type": "source",
+    "label": "Product snippet structured data",
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/product-snippet",
+    "sourceType": "documentation"
+  },
+  {
+    "id": "source-google-ucp",
+    "type": "source",
+    "label": "Getting started with Universal Commerce Protocol on Google",
+    "url": "https://developers.google.com/merchant/ucp",
+    "sourceType": "protocol"
+  },
+  {
+    "id": "source-gs1-digital-link",
+    "type": "source",
+    "label": "GS1 Digital Link for Brand Owners",
+    "url": "https://www.gs1us.org/industries-and-insights/gs1-digital-link/for-brands",
+    "sourceType": "standard"
+  },
+  {
+    "id": "source-lee-see-automation-trust",
+    "type": "source",
+    "label": "Trust in Automation: Designing for Appropriate Reliance",
+    "url": "https://journals.sagepub.com/doi/10.1518/hfes.46.1.50_30392",
+    "sourceType": "research"
+  },
+  {
     "id": "source-llms-txt",
     "type": "source",
     "label": "llms.txt proposal",
     "url": "https://github.com/answerdotai/llms-txt",
     "sourceType": "protocol"
+  },
+  {
+    "id": "source-nist-ai-rmf",
+    "type": "source",
+    "label": "AI Risk Management Framework",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "sourceType": "standard"
   },
   {
     "id": "source-nng-cognitive-load",
@@ -98,11 +378,102 @@
     "sourceType": "design"
   },
   {
+    "id": "source-openai-chatgpt-shopping",
+    "type": "source",
+    "label": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
+    "url": "https://openai.com/index/buy-it-in-chatgpt/",
+    "sourceType": "product"
+  },
+  {
+    "id": "source-openai-merchants",
+    "type": "source",
+    "label": "Power product discovery in ChatGPT",
+    "url": "https://chatgpt.com/merchants/",
+    "sourceType": "product"
+  },
+  {
+    "id": "source-openai-stripe-acp",
+    "type": "source",
+    "label": "Stripe powers Instant Checkout in ChatGPT and releases Agentic Commerce Protocol",
+    "url": "https://stripe.com/newsroom/news/stripe-openai-instant-checkout",
+    "sourceType": "protocol"
+  },
+  {
+    "id": "source-openfda-food-enforcement",
+    "type": "source",
+    "label": "openFDA Food Enforcement API",
+    "url": "https://open.fda.gov/apis/food/enforcement/",
+    "sourceType": "regulatory-data"
+  },
+  {
+    "id": "source-privacy-pass-architecture",
+    "type": "source",
+    "label": "The Privacy Pass Architecture",
+    "url": "https://datatracker.ietf.org/doc/rfc9576/",
+    "sourceType": "standard"
+  },
+  {
     "id": "source-provenance-2026",
     "type": "source",
     "label": "Responsible Agentic AI Requires Explicit Provenance",
     "url": "https://arxiv.org/abs/2605.17169",
     "sourceType": "research"
+  },
+  {
+    "id": "source-schema-product",
+    "type": "source",
+    "label": "Schema.org Product",
+    "url": "https://schema.org/Product",
+    "sourceType": "schema"
+  },
+  {
+    "id": "source-schema-review",
+    "type": "source",
+    "label": "Schema.org Review",
+    "url": "https://schema.org/Review",
+    "sourceType": "schema"
+  },
+  {
+    "id": "source-simon-attention-scarcity",
+    "type": "source",
+    "label": "Designing Organizations for an Information-Rich World",
+    "url": "https://www.econbiz.de/Record/designing-organizations-for-an-information-rich-world-simon-herbert/10002817747",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-status-quo-bias",
+    "type": "source",
+    "label": "Status Quo Bias in Decision Making",
+    "url": "https://rzeckhauser.scholars.harvard.edu/publications/status-quo-bias-decision-making",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-truth-discovery-survey",
+    "type": "source",
+    "label": "A Survey on Truth Discovery",
+    "url": "https://www.kdd.org/exploration_files/Article1_17_2.pdf",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-w3c-bbs",
+    "type": "source",
+    "label": "Data Integrity BBS Cryptosuites v1.0",
+    "url": "https://www.w3.org/TR/vc-di-bbs/",
+    "sourceType": "standard"
+  },
+  {
+    "id": "source-w3c-prov-o",
+    "type": "source",
+    "label": "PROV-O: The PROV Ontology",
+    "url": "https://www.w3.org/TR/prov-o/",
+    "sourceType": "standard"
+  },
+  {
+    "id": "source-w3c-vc-data-model",
+    "type": "source",
+    "label": "Verifiable Credentials Data Model v2.0",
+    "url": "https://www.w3.org/TR/vc-data-model-2.0/",
+    "sourceType": "standard"
   },
   {
     "id": "source-wordpress-mcp-adapter",
@@ -117,14 +488,39 @@
     "label": "agent-provenance"
   },
   {
+    "id": "topic:agentic-commerce",
+    "type": "topic",
+    "label": "agentic-commerce"
+  },
+  {
     "id": "topic:ai-native-publishing",
     "type": "topic",
     "label": "ai-native-publishing"
   },
   {
+    "id": "topic:consumer-behavior",
+    "type": "topic",
+    "label": "consumer-behavior"
+  },
+  {
     "id": "topic:digital-gardens",
     "type": "topic",
     "label": "digital-gardens"
+  },
+  {
+    "id": "topic:incumbent-adjacent-ventures",
+    "type": "topic",
+    "label": "incumbent-adjacent-ventures"
+  },
+  {
+    "id": "topic:open-protocols",
+    "type": "topic",
+    "label": "open-protocols"
+  },
+  {
+    "id": "topic:product-truth",
+    "type": "topic",
+    "label": "product-truth"
   },
   {
     "id": "topic:research-workflows",
