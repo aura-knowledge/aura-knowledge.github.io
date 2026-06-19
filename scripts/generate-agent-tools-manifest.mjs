@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import Ajv2020 from "ajv/dist/2020.js";
@@ -10,8 +10,31 @@ const outputPath = path.join(rootDir, "public", "agents", "tools.json");
 
 const ajv = new Ajv2020({ allErrors: true, strict: false });
 
+function normalizeForComparison(manifest) {
+  const { generatedAt, ...rest } = manifest;
+  return JSON.stringify(rest);
+}
+
+async function loadExistingGeneratedAt() {
+  try {
+    const existing = await readJson(outputPath);
+    return existing.generatedAt;
+  } catch {
+    return null;
+  }
+}
+
 async function main() {
-  const manifest = buildToolsManifest();
+  let manifest = buildToolsManifest();
+  const existingGeneratedAt = await loadExistingGeneratedAt();
+  if (existingGeneratedAt) {
+    const existingRaw = await readFile(outputPath, "utf8");
+    const existing = JSON.parse(existingRaw);
+    if (normalizeForComparison(existing) === normalizeForComparison(manifest)) {
+      manifest.generatedAt = existing.generatedAt;
+    }
+  }
+
   const schema = await readJson(path.join(rootDir, "schemas", "agent-tools.schema.json"));
   const validate = ajv.compile(schema);
   if (!validate(manifest)) {

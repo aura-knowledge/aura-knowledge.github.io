@@ -182,6 +182,15 @@ generatedAt = `${articles
   .concat(roadmaps.map((roadmap) => roadmap.updatedAt))
   .sort()
   .at(-1) ?? "1970-01-01"}T00:00:00.000Z`;
+
+// Preserve the agent-tools manifest so its generatedAt stays stable across runs.
+let preservedToolsManifest = null;
+try {
+  preservedToolsManifest = await readJson(publicPath("agents", "tools.json"));
+} catch {
+  // Manifest does not exist yet.
+}
+
 await rm(publicPath("agents"), { recursive: true, force: true });
 await rm(publicPath("graph"), { recursive: true, force: true });
 await mkdir(publicPath("agents", "articles"), { recursive: true });
@@ -189,6 +198,10 @@ await mkdir(publicPath("agents", "roadmap"), { recursive: true });
 await mkdir(publicPath("agents", "topics"), { recursive: true });
 await mkdir(publicPath("agents", "feeds"), { recursive: true });
 await mkdir(publicPath("graph"), { recursive: true });
+
+if (preservedToolsManifest) {
+  await writeJson(publicPath("agents", "tools.json"), preservedToolsManifest);
+}
 
 for (const article of allArticles) {
   if (article.artifact.contentHash !== article.contentHash) {
