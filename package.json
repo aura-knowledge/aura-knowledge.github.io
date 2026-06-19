@@ -11,6 +11,7 @@
     "validate": "node scripts/validate-content.mjs",
     "validate:evidence": "node scripts/validate-content.mjs",
     "validate:build": "node scripts/validate-build.mjs",
+    "verify": "node scripts/verify-claims.mjs",
     "check": "npm run generate && npm run validate && astro build && npm run validate:build"
   },
   "overrides": {
