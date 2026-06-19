@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "topic": "information-theory",
+  "articleIds": [
+    "article:formal-logic-to-computation"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/information-theory/",
+  "agentJsonPath": "/agents/topics/information-theory.json",
+  "articles": [
+    {
+      "id": "article:formal-logic-to-computation",
+      "slug": "formal-logic-to-computation",
+      "title": "From Formal Logic to Computation: The Mathematical Road to AI",
+      "summary": "A readable walk from Boole and Frege through computability, switching circuits, information theory, and cybernetics, showing how formal ideas made later computing and AI legible.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "long-human-road-to-ai",
+        "formal-logic",
+        "computability",
+        "information-theory",
+        "cybernetics"
+      ],
+      "tags": [
+        "ai-history",
+        "computing-history",
+        "human-progress",
+        "education",
+        "logic",
+        "turing",
+        "computation",
+        "information-theory"
+      ],
+      "canonicalPath": "/articles/formal-logic-to-computation/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+      "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+      "agentMarkdownPath": "/agents/articles/formal-logic-to-computation.md",
+      "updatedAt": "2026-06-20",
+      "claimCount": 8,
+      "sourceCount": 17,
+      "tokenEstimate": 684,
+      "contentHash": "6a8f23247fb3417c59ac22aea68afd60feb57db63686a32dba9f735235121098"
+    }
+  ]
+}

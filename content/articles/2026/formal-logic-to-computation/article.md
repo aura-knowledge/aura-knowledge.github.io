@@ -6,7 +6,7 @@ title: "From Formal Logic to Computation: The Mathematical Road to AI"
 dek: "How symbols, rules, circuits, and information theory turned reasoning into something machines could represent — without making AI inevitable."
 date: 2026-06-20
 updated: 2026-06-20
-status: review
+status: published
 maturity: seed
 topic: long-human-road-to-ai
 tags:

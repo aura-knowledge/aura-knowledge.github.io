@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 3,
+  "id": "article:ai-winters-expert-systems",
+  "slug": "ai-winters-expert-systems",
+  "title": "Winters, Expert Systems, and the Cost of Overpromising Intelligence",
+  "canonicalPath": "/articles/ai-winters-expert-systems/",
+  "sourcePath": "content/articles/2026/ai-winters-expert-systems/article.md",
+  "agentBriefPath": "content/articles/2026/ai-winters-expert-systems/agent.md",
+  "thesis": "AI winters and expert systems show that progress in AI has repeatedly depended not only on ideas, but also on evaluation, maintenance, infrastructure, institutional expectations, and the cost of overpromising intelligence.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-20",
+  "updatedAt": "2026-06-20",
+  "audiences": [
+    "general readers",
+    "students",
+    "builders",
+    "agents",
+    "historians"
+  ],
+  "topics": [
+    "long-human-road-to-ai",
+    "ai-history",
+    "expert-systems",
+    "evaluation",
+    "hype-cycle"
+  ],
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Public evaluation reports such as ALPAC and Lighthill mattered because they tested AI-adjacent promises against measurable usefulness, not because they proved intelligence research was worthless.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-alpac-1966",
+          "snippet": "ALPAC concluded that machine translation had not met expectations for quality and cost and recommended redirection of funding.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-lighthill-1973",
+          "snippet": "Lighthill identified combinatorial explosion and limited-domain success as central criticisms of AI's broad claims.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-agar-lighthill-2020",
+          "snippet": "Agar's historiographic reading treats the Lighthill report as a policy moment whose broader symbolic importance should not be mistaken for a universal cause.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-19"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "ALPAC addressed machine translation specifically, not all AI research; Lighthill was a UK report whose influence varied by country and institution.",
+          "assessedAt": "2026-06-19"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "The phrase 'AI winter' should be handled as a contested historical label for reduced confidence, funding, and commercial enthusiasm, not as proof that AI research stopped.",
+      "confidence": "medium",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-haigh-no-first-winter",
+          "snippet": "Haigh argues that research activity continued across multiple areas, making a single 'first AI winter' narrative inaccurate.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-nrc-ai-1999",
+          "snippet": "The NRC history describes changing funding styles and programs rather than a uniform collapse of AI support.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some funding streams and commercial ventures did contract sharply, and contemporaries described the period as a winter.",
+          "assessedAt": "2026-06-19"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Expert systems produced useful results in narrow domains where domain knowledge could be encoded and maintained.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-feigenbaum-1977",
+          "snippet": "Feigenbaum framed knowledge engineering as the method of encoding domain expertise to make AI useful.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-mycin-1984",
+          "snippet": "The MYCIN retrospective documents a rule-based system that performed diagnostic reasoning in a narrow medical domain.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-r1-1980",
+          "snippet": "McDermott's R1 system configured computer systems by applying domain-specific rules about component compatibility.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "These successes were narrow; performance outside the encoded domain or in the face of changing knowledge could degrade.",
+          "assessedAt": "2026-06-19"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Expert-system limits included knowledge acquisition, updating, evaluation, user trust, and workflow integration, not only inference algorithms.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-mycin-1984",
+          "snippet": "MYCIN's retrospective chapters cover knowledge-base construction, evaluation, explanation, and human use as central engineering concerns.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-r1-revisited-1984",
+          "snippet": "R1 Revisited describes ongoing maintenance, rule changes, and production deployment as continuing costs.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some organizations managed these costs successfully for years, especially where the domain was stable and the payoff was clear.",
+          "assessedAt": "2026-06-19"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "The durable lesson for modern AI is that intelligence claims need grounded tests, maintenance plans, and institution-aware deployment criteria.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-nist-ai-rmf",
+          "snippet": "The NIST AI RMF emphasizes TEVV—test, evaluation, verification, and validation—across the AI system lifecycle.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-hai-ai-index",
+          "snippet": "The AI Index tracks benchmarks, investment, and deployment, underscoring the need for current evaluation data.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-mycin-1984",
+          "snippet": "Historical expert-system experience shows that evaluation and maintenance plans are as important as model or rule design.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-19"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Modern AI capabilities and infrastructure differ substantially from 1980s expert systems, so the historical analogy has limits.",
+          "assessedAt": "2026-06-19"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-alpac-1966",
+      "title": "Language and Machines: Computers in Translation and Linguistics",
+      "url": "https://www.nationalacademies.org/read/9547",
+      "type": "public-report",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-lighthill-1973",
+      "title": "Artificial Intelligence: A General Survey",
+      "url": "https://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm",
+      "type": "public-report",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-agar-lighthill-2020",
+      "title": "What is science for? The Lighthill report on artificial intelligence reinterpreted",
+      "url": "https://doi.org/10.1017/S0007087420000230",
+      "type": "historical-analysis",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-nrc-ai-1999",
+      "title": "Funding a Revolution: Government Support for Computing Research, Chapter 9: Development in Artificial Intelligence",
+      "url": "https://www.nationalacademies.org/read/6323/chapter/11",
+      "type": "institutional-history",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-feigenbaum-1977",
+      "title": "The Art of Artificial Intelligence: I. Themes and Case Studies of Knowledge Engineering",
+      "url": "https://stacks.stanford.edu/file/druid%3Abg342cm2034/bg342cm2034.pdf",
+      "type": "conference-paper",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-feigenbaum-acm",
+      "title": "Edward A. Feigenbaum: A.M. Turing Award Laureate profile",
+      "url": "https://amturing.acm.org/award_winners/feigenbaum_4167235.cfm",
+      "type": "biographical-reference",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-mycin-1984",
+      "title": "Rule-Based Expert Systems: The MYCIN Experiments of the Stanford Heuristic Programming Project",
+      "url": "https://www.shortliffe.net/Buchanan-Shortliffe-1984/MYCIN%20Book.htm",
+      "type": "expert-system-retrospective",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-r1-1980",
+      "title": "R1: An Expert in the Computer Systems Domain",
+      "url": "https://cdn.aaai.org/AAAI/1980/AAAI80-076.pdf",
+      "type": "conference-paper",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-r1-revisited-1984",
+      "title": "R1 Revisited: Four Years in the Trenches",
+      "url": "https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/445",
+      "type": "case-study",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-haigh-no-first-winter",
+      "title": "There Was No 'First AI Winter'",
+      "url": "https://cacm.acm.org/opinion/there-was-no-first-ai-winter/",
+      "type": "historiographic-commentary",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-haigh-ai-boom-bust",
+      "title": "How the AI Boom Went Bust",
+      "url": "https://cacm.acm.org/opinion/how-the-ai-boom-went-bust/",
+      "type": "historiographic-commentary",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-nist-ai-rmf",
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf",
+      "type": "standards-framework",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-hai-ai-index",
+      "title": "The 2026 AI Index Report",
+      "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "type": "data-reference",
+      "accessed": "2026-06-19"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:long-human-road-to-ai"
+    },
+    {
+      "type": "article",
+      "id": "article:birth-of-ai"
+    },
+    {
+      "type": "article",
+      "id": "article:learning-machines"
+    }
+  ],
+  "agentInstructions": [
+    "Use claims as the primary retrieval unit; prefer source IDs over inferred citations.",
+    "Treat 'AI winter' as a contested label and attribute periodization to the cited historiographic sources.",
+    "Do not treat modern generative AI as a direct repeat of expert systems; the article draws only institutional analogies.",
+    "Flag any claim that needs updated source access dates or exact commercial figures for R1/XCON.",
+    "Respect maturity=seed as an explicit uncertainty marker."
+  ],
+  "contentHash": "f266d04e23ea69c9a19a7e2e400af7b9a4b96bfa81d117765e3cb6e46f5a8e25",
+  "provenance": {
+    "createdAt": "2026-06-20",
+    "createdBy": "human",
+    "agents": [],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-20",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "sources",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Initial agent draft from a public, sanitized work package. Human review is pending before publication. Approved for publication after final review."
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-20",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "sources",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Human final review approved for publication after sibling-agent review and CI pass.",
+        "contentHash": "f266d04e23ea69c9a19a7e2e400af7b9a4b96bfa81d117765e3cb6e46f5a8e25"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "generatedAt": "2026-06-20T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+  "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+  "agentMarkdownPath": "/agents/articles/ai-winters-expert-systems.md",
+  "sourceRepoPath": "content/articles/2026/ai-winters-expert-systems/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/ai-winters-expert-systems/article.md",
+  "tokenEstimate": 480,
+  "sectionOutline": [
+    {
+      "id": "the-promise-meets-the-test",
+      "title": "The promise meets the test"
+    },
+    {
+      "id": "ai-winter-as-contested-label",
+      "title": "AI winter as a contested label"
+    },
+    {
+      "id": "knowledge-became-the-center",
+      "title": "Knowledge became the center of AI"
+    },
+    {
+      "id": "the-hidden-cost-of-expertise",
+      "title": "The hidden cost of expertise"
+    },
+    {
+      "id": "what-cooled-what-continued",
+      "title": "What cooled, what continued"
+    },
+    {
+      "id": "the-modern-analogy",
+      "title": "The modern analogy"
+    },
+    {
+      "id": "further-reading",
+      "title": "Further reading"
+    }
+  ]
+}

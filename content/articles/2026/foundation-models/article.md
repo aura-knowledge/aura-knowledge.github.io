@@ -6,7 +6,7 @@ title: Foundation Models and the Return of General-Purpose AI Systems
 dek: How the transformer, scale, and post-training revived a decades-old ambition—and why broad capability is not the same as reliable understanding.
 date: 2026-06-20
 updated: 2026-06-20
-status: review
+status: published
 maturity: seed
 topic: long-human-road-to-ai
 tags:

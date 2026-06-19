@@ -6,7 +6,7 @@ title: "The Long Human Road to AI: A Reader’s Guide to Season 1"
 dek: "AI did not arrive overnight. This series traces how human needs, tools, symbols, and institutions made intelligent machines thinkable."
 date: 2026-06-20
 updated: 2026-06-20
-status: review
+status: published
 maturity: seed
 topic: long-human-road-to-ai
 tags:

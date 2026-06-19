@@ -2,12 +2,12 @@
   "schemaVersion": 3,
   "id": "article:long-human-road-to-ai",
   "slug": "long-human-road-to-ai",
-  "title": "The Long Human Road to AI: A Reader’s Guide to Season 1",
+  "title": "The Long Human Road to AI: A Reader\u2019s Guide to Season 1",
   "canonicalPath": "/articles/long-human-road-to-ai/",
   "sourcePath": "content/articles/2026/long-human-road-to-ai/article.md",
   "agentBriefPath": "content/articles/2026/long-human-road-to-ai/agent.md",
   "thesis": "Artificial intelligence is best understood as the latest chapter in a long human story of extending memory, calculation, communication, measurement, coordination, prediction, and delegation.",
-  "status": "review",
+  "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-20",
   "updatedAt": "2026-06-20",
@@ -97,7 +97,7 @@
     },
     {
       "id": "claim-003",
-      "claim": "Across the season, the same pattern appears: human need → external support → formalization → scale → boundary.",
+      "claim": "Across the season, the same pattern appears: human need \u2192 external support \u2192 formalization \u2192 scale \u2192 boundary.",
       "confidence": "medium",
       "status": "framing",
       "evidence": [
@@ -135,7 +135,7 @@
         },
         {
           "sourceId": "source-dartmouth-ai-coined",
-          "snippet": "Dartmouth’s institutional account records the 1956 workshop as the place where the term artificial intelligence was coined.",
+          "snippet": "Dartmouth\u2019s institutional account records the 1956 workshop as the place where the term artificial intelligence was coined.",
           "supports": "direct",
           "assessedAt": "2026-06-19"
         },
@@ -161,7 +161,7 @@
       "evidence": [
         {
           "sourceId": "source-samuel-1959",
-          "snippet": "Samuel’s 1959 checkers work showed a program improving its play through learning from experience, an early move away from hand-coded rules.",
+          "snippet": "Samuel\u2019s 1959 checkers work showed a program improving its play through learning from experience, an early move away from hand-coded rules.",
           "supports": "direct",
           "assessedAt": "2026-06-19"
         },
@@ -199,7 +199,7 @@
     },
     {
       "id": "claim-006",
-      "claim": "Modern AI capabilities are shaped by data, compute, people, organizations, evaluation, governance, infrastructure, and public trust—not only by algorithms.",
+      "claim": "Modern AI capabilities are shaped by data, compute, people, organizations, evaluation, governance, infrastructure, and public trust\u2014not only by algorithms.",
       "confidence": "medium-high",
       "status": "risk",
       "evidence": [
@@ -407,7 +407,7 @@
     "Recheck current-state sources such as the AI Index, NIST, and EU pages after 2026-12-31.",
     "Do not assume the seven linked articles exist until their own artifacts are present in the repository."
   ],
-  "contentHash": "63ad9fe0de5f5667a68bd5838a9296559f68f20cbd6d14bf74aa13fbae9a6b3b",
+  "contentHash": "d852055f4b0a5abd15924735fd73242312304723715c3bc13efc099f0f23dc26",
   "provenance": {
     "createdAt": "2026-06-20",
     "createdBy": "human",
@@ -416,14 +416,27 @@
       {
         "reviewer": "agent",
         "reviewedAt": "2026-06-20",
-        "status": "commented",
+        "status": "approved",
         "scope": [
           "claims",
           "sources",
           "tone",
           "privacy"
         ],
-        "notes": "Drafted from public series charter, season synthesis, article map, and source canon. No client or private information included."
+        "notes": "Drafted from public series charter, season synthesis, article map, and source canon. No client or private information included. Approved for publication after final review."
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-20",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "sources",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Human final review approved for publication after sibling-agent review and CI pass.",
+        "contentHash": "d852055f4b0a5abd15924735fd73242312304723715c3bc13efc099f0f23dc26"
       }
     ],
     "policy": {

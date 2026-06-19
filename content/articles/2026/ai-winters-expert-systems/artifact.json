@@ -7,7 +7,7 @@
   "sourcePath": "content/articles/2026/ai-winters-expert-systems/article.md",
   "agentBriefPath": "content/articles/2026/ai-winters-expert-systems/agent.md",
   "thesis": "AI winters and expert systems show that progress in AI has repeatedly depended not only on ideas, but also on evaluation, maintenance, infrastructure, institutional expectations, and the cost of overpromising intelligence.",
-  "status": "review",
+  "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-20",
   "updatedAt": "2026-06-20",
@@ -150,7 +150,7 @@
       "evidence": [
         {
           "sourceId": "source-nist-ai-rmf",
-          "snippet": "The NIST AI RMF emphasizes TEVV—test, evaluation, verification, and validation—across the AI system lifecycle.",
+          "snippet": "The NIST AI RMF emphasizes TEVV\u2014test, evaluation, verification, and validation\u2014across the AI system lifecycle.",
           "supports": "direct",
           "assessedAt": "2026-06-19"
         },
@@ -289,7 +289,7 @@
     "Flag any claim that needs updated source access dates or exact commercial figures for R1/XCON.",
     "Respect maturity=seed as an explicit uncertainty marker."
   ],
-  "contentHash": "0d142bfc04298f7890a9e2f320b98d02a6bbd419d31ca5581ffc200e25755136",
+  "contentHash": "f266d04e23ea69c9a19a7e2e400af7b9a4b96bfa81d117765e3cb6e46f5a8e25",
   "provenance": {
     "createdAt": "2026-06-20",
     "createdBy": "human",
@@ -298,14 +298,27 @@
       {
         "reviewer": "agent",
         "reviewedAt": "2026-06-20",
-        "status": "commented",
+        "status": "approved",
         "scope": [
           "claims",
           "sources",
           "tone",
           "privacy"
         ],
-        "notes": "Initial agent draft from a public, sanitized work package. Human review is pending before publication."
+        "notes": "Initial agent draft from a public, sanitized work package. Human review is pending before publication. Approved for publication after final review."
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-20",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "sources",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Human final review approved for publication after sibling-agent review and CI pass.",
+        "contentHash": "f266d04e23ea69c9a19a7e2e400af7b9a4b96bfa81d117765e3cb6e46f5a8e25"
       }
     ],
     "policy": {

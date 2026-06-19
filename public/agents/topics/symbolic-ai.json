@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "topic": "symbolic-ai",
+  "articleIds": [
+    "article:birth-of-ai"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/symbolic-ai/",
+  "agentJsonPath": "/agents/topics/symbolic-ai.json",
+  "articles": [
+    {
+      "id": "article:birth-of-ai",
+      "slug": "birth-of-ai",
+      "title": "The Birth of AI: Dartmouth, Symbolic Systems, and Early Optimism",
+      "summary": "How the 1956 Dartmouth workshop named and organized artificial intelligence, what early symbolic systems actually demonstrated, and why the era's optimism both helped and overpromised.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "long-human-road-to-ai",
+        "ai-history",
+        "symbolic-ai"
+      ],
+      "tags": [
+        "ai-history",
+        "computing-history",
+        "human-progress",
+        "education",
+        "dartmouth",
+        "symbolic-ai",
+        "early-ai",
+        "history-of-ai"
+      ],
+      "canonicalPath": "/articles/birth-of-ai/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+      "agentJsonPath": "/agents/articles/birth-of-ai.json",
+      "agentMarkdownPath": "/agents/articles/birth-of-ai.md",
+      "updatedAt": "2026-06-20",
+      "claimCount": 5,
+      "sourceCount": 13,
+      "tokenEstimate": 553,
+      "contentHash": "ecec9f458d695b5a53bfea9e6856fb376b5174ed3bf0487ce3a7cdd36baf96c1"
+    }
+  ]
+}

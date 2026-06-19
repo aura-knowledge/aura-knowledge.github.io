@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "topic": "education",
+  "articleIds": [
+    "article:before-machines",
+    "article:long-human-road-to-ai"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/education/",
+  "agentJsonPath": "/agents/topics/education.json",
+  "articles": [
+    {
+      "id": "article:before-machines",
+      "slug": "before-machines",
+      "title": "Before Machines: Calculation, Automata, and the Dream of Mechanical Reason",
+      "summary": "A narrative history of calculation before electronics: human computers, abaci, Napier's rods, mechanical calculators, automata, Jacquard cards, and Babbage's engines.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "long-human-road-to-ai",
+        "ai-history",
+        "computing-history",
+        "human-progress",
+        "education"
+      ],
+      "tags": [
+        "ai-history",
+        "computing-history",
+        "human-progress",
+        "education",
+        "abacus",
+        "automata",
+        "human-computers",
+        "mechanical-calculation"
+      ],
+      "canonicalPath": "/articles/before-machines/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+      "agentJsonPath": "/agents/articles/before-machines.json",
+      "agentMarkdownPath": "/agents/articles/before-machines.md",
+      "updatedAt": "2026-06-20",
+      "claimCount": 8,
+      "sourceCount": 21,
+      "tokenEstimate": 698,
+      "contentHash": "62d909d5e9f88204dabd2fb1f284d1077e805963e509747a07706e9d8ade9c38"
+    },
+    {
+      "id": "article:long-human-road-to-ai",
+      "slug": "long-human-road-to-ai",
+      "title": "The Long Human Road to AI: A Reader’s Guide to Season 1",
+      "summary": "A short, source-backed overview of The Long Human Road to AI Season 1, showing how computers and AI emerged from older human patterns and what readers will learn across seven articles and this overview.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "long-human-road-to-ai",
+        "ai-history",
+        "computing-history",
+        "human-progress",
+        "education"
+      ],
+      "tags": [
+        "ai-history",
+        "computing-history",
+        "human-progress",
+        "education",
+        "series-overview",
+        "reading-guide"
+      ],
+      "canonicalPath": "/articles/long-human-road-to-ai/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+      "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+      "agentMarkdownPath": "/agents/articles/long-human-road-to-ai.md",
+      "updatedAt": "2026-06-20",
+      "claimCount": 7,
+      "sourceCount": 18,
+      "tokenEstimate": 628,
+      "contentHash": "d852055f4b0a5abd15924735fd73242312304723715c3bc13efc099f0f23dc26"
+    }
+  ]
+}

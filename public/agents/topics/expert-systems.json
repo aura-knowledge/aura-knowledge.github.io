@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "topic": "expert-systems",
+  "articleIds": [
+    "article:ai-winters-expert-systems"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/expert-systems/",
+  "agentJsonPath": "/agents/topics/expert-systems.json",
+  "articles": [
+    {
+      "id": "article:ai-winters-expert-systems",
+      "slug": "ai-winters-expert-systems",
+      "title": "Winters, Expert Systems, and the Cost of Overpromising Intelligence",
+      "summary": "A history of AI winters and expert systems shows that intelligence claims survive only when they meet grounded tests, maintenance plans, and institution-aware deployment criteria.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "long-human-road-to-ai",
+        "ai-history",
+        "expert-systems",
+        "evaluation",
+        "hype-cycle"
+      ],
+      "tags": [
+        "ai-history",
+        "computing-history",
+        "human-progress",
+        "education",
+        "ai-winters",
+        "expert-systems",
+        "evaluation",
+        "hype-cycle"
+      ],
+      "canonicalPath": "/articles/ai-winters-expert-systems/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+      "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+      "agentMarkdownPath": "/agents/articles/ai-winters-expert-systems.md",
+      "updatedAt": "2026-06-20",
+      "claimCount": 5,
+      "sourceCount": 13,
+      "tokenEstimate": 480,
+      "contentHash": "f266d04e23ea69c9a19a7e2e400af7b9a4b96bfa81d117765e3cb6e46f5a8e25"
+    }
+  ]
+}

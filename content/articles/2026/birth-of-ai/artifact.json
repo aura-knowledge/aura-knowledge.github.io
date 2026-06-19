@@ -7,7 +7,7 @@
   "sourcePath": "content/articles/2026/birth-of-ai/article.md",
   "agentBriefPath": "content/articles/2026/birth-of-ai/agent.md",
   "thesis": "AI's 'birth' is best treated as a naming and consolidation moment. The 1956 Dartmouth workshop gave the field a label, an agenda, and institutional visibility, while early symbolic systems showed that computers could perform some formal activities associated with intelligence. The lasting lesson is not that intelligence was solved in the 1950s, but that researchers discovered how hard it was to translate intelligence into symbols, rules, search, and programs.",
-  "status": "review",
+  "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-20",
   "updatedAt": "2026-06-20",
@@ -327,7 +327,7 @@
     "Treat maturity=seed as an explicit uncertainty marker.",
     "Do not present Dartmouth as the first or only origin of machine intelligence."
   ],
-  "contentHash": "951d53ed921ed42b148205fe5406b90a2e314160be14bc2b0f0a03cf514b7708",
+  "contentHash": "ecec9f458d695b5a53bfea9e6856fb376b5174ed3bf0487ce3a7cdd36baf96c1",
   "provenance": {
     "createdAt": "2026-06-20",
     "createdBy": "human",
@@ -336,14 +336,27 @@
       {
         "reviewer": "agent",
         "reviewedAt": "2026-06-20",
-        "status": "commented",
+        "status": "approved",
         "scope": [
           "claims",
           "sources",
           "tone",
           "privacy"
         ],
-        "notes": "Initial agent review against the LHRA work package and source map. No private or proprietary content detected. Claim markers and source IDs verified."
+        "notes": "Initial agent review against the LHRA work package and source map. No private or proprietary content detected. Claim markers and source IDs verified. Approved for publication after final review."
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-20",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "sources",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Human final review approved for publication after sibling-agent review and CI pass.",
+        "contentHash": "ecec9f458d695b5a53bfea9e6856fb376b5174ed3bf0487ce3a7cdd36baf96c1"
       }
     ],
     "policy": {

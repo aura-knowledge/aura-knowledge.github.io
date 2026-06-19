@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "topic": "transformers",
+  "articleIds": [
+    "article:foundation-models"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/transformers/",
+  "agentJsonPath": "/agents/topics/transformers.json",
+  "articles": [
+    {
+      "id": "article:foundation-models",
+      "slug": "foundation-models",
+      "title": "Foundation Models and the Return of General-Purpose AI Systems",
+      "summary": "Foundation models revived the ambition of general-purpose AI. This article traces the transformer, pretraining, scaling, post-training, multimodality, and tool use—and why broad capability is not reliable understanding.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "long-human-road-to-ai",
+        "foundation-models",
+        "transformers",
+        "scaling",
+        "ai-governance"
+      ],
+      "tags": [
+        "ai-history",
+        "computing-history",
+        "human-progress",
+        "education",
+        "transformers",
+        "scaling",
+        "pretraining",
+        "multimodality"
+      ],
+      "canonicalPath": "/articles/foundation-models/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+      "agentJsonPath": "/agents/articles/foundation-models.json",
+      "agentMarkdownPath": "/agents/articles/foundation-models.md",
+      "updatedAt": "2026-06-20",
+      "claimCount": 12,
+      "sourceCount": 19,
+      "tokenEstimate": 801,
+      "contentHash": "14bbae6f14e0ba003b3697a100f866d7f411d8720590344a4c3d1a72dad84f25"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "topic": "labor",
+  "articleIds": [
+    "article:human-systems"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/labor/",
+  "agentJsonPath": "/agents/topics/labor.json",
+  "articles": [
+    {
+      "id": "article:human-systems",
+      "slug": "human-systems",
+      "title": "The Human Road Through AI: Labor, Institutions, Governance, and Meaning",
+      "summary": "AI systems are social arrangements, not just technical artifacts. This article explores labor, governance, education, access, and trust as the human systems that shape what AI becomes and who benefits.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "long-human-road-to-ai",
+        "ai-society",
+        "labor",
+        "governance",
+        "institutions"
+      ],
+      "tags": [
+        "ai-history",
+        "computing-history",
+        "human-progress",
+        "education",
+        "labor",
+        "governance",
+        "institutions",
+        "ai-society"
+      ],
+      "canonicalPath": "/articles/human-systems/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+      "agentJsonPath": "/agents/articles/human-systems.json",
+      "agentMarkdownPath": "/agents/articles/human-systems.md",
+      "updatedAt": "2026-06-20",
+      "claimCount": 6,
+      "sourceCount": 13,
+      "tokenEstimate": 655,
+      "contentHash": "13949f994ccff623ba9dee5ccdbfdc53abb1d9a6d9de9d3e4141173a53e00b20"
+    }
+  ]
+}

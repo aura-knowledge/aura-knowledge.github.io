@@ -6,7 +6,7 @@ title: "The Birth of AI: Dartmouth, Symbolic Systems, and Early Optimism"
 dek: "In 1956 a small workshop gave a name to artificial intelligence. The real story is older, stranger, and more instructive than an origin myth."
 date: 2026-06-20
 updated: 2026-06-20
-status: review
+status: published
 maturity: seed
 topic: long-human-road-to-ai
 tags:

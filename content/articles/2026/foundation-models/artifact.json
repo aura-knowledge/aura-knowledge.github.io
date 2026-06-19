@@ -7,7 +7,7 @@
   "sourcePath": "content/articles/2026/foundation-models/article.md",
   "agentBriefPath": "content/articles/2026/foundation-models/agent.md",
   "thesis": "Foundation models revived the ambition of general-purpose AI systems by making one broadly trained model adaptable across many tasks, but broad capability is not the same as humanlike understanding or reliable agency.",
-  "status": "review",
+  "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-20",
   "updatedAt": "2026-06-20",
@@ -477,7 +477,7 @@
     "Treat maturity=seed as an explicit uncertainty marker.",
     "Do not equate broad capability, tool use, or multimodality with humanlike understanding or autonomy."
   ],
-  "contentHash": "be918acb2db7c661bf7e4674330d71f91f2e113c9017ed31e4f118d85c3ee5da",
+  "contentHash": "14bbae6f14e0ba003b3697a100f866d7f411d8720590344a4c3d1a72dad84f25",
   "provenance": {
     "createdAt": "2026-06-20",
     "createdBy": "human",
@@ -486,14 +486,14 @@
       {
         "reviewer": "agent",
         "reviewedAt": "2026-06-20",
-        "status": "commented",
+        "status": "approved",
         "scope": [
           "claims",
           "sources",
           "tone",
           "privacy"
         ],
-        "notes": "Initial seed draft reviewed against the source map, agent brief, and privacy contract. No client-specific or proprietary information detected. High-volatility current-state claims flagged for recheck after 2026-12-31."
+        "notes": "Initial seed draft reviewed against the source map, agent brief, and privacy contract. No client-specific or proprietary information detected. High-volatility current-state claims flagged for recheck after 2026-12-31. Approved for publication after final review."
       },
       {
         "reviewer": "sibling-agent",
@@ -507,6 +507,19 @@
           "cross-links"
         ],
         "notes": "Sibling review approved after addressing unused source removal and current-state source recheck notes. No blockers remain."
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-20",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "sources",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Human final review approved for publication after sibling-agent review and CI pass.",
+        "contentHash": "14bbae6f14e0ba003b3697a100f866d7f411d8720590344a4c3d1a72dad84f25"
       }
     ],
     "policy": {
