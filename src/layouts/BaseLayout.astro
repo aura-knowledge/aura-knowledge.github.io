@@ -46,11 +46,10 @@ const pageTitle = title === "Aura Knowledge" ? title : `${title} | Aura Knowledg
           <span>Aura Knowledge</span>
         </a>
         <div class="nav-links">
-          <a href={`${base}organization/`}>Organization</a>
-          <a href={`${base}articles/agent-auditable-research/`}>First Article</a>
+          <a href={`${base}topics/`}>Topics</a>
+          <a href={`${base}articles/`}>Articles</a>
           <a href={`${base}roadmap/`}>Roadmap</a>
-          <a href={`${base}graph/`}>Graph</a>
-          <a href={`${base}agents/`}>Agents</a>
+          <a href={`${base}organization/`}>Organization</a>
           <ThemeToggle />
         </div>
       </nav>
@@ -61,7 +60,10 @@ const pageTitle = title === "Aura Knowledge" ? title : `${title} | Aura Knowledg
     <footer class="site-footer">
       <div class="site-footer-inner">
         <span>Readable essays, auditable research packets.</span>
-        <span>Built for humans first; structured for agents by design.</span>
+        <div class="footer-meta">
+          <span>Structured for agents; guided for humans.</span>
+          <a href={`${base}agents/`}>Agent entry</a>
+        </div>
       </div>
     </footer>
   </body>

@@ -1,0 +1,66 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getArticles } from "../lib/content";
+
+const base = import.meta.env.BASE_URL;
+const articles = getArticles();
+
+const topics = new Map<string, typeof articles>();
+for (const article of articles) {
+  for (const topic of article.artifact.topics) {
+    const current = topics.get(topic) ?? [];
+    current.push(article);
+    topics.set(topic, current);
+  }
+}
+
+const topicEntries = Array.from(topics.entries()).sort(([left], [right]) =>
+  left.localeCompare(right)
+);
+
+function topicLabel(topic: string) {
+  return topic.replaceAll("-", " ");
+}
+---
+
+<BaseLayout
+  title="Topics"
+  description="Browse Aura Knowledge essays by topic and claim stem."
+>
+  <div class="page-shell utility-page">
+    <header class="utility-hero">
+      <p class="eyebrow">Topics</p>
+      <h1>Browse by idea, not by feed.</h1>
+      <p class="lede">
+        Topics group articles that share a claim stem. Pick a topic to see the articles that explore
+        it, or view the full article index.
+      </p>
+      <div class="button-row">
+        <a class="button" href={`${base}articles/`}>All articles</a>
+      </div>
+    </header>
+
+    <section class="topic-hub" aria-labelledby="topic-hub-title">
+      <h2 id="topic-hub-title" class="visually-hidden">Topic list</h2>
+      <div class="topic-grid">
+        {topicEntries.map(([topic, topicArticles]) => (
+          <article class="topic-card" id={`topic-${topic}`}>
+            <header>
+              <p class="eyebrow">Topic</p>
+              <h3>{topicLabel(topic)}</h3>
+            </header>
+            <p class="topic-count">{topicArticles.length} article{topicArticles.length === 1 ? "" : "s"}</p>
+            <ul class="topic-article-list">
+              {topicArticles.map((article) => (
+                <li>
+                  <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
+                  <span>{article.maturity}</span>
+                </li>
+              ))}
+            </ul>
+          </article>
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

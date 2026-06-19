@@ -15,38 +15,38 @@ const latest = articles[0];
     <section class="home-hero" aria-labelledby="home-title">
       <div>
         <p class="eyebrow">Aura Knowledge</p>
-        <h1 id="home-title">Readable by humans. Auditable by agents.</h1>
+        <h1 id="home-title">Guided for humans. Structured for agents.</h1>
         <p class="lede">
-          This garden treats the article as one rendering of a deeper research object: claim map,
-          evidence ledger, source trail, revision history, and compact agent brief.
+          A knowledge garden where essays are written for people first, then backed by claim maps,
+          evidence ledgers, and machine-readable artifacts that agents can inspect.
         </p>
         <div class="button-row" aria-label="Primary actions">
           <a class="button primary" href={`${base}articles/${latest.slug}/`}>
-            Read the first article
+            Read the latest article
           </a>
-          <a class="button" href={`${base}roadmap/`}>View roadmap</a>
-          <a class="button" href={`${base}agents/`}>Open agent entry</a>
-          <a class="button" href={`${base}graph/`}>Browse the graph</a>
+          <a class="button" href={`${base}topics/`}>Browse topics</a>
+          <a class="button" href={`${base}articles/`}>All articles</a>
+          <a class="button" href={`${base}roadmap/`}>Roadmap</a>
         </div>
       </div>
 
       <aside class="stem-panel" aria-label="Knowledge stem preview">
         <div class="stem-node">
           <div>
-            <strong>Root idea</strong>
-            <span>Publishing shifts from polished prose to inspectable reasoning.</span>
+            <strong>Start here</strong>
+            <span>Read the latest essay, or browse topics to follow an idea.</span>
           </div>
         </div>
         <div class="stem-node">
           <div>
-            <strong>First article</strong>
-            <span>The future is not AI-written content; it is agent-auditable research.</span>
+            <strong>Read deeper</strong>
+            <span>Each article carries claim markers, evidence, and related reading.</span>
           </div>
         </div>
         <div class="stem-node">
           <div>
-            <strong>Next branches</strong>
-            <span>Evidence packets, source-ledger scouts, author workspaces, and compact agent feeds.</span>
+            <strong>For agents</strong>
+            <span>JSON packets, claim graphs, and compact feeds live behind the Agent entry.</span>
           </div>
         </div>
       </aside>
@@ -59,14 +59,14 @@ const latest = articles[0];
       </div>
       <div>
         <p>
-          A feed rewards recency. This site rewards return visits to an evolving idea. Articles are
-          designed as focused paths through one argument, then connected through topic stems and
-          machine-readable artifacts.
+          A feed rewards recency. This site rewards return visits to an evolving idea. Humans browse
+          by topic, read a focused argument, then follow related claims. Agents use the same
+          underlying artifacts without the human UI taking a back seat.
         </p>
         <ul class="signal-list">
-          <li>Humans get a calm reading sequence with impact blocks and visible provenance.</li>
+          <li>Humans browse topics and articles first; agent surfaces are reachable but secondary.</li>
+          <li>Each article exposes claim markers, evidence, and related reading inside the prose.</li>
           <li>Agents get structured metadata, claim IDs, source IDs, and compact index files.</li>
-          <li>Future posts inherit the same validation, graph, and publication workflow.</li>
         </ul>
       </div>
     </section>
@@ -101,6 +101,23 @@ const latest = articles[0];
           inspectors once the artifact contract is stable.
         </p>
         <a class="packet-link" href={`${base}roadmap/`}>Open the roadmap</a>
+      </div>
+    </section>
+
+    <section class="section-band section-grid machine-band" aria-labelledby="machines-title">
+      <div>
+        <p class="eyebrow">For machines</p>
+        <h2 id="machines-title">Agent-native artifacts live here too.</h2>
+      </div>
+      <div>
+        <p>
+          The same content that powers the human pages is exposed as JSON packets, claim graphs, and
+          compact feeds. Agents can start at the entry point and fetch only what they need.
+        </p>
+        <div class="button-row">
+          <a class="button" href={`${base}agents/`}>Agent entry</a>
+          <a class="button" href={`${base}graph/`}>Claim graph</a>
+        </div>
       </div>
     </section>
   </div>
