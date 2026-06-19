@@ -1,0 +1,47 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getArticles } from "../../lib/content";
+
+const base = import.meta.env.BASE_URL;
+const articles = getArticles();
+---
+
+<BaseLayout
+  title="Articles"
+  description="All published essays in the Aura Knowledge garden, listed by recency."
+>
+  <div class="page-shell utility-page">
+    <header class="utility-hero">
+      <p class="eyebrow">Articles</p>
+      <h1>Every published essay.</h1>
+      <p class="lede">
+        Each article is a human-readable argument backed by a claim map, evidence ledger, and
+        machine-readable artifact. Start with the latest or browse by topic.
+      </p>
+    </header>
+
+    <section class="article-index" aria-labelledby="article-index-title">
+      <h2 id="article-index-title" class="visually-hidden">Article list</h2>
+      <div class="article-index-list">
+        {articles.map((article) => (
+          <article class="article-index-card">
+            <div class="article-index-meta">
+              <span>{article.date}</span>
+              <span>{article.readingTime}</span>
+              <span class={`maturity maturity-${article.maturity}`}>{article.maturity}</span>
+            </div>
+            <h3>
+              <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
+            </h3>
+            <p class="article-index-topic">
+              <a href={`${base}topics/#topic-${article.topic}`}>
+                {article.topic.replaceAll("-", " ")}
+              </a>
+            </p>
+            <p class="article-index-summary">{article.summary}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

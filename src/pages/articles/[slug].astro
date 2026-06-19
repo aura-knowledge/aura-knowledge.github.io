@@ -13,7 +13,15 @@ export function getStaticPaths() {
 const { article } = Astro.props;
 const Content = article.Content;
 const base = import.meta.env.BASE_URL;
+const allArticles = getArticles();
 const sourceById = new Map(article.artifact.sources.map((source) => [source.id, source]));
+const relatedArticles = allArticles
+  .filter(
+    (candidate) =>
+      candidate.slug !== article.slug &&
+      candidate.artifact.topics.some((topic) => article.artifact.topics.includes(topic))
+  )
+  .slice(0, 3);
 const canonicalUrl = new URL(
   `${base}${article.canonicalPath.replace(/^\/+/, "")}`,
   Astro.site ?? "https://aura-knowledge.github.io"
@@ -43,14 +51,6 @@ const jsonLd = {
         <span>{article.date}</span>
         <span>{article.readingTime}</span>
         <span>{article.maturity}</span>
-      </div>
-      <div class="button-row">
-        <a class="button primary" href={`${base}agents/articles/${article.slug}.json`}>
-          Agent JSON
-        </a>
-        <a class="button" href={`${base}agents/articles/${article.slug}.md`}>
-          Agent brief
-        </a>
       </div>
     </header>
 
@@ -110,6 +110,40 @@ const jsonLd = {
               </li>
             ))}
           </ul>
+        </section>
+
+        {relatedArticles.length > 0 && (
+          <section class="related-reading" aria-labelledby="related-title">
+            <p class="eyebrow">Continue reading</p>
+            <h2 id="related-title">Related articles</h2>
+            <div class="related-reading-grid">
+              {relatedArticles.map((related) => (
+                <article class="related-reading-card">
+                  <p>{related.topic.replaceAll("-", " ")}</p>
+                  <h3>
+                    <a href={`${base}articles/${related.slug}/`}>{related.title}</a>
+                  </h3>
+                  <p>{related.summary}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
+
+        <section class="agent-packet-link" aria-labelledby="agent-packet-title">
+          <h2 id="agent-packet-title">Machine-readable packet</h2>
+          <p>
+            The same claims, sources, and relationships are also available as a structured artifact
+            for agents.
+          </p>
+          <div class="button-row">
+            <a class="button" href={`${base}agents/articles/${article.slug}.json`}>
+              Agent JSON
+            </a>
+            <a class="button" href={`${base}agents/articles/${article.slug}.md`}>
+              Agent brief
+            </a>
+          </div>
         </section>
       </article>
     </div>

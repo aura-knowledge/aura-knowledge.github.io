@@ -25,7 +25,7 @@ const latest = articles[0];
         <a class="button primary" href={`${base}articles/${latest.slug}/`}>
           Read the latest article
         </a>
-        <a class="button" href={`${base}roadmap/`}>View roadmap</a>
+        <a class="button" href={`${base}topics/`}>Browse topics</a>
         <a class="button" href={repoUrl}>Inspect repository</a>
       </div>
     </header>
@@ -52,28 +52,26 @@ const latest = articles[0];
     <section class="section-band section-grid" aria-labelledby="browse-title">
       <div>
         <p class="eyebrow">Browse</p>
-        <h2 id="browse-title">Start with the site, then follow the structure when you need depth.</h2>
+        <h2 id="browse-title">Start with topics and articles, then follow the structure when you need depth.</h2>
       </div>
       <div class="packet-list">
         <article class="packet-item">
           <p>Human path</p>
-          <h3>Essays</h3>
-          <p>Read published arguments as prose first.</p>
-          <a class="packet-link" href={`${base}articles/${latest.slug}/`}>
-            Open the latest article
-          </a>
+          <h3>Topics</h3>
+          <p>Browse essays grouped by idea and claim stem.</p>
+          <a class="packet-link" href={`${base}topics/`}>Browse topics</a>
+        </article>
+        <article class="packet-item">
+          <p>Human path</p>
+          <h3>Articles</h3>
+          <p>See every published essay in one place.</p>
+          <a class="packet-link" href={`${base}articles/`}>All articles</a>
         </article>
         <article class="packet-item">
           <p>Direction</p>
           <h3>Roadmap</h3>
           <p>See the product and research sequence behind the garden.</p>
           <a class="packet-link" href={`${base}roadmap/`}>Open the roadmap</a>
-        </article>
-        <article class="packet-item">
-          <p>Relationships</p>
-          <h3>Graph</h3>
-          <p>Move from topics to articles, then into claim maps.</p>
-          <a class="packet-link" href={`${base}graph/`}>Browse the graph</a>
         </article>
       </div>
     </section>
