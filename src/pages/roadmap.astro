@@ -24,11 +24,11 @@ const ideaById = new Map(roadmap.ideas.map((idea) => [idea.id, idea]));
       <h1>{roadmap.title}</h1>
       <p class="lede">{roadmap.summary}</p>
       <div class="roadmap-actions" aria-label="Roadmap artifacts">
-        <a class="button primary" href={`${base}agents/roadmap/${roadmap.slug}.json`}>
+        <a class="button primary" href={reportUrl}>Research report</a>
+        <a class="button" href={roadmap.sourceRepo.url}>Source repo</a>
+        <a class="button" href={`${base}agents/roadmap/${roadmap.slug}.json`}>
           Agent JSON
         </a>
-        <a class="button" href={reportUrl}>Research report</a>
-        <a class="button" href={roadmap.sourceRepo.url}>Source repo</a>
       </div>
     </header>
 
