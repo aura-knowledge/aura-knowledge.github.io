@@ -795,6 +795,53 @@ h3 {
   scroll-margin-top: 6rem;
 }
 
+.graph-edge-list {
+  display: grid;
+  gap: 0.5rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.graph-edge-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: var(--step--1);
+  color: var(--text-soft);
+}
+
+.edge-type {
+  display: inline-block;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.1rem 0.45rem;
+  font-size: var(--step--2);
+  text-transform: capitalize;
+  background: color-mix(in srgb, var(--surface) 72%, transparent);
+}
+
+.edge-type-supports {
+  border-color: color-mix(in srgb, var(--evidence) 45%, var(--border));
+  color: var(--evidence);
+}
+
+.edge-type-contests {
+  border-color: color-mix(in srgb, var(--caution) 45%, var(--border));
+  color: var(--caution);
+}
+
+.edge-provenance {
+  color: var(--text-muted);
+  font-size: var(--step--2);
+}
+
+.graph-edge-note {
+  color: var(--text-muted);
+  font-size: var(--step--1);
+}
+
 .graph-article-topics {
   margin-bottom: 0.8rem;
 }

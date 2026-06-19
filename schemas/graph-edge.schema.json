@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://v-i-s-h-a-l.github.io/knowledge/schemas/graph-edge.schema.json",
+  "title": "Aura Knowledge Graph Edge",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["from", "to", "type"],
+  "properties": {
+    "from": {
+      "type": "string"
+    },
+    "to": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["supports", "contests", "depends-on", "mentions", "derived-from", "covers", "argues"]
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["reviewedAt", "reviewer", "status"],
+      "properties": {
+        "reviewedAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "reviewer": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["approved", "machine-generated", "unreviewed", "contested"]
+        }
+      }
+    }
+  }
+}
