@@ -8,6 +8,7 @@ import SourceLedger from "../../components/SourceLedger.astro";
 import AgentPacketLink from "../../components/AgentPacketLink.astro";
 import MaturityBadge from "../../components/MaturityBadge.astro";
 import StatusBadge from "../../components/StatusBadge.astro";
+import EmptyState from "../../components/EmptyState.astro";
 import { getArticles } from "../../lib/content";
 
 export function getStaticPaths() {
@@ -87,10 +88,10 @@ const jsonLd = {
 
         <ProvenancePanel provenance={article.artifact.provenance} contentHash={article.artifact.contentHash} />
 
-        {relatedArticles.length > 0 && (
-          <section class="related-reading" aria-labelledby="related-title">
-            <p class="eyebrow">Continue reading</p>
-            <h2 id="related-title">Related articles</h2>
+        <section class="related-reading" aria-labelledby="related-title">
+          <p class="eyebrow">Continue reading</p>
+          <h2 id="related-title">Related articles</h2>
+          {relatedArticles.length > 0 ? (
             <div class="related-reading-grid">
               {relatedArticles.map((related) => (
                 <article class="related-reading-card">
@@ -102,8 +103,15 @@ const jsonLd = {
                 </article>
               ))}
             </div>
-          </section>
-        )}
+          ) : (
+            <EmptyState
+              heading="No related articles yet"
+              headingLevel={3}
+              message="This article doesn't have related published articles yet. Browse topics to explore more ideas."
+              action={{ href: `${base}topics/`, text: "Browse topics" }}
+            />
+          )}
+        </section>
 
         <AgentPacketLink slug={article.slug} base={base} />
       </article>

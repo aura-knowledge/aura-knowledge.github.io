@@ -19,7 +19,6 @@ const pageTitle = title === "Aura Knowledge" ? title : `${title} | Aura Knowledg
 const pathname = Astro.url.pathname;
 
 const navItems = [
-  { href: `${base}`, label: "Home" },
   { href: `${base}topics/`, label: "Topics" },
   { href: `${base}articles/`, label: "Articles" },
   { href: `${base}roadmap/`, label: "Roadmap" },
@@ -88,7 +87,7 @@ const isActive = (href: string) => {
           <span>Structured for agents. Guided for humans.</span>
           <nav aria-label="Utility links">
             <a class="footer-utility" href={`${base}agents/`}>Agent entry</a>
-            <a class="footer-utility" href={`${base}graph/`}>Graph</a>
+            <a class="footer-utility" href={`${base}llms.txt`}>llms.txt</a>
           </nav>
         </div>
       </div>

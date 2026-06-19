@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import EmptyState from "../../components/EmptyState.astro";
 import {
   getArticles,
   groupArticlesByYear,
@@ -65,10 +66,10 @@ const sortedMonths = Array.from(yearMonthGroups.entries()).sort(([a], [b]) => b.
           </section>
         ))
       ) : (
-        <div class="empty-state">
-          <p>No articles were published in {year}.</p>
-          <a class="button" href={`${base}articles/`}>Browse all articles</a>
-        </div>
+        <EmptyState
+          message={`No articles were published in ${year}.`}
+          action={{ href: `${base}articles/`, text: "Browse all articles" }}
+        />
       )}
     </section>
   </div>

@@ -1,0 +1,20 @@
+---
+export interface Props {
+  heading?: string;
+  headingLevel?: 1 | 2 | 3 | 4 | 5 | 6;
+  message: string;
+  action?: {
+    href: string;
+    text: string;
+  };
+}
+
+const { heading, headingLevel = 2, message, action } = Astro.props;
+const HeadingTag = `h${headingLevel}` as const;
+---
+
+<div class="empty-state">
+  {heading && <HeadingTag>{heading}</HeadingTag>}
+  <p>{message}</p>
+  {action && <a class="button" href={action.href}>{action.text}</a>}
+</div>

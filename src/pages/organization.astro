@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import EmptyState from "../components/EmptyState.astro";
 import { getArticles } from "../lib/content";
 
 const base = import.meta.env.BASE_URL;
@@ -21,6 +22,14 @@ const latest = articles[0] ?? null;
         trace, and review. The human path starts with readable pages; the source remains public so
         the work behind them can be inspected and improved.
       </p>
+      {!latest && (
+        <EmptyState
+          heading="Nothing here yet"
+          headingLevel={2}
+          message="No published articles yet. The garden will appear once the first essay is reviewed and marked published."
+          action={{ href: `${base}roadmap/`, text: "Open the roadmap" }}
+        />
+      )}
       <div class="button-row" aria-label="Organization starting points">
         {latest && (
           <a class="button primary" href={`${base}articles/${latest.slug}/`}>

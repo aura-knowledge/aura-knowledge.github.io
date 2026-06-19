@@ -190,11 +190,22 @@ code {
   background: color-mix(in srgb, var(--surface) 76%, transparent);
 }
 
-.nav-links a.is-active {
+.nav-links a.is-active,
+.nav-links a[aria-current="page"] {
   border-color: var(--accent-strong);
   color: var(--text);
   background: var(--surface-raised);
   font-weight: 720;
+}
+
+/* Preserve active indicators when the current nav item is hovered or focused
+   so it remains distinct from non-active hover/focus states. */
+.nav-links a.is-active:hover,
+.nav-links a.is-active:focus-visible,
+.nav-links a[aria-current="page"]:hover,
+.nav-links a[aria-current="page"]:focus-visible {
+  border-color: var(--accent-strong);
+  background: var(--surface-raised);
 }
 
 .page-shell {
@@ -282,6 +293,12 @@ h3 {
   box-shadow: var(--shadow);
 }
 
+/* WCAG 2.2 focus audit (#16):
+   - Default button: 2px ring in --accent-strong; 8.6:1 (light) / 13.8:1 (dark)
+     against the page background.
+   - Primary button: outer ring uses --text so it contrasts with both the
+     accent-strong button background (via the --bg gap: 8.6:1 / 13.8:1) and the
+     page background (17.3:1 / 17.1:1). */
 .button:focus-visible {
   transform: translateY(-1px);
   border-color: var(--accent-strong);
@@ -293,6 +310,9 @@ h3 {
 
 .button.primary:focus-visible {
   border-color: var(--bg);
+  box-shadow:
+    0 0 0 2px var(--bg),
+    0 0 0 4px var(--text);
 }
 
 .stem-panel {
@@ -1552,5 +1572,10 @@ h3 {
     animation-iteration-count: 1 !important;
     scroll-behavior: auto !important;
     transition-duration: 0.001ms !important;
+  }
+
+  .button:hover,
+  .button:focus-visible {
+    transform: none;
   }
 }

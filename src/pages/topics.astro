@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import EmptyState from "../components/EmptyState.astro";
 import TopicChip from "../components/TopicChip.astro";
 import { getArticles, getTopicEntries } from "../lib/content";
 
@@ -40,13 +41,12 @@ const topicEntries = getTopicEntries(articles);
           </article>
         ))
       ) : (
-        <div class="empty-state">
-          <p>
-            No topics have been published yet. Topics are created from published
-            articles, so new stems will appear once the first essay goes live.
-          </p>
-          <a class="button" href={`${base}articles/`}>Browse articles</a>
-        </div>
+        <EmptyState
+          heading="No topics yet"
+          headingLevel={2}
+          message="No topics have been published yet. Topics are created from published articles, so new stems will appear once the first essay goes live."
+          action={{ href: `${base}articles/`, text: "Browse articles" }}
+        />
       )}
     </section>
   </div>

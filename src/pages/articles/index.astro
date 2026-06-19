@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import EmptyState from "../../components/EmptyState.astro";
 import { getArticles, getYearEntries } from "../../lib/content";
 
 const base = import.meta.env.BASE_URL;
@@ -56,13 +57,12 @@ const yearEntries = getYearEntries(articles);
             </article>
           ))
         ) : (
-          <div class="empty-state">
-            <p>
-              No articles have been published yet. New essays will appear here once
-              they are reviewed and marked published.
-            </p>
-            <a class="button" href={`${base}roadmap/`}>See the roadmap</a>
-          </div>
+          <EmptyState
+            heading="No articles yet"
+            headingLevel={3}
+            message="No articles have been published yet. New essays will appear here once they are reviewed and marked published."
+            action={{ href: `${base}roadmap/`, text: "See the roadmap" }}
+          />
         )}
       </div>
     </section>

@@ -2,6 +2,7 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import EmptyState from "../components/EmptyState.astro";
 import { getArticles, getTopicEntries, formatTopicLabel } from "../lib/content";
 
 const base = import.meta.env.BASE_URL;
@@ -36,19 +37,28 @@ function nodeLabel(id) {
     </header>
 
     <section class="graph-stems" aria-label="Topic stems">
-      {topicEntries.map(([topic, topicArticles]) => (
-        <article class="graph-stem" id={`topic-${topic}`}>
-          <header>
-            <p class="eyebrow">Topic</p>
-            <h2>{formatTopicLabel(topic)}</h2>
-          </header>
-          <div class="graph-topic-links">
-            {topicArticles.map((article) => (
-              <a href={`#${article.slug}-claims`}>{article.title}</a>
-            ))}
-          </div>
-        </article>
-      ))}
+      {topicEntries.length > 0 ? (
+        topicEntries.map(([topic, topicArticles]) => (
+          <article class="graph-stem" id={`topic-${topic}`}>
+            <header>
+              <p class="eyebrow">Topic</p>
+              <h2>{formatTopicLabel(topic)}</h2>
+            </header>
+            <div class="graph-topic-links">
+              {topicArticles.map((article) => (
+                <a href={`#${article.slug}-claims`}>{article.title}</a>
+              ))}
+            </div>
+          </article>
+        ))
+      ) : (
+        <EmptyState
+          heading="No topic stems yet"
+          headingLevel={2}
+          message="No topics have been published yet. Topic stems appear once articles are published."
+          action={{ href: `${base}articles/`, text: "Browse articles" }}
+        />
+      )}
     </section>
 
     <section class="graph-branch-list graph-article-branches" aria-labelledby="article-claim-maps">
@@ -56,27 +66,36 @@ function nodeLabel(id) {
         <p class="eyebrow">Article maps</p>
         <h2 id="article-claim-maps">Each article appears once with its claims.</h2>
       </div>
-      {articles.map((article) => (
-        <section class="graph-branch" id={`${article.slug}-claims`}>
-          <div class="graph-article-topics" aria-label="Topics">
-            {article.artifact.topics.map((topic) => (
-              <a href={`#topic-${topic}`}>{formatTopicLabel(topic)}</a>
-            ))}
-          </div>
-          <h3>
-            <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
-          </h3>
-          <p>{article.artifact.thesis}</p>
-          <ol>
-            {article.artifact.claims.map((claim) => (
-              <li>
-                <span>{claim.id.replace("claim-", "C")}</span>
-                {claim.claim}
-              </li>
-            ))}
-          </ol>
-        </section>
-      ))}
+      {articles.length > 0 ? (
+        articles.map((article) => (
+          <section class="graph-branch" id={`${article.slug}-claims`}>
+            <div class="graph-article-topics" aria-label="Topics">
+              {article.artifact.topics.map((topic) => (
+                <a href={`#topic-${topic}`}>{formatTopicLabel(topic)}</a>
+              ))}
+            </div>
+            <h3>
+              <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
+            </h3>
+            <p>{article.artifact.thesis}</p>
+            <ol>
+              {article.artifact.claims.map((claim) => (
+                <li>
+                  <span>{claim.id.replace("claim-", "C")}</span>
+                  {claim.claim}
+                </li>
+              ))}
+            </ol>
+          </section>
+        ))
+      ) : (
+        <EmptyState
+          heading="No article maps yet"
+          headingLevel={3}
+          message="No articles have been published yet. Article claim maps will appear once essays are published."
+          action={{ href: `${base}roadmap/`, text: "Open the roadmap" }}
+        />
+      )}
     </section>
 
     <section class="section-band" aria-labelledby="graph-edges-title">
