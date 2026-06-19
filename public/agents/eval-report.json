@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-18T00:00:00.000Z",
+  "summary": {
+    "total": 5,
+    "passed": 5,
+    "failed": 0
+  },
+  "cases": [
+    {
+      "id": "eval-product-truth-topic",
+      "description": "The product-truth topic should return the agentic commerce article.",
+      "passed": true,
+      "query": {
+        "topic": "product-truth"
+      },
+      "expected": {
+        "slugs": [
+          "agentic-commerce-product-truth"
+        ],
+        "notSlugs": [
+          "agent-auditable-research"
+        ]
+      },
+      "actual": {
+        "slugs": [
+          "agentic-commerce-product-truth"
+        ],
+        "claimIds": [
+          "article:agentic-commerce-product-truth:claim-001",
+          "article:agentic-commerce-product-truth:claim-002",
+          "article:agentic-commerce-product-truth:claim-003",
+          "article:agentic-commerce-product-truth:claim-004",
+          "article:agentic-commerce-product-truth:claim-005",
+          "article:agentic-commerce-product-truth:claim-006",
+          "article:agentic-commerce-product-truth:claim-007",
+          "article:agentic-commerce-product-truth:claim-008",
+          "article:agentic-commerce-product-truth:claim-009",
+          "article:agentic-commerce-product-truth:claim-010",
+          "article:agentic-commerce-product-truth:claim-011",
+          "article:agentic-commerce-product-truth:claim-012",
+          "article:agentic-commerce-product-truth:claim-013",
+          "article:agentic-commerce-product-truth:claim-014",
+          "article:agentic-commerce-product-truth:claim-015"
+        ]
+      },
+      "failures": []
+    },
+    {
+      "id": "eval-ai-native-publishing-topic",
+      "description": "The ai-native-publishing topic should return the auditable research article.",
+      "passed": true,
+      "query": {
+        "topic": "ai-native-publishing"
+      },
+      "expected": {
+        "slugs": [
+          "agent-auditable-research"
+        ],
+        "notSlugs": [
+          "agentic-commerce-product-truth"
+        ]
+      },
+      "actual": {
+        "slugs": [
+          "agent-auditable-research"
+        ],
+        "claimIds": [
+          "article:agent-auditable-research:claim-001",
+          "article:agent-auditable-research:claim-002",
+          "article:agent-auditable-research:claim-003",
+          "article:agent-auditable-research:claim-004",
+          "article:agent-auditable-research:claim-005",
+          "article:agent-auditable-research:claim-006"
+        ]
+      },
+      "failures": []
+    },
+    {
+      "id": "eval-keyword-agent",
+      "description": "A keyword search for 'agent' should match both published articles.",
+      "passed": true,
+      "query": {
+        "keyword": "agent"
+      },
+      "expected": {
+        "slugs": [
+          "agent-auditable-research",
+          "agentic-commerce-product-truth"
+        ]
+      },
+      "actual": {
+        "slugs": [
+          "agent-auditable-research",
+          "agentic-commerce-product-truth"
+        ],
+        "claimIds": [
+          "article:agent-auditable-research:claim-001",
+          "article:agent-auditable-research:claim-002",
+          "article:agent-auditable-research:claim-003",
+          "article:agent-auditable-research:claim-004",
+          "article:agent-auditable-research:claim-005",
+          "article:agent-auditable-research:claim-006",
+          "article:agentic-commerce-product-truth:claim-001",
+          "article:agentic-commerce-product-truth:claim-002",
+          "article:agentic-commerce-product-truth:claim-003",
+          "article:agentic-commerce-product-truth:claim-004",
+          "article:agentic-commerce-product-truth:claim-005",
+          "article:agentic-commerce-product-truth:claim-006",
+          "article:agentic-commerce-product-truth:claim-007",
+          "article:agentic-commerce-product-truth:claim-008",
+          "article:agentic-commerce-product-truth:claim-009",
+          "article:agentic-commerce-product-truth:claim-010",
+          "article:agentic-commerce-product-truth:claim-011",
+          "article:agentic-commerce-product-truth:claim-012",
+          "article:agentic-commerce-product-truth:claim-013",
+          "article:agentic-commerce-product-truth:claim-014",
+          "article:agentic-commerce-product-truth:claim-015"
+        ]
+      },
+      "failures": []
+    },
+    {
+      "id": "eval-draft-claims",
+      "description": "Both published articles currently contain draft-state claims.",
+      "passed": true,
+      "query": {
+        "claimState": "draft"
+      },
+      "expected": {
+        "slugs": [
+          "agent-auditable-research",
+          "agentic-commerce-product-truth"
+        ]
+      },
+      "actual": {
+        "slugs": [
+          "agent-auditable-research",
+          "agentic-commerce-product-truth"
+        ],
+        "claimIds": [
+          "article:agent-auditable-research:claim-001",
+          "article:agent-auditable-research:claim-002",
+          "article:agent-auditable-research:claim-003",
+          "article:agent-auditable-research:claim-004",
+          "article:agent-auditable-research:claim-005",
+          "article:agent-auditable-research:claim-006",
+          "article:agentic-commerce-product-truth:claim-001",
+          "article:agentic-commerce-product-truth:claim-002",
+          "article:agentic-commerce-product-truth:claim-003",
+          "article:agentic-commerce-product-truth:claim-004",
+          "article:agentic-commerce-product-truth:claim-005",
+          "article:agentic-commerce-product-truth:claim-006",
+          "article:agentic-commerce-product-truth:claim-007",
+          "article:agentic-commerce-product-truth:claim-008",
+          "article:agentic-commerce-product-truth:claim-009",
+          "article:agentic-commerce-product-truth:claim-010",
+          "article:agentic-commerce-product-truth:claim-011",
+          "article:agentic-commerce-product-truth:claim-012",
+          "article:agentic-commerce-product-truth:claim-013",
+          "article:agentic-commerce-product-truth:claim-014",
+          "article:agentic-commerce-product-truth:claim-015"
+        ]
+      },
+      "failures": []
+    },
+    {
+      "id": "eval-related-to-auditable-research",
+      "description": "The agentic commerce article is related to the auditable research article via the related graph edge.",
+      "passed": true,
+      "query": {
+        "relatedTo": "agent-auditable-research"
+      },
+      "expected": {
+        "slugs": [
+          "agentic-commerce-product-truth"
+        ],
+        "notSlugs": [
+          "agent-auditable-research"
+        ]
+      },
+      "actual": {
+        "slugs": [
+          "agentic-commerce-product-truth"
+        ],
+        "claimIds": [
+          "article:agentic-commerce-product-truth:claim-001",
+          "article:agentic-commerce-product-truth:claim-002",
+          "article:agentic-commerce-product-truth:claim-003",
+          "article:agentic-commerce-product-truth:claim-004",
+          "article:agentic-commerce-product-truth:claim-005",
+          "article:agentic-commerce-product-truth:claim-006",
+          "article:agentic-commerce-product-truth:claim-007",
+          "article:agentic-commerce-product-truth:claim-008",
+          "article:agentic-commerce-product-truth:claim-009",
+          "article:agentic-commerce-product-truth:claim-010",
+          "article:agentic-commerce-product-truth:claim-011",
+          "article:agentic-commerce-product-truth:claim-012",
+          "article:agentic-commerce-product-truth:claim-013",
+          "article:agentic-commerce-product-truth:claim-014",
+          "article:agentic-commerce-product-truth:claim-015"
+        ]
+      },
+      "failures": []
+    }
+  ]
+}

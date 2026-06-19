@@ -31,6 +31,8 @@ const roadmapSchema = await readJson(path.join(rootDir, "schemas", "roadmap.sche
 const policySchema = await readJson(path.join(rootDir, "schemas", "policy.schema.json"));
 const gardenQueriesSchema = await readJson(path.join(rootDir, "schemas", "garden-queries.schema.json"));
 const agentFeedsSchema = await readJson(path.join(rootDir, "schemas", "agent-feeds.schema.json"));
+const briefEvalSetSchema = await readJson(path.join(rootDir, "schemas", "brief-eval-set.schema.json"));
+const evalReportSchema = await readJson(path.join(rootDir, "schemas", "eval-report.schema.json"));
 const validateArticle = ajv.compile(articleSchema);
 const validateAgent = ajv.compile(agentSchema);
 const validateArtifact = ajv.compile(artifactSchema);
@@ -38,6 +40,8 @@ const validateRoadmap = ajv.compile(roadmapSchema);
 const validatePolicy = ajv.compile(policySchema);
 const validateGardenQueries = ajv.compile(gardenQueriesSchema);
 const validateAgentFeeds = ajv.compile(agentFeedsSchema);
+const validateBriefEvalSet = ajv.compile(briefEvalSetSchema);
+const validateEvalReport = ajv.compile(evalReportSchema);
 
 async function loadPolicies() {
   const knownPolicies = new Map();
@@ -289,6 +293,8 @@ await assertExists(path.join(publicRoot, "agents", "feeds", "claims.jsonl"));
 await assertExists(path.join(publicRoot, "agents", "feeds", "sources.jsonl"));
 await assertExists(path.join(publicRoot, "agents", "feeds", "roadmap.jsonl"));
 await assertExists(path.join(publicRoot, "agents", "feeds", "edges.jsonl"));
+await assertExists(path.join(rootDir, "content", "eval", "brief-eval-set.json"));
+await assertExists(path.join(publicRoot, "agents", "eval-report.json"));
 await assertExists(path.join(publicRoot, "graph", "nodes.json"));
 await assertExists(path.join(publicRoot, "graph", "edges.json"));
 await assertExists(path.join(publicRoot, "llms.txt"));
@@ -450,6 +456,32 @@ try {
   });
 } catch (error) {
   report(`Generated agent feeds are invalid: ${error.message}`);
+}
+
+try {
+  const evalSet = await readJson(path.join(rootDir, "content", "eval", "brief-eval-set.json"));
+  if (!validateBriefEvalSet(evalSet)) {
+    formatAjvErrors("content/eval/brief-eval-set", validateBriefEvalSet);
+  }
+
+  const evalReport = await readJson(path.join(publicRoot, "agents", "eval-report.json"));
+  if (!validateEvalReport(evalReport)) {
+    formatAjvErrors("agents/eval-report", validateEvalReport);
+  }
+  if (evalReport.schemaVersion !== 1) {
+    report(`agents/eval-report: unexpected schemaVersion ${evalReport.schemaVersion}.`);
+  }
+  if (evalReport.summary.total !== evalSet.cases.length) {
+    report(`agents/eval-report: case count ${evalReport.summary.total} does not match eval set ${evalSet.cases.length}.`);
+  }
+  const evalIds = new Set(evalSet.cases.map((c) => c.id));
+  for (const result of evalReport.cases) {
+    if (!evalIds.has(result.id)) {
+      report(`agents/eval-report: result id ${result.id} is not in eval set.`);
+    }
+  }
+} catch (error) {
+  report(`Generated eval report is invalid: ${error.message}`);
 }
 
 try {

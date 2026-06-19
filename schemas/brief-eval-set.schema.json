@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aura-knowledge.github.io/schemas/brief-eval-set.schema.json",
+  "title": "Brief Evaluation Set",
+  "description": "Static evaluation cases for agent brief retrieval against the knowledge garden.",
+  "type": "object",
+  "required": ["schemaVersion", "cases"],
+  "additionalProperties": true,
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "cases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "query", "expected"],
+        "additionalProperties": true,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "query": {
+            "type": "object",
+            "additionalProperties": true
+          },
+          "expected": {
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+              "slugs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "notSlugs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "claimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
