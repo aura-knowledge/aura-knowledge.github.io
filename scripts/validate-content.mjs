@@ -30,12 +30,14 @@ const artifactSchema = await readJson(path.join(rootDir, "schemas", "artifact.sc
 const roadmapSchema = await readJson(path.join(rootDir, "schemas", "roadmap.schema.json"));
 const policySchema = await readJson(path.join(rootDir, "schemas", "policy.schema.json"));
 const gardenQueriesSchema = await readJson(path.join(rootDir, "schemas", "garden-queries.schema.json"));
+const agentFeedsSchema = await readJson(path.join(rootDir, "schemas", "agent-feeds.schema.json"));
 const validateArticle = ajv.compile(articleSchema);
 const validateAgent = ajv.compile(agentSchema);
 const validateArtifact = ajv.compile(artifactSchema);
 const validateRoadmap = ajv.compile(roadmapSchema);
 const validatePolicy = ajv.compile(policySchema);
 const validateGardenQueries = ajv.compile(gardenQueriesSchema);
+const validateAgentFeeds = ajv.compile(agentFeedsSchema);
 
 async function loadPolicies() {
   const knownPolicies = new Map();
@@ -282,6 +284,11 @@ for (const article of articles) {
 await assertExists(path.join(publicRoot, "agents", "index.json"));
 await assertExists(path.join(publicRoot, "agents", "index.jsonl"));
 await assertExists(path.join(publicRoot, "agents", "garden-queries.json"));
+await assertExists(path.join(publicRoot, "agents", "feeds", "manifest.json"));
+await assertExists(path.join(publicRoot, "agents", "feeds", "claims.jsonl"));
+await assertExists(path.join(publicRoot, "agents", "feeds", "sources.jsonl"));
+await assertExists(path.join(publicRoot, "agents", "feeds", "roadmap.jsonl"));
+await assertExists(path.join(publicRoot, "agents", "feeds", "edges.jsonl"));
 await assertExists(path.join(publicRoot, "graph", "nodes.json"));
 await assertExists(path.join(publicRoot, "graph", "edges.json"));
 await assertExists(path.join(publicRoot, "llms.txt"));
@@ -320,6 +327,9 @@ try {
   report(`Generated agent index is invalid: ${error.message}`);
 }
 
+let nodeIds = new Set();
+let indexArticleIds = new Set();
+
 try {
   const nodes = await readJson(path.join(publicRoot, "graph", "nodes.json"));
   const edgesPacket = await readJson(path.join(publicRoot, "graph", "edges.json"));
@@ -327,7 +337,7 @@ try {
   if (edgesPacket.schemaVersion && edgesPacket.schemaVersion !== 2) {
     report(`graph: edges.json schemaVersion ${edgesPacket.schemaVersion} is not the expected v2.`);
   }
-  const nodeIds = new Set(nodes.map((node) => node.id));
+  nodeIds = new Set(nodes.map((node) => node.id));
   reportDuplicates("graph", "node id", nodes.map((node) => node.id));
   reportDuplicates("graph", "edge", edges.map((edge) => `${edge.from}:${edge.type}:${edge.to}`));
 
@@ -359,7 +369,7 @@ try {
   }
 
   const index = await readJson(path.join(publicRoot, "agents", "index.json"));
-  const indexArticleIds = new Set(index.articles?.map((entry) => entry.id) ?? []);
+  indexArticleIds = new Set(index.articles?.map((entry) => entry.id) ?? []);
   for (const query of catalog.queries ?? []) {
     for (const result of query.results ?? []) {
       if (!indexArticleIds.has(result.articleId)) {
@@ -369,6 +379,77 @@ try {
   }
 } catch (error) {
   report(`Generated garden query catalog is invalid: ${error.message}`);
+}
+
+try {
+  const manifest = await readJson(path.join(publicRoot, "agents", "feeds", "manifest.json"));
+  if (!validateAgentFeeds(manifest)) {
+    formatAjvErrors("agent-feeds/manifest", validateAgentFeeds);
+  }
+
+  const knownSourceIds = new Set(publishedArticles.flatMap((article) => article.artifact.sources.map((source) => source.id)));
+  const knownClaimIds = new Set(
+    publishedArticles.flatMap((article) =>
+      article.artifact.claims.map((claim) => `${article.artifact.id}:${claim.id}`)
+    )
+  );
+
+  async function validateJsonlFeed(name, requiredFields, validateLine) {
+    const filePath = path.join(publicRoot, "agents", "feeds", `${name}.jsonl`);
+    const raw = await readFile(filePath, "utf8");
+    const lines = raw.trim().split("\n").filter(Boolean);
+    const expectedCount = manifest.counts[name] ?? manifest.files[name]?.count;
+    if (lines.length !== expectedCount) {
+      report(`agent-feeds/${name}: line count ${lines.length} does not match manifest ${expectedCount}.`);
+    }
+    for (let i = 0; i < lines.length; i += 1) {
+      let line;
+      try {
+        line = JSON.parse(lines[i]);
+      } catch {
+        report(`agent-feeds/${name}:${i + 1}: invalid JSON.`);
+        continue;
+      }
+      for (const field of requiredFields) {
+        if (!(field in line)) {
+          report(`agent-feeds/${name}:${i + 1}: missing ${field}.`);
+        }
+      }
+      if (validateLine) {
+        validateLine(line, i + 1);
+      }
+    }
+  }
+
+  await validateJsonlFeed("claims", ["articleId", "slug", "claimId"], (line, row) => {
+    if (!indexArticleIds.has(line.articleId)) {
+      report(`agent-feeds/claims:${row}: unknown articleId ${line.articleId}.`);
+    }
+    if (!knownClaimIds.has(line.claimId)) {
+      report(`agent-feeds/claims:${row}: unknown claimId ${line.claimId}.`);
+    }
+  });
+
+  await validateJsonlFeed("sources", ["articleId", "slug", "sourceId"], (line, row) => {
+    if (!indexArticleIds.has(line.articleId)) {
+      report(`agent-feeds/sources:${row}: unknown articleId ${line.articleId}.`);
+    }
+    if (!knownSourceIds.has(line.sourceId)) {
+      report(`agent-feeds/sources:${row}: unknown sourceId ${line.sourceId}.`);
+    }
+  });
+
+  await validateJsonlFeed("roadmap", ["roadmapId", "ideaId", "title", "priority", "category"]);
+  await validateJsonlFeed("edges", ["from", "to", "type"], (line, row) => {
+    if (!nodeIds.has(line.from)) {
+      report(`agent-feeds/edges:${row}: unknown from node ${line.from}.`);
+    }
+    if (!nodeIds.has(line.to)) {
+      report(`agent-feeds/edges:${row}: unknown to node ${line.to}.`);
+    }
+  });
+} catch (error) {
+  report(`Generated agent feeds are invalid: ${error.message}`);
 }
 
 try {

@@ -1,0 +1,16 @@
+{"roadmapId":"roadmap:awesome-llm-apps-roadmap","ideaId":"idea-claim-evidence-packet-v2","title":"Claim Evidence Packet v2","priority":"P0","category":"evidence","phaseId":"phase-0"}
+{"roadmapId":"roadmap:awesome-llm-apps-roadmap","ideaId":"idea-evidence-ci-diagnostics","title":"Evidence CI And RAG Diagnostics","priority":"P0","category":"governance","phaseId":"phase-0"}
+{"roadmapId":"roadmap:awesome-llm-apps-roadmap","ideaId":"idea-claim-verification-workbench","title":"Claim Verification Workbench","priority":"P0","category":"evidence","phaseId":"phase-0"}
+{"roadmapId":"roadmap:awesome-llm-apps-roadmap","ideaId":"idea-ux-governance-checks","title":"UX Governance Checks","priority":"P0","category":"interface","phaseId":"phase-0"}
+{"roadmapId":"roadmap:awesome-llm-apps-roadmap","ideaId":"idea-research-workspace-builder","title":"Research Workspace Builder","priority":"P0","category":"authoring","phaseId":"phase-1"}
+{"roadmapId":"roadmap:awesome-llm-apps-roadmap","ideaId":"idea-artifact-widget-catalog","title":"Artifact Widget Catalog","priority":"P0","category":"interface","phaseId":"phase-1"}
+{"roadmapId":"roadmap:awesome-llm-apps-roadmap","ideaId":"idea-trust-gated-publishing-pipeline","title":"Trust-Gated Publishing Pipeline","priority":"P0","category":"governance","phaseId":"phase-1"}
+{"roadmapId":"roadmap:awesome-llm-apps-roadmap","ideaId":"idea-always-on-source-ledger-scout","title":"Always-On Source Ledger Scout","priority":"P1","category":"authoring","phaseId":"phase-2"}
+{"roadmapId":"roadmap:awesome-llm-apps-roadmap","ideaId":"idea-provenance-graph-v2","title":"Provenance Graph v2","priority":"P1","category":"retrieval","phaseId":"phase-2"}
+{"roadmapId":"roadmap:awesome-llm-apps-roadmap","ideaId":"idea-source-ledger-importer","title":"Source Ledger Importer","priority":"P1","category":"authoring","phaseId":"phase-2"}
+{"roadmapId":"roadmap:awesome-llm-apps-roadmap","ideaId":"idea-corrective-research-assistant","title":"Corrective Research Assistant","priority":"P1","category":"evidence","phaseId":"phase-2"}
+{"roadmapId":"roadmap:awesome-llm-apps-roadmap","ideaId":"idea-garden-mcp-router","title":"Garden MCP Router","priority":"P1","category":"retrieval","phaseId":"phase-2"}
+{"roadmapId":"roadmap:awesome-llm-apps-roadmap","ideaId":"idea-compact-agent-feeds","title":"Compact Agent Feeds","priority":"P1","category":"optimization","phaseId":"phase-3"}
+{"roadmapId":"roadmap:awesome-llm-apps-roadmap","ideaId":"idea-claim-evidence-canvas","title":"Claim Evidence Canvas","priority":"P1","category":"interface","phaseId":"phase-3"}
+{"roadmapId":"roadmap:awesome-llm-apps-roadmap","ideaId":"idea-agent-brief-evaluation-harness","title":"Agent Brief Evaluation Harness","priority":"P2","category":"optimization","phaseId":"phase-3"}
+{"roadmapId":"roadmap:awesome-llm-apps-roadmap","ideaId":"idea-agent-native-packet-inspector","title":"Agent-Native Packet Inspector","priority":"P2","category":"interface","phaseId":"phase-3"}

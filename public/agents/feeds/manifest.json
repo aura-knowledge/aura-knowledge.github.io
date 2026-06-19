@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-18T00:00:00.000Z",
+  "site": "https://aura-knowledge.github.io",
+  "base": "",
+  "counts": {
+    "claims": 21,
+    "sources": 43,
+    "roadmap": 16,
+    "edges": 113
+  },
+  "files": {
+    "claims": {
+      "path": "/agents/feeds/claims.jsonl",
+      "count": 21
+    },
+    "sources": {
+      "path": "/agents/feeds/sources.jsonl",
+      "count": 43
+    },
+    "roadmap": {
+      "path": "/agents/feeds/roadmap.jsonl",
+      "count": 16
+    },
+    "edges": {
+      "path": "/agents/feeds/edges.jsonl",
+      "count": 113
+    }
+  }
+}

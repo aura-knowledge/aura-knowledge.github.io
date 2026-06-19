@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aura-knowledge.github.io/schemas/agent-feeds.schema.json",
+  "title": "Agent Feeds Manifest",
+  "description": "Manifest for compact agent feeds derived from the Aura Knowledge garden.",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "site", "base", "counts", "files"],
+  "additionalProperties": true,
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "generatedAt": {
+      "type": "string"
+    },
+    "site": {
+      "type": "string",
+      "format": "uri"
+    },
+    "base": {
+      "type": "string"
+    },
+    "counts": {
+      "type": "object",
+      "required": ["claims", "sources", "roadmap", "edges"],
+      "additionalProperties": true,
+      "properties": {
+        "claims": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "sources": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "roadmap": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "edges": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "files": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["path", "count"],
+        "additionalProperties": true,
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    }
+  }
+}

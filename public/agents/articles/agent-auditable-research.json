@@ -308,6 +308,7 @@
   "agentMarkdownPath": "/agents/articles/agent-auditable-research.md",
   "sourceRepoPath": "content/articles/2026/agent-auditable-research/article.md",
   "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/agent-auditable-research/article.md",
+  "tokenEstimate": 473,
   "sectionOutline": [
     {
       "id": "the-broken-artifact",
