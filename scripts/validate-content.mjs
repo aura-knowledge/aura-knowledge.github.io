@@ -231,9 +231,14 @@ for (const article of articles) {
 
   const sourceIds = new Set(article.artifact.sources.map((source) => source.id));
   for (const claim of article.artifact.claims) {
-    for (const sourceId of claim.evidence) {
-      if (!sourceIds.has(sourceId)) {
-        report(`${prefix}: ${claim.id} references missing source ${sourceId}.`);
+    for (const packet of claim.evidence) {
+      if (!sourceIds.has(packet.sourceId)) {
+        report(`${prefix}: ${claim.id} references missing source ${packet.sourceId}.`);
+      }
+    }
+    for (const packet of claim.counterevidence) {
+      if (packet.sourceId && !sourceIds.has(packet.sourceId)) {
+        report(`${prefix}: ${claim.id} references missing counterevidence source ${packet.sourceId}.`);
       }
     }
   }

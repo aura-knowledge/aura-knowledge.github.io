@@ -19,7 +19,10 @@ const { claims } = Astro.props;
       <li>
         <a href={`#${claim.id}`} data-focus-link={claim.id}>
           <span>{claim.id.replace("claim-", "C")}</span>
-          <strong>{claim.status} · {claim.confidence}</strong>
+          <strong>
+            {claim.status} · {claim.confidence}
+            {claim.verification && ` · ${claim.verification.status}`}
+          </strong>
           <em>{claim.claim}</em>
         </a>
       </li>
@@ -34,7 +37,10 @@ const { claims } = Astro.props;
       <li>
         <a href={`#${claim.id}`} data-focus-link={claim.id}>
           <span>{claim.id.replace("claim-", "C")}</span>
-          <strong>{claim.status} · {claim.confidence}</strong>
+          <strong>
+            {claim.status} · {claim.confidence}
+            {claim.verification && ` · ${claim.verification.status}`}
+          </strong>
           <em>{claim.claim}</em>
         </a>
       </li>

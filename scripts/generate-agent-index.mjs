@@ -104,8 +104,8 @@ function buildGraph(articles) {
       });
       addEdge(artifact.id, claimNodeId, "argues");
 
-      for (const sourceId of claim.evidence) {
-        addEdge(claimNodeId, sourceId, "supported-by");
+      for (const packet of claim.evidence) {
+        addEdge(claimNodeId, packet.sourceId, "supported-by");
       }
     }
 
@@ -300,9 +300,10 @@ const llms = [
     `- [${entry.slug} JSON](${siteUrl(entry.agentJsonPath)})`,
     `- [${entry.slug} Markdown](${siteUrl(entry.agentMarkdownPath)})`
   ]),
+  ...topicsIndex.map((topic) => `- [${topic.topic} topic JSON](${siteUrl(topic.agentJsonPath)})`),
   "",
   "## Use",
-  "Use article packets as the retrieval unit. Treat maturity values as uncertainty markers. Prefer claim IDs and source IDs over inferred citations.",
+  "Use article packets as the retrieval unit. Treat maturity values as uncertainty markers. Prefer claim IDs and source IDs over inferred citations. Article artifacts use schemaVersion 2; evidence and counterevidence are typed packets, not bare source IDs.",
   ""
 ].join("\n");
 
