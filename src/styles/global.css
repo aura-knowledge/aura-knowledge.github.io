@@ -1214,6 +1214,43 @@ h3 {
   color: var(--text-soft) !important;
 }
 
+.maturity-badge,
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.16rem 0.55rem;
+  font-size: var(--step--1);
+  line-height: 1;
+  text-transform: capitalize;
+}
+
+.status-draft {
+  border-color: color-mix(in srgb, var(--text-soft) 45%, var(--border));
+  background: color-mix(in srgb, var(--surface) 72%, transparent);
+  color: var(--text-soft);
+}
+
+.status-review {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  color: var(--accent-strong);
+}
+
+.status-published {
+  border-color: color-mix(in srgb, var(--evidence) 45%, var(--border));
+  background: color-mix(in srgb, var(--evidence) 10%, transparent);
+  color: var(--evidence);
+}
+
+.status-archived {
+  border-color: color-mix(in srgb, var(--text-muted) 45%, var(--border));
+  background: color-mix(in srgb, var(--text-muted) 10%, transparent);
+  color: var(--text-muted);
+}
+
 .empty-state {
   border: 1px solid var(--border);
   border-radius: 8px;

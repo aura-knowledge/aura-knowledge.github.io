@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import RoadmapCard from "../components/RoadmapCard.astro";
 import roadmap from "../../content/roadmap/awesome-llm-apps-roadmap.json";
 
 const base = import.meta.env.BASE_URL;
@@ -67,21 +68,7 @@ const ideaById = new Map(roadmap.ideas.map((idea) => [idea.id, idea]));
       </div>
       <div class="phase-lane">
         {roadmap.phases.map((phase, index) => (
-          <article class="phase-card">
-            <header>
-              <span>{String(index + 1).padStart(2, "0")}</span>
-              <div>
-                <p>{phase.horizon}</p>
-                <h3>{phase.name}</h3>
-              </div>
-            </header>
-            <p>{phase.outcome}</p>
-            <ol>
-              {phase.ideaIds.map((id) => (
-                <li>{ideaById.get(id)?.title ?? id}</li>
-              ))}
-            </ol>
-          </article>
+          <RoadmapCard variant="phase" phase={phase} index={index} ideaById={ideaById} />
         ))}
       </div>
     </section>
@@ -93,26 +80,7 @@ const ideaById = new Map(roadmap.ideas.map((idea) => [idea.id, idea]));
       </div>
       <div class="idea-grid">
         {roadmap.ideas.map((idea) => (
-          <article class={`idea-card priority-${idea.priority.toLowerCase()}`}>
-            <header>
-              <span>{idea.priority}</span>
-              <small>{idea.category}</small>
-            </header>
-            <h3>{idea.title}</h3>
-            <p>{idea.gardenMapping}</p>
-            <details>
-              <summary>Pattern and first implementation</summary>
-              <p>{idea.pattern}</p>
-              <p><strong>First:</strong> {idea.firstImplementation}</p>
-              <ul>
-                {idea.sourcePaths.slice(0, 3).map((sourcePath) => (
-                  <li>
-                    <a href={`${sourceBase}/${sourcePath}`}>{sourcePath}</a>
-                  </li>
-                ))}
-              </ul>
-            </details>
-          </article>
+          <RoadmapCard variant="idea" idea={idea} sourceBase={sourceBase} />
         ))}
       </div>
     </section>

@@ -1,0 +1,77 @@
+---
+interface PhaseData {
+  name: string;
+  horizon: string;
+  outcome: string;
+  ideaIds: string[];
+}
+
+interface IdeaData {
+  id?: string;
+  priority: string;
+  category: string;
+  title: string;
+  gardenMapping: string;
+  pattern: string;
+  firstImplementation: string;
+  sourcePaths: string[];
+}
+
+interface Props {
+  variant: "phase" | "idea";
+  phase?: PhaseData;
+  index?: number;
+  idea?: IdeaData;
+  ideaById?: Map<string, IdeaData>;
+  sourceBase?: string;
+}
+
+const { variant, phase, index, idea, ideaById, sourceBase } = Astro.props;
+---
+
+{
+  variant === "phase" && phase && (
+    <article class="phase-card">
+      <header>
+        <span>{String((index ?? 0) + 1).padStart(2, "0")}</span>
+        <div>
+          <p>{phase.horizon}</p>
+          <h3>{phase.name}</h3>
+        </div>
+      </header>
+      <p>{phase.outcome}</p>
+      <ol>
+        {phase.ideaIds.map((id) => (
+          <li>{ideaById?.get(id)?.title ?? id}</li>
+        ))}
+      </ol>
+    </article>
+  )
+}
+
+{
+  variant === "idea" && idea && (
+    <article class={`idea-card priority-${idea.priority.toLowerCase()}`}>
+      <header>
+        <span>{idea.priority}</span>
+        <small>{idea.category}</small>
+      </header>
+      <h3>{idea.title}</h3>
+      <p>{idea.gardenMapping}</p>
+      <details>
+        <summary>Pattern and first implementation</summary>
+        <p>{idea.pattern}</p>
+        <p><strong>First:</strong> {idea.firstImplementation}</p>
+        {sourceBase && idea.sourcePaths.length > 0 && (
+          <ul>
+            {idea.sourcePaths.slice(0, 3).map((sourcePath) => (
+              <li>
+                <a href={`${sourceBase}/${sourcePath}`}>{sourcePath}</a>
+              </li>
+            ))}
+          </ul>
+        )}
+      </details>
+    </article>
+  )
+}

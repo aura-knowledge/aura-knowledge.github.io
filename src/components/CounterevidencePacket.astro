@@ -1,0 +1,22 @@
+---
+import type { CounterevidencePacket as CounterevidencePacketType } from "../lib/content";
+
+interface Props {
+  packet: CounterevidencePacketType;
+  source?: { title: string; url: string };
+}
+
+const { packet, source } = Astro.props;
+---
+
+<li class="claim-evidence-item">
+  {packet.snippet && (
+    <blockquote cite={source?.url}>“{packet.snippet}”</blockquote>
+  )}
+  <p>{packet.summary}</p>
+  {source ? (
+    <a href={source.url}>{source.title}</a>
+  ) : packet.sourceId ? (
+    <span>{packet.sourceId}</span>
+  ) : null}
+</li>
