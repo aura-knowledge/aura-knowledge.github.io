@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import FocusRail from "../../components/FocusRail.astro";
+import TopicChip from "../../components/TopicChip.astro";
 import { getArticles } from "../../lib/content";
 
 export function getStaticPaths() {
@@ -44,7 +45,9 @@ const jsonLd = {
 <BaseLayout title={article.title} description={article.summary} bodyClass="article-page">
   <div class="page-shell article-shell">
     <header class="article-hero" aria-labelledby="article-title">
-      <p class="eyebrow">{article.topic.replaceAll("-", " ")}</p>
+      <p class="eyebrow">
+        <TopicChip topic={article.topic} href={`${base}topics/#topic-${article.topic}`} />
+      </p>
       <h1 id="article-title">{article.title}</h1>
       <p class="lede">{article.dek}</p>
       <div class="article-meta" aria-label="Article metadata">

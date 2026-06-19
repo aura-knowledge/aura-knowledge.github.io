@@ -1,0 +1,21 @@
+---
+import { formatTopicLabel } from "../lib/content";
+
+export interface Props {
+  topic: string;
+  href?: string;
+}
+
+const { topic, href } = Astro.props;
+const label = formatTopicLabel(topic);
+---
+
+{
+  href ? (
+    <a href={href} class="topic-chip">
+      {label}
+    </a>
+  ) : (
+    <span class="topic-chip">{label}</span>
+  )
+}

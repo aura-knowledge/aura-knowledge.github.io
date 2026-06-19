@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { getArticles, getTopicEntries, formatTopicLabel } from "../lib/content";
+import TopicChip from "../components/TopicChip.astro";
+import { getArticles, getTopicEntries } from "../lib/content";
 
 const base = import.meta.env.BASE_URL;
 const articles = getArticles();
@@ -26,7 +27,7 @@ const topicEntries = getTopicEntries(articles);
         <article class="graph-stem" id={`topic-${topic}`}>
           <header>
             <p class="eyebrow">Topic</p>
-            <h2>{formatTopicLabel(topic)}</h2>
+            <h2><TopicChip topic={topic} /></h2>
           </header>
           <div class="graph-topic-links">
             {topicArticles.map((article) => (
