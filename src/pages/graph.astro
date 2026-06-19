@@ -1,20 +1,10 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { getArticles } from "../lib/content";
+import { getArticles, getTopicEntries, formatTopicLabel } from "../lib/content";
 
 const base = import.meta.env.BASE_URL;
 const articles = getArticles();
-const topics = new Map<string, typeof articles>();
-
-for (const article of articles) {
-  for (const topic of article.artifact.topics) {
-    const current = topics.get(topic) ?? [];
-    current.push(article);
-    topics.set(topic, current);
-  }
-}
-
-const topicEntries = Array.from(topics.entries()).sort(([left], [right]) => left.localeCompare(right));
+const topicEntries = getTopicEntries(articles);
 ---
 
 <BaseLayout
@@ -36,7 +26,7 @@ const topicEntries = Array.from(topics.entries()).sort(([left], [right]) => left
         <article class="graph-stem" id={`topic-${topic}`}>
           <header>
             <p class="eyebrow">Topic</p>
-            <h2>{topic.replaceAll("-", " ")}</h2>
+            <h2>{formatTopicLabel(topic)}</h2>
           </header>
           <div class="graph-topic-links">
             {topicArticles.map((article) => (
@@ -56,7 +46,7 @@ const topicEntries = Array.from(topics.entries()).sort(([left], [right]) => left
         <section class="graph-branch" id={`${article.slug}-claims`}>
           <div class="graph-article-topics" aria-label="Topics">
             {article.artifact.topics.map((topic) => (
-              <a href={`#topic-${topic}`}>{topic.replaceAll("-", " ")}</a>
+              <a href={`#topic-${topic}`}>{formatTopicLabel(topic)}</a>
             ))}
           </div>
           <h3>

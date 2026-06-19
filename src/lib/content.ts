@@ -159,3 +159,25 @@ export function getArticles(options: { includeUnpublished?: boolean } = {}): Art
 export function getArticleBySlug(slug: string) {
   return getArticles().find((article) => article.slug === slug);
 }
+
+export function groupArticlesByTopic(articles: Article[]): Map<string, Article[]> {
+  const groups = new Map<string, Article[]>();
+  for (const article of articles) {
+    for (const topic of article.artifact.topics) {
+      const current = groups.get(topic) ?? [];
+      current.push(article);
+      groups.set(topic, current);
+    }
+  }
+  return groups;
+}
+
+export function formatTopicLabel(topic: string): string {
+  return topic.replaceAll("-", " ");
+}
+
+export function getTopicEntries(articles: Article[]): [string, Article[]][] {
+  return Array.from(groupArticlesByTopic(articles).entries()).sort(([left], [right]) =>
+    left.localeCompare(right)
+  );
+}
