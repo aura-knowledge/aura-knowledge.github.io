@@ -1,0 +1,23 @@
+---
+import type { EvidencePacket as EvidencePacketType } from "../lib/content";
+
+interface Props {
+  packet: EvidencePacketType;
+  source?: { title: string; url: string };
+}
+
+const { packet, source } = Astro.props;
+---
+
+<li class="claim-evidence-item">
+  <blockquote cite={source?.url}>
+    “{packet.snippet}”
+    {packet.location && <span class="evidence-location">{packet.location}</span>}
+  </blockquote>
+  {source ? (
+    <a href={source.url}>{source.title}</a>
+  ) : (
+    <span>{packet.sourceId}</span>
+  )}
+  <span class="evidence-supports">{packet.supports}</span>
+</li>

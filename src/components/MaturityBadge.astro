@@ -1,0 +1,11 @@
+---
+import type { ArticleFrontmatter } from "../lib/content";
+
+export interface Props {
+  maturity: ArticleFrontmatter["maturity"];
+}
+
+const { maturity } = Astro.props;
+---
+
+<span class={`maturity-badge maturity maturity-${maturity}`}>{maturity}</span>

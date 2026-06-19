@@ -1,0 +1,56 @@
+---
+import EvidencePacket from "./EvidencePacket.astro";
+import CounterevidencePacket from "./CounterevidencePacket.astro";
+import type { ArtifactClaim } from "../lib/content";
+
+interface Props {
+  claim: ArtifactClaim;
+  sourceById: Map<string, { title: string; url: string }>;
+}
+
+const { claim, sourceById } = Astro.props;
+---
+
+<article class="claim-audit-card" id={`${claim.id}-packet`}>
+  <header>
+    <span>{claim.id.replace("claim-", "C")}</span>
+    <strong>{claim.confidence}</strong>
+  </header>
+  <h3>{claim.claim}</h3>
+  {claim.verification && (
+    <p class="claim-verification">
+      <span>{claim.verification.status}</span>
+      <span>reviewed {claim.verification.reviewedAt}</span>
+    </p>
+  )}
+  <dl>
+    <div>
+      <dt>Evidence ({claim.evidence.length})</dt>
+      <dd>
+        {claim.evidence.length > 0 ? (
+          <ul class="claim-evidence-list">
+            {claim.evidence.map((packet) => (
+              <EvidencePacket packet={packet} source={sourceById.get(packet.sourceId)} />
+            ))}
+          </ul>
+        ) : (
+          <span>No evidence recorded.</span>
+        )}
+      </dd>
+    </div>
+    <div>
+      <dt>Counterpoints ({claim.counterevidence.length})</dt>
+      <dd>
+        {claim.counterevidence.length > 0 ? (
+          <ul class="claim-evidence-list">
+            {claim.counterevidence.map((packet) => (
+              <CounterevidencePacket packet={packet} source={packet.sourceId ? sourceById.get(packet.sourceId) : undefined} />
+            ))}
+          </ul>
+        ) : (
+          <span>No counterpoint recorded yet.</span>
+        )}
+      </dd>
+    </div>
+  </dl>
+</article>

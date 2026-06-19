@@ -1,0 +1,24 @@
+---
+interface Props {
+  slug: string;
+  base?: string;
+}
+
+const { slug, base = "" } = Astro.props;
+---
+
+<section class="agent-packet-link" aria-labelledby="agent-packet-title">
+  <h2 id="agent-packet-title">Machine-readable packet</h2>
+  <p>
+    The same claims, sources, and relationships are also available as a structured artifact
+    for agents.
+  </p>
+  <div class="button-row">
+    <a class="button" href={`${base}agents/articles/${slug}.json`}>
+      Agent JSON
+    </a>
+    <a class="button" href={`${base}agents/articles/${slug}.md`}>
+      Agent brief
+    </a>
+  </div>
+</section>

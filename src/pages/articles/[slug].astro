@@ -3,6 +3,11 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import FocusRail from "../../components/FocusRail.astro";
 import TopicChip from "../../components/TopicChip.astro";
 import ProvenancePanel from "../../components/ProvenancePanel.astro";
+import ClaimCard from "../../components/ClaimCard.astro";
+import SourceLedger from "../../components/SourceLedger.astro";
+import AgentPacketLink from "../../components/AgentPacketLink.astro";
+import MaturityBadge from "../../components/MaturityBadge.astro";
+import StatusBadge from "../../components/StatusBadge.astro";
 import { getArticles } from "../../lib/content";
 
 export function getStaticPaths() {
@@ -54,7 +59,8 @@ const jsonLd = {
       <div class="article-meta" aria-label="Article metadata">
         <span>{article.date}</span>
         <span>{article.readingTime}</span>
-        <span>{article.maturity}</span>
+        <MaturityBadge maturity={article.maturity} />
+        <StatusBadge status={article.status} />
       </div>
     </header>
 
@@ -72,90 +78,12 @@ const jsonLd = {
           </p>
           <div class="claim-audit-grid">
             {article.artifact.claims.map((claim) => (
-              <article class="claim-audit-card" id={`${claim.id}-packet`}>
-                <header>
-                  <span>{claim.id.replace("claim-", "C")}</span>
-                  <strong>{claim.confidence}</strong>
-                </header>
-                <h3>{claim.claim}</h3>
-                {claim.verification && (
-                  <p class="claim-verification">
-                    <span>{claim.verification.status}</span>
-                    <span>reviewed {claim.verification.reviewedAt}</span>
-                  </p>
-                )}
-                <dl>
-                  <div>
-                    <dt>Evidence ({claim.evidence.length})</dt>
-                    <dd>
-                      {claim.evidence.length > 0 ? (
-                        <ul class="claim-evidence-list">
-                          {claim.evidence.map((packet) => {
-                            const source = sourceById.get(packet.sourceId);
-                            return (
-                              <li class="claim-evidence-item">
-                                <blockquote cite={source?.url}>
-                                  “{packet.snippet}”
-                                  {packet.location && <span class="evidence-location">{packet.location}</span>}
-                                </blockquote>
-                                {source ? (
-                                  <a href={source.url}>{source.title}</a>
-                                ) : (
-                                  <span>{packet.sourceId}</span>
-                                )}
-                                <span class="evidence-supports">{packet.supports}</span>
-                              </li>
-                            );
-                          })}
-                        </ul>
-                      ) : (
-                        <span>No evidence recorded.</span>
-                      )}
-                    </dd>
-                  </div>
-                  <div>
-                    <dt>Counterpoints ({claim.counterevidence.length})</dt>
-                    <dd>
-                      {claim.counterevidence.length > 0 ? (
-                        <ul class="claim-evidence-list">
-                          {claim.counterevidence.map((packet) => {
-                            const source = sourceById.get(packet.sourceId);
-                            return (
-                              <li class="claim-evidence-item">
-                                {packet.snippet && (
-                                  <blockquote cite={source?.url}>“{packet.snippet}”</blockquote>
-                                )}
-                                <p>{packet.summary}</p>
-                                {source ? (
-                                  <a href={source.url}>{source.title}</a>
-                                ) : packet.sourceId ? (
-                                  <span>{packet.sourceId}</span>
-                                ) : null}
-                              </li>
-                            );
-                          })}
-                        </ul>
-                      ) : (
-                        <span>No counterpoint recorded yet.</span>
-                      )}
-                    </dd>
-                  </div>
-                </dl>
-              </article>
+              <ClaimCard claim={claim} sourceById={sourceById} />
             ))}
           </div>
         </section>
-        <section class="source-ledger" aria-labelledby="sources-title">
-          <h2 id="sources-title">Source Ledger</h2>
-          <ul>
-            {article.artifact.sources.map((source) => (
-              <li>
-                <a href={source.url}>{source.title}</a>
-                <span>{source.type}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
+
+        <SourceLedger sources={article.artifact.sources} />
 
         <ProvenancePanel provenance={article.artifact.provenance} contentHash={article.artifact.contentHash} />
 
@@ -177,21 +105,7 @@ const jsonLd = {
           </section>
         )}
 
-        <section class="agent-packet-link" aria-labelledby="agent-packet-title">
-          <h2 id="agent-packet-title">Machine-readable packet</h2>
-          <p>
-            The same claims, sources, and relationships are also available as a structured artifact
-            for agents.
-          </p>
-          <div class="button-row">
-            <a class="button" href={`${base}agents/articles/${article.slug}.json`}>
-              Agent JSON
-            </a>
-            <a class="button" href={`${base}agents/articles/${article.slug}.md`}>
-              Agent brief
-            </a>
-          </div>
-        </section>
+        <AgentPacketLink slug={article.slug} base={base} />
       </article>
     </div>
   </div>
