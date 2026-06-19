@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 3,
+  "id": "article:{{slug}}",
+  "slug": "{{slug}}",
+  "title": "{{title}}",
+  "canonicalPath": "/articles/{{slug}}/",
+  "sourcePath": "content/articles/{{year}}/{{slug}}/article.md",
+  "agentBriefPath": "content/articles/{{year}}/{{slug}}/agent.md",
+  "thesis": "{{thesis}}",
+  "status": "draft",
+  "maturity": "seed",
+  "publishedAt": "{{date}}",
+  "updatedAt": "{{date}}",
+  "audiences": [
+    "primary audience"
+  ],
+  "topics": [
+    "{{topic}}"
+  ],
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Replace with the first claim (at least 24 characters).",
+      "confidence": "low",
+      "status": "proposal",
+      "evidence": [
+        {
+          "sourceId": "source-example-001",
+          "snippet": "Evidence snippet pending.",
+          "supports": "background",
+          "assessedAt": "{{date}}"
+        }
+      ],
+      "counterevidence": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-example-001",
+      "title": "Replace with source title",
+      "url": "https://example.com",
+      "type": "article",
+      "accessed": "{{date}}"
+    }
+  ],
+  "related": [],
+  "agentInstructions": [
+    "Treat this article as a draft seed, not a published conclusion.",
+    "Use claim IDs as retrieval units and source IDs for evidence tracing."
+  ],
+  "provenance": {
+    "createdAt": "{{date}}",
+    "createdBy": "human",
+    "agents": [],
+    "reviews": [],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "{{contentHash}}"
+}
