@@ -74,8 +74,8 @@ function buildGraph(articles) {
     }
   };
 
-  const addEdge = (from, to, type) => {
-    edges.set(`${from}:${type}:${to}`, { from, to, type });
+  const addEdge = (from, to, type, provenance) => {
+    edges.set(`${from}:${type}:${to}`, { from, to, type, ...(provenance ? { provenance } : {}) });
   };
 
   for (const article of articles) {
@@ -88,10 +88,16 @@ function buildGraph(articles) {
       maturity: artifact.maturity
     });
 
+    const machineProvenance = {
+      reviewedAt: artifact.updatedAt,
+      reviewer: "generator",
+      status: "machine-generated"
+    };
+
     for (const topic of artifact.topics) {
       const topicId = `topic:${topic}`;
       addNode({ id: topicId, type: "topic", label: topic });
-      addEdge(artifact.id, topicId, "covers");
+      addEdge(artifact.id, topicId, "covers", machineProvenance);
     }
 
     for (const claim of artifact.claims) {
@@ -104,10 +110,25 @@ function buildGraph(articles) {
         confidence: claim.confidence,
         status: claim.status
       });
-      addEdge(artifact.id, claimNodeId, "argues");
+      addEdge(artifact.id, claimNodeId, "argues", machineProvenance);
 
       for (const packet of claim.evidence) {
-        addEdge(claimNodeId, packet.sourceId, "supported-by");
+        addEdge(packet.sourceId, claimNodeId, "supports", {
+          reviewedAt: packet.assessedAt ?? artifact.updatedAt,
+          reviewer: "generator",
+          status: "machine-generated"
+        });
+      }
+
+      for (const packet of claim.counterevidence) {
+        const sourceId = packet.sourceId;
+        if (sourceId) {
+          addEdge(sourceId, claimNodeId, "contests", {
+            reviewedAt: packet.assessedAt ?? artifact.updatedAt,
+            reviewer: "generator",
+            status: "machine-generated"
+          });
+        }
       }
     }
 
@@ -122,7 +143,7 @@ function buildGraph(articles) {
     }
 
     for (const relation of artifact.related) {
-      addEdge(artifact.id, relation.id, relation.type);
+      addEdge(artifact.id, relation.id, relation.type, machineProvenance);
     }
   }
 
@@ -276,7 +297,11 @@ await writeFile(
 
 const graph = buildGraph(articles);
 await writeJson(publicPath("graph", "nodes.json"), graph.nodes);
-await writeJson(publicPath("graph", "edges.json"), graph.edges);
+await writeJson(publicPath("graph", "edges.json"), {
+  schemaVersion: 2,
+  generatedAt,
+  edges: graph.edges
+});
 
 const llms = [
   "# Aura Knowledge",

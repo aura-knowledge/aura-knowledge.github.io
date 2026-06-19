@@ -319,7 +319,11 @@ try {
 
 try {
   const nodes = await readJson(path.join(publicRoot, "graph", "nodes.json"));
-  const edges = await readJson(path.join(publicRoot, "graph", "edges.json"));
+  const edgesPacket = await readJson(path.join(publicRoot, "graph", "edges.json"));
+  const edges = edgesPacket.edges ?? edgesPacket;
+  if (edgesPacket.schemaVersion && edgesPacket.schemaVersion !== 2) {
+    report(`graph: edges.json schemaVersion ${edgesPacket.schemaVersion} is not the expected v2.`);
+  }
   const nodeIds = new Set(nodes.map((node) => node.id));
   reportDuplicates("graph", "node id", nodes.map((node) => node.id));
   reportDuplicates("graph", "edge", edges.map((edge) => `${edge.from}:${edge.type}:${edge.to}`));
