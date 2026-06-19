@@ -22,6 +22,50 @@ export type ArticleFrontmatter = {
   sourcePath: string;
 };
 
+export type EvidencePacket = {
+  sourceId: string;
+  snippet: string;
+  supports: "direct" | "indirect" | "analogous" | "background";
+  location?: string;
+  assessedAt?: string;
+  notes?: string;
+};
+
+export type CounterevidencePacket = {
+  sourceId?: string;
+  snippet?: string;
+  summary: string;
+  assessedAt?: string;
+  notes?: string;
+};
+
+export type ClaimVerification = {
+  reviewedAt: string;
+  reviewer: string;
+  status: "draft" | "verified" | "contested" | "stale";
+};
+
+export type ArtifactClaim = {
+  id: string;
+  claim: string;
+  confidence: "low" | "medium" | "medium-high" | "high";
+  status:
+    | "core"
+    | "landscape"
+    | "forecast"
+    | "proposal"
+    | "normative"
+    | "risk"
+    | "argument"
+    | "design"
+    | "strategy"
+    | "framing"
+    | "behavioral";
+  verification?: ClaimVerification;
+  evidence: EvidencePacket[];
+  counterevidence: CounterevidencePacket[];
+};
+
 export type ArticleArtifact = {
   schemaVersion: number;
   id: string;
@@ -37,14 +81,7 @@ export type ArticleArtifact = {
   updatedAt: string;
   audiences: string[];
   topics: string[];
-  claims: Array<{
-    id: string;
-    claim: string;
-    confidence: string;
-    status: string;
-    evidence: string[];
-    counterevidence: string[];
-  }>;
+  claims: ArtifactClaim[];
   sources: Array<{
     id: string;
     title: string;

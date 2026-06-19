@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "article:agent-auditable-research",
   "slug": "agent-auditable-research",
   "title": "The Future of Publishing Is Agent-Auditable Research",
@@ -30,11 +30,24 @@
       "confidence": "high",
       "status": "core",
       "evidence": [
-        "source-agentic-publications-2025",
-        "source-provenance-2026"
+        {
+          "sourceId": "source-agentic-publications-2025",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-17"
+        },
+        {
+          "sourceId": "source-provenance-2026",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-17"
+        }
       ],
       "counterevidence": [
-        "High-quality human judgment and taste remain hard to automate; the claim is about the marginal cost of competent prose, not the end of authorship."
+        {
+          "summary": "High-quality human judgment and taste remain hard to automate; the claim is about the marginal cost of competent prose, not the end of authorship.",
+          "assessedAt": "2026-06-17"
+        }
       ]
     },
     {
@@ -43,12 +56,30 @@
       "confidence": "medium-high",
       "status": "proposal",
       "evidence": [
-        "source-agentic-publications-2025",
-        "source-llms-txt",
-        "source-digital-gardens-appleton"
+        {
+          "sourceId": "source-agentic-publications-2025",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-17"
+        },
+        {
+          "sourceId": "source-llms-txt",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-17"
+        },
+        {
+          "sourceId": "source-digital-gardens-appleton",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-17"
+        }
       ],
       "counterevidence": [
-        "The exact schema is not standardized and may vary by community."
+        {
+          "summary": "The exact schema is not standardized and may vary by community.",
+          "assessedAt": "2026-06-17"
+        }
       ]
     },
     {
@@ -57,11 +88,24 @@
       "confidence": "medium",
       "status": "argument",
       "evidence": [
-        "source-agentic-publications-2025",
-        "source-nng-cognitive-load"
+        {
+          "sourceId": "source-agentic-publications-2025",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-17"
+        },
+        {
+          "sourceId": "source-nng-cognitive-load",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-17"
+        }
       ],
       "counterevidence": [
-        "Mainstream publishing may adopt agent workflows faster if distribution incentives are stronger."
+        {
+          "summary": "Mainstream publishing may adopt agent workflows faster if distribution incentives are stronger.",
+          "assessedAt": "2026-06-17"
+        }
       ]
     },
     {
@@ -70,13 +114,36 @@
       "confidence": "medium-high",
       "status": "landscape",
       "evidence": [
-        "source-wordpress-mcp-adapter",
-        "source-beehiiv-mcp-v2",
-        "source-cloudflare-emdash",
-        "source-agentic-publications-2025"
+        {
+          "sourceId": "source-wordpress-mcp-adapter",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-17"
+        },
+        {
+          "sourceId": "source-beehiiv-mcp-v2",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-17"
+        },
+        {
+          "sourceId": "source-cloudflare-emdash",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-17"
+        },
+        {
+          "sourceId": "source-agentic-publications-2025",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-17"
+        }
       ],
       "counterevidence": [
-        "Some tools may evolve into this combined artifact quickly."
+        {
+          "summary": "Some tools may evolve into this combined artifact quickly.",
+          "assessedAt": "2026-06-17"
+        }
       ]
     },
     {
@@ -85,11 +152,24 @@
       "confidence": "high",
       "status": "normative",
       "evidence": [
-        "source-provenance-2026",
-        "source-agentic-publications-2025"
+        {
+          "sourceId": "source-provenance-2026",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-17"
+        },
+        {
+          "sourceId": "source-agentic-publications-2025",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-17"
+        }
       ],
       "counterevidence": [
-        "Disclosure norms differ by venue and are still evolving."
+        {
+          "summary": "Disclosure norms differ by venue and are still evolving.",
+          "assessedAt": "2026-06-17"
+        }
       ]
     },
     {
@@ -98,12 +178,30 @@
       "confidence": "medium-high",
       "status": "design",
       "evidence": [
-        "source-nng-cognitive-load",
-        "source-digital-gardens-appleton",
-        "source-digital-gardens-qu"
+        {
+          "sourceId": "source-nng-cognitive-load",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-17"
+        },
+        {
+          "sourceId": "source-digital-gardens-appleton",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-17"
+        },
+        {
+          "sourceId": "source-digital-gardens-qu",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-17"
+        }
       ],
       "counterevidence": [
-        "Badly implemented progressive disclosure can hide important context."
+        {
+          "summary": "Badly implemented progressive disclosure can hide important context.",
+          "assessedAt": "2026-06-17"
+        }
       ]
     }
   ],

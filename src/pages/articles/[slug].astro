@@ -77,23 +77,67 @@ const jsonLd = {
                   <strong>{claim.confidence}</strong>
                 </header>
                 <h3>{claim.claim}</h3>
+                {claim.verification && (
+                  <p class="claim-verification">
+                    <span>{claim.verification.status}</span>
+                    <span>reviewed {claim.verification.reviewedAt}</span>
+                  </p>
+                )}
                 <dl>
                   <div>
-                    <dt>Evidence</dt>
+                    <dt>Evidence ({claim.evidence.length})</dt>
                     <dd>
-                      {claim.evidence.slice(0, 2).map((sourceId) => {
-                        const source = sourceById.get(sourceId);
-                        return source ? (
-                          <a href={source.url}>{source.title}</a>
-                        ) : (
-                          <span>{sourceId}</span>
-                        );
-                      })}
+                      {claim.evidence.length > 0 ? (
+                        <ul class="claim-evidence-list">
+                          {claim.evidence.map((packet) => {
+                            const source = sourceById.get(packet.sourceId);
+                            return (
+                              <li class="claim-evidence-item">
+                                <blockquote cite={source?.url}>
+                                  “{packet.snippet}”
+                                  {packet.location && <span class="evidence-location">{packet.location}</span>}
+                                </blockquote>
+                                {source ? (
+                                  <a href={source.url}>{source.title}</a>
+                                ) : (
+                                  <span>{packet.sourceId}</span>
+                                )}
+                                <span class="evidence-supports">{packet.supports}</span>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      ) : (
+                        <span>No evidence recorded.</span>
+                      )}
                     </dd>
                   </div>
                   <div>
-                    <dt>Counterpoint</dt>
-                    <dd>{claim.counterevidence[0] ?? "No counterpoint recorded yet."}</dd>
+                    <dt>Counterpoints ({claim.counterevidence.length})</dt>
+                    <dd>
+                      {claim.counterevidence.length > 0 ? (
+                        <ul class="claim-evidence-list">
+                          {claim.counterevidence.map((packet) => {
+                            const source = sourceById.get(packet.sourceId);
+                            return (
+                              <li class="claim-evidence-item">
+                                {packet.snippet && (
+                                  <blockquote cite={source?.url}>“{packet.snippet}”</blockquote>
+                                )}
+                                <p>{packet.summary}</p>
+                                {source ? (
+                                  <a href={source.url}>{source.title}</a>
+                                ) : packet.sourceId ? (
+                                  <span>{packet.sourceId}</span>
+                                ) : null}
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      ) : (
+                        <span>No counterpoint recorded yet.</span>
+                      )}
+                    </dd>
                   </div>
                 </dl>
               </article>

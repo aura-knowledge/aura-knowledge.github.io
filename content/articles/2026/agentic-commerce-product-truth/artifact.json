@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "article:agentic-commerce-product-truth",
   "slug": "agentic-commerce-product-truth",
   "title": "Agentic Commerce and the Product Truth Layer",
@@ -32,13 +32,36 @@
       "confidence": "medium-high",
       "status": "landscape",
       "evidence": [
-        "source-simon-attention-scarcity",
-        "source-adobe-ai-traffic-2025",
-        "source-amazon-rufus",
-        "source-openai-merchants"
+        {
+          "sourceId": "source-simon-attention-scarcity",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-adobe-ai-traffic-2025",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-amazon-rufus",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-openai-merchants",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        }
       ],
       "counterevidence": [
-        "Back-end recommendation and personalization systems already influence buying, so the claim is about the dominant customer-facing interface rather than the whole commerce stack."
+        {
+          "summary": "Back-end recommendation and personalization systems already influence buying, so the claim is about the dominant customer-facing interface rather than the whole commerce stack.",
+          "assessedAt": "2026-06-18"
+        }
       ]
     },
     {
@@ -47,11 +70,24 @@
       "confidence": "medium-high",
       "status": "behavioral",
       "evidence": [
-        "source-choice-overload",
-        "source-status-quo-bias"
+        {
+          "sourceId": "source-choice-overload",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-status-quo-bias",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        }
       ],
       "counterevidence": [
-        "Some brand loyalty is genuine preference, identity, trust, or satisfaction rather than exploration friction."
+        {
+          "summary": "Some brand loyalty is genuine preference, identity, trust, or satisfaction rather than exploration friction.",
+          "assessedAt": "2026-06-18"
+        }
       ]
     },
     {
@@ -60,19 +96,43 @@
       "confidence": "medium",
       "status": "forecast",
       "evidence": [
-        "source-adobe-ai-traffic-2026",
-        "source-google-ucp",
-        "source-google-ap2",
-        "source-openai-chatgpt-shopping",
-        "source-lee-see-automation-trust"
-      ],
-      "evidenceNotes": [
-        "source-adobe-ai-traffic-2026 supports the current adoption signal: AI-referred retail traffic and conversion are rising, but this is still an AI-assisted shopping signal rather than proof of fully autonomous purchasing.",
-        "source-google-ucp, source-google-ap2, and source-openai-chatgpt-shopping support protocol and product movement toward agent-mediated commerce actions.",
-        "source-lee-see-automation-trust is a design reference for appropriate reliance, not direct evidence that consumers will delegate all purchase decisions."
+        {
+          "sourceId": "source-adobe-ai-traffic-2026",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18",
+          "notes": "source-adobe-ai-traffic-2026 supports the current adoption signal: AI-referred retail traffic and conversion are rising, but this is still an AI-assisted shopping signal rather than proof of fully autonomous purchasing. source-google-ucp, source-google-ap2, and source-openai-chatgpt-shopping support protocol and product movement toward agent-mediated commerce actions. source-lee-see-automation-trust is a design reference for appropriate reliance, not direct evidence that consumers will delegate all purchase decisions."
+        },
+        {
+          "sourceId": "source-google-ucp",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-google-ap2",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-openai-chatgpt-shopping",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-lee-see-automation-trust",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        }
       ],
       "counterevidence": [
-        "AI shopping traffic is growing quickly but still competes with entrenched search, marketplace, social, and brand channels."
+        {
+          "summary": "AI shopping traffic is growing quickly but still competes with entrenched search, marketplace, social, and brand channels.",
+          "assessedAt": "2026-06-18"
+        }
       ]
     },
     {
@@ -81,14 +141,42 @@
       "confidence": "medium",
       "status": "proposal",
       "evidence": [
-        "source-google-product-structured-data",
-        "source-schema-product",
-        "source-schema-review",
-        "source-gs1-digital-link",
-        "source-google-ucp"
+        {
+          "sourceId": "source-google-product-structured-data",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-schema-product",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-schema-review",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-gs1-digital-link",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-google-ucp",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        }
       ],
       "counterevidence": [
-        "Existing product feeds and marketplace data may evolve fast enough to cover many agent needs without a separate public layer."
+        {
+          "summary": "Existing product feeds and marketplace data may evolve fast enough to cover many agent needs without a separate public layer.",
+          "assessedAt": "2026-06-18"
+        }
       ]
     },
     {
@@ -97,14 +185,42 @@
       "confidence": "medium",
       "status": "normative",
       "evidence": [
-        "source-google-ucp",
-        "source-schema-product",
-        "source-schema-review",
-        "source-gs1-digital-link",
-        "source-w3c-vc-data-model"
+        {
+          "sourceId": "source-google-ucp",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-schema-product",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-schema-review",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-gs1-digital-link",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-w3c-vc-data-model",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        }
       ],
       "counterevidence": [
-        "Open protocols can still be captured by dominant implementations, ranking power, merchant incentives, or payment platforms."
+        {
+          "summary": "Open protocols can still be captured by dominant implementations, ranking power, merchant incentives, or payment platforms.",
+          "assessedAt": "2026-06-18"
+        }
       ]
     },
     {
@@ -113,13 +229,36 @@
       "confidence": "medium",
       "status": "proposal",
       "evidence": [
-        "source-amazon-rufus",
-        "source-schema-review",
-        "source-google-product-structured-data",
-        "source-ftc-fake-reviews-2024"
+        {
+          "sourceId": "source-amazon-rufus",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-schema-review",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-google-product-structured-data",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-ftc-fake-reviews-2024",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        }
       ],
       "counterevidence": [
-        "Structured feedback may reduce nuance, and automated summaries can misrepresent the user's actual experience without explicit consent."
+        {
+          "summary": "Structured feedback may reduce nuance, and automated summaries can misrepresent the user's actual experience without explicit consent.",
+          "assessedAt": "2026-06-18"
+        }
       ]
     },
     {
@@ -128,18 +267,37 @@
       "confidence": "medium-high",
       "status": "forecast",
       "evidence": [
-        "source-gartner-b2b-ai-2026",
-        "source-forrester-b2b-genai-2024",
-        "source-deloitte-cpo-2025",
-        "source-epa-safer-choice-products"
-      ],
-      "evidenceNotes": [
-        "source-gartner-b2b-ai-2026 and source-forrester-b2b-genai-2024 support the claim that B2B buyers are already using AI and prefer lower-friction buying journeys.",
-        "source-deloitte-cpo-2025 supports procurement-side technology and GenAI investment, not the facilities wedge by itself.",
-        "source-epa-safer-choice-products supports the facilities/janitorial example by showing a public product evidence surface for safer cleaning products."
+        {
+          "sourceId": "source-gartner-b2b-ai-2026",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18",
+          "notes": "source-gartner-b2b-ai-2026 and source-forrester-b2b-genai-2024 support the claim that B2B buyers are already using AI and prefer lower-friction buying journeys. source-deloitte-cpo-2025 supports procurement-side technology and GenAI investment, not the facilities wedge by itself. source-epa-safer-choice-products supports the facilities/janitorial example by showing a public product evidence surface for safer cleaning products."
+        },
+        {
+          "sourceId": "source-forrester-b2b-genai-2024",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-deloitte-cpo-2025",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-epa-safer-choice-products",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        }
       ],
       "counterevidence": [
-        "Operational constraints, approval workflows, contracts, integration risk, product compatibility, and messy catalog data can still slow even narrow B2B procurement experiments."
+        {
+          "summary": "Operational constraints, approval workflows, contracts, integration risk, product compatibility, and messy catalog data can still slow even narrow B2B procurement experiments.",
+          "assessedAt": "2026-06-18"
+        }
       ]
     },
     {
@@ -148,14 +306,42 @@
       "confidence": "medium",
       "status": "strategy",
       "evidence": [
-        "source-google-ucp",
-        "source-openai-merchants",
-        "source-amazon-rufus",
-        "source-openai-stripe-acp",
-        "source-lee-see-automation-trust"
+        {
+          "sourceId": "source-google-ucp",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-openai-merchants",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-amazon-rufus",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-openai-stripe-acp",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-lee-see-automation-trust",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        }
       ],
       "counterevidence": [
-        "A product built mainly for acquisition can become weak if it does not create independent user value."
+        {
+          "summary": "A product built mainly for acquisition can become weak if it does not create independent user value.",
+          "assessedAt": "2026-06-18"
+        }
       ]
     },
     {
@@ -164,13 +350,36 @@
       "confidence": "medium",
       "status": "proposal",
       "evidence": [
-        "source-truth-discovery-survey",
-        "source-eigentrust",
-        "source-bayesian-truth-serum",
-        "source-ftc-fake-reviews-2024"
+        {
+          "sourceId": "source-truth-discovery-survey",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-eigentrust",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-bayesian-truth-serum",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-ftc-fake-reviews-2024",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        }
       ],
       "counterevidence": [
-        "Claim ledgers can become complex, hard for consumers to inspect directly, and vulnerable to capture if the agents or schemas are controlled by dominant platforms."
+        {
+          "summary": "Claim ledgers can become complex, hard for consumers to inspect directly, and vulnerable to capture if the agents or schemas are controlled by dominant platforms.",
+          "assessedAt": "2026-06-18"
+        }
       ]
     },
     {
@@ -179,13 +388,36 @@
       "confidence": "medium",
       "status": "proposal",
       "evidence": [
-        "source-w3c-vc-data-model",
-        "source-gs1-digital-link",
-        "source-eu-digital-product-passport",
-        "source-schema-review"
+        {
+          "sourceId": "source-w3c-vc-data-model",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-gs1-digital-link",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-eu-digital-product-passport",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-schema-review",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        }
       ],
       "counterevidence": [
-        "Offline proof can be forged or colluded around, and evidence-tier systems can become compliance overhead that favors large brands if not designed carefully."
+        {
+          "summary": "Offline proof can be forged or colluded around, and evidence-tier systems can become compliance overhead that favors large brands if not designed carefully.",
+          "assessedAt": "2026-06-18"
+        }
       ]
     },
     {
@@ -194,14 +426,42 @@
       "confidence": "medium-high",
       "status": "risk",
       "evidence": [
-        "source-eigentrust",
-        "source-truth-discovery-survey",
-        "source-amazon-brand-protection-2024",
-        "source-c2pa",
-        "source-ftc-fake-reviews-2024"
+        {
+          "sourceId": "source-eigentrust",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-truth-discovery-survey",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-amazon-brand-protection-2024",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-c2pa",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-ftc-fake-reviews-2024",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        }
       ],
       "counterevidence": [
-        "Strong enforcement, signed credentials, selective disclosure, independent audits, and dispute penalties can reduce manipulation even if they cannot eliminate it."
+        {
+          "summary": "Strong enforcement, signed credentials, selective disclosure, independent audits, and dispute penalties can reduce manipulation even if they cannot eliminate it.",
+          "assessedAt": "2026-06-18"
+        }
       ]
     },
     {
@@ -210,13 +470,36 @@
       "confidence": "medium",
       "status": "proposal",
       "evidence": [
-        "source-w3c-vc-data-model",
-        "source-privacy-pass-architecture",
-        "source-w3c-bbs",
-        "source-gs1-digital-link"
+        {
+          "sourceId": "source-w3c-vc-data-model",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-privacy-pass-architecture",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-w3c-bbs",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-gs1-digital-link",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        }
       ],
       "counterevidence": [
-        "Private tokens can still be abused through token resale, issuer collusion, metadata leakage, redemption timing, device fingerprinting, or overly narrow product scopes."
+        {
+          "summary": "Private tokens can still be abused through token resale, issuer collusion, metadata leakage, redemption timing, device fingerprinting, or overly narrow product scopes.",
+          "assessedAt": "2026-06-18"
+        }
       ]
     },
     {
@@ -225,13 +508,36 @@
       "confidence": "medium",
       "status": "proposal",
       "evidence": [
-        "source-c2pa",
-        "source-amazon-rufus",
-        "source-openai-merchants",
-        "source-lee-see-automation-trust"
+        {
+          "sourceId": "source-c2pa",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-amazon-rufus",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-openai-merchants",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-lee-see-automation-trust",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        }
       ],
       "counterevidence": [
-        "Social proof is highly manipulable, sponsored content can be hidden, and media provenance standards only help when adopted and displayed clearly."
+        {
+          "summary": "Social proof is highly manipulable, sponsored content can be hidden, and media provenance standards only help when adopted and displayed clearly.",
+          "assessedAt": "2026-06-18"
+        }
       ]
     },
     {
@@ -240,13 +546,36 @@
       "confidence": "medium-high",
       "status": "framing",
       "evidence": [
-        "source-w3c-vc-data-model",
-        "source-w3c-prov-o",
-        "source-gs1-digital-link",
-        "source-nist-ai-rmf"
+        {
+          "sourceId": "source-w3c-vc-data-model",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-w3c-prov-o",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-gs1-digital-link",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-nist-ai-rmf",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        }
       ],
       "counterevidence": [
-        "Even scoped claim infrastructure can be captured by dominant platforms, schema owners, or verifier markets if governance and portability are weak."
+        {
+          "summary": "Even scoped claim infrastructure can be captured by dominant platforms, schema owners, or verifier markets if governance and portability are weak.",
+          "assessedAt": "2026-06-18"
+        }
       ]
     },
     {
@@ -255,15 +584,48 @@
       "confidence": "medium",
       "status": "proposal",
       "evidence": [
-        "source-gs1-digital-link",
-        "source-eu-digital-product-passport",
-        "source-cpsc-recalls-api",
-        "source-openfda-food-enforcement",
-        "source-nist-ai-rmf",
-        "source-epa-safer-choice-products"
+        {
+          "sourceId": "source-gs1-digital-link",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-eu-digital-product-passport",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-cpsc-recalls-api",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-openfda-food-enforcement",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-nist-ai-rmf",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-epa-safer-choice-products",
+          "snippet": "Evidence snippet pending.",
+          "supports": "direct",
+          "assessedAt": "2026-06-18"
+        }
       ],
       "counterevidence": [
-        "Liability, auditor, and dispute layers can become expensive compliance overhead, creating incumbent advantage if applied too broadly or without small-seller paths."
+        {
+          "summary": "Liability, auditor, and dispute layers can become expensive compliance overhead, creating incumbent advantage if applied too broadly or without small-seller paths.",
+          "assessedAt": "2026-06-18"
+        }
       ]
     }
   ],

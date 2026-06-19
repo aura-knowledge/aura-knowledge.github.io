@@ -22,6 +22,15 @@
 - [agent-auditable-research Markdown](https://aura-knowledge.github.io/agents/articles/agent-auditable-research.md)
 - [agentic-commerce-product-truth JSON](https://aura-knowledge.github.io/agents/articles/agentic-commerce-product-truth.json)
 - [agentic-commerce-product-truth Markdown](https://aura-knowledge.github.io/agents/articles/agentic-commerce-product-truth.md)
+- [agent-provenance topic JSON](https://aura-knowledge.github.io/agents/topics/agent-provenance.json)
+- [agentic-commerce topic JSON](https://aura-knowledge.github.io/agents/topics/agentic-commerce.json)
+- [ai-native-publishing topic JSON](https://aura-knowledge.github.io/agents/topics/ai-native-publishing.json)
+- [consumer-behavior topic JSON](https://aura-knowledge.github.io/agents/topics/consumer-behavior.json)
+- [digital-gardens topic JSON](https://aura-knowledge.github.io/agents/topics/digital-gardens.json)
+- [incumbent-adjacent-ventures topic JSON](https://aura-knowledge.github.io/agents/topics/incumbent-adjacent-ventures.json)
+- [open-protocols topic JSON](https://aura-knowledge.github.io/agents/topics/open-protocols.json)
+- [product-truth topic JSON](https://aura-knowledge.github.io/agents/topics/product-truth.json)
+- [research-workflows topic JSON](https://aura-knowledge.github.io/agents/topics/research-workflows.json)
 
 ## Use
-Use article packets as the retrieval unit. Treat maturity values as uncertainty markers. Prefer claim IDs and source IDs over inferred citations.
+Use article packets as the retrieval unit. Treat maturity values as uncertainty markers. Prefer claim IDs and source IDs over inferred citations. Article artifacts use schemaVersion 2; evidence and counterevidence are typed packets, not bare source IDs.
