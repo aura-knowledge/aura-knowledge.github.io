@@ -13,6 +13,7 @@
     "validate:build": "node scripts/validate-build.mjs",
     "verify": "node scripts/verify-claims.mjs",
     "agent:record": "node scripts/record-agent-run.mjs",
+    "workspace:create": "node scripts/create-workspace.mjs",
     "check": "npm run generate && npm run validate && astro build && npm run validate:build"
   },
   "overrides": {
