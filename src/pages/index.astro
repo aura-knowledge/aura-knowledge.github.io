@@ -4,7 +4,7 @@ import { getArticles } from "../lib/content";
 
 const base = import.meta.env.BASE_URL;
 const articles = getArticles();
-const latest = articles[0];
+const latest = articles[0] ?? null;
 ---
 
 <BaseLayout
@@ -21,9 +21,11 @@ const latest = articles[0];
           evidence ledgers, and machine-readable artifacts that agents can inspect.
         </p>
         <div class="button-row" aria-label="Primary actions">
-          <a class="button primary" href={`${base}articles/${latest.slug}/`}>
-            Read the latest article
-          </a>
+          {latest && (
+            <a class="button primary" href={`${base}articles/${latest.slug}/`}>
+              Read the latest article
+            </a>
+          )}
           <a class="button" href={`${base}topics/`}>Browse topics</a>
           <a class="button" href={`${base}articles/`}>All articles</a>
           <a class="button" href={`${base}roadmap/`}>Roadmap</a>
@@ -77,15 +79,25 @@ const latest = articles[0];
         <h2 id="latest-title">Start with the source object.</h2>
       </div>
       <div class="article-list">
-        {articles.map((article) => (
-          <article class="article-teaser">
-            <p>{article.maturity} / {article.topic.replaceAll("-", " ")}</p>
-            <h3>
-              <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
-            </h3>
-            <span>{article.summary}</span>
-          </article>
-        ))}
+        {articles.length > 0 ? (
+          articles.map((article) => (
+            <article class="article-teaser">
+              <p>{article.maturity} / {article.topic.replaceAll("-", " ")}</p>
+              <h3>
+                <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
+              </h3>
+              <span>{article.summary}</span>
+            </article>
+          ))
+        ) : (
+          <div class="empty-state">
+            <p>
+              No articles have been published yet. Check back soon, or follow the
+              organization page to learn how new essays are added.
+            </p>
+            <a class="button" href={`${base}organization/`}>About the garden</a>
+          </div>
+        )}
       </div>
     </section>
 

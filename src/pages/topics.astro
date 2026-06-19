@@ -23,19 +23,29 @@ const topicEntries = getTopicEntries(articles);
     </header>
 
     <section class="graph-stems" aria-label="Topic stems">
-      {topicEntries.map(([topic, topicArticles]) => (
-        <article class="graph-stem" id={`topic-${topic}`}>
-          <header>
-            <p class="eyebrow">Topic</p>
-            <h2><TopicChip topic={topic} /></h2>
-          </header>
-          <div class="graph-topic-links">
-            {topicArticles.map((article) => (
-              <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
-            ))}
-          </div>
-        </article>
-      ))}
+      {topicEntries.length > 0 ? (
+        topicEntries.map(([topic, topicArticles]) => (
+          <article class="graph-stem" id={`topic-${topic}`}>
+            <header>
+              <p class="eyebrow">Topic</p>
+              <h2><TopicChip topic={topic} /></h2>
+            </header>
+            <div class="graph-topic-links">
+              {topicArticles.map((article) => (
+                <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
+              ))}
+            </div>
+          </article>
+        ))
+      ) : (
+        <div class="empty-state">
+          <p>
+            No topics have been published yet. Topics are created from published
+            articles, so new stems will appear once the first essay goes live.
+          </p>
+          <a class="button" href={`${base}articles/`}>Browse articles</a>
+        </div>
+      )}
     </section>
   </div>
 </BaseLayout>

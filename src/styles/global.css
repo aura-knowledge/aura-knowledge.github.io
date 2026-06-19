@@ -1202,6 +1202,36 @@ h3 {
   color: var(--evidence) !important;
 }
 
+.maturity-contested {
+  border-color: color-mix(in srgb, var(--caution) 45%, var(--border)) !important;
+  background: color-mix(in srgb, var(--caution) 10%, transparent) !important;
+  color: var(--caution) !important;
+}
+
+.maturity-superseded {
+  border-color: color-mix(in srgb, var(--text-soft) 45%, var(--border)) !important;
+  background: color-mix(in srgb, var(--text-soft) 10%, transparent) !important;
+  color: var(--text-soft) !important;
+}
+
+.empty-state {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--surface) 78%, transparent);
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  text-align: center;
+}
+
+.empty-state p {
+  max-width: 54ch;
+  margin: 0 auto;
+  color: var(--text-muted);
+}
+
+.empty-state .button {
+  margin-top: 1.25rem;
+}
+
 .article-index-card h3 {
   margin: 0.25rem 0 0.35rem;
   font-family: inherit;
