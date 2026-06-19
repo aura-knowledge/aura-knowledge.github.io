@@ -16,6 +16,7 @@
     "workspace:create": "node scripts/create-workspace.mjs",
     "source:import": "node scripts/source-importer.mjs",
     "source:promote": "node scripts/promote-source.mjs",
+    "audit": "node scripts/audit-draft.mjs",
     "check": "npm run generate && npm run validate && astro build && npm run validate:build"
   },
   "overrides": {
