@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://v-i-s-h-a-l.github.io/knowledge/schemas/source-candidate.schema.json",
+  "title": "Aura Knowledge Source Candidate",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schemaVersion",
+    "id",
+    "url",
+    "title",
+    "type",
+    "accessed",
+    "input",
+    "status"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^candidate-source-[a-z0-9-]+$"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 4
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "paper",
+        "article",
+        "report",
+        "book",
+        "dataset",
+        "protocol",
+        "tool",
+        "standard",
+        "newsletter",
+        "blog",
+        "repository",
+        "documentation",
+        "inline"
+      ]
+    },
+    "accessed": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "input": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["kind", "value"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": ["url", "arxiv", "doi", "github"]
+        },
+        "value": {
+          "type": "string"
+        }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["candidate", "promoted", "discarded"]
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

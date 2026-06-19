@@ -14,6 +14,8 @@
     "verify": "node scripts/verify-claims.mjs",
     "agent:record": "node scripts/record-agent-run.mjs",
     "workspace:create": "node scripts/create-workspace.mjs",
+    "source:import": "node scripts/source-importer.mjs",
+    "source:promote": "node scripts/promote-source.mjs",
     "check": "npm run generate && npm run validate && astro build && npm run validate:build"
   },
   "overrides": {

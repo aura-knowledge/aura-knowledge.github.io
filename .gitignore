@@ -5,3 +5,5 @@ dist/
 .env
 .env.*
 *.log
+content/scout/candidates/
+content/scout/reports/
