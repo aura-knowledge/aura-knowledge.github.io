@@ -326,6 +326,7 @@ const llms = [
   "## Primary Pages",
   `- [Home](${siteUrl("/")})`,
   `- [Roadmap](${siteUrl("/roadmap/")})`,
+  `- [Evidence Canvas](${siteUrl("/evidence-canvas/")})`,
   `- [Agent Entry](${siteUrl("/agents/")})`,
   `- [Knowledge Graph](${siteUrl("/graph/")})`,
   "",

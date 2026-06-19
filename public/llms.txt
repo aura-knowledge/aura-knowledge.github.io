@@ -5,6 +5,7 @@
 ## Primary Pages
 - [Home](https://aura-knowledge.github.io/)
 - [Roadmap](https://aura-knowledge.github.io/roadmap/)
+- [Evidence Canvas](https://aura-knowledge.github.io/evidence-canvas/)
 - [Agent Entry](https://aura-knowledge.github.io/agents/)
 - [Knowledge Graph](https://aura-knowledge.github.io/graph/)
 

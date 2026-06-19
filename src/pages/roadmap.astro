@@ -26,6 +26,7 @@ const ideaById = new Map(roadmap.ideas.map((idea) => [idea.id, idea]));
       <p class="lede">{roadmap.summary}</p>
       <div class="roadmap-actions" aria-label="Roadmap artifacts">
         <a class="button primary" href={reportUrl}>Research report</a>
+        <a class="button" href={`${base}evidence-canvas/`}>Evidence canvas</a>
         <a class="button" href={roadmap.sourceRepo.url}>Source repo</a>
         <a class="button" href={`${base}agents/roadmap/${roadmap.slug}.json`}>
           Agent JSON

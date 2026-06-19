@@ -1,0 +1,211 @@
+---
+import { readFileSync, readdirSync } from "node:fs";
+import path from "node:path";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const publicDir = path.join(process.cwd(), "public");
+
+const diagnostics = JSON.parse(
+  readFileSync(path.join(publicDir, "agents", "diagnostics.json"), "utf8")
+);
+const verificationReport = JSON.parse(
+  readFileSync(path.join(publicDir, "agents", "verification-report.json"), "utf8")
+);
+const index = JSON.parse(readFileSync(path.join(publicDir, "agents", "index.json"), "utf8"));
+const edgesPacket = JSON.parse(
+  readFileSync(path.join(publicDir, "graph", "edges.json"), "utf8")
+);
+const edges = edgesPacket.edges ?? [];
+
+const articleFiles = readdirSync(path.join(publicDir, "agents", "articles")).filter((name) =>
+  name.endsWith(".json")
+);
+const articlePackets = articleFiles.map((name) =>
+  JSON.parse(readFileSync(path.join(publicDir, "agents", "articles", name), "utf8"))
+);
+
+const totalArticles = index.articles.length;
+const totalClaims = articlePackets.reduce((sum, packet) => sum + packet.claims.length, 0);
+const totalSources = articlePackets.reduce((sum, packet) => sum + packet.sources.length, 0);
+const totalErrors = diagnostics.summary.errors;
+const totalWarnings = diagnostics.summary.warnings;
+
+const stateCounts = {};
+for (const article of verificationReport.articles ?? []) {
+  for (const claim of article.claims ?? []) {
+    stateCounts[claim.state] = (stateCounts[claim.state] ?? 0) + 1;
+  }
+}
+
+const typeCounts = {};
+for (const packet of articlePackets) {
+  for (const source of packet.sources ?? []) {
+    typeCounts[source.type] = (typeCounts[source.type] ?? 0) + 1;
+  }
+}
+
+const maturityCounts = {};
+for (const entry of index.articles ?? []) {
+  maturityCounts[entry.maturity] = (maturityCounts[entry.maturity] ?? 0) + 1;
+}
+
+let claimsWithCounterevidence = 0;
+for (const packet of articlePackets) {
+  for (const claim of packet.claims ?? []) {
+    if (claim.counterevidence.length > 0) {
+      claimsWithCounterevidence += 1;
+    }
+  }
+}
+
+const machineGeneratedEdges = edges.filter(
+  (edge) => edge.provenance?.status === "machine-generated"
+).length;
+
+function sortedEntries(counts) {
+  return Object.entries(counts).sort(([, a], [, b]) => (b as number) - (a as number));
+}
+---
+
+<BaseLayout
+  title="Evidence Canvas"
+  description="A static summary of claim coverage, source diversity, maturity, counterevidence, and graph health for the knowledge garden."
+>
+  <div class="page-shell utility-page evidence-canvas-page">
+    <header class="utility-hero">
+      <p class="eyebrow">Evidence health</p>
+      <h1>Claim Evidence Canvas</h1>
+      <p class="lede">
+        A build-time snapshot of claim coverage, source diversity, maturity, counterevidence, and
+        graph provenance. No live data; this page is regenerated from the same artifacts agents
+        consume.
+      </p>
+    </header>
+
+    <section class="roadmap-snapshot" aria-label="Garden snapshot">
+      <article>
+        <span>Articles</span>
+        <strong>{totalArticles}</strong>
+      </article>
+      <article>
+        <span>Claims</span>
+        <strong>{totalClaims}</strong>
+      </article>
+      <article>
+        <span>Sources</span>
+        <strong>{totalSources}</strong>
+      </article>
+      <article>
+        <span>Errors</span>
+        <strong>{totalErrors}</strong>
+      </article>
+      <article>
+        <span>Warnings</span>
+        <strong>{totalWarnings}</strong>
+      </article>
+    </section>
+
+    <section class="section-band section-grid" aria-labelledby="claim-states-title">
+      <div>
+        <p class="eyebrow">Verification</p>
+        <h2 id="claim-states-title">Claim states</h2>
+      </div>
+      <div>
+        <ul class="signal-list">
+          {sortedEntries(stateCounts).map(([state, count]) => (
+            <li>
+              <strong>{state}</strong> — {count} claim{count === 1 ? "" : "s"}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-band section-grid" aria-labelledby="source-types-title">
+      <div>
+        <p class="eyebrow">Diversity</p>
+        <h2 id="source-types-title">Source types</h2>
+      </div>
+      <div>
+        <ul class="signal-list">
+          {sortedEntries(typeCounts).map(([type, count]) => (
+            <li>
+              <strong>{type}</strong> — {count} source{count === 1 ? "" : "s"}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-band section-grid" aria-labelledby="maturity-title">
+      <div>
+        <p class="eyebrow">Lifecycle</p>
+        <h2 id="maturity-title">Maturity distribution</h2>
+      </div>
+      <div>
+        <ul class="signal-list">
+          {sortedEntries(maturityCounts).map(([maturity, count]) => (
+            <li>
+              <strong>{maturity}</strong> — {count} article{count === 1 ? "" : "s"}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-band section-grid" aria-labelledby="counterevidence-title">
+      <div>
+        <p class="eyebrow">Rigor</p>
+        <h2 id="counterevidence-title">Counterevidence coverage</h2>
+      </div>
+      <div>
+        <p>
+          {claimsWithCounterevidence} of {totalClaims} claims ({Math.round(
+            (claimsWithCounterevidence / Math.max(totalClaims, 1)) * 100
+          )}%) have at least one counterevidence packet.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-band section-grid" aria-labelledby="graph-health-title">
+      <div>
+        <p class="eyebrow">Provenance</p>
+        <h2 id="graph-health-title">Graph health</h2>
+      </div>
+      <div>
+        <ul class="signal-list">
+          <li>
+            <strong>Total edges</strong> — {edges.length}
+          </li>
+          <li>
+            <strong>Machine-generated edges</strong> — {machineGeneratedEdges}
+          </li>
+          <li>
+            <strong>Reviewed edges</strong> — {edges.length - machineGeneratedEdges}
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-band" aria-labelledby="diagnostics-title">
+      <div class="roadmap-section-head">
+        <p class="eyebrow">Diagnostics</p>
+        <h2 id="diagnostics-title">Recent validation findings</h2>
+      </div>
+      <ul class="signal-list">
+        {diagnostics.findings.slice(0, 20).map((finding) => (
+          <li>
+            <span class={`status-badge ${finding.severity}`}>{finding.severity}</span>
+            {finding.message}
+          </li>
+        ))}
+      </ul>
+      {diagnostics.findings.length > 20 && (
+        <p class="graph-edge-note">
+          Showing 20 of {diagnostics.findings.length} findings. See public/agents/diagnostics.json
+          for the full list.
+        </p>
+      )}
+    </section>
+  </div>
+</BaseLayout>
