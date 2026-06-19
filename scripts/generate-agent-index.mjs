@@ -11,6 +11,14 @@ import {
 import { assessArticle, summarizeFindings } from "./lib/evidence-diagnostics.mjs";
 import { buildVerificationReport } from "./lib/verification-report.mjs";
 import { buildQueryCatalog } from "./lib/garden-queries.mjs";
+import {
+  buildClaimFeeds,
+  buildEdgeFeeds,
+  buildFeedManifest,
+  buildRoadmapFeeds,
+  buildSourceFeeds
+} from "./lib/agent-feeds.mjs";
+import { estimateTokens } from "./lib/token-estimate.mjs";
 
 const site = "https://aura-knowledge.github.io";
 const base = "";
@@ -35,6 +43,7 @@ function articlePacket(article) {
     agentMarkdownPath: `/agents/articles/${article.slug}.md`,
     sourceRepoPath: article.sourcePath,
     sourceGitHubUrl: `${repoUrl}/blob/main/${article.sourcePath}`,
+    tokenEstimate: article.tokenEstimate,
     sectionOutline: Array.from(article.articleBody.matchAll(/<h2 id="([^"]+)">([^<]+)<\/h2>/g)).map(
       (match) => ({
         id: match[1],
@@ -61,6 +70,7 @@ function indexEntry(article) {
     updatedAt: article.artifact.updatedAt,
     claimCount: article.artifact.claims.length,
     sourceCount: article.artifact.sources.length,
+    tokenEstimate: article.tokenEstimate,
     contentHash: article.contentHash
   };
 }
@@ -157,6 +167,9 @@ function buildGraph(articles) {
 }
 
 const allArticles = await loadArticles();
+for (const article of allArticles) {
+  article.tokenEstimate = estimateTokens(article.agentBody);
+}
 const articles = allArticles.filter((article) =>
   article.articleFrontmatter.status === "published" && article.artifact.status === "published"
 );
@@ -172,6 +185,7 @@ await rm(publicPath("graph"), { recursive: true, force: true });
 await mkdir(publicPath("agents", "articles"), { recursive: true });
 await mkdir(publicPath("agents", "roadmap"), { recursive: true });
 await mkdir(publicPath("agents", "topics"), { recursive: true });
+await mkdir(publicPath("agents", "feeds"), { recursive: true });
 await mkdir(publicPath("graph"), { recursive: true });
 
 for (const article of allArticles) {
@@ -330,6 +344,11 @@ const llms = [
     `- [${entry.slug} Markdown](${siteUrl(entry.agentMarkdownPath)})`
   ]),
   ...topicsIndex.map((topic) => `- [${topic.topic} topic JSON](${siteUrl(topic.agentJsonPath)})`),
+  `- [Agent Feeds Manifest](${siteUrl("/agents/feeds/manifest.json")})`,
+  `- [Claims Feed JSONL](${siteUrl("/agents/feeds/claims.jsonl")})`,
+  `- [Sources Feed JSONL](${siteUrl("/agents/feeds/sources.jsonl")})`,
+  `- [Roadmap Feed JSONL](${siteUrl("/agents/feeds/roadmap.jsonl")})`,
+  `- [Edges Feed JSONL](${siteUrl("/agents/feeds/edges.jsonl")})`,
   "",
   "## Use",
   "Use article packets as the retrieval unit. Treat maturity values as uncertainty markers. Prefer claim IDs and source IDs over inferred citations. Article artifacts use schemaVersion 3 with a provenance block (agents, reviews, policy) and typed evidence/counterevidence packets. Trust a published packet only when its provenance contains a human-approved review whose contentHash matches the current article.md hash.",
@@ -366,6 +385,21 @@ const queryCatalog = buildQueryCatalog(
 );
 await writeJson(publicPath("agents", "garden-queries.json"), queryCatalog);
 
+const feeds = {
+  claims: buildClaimFeeds(articles, site),
+  sources: buildSourceFeeds(articles, site),
+  roadmap: buildRoadmapFeeds(roadmaps),
+  edges: buildEdgeFeeds(graph.edges)
+};
+const feedManifest = buildFeedManifest(feeds, site, base, generatedAt);
+await writeJson(publicPath("agents", "feeds", "manifest.json"), feedManifest);
+for (const [name, lines] of Object.entries(feeds)) {
+  await writeFile(
+    publicPath("agents", "feeds", `${name}.jsonl`),
+    `${lines.map((line) => JSON.stringify(line)).join("\n")}\n`
+  );
+}
+
 await writeFile(publicPath("llms.txt"), llms);
 
-console.log(`Generated ${entries.length} article packet(s), ${roadmaps.length} roadmap packet(s), ${graph.nodes.length} graph node(s), ${graph.edges.length} edge(s), ${queryCatalog.queries.length} query catalog(s), and ${allFindings.length} diagnostic finding(s).`);
+console.log(`Generated ${entries.length} article packet(s), ${roadmaps.length} roadmap packet(s), ${graph.nodes.length} graph node(s), ${graph.edges.length} edge(s), ${queryCatalog.queries.length} query catalog(s), ${feedManifest.counts.claims} claim feed(s), ${feedManifest.counts.sources} source feed(s), ${feedManifest.counts.roadmap} roadmap feed row(s), ${feedManifest.counts.edges} edge feed(s), and ${allFindings.length} diagnostic finding(s).`);

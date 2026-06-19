@@ -923,6 +923,7 @@
   "agentMarkdownPath": "/agents/articles/agentic-commerce-product-truth.md",
   "sourceRepoPath": "content/articles/2026/agentic-commerce-product-truth/article.md",
   "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/agentic-commerce-product-truth/article.md",
+  "tokenEstimate": 1431,
   "sectionOutline": [
     {
       "id": "a-small-behavior-change",
