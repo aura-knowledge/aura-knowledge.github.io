@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aura-knowledge.github.io/schemas/eval-report.schema.json",
+  "title": "Brief Evaluation Report",
+  "description": "Results of running the brief evaluation set against the knowledge garden.",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "summary", "cases"],
+  "additionalProperties": true,
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "generatedAt": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "object",
+      "required": ["total", "passed", "failed"],
+      "additionalProperties": true,
+      "properties": {
+        "total": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "passed": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "failed": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "cases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "passed", "query", "expected", "actual", "failures"],
+        "additionalProperties": true,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "passed": {
+            "type": "boolean"
+          },
+          "query": {
+            "type": "object",
+            "additionalProperties": true
+          },
+          "expected": {
+            "type": "object",
+            "additionalProperties": true
+          },
+          "actual": {
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+              "slugs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "claimIds": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "failures": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

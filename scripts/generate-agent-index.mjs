@@ -4,6 +4,7 @@ import {
   loadArticles,
   loadRoadmaps,
   publicRoot,
+  readJson,
   rootDir,
   toPosix,
   writeJson
@@ -19,6 +20,7 @@ import {
   buildSourceFeeds
 } from "./lib/agent-feeds.mjs";
 import { estimateTokens } from "./lib/token-estimate.mjs";
+import { buildEvalReport } from "./lib/eval-briefs.mjs";
 
 const site = "https://aura-knowledge.github.io";
 const base = "";
@@ -337,6 +339,7 @@ const llms = [
   `- [Agent Index JSON](${siteUrl("/agents/index.json")})`,
   `- [Agent Index JSONL](${siteUrl("/agents/index.jsonl")})`,
   `- [Garden Query Catalog](${siteUrl("/agents/garden-queries.json")})`,
+  `- [Brief Eval Report](${siteUrl("/agents/eval-report.json")})`,
   `- [Graph Nodes](${siteUrl("/graph/nodes.json")})`,
   `- [Graph Edges](${siteUrl("/graph/edges.json")})`,
   ...roadmaps.map((roadmap) => `- [${roadmap.slug} roadmap JSON](${siteUrl(`/agents/roadmap/${roadmap.slug}.json`)})`),
@@ -401,6 +404,16 @@ for (const [name, lines] of Object.entries(feeds)) {
   );
 }
 
+const evalSet = await readJson(path.join(rootDir, "content", "eval", "brief-eval-set.json"));
+const articlePacketsBySlug = new Map(articles.map((article) => [article.slug, article.artifact]));
+const evalReport = await buildEvalReport(
+  evalSet,
+  { index: { site, base }, articles: allArticles, verificationReport, edges: graph.edges },
+  articlePacketsBySlug,
+  generatedAt
+);
+await writeJson(publicPath("agents", "eval-report.json"), evalReport);
+
 await writeFile(publicPath("llms.txt"), llms);
 
-console.log(`Generated ${entries.length} article packet(s), ${roadmaps.length} roadmap packet(s), ${graph.nodes.length} graph node(s), ${graph.edges.length} edge(s), ${queryCatalog.queries.length} query catalog(s), ${feedManifest.counts.claims} claim feed(s), ${feedManifest.counts.sources} source feed(s), ${feedManifest.counts.roadmap} roadmap feed row(s), ${feedManifest.counts.edges} edge feed(s), and ${allFindings.length} diagnostic finding(s).`);
+console.log(`Generated ${entries.length} article packet(s), ${roadmaps.length} roadmap packet(s), ${graph.nodes.length} graph node(s), ${graph.edges.length} edge(s), ${queryCatalog.queries.length} query catalog(s), ${feedManifest.counts.claims} claim feed(s), ${feedManifest.counts.sources} source feed(s), ${feedManifest.counts.roadmap} roadmap feed row(s), ${feedManifest.counts.edges} edge feed(s), ${evalReport.summary.total} eval case(s) (${evalReport.summary.passed} passed), and ${allFindings.length} diagnostic finding(s).`);
