@@ -1123,6 +1123,32 @@ h3 {
   text-decoration: underline;
 }
 
+.footer-meta nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer-utility {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.25rem;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.35rem 0.65rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer-utility:hover {
+  border-color: var(--accent);
+  color: var(--accent-strong);
+  text-decoration: none;
+}
+
 .machine-band {
   background: color-mix(in srgb, var(--bg-soft) 52%, transparent);
 }

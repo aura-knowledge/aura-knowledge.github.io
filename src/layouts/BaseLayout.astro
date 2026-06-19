@@ -85,8 +85,11 @@ const isActive = (href: string) => {
       <div class="site-footer-inner">
         <span>Readable essays, auditable research packets.</span>
         <div class="footer-meta">
-          <span>Structured for agents; guided for humans.</span>
-          <a href={`${base}agents/`}>Agent entry</a>
+          <span>Structured for agents. Guided for humans.</span>
+          <nav aria-label="Utility links">
+            <a class="footer-utility" href={`${base}agents/`}>Agent entry</a>
+            <a class="footer-utility" href={`${base}graph/`}>Graph</a>
+          </nav>
         </div>
       </div>
     </footer>
