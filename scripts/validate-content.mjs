@@ -9,6 +9,7 @@ import {
   rootDir,
   toPosix
 } from "./lib/content-utils.mjs";
+import { assessArticle, summarizeFindings } from "./lib/evidence-diagnostics.mjs";
 
 const ajv = new Ajv2020({ allErrors: true, strict: false });
 ajv.addFormat("uri", {
@@ -32,9 +33,14 @@ const validateAgent = ajv.compile(agentSchema);
 const validateArtifact = ajv.compile(artifactSchema);
 const validateRoadmap = ajv.compile(roadmapSchema);
 const errors = [];
+const warnings = [];
 
 function report(message) {
   errors.push(message);
+}
+
+function reportWarning(message) {
+  warnings.push(message);
 }
 
 function formatAjvErrors(prefix, validator) {
@@ -49,16 +55,6 @@ async function assertExists(filePath) {
   } catch {
     report(`Missing generated file: ${toPosix(path.relative(rootDir, filePath))}`);
   }
-}
-
-function claimMarkers(articleBody) {
-  const markers = new Set();
-  const spans = articleBody.match(/<span[^>]*class="[^"]*claim-marker[^"]*"[^>]*>/g) ?? [];
-  for (const span of spans) {
-    const id = span.match(/id="(claim-[0-9]{3})"/)?.[1];
-    if (id) markers.add(id);
-  }
-  return markers;
 }
 
 function reportDuplicates(prefix, label, values) {
@@ -209,37 +205,17 @@ for (const article of articles) {
     report(`${prefix}: artifact contentHash is stale. Run npm run generate.`);
   }
 
-  const markers = claimMarkers(article.articleBody);
   const claimIds = article.artifact.claims.map((claim) => claim.id);
   const sourceIdsList = article.artifact.sources.map((source) => source.id);
   reportDuplicates(prefix, "claim id", claimIds);
   reportDuplicates(prefix, "source id", sourceIdsList);
 
-  const artifactClaims = new Set(article.artifact.claims.map((claim) => claim.id));
-
-  for (const claimId of artifactClaims) {
-    if (!markers.has(claimId)) {
-      report(`${prefix}: claim ${claimId} is missing a visible article marker.`);
-    }
-  }
-
-  for (const marker of markers) {
-    if (!artifactClaims.has(marker)) {
-      report(`${prefix}: article marker ${marker} is not present in artifact claims.`);
-    }
-  }
-
-  const sourceIds = new Set(article.artifact.sources.map((source) => source.id));
-  for (const claim of article.artifact.claims) {
-    for (const packet of claim.evidence) {
-      if (!sourceIds.has(packet.sourceId)) {
-        report(`${prefix}: ${claim.id} references missing source ${packet.sourceId}.`);
-      }
-    }
-    for (const packet of claim.counterevidence) {
-      if (packet.sourceId && !sourceIds.has(packet.sourceId)) {
-        report(`${prefix}: ${claim.id} references missing counterevidence source ${packet.sourceId}.`);
-      }
+  const findings = assessArticle(article, article.articleBody, { prefix });
+  for (const finding of findings) {
+    if (finding.severity === "error") {
+      report(finding.message);
+    } else {
+      reportWarning(finding.message);
     }
   }
 
@@ -355,6 +331,13 @@ try {
   }
 } catch (error) {
   report(`Generated roadmap packet is invalid: ${error.message}`);
+}
+
+if (warnings.length > 0) {
+  console.warn("Content validation warnings:");
+  for (const warning of warnings) {
+    console.warn(`- ${warning}`);
+  }
 }
 
 if (errors.length > 0) {

@@ -8,6 +8,7 @@ import {
   toPosix,
   writeJson
 } from "./lib/content-utils.mjs";
+import { assessArticle, summarizeFindings } from "./lib/evidence-diagnostics.mjs";
 
 const site = "https://aura-knowledge.github.io";
 const base = "";
@@ -307,6 +308,25 @@ const llms = [
   ""
 ].join("\n");
 
+const allFindings = [];
+for (const article of allArticles) {
+  const findings = assessArticle(article, article.articleBody, {
+    prefix: `${article.year}/${article.slug}`
+  });
+  allFindings.push(...findings);
+}
+const diagnosticsSummary = summarizeFindings(allFindings);
+await writeJson(publicPath("agents", "diagnostics.json"), {
+  schemaVersion: 1,
+  generatedAt,
+  summary: {
+    errors: diagnosticsSummary.errors.length,
+    warnings: diagnosticsSummary.warnings.length,
+    total: diagnosticsSummary.total
+  },
+  findings: allFindings
+});
+
 await writeFile(publicPath("llms.txt"), llms);
 
-console.log(`Generated ${entries.length} article packet(s), ${roadmaps.length} roadmap packet(s), ${graph.nodes.length} graph node(s), and ${graph.edges.length} edge(s).`);
+console.log(`Generated ${entries.length} article packet(s), ${roadmaps.length} roadmap packet(s), ${graph.nodes.length} graph node(s), ${graph.edges.length} edge(s), and ${allFindings.length} diagnostic finding(s).`);

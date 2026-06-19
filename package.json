@@ -9,6 +9,7 @@
     "preview": "astro preview",
     "generate": "node scripts/generate-agent-index.mjs",
     "validate": "node scripts/validate-content.mjs",
+    "validate:evidence": "node scripts/validate-content.mjs",
     "validate:build": "node scripts/validate-build.mjs",
     "check": "npm run generate && npm run validate && astro build && npm run validate:build"
   },
