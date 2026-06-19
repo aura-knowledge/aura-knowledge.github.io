@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "articleId": "article:agent-auditable-research",
+  "slug": "agent-auditable-research",
+  "generatedAt": "2026-06-19T10:24:53.619Z",
+  "suggestions": [
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/agent-auditable-research: claim-001 relies on a single source type for evidence.",
+      "claimId": "claim-001"
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/agent-auditable-research: claim-005 relies on a single source type for evidence.",
+      "claimId": "claim-005"
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/agent-auditable-research: claim-006 relies on a single source type for evidence.",
+      "claimId": "claim-006"
+    }
+  ]
+}

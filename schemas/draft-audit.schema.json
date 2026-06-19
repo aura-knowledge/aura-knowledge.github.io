@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://v-i-s-h-a-l.github.io/knowledge/schemas/draft-audit.schema.json",
+  "title": "Aura Knowledge Draft Audit Report",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["schemaVersion", "articleId", "slug", "generatedAt", "suggestions"],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "articleId": {
+      "type": "string",
+      "pattern": "^article:[a-z0-9-]+$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "generatedAt": {
+      "type": "string"
+    },
+    "suggestions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": ["rule", "severity", "message"],
+        "properties": {
+          "rule": {
+            "type": "string"
+          },
+          "severity": {
+            "type": "string",
+            "enum": ["error", "warning"]
+          },
+          "message": {
+            "type": "string"
+          },
+          "claimId": {
+            "type": "string",
+            "pattern": "^claim-[0-9]{3}$"
+          }
+        }
+      }
+    }
+  }
+}

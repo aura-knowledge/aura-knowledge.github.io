@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "articleId": "article:agentic-commerce-product-truth",
+  "slug": "agentic-commerce-product-truth",
+  "generatedAt": "2026-06-19T10:24:53.622Z",
+  "suggestions": [
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/agentic-commerce-product-truth: claim-002 relies on a single source type for evidence.",
+      "claimId": "claim-002"
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/agentic-commerce-product-truth: claim-012 relies on a single source type for evidence.",
+      "claimId": "claim-012"
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/agentic-commerce-product-truth: claim-014 relies on a single source type for evidence.",
+      "claimId": "claim-014"
+    }
+  ]
+}
