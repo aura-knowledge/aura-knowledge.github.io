@@ -1,0 +1,107 @@
+---
+interface ProvenanceAgent {
+  role: string;
+  model: string;
+  invokedAt: string;
+  inputHash: string;
+  outputHash: string;
+}
+
+interface ProvenanceReview {
+  reviewer: string;
+  reviewedAt: string;
+  status: "approved" | "requested-changes" | "commented" | "rejected";
+  scope: string[];
+  notes: string;
+  contentHash?: string;
+}
+
+interface ProvenancePolicy {
+  id: string;
+  version: string;
+}
+
+interface ArtifactProvenance {
+  createdAt: string;
+  createdBy: string;
+  agents: ProvenanceAgent[];
+  reviews: ProvenanceReview[];
+  policy: ProvenancePolicy;
+}
+
+interface Props {
+  provenance: ArtifactProvenance;
+  contentHash: string;
+}
+
+const { provenance, contentHash } = Astro.props;
+const approvedReviews = provenance.reviews.filter(
+  (review) => review.reviewer === "human" && review.status === "approved"
+);
+const latestApproved = approvedReviews[approvedReviews.length - 1];
+const hashAligned = latestApproved?.contentHash === contentHash;
+---
+
+<section class="provenance-panel" aria-labelledby="provenance-title">
+  <p class="eyebrow">Trust layer</p>
+  <h2 id="provenance-title">Provenance</h2>
+
+  <div class="provenance-summary">
+    <p>
+      Created {provenance.createdAt} by {provenance.createdBy}.
+      Policy: <code>{provenance.policy.id}</code> v{provenance.policy.version}.
+    </p>
+    {
+      latestApproved && (
+        <p class={`provenance-status ${hashAligned ? "aligned" : "misaligned"}`}>
+          {hashAligned ? "✓ Approved hash matches current article" : "⚠ Approved hash does not match current article"}
+        </p>
+      )
+    }
+  </div>
+
+  {
+    provenance.agents.length > 0 && (
+      <div class="provenance-section">
+        <h3>Agent runs</h3>
+        <ul class="provenance-agent-list">
+          {provenance.agents.map((agent) => (
+            <li>
+              <strong>{agent.role}</strong>
+              <span>{agent.model}</span>
+              <span>{agent.invokedAt}</span>
+              <code>in:{agent.inputHash.slice(7, 15)}…</code>
+              <code>out:{agent.outputHash.slice(7, 15)}…</code>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )
+  }
+
+  {
+    provenance.reviews.length > 0 && (
+      <div class="provenance-section">
+        <h3>Reviews</h3>
+        <ul class="provenance-review-list">
+          {provenance.reviews.map((review) => (
+            <li>
+              <div class="provenance-review-header">
+                <strong>{review.reviewer}</strong>
+                <span class={`review-status review-status-${review.status}`}>{review.status}</span>
+                <span>{review.reviewedAt}</span>
+              </div>
+              <p class="review-scope">Scope: {review.scope.join(", ")}</p>
+              {review.contentHash && (
+                <p class="review-hash">
+                  contentHash: <code>{review.contentHash.slice(0, 16)}…</code>
+                </p>
+              )}
+              {review.notes && <p class="review-notes">{review.notes}</p>}
+            </li>
+          ))}
+        </ul>
+      </div>
+    )
+  }
+</section>

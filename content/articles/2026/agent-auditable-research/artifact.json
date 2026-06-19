@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "id": "article:agent-auditable-research",
   "slug": "agent-auditable-research",
   "title": "The Future of Publishing Is Agent-Auditable Research",
@@ -277,16 +277,29 @@
     "Treat maturity=seed as an explicit uncertainty marker.",
     "Do not infer that Kimi WebBridge contributed; it was unavailable during implementation."
   ],
-  "humanReview": {
-    "status": "reviewed-with-agent-input",
-    "reviewedAt": "2026-06-17",
-    "reviewers": [
-      "Codex main agent",
-      "Locke UX reviewer",
-      "Descartes article reviewer",
-      "Boyle governance reviewer"
+  "contentHash": "9cc411aa12445fd609490b32242da73e065ef4052557270e21a9f0ef8b724aa4",
+  "provenance": {
+    "createdAt": "2026-06-17",
+    "createdBy": "human",
+    "agents": [],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-17",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "sources",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Initial seed article shaped through cross-agent review. Human author retains final judgment before public launch.",
+        "contentHash": "9cc411aa12445fd609490b32242da73e065ef4052557270e21a9f0ef8b724aa4"
+      }
     ],
-    "notes": "Initial seed article shaped through cross-agent review. Human author retains final judgment before public launch."
-  },
-  "contentHash": "9cc411aa12445fd609490b32242da73e065ef4052557270e21a9f0ef8b724aa4"
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  }
 }

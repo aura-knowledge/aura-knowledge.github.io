@@ -1,0 +1,34 @@
+{
+  "id": "policy:default",
+  "version": "1.0.0",
+  "name": "Default Aura Knowledge Publishing Policy",
+  "effectiveAt": "2026-06-18",
+  "description": "Minimum bar for publishing an article in the Aura Knowledge garden: human review, provenance, and hash alignment.",
+  "rules": [
+    {
+      "id": "human-approval-required",
+      "scope": "publication",
+      "requirement": "A published article must have at least one provenance review with reviewer type human and status approved."
+    },
+    {
+      "id": "content-hash-match",
+      "scope": "provenance",
+      "requirement": "The latest approved review must record the contentHash of the article.md that was approved."
+    },
+    {
+      "id": "policy-reference-valid",
+      "scope": "provenance",
+      "requirement": "The artifact must reference a published policy file that exists in the policies/ directory."
+    },
+    {
+      "id": "claim-evidence-minimum",
+      "scope": "claims",
+      "requirement": "Every published claim must contain at least one evidence packet with a source and snippet."
+    },
+    {
+      "id": "agent-contribution-disclosed",
+      "scope": "provenance",
+      "requirement": "Any agent role that produced or revised content must be recorded in provenance.agents with input and output hashes."
+    }
+  ]
+}

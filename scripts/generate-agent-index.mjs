@@ -237,7 +237,7 @@ const archivesIndex = Array.from(yearGroups.entries())
   }));
 
 await writeJson(publicPath("agents", "index.json"), {
-  schemaVersion: 2,
+  schemaVersion: 3,
   generatedAt,
   site,
   base,
@@ -305,7 +305,7 @@ const llms = [
   ...topicsIndex.map((topic) => `- [${topic.topic} topic JSON](${siteUrl(topic.agentJsonPath)})`),
   "",
   "## Use",
-  "Use article packets as the retrieval unit. Treat maturity values as uncertainty markers. Prefer claim IDs and source IDs over inferred citations. Article artifacts use schemaVersion 2; evidence and counterevidence are typed packets, not bare source IDs.",
+  "Use article packets as the retrieval unit. Treat maturity values as uncertainty markers. Prefer claim IDs and source IDs over inferred citations. Article artifacts use schemaVersion 3 with a provenance block (agents, reviews, policy) and typed evidence/counterevidence packets. Trust a published packet only when its provenance contains a human-approved review whose contentHash matches the current article.md hash.",
   ""
 ].join("\n");
 

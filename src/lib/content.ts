@@ -66,6 +66,36 @@ export type ArtifactClaim = {
   counterevidence: CounterevidencePacket[];
 };
 
+export type ProvenanceAgent = {
+  role: string;
+  model: string;
+  invokedAt: string;
+  inputHash: string;
+  outputHash: string;
+};
+
+export type ProvenanceReview = {
+  reviewer: string;
+  reviewedAt: string;
+  status: "approved" | "requested-changes" | "commented" | "rejected";
+  scope: string[];
+  notes: string;
+  contentHash?: string;
+};
+
+export type ProvenancePolicy = {
+  id: string;
+  version: string;
+};
+
+export type ArtifactProvenance = {
+  createdAt: string;
+  createdBy: string;
+  agents: ProvenanceAgent[];
+  reviews: ProvenanceReview[];
+  policy: ProvenancePolicy;
+};
+
 export type ArticleArtifact = {
   schemaVersion: number;
   id: string;
@@ -91,12 +121,7 @@ export type ArticleArtifact = {
   }>;
   related: Array<{ type: string; id: string }>;
   agentInstructions: string[];
-  humanReview: {
-    status: string;
-    reviewedAt: string;
-    reviewers: string[];
-    notes: string;
-  };
+  provenance: ArtifactProvenance;
   contentHash: string;
 };
 
