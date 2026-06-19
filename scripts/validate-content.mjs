@@ -29,11 +29,13 @@ const agentSchema = await readJson(path.join(rootDir, "schemas", "agent.schema.j
 const artifactSchema = await readJson(path.join(rootDir, "schemas", "artifact.schema.json"));
 const roadmapSchema = await readJson(path.join(rootDir, "schemas", "roadmap.schema.json"));
 const policySchema = await readJson(path.join(rootDir, "schemas", "policy.schema.json"));
+const gardenQueriesSchema = await readJson(path.join(rootDir, "schemas", "garden-queries.schema.json"));
 const validateArticle = ajv.compile(articleSchema);
 const validateAgent = ajv.compile(agentSchema);
 const validateArtifact = ajv.compile(artifactSchema);
 const validateRoadmap = ajv.compile(roadmapSchema);
 const validatePolicy = ajv.compile(policySchema);
+const validateGardenQueries = ajv.compile(gardenQueriesSchema);
 
 async function loadPolicies() {
   const knownPolicies = new Map();
@@ -279,6 +281,7 @@ for (const article of articles) {
 
 await assertExists(path.join(publicRoot, "agents", "index.json"));
 await assertExists(path.join(publicRoot, "agents", "index.jsonl"));
+await assertExists(path.join(publicRoot, "agents", "garden-queries.json"));
 await assertExists(path.join(publicRoot, "graph", "nodes.json"));
 await assertExists(path.join(publicRoot, "graph", "edges.json"));
 await assertExists(path.join(publicRoot, "llms.txt"));
@@ -344,6 +347,28 @@ try {
   }
 } catch (error) {
   report(`Generated graph is invalid: ${error.message}`);
+}
+
+try {
+  const catalog = await readJson(path.join(publicRoot, "agents", "garden-queries.json"));
+  if (!validateGardenQueries(catalog)) {
+    formatAjvErrors("garden-queries", validateGardenQueries);
+  }
+  if (catalog.schemaVersion !== 1) {
+    report(`garden-queries: unexpected schemaVersion ${catalog.schemaVersion}.`);
+  }
+
+  const index = await readJson(path.join(publicRoot, "agents", "index.json"));
+  const indexArticleIds = new Set(index.articles?.map((entry) => entry.id) ?? []);
+  for (const query of catalog.queries ?? []) {
+    for (const result of query.results ?? []) {
+      if (!indexArticleIds.has(result.articleId)) {
+        report(`garden-queries/${query.name}: result references unknown article ${result.articleId}.`);
+      }
+    }
+  }
+} catch (error) {
+  report(`Generated garden query catalog is invalid: ${error.message}`);
 }
 
 try {

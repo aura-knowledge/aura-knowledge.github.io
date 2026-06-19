@@ -18,7 +18,9 @@
     "source:promote": "node scripts/promote-source.mjs",
     "audit": "node scripts/audit-draft.mjs",
     "scout": "node scripts/scout-sources.mjs",
-    "check": "npm run generate && npm run validate && astro build && npm run validate:build"
+    "garden:query": "node scripts/garden-query.mjs",
+    "garden:query:smoke": "node scripts/garden-query.mjs --help >/dev/null && node scripts/garden-query.mjs --topic product-truth --format ids",
+    "check": "npm run generate && npm run validate && astro build && npm run validate:build && npm run garden:query:smoke"
   },
   "overrides": {
     "esbuild": "0.28.1"

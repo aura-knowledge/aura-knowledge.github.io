@@ -10,6 +10,7 @@ import {
 } from "./lib/content-utils.mjs";
 import { assessArticle, summarizeFindings } from "./lib/evidence-diagnostics.mjs";
 import { buildVerificationReport } from "./lib/verification-report.mjs";
+import { buildQueryCatalog } from "./lib/garden-queries.mjs";
 
 const site = "https://aura-knowledge.github.io";
 const base = "";
@@ -320,6 +321,7 @@ const llms = [
   "## Agent Artifacts",
   `- [Agent Index JSON](${siteUrl("/agents/index.json")})`,
   `- [Agent Index JSONL](${siteUrl("/agents/index.jsonl")})`,
+  `- [Garden Query Catalog](${siteUrl("/agents/garden-queries.json")})`,
   `- [Graph Nodes](${siteUrl("/graph/nodes.json")})`,
   `- [Graph Edges](${siteUrl("/graph/edges.json")})`,
   ...roadmaps.map((roadmap) => `- [${roadmap.slug} roadmap JSON](${siteUrl(`/agents/roadmap/${roadmap.slug}.json`)})`),
@@ -356,6 +358,14 @@ await writeJson(publicPath("agents", "diagnostics.json"), {
 const verificationReport = buildVerificationReport(allArticles, generatedAt);
 await writeJson(publicPath("agents", "verification-report.json"), verificationReport);
 
+const queryCatalog = buildQueryCatalog(
+  { index: { site, base }, articles: allArticles, verificationReport, edges: graph.edges },
+  site,
+  base,
+  generatedAt
+);
+await writeJson(publicPath("agents", "garden-queries.json"), queryCatalog);
+
 await writeFile(publicPath("llms.txt"), llms);
 
-console.log(`Generated ${entries.length} article packet(s), ${roadmaps.length} roadmap packet(s), ${graph.nodes.length} graph node(s), ${graph.edges.length} edge(s), and ${allFindings.length} diagnostic finding(s).`);
+console.log(`Generated ${entries.length} article packet(s), ${roadmaps.length} roadmap packet(s), ${graph.nodes.length} graph node(s), ${graph.edges.length} edge(s), ${queryCatalog.queries.length} query catalog(s), and ${allFindings.length} diagnostic finding(s).`);
