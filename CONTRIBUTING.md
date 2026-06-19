@@ -49,6 +49,16 @@ Reviewers should check:
 - maturity state is honest
 - generated files changed only as expected
 
+## Site Navigation and Utility Placement
+
+Keep the human path clear and machine entry points discoverable:
+
+- **Primary navigation** (`src/layouts/BaseLayout.astro`): top-level human browse pages — Topics, Articles, Roadmap, Organization. The brand link returns to Home.
+- **Organization browse cards** (`src/pages/organization.astro`): human-readable cross-cutting views — Topics, Articles, Roadmap, Graph.
+- **Footer meta links** (`src/layouts/BaseLayout.astro`): machine/agent entry points and secondary links — Agent entry, `llms.txt`, discovery feeds, etc.
+
+Do not hide a human-facing page only under an agent-facing label. Any new footer or browse link must respect `import.meta.env.BASE_URL`.
+
 ## Branch Protection
 
 After the remote exists, protect `main` with:

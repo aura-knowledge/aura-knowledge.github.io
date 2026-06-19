@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import EmptyState from "../components/EmptyState.astro";
 import { getArticles } from "../lib/content";
 
 const base = import.meta.env.BASE_URL;
@@ -20,6 +21,13 @@ const latest = articles[0] ?? null;
           A knowledge garden where essays are written for people first, then backed by claim maps,
           evidence ledgers, and machine-readable artifacts that agents can inspect.
         </p>
+        {!latest && (
+          <EmptyState
+            heading="Nothing here yet"
+            headingLevel={2}
+            message="No published articles yet. Check back soon or open the roadmap."
+          />
+        )}
         <div class="button-row" aria-label="Primary actions">
           {latest && (
             <a class="button primary" href={`${base}articles/${latest.slug}/`}>
@@ -90,13 +98,12 @@ const latest = articles[0] ?? null;
             </article>
           ))
         ) : (
-          <div class="empty-state">
-            <p>
-              No articles have been published yet. Check back soon, or follow the
-              organization page to learn how new essays are added.
-            </p>
-            <a class="button" href={`${base}organization/`}>About the garden</a>
-          </div>
+          <EmptyState
+            heading="No articles yet"
+            headingLevel={3}
+            message="No articles have been published yet. Check back soon, or follow the organization page to learn how new essays are added."
+            action={{ href: `${base}organization/`, text: "About the garden" }}
+          />
         )}
       </div>
     </section>

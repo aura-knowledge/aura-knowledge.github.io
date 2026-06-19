@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import EmptyState from "../../../components/EmptyState.astro";
 import { getArticles, groupArticlesByYearMonth, getMonthName } from "../../../lib/content";
 
 export function getStaticPaths() {
@@ -55,10 +56,10 @@ const monthName = getMonthName(yearMonth);
           ))}
         </div>
       ) : (
-        <div class="empty-state">
-          <p>No articles were published in {monthName} {year}.</p>
-          <a class="button" href={`${base}articles/${year}/`}>Browse {year}</a>
-        </div>
+        <EmptyState
+          message={`No articles were published in ${monthName} ${year}.`}
+          action={{ href: `${base}articles/${year}/`, text: `Browse ${year}` }}
+        />
       )}
     </section>
   </div>
