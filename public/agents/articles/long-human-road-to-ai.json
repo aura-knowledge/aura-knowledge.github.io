@@ -24,6 +24,13 @@
     "human-progress",
     "education"
   ],
+  "series": {
+    "slug": "long-human-road-to-ai",
+    "title": "The Long Human Road to AI",
+    "season": "Season 1",
+    "order": 0,
+    "role": "guide"
+  },
   "claims": [
     {
       "id": "claim-001",

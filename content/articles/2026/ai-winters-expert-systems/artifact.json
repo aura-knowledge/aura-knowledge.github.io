@@ -25,6 +25,13 @@
     "evaluation",
     "hype-cycle"
   ],
+  "series": {
+    "slug": "long-human-road-to-ai",
+    "title": "The Long Human Road to AI",
+    "season": "Season 1",
+    "order": 4,
+    "role": "chapter"
+  },
   "claims": [
     {
       "id": "claim-001",
@@ -150,7 +157,7 @@
       "evidence": [
         {
           "sourceId": "source-nist-ai-rmf",
-          "snippet": "The NIST AI RMF emphasizes TEVV\u2014test, evaluation, verification, and validation\u2014across the AI system lifecycle.",
+          "snippet": "The NIST AI RMF emphasizes TEVV—test, evaluation, verification, and validation—across the AI system lifecycle.",
           "supports": "direct",
           "assessedAt": "2026-06-19"
         },
