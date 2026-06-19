@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 3,
+  "id": "article:learning-machines",
+  "slug": "learning-machines",
+  "title": "Learning Machines: Statistics, Neural Networks, and the Data Turn",
+  "canonicalPath": "/articles/learning-machines/",
+  "sourcePath": "content/articles/2026/learning-machines/article.md",
+  "agentBriefPath": "content/articles/2026/learning-machines/agent.md",
+  "thesis": "The learning turn in AI moved behavior from hand-written rules to adjustable parameters shaped by examples, feedback, statistics, neural-network training methods, datasets, benchmarks, and compute, becoming persuasive only when algorithms, data, hardware, evaluation, and engineering reinforced one another.",
+  "status": "review",
+  "maturity": "seed",
+  "publishedAt": "2026-06-20",
+  "updatedAt": "2026-06-20",
+  "audiences": [
+    "general readers",
+    "students",
+    "builders",
+    "agents"
+  ],
+  "topics": [
+    "long-human-road-to-ai",
+    "machine-learning",
+    "neural-networks",
+    "computing-history"
+  ],
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "The shift from hand-coded rules to learning from examples changed AI by combining statistics, neural networks, datasets, benchmarks, compute, and infrastructure into systems that infer useful patterns rather than only follow explicit instructions.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-dartmouth-1955",
+          "snippet": "The 1955 Dartmouth proposal named learning, language use, and abstraction as central study areas for artificial intelligence.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-samuel-1959",
+          "snippet": "Samuel described a checkers program that improved its play through rote learning and generalization from experience.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-imagenet-2015",
+          "snippet": "The ImageNet challenge report describes how large-scale labeled data and shared evaluation enabled measurable progress in object recognition.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Symbolic and rule-based systems remain effective for many tasks where rules are clear, and learning systems still require extensive human design, labels, and evaluation.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "The early AI field framing already included learning as a central feature of intelligence.",
+      "confidence": "high",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-dartmouth-1955",
+          "snippet": "The Dartmouth proposal explicitly lists learning as one of the key problems for the summer research project on artificial intelligence.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-dartmouth-story",
+          "snippet": "Dartmouth's institutional history situates the 1956 meeting and the naming of artificial intelligence within an ambition that included learning.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The proposal was aspirational field framing, not evidence that researchers had already achieved machine learning.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Samuel's checkers work is an early public example of a program improving through machine-learning procedures rather than relying only on fixed, hand-authored play.",
+      "confidence": "high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-samuel-1959",
+          "snippet": "Samuel's paper presents studies in machine learning using the game of checkers, emphasizing evaluated improvement from experience.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-dartmouth-1955",
+          "snippet": "The Dartmouth proposal named learning as a central problem, providing field context for Samuel's checkers work.",
+          "supports": "background",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Checkers is a narrow domain, and the popular shorthand definition of machine learning as acting without explicit programming is not directly sourced here.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Rosenblatt's perceptron framed pattern recognition through adaptive connections and probabilistic analysis, making the idea of a learning machine visible to a broad audience.",
+      "confidence": "high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-rosenblatt-1958",
+          "snippet": "Rosenblatt introduced the perceptron as a probabilistic model for information storage and organization, tied to pattern recognition.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-minsky-papert-1969",
+          "snippet": "Minsky and Papert's later analysis treated the perceptron architecture as its object of study, confirming its historical visibility.",
+          "supports": "background",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The perceptron was a simplified architecture with a bounded biological analogy; it is not equivalent to modern deep learning.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "Minsky and Papert analyzed limitations of perceptron models and helped clarify why simple architectures were insufficient for many interesting tasks.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-minsky-papert-1969",
+          "snippet": "Perceptrons analyzed the representational limits of simple perceptron models using computational geometry.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-rosenblatt-1958",
+          "snippet": "Rosenblatt's earlier paper provides the architectural context against which Minsky and Papert's limits were assessed.",
+          "supports": "background",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The book did not single-handedly end neural-network research; work on multilayer and other architectures continued, and the field's slowdown had multiple causes.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "The 1986 Nature paper helped make backpropagation for multilayer networks practically legible to a broad research audience, and gradient-trained convolutional networks were already being used for document recognition by the late 1990s.",
+      "confidence": "high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-backprop-1986",
+          "snippet": "Rumelhart, Hinton, and Williams demonstrated learning representations by back-propagating errors in multilayer networks.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-deep-learning-book",
+          "snippet": "Modern deep-learning texts treat the 1986 paper as a widely influential account and popularization of backpropagation.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-lecun-docrec-1998",
+          "snippet": "LeCun et al. showed gradient-based learning applied to document recognition, demonstrating practical neural-network deployment before the ImageNet era.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Backpropagation had earlier antecedents; the 1986 paper popularized and demonstrated it rather than inventing it, and document recognition remained a specialized application.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "ImageNet and ILSVRC helped make large labeled datasets and shared benchmarks central infrastructure for computer-vision progress.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-imagenet-site",
+          "snippet": "The ImageNet Large Scale Visual Recognition Challenge site documents the challenge's public evaluation role and citation guidance.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-imagenet-2015",
+          "snippet": "The ILSVRC survey describes the creation of the dataset, annotation challenges, and how shared benchmarks shaped object-recognition progress.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Benchmarks measure defined tasks and can narrow research attention or encourage overfitting to the test set rather than broader visual understanding.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-008",
+      "claim": "AlexNet made the combination of deep networks, ImageNet-scale data, and GPU implementation newly persuasive in 2012, but the result should be read as a convergence of factors rather than proof that compute alone or learned patterns equal understanding.",
+      "confidence": "high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-alexnet-2012",
+          "snippet": "Krizhevsky, Sutskever, and Hinton reported ImageNet classification results with deep convolutional neural networks trained with GPU implementation.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-imagenet-2015",
+          "snippet": "The ILSVRC survey situates AlexNet within the benchmark's history and the shift to deep convolutional networks.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-elements-stat-learning",
+          "snippet": "Statistical learning texts frame generalization as the central criterion for judging a model, distinct from memorization.",
+          "supports": "background",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-deep-learning-book",
+          "snippet": "Deep learning texts caution that learned representations do not imply human-like understanding and can fail under distribution shift.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-sutton-bitter",
+          "snippet": "Sutton's essay offers an interpretive lens that general methods leveraging compute tend to outperform hand-engineered knowledge.",
+          "supports": "analogous",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Parallel deep-learning work existed at the same time; AlexNet's success depended on matching training and test distributions, and benchmark success does not imply general understanding or that compute alone caused progress.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-dartmouth-1955",
+      "title": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
+      "url": "https://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf",
+      "type": "proposal",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-dartmouth-story",
+      "title": "AI at Dartmouth: Our Story",
+      "url": "https://ai.dartmouth.edu/our-story",
+      "type": "institutional-history",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-samuel-1959",
+      "title": "Some Studies in Machine Learning Using the Game of Checkers",
+      "url": "https://doi.org/10.1147/rd.33.0210",
+      "type": "research-paper",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-rosenblatt-1958",
+      "title": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
+      "url": "https://homepages.math.uic.edu/~lreyzin/papers/rosenblatt58.pdf",
+      "type": "research-paper",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-minsky-papert-1969",
+      "title": "Perceptrons: An Introduction to Computational Geometry",
+      "url": "https://mitpress.mit.edu/9780262630221/perceptrons/",
+      "type": "book",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-backprop-1986",
+      "title": "Learning Representations by Back-Propagating Errors",
+      "url": "https://doi.org/10.1038/323533a0",
+      "type": "research-paper",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-lecun-docrec-1998",
+      "title": "Gradient-Based Learning Applied to Document Recognition",
+      "url": "https://doi.org/10.1109/5.726791",
+      "type": "research-paper",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-imagenet-site",
+      "title": "ImageNet Large Scale Visual Recognition Challenge",
+      "url": "https://www.image-net.org/challenges/LSVRC/",
+      "type": "benchmark-site",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-imagenet-2015",
+      "title": "ImageNet Large Scale Visual Recognition Challenge",
+      "url": "https://arxiv.org/abs/1409.0575",
+      "type": "research-paper",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-alexnet-2012",
+      "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+      "url": "https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks",
+      "type": "research-paper",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-elements-stat-learning",
+      "title": "The Elements of Statistical Learning",
+      "url": "https://hastie.su.domains/ElemStatLearn/",
+      "type": "textbook",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-deep-learning-book",
+      "title": "Deep Learning",
+      "url": "https://www.deeplearningbook.org/",
+      "type": "textbook",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-sutton-bitter",
+      "title": "The Bitter Lesson",
+      "url": "https://www.incompleteideas.net/IncIdeas/BitterLesson.html",
+      "type": "essay",
+      "accessed": "2026-06-19"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:long-human-road-to-ai"
+    },
+    {
+      "type": "article",
+      "id": "article:ai-winters-expert-systems"
+    },
+    {
+      "type": "article",
+      "id": "article:foundation-models"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the primary retrieval unit for this article.",
+    "Prefer the artifact source list over inline citation guessing.",
+    "Treat maturity=seed as an explicit marker of provisional status.",
+    "Do not present the perceptron or AlexNet as the sole origin of modern AI.",
+    "Flag any analogy that is used without its stated boundary."
+  ],
+  "contentHash": "13a1ea53f6bb5ec5555c30368eaf4468977fa5c40653ed801309bbecadbef78e",
+  "provenance": {
+    "createdAt": "2026-06-20",
+    "createdBy": "human",
+    "agents": [],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-20",
+        "status": "commented",
+        "scope": [
+          "claims",
+          "sources",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Initial cross-agent review against the work package and source map. No private or proprietary material detected. Claim markers and source IDs aligned."
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  }
+}

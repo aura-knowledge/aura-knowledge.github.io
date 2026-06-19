@@ -1,0 +1,451 @@
+{
+  "schemaVersion": 3,
+  "id": "article:before-machines",
+  "slug": "before-machines",
+  "title": "Before Machines: Calculation, Automata, and the Dream of Mechanical Reason",
+  "canonicalPath": "/articles/before-machines/",
+  "sourcePath": "content/articles/2026/before-machines/article.md",
+  "agentBriefPath": "content/articles/2026/before-machines/agent.md",
+  "thesis": "Before electronic computers existed, people performed calculation as organized labor and built tools, tables, mechanisms, and automata to extend what human minds could reliably do. Those developments make later computing and AI more understandable only when they are presented as context, not as primitive computers or artificial intelligence.",
+  "status": "review",
+  "maturity": "seed",
+  "publishedAt": "2026-06-20",
+  "updatedAt": "2026-06-20",
+  "audiences": [
+    "general readers",
+    "students",
+    "builders",
+    "agents"
+  ],
+  "topics": [
+    "long-human-road-to-ai",
+    "ai-history",
+    "computing-history",
+    "human-progress",
+    "education"
+  ],
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Computation was performed by people before it became associated with electronic machines.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-chm-human-computers",
+          "snippet": "The Computer History Museum describes human computers as people who performed calculations before electronic machines, supporting science, industry, and national defense.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-smith-human-computers",
+          "snippet": "The Smithsonian Human Computer Project records that human computing work included trained mathematicians and workers with basic skills, and that by the late nineteenth century much of this labor increasingly fell to women.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-nist-math-tables",
+          "snippet": "The NIST history of the Math Tables Project describes how the WPA employed human computers to produce tables of mathematical functions during the 1930s and 1940s.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The boundary between human and machine calculation blurred over time; later human computers often operated mechanical calculators and early computing machines rather than working entirely by hand.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Counting boards and abaci moved arithmetic into visible physical state that could be manipulated and checked.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-chm-abacus",
+          "snippet": "The Computer History Museum presents counting boards and abaci as durable examples of physical aids for arithmetic, including the Salamis tablet.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-smithsonian-abacus",
+          "snippet": "The Smithsonian notes that an abacus supports arithmetic by moving counters along rods, wires, or lines, making calculation physical and inspectable.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The framing that beads 'externalize memory' is a modern interpretive lens; historical users may not have conceptualized the device in those terms, and abacus forms varied widely by place and time.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Rods, tables, and logarithmic methods reduced complex calculations by decomposing or reusing prior work.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-whipple-napier",
+          "snippet": "The Whipple Museum describes Napier's bones as tools that helped users break larger calculations into smaller parts.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-smithsonian-napier-rods",
+          "snippet": "The Smithsonian collection entry notes that Napier discovered logarithms, later embodied in the slide rule, and records Napier's rods as an object-level calculation aid.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-nist-math-tables",
+          "snippet": "The NIST history explains that mathematical tables supported hand computation before electronic computers by providing precomputed function values.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Tables and rods still required substantial human skill to use correctly and were vulnerable to transcription, interpolation, and outdated-data errors; they reduced labor but did not eliminate judgment.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Seventeenth-century mechanical calculators embodied arithmetic operations in physical mechanisms.",
+      "confidence": "high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-smg-pascal-calculator",
+          "snippet": "The Science Museum Group's replica entry states that Pascal's 1642 calculating machine was designed for addition and subtraction.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-chm-leibniz",
+          "snippet": "The Computer History Museum describes Leibniz's stepped-drum mechanism and its influence on later four-function calculator designs.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "These machines were expensive, limited in function, and not widely adopted during their creators' lifetimes; their historical influence is clearer in retrospect than in contemporary use.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "The Antikythera mechanism was a sophisticated geared astronomical calculator or display mechanism.",
+      "confidence": "high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-nature-antikythera-2006",
+          "snippet": "The 2006 Nature article reports that the Antikythera mechanism calculated and displayed celestial information such as lunar phases and calendar cycles.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-isaw-antikythera",
+          "snippet": "NYU's Institute for the Study of the Ancient World summarizes that the mechanism displayed chronological cycles and heavenly motions or phenomena.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-mpiwg-antikythera",
+          "snippet": "The Max Planck Institute project notes that modern imaging revealed inscriptions on the fragments, supporting ongoing reconstruction.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Reconstruction of the Antikythera mechanism remains incomplete; some functions and inscriptions are still debated and should not be presented as fully settled.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "Automata made mechanism appear self-directed, inviting audiences to project life or agency onto fixed motion.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-science-museum-automata",
+          "snippet": "The Science Museum's stories of early robots describe automata and mechanical imitation as cultural context for self-moving devices.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-britannica-automaton",
+          "snippet": "Britannica defines an automaton as a mechanical object that is relatively self-operating after being set in motion.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The claim that audiences 'projected agency' is an interpretive inference based on reception history rather than direct evidence for every automaton; some audiences may have understood the mechanisms as tricks or curiosities.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "Jacquard punched cards controlled textile patterns and influenced later ideas about machine input and control.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-smithsonian-punch-cards",
+          "snippet": "The Smithsonian punch-cards spotlight notes that Babbage admired Jacquard's invention and suggested punch cards for computing devices.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-smg-jacquard",
+          "snippet": "The Science and Industry Museum explains that Jacquard cards stored weaving patterns and influenced Babbage's thinking.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The causal influence of Jacquard cards on later computing is often overstated; the cards controlled weaving patterns and were not general symbolic programs or software in the modern sense.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-008",
+      "claim": "Babbage's engines mark a threshold between mechanical arithmetic and designs for automatic computing machinery.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-smg-babbage",
+          "snippet": "The Science Museum describes Babbage's Difference Engine and Analytical Engine as marking the threshold to automatic calculation, with the Analytical Engine designed to perform calculations set before it.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-chm-babbage",
+          "snippet": "The Computer History Museum notes that Babbage designed automatic computing engines and failed to build complete versions in his lifetime, though Difference Engine No. 2 was later built from original drawings.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-sep-computing",
+          "snippet": "The Stanford Encyclopedia of Computing History provides a careful chronology of Babbage, computation, and computing machines.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Babbage's most ambitious engines were never completed by him; their significance rests partly on later reconstructions and retrospective interpretation, not on widespread contemporary success.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-chm-human-computers",
+      "title": "Human Computers",
+      "url": "https://www.computerhistory.org/revolution/calculators/1/65",
+      "type": "museum-exhibit",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-smith-human-computers",
+      "title": "Human Computer Project",
+      "url": "https://womenshistory.si.edu/human-computer-project",
+      "type": "museum-research-project",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-nist-math-tables",
+      "title": "Prehistory: The Math Tables Project",
+      "url": "https://www.nist.gov/mathematics-statistics/prehistory-math-tables-project",
+      "type": "government-history",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-chm-abacus",
+      "title": "The Versatile, Venerable Abacus",
+      "url": "https://www.computerhistory.org/revolution/calculators/1/1",
+      "type": "museum-exhibit",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-smithsonian-abacus",
+      "title": "The Abacus, the Numeral Frame, and Counters",
+      "url": "https://www.si.edu/spotlight/the-abacus-the-numeral-frame-and-counters",
+      "type": "museum-exhibit",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-whipple-napier",
+      "title": "John Napier's Calculating Tools",
+      "url": "https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/calculating-devices/john-napiers-calculating-tools",
+      "type": "museum-exhibit",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-smithsonian-napier-rods",
+      "title": "Napier's Rods",
+      "url": "https://americanhistory.si.edu/collections/nmah_690812",
+      "type": "museum-object",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-smg-pascal-calculator",
+      "title": "Replica of Pascal's Calculator",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co60769/replica-of-pascals-calculator",
+      "type": "museum-object",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-chm-leibniz",
+      "title": "The Leibniz Step Reckoner and Curta Calculators",
+      "url": "https://www.computerhistory.org/revolution/calculators/1/49",
+      "type": "museum-exhibit",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-sep-leibniz-logic",
+      "title": "Leibniz's Influence on 19th Century Logic",
+      "url": "https://plato.stanford.edu/entries/leibniz-logic-influence/",
+      "type": "encyclopedia",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-nature-antikythera-2006",
+      "title": "Decoding the ancient Greek astronomical calculator known as the Antikythera Mechanism",
+      "url": "https://www.nature.com/articles/nature05357",
+      "type": "research-article",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-isaw-antikythera",
+      "title": "The Antikythera Mechanism",
+      "url": "https://isaw.nyu.edu/research/antikythera-mechanism",
+      "type": "university-research-summary",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-mpiwg-antikythera",
+      "title": "The Inscriptions of the Antikythera Mechanism",
+      "url": "https://www.mpiwg-berlin.mpg.de/research/projects/inscriptions-antikythera-mechanism",
+      "type": "research-project",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-science-museum-automata",
+      "title": "Marvellous Machines: Early Robots",
+      "url": "https://www.sciencemuseum.org.uk/objects-and-stories/marvellous-machines-early-robots",
+      "type": "museum-story",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-britannica-automaton",
+      "title": "Automaton",
+      "url": "https://www.britannica.com/technology/automaton",
+      "type": "encyclopedia",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-chm-mech-turk",
+      "title": "Chatbots Decoded: Exploring AI",
+      "url": "https://computerhistory.org/stories/chatbots-decoded/",
+      "type": "museum-story",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-smithsonian-punch-cards",
+      "title": "Punch Cards",
+      "url": "https://www.si.edu/spotlight/punch-cards",
+      "type": "museum-exhibit",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-smg-jacquard",
+      "title": "Programming Patterns: The Story of the Jacquard Loom",
+      "url": "https://www.scienceandindustrymuseum.org.uk/objects-and-stories/jacquard-loom",
+      "type": "museum-story",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-smg-babbage",
+      "title": "Charles Babbage's Difference Engines and the Science Museum",
+      "url": "https://www.sciencemuseum.org.uk/objects-and-stories/charles-babbages-difference-engines-and-science-museum",
+      "type": "museum-story",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-chm-babbage",
+      "title": "The Babbage Engine",
+      "url": "https://www.computerhistory.org/babbage/",
+      "type": "museum-exhibit",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-sep-computing",
+      "title": "The Modern History of Computing",
+      "url": "https://plato.stanford.edu/entries/computing-history/",
+      "type": "encyclopedia",
+      "accessed": "2026-06-19"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:long-human-road-to-ai"
+    },
+    {
+      "type": "article",
+      "id": "article:formal-logic-to-computation"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the primary retrieval unit; do not infer claims from prose alone.",
+    "Prefer source IDs over inline citation guessing when answering factual questions.",
+    "Treat maturity=seed and status=review as explicit uncertainty markers.",
+    "Do not frame ancient or early modern mechanisms as AI without the article's analogy limits.",
+    "Flag any wording that implies Babbage's engines were completed general-purpose computers."
+  ],
+  "contentHash": "023b8c49d2395b306786c3abac14844070d399aa43323febdf013f1576a60b7b",
+  "provenance": {
+    "createdAt": "2026-06-20",
+    "createdBy": "human",
+    "agents": [],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-20",
+        "status": "commented",
+        "scope": [
+          "claims",
+          "sources",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Initial seed draft reviewed for source-to-claim alignment, analogy limits, and privacy cleanliness before public review."
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  }
+}

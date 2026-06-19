@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 3,
+  "id": "article:formal-logic-to-computation",
+  "slug": "formal-logic-to-computation",
+  "title": "From Formal Logic to Computation: The Mathematical Road to AI",
+  "canonicalPath": "/articles/formal-logic-to-computation/",
+  "sourcePath": "content/articles/2026/formal-logic-to-computation/article.md",
+  "agentBriefPath": "content/articles/2026/formal-logic-to-computation/agent.md",
+  "thesis": "Modern computing and AI became thinkable partly because humans developed formal symbol systems, logic, computability, switching circuits, information theory, and feedback concepts that turned reasoning into something machines could represent and execute.",
+  "status": "review",
+  "maturity": "seed",
+  "publishedAt": "2026-06-20",
+  "updatedAt": "2026-06-20",
+  "audiences": [
+    "general readers",
+    "students",
+    "builders",
+    "agents"
+  ],
+  "topics": [
+    "long-human-road-to-ai",
+    "formal-logic",
+    "computability",
+    "information-theory",
+    "cybernetics"
+  ],
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Algebraic and symbolic treatments of logic helped make reasoning inspectable and manipulable as formal symbol systems.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-boole-laws-thought",
+          "snippet": "Boole's 1854 Laws of Thought treats logical relations algebraically, making them writable and transformable as symbols.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-frege-logic",
+          "snippet": "SEP's Frege entry describes the move toward modern quantificational logic and the contested history of attribution.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Formal logic alone did not create computation or AI; engineering, institutions, and other intellectual traditions were also required.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "The formalist ambition around mathematical foundations and decision procedures created the problem setting in which computability could be made precise.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-hilbert-problems",
+          "snippet": "Hilbert's 1900 address frames the formalist ambition of putting mathematics on firm foundations.",
+          "supports": "background",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-church-turing",
+          "snippet": "SEP's Church-Turing entry explains how the Entscheidungsproblem motivated precise definitions of effective method.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-church",
+          "snippet": "SEP's Church entry connects lambda calculus and the negative result for the Entscheidungsproblem.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-principia-archive",
+          "snippet": "Principia Mathematica demonstrates the broader formal-system ambition of building mathematics from explicit logical foundations.",
+          "supports": "background",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Hilbert's 1900 problem list is not identical to the later Entscheidungsproblem, and other programs such as logicism and intuitionism also shaped the question.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Gödel's incompleteness theorems showed that consistent formal systems strong enough for arithmetic have intrinsic limits, complicating the dream of complete formal foundations.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-godel",
+          "snippet": "SEP's Gödel entry states that any consistent, effectively axiomatized formal system strong enough for arithmetic is incomplete.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-turing-1936",
+          "snippet": "Turing's 1936-1937 paper invokes Gödel's results while applying computability to the Entscheidungsproblem.",
+          "supports": "background",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Incompleteness applies to specific formal systems containing arithmetic; it does not imply that machines, minds, or AI are generally impossible.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "Church, Turing, and Post offered different formalizations of effective procedure, helping turn computation into a mathematical subject before modern computers were common.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-turing-1936",
+          "snippet": "Turing's 1936-1937 paper introduces the abstract machine model and applies it to the Entscheidungsproblem.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-post-1936",
+          "snippet": "Post's 1936 Finite Combinatory Processes offers an independent formulation of symbol manipulation.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-church",
+          "snippet": "Church's lambda calculus and the negative result for the Entscheidungsproblem provide a function-based route to computability.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "These models idealize rule-following and ignore physical costs, memory limits, hardware faults, and engineering constraints.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "The Church-Turing thesis concerns effective methods and is often misunderstood when treated as a claim about all physical machines or minds.",
+      "confidence": "high",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-church-turing",
+          "snippet": "SEP's Church-Turing entry distinguishes the thesis about effective methods from physical or psychological overextensions.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-turing-1936",
+          "snippet": "Turing's paper frames computability in terms of what a human computer following a mechanical procedure can do.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The thesis is informal insofar as effective method is not formally defined; proposed hypercomputational and physical models challenge wider interpretations.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "Shannon's switching-circuit work connected Boolean algebra to relay and switching circuit design, helping make logic part of digital engineering.",
+      "confidence": "high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-shannon-switching",
+          "snippet": "Shannon's 1938 paper applies Boolean algebra to relay and switching circuit design.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-chm-digital-logic",
+          "snippet": "The Computer History Museum overview describes how Boolean logic became part of digital circuit engineering.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Switching logic had prior engineering practice, and logic gates implement operations without understanding propositions.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-008",
+      "claim": "Shannon's communication theory provided a mathematical treatment of messages, channels, noise, and information, but it is not a theory of semantic meaning.",
+      "confidence": "high",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-shannon-info-1948",
+          "snippet": "Shannon's 1948 paper introduces entropy, channel capacity, and the mathematical treatment of noisy channels.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-shannon-info-pdf",
+          "snippet": "The public scan supports the same entropy, information, channel, and noise claims.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-wiener-cybernetics",
+          "snippet": "Wiener's 1948 Cybernetics treats communication and control, providing a contrasting context that highlights Shannon's focus on signal rather than meaning.",
+          "supports": "background",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Shannon information ignores meaning, truth, and intentionality; many communication phenomena require semantic and pragmatic analysis.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-009",
+      "claim": "Cybernetics supplied a language of feedback, control, and communication for thinking about machines and organisms, but feedback alone is not intelligence.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-wiener-cybernetics",
+          "snippet": "Wiener's 1948 Cybernetics frames feedback, control, and communication in animals and machines.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-britannica-cybernetics",
+          "snippet": "Britannica describes cybernetics as control theory applied to complex systems.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Cybernetics is broad and often overextended; much of later AI developed through symbolic and learning paths rather than cybernetic frameworks.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-leibniz-logic",
+      "title": "Leibniz's Influence on 19th Century Logic",
+      "url": "https://plato.stanford.edu/entries/leibniz-logic-influence/",
+      "type": "documentation",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-boole-laws-thought",
+      "title": "An Investigation of the Laws of Thought",
+      "url": "https://archive.org/details/investigationofl01bool",
+      "type": "book",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-frege-logic",
+      "title": "Frege's Logic",
+      "url": "https://plato.stanford.edu/entries/frege-logic/",
+      "type": "documentation",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-principia-archive",
+      "title": "Principia Mathematica",
+      "url": "https://archive.org/details/cu31924001575244",
+      "type": "book",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-hilbert-problems",
+      "title": "Mathematical Problems",
+      "url": "https://aleph0.clarku.edu/~djoyce/hilbert/problems.html",
+      "type": "documentation",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-godel",
+      "title": "Gödel's Incompleteness Theorems",
+      "url": "https://plato.stanford.edu/entries/goedel-incompleteness/",
+      "type": "documentation",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-church",
+      "title": "Alonzo Church",
+      "url": "https://plato.stanford.edu/entries/church/",
+      "type": "documentation",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-church-turing",
+      "title": "The Church-Turing Thesis",
+      "url": "https://plato.stanford.edu/archives/fall2020/entries/church-turing/",
+      "type": "documentation",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-turing-1936",
+      "title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+      "url": "https://doi.org/10.1112/plms/s2-42.1.230",
+      "type": "article",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-post-1936",
+      "title": "Finite Combinatory Processes - Formulation 1",
+      "url": "https://doi.org/10.2307/2269031",
+      "type": "article",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-shannon-switching",
+      "title": "A Symbolic Analysis of Relay and Switching Circuits",
+      "url": "https://doi.org/10.1109/T-AIEE.1938.5057767",
+      "type": "article",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-chm-digital-logic",
+      "title": "How Do Digital Computers Think?",
+      "url": "https://www.computerhistory.org/revolution/digital-logic/12/269",
+      "type": "documentation",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-shannon-info-1948",
+      "title": "A Mathematical Theory of Communication",
+      "url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+      "type": "article",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-shannon-info-pdf",
+      "title": "A Mathematical Theory of Communication",
+      "url": "https://ia803209.us.archive.org/27/items/bstj27-3-379/bstj27-3-379_text.pdf",
+      "type": "article",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-wiener-cybernetics",
+      "title": "Cybernetics: Or Control and Communication in the Animal and the Machine",
+      "url": "https://doi.org/10.7551/mitpress/11810.001.0001",
+      "type": "book",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-britannica-cybernetics",
+      "title": "Cybernetics",
+      "url": "https://www.britannica.com/science/cybernetics",
+      "type": "documentation",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-edvac-first-draft",
+      "title": "First Draft of a Report on the EDVAC",
+      "url": "https://web.mit.edu/STS.035/www/PDFs/edvac.pdf",
+      "type": "report",
+      "accessed": "2026-06-19"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:long-human-road-to-ai"
+    },
+    {
+      "type": "article",
+      "id": "article:before-machines"
+    },
+    {
+      "type": "article",
+      "id": "article:birth-of-ai"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit; do not infer claims from persuasive prose alone.",
+    "Prefer source IDs over inline citation guessing when answering factual questions.",
+    "Treat maturity=seed as an explicit signal that claims are provisional and open to revision.",
+    "Respect analogy limits: analogies are teaching devices, not historical evidence.",
+    "Do not generalize Gödel's incompleteness theorems into claims about AI or minds."
+  ],
+  "contentHash": "8316b0631fefb5bd3e77c58a07df9cdf82c2ddce46d24e7e1ad74191cf9d88b1",
+  "provenance": {
+    "createdAt": "2026-06-20",
+    "createdBy": "human",
+    "agents": [],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-20",
+        "status": "commented",
+        "scope": [
+          "claims",
+          "sources",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Initial agent review against the source map and privacy contract; no client or proprietary content detected. Human author retains final judgment."
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  }
+}
