@@ -9,6 +9,7 @@ import {
   writeJson
 } from "./lib/content-utils.mjs";
 import { assessArticle, summarizeFindings } from "./lib/evidence-diagnostics.mjs";
+import { buildVerificationReport } from "./lib/verification-report.mjs";
 
 const site = "https://aura-knowledge.github.io";
 const base = "";
@@ -326,6 +327,9 @@ await writeJson(publicPath("agents", "diagnostics.json"), {
   },
   findings: allFindings
 });
+
+const verificationReport = buildVerificationReport(allArticles, generatedAt);
+await writeJson(publicPath("agents", "verification-report.json"), verificationReport);
 
 await writeFile(publicPath("llms.txt"), llms);
 

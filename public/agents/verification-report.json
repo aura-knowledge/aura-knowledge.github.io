@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-18T00:00:00.000Z",
+  "articles": [
+    {
+      "slug": "agent-auditable-research",
+      "title": "The Future of Publishing Is Agent-Auditable Research",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Polished prose is becoming cheap; inspectable reasoning is becoming scarce.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/agent-auditable-research: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-002",
+          "claim": "A future-ready publishing artifact should pair a human essay with a claim graph, evidence ledger, provenance, revision history, and agent contribution record.",
+          "confidence": "medium-high",
+          "status": "proposal",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "Research is the best first wedge because the audience already values citations, methods, uncertainty, and credibility.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "Existing publishing, AI research, and protocol tools solve important pieces but not the combined readable-plus-auditable source object.",
+          "confidence": "medium-high",
+          "status": "landscape",
+          "state": "draft",
+          "evidenceCount": 4,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-005",
+          "claim": "AI assistance should be disclosed while the human remains accountable for thesis, source selection, wording, and conclusions.",
+          "confidence": "high",
+          "status": "normative",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/agent-auditable-research: claim-005 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-006",
+          "claim": "Attention-aware reading and machine-readable structure are compatible when the page uses progressive disclosure.",
+          "confidence": "medium-high",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/agent-auditable-research: claim-006 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 6
+      }
+    },
+    {
+      "slug": "agentic-commerce-product-truth",
+      "title": "Agentic Commerce and the Product Truth Layer",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Modern online commerce is still largely organized around human attention, even when AI is used behind the scenes for targeting, ranking, and recommendation.",
+          "confidence": "medium-high",
+          "status": "landscape",
+          "state": "draft",
+          "evidenceCount": 4,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "Some brand loyalty is actually status quo bias plus choice overload: the customer sticks with a known product because the market has made exploration expensive.",
+          "confidence": "medium-high",
+          "status": "behavioral",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/agentic-commerce-product-truth: claim-002 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-003",
+          "claim": "One plausible next commerce shift is from the attention economy to delegated-intent commerce: agents may increasingly translate user preferences into product discovery and purchase decisions.",
+          "confidence": "medium",
+          "status": "forecast",
+          "state": "draft",
+          "evidenceCount": 5,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "Agentic commerce is likely to need a product assurance layer richer than current product structured data, because agents need evidence, constraints, provenance, and user-fit signals rather than only titles, offers, ratings, and images.",
+          "confidence": "medium",
+          "status": "proposal",
+          "state": "draft",
+          "evidenceCount": 5,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-005",
+          "claim": "The healthiest version of agentic commerce is an open product-truth commons: a contestable, forkable, provenance-rich vocabulary for product claims, evidence, reviews, and buyer-agent preferences.",
+          "confidence": "medium",
+          "status": "normative",
+          "state": "draft",
+          "evidenceCount": 5,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-006",
+          "claim": "Post-purchase feedback can evolve from star ratings into structured experience packets that preserve human judgment while making outcomes legible to agents.",
+          "confidence": "medium",
+          "status": "proposal",
+          "state": "draft",
+          "evidenceCount": 4,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-007",
+          "claim": "B2B agentic buying may move slower across complex purchases, but narrow recurring procurement categories can be stronger MVP wedges because outcomes are measurable.",
+          "confidence": "medium-high",
+          "status": "forecast",
+          "state": "draft",
+          "evidenceCount": 4,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-008",
+          "claim": "The strategic opportunity is not necessarily to replace commerce incumbents, but to demonstrate a concrete agentic behavior, such as buyer-aligned product switching backed by evidence packets and post-purchase feedback, that incumbents may later adopt, adapt, or standardize around.",
+          "confidence": "medium",
+          "status": "strategy",
+          "state": "draft",
+          "evidenceCount": 5,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-009",
+          "claim": "Agentic product trust should shift from review aggregation to adversarial claim ledgers: each product claim should carry source, scope, evidence, counter-evidence, incentive, expiry, and dispute state.",
+          "confidence": "medium",
+          "status": "proposal",
+          "state": "draft",
+          "evidenceCount": 4,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-010",
+          "claim": "A fair product-truth commons needs graded evidence tiers so offline buyers and small sellers can participate without pretending every attestation has the same trust weight.",
+          "confidence": "medium",
+          "status": "proposal",
+          "state": "draft",
+          "evidenceCount": 4,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-011",
+          "claim": "Product-truth infrastructure can reduce the value of fake reviews, but it cannot eradicate manipulation; it moves the battlefield from cheap text generation to collusion, credential abuse, data access, privacy leakage, and governance capture.",
+          "confidence": "medium-high",
+          "status": "risk",
+          "state": "draft",
+          "evidenceCount": 5,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-012",
+          "claim": "Private review entitlements should separate purchase or use verification from public identity: the public system should verify an unlinkable, one-time entitlement token rather than linking a review to a user, receipt, store, or account.",
+          "confidence": "medium",
+          "status": "proposal",
+          "state": "draft",
+          "evidenceCount": 4,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/agentic-commerce-product-truth: claim-012 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-013",
+          "claim": "Agentic commerce should expose a dual evidence surface: machine-readable claim ledgers for agents and human-readable media, social, community, and brand context for final human judgment.",
+          "confidence": "medium",
+          "status": "proposal",
+          "state": "draft",
+          "evidenceCount": 4,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-014",
+          "claim": "Agentic product assurance should be built around signed, scoped, contestable claims about specific product identities, not aggregate reviews or universal truth labels.",
+          "confidence": "medium-high",
+          "status": "framing",
+          "state": "draft",
+          "evidenceCount": 4,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/agentic-commerce-product-truth: claim-014 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-015",
+          "claim": "Robust agentic product assurance needs infrastructure beyond reviews and credentials: product identity/versioning, recall feeds, liability, auditors, decision receipts, dispute propagation, portability, red-team benchmarks, and accessible presentation.",
+          "confidence": "medium",
+          "status": "proposal",
+          "state": "draft",
+          "evidenceCount": 6,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 15
+      }
+    }
+  ]
+}
