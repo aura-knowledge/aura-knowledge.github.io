@@ -7,12 +7,16 @@
     "dev": "astro dev",
     "build": "npm run generate && astro build",
     "preview": "astro preview",
-    "generate": "node scripts/generate-agent-index.mjs",
+    "generate": "node scripts/generate-agent-index.mjs && node scripts/generate-agent-tools-manifest.mjs",
+    "generate:tools": "node scripts/generate-agent-tools-manifest.mjs",
     "validate": "node scripts/validate-content.mjs",
     "validate:evidence": "node scripts/validate-content.mjs",
     "validate:build": "node scripts/validate-build.mjs",
     "verify": "node scripts/verify-claims.mjs",
     "agent:record": "node scripts/record-agent-run.mjs",
+    "agent:tool": "node scripts/agent-tool.mjs",
+    "agent:workflow": "node scripts/agent-workflow.mjs",
+    "agent:tools:smoke": "node scripts/smoke-agent-tools.mjs",
     "workspace:create": "node scripts/create-workspace.mjs",
     "source:import": "node scripts/source-importer.mjs",
     "source:promote": "node scripts/promote-source.mjs",
@@ -23,7 +27,7 @@
     "eval:briefs": "node scripts/eval-briefs.mjs",
     "inspect:packet": "node scripts/inspect-packet.mjs",
     "inspect:packet:smoke": "node scripts/inspect-packet.mjs --article agent-auditable-research --format json >/dev/null && node scripts/inspect-packet.mjs --source source-agentic-publications-2025 --format markdown >/dev/null && node scripts/inspect-packet.mjs --graph-slice article:agent-auditable-research --format json >/dev/null",
-    "check": "npm run generate && npm run validate && astro build && npm run validate:build && npm run garden:query:smoke && npm run eval:briefs && npm run inspect:packet:smoke"
+    "check": "npm run generate && npm run validate && astro build && npm run validate:build && npm run garden:query:smoke && npm run eval:briefs && npm run inspect:packet:smoke && npm run agent:tools:smoke"
   },
   "overrides": {
     "esbuild": "0.28.1"

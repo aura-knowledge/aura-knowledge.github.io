@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aura-knowledge.github.io/schemas/agent-tools.schema.json",
+  "title": "Agent Tools Manifest",
+  "description": "Machine-readable manifest of tools exposed to agents for the Aura Knowledge garden.",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "site", "base", "tools"],
+  "additionalProperties": true,
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "generatedAt": {
+      "type": "string"
+    },
+    "site": {
+      "type": "string"
+    },
+    "base": {
+      "type": "string"
+    },
+    "tools": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "description", "category", "write", "dryRunSupported", "inputSchema", "outputSchema"],
+        "additionalProperties": true,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "write": {
+            "type": "boolean"
+          },
+          "dryRunSupported": {
+            "type": "boolean"
+          },
+          "inputSchema": {
+            "type": "object"
+          },
+          "outputSchema": {
+            "type": "object"
+          },
+          "examples": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    }
+  }
+}
