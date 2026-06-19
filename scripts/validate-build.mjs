@@ -1,7 +1,27 @@
-import { readFile } from "node:fs/promises";
+import { access, readFile } from "node:fs/promises";
 import path from "node:path";
 
-const graphPath = path.join(process.cwd(), "dist", "graph", "index.html");
+const distRoot = path.join(process.cwd(), "dist");
+const requiredRoutes = [
+  "/index.html",
+  "/topics/index.html",
+  "/articles/index.html",
+  "/roadmap/index.html",
+  "/organization/index.html",
+  "/graph/index.html",
+  "/agents/index.html"
+];
+
+for (const route of requiredRoutes) {
+  const filePath = path.join(distRoot, route);
+  try {
+    await access(filePath);
+  } catch {
+    throw new Error(`Required route missing from build: ${route}`);
+  }
+}
+
+const graphPath = path.join(distRoot, "graph", "index.html");
 const indexPath = path.join(process.cwd(), "public", "agents", "index.json");
 const graphHtml = await readFile(graphPath, "utf8");
 const agentIndex = JSON.parse(await readFile(indexPath, "utf8"));
