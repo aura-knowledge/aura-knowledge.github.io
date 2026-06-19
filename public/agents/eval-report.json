@@ -136,7 +136,15 @@
       "actual": {
         "slugs": [
           "agent-auditable-research",
-          "agentic-commerce-product-truth"
+          "agentic-commerce-product-truth",
+          "ai-winters-expert-systems",
+          "before-machines",
+          "birth-of-ai",
+          "formal-logic-to-computation",
+          "foundation-models",
+          "human-systems",
+          "learning-machines",
+          "long-human-road-to-ai"
         ],
         "claimIds": [
           "article:agent-auditable-research:claim-001",
