@@ -35,14 +35,16 @@ interface Props {
 }
 
 const { provenance, contentHash } = Astro.props;
-const approvedReviews = provenance.reviews.filter(
-  (review) => review.reviewer === "human" && review.status === "approved"
-);
-const latestApproved = approvedReviews[approvedReviews.length - 1];
+const approvedReviews = (provenance?.reviews ?? [])
+  .filter((review) => review.reviewer === "human" && review.status === "approved")
+  .sort((left, right) => right.reviewedAt.localeCompare(left.reviewedAt));
+const latestApproved = approvedReviews[0];
 const hashAligned = latestApproved?.contentHash === contentHash;
 ---
 
-<section class="provenance-panel" aria-labelledby="provenance-title">
+{
+  provenance ? (
+    <section class="provenance-panel" aria-labelledby="provenance-title">
   <p class="eyebrow">Trust layer</p>
   <h2 id="provenance-title">Provenance</h2>
 
@@ -104,4 +106,8 @@ const hashAligned = latestApproved?.contentHash === contentHash;
       </div>
     )
   }
-</section>
+    </section>
+  ) : (
+    <p class="provenance-panel" aria-labelledby="provenance-title">Provenance not available.</p>
+  )
+}
