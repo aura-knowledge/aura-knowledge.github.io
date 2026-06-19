@@ -190,6 +190,13 @@ code {
   background: color-mix(in srgb, var(--surface) 76%, transparent);
 }
 
+.nav-links a.is-active {
+  border-color: var(--accent-strong);
+  color: var(--text);
+  background: var(--surface-raised);
+  font-weight: 720;
+}
+
 .page-shell {
   width: min(1120px, calc(100% - 2rem));
   margin: 0 auto;
@@ -269,11 +276,23 @@ h3 {
   color: var(--bg);
 }
 
-.button:hover,
+.button:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent);
+  box-shadow: var(--shadow);
+}
+
 .button:focus-visible {
   transform: translateY(-1px);
-  box-shadow: var(--shadow);
+  border-color: var(--accent-strong);
+  box-shadow:
+    0 0 0 2px var(--bg),
+    0 0 0 4px var(--accent-strong);
   outline: none;
+}
+
+.button.primary:focus-visible {
+  border-color: var(--bg);
 }
 
 .stem-panel {
