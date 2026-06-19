@@ -1,0 +1,55 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import TopicChip from "../../components/TopicChip.astro";
+import { getArticles, getArticlesByTopic, formatTopicLabel } from "../../lib/content";
+
+export function getStaticPaths() {
+  const articles = getArticles();
+  const topics = new Set(articles.flatMap((article) => article.artifact.topics));
+  return Array.from(topics).map((topic) => ({ params: { topic } }));
+}
+
+const { topic } = Astro.params;
+const base = import.meta.env.BASE_URL;
+const articles = getArticles();
+const topicArticles = getArticlesByTopic(articles, topic);
+const label = formatTopicLabel(topic);
+---
+
+<BaseLayout
+  title={`Topic: ${label}`}
+  description={`Articles about ${label} in the Aura Knowledge garden.`}
+>
+  <div class="page-shell utility-page">
+    <header class="utility-hero">
+      <p class="eyebrow">Topic</p>
+      <h1><TopicChip topic={topic} /></h1>
+      <p class="lede">
+        {topicArticles.length} article{topicArticles.length === 1 ? "" : "s"} explore{topicArticles.length === 1 ? "s" : ""} this claim stem.
+      </p>
+      <div class="button-row">
+        <a class="button" href={`${base}topics/`}>All topics</a>
+        <a class="button" href={`${base}articles/`}>All articles</a>
+      </div>
+    </header>
+
+    <section class="article-index" aria-labelledby="topic-article-list-title">
+      <h2 id="topic-article-list-title" class="visually-hidden">Articles in this topic</h2>
+      <div class="article-index-list">
+        {topicArticles.map((article) => (
+          <article class="article-index-card">
+            <div class="article-index-meta">
+              <span>{article.date}</span>
+              <span>{article.readingTime}</span>
+              <span class={`maturity maturity-${article.maturity}`}>{article.maturity}</span>
+            </div>
+            <h3>
+              <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
+            </h3>
+            <p class="article-index-summary">{article.summary}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

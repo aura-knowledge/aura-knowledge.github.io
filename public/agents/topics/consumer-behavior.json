@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "topic": "consumer-behavior",
+  "articleIds": [
+    "article:agentic-commerce-product-truth"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/consumer-behavior/",
+  "agentJsonPath": "/agents/topics/consumer-behavior.json",
+  "articles": [
+    {
+      "id": "article:agentic-commerce-product-truth",
+      "slug": "agentic-commerce-product-truth",
+      "title": "Agentic Commerce and the Product Truth Layer",
+      "summary": "A possibility thesis on how AI shopping agents could weaken passive brand loyalty, increase product exploration, and create demand for privacy-preserving, adversarially tested product assurance infrastructure.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "agentic-commerce",
+        "product-truth",
+        "consumer-behavior",
+        "open-protocols",
+        "incumbent-adjacent-ventures"
+      ],
+      "tags": [
+        "ai-agents",
+        "commerce",
+        "product-truth",
+        "open-protocols",
+        "consumer-behavior"
+      ],
+      "canonicalPath": "/articles/agentic-commerce-product-truth/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+      "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+      "agentMarkdownPath": "/agents/articles/agentic-commerce-product-truth.md",
+      "updatedAt": "2026-06-18",
+      "claimCount": 15,
+      "sourceCount": 34,
+      "contentHash": "4014d7d5a97200dd5194fd5c82e83c9d74f602ccc90fc5ec9abf2e393643e302"
+    }
+  ]
+}

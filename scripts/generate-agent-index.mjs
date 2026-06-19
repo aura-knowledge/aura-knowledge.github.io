@@ -147,6 +147,7 @@ await rm(publicPath("agents"), { recursive: true, force: true });
 await rm(publicPath("graph"), { recursive: true, force: true });
 await mkdir(publicPath("agents", "articles"), { recursive: true });
 await mkdir(publicPath("agents", "roadmap"), { recursive: true });
+await mkdir(publicPath("agents", "topics"), { recursive: true });
 await mkdir(publicPath("graph"), { recursive: true });
 
 for (const article of allArticles) {
@@ -176,12 +177,71 @@ for (const roadmap of roadmaps) {
 }
 
 const entries = articles.map(indexEntry);
+
+const topicGroups = new Map();
+const yearGroups = new Map();
+const yearMonthGroups = new Map();
+
+for (const entry of entries) {
+  for (const topic of entry.topics) {
+    if (!topicGroups.has(topic)) {
+      topicGroups.set(topic, []);
+    }
+    topicGroups.get(topic).push(entry.id);
+  }
+
+  const year = entry.updatedAt.slice(0, 4);
+  if (!yearGroups.has(year)) {
+    yearGroups.set(year, []);
+  }
+  yearGroups.get(year).push(entry.id);
+
+  const yearMonth = entry.updatedAt.slice(0, 7);
+  if (!yearMonthGroups.has(yearMonth)) {
+    yearMonthGroups.set(yearMonth, []);
+  }
+  yearMonthGroups.get(yearMonth).push(entry.id);
+}
+
+const topicsIndex = Array.from(topicGroups.entries())
+  .sort(([left], [right]) => left.localeCompare(right))
+  .map(([topic, articleIds]) => ({
+    topic,
+    label: topic.replaceAll("-", " "),
+    articleIds,
+    pageUrl: siteUrl(`/topics/${topic}/`),
+    agentJsonPath: `/agents/topics/${topic}.json`
+  }));
+
+const archivesIndex = Array.from(yearGroups.entries())
+  .sort(([left], [right]) => right.localeCompare(left))
+  .map(([year, articleIds]) => ({
+    year,
+    articleIds,
+    pageUrl: siteUrl(`/articles/${year}/`),
+    months: Array.from(yearMonthGroups.entries())
+      .filter(([yearMonth]) => yearMonth.startsWith(year))
+      .sort(([left], [right]) => right.localeCompare(left))
+      .map(([yearMonth, monthArticleIds]) => {
+        const [, month] = yearMonth.split("-");
+        const date = new Date(Number(year), Number(month) - 1, 1);
+        return {
+          yearMonth,
+          monthName: date.toLocaleString("en-US", { month: "long" }),
+          articleIds: monthArticleIds,
+          pageUrl: siteUrl(`/articles/${year}/${month}/`)
+        };
+      })
+  }));
+
 await writeJson(publicPath("agents", "index.json"), {
-  schemaVersion: 1,
+  schemaVersion: 2,
   generatedAt,
   site,
   base,
   articles: entries,
+  topics: topicsIndex,
+  archives: archivesIndex,
   roadmaps: roadmaps.map((roadmap) => ({
     id: roadmap.id,
     slug: roadmap.slug,
@@ -195,6 +255,17 @@ await writeJson(publicPath("agents", "index.json"), {
     sourceRepoPath: roadmap.sourcePath
   }))
 });
+
+for (const { topic, articleIds, pageUrl, agentJsonPath } of topicsIndex) {
+  await writeJson(publicPath("agents", "topics", `${topic}.json`), {
+    schemaVersion: 1,
+    topic,
+    articleIds,
+    pageUrl,
+    agentJsonPath,
+    articles: entries.filter((entry) => articleIds.includes(entry.id))
+  });
+}
 
 await writeFile(
   publicPath("agents", "index.jsonl"),

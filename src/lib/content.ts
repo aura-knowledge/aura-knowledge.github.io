@@ -181,3 +181,47 @@ export function getTopicEntries(articles: Article[]): [string, Article[]][] {
     left.localeCompare(right)
   );
 }
+
+export function getArticlesByTopic(articles: Article[], topic: string): Article[] {
+  return articles.filter((article) => article.artifact.topics.includes(topic));
+}
+
+export function groupArticlesByYear(articles: Article[]): Map<string, Article[]> {
+  const groups = new Map<string, Article[]>();
+  for (const article of articles) {
+    const year = article.date.slice(0, 4);
+    const current = groups.get(year) ?? [];
+    current.push(article);
+    groups.set(year, current);
+  }
+  return groups;
+}
+
+export function groupArticlesByYearMonth(articles: Article[]): Map<string, Article[]> {
+  const groups = new Map<string, Article[]>();
+  for (const article of articles) {
+    const yearMonth = article.date.slice(0, 7);
+    const current = groups.get(yearMonth) ?? [];
+    current.push(article);
+    groups.set(yearMonth, current);
+  }
+  return groups;
+}
+
+export function getYearEntries(articles: Article[]): [string, Article[]][] {
+  return Array.from(groupArticlesByYear(articles).entries()).sort(([left], [right]) =>
+    right.localeCompare(left)
+  );
+}
+
+export function getYearMonthEntries(articles: Article[]): [string, Article[]][] {
+  return Array.from(groupArticlesByYearMonth(articles).entries()).sort(([left], [right]) =>
+    right.localeCompare(left)
+  );
+}
+
+export function getMonthName(yearMonth: string): string {
+  const [year, month] = yearMonth.split("-");
+  const date = new Date(Number(year), Number(month) - 1, 1);
+  return date.toLocaleString("en-US", { month: "long" });
+}

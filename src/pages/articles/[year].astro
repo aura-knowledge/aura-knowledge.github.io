@@ -1,0 +1,75 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import {
+  getArticles,
+  groupArticlesByYear,
+  groupArticlesByYearMonth,
+  getMonthName
+} from "../../lib/content";
+
+export function getStaticPaths() {
+  const articles = getArticles();
+  const years = new Set(articles.map((article) => article.date.slice(0, 4)));
+  return Array.from(years).map((year) => ({ params: { year } }));
+}
+
+const { year } = Astro.params;
+const base = import.meta.env.BASE_URL;
+const articles = getArticles();
+const yearArticles = groupArticlesByYear(articles).get(year) ?? [];
+const yearMonthGroups = groupArticlesByYearMonth(yearArticles);
+const sortedMonths = Array.from(yearMonthGroups.entries()).sort(([a], [b]) => b.localeCompare(a));
+---
+
+<BaseLayout
+  title={`Articles from ${year}`}
+  description={`All Aura Knowledge essays published in ${year}.`}
+>
+  <div class="page-shell utility-page">
+    <header class="utility-hero">
+      <p class="eyebrow">Archive</p>
+      <h1>{year}</h1>
+      <p class="lede">
+        {yearArticles.length} article{yearArticles.length === 1 ? "" : "s"} published in {year}.
+      </p>
+      <div class="button-row">
+        <a class="button" href={`${base}articles/`}>All articles</a>
+      </div>
+    </header>
+
+    <section aria-labelledby="year-archive-title">
+      <h2 id="year-archive-title" class="visually-hidden">Articles by month</h2>
+      {sortedMonths.length > 0 ? (
+        sortedMonths.map(([yearMonth, monthArticles]) => (
+          <section class="archive-month" aria-labelledby={`month-${yearMonth}`}>
+            <h3 id={`month-${yearMonth}`}>
+              <a href={`${base}articles/${yearMonth.replace("-", "/")}/`}>
+                {getMonthName(yearMonth)} {year}
+              </a>
+            </h3>
+            <div class="article-index-list">
+              {monthArticles.map((article) => (
+                <article class="article-index-card">
+                  <div class="article-index-meta">
+                    <span>{article.date}</span>
+                    <span>{article.readingTime}</span>
+                    <span class={`maturity maturity-${article.maturity}`}>{article.maturity}</span>
+                  </div>
+                  <h4>
+                    <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
+                  </h4>
+                  <p class="article-index-summary">{article.summary}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+        ))
+      ) : (
+        <div class="empty-state">
+          <p>No articles were published in {year}.</p>
+          <a class="button" href={`${base}articles/`}>Browse all articles</a>
+        </div>
+      )}
+    </section>
+  </div>
+</BaseLayout>
