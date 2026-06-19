@@ -1,9 +1,10 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { getArticles } from "../../lib/content";
+import { getArticles, getYearEntries } from "../../lib/content";
 
 const base = import.meta.env.BASE_URL;
 const articles = getArticles();
+const yearEntries = getYearEntries(articles);
 ---
 
 <BaseLayout
@@ -19,6 +20,18 @@ const articles = getArticles();
         machine-readable artifact. Start with the latest or browse by topic.
       </p>
     </header>
+
+    {yearEntries.length > 0 && (
+      <section class="archive-years" aria-labelledby="archive-years-title">
+        <p class="eyebrow">Archives</p>
+        <h2 id="archive-years-title">Browse by year</h2>
+        <div class="archive-year-list">
+          {yearEntries.map(([year]) => (
+            <a class="button" href={`${base}articles/${year}/`}>{year}</a>
+          ))}
+        </div>
+      </section>
+    )}
 
     <section class="article-index" aria-labelledby="article-index-title">
       <h2 id="article-index-title" class="visually-hidden">Article list</h2>

@@ -28,7 +28,9 @@ const topicEntries = getTopicEntries(articles);
           <article class="graph-stem" id={`topic-${topic}`}>
             <header>
               <p class="eyebrow">Topic</p>
-              <h2><TopicChip topic={topic} /></h2>
+              <h2>
+                <TopicChip topic={topic} href={`${base}topics/${topic}/`} />
+              </h2>
             </header>
             <div class="graph-topic-links">
               {topicArticles.map((article) => (

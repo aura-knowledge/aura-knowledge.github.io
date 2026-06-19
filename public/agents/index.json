@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "generatedAt": "2026-06-18T00:00:00.000Z",
   "site": "https://aura-knowledge.github.io",
   "base": "",
@@ -61,6 +61,110 @@
       "claimCount": 15,
       "sourceCount": 34,
       "contentHash": "4014d7d5a97200dd5194fd5c82e83c9d74f602ccc90fc5ec9abf2e393643e302"
+    }
+  ],
+  "topics": [
+    {
+      "topic": "agent-provenance",
+      "label": "agent provenance",
+      "articleIds": [
+        "article:agent-auditable-research"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/agent-provenance/",
+      "agentJsonPath": "/agents/topics/agent-provenance.json"
+    },
+    {
+      "topic": "agentic-commerce",
+      "label": "agentic commerce",
+      "articleIds": [
+        "article:agentic-commerce-product-truth"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/agentic-commerce/",
+      "agentJsonPath": "/agents/topics/agentic-commerce.json"
+    },
+    {
+      "topic": "ai-native-publishing",
+      "label": "ai native publishing",
+      "articleIds": [
+        "article:agent-auditable-research"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/ai-native-publishing/",
+      "agentJsonPath": "/agents/topics/ai-native-publishing.json"
+    },
+    {
+      "topic": "consumer-behavior",
+      "label": "consumer behavior",
+      "articleIds": [
+        "article:agentic-commerce-product-truth"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/consumer-behavior/",
+      "agentJsonPath": "/agents/topics/consumer-behavior.json"
+    },
+    {
+      "topic": "digital-gardens",
+      "label": "digital gardens",
+      "articleIds": [
+        "article:agent-auditable-research"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/digital-gardens/",
+      "agentJsonPath": "/agents/topics/digital-gardens.json"
+    },
+    {
+      "topic": "incumbent-adjacent-ventures",
+      "label": "incumbent adjacent ventures",
+      "articleIds": [
+        "article:agentic-commerce-product-truth"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/incumbent-adjacent-ventures/",
+      "agentJsonPath": "/agents/topics/incumbent-adjacent-ventures.json"
+    },
+    {
+      "topic": "open-protocols",
+      "label": "open protocols",
+      "articleIds": [
+        "article:agentic-commerce-product-truth"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/open-protocols/",
+      "agentJsonPath": "/agents/topics/open-protocols.json"
+    },
+    {
+      "topic": "product-truth",
+      "label": "product truth",
+      "articleIds": [
+        "article:agentic-commerce-product-truth"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/product-truth/",
+      "agentJsonPath": "/agents/topics/product-truth.json"
+    },
+    {
+      "topic": "research-workflows",
+      "label": "research workflows",
+      "articleIds": [
+        "article:agent-auditable-research"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/research-workflows/",
+      "agentJsonPath": "/agents/topics/research-workflows.json"
+    }
+  ],
+  "archives": [
+    {
+      "year": "2026",
+      "articleIds": [
+        "article:agent-auditable-research",
+        "article:agentic-commerce-product-truth"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/articles/2026/",
+      "months": [
+        {
+          "yearMonth": "2026-06",
+          "monthName": "June",
+          "articleIds": [
+            "article:agent-auditable-research",
+            "article:agentic-commerce-product-truth"
+          ],
+          "pageUrl": "https://aura-knowledge.github.io/articles/2026/06/"
+        }
+      ]
     }
   ],
   "roadmaps": [
