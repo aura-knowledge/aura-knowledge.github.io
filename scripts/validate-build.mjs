@@ -7,6 +7,7 @@ const requiredRoutes = [
   "/topics/index.html",
   "/articles/index.html",
   "/roadmap/index.html",
+  "/evidence-canvas/index.html",
   "/organization/index.html",
   "/graph/index.html",
   "/agents/index.html"
