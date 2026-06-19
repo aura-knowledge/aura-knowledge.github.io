@@ -1,4 +1,4 @@
-import { access, readFile } from "node:fs/promises";
+import { access, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import Ajv2020 from "ajv/dist/2020.js";
 import {
@@ -28,10 +28,39 @@ const articleSchema = await readJson(path.join(rootDir, "schemas", "article.sche
 const agentSchema = await readJson(path.join(rootDir, "schemas", "agent.schema.json"));
 const artifactSchema = await readJson(path.join(rootDir, "schemas", "artifact.schema.json"));
 const roadmapSchema = await readJson(path.join(rootDir, "schemas", "roadmap.schema.json"));
+const policySchema = await readJson(path.join(rootDir, "schemas", "policy.schema.json"));
 const validateArticle = ajv.compile(articleSchema);
 const validateAgent = ajv.compile(agentSchema);
 const validateArtifact = ajv.compile(artifactSchema);
 const validateRoadmap = ajv.compile(roadmapSchema);
+const validatePolicy = ajv.compile(policySchema);
+
+async function loadPolicyIds() {
+  const knownPolicyIds = new Set();
+  const policyDir = path.join(rootDir, "policies");
+  let entries = [];
+  try {
+    entries = await readdir(policyDir);
+  } catch (error) {
+    if (error.code !== "ENOENT") {
+      throw error;
+    }
+  }
+
+  for (const file of entries.filter((name) => name.endsWith(".json"))) {
+    const policyPath = path.join(policyDir, file);
+    const policy = await readJson(policyPath);
+    if (!validatePolicy(policy)) {
+      formatAjvErrors(`policies/${file}`, validatePolicy);
+    } else {
+      knownPolicyIds.add(policy.id);
+    }
+  }
+
+  return knownPolicyIds;
+}
+
+const knownPolicyIds = await loadPolicyIds();
 const errors = [];
 const warnings = [];
 
@@ -205,12 +234,17 @@ for (const article of articles) {
     report(`${prefix}: artifact contentHash is stale. Run npm run generate.`);
   }
 
+  const policyId = article.artifact.provenance?.policy?.id;
+  if (policyId && !knownPolicyIds.has(policyId)) {
+    report(`${prefix}: provenance references unknown policy ${policyId}.`);
+  }
+
   const claimIds = article.artifact.claims.map((claim) => claim.id);
   const sourceIdsList = article.artifact.sources.map((source) => source.id);
   reportDuplicates(prefix, "claim id", claimIds);
   reportDuplicates(prefix, "source id", sourceIdsList);
 
-  const findings = assessArticle(article, article.articleBody, { prefix });
+  const findings = assessArticle(article, article.articleBody, { prefix, knownPolicyIds });
   for (const finding of findings) {
     if (finding.severity === "error") {
       report(finding.message);

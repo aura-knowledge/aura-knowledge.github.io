@@ -33,4 +33,4 @@
 - [research-workflows topic JSON](https://aura-knowledge.github.io/agents/topics/research-workflows.json)
 
 ## Use
-Use article packets as the retrieval unit. Treat maturity values as uncertainty markers. Prefer claim IDs and source IDs over inferred citations. Article artifacts use schemaVersion 2; evidence and counterevidence are typed packets, not bare source IDs.
+Use article packets as the retrieval unit. Treat maturity values as uncertainty markers. Prefer claim IDs and source IDs over inferred citations. Article artifacts use schemaVersion 3 with a provenance block (agents, reviews, policy) and typed evidence/counterevidence packets. Trust a published packet only when its provenance contains a human-approved review whose contentHash matches the current article.md hash.

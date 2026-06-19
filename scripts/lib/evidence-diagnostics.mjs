@@ -190,9 +190,68 @@ export function assessClaim(claim, article, options = {}) {
   return findings;
 }
 
+export function assessProvenance(article, options = {}) {
+  const findings = [];
+  const prefix = options.prefix ?? `${article.year}/${article.slug}`;
+  const isPublished =
+    article.articleFrontmatter?.status === "published" && article.artifact.status === "published";
+  const provenance = article.artifact.provenance;
+
+  function add(rule, severity, message) {
+    findings.push({ rule, severity, message: `${prefix}: ${message}` });
+  }
+
+  if (!provenance) {
+    add("provenance-missing", isPublished ? "error" : "warning", "artifact is missing provenance.");
+    return findings;
+  }
+
+  const knownPolicyIds = options.knownPolicyIds;
+  if (knownPolicyIds && provenance.policy?.id && !knownPolicyIds.has(provenance.policy.id)) {
+    add(
+      "provenance-policy-missing",
+      isPublished ? "error" : "warning",
+      `provenance references unknown policy ${provenance.policy.id}.`
+    );
+  }
+
+  const humanReviews = provenance.reviews?.filter(
+    (review) => review.reviewer === "human" && review.status === "approved"
+  );
+
+  if (isPublished && (!humanReviews || humanReviews.length === 0)) {
+    add(
+      "unapproved-publication",
+      "error",
+      "published article has no human review with status approved in provenance."
+    );
+  }
+
+  if (humanReviews && humanReviews.length > 0) {
+    const latest = humanReviews[humanReviews.length - 1];
+    if (!latest.contentHash) {
+      add(
+        "provenance-contentHash-missing",
+        isPublished ? "error" : "warning",
+        "latest approved review is missing contentHash."
+      );
+    } else if (latest.contentHash !== article.contentHash) {
+      add(
+        "provenance-contentHash-mismatch",
+        "error",
+        `latest approved review contentHash does not match current article.md hash. Run npm run generate to refresh or re-approve.`
+      );
+    }
+  }
+
+  return findings;
+}
+
 export function assessArticle(article, body, options = {}) {
   const findings = [];
   const prefix = options.prefix ?? `${article.year}/${article.slug}`;
+
+  findings.push(...assessProvenance(article, options));
 
   const markerPattern = /<span(?:\s+[^>]*?)?\s+id="(claim-[0-9]{3})"(?:\s+[^>]*?)?\s+class="[^"]*claim-marker[^"]*"(?:\s+[^>]*?)?>|<span(?:\s+[^>]*?)?\s+class="[^"]*claim-marker[^"]*"(?:\s+[^>]*?)?\s+id="(claim-[0-9]{3})"(?:\s+[^>]*?)?>/g;
   const markers = new Set();

@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import FocusRail from "../../components/FocusRail.astro";
 import TopicChip from "../../components/TopicChip.astro";
+import ProvenancePanel from "../../components/ProvenancePanel.astro";
 import { getArticles } from "../../lib/content";
 
 export function getStaticPaths() {
@@ -155,6 +156,8 @@ const jsonLd = {
             ))}
           </ul>
         </section>
+
+        <ProvenancePanel provenance={article.artifact.provenance} contentHash={article.artifact.contentHash} />
 
         {relatedArticles.length > 0 && (
           <section class="related-reading" aria-labelledby="related-title">
