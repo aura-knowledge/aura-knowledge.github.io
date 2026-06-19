@@ -35,8 +35,8 @@ const validateArtifact = ajv.compile(artifactSchema);
 const validateRoadmap = ajv.compile(roadmapSchema);
 const validatePolicy = ajv.compile(policySchema);
 
-async function loadPolicyIds() {
-  const knownPolicyIds = new Set();
+async function loadPolicies() {
+  const knownPolicies = new Map();
   const policyDir = path.join(rootDir, "policies");
   let entries = [];
   try {
@@ -53,14 +53,14 @@ async function loadPolicyIds() {
     if (!validatePolicy(policy)) {
       formatAjvErrors(`policies/${file}`, validatePolicy);
     } else {
-      knownPolicyIds.add(policy.id);
+      knownPolicies.set(policy.id, policy.version);
     }
   }
 
-  return knownPolicyIds;
+  return knownPolicies;
 }
 
-const knownPolicyIds = await loadPolicyIds();
+const knownPolicies = await loadPolicies();
 const errors = [];
 const warnings = [];
 
@@ -235,8 +235,14 @@ for (const article of articles) {
   }
 
   const policyId = article.artifact.provenance?.policy?.id;
-  if (policyId && !knownPolicyIds.has(policyId)) {
-    report(`${prefix}: provenance references unknown policy ${policyId}.`);
+  const policyVersion = article.artifact.provenance?.policy?.version;
+  if (policyId) {
+    const knownVersion = knownPolicies.get(policyId);
+    if (!knownVersion) {
+      report(`${prefix}: provenance references unknown policy ${policyId}.`);
+    } else if (policyVersion && knownVersion !== policyVersion) {
+      report(`${prefix}: provenance policy version ${policyVersion} does not match ${policyId} v${knownVersion}.`);
+    }
   }
 
   const claimIds = article.artifact.claims.map((claim) => claim.id);
@@ -244,7 +250,7 @@ for (const article of articles) {
   reportDuplicates(prefix, "claim id", claimIds);
   reportDuplicates(prefix, "source id", sourceIdsList);
 
-  const findings = assessArticle(article, article.articleBody, { prefix, knownPolicyIds });
+  const findings = assessArticle(article, article.articleBody, { prefix, knownPolicies });
   for (const finding of findings) {
     if (finding.severity === "error") {
       report(finding.message);

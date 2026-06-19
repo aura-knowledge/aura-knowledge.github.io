@@ -206,20 +206,29 @@ export function assessProvenance(article, options = {}) {
     return findings;
   }
 
-  const knownPolicyIds = options.knownPolicyIds;
-  if (knownPolicyIds && provenance.policy?.id && !knownPolicyIds.has(provenance.policy.id)) {
-    add(
-      "provenance-policy-missing",
-      isPublished ? "error" : "warning",
-      `provenance references unknown policy ${provenance.policy.id}.`
-    );
+  const knownPolicies = options.knownPolicies;
+  if (knownPolicies && provenance.policy?.id) {
+    const knownVersion = knownPolicies.get(provenance.policy.id);
+    if (!knownVersion) {
+      add(
+        "provenance-policy-missing",
+        isPublished ? "error" : "warning",
+        `provenance references unknown policy ${provenance.policy.id}.`
+      );
+    } else if (provenance.policy.version && knownVersion !== provenance.policy.version) {
+      add(
+        "provenance-policy-mismatch",
+        isPublished ? "error" : "warning",
+        `provenance policy version ${provenance.policy.version} does not match ${provenance.policy.id} v${knownVersion}.`
+      );
+    }
   }
 
-  const humanReviews = provenance.reviews?.filter(
-    (review) => review.reviewer === "human" && review.status === "approved"
-  );
+  const humanReviews = (provenance.reviews ?? [])
+    .filter((review) => review.reviewer === "human" && review.status === "approved")
+    .sort((left, right) => right.reviewedAt.localeCompare(left.reviewedAt));
 
-  if (isPublished && (!humanReviews || humanReviews.length === 0)) {
+  if (isPublished && humanReviews.length === 0) {
     add(
       "unapproved-publication",
       "error",
@@ -227,8 +236,8 @@ export function assessProvenance(article, options = {}) {
     );
   }
 
-  if (humanReviews && humanReviews.length > 0) {
-    const latest = humanReviews[humanReviews.length - 1];
+  if (humanReviews.length > 0) {
+    const latest = humanReviews[0];
     if (!latest.contentHash) {
       add(
         "provenance-contentHash-missing",
