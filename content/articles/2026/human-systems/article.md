@@ -5,8 +5,8 @@ slug: human-systems
 title: "The Human Road Through AI: Labor, Institutions, Governance, and Meaning"
 dek: AI looks automatic at the interface, but its outcomes depend on hidden labor, institutional choices, access conditions, and public trust.
 date: "2026-06-20"
-updated: "2026-06-20"
-status: review
+updated: 2026-06-20
+status: published
 maturity: seed
 topic: long-human-road-to-ai
 tags:

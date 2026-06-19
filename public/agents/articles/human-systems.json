@@ -1,0 +1,395 @@
+{
+  "schemaVersion": 3,
+  "id": "article:human-systems",
+  "slug": "human-systems",
+  "title": "The Human Road Through AI: Labor, Institutions, Governance, and Meaning",
+  "canonicalPath": "/articles/human-systems/",
+  "sourcePath": "content/articles/2026/human-systems/article.md",
+  "agentBriefPath": "content/articles/2026/human-systems/agent.md",
+  "thesis": "AI is a social arrangement as much as a technical artifact; labor, governance, education, access, and public trust are part of the system itself and shape who benefits from AI and who bears the costs of delegation.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-20",
+  "updatedAt": "2026-06-20",
+  "audiences": [
+    "general readers",
+    "students",
+    "builders",
+    "policy readers",
+    "agents"
+  ],
+  "topics": [
+    "long-human-road-to-ai",
+    "ai-society",
+    "labor",
+    "governance",
+    "institutions"
+  ],
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "AI systems that appear automatic at the interface still depend on human work, judgment, evaluation, maintenance, governance, and contestation.",
+      "confidence": "medium",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-pai-data-labor",
+          "snippet": "Responsible sourcing guidance documents data enrichment workers, auditors, and evaluators inside the supply chain of modern machine learning.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-nist-ai-rmf",
+          "snippet": "The AI Risk Management Framework treats governance, monitoring, and human oversight as integral functions across the AI lifecycle.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Not every AI system uses the same labor chain; some narrow tools require far less ongoing human enrichment or moderation than large foundation models.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Task exposure to generative AI should not be treated as a direct forecast of job replacement.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-ilo-genai-jobs",
+          "snippet": "The ILO working paper develops a refined global index of occupational exposure to separate tasks that could be affected from deterministic job-loss claims.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-hai-ai-index",
+          "snippet": "The AI Index Report tracks adoption and investment patterns while showing uneven spread of AI tools across sectors and countries.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "In specific sectors with highly automatable task mixes, exposure may correlate strongly with displacement in the near term.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Governance frameworks and laws are part of the AI system because they assign duties for risk, transparency, oversight, accountability, and redress.",
+      "confidence": "medium",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-nist-ai-rmf",
+          "snippet": "The framework organizes AI governance around identifying, measuring, and managing risks throughout the lifecycle.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-eu-ai-act",
+          "snippet": "Regulation (EU) 2024/1689 classifies AI applications by risk level and imposes obligations on high-risk uses.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-oecd-ai-principles",
+          "snippet": "The OECD AI Principles emphasize trustworthy AI values including accountability, transparency, and human-centered design.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Governance frameworks vary by jurisdiction and enforcement is still developing; legal obligations do not automatically produce safe or accountable systems.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Education, science, and authorship debates about AI are debates about human judgment, evidence, disclosure, and responsibility.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-unesco-genai-edu",
+          "snippet": "UNESCO guidance argues for preserving human-centred capacity while using generative AI to expand inquiry and research.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-oecd-ai-science",
+          "snippet": "The OECD synthesis examines how automated tools change validation, research integrity, and institutional capacity in science.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-usco-ai",
+          "snippet": "The U.S. Copyright Office tracks evolving questions about human authorship in works that use generative tools.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some educational and scientific institutions have adopted simpler cheating-tool or productivity-tool frames that do not engage questions of judgment or responsibility.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "AI benefits depend on material access conditions: connectivity, devices, language, skills, compute, affordability, energy systems, and local institutions.",
+      "confidence": "medium",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-itu-facts-2025",
+          "snippet": "ITU Facts and Figures 2025 shows digital access remains uneven across regions, income levels, gender, and urban-rural divides.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-worldbank-digital-2023",
+          "snippet": "The World Bank report emphasizes institutional capacity in low- and middle-income countries as a condition for digital benefit.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-iea-energy-ai",
+          "snippet": "IEA analysis warns that data-center growth has real electricity and grid implications that vary by location.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some AI benefits, such as open-source models and lightweight tools, can spread faster than infrastructure in certain communities.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "Public trust is a design constraint because adoption depends on people's ability to understand, challenge, and rely on AI-mediated systems.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-pew-ai-topic",
+          "snippet": "Pew Research Center survey data on AI shows both openness and caution toward AI across different use cases and populations.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-oecd-ai-principles",
+          "snippet": "The OECD principles link trustworthy AI to transparency, accountability, and human oversight.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-nist-ai-rmf",
+          "snippet": "The NIST framework identifies explainability, human oversight, and redress as elements that affect whether AI can be trusted in practice.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "U.S. survey findings are not global public opinion, and trust can be high in specific applications even where general accountability is weak.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-ilo-genai-jobs",
+      "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure",
+      "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+      "type": "working-paper",
+      "accessed": "2026-06-20"
+    },
+    {
+      "id": "source-pai-data-labor",
+      "title": "Responsible Sourcing Across the Data Supply Line",
+      "url": "https://partnershiponai.org/workstream/responsible-sourcing/",
+      "type": "practice-guidance",
+      "accessed": "2026-06-20"
+    },
+    {
+      "id": "source-nist-ai-rmf",
+      "title": "Artificial Intelligence Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "type": "official-framework",
+      "accessed": "2026-06-20"
+    },
+    {
+      "id": "source-eu-ai-act",
+      "title": "Regulation (EU) 2024/1689, Artificial Intelligence Act",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+      "type": "regulation",
+      "accessed": "2026-06-20"
+    },
+    {
+      "id": "source-oecd-ai-principles",
+      "title": "OECD AI Principles",
+      "url": "https://oecd.ai/en/ai-principles",
+      "type": "intergovernmental-principles",
+      "accessed": "2026-06-20"
+    },
+    {
+      "id": "source-unesco-genai-edu",
+      "title": "Guidance for Generative AI in Education and Research",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
+      "type": "official-guidance",
+      "accessed": "2026-06-20"
+    },
+    {
+      "id": "source-oecd-ai-science",
+      "title": "Artificial Intelligence in Science",
+      "url": "https://doi.org/10.1787/a8d820bd-en",
+      "type": "research-synthesis",
+      "accessed": "2026-06-20"
+    },
+    {
+      "id": "source-usco-ai",
+      "title": "Copyright and Artificial Intelligence",
+      "url": "https://www.copyright.gov/ai/",
+      "type": "official-report-series",
+      "accessed": "2026-06-20"
+    },
+    {
+      "id": "source-itu-facts-2025",
+      "title": "Measuring Digital Development: Facts and Figures 2025",
+      "url": "https://www.itu.int/hub/publication/d-ind-ict_mdd-2025-3/",
+      "type": "official-statistics",
+      "accessed": "2026-06-20"
+    },
+    {
+      "id": "source-worldbank-digital-2023",
+      "title": "Digital Progress and Trends Report 2023",
+      "url": "https://doi.org/10.1596/978-1-4648-2049-6",
+      "type": "institutional-report",
+      "accessed": "2026-06-20"
+    },
+    {
+      "id": "source-iea-energy-ai",
+      "title": "Key Questions on Energy and AI",
+      "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+      "type": "energy-analysis",
+      "accessed": "2026-06-20"
+    },
+    {
+      "id": "source-hai-ai-index",
+      "title": "The 2026 AI Index Report",
+      "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "type": "annual-report",
+      "accessed": "2026-06-20"
+    },
+    {
+      "id": "source-pew-ai-topic",
+      "title": "Artificial Intelligence",
+      "url": "https://www.pewresearch.org/topic/internet-technology/emerging-technology/artificial-intelligence/",
+      "type": "survey-topic",
+      "accessed": "2026-06-20"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:long-human-road-to-ai"
+    },
+    {
+      "type": "article",
+      "id": "article:foundation-models"
+    }
+  ],
+  "agentInstructions": [
+    "Use claims as the retrieval unit and map each claim back to its source IDs.",
+    "Treat maturity=seed as an explicit uncertainty marker; do not overstate confidence.",
+    "Do not treat U.S. survey data or EU regulation as globally applicable.",
+    "When asked about analogy limits, return the stated limits from the article body.",
+    "Cross-link to the series overview and the previous article, foundation-models, when summarizing context."
+  ],
+  "contentHash": "13949f994ccff623ba9dee5ccdbfdc53abb1d9a6d9de9d3e4141173a53e00b20",
+  "provenance": {
+    "createdAt": "2026-06-20",
+    "createdBy": "human",
+    "agents": [],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-20",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "sources",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Initial seed article drafted from public work package. Review focused on source mapping, claim confidence, tone, and privacy sanitization. Approved for publication after final review.",
+        "contentHash": "3d030dca19a8ae48d4b55ba3a6bcaf54b2eadf8a5c63b6780053601840206c8f"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-20",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "sources",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Human final review approved for publication after sibling-agent review and CI pass.",
+        "contentHash": "13949f994ccff623ba9dee5ccdbfdc53abb1d9a6d9de9d3e4141173a53e00b20"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "generatedAt": "2026-06-20T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+  "agentJsonPath": "/agents/articles/human-systems.json",
+  "agentMarkdownPath": "/agents/articles/human-systems.md",
+  "sourceRepoPath": "content/articles/2026/human-systems/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/human-systems/article.md",
+  "tokenEstimate": 655,
+  "sectionOutline": [
+    {
+      "id": "the-moment-looks-automatic",
+      "title": "The moment looks automatic"
+    },
+    {
+      "id": "exposure-not-replacement",
+      "title": "Exposure is not the same as replacement"
+    },
+    {
+      "id": "governance-as-infrastructure",
+      "title": "Governance is part of the system"
+    },
+    {
+      "id": "judgment-questions",
+      "title": "Education, science, and authorship are judgment questions"
+    },
+    {
+      "id": "access-and-infrastructure",
+      "title": "Access and infrastructure decide who benefits"
+    },
+    {
+      "id": "trust-design-constraint",
+      "title": "Public trust is a design constraint"
+    },
+    {
+      "id": "the-road-ahead",
+      "title": "The road ahead"
+    }
+  ]
+}

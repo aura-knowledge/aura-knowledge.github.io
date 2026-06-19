@@ -1,0 +1,480 @@
+{
+  "schemaVersion": 3,
+  "id": "article:long-human-road-to-ai",
+  "slug": "long-human-road-to-ai",
+  "title": "The Long Human Road to AI: A Reader’s Guide to Season 1",
+  "canonicalPath": "/articles/long-human-road-to-ai/",
+  "sourcePath": "content/articles/2026/long-human-road-to-ai/article.md",
+  "agentBriefPath": "content/articles/2026/long-human-road-to-ai/agent.md",
+  "thesis": "Artificial intelligence is best understood as the latest chapter in a long human story of extending memory, calculation, communication, measurement, coordination, prediction, and delegation.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-20",
+  "updatedAt": "2026-06-20",
+  "audiences": [
+    "general readers",
+    "students",
+    "builders",
+    "agents"
+  ],
+  "topics": [
+    "long-human-road-to-ai",
+    "ai-history",
+    "computing-history",
+    "human-progress",
+    "education"
+  ],
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Artificial intelligence is easiest to understand when it is presented as the latest chapter in a much longer human story of extending memory, calculation, communication, measurement, coordination, prediction, and delegation.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-sep-computing",
+          "snippet": "The Stanford Encyclopedia of Philosophy traces computing from human calculation through formalization to electronic machines.",
+          "supports": "background",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-chm-timeline",
+          "snippet": "The Computer History Museum timeline presents centuries of mechanical aids, human computers, and electronic machines as one continuous chronology.",
+          "supports": "background",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-lhra-method",
+          "snippet": "The LHRA research method frames the series as a story of human needs and externalized support rather than a narrow technology timeline.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some historians and philosophers stress discontinuity, arguing that electronic digital computation and modern machine learning introduced genuinely novel capabilities not reducible to older tools.",
+          "assessedAt": "2026-06-19"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Computers and AI emerged from long-running human needs and older tools rather than arriving as a single invention.",
+      "confidence": "high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-chm-human-computers",
+          "snippet": "The Computer History Museum notes that the term computer originally described people who performed calculations.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-smith-human-computers",
+          "snippet": "The Smithsonian Human Computer Project documents how trained workers, increasingly women, performed calculation work for science and industry.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-nist-math-tables",
+          "snippet": "NIST describes the WPA Mathematical Tables Project, a twentieth-century effort in which human computers produced tables of mathematical functions.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-chm-abacus",
+          "snippet": "The Computer History Museum presents the abacus and counting boards as durable physical aids for arithmetic across many cultures.",
+          "supports": "background",
+          "assessedAt": "2026-06-19"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Electronic digital computers introduced programmability, speed, and levels of abstraction that earlier mechanical aids and human labor could not achieve.",
+          "assessedAt": "2026-06-19"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Across the season, the same pattern appears: human need → external support → formalization → scale → boundary.",
+      "confidence": "medium",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-lhra-method",
+          "snippet": "The season synthesis and research method describe a recurring narrative spine of human need, external support, formalization, scale, and boundary.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-sep-computing",
+          "snippet": "Historical accounts of computing show repeated transitions from manual procedure to formal method to machine implementation.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-19"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The pattern is a pedagogical framing; actual history involves parallel developments, feedback loops, and local contexts that do not fit a single linear sequence.",
+          "assessedAt": "2026-06-19"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "The 1956 Dartmouth workshop named and helped launch AI as a research agenda, but it was one meeting point among many precursors.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-dartmouth-1955",
+          "snippet": "The 1955 Dartmouth proposal introduced the name artificial intelligence and framed a summer research project on language, abstraction, problem solving, and self-improvement.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-dartmouth-ai-coined",
+          "snippet": "Dartmouth’s institutional account records the 1956 workshop as the place where the term artificial intelligence was coined.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-sep-ai",
+          "snippet": "The Stanford Encyclopedia of Philosophy entry situates Dartmouth as an official start while also noting precursors in logic, engineering, and cybernetics.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-19"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "AI drew on multiple lineages including formal logic, control theory, neuroscience, and engineering; no single workshop created the field ex nihilo.",
+          "assessedAt": "2026-06-19"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "AI progress repeatedly moved from hand-coded rules and symbols toward learning from examples, then toward scaled general-purpose models.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-samuel-1959",
+          "snippet": "Samuel’s 1959 checkers work showed a program improving its play through learning from experience, an early move away from hand-coded rules.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-sep-ai",
+          "snippet": "The Stanford Encyclopedia of Philosophy traces AI history from symbolic AI through learning systems to recent general-purpose models.",
+          "supports": "background",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-transformer-2017",
+          "snippet": "The Transformer architecture introduced attention-based sequence modeling that later enabled large general-purpose language models.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-scaling-laws-2020",
+          "snippet": "Empirical scaling laws showed how model performance improves with model size, data, and compute, supporting scaled general-purpose training.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-foundation-models-2021",
+          "snippet": "The 2021 Stanford report defined foundation models as broadly trained models adaptable across many downstream tasks and warned of homogenization risks.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Symbolic and rule-based methods persist in safety, verification, theorem proving, and hybrid systems; the shift is layered rather than a complete replacement.",
+          "assessedAt": "2026-06-19"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "Modern AI capabilities are shaped by data, compute, people, organizations, evaluation, governance, infrastructure, and public trust—not only by algorithms.",
+      "confidence": "medium-high",
+      "status": "risk",
+      "evidence": [
+        {
+          "sourceId": "source-hai-ai-index",
+          "snippet": "The 2026 AI Index tracks capabilities alongside adoption, investment, incidents, and responsible-AI measurement gaps.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-nist-ai-rmf",
+          "snippet": "The NIST AI Risk Management Framework treats governance, measurement, and risk management as integral functions across the AI lifecycle.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-pai-data-labor",
+          "snippet": "Partnership on AI guidance documents the data enrichment workers and human judgment that sit inside modern machine-learning supply chains.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-oecd-ai-principles",
+          "snippet": "The OECD AI Principles emphasize accountability, transparency, human-centered design, and trustworthy AI as shared governance values.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-19"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Technical architecture and scaling laws still strongly determine what models can do; social factors shape deployment but do not replace algorithmic and compute limits.",
+          "assessedAt": "2026-06-19"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "Analogies help make AI history understandable, but they are teaching devices, not evidence, and every analogy has a limit.",
+      "confidence": "high",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-lhra-method",
+          "snippet": "The LHRA research method requires that analogies state what they clarify, where they break, and that they not be treated as historical evidence.",
+          "supports": "direct",
+          "assessedAt": "2026-06-19"
+        },
+        {
+          "sourceId": "source-sep-computing",
+          "snippet": "Scholarly computing histories caution against reading modern concepts back into older devices without qualification.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-19"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Well-chosen analogies can advance scientific understanding and communication; the problem is not analogy itself but using it as standalone evidence.",
+          "assessedAt": "2026-06-19"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-chm-timeline",
+      "title": "Timeline of Computer History",
+      "url": "https://www.computerhistory.org/timeline/",
+      "type": "museum-timeline",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-sep-computing",
+      "title": "The Modern History of Computing",
+      "url": "https://plato.stanford.edu/entries/computing-history/",
+      "type": "encyclopedia-entry",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-chm-human-computers",
+      "title": "Human Computers",
+      "url": "https://www.computerhistory.org/revolution/calculators/1/65",
+      "type": "museum-collection",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-smith-human-computers",
+      "title": "Human Computer Project",
+      "url": "https://womenshistory.si.edu/human-computer-project",
+      "type": "museum-collection",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-nist-math-tables",
+      "title": "Prehistory: The Math Tables Project",
+      "url": "https://www.nist.gov/mathematics-statistics/prehistory-math-tables-project",
+      "type": "encyclopedia-entry",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-chm-abacus",
+      "title": "The Versatile, Venerable Abacus",
+      "url": "https://www.computerhistory.org/revolution/calculators/1/1",
+      "type": "museum-collection",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-dartmouth-1955",
+      "title": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
+      "url": "https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html",
+      "type": "primary-text",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-dartmouth-ai-coined",
+      "title": "Artificial Intelligence (AI) Coined at Dartmouth",
+      "url": "https://home.dartmouth.edu/about/artificial-intelligence-ai-coined-dartmouth",
+      "type": "archival-record",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-sep-ai",
+      "title": "Artificial Intelligence",
+      "url": "https://plato.stanford.edu/entries/artificial-intelligence/",
+      "type": "encyclopedia-entry",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-samuel-1959",
+      "title": "Some Studies in Machine Learning Using the Game of Checkers",
+      "url": "https://doi.org/10.1147/rd.33.0210",
+      "type": "original-paper",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-transformer-2017",
+      "title": "Attention Is All You Need",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "type": "original-paper",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-scaling-laws-2020",
+      "title": "Scaling Laws for Neural Language Models",
+      "url": "https://arxiv.org/abs/2001.08361",
+      "type": "original-paper",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-foundation-models-2021",
+      "title": "On the Opportunities and Risks of Foundation Models",
+      "url": "https://arxiv.org/abs/2108.07258",
+      "type": "original-paper",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-hai-ai-index",
+      "title": "The 2026 AI Index Report",
+      "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "type": "data-report",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-nist-ai-rmf",
+      "title": "Artificial Intelligence Risk Management Framework",
+      "url": "https://doi.org/10.6028/NIST.AI.100-1",
+      "type": "official-guidance",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-pai-data-labor",
+      "title": "Responsible Sourcing Across the Data Supply Line",
+      "url": "https://partnershiponai.org/workstream/responsible-sourcing/",
+      "type": "official-guidance",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-oecd-ai-principles",
+      "title": "OECD AI Principles",
+      "url": "https://oecd.ai/en/ai-principles",
+      "type": "official-guidance",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-lhra-method",
+      "title": "The Long Human Road to AI Research Method",
+      "url": "https://github.com/aura-knowledge/meta/blob/main/proposals/long-human-road-to-ai/research/README.md",
+      "type": "project-document",
+      "accessed": "2026-06-19"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:long-human-road-to-ai"
+    },
+    {
+      "type": "article",
+      "id": "article:before-machines"
+    }
+  ],
+  "agentInstructions": [
+    "Use the seven claims as the retrieval unit for this overview.",
+    "Prefer source IDs from the artifact over inferring citations from prose.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Recheck current-state sources such as the AI Index, NIST, and EU pages after 2026-12-31.",
+    "Do not assume the seven linked articles exist until their own artifacts are present in the repository."
+  ],
+  "contentHash": "d852055f4b0a5abd15924735fd73242312304723715c3bc13efc099f0f23dc26",
+  "provenance": {
+    "createdAt": "2026-06-20",
+    "createdBy": "human",
+    "agents": [],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-20",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "sources",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Drafted from public series charter, season synthesis, article map, and source canon. No client or private information included. Approved for publication after final review."
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-20",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "sources",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Human final review approved for publication after sibling-agent review and CI pass.",
+        "contentHash": "d852055f4b0a5abd15924735fd73242312304723715c3bc13efc099f0f23dc26"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "generatedAt": "2026-06-20T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+  "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+  "agentMarkdownPath": "/agents/articles/long-human-road-to-ai.md",
+  "sourceRepoPath": "content/articles/2026/long-human-road-to-ai/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/long-human-road-to-ai/article.md",
+  "tokenEstimate": 628,
+  "sectionOutline": [
+    {
+      "id": "what-this-series-is",
+      "title": "What this series is"
+    },
+    {
+      "id": "why-the-long-road-matters",
+      "title": "Why the long road matters"
+    },
+    {
+      "id": "the-recurring-pattern",
+      "title": "The recurring pattern"
+    },
+    {
+      "id": "season-1-at-a-glance",
+      "title": "Season 1 at a glance"
+    },
+    {
+      "id": "what-you-will-take-away",
+      "title": "What you will take away"
+    },
+    {
+      "id": "how-to-read-this",
+      "title": "How to read this"
+    }
+  ]
+}

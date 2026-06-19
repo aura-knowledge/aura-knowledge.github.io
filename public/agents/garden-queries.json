@@ -3,10 +3,10 @@
   "schema": "https://aura-knowledge.github.io/schemas/garden-queries.schema.json",
   "site": "https://aura-knowledge.github.io",
   "base": "",
-  "generatedAt": "2026-06-18T00:00:00.000Z",
+  "generatedAt": "2026-06-20T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 56
+    "totalResults": 259
   },
   "dimensions": [
     {
@@ -15,27 +15,84 @@
       "values": [
         "agent-provenance",
         "agentic-commerce",
+        "ai-governance",
+        "ai-history",
         "ai-native-publishing",
+        "ai-society",
+        "computability",
+        "computing-history",
         "consumer-behavior",
+        "cybernetics",
         "digital-gardens",
+        "education",
+        "evaluation",
+        "expert-systems",
+        "formal-logic",
+        "foundation-models",
+        "governance",
+        "human-progress",
+        "hype-cycle",
         "incumbent-adjacent-ventures",
+        "information-theory",
+        "institutions",
+        "labor",
+        "long-human-road-to-ai",
+        "machine-learning",
+        "neural-networks",
         "open-protocols",
         "product-truth",
-        "research-workflows"
+        "research-workflows",
+        "scaling",
+        "symbolic-ai",
+        "transformers"
       ]
     },
     {
       "name": "tag",
       "description": "Article tag.",
       "values": [
+        "abacus",
         "ai-agents",
+        "ai-history",
+        "ai-society",
+        "ai-winters",
+        "automata",
         "commerce",
+        "computation",
+        "computing-history",
         "consumer-behavior",
+        "dartmouth",
+        "data",
         "digital-gardens",
+        "early-ai",
+        "education",
+        "evaluation",
+        "expert-systems",
+        "governance",
+        "history-of-ai",
+        "human-computers",
+        "human-progress",
+        "hype-cycle",
+        "information-theory",
+        "institutions",
+        "labor",
+        "logic",
+        "machine-learning",
+        "mechanical-calculation",
+        "multimodality",
+        "neural-networks",
         "open-protocols",
+        "pretraining",
         "product-truth",
         "publishing",
-        "research-workflows"
+        "reading-guide",
+        "research-workflows",
+        "scaling",
+        "series-overview",
+        "statistics",
+        "symbolic-ai",
+        "transformers",
+        "turing"
       ]
     },
     {
@@ -63,16 +120,70 @@
       "name": "citesSourceType",
       "description": "Source type cited by the article.",
       "values": [
+        "annual-report",
+        "archival-record",
+        "article",
+        "benchmark-site",
+        "biographical-reference",
+        "book",
+        "case-study",
+        "conference-paper",
+        "data-reference",
+        "data-report",
         "design",
         "documentation",
+        "encyclopedia",
+        "encyclopedia-entry",
+        "energy-analysis",
+        "essay",
+        "expert-system-retrospective",
+        "government-history",
+        "guidance",
+        "historical-analysis",
+        "historiographic-commentary",
         "industry-report",
+        "institutional-history",
+        "institutional-report",
+        "intergovernmental-principles",
+        "museum-collection",
+        "museum-exhibit",
+        "museum-object",
+        "museum-research-project",
+        "museum-story",
+        "museum-timeline",
+        "official-framework",
+        "official-guidance",
+        "official-report-series",
+        "official-statistics",
+        "original-paper",
+        "paper",
+        "policy",
+        "practice-guidance",
+        "primary",
+        "primary-text",
         "product",
+        "project-document",
+        "proposal",
         "protocol",
+        "public-report",
+        "regulation",
         "regulatory",
         "regulatory-data",
+        "report",
         "research",
+        "research-article",
+        "research-paper",
+        "research-project",
+        "research-report",
+        "research-synthesis",
         "schema",
-        "standard"
+        "standard",
+        "standards-framework",
+        "survey-topic",
+        "technical-report",
+        "textbook",
+        "university-research-summary",
+        "working-paper"
       ]
     },
     {
@@ -104,7 +215,7 @@
         "groupBy": "topic"
       },
       "resultType": "articles",
-      "resultCount": 9,
+      "resultCount": 46,
       "results": [
         {
           "articleId": "article:agent-auditable-research",
@@ -121,11 +232,81 @@
           "topic": "agentic-commerce"
         },
         {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "topic": "ai-governance"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+          "topic": "ai-history"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "topic": "ai-history"
+        },
+        {
+          "articleId": "article:birth-of-ai",
+          "slug": "birth-of-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+          "agentJsonPath": "/agents/articles/birth-of-ai.json",
+          "topic": "ai-history"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "topic": "ai-history"
+        },
+        {
           "articleId": "article:agent-auditable-research",
           "slug": "agent-auditable-research",
           "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
           "agentJsonPath": "/agents/articles/agent-auditable-research.json",
           "topic": "ai-native-publishing"
+        },
+        {
+          "articleId": "article:human-systems",
+          "slug": "human-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+          "agentJsonPath": "/agents/articles/human-systems.json",
+          "topic": "ai-society"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "topic": "computability"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "topic": "computing-history"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "topic": "computing-history"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "topic": "computing-history"
         },
         {
           "articleId": "article:agentic-commerce-product-truth",
@@ -135,6 +316,13 @@
           "topic": "consumer-behavior"
         },
         {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "topic": "cybernetics"
+        },
+        {
           "articleId": "article:agent-auditable-research",
           "slug": "agent-auditable-research",
           "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
@@ -142,11 +330,172 @@
           "topic": "digital-gardens"
         },
         {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "topic": "education"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "topic": "education"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+          "topic": "evaluation"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+          "topic": "expert-systems"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "topic": "formal-logic"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "topic": "foundation-models"
+        },
+        {
+          "articleId": "article:human-systems",
+          "slug": "human-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+          "agentJsonPath": "/agents/articles/human-systems.json",
+          "topic": "governance"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "topic": "human-progress"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "topic": "human-progress"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+          "topic": "hype-cycle"
+        },
+        {
           "articleId": "article:agentic-commerce-product-truth",
           "slug": "agentic-commerce-product-truth",
           "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
           "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
           "topic": "incumbent-adjacent-ventures"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "topic": "information-theory"
+        },
+        {
+          "articleId": "article:human-systems",
+          "slug": "human-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+          "agentJsonPath": "/agents/articles/human-systems.json",
+          "topic": "institutions"
+        },
+        {
+          "articleId": "article:human-systems",
+          "slug": "human-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+          "agentJsonPath": "/agents/articles/human-systems.json",
+          "topic": "labor"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+          "topic": "long-human-road-to-ai"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "topic": "long-human-road-to-ai"
+        },
+        {
+          "articleId": "article:birth-of-ai",
+          "slug": "birth-of-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+          "agentJsonPath": "/agents/articles/birth-of-ai.json",
+          "topic": "long-human-road-to-ai"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "topic": "long-human-road-to-ai"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "topic": "long-human-road-to-ai"
+        },
+        {
+          "articleId": "article:human-systems",
+          "slug": "human-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+          "agentJsonPath": "/agents/articles/human-systems.json",
+          "topic": "long-human-road-to-ai"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "topic": "long-human-road-to-ai"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "topic": "long-human-road-to-ai"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "topic": "machine-learning"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "topic": "neural-networks"
         },
         {
           "articleId": "article:agentic-commerce-product-truth",
@@ -168,6 +517,27 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
           "agentJsonPath": "/agents/articles/agent-auditable-research.json",
           "topic": "research-workflows"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "topic": "scaling"
+        },
+        {
+          "articleId": "article:birth-of-ai",
+          "slug": "birth-of-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+          "agentJsonPath": "/agents/articles/birth-of-ai.json",
+          "topic": "symbolic-ai"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "topic": "transformers"
         }
       ]
     },
@@ -201,7 +571,7 @@
         "confidence": "high"
       },
       "resultType": "claims",
-      "resultCount": 2,
+      "resultCount": 33,
       "results": [
         {
           "articleId": "article:agent-auditable-research",
@@ -222,6 +592,316 @@
           "claim": "AI assistance should be disclosed while the human remains accountable for thesis, source selection, wording, and conclusions.",
           "confidence": "high",
           "status": "normative"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+          "claimId": "claim-003",
+          "claim": "Expert systems produced useful results in narrow domains where domain knowledge could be encoded and maintained.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "claimId": "claim-001",
+          "claim": "Computation was performed by people before it became associated with electronic machines.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "claimId": "claim-004",
+          "claim": "Seventeenth-century mechanical calculators embodied arithmetic operations in physical mechanisms.",
+          "confidence": "high",
+          "status": "argument"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "claimId": "claim-005",
+          "claim": "The Antikythera mechanism was a sophisticated geared astronomical calculator or display mechanism.",
+          "confidence": "high",
+          "status": "argument"
+        },
+        {
+          "articleId": "article:birth-of-ai",
+          "slug": "birth-of-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+          "agentJsonPath": "/agents/articles/birth-of-ai.json",
+          "claimId": "claim-001",
+          "claim": "Dartmouth named and consolidated AI as a research field, but did not originate all machine-intelligence work.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:birth-of-ai",
+          "slug": "birth-of-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+          "agentJsonPath": "/agents/articles/birth-of-ai.json",
+          "claimId": "claim-002",
+          "claim": "Early AI treated reasoning as symbolic manipulation and search.",
+          "confidence": "high",
+          "status": "framing"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "claimId": "claim-001",
+          "claim": "Algebraic and symbolic treatments of logic helped make reasoning inspectable and manipulable as formal symbol systems.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "claimId": "claim-004",
+          "claim": "Gödel's incompleteness theorems showed that consistent formal systems strong enough for arithmetic have intrinsic limits, complicating the dream of complete formal foundations.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "claimId": "claim-005",
+          "claim": "Church, Turing, and Post offered different formalizations of effective procedure, helping turn computation into a mathematical subject before modern computers were common.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "claimId": "claim-006",
+          "claim": "The Church-Turing thesis concerns effective methods and is often misunderstood when treated as a claim about all physical machines or minds.",
+          "confidence": "high",
+          "status": "framing"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "claimId": "claim-007",
+          "claim": "Shannon's switching-circuit work connected Boolean algebra to relay and switching circuit design, helping make logic part of digital engineering.",
+          "confidence": "high",
+          "status": "argument"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "claimId": "claim-008",
+          "claim": "Shannon's communication theory provided a mathematical treatment of messages, channels, noise, and information, but it is not a theory of semantic meaning.",
+          "confidence": "high",
+          "status": "framing"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "claimId": "claim-001",
+          "claim": "A foundation model is a broadly trained model, generally trained with self-supervision at scale, that can be adapted to many downstream tasks.",
+          "confidence": "high",
+          "status": "framing"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "claimId": "claim-002",
+          "claim": "Foundation models revive general-purpose AI ambition by supporting many tasks from a shared base, but this should not be equated with humanlike understanding.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "claimId": "claim-003",
+          "claim": "The Transformer replaced recurrence and convolution with attention for sequence transduction and made training more parallelizable.",
+          "confidence": "high",
+          "status": "argument"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "claimId": "claim-004",
+          "claim": "Broad pretraining enabled models such as BERT and GPT-3 to be adapted or prompted across many tasks.",
+          "confidence": "high",
+          "status": "argument"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "claimId": "claim-005",
+          "claim": "Scaling research made model size, data, and compute explicit variables, while later work emphasized compute-optimal allocation rather than model size alone.",
+          "confidence": "high",
+          "status": "argument"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "claimId": "claim-006",
+          "claim": "Instruction tuning and RLHF can improve usefulness and intent-following, but do not eliminate mistakes or alignment limits.",
+          "confidence": "high",
+          "status": "risk"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "claimId": "claim-008",
+          "claim": "Retrieval, tool use, and reasoning/action loops can extend model behavior by connecting models to external sources, APIs, and environments.",
+          "confidence": "high",
+          "status": "argument"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "claimId": "claim-009",
+          "claim": "Language-model evaluation needs multi-metric transparency because accuracy alone hides tradeoffs in calibration, robustness, fairness, bias, toxicity, and efficiency.",
+          "confidence": "high",
+          "status": "risk"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "claimId": "claim-001",
+          "claim": "The shift from hand-coded rules to learning from examples changed AI by combining statistics, neural networks, datasets, benchmarks, compute, and infrastructure into systems that infer useful patterns rather than only follow explicit instructions.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "claimId": "claim-002",
+          "claim": "The early AI field framing already included learning as a central feature of intelligence.",
+          "confidence": "high",
+          "status": "framing"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "claimId": "claim-003",
+          "claim": "Samuel's checkers work is an early public example of a program improving through machine-learning procedures rather than relying only on fixed, hand-authored play.",
+          "confidence": "high",
+          "status": "argument"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "claimId": "claim-004",
+          "claim": "Rosenblatt's perceptron framed pattern recognition through adaptive connections and probabilistic analysis, making the idea of a learning machine visible to a broad audience.",
+          "confidence": "high",
+          "status": "argument"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "claimId": "claim-006",
+          "claim": "The 1986 Nature paper helped make backpropagation for multilayer networks practically legible to a broad research audience, and gradient-trained convolutional networks were already being used for document recognition by the late 1990s.",
+          "confidence": "high",
+          "status": "argument"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "claimId": "claim-007",
+          "claim": "ImageNet and ILSVRC helped make large labeled datasets and shared benchmarks central infrastructure for computer-vision progress.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "claimId": "claim-008",
+          "claim": "AlexNet made the combination of deep networks, ImageNet-scale data, and GPU implementation newly persuasive in 2012, but the result should be read as a convergence of factors rather than proof that compute alone or learned patterns equal understanding.",
+          "confidence": "high",
+          "status": "argument"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "claimId": "claim-001",
+          "claim": "Artificial intelligence is easiest to understand when it is presented as the latest chapter in a much longer human story of extending memory, calculation, communication, measurement, coordination, prediction, and delegation.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "claimId": "claim-002",
+          "claim": "Computers and AI emerged from long-running human needs and older tools rather than arriving as a single invention.",
+          "confidence": "high",
+          "status": "argument"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "claimId": "claim-004",
+          "claim": "The 1956 Dartmouth workshop named and helped launch AI as a research agenda, but it was one meeting point among many precursors.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "claimId": "claim-007",
+          "claim": "Analogies help make AI history understandable, but they are teaching devices, not evidence, and every analogy has a limit.",
+          "confidence": "high",
+          "status": "framing"
         }
       ]
     },
@@ -232,8 +912,268 @@
         "groupBy": "sourceType"
       },
       "resultType": "sources",
-      "resultCount": 43,
+      "resultCount": 170,
       "results": [
+        {
+          "articleId": "article:human-systems",
+          "slug": "human-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+          "agentJsonPath": "/agents/articles/human-systems.json",
+          "sourceId": "source-hai-ai-index",
+          "sourceTitle": "The 2026 AI Index Report",
+          "sourceType": "annual-report",
+          "sourceUrl": "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "sourceId": "source-dartmouth-ai-coined",
+          "sourceTitle": "Artificial Intelligence (AI) Coined at Dartmouth",
+          "sourceType": "archival-record",
+          "sourceUrl": "https://home.dartmouth.edu/about/artificial-intelligence-ai-coined-dartmouth"
+        },
+        {
+          "articleId": "article:birth-of-ai",
+          "slug": "birth-of-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+          "agentJsonPath": "/agents/articles/birth-of-ai.json",
+          "sourceId": "source-dartmouth-ai-coined",
+          "sourceTitle": "Artificial Intelligence (AI) Coined at Dartmouth",
+          "sourceType": "article",
+          "sourceUrl": "https://home.dartmouth.edu/about/artificial-intelligence-ai-coined-dartmouth"
+        },
+        {
+          "articleId": "article:birth-of-ai",
+          "slug": "birth-of-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+          "agentJsonPath": "/agents/articles/birth-of-ai.json",
+          "sourceId": "source-dick-ai-history",
+          "sourceTitle": "Artificial Intelligence",
+          "sourceType": "article",
+          "sourceUrl": "https://hdsr.mitpress.mit.edu/pub/0aytgrau/release/3"
+        },
+        {
+          "articleId": "article:birth-of-ai",
+          "slug": "birth-of-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+          "agentJsonPath": "/agents/articles/birth-of-ai.json",
+          "sourceId": "source-sep-ai",
+          "sourceTitle": "Artificial Intelligence",
+          "sourceType": "article",
+          "sourceUrl": "https://plato.stanford.edu/entries/artificial-intelligence/"
+        },
+        {
+          "articleId": "article:birth-of-ai",
+          "slug": "birth-of-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+          "agentJsonPath": "/agents/articles/birth-of-ai.json",
+          "sourceId": "source-sep-logic-ai",
+          "sourceTitle": "Logic and Artificial Intelligence",
+          "sourceType": "article",
+          "sourceUrl": "https://plato.stanford.edu/entries/logic-ai/"
+        },
+        {
+          "articleId": "article:birth-of-ai",
+          "slug": "birth-of-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+          "agentJsonPath": "/agents/articles/birth-of-ai.json",
+          "sourceId": "source-turing-1950",
+          "sourceTitle": "Computing Machinery and Intelligence",
+          "sourceType": "article",
+          "sourceUrl": "https://turingarchive.kings.cam.ac.uk/computing-machinery-and-intelligence"
+        },
+        {
+          "articleId": "article:birth-of-ai",
+          "slug": "birth-of-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+          "agentJsonPath": "/agents/articles/birth-of-ai.json",
+          "sourceId": "source-chm-ai-robotics",
+          "sourceTitle": "AI and Robotics: Timeline of Computer History",
+          "sourceType": "article",
+          "sourceUrl": "https://www.computerhistory.org/timeline/ai-robotics/"
+        },
+        {
+          "articleId": "article:birth-of-ai",
+          "slug": "birth-of-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+          "agentJsonPath": "/agents/articles/birth-of-ai.json",
+          "sourceId": "source-cornell-perceptron",
+          "sourceTitle": "Professor's perceptron paved the way for AI - 60 years too soon",
+          "sourceType": "article",
+          "sourceUrl": "https://news.cornell.edu/stories/2019/09/professors-perceptron-paved-way-ai-60-years-too-soon"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "sourceId": "source-turing-1936",
+          "sourceTitle": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+          "sourceType": "article",
+          "sourceUrl": "https://doi.org/10.1112/plms/s2-42.1.230"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "sourceId": "source-post-1936",
+          "sourceTitle": "Finite Combinatory Processes - Formulation 1",
+          "sourceType": "article",
+          "sourceUrl": "https://doi.org/10.2307/2269031"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "sourceId": "source-shannon-switching",
+          "sourceTitle": "A Symbolic Analysis of Relay and Switching Circuits",
+          "sourceType": "article",
+          "sourceUrl": "https://doi.org/10.1109/T-AIEE.1938.5057767"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "sourceId": "source-shannon-info-1948",
+          "sourceTitle": "A Mathematical Theory of Communication",
+          "sourceType": "article",
+          "sourceUrl": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "sourceId": "source-shannon-info-pdf",
+          "sourceTitle": "A Mathematical Theory of Communication",
+          "sourceType": "article",
+          "sourceUrl": "https://ia803209.us.archive.org/27/items/bstj27-3-379/bstj27-3-379_text.pdf"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "sourceId": "source-imagenet-site",
+          "sourceTitle": "ImageNet Large Scale Visual Recognition Challenge",
+          "sourceType": "benchmark-site",
+          "sourceUrl": "https://www.image-net.org/challenges/LSVRC/"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+          "sourceId": "source-feigenbaum-acm",
+          "sourceTitle": "Edward A. Feigenbaum: A.M. Turing Award Laureate profile",
+          "sourceType": "biographical-reference",
+          "sourceUrl": "https://amturing.acm.org/award_winners/feigenbaum_4167235.cfm"
+        },
+        {
+          "articleId": "article:birth-of-ai",
+          "slug": "birth-of-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+          "agentJsonPath": "/agents/articles/birth-of-ai.json",
+          "sourceId": "source-nilsson-quest-ai",
+          "sourceTitle": "The Quest for Artificial Intelligence: A History of Ideas and Achievements",
+          "sourceType": "book",
+          "sourceUrl": "https://ai.stanford.edu/~nilsson/QAI/qai.pdf"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "sourceId": "source-boole-laws-thought",
+          "sourceTitle": "An Investigation of the Laws of Thought",
+          "sourceType": "book",
+          "sourceUrl": "https://archive.org/details/investigationofl01bool"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "sourceId": "source-principia-archive",
+          "sourceTitle": "Principia Mathematica",
+          "sourceType": "book",
+          "sourceUrl": "https://archive.org/details/cu31924001575244"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "sourceId": "source-wiener-cybernetics",
+          "sourceTitle": "Cybernetics: Or Control and Communication in the Animal and the Machine",
+          "sourceType": "book",
+          "sourceUrl": "https://doi.org/10.7551/mitpress/11810.001.0001"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "sourceId": "source-minsky-papert-1969",
+          "sourceTitle": "Perceptrons: An Introduction to Computational Geometry",
+          "sourceType": "book",
+          "sourceUrl": "https://mitpress.mit.edu/9780262630221/perceptrons/"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+          "sourceId": "source-r1-revisited-1984",
+          "sourceTitle": "R1 Revisited: Four Years in the Trenches",
+          "sourceType": "case-study",
+          "sourceUrl": "https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/445"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+          "sourceId": "source-feigenbaum-1977",
+          "sourceTitle": "The Art of Artificial Intelligence: I. Themes and Case Studies of Knowledge Engineering",
+          "sourceType": "conference-paper",
+          "sourceUrl": "https://stacks.stanford.edu/file/druid%3Abg342cm2034/bg342cm2034.pdf"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+          "sourceId": "source-r1-1980",
+          "sourceTitle": "R1: An Expert in the Computer Systems Domain",
+          "sourceType": "conference-paper",
+          "sourceUrl": "https://cdn.aaai.org/AAAI/1980/AAAI80-076.pdf"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+          "sourceId": "source-hai-ai-index",
+          "sourceTitle": "The 2026 AI Index Report",
+          "sourceType": "data-reference",
+          "sourceUrl": "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "sourceId": "source-hai-ai-index",
+          "sourceTitle": "The 2026 AI Index Report",
+          "sourceType": "data-report",
+          "sourceUrl": "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+        },
         {
           "articleId": "article:agent-auditable-research",
           "slug": "agent-auditable-research",
@@ -275,6 +1215,236 @@
           "sourceUrl": "https://developers.google.com/search/docs/appearance/structured-data/product-snippet"
         },
         {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "sourceId": "source-leibniz-logic",
+          "sourceTitle": "Leibniz's Influence on 19th Century Logic",
+          "sourceType": "documentation",
+          "sourceUrl": "https://plato.stanford.edu/entries/leibniz-logic-influence/"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "sourceId": "source-frege-logic",
+          "sourceTitle": "Frege's Logic",
+          "sourceType": "documentation",
+          "sourceUrl": "https://plato.stanford.edu/entries/frege-logic/"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "sourceId": "source-hilbert-problems",
+          "sourceTitle": "Mathematical Problems",
+          "sourceType": "documentation",
+          "sourceUrl": "https://aleph0.clarku.edu/~djoyce/hilbert/problems.html"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "sourceId": "source-godel",
+          "sourceTitle": "Gödel's Incompleteness Theorems",
+          "sourceType": "documentation",
+          "sourceUrl": "https://plato.stanford.edu/entries/goedel-incompleteness/"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "sourceId": "source-church",
+          "sourceTitle": "Alonzo Church",
+          "sourceType": "documentation",
+          "sourceUrl": "https://plato.stanford.edu/entries/church/"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "sourceId": "source-church-turing",
+          "sourceTitle": "The Church-Turing Thesis",
+          "sourceType": "documentation",
+          "sourceUrl": "https://plato.stanford.edu/archives/fall2020/entries/church-turing/"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "sourceId": "source-chm-digital-logic",
+          "sourceTitle": "How Do Digital Computers Think?",
+          "sourceType": "documentation",
+          "sourceUrl": "https://www.computerhistory.org/revolution/digital-logic/12/269"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "sourceId": "source-britannica-cybernetics",
+          "sourceTitle": "Cybernetics",
+          "sourceType": "documentation",
+          "sourceUrl": "https://www.britannica.com/science/cybernetics"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-sep-leibniz-logic",
+          "sourceTitle": "Leibniz's Influence on 19th Century Logic",
+          "sourceType": "encyclopedia",
+          "sourceUrl": "https://plato.stanford.edu/entries/leibniz-logic-influence/"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-britannica-automaton",
+          "sourceTitle": "Automaton",
+          "sourceType": "encyclopedia",
+          "sourceUrl": "https://www.britannica.com/technology/automaton"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-sep-computing",
+          "sourceTitle": "The Modern History of Computing",
+          "sourceType": "encyclopedia",
+          "sourceUrl": "https://plato.stanford.edu/entries/computing-history/"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "sourceId": "source-sep-computing",
+          "sourceTitle": "The Modern History of Computing",
+          "sourceType": "encyclopedia-entry",
+          "sourceUrl": "https://plato.stanford.edu/entries/computing-history/"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "sourceId": "source-nist-math-tables",
+          "sourceTitle": "Prehistory: The Math Tables Project",
+          "sourceType": "encyclopedia-entry",
+          "sourceUrl": "https://www.nist.gov/mathematics-statistics/prehistory-math-tables-project"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "sourceId": "source-sep-ai",
+          "sourceTitle": "Artificial Intelligence",
+          "sourceType": "encyclopedia-entry",
+          "sourceUrl": "https://plato.stanford.edu/entries/artificial-intelligence/"
+        },
+        {
+          "articleId": "article:human-systems",
+          "slug": "human-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+          "agentJsonPath": "/agents/articles/human-systems.json",
+          "sourceId": "source-iea-energy-ai",
+          "sourceTitle": "Key Questions on Energy and AI",
+          "sourceType": "energy-analysis",
+          "sourceUrl": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "sourceId": "source-sutton-bitter",
+          "sourceTitle": "The Bitter Lesson",
+          "sourceType": "essay",
+          "sourceUrl": "https://www.incompleteideas.net/IncIdeas/BitterLesson.html"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+          "sourceId": "source-mycin-1984",
+          "sourceTitle": "Rule-Based Expert Systems: The MYCIN Experiments of the Stanford Heuristic Programming Project",
+          "sourceType": "expert-system-retrospective",
+          "sourceUrl": "https://www.shortliffe.net/Buchanan-Shortliffe-1984/MYCIN%20Book.htm"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-nist-math-tables",
+          "sourceTitle": "Prehistory: The Math Tables Project",
+          "sourceType": "government-history",
+          "sourceUrl": "https://www.nist.gov/mathematics-statistics/prehistory-math-tables-project"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-nist-ai-rmf",
+          "sourceTitle": "Artificial Intelligence Risk Management Framework 1.0",
+          "sourceType": "guidance",
+          "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-nist-gai-profile",
+          "sourceTitle": "NIST AI RMF Generative AI Profile",
+          "sourceType": "guidance",
+          "sourceUrl": "https://doi.org/10.6028/NIST.AI.600-1"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+          "sourceId": "source-agar-lighthill-2020",
+          "sourceTitle": "What is science for? The Lighthill report on artificial intelligence reinterpreted",
+          "sourceType": "historical-analysis",
+          "sourceUrl": "https://doi.org/10.1017/S0007087420000230"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+          "sourceId": "source-haigh-no-first-winter",
+          "sourceTitle": "There Was No 'First AI Winter'",
+          "sourceType": "historiographic-commentary",
+          "sourceUrl": "https://cacm.acm.org/opinion/there-was-no-first-ai-winter/"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+          "sourceId": "source-haigh-ai-boom-bust",
+          "sourceTitle": "How the AI Boom Went Bust",
+          "sourceType": "historiographic-commentary",
+          "sourceUrl": "https://cacm.acm.org/opinion/how-the-ai-boom-went-bust/"
+        },
+        {
           "articleId": "article:agentic-commerce-product-truth",
           "slug": "agentic-commerce-product-truth",
           "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
@@ -283,6 +1453,426 @@
           "sourceTitle": "How Amazon uses AI innovations to stop fraud and counterfeits",
           "sourceType": "industry-report",
           "sourceUrl": "https://www.aboutamazon.com/news/policy-new-views/amazon-brand-protection-report-2024-counterfeit-products"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+          "sourceId": "source-nrc-ai-1999",
+          "sourceTitle": "Funding a Revolution: Government Support for Computing Research, Chapter 9: Development in Artificial Intelligence",
+          "sourceType": "institutional-history",
+          "sourceUrl": "https://www.nationalacademies.org/read/6323/chapter/11"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "sourceId": "source-dartmouth-story",
+          "sourceTitle": "AI at Dartmouth: Our Story",
+          "sourceType": "institutional-history",
+          "sourceUrl": "https://ai.dartmouth.edu/our-story"
+        },
+        {
+          "articleId": "article:human-systems",
+          "slug": "human-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+          "agentJsonPath": "/agents/articles/human-systems.json",
+          "sourceId": "source-worldbank-digital-2023",
+          "sourceTitle": "Digital Progress and Trends Report 2023",
+          "sourceType": "institutional-report",
+          "sourceUrl": "https://doi.org/10.1596/978-1-4648-2049-6"
+        },
+        {
+          "articleId": "article:human-systems",
+          "slug": "human-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+          "agentJsonPath": "/agents/articles/human-systems.json",
+          "sourceId": "source-oecd-ai-principles",
+          "sourceTitle": "OECD AI Principles",
+          "sourceType": "intergovernmental-principles",
+          "sourceUrl": "https://oecd.ai/en/ai-principles"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "sourceId": "source-chm-human-computers",
+          "sourceTitle": "Human Computers",
+          "sourceType": "museum-collection",
+          "sourceUrl": "https://www.computerhistory.org/revolution/calculators/1/65"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "sourceId": "source-smith-human-computers",
+          "sourceTitle": "Human Computer Project",
+          "sourceType": "museum-collection",
+          "sourceUrl": "https://womenshistory.si.edu/human-computer-project"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "sourceId": "source-chm-abacus",
+          "sourceTitle": "The Versatile, Venerable Abacus",
+          "sourceType": "museum-collection",
+          "sourceUrl": "https://www.computerhistory.org/revolution/calculators/1/1"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-chm-human-computers",
+          "sourceTitle": "Human Computers",
+          "sourceType": "museum-exhibit",
+          "sourceUrl": "https://www.computerhistory.org/revolution/calculators/1/65"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-chm-abacus",
+          "sourceTitle": "The Versatile, Venerable Abacus",
+          "sourceType": "museum-exhibit",
+          "sourceUrl": "https://www.computerhistory.org/revolution/calculators/1/1"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-smithsonian-abacus",
+          "sourceTitle": "The Abacus, the Numeral Frame, and Counters",
+          "sourceType": "museum-exhibit",
+          "sourceUrl": "https://www.si.edu/spotlight/the-abacus-the-numeral-frame-and-counters"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-whipple-napier",
+          "sourceTitle": "John Napier's Calculating Tools",
+          "sourceType": "museum-exhibit",
+          "sourceUrl": "https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/calculating-devices/john-napiers-calculating-tools"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-chm-leibniz",
+          "sourceTitle": "The Leibniz Step Reckoner and Curta Calculators",
+          "sourceType": "museum-exhibit",
+          "sourceUrl": "https://www.computerhistory.org/revolution/calculators/1/49"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-smithsonian-punch-cards",
+          "sourceTitle": "Punch Cards",
+          "sourceType": "museum-exhibit",
+          "sourceUrl": "https://www.si.edu/spotlight/punch-cards"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-chm-babbage",
+          "sourceTitle": "The Babbage Engine",
+          "sourceType": "museum-exhibit",
+          "sourceUrl": "https://www.computerhistory.org/babbage/"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-smithsonian-napier-rods",
+          "sourceTitle": "Napier's Rods",
+          "sourceType": "museum-object",
+          "sourceUrl": "https://americanhistory.si.edu/collections/nmah_690812"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-smg-pascal-calculator",
+          "sourceTitle": "Replica of Pascal's Calculator",
+          "sourceType": "museum-object",
+          "sourceUrl": "https://collection.sciencemuseumgroup.org.uk/objects/co60769/replica-of-pascals-calculator"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-smith-human-computers",
+          "sourceTitle": "Human Computer Project",
+          "sourceType": "museum-research-project",
+          "sourceUrl": "https://womenshistory.si.edu/human-computer-project"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-science-museum-automata",
+          "sourceTitle": "Marvellous Machines: Early Robots",
+          "sourceType": "museum-story",
+          "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories/marvellous-machines-early-robots"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-chm-mech-turk",
+          "sourceTitle": "Chatbots Decoded: Exploring AI",
+          "sourceType": "museum-story",
+          "sourceUrl": "https://computerhistory.org/stories/chatbots-decoded/"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-smg-jacquard",
+          "sourceTitle": "Programming Patterns: The Story of the Jacquard Loom",
+          "sourceType": "museum-story",
+          "sourceUrl": "https://www.scienceandindustrymuseum.org.uk/objects-and-stories/jacquard-loom"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-smg-babbage",
+          "sourceTitle": "Charles Babbage's Difference Engines and the Science Museum",
+          "sourceType": "museum-story",
+          "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories/charles-babbages-difference-engines-and-science-museum"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "sourceId": "source-chm-timeline",
+          "sourceTitle": "Timeline of Computer History",
+          "sourceType": "museum-timeline",
+          "sourceUrl": "https://www.computerhistory.org/timeline/"
+        },
+        {
+          "articleId": "article:human-systems",
+          "slug": "human-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+          "agentJsonPath": "/agents/articles/human-systems.json",
+          "sourceId": "source-nist-ai-rmf",
+          "sourceTitle": "Artificial Intelligence Risk Management Framework",
+          "sourceType": "official-framework",
+          "sourceUrl": "https://www.nist.gov/itl/ai-risk-management-framework"
+        },
+        {
+          "articleId": "article:human-systems",
+          "slug": "human-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+          "agentJsonPath": "/agents/articles/human-systems.json",
+          "sourceId": "source-unesco-genai-edu",
+          "sourceTitle": "Guidance for Generative AI in Education and Research",
+          "sourceType": "official-guidance",
+          "sourceUrl": "https://unesdoc.unesco.org/ark:/48223/pf0000386693"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "sourceId": "source-nist-ai-rmf",
+          "sourceTitle": "Artificial Intelligence Risk Management Framework",
+          "sourceType": "official-guidance",
+          "sourceUrl": "https://doi.org/10.6028/NIST.AI.100-1"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "sourceId": "source-pai-data-labor",
+          "sourceTitle": "Responsible Sourcing Across the Data Supply Line",
+          "sourceType": "official-guidance",
+          "sourceUrl": "https://partnershiponai.org/workstream/responsible-sourcing/"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "sourceId": "source-oecd-ai-principles",
+          "sourceTitle": "OECD AI Principles",
+          "sourceType": "official-guidance",
+          "sourceUrl": "https://oecd.ai/en/ai-principles"
+        },
+        {
+          "articleId": "article:human-systems",
+          "slug": "human-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+          "agentJsonPath": "/agents/articles/human-systems.json",
+          "sourceId": "source-usco-ai",
+          "sourceTitle": "Copyright and Artificial Intelligence",
+          "sourceType": "official-report-series",
+          "sourceUrl": "https://www.copyright.gov/ai/"
+        },
+        {
+          "articleId": "article:human-systems",
+          "slug": "human-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+          "agentJsonPath": "/agents/articles/human-systems.json",
+          "sourceId": "source-itu-facts-2025",
+          "sourceTitle": "Measuring Digital Development: Facts and Figures 2025",
+          "sourceType": "official-statistics",
+          "sourceUrl": "https://www.itu.int/hub/publication/d-ind-ict_mdd-2025-3/"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "sourceId": "source-samuel-1959",
+          "sourceTitle": "Some Studies in Machine Learning Using the Game of Checkers",
+          "sourceType": "original-paper",
+          "sourceUrl": "https://doi.org/10.1147/rd.33.0210"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "sourceId": "source-transformer-2017",
+          "sourceTitle": "Attention Is All You Need",
+          "sourceType": "original-paper",
+          "sourceUrl": "https://arxiv.org/abs/1706.03762"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "sourceId": "source-scaling-laws-2020",
+          "sourceTitle": "Scaling Laws for Neural Language Models",
+          "sourceType": "original-paper",
+          "sourceUrl": "https://arxiv.org/abs/2001.08361"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "sourceId": "source-foundation-models-2021",
+          "sourceTitle": "On the Opportunities and Risks of Foundation Models",
+          "sourceType": "original-paper",
+          "sourceUrl": "https://arxiv.org/abs/2108.07258"
+        },
+        {
+          "articleId": "article:birth-of-ai",
+          "slug": "birth-of-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+          "agentJsonPath": "/agents/articles/birth-of-ai.json",
+          "sourceId": "source-dartmouth-1955",
+          "sourceTitle": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
+          "sourceType": "paper",
+          "sourceUrl": "https://doi.org/10.1609/aimag.v27i4.1904"
+        },
+        {
+          "articleId": "article:birth-of-ai",
+          "slug": "birth-of-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+          "agentJsonPath": "/agents/articles/birth-of-ai.json",
+          "sourceId": "source-logic-theory-machine",
+          "sourceTitle": "The Logic Theory Machine: A Complex Information Processing System",
+          "sourceType": "paper",
+          "sourceUrl": "https://www.rand.org/pubs/papers/P868.html"
+        },
+        {
+          "articleId": "article:birth-of-ai",
+          "slug": "birth-of-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+          "agentJsonPath": "/agents/articles/birth-of-ai.json",
+          "sourceId": "source-mccarthy-common-sense",
+          "sourceTitle": "Programs with Common Sense",
+          "sourceType": "paper",
+          "sourceUrl": "https://jmc.stanford.edu/articles/mcc59/mcc59.pdf"
+        },
+        {
+          "articleId": "article:birth-of-ai",
+          "slug": "birth-of-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+          "agentJsonPath": "/agents/articles/birth-of-ai.json",
+          "sourceId": "source-rosenblatt-1958",
+          "sourceTitle": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
+          "sourceType": "paper",
+          "sourceUrl": "https://homepages.math.uic.edu/~lreyzin/papers/rosenblatt58.pdf"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-eu-ai-act",
+          "sourceTitle": "AI Act",
+          "sourceType": "policy",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-eu-ai-code",
+          "sourceTitle": "Drawing-up a General-Purpose AI Code of Practice",
+          "sourceType": "policy",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/ai-code-practice"
+        },
+        {
+          "articleId": "article:human-systems",
+          "slug": "human-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+          "agentJsonPath": "/agents/articles/human-systems.json",
+          "sourceId": "source-pai-data-labor",
+          "sourceTitle": "Responsible Sourcing Across the Data Supply Line",
+          "sourceType": "practice-guidance",
+          "sourceUrl": "https://partnershiponai.org/workstream/responsible-sourcing/"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-dartmouth-1955",
+          "sourceTitle": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
+          "sourceType": "primary",
+          "sourceUrl": "https://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "sourceId": "source-dartmouth-1955",
+          "sourceTitle": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
+          "sourceType": "primary-text",
+          "sourceUrl": "https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html"
         },
         {
           "articleId": "article:agent-auditable-research",
@@ -345,6 +1935,26 @@
           "sourceUrl": "https://www.aboutamazon.com/news/retail/amazon-rufus"
         },
         {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "sourceId": "source-lhra-method",
+          "sourceTitle": "The Long Human Road to AI Research Method",
+          "sourceType": "project-document",
+          "sourceUrl": "https://github.com/aura-knowledge/meta/blob/main/proposals/long-human-road-to-ai/research/README.md"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "sourceId": "source-dartmouth-1955",
+          "sourceTitle": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
+          "sourceType": "proposal",
+          "sourceUrl": "https://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf"
+        },
+        {
           "articleId": "article:agent-auditable-research",
           "slug": "agent-auditable-research",
           "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
@@ -383,6 +1993,36 @@
           "sourceTitle": "Stripe powers Instant Checkout in ChatGPT and releases Agentic Commerce Protocol",
           "sourceType": "protocol",
           "sourceUrl": "https://stripe.com/newsroom/news/stripe-openai-instant-checkout"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+          "sourceId": "source-alpac-1966",
+          "sourceTitle": "Language and Machines: Computers in Translation and Linguistics",
+          "sourceType": "public-report",
+          "sourceUrl": "https://www.nationalacademies.org/read/9547"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+          "sourceId": "source-lighthill-1973",
+          "sourceTitle": "Artificial Intelligence: A General Survey",
+          "sourceType": "public-report",
+          "sourceUrl": "https://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm"
+        },
+        {
+          "articleId": "article:human-systems",
+          "slug": "human-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+          "agentJsonPath": "/agents/articles/human-systems.json",
+          "sourceId": "source-eu-ai-act",
+          "sourceTitle": "Regulation (EU) 2024/1689, Artificial Intelligence Act",
+          "sourceType": "regulation",
+          "sourceUrl": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
         },
         {
           "articleId": "article:agentic-commerce-product-truth",
@@ -433,6 +2073,36 @@
           "sourceTitle": "Search Products that Meet the Safer Choice Standard",
           "sourceType": "regulatory-data",
           "sourceUrl": "https://www.epa.gov/saferchoice/products"
+        },
+        {
+          "articleId": "article:birth-of-ai",
+          "slug": "birth-of-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+          "agentJsonPath": "/agents/articles/birth-of-ai.json",
+          "sourceId": "source-gps-stanford",
+          "sourceTitle": "A Guide to the General Problem-Solver Program GPS-2-2",
+          "sourceType": "report",
+          "sourceUrl": "https://stacks.stanford.edu/file/druid:zk239tp3547/zk239tp3547.pdf"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
+          "sourceId": "source-edvac-first-draft",
+          "sourceTitle": "First Draft of a Report on the EDVAC",
+          "sourceType": "report",
+          "sourceUrl": "https://web.mit.edu/STS.035/www/PDFs/edvac.pdf"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-hai-ai-index",
+          "sourceTitle": "The 2026 AI Index Report",
+          "sourceType": "report",
+          "sourceUrl": "https://hai.stanford.edu/ai-index/2026-ai-index-report"
         },
         {
           "articleId": "article:agent-auditable-research",
@@ -575,6 +2245,216 @@
           "sourceUrl": "https://nel.mit.edu/bayesian-truth-serum/"
         },
         {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-transformer-2017",
+          "sourceTitle": "Attention Is All You Need",
+          "sourceType": "research",
+          "sourceUrl": "https://arxiv.org/abs/1706.03762"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-bert-2018",
+          "sourceTitle": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+          "sourceType": "research",
+          "sourceUrl": "https://arxiv.org/abs/1810.04805"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-scaling-laws-2020",
+          "sourceTitle": "Scaling Laws for Neural Language Models",
+          "sourceType": "research",
+          "sourceUrl": "https://arxiv.org/abs/2001.08361"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-rag-2020",
+          "sourceTitle": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+          "sourceType": "research",
+          "sourceUrl": "https://arxiv.org/abs/2005.11401"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-gpt3-2020",
+          "sourceTitle": "Language Models are Few-Shot Learners",
+          "sourceType": "research",
+          "sourceUrl": "https://arxiv.org/abs/2005.14165"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-clip-2021",
+          "sourceTitle": "Learning Transferable Visual Models From Natural Language Supervision",
+          "sourceType": "research",
+          "sourceUrl": "https://arxiv.org/abs/2103.00020"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-rlhf-2022",
+          "sourceTitle": "Training language models to follow instructions with human feedback",
+          "sourceType": "research",
+          "sourceUrl": "https://arxiv.org/abs/2203.02155"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-chinchilla-2022",
+          "sourceTitle": "Training Compute-Optimal Large Language Models",
+          "sourceType": "research",
+          "sourceUrl": "https://arxiv.org/abs/2203.15556"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-react-2022",
+          "sourceTitle": "ReAct: Synergizing Reasoning and Acting in Language Models",
+          "sourceType": "research",
+          "sourceUrl": "https://arxiv.org/abs/2210.03629"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-helm-2022",
+          "sourceTitle": "Holistic Evaluation of Language Models",
+          "sourceType": "research",
+          "sourceUrl": "https://arxiv.org/abs/2211.09110"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-toolformer-2023",
+          "sourceTitle": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+          "sourceType": "research",
+          "sourceUrl": "https://arxiv.org/abs/2302.04761"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-nature-antikythera-2006",
+          "sourceTitle": "Decoding the ancient Greek astronomical calculator known as the Antikythera Mechanism",
+          "sourceType": "research-article",
+          "sourceUrl": "https://www.nature.com/articles/nature05357"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "sourceId": "source-samuel-1959",
+          "sourceTitle": "Some Studies in Machine Learning Using the Game of Checkers",
+          "sourceType": "research-paper",
+          "sourceUrl": "https://doi.org/10.1147/rd.33.0210"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "sourceId": "source-rosenblatt-1958",
+          "sourceTitle": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
+          "sourceType": "research-paper",
+          "sourceUrl": "https://homepages.math.uic.edu/~lreyzin/papers/rosenblatt58.pdf"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "sourceId": "source-backprop-1986",
+          "sourceTitle": "Learning Representations by Back-Propagating Errors",
+          "sourceType": "research-paper",
+          "sourceUrl": "https://doi.org/10.1038/323533a0"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "sourceId": "source-lecun-docrec-1998",
+          "sourceTitle": "Gradient-Based Learning Applied to Document Recognition",
+          "sourceType": "research-paper",
+          "sourceUrl": "https://doi.org/10.1109/5.726791"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "sourceId": "source-imagenet-2015",
+          "sourceTitle": "ImageNet Large Scale Visual Recognition Challenge",
+          "sourceType": "research-paper",
+          "sourceUrl": "https://arxiv.org/abs/1409.0575"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "sourceId": "source-alexnet-2012",
+          "sourceTitle": "ImageNet Classification with Deep Convolutional Neural Networks",
+          "sourceType": "research-paper",
+          "sourceUrl": "https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-mpiwg-antikythera",
+          "sourceTitle": "The Inscriptions of the Antikythera Mechanism",
+          "sourceType": "research-project",
+          "sourceUrl": "https://www.mpiwg-berlin.mpg.de/research/projects/inscriptions-antikythera-mechanism"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-foundation-models-2021",
+          "sourceTitle": "On the Opportunities and Risks of Foundation Models",
+          "sourceType": "research-report",
+          "sourceUrl": "https://arxiv.org/abs/2108.07258"
+        },
+        {
+          "articleId": "article:human-systems",
+          "slug": "human-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+          "agentJsonPath": "/agents/articles/human-systems.json",
+          "sourceId": "source-oecd-ai-science",
+          "sourceTitle": "Artificial Intelligence in Science",
+          "sourceType": "research-synthesis",
+          "sourceUrl": "https://doi.org/10.1787/a8d820bd-en"
+        },
+        {
           "articleId": "article:agentic-commerce-product-truth",
           "slug": "agentic-commerce-product-truth",
           "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
@@ -663,6 +2543,76 @@
           "sourceTitle": "AI Risk Management Framework",
           "sourceType": "standard",
           "sourceUrl": "https://www.nist.gov/itl/ai-risk-management-framework"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
+          "sourceId": "source-nist-ai-rmf",
+          "sourceTitle": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+          "sourceType": "standards-framework",
+          "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf"
+        },
+        {
+          "articleId": "article:human-systems",
+          "slug": "human-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+          "agentJsonPath": "/agents/articles/human-systems.json",
+          "sourceId": "source-pew-ai-topic",
+          "sourceTitle": "Artificial Intelligence",
+          "sourceType": "survey-topic",
+          "sourceUrl": "https://www.pewresearch.org/topic/internet-technology/emerging-technology/artificial-intelligence/"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-gpt4-2023",
+          "sourceTitle": "GPT-4 Technical Report",
+          "sourceType": "technical-report",
+          "sourceUrl": "https://arxiv.org/abs/2303.08774"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "sourceId": "source-elements-stat-learning",
+          "sourceTitle": "The Elements of Statistical Learning",
+          "sourceType": "textbook",
+          "sourceUrl": "https://hastie.su.domains/ElemStatLearn/"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json",
+          "sourceId": "source-deep-learning-book",
+          "sourceTitle": "Deep Learning",
+          "sourceType": "textbook",
+          "sourceUrl": "https://www.deeplearningbook.org/"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-isaw-antikythera",
+          "sourceTitle": "The Antikythera Mechanism",
+          "sourceType": "university-research-summary",
+          "sourceUrl": "https://isaw.nyu.edu/research/antikythera-mechanism"
+        },
+        {
+          "articleId": "article:human-systems",
+          "slug": "human-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+          "agentJsonPath": "/agents/articles/human-systems.json",
+          "sourceId": "source-ilo-genai-jobs",
+          "sourceTitle": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure",
+          "sourceType": "working-paper",
+          "sourceUrl": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure"
         }
       ]
     },
@@ -674,7 +2624,7 @@
         "status": "published"
       },
       "resultType": "articles",
-      "resultCount": 2,
+      "resultCount": 10,
       "results": [
         {
           "articleId": "article:agent-auditable-research",
@@ -687,6 +2637,54 @@
           "slug": "agentic-commerce-product-truth",
           "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
           "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json"
+        },
+        {
+          "articleId": "article:ai-winters-expert-systems",
+          "slug": "ai-winters-expert-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
+          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json"
+        },
+        {
+          "articleId": "article:birth-of-ai",
+          "slug": "birth-of-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+          "agentJsonPath": "/agents/articles/birth-of-ai.json"
+        },
+        {
+          "articleId": "article:formal-logic-to-computation",
+          "slug": "formal-logic-to-computation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
+          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json"
+        },
+        {
+          "articleId": "article:human-systems",
+          "slug": "human-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
+          "agentJsonPath": "/agents/articles/human-systems.json"
+        },
+        {
+          "articleId": "article:learning-machines",
+          "slug": "learning-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+          "agentJsonPath": "/agents/articles/learning-machines.json"
+        },
+        {
+          "articleId": "article:long-human-road-to-ai",
+          "slug": "long-human-road-to-ai",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
+          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json"
         }
       ]
     }

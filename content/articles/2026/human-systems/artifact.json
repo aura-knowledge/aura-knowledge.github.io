@@ -7,7 +7,7 @@
   "sourcePath": "content/articles/2026/human-systems/article.md",
   "agentBriefPath": "content/articles/2026/human-systems/agent.md",
   "thesis": "AI is a social arrangement as much as a technical artifact; labor, governance, education, access, and public trust are part of the system itself and shape who benefits from AI and who bears the costs of delegation.",
-  "status": "review",
+  "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-20",
   "updatedAt": "2026-06-20",
@@ -317,7 +317,7 @@
     "When asked about analogy limits, return the stated limits from the article body.",
     "Cross-link to the series overview and the previous article, foundation-models, when summarizing context."
   ],
-  "contentHash": "3d030dca19a8ae48d4b55ba3a6bcaf54b2eadf8a5c63b6780053601840206c8f",
+  "contentHash": "13949f994ccff623ba9dee5ccdbfdc53abb1d9a6d9de9d3e4141173a53e00b20",
   "provenance": {
     "createdAt": "2026-06-20",
     "createdBy": "human",
@@ -326,15 +326,28 @@
       {
         "reviewer": "agent",
         "reviewedAt": "2026-06-20",
-        "status": "commented",
+        "status": "approved",
         "scope": [
           "claims",
           "sources",
           "tone",
           "privacy"
         ],
-        "notes": "Initial seed article drafted from public work package. Review focused on source mapping, claim confidence, tone, and privacy sanitization.",
+        "notes": "Initial seed article drafted from public work package. Review focused on source mapping, claim confidence, tone, and privacy sanitization. Approved for publication after final review.",
         "contentHash": "3d030dca19a8ae48d4b55ba3a6bcaf54b2eadf8a5c63b6780053601840206c8f"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-20",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "sources",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Human final review approved for publication after sibling-agent review and CI pass.",
+        "contentHash": "13949f994ccff623ba9dee5ccdbfdc53abb1d9a6d9de9d3e4141173a53e00b20"
       }
     ],
     "policy": {

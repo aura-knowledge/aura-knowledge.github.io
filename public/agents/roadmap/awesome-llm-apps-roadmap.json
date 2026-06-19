@@ -372,7 +372,7 @@
     "Prefer deterministic validators over agent judgment when a check can be expressed structurally.",
     "Do not infer that every source example should be adopted as a dependency; most are pattern references."
   ],
-  "generatedAt": "2026-06-18T00:00:00.000Z",
+  "generatedAt": "2026-06-20T00:00:00.000Z",
   "pageUrl": "https://aura-knowledge.github.io/roadmap/",
   "agentJsonPath": "/agents/roadmap/awesome-llm-apps-roadmap.json",
   "sourceRepoPath": "content/roadmap/awesome-llm-apps-roadmap.json",

@@ -7,7 +7,7 @@
   "sourcePath": "content/articles/2026/learning-machines/article.md",
   "agentBriefPath": "content/articles/2026/learning-machines/agent.md",
   "thesis": "The learning turn in AI moved behavior from hand-written rules to adjustable parameters shaped by examples, feedback, statistics, neural-network training methods, datasets, benchmarks, and compute, becoming persuasive only when algorithms, data, hardware, evaluation, and engineering reinforced one another.",
-  "status": "review",
+  "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-20",
   "updatedAt": "2026-06-20",
@@ -377,7 +377,7 @@
     "Do not present the perceptron or AlexNet as the sole origin of modern AI.",
     "Flag any analogy that is used without its stated boundary."
   ],
-  "contentHash": "13a1ea53f6bb5ec5555c30368eaf4468977fa5c40653ed801309bbecadbef78e",
+  "contentHash": "5bd1220dab68c934e4e765ac3c87dfb2054668731c5f0c907c9732454242253e",
   "provenance": {
     "createdAt": "2026-06-20",
     "createdBy": "human",
@@ -386,14 +386,27 @@
       {
         "reviewer": "agent",
         "reviewedAt": "2026-06-20",
-        "status": "commented",
+        "status": "approved",
         "scope": [
           "claims",
           "sources",
           "tone",
           "privacy"
         ],
-        "notes": "Initial cross-agent review against the work package and source map. No private or proprietary material detected. Claim markers and source IDs aligned."
+        "notes": "Initial cross-agent review against the work package and source map. No private or proprietary material detected. Claim markers and source IDs aligned. Approved for publication after final review."
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-20",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "sources",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Human final review approved for publication after sibling-agent review and CI pass.",
+        "contentHash": "5bd1220dab68c934e4e765ac3c87dfb2054668731c5f0c907c9732454242253e"
       }
     ],
     "policy": {

@@ -182,6 +182,534 @@
     "status": "proposal"
   },
   {
+    "id": "article:ai-winters-expert-systems",
+    "type": "article",
+    "label": "Winters, Expert Systems, and the Cost of Overpromising Intelligence",
+    "path": "/articles/ai-winters-expert-systems/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:ai-winters-expert-systems:claim-001",
+    "type": "claim",
+    "label": "Public evaluation reports such as ALPAC and Lighthill mattered because they tested AI-adjacent promises against measurable usefulness, not because they proved intelligence research was worthless.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:ai-winters-expert-systems:claim-002",
+    "type": "claim",
+    "label": "The phrase 'AI winter' should be handled as a contested historical label for reduced confidence, funding, and commercial enthusiasm, not as proof that AI research stopped.",
+    "localId": "claim-002",
+    "confidence": "medium",
+    "status": "framing"
+  },
+  {
+    "id": "article:ai-winters-expert-systems:claim-003",
+    "type": "claim",
+    "label": "Expert systems produced useful results in narrow domains where domain knowledge could be encoded and maintained.",
+    "localId": "claim-003",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:ai-winters-expert-systems:claim-004",
+    "type": "claim",
+    "label": "Expert-system limits included knowledge acquisition, updating, evaluation, user trust, and workflow integration, not only inference algorithms.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:ai-winters-expert-systems:claim-005",
+    "type": "claim",
+    "label": "The durable lesson for modern AI is that intelligence claims need grounded tests, maintenance plans, and institution-aware deployment criteria.",
+    "localId": "claim-005",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:before-machines",
+    "type": "article",
+    "label": "Before Machines: Calculation, Automata, and the Dream of Mechanical Reason",
+    "path": "/articles/before-machines/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:before-machines:claim-001",
+    "type": "claim",
+    "label": "Computation was performed by people before it became associated with electronic machines.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:before-machines:claim-002",
+    "type": "claim",
+    "label": "Counting boards and abaci moved arithmetic into visible physical state that could be manipulated and checked.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:before-machines:claim-003",
+    "type": "claim",
+    "label": "Rods, tables, and logarithmic methods reduced complex calculations by decomposing or reusing prior work.",
+    "localId": "claim-003",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:before-machines:claim-004",
+    "type": "claim",
+    "label": "Seventeenth-century mechanical calculators embodied arithmetic operations in physical mechanisms.",
+    "localId": "claim-004",
+    "confidence": "high",
+    "status": "argument"
+  },
+  {
+    "id": "article:before-machines:claim-005",
+    "type": "claim",
+    "label": "The Antikythera mechanism was a sophisticated geared astronomical calculator or display mechanism.",
+    "localId": "claim-005",
+    "confidence": "high",
+    "status": "argument"
+  },
+  {
+    "id": "article:before-machines:claim-006",
+    "type": "claim",
+    "label": "Automata made mechanism appear self-directed, inviting audiences to project life or agency onto fixed motion.",
+    "localId": "claim-006",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:before-machines:claim-007",
+    "type": "claim",
+    "label": "Jacquard punched cards controlled textile patterns and influenced later ideas about machine input and control.",
+    "localId": "claim-007",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:before-machines:claim-008",
+    "type": "claim",
+    "label": "Babbage's engines mark a threshold between mechanical arithmetic and designs for automatic computing machinery.",
+    "localId": "claim-008",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:birth-of-ai",
+    "type": "article",
+    "label": "The Birth of AI: Dartmouth, Symbolic Systems, and Early Optimism",
+    "path": "/articles/birth-of-ai/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:birth-of-ai:claim-001",
+    "type": "claim",
+    "label": "Dartmouth named and consolidated AI as a research field, but did not originate all machine-intelligence work.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:birth-of-ai:claim-002",
+    "type": "claim",
+    "label": "Early AI treated reasoning as symbolic manipulation and search.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "framing"
+  },
+  {
+    "id": "article:birth-of-ai:claim-003",
+    "type": "claim",
+    "label": "Early demonstrations were impressive but bounded: they worked inside formal or carefully prepared worlds.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:birth-of-ai:claim-004",
+    "type": "claim",
+    "label": "Early AI optimism was part technical, part institutional, and part public narrative.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "landscape"
+  },
+  {
+    "id": "article:birth-of-ai:claim-005",
+    "type": "claim",
+    "label": "The early field included multiple lineages, including symbolic reasoning, cybernetics, neural approaches, game-playing, and machine-intelligence philosophy.",
+    "localId": "claim-005",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:formal-logic-to-computation",
+    "type": "article",
+    "label": "From Formal Logic to Computation: The Mathematical Road to AI",
+    "path": "/articles/formal-logic-to-computation/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:formal-logic-to-computation:claim-001",
+    "type": "claim",
+    "label": "Algebraic and symbolic treatments of logic helped make reasoning inspectable and manipulable as formal symbol systems.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:formal-logic-to-computation:claim-003",
+    "type": "claim",
+    "label": "The formalist ambition around mathematical foundations and decision procedures created the problem setting in which computability could be made precise.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:formal-logic-to-computation:claim-004",
+    "type": "claim",
+    "label": "Gödel's incompleteness theorems showed that consistent formal systems strong enough for arithmetic have intrinsic limits, complicating the dream of complete formal foundations.",
+    "localId": "claim-004",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:formal-logic-to-computation:claim-005",
+    "type": "claim",
+    "label": "Church, Turing, and Post offered different formalizations of effective procedure, helping turn computation into a mathematical subject before modern computers were common.",
+    "localId": "claim-005",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:formal-logic-to-computation:claim-006",
+    "type": "claim",
+    "label": "The Church-Turing thesis concerns effective methods and is often misunderstood when treated as a claim about all physical machines or minds.",
+    "localId": "claim-006",
+    "confidence": "high",
+    "status": "framing"
+  },
+  {
+    "id": "article:formal-logic-to-computation:claim-007",
+    "type": "claim",
+    "label": "Shannon's switching-circuit work connected Boolean algebra to relay and switching circuit design, helping make logic part of digital engineering.",
+    "localId": "claim-007",
+    "confidence": "high",
+    "status": "argument"
+  },
+  {
+    "id": "article:formal-logic-to-computation:claim-008",
+    "type": "claim",
+    "label": "Shannon's communication theory provided a mathematical treatment of messages, channels, noise, and information, but it is not a theory of semantic meaning.",
+    "localId": "claim-008",
+    "confidence": "high",
+    "status": "framing"
+  },
+  {
+    "id": "article:formal-logic-to-computation:claim-009",
+    "type": "claim",
+    "label": "Cybernetics supplied a language of feedback, control, and communication for thinking about machines and organisms, but feedback alone is not intelligence.",
+    "localId": "claim-009",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:foundation-models",
+    "type": "article",
+    "label": "Foundation Models and the Return of General-Purpose AI Systems",
+    "path": "/articles/foundation-models/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:foundation-models:claim-001",
+    "type": "claim",
+    "label": "A foundation model is a broadly trained model, generally trained with self-supervision at scale, that can be adapted to many downstream tasks.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "framing"
+  },
+  {
+    "id": "article:foundation-models:claim-002",
+    "type": "claim",
+    "label": "Foundation models revive general-purpose AI ambition by supporting many tasks from a shared base, but this should not be equated with humanlike understanding.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:foundation-models:claim-003",
+    "type": "claim",
+    "label": "The Transformer replaced recurrence and convolution with attention for sequence transduction and made training more parallelizable.",
+    "localId": "claim-003",
+    "confidence": "high",
+    "status": "argument"
+  },
+  {
+    "id": "article:foundation-models:claim-004",
+    "type": "claim",
+    "label": "Broad pretraining enabled models such as BERT and GPT-3 to be adapted or prompted across many tasks.",
+    "localId": "claim-004",
+    "confidence": "high",
+    "status": "argument"
+  },
+  {
+    "id": "article:foundation-models:claim-005",
+    "type": "claim",
+    "label": "Scaling research made model size, data, and compute explicit variables, while later work emphasized compute-optimal allocation rather than model size alone.",
+    "localId": "claim-005",
+    "confidence": "high",
+    "status": "argument"
+  },
+  {
+    "id": "article:foundation-models:claim-006",
+    "type": "claim",
+    "label": "Instruction tuning and RLHF can improve usefulness and intent-following, but do not eliminate mistakes or alignment limits.",
+    "localId": "claim-006",
+    "confidence": "high",
+    "status": "risk"
+  },
+  {
+    "id": "article:foundation-models:claim-007",
+    "type": "claim",
+    "label": "Natural-language supervision and multimodal training widened foundation-model behavior beyond text-only tasks.",
+    "localId": "claim-007",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:foundation-models:claim-008",
+    "type": "claim",
+    "label": "Retrieval, tool use, and reasoning/action loops can extend model behavior by connecting models to external sources, APIs, and environments.",
+    "localId": "claim-008",
+    "confidence": "high",
+    "status": "argument"
+  },
+  {
+    "id": "article:foundation-models:claim-009",
+    "type": "claim",
+    "label": "Language-model evaluation needs multi-metric transparency because accuracy alone hides tradeoffs in calibration, robustness, fairness, bias, toxicity, and efficiency.",
+    "localId": "claim-009",
+    "confidence": "high",
+    "status": "risk"
+  },
+  {
+    "id": "article:foundation-models:claim-010",
+    "type": "claim",
+    "label": "As of 2026-06-19, the 2026 AI Index reports rapid changes in AI capabilities, adoption, incidents, and responsible-AI measurement gaps.",
+    "localId": "claim-010",
+    "confidence": "medium",
+    "status": "landscape"
+  },
+  {
+    "id": "article:foundation-models:claim-011",
+    "type": "claim",
+    "label": "As of 2026-06-19, NIST AI 600-1 is the generative AI profile used here for lifecycle risk-management framing.",
+    "localId": "claim-011",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:foundation-models:claim-012",
+    "type": "claim",
+    "label": "As of 2026-06-19, European Commission pages state that EU general-purpose AI model rules became effective in August 2025 and that the Code of Practice supports compliance.",
+    "localId": "claim-012",
+    "confidence": "medium",
+    "status": "landscape"
+  },
+  {
+    "id": "article:human-systems",
+    "type": "article",
+    "label": "The Human Road Through AI: Labor, Institutions, Governance, and Meaning",
+    "path": "/articles/human-systems/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:human-systems:claim-001",
+    "type": "claim",
+    "label": "AI systems that appear automatic at the interface still depend on human work, judgment, evaluation, maintenance, governance, and contestation.",
+    "localId": "claim-001",
+    "confidence": "medium",
+    "status": "core"
+  },
+  {
+    "id": "article:human-systems:claim-002",
+    "type": "claim",
+    "label": "Task exposure to generative AI should not be treated as a direct forecast of job replacement.",
+    "localId": "claim-002",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:human-systems:claim-003",
+    "type": "claim",
+    "label": "Governance frameworks and laws are part of the AI system because they assign duties for risk, transparency, oversight, accountability, and redress.",
+    "localId": "claim-003",
+    "confidence": "medium",
+    "status": "landscape"
+  },
+  {
+    "id": "article:human-systems:claim-004",
+    "type": "claim",
+    "label": "Education, science, and authorship debates about AI are debates about human judgment, evidence, disclosure, and responsibility.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:human-systems:claim-005",
+    "type": "claim",
+    "label": "AI benefits depend on material access conditions: connectivity, devices, language, skills, compute, affordability, energy systems, and local institutions.",
+    "localId": "claim-005",
+    "confidence": "medium",
+    "status": "landscape"
+  },
+  {
+    "id": "article:human-systems:claim-006",
+    "type": "claim",
+    "label": "Public trust is a design constraint because adoption depends on people's ability to understand, challenge, and rely on AI-mediated systems.",
+    "localId": "claim-006",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:learning-machines",
+    "type": "article",
+    "label": "Learning Machines: Statistics, Neural Networks, and the Data Turn",
+    "path": "/articles/learning-machines/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:learning-machines:claim-001",
+    "type": "claim",
+    "label": "The shift from hand-coded rules to learning from examples changed AI by combining statistics, neural networks, datasets, benchmarks, compute, and infrastructure into systems that infer useful patterns rather than only follow explicit instructions.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:learning-machines:claim-002",
+    "type": "claim",
+    "label": "The early AI field framing already included learning as a central feature of intelligence.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "framing"
+  },
+  {
+    "id": "article:learning-machines:claim-003",
+    "type": "claim",
+    "label": "Samuel's checkers work is an early public example of a program improving through machine-learning procedures rather than relying only on fixed, hand-authored play.",
+    "localId": "claim-003",
+    "confidence": "high",
+    "status": "argument"
+  },
+  {
+    "id": "article:learning-machines:claim-004",
+    "type": "claim",
+    "label": "Rosenblatt's perceptron framed pattern recognition through adaptive connections and probabilistic analysis, making the idea of a learning machine visible to a broad audience.",
+    "localId": "claim-004",
+    "confidence": "high",
+    "status": "argument"
+  },
+  {
+    "id": "article:learning-machines:claim-005",
+    "type": "claim",
+    "label": "Minsky and Papert analyzed limitations of perceptron models and helped clarify why simple architectures were insufficient for many interesting tasks.",
+    "localId": "claim-005",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:learning-machines:claim-006",
+    "type": "claim",
+    "label": "The 1986 Nature paper helped make backpropagation for multilayer networks practically legible to a broad research audience, and gradient-trained convolutional networks were already being used for document recognition by the late 1990s.",
+    "localId": "claim-006",
+    "confidence": "high",
+    "status": "argument"
+  },
+  {
+    "id": "article:learning-machines:claim-007",
+    "type": "claim",
+    "label": "ImageNet and ILSVRC helped make large labeled datasets and shared benchmarks central infrastructure for computer-vision progress.",
+    "localId": "claim-007",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:learning-machines:claim-008",
+    "type": "claim",
+    "label": "AlexNet made the combination of deep networks, ImageNet-scale data, and GPU implementation newly persuasive in 2012, but the result should be read as a convergence of factors rather than proof that compute alone or learned patterns equal understanding.",
+    "localId": "claim-008",
+    "confidence": "high",
+    "status": "argument"
+  },
+  {
+    "id": "article:long-human-road-to-ai",
+    "type": "article",
+    "label": "The Long Human Road to AI: A Reader’s Guide to Season 1",
+    "path": "/articles/long-human-road-to-ai/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:long-human-road-to-ai:claim-001",
+    "type": "claim",
+    "label": "Artificial intelligence is easiest to understand when it is presented as the latest chapter in a much longer human story of extending memory, calculation, communication, measurement, coordination, prediction, and delegation.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:long-human-road-to-ai:claim-002",
+    "type": "claim",
+    "label": "Computers and AI emerged from long-running human needs and older tools rather than arriving as a single invention.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "argument"
+  },
+  {
+    "id": "article:long-human-road-to-ai:claim-003",
+    "type": "claim",
+    "label": "Across the season, the same pattern appears: human need → external support → formalization → scale → boundary.",
+    "localId": "claim-003",
+    "confidence": "medium",
+    "status": "framing"
+  },
+  {
+    "id": "article:long-human-road-to-ai:claim-004",
+    "type": "claim",
+    "label": "The 1956 Dartmouth workshop named and helped launch AI as a research agenda, but it was one meeting point among many precursors.",
+    "localId": "claim-004",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:long-human-road-to-ai:claim-005",
+    "type": "claim",
+    "label": "AI progress repeatedly moved from hand-coded rules and symbols toward learning from examples, then toward scaled general-purpose models.",
+    "localId": "claim-005",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:long-human-road-to-ai:claim-006",
+    "type": "claim",
+    "label": "Modern AI capabilities are shaped by data, compute, people, organizations, evaluation, governance, infrastructure, and public trust—not only by algorithms.",
+    "localId": "claim-006",
+    "confidence": "medium-high",
+    "status": "risk"
+  },
+  {
+    "id": "article:long-human-road-to-ai:claim-007",
+    "type": "claim",
+    "label": "Analogies help make AI history understandable, but they are teaching devices, not evidence, and every analogy has a limit.",
+    "localId": "claim-007",
+    "confidence": "high",
+    "status": "framing"
+  },
+  {
     "id": "source-adobe-ai-traffic-2025",
     "type": "source",
     "label": "Adobe Analytics: Traffic to U.S. Retail Websites from Generative AI Sources Jumps 1,200 Percent",
@@ -196,11 +724,32 @@
     "sourceType": "research"
   },
   {
+    "id": "source-agar-lighthill-2020",
+    "type": "source",
+    "label": "What is science for? The Lighthill report on artificial intelligence reinterpreted",
+    "url": "https://doi.org/10.1017/S0007087420000230",
+    "sourceType": "historical-analysis"
+  },
+  {
     "id": "source-agentic-publications-2025",
     "type": "source",
     "label": "Agentic Publications: An LLM-Driven Framework for Interactive Scientific Publishing",
     "url": "https://arxiv.org/abs/2505.13246",
     "sourceType": "research"
+  },
+  {
+    "id": "source-alexnet-2012",
+    "type": "source",
+    "label": "ImageNet Classification with Deep Convolutional Neural Networks",
+    "url": "https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks",
+    "sourceType": "research-paper"
+  },
+  {
+    "id": "source-alpac-1966",
+    "type": "source",
+    "label": "Language and Machines: Computers in Translation and Linguistics",
+    "url": "https://www.nationalacademies.org/read/9547",
+    "sourceType": "public-report"
   },
   {
     "id": "source-amazon-brand-protection-2024",
@@ -217,6 +766,13 @@
     "sourceType": "product"
   },
   {
+    "id": "source-backprop-1986",
+    "type": "source",
+    "label": "Learning Representations by Back-Propagating Errors",
+    "url": "https://doi.org/10.1038/323533a0",
+    "sourceType": "research-paper"
+  },
+  {
     "id": "source-bayesian-truth-serum",
     "type": "source",
     "label": "Bayesian Truth Serum",
@@ -231,6 +787,34 @@
     "sourceType": "product"
   },
   {
+    "id": "source-bert-2018",
+    "type": "source",
+    "label": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "url": "https://arxiv.org/abs/1810.04805",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-boole-laws-thought",
+    "type": "source",
+    "label": "An Investigation of the Laws of Thought",
+    "url": "https://archive.org/details/investigationofl01bool",
+    "sourceType": "book"
+  },
+  {
+    "id": "source-britannica-automaton",
+    "type": "source",
+    "label": "Automaton",
+    "url": "https://www.britannica.com/technology/automaton",
+    "sourceType": "encyclopedia"
+  },
+  {
+    "id": "source-britannica-cybernetics",
+    "type": "source",
+    "label": "Cybernetics",
+    "url": "https://www.britannica.com/science/cybernetics",
+    "sourceType": "documentation"
+  },
+  {
     "id": "source-c2pa",
     "type": "source",
     "label": "C2PA Content Credentials and Provenance Standard",
@@ -238,10 +822,94 @@
     "sourceType": "standard"
   },
   {
+    "id": "source-chinchilla-2022",
+    "type": "source",
+    "label": "Training Compute-Optimal Large Language Models",
+    "url": "https://arxiv.org/abs/2203.15556",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-chm-abacus",
+    "type": "source",
+    "label": "The Versatile, Venerable Abacus",
+    "url": "https://www.computerhistory.org/revolution/calculators/1/1",
+    "sourceType": "museum-exhibit"
+  },
+  {
+    "id": "source-chm-ai-robotics",
+    "type": "source",
+    "label": "AI and Robotics: Timeline of Computer History",
+    "url": "https://www.computerhistory.org/timeline/ai-robotics/",
+    "sourceType": "article"
+  },
+  {
+    "id": "source-chm-babbage",
+    "type": "source",
+    "label": "The Babbage Engine",
+    "url": "https://www.computerhistory.org/babbage/",
+    "sourceType": "museum-exhibit"
+  },
+  {
+    "id": "source-chm-digital-logic",
+    "type": "source",
+    "label": "How Do Digital Computers Think?",
+    "url": "https://www.computerhistory.org/revolution/digital-logic/12/269",
+    "sourceType": "documentation"
+  },
+  {
+    "id": "source-chm-human-computers",
+    "type": "source",
+    "label": "Human Computers",
+    "url": "https://www.computerhistory.org/revolution/calculators/1/65",
+    "sourceType": "museum-exhibit"
+  },
+  {
+    "id": "source-chm-leibniz",
+    "type": "source",
+    "label": "The Leibniz Step Reckoner and Curta Calculators",
+    "url": "https://www.computerhistory.org/revolution/calculators/1/49",
+    "sourceType": "museum-exhibit"
+  },
+  {
+    "id": "source-chm-mech-turk",
+    "type": "source",
+    "label": "Chatbots Decoded: Exploring AI",
+    "url": "https://computerhistory.org/stories/chatbots-decoded/",
+    "sourceType": "museum-story"
+  },
+  {
+    "id": "source-chm-timeline",
+    "type": "source",
+    "label": "Timeline of Computer History",
+    "url": "https://www.computerhistory.org/timeline/",
+    "sourceType": "museum-timeline"
+  },
+  {
     "id": "source-choice-overload",
     "type": "source",
     "label": "When Choice is Demotivating: Can One Desire Too Much of a Good Thing?",
     "url": "https://business.columbia.edu/faculty/research/when-choice-demotivating-can-one-desire-too-much-good-thing",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-church",
+    "type": "source",
+    "label": "Alonzo Church",
+    "url": "https://plato.stanford.edu/entries/church/",
+    "sourceType": "documentation"
+  },
+  {
+    "id": "source-church-turing",
+    "type": "source",
+    "label": "The Church-Turing Thesis",
+    "url": "https://plato.stanford.edu/archives/fall2020/entries/church-turing/",
+    "sourceType": "documentation"
+  },
+  {
+    "id": "source-clip-2021",
+    "type": "source",
+    "label": "Learning Transferable Visual Models From Natural Language Supervision",
+    "url": "https://arxiv.org/abs/2103.00020",
     "sourceType": "research"
   },
   {
@@ -252,6 +920,13 @@
     "sourceType": "product"
   },
   {
+    "id": "source-cornell-perceptron",
+    "type": "source",
+    "label": "Professor's perceptron paved the way for AI - 60 years too soon",
+    "url": "https://news.cornell.edu/stories/2019/09/professors-perceptron-paved-way-ai-60-years-too-soon",
+    "sourceType": "article"
+  },
+  {
     "id": "source-cpsc-recalls-api",
     "type": "source",
     "label": "CPSC Recalls Application Program Interface API Information",
@@ -259,11 +934,46 @@
     "sourceType": "regulatory-data"
   },
   {
+    "id": "source-dartmouth-1955",
+    "type": "source",
+    "label": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
+    "url": "https://doi.org/10.1609/aimag.v27i4.1904",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-dartmouth-ai-coined",
+    "type": "source",
+    "label": "Artificial Intelligence (AI) Coined at Dartmouth",
+    "url": "https://home.dartmouth.edu/about/artificial-intelligence-ai-coined-dartmouth",
+    "sourceType": "article"
+  },
+  {
+    "id": "source-dartmouth-story",
+    "type": "source",
+    "label": "AI at Dartmouth: Our Story",
+    "url": "https://ai.dartmouth.edu/our-story",
+    "sourceType": "institutional-history"
+  },
+  {
+    "id": "source-deep-learning-book",
+    "type": "source",
+    "label": "Deep Learning",
+    "url": "https://www.deeplearningbook.org/",
+    "sourceType": "textbook"
+  },
+  {
     "id": "source-deloitte-cpo-2025",
     "type": "source",
     "label": "2025 Global Chief Procurement Officer Survey",
     "url": "https://www.deloitte.com/us/en/about/press-room/2025-chief-procurement-officer-survey.html",
     "sourceType": "research"
+  },
+  {
+    "id": "source-dick-ai-history",
+    "type": "source",
+    "label": "Artificial Intelligence",
+    "url": "https://hdsr.mitpress.mit.edu/pub/0aytgrau/release/3",
+    "sourceType": "article"
   },
   {
     "id": "source-digital-gardens-appleton",
@@ -280,11 +990,25 @@
     "sourceType": "design"
   },
   {
+    "id": "source-edvac-first-draft",
+    "type": "source",
+    "label": "First Draft of a Report on the EDVAC",
+    "url": "https://web.mit.edu/STS.035/www/PDFs/edvac.pdf",
+    "sourceType": "report"
+  },
+  {
     "id": "source-eigentrust",
     "type": "source",
     "label": "The EigenTrust Algorithm for Reputation Management in P2P Networks",
     "url": "https://nlp.stanford.edu/pubs/eigentrust.pdf",
     "sourceType": "research"
+  },
+  {
+    "id": "source-elements-stat-learning",
+    "type": "source",
+    "label": "The Elements of Statistical Learning",
+    "url": "https://hastie.su.domains/ElemStatLearn/",
+    "sourceType": "textbook"
   },
   {
     "id": "source-epa-safer-choice-products",
@@ -294,6 +1018,20 @@
     "sourceType": "regulatory-data"
   },
   {
+    "id": "source-eu-ai-act",
+    "type": "source",
+    "label": "AI Act",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "sourceType": "policy"
+  },
+  {
+    "id": "source-eu-ai-code",
+    "type": "source",
+    "label": "Drawing-up a General-Purpose AI Code of Practice",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-code-practice",
+    "sourceType": "policy"
+  },
+  {
     "id": "source-eu-digital-product-passport",
     "type": "source",
     "label": "EU's Digital Product Passport: Advancing transparency and sustainability",
@@ -301,11 +1039,39 @@
     "sourceType": "regulatory"
   },
   {
+    "id": "source-feigenbaum-1977",
+    "type": "source",
+    "label": "The Art of Artificial Intelligence: I. Themes and Case Studies of Knowledge Engineering",
+    "url": "https://stacks.stanford.edu/file/druid%3Abg342cm2034/bg342cm2034.pdf",
+    "sourceType": "conference-paper"
+  },
+  {
+    "id": "source-feigenbaum-acm",
+    "type": "source",
+    "label": "Edward A. Feigenbaum: A.M. Turing Award Laureate profile",
+    "url": "https://amturing.acm.org/award_winners/feigenbaum_4167235.cfm",
+    "sourceType": "biographical-reference"
+  },
+  {
     "id": "source-forrester-b2b-genai-2024",
     "type": "source",
     "label": "The Future Of B2B Buying Will Come Slowly And Then All At Once",
     "url": "https://www.forrester.com/blogs/the-future-of-b2b-buying-will-come-slowly-and-then-all-at-once/",
     "sourceType": "research"
+  },
+  {
+    "id": "source-foundation-models-2021",
+    "type": "source",
+    "label": "On the Opportunities and Risks of Foundation Models",
+    "url": "https://arxiv.org/abs/2108.07258",
+    "sourceType": "research-report"
+  },
+  {
+    "id": "source-frege-logic",
+    "type": "source",
+    "label": "Frege's Logic",
+    "url": "https://plato.stanford.edu/entries/frege-logic/",
+    "sourceType": "documentation"
   },
   {
     "id": "source-ftc-fake-reviews-2024",
@@ -320,6 +1086,13 @@
     "label": "Gartner Sales Survey Finds 67% of B2B Buyers Prefer a Rep-Free Experience",
     "url": "https://www.gartner.com/en/newsroom/press-releases/2026-03-09-gartner-sales-survey-finds-67-percent-of-b2b-buyers-prefer-a-rep-free-experience",
     "sourceType": "research"
+  },
+  {
+    "id": "source-godel",
+    "type": "source",
+    "label": "Gödel's Incompleteness Theorems",
+    "url": "https://plato.stanford.edu/entries/goedel-incompleteness/",
+    "sourceType": "documentation"
   },
   {
     "id": "source-google-ap2",
@@ -343,11 +1116,116 @@
     "sourceType": "protocol"
   },
   {
+    "id": "source-gps-stanford",
+    "type": "source",
+    "label": "A Guide to the General Problem-Solver Program GPS-2-2",
+    "url": "https://stacks.stanford.edu/file/druid:zk239tp3547/zk239tp3547.pdf",
+    "sourceType": "report"
+  },
+  {
+    "id": "source-gpt3-2020",
+    "type": "source",
+    "label": "Language Models are Few-Shot Learners",
+    "url": "https://arxiv.org/abs/2005.14165",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-gpt4-2023",
+    "type": "source",
+    "label": "GPT-4 Technical Report",
+    "url": "https://arxiv.org/abs/2303.08774",
+    "sourceType": "technical-report"
+  },
+  {
     "id": "source-gs1-digital-link",
     "type": "source",
     "label": "GS1 Digital Link for Brand Owners",
     "url": "https://www.gs1us.org/industries-and-insights/gs1-digital-link/for-brands",
     "sourceType": "standard"
+  },
+  {
+    "id": "source-hai-ai-index",
+    "type": "source",
+    "label": "The 2026 AI Index Report",
+    "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+    "sourceType": "data-reference"
+  },
+  {
+    "id": "source-haigh-ai-boom-bust",
+    "type": "source",
+    "label": "How the AI Boom Went Bust",
+    "url": "https://cacm.acm.org/opinion/how-the-ai-boom-went-bust/",
+    "sourceType": "historiographic-commentary"
+  },
+  {
+    "id": "source-haigh-no-first-winter",
+    "type": "source",
+    "label": "There Was No 'First AI Winter'",
+    "url": "https://cacm.acm.org/opinion/there-was-no-first-ai-winter/",
+    "sourceType": "historiographic-commentary"
+  },
+  {
+    "id": "source-helm-2022",
+    "type": "source",
+    "label": "Holistic Evaluation of Language Models",
+    "url": "https://arxiv.org/abs/2211.09110",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-hilbert-problems",
+    "type": "source",
+    "label": "Mathematical Problems",
+    "url": "https://aleph0.clarku.edu/~djoyce/hilbert/problems.html",
+    "sourceType": "documentation"
+  },
+  {
+    "id": "source-iea-energy-ai",
+    "type": "source",
+    "label": "Key Questions on Energy and AI",
+    "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+    "sourceType": "energy-analysis"
+  },
+  {
+    "id": "source-ilo-genai-jobs",
+    "type": "source",
+    "label": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure",
+    "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+    "sourceType": "working-paper"
+  },
+  {
+    "id": "source-imagenet-2015",
+    "type": "source",
+    "label": "ImageNet Large Scale Visual Recognition Challenge",
+    "url": "https://arxiv.org/abs/1409.0575",
+    "sourceType": "research-paper"
+  },
+  {
+    "id": "source-imagenet-site",
+    "type": "source",
+    "label": "ImageNet Large Scale Visual Recognition Challenge",
+    "url": "https://www.image-net.org/challenges/LSVRC/",
+    "sourceType": "benchmark-site"
+  },
+  {
+    "id": "source-isaw-antikythera",
+    "type": "source",
+    "label": "The Antikythera Mechanism",
+    "url": "https://isaw.nyu.edu/research/antikythera-mechanism",
+    "sourceType": "university-research-summary"
+  },
+  {
+    "id": "source-itu-facts-2025",
+    "type": "source",
+    "label": "Measuring Digital Development: Facts and Figures 2025",
+    "url": "https://www.itu.int/hub/publication/d-ind-ict_mdd-2025-3/",
+    "sourceType": "official-statistics"
+  },
+  {
+    "id": "source-lecun-docrec-1998",
+    "type": "source",
+    "label": "Gradient-Based Learning Applied to Document Recognition",
+    "url": "https://doi.org/10.1109/5.726791",
+    "sourceType": "research-paper"
   },
   {
     "id": "source-lee-see-automation-trust",
@@ -357,11 +1235,81 @@
     "sourceType": "research"
   },
   {
+    "id": "source-leibniz-logic",
+    "type": "source",
+    "label": "Leibniz's Influence on 19th Century Logic",
+    "url": "https://plato.stanford.edu/entries/leibniz-logic-influence/",
+    "sourceType": "documentation"
+  },
+  {
+    "id": "source-lhra-method",
+    "type": "source",
+    "label": "The Long Human Road to AI Research Method",
+    "url": "https://github.com/aura-knowledge/meta/blob/main/proposals/long-human-road-to-ai/research/README.md",
+    "sourceType": "project-document"
+  },
+  {
+    "id": "source-lighthill-1973",
+    "type": "source",
+    "label": "Artificial Intelligence: A General Survey",
+    "url": "https://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm",
+    "sourceType": "public-report"
+  },
+  {
     "id": "source-llms-txt",
     "type": "source",
     "label": "llms.txt proposal",
     "url": "https://github.com/answerdotai/llms-txt",
     "sourceType": "protocol"
+  },
+  {
+    "id": "source-logic-theory-machine",
+    "type": "source",
+    "label": "The Logic Theory Machine: A Complex Information Processing System",
+    "url": "https://www.rand.org/pubs/papers/P868.html",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-mccarthy-common-sense",
+    "type": "source",
+    "label": "Programs with Common Sense",
+    "url": "https://jmc.stanford.edu/articles/mcc59/mcc59.pdf",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-minsky-papert-1969",
+    "type": "source",
+    "label": "Perceptrons: An Introduction to Computational Geometry",
+    "url": "https://mitpress.mit.edu/9780262630221/perceptrons/",
+    "sourceType": "book"
+  },
+  {
+    "id": "source-mpiwg-antikythera",
+    "type": "source",
+    "label": "The Inscriptions of the Antikythera Mechanism",
+    "url": "https://www.mpiwg-berlin.mpg.de/research/projects/inscriptions-antikythera-mechanism",
+    "sourceType": "research-project"
+  },
+  {
+    "id": "source-mycin-1984",
+    "type": "source",
+    "label": "Rule-Based Expert Systems: The MYCIN Experiments of the Stanford Heuristic Programming Project",
+    "url": "https://www.shortliffe.net/Buchanan-Shortliffe-1984/MYCIN%20Book.htm",
+    "sourceType": "expert-system-retrospective"
+  },
+  {
+    "id": "source-nature-antikythera-2006",
+    "type": "source",
+    "label": "Decoding the ancient Greek astronomical calculator known as the Antikythera Mechanism",
+    "url": "https://www.nature.com/articles/nature05357",
+    "sourceType": "research-article"
+  },
+  {
+    "id": "source-nilsson-quest-ai",
+    "type": "source",
+    "label": "The Quest for Artificial Intelligence: A History of Ideas and Achievements",
+    "url": "https://ai.stanford.edu/~nilsson/QAI/qai.pdf",
+    "sourceType": "book"
   },
   {
     "id": "source-nist-ai-rmf",
@@ -371,11 +1319,46 @@
     "sourceType": "standard"
   },
   {
+    "id": "source-nist-gai-profile",
+    "type": "source",
+    "label": "NIST AI RMF Generative AI Profile",
+    "url": "https://doi.org/10.6028/NIST.AI.600-1",
+    "sourceType": "guidance"
+  },
+  {
+    "id": "source-nist-math-tables",
+    "type": "source",
+    "label": "Prehistory: The Math Tables Project",
+    "url": "https://www.nist.gov/mathematics-statistics/prehistory-math-tables-project",
+    "sourceType": "government-history"
+  },
+  {
     "id": "source-nng-cognitive-load",
     "type": "source",
     "label": "4 Principles for Reducing Cognitive Load in Forms",
     "url": "https://www.nngroup.com/articles/4-principles-reduce-cognitive-load/",
     "sourceType": "design"
+  },
+  {
+    "id": "source-nrc-ai-1999",
+    "type": "source",
+    "label": "Funding a Revolution: Government Support for Computing Research, Chapter 9: Development in Artificial Intelligence",
+    "url": "https://www.nationalacademies.org/read/6323/chapter/11",
+    "sourceType": "institutional-history"
+  },
+  {
+    "id": "source-oecd-ai-principles",
+    "type": "source",
+    "label": "OECD AI Principles",
+    "url": "https://oecd.ai/en/ai-principles",
+    "sourceType": "intergovernmental-principles"
+  },
+  {
+    "id": "source-oecd-ai-science",
+    "type": "source",
+    "label": "Artificial Intelligence in Science",
+    "url": "https://doi.org/10.1787/a8d820bd-en",
+    "sourceType": "research-synthesis"
   },
   {
     "id": "source-openai-chatgpt-shopping",
@@ -406,6 +1389,34 @@
     "sourceType": "regulatory-data"
   },
   {
+    "id": "source-pai-data-labor",
+    "type": "source",
+    "label": "Responsible Sourcing Across the Data Supply Line",
+    "url": "https://partnershiponai.org/workstream/responsible-sourcing/",
+    "sourceType": "practice-guidance"
+  },
+  {
+    "id": "source-pew-ai-topic",
+    "type": "source",
+    "label": "Artificial Intelligence",
+    "url": "https://www.pewresearch.org/topic/internet-technology/emerging-technology/artificial-intelligence/",
+    "sourceType": "survey-topic"
+  },
+  {
+    "id": "source-post-1936",
+    "type": "source",
+    "label": "Finite Combinatory Processes - Formulation 1",
+    "url": "https://doi.org/10.2307/2269031",
+    "sourceType": "article"
+  },
+  {
+    "id": "source-principia-archive",
+    "type": "source",
+    "label": "Principia Mathematica",
+    "url": "https://archive.org/details/cu31924001575244",
+    "sourceType": "book"
+  },
+  {
     "id": "source-privacy-pass-architecture",
     "type": "source",
     "label": "The Privacy Pass Architecture",
@@ -417,6 +1428,62 @@
     "type": "source",
     "label": "Responsible Agentic AI Requires Explicit Provenance",
     "url": "https://arxiv.org/abs/2605.17169",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-r1-1980",
+    "type": "source",
+    "label": "R1: An Expert in the Computer Systems Domain",
+    "url": "https://cdn.aaai.org/AAAI/1980/AAAI80-076.pdf",
+    "sourceType": "conference-paper"
+  },
+  {
+    "id": "source-r1-revisited-1984",
+    "type": "source",
+    "label": "R1 Revisited: Four Years in the Trenches",
+    "url": "https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/445",
+    "sourceType": "case-study"
+  },
+  {
+    "id": "source-rag-2020",
+    "type": "source",
+    "label": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-react-2022",
+    "type": "source",
+    "label": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-rlhf-2022",
+    "type": "source",
+    "label": "Training language models to follow instructions with human feedback",
+    "url": "https://arxiv.org/abs/2203.02155",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-rosenblatt-1958",
+    "type": "source",
+    "label": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
+    "url": "https://homepages.math.uic.edu/~lreyzin/papers/rosenblatt58.pdf",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-samuel-1959",
+    "type": "source",
+    "label": "Some Studies in Machine Learning Using the Game of Checkers",
+    "url": "https://doi.org/10.1147/rd.33.0210",
+    "sourceType": "research-paper"
+  },
+  {
+    "id": "source-scaling-laws-2020",
+    "type": "source",
+    "label": "Scaling Laws for Neural Language Models",
+    "url": "https://arxiv.org/abs/2001.08361",
     "sourceType": "research"
   },
   {
@@ -434,11 +1501,116 @@
     "sourceType": "schema"
   },
   {
+    "id": "source-science-museum-automata",
+    "type": "source",
+    "label": "Marvellous Machines: Early Robots",
+    "url": "https://www.sciencemuseum.org.uk/objects-and-stories/marvellous-machines-early-robots",
+    "sourceType": "museum-story"
+  },
+  {
+    "id": "source-sep-ai",
+    "type": "source",
+    "label": "Artificial Intelligence",
+    "url": "https://plato.stanford.edu/entries/artificial-intelligence/",
+    "sourceType": "article"
+  },
+  {
+    "id": "source-sep-computing",
+    "type": "source",
+    "label": "The Modern History of Computing",
+    "url": "https://plato.stanford.edu/entries/computing-history/",
+    "sourceType": "encyclopedia"
+  },
+  {
+    "id": "source-sep-leibniz-logic",
+    "type": "source",
+    "label": "Leibniz's Influence on 19th Century Logic",
+    "url": "https://plato.stanford.edu/entries/leibniz-logic-influence/",
+    "sourceType": "encyclopedia"
+  },
+  {
+    "id": "source-sep-logic-ai",
+    "type": "source",
+    "label": "Logic and Artificial Intelligence",
+    "url": "https://plato.stanford.edu/entries/logic-ai/",
+    "sourceType": "article"
+  },
+  {
+    "id": "source-shannon-info-1948",
+    "type": "source",
+    "label": "A Mathematical Theory of Communication",
+    "url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+    "sourceType": "article"
+  },
+  {
+    "id": "source-shannon-info-pdf",
+    "type": "source",
+    "label": "A Mathematical Theory of Communication",
+    "url": "https://ia803209.us.archive.org/27/items/bstj27-3-379/bstj27-3-379_text.pdf",
+    "sourceType": "article"
+  },
+  {
+    "id": "source-shannon-switching",
+    "type": "source",
+    "label": "A Symbolic Analysis of Relay and Switching Circuits",
+    "url": "https://doi.org/10.1109/T-AIEE.1938.5057767",
+    "sourceType": "article"
+  },
+  {
     "id": "source-simon-attention-scarcity",
     "type": "source",
     "label": "Designing Organizations for an Information-Rich World",
     "url": "https://www.econbiz.de/Record/designing-organizations-for-an-information-rich-world-simon-herbert/10002817747",
     "sourceType": "research"
+  },
+  {
+    "id": "source-smg-babbage",
+    "type": "source",
+    "label": "Charles Babbage's Difference Engines and the Science Museum",
+    "url": "https://www.sciencemuseum.org.uk/objects-and-stories/charles-babbages-difference-engines-and-science-museum",
+    "sourceType": "museum-story"
+  },
+  {
+    "id": "source-smg-jacquard",
+    "type": "source",
+    "label": "Programming Patterns: The Story of the Jacquard Loom",
+    "url": "https://www.scienceandindustrymuseum.org.uk/objects-and-stories/jacquard-loom",
+    "sourceType": "museum-story"
+  },
+  {
+    "id": "source-smg-pascal-calculator",
+    "type": "source",
+    "label": "Replica of Pascal's Calculator",
+    "url": "https://collection.sciencemuseumgroup.org.uk/objects/co60769/replica-of-pascals-calculator",
+    "sourceType": "museum-object"
+  },
+  {
+    "id": "source-smith-human-computers",
+    "type": "source",
+    "label": "Human Computer Project",
+    "url": "https://womenshistory.si.edu/human-computer-project",
+    "sourceType": "museum-research-project"
+  },
+  {
+    "id": "source-smithsonian-abacus",
+    "type": "source",
+    "label": "The Abacus, the Numeral Frame, and Counters",
+    "url": "https://www.si.edu/spotlight/the-abacus-the-numeral-frame-and-counters",
+    "sourceType": "museum-exhibit"
+  },
+  {
+    "id": "source-smithsonian-napier-rods",
+    "type": "source",
+    "label": "Napier's Rods",
+    "url": "https://americanhistory.si.edu/collections/nmah_690812",
+    "sourceType": "museum-object"
+  },
+  {
+    "id": "source-smithsonian-punch-cards",
+    "type": "source",
+    "label": "Punch Cards",
+    "url": "https://www.si.edu/spotlight/punch-cards",
+    "sourceType": "museum-exhibit"
   },
   {
     "id": "source-status-quo-bias",
@@ -448,11 +1620,60 @@
     "sourceType": "research"
   },
   {
+    "id": "source-sutton-bitter",
+    "type": "source",
+    "label": "The Bitter Lesson",
+    "url": "https://www.incompleteideas.net/IncIdeas/BitterLesson.html",
+    "sourceType": "essay"
+  },
+  {
+    "id": "source-toolformer-2023",
+    "type": "source",
+    "label": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "url": "https://arxiv.org/abs/2302.04761",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-transformer-2017",
+    "type": "source",
+    "label": "Attention Is All You Need",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "sourceType": "research"
+  },
+  {
     "id": "source-truth-discovery-survey",
     "type": "source",
     "label": "A Survey on Truth Discovery",
     "url": "https://www.kdd.org/exploration_files/Article1_17_2.pdf",
     "sourceType": "research"
+  },
+  {
+    "id": "source-turing-1936",
+    "type": "source",
+    "label": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+    "url": "https://doi.org/10.1112/plms/s2-42.1.230",
+    "sourceType": "article"
+  },
+  {
+    "id": "source-turing-1950",
+    "type": "source",
+    "label": "Computing Machinery and Intelligence",
+    "url": "https://turingarchive.kings.cam.ac.uk/computing-machinery-and-intelligence",
+    "sourceType": "article"
+  },
+  {
+    "id": "source-unesco-genai-edu",
+    "type": "source",
+    "label": "Guidance for Generative AI in Education and Research",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
+    "sourceType": "official-guidance"
+  },
+  {
+    "id": "source-usco-ai",
+    "type": "source",
+    "label": "Copyright and Artificial Intelligence",
+    "url": "https://www.copyright.gov/ai/",
+    "sourceType": "official-report-series"
   },
   {
     "id": "source-w3c-bbs",
@@ -476,11 +1697,32 @@
     "sourceType": "standard"
   },
   {
+    "id": "source-whipple-napier",
+    "type": "source",
+    "label": "John Napier's Calculating Tools",
+    "url": "https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/calculating-devices/john-napiers-calculating-tools",
+    "sourceType": "museum-exhibit"
+  },
+  {
+    "id": "source-wiener-cybernetics",
+    "type": "source",
+    "label": "Cybernetics: Or Control and Communication in the Animal and the Machine",
+    "url": "https://doi.org/10.7551/mitpress/11810.001.0001",
+    "sourceType": "book"
+  },
+  {
     "id": "source-wordpress-mcp-adapter",
     "type": "source",
     "label": "From Abilities to AI Agents: Introducing the WordPress MCP Adapter",
     "url": "https://developer.wordpress.org/news/2026/02/from-abilities-to-ai-agents-introducing-the-wordpress-mcp-adapter/",
     "sourceType": "product"
+  },
+  {
+    "id": "source-worldbank-digital-2023",
+    "type": "source",
+    "label": "Digital Progress and Trends Report 2023",
+    "url": "https://doi.org/10.1596/978-1-4648-2049-6",
+    "sourceType": "institutional-report"
   },
   {
     "id": "topic:agent-provenance",
@@ -493,9 +1735,34 @@
     "label": "agentic-commerce"
   },
   {
+    "id": "topic:ai-governance",
+    "type": "topic",
+    "label": "ai-governance"
+  },
+  {
+    "id": "topic:ai-history",
+    "type": "topic",
+    "label": "ai-history"
+  },
+  {
     "id": "topic:ai-native-publishing",
     "type": "topic",
     "label": "ai-native-publishing"
+  },
+  {
+    "id": "topic:ai-society",
+    "type": "topic",
+    "label": "ai-society"
+  },
+  {
+    "id": "topic:computability",
+    "type": "topic",
+    "label": "computability"
+  },
+  {
+    "id": "topic:computing-history",
+    "type": "topic",
+    "label": "computing-history"
   },
   {
     "id": "topic:consumer-behavior",
@@ -503,14 +1770,89 @@
     "label": "consumer-behavior"
   },
   {
+    "id": "topic:cybernetics",
+    "type": "topic",
+    "label": "cybernetics"
+  },
+  {
     "id": "topic:digital-gardens",
     "type": "topic",
     "label": "digital-gardens"
   },
   {
+    "id": "topic:education",
+    "type": "topic",
+    "label": "education"
+  },
+  {
+    "id": "topic:evaluation",
+    "type": "topic",
+    "label": "evaluation"
+  },
+  {
+    "id": "topic:expert-systems",
+    "type": "topic",
+    "label": "expert-systems"
+  },
+  {
+    "id": "topic:formal-logic",
+    "type": "topic",
+    "label": "formal-logic"
+  },
+  {
+    "id": "topic:foundation-models",
+    "type": "topic",
+    "label": "foundation-models"
+  },
+  {
+    "id": "topic:governance",
+    "type": "topic",
+    "label": "governance"
+  },
+  {
+    "id": "topic:human-progress",
+    "type": "topic",
+    "label": "human-progress"
+  },
+  {
+    "id": "topic:hype-cycle",
+    "type": "topic",
+    "label": "hype-cycle"
+  },
+  {
     "id": "topic:incumbent-adjacent-ventures",
     "type": "topic",
     "label": "incumbent-adjacent-ventures"
+  },
+  {
+    "id": "topic:information-theory",
+    "type": "topic",
+    "label": "information-theory"
+  },
+  {
+    "id": "topic:institutions",
+    "type": "topic",
+    "label": "institutions"
+  },
+  {
+    "id": "topic:labor",
+    "type": "topic",
+    "label": "labor"
+  },
+  {
+    "id": "topic:long-human-road-to-ai",
+    "type": "topic",
+    "label": "long-human-road-to-ai"
+  },
+  {
+    "id": "topic:machine-learning",
+    "type": "topic",
+    "label": "machine-learning"
+  },
+  {
+    "id": "topic:neural-networks",
+    "type": "topic",
+    "label": "neural-networks"
   },
   {
     "id": "topic:open-protocols",
@@ -526,5 +1868,20 @@
     "id": "topic:research-workflows",
     "type": "topic",
     "label": "research-workflows"
+  },
+  {
+    "id": "topic:scaling",
+    "type": "topic",
+    "label": "scaling"
+  },
+  {
+    "id": "topic:symbolic-ai",
+    "type": "topic",
+    "label": "symbolic-ai"
+  },
+  {
+    "id": "topic:transformers",
+    "type": "topic",
+    "label": "transformers"
   }
 ]

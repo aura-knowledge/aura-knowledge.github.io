@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "topic": "machine-learning",
+  "articleIds": [
+    "article:learning-machines"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/machine-learning/",
+  "agentJsonPath": "/agents/topics/machine-learning.json",
+  "articles": [
+    {
+      "id": "article:learning-machines",
+      "slug": "learning-machines",
+      "title": "Learning Machines: Statistics, Neural Networks, and the Data Turn",
+      "summary": "A general-reader history of the learning turn in AI, from Samuel's checkers and Rosenblatt's perceptron to ImageNet and AlexNet, with caveats about generalization and understanding.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "long-human-road-to-ai",
+        "machine-learning",
+        "neural-networks",
+        "computing-history"
+      ],
+      "tags": [
+        "ai-history",
+        "computing-history",
+        "human-progress",
+        "education",
+        "machine-learning",
+        "neural-networks",
+        "statistics",
+        "data"
+      ],
+      "canonicalPath": "/articles/learning-machines/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
+      "agentJsonPath": "/agents/articles/learning-machines.json",
+      "agentMarkdownPath": "/agents/articles/learning-machines.md",
+      "updatedAt": "2026-06-20",
+      "claimCount": 8,
+      "sourceCount": 13,
+      "tokenEstimate": 707,
+      "contentHash": "5bd1220dab68c934e4e765ac3c87dfb2054668731c5f0c907c9732454242253e"
+    }
+  ]
+}

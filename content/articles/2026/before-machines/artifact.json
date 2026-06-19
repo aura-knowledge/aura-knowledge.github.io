@@ -7,7 +7,7 @@
   "sourcePath": "content/articles/2026/before-machines/article.md",
   "agentBriefPath": "content/articles/2026/before-machines/agent.md",
   "thesis": "Before electronic computers existed, people performed calculation as organized labor and built tools, tables, mechanisms, and automata to extend what human minds could reliably do. Those developments make later computing and AI more understandable only when they are presented as context, not as primitive computers or artificial intelligence.",
-  "status": "review",
+  "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-20",
   "updatedAt": "2026-06-20",
@@ -424,7 +424,7 @@
     "Do not frame ancient or early modern mechanisms as AI without the article's analogy limits.",
     "Flag any wording that implies Babbage's engines were completed general-purpose computers."
   ],
-  "contentHash": "023b8c49d2395b306786c3abac14844070d399aa43323febdf013f1576a60b7b",
+  "contentHash": "62d909d5e9f88204dabd2fb1f284d1077e805963e509747a07706e9d8ade9c38",
   "provenance": {
     "createdAt": "2026-06-20",
     "createdBy": "human",
@@ -433,14 +433,27 @@
       {
         "reviewer": "agent",
         "reviewedAt": "2026-06-20",
-        "status": "commented",
+        "status": "approved",
         "scope": [
           "claims",
           "sources",
           "tone",
           "privacy"
         ],
-        "notes": "Initial seed draft reviewed for source-to-claim alignment, analogy limits, and privacy cleanliness before public review."
+        "notes": "Initial seed draft reviewed for source-to-claim alignment, analogy limits, and privacy cleanliness before public review. Approved for publication after final review."
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-20",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "sources",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Human final review approved for publication after sibling-agent review and CI pass.",
+        "contentHash": "62d909d5e9f88204dabd2fb1f284d1077e805963e509747a07706e9d8ade9c38"
       }
     ],
     "policy": {

@@ -6,7 +6,7 @@ title: "Learning Machines: Statistics, Neural Networks, and the Data Turn"
 dek: How AI moved from hand-written rules to machines that adjust themselves from examples—and why data, benchmarks, and GPUs became as important as the algorithms.
 date: 2026-06-20
 updated: 2026-06-20
-status: review
+status: published
 maturity: seed
 topic: long-human-road-to-ai
 tags:

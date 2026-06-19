@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-18T00:00:00.000Z",
+  "generatedAt": "2026-06-20T00:00:00.000Z",
   "articles": [
     {
       "slug": "agent-auditable-research",
@@ -281,7 +281,7 @@
     {
       "slug": "ai-winters-expert-systems",
       "title": "Winters, Expert Systems, and the Cost of Overpromising Intelligence",
-      "status": "review",
+      "status": "published",
       "claims": [
         {
           "id": "claim-001",
@@ -346,7 +346,7 @@
     {
       "slug": "before-machines",
       "title": "Before Machines: Calculation, Automata, and the Dream of Mechanical Reason",
-      "status": "review",
+      "status": "published",
       "claims": [
         {
           "id": "claim-001",
@@ -447,7 +447,7 @@
     {
       "slug": "birth-of-ai",
       "title": "The Birth of AI: Dartmouth, Symbolic Systems, and Early Optimism",
-      "status": "review",
+      "status": "published",
       "claims": [
         {
           "id": "claim-001",
@@ -512,7 +512,7 @@
     {
       "slug": "formal-logic-to-computation",
       "title": "From Formal Logic to Computation: The Mathematical Road to AI",
-      "status": "review",
+      "status": "published",
       "claims": [
         {
           "id": "claim-001",
@@ -607,7 +607,7 @@
     {
       "slug": "foundation-models",
       "title": "Foundation Models and the Return of General-Purpose AI Systems",
-      "status": "review",
+      "status": "published",
       "claims": [
         {
           "id": "claim-001",
@@ -827,7 +827,7 @@
     {
       "slug": "human-systems",
       "title": "The Human Road Through AI: Labor, Institutions, Governance, and Meaning",
-      "status": "review",
+      "status": "published",
       "claims": [
         {
           "id": "claim-001",
@@ -902,7 +902,7 @@
     {
       "slug": "learning-machines",
       "title": "Learning Machines: Statistics, Neural Networks, and the Data Turn",
-      "status": "review",
+      "status": "published",
       "claims": [
         {
           "id": "claim-001",
@@ -997,7 +997,7 @@
     {
       "slug": "long-human-road-to-ai",
       "title": "The Long Human Road to AI: A Reader’s Guide to Season 1",
-      "status": "review",
+      "status": "published",
       "claims": [
         {
           "id": "claim-001",

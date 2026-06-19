@@ -6,7 +6,7 @@ title: Winters, Expert Systems, and the Cost of Overpromising Intelligence
 dek: Why the hardest part of building intelligent machines turned out to be maintenance, evaluation, and managing expectations.
 date: 2026-06-20
 updated: 2026-06-20
-status: review
+status: published
 maturity: seed
 topic: long-human-road-to-ai
 tags:

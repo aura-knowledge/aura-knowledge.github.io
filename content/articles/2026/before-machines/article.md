@@ -6,7 +6,7 @@ title: "Before Machines: Calculation, Automata, and the Dream of Mechanical Reas
 dek: Long before silicon, people were the computers. Their tools, tables, and geared mechanisms set the stage for thinking machines—without being machines that thought.
 date: 2026-06-20
 updated: 2026-06-20
-status: review
+status: published
 maturity: seed
 topic: long-human-road-to-ai
 tags:

@@ -1,0 +1,400 @@
+{
+  "schemaVersion": 3,
+  "id": "article:birth-of-ai",
+  "slug": "birth-of-ai",
+  "title": "The Birth of AI: Dartmouth, Symbolic Systems, and Early Optimism",
+  "canonicalPath": "/articles/birth-of-ai/",
+  "sourcePath": "content/articles/2026/birth-of-ai/article.md",
+  "agentBriefPath": "content/articles/2026/birth-of-ai/agent.md",
+  "thesis": "AI's 'birth' is best treated as a naming and consolidation moment. The 1956 Dartmouth workshop gave the field a label, an agenda, and institutional visibility, while early symbolic systems showed that computers could perform some formal activities associated with intelligence. The lasting lesson is not that intelligence was solved in the 1950s, but that researchers discovered how hard it was to translate intelligence into symbols, rules, search, and programs.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-20",
+  "updatedAt": "2026-06-20",
+  "audiences": [
+    "general readers",
+    "students",
+    "builders",
+    "agents"
+  ],
+  "topics": [
+    "long-human-road-to-ai",
+    "ai-history",
+    "symbolic-ai"
+  ],
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Dartmouth named and consolidated AI as a research field, but did not originate all machine-intelligence work.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-dartmouth-1955",
+          "snippet": "The 1955 Dartmouth proposal framed a summer research project on artificial intelligence and argued that learning and intelligence could be precisely described for machine simulation.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-dartmouth-ai-coined",
+          "snippet": "Dartmouth's institutional summary records the 1956 summer project as the place where the term artificial intelligence was coined and the field was launched.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-sep-ai",
+          "snippet": "The Stanford Encyclopedia of Philosophy treats Dartmouth as the official start of AI while noting its roots in logic, cybernetics, and earlier machine-intelligence questions.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-dick-ai-history",
+          "snippet": "Stephanie Dick's historical essay warns against over-simple Dartmouth origin narratives and emphasizes contested definitions of intelligence.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The term artificial intelligence had philosophical and literary antecedents, and earlier work on automata, cybernetics, and information theory pursued related goals before Dartmouth.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Early AI treated reasoning as symbolic manipulation and search.",
+      "confidence": "high",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-sep-logic-ai",
+          "snippet": "The Stanford Encyclopedia entry on logic and AI describes how logical formalisms and inference were used to represent problems and derive conclusions in early AI.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-logic-theory-machine",
+          "snippet": "Newell and Simon's 1956 paper on the Logic Theory Machine describes heuristic search over symbolic expressions to discover proofs.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-mccarthy-common-sense",
+          "snippet": "McCarthy's 1959 'Programs with Common Sense' proposed a formal language and inference machinery for representing everyday knowledge symbolically.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-chm-ai-robotics",
+          "snippet": "The Computer History Museum timeline places early symbolic programs such as the Logic Theorist and Lisp within a broader trajectory of AI and robotics.",
+          "supports": "background",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Neural-network, pattern-recognition, and game-playing approaches operated in the same period, so symbolic manipulation was not the only model of intelligence under investigation.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Early demonstrations were impressive but bounded: they worked inside formal or carefully prepared worlds.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-logic-theory-machine",
+          "snippet": "The Logic Theory Machine demonstrated that a program could find proofs in Principia Mathematica using heuristic search over symbolic expressions.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-gps-stanford",
+          "snippet": "The GPS-2-2 technical report describes means-ends analysis and planning, but only for problems that can be encoded in its formal problem space.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-chm-ai-robotics",
+          "snippet": "The museum timeline notes that early AI programs operated in constrained domains and required carefully prepared representations.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-mccarthy-common-sense",
+          "snippet": "McCarthy's Advice Taker remained a research proposal rather than a completed system, illustrating the gap between ambition and runnable common-sense reasoning.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Contemporary observers sometimes interpreted theorem-proving and game-playing demos as evidence of much broader, near-term machine intelligence.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Early AI optimism was part technical, part institutional, and part public narrative.",
+      "confidence": "medium",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-dartmouth-1955",
+          "snippet": "The Dartmouth proposal's ambitious language about learning, abstraction, and language helped set expectations and attract funding.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-dick-ai-history",
+          "snippet": "Dick argues that AI's history includes institutional identity-building and public storytelling, not only technical milestones.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-cornell-perceptron",
+          "snippet": "Cornell's institutional history recounts how press coverage of the perceptron amplified public optimism about thinking machines.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-nilsson-quest-ai",
+          "snippet": "Nilsson's synthesis describes early AI programs and the institutional context that shaped their funding and reception.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The same institutions later reduced support when results lagged promises, showing that optimism was contingent on perceived progress rather than purely technical achievement.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "The early field included multiple lineages, including symbolic reasoning, cybernetics, neural approaches, game-playing, and machine-intelligence philosophy.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-turing-1950",
+          "snippet": "Turing's 1950 paper posed the machine-intelligence question and proposed the imitation game well before Dartmouth.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-sep-ai",
+          "snippet": "The encyclopedia entry lists precursors such as cybernetics, information theory, and logic alongside the Dartmouth-centered symbolic thread.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-rosenblatt-1958",
+          "snippet": "Rosenblatt's 1958 perceptron paper presents a probabilistic neural model for pattern recognition, a non-symbolic lineage parallel to logic-based AI.",
+          "supports": "direct",
+          "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-chm-ai-robotics",
+          "snippet": "The Computer History Museum timeline documents both symbolic AI programs and early neural and robotic threads in the same period.",
+          "supports": "background",
+          "assessedAt": "2026-06-20"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "By the 1960s symbolic AI dominated funding and textbooks, so the plural lineage was often underrepresented in popular memory.",
+          "assessedAt": "2026-06-20"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-dartmouth-1955",
+      "title": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
+      "url": "https://doi.org/10.1609/aimag.v27i4.1904",
+      "type": "paper",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-dartmouth-ai-coined",
+      "title": "Artificial Intelligence (AI) Coined at Dartmouth",
+      "url": "https://home.dartmouth.edu/about/artificial-intelligence-ai-coined-dartmouth",
+      "type": "article",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-dick-ai-history",
+      "title": "Artificial Intelligence",
+      "url": "https://hdsr.mitpress.mit.edu/pub/0aytgrau/release/3",
+      "type": "article",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-sep-ai",
+      "title": "Artificial Intelligence",
+      "url": "https://plato.stanford.edu/entries/artificial-intelligence/",
+      "type": "article",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-sep-logic-ai",
+      "title": "Logic and Artificial Intelligence",
+      "url": "https://plato.stanford.edu/entries/logic-ai/",
+      "type": "article",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-turing-1950",
+      "title": "Computing Machinery and Intelligence",
+      "url": "https://turingarchive.kings.cam.ac.uk/computing-machinery-and-intelligence",
+      "type": "article",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-logic-theory-machine",
+      "title": "The Logic Theory Machine: A Complex Information Processing System",
+      "url": "https://www.rand.org/pubs/papers/P868.html",
+      "type": "paper",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-gps-stanford",
+      "title": "A Guide to the General Problem-Solver Program GPS-2-2",
+      "url": "https://stacks.stanford.edu/file/druid:zk239tp3547/zk239tp3547.pdf",
+      "type": "report",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-mccarthy-common-sense",
+      "title": "Programs with Common Sense",
+      "url": "https://jmc.stanford.edu/articles/mcc59/mcc59.pdf",
+      "type": "paper",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-chm-ai-robotics",
+      "title": "AI and Robotics: Timeline of Computer History",
+      "url": "https://www.computerhistory.org/timeline/ai-robotics/",
+      "type": "article",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-rosenblatt-1958",
+      "title": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
+      "url": "https://homepages.math.uic.edu/~lreyzin/papers/rosenblatt58.pdf",
+      "type": "paper",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-cornell-perceptron",
+      "title": "Professor's perceptron paved the way for AI - 60 years too soon",
+      "url": "https://news.cornell.edu/stories/2019/09/professors-perceptron-paved-way-ai-60-years-too-soon",
+      "type": "article",
+      "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-nilsson-quest-ai",
+      "title": "The Quest for Artificial Intelligence: A History of Ideas and Achievements",
+      "url": "https://ai.stanford.edu/~nilsson/QAI/qai.pdf",
+      "type": "book",
+      "accessed": "2026-06-19"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:long-human-road-to-ai"
+    },
+    {
+      "type": "article",
+      "id": "article:formal-logic-to-computation"
+    },
+    {
+      "type": "article",
+      "id": "article:ai-winters-expert-systems"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Prefer source IDs over inferred citations.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Do not present Dartmouth as the first or only origin of machine intelligence."
+  ],
+  "contentHash": "ecec9f458d695b5a53bfea9e6856fb376b5174ed3bf0487ce3a7cdd36baf96c1",
+  "provenance": {
+    "createdAt": "2026-06-20",
+    "createdBy": "human",
+    "agents": [],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-20",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "sources",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Initial agent review against the LHRA work package and source map. No private or proprietary content detected. Claim markers and source IDs verified. Approved for publication after final review."
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-20",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "sources",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Human final review approved for publication after sibling-agent review and CI pass.",
+        "contentHash": "ecec9f458d695b5a53bfea9e6856fb376b5174ed3bf0487ce3a7cdd36baf96c1"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "generatedAt": "2026-06-20T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
+  "agentJsonPath": "/agents/articles/birth-of-ai.json",
+  "agentMarkdownPath": "/agents/articles/birth-of-ai.md",
+  "sourceRepoPath": "content/articles/2026/birth-of-ai/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/birth-of-ai/article.md",
+  "tokenEstimate": 553,
+  "sectionOutline": [
+    {
+      "id": "a-field-gets-a-name",
+      "title": "A Field Gets a Name"
+    },
+    {
+      "id": "the-conjecture",
+      "title": "The Conjecture"
+    },
+    {
+      "id": "proofs-plans-and-programs",
+      "title": "Proofs, Plans, and Programs"
+    },
+    {
+      "id": "why-optimism-made-sense",
+      "title": "Why Optimism Made Sense"
+    },
+    {
+      "id": "why-optimism-was-not-enough",
+      "title": "Why Optimism Was Not Enough"
+    },
+    {
+      "id": "the-durable-legacy",
+      "title": "The Durable Legacy"
+    }
+  ]
+}
