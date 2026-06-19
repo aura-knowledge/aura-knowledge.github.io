@@ -5,7 +5,7 @@ import { getArticles } from "../lib/content";
 const base = import.meta.env.BASE_URL;
 const repoUrl = "https://github.com/aura-knowledge/aura-knowledge.github.io";
 const articles = getArticles();
-const latest = articles[0];
+const latest = articles[0] ?? null;
 ---
 
 <BaseLayout
@@ -22,9 +22,11 @@ const latest = articles[0];
         the work behind them can be inspected and improved.
       </p>
       <div class="button-row" aria-label="Organization starting points">
-        <a class="button primary" href={`${base}articles/${latest.slug}/`}>
-          Read the latest article
-        </a>
+        {latest && (
+          <a class="button primary" href={`${base}articles/${latest.slug}/`}>
+            Read the latest article
+          </a>
+        )}
         <a class="button" href={`${base}topics/`}>Browse topics</a>
         <a class="button" href={repoUrl}>Inspect repository</a>
       </div>

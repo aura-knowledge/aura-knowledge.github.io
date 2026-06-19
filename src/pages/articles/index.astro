@@ -23,24 +23,34 @@ const articles = getArticles();
     <section class="article-index" aria-labelledby="article-index-title">
       <h2 id="article-index-title" class="visually-hidden">Article list</h2>
       <div class="article-index-list">
-        {articles.map((article) => (
-          <article class="article-index-card">
-            <div class="article-index-meta">
-              <span>{article.date}</span>
-              <span>{article.readingTime}</span>
-              <span class={`maturity maturity-${article.maturity}`}>{article.maturity}</span>
-            </div>
-            <h3>
-              <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
-            </h3>
-            <p class="article-index-topic">
-              <a href={`${base}topics/#topic-${article.topic}`}>
-                {article.topic.replaceAll("-", " ")}
-              </a>
+        {articles.length > 0 ? (
+          articles.map((article) => (
+            <article class="article-index-card">
+              <div class="article-index-meta">
+                <span>{article.date}</span>
+                <span>{article.readingTime}</span>
+                <span class={`maturity maturity-${article.maturity}`}>{article.maturity}</span>
+              </div>
+              <h3>
+                <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
+              </h3>
+              <p class="article-index-topic">
+                <a href={`${base}topics/#topic-${article.topic}`}>
+                  {article.topic.replaceAll("-", " ")}
+                </a>
+              </p>
+              <p class="article-index-summary">{article.summary}</p>
+            </article>
+          ))
+        ) : (
+          <div class="empty-state">
+            <p>
+              No articles have been published yet. New essays will appear here once
+              they are reviewed and marked published.
             </p>
-            <p class="article-index-summary">{article.summary}</p>
-          </article>
-        ))}
+            <a class="button" href={`${base}roadmap/`}>See the roadmap</a>
+          </div>
+        )}
       </div>
     </section>
   </div>
