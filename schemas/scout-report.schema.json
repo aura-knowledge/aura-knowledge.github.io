@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://v-i-s-h-a-l.github.io/knowledge/schemas/scout-report.schema.json",
+  "title": "Aura Knowledge Scout Report",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["schemaVersion", "generatedAt", "feedCounts", "candidates"],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "generatedAt": {
+      "type": "string"
+    },
+    "feedCounts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer"
+      }
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "$ref": "source-candidate.schema.json"
+      }
+    }
+  }
+}

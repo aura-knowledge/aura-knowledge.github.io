@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "feeds": [
+    {
+      "id": "hn-ai",
+      "name": "Hacker News AI",
+      "type": "rss",
+      "url": "https://hnrss.org/newest?q=AI",
+      "topic": "ai-native-publishing",
+      "enabled": true,
+      "sourceType": "article"
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "name": "arXiv CS.AI",
+      "type": "rss",
+      "url": "http://export.arxiv.org/rss/cs.AI",
+      "topic": "research-workflows",
+      "enabled": true,
+      "sourceType": "paper"
+    }
+  ]
+}
