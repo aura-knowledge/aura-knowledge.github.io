@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aura-knowledge.github.io/schemas/garden-queries.schema.json",
+  "title": "Garden Query Catalog",
+  "description": "Pre-computed query results over the Aura Knowledge garden.",
+  "type": "object",
+  "required": ["schemaVersion", "schema", "site", "base", "generatedAt", "dimensions", "queries"],
+  "additionalProperties": true,
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "schema": {
+      "type": "string",
+      "format": "uri"
+    },
+    "site": {
+      "type": "string",
+      "format": "uri"
+    },
+    "base": {
+      "type": "string"
+    },
+    "generatedAt": {
+      "type": "string"
+    },
+    "catalogSize": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "totalResults": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "queryCount": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "dimensions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "description"],
+        "additionalProperties": true,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "values": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "queries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "description", "params", "resultType", "resultCount", "results"],
+        "additionalProperties": true,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "params": {
+            "type": "object",
+            "additionalProperties": true
+          },
+          "resultType": {
+            "type": "string",
+            "enum": ["articles", "claims", "sources"]
+          },
+          "resultCount": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "results": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["articleId", "slug", "articleUrl"],
+              "additionalProperties": true,
+              "properties": {
+                "articleId": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "claimId": {
+                  "type": ["string", "null"]
+                },
+                "sourceId": {
+                  "type": ["string", "null"]
+                },
+                "articleUrl": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "agentJsonPath": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

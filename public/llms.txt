@@ -15,6 +15,7 @@
 ## Agent Artifacts
 - [Agent Index JSON](https://aura-knowledge.github.io/agents/index.json)
 - [Agent Index JSONL](https://aura-knowledge.github.io/agents/index.jsonl)
+- [Garden Query Catalog](https://aura-knowledge.github.io/agents/garden-queries.json)
 - [Graph Nodes](https://aura-knowledge.github.io/graph/nodes.json)
 - [Graph Edges](https://aura-knowledge.github.io/graph/edges.json)
 - [awesome-llm-apps-roadmap roadmap JSON](https://aura-knowledge.github.io/agents/roadmap/awesome-llm-apps-roadmap.json)

@@ -1,0 +1,694 @@
+{
+  "schemaVersion": 1,
+  "schema": "https://aura-knowledge.github.io/schemas/garden-queries.schema.json",
+  "site": "https://aura-knowledge.github.io",
+  "base": "",
+  "generatedAt": "2026-06-18T00:00:00.000Z",
+  "catalogSize": {
+    "queryCount": 6,
+    "totalResults": 56
+  },
+  "dimensions": [
+    {
+      "name": "topic",
+      "description": "Article topic.",
+      "values": [
+        "agent-provenance",
+        "agentic-commerce",
+        "ai-native-publishing",
+        "consumer-behavior",
+        "digital-gardens",
+        "incumbent-adjacent-ventures",
+        "open-protocols",
+        "product-truth",
+        "research-workflows"
+      ]
+    },
+    {
+      "name": "tag",
+      "description": "Article tag.",
+      "values": [
+        "ai-agents",
+        "commerce",
+        "consumer-behavior",
+        "digital-gardens",
+        "open-protocols",
+        "product-truth",
+        "publishing",
+        "research-workflows"
+      ]
+    },
+    {
+      "name": "maturity",
+      "description": "Article maturity.",
+      "values": [
+        "seed",
+        "sprout",
+        "evergreen",
+        "contested",
+        "superseded"
+      ]
+    },
+    {
+      "name": "status",
+      "description": "Article publication status.",
+      "values": [
+        "draft",
+        "review",
+        "published",
+        "archived"
+      ]
+    },
+    {
+      "name": "citesSourceType",
+      "description": "Source type cited by the article.",
+      "values": [
+        "design",
+        "documentation",
+        "industry-report",
+        "product",
+        "protocol",
+        "regulatory",
+        "regulatory-data",
+        "research",
+        "schema",
+        "standard"
+      ]
+    },
+    {
+      "name": "claimState",
+      "description": "Computed verification state of a claim.",
+      "values": [
+        "verified",
+        "contested",
+        "stale",
+        "needs-evidence",
+        "missing-counterevidence",
+        "draft"
+      ]
+    },
+    {
+      "name": "keyword",
+      "description": "Case-insensitive phrase match across title, summary, thesis, claims, sources, tags, and topics."
+    },
+    {
+      "name": "relatedTo",
+      "description": "Articles related by shared topic or graph edge to the given slug."
+    }
+  ],
+  "queries": [
+    {
+      "name": "articles-by-topic",
+      "description": "Published articles grouped by topic.",
+      "params": {
+        "groupBy": "topic"
+      },
+      "resultType": "articles",
+      "resultCount": 9,
+      "results": [
+        {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "topic": "agent-provenance"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "topic": "agentic-commerce"
+        },
+        {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "topic": "ai-native-publishing"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "topic": "consumer-behavior"
+        },
+        {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "topic": "digital-gardens"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "topic": "incumbent-adjacent-ventures"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "topic": "open-protocols"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "topic": "product-truth"
+        },
+        {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "topic": "research-workflows"
+        }
+      ]
+    },
+    {
+      "name": "claims-needing-evidence",
+      "description": "Claims whose computed verification state is needs-evidence.",
+      "params": {
+        "claimState": "needs-evidence"
+      },
+      "resultType": "claims",
+      "resultCount": 0,
+      "results": []
+    },
+    {
+      "name": "claims-contested-or-stale",
+      "description": "Claims whose computed verification state is contested or stale.",
+      "params": {
+        "claimState": [
+          "contested",
+          "stale"
+        ]
+      },
+      "resultType": "claims",
+      "resultCount": 0,
+      "results": []
+    },
+    {
+      "name": "high-confidence-claims",
+      "description": "Claims with confidence high.",
+      "params": {
+        "confidence": "high"
+      },
+      "resultType": "claims",
+      "resultCount": 2,
+      "results": [
+        {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "claimId": "claim-001",
+          "claim": "Polished prose is becoming cheap; inspectable reasoning is becoming scarce.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "claimId": "claim-005",
+          "claim": "AI assistance should be disclosed while the human remains accountable for thesis, source selection, wording, and conclusions.",
+          "confidence": "high",
+          "status": "normative"
+        }
+      ]
+    },
+    {
+      "name": "sources-by-type",
+      "description": "Sources grouped by source type.",
+      "params": {
+        "groupBy": "sourceType"
+      },
+      "resultType": "sources",
+      "resultCount": 43,
+      "results": [
+        {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "sourceId": "source-digital-gardens-appleton",
+          "sourceTitle": "A Brief History & Ethos of the Digital Garden",
+          "sourceType": "design",
+          "sourceUrl": "https://maggieappleton.com/nontechnical-gardening"
+        },
+        {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "sourceId": "source-digital-gardens-qu",
+          "sourceTitle": "Digital Gardens",
+          "sourceType": "design",
+          "sourceUrl": "https://vivqu.com/blog/2020/10/18/digital-gardens/"
+        },
+        {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "sourceId": "source-nng-cognitive-load",
+          "sourceTitle": "4 Principles for Reducing Cognitive Load in Forms",
+          "sourceType": "design",
+          "sourceUrl": "https://www.nngroup.com/articles/4-principles-reduce-cognitive-load/"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-google-product-structured-data",
+          "sourceTitle": "Product snippet structured data",
+          "sourceType": "documentation",
+          "sourceUrl": "https://developers.google.com/search/docs/appearance/structured-data/product-snippet"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-amazon-brand-protection-2024",
+          "sourceTitle": "How Amazon uses AI innovations to stop fraud and counterfeits",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.aboutamazon.com/news/policy-new-views/amazon-brand-protection-report-2024-counterfeit-products"
+        },
+        {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "sourceId": "source-wordpress-mcp-adapter",
+          "sourceTitle": "From Abilities to AI Agents: Introducing the WordPress MCP Adapter",
+          "sourceType": "product",
+          "sourceUrl": "https://developer.wordpress.org/news/2026/02/from-abilities-to-ai-agents-introducing-the-wordpress-mcp-adapter/"
+        },
+        {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "sourceId": "source-beehiiv-mcp-v2",
+          "sourceTitle": "beehiiv MCP v2",
+          "sourceType": "product",
+          "sourceUrl": "https://product.beehiiv.com/p/beehiiv-mcp-v2"
+        },
+        {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "sourceId": "source-cloudflare-emdash",
+          "sourceTitle": "Introducing EmDash",
+          "sourceType": "product",
+          "sourceUrl": "https://blog.cloudflare.com/emdash-wordpress/"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-openai-chatgpt-shopping",
+          "sourceTitle": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
+          "sourceType": "product",
+          "sourceUrl": "https://openai.com/index/buy-it-in-chatgpt/"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-openai-merchants",
+          "sourceTitle": "Power product discovery in ChatGPT",
+          "sourceType": "product",
+          "sourceUrl": "https://chatgpt.com/merchants/"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-amazon-rufus",
+          "sourceTitle": "Amazon Rufus AI experience comes to the Amazon Shopping app",
+          "sourceType": "product",
+          "sourceUrl": "https://www.aboutamazon.com/news/retail/amazon-rufus"
+        },
+        {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "sourceId": "source-llms-txt",
+          "sourceTitle": "llms.txt proposal",
+          "sourceType": "protocol",
+          "sourceUrl": "https://github.com/answerdotai/llms-txt"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-google-ucp",
+          "sourceTitle": "Getting started with Universal Commerce Protocol on Google",
+          "sourceType": "protocol",
+          "sourceUrl": "https://developers.google.com/merchant/ucp"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-google-ap2",
+          "sourceTitle": "Announcing Agent Payments Protocol (AP2)",
+          "sourceType": "protocol",
+          "sourceUrl": "https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-openai-stripe-acp",
+          "sourceTitle": "Stripe powers Instant Checkout in ChatGPT and releases Agentic Commerce Protocol",
+          "sourceType": "protocol",
+          "sourceUrl": "https://stripe.com/newsroom/news/stripe-openai-instant-checkout"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-ftc-fake-reviews-2024",
+          "sourceTitle": "Federal Trade Commission Announces Final Rule Banning Fake Reviews and Testimonials",
+          "sourceType": "regulatory",
+          "sourceUrl": "https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-eu-digital-product-passport",
+          "sourceTitle": "EU's Digital Product Passport: Advancing transparency and sustainability",
+          "sourceType": "regulatory",
+          "sourceUrl": "https://data.europa.eu/en/news-events/news/eus-digital-product-passport-advancing-transparency-and-sustainability"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-cpsc-recalls-api",
+          "sourceTitle": "CPSC Recalls Application Program Interface API Information",
+          "sourceType": "regulatory-data",
+          "sourceUrl": "https://www.cpsc.gov/Recalls/CPSC-Recalls-Application-Program-Interface-API-Information"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-openfda-food-enforcement",
+          "sourceTitle": "openFDA Food Enforcement API",
+          "sourceType": "regulatory-data",
+          "sourceUrl": "https://open.fda.gov/apis/food/enforcement/"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-epa-safer-choice-products",
+          "sourceTitle": "Search Products that Meet the Safer Choice Standard",
+          "sourceType": "regulatory-data",
+          "sourceUrl": "https://www.epa.gov/saferchoice/products"
+        },
+        {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "sourceId": "source-agentic-publications-2025",
+          "sourceTitle": "Agentic Publications: An LLM-Driven Framework for Interactive Scientific Publishing",
+          "sourceType": "research",
+          "sourceUrl": "https://arxiv.org/abs/2505.13246"
+        },
+        {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "sourceId": "source-provenance-2026",
+          "sourceTitle": "Responsible Agentic AI Requires Explicit Provenance",
+          "sourceType": "research",
+          "sourceUrl": "https://arxiv.org/abs/2605.17169"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-simon-attention-scarcity",
+          "sourceTitle": "Designing Organizations for an Information-Rich World",
+          "sourceType": "research",
+          "sourceUrl": "https://www.econbiz.de/Record/designing-organizations-for-an-information-rich-world-simon-herbert/10002817747"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-adobe-ai-traffic-2025",
+          "sourceTitle": "Adobe Analytics: Traffic to U.S. Retail Websites from Generative AI Sources Jumps 1,200 Percent",
+          "sourceType": "research",
+          "sourceUrl": "https://blog.adobe.com/en/publish/2025/03/17/adobe-analytics-traffic-to-us-retail-websites-from-generative-ai-sources-jumps-1200-percent"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-adobe-ai-traffic-2026",
+          "sourceTitle": "AI traffic grows but retail sites lag in AI search visibility",
+          "sourceType": "research",
+          "sourceUrl": "https://business.adobe.com/blog/ai-traffic-surge-retail-sites-not-machine-readable"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-choice-overload",
+          "sourceTitle": "When Choice is Demotivating: Can One Desire Too Much of a Good Thing?",
+          "sourceType": "research",
+          "sourceUrl": "https://business.columbia.edu/faculty/research/when-choice-demotivating-can-one-desire-too-much-good-thing"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-status-quo-bias",
+          "sourceTitle": "Status Quo Bias in Decision Making",
+          "sourceType": "research",
+          "sourceUrl": "https://rzeckhauser.scholars.harvard.edu/publications/status-quo-bias-decision-making"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-lee-see-automation-trust",
+          "sourceTitle": "Trust in Automation: Designing for Appropriate Reliance",
+          "sourceType": "research",
+          "sourceUrl": "https://journals.sagepub.com/doi/10.1518/hfes.46.1.50_30392"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-gartner-b2b-ai-2026",
+          "sourceTitle": "Gartner Sales Survey Finds 67% of B2B Buyers Prefer a Rep-Free Experience",
+          "sourceType": "research",
+          "sourceUrl": "https://www.gartner.com/en/newsroom/press-releases/2026-03-09-gartner-sales-survey-finds-67-percent-of-b2b-buyers-prefer-a-rep-free-experience"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-forrester-b2b-genai-2024",
+          "sourceTitle": "The Future Of B2B Buying Will Come Slowly And Then All At Once",
+          "sourceType": "research",
+          "sourceUrl": "https://www.forrester.com/blogs/the-future-of-b2b-buying-will-come-slowly-and-then-all-at-once/"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-deloitte-cpo-2025",
+          "sourceTitle": "2025 Global Chief Procurement Officer Survey",
+          "sourceType": "research",
+          "sourceUrl": "https://www.deloitte.com/us/en/about/press-room/2025-chief-procurement-officer-survey.html"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-truth-discovery-survey",
+          "sourceTitle": "A Survey on Truth Discovery",
+          "sourceType": "research",
+          "sourceUrl": "https://www.kdd.org/exploration_files/Article1_17_2.pdf"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-eigentrust",
+          "sourceTitle": "The EigenTrust Algorithm for Reputation Management in P2P Networks",
+          "sourceType": "research",
+          "sourceUrl": "https://nlp.stanford.edu/pubs/eigentrust.pdf"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-bayesian-truth-serum",
+          "sourceTitle": "Bayesian Truth Serum",
+          "sourceType": "research",
+          "sourceUrl": "https://nel.mit.edu/bayesian-truth-serum/"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-schema-product",
+          "sourceTitle": "Schema.org Product",
+          "sourceType": "schema",
+          "sourceUrl": "https://schema.org/Product"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-schema-review",
+          "sourceTitle": "Schema.org Review",
+          "sourceType": "schema",
+          "sourceUrl": "https://schema.org/Review"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-gs1-digital-link",
+          "sourceTitle": "GS1 Digital Link for Brand Owners",
+          "sourceType": "standard",
+          "sourceUrl": "https://www.gs1us.org/industries-and-insights/gs1-digital-link/for-brands"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-w3c-vc-data-model",
+          "sourceTitle": "Verifiable Credentials Data Model v2.0",
+          "sourceType": "standard",
+          "sourceUrl": "https://www.w3.org/TR/vc-data-model-2.0/"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-privacy-pass-architecture",
+          "sourceTitle": "The Privacy Pass Architecture",
+          "sourceType": "standard",
+          "sourceUrl": "https://datatracker.ietf.org/doc/rfc9576/"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-w3c-bbs",
+          "sourceTitle": "Data Integrity BBS Cryptosuites v1.0",
+          "sourceType": "standard",
+          "sourceUrl": "https://www.w3.org/TR/vc-di-bbs/"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-c2pa",
+          "sourceTitle": "C2PA Content Credentials and Provenance Standard",
+          "sourceType": "standard",
+          "sourceUrl": "https://c2pa.org/"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-w3c-prov-o",
+          "sourceTitle": "PROV-O: The PROV Ontology",
+          "sourceType": "standard",
+          "sourceUrl": "https://www.w3.org/TR/prov-o/"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-nist-ai-rmf",
+          "sourceTitle": "AI Risk Management Framework",
+          "sourceType": "standard",
+          "sourceUrl": "https://www.nist.gov/itl/ai-risk-management-framework"
+        }
+      ]
+    },
+    {
+      "name": "articles-with-draft-claims",
+      "description": "Published articles that contain at least one draft-state claim.",
+      "params": {
+        "claimState": "draft",
+        "status": "published"
+      },
+      "resultType": "articles",
+      "resultCount": 2,
+      "results": [
+        {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json"
+        }
+      ]
+    }
+  ]
+}
