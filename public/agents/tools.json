@@ -1,0 +1,434 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-19T12:19:28.076Z",
+  "site": "https://aura-knowledge.github.io",
+  "base": "",
+  "tools": [
+    {
+      "name": "createWorkspace",
+      "description": "Scaffold a new article workspace with article.md, agent.md, artifact.json, and workspace notes/sources.",
+      "category": "authoring",
+      "write": true,
+      "dryRunSupported": true,
+      "inputSchema": {
+        "type": "object",
+        "required": [
+          "slug"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$",
+            "description": "Article slug, e.g. agentic-commerce-update"
+          },
+          "year": {
+            "type": "string",
+            "pattern": "^\\d{4}$",
+            "description": "Publication year. Defaults to current year."
+          },
+          "topic": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$",
+            "description": "Primary topic slug. Defaults to the article slug."
+          },
+          "title": {
+            "type": "string"
+          },
+          "dek": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "thesis": {
+            "type": "string"
+          },
+          "seed": {
+            "type": "string",
+            "description": "Optional path to a seed notes file."
+          }
+        }
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "stdout": {
+            "type": "string"
+          },
+          "articleDir": {
+            "type": "string"
+          },
+          "recorded": {
+            "type": "boolean"
+          }
+        }
+      },
+      "examples": [
+        {
+          "slug": "agentic-commerce-update",
+          "topic": "agentic-commerce",
+          "title": "Agentic Commerce Update"
+        }
+      ]
+    },
+    {
+      "name": "importSource",
+      "description": "Import a URL, arXiv ID, DOI, or GitHub repo as a source candidate.",
+      "category": "authoring",
+      "write": true,
+      "dryRunSupported": true,
+      "inputSchema": {
+        "type": "object",
+        "required": [
+          "value"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "value": {
+            "type": "string",
+            "description": "URL, arXiv ID, DOI, or github.com/owner/repo"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "url",
+              "arxiv",
+              "doi",
+              "github"
+            ],
+            "description": "Input kind. Auto-detected if omitted."
+          },
+          "type": {
+            "type": "string",
+            "description": "Source type label, e.g. paper, article, repository."
+          },
+          "title": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "stdout": {
+            "type": "string"
+          }
+        }
+      },
+      "examples": [
+        {
+          "value": "https://arxiv.org/abs/2505.13246"
+        },
+        {
+          "value": "10.1234/example",
+          "kind": "doi"
+        }
+      ]
+    },
+    {
+      "name": "promoteSource",
+      "description": "Promote a scout candidate into an article's source ledger.",
+      "category": "authoring",
+      "write": true,
+      "dryRunSupported": true,
+      "inputSchema": {
+        "type": "object",
+        "required": [
+          "candidateId",
+          "article"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "candidateId": {
+            "type": "string",
+            "description": "Candidate ID, e.g. candidate-source-abc123"
+          },
+          "article": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$",
+            "description": "Target article slug."
+          },
+          "year": {
+            "type": "string",
+            "pattern": "^\\d{4}$",
+            "description": "Target article year. Defaults to current year."
+          }
+        }
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "stdout": {
+            "type": "string"
+          },
+          "recorded": {
+            "type": "boolean"
+          }
+        }
+      },
+      "examples": [
+        {
+          "candidateId": "candidate-source-abc123",
+          "article": "agentic-commerce-product-truth"
+        }
+      ]
+    },
+    {
+      "name": "auditDraft",
+      "description": "Run evidence diagnostics on one or all draft articles and write workspace/audit.json.",
+      "category": "governance",
+      "write": true,
+      "dryRunSupported": false,
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$",
+            "description": "Article slug to audit. Audits all articles if omitted."
+          }
+        }
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "stdout": {
+            "type": "string"
+          }
+        }
+      },
+      "examples": [
+        {
+          "slug": "agentic-commerce-product-truth"
+        }
+      ]
+    },
+    {
+      "name": "scoutSources",
+      "description": "Fetch configured RSS/Atom feeds and write source candidates and a daily report.",
+      "category": "authoring",
+      "write": true,
+      "dryRunSupported": true,
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "config": {
+            "type": "string",
+            "description": "Path to scout config. Defaults to scout.config.json."
+          }
+        }
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "stdout": {
+            "type": "string"
+          }
+        }
+      },
+      "examples": [
+        {}
+      ]
+    },
+    {
+      "name": "queryGarden",
+      "description": "Query articles by topic, tag, maturity, status, claim state, keyword, or relatedness.",
+      "category": "retrieval",
+      "write": false,
+      "dryRunSupported": false,
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "topic": {
+            "type": "string"
+          },
+          "tag": {
+            "type": "string"
+          },
+          "maturity": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "citesSourceType": {
+            "type": "string"
+          },
+          "claimState": {
+            "type": "string"
+          },
+          "keyword": {
+            "type": "string"
+          },
+          "relatedTo": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      },
+      "outputSchema": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "articleId": {
+              "type": "string"
+            },
+            "slug": {
+              "type": "string"
+            },
+            "articleUrl": {
+              "type": "string"
+            },
+            "agentJsonPath": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "examples": [
+        {
+          "topic": "product-truth"
+        },
+        {
+          "keyword": "agent",
+          "limit": 5
+        }
+      ]
+    },
+    {
+      "name": "inspectPacket",
+      "description": "Return a compact slice of an article, claim, source, or graph node.",
+      "category": "retrieval",
+      "write": false,
+      "dryRunSupported": false,
+      "inputSchema": {
+        "type": "object",
+        "required": [
+          "mode",
+          "target"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "mode": {
+            "type": "string",
+            "enum": [
+              "article",
+              "claim",
+              "source",
+              "graphSlice"
+            ]
+          },
+          "target": {
+            "type": "string"
+          },
+          "format": {
+            "type": "string",
+            "enum": [
+              "json",
+              "markdown"
+            ],
+            "default": "json"
+          }
+        }
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "stdout": {
+            "type": "string"
+          }
+        }
+      },
+      "examples": [
+        {
+          "mode": "article",
+          "target": "agent-auditable-research"
+        },
+        {
+          "mode": "claim",
+          "target": "agent-auditable-research:claim-001"
+        }
+      ]
+    },
+    {
+      "name": "runEvaluation",
+      "description": "Run the agent brief evaluation harness and regenerate the eval report.",
+      "category": "governance",
+      "write": true,
+      "dryRunSupported": false,
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {}
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "stdout": {
+            "type": "string"
+          }
+        }
+      },
+      "examples": [
+        {}
+      ]
+    },
+    {
+      "name": "generateArtifacts",
+      "description": "Regenerate all public agent and graph artifacts.",
+      "category": "build",
+      "write": true,
+      "dryRunSupported": false,
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {}
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "stdout": {
+            "type": "string"
+          }
+        }
+      },
+      "examples": [
+        {}
+      ]
+    },
+    {
+      "name": "validateGarden",
+      "description": "Run the full CI pipeline: generate, validate, build, and smoke tests.",
+      "category": "governance",
+      "write": false,
+      "dryRunSupported": false,
+      "inputSchema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {}
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "stdout": {
+            "type": "string"
+          }
+        }
+      },
+      "examples": [
+        {}
+      ]
+    }
+  ]
+}
