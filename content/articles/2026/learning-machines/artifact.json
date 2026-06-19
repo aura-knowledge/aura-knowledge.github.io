@@ -23,6 +23,13 @@
     "neural-networks",
     "computing-history"
   ],
+  "series": {
+    "slug": "long-human-road-to-ai",
+    "title": "The Long Human Road to AI",
+    "season": "Season 1",
+    "order": 5,
+    "role": "chapter"
+  },
   "claims": [
     {
       "id": "claim-001",

@@ -9,7 +9,7 @@ import AgentPacketLink from "../../components/AgentPacketLink.astro";
 import MaturityBadge from "../../components/MaturityBadge.astro";
 import StatusBadge from "../../components/StatusBadge.astro";
 import EmptyState from "../../components/EmptyState.astro";
-import { getArticles } from "../../lib/content";
+import { getArticles, getSeriesNavigation } from "../../lib/content";
 
 export function getStaticPaths() {
   return getArticles().map((article) => ({
@@ -22,6 +22,7 @@ const { article } = Astro.props;
 const Content = article.Content;
 const base = import.meta.env.BASE_URL;
 const allArticles = getArticles();
+const seriesNavigation = getSeriesNavigation(article, allArticles);
 const sourceById = new Map(article.artifact.sources.map((source) => [source.id, source]));
 const relatedArticles = allArticles
   .filter(
@@ -64,6 +65,36 @@ const jsonLd = {
         <StatusBadge status={article.status} />
       </div>
     </header>
+
+    {seriesNavigation && (
+      <nav class="article-series-nav" aria-labelledby="article-series-nav-title">
+        <div>
+          <p class="eyebrow">{seriesNavigation.series.season ?? "Series"}</p>
+          <h2 id="article-series-nav-title">{seriesNavigation.series.title}</h2>
+          <p>
+            Entry {(article.series?.order ?? 0) + 1} of {seriesNavigation.entries.length}
+          </p>
+        </div>
+        <div class="article-series-nav-links">
+          {seriesNavigation.previous ? (
+            <a href={`${base}articles/${seriesNavigation.previous.slug}/`}>
+              <span>Previous</span>
+              {seriesNavigation.previous.title}
+            </a>
+          ) : (
+            <span class="article-series-nav-empty">Start of series</span>
+          )}
+          {seriesNavigation.next ? (
+            <a href={`${base}articles/${seriesNavigation.next.slug}/`}>
+              <span>Next</span>
+              {seriesNavigation.next.title}
+            </a>
+          ) : (
+            <span class="article-series-nav-empty">End of series</span>
+          )}
+        </div>
+      </nav>
+    )}
 
     <div class="article-layout">
       <FocusRail claims={article.artifact.claims} />
