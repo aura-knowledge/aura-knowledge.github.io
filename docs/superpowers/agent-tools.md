@@ -6,6 +6,9 @@ workflow engine — can discover the available tools, call them through a single
 dispatcher, and run multi-step authoring workflows without a human remembering
 individual npm scripts.
 
+> For concrete prompts you can copy and paste to your AI agent, see
+> [Agent Tools: Human Prompt Guide](./agent-tools-human-guide.md).
+
 ## Manifest
 
 The canonical tool catalog is published at:
