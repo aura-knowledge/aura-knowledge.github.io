@@ -1,11 +1,50 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import EmptyState from "../components/EmptyState.astro";
-import { getArticles } from "../lib/content";
+import { getArticles, getTopicEntries } from "../lib/content";
 
 const base = import.meta.env.BASE_URL;
 const articles = getArticles();
 const latest = articles[0] ?? null;
+const topicEntries = getTopicEntries(articles)
+  .sort((left, right) => right[1].length - left[1].length || left[0].localeCompare(right[0]))
+  .slice(0, 8);
+const claimCount = articles.reduce((total, article) => total + article.artifact.claims.length, 0);
+const sourceIds = new Set(
+  articles.flatMap((article) => article.artifact.sources.map((source) => source.id))
+);
+const readingPaths = [
+  {
+    label: "Read",
+    title: latest ? "Start with the latest essay" : "Start with articles",
+    text: latest
+      ? latest.summary
+      : "Published essays will appear here once they are reviewed and marked published.",
+    href: latest ? `${base}articles/${latest.slug}/` : `${base}articles/`,
+    meta: latest ? latest.readingTime : `${articles.length} essays`
+  },
+  {
+    label: "Browse",
+    title: "Follow topic stems",
+    text: "Move through the garden by topic rather than recency. Each stem opens the articles attached to that idea.",
+    href: `${base}topics/`,
+    meta: `${topicEntries.length} visible stems`
+  },
+  {
+    label: "Trace",
+    title: "Inspect claims and sources",
+    text: "Open the graph when you want relationships, provenance, and evidence paths instead of a reading list.",
+    href: `${base}graph/`,
+    meta: `${claimCount} claims`
+  },
+  {
+    label: "Agents",
+    title: "Use structured packets",
+    text: "Agents can enter through compact JSON feeds, graph files, and packet indexes without scraping human pages.",
+    href: `${base}agents/`,
+    meta: `${sourceIds.size} sources`
+  }
+];
 ---
 
 <BaseLayout
@@ -14,12 +53,16 @@ const latest = articles[0] ?? null;
 >
   <div class="page-shell">
     <section class="home-hero" aria-labelledby="home-title">
-      <div>
+      <div class="home-hero-copy">
         <p class="eyebrow">Aura Knowledge</p>
-        <h1 id="home-title">Structured for agents. Guided for humans.</h1>
+        <h1 id="home-title">A public garden of reviewable knowledge records.</h1>
         <p class="lede">
-          A knowledge garden where essays are written for people first, then backed by claim maps,
-          evidence ledgers, and machine-readable artifacts that agents can inspect.
+          Essays are the readable surface. Under each one are claim maps, source ledgers,
+          provenance notes, and machine-readable artifacts that make the work traceable.
+        </p>
+        <p class="lede-note">
+          AURA stands for <strong>Agentic Universal Records Architecture</strong>: readable ideas
+          connected to reviewable records, provenance, and agent-ready artifacts.
         </p>
         {!latest && (
           <EmptyState
@@ -35,109 +78,125 @@ const latest = articles[0] ?? null;
             </a>
           )}
           <a class="button" href={`${base}topics/`}>Browse topics</a>
-          <a class="button" href={`${base}articles/`}>All articles</a>
-          <a class="button" href={`${base}roadmap/`}>Roadmap</a>
+          <a class="button" href={`${base}graph/`}>Trace the graph</a>
         </div>
       </div>
 
-      <aside class="stem-panel" aria-label="Knowledge stem preview">
-        <div class="stem-node">
-          <div>
-            <strong>Start here</strong>
-            <span>Read the latest essay, or browse topics to follow an idea.</span>
-          </div>
-        </div>
-        <div class="stem-node">
-          <div>
-            <strong>Read deeper</strong>
-            <span>Each article carries claim markers, evidence, and related reading.</span>
-          </div>
-        </div>
-        <div class="stem-node">
-          <div>
-            <strong>For agents</strong>
-            <span>JSON packets, claim graphs, and compact feeds live behind the Agent entry.</span>
-          </div>
-        </div>
+      <aside class="garden-map" aria-label="Garden map">
+        {readingPaths.map((path) => (
+          <a class="garden-path" href={path.href}>
+            <span>{path.label}</span>
+            <strong>{path.title}</strong>
+            <small>{path.meta}</small>
+          </a>
+        ))}
       </aside>
     </section>
 
-    <section class="section-band section-grid" aria-labelledby="shape-title">
-      <div>
-        <p class="eyebrow">Publishing shape</p>
-        <h2 id="shape-title">The garden is not a feed.</h2>
-      </div>
-      <div>
-        <p>
-          A feed rewards recency. This site rewards return visits to an evolving idea. Humans browse
-          by topic, read a focused argument, then follow related claims. Agents use the same
-          underlying artifacts without the human UI taking a back seat.
-        </p>
-        <ul class="signal-list">
-          <li>Humans browse topics and articles first; agent surfaces are reachable but secondary.</li>
-          <li>Each article exposes claim markers, evidence, and related reading inside the prose.</li>
-          <li>Agents get structured metadata, claim IDs, source IDs, and compact index files.</li>
-        </ul>
-      </div>
+    <section class="garden-entry-grid" aria-labelledby="paths-title">
+      <header class="section-intro">
+        <p class="eyebrow">Entry paths</p>
+        <h2 id="paths-title">Choose how you want to move through the garden.</h2>
+      </header>
+      {readingPaths.map((path) => (
+        <article class="entry-path-card">
+          <p>{path.label}</p>
+          <h3>
+            <a href={path.href}>{path.title}</a>
+          </h3>
+          <span>{path.text}</span>
+        </article>
+      ))}
     </section>
 
-    <section class="section-band section-grid" aria-labelledby="latest-title">
+    <section class="section-band garden-feature" aria-labelledby="latest-title">
       <div>
         <p class="eyebrow">Latest path</p>
-        <h2 id="latest-title">Start with the source object.</h2>
+        <h2 id="latest-title">Start with a source object, then branch outward.</h2>
       </div>
-      <div class="article-list">
-        {articles.length > 0 ? (
-          articles.map((article) => (
-            <article class="article-teaser">
-              <p>{article.maturity} / {article.topic.replaceAll("-", " ")}</p>
-              <h3>
-                <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
-              </h3>
-              <span>{article.summary}</span>
-            </article>
-          ))
-        ) : (
+      {latest ? (
+        <article class="latest-plot">
+          <div>
+            <p>{latest.maturity} / {latest.topic.replaceAll("-", " ")}</p>
+            <h3>
+              <a href={`${base}articles/${latest.slug}/`}>{latest.title}</a>
+            </h3>
+            <span>{latest.summary}</span>
+          </div>
+          <dl>
+            <div>
+              <dt>Claims</dt>
+              <dd>{latest.artifact.claims.length}</dd>
+            </div>
+            <div>
+              <dt>Sources</dt>
+              <dd>{latest.artifact.sources.length}</dd>
+            </div>
+            <div>
+              <dt>Packet</dt>
+              <dd>JSON + brief</dd>
+            </div>
+          </dl>
+        </article>
+      ) : (
+        <div>
           <EmptyState
             heading="No articles yet"
             headingLevel={3}
             message="No articles have been published yet. Check back soon, or follow the organization page to learn how new essays are added."
             action={{ href: `${base}organization/`, text: "About the garden" }}
           />
-        )}
-      </div>
-    </section>
-
-    <section class="section-band section-grid" aria-labelledby="roadmap-title">
-      <div>
-        <p class="eyebrow">Future path</p>
-        <h2 id="roadmap-title">The roadmap starts with evidence, not runtime chat.</h2>
-      </div>
-      <div>
-        <p>
-          A review of runnable LLM app patterns points to a practical sequence: stronger claim
-          packets, evidence diagnostics, author workspaces, source intake, and then agent-native
-          inspectors once the artifact contract is stable.
-        </p>
-        <a class="packet-link" href={`${base}roadmap/`}>Open the roadmap</a>
-      </div>
-    </section>
-
-    <section class="section-band section-grid machine-band" aria-labelledby="machines-title">
-      <div>
-        <p class="eyebrow">For machines</p>
-        <h2 id="machines-title">Agent-native artifacts live here too.</h2>
-      </div>
-      <div>
-        <p>
-          The same content that powers the human pages is exposed as JSON packets, claim graphs, and
-          compact feeds. Agents can start at the entry point and fetch only what they need.
-        </p>
-        <div class="button-row">
-          <a class="button" href={`${base}agents/`}>Agent entry</a>
-          <a class="button" href={`${base}graph/`}>Claim graph</a>
         </div>
+      )}
+    </section>
+
+    <section class="section-band topic-branch-section" aria-labelledby="topics-title">
+      <div>
+        <p class="eyebrow">Topic stems</p>
+        <h2 id="topics-title">Browse by relationship, not only by date.</h2>
       </div>
+      {topicEntries.length > 0 ? (
+        <div class="topic-branch-grid">
+          {topicEntries.map(([topic, topicArticles]) => (
+            <a class="topic-branch" href={`${base}topics/${topic}/`}>
+              <span>{topicArticles.length} article{topicArticles.length === 1 ? "" : "s"}</span>
+              <strong>{topic.replaceAll("-", " ")}</strong>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <EmptyState
+          heading="No topic stems yet"
+          headingLevel={3}
+          message="Topic stems are generated from published article artifacts."
+          action={{ href: `${base}articles/`, text: "Browse articles" }}
+        />
+      )}
+    </section>
+
+    <section class="section-band record-grid" aria-labelledby="records-title">
+      <header class="section-intro">
+        <p class="eyebrow">Records</p>
+        <h2 id="records-title">The human page and the machine packet point to the same work.</h2>
+      </header>
+      <article class="record-card">
+        <p>Trace</p>
+        <h3>Claims and sources stay visible.</h3>
+        <span>{claimCount} claims and {sourceIds.size} unique source records are exposed through article pages and graph data.</span>
+        <a class="packet-link" href={`${base}graph/`}>Open the graph</a>
+      </article>
+      <article class="record-card">
+        <p>Direction</p>
+        <h3>The roadmap is part of the garden.</h3>
+        <span>Future work is published as a reviewable sequence rather than hidden as private planning.</span>
+        <a class="packet-link" href={`${base}roadmap/`}>Open the roadmap</a>
+      </article>
+      <article class="record-card">
+        <p>Agents</p>
+        <h3>Automation gets a separate entrance.</h3>
+        <span>Compact feeds, packet indexes, and graph files support agents without dominating the reader interface.</span>
+        <a class="packet-link" href={`${base}agents/`}>Agent entry</a>
+      </article>
     </section>
   </div>
 </BaseLayout>
