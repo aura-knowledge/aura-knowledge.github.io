@@ -30,6 +30,13 @@
 {"from":"article:agentic-commerce-product-truth","to":"topic:open-protocols","type":"covers"}
 {"from":"article:agentic-commerce-product-truth","to":"topic:product-truth","type":"covers"}
 {"from":"article:agentic-commerce-product-truth","to":"topic:open-protocols","type":"topic"}
+{"from":"article:ai-agent-first-conversation","to":"article:ai-agent-first-conversation:claim-001","type":"argues"}
+{"from":"article:ai-agent-first-conversation","to":"article:ai-agent-first-conversation:claim-002","type":"argues"}
+{"from":"article:ai-agent-first-conversation","to":"article:ai-agent-first-conversation:claim-003","type":"argues"}
+{"from":"article:ai-agent-first-conversation","to":"article:ai-agent-first-conversation:claim-004","type":"argues"}
+{"from":"article:ai-agent-first-conversation","to":"topic:ai-agents","type":"covers"}
+{"from":"article:ai-agent-first-conversation","to":"topic:ai-literacy","type":"covers"}
+{"from":"article:ai-agent-first-conversation","to":"topic:onboarding","type":"covers"}
 {"from":"article:ai-winters-expert-systems","to":"article:ai-winters-expert-systems:claim-001","type":"argues"}
 {"from":"article:ai-winters-expert-systems","to":"article:ai-winters-expert-systems:claim-002","type":"argues"}
 {"from":"article:ai-winters-expert-systems","to":"article:ai-winters-expert-systems:claim-003","type":"argues"}
@@ -171,6 +178,8 @@
 {"from":"source-britannica-cybernetics","to":"article:formal-logic-to-computation:claim-009","type":"supports"}
 {"from":"source-c2pa","to":"article:agentic-commerce-product-truth:claim-011","type":"supports"}
 {"from":"source-c2pa","to":"article:agentic-commerce-product-truth:claim-013","type":"supports"}
+{"from":"source-chatgpt-overview","to":"article:ai-agent-first-conversation:claim-001","type":"supports"}
+{"from":"source-chatgpt-overview","to":"article:ai-agent-first-conversation:claim-004","type":"supports"}
 {"from":"source-chinchilla-2022","to":"article:foundation-models:claim-005","type":"supports"}
 {"from":"source-chm-abacus","to":"article:before-machines:claim-002","type":"supports"}
 {"from":"source-chm-abacus","to":"article:long-human-road-to-ai:claim-002","type":"supports"}
@@ -188,6 +197,7 @@
 {"from":"source-church-turing","to":"article:formal-logic-to-computation:claim-006","type":"supports"}
 {"from":"source-church","to":"article:formal-logic-to-computation:claim-003","type":"supports"}
 {"from":"source-church","to":"article:formal-logic-to-computation:claim-005","type":"supports"}
+{"from":"source-claude-capabilities","to":"article:ai-agent-first-conversation:claim-002","type":"supports"}
 {"from":"source-clip-2021","to":"article:foundation-models:claim-007","type":"supports"}
 {"from":"source-cloudflare-emdash","to":"article:agent-auditable-research:claim-004","type":"supports"}
 {"from":"source-cornell-perceptron","to":"article:birth-of-ai:claim-004","type":"supports"}
@@ -230,6 +240,7 @@
 {"from":"source-ftc-fake-reviews-2024","to":"article:agentic-commerce-product-truth:claim-009","type":"supports"}
 {"from":"source-ftc-fake-reviews-2024","to":"article:agentic-commerce-product-truth:claim-011","type":"supports"}
 {"from":"source-gartner-b2b-ai-2026","to":"article:agentic-commerce-product-truth:claim-007","type":"supports"}
+{"from":"source-gemini-overview","to":"article:ai-agent-first-conversation:claim-003","type":"supports"}
 {"from":"source-godel","to":"article:formal-logic-to-computation:claim-004","type":"supports"}
 {"from":"source-google-ap2","to":"article:agentic-commerce-product-truth:claim-003","type":"supports"}
 {"from":"source-google-product-structured-data","to":"article:agentic-commerce-product-truth:claim-004","type":"supports"}

@@ -3,10 +3,10 @@
   "schema": "https://aura-knowledge.github.io/schemas/garden-queries.schema.json",
   "site": "https://aura-knowledge.github.io",
   "base": "",
-  "generatedAt": "2026-06-20T00:00:00.000Z",
+  "generatedAt": "2026-06-26T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 259
+    "totalResults": 266
   },
   "dimensions": [
     {
@@ -15,8 +15,10 @@
       "values": [
         "agent-provenance",
         "agentic-commerce",
+        "ai-agents",
         "ai-governance",
         "ai-history",
+        "ai-literacy",
         "ai-native-publishing",
         "ai-society",
         "computability",
@@ -39,6 +41,7 @@
         "long-human-road-to-ai",
         "machine-learning",
         "neural-networks",
+        "onboarding",
         "open-protocols",
         "product-truth",
         "research-workflows",
@@ -54,6 +57,7 @@
         "abacus",
         "ai-agents",
         "ai-history",
+        "ai-literacy",
         "ai-society",
         "ai-winters",
         "automata",
@@ -81,11 +85,15 @@
         "mechanical-calculation",
         "multimodality",
         "neural-networks",
+        "non-technical",
+        "onboarding",
         "open-protocols",
         "pretraining",
         "product-truth",
+        "prompt-template",
         "publishing",
         "reading-guide",
+        "recipe",
         "research-workflows",
         "scaling",
         "series-overview",
@@ -215,7 +223,7 @@
         "groupBy": "topic"
       },
       "resultType": "articles",
-      "resultCount": 46,
+      "resultCount": 49,
       "results": [
         {
           "articleId": "article:agent-auditable-research",
@@ -230,6 +238,13 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
           "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
           "topic": "agentic-commerce"
+        },
+        {
+          "articleId": "article:ai-agent-first-conversation",
+          "slug": "ai-agent-first-conversation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
+          "agentJsonPath": "/agents/articles/ai-agent-first-conversation.json",
+          "topic": "ai-agents"
         },
         {
           "articleId": "article:foundation-models",
@@ -265,6 +280,13 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
           "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
           "topic": "ai-history"
+        },
+        {
+          "articleId": "article:ai-agent-first-conversation",
+          "slug": "ai-agent-first-conversation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
+          "agentJsonPath": "/agents/articles/ai-agent-first-conversation.json",
+          "topic": "ai-literacy"
         },
         {
           "articleId": "article:agent-auditable-research",
@@ -496,6 +518,13 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
           "agentJsonPath": "/agents/articles/learning-machines.json",
           "topic": "neural-networks"
+        },
+        {
+          "articleId": "article:ai-agent-first-conversation",
+          "slug": "ai-agent-first-conversation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
+          "agentJsonPath": "/agents/articles/ai-agent-first-conversation.json",
+          "topic": "onboarding"
         },
         {
           "articleId": "article:agentic-commerce-product-truth",
@@ -912,7 +941,7 @@
         "groupBy": "sourceType"
       },
       "resultType": "sources",
-      "resultCount": 170,
+      "resultCount": 173,
       "results": [
         {
           "articleId": "article:human-systems",
@@ -1935,6 +1964,36 @@
           "sourceUrl": "https://www.aboutamazon.com/news/retail/amazon-rufus"
         },
         {
+          "articleId": "article:ai-agent-first-conversation",
+          "slug": "ai-agent-first-conversation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
+          "agentJsonPath": "/agents/articles/ai-agent-first-conversation.json",
+          "sourceId": "source-chatgpt-overview",
+          "sourceTitle": "OpenAI: What can ChatGPT do?",
+          "sourceType": "product",
+          "sourceUrl": "https://openai.com/chatgpt/overview/"
+        },
+        {
+          "articleId": "article:ai-agent-first-conversation",
+          "slug": "ai-agent-first-conversation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
+          "agentJsonPath": "/agents/articles/ai-agent-first-conversation.json",
+          "sourceId": "source-claude-capabilities",
+          "sourceTitle": "Anthropic: Claude capabilities",
+          "sourceType": "product",
+          "sourceUrl": "https://www.anthropic.com/claude"
+        },
+        {
+          "articleId": "article:ai-agent-first-conversation",
+          "slug": "ai-agent-first-conversation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
+          "agentJsonPath": "/agents/articles/ai-agent-first-conversation.json",
+          "sourceId": "source-gemini-overview",
+          "sourceTitle": "Google: Gemini overview",
+          "sourceType": "product",
+          "sourceUrl": "https://gemini.google.com/"
+        },
+        {
           "articleId": "article:long-human-road-to-ai",
           "slug": "long-human-road-to-ai",
           "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
@@ -2624,7 +2683,7 @@
         "status": "published"
       },
       "resultType": "articles",
-      "resultCount": 10,
+      "resultCount": 11,
       "results": [
         {
           "articleId": "article:agent-auditable-research",
@@ -2637,6 +2696,12 @@
           "slug": "agentic-commerce-product-truth",
           "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
           "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json"
+        },
+        {
+          "articleId": "article:ai-agent-first-conversation",
+          "slug": "ai-agent-first-conversation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
+          "agentJsonPath": "/agents/articles/ai-agent-first-conversation.json"
         },
         {
           "articleId": "article:ai-winters-expert-systems",

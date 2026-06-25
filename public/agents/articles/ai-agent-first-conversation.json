@@ -184,5 +184,13 @@
       "id": "policy:default",
       "version": "1.0.0"
     }
-  }
+  },
+  "generatedAt": "2026-06-26T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
+  "agentJsonPath": "/agents/articles/ai-agent-first-conversation.json",
+  "agentMarkdownPath": "/agents/articles/ai-agent-first-conversation.md",
+  "sourceRepoPath": "content/articles/2026/ai-agent-first-conversation/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/ai-agent-first-conversation/article.md",
+  "tokenEstimate": 530,
+  "sectionOutline": []
 }

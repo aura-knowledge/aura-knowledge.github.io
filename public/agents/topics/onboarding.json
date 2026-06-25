@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "topic": "onboarding",
+  "articleIds": [
+    "article:ai-agent-first-conversation"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/onboarding/",
+  "agentJsonPath": "/agents/topics/onboarding.json",
+  "articles": [
+    {
+      "id": "article:ai-agent-first-conversation",
+      "slug": "ai-agent-first-conversation",
+      "title": "You Do Not Need to Learn AI First: A 5-Minute Conversation Recipe",
+      "summary": "A short, practical onboarding recipe that lets non-technical adults and teens start using AI agents by copying one prompt into any capable model, with worked examples for explaining a utility bill and turning meeting notes into summary, email, and action items.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "onboarding",
+        "ai-literacy"
+      ],
+      "tags": [
+        "ai-agents",
+        "onboarding",
+        "non-technical",
+        "prompt-template",
+        "recipe",
+        "ai-literacy"
+      ],
+      "canonicalPath": "/articles/ai-agent-first-conversation/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
+      "agentJsonPath": "/agents/articles/ai-agent-first-conversation.json",
+      "agentMarkdownPath": "/agents/articles/ai-agent-first-conversation.md",
+      "updatedAt": "2026-06-26",
+      "claimCount": 4,
+      "sourceCount": 3,
+      "tokenEstimate": 530,
+      "contentHash": "8544da2d0c8332ed39e72304d835e5da80980545de14ac9c4974855b393b232a"
+    }
+  ]
+}

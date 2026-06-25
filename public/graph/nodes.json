@@ -182,6 +182,45 @@
     "status": "proposal"
   },
   {
+    "id": "article:ai-agent-first-conversation",
+    "type": "article",
+    "label": "You Do Not Need to Learn AI First: A 5-Minute Conversation Recipe",
+    "path": "/articles/ai-agent-first-conversation/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:ai-agent-first-conversation:claim-001",
+    "type": "claim",
+    "label": "A single model-agnostic starter prompt is a more effective onboarding artifact for non-technical users than a feature list or vendor tutorial.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:ai-agent-first-conversation:claim-002",
+    "type": "claim",
+    "label": "The AI agent itself can act as the tutor, so newcomers do not need to study AI before they start using it.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:ai-agent-first-conversation:claim-003",
+    "type": "claim",
+    "label": "Suggesting the next question or direction after each answer removes the blank-page problem and keeps the experience experiential rather than instructional.",
+    "localId": "claim-003",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:ai-agent-first-conversation:claim-004",
+    "type": "claim",
+    "label": "Two short annotated transcripts are enough to teach the pattern: one proving intelligence through document explanation, and one proving productivity through one-input-multiple-outputs automation.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "design"
+  },
+  {
     "id": "article:ai-winters-expert-systems",
     "type": "article",
     "label": "Winters, Expert Systems, and the Cost of Overpromising Intelligence",
@@ -822,6 +861,13 @@
     "sourceType": "standard"
   },
   {
+    "id": "source-chatgpt-overview",
+    "type": "source",
+    "label": "OpenAI: What can ChatGPT do?",
+    "url": "https://openai.com/chatgpt/overview/",
+    "sourceType": "product"
+  },
+  {
     "id": "source-chinchilla-2022",
     "type": "source",
     "label": "Training Compute-Optimal Large Language Models",
@@ -904,6 +950,13 @@
     "label": "The Church-Turing Thesis",
     "url": "https://plato.stanford.edu/archives/fall2020/entries/church-turing/",
     "sourceType": "documentation"
+  },
+  {
+    "id": "source-claude-capabilities",
+    "type": "source",
+    "label": "Anthropic: Claude capabilities",
+    "url": "https://www.anthropic.com/claude",
+    "sourceType": "product"
   },
   {
     "id": "source-clip-2021",
@@ -1086,6 +1139,13 @@
     "label": "Gartner Sales Survey Finds 67% of B2B Buyers Prefer a Rep-Free Experience",
     "url": "https://www.gartner.com/en/newsroom/press-releases/2026-03-09-gartner-sales-survey-finds-67-percent-of-b2b-buyers-prefer-a-rep-free-experience",
     "sourceType": "research"
+  },
+  {
+    "id": "source-gemini-overview",
+    "type": "source",
+    "label": "Google: Gemini overview",
+    "url": "https://gemini.google.com/",
+    "sourceType": "product"
   },
   {
     "id": "source-godel",
@@ -1735,6 +1795,11 @@
     "label": "agentic-commerce"
   },
   {
+    "id": "topic:ai-agents",
+    "type": "topic",
+    "label": "ai-agents"
+  },
+  {
     "id": "topic:ai-governance",
     "type": "topic",
     "label": "ai-governance"
@@ -1743,6 +1808,11 @@
     "id": "topic:ai-history",
     "type": "topic",
     "label": "ai-history"
+  },
+  {
+    "id": "topic:ai-literacy",
+    "type": "topic",
+    "label": "ai-literacy"
   },
   {
     "id": "topic:ai-native-publishing",
@@ -1853,6 +1923,11 @@
     "id": "topic:neural-networks",
     "type": "topic",
     "label": "neural-networks"
+  },
+  {
+    "id": "topic:onboarding",
+    "type": "topic",
+    "label": "onboarding"
   },
   {
     "id": "topic:open-protocols",
