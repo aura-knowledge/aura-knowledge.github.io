@@ -235,7 +235,7 @@
     "Do not present AI agents as all-knowing or safe for high-stakes decisions without human review.",
     "When discussing model choice, keep recommendations task-based rather than benchmark-based."
   ],
-  "contentHash": "455ad2a170f9e724bce0fc3699e0c74c5c527d71214a439fc533bd1a6000fc35",
+  "contentHash": "6a1159bec01d89c53b7760a4c0a335edd67e31ead8ccf2c490bad5ffcba08185",
   "provenance": {
     "createdAt": "2026-06-26",
     "createdBy": "human",
@@ -245,14 +245,14 @@
         "model": "kimi",
         "invokedAt": "2026-06-26",
         "inputHash": "sha256:d599e966fa7fc73552f887bbcf6248fb11a54cf9de540dfd9fd51b9de061b244",
-        "outputHash": "sha256:455ad2a170f9e724bce0fc3699e0c74c5c527d71214a439fc533bd1a6000fc35"
+        "outputHash": "sha256:6a1159bec01d89c53b7760a4c0a335edd67e31ead8ccf2c490bad5ffcba08185"
       },
       {
         "role": "review",
         "model": "kimi",
         "invokedAt": "2026-06-26",
         "inputHash": "sha256:d6651e21815a9dc70aa1c0bb5fedeb3e191893e5b5bfe5a062b695e360ed757e",
-        "outputHash": "sha256:308c1eacdc33363a17834fb1bc468fb0f81c85fe98e7ab08102d4a2e8a4dac77"
+        "outputHash": "sha256:6de57fe9ff916530fa3d76cc64cc4328ebe1f3453886830415f2292728e621b0"
       }
     ],
     "reviews": [
@@ -267,7 +267,7 @@
           "scope"
         ],
         "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
-        "contentHash": "455ad2a170f9e724bce0fc3699e0c74c5c527d71214a439fc533bd1a6000fc35"
+        "contentHash": "6a1159bec01d89c53b7760a4c0a335edd67e31ead8ccf2c490bad5ffcba08185"
       },
       {
         "reviewer": "human",
@@ -280,7 +280,7 @@
           "safety"
         ],
         "notes": "Human author approved the draft for review publication.",
-        "contentHash": "455ad2a170f9e724bce0fc3699e0c74c5c527d71214a439fc533bd1a6000fc35"
+        "contentHash": "6a1159bec01d89c53b7760a4c0a335edd67e31ead8ccf2c490bad5ffcba08185"
       }
     ],
     "policy": {

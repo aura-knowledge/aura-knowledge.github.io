@@ -11,7 +11,7 @@ updated: 2026-06-26
 
 ## Thesis
 
-Non-technical adults and teens who have tried an AI agent once or twice need practical answers to common follow-up questions. The article covers what never to paste into a public agent, how to recover from wrong answers, when to trust the agent, how to preserve context across sessions, how to write better prompts without jargon, how to automate small repeated tasks, and how to choose between common AI models.
+Non-technical adults and teens who have tried an AI agent once or twice need a structured path from that first experiment to a safe, useful habit. The article follows the reader's likely learning sequence: protect information, handle wrong answers and trust questions, keep conversations alive across sessions, write better prompts, save reusable prompts, choose between common AI models, and practice with five safe conversations.
 
 ## Audience
 
@@ -42,13 +42,15 @@ This article was drafted with AI agent assistance using the article-proposal-ide
 
 ## Recommended Queries
 
+- What is the structured learning path in the article?
 - What is the "never paste" rule for public AI agents?
 - What should a user do when an AI agent gives a wrong answer?
 - How does the article distinguish low-stakes from high-stakes AI use?
+- How can a beginner preserve context across multiple AI conversations?
 - What are the four plain-language moves for writing better prompts?
 - What is the difference between Asking, Doing, and Expressing in AI conversations?
 - Which AI model does the article suggest for writing, current information, or non-English tasks?
-- What are the five safe practice conversations at the end of the article?
+- What are the five safe practice conversations in the practice plan?
 
 ## Known Limits
 
