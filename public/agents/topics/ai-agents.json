@@ -2,11 +2,46 @@
   "schemaVersion": 1,
   "topic": "ai-agents",
   "articleIds": [
+    "article:ai-agent-advanced-questions",
     "article:ai-agent-first-conversation"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/ai-agents/",
   "agentJsonPath": "/agents/topics/ai-agents.json",
   "articles": [
+    {
+      "id": "article:ai-agent-advanced-questions",
+      "slug": "ai-agent-advanced-questions",
+      "title": "Beyond the First Conversation: Advanced Questions for New AI Agent Users",
+      "summary": "A practical follow-up for non-technical readers who have tried an AI agent once or twice. It covers privacy limits, recovering from wrong answers, trust, better prompts, small automations, choosing a model, and five safe practice conversations.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "onboarding",
+        "ai-literacy",
+        "privacy",
+        "prompting"
+      ],
+      "tags": [
+        "ai-agents",
+        "onboarding",
+        "non-technical",
+        "ai-literacy",
+        "privacy",
+        "prompting",
+        "automation",
+        "model-choice"
+      ],
+      "canonicalPath": "/articles/ai-agent-advanced-questions/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
+      "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json",
+      "agentMarkdownPath": "/agents/articles/ai-agent-advanced-questions.md",
+      "updatedAt": "2026-06-26",
+      "claimCount": 7,
+      "sourceCount": 8,
+      "tokenEstimate": 707,
+      "contentHash": "fc4155c8ee2890deb0621f3545c1457979c971a8872fae79ee2a12301bc078d5"
+    },
     {
       "id": "article:ai-agent-first-conversation",
       "slug": "ai-agent-first-conversation",

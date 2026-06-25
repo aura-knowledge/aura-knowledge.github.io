@@ -279,6 +279,168 @@
       }
     },
     {
+      "slug": "ai-agent-advanced-questions",
+      "title": "Beyond the First Conversation: Advanced Questions for New AI Agent Users",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "A short concrete privacy checklist is more useful for new AI users than a long explanation of how training data works.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-advanced-questions: claim-001 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-advanced-questions: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-002",
+          "claim": "Teaching new users three recovery moves — ask for sources, rephrase, and test with a known answer — is enough to turn a wrong answer from a stop sign into a learning moment.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-advanced-questions: claim-002 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-advanced-questions: claim-002 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-003",
+          "claim": "A simple low-stakes versus high-stakes framing is enough to help non-technical users decide when to verify AI output.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-advanced-questions: claim-003 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-advanced-questions: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "Asking the agent for a brief summary at the end of a session is the easiest way for a beginner to preserve context across multiple conversations.",
+          "confidence": "medium",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-advanced-questions: claim-004 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-advanced-questions: claim-004 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-005",
+          "claim": "Four plain-language moves — context, desired output, exclusions, and options — are enough to improve most beginner prompts without teaching prompt-engineering jargon.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-advanced-questions: claim-005 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-advanced-questions: claim-005 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-006",
+          "claim": "A repeated \"doing\" prompt saved as a reusable template is the simplest form of automation for non-technical AI users.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-advanced-questions: claim-006 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-advanced-questions: claim-006 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-007",
+          "claim": "A short task-based comparison table is more useful to non-technical readers than benchmark scores or feature lists.",
+          "confidence": "medium",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-advanced-questions: claim-007 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-advanced-questions: claim-007 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 7
+      }
+    },
+    {
       "slug": "ai-agent-first-conversation",
       "title": "You Do Not Need to Learn AI First: A 5-Minute Conversation Recipe",
       "status": "published",

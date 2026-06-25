@@ -182,6 +182,69 @@
     "status": "proposal"
   },
   {
+    "id": "article:ai-agent-advanced-questions",
+    "type": "article",
+    "label": "Beyond the First Conversation: Advanced Questions for New AI Agent Users",
+    "path": "/articles/ai-agent-advanced-questions/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:ai-agent-advanced-questions:claim-001",
+    "type": "claim",
+    "label": "A short concrete privacy checklist is more useful for new AI users than a long explanation of how training data works.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:ai-agent-advanced-questions:claim-002",
+    "type": "claim",
+    "label": "Teaching new users three recovery moves — ask for sources, rephrase, and test with a known answer — is enough to turn a wrong answer from a stop sign into a learning moment.",
+    "localId": "claim-002",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:ai-agent-advanced-questions:claim-003",
+    "type": "claim",
+    "label": "A simple low-stakes versus high-stakes framing is enough to help non-technical users decide when to verify AI output.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:ai-agent-advanced-questions:claim-004",
+    "type": "claim",
+    "label": "Asking the agent for a brief summary at the end of a session is the easiest way for a beginner to preserve context across multiple conversations.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "design"
+  },
+  {
+    "id": "article:ai-agent-advanced-questions:claim-005",
+    "type": "claim",
+    "label": "Four plain-language moves — context, desired output, exclusions, and options — are enough to improve most beginner prompts without teaching prompt-engineering jargon.",
+    "localId": "claim-005",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:ai-agent-advanced-questions:claim-006",
+    "type": "claim",
+    "label": "A repeated \"doing\" prompt saved as a reusable template is the simplest form of automation for non-technical AI users.",
+    "localId": "claim-006",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:ai-agent-advanced-questions:claim-007",
+    "type": "claim",
+    "label": "A short task-based comparison table is more useful to non-technical readers than benchmark scores or feature lists.",
+    "localId": "claim-007",
+    "confidence": "medium",
+    "status": "design"
+  },
+  {
     "id": "article:ai-agent-first-conversation",
     "type": "article",
     "label": "You Do Not Need to Learn AI First: A 5-Minute Conversation Recipe",
@@ -805,6 +868,13 @@
     "sourceType": "product"
   },
   {
+    "id": "source-anthropic-prompting",
+    "type": "source",
+    "label": "Anthropic: Prompt engineering overview",
+    "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+    "sourceType": "product"
+  },
+  {
     "id": "source-backprop-1986",
     "type": "source",
     "label": "Learning Representations by Back-Propagating Errors",
@@ -1134,6 +1204,13 @@
     "sourceType": "regulatory"
   },
   {
+    "id": "source-future-ai-path-automation",
+    "type": "source",
+    "label": "Future AI Path: 10 Everyday Tasks You Can Automate with AI Right Now",
+    "url": "https://futureaipath.com/ai-productivity/task-automation/10-everyday-tasks-you-can-automate-with-ai-right-now/",
+    "sourceType": "guide"
+  },
+  {
     "id": "source-gartner-b2b-ai-2026",
     "type": "source",
     "label": "Gartner Sales Survey Finds 67% of B2B Buyers Prefer a Rep-Free Experience",
@@ -1197,6 +1274,13 @@
     "sourceType": "technical-report"
   },
   {
+    "id": "source-groundy-chinese-models",
+    "type": "source",
+    "label": "Groundy: Chinese AI Models Compared: DeepSeek, Qwen, Kimi, Doubao, and Ernie",
+    "url": "https://groundy.com/articles/the-chinese-ai-model-ecosystem-deepseek-qwen-kimi-doubao-and-ernie-compared/",
+    "sourceType": "comparison"
+  },
+  {
     "id": "source-gs1-digital-link",
     "type": "source",
     "label": "GS1 Digital Link for Brand Owners",
@@ -1225,6 +1309,13 @@
     "sourceType": "historiographic-commentary"
   },
   {
+    "id": "source-hathway-ai-safety",
+    "type": "source",
+    "label": "Hathway: How to Use AI Safely: 10 Mistakes to Avoid for Secure Usage",
+    "url": "https://www.hathway.com/About/Blog/how-to-use-ai-safely",
+    "sourceType": "safety-guide"
+  },
+  {
     "id": "source-helm-2022",
     "type": "source",
     "label": "Holistic Evaluation of Language Models",
@@ -1237,6 +1328,13 @@
     "label": "Mathematical Problems",
     "url": "https://aleph0.clarku.edu/~djoyce/hilbert/problems.html",
     "sourceType": "documentation"
+  },
+  {
+    "id": "source-hong-kong-privacy-tips",
+    "type": "source",
+    "label": "Privacy Commissioner for Personal Data, Hong Kong: 10 Tips for Users of AI Chatbots",
+    "url": "https://www.pcpd.org.hk/english/news_events/media_statements/press_20230913.html",
+    "sourceType": "safety-guide"
   },
   {
     "id": "source-iea-energy-ai",
@@ -1440,6 +1538,13 @@
     "label": "Stripe powers Instant Checkout in ChatGPT and releases Agentic Commerce Protocol",
     "url": "https://stripe.com/newsroom/news/stripe-openai-instant-checkout",
     "sourceType": "protocol"
+  },
+  {
+    "id": "source-openai-usage-study",
+    "type": "source",
+    "label": "TechRadar: OpenAI reveals how people use ChatGPT — 3 things we learned",
+    "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/openai-reveals-biggest-ever-study-of-how-people-are-using-chatgpt-here-are-3-things-weve-learned",
+    "sourceType": "research"
   },
   {
     "id": "source-openfda-food-enforcement",
@@ -1687,6 +1792,13 @@
     "sourceType": "essay"
   },
   {
+    "id": "source-tech-insider-models",
+    "type": "source",
+    "label": "Tech Insider: ChatGPT vs Claude vs Gemini vs DeepSeek [2026]",
+    "url": "https://tech-insider.org/chatgpt-vs-claude-vs-deepseek-vs-gemini-2026/",
+    "sourceType": "comparison"
+  },
+  {
     "id": "source-toolformer-2023",
     "type": "source",
     "label": "Toolformer: Language Models Can Teach Themselves to Use Tools",
@@ -1699,6 +1811,13 @@
     "label": "Attention Is All You Need",
     "url": "https://arxiv.org/abs/1706.03762",
     "sourceType": "research"
+  },
+  {
+    "id": "source-trinity-ai-privacy",
+    "type": "source",
+    "label": "Trinity College: Security Tip: AI & Data Privacy Best Practices",
+    "url": "https://www.trincoll.edu/lits/technology/security/best-practices/security-tips/ai-data-privacy/",
+    "sourceType": "safety-guide"
   },
   {
     "id": "source-truth-discovery-survey",
@@ -1935,9 +2054,19 @@
     "label": "open-protocols"
   },
   {
+    "id": "topic:privacy",
+    "type": "topic",
+    "label": "privacy"
+  },
+  {
     "id": "topic:product-truth",
     "type": "topic",
     "label": "product-truth"
+  },
+  {
+    "id": "topic:prompting",
+    "type": "topic",
+    "label": "prompting"
   },
   {
     "id": "topic:research-workflows",

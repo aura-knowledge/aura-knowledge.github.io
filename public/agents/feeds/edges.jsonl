@@ -30,6 +30,19 @@
 {"from":"article:agentic-commerce-product-truth","to":"topic:open-protocols","type":"covers"}
 {"from":"article:agentic-commerce-product-truth","to":"topic:product-truth","type":"covers"}
 {"from":"article:agentic-commerce-product-truth","to":"topic:open-protocols","type":"topic"}
+{"from":"article:ai-agent-advanced-questions","to":"article:ai-agent-advanced-questions:claim-001","type":"argues"}
+{"from":"article:ai-agent-advanced-questions","to":"article:ai-agent-advanced-questions:claim-002","type":"argues"}
+{"from":"article:ai-agent-advanced-questions","to":"article:ai-agent-advanced-questions:claim-003","type":"argues"}
+{"from":"article:ai-agent-advanced-questions","to":"article:ai-agent-advanced-questions:claim-004","type":"argues"}
+{"from":"article:ai-agent-advanced-questions","to":"article:ai-agent-advanced-questions:claim-005","type":"argues"}
+{"from":"article:ai-agent-advanced-questions","to":"article:ai-agent-advanced-questions:claim-006","type":"argues"}
+{"from":"article:ai-agent-advanced-questions","to":"article:ai-agent-advanced-questions:claim-007","type":"argues"}
+{"from":"article:ai-agent-advanced-questions","to":"article:ai-agent-first-conversation","type":"article"}
+{"from":"article:ai-agent-advanced-questions","to":"topic:ai-agents","type":"covers"}
+{"from":"article:ai-agent-advanced-questions","to":"topic:ai-literacy","type":"covers"}
+{"from":"article:ai-agent-advanced-questions","to":"topic:onboarding","type":"covers"}
+{"from":"article:ai-agent-advanced-questions","to":"topic:privacy","type":"covers"}
+{"from":"article:ai-agent-advanced-questions","to":"topic:prompting","type":"covers"}
 {"from":"article:ai-agent-first-conversation","to":"article:ai-agent-first-conversation:claim-001","type":"argues"}
 {"from":"article:ai-agent-first-conversation","to":"article:ai-agent-first-conversation:claim-002","type":"argues"}
 {"from":"article:ai-agent-first-conversation","to":"article:ai-agent-first-conversation:claim-003","type":"argues"}
@@ -169,6 +182,7 @@
 {"from":"source-amazon-rufus","to":"article:agentic-commerce-product-truth:claim-006","type":"supports"}
 {"from":"source-amazon-rufus","to":"article:agentic-commerce-product-truth:claim-008","type":"supports"}
 {"from":"source-amazon-rufus","to":"article:agentic-commerce-product-truth:claim-013","type":"supports"}
+{"from":"source-anthropic-prompting","to":"article:ai-agent-advanced-questions:claim-005","type":"supports"}
 {"from":"source-backprop-1986","to":"article:learning-machines:claim-006","type":"supports"}
 {"from":"source-bayesian-truth-serum","to":"article:agentic-commerce-product-truth:claim-009","type":"supports"}
 {"from":"source-beehiiv-mcp-v2","to":"article:agent-auditable-research:claim-004","type":"supports"}
@@ -239,6 +253,7 @@
 {"from":"source-ftc-fake-reviews-2024","to":"article:agentic-commerce-product-truth:claim-006","type":"supports"}
 {"from":"source-ftc-fake-reviews-2024","to":"article:agentic-commerce-product-truth:claim-009","type":"supports"}
 {"from":"source-ftc-fake-reviews-2024","to":"article:agentic-commerce-product-truth:claim-011","type":"supports"}
+{"from":"source-future-ai-path-automation","to":"article:ai-agent-advanced-questions:claim-006","type":"supports"}
 {"from":"source-gartner-b2b-ai-2026","to":"article:agentic-commerce-product-truth:claim-007","type":"supports"}
 {"from":"source-gemini-overview","to":"article:ai-agent-first-conversation:claim-003","type":"supports"}
 {"from":"source-godel","to":"article:formal-logic-to-computation:claim-004","type":"supports"}
@@ -264,6 +279,8 @@
 {"from":"source-hai-ai-index","to":"article:human-systems:claim-002","type":"supports"}
 {"from":"source-hai-ai-index","to":"article:long-human-road-to-ai:claim-006","type":"supports"}
 {"from":"source-haigh-no-first-winter","to":"article:ai-winters-expert-systems:claim-002","type":"supports"}
+{"from":"source-hathway-ai-safety","to":"article:ai-agent-advanced-questions:claim-001","type":"supports"}
+{"from":"source-hathway-ai-safety","to":"article:ai-agent-advanced-questions:claim-003","type":"supports"}
 {"from":"source-helm-2022","to":"article:foundation-models:claim-009","type":"supports"}
 {"from":"source-hilbert-problems","to":"article:formal-logic-to-computation:claim-003","type":"supports"}
 {"from":"source-iea-energy-ai","to":"article:human-systems:claim-005","type":"supports"}
@@ -319,6 +336,7 @@
 {"from":"source-openai-merchants","to":"article:agentic-commerce-product-truth:claim-008","type":"supports"}
 {"from":"source-openai-merchants","to":"article:agentic-commerce-product-truth:claim-013","type":"supports"}
 {"from":"source-openai-stripe-acp","to":"article:agentic-commerce-product-truth:claim-008","type":"supports"}
+{"from":"source-openai-usage-study","to":"article:ai-agent-advanced-questions:claim-004","type":"supports"}
 {"from":"source-openfda-food-enforcement","to":"article:agentic-commerce-product-truth:claim-015","type":"supports"}
 {"from":"source-pai-data-labor","to":"article:human-systems:claim-001","type":"supports"}
 {"from":"source-pai-data-labor","to":"article:long-human-road-to-ai:claim-006","type":"supports"}
@@ -371,9 +389,11 @@
 {"from":"source-smithsonian-punch-cards","to":"article:before-machines:claim-007","type":"supports"}
 {"from":"source-status-quo-bias","to":"article:agentic-commerce-product-truth:claim-002","type":"supports"}
 {"from":"source-sutton-bitter","to":"article:learning-machines:claim-008","type":"supports"}
+{"from":"source-tech-insider-models","to":"article:ai-agent-advanced-questions:claim-007","type":"supports"}
 {"from":"source-toolformer-2023","to":"article:foundation-models:claim-008","type":"supports"}
 {"from":"source-transformer-2017","to":"article:foundation-models:claim-003","type":"supports"}
 {"from":"source-transformer-2017","to":"article:long-human-road-to-ai:claim-005","type":"supports"}
+{"from":"source-trinity-ai-privacy","to":"article:ai-agent-advanced-questions:claim-002","type":"supports"}
 {"from":"source-truth-discovery-survey","to":"article:agentic-commerce-product-truth:claim-009","type":"supports"}
 {"from":"source-truth-discovery-survey","to":"article:agentic-commerce-product-truth:claim-011","type":"supports"}
 {"from":"source-turing-1936","to":"article:formal-logic-to-computation:claim-004","type":"supports"}
