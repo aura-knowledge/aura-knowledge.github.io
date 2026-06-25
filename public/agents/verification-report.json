@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-20T00:00:00.000Z",
+  "generatedAt": "2026-06-26T00:00:00.000Z",
   "articles": [
     {
       "slug": "agent-auditable-research",
@@ -280,8 +280,8 @@
     },
     {
       "slug": "ai-agent-first-conversation",
-      "title": "You Don't Need to Learn AI First: A 5-Minute Conversation Recipe",
-      "status": "review",
+      "title": "You Do Not Need to Learn AI First: A 5-Minute Conversation Recipe",
+      "status": "published",
       "claims": [
         {
           "id": "claim-001",

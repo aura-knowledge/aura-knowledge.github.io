@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-20T00:00:00.000Z",
+  "generatedAt": "2026-06-26T00:00:00.000Z",
   "summary": {
     "total": 5,
     "passed": 5,
@@ -116,7 +116,11 @@
           "article:agentic-commerce-product-truth:claim-012",
           "article:agentic-commerce-product-truth:claim-013",
           "article:agentic-commerce-product-truth:claim-014",
-          "article:agentic-commerce-product-truth:claim-015"
+          "article:agentic-commerce-product-truth:claim-015",
+          "article:ai-agent-first-conversation:claim-001",
+          "article:ai-agent-first-conversation:claim-002",
+          "article:ai-agent-first-conversation:claim-003",
+          "article:ai-agent-first-conversation:claim-004"
         ]
       },
       "failures": []
@@ -170,6 +174,10 @@
           "article:agentic-commerce-product-truth:claim-013",
           "article:agentic-commerce-product-truth:claim-014",
           "article:agentic-commerce-product-truth:claim-015",
+          "article:ai-agent-first-conversation:claim-001",
+          "article:ai-agent-first-conversation:claim-002",
+          "article:ai-agent-first-conversation:claim-003",
+          "article:ai-agent-first-conversation:claim-004",
           "article:ai-winters-expert-systems:claim-001",
           "article:ai-winters-expert-systems:claim-002",
           "article:ai-winters-expert-systems:claim-003",

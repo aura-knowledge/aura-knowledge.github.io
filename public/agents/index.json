@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-06-20T00:00:00.000Z",
+  "generatedAt": "2026-06-26T00:00:00.000Z",
   "site": "https://aura-knowledge.github.io",
   "base": "",
   "articles": [
@@ -63,6 +63,36 @@
       "sourceCount": 34,
       "tokenEstimate": 1431,
       "contentHash": "4014d7d5a97200dd5194fd5c82e83c9d74f602ccc90fc5ec9abf2e393643e302"
+    },
+    {
+      "id": "article:ai-agent-first-conversation",
+      "slug": "ai-agent-first-conversation",
+      "title": "You Do Not Need to Learn AI First: A 5-Minute Conversation Recipe",
+      "summary": "A short, practical onboarding recipe that lets non-technical adults and teens start using AI agents by copying one prompt into any capable model, with worked examples for explaining a utility bill and turning meeting notes into summary, email, and action items.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "onboarding",
+        "ai-literacy"
+      ],
+      "tags": [
+        "ai-agents",
+        "onboarding",
+        "non-technical",
+        "prompt-template",
+        "recipe",
+        "ai-literacy"
+      ],
+      "canonicalPath": "/articles/ai-agent-first-conversation/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
+      "agentJsonPath": "/agents/articles/ai-agent-first-conversation.json",
+      "agentMarkdownPath": "/agents/articles/ai-agent-first-conversation.md",
+      "updatedAt": "2026-06-26",
+      "claimCount": 4,
+      "sourceCount": 3,
+      "tokenEstimate": 530,
+      "contentHash": "8544da2d0c8332ed39e72304d835e5da80980545de14ac9c4974855b393b232a"
     },
     {
       "id": "article:ai-winters-expert-systems",
@@ -352,6 +382,15 @@
       "agentJsonPath": "/agents/topics/agentic-commerce.json"
     },
     {
+      "topic": "ai-agents",
+      "label": "ai agents",
+      "articleIds": [
+        "article:ai-agent-first-conversation"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/ai-agents/",
+      "agentJsonPath": "/agents/topics/ai-agents.json"
+    },
+    {
       "topic": "ai-governance",
       "label": "ai governance",
       "articleIds": [
@@ -371,6 +410,15 @@
       ],
       "pageUrl": "https://aura-knowledge.github.io/topics/ai-history/",
       "agentJsonPath": "/agents/topics/ai-history.json"
+    },
+    {
+      "topic": "ai-literacy",
+      "label": "ai literacy",
+      "articleIds": [
+        "article:ai-agent-first-conversation"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/ai-literacy/",
+      "agentJsonPath": "/agents/topics/ai-literacy.json"
     },
     {
       "topic": "ai-native-publishing",
@@ -582,6 +630,15 @@
       "agentJsonPath": "/agents/topics/neural-networks.json"
     },
     {
+      "topic": "onboarding",
+      "label": "onboarding",
+      "articleIds": [
+        "article:ai-agent-first-conversation"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/onboarding/",
+      "agentJsonPath": "/agents/topics/onboarding.json"
+    },
+    {
       "topic": "open-protocols",
       "label": "open protocols",
       "articleIds": [
@@ -642,6 +699,7 @@
       "articleIds": [
         "article:agent-auditable-research",
         "article:agentic-commerce-product-truth",
+        "article:ai-agent-first-conversation",
         "article:ai-winters-expert-systems",
         "article:before-machines",
         "article:birth-of-ai",
@@ -659,6 +717,7 @@
           "articleIds": [
             "article:agent-auditable-research",
             "article:agentic-commerce-product-truth",
+            "article:ai-agent-first-conversation",
             "article:ai-winters-expert-systems",
             "article:before-machines",
             "article:birth-of-ai",

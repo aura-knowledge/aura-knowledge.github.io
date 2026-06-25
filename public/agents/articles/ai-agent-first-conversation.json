@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 3,
+  "id": "article:ai-agent-first-conversation",
+  "slug": "ai-agent-first-conversation",
+  "title": "You Do Not Need to Learn AI First: A 5-Minute Conversation Recipe",
+  "canonicalPath": "/articles/ai-agent-first-conversation/",
+  "sourcePath": "content/articles/2026/ai-agent-first-conversation/article.md",
+  "agentBriefPath": "content/articles/2026/ai-agent-first-conversation/agent.md",
+  "thesis": "Non-technical adults and teens can start using AI agents by copying one plain-language prompt into any capable model, letting the agent interview them about an everyday problem and suggest what to ask next.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-26",
+  "updatedAt": "2026-06-26",
+  "audiences": [
+    "general",
+    "students",
+    "non-technical"
+  ],
+  "topics": [
+    "ai-agents",
+    "onboarding",
+    "ai-literacy"
+  ],
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "A single model-agnostic starter prompt is a more effective onboarding artifact for non-technical users than a feature list or vendor tutorial.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-chatgpt-overview",
+          "snippet": "ChatGPT can answer questions, help with writing, analysis, coding, and many other tasks through conversation.",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some users may still prefer structured tutorials or video walkthroughs depending on learning style.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "The AI agent itself can act as the tutor, so newcomers do not need to study AI before they start using it.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-claude-capabilities",
+          "snippet": "Claude can assist with analysis, writing, coding, math, and answering questions across many domains.",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Basic digital literacy and an understanding of when to verify facts are still prerequisites for safe use.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Suggesting the next question or direction after each answer removes the blank-page problem and keeps the experience experiential rather than instructional.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-gemini-overview",
+          "snippet": "Gemini can engage in multi-turn conversations and help users explore topics iteratively.",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The effectiveness depends on the quality of the starter prompt and the user's willingness to engage.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Two short annotated transcripts are enough to teach the pattern: one proving intelligence through document explanation, and one proving productivity through one-input-multiple-outputs automation.",
+      "confidence": "medium",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-chatgpt-overview",
+          "snippet": "Conversational AI can summarize, explain, and draft content from user-provided inputs.",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Two examples may not cover all reader contexts; additional examples may be needed after reader feedback.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-chatgpt-overview",
+      "title": "OpenAI: What can ChatGPT do?",
+      "url": "https://openai.com/chatgpt/overview/",
+      "type": "product",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-claude-capabilities",
+      "title": "Anthropic: Claude capabilities",
+      "url": "https://www.anthropic.com/claude",
+      "type": "product",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-gemini-overview",
+      "title": "Google: Gemini overview",
+      "url": "https://gemini.google.com/",
+      "type": "product",
+      "accessed": "2026-06-26"
+    }
+  ],
+  "related": [],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Do not present AI agents as all-knowing or safe for high-stakes decisions without human review."
+  ],
+  "contentHash": "8544da2d0c8332ed39e72304d835e5da80980545de14ac9c4974855b393b232a",
+  "provenance": {
+    "createdAt": "2026-06-26",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-06-26",
+        "inputHash": "sha256:d599e966fa7fc73552f887bbcf6248fb11a54cf9de540dfd9fd51b9de061b244",
+        "outputHash": "sha256:8544da2d0c8332ed39e72304d835e5da80980545de14ac9c4974855b393b232a"
+      },
+      {
+        "role": "review",
+        "model": "kimi",
+        "invokedAt": "2026-06-26",
+        "inputHash": "sha256:d6651e21815a9dc70aa1c0bb5fedeb3e191893e5b5bfe5a062b695e360ed757e",
+        "outputHash": "sha256:f576e90afef128efcffc92b93741e3276054ca8897f057b84bbf7cf2250e8eab"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-26",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "tone",
+          "privacy",
+          "scope"
+        ],
+        "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
+        "contentHash": "8544da2d0c8332ed39e72304d835e5da80980545de14ac9c4974855b393b232a"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-26",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "examples",
+          "tone",
+          "safety"
+        ],
+        "notes": "Human author approved the draft and assets for review publication.",
+        "contentHash": "8544da2d0c8332ed39e72304d835e5da80980545de14ac9c4974855b393b232a"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "generatedAt": "2026-06-26T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
+  "agentJsonPath": "/agents/articles/ai-agent-first-conversation.json",
+  "agentMarkdownPath": "/agents/articles/ai-agent-first-conversation.md",
+  "sourceRepoPath": "content/articles/2026/ai-agent-first-conversation/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/ai-agent-first-conversation/article.md",
+  "tokenEstimate": 530,
+  "sectionOutline": []
+}
