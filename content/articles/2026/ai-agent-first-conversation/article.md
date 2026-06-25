@@ -36,7 +36,11 @@ what to ask next when you are stuck. They do not understand things the way a
 person does, but they are very good at organizing information and wording it so
 it makes sense to you.
 
+<span id="claim-002" class="claim-marker" data-claim="claim-002">Claim C2</span> The AI agent itself can act as the tutor, so newcomers do not need to study AI before they start using it.
+
 This article gives you one plain-language prompt and two real ways to use it.
+
+<span id="claim-001" class="claim-marker" data-claim="claim-001">Claim C1</span> A single model-agnostic starter prompt is a more effective onboarding artifact for non-technical users than a feature list or vendor tutorial.
 
 ---
 
@@ -126,6 +130,8 @@ if the payment is late?
 The AI pulled out the pieces that matter, admitted when it did not know what
 "UDC" meant, and offered sensible next questions.
 
+<span id="claim-003" class="claim-marker" data-claim="claim-003">Claim C3</span> Suggesting the next question or direction after each answer removes the blank-page problem and keeps the experience experiential rather than instructional.
+
 ---
 
 ## Example 2: "Turn these meeting notes into useful outputs"
@@ -186,6 +192,8 @@ Thanks,
 One input, three useful outputs.
 
 ![One input, meeting notes, produces three outputs: summary, follow-up email, and action items](meeting-notes-flow.svg)
+
+<span id="claim-004" class="claim-marker" data-claim="claim-004">Claim C4</span> Two short annotated transcripts are enough to teach the pattern: one proving intelligence through document explanation, and one proving productivity through one-input-multiple-outputs automation.
 
 ---
 
