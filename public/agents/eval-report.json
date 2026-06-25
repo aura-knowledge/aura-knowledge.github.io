@@ -92,7 +92,8 @@
       "actual": {
         "slugs": [
           "agent-auditable-research",
-          "agentic-commerce-product-truth"
+          "agentic-commerce-product-truth",
+          "ai-agent-first-conversation"
         ],
         "claimIds": [
           "article:agent-auditable-research:claim-001",
@@ -137,6 +138,7 @@
         "slugs": [
           "agent-auditable-research",
           "agentic-commerce-product-truth",
+          "ai-agent-first-conversation",
           "ai-winters-expert-systems",
           "before-machines",
           "birth-of-ai",

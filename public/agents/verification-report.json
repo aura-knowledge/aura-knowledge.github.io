@@ -279,6 +279,105 @@
       }
     },
     {
+      "slug": "ai-agent-first-conversation",
+      "title": "You Don't Need to Learn AI First: A 5-Minute Conversation Recipe",
+      "status": "review",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "A single model-agnostic starter prompt is a more effective onboarding artifact for non-technical users than a feature list or vendor tutorial.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-first-conversation: claim-001 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-first-conversation: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-002",
+          "claim": "The AI agent itself can act as the tutor, so newcomers do not need to study AI before they start using it.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-first-conversation: claim-002 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-first-conversation: claim-002 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-003",
+          "claim": "Suggesting the next question or direction after each answer removes the blank-page problem and keeps the experience experiential rather than instructional.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-first-conversation: claim-003 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-first-conversation: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "Two short annotated transcripts are enough to teach the pattern: one proving intelligence through document explanation, and one proving productivity through one-input-multiple-outputs automation.",
+          "confidence": "medium",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-first-conversation: claim-004 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-agent-first-conversation: claim-004 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
       "slug": "ai-winters-expert-systems",
       "title": "Winters, Expert Systems, and the Cost of Overpromising Intelligence",
       "status": "published",
