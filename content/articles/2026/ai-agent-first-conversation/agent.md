@@ -3,9 +3,9 @@ schemaVersion: 1
 id: agent-brief:ai-agent-first-conversation
 articleId: article:ai-agent-first-conversation
 slug: ai-agent-first-conversation
-title: "Agent Brief for 'You Don't Need to Learn AI First: A 5-Minute Conversation Recipe'"
+title: "Agent Brief for 'You Do Not Need to Learn AI First: A 5-Minute Conversation Recipe'"
 tokenBudget: 1200
-status: review
+status: published
 updated: 2026-06-26
 ---
 

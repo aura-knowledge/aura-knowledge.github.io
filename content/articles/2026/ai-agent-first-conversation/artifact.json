@@ -2,12 +2,12 @@
   "schemaVersion": 3,
   "id": "article:ai-agent-first-conversation",
   "slug": "ai-agent-first-conversation",
-  "title": "You Don't Need to Learn AI First: A 5-Minute Conversation Recipe",
+  "title": "You Do Not Need to Learn AI First: A 5-Minute Conversation Recipe",
   "canonicalPath": "/articles/ai-agent-first-conversation/",
   "sourcePath": "content/articles/2026/ai-agent-first-conversation/article.md",
   "agentBriefPath": "content/articles/2026/ai-agent-first-conversation/agent.md",
   "thesis": "Non-technical adults and teens can start using AI agents by copying one plain-language prompt into any capable model, letting the agent interview them about an everyday problem and suggest what to ask next.",
-  "status": "review",
+  "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-26",
   "updatedAt": "2026-06-26",
@@ -132,7 +132,7 @@
     "Treat maturity=seed as an explicit uncertainty marker.",
     "Do not present AI agents as all-knowing or safe for high-stakes decisions without human review."
   ],
-  "contentHash": "f577845b1aefcaca01388a44c377209c6c73cf35186438af21dc48f4ca77bf0a",
+  "contentHash": "8544da2d0c8332ed39e72304d835e5da80980545de14ac9c4974855b393b232a",
   "provenance": {
     "createdAt": "2026-06-26",
     "createdBy": "human",
@@ -142,14 +142,14 @@
         "model": "kimi",
         "invokedAt": "2026-06-26",
         "inputHash": "sha256:d599e966fa7fc73552f887bbcf6248fb11a54cf9de540dfd9fd51b9de061b244",
-        "outputHash": "sha256:f577845b1aefcaca01388a44c377209c6c73cf35186438af21dc48f4ca77bf0a"
+        "outputHash": "sha256:8544da2d0c8332ed39e72304d835e5da80980545de14ac9c4974855b393b232a"
       },
       {
         "role": "review",
         "model": "kimi",
         "invokedAt": "2026-06-26",
         "inputHash": "sha256:d6651e21815a9dc70aa1c0bb5fedeb3e191893e5b5bfe5a062b695e360ed757e",
-        "outputHash": "sha256:dd891d1fddc7cb320f7a3d2c66041d6c24d3610e6c3661a0c2066d782a2b4c33"
+        "outputHash": "sha256:f576e90afef128efcffc92b93741e3276054ca8897f057b84bbf7cf2250e8eab"
       }
     ],
     "reviews": [
@@ -164,7 +164,7 @@
           "scope"
         ],
         "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
-        "contentHash": "f577845b1aefcaca01388a44c377209c6c73cf35186438af21dc48f4ca77bf0a"
+        "contentHash": "8544da2d0c8332ed39e72304d835e5da80980545de14ac9c4974855b393b232a"
       },
       {
         "reviewer": "human",
@@ -177,7 +177,7 @@
           "safety"
         ],
         "notes": "Human author approved the draft and assets for review publication.",
-        "contentHash": "f577845b1aefcaca01388a44c377209c6c73cf35186438af21dc48f4ca77bf0a"
+        "contentHash": "8544da2d0c8332ed39e72304d835e5da80980545de14ac9c4974855b393b232a"
       }
     ],
     "policy": {
