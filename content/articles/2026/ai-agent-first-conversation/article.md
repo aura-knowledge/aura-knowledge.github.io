@@ -36,19 +36,31 @@ what to ask next when you are stuck. They do not understand things the way a
 person does, but they are very good at organizing information and wording it so
 it makes sense to you.
 
-<span id="claim-002" class="claim-marker" data-claim="claim-002">Claim C2</span> The AI agent itself can act as the tutor, so newcomers do not need to study AI before they start using it.
+<span id="claim-001" class="claim-marker" data-claim="claim-001">Claim C1</span> A single model-agnostic starter prompt is a more effective onboarding artifact for non-technical users than a feature list or vendor tutorial.
 
 This article gives you one plain-language prompt and two real ways to use it.
 
-<span id="claim-001" class="claim-marker" data-claim="claim-001">Claim C1</span> A single model-agnostic starter prompt is a more effective onboarding artifact for non-technical users than a feature list or vendor tutorial.
+<span id="claim-002" class="claim-marker" data-claim="claim-002">Claim C2</span> The AI agent itself can act as the tutor, so newcomers do not need to study AI before they start using it.
 
 ---
 
 ## The 5-minute recipe
 
-If you do not already have access, open one of these in a browser and create a
-free account: ChatGPT (chat.openai.com), Claude (claude.ai), or Gemini
-(gemini.google.com).
+**Step 1: open an AI helper.**
+
+Open any capable AI model in your browser or app. Examples include:
+
+- ChatGPT (chat.openai.com)
+- Claude (claude.ai)
+- Gemini (gemini.google.com)
+- DeepSeek (chat.deepseek.com)
+- Qwen (chat.qwenlm.ai)
+- Ernie (yiyan.baidu.com)
+
+Most offer a free tier that is enough to try this recipe. If you already have one
+open, use that.
+
+**Step 2: copy and paste the prompt.**
 
 Copy this prompt, paste it into the message box, and answer the first question.
 
@@ -240,7 +252,7 @@ double-check here?"*
 
 ## Your turn
 
-Open ChatGPT, Claude, or Gemini. Paste the starter prompt. Pick one small
+Open any AI helper you have access to. Paste the starter prompt. Pick one small
 problem—perhaps a bill you do not fully understand or notes you need to turn into
 an email. Answer the first question the AI asks you.
 
