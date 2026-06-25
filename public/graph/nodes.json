@@ -191,7 +191,7 @@
   {
     "id": "article:ai-agent-advanced-questions:claim-001",
     "type": "claim",
-    "label": "A short concrete privacy checklist is more useful for new AI users than a long explanation of how training data works.",
+    "label": "A short concrete privacy checklist is usually more practical for new AI users than a long explanation of how training data works.",
     "localId": "claim-001",
     "confidence": "medium-high",
     "status": "core"

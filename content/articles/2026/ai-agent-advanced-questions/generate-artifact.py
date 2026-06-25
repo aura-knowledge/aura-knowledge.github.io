@@ -47,7 +47,7 @@ artifact = {
     "claims": [
         {
             "id": "claim-001",
-            "claim": "A short concrete privacy checklist is more useful for new AI users than a long explanation of how training data works.",
+            "claim": "A short concrete privacy checklist is usually more practical for new AI users than a long explanation of how training data works.",
             "confidence": "medium-high",
             "status": "core",
             "evidence": [
@@ -72,8 +72,8 @@ artifact = {
             "status": "argument",
             "evidence": [
                 {
-                    "sourceId": "source-trinity-ai-privacy",
-                    "snippet": "AI models process and store data differently than traditional software; users should think about what they are sharing and how it could be used.",
+                    "sourceId": "source-hathway-ai-safety",
+                    "snippet": "Assuming AI is always correct is a common mistake; trusting AI output without checking can cause errors in reports, research, or business decisions.",
                     "supports": "background",
                     "assessedAt": DATE,
                 }

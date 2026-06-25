@@ -26,7 +26,7 @@
   "claims": [
     {
       "id": "claim-001",
-      "claim": "A short concrete privacy checklist is more useful for new AI users than a long explanation of how training data works.",
+      "claim": "A short concrete privacy checklist is usually more practical for new AI users than a long explanation of how training data works.",
       "confidence": "medium-high",
       "status": "core",
       "evidence": [
@@ -51,8 +51,8 @@
       "status": "argument",
       "evidence": [
         {
-          "sourceId": "source-trinity-ai-privacy",
-          "snippet": "AI models process and store data differently than traditional software; users should think about what they are sharing and how it could be used.",
+          "sourceId": "source-hathway-ai-safety",
+          "snippet": "Assuming AI is always correct is a common mistake; trusting AI output without checking can cause errors in reports, research, or business decisions.",
           "supports": "background",
           "assessedAt": "2026-06-26"
         }
@@ -235,7 +235,7 @@
     "Do not present AI agents as all-knowing or safe for high-stakes decisions without human review.",
     "When discussing model choice, keep recommendations task-based rather than benchmark-based."
   ],
-  "contentHash": "fc4155c8ee2890deb0621f3545c1457979c971a8872fae79ee2a12301bc078d5",
+  "contentHash": "455ad2a170f9e724bce0fc3699e0c74c5c527d71214a439fc533bd1a6000fc35",
   "provenance": {
     "createdAt": "2026-06-26",
     "createdBy": "human",
@@ -245,14 +245,14 @@
         "model": "kimi",
         "invokedAt": "2026-06-26",
         "inputHash": "sha256:d599e966fa7fc73552f887bbcf6248fb11a54cf9de540dfd9fd51b9de061b244",
-        "outputHash": "sha256:fc4155c8ee2890deb0621f3545c1457979c971a8872fae79ee2a12301bc078d5"
+        "outputHash": "sha256:455ad2a170f9e724bce0fc3699e0c74c5c527d71214a439fc533bd1a6000fc35"
       },
       {
         "role": "review",
         "model": "kimi",
         "invokedAt": "2026-06-26",
         "inputHash": "sha256:d6651e21815a9dc70aa1c0bb5fedeb3e191893e5b5bfe5a062b695e360ed757e",
-        "outputHash": "sha256:5b50a089a28845d29b897ab2e21043a70cb82b4bf30dd542b932dfe787f226c3"
+        "outputHash": "sha256:308c1eacdc33363a17834fb1bc468fb0f81c85fe98e7ab08102d4a2e8a4dac77"
       }
     ],
     "reviews": [
@@ -267,7 +267,7 @@
           "scope"
         ],
         "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
-        "contentHash": "fc4155c8ee2890deb0621f3545c1457979c971a8872fae79ee2a12301bc078d5"
+        "contentHash": "455ad2a170f9e724bce0fc3699e0c74c5c527d71214a439fc533bd1a6000fc35"
       },
       {
         "reviewer": "human",
@@ -280,7 +280,7 @@
           "safety"
         ],
         "notes": "Human author approved the draft for review publication.",
-        "contentHash": "fc4155c8ee2890deb0621f3545c1457979c971a8872fae79ee2a12301bc078d5"
+        "contentHash": "455ad2a170f9e724bce0fc3699e0c74c5c527d71214a439fc533bd1a6000fc35"
       }
     ],
     "policy": {
@@ -294,6 +294,6 @@
   "agentMarkdownPath": "/agents/articles/ai-agent-advanced-questions.md",
   "sourceRepoPath": "content/articles/2026/ai-agent-advanced-questions/article.md",
   "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/ai-agent-advanced-questions/article.md",
-  "tokenEstimate": 707,
+  "tokenEstimate": 736,
   "sectionOutline": []
 }

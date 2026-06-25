@@ -2824,6 +2824,16 @@
     },
     {
       "from": "source-hathway-ai-safety",
+      "to": "article:ai-agent-advanced-questions:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-hathway-ai-safety",
       "to": "article:ai-agent-advanced-questions:claim-003",
       "type": "supports",
       "provenance": {
@@ -3948,16 +3958,6 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-19",
-        "reviewer": "generator",
-        "status": "machine-generated"
-      }
-    },
-    {
-      "from": "source-trinity-ai-privacy",
-      "to": "article:ai-agent-advanced-questions:claim-002",
-      "type": "supports",
-      "provenance": {
-        "reviewedAt": "2026-06-26",
         "reviewer": "generator",
         "status": "machine-generated"
       }

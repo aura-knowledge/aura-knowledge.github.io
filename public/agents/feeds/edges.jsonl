@@ -280,6 +280,7 @@
 {"from":"source-hai-ai-index","to":"article:long-human-road-to-ai:claim-006","type":"supports"}
 {"from":"source-haigh-no-first-winter","to":"article:ai-winters-expert-systems:claim-002","type":"supports"}
 {"from":"source-hathway-ai-safety","to":"article:ai-agent-advanced-questions:claim-001","type":"supports"}
+{"from":"source-hathway-ai-safety","to":"article:ai-agent-advanced-questions:claim-002","type":"supports"}
 {"from":"source-hathway-ai-safety","to":"article:ai-agent-advanced-questions:claim-003","type":"supports"}
 {"from":"source-helm-2022","to":"article:foundation-models:claim-009","type":"supports"}
 {"from":"source-hilbert-problems","to":"article:formal-logic-to-computation:claim-003","type":"supports"}
@@ -393,7 +394,6 @@
 {"from":"source-toolformer-2023","to":"article:foundation-models:claim-008","type":"supports"}
 {"from":"source-transformer-2017","to":"article:foundation-models:claim-003","type":"supports"}
 {"from":"source-transformer-2017","to":"article:long-human-road-to-ai:claim-005","type":"supports"}
-{"from":"source-trinity-ai-privacy","to":"article:ai-agent-advanced-questions:claim-002","type":"supports"}
 {"from":"source-truth-discovery-survey","to":"article:agentic-commerce-product-truth:claim-009","type":"supports"}
 {"from":"source-truth-discovery-survey","to":"article:agentic-commerce-product-truth:claim-011","type":"supports"}
 {"from":"source-turing-1936","to":"article:formal-logic-to-computation:claim-004","type":"supports"}

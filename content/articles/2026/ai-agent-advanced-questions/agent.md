@@ -22,7 +22,7 @@ Non-technical adults and teens who have tried an AI agent once or twice need pra
 
 ## Claims
 
-- `claim-001`: A short concrete privacy checklist is more useful for new AI users than a long explanation of how training data works.
+- `claim-001`: A short concrete privacy checklist is usually more practical for new AI users than a long explanation of how training data works.
 - `claim-002`: Teaching new users three recovery moves — ask for sources, rephrase, and test with a known answer — is enough to turn a wrong answer from a stop sign into a learning moment.
 - `claim-003`: A simple low-stakes versus high-stakes framing is enough to help non-technical users decide when to verify AI output.
 - `claim-004`: Asking the agent for a brief summary at the end of a session is the easiest way for a beginner to preserve context across multiple conversations.
@@ -53,5 +53,6 @@ This article was drafted with AI agent assistance using the article-proposal-ide
 ## Known Limits
 
 - This is a seed article; the examples are illustrative.
-- The model comparison table is intentionally simple and task-based, not benchmark-based.
+- The model comparison table is intentionally simple and task-based, not benchmark-based; capabilities change quickly.
+- The "automation" section describes reusable saved prompts, not full workflow automation with scheduled runs or connected apps.
 - The article does not cover enterprise AI governance, coding workflows, or advanced agent features like tool use.

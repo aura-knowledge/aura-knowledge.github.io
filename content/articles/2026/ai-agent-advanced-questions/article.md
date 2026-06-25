@@ -68,7 +68,7 @@ Before you paste anything, use this simple rule:
 | Your actual medical report | "I have a condition like X; what questions should I ask my doctor?" |
 | A confidential work document | A one-sentence summary in your own words |
 
-<span id="claim-001" class="claim-marker" data-claim="claim-001">Claim C1</span> A short concrete privacy checklist is more useful for new AI users than a long explanation of how training data works.
+<span id="claim-001" class="claim-marker" data-claim="claim-001">Claim C1</span> A short concrete privacy checklist is usually more practical for new AI users than a long explanation of how training data works.
 
 ---
 
@@ -84,7 +84,7 @@ If the agent cannot point to a source, treat the answer as a draft, not a fact.
 
 **Move 2: rephrase the question.**
 
-A wrong answer often means the question was too broad. Narrow it down.
+A wrong answer can sometimes mean the question was too broad. Narrow it down.
 
 > Instead of: "Is this diet healthy?"
 > Try: "What are the main nutrients someone over 50 should watch when eating a plant-based diet?"
@@ -176,9 +176,9 @@ Put them together and you get a strong prompt:
 
 ## 6. Can the agent automate small tasks for me?
 
-Yes, but start small. Most beginners do not need automation tools or coding. They need to turn a repeated question into a reusable prompt.
+Yes, but start small. For most beginners, "automation" really means turning a repeated question into a reusable prompt. True automation — scheduled runs, connected apps, or workflows — usually needs extra tools. A saved prompt is the simplest first step.
 
-Here is a useful way to think about it. Every chat with an agent is one of three things:
+Here is one useful way to think about it. Every chat with an agent is one of three things:
 
 | Mode | What you are doing | Example |
 |---|---|---|
@@ -202,16 +202,16 @@ Next week, paste it again. The agent will give you a new plan with the same stru
 
 ## 7. How do I choose between ChatGPT, Claude, Gemini, DeepSeek, Qwen, and others?
 
-There is no single best model. The right one depends on what you are trying to do. Ignore benchmark scores. Try the free tier and test one real question that matters to you.
+There is no single best model. The right one depends on what you are trying to do. Capabilities change quickly, so treat this table as a starting snapshot, not a final ranking. Ignore benchmark scores. Try the free tier and test one real question that matters to you.
 
-| If you mostly want to... | A good place to start |
+| If you mostly want to... | Consider trying |
 |---|---|
-| Write or edit long text | Claude |
+| Write or edit long text | Claude, ChatGPT, or Gemini |
 | Get current information or search the web | Gemini or ChatGPT with browsing |
-| Reason through a complex problem | ChatGPT or Gemini |
-| Work in Chinese, Hindi, or other non-English languages | DeepSeek, Qwen, or Ernie |
-| Keep costs low or run things locally | DeepSeek or Gemini Flash |
-| Have one default for everyday questions | ChatGPT or Gemini |
+| Work in Chinese, Arabic, Hindi, or other non-English languages | DeepSeek, Qwen, Ernie, or the model that supports your language best |
+| Keep API or paid usage costs low | DeepSeek, Gemini Flash, or a free tier |
+| Run things locally for privacy | A smaller open-weight model like DeepSeek or Qwen, usually with technical setup |
+| Have one default for everyday questions | ChatGPT, Gemini, or whichever feels natural to you |
 
 **Rule of thumb:** pick the one whose free tier answers your hardest everyday question best.
 
@@ -234,3 +234,5 @@ The fastest way to get comfortable is to keep practicing. Here are five safe, us
 ## If you liked the first article
 
 This piece is the companion to ["You Do Not Need to Learn AI First: A 5-Minute Conversation Recipe"](/articles/ai-agent-first-conversation/). The first article gets you started. This one helps you keep going safely.
+
+**Your turn:** pick one conversation from Section 8 and try it today. That is how the first article becomes a habit.

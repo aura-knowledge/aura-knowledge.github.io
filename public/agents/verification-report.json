@@ -285,7 +285,7 @@
       "claims": [
         {
           "id": "claim-001",
-          "claim": "A short concrete privacy checklist is more useful for new AI users than a long explanation of how training data works.",
+          "claim": "A short concrete privacy checklist is usually more practical for new AI users than a long explanation of how training data works.",
           "confidence": "medium-high",
           "status": "core",
           "state": "draft",
