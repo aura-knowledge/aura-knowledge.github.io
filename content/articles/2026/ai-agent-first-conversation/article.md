@@ -6,7 +6,7 @@ title: "You Don't Need to Learn AI First: A 5-Minute Conversation Recipe"
 dek: "A plain-language prompt and two real examples for anyone who has been putting off AI because it looks complicated."
 date: 2026-06-26
 updated: 2026-06-26
-status: review
+status: published
 maturity: seed
 topic: ai-agents
 tags:

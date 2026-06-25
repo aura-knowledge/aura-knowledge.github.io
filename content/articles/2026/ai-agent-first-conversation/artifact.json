@@ -132,7 +132,7 @@
     "Treat maturity=seed as an explicit uncertainty marker.",
     "Do not present AI agents as all-knowing or safe for high-stakes decisions without human review."
   ],
-  "contentHash": "12211a8c2483ebedaa372646714117841914d29870c76953dcf6e2a288920242",
+  "contentHash": "f577845b1aefcaca01388a44c377209c6c73cf35186438af21dc48f4ca77bf0a",
   "provenance": {
     "createdAt": "2026-06-26",
     "createdBy": "human",
@@ -142,7 +142,7 @@
         "model": "kimi",
         "invokedAt": "2026-06-26",
         "inputHash": "sha256:d599e966fa7fc73552f887bbcf6248fb11a54cf9de540dfd9fd51b9de061b244",
-        "outputHash": "sha256:12211a8c2483ebedaa372646714117841914d29870c76953dcf6e2a288920242"
+        "outputHash": "sha256:f577845b1aefcaca01388a44c377209c6c73cf35186438af21dc48f4ca77bf0a"
       },
       {
         "role": "review",
@@ -164,7 +164,7 @@
           "scope"
         ],
         "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
-        "contentHash": "12211a8c2483ebedaa372646714117841914d29870c76953dcf6e2a288920242"
+        "contentHash": "f577845b1aefcaca01388a44c377209c6c73cf35186438af21dc48f4ca77bf0a"
       },
       {
         "reviewer": "human",
@@ -177,7 +177,7 @@
           "safety"
         ],
         "notes": "Human author approved the draft and assets for review publication.",
-        "contentHash": "12211a8c2483ebedaa372646714117841914d29870c76953dcf6e2a288920242"
+        "contentHash": "f577845b1aefcaca01388a44c377209c6c73cf35186438af21dc48f4ca77bf0a"
       }
     ],
     "policy": {
