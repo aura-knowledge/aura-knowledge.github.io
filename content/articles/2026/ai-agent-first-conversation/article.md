@@ -17,7 +17,7 @@ tags:
   - recipe
   - ai-literacy
 summary: "A short, practical onboarding recipe that lets non-technical adults and teens start using AI agents by copying one prompt into any capable model, with worked examples for explaining a utility bill and turning meeting notes into summary, email, and action items."
-readingTime: 6 min
+readingTime: 5 min
 agentArtifact: /agents/articles/ai-agent-first-conversation.json
 sourcePath: content/articles/2026/ai-agent-first-conversation/article.md
 ---
@@ -36,11 +36,7 @@ what to ask next when you are stuck. They do not understand things the way a
 person does, but they are very good at organizing information and wording it so
 it makes sense to you.
 
-<span id="claim-001" class="claim-marker" data-claim="claim-001">Claim C1</span> A single model-agnostic starter prompt is a more effective onboarding artifact for non-technical users than a feature list or vendor tutorial.
-
 This article gives you one plain-language prompt and two real ways to use it.
-
-<span id="claim-002" class="claim-marker" data-claim="claim-002">Claim C2</span> The AI agent itself can act as the tutor, so newcomers do not need to study AI before they start using it.
 
 ---
 
@@ -82,6 +78,8 @@ After five back-and-forth messages, wrap up with a short summary and stop.
 ```
 
 That is the recipe. Describe what you want and follow the conversation.
+
+<span id="claim-001" class="claim-marker" data-claim="claim-001">Claim C1</span> A single starter prompt that works in any capable AI helper is more effective for onboarding non-technical users than a feature list or vendor tutorial.
 
 ---
 
@@ -138,11 +136,16 @@ Would you like me to explain any charge in more detail, or show you what happens
 if the payment is late?
 
 ![Animated transcript of the utility-bill conversation](utility-bill-conversation.gif)
+*The animation shows the conversation above: the reader asks for help with a
+utility bill, pastes the charges, and the AI explains each line and offers
+follow-up questions.*
 
 The AI pulled out the pieces that matter, admitted when it did not know what
 "UDC" meant, and offered sensible next questions.
 
-<span id="claim-003" class="claim-marker" data-claim="claim-003">Claim C3</span> Suggesting the next question or direction after each answer removes the blank-page problem and keeps the experience experiential rather than instructional.
+<span id="claim-002" class="claim-marker" data-claim="claim-002">Claim C2</span> The AI helper itself can act as the tutor, so newcomers do not need to study AI before they start using it.
+
+<span id="claim-003" class="claim-marker" data-claim="claim-003">Claim C3</span> Suggesting the next question or direction after each answer removes the blank-page problem and keeps the experience practical rather than instructional.
 
 ---
 
@@ -197,7 +200,7 @@ Thanks,
 | Task | Owner | Deadline |
 |------|-------|----------|
 | Build contact form | Me | Friday |
-| Check hosting prices | Person A | Soon |
+| Check hosting prices | Person A | By Thursday |
 | Send logo files | Person B | Wednesday |
 | Next meeting | Everyone | Monday, 10 AM |
 
@@ -205,7 +208,7 @@ One input, three useful outputs.
 
 ![One input, meeting notes, produces three outputs: summary, follow-up email, and action items](meeting-notes-flow.svg)
 
-<span id="claim-004" class="claim-marker" data-claim="claim-004">Claim C4</span> Two short annotated transcripts are enough to teach the pattern: one proving intelligence through document explanation, and one proving productivity through one-input-multiple-outputs automation.
+<span id="claim-004" class="claim-marker" data-claim="claim-004">Claim C4</span> Two short annotated examples are enough to teach the pattern: one showing the AI explaining something confusing, and one showing it doing several useful tasks from a single input.
 
 ---
 
@@ -239,8 +242,9 @@ AI helpers are useful, but they are not perfect. Keep these three rules in mind:
 
 1. **Verify facts.** If the AI gives you dates, amounts, or medical, legal, or
    financial advice, double-check it elsewhere.
-2. **Keep personal details vague.** Do not paste passwords, full addresses,
-   bank details, or private health information.
+2. **Remove or replace personal details before pasting.** Do not paste passwords,
+   full addresses, bank details, or private health information. Replace real names
+   with placeholders like Person A.
 3. **Keep a human in the loop for big decisions.** The AI can help you think,
    but you are still the one who decides.
 
@@ -257,3 +261,6 @@ problem—perhaps a bill you do not fully understand or notes you need to turn i
 an email. Answer the first question the AI asks you.
 
 That is it. You have started.
+
+If you want a one-page reminder you can keep next to your screen, download the
+[printable first-conversation card](/articles/ai-agent-first-conversation/first-conversation-card.pdf).
