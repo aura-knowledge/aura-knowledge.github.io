@@ -6,6 +6,7 @@ import ProvenancePanel from "../../components/ProvenancePanel.astro";
 import ClaimCard from "../../components/ClaimCard.astro";
 import SourceLedger from "../../components/SourceLedger.astro";
 import AgentPacketLink from "../../components/AgentPacketLink.astro";
+import MermaidRenderer from "../../components/MermaidRenderer.astro";
 import MaturityBadge from "../../components/MaturityBadge.astro";
 import StatusBadge from "../../components/StatusBadge.astro";
 import EmptyState from "../../components/EmptyState.astro";
@@ -162,6 +163,7 @@ const jsonLd = {
       </article>
     </div>
   </div>
+  <MermaidRenderer />
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <script src={`${base}scripts/focus.js`} defer></script>
 </BaseLayout>
