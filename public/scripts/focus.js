@@ -1,8 +1,58 @@
 (() => {
+  const articleBody = document.querySelector(".article-body");
+
+  const prepareArticleSections = () => {
+    if (!articleBody || articleBody.dataset.sectionsReady) return;
+    articleBody.dataset.sectionsReady = "true";
+
+    const headings = Array.from(articleBody.querySelectorAll(":scope > h2[id]"));
+    headings.forEach((heading, index) => {
+      const section = document.createElement("section");
+      section.className = "article-section";
+      section.dataset.articleSection = "";
+      const content = document.createElement("div");
+      content.className = "article-section-content";
+      content.id = `${heading.id}-content`;
+
+      articleBody.insertBefore(section, heading);
+      section.append(heading, content);
+
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "article-section-toggle";
+      button.setAttribute("aria-expanded", "true");
+      button.setAttribute("aria-controls", content.id);
+
+      const label = document.createElement("span");
+      label.textContent = heading.textContent.trim();
+      const indicator = document.createElement("span");
+      indicator.className = "article-section-indicator";
+      indicator.setAttribute("aria-hidden", "true");
+      indicator.textContent = "-";
+      button.append(label, indicator);
+      heading.textContent = "";
+      heading.append(button);
+
+      let next = section.nextSibling;
+      while (next && !(next.nodeType === Node.ELEMENT_NODE && next.matches("h2[id], .claim-audit, .source-ledger, .provenance-panel, .related-reading, .agent-packet-link"))) {
+        const current = next;
+        next = next.nextSibling;
+        content.append(current);
+      }
+
+      button.addEventListener("click", () => {
+        const collapsed = section.toggleAttribute("data-collapsed");
+        button.setAttribute("aria-expanded", String(!collapsed));
+        indicator.textContent = collapsed ? "+" : "-";
+      });
+    });
+  };
+
+  prepareArticleSections();
+
   const progress = document.querySelector("[data-reading-progress]");
   const railLinks = Array.from(document.querySelectorAll("[data-focus-link]"));
   const markers = Array.from(document.querySelectorAll(".claim-marker[id]"));
-  const articleBody = document.querySelector(".article-body");
   const articleLayout = document.querySelector(".article-layout");
   const focusRail = document.querySelector("[data-focus-rail]");
   const claimAudit = document.querySelector(".claim-audit");
@@ -103,8 +153,9 @@
     const card = claimCarousel.querySelector(".claim-audit-card");
     const cardWidth = card?.getBoundingClientRect().width ?? claimCarousel.clientWidth * 0.85;
     const gap = Number.parseFloat(window.getComputedStyle(claimCarousel).columnGap) || 16;
+    const distance = Math.min(cardWidth + gap, claimCarousel.clientWidth * 0.88);
     claimCarousel.scrollBy({
-      left: direction * (cardWidth + gap),
+      left: direction * distance,
       behavior: prefersReducedMotion ? "auto" : "smooth"
     });
   };

@@ -880,6 +880,59 @@ h3 {
 
 .article-body > :where(h1, h2, h3, h4, h5, h6, p, ol, ul, blockquote, pre, .impact-callout, .audit-example) {
   max-width: var(--measure);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-section {
+  max-width: var(--measure);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-section-content > :where(h3, h4, h5, h6, p, ol, ul, blockquote, pre, .impact-callout, .audit-example) {
+  max-width: var(--measure);
+}
+
+.article-section h2 {
+  max-width: none;
+}
+
+.article-section-toggle {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  padding: 0;
+  text-align: left;
+}
+
+.article-section-toggle:hover,
+.article-section-toggle:focus-visible {
+  color: var(--accent-strong);
+}
+
+.article-section-indicator {
+  display: inline-grid;
+  flex: 0 0 auto;
+  width: 1.85rem;
+  height: 1.85rem;
+  place-items: center;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--accent-strong);
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.article-section[data-collapsed] .article-section-content {
+  display: none;
 }
 
 .article-kicker {
@@ -1029,11 +1082,11 @@ h3 {
   gap: 1rem;
   overflow-x: auto;
   overscroll-behavior-inline: contain;
-  scroll-padding-inline: 0.25rem;
-  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 1rem;
   margin-top: 1.4rem;
-  padding: 0.15rem 0 0.9rem;
+  padding: 0.2rem 1rem 1rem;
   -webkit-overflow-scrolling: touch;
+  scrollbar-gutter: stable;
   scrollbar-width: thin;
 }
 
@@ -1044,7 +1097,6 @@ h3 {
 
 .claim-audit-card {
   flex: 0 0 min(31rem, 86vw);
-  scroll-snap-align: start;
   max-height: min(34rem, 78vh);
   overflow-y: auto;
   overscroll-behavior: contain;
@@ -1110,15 +1162,52 @@ h3 {
   font-weight: 780;
 }
 
-.source-ledger {
-  margin-top: clamp(3rem, 8vw, 5rem);
+.source-ledger,
+.agent-detail-panel {
+  margin-top: 1.25rem;
   border-top: 1px solid var(--border);
-  padding-top: 2rem;
+  padding-top: 1rem;
+}
+
+.source-ledger summary,
+.agent-detail-panel summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--surface) 78%, transparent);
+  cursor: pointer;
+  list-style: none;
+  padding: 0.85rem 1rem;
+}
+
+.source-ledger summary::-webkit-details-marker,
+.agent-detail-panel summary::-webkit-details-marker {
+  display: none;
+}
+
+.source-ledger summary strong,
+.agent-detail-panel summary strong {
+  display: block;
+  color: var(--text);
+  font-family: Fraunces, Georgia, serif;
+  font-size: var(--step-1);
+  line-height: 1.2;
+}
+
+.source-ledger summary > span:last-child,
+.agent-detail-panel summary > span:last-child {
+  color: var(--accent-strong);
+  font-size: var(--step--1);
+  font-weight: 780;
 }
 
 .source-ledger ul {
   display: grid;
   gap: 0.65rem;
+  margin-top: 1rem;
   padding: 0;
   list-style: none;
 }

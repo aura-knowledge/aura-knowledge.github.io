@@ -44,9 +44,14 @@ const hashAligned = latestApproved?.contentHash === contentHash;
 
 {
   provenance ? (
-    <section class="provenance-panel" aria-labelledby="provenance-title">
-  <p class="eyebrow">Trust layer</p>
-  <h2 id="provenance-title">Provenance</h2>
+    <details class="provenance-panel agent-detail-panel" aria-labelledby="provenance-title">
+  <summary>
+    <span>
+      <span class="eyebrow">Agent record</span>
+      <strong id="provenance-title">Creation and review details</strong>
+    </span>
+    <span>Show</span>
+  </summary>
 
   <div class="provenance-summary">
     <p>
@@ -106,7 +111,7 @@ const hashAligned = latestApproved?.contentHash === contentHash;
       </div>
     )
   }
-    </section>
+    </details>
   ) : (
     <p class="provenance-panel" aria-labelledby="provenance-title">Provenance not available.</p>
   )
