@@ -3,8 +3,8 @@
   "generatedAt": "2026-06-26T00:00:00.000Z",
   "summary": {
     "errors": 0,
-    "warnings": 30,
-    "total": 30
+    "warnings": 44,
+    "total": 44
   },
   "findings": [
     {
@@ -36,6 +36,76 @@
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/agentic-commerce-product-truth: claim-014 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-agent-advanced-questions: claim-001 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-agent-advanced-questions: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-agent-advanced-questions: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-agent-advanced-questions: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-agent-advanced-questions: claim-003 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-agent-advanced-questions: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-agent-advanced-questions: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-agent-advanced-questions: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-agent-advanced-questions: claim-005 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-agent-advanced-questions: claim-005 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-agent-advanced-questions: claim-006 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-agent-advanced-questions: claim-006 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-agent-advanced-questions: claim-007 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-agent-advanced-questions: claim-007 relies on a single source type for evidence."
     },
     {
       "rule": "low-source-diversity",

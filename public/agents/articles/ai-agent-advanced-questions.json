@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 3,
+  "id": "article:ai-agent-advanced-questions",
+  "slug": "ai-agent-advanced-questions",
+  "title": "Beyond the First Conversation: Advanced Questions for New AI Agent Users",
+  "canonicalPath": "/articles/ai-agent-advanced-questions/",
+  "sourcePath": "content/articles/2026/ai-agent-advanced-questions/article.md",
+  "agentBriefPath": "content/articles/2026/ai-agent-advanced-questions/agent.md",
+  "thesis": "Non-technical adults and teens who have tried an AI agent once or twice can use it more confidently by learning practical answers to common follow-up questions about privacy, errors, trust, prompts, automation, and model choice.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-26",
+  "updatedAt": "2026-06-26",
+  "audiences": [
+    "general",
+    "students",
+    "non-technical"
+  ],
+  "topics": [
+    "ai-agents",
+    "onboarding",
+    "ai-literacy",
+    "privacy",
+    "prompting"
+  ],
+  "series": {
+    "slug": "ai-agent-conversations",
+    "title": "First Steps with AI Agents",
+    "order": 1,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "A short concrete privacy checklist is usually more practical for new AI users than a long explanation of how training data works.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-hathway-ai-safety",
+          "snippet": "The biggest error that users commit is to input confidential data in AI tools, including financial information, customer databases, internal documents, and personal identity details.",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some users may still want a deeper explanation of data retention policies before they feel confident using public AI tools.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Teaching new users three recovery moves — ask for sources, rephrase, and test with a known answer — is enough to turn a wrong answer from a stop sign into a learning moment.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-hathway-ai-safety",
+          "snippet": "Assuming AI is always correct is a common mistake; trusting AI output without checking can cause errors in reports, research, or business decisions.",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Three moves may not cover all error types; users still need to develop judgment about which topics require external verification.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "A simple low-stakes versus high-stakes framing is enough to help non-technical users decide when to verify AI output.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-hathway-ai-safety",
+          "snippet": "AI can aid in decision-making but is not supposed to completely replace human judgment; there should always be human involvement with critical decisions.",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "What counts as high-stakes can vary by culture and personal situation; the article provides examples but cannot cover every case.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Asking the agent for a brief summary at the end of a session is the easiest way for a beginner to preserve context across multiple conversations.",
+      "confidence": "medium",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-openai-usage-study",
+          "snippet": "ChatGPT consumer usage is largely about getting everyday tasks done through multi-turn conversations that blend practical guidance, information seeking, and writing.",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some models offer memory or persistent threads that reduce the need for manual summaries, though beginners may not have access to those features.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "Four plain-language moves — context, desired output, exclusions, and options — are enough to improve most beginner prompts without teaching prompt-engineering jargon.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-anthropic-prompting",
+          "snippet": "Effective prompting often comes from providing context, being specific about desired output, and clarifying constraints rather than memorizing complex techniques.",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Complex tasks may still benefit from structured prompting techniques, even if beginners do not need them immediately.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "A repeated \"doing\" prompt saved as a reusable template is the simplest form of automation for non-technical AI users.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-future-ai-path-automation",
+          "snippet": "Start small, choose one task to automate, be specific with prompts, and review results; individuals and small businesses can automate daily tasks at little or no cost.",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Saved prompts still require a human to run them each time; true automation may require no-code tools or API access for recurring workflows.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "A short task-based comparison table is more useful to non-technical readers than benchmark scores or feature lists.",
+      "confidence": "medium",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-tech-insider-models",
+          "snippet": "The choice between models increasingly depends on workflow and task type, such as writing, coding, real-time information, or multilingual use.",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Benchmarks matter to some technical users; a task-based table is a simplification that trades precision for accessibility.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-openai-usage-study",
+      "title": "TechRadar: OpenAI reveals how people use ChatGPT — 3 things we learned",
+      "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/openai-reveals-biggest-ever-study-of-how-people-are-using-chatgpt-here-are-3-things-weve-learned",
+      "type": "research",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-hathway-ai-safety",
+      "title": "Hathway: How to Use AI Safely: 10 Mistakes to Avoid for Secure Usage",
+      "url": "https://www.hathway.com/About/Blog/how-to-use-ai-safely",
+      "type": "safety-guide",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-trinity-ai-privacy",
+      "title": "Trinity College: Security Tip: AI & Data Privacy Best Practices",
+      "url": "https://www.trincoll.edu/lits/technology/security/best-practices/security-tips/ai-data-privacy/",
+      "type": "safety-guide",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-hong-kong-privacy-tips",
+      "title": "Privacy Commissioner for Personal Data, Hong Kong: 10 Tips for Users of AI Chatbots",
+      "url": "https://www.pcpd.org.hk/english/news_events/media_statements/press_20230913.html",
+      "type": "safety-guide",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-anthropic-prompting",
+      "title": "Anthropic: Prompt engineering overview",
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+      "type": "product",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-tech-insider-models",
+      "title": "Tech Insider: ChatGPT vs Claude vs Gemini vs DeepSeek [2026]",
+      "url": "https://tech-insider.org/chatgpt-vs-claude-vs-deepseek-vs-gemini-2026/",
+      "type": "comparison",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-groundy-chinese-models",
+      "title": "Groundy: Chinese AI Models Compared: DeepSeek, Qwen, Kimi, Doubao, and Ernie",
+      "url": "https://groundy.com/articles/the-chinese-ai-model-ecosystem-deepseek-qwen-kimi-doubao-and-ernie-compared/",
+      "type": "comparison",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-future-ai-path-automation",
+      "title": "Future AI Path: 10 Everyday Tasks You Can Automate with AI Right Now",
+      "url": "https://futureaipath.com/ai-productivity/task-automation/10-everyday-tasks-you-can-automate-with-ai-right-now/",
+      "type": "guide",
+      "accessed": "2026-06-26"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:ai-agent-first-conversation"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Do not present AI agents as all-knowing or safe for high-stakes decisions without human review.",
+    "When discussing model choice, keep recommendations task-based rather than benchmark-based."
+  ],
+  "contentHash": "6a1159bec01d89c53b7760a4c0a335edd67e31ead8ccf2c490bad5ffcba08185",
+  "provenance": {
+    "createdAt": "2026-06-26",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-06-26",
+        "inputHash": "sha256:d599e966fa7fc73552f887bbcf6248fb11a54cf9de540dfd9fd51b9de061b244",
+        "outputHash": "sha256:6a1159bec01d89c53b7760a4c0a335edd67e31ead8ccf2c490bad5ffcba08185"
+      },
+      {
+        "role": "review",
+        "model": "kimi",
+        "invokedAt": "2026-06-26",
+        "inputHash": "sha256:d6651e21815a9dc70aa1c0bb5fedeb3e191893e5b5bfe5a062b695e360ed757e",
+        "outputHash": "sha256:6de57fe9ff916530fa3d76cc64cc4328ebe1f3453886830415f2292728e621b0"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-26",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "tone",
+          "privacy",
+          "scope"
+        ],
+        "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
+        "contentHash": "6a1159bec01d89c53b7760a4c0a335edd67e31ead8ccf2c490bad5ffcba08185"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-26",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "examples",
+          "tone",
+          "safety"
+        ],
+        "notes": "Human author approved the draft for review publication.",
+        "contentHash": "6a1159bec01d89c53b7760a4c0a335edd67e31ead8ccf2c490bad5ffcba08185"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "generatedAt": "2026-06-26T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
+  "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json",
+  "agentMarkdownPath": "/agents/articles/ai-agent-advanced-questions.md",
+  "sourceRepoPath": "content/articles/2026/ai-agent-advanced-questions/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/ai-agent-advanced-questions/article.md",
+  "tokenEstimate": 755,
+  "sectionOutline": []
+}

@@ -323,6 +323,136 @@
       }
     },
     {
+      "from": "article:ai-agent-advanced-questions",
+      "to": "article:ai-agent-advanced-questions:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-agent-advanced-questions",
+      "to": "article:ai-agent-advanced-questions:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-agent-advanced-questions",
+      "to": "article:ai-agent-advanced-questions:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-agent-advanced-questions",
+      "to": "article:ai-agent-advanced-questions:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-agent-advanced-questions",
+      "to": "article:ai-agent-advanced-questions:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-agent-advanced-questions",
+      "to": "article:ai-agent-advanced-questions:claim-006",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-agent-advanced-questions",
+      "to": "article:ai-agent-advanced-questions:claim-007",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-agent-advanced-questions",
+      "to": "article:ai-agent-first-conversation",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-agent-advanced-questions",
+      "to": "topic:ai-agents",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-agent-advanced-questions",
+      "to": "topic:ai-literacy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-agent-advanced-questions",
+      "to": "topic:onboarding",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-agent-advanced-questions",
+      "to": "topic:privacy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-agent-advanced-questions",
+      "to": "topic:prompting",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "article:ai-agent-first-conversation",
       "to": "article:ai-agent-first-conversation:claim-001",
       "type": "argues",
@@ -1713,6 +1843,16 @@
       }
     },
     {
+      "from": "source-anthropic-prompting",
+      "to": "article:ai-agent-advanced-questions:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-backprop-1986",
       "to": "article:learning-machines:claim-006",
       "type": "supports",
@@ -2413,6 +2553,16 @@
       }
     },
     {
+      "from": "source-future-ai-path-automation",
+      "to": "article:ai-agent-advanced-questions:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-gartner-b2b-ai-2026",
       "to": "article:agentic-commerce-product-truth:claim-007",
       "type": "supports",
@@ -2658,6 +2808,36 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-19",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-hathway-ai-safety",
+      "to": "article:ai-agent-advanced-questions:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-hathway-ai-safety",
+      "to": "article:ai-agent-advanced-questions:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-hathway-ai-safety",
+      "to": "article:ai-agent-advanced-questions:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -3213,6 +3393,16 @@
       }
     },
     {
+      "from": "source-openai-usage-study",
+      "to": "article:ai-agent-advanced-questions:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-openfda-food-enforcement",
       "to": "article:agentic-commerce-product-truth:claim-015",
       "type": "supports",
@@ -3728,6 +3918,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-tech-insider-models",
+      "to": "article:ai-agent-advanced-questions:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
         "reviewer": "generator",
         "status": "machine-generated"
       }

@@ -6,7 +6,7 @@
   "generatedAt": "2026-06-26T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 266
+    "totalResults": 280
   },
   "dimensions": [
     {
@@ -43,7 +43,9 @@
         "neural-networks",
         "onboarding",
         "open-protocols",
+        "privacy",
         "product-truth",
+        "prompting",
         "research-workflows",
         "scaling",
         "symbolic-ai",
@@ -61,6 +63,7 @@
         "ai-society",
         "ai-winters",
         "automata",
+        "automation",
         "commerce",
         "computation",
         "computing-history",
@@ -83,14 +86,17 @@
         "logic",
         "machine-learning",
         "mechanical-calculation",
+        "model-choice",
         "multimodality",
         "neural-networks",
         "non-technical",
         "onboarding",
         "open-protocols",
         "pretraining",
+        "privacy",
         "product-truth",
         "prompt-template",
+        "prompting",
         "publishing",
         "reading-guide",
         "recipe",
@@ -135,6 +141,7 @@
         "biographical-reference",
         "book",
         "case-study",
+        "comparison",
         "conference-paper",
         "data-reference",
         "data-report",
@@ -147,6 +154,7 @@
         "expert-system-retrospective",
         "government-history",
         "guidance",
+        "guide",
         "historical-analysis",
         "historiographic-commentary",
         "industry-report",
@@ -184,6 +192,7 @@
         "research-project",
         "research-report",
         "research-synthesis",
+        "safety-guide",
         "schema",
         "standard",
         "standards-framework",
@@ -223,7 +232,7 @@
         "groupBy": "topic"
       },
       "resultType": "articles",
-      "resultCount": 49,
+      "resultCount": 54,
       "results": [
         {
           "articleId": "article:agent-auditable-research",
@@ -238,6 +247,13 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
           "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
           "topic": "agentic-commerce"
+        },
+        {
+          "articleId": "article:ai-agent-advanced-questions",
+          "slug": "ai-agent-advanced-questions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
+          "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json",
+          "topic": "ai-agents"
         },
         {
           "articleId": "article:ai-agent-first-conversation",
@@ -280,6 +296,13 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
           "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
           "topic": "ai-history"
+        },
+        {
+          "articleId": "article:ai-agent-advanced-questions",
+          "slug": "ai-agent-advanced-questions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
+          "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json",
+          "topic": "ai-literacy"
         },
         {
           "articleId": "article:ai-agent-first-conversation",
@@ -520,6 +543,13 @@
           "topic": "neural-networks"
         },
         {
+          "articleId": "article:ai-agent-advanced-questions",
+          "slug": "ai-agent-advanced-questions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
+          "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json",
+          "topic": "onboarding"
+        },
+        {
           "articleId": "article:ai-agent-first-conversation",
           "slug": "ai-agent-first-conversation",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
@@ -534,11 +564,25 @@
           "topic": "open-protocols"
         },
         {
+          "articleId": "article:ai-agent-advanced-questions",
+          "slug": "ai-agent-advanced-questions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
+          "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json",
+          "topic": "privacy"
+        },
+        {
           "articleId": "article:agentic-commerce-product-truth",
           "slug": "agentic-commerce-product-truth",
           "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
           "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
           "topic": "product-truth"
+        },
+        {
+          "articleId": "article:ai-agent-advanced-questions",
+          "slug": "ai-agent-advanced-questions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
+          "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json",
+          "topic": "prompting"
         },
         {
           "articleId": "article:agent-auditable-research",
@@ -941,7 +985,7 @@
         "groupBy": "sourceType"
       },
       "resultType": "sources",
-      "resultCount": 173,
+      "resultCount": 181,
       "results": [
         {
           "articleId": "article:human-systems",
@@ -1162,6 +1206,26 @@
           "sourceTitle": "R1 Revisited: Four Years in the Trenches",
           "sourceType": "case-study",
           "sourceUrl": "https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/445"
+        },
+        {
+          "articleId": "article:ai-agent-advanced-questions",
+          "slug": "ai-agent-advanced-questions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
+          "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json",
+          "sourceId": "source-tech-insider-models",
+          "sourceTitle": "Tech Insider: ChatGPT vs Claude vs Gemini vs DeepSeek [2026]",
+          "sourceType": "comparison",
+          "sourceUrl": "https://tech-insider.org/chatgpt-vs-claude-vs-deepseek-vs-gemini-2026/"
+        },
+        {
+          "articleId": "article:ai-agent-advanced-questions",
+          "slug": "ai-agent-advanced-questions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
+          "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json",
+          "sourceId": "source-groundy-chinese-models",
+          "sourceTitle": "Groundy: Chinese AI Models Compared: DeepSeek, Qwen, Kimi, Doubao, and Ernie",
+          "sourceType": "comparison",
+          "sourceUrl": "https://groundy.com/articles/the-chinese-ai-model-ecosystem-deepseek-qwen-kimi-doubao-and-ernie-compared/"
         },
         {
           "articleId": "article:ai-winters-expert-systems",
@@ -1442,6 +1506,16 @@
           "sourceTitle": "NIST AI RMF Generative AI Profile",
           "sourceType": "guidance",
           "sourceUrl": "https://doi.org/10.6028/NIST.AI.600-1"
+        },
+        {
+          "articleId": "article:ai-agent-advanced-questions",
+          "slug": "ai-agent-advanced-questions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
+          "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json",
+          "sourceId": "source-future-ai-path-automation",
+          "sourceTitle": "Future AI Path: 10 Everyday Tasks You Can Automate with AI Right Now",
+          "sourceType": "guide",
+          "sourceUrl": "https://futureaipath.com/ai-productivity/task-automation/10-everyday-tasks-you-can-automate-with-ai-right-now/"
         },
         {
           "articleId": "article:ai-winters-expert-systems",
@@ -1964,6 +2038,16 @@
           "sourceUrl": "https://www.aboutamazon.com/news/retail/amazon-rufus"
         },
         {
+          "articleId": "article:ai-agent-advanced-questions",
+          "slug": "ai-agent-advanced-questions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
+          "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json",
+          "sourceId": "source-anthropic-prompting",
+          "sourceTitle": "Anthropic: Prompt engineering overview",
+          "sourceType": "product",
+          "sourceUrl": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview"
+        },
+        {
           "articleId": "article:ai-agent-first-conversation",
           "slug": "ai-agent-first-conversation",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
@@ -2304,6 +2388,16 @@
           "sourceUrl": "https://nel.mit.edu/bayesian-truth-serum/"
         },
         {
+          "articleId": "article:ai-agent-advanced-questions",
+          "slug": "ai-agent-advanced-questions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
+          "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json",
+          "sourceId": "source-openai-usage-study",
+          "sourceTitle": "TechRadar: OpenAI reveals how people use ChatGPT — 3 things we learned",
+          "sourceType": "research",
+          "sourceUrl": "https://www.techradar.com/ai-platforms-assistants/chatgpt/openai-reveals-biggest-ever-study-of-how-people-are-using-chatgpt-here-are-3-things-weve-learned"
+        },
+        {
           "articleId": "article:foundation-models",
           "slug": "foundation-models",
           "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
@@ -2514,6 +2608,36 @@
           "sourceUrl": "https://doi.org/10.1787/a8d820bd-en"
         },
         {
+          "articleId": "article:ai-agent-advanced-questions",
+          "slug": "ai-agent-advanced-questions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
+          "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json",
+          "sourceId": "source-hathway-ai-safety",
+          "sourceTitle": "Hathway: How to Use AI Safely: 10 Mistakes to Avoid for Secure Usage",
+          "sourceType": "safety-guide",
+          "sourceUrl": "https://www.hathway.com/About/Blog/how-to-use-ai-safely"
+        },
+        {
+          "articleId": "article:ai-agent-advanced-questions",
+          "slug": "ai-agent-advanced-questions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
+          "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json",
+          "sourceId": "source-trinity-ai-privacy",
+          "sourceTitle": "Trinity College: Security Tip: AI & Data Privacy Best Practices",
+          "sourceType": "safety-guide",
+          "sourceUrl": "https://www.trincoll.edu/lits/technology/security/best-practices/security-tips/ai-data-privacy/"
+        },
+        {
+          "articleId": "article:ai-agent-advanced-questions",
+          "slug": "ai-agent-advanced-questions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
+          "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json",
+          "sourceId": "source-hong-kong-privacy-tips",
+          "sourceTitle": "Privacy Commissioner for Personal Data, Hong Kong: 10 Tips for Users of AI Chatbots",
+          "sourceType": "safety-guide",
+          "sourceUrl": "https://www.pcpd.org.hk/english/news_events/media_statements/press_20230913.html"
+        },
+        {
           "articleId": "article:agentic-commerce-product-truth",
           "slug": "agentic-commerce-product-truth",
           "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
@@ -2683,7 +2807,7 @@
         "status": "published"
       },
       "resultType": "articles",
-      "resultCount": 11,
+      "resultCount": 12,
       "results": [
         {
           "articleId": "article:agent-auditable-research",
@@ -2696,6 +2820,12 @@
           "slug": "agentic-commerce-product-truth",
           "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
           "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json"
+        },
+        {
+          "articleId": "article:ai-agent-advanced-questions",
+          "slug": "ai-agent-advanced-questions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
+          "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json"
         },
         {
           "articleId": "article:ai-agent-first-conversation",

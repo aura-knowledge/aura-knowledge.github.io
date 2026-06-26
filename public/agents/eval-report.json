@@ -93,6 +93,7 @@
         "slugs": [
           "agent-auditable-research",
           "agentic-commerce-product-truth",
+          "ai-agent-advanced-questions",
           "ai-agent-first-conversation"
         ],
         "claimIds": [
@@ -117,6 +118,13 @@
           "article:agentic-commerce-product-truth:claim-013",
           "article:agentic-commerce-product-truth:claim-014",
           "article:agentic-commerce-product-truth:claim-015",
+          "article:ai-agent-advanced-questions:claim-001",
+          "article:ai-agent-advanced-questions:claim-002",
+          "article:ai-agent-advanced-questions:claim-003",
+          "article:ai-agent-advanced-questions:claim-004",
+          "article:ai-agent-advanced-questions:claim-005",
+          "article:ai-agent-advanced-questions:claim-006",
+          "article:ai-agent-advanced-questions:claim-007",
           "article:ai-agent-first-conversation:claim-001",
           "article:ai-agent-first-conversation:claim-002",
           "article:ai-agent-first-conversation:claim-003",
@@ -142,6 +150,7 @@
         "slugs": [
           "agent-auditable-research",
           "agentic-commerce-product-truth",
+          "ai-agent-advanced-questions",
           "ai-agent-first-conversation",
           "ai-winters-expert-systems",
           "before-machines",
@@ -174,6 +183,13 @@
           "article:agentic-commerce-product-truth:claim-013",
           "article:agentic-commerce-product-truth:claim-014",
           "article:agentic-commerce-product-truth:claim-015",
+          "article:ai-agent-advanced-questions:claim-001",
+          "article:ai-agent-advanced-questions:claim-002",
+          "article:ai-agent-advanced-questions:claim-003",
+          "article:ai-agent-advanced-questions:claim-004",
+          "article:ai-agent-advanced-questions:claim-005",
+          "article:ai-agent-advanced-questions:claim-006",
+          "article:ai-agent-advanced-questions:claim-007",
           "article:ai-agent-first-conversation:claim-001",
           "article:ai-agent-first-conversation:claim-002",
           "article:ai-agent-first-conversation:claim-003",

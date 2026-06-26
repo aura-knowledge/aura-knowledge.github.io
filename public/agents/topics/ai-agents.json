@@ -2,11 +2,46 @@
   "schemaVersion": 1,
   "topic": "ai-agents",
   "articleIds": [
+    "article:ai-agent-advanced-questions",
     "article:ai-agent-first-conversation"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/ai-agents/",
   "agentJsonPath": "/agents/topics/ai-agents.json",
   "articles": [
+    {
+      "id": "article:ai-agent-advanced-questions",
+      "slug": "ai-agent-advanced-questions",
+      "title": "Beyond the First Conversation: Advanced Questions for New AI Agent Users",
+      "summary": "A practical follow-up for non-technical readers who have tried an AI agent once or twice. It covers privacy limits, recovering from wrong answers, trust, better prompts, small automations, choosing a model, and five safe practice conversations.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "onboarding",
+        "ai-literacy",
+        "privacy",
+        "prompting"
+      ],
+      "tags": [
+        "ai-agents",
+        "onboarding",
+        "non-technical",
+        "ai-literacy",
+        "privacy",
+        "prompting",
+        "automation",
+        "model-choice"
+      ],
+      "canonicalPath": "/articles/ai-agent-advanced-questions/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
+      "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json",
+      "agentMarkdownPath": "/agents/articles/ai-agent-advanced-questions.md",
+      "updatedAt": "2026-06-26",
+      "claimCount": 7,
+      "sourceCount": 8,
+      "tokenEstimate": 755,
+      "contentHash": "6a1159bec01d89c53b7760a4c0a335edd67e31ead8ccf2c490bad5ffcba08185"
+    },
     {
       "id": "article:ai-agent-first-conversation",
       "slug": "ai-agent-first-conversation",
@@ -35,7 +70,7 @@
       "claimCount": 4,
       "sourceCount": 3,
       "tokenEstimate": 530,
-      "contentHash": "b40f2b50ccb9753c5f8e0aa87b07fb12b07b9f15722160803ea83d72834330bc"
+      "contentHash": "f9987826579f1516fc43e8890524ec069d702d595bf733cc83d01b79f832847c"
     }
   ]
 }
