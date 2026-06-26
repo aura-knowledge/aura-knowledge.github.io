@@ -102,8 +102,16 @@ const jsonLd = {
       <article class="article-body">
         <Content />
         <section class="claim-audit" aria-labelledby="claim-audit-title">
-          <p class="eyebrow">Audit layer</p>
-          <h2 id="claim-audit-title">Claim packets</h2>
+          <div class="claim-audit-heading">
+            <div>
+              <p class="eyebrow">Audit layer</p>
+              <h2 id="claim-audit-title">Claim packets</h2>
+            </div>
+            <div class="claim-audit-controls" aria-label="Scroll claim packets">
+              <button type="button" data-claim-carousel-prev aria-label="Previous claim packet">&lsaquo;</button>
+              <button type="button" data-claim-carousel-next aria-label="Next claim packet">&rsaquo;</button>
+            </div>
+          </div>
           <p>
             Each card is generated from the same artifact that agents consume. The essay stays
             readable; the claim packet keeps the trust layer inspectable.
@@ -114,7 +122,7 @@ const jsonLd = {
             argument, landscape). <strong>Evidence</strong> links to supporting sources;
             <strong>counterpoints</strong> note boundary conditions or conflicting findings.
           </p>
-          <div class="claim-audit-grid">
+          <div class="claim-audit-grid" data-claim-carousel tabindex="0" role="region" aria-label="Claim packet cards">
             {article.artifact.claims.map((claim) => (
               <ClaimCard claim={claim} sourceById={sourceById} />
             ))}
