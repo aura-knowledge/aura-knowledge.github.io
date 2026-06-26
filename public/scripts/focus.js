@@ -3,6 +3,7 @@
   const railLinks = Array.from(document.querySelectorAll("[data-focus-link]"));
   const markers = Array.from(document.querySelectorAll(".claim-marker[id]"));
   const articleBody = document.querySelector(".article-body");
+  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const claimTextById = new Map(
     railLinks
       .map((link) => [
@@ -33,6 +34,13 @@
     railLinks.forEach((link) => {
       const active = link.getAttribute("data-focus-link") === id;
       link.toggleAttribute("aria-current", active);
+      if (active) {
+        link.scrollIntoView({
+          block: "nearest",
+          inline: "center",
+          behavior: prefersReducedMotion ? "auto" : "smooth"
+        });
+      }
     });
 
     markers.forEach((marker) => {
