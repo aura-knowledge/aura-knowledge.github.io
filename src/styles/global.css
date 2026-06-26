@@ -855,8 +855,12 @@ h3 {
 
 .article-body {
   width: 100%;
-  max-width: var(--measure);
+  max-width: none;
   min-width: 0;
+}
+
+.article-body > :where(h1, h2, h3, h4, h5, h6, p, ol, ul, blockquote, pre, .impact-callout, .audit-example) {
+  max-width: var(--measure);
 }
 
 .article-kicker {
