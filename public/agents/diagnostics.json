@@ -3,8 +3,8 @@
   "generatedAt": "2026-06-26T00:00:00.000Z",
   "summary": {
     "errors": 0,
-    "warnings": 52,
-    "total": 52
+    "warnings": 50,
+    "total": 50
   },
   "findings": [
     {
@@ -25,11 +25,6 @@
     {
       "rule": "low-source-diversity",
       "severity": "warning",
-      "message": "2026/agent-control-planes: claim-001 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
       "message": "2026/agent-control-planes: claim-002 relies on a single source type for evidence."
     },
     {
@@ -46,21 +41,6 @@
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/agent-control-planes: claim-005 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/agent-control-planes: claim-006 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/agent-control-planes: claim-007 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/agent-control-planes: claim-008 relies on a single source type for evidence."
     },
     {
       "rule": "low-source-diversity",
@@ -186,6 +166,16 @@
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/ai-agent-first-conversation: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/audio-first-voice-consumption: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/audio-first-voice-consumption: claim-003 relies on a single source type for evidence."
     },
     {
       "rule": "low-source-diversity",

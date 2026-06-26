@@ -106,24 +106,18 @@
           "confidence": "medium",
           "status": "core",
           "state": "draft",
-          "evidenceCount": 3,
-          "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agent-control-planes: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "evidenceCount": 4,
+          "counterevidenceCount": 2,
+          "findings": []
         },
         {
           "id": "claim-002",
           "claim": "Mixture-of-Experts and conditional computation predate LLMs and provide the earliest architectural precedent for learned routing.",
-          "confidence": "medium",
+          "confidence": "high",
           "status": "core",
           "state": "draft",
-          "evidenceCount": 3,
-          "counterevidenceCount": 1,
+          "evidenceCount": 2,
+          "counterevidenceCount": 2,
           "findings": [
             {
               "rule": "low-source-diversity",
@@ -138,8 +132,8 @@
           "confidence": "medium",
           "status": "core",
           "state": "draft",
-          "evidenceCount": 3,
-          "counterevidenceCount": 1,
+          "evidenceCount": 4,
+          "counterevidenceCount": 2,
           "findings": [
             {
               "rule": "low-source-diversity",
@@ -154,8 +148,8 @@
           "confidence": "medium",
           "status": "argument",
           "state": "draft",
-          "evidenceCount": 3,
-          "counterevidenceCount": 1,
+          "evidenceCount": 4,
+          "counterevidenceCount": 2,
           "findings": [
             {
               "rule": "low-source-diversity",
@@ -170,8 +164,8 @@
           "confidence": "medium",
           "status": "argument",
           "state": "draft",
-          "evidenceCount": 3,
-          "counterevidenceCount": 1,
+          "evidenceCount": 4,
+          "counterevidenceCount": 2,
           "findings": [
             {
               "rule": "low-source-diversity",
@@ -187,14 +181,8 @@
           "status": "argument",
           "state": "draft",
           "evidenceCount": 3,
-          "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agent-control-planes: claim-006 relies on a single source type for evidence."
-            }
-          ]
+          "counterevidenceCount": 2,
+          "findings": []
         },
         {
           "id": "claim-007",
@@ -203,14 +191,8 @@
           "status": "argument",
           "state": "draft",
           "evidenceCount": 3,
-          "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agent-control-planes: claim-007 relies on a single source type for evidence."
-            }
-          ]
+          "counterevidenceCount": 2,
+          "findings": []
         },
         {
           "id": "claim-008",
@@ -218,15 +200,9 @@
           "confidence": "medium",
           "status": "argument",
           "state": "draft",
-          "evidenceCount": 3,
-          "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agent-control-planes: claim-008 relies on a single source type for evidence."
-            }
-          ]
+          "evidenceCount": 4,
+          "counterevidenceCount": 2,
+          "findings": []
         }
       ],
       "summary": {
@@ -759,7 +735,7 @@
           "status": "core",
           "state": "draft",
           "evidenceCount": 3,
-          "counterevidenceCount": 1,
+          "counterevidenceCount": 2,
           "findings": []
         },
         {
@@ -768,9 +744,15 @@
           "confidence": "medium",
           "status": "core",
           "state": "draft",
-          "evidenceCount": 3,
-          "counterevidenceCount": 1,
-          "findings": []
+          "evidenceCount": 4,
+          "counterevidenceCount": 2,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/audio-first-voice-consumption: claim-002 relies on a single source type for evidence."
+            }
+          ]
         },
         {
           "id": "claim-003",
@@ -778,9 +760,15 @@
           "confidence": "medium",
           "status": "core",
           "state": "draft",
-          "evidenceCount": 3,
-          "counterevidenceCount": 1,
-          "findings": []
+          "evidenceCount": 2,
+          "counterevidenceCount": 2,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/audio-first-voice-consumption: claim-003 relies on a single source type for evidence."
+            }
+          ]
         },
         {
           "id": "claim-004",
@@ -788,8 +776,8 @@
           "confidence": "medium",
           "status": "argument",
           "state": "draft",
-          "evidenceCount": 3,
-          "counterevidenceCount": 1,
+          "evidenceCount": 4,
+          "counterevidenceCount": 2,
           "findings": []
         },
         {
@@ -798,8 +786,8 @@
           "confidence": "medium",
           "status": "argument",
           "state": "draft",
-          "evidenceCount": 3,
-          "counterevidenceCount": 1,
+          "evidenceCount": 4,
+          "counterevidenceCount": 2,
           "findings": []
         },
         {
@@ -809,7 +797,7 @@
           "status": "argument",
           "state": "draft",
           "evidenceCount": 3,
-          "counterevidenceCount": 1,
+          "counterevidenceCount": 2,
           "findings": []
         },
         {
@@ -818,8 +806,8 @@
           "confidence": "medium",
           "status": "argument",
           "state": "draft",
-          "evidenceCount": 3,
-          "counterevidenceCount": 1,
+          "evidenceCount": 4,
+          "counterevidenceCount": 2,
           "findings": []
         }
       ],

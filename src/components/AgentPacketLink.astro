@@ -11,14 +11,15 @@ const { slug, base = "" } = Astro.props;
   <h2 id="agent-packet-title">Machine-readable packet</h2>
   <p>
     The same claims, sources, and relationships are also available as a structured artifact
-    for agents.
+    for agents. The packet follows the
+    <a href="https://github.com/aura-knowledge/meta/blob/main/schemas/provenance-bundle.schema.json">provenance-bundle schema</a>.
   </p>
   <div class="button-row">
-    <a class="button" href={`${base}agents/articles/${slug}.json`}>
-      Agent JSON
+    <a class="button" href={`${base}agents/articles/${slug}.json`} aria-label={`View structured JSON artifact for ${slug}`}>
+      Structured artifact (JSON)
     </a>
-    <a class="button" href={`${base}agents/articles/${slug}.md`}>
-      Agent brief
+    <a class="button" href={`${base}agents/articles/${slug}.md`} aria-label={`View agent brief markdown for ${slug}`}>
+      Agent brief (Markdown)
     </a>
   </div>
 </section>

@@ -29,26 +29,36 @@
       "evidence": [
         {
           "sourceId": "source-001",
-          "snippet": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+          "snippet": "Shazeer et al. introduced a sparsely-gated Mixture-of-Experts layer that routes each token to a subset of experts, providing an early architectural precedent for learned routing across heterogeneous compute units.",
           "supports": "background",
           "assessedAt": "2026-06-26"
         },
         {
           "sourceId": "source-002",
-          "snippet": "Fedus et al., Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+          "snippet": "Fedus et al. simplified MoE routing to one expert per token with Switch Transformers and showed large pre-training speedups, demonstrating that conditional computation can scale to trillion-parameter models.",
           "supports": "background",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-003",
-          "snippet": "Dohan et al., Language Model Cascades",
-          "supports": "background",
+          "sourceId": "source-011",
+          "snippet": "LiteLLM exposes a unified proxy with model routing, fallback, spend tracking, and observability callbacks, treating cross-cutting orchestration concerns as infrastructure rather than per-agent code.",
+          "supports": "direct",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-012",
+          "snippet": "LangGraph provides a graph-based state machine for multi-actor agent applications with persistence, handoffs, and human-in-the-loop, embodying framework-level orchestration.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         }
       ],
       "counterevidence": [
         {
-          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "summary": "The shift is a trend, not a universal migration; many production agents still run as hand-written workflows without a separate control plane.",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "summary": "No canonical definition of 'control plane' exists, so vendor claims may describe very different capability sets, from thin routers to thick frameworks to enterprise governance consoles.",
           "assessedAt": "2026-06-26"
         }
       ]
@@ -56,31 +66,29 @@
     {
       "id": "claim-002",
       "claim": "Mixture-of-Experts and conditional computation predate LLMs and provide the earliest architectural precedent for learned routing.",
-      "confidence": "medium",
+      "confidence": "high",
       "status": "core",
       "evidence": [
         {
           "sourceId": "source-001",
-          "snippet": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
-          "supports": "background",
+          "snippet": "Shazeer et al. introduced a sparsely-gated MoE layer that routes each input token to a small subset of thousands of feed-forward experts, making routing a learnable part of the network.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         },
         {
           "sourceId": "source-002",
-          "snippet": "Fedus et al., Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
-          "supports": "background",
-          "assessedAt": "2026-06-26"
-        },
-        {
-          "sourceId": "source-003",
-          "snippet": "Dohan et al., Language Model Cascades",
-          "supports": "background",
+          "snippet": "Fedus et al. proposed Switch Transformers, which use a single expert per token and achieve large pre-training speedups, bridging conditional computation to modern large-model scale.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         }
       ],
       "counterevidence": [
         {
-          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "summary": "MoE routing is internal to a single model and trained end-to-end, whereas agent control planes route across independent models, tools, and agents with distinct latency, cost, and failure semantics.",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "summary": "Token-level gating optimizes for training throughput and capacity, while agent routing must also enforce policies, produce audit trails, and handle human escalation.",
           "assessedAt": "2026-06-26"
         }
       ]
@@ -92,59 +100,79 @@
       "status": "core",
       "evidence": [
         {
-          "sourceId": "source-001",
-          "snippet": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
-          "supports": "background",
-          "assessedAt": "2026-06-26"
-        },
-        {
-          "sourceId": "source-002",
-          "snippet": "Fedus et al., Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
-          "supports": "background",
-          "assessedAt": "2026-06-26"
-        },
-        {
           "sourceId": "source-003",
-          "snippet": "Dohan et al., Language Model Cascades",
+          "snippet": "Dohan et al. frame chain-of-thought, verifiers, tool use, and selection-inference as probabilistic programs composed from language models, providing a compositional foundation for cascades and routers.",
           "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-004",
+          "snippet": "Chen et al. propose FrugalGPT, which learns which model combination to call for each query and reports up to 98% cost reduction compared with using GPT-4 alone while preserving accuracy.",
+          "supports": "direct",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-005",
+          "snippet": "Ong et al. train routers on human preference data and show strong transfer to new model pools, suggesting learned routers can adapt as the underlying model landscape changes.",
+          "supports": "direct",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-019",
+          "snippet": "Hu et al. introduce RouterBench, a standardized dataset and evaluation framework for comparing multi-LLM routing strategies on accuracy-cost tradeoffs.",
+          "supports": "analogous",
           "assessedAt": "2026-06-26"
         }
       ],
       "counterevidence": [
         {
-          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "summary": "Reported cost reductions are benchmark-specific; real-world savings depend on query distribution, model pricing, and latency requirements that change frequently.",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "summary": "RouterBench and similar evaluations primarily measure accuracy and cost, often underweighting reliability, policy compliance, and latency.",
           "assessedAt": "2026-06-26"
         }
       ]
     },
     {
       "id": "claim-004",
-      "claim": "Test-time search strategies\u2014self-consistency, Tree of Thoughts, Reflexion, and multi-agent debate\u2014expand what a control plane can spend compute on at runtime.",
+      "claim": "Test-time search strategies—self-consistency, Tree of Thoughts, Reflexion, and multi-agent debate—expand what a control plane can spend compute on at runtime.",
       "confidence": "medium",
       "status": "argument",
       "evidence": [
         {
-          "sourceId": "source-001",
-          "snippet": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
-          "supports": "background",
+          "sourceId": "source-013",
+          "snippet": "Wang et al. show that self-consistency, which samples multiple reasoning paths and takes a majority vote, improves chain-of-thought reasoning without changing the underlying model.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-002",
-          "snippet": "Fedus et al., Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
-          "supports": "background",
+          "sourceId": "source-006",
+          "snippet": "Yao et al. generalize chain-of-thought to Tree of Thoughts, where an explicit search tree over reasoning steps enables backtracking and lookahead.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-003",
-          "snippet": "Dohan et al., Language Model Cascades",
-          "supports": "background",
+          "sourceId": "source-014",
+          "snippet": "Shinn et al. introduce Reflexion, which uses linguistic feedback and an episodic memory buffer to let agents improve during a task without gradient updates.",
+          "supports": "direct",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-015",
+          "snippet": "Du et al. demonstrate that multi-agent debate, in which multiple LLM instances argue over rounds, can improve factual accuracy and reasoning.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         }
       ],
       "counterevidence": [
         {
-          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "summary": "Each strategy multiplies compute usage through sampling, search, reflection loops, or debate rounds, increasing latency and cost in ways that may not be justified for simple queries.",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "summary": "Performance gains are task-dependent; self-consistency and debate can degrade results when the majority of sampled or argued answers is systematically wrong.",
           "assessedAt": "2026-06-26"
         }
       ]
@@ -156,27 +184,37 @@
       "status": "argument",
       "evidence": [
         {
-          "sourceId": "source-001",
-          "snippet": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
-          "supports": "background",
+          "sourceId": "source-009",
+          "snippet": "Tang et al. train Sakana Fugu orchestrator models to understand a query and dynamically generate agent teams and scaffolds, reporting strong results across coding, reasoning, and exam benchmarks.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-002",
-          "snippet": "Fedus et al., Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
-          "supports": "background",
+          "sourceId": "source-017",
+          "snippet": "Xu et al. propose Trinity, which uses a small coordinator to assign Thinker, Worker, and Verifier roles among LLMs and harmonize them as a single mind.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-003",
-          "snippet": "Dohan et al., Language Model Cascades",
-          "supports": "background",
+          "sourceId": "source-018",
+          "snippet": "Nielsen et al. train Conductor with reinforcement learning to design communication topologies and prompt workers in multi-agent systems, supporting recursive self-selection.",
+          "supports": "direct",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-010",
+          "snippet": "Zhang et al. use Monte Carlo Tree Search over code-represented workflows to automate agentic workflow generation, an earlier example of learned scaffold design.",
+          "supports": "analogous",
           "assessedAt": "2026-06-26"
         }
       ],
       "counterevidence": [
         {
-          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "summary": "Fugu, Trinity, and Conductor are preprints or very recent papers; their benchmark results have not been independently reproduced and may reflect task leakage or cherry-picking.",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "summary": "Adding an orchestrator model introduces its own latency, cost, failure modes, and training-data biases, which are rarely reported at production scale.",
           "assessedAt": "2026-06-26"
         }
       ]
@@ -188,27 +226,31 @@
       "status": "argument",
       "evidence": [
         {
-          "sourceId": "source-001",
-          "snippet": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
-          "supports": "background",
+          "sourceId": "source-011",
+          "snippet": "LiteLLM provides a gateway with unified API, model routing, fallback, caching, rate limiting, spend tracking, and observability callbacks.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-002",
-          "snippet": "Fedus et al., Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
-          "supports": "background",
+          "sourceId": "source-012",
+          "snippet": "LangGraph offers a graph-based runtime with state, handoffs, tool orchestration, persistence, and human-in-the-loop, covering framework-level control-plane concerns.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-003",
-          "snippet": "Dohan et al., Language Model Cascades",
-          "supports": "background",
+          "sourceId": "source-018",
+          "snippet": "Conductor shows how reinforcement learning can automate coordination topologies, illustrating a learned-routing capability that complements static gateway rules.",
+          "supports": "analogous",
           "assessedAt": "2026-06-26"
         }
       ],
       "counterevidence": [
         {
-          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "summary": "Gateways like LiteLLM know little about an agent's internal reasoning, while frameworks like LangGraph usually operate within a single codebase and lack enterprise multi-tenancy and billing.",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "summary": "Enterprise platforms bundle governance, connectors, and approval workflows but often trade flexibility for vendor lock-in, so no single product covers all seven capabilities well.",
           "assessedAt": "2026-06-26"
         }
       ]
@@ -220,27 +262,31 @@
       "status": "argument",
       "evidence": [
         {
-          "sourceId": "source-001",
-          "snippet": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
-          "supports": "background",
+          "sourceId": "source-011",
+          "snippet": "LiteLLM is marketed as an open-source LLM proxy and gateway, emphasizing unified API, routing, and spend management rather than a full enterprise control plane.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-002",
-          "snippet": "Fedus et al., Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
-          "supports": "background",
+          "sourceId": "source-012",
+          "snippet": "LangGraph is positioned as a framework and state machine for building agents, overlapping with but distinct from gateway-style routing and policy enforcement.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-003",
-          "snippet": "Dohan et al., Language Model Cascades",
-          "supports": "background",
+          "sourceId": "source-009",
+          "snippet": "Sakana Fugu frames control as learned scaffold generation, a different capability emphasis from routing, policy, or observability.",
+          "supports": "analogous",
           "assessedAt": "2026-06-26"
         }
       ],
       "counterevidence": [
         {
-          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "summary": "The term is contested partly because the category is nascent; a canonical definition or standard taxonomy may emerge as the market matures.",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "summary": "Individual vendors may use the term consistently inside their own product taxonomies even if their definitions differ from one another.",
           "assessedAt": "2026-06-26"
         }
       ]
@@ -252,27 +298,37 @@
       "status": "argument",
       "evidence": [
         {
-          "sourceId": "source-001",
-          "snippet": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
-          "supports": "background",
+          "sourceId": "source-004",
+          "snippet": "FrugalGPT shows that model selection can be learned and centralized into a cascade, rather than hard-coded for each query in application logic.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-002",
-          "snippet": "Fedus et al., Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
-          "supports": "background",
+          "sourceId": "source-005",
+          "snippet": "RouteLLM demonstrates that a router trained once can transfer to new model pools, suggesting model selection can be maintained as shared infrastructure.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-003",
-          "snippet": "Dohan et al., Language Model Cascades",
-          "supports": "background",
+          "sourceId": "source-011",
+          "snippet": "LiteLLM centralizes routing, fallback, retry, spend tracking, and observability callbacks behind a single proxy API.",
+          "supports": "direct",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-019",
+          "snippet": "RouterBench provides a common evaluation framework for routing strategies, supporting the treatment of model selection as a reusable infrastructure component.",
+          "supports": "analogous",
           "assessedAt": "2026-06-26"
         }
       ],
       "counterevidence": [
         {
-          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "summary": "Centralizing these concerns creates a new single point of failure and a potential latency bottleneck that must be engineered for resilience and observability.",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "summary": "Simple agents with stable, narrow task boundaries may not benefit enough from a separate control plane to justify the added operational complexity.",
           "assessedAt": "2026-06-26"
         }
       ]

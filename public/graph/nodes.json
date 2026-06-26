@@ -74,7 +74,7 @@
     "type": "claim",
     "label": "Mixture-of-Experts and conditional computation predate LLMs and provide the earliest architectural precedent for learned routing.",
     "localId": "claim-002",
-    "confidence": "medium",
+    "confidence": "high",
     "status": "core"
   },
   {

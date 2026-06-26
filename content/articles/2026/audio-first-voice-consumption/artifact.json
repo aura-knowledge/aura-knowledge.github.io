@@ -30,26 +30,30 @@
       "evidence": [
         {
           "sourceId": "source-001",
-          "snippet": "American Optometric Association & Deloitte Access Economics, The impact of unmanaged excessive screen time in the United",
-          "supports": "background",
+          "snippet": "The AOA/Deloitte report estimates that over 104 million working-age Americans spend more than seven hours a day on screens and that unmanaged screen time cost the U.S. economy roughly $151 billion in 2023.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         },
         {
           "sourceId": "source-002",
-          "snippet": "Kaur et al., Digital Eye Strain \u2013 A Comprehensive Review (2022)",
-          "supports": "background",
+          "snippet": "Kaur et al. review digital eye strain prevalence estimates ranging from 25% to 93% across populations, with symptoms including dry eyes, blurred vision, headache, and neck or back pain.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         },
         {
           "sourceId": "source-003",
-          "snippet": "Edison Research, The Infinite Dial 2024",
+          "snippet": "Edison Research reports record-high online audio adoption in 2024, which situates screen fatigue alongside a parallel trend toward audio consumption without proving causation.",
           "supports": "background",
           "assessedAt": "2026-06-26"
         }
       ],
       "counterevidence": [
         {
-          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "summary": "The link between screen fatigue and audio adoption is correlational, not causal; Edison data show audio growth but do not establish that screen fatigue drives it.",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "summary": "Prevalence estimates for digital eye strain vary widely (25-93%) depending on population and methodology, so the magnitude of the problem is context-dependent.",
           "assessedAt": "2026-06-26"
         }
       ]
@@ -61,27 +65,37 @@
       "status": "core",
       "evidence": [
         {
-          "sourceId": "source-001",
-          "snippet": "American Optometric Association & Deloitte Access Economics, The impact of unmanaged excessive screen time in the United",
-          "supports": "background",
+          "sourceId": "source-004",
+          "snippet": "Jiang et al. find that working memory and attention explain 16-25% of variance in listening comprehension versus 11-12% for reading, suggesting listening places greater demands on cognitive control.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-002",
-          "snippet": "Kaur et al., Digital Eye Strain \u2013 A Comprehensive Review (2022)",
-          "supports": "background",
+          "sourceId": "source-007",
+          "snippet": "Sweller, van Merri\u00ebnboer and Paas describe the transient information effect: spoken content disappears and must be held in working memory, increasing cognitive load compared with self-paced text.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-003",
-          "snippet": "Edison Research, The Infinite Dial 2024",
+          "sourceId": "source-005",
+          "snippet": "Jiang, Kalyuga and Sweller report an expertise-reversal effect in which more expert learners performed better with reading-only than listening-only, while novices benefited from dual modalities.",
+          "supports": "direct",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-006",
+          "snippet": "Mayer and Moreno's modality effect shows that spoken narration can offload an overloaded visual channel, indicating audio is valuable as a complement rather than a replacement.",
           "supports": "background",
           "assessedAt": "2026-06-26"
         }
       ],
       "counterevidence": [
         {
-          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "summary": "The modality effect shows audio can outperform visuals when the visual channel is overloaded, so audio is not universally inferior to reading.",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "summary": "Expertise and task matter: for some learners and materials, reading-only or dual-modality presentations outperform listening-only, so the optimal format is context-dependent.",
           "assessedAt": "2026-06-26"
         }
       ]
@@ -93,27 +107,25 @@
       "status": "core",
       "evidence": [
         {
-          "sourceId": "source-001",
-          "snippet": "American Optometric Association & Deloitte Access Economics, The impact of unmanaged excessive screen time in the United",
-          "supports": "background",
+          "sourceId": "source-008",
+          "snippet": "Ji et al. survey the shift from cascaded ASR-LM-TTS pipelines toward end-to-end spoken dialogue models that handle speech representation, streaming, full-duplex interaction, and turn-taking in a single system.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-002",
-          "snippet": "Kaur et al., Digital Eye Strain \u2013 A Comprehensive Review (2022)",
-          "supports": "background",
-          "assessedAt": "2026-06-26"
-        },
-        {
-          "sourceId": "source-003",
-          "snippet": "Edison Research, The Infinite Dial 2024",
-          "supports": "background",
+          "sourceId": "source-009",
+          "snippet": "D\u00e9fossez et al. describe Moshi, an open full-duplex speech-text foundation model that models user and agent audio streams simultaneously with about 160 ms theoretical latency and about 200 ms practical latency on an L4 GPU.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         }
       ],
       "counterevidence": [
         {
-          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "summary": "Reported latency benchmarks are hardware-specific and may not generalize to consumer devices or noisy environments.",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "summary": "Technical feasibility of full-duplex speech does not imply reliable comprehension or accurate summarization for complex professional content; user studies remain sparse.",
           "assessedAt": "2026-06-26"
         }
       ]
@@ -125,27 +137,37 @@
       "status": "argument",
       "evidence": [
         {
-          "sourceId": "source-001",
-          "snippet": "American Optometric Association & Deloitte Access Economics, The impact of unmanaged excessive screen time in the United",
+          "sourceId": "source-008",
+          "snippet": "Ji et al. frame turn-taking, interruption, and full-duplex coordination as core design problems in spoken dialogue systems, not merely technical naturalness targets.",
           "supports": "background",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-002",
-          "snippet": "Kaur et al., Digital Eye Strain \u2013 A Comprehensive Review (2022)",
-          "supports": "background",
+          "sourceId": "source-010",
+          "snippet": "Kraus et al. show that trust in proactive conversational assistants is shaped by predictability, transparency, and controllability, which are interaction-design properties.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-003",
-          "snippet": "Edison Research, The Infinite Dial 2024",
-          "supports": "background",
+          "sourceId": "source-011",
+          "snippet": "Zargham et al. find that users value proactivity in urgent situations but worry about loss of agency, intrusiveness, and social disruption, highlighting context-sensitive design tradeoffs.",
+          "supports": "direct",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-012",
+          "snippet": "Oh et al. argue from a wizard-of-Oz study that proactive voice assistants should ask exploratory questions, incorporate feedback, seek permission for control tasks, and keep adjusting until the user explicitly says to stop.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         }
       ],
       "counterevidence": [
         {
-          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "summary": "Some users and use cases may prioritize conversational naturalness or social presence over control, especially for companionship or entertainment-oriented agents.",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "summary": "In safety-critical or urgent contexts, users may prefer proactive interruption over strict user-initiated control, complicating a one-size-fits-all agency rule.",
           "assessedAt": "2026-06-26"
         }
       ]
@@ -157,27 +179,37 @@
       "status": "argument",
       "evidence": [
         {
-          "sourceId": "source-001",
-          "snippet": "American Optometric Association & Deloitte Access Economics, The impact of unmanaged excessive screen time in the United",
+          "sourceId": "source-011",
+          "snippet": "Zargham et al. document the proactivity dilemma: users appreciate proactive voice assistants in urgent situations but perceive them as intrusive and agency-reducing in routine contexts.",
+          "supports": "direct",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-010",
+          "snippet": "Kraus et al. report that perceived intrusiveness and loss of control reduce trust in proactive conversational assistants, reinforcing the need for user-controllable behavior.",
           "supports": "background",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-002",
-          "snippet": "Kaur et al., Digital Eye Strain \u2013 A Comprehensive Review (2022)",
-          "supports": "background",
+          "sourceId": "source-012",
+          "snippet": "Oh et al. recommend that proactive voice assistants seek permission for control tasks and stop adjusting when the user explicitly requests it, preserving agency.",
+          "supports": "direct",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-003",
-          "snippet": "Edison Research, The Infinite Dial 2024",
-          "supports": "background",
+          "sourceId": "source-016",
+          "snippet": "Apple's Announce Notifications feature exemplifies a notification-triggered, user-pull audio interaction: Siri reads time-sensitive or direct-message notifications through AirPods while the device is locked.",
+          "supports": "analogous",
           "assessedAt": "2026-06-26"
         }
       ],
       "counterevidence": [
         {
-          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "summary": "Zargham et al. also find proactivity desirable in urgent or critical situations, so a blanket ban on proactive agents may be too restrictive.",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "summary": "Notification-triggered audio can still become intrusive if volume, frequency, or timing are poorly managed, shifting the problem rather than solving it.",
           "assessedAt": "2026-06-26"
         }
       ]
@@ -189,27 +221,31 @@
       "status": "argument",
       "evidence": [
         {
-          "sourceId": "source-001",
-          "snippet": "American Optometric Association & Deloitte Access Economics, The impact of unmanaged excessive screen time in the United",
+          "sourceId": "source-013",
+          "snippet": "Li et al. present quasi-experimental evidence from Sina Weibo that algorithmic filtering narrowed users' interest scope over time and reduced exposure to attitude-challenging content.",
+          "supports": "direct",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-014",
+          "snippet": "Dentsu and Lumen Research find that audio ads, especially podcasts, generate more attentive seconds per thousand impressions than many visual benchmarks, suggesting audio captures attention intensely and with fewer peripheral cues.",
           "supports": "background",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-002",
-          "snippet": "Kaur et al., Digital Eye Strain \u2013 A Comprehensive Review (2022)",
-          "supports": "background",
-          "assessedAt": "2026-06-26"
-        },
-        {
-          "sourceId": "source-003",
-          "snippet": "Edison Research, The Infinite Dial 2024",
+          "sourceId": "source-011",
+          "snippet": "Zargham et al. note that users worry about loss of agency and social disruption from voice assistants, supporting the argument for transparent, user-controllable curation.",
           "supports": "background",
           "assessedAt": "2026-06-26"
         }
       ],
       "counterevidence": [
         {
-          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "summary": "Filter-bubble evidence is contested and platform-specific; some studies find weak or no bubble effects, and audio platforms may expose users to diverse content such as long-form podcasts.",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "summary": "Visual interfaces do not eliminate filter bubbles or verification failures; the problem is curation logic and user behavior, not the audio channel alone.",
           "assessedAt": "2026-06-26"
         }
       ]
@@ -221,27 +257,37 @@
       "status": "argument",
       "evidence": [
         {
-          "sourceId": "source-001",
-          "snippet": "American Optometric Association & Deloitte Access Economics, The impact of unmanaged excessive screen time in the United",
+          "sourceId": "source-016",
+          "snippet": "Apple's Announce Notifications with Siri on AirPods demonstrates a concrete trigger-based, off-screen audio interaction where the user receives time-sensitive notifications through earbuds without unlocking a screen.",
+          "supports": "analogous",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-017",
+          "snippet": "The AirPods User Guide documents tap, press, and head-gesture controls that let users trigger or manage audio without looking at a screen, providing an existing interaction foundation.",
+          "supports": "analogous",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-012",
+          "snippet": "Oh et al.'s design recommendations for permission-seeking, feedback-driven proactive assistants align with a user-initiated or notification-triggered audio review model.",
           "supports": "background",
           "assessedAt": "2026-06-26"
         },
         {
-          "sourceId": "source-002",
-          "snippet": "Kaur et al., Digital Eye Strain \u2013 A Comprehensive Review (2022)",
-          "supports": "background",
-          "assessedAt": "2026-06-26"
-        },
-        {
-          "sourceId": "source-003",
-          "snippet": "Edison Research, The Infinite Dial 2024",
+          "sourceId": "source-015",
+          "snippet": "WHO safe-listening guidance provides boundary constraints for any earbud-based audio layer, emphasizing volume limits, breaks, and exposure monitoring.",
           "supports": "background",
           "assessedAt": "2026-06-26"
         }
       ],
       "counterevidence": [
         {
-          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "summary": "There is little direct empirical evidence that a trigger-based, two-way audio review layer improves comprehension, retention, or wellbeing for professional content.",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "summary": "The AirPods example is Apple-ecosystem-specific; affordances on Android, Pixel Buds, and other platforms differ, and cross-platform designs may not replicate the same user experience.",
           "assessedAt": "2026-06-26"
         }
       ]

@@ -7,7 +7,7 @@
     "claims": 106,
     "sources": 220,
     "roadmap": 16,
-    "edges": 481
+    "edges": 488
   },
   "files": {
     "claims": {
@@ -24,7 +24,7 @@
     },
     "edges": {
       "path": "/agents/feeds/edges.jsonl",
-      "count": 481
+      "count": 488
     }
   }
 }
