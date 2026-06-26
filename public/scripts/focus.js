@@ -4,6 +4,17 @@
   const markers = Array.from(document.querySelectorAll(".claim-marker[id]"));
   const articleBody = document.querySelector(".article-body");
 
+  markers.forEach((marker) => {
+    if (!marker.textContent.trim()) {
+      const number = marker.id.replace(/^claim-0*/, "");
+      marker.textContent = `Claim C${number}`;
+    }
+
+    if (!marker.dataset.claim) {
+      marker.dataset.claim = marker.id;
+    }
+  });
+
   const setActive = (id) => {
     railLinks.forEach((link) => {
       const active = link.getAttribute("data-focus-link") === id;
