@@ -23,6 +23,12 @@
     "privacy",
     "prompting"
   ],
+  "series": {
+    "slug": "ai-agent-conversations",
+    "title": "First Steps with AI Agents",
+    "order": 1,
+    "role": "chapter"
+  },
   "claims": [
     {
       "id": "claim-001",

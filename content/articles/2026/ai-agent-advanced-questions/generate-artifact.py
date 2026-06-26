@@ -44,6 +44,12 @@ artifact = {
     "updatedAt": DATE,
     "audiences": ["general", "students", "non-technical"],
     "topics": ["ai-agents", "onboarding", "ai-literacy", "privacy", "prompting"],
+    "series": {
+        "slug": "ai-agent-conversations",
+        "title": "First Steps with AI Agents",
+        "order": 1,
+        "role": "chapter",
+    },
     "claims": [
         {
             "id": "claim-001",

@@ -264,3 +264,5 @@ That is it. You have started.
 
 If you want a one-page reminder you can keep next to your screen, download the
 [printable first-conversation card](/articles/ai-agent-first-conversation/first-conversation-card.pdf).
+
+When you are ready for the next step, read ["Beyond the First Conversation: Advanced Questions for New AI Agent Users"](/articles/ai-agent-advanced-questions/).
