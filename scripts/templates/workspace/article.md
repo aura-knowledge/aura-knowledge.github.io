@@ -21,7 +21,7 @@ sourcePath: content/articles/{{year}}/{{slug}}/article.md
 
 Write the human-readable essay here. Replace this paragraph with the central argument.
 
-<span id="claim-001" class="claim-marker" data-claim="claim-001">Claim C1</span>
+<span id="claim-001" class="claim-marker" data-claim="claim-001">Claim C1</span> State the claim in one plain sentence.
 
 ## Context
 

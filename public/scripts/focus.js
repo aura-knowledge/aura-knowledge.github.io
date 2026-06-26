@@ -3,6 +3,14 @@
   const railLinks = Array.from(document.querySelectorAll("[data-focus-link]"));
   const markers = Array.from(document.querySelectorAll(".claim-marker[id]"));
   const articleBody = document.querySelector(".article-body");
+  const claimTextById = new Map(
+    railLinks
+      .map((link) => [
+        link.getAttribute("data-focus-link"),
+        link.querySelector("em")?.textContent.trim()
+      ])
+      .filter(([id, text]) => id && text)
+  );
 
   markers.forEach((marker) => {
     if (!marker.textContent.trim()) {
@@ -12,6 +20,12 @@
 
     if (!marker.dataset.claim) {
       marker.dataset.claim = marker.id;
+    }
+
+    const claimText = claimTextById.get(marker.id);
+    const parent = marker.parentElement;
+    if (claimText && parent?.matches("p") && parent.textContent.trim() === marker.textContent.trim()) {
+      parent.append(" ", claimText);
     }
   });
 
