@@ -8,12 +8,14 @@ interface Props {
 const { claims } = Astro.props;
 ---
 
-<aside class="focus-rail focus-rail-desktop" aria-labelledby="claims-title" data-focus-rail>
+<nav class="focus-rail" aria-labelledby="claims-title" data-focus-rail>
   <div class="reading-progress" aria-hidden="true">
     <span data-reading-progress></span>
   </div>
-  <p class="eyebrow">Claim rail</p>
-  <h2 id="claims-title">Audit path</h2>
+  <div class="focus-rail-header">
+    <p class="eyebrow">Claims</p>
+    <h2 id="claims-title">Article map</h2>
+  </div>
   <ol>
     {claims.map((claim) => (
       <li>
@@ -28,22 +30,4 @@ const { claims } = Astro.props;
       </li>
     ))}
   </ol>
-</aside>
-
-<details class="focus-rail-mobile">
-  <summary>View audit path</summary>
-  <ol>
-    {claims.map((claim) => (
-      <li>
-        <a href={`#${claim.id}`} data-focus-link={claim.id}>
-          <span>{claim.id.replace("claim-", "C")}</span>
-          <strong>
-            {claim.status} · {claim.confidence}
-            {claim.verification && ` · ${claim.verification.status}`}
-          </strong>
-          <em>{claim.claim}</em>
-        </a>
-      </li>
-    ))}
-  </ol>
-</details>
+</nav>
