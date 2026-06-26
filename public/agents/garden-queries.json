@@ -6,7 +6,7 @@
   "generatedAt": "2026-06-26T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 327
+    "totalResults": 328
   },
   "dimensions": [
     {
@@ -707,7 +707,7 @@
         "confidence": "high"
       },
       "resultType": "claims",
-      "resultCount": 33,
+      "resultCount": 34,
       "results": [
         {
           "articleId": "article:agent-auditable-research",
@@ -728,6 +728,16 @@
           "claim": "AI assistance should be disclosed while the human remains accountable for thesis, source selection, wording, and conclusions.",
           "confidence": "high",
           "status": "normative"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "claimId": "claim-002",
+          "claim": "Mixture-of-Experts and conditional computation predate LLMs and provide the earliest architectural precedent for learned routing.",
+          "confidence": "high",
+          "status": "core"
         },
         {
           "articleId": "article:ai-winters-expert-systems",
