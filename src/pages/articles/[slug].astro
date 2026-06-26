@@ -102,6 +102,9 @@ const jsonLd = {
 
       <article class="article-body">
         <Content />
+
+        <SourceLedger sources={article.artifact.sources} />
+
         <section class="claim-audit" aria-labelledby="claim-audit-title">
           <div class="claim-audit-heading">
             <div>
@@ -129,8 +132,6 @@ const jsonLd = {
             ))}
           </div>
         </section>
-
-        <SourceLedger sources={article.artifact.sources} />
 
         <ProvenancePanel provenance={article.artifact.provenance} contentHash={article.artifact.contentHash} />
 

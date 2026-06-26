@@ -8,8 +8,14 @@ interface Props {
 const { sources } = Astro.props;
 ---
 
-<section class="source-ledger" aria-labelledby="sources-title">
-  <h2 id="sources-title">Source Ledger</h2>
+<details class="source-ledger" aria-labelledby="sources-title">
+  <summary>
+    <span>
+      <span class="eyebrow">Structured sources</span>
+      <strong id="sources-title">Source ledger</strong>
+    </span>
+    <span>{sources.length} sources</span>
+  </summary>
   <ul>
     {sources.map((source) => (
       <li>
@@ -18,4 +24,4 @@ const { sources } = Astro.props;
       </li>
     ))}
   </ul>
-</section>
+</details>
