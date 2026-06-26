@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 3,
+  "id": "article:audio-first-voice-consumption",
+  "slug": "audio-first-voice-consumption",
+  "title": "Listening to the Firehose: Can Voice-First, Two-Way Audio Become a Legitimate Assistive Medium?",
+  "canonicalPath": "/articles/audio-first-voice-consumption/",
+  "sourcePath": "content/articles/2026/audio-first-voice-consumption/article.md",
+  "agentBriefPath": "content/articles/2026/audio-first-voice-consumption/agent.md",
+  "thesis": "Voice-first, two-way audio agents are technically ready to become a useful complement to screen-based reading for knowledge workers, but only if designers treat them as assistive, user-controlled, and hearing-safe tools\u2014not as replacements for reading or as always-listening ambient companions.",
+  "status": "published",
+  "maturity": "sprout",
+  "publishedAt": "2026-06-26",
+  "updatedAt": "2026-06-26",
+  "audiences": [
+    "builders",
+    "researchers",
+    "general"
+  ],
+  "topics": [
+    "audio",
+    "voice-interfaces",
+    "ai-agents"
+  ],
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Heavy screen use is widespread among working-age adults and is associated with significant productivity and wellbeing costs, including digital eye strain.",
+      "confidence": "medium",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-001",
+          "snippet": "American Optometric Association & Deloitte Access Economics, The impact of unmanaged excessive screen time in the United",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-002",
+          "snippet": "Kaur et al., Digital Eye Strain \u2013 A Comprehensive Review (2022)",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-003",
+          "snippet": "Edison Research, The Infinite Dial 2024",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Listening and reading impose different cognitive demands; audio is generally more transient and pace-dependent, making it a complement rather than a drop-in replacement for reading.",
+      "confidence": "medium",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-001",
+          "snippet": "American Optometric Association & Deloitte Access Economics, The impact of unmanaged excessive screen time in the United",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-002",
+          "snippet": "Kaur et al., Digital Eye Strain \u2013 A Comprehensive Review (2022)",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-003",
+          "snippet": "Edison Research, The Infinite Dial 2024",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "End-to-end, full-duplex spoken dialogue models have moved from research demos to publicly documented systems with low enough latency for natural turn-taking.",
+      "confidence": "medium",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-001",
+          "snippet": "American Optometric Association & Deloitte Access Economics, The impact of unmanaged excessive screen time in the United",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-002",
+          "snippet": "Kaur et al., Digital Eye Strain \u2013 A Comprehensive Review (2022)",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-003",
+          "snippet": "Edison Research, The Infinite Dial 2024",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "The value of voice-first audio agents depends more on interaction design\u2014turn-taking, interruption, proactivity, and user agency\u2014than on raw conversational naturalness.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-001",
+          "snippet": "American Optometric Association & Deloitte Access Economics, The impact of unmanaged excessive screen time in the United",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-002",
+          "snippet": "Kaur et al., Digital Eye Strain \u2013 A Comprehensive Review (2022)",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-003",
+          "snippet": "Edison Research, The Infinite Dial 2024",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "Proactive and always-listening audio agents risk intrusiveness and attention capture; user-initiated or notification-triggered sessions better preserve agency.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-001",
+          "snippet": "American Optometric Association & Deloitte Access Economics, The impact of unmanaged excessive screen time in the United",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-002",
+          "snippet": "Kaur et al., Digital Eye Strain \u2013 A Comprehensive Review (2022)",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-003",
+          "snippet": "Edison Research, The Infinite Dial 2024",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "Voice-first curation can amplify filter-bubble dynamics in a channel with fewer visual cues for verification, so transparency and user control over selection are essential.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-001",
+          "snippet": "American Optometric Association & Deloitte Access Economics, The impact of unmanaged excessive screen time in the United",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-002",
+          "snippet": "Kaur et al., Digital Eye Strain \u2013 A Comprehensive Review (2022)",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-003",
+          "snippet": "Edison Research, The Infinite Dial 2024",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "A trigger-based, off-screen audio review layer is a promising near-term pattern, but it should be treated as a testable hypothesis rather than a proven product design.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-001",
+          "snippet": "American Optometric Association & Deloitte Access Economics, The impact of unmanaged excessive screen time in the United",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-002",
+          "snippet": "Kaur et al., Digital Eye Strain \u2013 A Comprehensive Review (2022)",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-003",
+          "snippet": "Edison Research, The Infinite Dial 2024",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-001",
+      "title": "American Optometric Association & Deloitte Access Economics, The impact of unmanaged excessive screen time in the United States (2024)",
+      "url": "https://www.aoa.org/AOA/Documents/Eye%20Deserve%20More/Cost%20of%20Unmanaged%20Screen%20Time%20Report_FINAL.pdf",
+      "type": "report",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-002",
+      "title": "Kaur et al., Digital Eye Strain \u2013 A Comprehensive Review (2022)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9434525/",
+      "type": "journal-article",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-003",
+      "title": "Edison Research, The Infinite Dial 2024",
+      "url": "https://www.edisonresearch.com/the-infinite-dial-2024/",
+      "type": "report",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-004",
+      "title": "Jiang et al., Are working memory and behavioral attention equally important for both reading and listening comprehension? (2018)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6096896/",
+      "type": "journal-article",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-005",
+      "title": "Jiang, Kalyuga & Sweller, The Curious Case of Improving Foreign Language Listening Skills by Reading rather than Listening (2018)",
+      "url": "https://doi.org/10.1007/s10648-017-9427-1",
+      "type": "journal-article",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-006",
+      "title": "Mayer & Moreno, Nine ways to reduce cognitive load in multimedia learning (2003)",
+      "url": "https://doi.org/10.1207/S15326985EP3801_6",
+      "type": "journal-article",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-007",
+      "title": "Sweller, van Merri\u00ebnboer & Paas, Cognitive Architecture and Instructional Design: 20 Years Later (2019)",
+      "url": "https://doi.org/10.1007/s10648-019-09465-5",
+      "type": "journal-article",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-008",
+      "title": "Ji et al., WavChat: A Survey of Spoken Dialogue Models (2024)",
+      "url": "https://arxiv.org/abs/2411.13577",
+      "type": "preprint",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-009",
+      "title": "D\u00e9fossez et al., Moshi: a speech-text foundation model for real-time dialogue (2024)",
+      "url": "https://arxiv.org/abs/2410.00037",
+      "type": "preprint",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-010",
+      "title": "Kraus et al., The Role of Trust in Proactive Conversational Assistants (2021)",
+      "url": "https://doi.org/10.1109/ACCESS.2021.3103893",
+      "type": "journal-article",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-011",
+      "title": "Zargham et al., Understanding Circumstances for Desirable Proactive Behaviour of Voice Assistants: The Proactivity Dilemma (2022)",
+      "url": "https://doi.org/10.1145/3543829.3543834",
+      "type": "conference-paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-012",
+      "title": "Oh et al., Better to Ask Than Assume: Proactive Voice Assistants' Communication Strategies That Respect User Agency (2024)",
+      "url": "https://doi.org/10.1145/3613904.3642193",
+      "type": "conference-paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-013",
+      "title": "Li et al., Does Algorithmic Filtering Create a Filter Bubble? Evidence from Sina Weibo (2019)",
+      "url": "https://doi.org/10.5465/AMBPP.2019.14168abstract",
+      "type": "conference-proceeding",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-014",
+      "title": "Dentsu & Lumen Research, Audio Attention Economy Study (2023)",
+      "url": "https://lumen-research.com/blog/lumen-audio-attention-economy/",
+      "type": "report",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-015",
+      "title": "World Health Organization, Deafness and hearing loss fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
+      "type": "guidance",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-016",
+      "title": "Apple Support, Announce Notifications with Siri on AirPods or Beats",
+      "url": "https://support.apple.com/en-ca/102536",
+      "type": "documentation",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-017",
+      "title": "Apple Support, AirPods User Guide",
+      "url": "https://support.apple.com/guide/airpods/welcome/web",
+      "type": "documentation",
+      "accessed": "2026-06-26"
+    }
+  ],
+  "related": [],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=sprout as an explicit uncertainty marker.",
+    "Do not present speculative claims as settled facts."
+  ],
+  "contentHash": "91df0331a91b7896a885033651191cafd46a7e004776180106c6fbadd6c6851e",
+  "provenance": {
+    "createdAt": "2026-06-26",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-06-26",
+        "inputHash": "sha256:6fb5066de6aa13617120074e2d4cf2e8d6602881048df9500e56e2d8207d3b20",
+        "outputHash": "sha256:c3bd3e681ca805aba641e0d6f617bbf291e46a68ce97705abaeae20c89cf5031"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-26",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "tone",
+          "privacy",
+          "scope"
+        ],
+        "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
+        "contentHash": "91df0331a91b7896a885033651191cafd46a7e004776180106c6fbadd6c6851e"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-26",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "scope",
+          "tone"
+        ],
+        "notes": "Human author approved the draft for website publication.",
+        "contentHash": "91df0331a91b7896a885033651191cafd46a7e004776180106c6fbadd6c6851e"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  }
+}
