@@ -6,13 +6,14 @@
   "generatedAt": "2026-06-26T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 280
+    "totalResults": 327
   },
   "dimensions": [
     {
       "name": "topic",
       "description": "Article topic.",
       "values": [
+        "agent-orchestration",
         "agent-provenance",
         "agentic-commerce",
         "ai-agents",
@@ -21,6 +22,7 @@
         "ai-literacy",
         "ai-native-publishing",
         "ai-society",
+        "audio",
         "computability",
         "computing-history",
         "consumer-behavior",
@@ -38,6 +40,7 @@
         "information-theory",
         "institutions",
         "labor",
+        "llm-routing",
         "long-human-road-to-ai",
         "machine-learning",
         "neural-networks",
@@ -49,7 +52,8 @@
         "research-workflows",
         "scaling",
         "symbolic-ai",
-        "transformers"
+        "transformers",
+        "voice-interfaces"
       ]
     },
     {
@@ -57,11 +61,16 @@
       "description": "Article tag.",
       "values": [
         "abacus",
+        "accessibility",
+        "agent-orchestration",
         "ai-agents",
         "ai-history",
         "ai-literacy",
         "ai-society",
         "ai-winters",
+        "ambient-computing",
+        "attention-economy",
+        "audio",
         "automata",
         "automation",
         "commerce",
@@ -73,23 +82,29 @@
         "digital-gardens",
         "early-ai",
         "education",
+        "evals",
         "evaluation",
         "expert-systems",
         "governance",
         "history-of-ai",
+        "human-computer-interaction",
         "human-computers",
         "human-progress",
         "hype-cycle",
+        "information-overload",
         "information-theory",
         "institutions",
         "labor",
+        "llm-routing",
         "logic",
         "machine-learning",
         "mechanical-calculation",
         "model-choice",
+        "multi-agent-systems",
         "multimodality",
         "neural-networks",
         "non-technical",
+        "observability",
         "onboarding",
         "open-protocols",
         "pretraining",
@@ -102,11 +117,14 @@
         "recipe",
         "research-workflows",
         "scaling",
+        "screen-fatigue",
         "series-overview",
         "statistics",
+        "summarization",
         "symbolic-ai",
         "transformers",
-        "turing"
+        "turing",
+        "voice-interfaces"
       ]
     },
     {
@@ -143,6 +161,7 @@
         "case-study",
         "comparison",
         "conference-paper",
+        "conference-proceeding",
         "data-reference",
         "data-report",
         "design",
@@ -161,6 +180,7 @@
         "institutional-history",
         "institutional-report",
         "intergovernmental-principles",
+        "journal-article",
         "museum-collection",
         "museum-exhibit",
         "museum-object",
@@ -175,6 +195,7 @@
         "paper",
         "policy",
         "practice-guidance",
+        "preprint",
         "primary",
         "primary-text",
         "product",
@@ -232,8 +253,15 @@
         "groupBy": "topic"
       },
       "resultType": "articles",
-      "resultCount": 54,
+      "resultCount": 60,
       "results": [
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "topic": "agent-orchestration"
+        },
         {
           "articleId": "article:agent-auditable-research",
           "slug": "agent-auditable-research",
@@ -249,6 +277,13 @@
           "topic": "agentic-commerce"
         },
         {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "topic": "ai-agents"
+        },
+        {
           "articleId": "article:ai-agent-advanced-questions",
           "slug": "ai-agent-advanced-questions",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
@@ -260,6 +295,13 @@
           "slug": "ai-agent-first-conversation",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
           "agentJsonPath": "/agents/articles/ai-agent-first-conversation.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
           "topic": "ai-agents"
         },
         {
@@ -324,6 +366,13 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
           "agentJsonPath": "/agents/articles/human-systems.json",
           "topic": "ai-society"
+        },
+        {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+          "topic": "audio"
         },
         {
           "articleId": "article:formal-logic-to-computation",
@@ -473,6 +522,13 @@
           "topic": "labor"
         },
         {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "topic": "llm-routing"
+        },
+        {
           "articleId": "article:ai-winters-expert-systems",
           "slug": "ai-winters-expert-systems",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
@@ -611,6 +667,13 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
           "agentJsonPath": "/agents/articles/foundation-models.json",
           "topic": "transformers"
+        },
+        {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+          "topic": "voice-interfaces"
         }
       ]
     },
@@ -985,7 +1048,7 @@
         "groupBy": "sourceType"
       },
       "resultType": "sources",
-      "resultCount": 181,
+      "resultCount": 220,
       "results": [
         {
           "articleId": "article:human-systems",
@@ -1248,6 +1311,36 @@
           "sourceUrl": "https://cdn.aaai.org/AAAI/1980/AAAI80-076.pdf"
         },
         {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+          "sourceId": "source-011",
+          "sourceTitle": "Zargham et al., Understanding Circumstances for Desirable Proactive Behaviour of Voice Assistants: The Proactivity Dilemma (2022)",
+          "sourceType": "conference-paper",
+          "sourceUrl": "https://doi.org/10.1145/3543829.3543834"
+        },
+        {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+          "sourceId": "source-012",
+          "sourceTitle": "Oh et al., Better to Ask Than Assume: Proactive Voice Assistants' Communication Strategies That Respect User Agency (2024)",
+          "sourceType": "conference-paper",
+          "sourceUrl": "https://doi.org/10.1145/3613904.3642193"
+        },
+        {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+          "sourceId": "source-013",
+          "sourceTitle": "Li et al., Does Algorithmic Filtering Create a Filter Bubble? Evidence from Sina Weibo (2019)",
+          "sourceType": "conference-proceeding",
+          "sourceUrl": "https://doi.org/10.5465/AMBPP.2019.14168abstract"
+        },
+        {
           "articleId": "article:ai-winters-expert-systems",
           "slug": "ai-winters-expert-systems",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
@@ -1298,6 +1391,26 @@
           "sourceUrl": "https://www.nngroup.com/articles/4-principles-reduce-cognitive-load/"
         },
         {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-011",
+          "sourceTitle": "LiteLLM documentation",
+          "sourceType": "documentation",
+          "sourceUrl": "https://docs.litellm.ai/"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-012",
+          "sourceTitle": "LangGraph documentation (LangChain)",
+          "sourceType": "documentation",
+          "sourceUrl": "https://www.langchain.com/langgraph"
+        },
+        {
           "articleId": "article:agentic-commerce-product-truth",
           "slug": "agentic-commerce-product-truth",
           "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
@@ -1306,6 +1419,26 @@
           "sourceTitle": "Product snippet structured data",
           "sourceType": "documentation",
           "sourceUrl": "https://developers.google.com/search/docs/appearance/structured-data/product-snippet"
+        },
+        {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+          "sourceId": "source-016",
+          "sourceTitle": "Apple Support, Announce Notifications with Siri on AirPods or Beats",
+          "sourceType": "documentation",
+          "sourceUrl": "https://support.apple.com/en-ca/102536"
+        },
+        {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+          "sourceId": "source-017",
+          "sourceTitle": "Apple Support, AirPods User Guide",
+          "sourceType": "documentation",
+          "sourceUrl": "https://support.apple.com/guide/airpods/welcome/web"
         },
         {
           "articleId": "article:formal-logic-to-computation",
@@ -1488,6 +1621,16 @@
           "sourceUrl": "https://www.nist.gov/mathematics-statistics/prehistory-math-tables-project"
         },
         {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+          "sourceId": "source-015",
+          "sourceTitle": "World Health Organization, Deafness and hearing loss fact sheet",
+          "sourceType": "guidance",
+          "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss"
+        },
+        {
           "articleId": "article:foundation-models",
           "slug": "foundation-models",
           "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
@@ -1596,6 +1739,66 @@
           "sourceTitle": "OECD AI Principles",
           "sourceType": "intergovernmental-principles",
           "sourceUrl": "https://oecd.ai/en/ai-principles"
+        },
+        {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+          "sourceId": "source-002",
+          "sourceTitle": "Kaur et al., Digital Eye Strain – A Comprehensive Review (2022)",
+          "sourceType": "journal-article",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9434525/"
+        },
+        {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+          "sourceId": "source-004",
+          "sourceTitle": "Jiang et al., Are working memory and behavioral attention equally important for both reading and listening comprehension? (2018)",
+          "sourceType": "journal-article",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6096896/"
+        },
+        {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+          "sourceId": "source-005",
+          "sourceTitle": "Jiang, Kalyuga & Sweller, The Curious Case of Improving Foreign Language Listening Skills by Reading rather than Listening (2018)",
+          "sourceType": "journal-article",
+          "sourceUrl": "https://doi.org/10.1007/s10648-017-9427-1"
+        },
+        {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+          "sourceId": "source-006",
+          "sourceTitle": "Mayer & Moreno, Nine ways to reduce cognitive load in multimedia learning (2003)",
+          "sourceType": "journal-article",
+          "sourceUrl": "https://doi.org/10.1207/S15326985EP3801_6"
+        },
+        {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+          "sourceId": "source-007",
+          "sourceTitle": "Sweller, van Merriënboer & Paas, Cognitive Architecture and Instructional Design: 20 Years Later (2019)",
+          "sourceType": "journal-article",
+          "sourceUrl": "https://doi.org/10.1007/s10648-019-09465-5"
+        },
+        {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+          "sourceId": "source-010",
+          "sourceTitle": "Kraus et al., The Role of Trust in Proactive Conversational Assistants (2021)",
+          "sourceType": "journal-article",
+          "sourceUrl": "https://doi.org/10.1109/ACCESS.2021.3103893"
         },
         {
           "articleId": "article:long-human-road-to-ai",
@@ -1888,6 +2091,206 @@
           "sourceUrl": "https://arxiv.org/abs/2108.07258"
         },
         {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-001",
+          "sourceTitle": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/1701.06538"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-002",
+          "sourceTitle": "Fedus et al., Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2101.03961"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-003",
+          "sourceTitle": "Dohan et al., Language Model Cascades",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2207.10342"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-004",
+          "sourceTitle": "Chen et al., FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2305.05176"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-005",
+          "sourceTitle": "Ong et al., RouteLLM: Learning to Route LLMs with Preference Data",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2406.18665"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-006",
+          "sourceTitle": "Yao et al., Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2305.10601"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-007",
+          "sourceTitle": "Yao et al., ReAct: Synergizing Reasoning and Acting in Language Models",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2210.03629"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-008",
+          "sourceTitle": "Wang et al., Mixture-of-Agents Enhances Large Language Model Capabilities",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2406.04692"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-009",
+          "sourceTitle": "Tang et al., Sakana Fugu: Orchestrator Models for Adaptive Agentic Scaffolds",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2606.21228"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-010",
+          "sourceTitle": "Zhang et al., AFlow: Automating Agentic Workflow Generation",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2410.10762"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-013",
+          "sourceTitle": "Wang et al., Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2203.11171"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-014",
+          "sourceTitle": "Shinn et al., Reflexion: Self-Reflective Agents with Dynamic Memory",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2303.11366"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-015",
+          "sourceTitle": "Du et al., Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2305.14325"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-016",
+          "sourceTitle": "Jiang et al., LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2306.02561"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-017",
+          "sourceTitle": "Xu et al., Trinity: Harmonizing Multiple Large Language Models as a Single Mind",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2512.04695"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-018",
+          "sourceTitle": "Nielsen et al., Conductor: Learning to Orchestrate LLM Agents via Reinforcement Learning",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2512.04388"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-019",
+          "sourceTitle": "Hu et al., RouterBench: A Benchmark for Multi-LLM Routing",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2403.12031"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-020",
+          "sourceTitle": "Hu et al., Automated Design of Agentic Systems",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2408.08435"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-021",
+          "sourceTitle": "Yue et al., MASRouter: A Multiplexing LLM Agent Router",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2502.11133"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "sourceId": "source-022",
+          "sourceTitle": "Li et al., AgentPrune: Reducing Communication Redundancy in Multi-Agent Systems",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2410.02506"
+        },
+        {
           "articleId": "article:birth-of-ai",
           "slug": "birth-of-ai",
           "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
@@ -1956,6 +2359,26 @@
           "sourceTitle": "Responsible Sourcing Across the Data Supply Line",
           "sourceType": "practice-guidance",
           "sourceUrl": "https://partnershiponai.org/workstream/responsible-sourcing/"
+        },
+        {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+          "sourceId": "source-008",
+          "sourceTitle": "Ji et al., WavChat: A Survey of Spoken Dialogue Models (2024)",
+          "sourceType": "preprint",
+          "sourceUrl": "https://arxiv.org/abs/2411.13577"
+        },
+        {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+          "sourceId": "source-009",
+          "sourceTitle": "Défossez et al., Moshi: a speech-text foundation model for real-time dialogue (2024)",
+          "sourceType": "preprint",
+          "sourceUrl": "https://arxiv.org/abs/2410.00037"
         },
         {
           "articleId": "article:foundation-models",
@@ -2216,6 +2639,36 @@
           "sourceTitle": "Search Products that Meet the Safer Choice Standard",
           "sourceType": "regulatory-data",
           "sourceUrl": "https://www.epa.gov/saferchoice/products"
+        },
+        {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+          "sourceId": "source-001",
+          "sourceTitle": "American Optometric Association & Deloitte Access Economics, The impact of unmanaged excessive screen time in the United States (2024)",
+          "sourceType": "report",
+          "sourceUrl": "https://www.aoa.org/AOA/Documents/Eye%20Deserve%20More/Cost%20of%20Unmanaged%20Screen%20Time%20Report_FINAL.pdf"
+        },
+        {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+          "sourceId": "source-003",
+          "sourceTitle": "Edison Research, The Infinite Dial 2024",
+          "sourceType": "report",
+          "sourceUrl": "https://www.edisonresearch.com/the-infinite-dial-2024/"
+        },
+        {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+          "sourceId": "source-014",
+          "sourceTitle": "Dentsu & Lumen Research, Audio Attention Economy Study (2023)",
+          "sourceType": "report",
+          "sourceUrl": "https://lumen-research.com/blog/lumen-audio-attention-economy/"
         },
         {
           "articleId": "article:birth-of-ai",
@@ -2807,13 +3260,19 @@
         "status": "published"
       },
       "resultType": "articles",
-      "resultCount": 12,
+      "resultCount": 14,
       "results": [
         {
           "articleId": "article:agent-auditable-research",
           "slug": "agent-auditable-research",
           "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
           "agentJsonPath": "/agents/articles/agent-auditable-research.json"
+        },
+        {
+          "articleId": "article:agent-control-planes",
+          "slug": "agent-control-planes",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+          "agentJsonPath": "/agents/articles/agent-control-planes.json"
         },
         {
           "articleId": "article:agentic-commerce-product-truth",
@@ -2838,6 +3297,12 @@
           "slug": "ai-winters-expert-systems",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
           "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json"
+        },
+        {
+          "articleId": "article:audio-first-voice-consumption",
+          "slug": "audio-first-voice-consumption",
+          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json"
         },
         {
           "articleId": "article:before-machines",
