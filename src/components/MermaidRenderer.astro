@@ -1,0 +1,52 @@
+<script>
+  (async () => {
+    const blocks = Array.from(document.querySelectorAll("pre[data-language='mermaid']"));
+    if (blocks.length === 0) return;
+
+    const { default: mermaid } = await import("mermaid");
+    const rootStyles = getComputedStyle(document.documentElement);
+    const cssVar = (name) => rootStyles.getPropertyValue(name).trim();
+
+    mermaid.initialize({
+      startOnLoad: false,
+      securityLevel: "strict",
+      theme: "base",
+      themeVariables: {
+        background: cssVar("--surface"),
+        primaryColor: cssVar("--surface-raised"),
+        primaryBorderColor: cssVar("--border"),
+        primaryTextColor: cssVar("--text"),
+        lineColor: cssVar("--accent-strong"),
+        clusterBkg: cssVar("--bg-soft"),
+        clusterBorder: cssVar("--border"),
+        tertiaryColor: cssVar("--surface"),
+        textColor: cssVar("--text")
+      }
+    });
+
+    blocks.forEach(async (pre, index) => {
+      const code = pre.querySelector("code");
+      const source = code?.textContent?.trim();
+      if (!source) return;
+
+      const figure = document.createElement("figure");
+      figure.className = "mermaid-figure";
+      figure.setAttribute("aria-label", "Architecture diagram");
+
+      const diagram = document.createElement("div");
+      diagram.className = "mermaid-diagram";
+      figure.append(diagram);
+      pre.replaceWith(figure);
+
+      try {
+        const id = `mermaid-diagram-${index}-${Math.random().toString(36).slice(2)}`;
+        const { svg } = await mermaid.render(id, source);
+        diagram.innerHTML = svg;
+      } catch (error) {
+        pre.classList.add("diagram-source-fallback");
+        figure.replaceWith(pre);
+        console.warn("Unable to render Mermaid diagram", error);
+      }
+    });
+  })();
+</script>
