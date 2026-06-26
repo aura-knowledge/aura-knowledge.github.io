@@ -1,0 +1,496 @@
+{
+  "schemaVersion": 3,
+  "id": "article:agent-control-planes",
+  "slug": "agent-control-planes",
+  "title": "From Agent Swarms to Agent Control Planes",
+  "canonicalPath": "/articles/agent-control-planes/",
+  "sourcePath": "content/articles/2026/agent-control-planes/article.md",
+  "agentBriefPath": "content/articles/2026/agent-control-planes/agent.md",
+  "thesis": "Agent orchestration is shifting from hand-written workflows toward governed control planes that route across models, tools, memory, evaluators, policies, and execution environments, making routing, observability, and policy enforcement infrastructure concerns rather than per-agent code.",
+  "status": "published",
+  "maturity": "contested",
+  "publishedAt": "2026-06-26",
+  "updatedAt": "2026-06-26",
+  "audiences": [
+    "builders",
+    "researchers"
+  ],
+  "topics": [
+    "ai-agents",
+    "agent-orchestration",
+    "llm-routing"
+  ],
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Agent orchestration is shifting from hand-written workflows toward governed control planes that route across models, tools, memory, evaluators, policies, and execution environments.",
+      "confidence": "medium",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-001",
+          "snippet": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-002",
+          "snippet": "Fedus et al., Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-003",
+          "snippet": "Dohan et al., Language Model Cascades",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Mixture-of-Experts and conditional computation predate LLMs and provide the earliest architectural precedent for learned routing.",
+      "confidence": "medium",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-001",
+          "snippet": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-002",
+          "snippet": "Fedus et al., Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-003",
+          "snippet": "Dohan et al., Language Model Cascades",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Learned routers such as FrugalGPT and RouteLLM can match or exceed single-model accuracy at a fraction of the cost, though benchmark caveats apply.",
+      "confidence": "medium",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-001",
+          "snippet": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-002",
+          "snippet": "Fedus et al., Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-003",
+          "snippet": "Dohan et al., Language Model Cascades",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Test-time search strategies—self-consistency, Tree of Thoughts, Reflexion, and multi-agent debate—expand what a control plane can spend compute on at runtime.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-001",
+          "snippet": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-002",
+          "snippet": "Fedus et al., Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-003",
+          "snippet": "Dohan et al., Language Model Cascades",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "Recent learned orchestrators such as Sakana Fugu, Trinity, and Conductor are signals of automated scaffold generation, not settled production recipes.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-001",
+          "snippet": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-002",
+          "snippet": "Fedus et al., Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-003",
+          "snippet": "Dohan et al., Language Model Cascades",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "Production control planes combine routing, fallback, policy, memory, evaluation, observability, and lifecycle governance, but no single vendor owns all of them.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-001",
+          "snippet": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-002",
+          "snippet": "Fedus et al., Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-003",
+          "snippet": "Dohan et al., Language Model Cascades",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "The term 'control plane' is contested across vendors; teams should judge products by concrete capabilities rather than marketing labels.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-001",
+          "snippet": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-002",
+          "snippet": "Fedus et al., Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-003",
+          "snippet": "Dohan et al., Language Model Cascades",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    },
+    {
+      "id": "claim-008",
+      "claim": "Teams should treat model selection, fallback, observability, and policy enforcement as infrastructure concerns rather than per-agent code.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-001",
+          "snippet": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-002",
+          "snippet": "Fedus et al., Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        },
+        {
+          "sourceId": "source-003",
+          "snippet": "Dohan et al., Language Model Cascades",
+          "supports": "background",
+          "assessedAt": "2026-06-26"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Counter-evidence and boundary conditions should be added as the article matures and more empirical studies appear.",
+          "assessedAt": "2026-06-26"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-001",
+      "title": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+      "url": "https://arxiv.org/abs/1701.06538",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-002",
+      "title": "Fedus et al., Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+      "url": "https://arxiv.org/abs/2101.03961",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-003",
+      "title": "Dohan et al., Language Model Cascades",
+      "url": "https://arxiv.org/abs/2207.10342",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-004",
+      "title": "Chen et al., FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance",
+      "url": "https://arxiv.org/abs/2305.05176",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-005",
+      "title": "Ong et al., RouteLLM: Learning to Route LLMs with Preference Data",
+      "url": "https://arxiv.org/abs/2406.18665",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-006",
+      "title": "Yao et al., Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+      "url": "https://arxiv.org/abs/2305.10601",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-007",
+      "title": "Yao et al., ReAct: Synergizing Reasoning and Acting in Language Models",
+      "url": "https://arxiv.org/abs/2210.03629",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-008",
+      "title": "Wang et al., Mixture-of-Agents Enhances Large Language Model Capabilities",
+      "url": "https://arxiv.org/abs/2406.04692",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-009",
+      "title": "Tang et al., Sakana Fugu: Orchestrator Models for Adaptive Agentic Scaffolds",
+      "url": "https://arxiv.org/abs/2606.21228",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-010",
+      "title": "Zhang et al., AFlow: Automating Agentic Workflow Generation",
+      "url": "https://arxiv.org/abs/2410.10762",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-011",
+      "title": "LiteLLM documentation",
+      "url": "https://docs.litellm.ai/",
+      "type": "documentation",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-012",
+      "title": "LangGraph documentation (LangChain)",
+      "url": "https://www.langchain.com/langgraph",
+      "type": "documentation",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-013",
+      "title": "Wang et al., Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+      "url": "https://arxiv.org/abs/2203.11171",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-014",
+      "title": "Shinn et al., Reflexion: Self-Reflective Agents with Dynamic Memory",
+      "url": "https://arxiv.org/abs/2303.11366",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-015",
+      "title": "Du et al., Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+      "url": "https://arxiv.org/abs/2305.14325",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-016",
+      "title": "Jiang et al., LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion",
+      "url": "https://arxiv.org/abs/2306.02561",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-017",
+      "title": "Xu et al., Trinity: Harmonizing Multiple Large Language Models as a Single Mind",
+      "url": "https://arxiv.org/abs/2512.04695",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-018",
+      "title": "Nielsen et al., Conductor: Learning to Orchestrate LLM Agents via Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2512.04388",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-019",
+      "title": "Hu et al., RouterBench: A Benchmark for Multi-LLM Routing",
+      "url": "https://arxiv.org/abs/2403.12031",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-020",
+      "title": "Hu et al., Automated Design of Agentic Systems",
+      "url": "https://arxiv.org/abs/2408.08435",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-021",
+      "title": "Yue et al., MASRouter: A Multiplexing LLM Agent Router",
+      "url": "https://arxiv.org/abs/2502.11133",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    },
+    {
+      "id": "source-022",
+      "title": "Li et al., AgentPrune: Reducing Communication Redundancy in Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2410.02506",
+      "type": "paper",
+      "accessed": "2026-06-26"
+    }
+  ],
+  "related": [],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=contested as an explicit uncertainty marker.",
+    "Do not present speculative claims as settled facts."
+  ],
+  "contentHash": "98f24b29680f350d1b34461bb20e21e32209cb79d8ab2e5822575fab2c08df9c",
+  "provenance": {
+    "createdAt": "2026-06-26",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-06-26",
+        "inputHash": "sha256:852663a4745a1b043b62567fcb06d0eb7ed3c047388f73b7bd965cb02f465361",
+        "outputHash": "sha256:031a91bb4b296847ab01e961f3f925051f3b93ce2ba26f7034007bda42aedc26"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-26",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "tone",
+          "privacy",
+          "scope"
+        ],
+        "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
+        "contentHash": "98f24b29680f350d1b34461bb20e21e32209cb79d8ab2e5822575fab2c08df9c"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-26",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "scope",
+          "tone"
+        ],
+        "notes": "Human author approved the draft for website publication.",
+        "contentHash": "98f24b29680f350d1b34461bb20e21e32209cb79d8ab2e5822575fab2c08df9c"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "generatedAt": "2026-06-26T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+  "agentJsonPath": "/agents/articles/agent-control-planes.json",
+  "agentMarkdownPath": "/agents/articles/agent-control-planes.md",
+  "sourceRepoPath": "content/articles/2026/agent-control-planes/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/agent-control-planes/article.md",
+  "tokenEstimate": 1107,
+  "sectionOutline": []
+}

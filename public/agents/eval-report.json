@@ -92,9 +92,11 @@
       "actual": {
         "slugs": [
           "agent-auditable-research",
+          "agent-control-planes",
           "agentic-commerce-product-truth",
           "ai-agent-advanced-questions",
-          "ai-agent-first-conversation"
+          "ai-agent-first-conversation",
+          "audio-first-voice-consumption"
         ],
         "claimIds": [
           "article:agent-auditable-research:claim-001",
@@ -103,6 +105,14 @@
           "article:agent-auditable-research:claim-004",
           "article:agent-auditable-research:claim-005",
           "article:agent-auditable-research:claim-006",
+          "article:agent-control-planes:claim-001",
+          "article:agent-control-planes:claim-002",
+          "article:agent-control-planes:claim-003",
+          "article:agent-control-planes:claim-004",
+          "article:agent-control-planes:claim-005",
+          "article:agent-control-planes:claim-006",
+          "article:agent-control-planes:claim-007",
+          "article:agent-control-planes:claim-008",
           "article:agentic-commerce-product-truth:claim-001",
           "article:agentic-commerce-product-truth:claim-002",
           "article:agentic-commerce-product-truth:claim-003",
@@ -128,7 +138,14 @@
           "article:ai-agent-first-conversation:claim-001",
           "article:ai-agent-first-conversation:claim-002",
           "article:ai-agent-first-conversation:claim-003",
-          "article:ai-agent-first-conversation:claim-004"
+          "article:ai-agent-first-conversation:claim-004",
+          "article:audio-first-voice-consumption:claim-001",
+          "article:audio-first-voice-consumption:claim-002",
+          "article:audio-first-voice-consumption:claim-003",
+          "article:audio-first-voice-consumption:claim-004",
+          "article:audio-first-voice-consumption:claim-005",
+          "article:audio-first-voice-consumption:claim-006",
+          "article:audio-first-voice-consumption:claim-007"
         ]
       },
       "failures": []
@@ -149,10 +166,12 @@
       "actual": {
         "slugs": [
           "agent-auditable-research",
+          "agent-control-planes",
           "agentic-commerce-product-truth",
           "ai-agent-advanced-questions",
           "ai-agent-first-conversation",
           "ai-winters-expert-systems",
+          "audio-first-voice-consumption",
           "before-machines",
           "birth-of-ai",
           "formal-logic-to-computation",
@@ -168,6 +187,14 @@
           "article:agent-auditable-research:claim-004",
           "article:agent-auditable-research:claim-005",
           "article:agent-auditable-research:claim-006",
+          "article:agent-control-planes:claim-001",
+          "article:agent-control-planes:claim-002",
+          "article:agent-control-planes:claim-003",
+          "article:agent-control-planes:claim-004",
+          "article:agent-control-planes:claim-005",
+          "article:agent-control-planes:claim-006",
+          "article:agent-control-planes:claim-007",
+          "article:agent-control-planes:claim-008",
           "article:agentic-commerce-product-truth:claim-001",
           "article:agentic-commerce-product-truth:claim-002",
           "article:agentic-commerce-product-truth:claim-003",
@@ -199,6 +226,13 @@
           "article:ai-winters-expert-systems:claim-003",
           "article:ai-winters-expert-systems:claim-004",
           "article:ai-winters-expert-systems:claim-005",
+          "article:audio-first-voice-consumption:claim-001",
+          "article:audio-first-voice-consumption:claim-002",
+          "article:audio-first-voice-consumption:claim-003",
+          "article:audio-first-voice-consumption:claim-004",
+          "article:audio-first-voice-consumption:claim-005",
+          "article:audio-first-voice-consumption:claim-006",
+          "article:audio-first-voice-consumption:claim-007",
           "article:before-machines:claim-001",
           "article:before-machines:claim-002",
           "article:before-machines:claim-003",

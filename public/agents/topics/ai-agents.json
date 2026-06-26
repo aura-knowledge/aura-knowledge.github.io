@@ -2,12 +2,45 @@
   "schemaVersion": 1,
   "topic": "ai-agents",
   "articleIds": [
+    "article:agent-control-planes",
     "article:ai-agent-advanced-questions",
-    "article:ai-agent-first-conversation"
+    "article:ai-agent-first-conversation",
+    "article:audio-first-voice-consumption"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/ai-agents/",
   "agentJsonPath": "/agents/topics/ai-agents.json",
   "articles": [
+    {
+      "id": "article:agent-control-planes",
+      "slug": "agent-control-planes",
+      "title": "From Agent Swarms to Agent Control Planes",
+      "summary": "This article argues that agent orchestration is evolving from hand-written workflows into a governed control-plane layer that routes across models, tools, memory, evaluators, policies, and execution environments.",
+      "status": "published",
+      "maturity": "contested",
+      "topics": [
+        "ai-agents",
+        "agent-orchestration",
+        "llm-routing"
+      ],
+      "tags": [
+        "ai-agents",
+        "agent-orchestration",
+        "llm-routing",
+        "multi-agent-systems",
+        "governance",
+        "evals",
+        "observability"
+      ],
+      "canonicalPath": "/articles/agent-control-planes/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+      "agentJsonPath": "/agents/articles/agent-control-planes.json",
+      "agentMarkdownPath": "/agents/articles/agent-control-planes.md",
+      "updatedAt": "2026-06-26",
+      "claimCount": 8,
+      "sourceCount": 22,
+      "tokenEstimate": 1107,
+      "contentHash": "98f24b29680f350d1b34461bb20e21e32209cb79d8ab2e5822575fab2c08df9c"
+    },
     {
       "id": "article:ai-agent-advanced-questions",
       "slug": "ai-agent-advanced-questions",
@@ -71,6 +104,40 @@
       "sourceCount": 3,
       "tokenEstimate": 530,
       "contentHash": "f9987826579f1516fc43e8890524ec069d702d595bf733cc83d01b79f832847c"
+    },
+    {
+      "id": "article:audio-first-voice-consumption",
+      "slug": "audio-first-voice-consumption",
+      "title": "Listening to the Firehose: Can Voice-First, Two-Way Audio Become a Legitimate Assistive Medium?",
+      "summary": "This article proposal explores whether voice-first, two-way audio agents can become a legitimate assistive medium for knowledge workers facing screen fatigue.",
+      "status": "published",
+      "maturity": "sprout",
+      "topics": [
+        "audio",
+        "voice-interfaces",
+        "ai-agents"
+      ],
+      "tags": [
+        "audio",
+        "voice-interfaces",
+        "ai-agents",
+        "information-overload",
+        "screen-fatigue",
+        "human-computer-interaction",
+        "ambient-computing",
+        "attention-economy",
+        "summarization",
+        "accessibility"
+      ],
+      "canonicalPath": "/articles/audio-first-voice-consumption/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+      "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+      "agentMarkdownPath": "/agents/articles/audio-first-voice-consumption.md",
+      "updatedAt": "2026-06-26",
+      "claimCount": 7,
+      "sourceCount": 17,
+      "tokenEstimate": 923,
+      "contentHash": "91df0331a91b7896a885033651191cafd46a7e004776180106c6fbadd6c6851e"
     }
   ]
 }

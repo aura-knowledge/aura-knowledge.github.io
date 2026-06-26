@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "topic": "voice-interfaces",
+  "articleIds": [
+    "article:audio-first-voice-consumption"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/voice-interfaces/",
+  "agentJsonPath": "/agents/topics/voice-interfaces.json",
+  "articles": [
+    {
+      "id": "article:audio-first-voice-consumption",
+      "slug": "audio-first-voice-consumption",
+      "title": "Listening to the Firehose: Can Voice-First, Two-Way Audio Become a Legitimate Assistive Medium?",
+      "summary": "This article proposal explores whether voice-first, two-way audio agents can become a legitimate assistive medium for knowledge workers facing screen fatigue.",
+      "status": "published",
+      "maturity": "sprout",
+      "topics": [
+        "audio",
+        "voice-interfaces",
+        "ai-agents"
+      ],
+      "tags": [
+        "audio",
+        "voice-interfaces",
+        "ai-agents",
+        "information-overload",
+        "screen-fatigue",
+        "human-computer-interaction",
+        "ambient-computing",
+        "attention-economy",
+        "summarization",
+        "accessibility"
+      ],
+      "canonicalPath": "/articles/audio-first-voice-consumption/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
+      "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
+      "agentMarkdownPath": "/agents/articles/audio-first-voice-consumption.md",
+      "updatedAt": "2026-06-26",
+      "claimCount": 7,
+      "sourceCount": 17,
+      "tokenEstimate": 923,
+      "contentHash": "91df0331a91b7896a885033651191cafd46a7e004776180106c6fbadd6c6851e"
+    }
+  ]
+}

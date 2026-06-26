@@ -103,6 +103,116 @@
       }
     },
     {
+      "from": "article:agent-control-planes",
+      "to": "article:agent-control-planes:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:agent-control-planes",
+      "to": "article:agent-control-planes:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:agent-control-planes",
+      "to": "article:agent-control-planes:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:agent-control-planes",
+      "to": "article:agent-control-planes:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:agent-control-planes",
+      "to": "article:agent-control-planes:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:agent-control-planes",
+      "to": "article:agent-control-planes:claim-006",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:agent-control-planes",
+      "to": "article:agent-control-planes:claim-007",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:agent-control-planes",
+      "to": "article:agent-control-planes:claim-008",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:agent-control-planes",
+      "to": "topic:agent-orchestration",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:agent-control-planes",
+      "to": "topic:ai-agents",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:agent-control-planes",
+      "to": "topic:llm-routing",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "article:agentic-commerce-product-truth",
       "to": "article:agentic-commerce-product-truth:claim-001",
       "type": "argues",
@@ -648,6 +758,106 @@
       "type": "covers",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:audio-first-voice-consumption",
+      "to": "article:audio-first-voice-consumption:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:audio-first-voice-consumption",
+      "to": "article:audio-first-voice-consumption:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:audio-first-voice-consumption",
+      "to": "article:audio-first-voice-consumption:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:audio-first-voice-consumption",
+      "to": "article:audio-first-voice-consumption:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:audio-first-voice-consumption",
+      "to": "article:audio-first-voice-consumption:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:audio-first-voice-consumption",
+      "to": "article:audio-first-voice-consumption:claim-006",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:audio-first-voice-consumption",
+      "to": "article:audio-first-voice-consumption:claim-007",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:audio-first-voice-consumption",
+      "to": "topic:ai-agents",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:audio-first-voice-consumption",
+      "to": "topic:audio",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:audio-first-voice-consumption",
+      "to": "topic:voice-interfaces",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -1688,6 +1898,456 @@
       "type": "covers",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-001",
+      "to": "article:agent-control-planes:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-001",
+      "to": "article:agent-control-planes:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-001",
+      "to": "article:agent-control-planes:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-001",
+      "to": "article:agent-control-planes:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-001",
+      "to": "article:agent-control-planes:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-001",
+      "to": "article:agent-control-planes:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-001",
+      "to": "article:agent-control-planes:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-001",
+      "to": "article:agent-control-planes:claim-008",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-001",
+      "to": "article:audio-first-voice-consumption:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-001",
+      "to": "article:audio-first-voice-consumption:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-001",
+      "to": "article:audio-first-voice-consumption:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-001",
+      "to": "article:audio-first-voice-consumption:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-001",
+      "to": "article:audio-first-voice-consumption:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-001",
+      "to": "article:audio-first-voice-consumption:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-001",
+      "to": "article:audio-first-voice-consumption:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-002",
+      "to": "article:agent-control-planes:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-002",
+      "to": "article:agent-control-planes:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-002",
+      "to": "article:agent-control-planes:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-002",
+      "to": "article:agent-control-planes:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-002",
+      "to": "article:agent-control-planes:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-002",
+      "to": "article:agent-control-planes:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-002",
+      "to": "article:agent-control-planes:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-002",
+      "to": "article:agent-control-planes:claim-008",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-002",
+      "to": "article:audio-first-voice-consumption:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-002",
+      "to": "article:audio-first-voice-consumption:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-002",
+      "to": "article:audio-first-voice-consumption:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-002",
+      "to": "article:audio-first-voice-consumption:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-002",
+      "to": "article:audio-first-voice-consumption:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-002",
+      "to": "article:audio-first-voice-consumption:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-002",
+      "to": "article:audio-first-voice-consumption:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-003",
+      "to": "article:agent-control-planes:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-003",
+      "to": "article:agent-control-planes:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-003",
+      "to": "article:agent-control-planes:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-003",
+      "to": "article:agent-control-planes:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-003",
+      "to": "article:agent-control-planes:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-003",
+      "to": "article:agent-control-planes:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-003",
+      "to": "article:agent-control-planes:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-003",
+      "to": "article:agent-control-planes:claim-008",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-003",
+      "to": "article:audio-first-voice-consumption:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-003",
+      "to": "article:audio-first-voice-consumption:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-003",
+      "to": "article:audio-first-voice-consumption:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-003",
+      "to": "article:audio-first-voice-consumption:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-003",
+      "to": "article:audio-first-voice-consumption:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-003",
+      "to": "article:audio-first-voice-consumption:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-003",
+      "to": "article:audio-first-voice-consumption:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-26",
         "reviewer": "generator",
         "status": "machine-generated"
       }

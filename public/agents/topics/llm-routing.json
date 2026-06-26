@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "topic": "llm-routing",
+  "articleIds": [
+    "article:agent-control-planes"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/llm-routing/",
+  "agentJsonPath": "/agents/topics/llm-routing.json",
+  "articles": [
+    {
+      "id": "article:agent-control-planes",
+      "slug": "agent-control-planes",
+      "title": "From Agent Swarms to Agent Control Planes",
+      "summary": "This article argues that agent orchestration is evolving from hand-written workflows into a governed control-plane layer that routes across models, tools, memory, evaluators, policies, and execution environments.",
+      "status": "published",
+      "maturity": "contested",
+      "topics": [
+        "ai-agents",
+        "agent-orchestration",
+        "llm-routing"
+      ],
+      "tags": [
+        "ai-agents",
+        "agent-orchestration",
+        "llm-routing",
+        "multi-agent-systems",
+        "governance",
+        "evals",
+        "observability"
+      ],
+      "canonicalPath": "/articles/agent-control-planes/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
+      "agentJsonPath": "/agents/articles/agent-control-planes.json",
+      "agentMarkdownPath": "/agents/articles/agent-control-planes.md",
+      "updatedAt": "2026-06-26",
+      "claimCount": 8,
+      "sourceCount": 22,
+      "tokenEstimate": 1107,
+      "contentHash": "98f24b29680f350d1b34461bb20e21e32209cb79d8ab2e5822575fab2c08df9c"
+    }
+  ]
+}

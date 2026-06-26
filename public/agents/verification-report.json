@@ -96,6 +96,149 @@
       }
     },
     {
+      "slug": "agent-control-planes",
+      "title": "From Agent Swarms to Agent Control Planes",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Agent orchestration is shifting from hand-written workflows toward governed control planes that route across models, tools, memory, evaluators, policies, and execution environments.",
+          "confidence": "medium",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/agent-control-planes: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-002",
+          "claim": "Mixture-of-Experts and conditional computation predate LLMs and provide the earliest architectural precedent for learned routing.",
+          "confidence": "medium",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/agent-control-planes: claim-002 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-003",
+          "claim": "Learned routers such as FrugalGPT and RouteLLM can match or exceed single-model accuracy at a fraction of the cost, though benchmark caveats apply.",
+          "confidence": "medium",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/agent-control-planes: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "Test-time search strategies—self-consistency, Tree of Thoughts, Reflexion, and multi-agent debate—expand what a control plane can spend compute on at runtime.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/agent-control-planes: claim-004 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-005",
+          "claim": "Recent learned orchestrators such as Sakana Fugu, Trinity, and Conductor are signals of automated scaffold generation, not settled production recipes.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/agent-control-planes: claim-005 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-006",
+          "claim": "Production control planes combine routing, fallback, policy, memory, evaluation, observability, and lifecycle governance, but no single vendor owns all of them.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/agent-control-planes: claim-006 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-007",
+          "claim": "The term 'control plane' is contested across vendors; teams should judge products by concrete capabilities rather than marketing labels.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/agent-control-planes: claim-007 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-008",
+          "claim": "Teams should treat model selection, fallback, observability, and policy enforcement as infrastructure concerns rather than per-agent code.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/agent-control-planes: claim-008 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 8
+      }
+    },
+    {
       "slug": "agentic-commerce-product-truth",
       "title": "Agentic Commerce and the Product Truth Layer",
       "status": "published",
@@ -602,6 +745,91 @@
         "needs-evidence": 0,
         "missing-counterevidence": 0,
         "draft": 5
+      }
+    },
+    {
+      "slug": "audio-first-voice-consumption",
+      "title": "Listening to the Firehose: Can Voice-First, Two-Way Audio Become a Legitimate Assistive Medium?",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Heavy screen use is widespread among working-age adults and is associated with significant productivity and wellbeing costs, including digital eye strain.",
+          "confidence": "medium",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "Listening and reading impose different cognitive demands; audio is generally more transient and pace-dependent, making it a complement rather than a drop-in replacement for reading.",
+          "confidence": "medium",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "End-to-end, full-duplex spoken dialogue models have moved from research demos to publicly documented systems with low enough latency for natural turn-taking.",
+          "confidence": "medium",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "The value of voice-first audio agents depends more on interaction design—turn-taking, interruption, proactivity, and user agency—than on raw conversational naturalness.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-005",
+          "claim": "Proactive and always-listening audio agents risk intrusiveness and attention capture; user-initiated or notification-triggered sessions better preserve agency.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-006",
+          "claim": "Voice-first curation can amplify filter-bubble dynamics in a channel with fewer visual cues for verification, so transparency and user control over selection are essential.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-007",
+          "claim": "A trigger-based, off-screen audio review layer is a promising near-term pattern, but it should be treated as a testable hypothesis rather than a proven product design.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 7
       }
     },
     {

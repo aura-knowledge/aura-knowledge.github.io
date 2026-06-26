@@ -55,6 +55,77 @@
     "status": "design"
   },
   {
+    "id": "article:agent-control-planes",
+    "type": "article",
+    "label": "From Agent Swarms to Agent Control Planes",
+    "path": "/articles/agent-control-planes/",
+    "maturity": "contested"
+  },
+  {
+    "id": "article:agent-control-planes:claim-001",
+    "type": "claim",
+    "label": "Agent orchestration is shifting from hand-written workflows toward governed control planes that route across models, tools, memory, evaluators, policies, and execution environments.",
+    "localId": "claim-001",
+    "confidence": "medium",
+    "status": "core"
+  },
+  {
+    "id": "article:agent-control-planes:claim-002",
+    "type": "claim",
+    "label": "Mixture-of-Experts and conditional computation predate LLMs and provide the earliest architectural precedent for learned routing.",
+    "localId": "claim-002",
+    "confidence": "medium",
+    "status": "core"
+  },
+  {
+    "id": "article:agent-control-planes:claim-003",
+    "type": "claim",
+    "label": "Learned routers such as FrugalGPT and RouteLLM can match or exceed single-model accuracy at a fraction of the cost, though benchmark caveats apply.",
+    "localId": "claim-003",
+    "confidence": "medium",
+    "status": "core"
+  },
+  {
+    "id": "article:agent-control-planes:claim-004",
+    "type": "claim",
+    "label": "Test-time search strategies—self-consistency, Tree of Thoughts, Reflexion, and multi-agent debate—expand what a control plane can spend compute on at runtime.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:agent-control-planes:claim-005",
+    "type": "claim",
+    "label": "Recent learned orchestrators such as Sakana Fugu, Trinity, and Conductor are signals of automated scaffold generation, not settled production recipes.",
+    "localId": "claim-005",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:agent-control-planes:claim-006",
+    "type": "claim",
+    "label": "Production control planes combine routing, fallback, policy, memory, evaluation, observability, and lifecycle governance, but no single vendor owns all of them.",
+    "localId": "claim-006",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:agent-control-planes:claim-007",
+    "type": "claim",
+    "label": "The term 'control plane' is contested across vendors; teams should judge products by concrete capabilities rather than marketing labels.",
+    "localId": "claim-007",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:agent-control-planes:claim-008",
+    "type": "claim",
+    "label": "Teams should treat model selection, fallback, observability, and policy enforcement as infrastructure concerns rather than per-agent code.",
+    "localId": "claim-008",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
     "id": "article:agentic-commerce-product-truth",
     "type": "article",
     "label": "Agentic Commerce and the Product Truth Layer",
@@ -327,6 +398,69 @@
     "type": "claim",
     "label": "The durable lesson for modern AI is that intelligence claims need grounded tests, maintenance plans, and institution-aware deployment criteria.",
     "localId": "claim-005",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:audio-first-voice-consumption",
+    "type": "article",
+    "label": "Listening to the Firehose: Can Voice-First, Two-Way Audio Become a Legitimate Assistive Medium?",
+    "path": "/articles/audio-first-voice-consumption/",
+    "maturity": "sprout"
+  },
+  {
+    "id": "article:audio-first-voice-consumption:claim-001",
+    "type": "claim",
+    "label": "Heavy screen use is widespread among working-age adults and is associated with significant productivity and wellbeing costs, including digital eye strain.",
+    "localId": "claim-001",
+    "confidence": "medium",
+    "status": "core"
+  },
+  {
+    "id": "article:audio-first-voice-consumption:claim-002",
+    "type": "claim",
+    "label": "Listening and reading impose different cognitive demands; audio is generally more transient and pace-dependent, making it a complement rather than a drop-in replacement for reading.",
+    "localId": "claim-002",
+    "confidence": "medium",
+    "status": "core"
+  },
+  {
+    "id": "article:audio-first-voice-consumption:claim-003",
+    "type": "claim",
+    "label": "End-to-end, full-duplex spoken dialogue models have moved from research demos to publicly documented systems with low enough latency for natural turn-taking.",
+    "localId": "claim-003",
+    "confidence": "medium",
+    "status": "core"
+  },
+  {
+    "id": "article:audio-first-voice-consumption:claim-004",
+    "type": "claim",
+    "label": "The value of voice-first audio agents depends more on interaction design—turn-taking, interruption, proactivity, and user agency—than on raw conversational naturalness.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:audio-first-voice-consumption:claim-005",
+    "type": "claim",
+    "label": "Proactive and always-listening audio agents risk intrusiveness and attention capture; user-initiated or notification-triggered sessions better preserve agency.",
+    "localId": "claim-005",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:audio-first-voice-consumption:claim-006",
+    "type": "claim",
+    "label": "Voice-first curation can amplify filter-bubble dynamics in a channel with fewer visual cues for verification, so transparency and user control over selection are essential.",
+    "localId": "claim-006",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:audio-first-voice-consumption:claim-007",
+    "type": "claim",
+    "label": "A trigger-based, off-screen audio review layer is a promising near-term pattern, but it should be treated as a testable hypothesis rather than a proven product design.",
+    "localId": "claim-007",
     "confidence": "medium",
     "status": "argument"
   },
@@ -810,6 +944,160 @@
     "localId": "claim-007",
     "confidence": "high",
     "status": "framing"
+  },
+  {
+    "id": "source-001",
+    "type": "source",
+    "label": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+    "url": "https://arxiv.org/abs/1701.06538",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-002",
+    "type": "source",
+    "label": "Fedus et al., Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+    "url": "https://arxiv.org/abs/2101.03961",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-003",
+    "type": "source",
+    "label": "Dohan et al., Language Model Cascades",
+    "url": "https://arxiv.org/abs/2207.10342",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-004",
+    "type": "source",
+    "label": "Chen et al., FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance",
+    "url": "https://arxiv.org/abs/2305.05176",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-005",
+    "type": "source",
+    "label": "Ong et al., RouteLLM: Learning to Route LLMs with Preference Data",
+    "url": "https://arxiv.org/abs/2406.18665",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-006",
+    "type": "source",
+    "label": "Yao et al., Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+    "url": "https://arxiv.org/abs/2305.10601",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-007",
+    "type": "source",
+    "label": "Yao et al., ReAct: Synergizing Reasoning and Acting in Language Models",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-008",
+    "type": "source",
+    "label": "Wang et al., Mixture-of-Agents Enhances Large Language Model Capabilities",
+    "url": "https://arxiv.org/abs/2406.04692",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-009",
+    "type": "source",
+    "label": "Tang et al., Sakana Fugu: Orchestrator Models for Adaptive Agentic Scaffolds",
+    "url": "https://arxiv.org/abs/2606.21228",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-010",
+    "type": "source",
+    "label": "Zhang et al., AFlow: Automating Agentic Workflow Generation",
+    "url": "https://arxiv.org/abs/2410.10762",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-011",
+    "type": "source",
+    "label": "LiteLLM documentation",
+    "url": "https://docs.litellm.ai/",
+    "sourceType": "documentation"
+  },
+  {
+    "id": "source-012",
+    "type": "source",
+    "label": "LangGraph documentation (LangChain)",
+    "url": "https://www.langchain.com/langgraph",
+    "sourceType": "documentation"
+  },
+  {
+    "id": "source-013",
+    "type": "source",
+    "label": "Wang et al., Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+    "url": "https://arxiv.org/abs/2203.11171",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-014",
+    "type": "source",
+    "label": "Shinn et al., Reflexion: Self-Reflective Agents with Dynamic Memory",
+    "url": "https://arxiv.org/abs/2303.11366",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-015",
+    "type": "source",
+    "label": "Du et al., Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+    "url": "https://arxiv.org/abs/2305.14325",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-016",
+    "type": "source",
+    "label": "Jiang et al., LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion",
+    "url": "https://arxiv.org/abs/2306.02561",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-017",
+    "type": "source",
+    "label": "Xu et al., Trinity: Harmonizing Multiple Large Language Models as a Single Mind",
+    "url": "https://arxiv.org/abs/2512.04695",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-018",
+    "type": "source",
+    "label": "Nielsen et al., Conductor: Learning to Orchestrate LLM Agents via Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2512.04388",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-019",
+    "type": "source",
+    "label": "Hu et al., RouterBench: A Benchmark for Multi-LLM Routing",
+    "url": "https://arxiv.org/abs/2403.12031",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-020",
+    "type": "source",
+    "label": "Hu et al., Automated Design of Agentic Systems",
+    "url": "https://arxiv.org/abs/2408.08435",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-021",
+    "type": "source",
+    "label": "Yue et al., MASRouter: A Multiplexing LLM Agent Router",
+    "url": "https://arxiv.org/abs/2502.11133",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-022",
+    "type": "source",
+    "label": "Li et al., AgentPrune: Reducing Communication Redundancy in Multi-Agent Systems",
+    "url": "https://arxiv.org/abs/2410.02506",
+    "sourceType": "paper"
   },
   {
     "id": "source-adobe-ai-traffic-2025",
@@ -1904,6 +2192,11 @@
     "sourceType": "institutional-report"
   },
   {
+    "id": "topic:agent-orchestration",
+    "type": "topic",
+    "label": "agent-orchestration"
+  },
+  {
     "id": "topic:agent-provenance",
     "type": "topic",
     "label": "agent-provenance"
@@ -1942,6 +2235,11 @@
     "id": "topic:ai-society",
     "type": "topic",
     "label": "ai-society"
+  },
+  {
+    "id": "topic:audio",
+    "type": "topic",
+    "label": "audio"
   },
   {
     "id": "topic:computability",
@@ -2029,6 +2327,11 @@
     "label": "labor"
   },
   {
+    "id": "topic:llm-routing",
+    "type": "topic",
+    "label": "llm-routing"
+  },
+  {
     "id": "topic:long-human-road-to-ai",
     "type": "topic",
     "label": "long-human-road-to-ai"
@@ -2087,5 +2390,10 @@
     "id": "topic:transformers",
     "type": "topic",
     "label": "transformers"
+  },
+  {
+    "id": "topic:voice-interfaces",
+    "type": "topic",
+    "label": "voice-interfaces"
   }
 ]
