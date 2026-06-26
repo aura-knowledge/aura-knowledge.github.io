@@ -1,6 +1,8 @@
 # Aura Article
 
-Load and follow `../meta/capabilities/article-lifecycle-router/SKILL.md`.
+If invoked without a concrete Aura Knowledge article lifecycle task, ask which lifecycle stage to use and do not load the router yet.
+
+For a concrete lifecycle task, load and follow `../meta/capabilities/article-lifecycle-router/SKILL.md`.
 
 If the sibling `../meta` checkout is missing, ask the user to clone `https://github.com/aura-knowledge/meta` next to this repository, or use `https://raw.githubusercontent.com/aura-knowledge/meta/main/capabilities/article-lifecycle-router/SKILL.md`. Resolve the router's `references/*.md` files against `https://raw.githubusercontent.com/aura-knowledge/meta/main/capabilities/article-lifecycle-router/references/`.
 
