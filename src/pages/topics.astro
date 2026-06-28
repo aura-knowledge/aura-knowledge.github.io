@@ -1,50 +1,57 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import EmptyState from "../components/EmptyState.astro";
-import TopicChip from "../components/TopicChip.astro";
-import { getArticles, getTopicEntries } from "../lib/content";
+import { getArticles, getTopicEntries, formatTopicLabel } from "../lib/content";
 
 const base = import.meta.env.BASE_URL;
 const articles = getArticles();
-const topicEntries = getTopicEntries(articles);
+const topicEntries = getTopicEntries(articles).sort(
+  (left, right) => right[1].length - left[1].length || left[0].localeCompare(right[0])
+);
 ---
 
 <BaseLayout
-  title="Topics"
-  description="Browse articles grouped by topic."
+  title="Topic Index"
+  description="A secondary index of Aura Knowledge articles grouped by topic."
 >
   <div class="page-shell utility-page">
     <header class="utility-hero">
-      <p class="eyebrow">Topics</p>
-      <h1>Browse the topic stems.</h1>
+      <p class="eyebrow">Topic index</p>
+      <h1>A compact index, not the front door.</h1>
       <p class="lede">
-        Articles are grouped by the topics declared in their artifacts. Each topic links to the
-        articles that explore it.
+        Topics are generated from article artifacts. They are useful once you know the thread you
+        want, but the normal reading path starts with articles.
       </p>
+      <div class="button-row" aria-label="Topic index starting points">
+        <a class="button primary" href={`${base}articles/`}>Start with articles</a>
+        <a class="button" href={`${base}graph/`}>Evidence graph</a>
+      </div>
     </header>
 
-    <section class="graph-stems" aria-label="Topic stems">
+    <section class="topic-index" aria-label="Topic index">
       {topicEntries.length > 0 ? (
         topicEntries.map(([topic, topicArticles]) => (
-          <article class="graph-stem" id={`topic-${topic}`}>
-            <header>
-              <p class="eyebrow">Topic</p>
-              <h2>
-                <TopicChip topic={topic} href={`${base}topics/${topic}/`} />
-              </h2>
-            </header>
-            <div class="graph-topic-links">
+          <details class="topic-index-row" id={`topic-${topic}`}>
+            <summary>
+              <span>
+                <strong>{formatTopicLabel(topic)}</strong>
+                <small>{topicArticles.length} article{topicArticles.length === 1 ? "" : "s"}</small>
+              </span>
+              <span>Expand</span>
+            </summary>
+            <div class="topic-index-links">
+              <a class="topic-index-detail-link" href={`${base}topics/${topic}/`}>Open topic page</a>
               {topicArticles.map((article) => (
                 <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
               ))}
             </div>
-          </article>
+          </details>
         ))
       ) : (
         <EmptyState
-          heading="No topics yet"
+          heading="No topic index yet"
           headingLevel={2}
-          message="No topics have been published yet. Topics are created from published articles, so new stems will appear once the first essay goes live."
+          message="Topics are created from published article artifacts, so the index appears once articles are live."
           action={{ href: `${base}articles/`, text: "Browse articles" }}
         />
       )}

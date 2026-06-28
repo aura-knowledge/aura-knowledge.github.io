@@ -1,99 +1,82 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import EmptyState from "../components/EmptyState.astro";
-import { getArticles } from "../lib/content";
 
 const base = import.meta.env.BASE_URL;
 const repoUrl = "https://github.com/aura-knowledge/aura-knowledge.github.io";
-const articles = getArticles();
-const latest = articles[0] ?? null;
 ---
 
 <BaseLayout
-  title="Organization"
-  description="A human guide to the Aura Knowledge organization, its public repositories, and its operating principles."
+  title="About Aura Knowledge"
+  description="The operating model behind Aura Knowledge: publication records, repositories, agent artifacts, and planning surfaces."
 >
   <div class="page-shell utility-page">
     <header class="utility-hero">
-      <p class="eyebrow">Organization</p>
-      <h1>A public home for inspectable knowledge work.</h1>
+      <p class="eyebrow">About</p>
+      <h1>How Aura Knowledge is operated.</h1>
       <p class="lede">
-        Aura Knowledge is a public place for essays and research notes that should be easy to read,
-        trace, and review. The human path starts with readable pages; the source remains public so
-        the work behind them can be inspected and improved.
+        The homepage is for reading. This page is for the machinery behind the reading surface:
+        publication records, source files, review gates, agent packets, and planning artifacts.
       </p>
       <p class="lede-note">
-        AURA stands for <strong>Agentic Universal Records Architecture</strong>: a technical model
-        for publishing ideas as readable pages plus reviewable records, provenance, and structured
-        artifacts.
+        AURA stands for <strong>Agentic Universal Records Architecture</strong>. The site uses that
+        model to pair readable essays with structured records that can be audited by humans and
+        retrieved by agents.
       </p>
-      {!latest && (
-        <EmptyState
-          heading="Nothing here yet"
-          headingLevel={2}
-          message="No published articles yet. The garden will appear once the first essay is reviewed and marked published."
-          action={{ href: `${base}roadmap/`, text: "Open the roadmap" }}
-        />
-      )}
       <div class="button-row" aria-label="Organization starting points">
-        {latest && (
-          <a class="button primary" href={`${base}articles/${latest.slug}/`}>
-            Read the latest article
-          </a>
-        )}
-        <a class="button" href={`${base}topics/`}>Browse topics</a>
+        <a class="button primary" href={`${base}articles/`}>Read articles</a>
         <a class="button" href={repoUrl}>Inspect repository</a>
+        <a class="button" href={`${base}agents/`}>Agent entry</a>
       </div>
     </header>
 
     <section class="section-band section-grid" aria-labelledby="purpose-title">
       <div>
-        <p class="eyebrow">Purpose</p>
-        <h2 id="purpose-title">The organization exists to make research easier to read and audit.</h2>
+        <p class="eyebrow">Publication contract</p>
+        <h2 id="purpose-title">The essay is public only after the record can support it.</h2>
       </div>
       <div>
         <p>
-          The central idea is that an article should not be the only public object. Each essay can
-          sit beside claims, sources, review notes, graph relationships, and compact packets that
-          make the reasoning easier to revisit.
+          The site treats an article as more than prose. A publishable article has a human page,
+          an agent brief, a JSON artifact, claim packets, source ledgers, provenance notes, and a
+          content hash tying approval to the exact text that went live.
         </p>
         <ul class="signal-list">
           <li>Humans get a calm reading path before seeing machine-oriented files.</li>
           <li>Reviewers can inspect claims, sources, and maturity state.</li>
-          <li>Automation gets stable artifacts without taking over the human interface.</li>
+          <li>Agents get stable artifacts without taking over the public navigation.</li>
         </ul>
       </div>
     </section>
 
-    <section class="section-band section-grid" aria-labelledby="browse-title">
+    <section class="section-band section-grid" aria-labelledby="surfaces-title">
       <div>
-        <p class="eyebrow">Browse</p>
-        <h2 id="browse-title">Start with topics and articles, then follow the structure when you need depth.</h2>
+        <p class="eyebrow">Public surfaces</p>
+        <h2 id="surfaces-title">Reader pages and technical pages are separated on purpose.</h2>
       </div>
       <div class="packet-list">
         <article class="packet-item">
-          <p>Human path</p>
-          <h3>Topics</h3>
-          <p>Browse essays grouped by idea and claim stem.</p>
-          <a class="packet-link" href={`${base}topics/`}>Browse topics</a>
-        </article>
-        <article class="packet-item">
-          <p>Human path</p>
+          <p>Reader surface</p>
           <h3>Articles</h3>
-          <p>See every published essay in one place.</p>
+          <p>The primary path for people who came to read.</p>
           <a class="packet-link" href={`${base}articles/`}>All articles</a>
         </article>
         <article class="packet-item">
-          <p>Direction</p>
-          <h3>Roadmap</h3>
-          <p>See the product and research sequence behind the garden.</p>
-          <a class="packet-link" href={`${base}roadmap/`}>Open the roadmap</a>
+          <p>Evidence surface</p>
+          <h3>Graph</h3>
+          <p>Relationships between topics, articles, claims, sources, and provenance.</p>
+          <a class="packet-link" href={`${base}graph/`}>Open the graph</a>
         </article>
         <article class="packet-item">
-          <p>Structure</p>
-          <h3>Graph</h3>
-          <p>Explore topic, article, and claim relationships across the garden.</p>
-          <a class="packet-link" href={`${base}graph/`}>Open the graph</a>
+          <p>Utility surface</p>
+          <h3>Topic index</h3>
+          <p>A secondary index for resurfacing related essays, not the front door.</p>
+          <a class="packet-link" href={`${base}topics/`}>Open topic index</a>
+        </article>
+        <article class="packet-item">
+          <p>Machine surface</p>
+          <h3>Agent entry</h3>
+          <p>Compact JSON, Markdown, graph, and feed files for agent retrieval.</p>
+          <a class="packet-link" href={`${base}agents/`}>Open agent entry</a>
         </article>
       </div>
     </section>
@@ -148,6 +131,20 @@ const latest = articles[0] ?? null;
           article packets, roadmap packets, and graph data without scraping the human pages first.
         </p>
         <a class="packet-link" href={`${base}agents/`}>Open the agent entry page</a>
+      </div>
+    </section>
+
+    <section class="section-band section-grid" aria-labelledby="planning-title">
+      <div>
+        <p class="eyebrow">Planning</p>
+        <h2 id="planning-title">The roadmap is a build artifact, not a reader tab.</h2>
+      </div>
+      <div>
+        <p>
+          The roadmap remains public because it explains future product and research work. It is
+          intentionally placed here and in the footer instead of the primary navigation.
+        </p>
+        <a class="packet-link" href={`${base}roadmap/`}>Open the build roadmap</a>
       </div>
     </section>
   </div>

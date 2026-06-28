@@ -16,14 +16,18 @@ const ideaById = new Map(roadmap.ideas.map((idea) => [idea.id, idea]));
 ---
 
 <BaseLayout
-  title="Roadmap"
+  title="Build Roadmap"
   description="A research-backed roadmap for the AI-native knowledge garden."
 >
   <div class="page-shell utility-page roadmap-page">
     <header class="utility-hero roadmap-hero">
-      <p class="eyebrow">Roadmap</p>
+      <p class="eyebrow">Build artifact</p>
       <h1>{roadmap.title}</h1>
       <p class="lede">{roadmap.summary}</p>
+      <p class="lede-note">
+        This page is for people inspecting how the garden is being built. It is not part of the
+        main reading path.
+      </p>
       <div class="roadmap-actions" aria-label="Roadmap artifacts">
         <a class="button primary" href={reportUrl}>Research report</a>
         <a class="button" href={`${base}evidence-canvas/`}>Evidence canvas</a>
