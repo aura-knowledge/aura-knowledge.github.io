@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 3,
+  "id": "article:ai-delegation-orchestration-05-long-running-delegations",
+  "slug": "ai-delegation-orchestration-05-long-running-delegations",
+  "title": "Long-Running Delegations: How Agents Can Work for Hours Without Losing the Plot",
+  "canonicalPath": "/articles/ai-delegation-orchestration-05-long-running-delegations/",
+  "sourcePath": "content/articles/2026/ai-delegation-orchestration-05-long-running-delegations/article.md",
+  "agentBriefPath": "content/articles/2026/ai-delegation-orchestration-05-long-running-delegations/agent.md",
+  "thesis": "Long-running AI work is viable only when the delegation has checkpoints, evidence gates, self-remediation loops, interruption rules, rollback paths, and explicit stop conditions.",
+  "status": "published",
+  "maturity": "sprout",
+  "publishedAt": "2026-06-28",
+  "updatedAt": "2026-06-28",
+  "audiences": [
+    "builders",
+    "researchers",
+    "students",
+    "agents"
+  ],
+  "topics": [
+    "ai-agents",
+    "agent-orchestration",
+    "human-ai-interaction"
+  ],
+  "series": {
+    "slug": "ai-delegation-orchestration",
+    "title": "AI Delegation Orchestration",
+    "season": "Season 1",
+    "order": 5,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Long-running AI work is viable only when the delegation has checkpoints, evidence gates, self-remediation loops, interruption rules, rollback paths, and explicit stop conditions.",
+      "confidence": "medium",
+      "status": "argument",
+      "verification": {
+        "reviewedAt": "2026-06-28",
+        "reviewer": "human-publication-approval",
+        "status": "verified"
+      },
+      "evidence": [
+        {
+          "sourceId": "source-langgraph",
+          "snippet": "Stateful agent frameworks support durable execution state for workflows that cannot be reduced to one prompt-response turn.",
+          "supports": "direct",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-langgraph-hitl",
+          "snippet": "Human-in-the-loop workflow documentation supports interrupt, review, edit, and resume points for long-running tasks.",
+          "supports": "direct",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-openai-agents-hitl",
+          "snippet": "Human-in-the-loop agent documentation supports scoped approval and checkpoint patterns during agent execution.",
+          "supports": "direct",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-anthropic-building-effective-agents",
+          "snippet": "Agent-building guidance distinguishes workflows and autonomous agents, supporting careful use of long-running delegation.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-28"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The delegation record and next-best-control models are proposed design primitives, not accepted standards.",
+          "assessedAt": "2026-06-28"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-langgraph",
+      "title": "LangGraph documentation",
+      "url": "https://docs.langchain.com/oss/python/langgraph/overview",
+      "type": "documentation",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-langgraph-hitl",
+      "title": "LangGraph human-in-the-loop documentation",
+      "url": "https://docs.langchain.com/oss/python/langchain/human-in-the-loop",
+      "type": "documentation",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-openai-agents-hitl",
+      "title": "OpenAI Agents SDK human-in-the-loop documentation",
+      "url": "https://openai.github.io/openai-agents-python/human_in_the_loop/",
+      "type": "documentation",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-anthropic-building-effective-agents",
+      "title": "Anthropic, Building effective agents",
+      "url": "https://www.anthropic.com/research/building-effective-agents",
+      "type": "article",
+      "accessed": "2026-06-28"
+    }
+  ],
+  "related": [
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    },
+    {
+      "type": "article",
+      "id": "article:agent-control-planes"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=sprout as an exploratory uncertainty marker.",
+    "Do not present proposed orchestration patterns as accepted standards.",
+    "Keep examples generic and detached from private implementations."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-28",
+    "createdBy": "codex-agent",
+    "agents": [
+      {
+        "role": "drafting-and-site-preview",
+        "model": "gpt-5",
+        "invokedAt": "2026-06-28",
+        "inputHash": "sha256:debaba724b96de32d5a5332180b94a9e8bd66e7b7b4b5038381a40a5124f5a6c",
+        "outputHash": "sha256:cafc9a5e8375a3fdc42a87e2f03c2ffe8b61588b4f1521b17bcee5a164bb3e83"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "sibling-agent",
+        "reviewedAt": "2026-06-28",
+        "status": "commented",
+        "scope": [
+          "series structure",
+          "evidence anchoring",
+          "privacy"
+        ],
+        "notes": "Earlier sibling review identified source-ledger gaps; those gaps were resolved before publication with article-specific source alignment.",
+        "resolvedAt": "2026-06-28"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-28",
+        "status": "approved",
+        "scope": [
+          "publication",
+          "reader experience",
+          "privacy",
+          "series structure"
+        ],
+        "notes": "Human maintainer approved the local preview for website publication after article layout, reading-flow, privacy, and series-structure review.",
+        "contentHash": "a42d2db3e1d383a1f5c319075fcdce7bc1182c2a780ccba78d90eb43dc667bc7"
+      },
+      {
+        "reviewer": "sibling-agent",
+        "reviewedAt": "2026-06-28",
+        "status": "approved",
+        "scope": [
+          "publication-gate",
+          "source alignment",
+          "provenance",
+          "privacy",
+          "generated artifacts"
+        ],
+        "notes": "Independent sibling review approved the final publication packet with no blocking findings after source-ledger, provenance, privacy, and generated-artifact checks.",
+        "contentHash": "a42d2db3e1d383a1f5c319075fcdce7bc1182c2a780ccba78d90eb43dc667bc7"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "a42d2db3e1d383a1f5c319075fcdce7bc1182c2a780ccba78d90eb43dc667bc7"
+}

@@ -1,61 +1,9 @@
 (() => {
   const articleBody = document.querySelector(".article-body");
 
-  const prepareArticleSections = () => {
-    if (!articleBody || articleBody.dataset.sectionsReady) return;
-    articleBody.dataset.sectionsReady = "true";
-
-    const headings = Array.from(articleBody.querySelectorAll(":scope > h2[id]"));
-    headings.forEach((heading, index) => {
-      const section = document.createElement("section");
-      section.className = "article-section";
-      section.dataset.articleSection = "";
-      const content = document.createElement("div");
-      content.className = "article-section-content";
-      content.id = `${heading.id}-content`;
-
-      articleBody.insertBefore(section, heading);
-      section.append(heading, content);
-
-      const button = document.createElement("button");
-      button.type = "button";
-      button.className = "article-section-toggle";
-      button.setAttribute("aria-expanded", "true");
-      button.setAttribute("aria-controls", content.id);
-
-      const label = document.createElement("span");
-      label.textContent = heading.textContent.trim();
-      const indicator = document.createElement("span");
-      indicator.className = "article-section-indicator";
-      indicator.setAttribute("aria-hidden", "true");
-      indicator.textContent = "-";
-      button.append(label, indicator);
-      heading.textContent = "";
-      heading.append(button);
-
-      let next = section.nextSibling;
-      while (next && !(next.nodeType === Node.ELEMENT_NODE && next.matches("h2[id], .claim-audit, .source-ledger, .provenance-panel, .related-reading, .agent-packet-link"))) {
-        const current = next;
-        next = next.nextSibling;
-        content.append(current);
-      }
-
-      button.addEventListener("click", () => {
-        const collapsed = section.toggleAttribute("data-collapsed");
-        button.setAttribute("aria-expanded", String(!collapsed));
-        indicator.textContent = collapsed ? "+" : "-";
-      });
-    });
-  };
-
-  prepareArticleSections();
-
-  const progress = document.querySelector("[data-reading-progress]");
   const railLinks = Array.from(document.querySelectorAll("[data-focus-link]"));
   const markers = Array.from(document.querySelectorAll(".claim-marker[id]"));
   const articleLayout = document.querySelector(".article-layout");
-  const focusRail = document.querySelector("[data-focus-rail]");
-  const claimAudit = document.querySelector(".claim-audit");
   const claimCarousel = document.querySelector("[data-claim-carousel]");
   const carouselPrevious = document.querySelector("[data-claim-carousel-prev]");
   const carouselNext = document.querySelector("[data-claim-carousel-next]");
@@ -126,19 +74,11 @@
   }
 
   const updateAnchorOffset = () => {
-    if (!articleLayout || !focusRail) return;
-    const railRect = focusRail.getBoundingClientRect();
-    const railTop = Number.parseFloat(window.getComputedStyle(focusRail).top) || 0;
-    const offset = Math.ceil(railTop + railRect.height + 24);
+    if (!articleLayout) return;
+    const header = document.querySelector(".site-header");
+    const headerHeight = header?.getBoundingClientRect().height ?? 64;
+    const offset = Math.ceil(headerHeight + 24);
     articleLayout.style.setProperty("--article-anchor-offset", `${offset}px`);
-  };
-
-  const updateRailVisibility = () => {
-    if (!focusRail || !claimAudit) return;
-    const rect = claimAudit.getBoundingClientRect();
-    const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
-    const active = rect.top < viewportHeight * 0.72 && rect.bottom > viewportHeight * 0.18;
-    focusRail.toggleAttribute("data-audit-active", active);
   };
 
   const updateCarouselControls = () => {
@@ -169,32 +109,10 @@
     scrollClaimCarousel(event.key === "ArrowRight" ? 1 : -1);
   });
 
-  const updateProgress = () => {
-    if (!progress) return;
-    const target = articleBody || document.documentElement;
-    const rect = target.getBoundingClientRect();
-    const top = rect.top + window.scrollY;
-    const scrollable = Math.max(1, target.scrollHeight - window.innerHeight);
-    const ratio = (window.scrollY - top) / scrollable;
-    progress.style.transform = `scaleX(${Math.max(0, Math.min(1, ratio))})`;
-  };
-
   updateAnchorOffset();
-  updateRailVisibility();
   updateCarouselControls();
-  updateProgress();
-  window.addEventListener(
-    "scroll",
-    () => {
-      updateProgress();
-      updateRailVisibility();
-    },
-    { passive: true }
-  );
   window.addEventListener("resize", () => {
     updateAnchorOffset();
-    updateRailVisibility();
     updateCarouselControls();
-    updateProgress();
   });
 })();

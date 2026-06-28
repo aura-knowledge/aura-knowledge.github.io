@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 3,
+  "id": "article:ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+  "slug": "ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+  "title": "Commitment Boundaries in High-Stakes Domains",
+  "canonicalPath": "/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains/",
+  "sourcePath": "content/articles/2026/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains/article.md",
+  "agentBriefPath": "content/articles/2026/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains/agent.md",
+  "thesis": "High-stakes AI use should be designed around commitment boundaries: AI may help prepare work, but external, legal, financial, public, or rights-affecting actions need stricter evidence, review, appeal, privacy, and accountability controls.",
+  "status": "published",
+  "maturity": "sprout",
+  "publishedAt": "2026-06-28",
+  "updatedAt": "2026-06-28",
+  "audiences": [
+    "builders",
+    "researchers",
+    "students",
+    "agents"
+  ],
+  "topics": [
+    "ai-agents",
+    "agent-orchestration",
+    "human-ai-interaction"
+  ],
+  "series": {
+    "slug": "ai-delegation-orchestration",
+    "title": "AI Delegation Orchestration",
+    "season": "Season 1",
+    "order": 7,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "High-stakes AI use should be designed around commitment boundaries: AI may help prepare work, but external, legal, financial, public, or rights-affecting actions need stricter evidence, review, appeal, privacy, and accountability controls.",
+      "confidence": "medium",
+      "status": "argument",
+      "verification": {
+        "reviewedAt": "2026-06-28",
+        "reviewer": "human-publication-approval",
+        "status": "verified"
+      },
+      "evidence": [
+        {
+          "sourceId": "source-nist-ai-rmf",
+          "snippet": "AI risk guidance supports governance, measurement, risk mapping, and accountability as risk increases.",
+          "supports": "background",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-eu-ai-act-2024-1689",
+          "snippet": "The EU AI Act provides a regulatory example of obligations varying by AI system risk and use context.",
+          "supports": "direct",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-aba-formal-opinion-512",
+          "snippet": "Legal professional guidance shows that generative AI use can require confidentiality, competence, and supervisory duties.",
+          "supports": "direct",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-unesco-generative-ai-education-research",
+          "snippet": "Education guidance supports domain-specific guardrails, human agency, and protection of learners and researchers.",
+          "supports": "direct",
+          "assessedAt": "2026-06-28"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The delegation record and next-best-control models are proposed design primitives, not accepted standards.",
+          "assessedAt": "2026-06-28"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-nist-ai-rmf",
+      "title": "NIST AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "type": "report",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-eu-ai-act-2024-1689",
+      "title": "EU AI Act, Regulation (EU) 2024/1689",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+      "type": "standard",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-aba-formal-opinion-512",
+      "title": "American Bar Association, Formal Opinion 512: Generative Artificial Intelligence Tools",
+      "url": "https://www.americanbar.org/content/dam/aba/administrative/professional_responsibility/ethics-opinions/aba-formal-opinion-512.pdf",
+      "type": "report",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-unesco-generative-ai-education-research",
+      "title": "UNESCO guidance on generative AI in education and research",
+      "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "type": "report",
+      "accessed": "2026-06-28"
+    }
+  ],
+  "related": [
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    },
+    {
+      "type": "article",
+      "id": "article:agent-control-planes"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=sprout as an exploratory uncertainty marker.",
+    "Do not present proposed orchestration patterns as accepted standards.",
+    "Keep examples generic and detached from private implementations."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-28",
+    "createdBy": "codex-agent",
+    "agents": [
+      {
+        "role": "drafting-and-site-preview",
+        "model": "gpt-5",
+        "invokedAt": "2026-06-28",
+        "inputHash": "sha256:9748d4fdb1648fbfa9a2e623bd90e286430984eba403b5e9b4e767d713d0d81e",
+        "outputHash": "sha256:587876cee873881f45876d43e99ce8cc3d1c421535784b6b043a3d0bed87f4e1"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "sibling-agent",
+        "reviewedAt": "2026-06-28",
+        "status": "commented",
+        "scope": [
+          "series structure",
+          "evidence anchoring",
+          "privacy"
+        ],
+        "notes": "Earlier sibling review identified source-ledger gaps; those gaps were resolved before publication with article-specific source alignment.",
+        "resolvedAt": "2026-06-28"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-28",
+        "status": "approved",
+        "scope": [
+          "publication",
+          "reader experience",
+          "privacy",
+          "series structure"
+        ],
+        "notes": "Human maintainer approved the local preview for website publication after article layout, reading-flow, privacy, and series-structure review.",
+        "contentHash": "95d688f18c57d85bc47bf42659da888e3802d56ff121a43e3ae3ceaf49271250"
+      },
+      {
+        "reviewer": "sibling-agent",
+        "reviewedAt": "2026-06-28",
+        "status": "approved",
+        "scope": [
+          "publication-gate",
+          "source alignment",
+          "provenance",
+          "privacy",
+          "generated artifacts"
+        ],
+        "notes": "Independent sibling review approved the final publication packet with no blocking findings after source-ledger, provenance, privacy, and generated-artifact checks.",
+        "contentHash": "95d688f18c57d85bc47bf42659da888e3802d56ff121a43e3ae3ceaf49271250"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "95d688f18c57d85bc47bf42659da888e3802d56ff121a43e3ae3ceaf49271250",
+  "generatedAt": "2026-06-28T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains/",
+  "agentJsonPath": "/agents/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains.json",
+  "agentMarkdownPath": "/agents/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains.md",
+  "sourceRepoPath": "content/articles/2026/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains/article.md",
+  "tokenEstimate": 200,
+  "sectionOutline": []
+}

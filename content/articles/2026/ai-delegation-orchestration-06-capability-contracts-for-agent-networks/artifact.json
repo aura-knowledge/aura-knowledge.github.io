@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 3,
+  "id": "article:ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+  "slug": "ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+  "title": "Capability Contracts for Agent Networks",
+  "canonicalPath": "/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks/",
+  "sourcePath": "content/articles/2026/ai-delegation-orchestration-06-capability-contracts-for-agent-networks/article.md",
+  "agentBriefPath": "content/articles/2026/ai-delegation-orchestration-06-capability-contracts-for-agent-networks/agent.md",
+  "thesis": "Agent systems should be organized around replaceable capabilities with explicit contracts, not around vague role prompts or artificial replicas of human organizations.",
+  "status": "published",
+  "maturity": "sprout",
+  "publishedAt": "2026-06-28",
+  "updatedAt": "2026-06-28",
+  "audiences": [
+    "builders",
+    "researchers",
+    "students",
+    "agents"
+  ],
+  "topics": [
+    "ai-agents",
+    "agent-orchestration",
+    "human-ai-interaction"
+  ],
+  "series": {
+    "slug": "ai-delegation-orchestration",
+    "title": "AI Delegation Orchestration",
+    "season": "Season 1",
+    "order": 6,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Agent systems should be organized around replaceable capabilities with explicit contracts, not around vague role prompts or artificial replicas of human organizations.",
+      "confidence": "medium",
+      "status": "argument",
+      "verification": {
+        "reviewedAt": "2026-06-28",
+        "reviewer": "human-publication-approval",
+        "status": "verified"
+      },
+      "evidence": [
+        {
+          "sourceId": "source-mcp-introduction",
+          "snippet": "The Model Context Protocol frames external capabilities as standardized connections between AI applications and tools or data.",
+          "supports": "direct",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-mcp-security-best-practices",
+          "snippet": "MCP security guidance supports explicit authorization, trust, and boundary design for connected capabilities.",
+          "supports": "direct",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-anthropic-building-effective-agents",
+          "snippet": "Agent-building guidance supports composing tools, workflows, and agents instead of assuming one monolithic assistant.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-hollan-hutchins-kirsh-distributed-cognition",
+          "snippet": "Distributed cognition provides an analogy for intelligence spread across people, artifacts, tools, and environment.",
+          "supports": "analogous",
+          "assessedAt": "2026-06-28"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The delegation record and next-best-control models are proposed design primitives, not accepted standards.",
+          "assessedAt": "2026-06-28"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-mcp-introduction",
+      "title": "Model Context Protocol introduction",
+      "url": "https://modelcontextprotocol.io/docs/getting-started/intro",
+      "type": "protocol",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-mcp-security-best-practices",
+      "title": "Model Context Protocol security best practices",
+      "url": "https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices",
+      "type": "documentation",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-anthropic-building-effective-agents",
+      "title": "Anthropic, Building effective agents",
+      "url": "https://www.anthropic.com/research/building-effective-agents",
+      "type": "article",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-hollan-hutchins-kirsh-distributed-cognition",
+      "title": "Hollan, Hutchins, and Kirsh, Distributed Cognition",
+      "url": "https://www.lri.fr/~mbl/Stanford/CS477/papers/DistributedCognition-TOCHI.pdf",
+      "type": "paper",
+      "accessed": "2026-06-28"
+    }
+  ],
+  "related": [
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    },
+    {
+      "type": "article",
+      "id": "article:agent-control-planes"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=sprout as an exploratory uncertainty marker.",
+    "Do not present proposed orchestration patterns as accepted standards.",
+    "Keep examples generic and detached from private implementations."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-28",
+    "createdBy": "codex-agent",
+    "agents": [
+      {
+        "role": "drafting-and-site-preview",
+        "model": "gpt-5",
+        "invokedAt": "2026-06-28",
+        "inputHash": "sha256:5aa76f2040787afd8b777ea4ed4af82974b89a9552edb10d3a968e3853983d5c",
+        "outputHash": "sha256:d62f207cb226a1921aa71632681502ea8a38ef984d5c0046334cff23ddbb8fa2"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "sibling-agent",
+        "reviewedAt": "2026-06-28",
+        "status": "commented",
+        "scope": [
+          "series structure",
+          "evidence anchoring",
+          "privacy"
+        ],
+        "notes": "Earlier sibling review identified source-ledger gaps; those gaps were resolved before publication with article-specific source alignment.",
+        "resolvedAt": "2026-06-28"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-28",
+        "status": "approved",
+        "scope": [
+          "publication",
+          "reader experience",
+          "privacy",
+          "series structure"
+        ],
+        "notes": "Human maintainer approved the local preview for website publication after article layout, reading-flow, privacy, and series-structure review.",
+        "contentHash": "e2828555014eaf339ec5e645ae23c648d51ce09019c7137833258056aa89b22f"
+      },
+      {
+        "reviewer": "sibling-agent",
+        "reviewedAt": "2026-06-28",
+        "status": "approved",
+        "scope": [
+          "publication-gate",
+          "source alignment",
+          "provenance",
+          "privacy",
+          "generated artifacts"
+        ],
+        "notes": "Independent sibling review approved the final publication packet with no blocking findings after source-ledger, provenance, privacy, and generated-artifact checks.",
+        "contentHash": "e2828555014eaf339ec5e645ae23c648d51ce09019c7137833258056aa89b22f"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "e2828555014eaf339ec5e645ae23c648d51ce09019c7137833258056aa89b22f"
+}

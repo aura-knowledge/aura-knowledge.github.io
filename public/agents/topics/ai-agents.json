@@ -5,6 +5,14 @@
     "article:agent-control-planes",
     "article:ai-agent-advanced-questions",
     "article:ai-agent-first-conversation",
+    "article:ai-delegation-orchestration",
+    "article:ai-delegation-orchestration-01-from-conversation-to-delegation",
+    "article:ai-delegation-orchestration-02-the-delegation-record",
+    "article:ai-delegation-orchestration-03-the-operator-cockpit-problem",
+    "article:ai-delegation-orchestration-04-control-loci-not-human-managers",
+    "article:ai-delegation-orchestration-05-long-running-delegations",
+    "article:ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+    "article:ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
     "article:audio-first-voice-consumption"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/ai-agents/",
@@ -104,6 +112,246 @@
       "sourceCount": 3,
       "tokenEstimate": 530,
       "contentHash": "f9987826579f1516fc43e8890524ec069d702d595bf733cc83d01b79f832847c"
+    },
+    {
+      "id": "article:ai-delegation-orchestration",
+      "slug": "ai-delegation-orchestration",
+      "title": "AI Delegation Orchestration: A Series on Durable Agent Work",
+      "summary": "A guide to the seven-part AI Delegation Orchestration series, covering durable agent work from conversation thresholds to high-stakes commitment boundaries.",
+      "status": "published",
+      "maturity": "sprout",
+      "topics": [
+        "ai-agents",
+        "agent-orchestration",
+        "human-ai-interaction"
+      ],
+      "tags": [
+        "ai-agents",
+        "agent-orchestration",
+        "delegation",
+        "human-ai-interaction",
+        "workflow",
+        "governance"
+      ],
+      "canonicalPath": "/articles/ai-delegation-orchestration/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration/",
+      "agentJsonPath": "/agents/articles/ai-delegation-orchestration.json",
+      "agentMarkdownPath": "/agents/articles/ai-delegation-orchestration.md",
+      "updatedAt": "2026-06-28",
+      "claimCount": 1,
+      "sourceCount": 6,
+      "tokenEstimate": 195,
+      "contentHash": "31e452aa5be128c80862d5b7f555b3bf9cb92d8eea99d67476e43f817bb546d1"
+    },
+    {
+      "id": "article:ai-delegation-orchestration-01-from-conversation-to-delegation",
+      "slug": "ai-delegation-orchestration-01-from-conversation-to-delegation",
+      "title": "From Conversation to Delegation: Why AI Work Needs a Durable Record",
+      "summary": "Explains why conversation should remain the interface while delegation becomes the durable work primitive for consequential AI workflows.",
+      "status": "published",
+      "maturity": "sprout",
+      "topics": [
+        "ai-agents",
+        "agent-orchestration",
+        "human-ai-interaction"
+      ],
+      "tags": [
+        "ai-agents",
+        "agent-orchestration",
+        "delegation",
+        "human-ai-interaction",
+        "workflow",
+        "governance"
+      ],
+      "canonicalPath": "/articles/ai-delegation-orchestration-01-from-conversation-to-delegation/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-01-from-conversation-to-delegation/",
+      "agentJsonPath": "/agents/articles/ai-delegation-orchestration-01-from-conversation-to-delegation.json",
+      "agentMarkdownPath": "/agents/articles/ai-delegation-orchestration-01-from-conversation-to-delegation.md",
+      "updatedAt": "2026-06-28",
+      "claimCount": 1,
+      "sourceCount": 4,
+      "tokenEstimate": 173,
+      "contentHash": "fb87b3f92bc83893f862a3be7b097a10da853a4a49148a00c5b594a9a25c7818"
+    },
+    {
+      "id": "article:ai-delegation-orchestration-02-the-delegation-record",
+      "slug": "ai-delegation-orchestration-02-the-delegation-record",
+      "title": "The Delegation Record: A Schema for Consequential AI Work",
+      "summary": "Defines the delegation record and shows why it is more operational than a transcript, summary, ticket, or pull request alone.",
+      "status": "published",
+      "maturity": "sprout",
+      "topics": [
+        "ai-agents",
+        "agent-orchestration",
+        "human-ai-interaction"
+      ],
+      "tags": [
+        "ai-agents",
+        "agent-orchestration",
+        "delegation",
+        "human-ai-interaction",
+        "workflow",
+        "governance"
+      ],
+      "canonicalPath": "/articles/ai-delegation-orchestration-02-the-delegation-record/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-02-the-delegation-record/",
+      "agentJsonPath": "/agents/articles/ai-delegation-orchestration-02-the-delegation-record.json",
+      "agentMarkdownPath": "/agents/articles/ai-delegation-orchestration-02-the-delegation-record.md",
+      "updatedAt": "2026-06-28",
+      "claimCount": 1,
+      "sourceCount": 5,
+      "tokenEstimate": 160,
+      "contentHash": "9c0dedcd941c2ddfdb5dfbf0f632ef4d7237227ed6b8daa2ce8b465f0bc1b5bc"
+    },
+    {
+      "id": "article:ai-delegation-orchestration-03-the-operator-cockpit-problem",
+      "slug": "ai-delegation-orchestration-03-the-operator-cockpit-problem",
+      "title": "The Operator Cockpit Problem: Why More Traces Are Not Enough",
+      "summary": "Argues that operators need control routing across delegations, not only traces, summaries, dashboards, or activity feeds.",
+      "status": "published",
+      "maturity": "sprout",
+      "topics": [
+        "ai-agents",
+        "agent-orchestration",
+        "human-ai-interaction"
+      ],
+      "tags": [
+        "ai-agents",
+        "agent-orchestration",
+        "delegation",
+        "human-ai-interaction",
+        "workflow",
+        "governance"
+      ],
+      "canonicalPath": "/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem/",
+      "agentJsonPath": "/agents/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem.json",
+      "agentMarkdownPath": "/agents/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem.md",
+      "updatedAt": "2026-06-28",
+      "claimCount": 1,
+      "sourceCount": 4,
+      "tokenEstimate": 165,
+      "contentHash": "04ca94cd253843667b32e0f421ae0b1389c7e23318ddde6414071b707e57db10"
+    },
+    {
+      "id": "article:ai-delegation-orchestration-04-control-loci-not-human-managers",
+      "slug": "ai-delegation-orchestration-04-control-loci-not-human-managers",
+      "title": "Control Loci, Not Human Managers: An Agent-Native Routing Model",
+      "summary": "Replaces human-org mimicry with explicit control loci for routing uncertainty in agent-native systems.",
+      "status": "published",
+      "maturity": "sprout",
+      "topics": [
+        "ai-agents",
+        "agent-orchestration",
+        "human-ai-interaction"
+      ],
+      "tags": [
+        "ai-agents",
+        "agent-orchestration",
+        "delegation",
+        "human-ai-interaction",
+        "workflow",
+        "governance"
+      ],
+      "canonicalPath": "/articles/ai-delegation-orchestration-04-control-loci-not-human-managers/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-04-control-loci-not-human-managers/",
+      "agentJsonPath": "/agents/articles/ai-delegation-orchestration-04-control-loci-not-human-managers.json",
+      "agentMarkdownPath": "/agents/articles/ai-delegation-orchestration-04-control-loci-not-human-managers.md",
+      "updatedAt": "2026-06-28",
+      "claimCount": 1,
+      "sourceCount": 4,
+      "tokenEstimate": 179,
+      "contentHash": "a0c3da183c0d5c7717e600ae241a747ade64f18bce8732bf871f6289868a7a00"
+    },
+    {
+      "id": "article:ai-delegation-orchestration-05-long-running-delegations",
+      "slug": "ai-delegation-orchestration-05-long-running-delegations",
+      "title": "Long-Running Delegations: How Agents Can Work for Hours Without Losing the Plot",
+      "summary": "Defines checkpoints, self-remediation, interruption quality, budgets, rollback, and stop conditions for long-running AI delegations.",
+      "status": "published",
+      "maturity": "sprout",
+      "topics": [
+        "ai-agents",
+        "agent-orchestration",
+        "human-ai-interaction"
+      ],
+      "tags": [
+        "ai-agents",
+        "agent-orchestration",
+        "delegation",
+        "human-ai-interaction",
+        "workflow",
+        "governance"
+      ],
+      "canonicalPath": "/articles/ai-delegation-orchestration-05-long-running-delegations/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-05-long-running-delegations/",
+      "agentJsonPath": "/agents/articles/ai-delegation-orchestration-05-long-running-delegations.json",
+      "agentMarkdownPath": "/agents/articles/ai-delegation-orchestration-05-long-running-delegations.md",
+      "updatedAt": "2026-06-28",
+      "claimCount": 1,
+      "sourceCount": 4,
+      "tokenEstimate": 179,
+      "contentHash": "a42d2db3e1d383a1f5c319075fcdce7bc1182c2a780ccba78d90eb43dc667bc7"
+    },
+    {
+      "id": "article:ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+      "slug": "ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+      "title": "Capability Contracts for Agent Networks",
+      "summary": "Refocuses agent networks around replaceable capability contracts rather than human job titles or org-chart theater.",
+      "status": "published",
+      "maturity": "sprout",
+      "topics": [
+        "ai-agents",
+        "agent-orchestration",
+        "human-ai-interaction"
+      ],
+      "tags": [
+        "ai-agents",
+        "agent-orchestration",
+        "delegation",
+        "human-ai-interaction",
+        "workflow",
+        "governance"
+      ],
+      "canonicalPath": "/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks/",
+      "agentJsonPath": "/agents/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks.json",
+      "agentMarkdownPath": "/agents/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks.md",
+      "updatedAt": "2026-06-28",
+      "claimCount": 1,
+      "sourceCount": 4,
+      "tokenEstimate": 176,
+      "contentHash": "e2828555014eaf339ec5e645ae23c648d51ce09019c7137833258056aa89b22f"
+    },
+    {
+      "id": "article:ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+      "slug": "ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+      "title": "Commitment Boundaries in High-Stakes Domains",
+      "summary": "Shows how delegation design changes when AI output may affect rights, money, legal duties, education, public records, or institutional accountability.",
+      "status": "published",
+      "maturity": "sprout",
+      "topics": [
+        "ai-agents",
+        "agent-orchestration",
+        "human-ai-interaction"
+      ],
+      "tags": [
+        "ai-agents",
+        "agent-orchestration",
+        "delegation",
+        "human-ai-interaction",
+        "workflow",
+        "governance"
+      ],
+      "canonicalPath": "/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains/",
+      "agentJsonPath": "/agents/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains.json",
+      "agentMarkdownPath": "/agents/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains.md",
+      "updatedAt": "2026-06-28",
+      "claimCount": 1,
+      "sourceCount": 4,
+      "tokenEstimate": 200,
+      "contentHash": "95d688f18c57d85bc47bf42659da888e3802d56ff121a43e3ae3ceaf49271250"
     },
     {
       "id": "article:audio-first-voice-consumption",

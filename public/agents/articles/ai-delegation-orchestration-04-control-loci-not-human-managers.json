@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 3,
+  "id": "article:ai-delegation-orchestration-04-control-loci-not-human-managers",
+  "slug": "ai-delegation-orchestration-04-control-loci-not-human-managers",
+  "title": "Control Loci, Not Human Managers: An Agent-Native Routing Model",
+  "canonicalPath": "/articles/ai-delegation-orchestration-04-control-loci-not-human-managers/",
+  "sourcePath": "content/articles/2026/ai-delegation-orchestration-04-control-loci-not-human-managers/article.md",
+  "agentBriefPath": "content/articles/2026/ai-delegation-orchestration-04-control-loci-not-human-managers/agent.md",
+  "thesis": "Agent systems should route decisions to the right control locus instead of copying human management structures or escalating every uncertainty to a person.",
+  "status": "published",
+  "maturity": "sprout",
+  "publishedAt": "2026-06-28",
+  "updatedAt": "2026-06-28",
+  "audiences": [
+    "builders",
+    "researchers",
+    "students",
+    "agents"
+  ],
+  "topics": [
+    "ai-agents",
+    "agent-orchestration",
+    "human-ai-interaction"
+  ],
+  "series": {
+    "slug": "ai-delegation-orchestration",
+    "title": "AI Delegation Orchestration",
+    "season": "Season 1",
+    "order": 4,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Agent systems should route decisions to the right control locus instead of copying human management structures or escalating every uncertainty to a person.",
+      "confidence": "medium",
+      "status": "argument",
+      "verification": {
+        "reviewedAt": "2026-06-28",
+        "reviewer": "human-publication-approval",
+        "status": "verified"
+      },
+      "evidence": [
+        {
+          "sourceId": "source-bainbridge-ironies-automation",
+          "snippet": "Automation research warns that human supervisors can be given difficult residual control tasks after automation handles routine work.",
+          "supports": "background",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-lee-see-trust-automation",
+          "snippet": "Trust-in-automation research supports calibrating reliance through evidence, context, and system behavior rather than titles.",
+          "supports": "background",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-amershi-human-ai-guidelines",
+          "snippet": "Human-AI interaction guidelines support clear handoffs, status, feedback, and recoverability in AI-assisted systems.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-openai-agents-hitl",
+          "snippet": "Human-in-the-loop mechanisms show how control can be modeled as interruptible workflow states instead of human-style hierarchy.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-28"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The delegation record and next-best-control models are proposed design primitives, not accepted standards.",
+          "assessedAt": "2026-06-28"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-bainbridge-ironies-automation",
+      "title": "Bainbridge, Ironies of Automation",
+      "url": "https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf",
+      "type": "paper",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-lee-see-trust-automation",
+      "title": "Lee and See, Trust in Automation",
+      "url": "https://journals.sagepub.com/doi/10.1518/hfes.46.1.50_30392",
+      "type": "paper",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-amershi-human-ai-guidelines",
+      "title": "Amershi et al., Guidelines for Human-AI Interaction",
+      "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf",
+      "type": "paper",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-openai-agents-hitl",
+      "title": "OpenAI Agents SDK human-in-the-loop documentation",
+      "url": "https://openai.github.io/openai-agents-python/human_in_the_loop/",
+      "type": "documentation",
+      "accessed": "2026-06-28"
+    }
+  ],
+  "related": [
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    },
+    {
+      "type": "article",
+      "id": "article:agent-control-planes"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=sprout as an exploratory uncertainty marker.",
+    "Do not present proposed orchestration patterns as accepted standards.",
+    "Keep examples generic and detached from private implementations."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-28",
+    "createdBy": "codex-agent",
+    "agents": [
+      {
+        "role": "drafting-and-site-preview",
+        "model": "gpt-5",
+        "invokedAt": "2026-06-28",
+        "inputHash": "sha256:1164e89d6555d2858235307980458011bb415860eb52dda339afcd435462bf1b",
+        "outputHash": "sha256:09baf39e394751119d07b467c8ef1cd9fc73de00919a1d8a006c5ce475317fcb"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "sibling-agent",
+        "reviewedAt": "2026-06-28",
+        "status": "commented",
+        "scope": [
+          "series structure",
+          "evidence anchoring",
+          "privacy"
+        ],
+        "notes": "Earlier sibling review identified source-ledger gaps; those gaps were resolved before publication with article-specific source alignment.",
+        "resolvedAt": "2026-06-28"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-28",
+        "status": "approved",
+        "scope": [
+          "publication",
+          "reader experience",
+          "privacy",
+          "series structure"
+        ],
+        "notes": "Human maintainer approved the local preview for website publication after article layout, reading-flow, privacy, and series-structure review.",
+        "contentHash": "a0c3da183c0d5c7717e600ae241a747ade64f18bce8732bf871f6289868a7a00"
+      },
+      {
+        "reviewer": "sibling-agent",
+        "reviewedAt": "2026-06-28",
+        "status": "approved",
+        "scope": [
+          "publication-gate",
+          "source alignment",
+          "provenance",
+          "privacy",
+          "generated artifacts"
+        ],
+        "notes": "Independent sibling review approved the final publication packet with no blocking findings after source-ledger, provenance, privacy, and generated-artifact checks.",
+        "contentHash": "a0c3da183c0d5c7717e600ae241a747ade64f18bce8732bf871f6289868a7a00"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "a0c3da183c0d5c7717e600ae241a747ade64f18bce8732bf871f6289868a7a00",
+  "generatedAt": "2026-06-28T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-04-control-loci-not-human-managers/",
+  "agentJsonPath": "/agents/articles/ai-delegation-orchestration-04-control-loci-not-human-managers.json",
+  "agentMarkdownPath": "/agents/articles/ai-delegation-orchestration-04-control-loci-not-human-managers.md",
+  "sourceRepoPath": "content/articles/2026/ai-delegation-orchestration-04-control-loci-not-human-managers/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/ai-delegation-orchestration-04-control-loci-not-human-managers/article.md",
+  "tokenEstimate": 179,
+  "sectionOutline": []
+}

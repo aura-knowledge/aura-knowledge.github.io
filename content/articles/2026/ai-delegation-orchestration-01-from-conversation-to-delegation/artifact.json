@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 3,
+  "id": "article:ai-delegation-orchestration-01-from-conversation-to-delegation",
+  "slug": "ai-delegation-orchestration-01-from-conversation-to-delegation",
+  "title": "From Conversation to Delegation: Why AI Work Needs a Durable Record",
+  "canonicalPath": "/articles/ai-delegation-orchestration-01-from-conversation-to-delegation/",
+  "sourcePath": "content/articles/2026/ai-delegation-orchestration-01-from-conversation-to-delegation/article.md",
+  "agentBriefPath": "content/articles/2026/ai-delegation-orchestration-01-from-conversation-to-delegation/agent.md",
+  "thesis": "Conversation can remain the interface for AI, but consequential AI work should be organized around bounded delegations rather than chat transcripts.",
+  "status": "published",
+  "maturity": "sprout",
+  "publishedAt": "2026-06-28",
+  "updatedAt": "2026-06-28",
+  "audiences": [
+    "builders",
+    "researchers",
+    "students",
+    "agents"
+  ],
+  "topics": [
+    "ai-agents",
+    "agent-orchestration",
+    "human-ai-interaction"
+  ],
+  "series": {
+    "slug": "ai-delegation-orchestration",
+    "title": "AI Delegation Orchestration",
+    "season": "Season 1",
+    "order": 1,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Conversation can remain the interface for AI, but consequential AI work should be organized around bounded delegations rather than chat transcripts.",
+      "confidence": "medium",
+      "status": "argument",
+      "verification": {
+        "reviewedAt": "2026-06-28",
+        "reviewer": "human-publication-approval",
+        "status": "verified"
+      },
+      "evidence": [
+        {
+          "sourceId": "source-malone-crowston",
+          "snippet": "Coordination theory supports modeling consequential work as dependencies, actors, activities, and managed commitments.",
+          "supports": "background",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-endsley-situation-awareness",
+          "snippet": "Situation awareness research shows why operators need a current model of dynamic work, not only historical messages.",
+          "supports": "analogous",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-gutwin-greenberg-workspace-awareness",
+          "snippet": "Workspace awareness research describes the shared context people need to coordinate distributed work over time.",
+          "supports": "analogous",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-mark-interrupted-work",
+          "snippet": "Interrupted-work research supports the claim that resuming complex work from scattered context creates real human cost.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-28"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The delegation record and next-best-control models are proposed design primitives, not accepted standards.",
+          "assessedAt": "2026-06-28"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-malone-crowston",
+      "title": "Malone and Crowston, The Interdisciplinary Study of Coordination",
+      "url": "https://crowston.syr.edu/sites/default/files/acmcs94.pdf",
+      "type": "paper",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-endsley-situation-awareness",
+      "title": "Endsley, Toward a Theory of Situation Awareness in Dynamic Systems",
+      "url": "https://journals.sagepub.com/doi/10.1518/001872095779049543",
+      "type": "paper",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-gutwin-greenberg-workspace-awareness",
+      "title": "Gutwin and Greenberg, A Descriptive Framework of Workspace Awareness for Real-Time Groupware",
+      "url": "https://link.springer.com/article/10.1023/A%3A1021271517844",
+      "type": "paper",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-mark-interrupted-work",
+      "title": "Mark, Gudith, and Klocke, The Cost of Interrupted Work",
+      "url": "https://www.ics.uci.edu/~gmark/chi08-mark.pdf",
+      "type": "paper",
+      "accessed": "2026-06-28"
+    }
+  ],
+  "related": [
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    },
+    {
+      "type": "article",
+      "id": "article:agent-control-planes"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=sprout as an exploratory uncertainty marker.",
+    "Do not present proposed orchestration patterns as accepted standards.",
+    "Keep examples generic and detached from private implementations."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-28",
+    "createdBy": "codex-agent",
+    "agents": [
+      {
+        "role": "drafting-and-site-preview",
+        "model": "gpt-5",
+        "invokedAt": "2026-06-28",
+        "inputHash": "sha256:10e3cede7475364e9caf6654ba9bdcac348456e8f7eed5c1a89b85603618aa92",
+        "outputHash": "sha256:4101037ce50b5e8f040314be9dd89c09ce0421edf1f5d6636cc22b9c2ebdcc68"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "sibling-agent",
+        "reviewedAt": "2026-06-28",
+        "status": "commented",
+        "scope": [
+          "series structure",
+          "evidence anchoring",
+          "privacy"
+        ],
+        "notes": "Earlier sibling review identified source-ledger gaps; those gaps were resolved before publication with article-specific source alignment.",
+        "resolvedAt": "2026-06-28"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-28",
+        "status": "approved",
+        "scope": [
+          "publication",
+          "reader experience",
+          "privacy",
+          "series structure"
+        ],
+        "notes": "Human maintainer approved the local preview for website publication after article layout, reading-flow, privacy, and series-structure review.",
+        "contentHash": "fb87b3f92bc83893f862a3be7b097a10da853a4a49148a00c5b594a9a25c7818"
+      },
+      {
+        "reviewer": "sibling-agent",
+        "reviewedAt": "2026-06-28",
+        "status": "approved",
+        "scope": [
+          "publication-gate",
+          "source alignment",
+          "provenance",
+          "privacy",
+          "generated artifacts"
+        ],
+        "notes": "Independent sibling review approved the final publication packet with no blocking findings after source-ledger, provenance, privacy, and generated-artifact checks.",
+        "contentHash": "fb87b3f92bc83893f862a3be7b097a10da853a4a49148a00c5b594a9a25c7818"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "fb87b3f92bc83893f862a3be7b097a10da853a4a49148a00c5b594a9a25c7818"
+}

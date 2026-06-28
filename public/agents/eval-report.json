@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-26T00:00:00.000Z",
+  "generatedAt": "2026-06-28T00:00:00.000Z",
   "summary": {
     "total": 5,
     "passed": 5,
@@ -96,6 +96,14 @@
           "agentic-commerce-product-truth",
           "ai-agent-advanced-questions",
           "ai-agent-first-conversation",
+          "ai-delegation-orchestration",
+          "ai-delegation-orchestration-01-from-conversation-to-delegation",
+          "ai-delegation-orchestration-02-the-delegation-record",
+          "ai-delegation-orchestration-03-the-operator-cockpit-problem",
+          "ai-delegation-orchestration-04-control-loci-not-human-managers",
+          "ai-delegation-orchestration-05-long-running-delegations",
+          "ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+          "ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
           "audio-first-voice-consumption"
         ],
         "claimIds": [
@@ -139,6 +147,14 @@
           "article:ai-agent-first-conversation:claim-002",
           "article:ai-agent-first-conversation:claim-003",
           "article:ai-agent-first-conversation:claim-004",
+          "article:ai-delegation-orchestration:claim-001",
+          "article:ai-delegation-orchestration-01-from-conversation-to-delegation:claim-001",
+          "article:ai-delegation-orchestration-02-the-delegation-record:claim-001",
+          "article:ai-delegation-orchestration-03-the-operator-cockpit-problem:claim-001",
+          "article:ai-delegation-orchestration-04-control-loci-not-human-managers:claim-001",
+          "article:ai-delegation-orchestration-05-long-running-delegations:claim-001",
+          "article:ai-delegation-orchestration-06-capability-contracts-for-agent-networks:claim-001",
+          "article:ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains:claim-001",
           "article:audio-first-voice-consumption:claim-001",
           "article:audio-first-voice-consumption:claim-002",
           "article:audio-first-voice-consumption:claim-003",

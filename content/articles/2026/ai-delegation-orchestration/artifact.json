@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 3,
+  "id": "article:ai-delegation-orchestration",
+  "slug": "ai-delegation-orchestration",
+  "title": "AI Delegation Orchestration: A Series on Durable Agent Work",
+  "canonicalPath": "/articles/ai-delegation-orchestration/",
+  "sourcePath": "content/articles/2026/ai-delegation-orchestration/article.md",
+  "agentBriefPath": "content/articles/2026/ai-delegation-orchestration/agent.md",
+  "thesis": "AI interfaces can stay conversational, but consequential AI work should be governed through durable delegations, explicit records, operator control surfaces, and domain-specific review boundaries rather than chat transcripts alone.",
+  "status": "published",
+  "maturity": "sprout",
+  "publishedAt": "2026-06-28",
+  "updatedAt": "2026-06-28",
+  "audiences": [
+    "builders",
+    "researchers",
+    "students",
+    "agents"
+  ],
+  "topics": [
+    "ai-agents",
+    "agent-orchestration",
+    "human-ai-interaction"
+  ],
+  "series": {
+    "slug": "ai-delegation-orchestration",
+    "title": "AI Delegation Orchestration",
+    "season": "Season 1",
+    "order": 0,
+    "role": "guide"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "AI interfaces can stay conversational, but consequential AI work should be governed through durable delegations, explicit records, operator control surfaces, and domain-specific review boundaries rather than chat transcripts alone.",
+      "confidence": "medium",
+      "status": "framing",
+      "verification": {
+        "reviewedAt": "2026-06-28",
+        "reviewer": "human-publication-approval",
+        "status": "verified"
+      },
+      "evidence": [
+        {
+          "sourceId": "source-malone-crowston",
+          "snippet": "Coordination theory frames complex work as dependencies among activities, which supports treating agent work as coordination design.",
+          "supports": "background",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-endsley-situation-awareness",
+          "snippet": "Situation awareness research supports separating live interface cues from the durable state needed to understand dynamic work.",
+          "supports": "analogous",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-openai-agents",
+          "snippet": "Current agent tooling exposes tools, handoffs, tracing, and human review as explicit orchestration concerns.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-langgraph",
+          "snippet": "Current graph-based agent frameworks emphasize stateful, controllable execution rather than a single linear transcript.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-nist-ai-rmf",
+          "snippet": "Risk-management guidance supports explicit governance, measurement, and accountability around AI system behavior.",
+          "supports": "background",
+          "assessedAt": "2026-06-28"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The delegation record and next-best-control models are proposed design primitives, not accepted standards.",
+          "assessedAt": "2026-06-28"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-malone-crowston",
+      "title": "Malone and Crowston, The Interdisciplinary Study of Coordination",
+      "url": "https://crowston.syr.edu/sites/default/files/acmcs94.pdf",
+      "type": "paper",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-endsley-situation-awareness",
+      "title": "Endsley, Toward a Theory of Situation Awareness in Dynamic Systems",
+      "url": "https://journals.sagepub.com/doi/10.1518/001872095779049543",
+      "type": "paper",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-openai-agents",
+      "title": "OpenAI Agents guide",
+      "url": "https://developers.openai.com/api/docs/guides/agents",
+      "type": "documentation",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-langgraph",
+      "title": "LangGraph documentation",
+      "url": "https://docs.langchain.com/oss/python/langgraph/overview",
+      "type": "documentation",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-mcp-introduction",
+      "title": "Model Context Protocol introduction",
+      "url": "https://modelcontextprotocol.io/docs/getting-started/intro",
+      "type": "protocol",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-nist-ai-rmf",
+      "title": "NIST AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "type": "report",
+      "accessed": "2026-06-28"
+    }
+  ],
+  "related": [
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    },
+    {
+      "type": "article",
+      "id": "article:agent-control-planes"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=sprout as an exploratory uncertainty marker.",
+    "Do not present proposed orchestration patterns as accepted standards.",
+    "Keep examples generic and detached from private implementations."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-28",
+    "createdBy": "codex-agent",
+    "agents": [
+      {
+        "role": "drafting-and-site-preview",
+        "model": "gpt-5",
+        "invokedAt": "2026-06-28",
+        "inputHash": "sha256:1fb34c15a34e4efe4813eb295c0b64578ba5c083f7164c95e86a1228929137d7",
+        "outputHash": "sha256:1adcd6cfdc09fa8deab00c8622f81d532891fff8a2432acf59d81d9273aaf407"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "sibling-agent",
+        "reviewedAt": "2026-06-28",
+        "status": "commented",
+        "scope": [
+          "series structure",
+          "evidence anchoring",
+          "privacy"
+        ],
+        "notes": "Earlier sibling review identified source-ledger gaps; those gaps were resolved before publication with article-specific source alignment.",
+        "resolvedAt": "2026-06-28"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-28",
+        "status": "approved",
+        "scope": [
+          "publication",
+          "reader experience",
+          "privacy",
+          "series structure"
+        ],
+        "notes": "Human maintainer approved the local preview for website publication after article layout, reading-flow, privacy, and series-structure review.",
+        "contentHash": "31e452aa5be128c80862d5b7f555b3bf9cb92d8eea99d67476e43f817bb546d1"
+      },
+      {
+        "reviewer": "sibling-agent",
+        "reviewedAt": "2026-06-28",
+        "status": "approved",
+        "scope": [
+          "publication-gate",
+          "source alignment",
+          "provenance",
+          "privacy",
+          "generated artifacts"
+        ],
+        "notes": "Independent sibling review approved the final publication packet with no blocking findings after source-ledger, provenance, privacy, and generated-artifact checks.",
+        "contentHash": "31e452aa5be128c80862d5b7f555b3bf9cb92d8eea99d67476e43f817bb546d1"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "31e452aa5be128c80862d5b7f555b3bf9cb92d8eea99d67476e43f817bb546d1"
+}
