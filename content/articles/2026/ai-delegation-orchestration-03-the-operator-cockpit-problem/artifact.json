@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 3,
+  "id": "article:ai-delegation-orchestration-03-the-operator-cockpit-problem",
+  "slug": "ai-delegation-orchestration-03-the-operator-cockpit-problem",
+  "title": "The Operator Cockpit Problem: Why More Traces Are Not Enough",
+  "canonicalPath": "/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem/",
+  "sourcePath": "content/articles/2026/ai-delegation-orchestration-03-the-operator-cockpit-problem/article.md",
+  "agentBriefPath": "content/articles/2026/ai-delegation-orchestration-03-the-operator-cockpit-problem/agent.md",
+  "thesis": "The operator problem is not lack of information; it is lack of control routing across many active delegations.",
+  "status": "published",
+  "maturity": "sprout",
+  "publishedAt": "2026-06-28",
+  "updatedAt": "2026-06-28",
+  "audiences": [
+    "builders",
+    "researchers",
+    "students",
+    "agents"
+  ],
+  "topics": [
+    "ai-agents",
+    "agent-orchestration",
+    "human-ai-interaction"
+  ],
+  "series": {
+    "slug": "ai-delegation-orchestration",
+    "title": "AI Delegation Orchestration",
+    "season": "Season 1",
+    "order": 3,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "The operator problem is not lack of information; it is lack of control routing across many active delegations.",
+      "confidence": "medium",
+      "status": "argument",
+      "verification": {
+        "reviewedAt": "2026-06-28",
+        "reviewer": "human-publication-approval",
+        "status": "verified"
+      },
+      "evidence": [
+        {
+          "sourceId": "source-endsley-situation-awareness",
+          "snippet": "Situation awareness research distinguishes raw observations from the operator understanding needed for dynamic control.",
+          "supports": "analogous",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-gutwin-greenberg-workspace-awareness",
+          "snippet": "Workspace awareness research supports showing coordination-relevant state rather than forcing users to reconstruct it.",
+          "supports": "analogous",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-openai-agents-tracing",
+          "snippet": "Tracing provides useful execution visibility, but the article argues that visibility must be turned into operator control.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-langgraph",
+          "snippet": "Stateful agent orchestration gives systems a place to expose resumable state, interrupts, and control points.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-28"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The delegation record and next-best-control models are proposed design primitives, not accepted standards.",
+          "assessedAt": "2026-06-28"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-endsley-situation-awareness",
+      "title": "Endsley, Toward a Theory of Situation Awareness in Dynamic Systems",
+      "url": "https://journals.sagepub.com/doi/10.1518/001872095779049543",
+      "type": "paper",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-gutwin-greenberg-workspace-awareness",
+      "title": "Gutwin and Greenberg, A Descriptive Framework of Workspace Awareness for Real-Time Groupware",
+      "url": "https://link.springer.com/article/10.1023/A%3A1021271517844",
+      "type": "paper",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-openai-agents-tracing",
+      "title": "OpenAI Agents SDK tracing",
+      "url": "https://openai.github.io/openai-agents-python/tracing/",
+      "type": "documentation",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-langgraph",
+      "title": "LangGraph documentation",
+      "url": "https://docs.langchain.com/oss/python/langgraph/overview",
+      "type": "documentation",
+      "accessed": "2026-06-28"
+    }
+  ],
+  "related": [
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    },
+    {
+      "type": "article",
+      "id": "article:agent-control-planes"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=sprout as an exploratory uncertainty marker.",
+    "Do not present proposed orchestration patterns as accepted standards.",
+    "Keep examples generic and detached from private implementations."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-28",
+    "createdBy": "codex-agent",
+    "agents": [
+      {
+        "role": "drafting-and-site-preview",
+        "model": "gpt-5",
+        "invokedAt": "2026-06-28",
+        "inputHash": "sha256:9d28e56e620b6bd2c936b96f9f0deced75cc5866385ba7fbd73c470717596165",
+        "outputHash": "sha256:881f79b8b43afbe319871d670e24fa88681b62c4d13179d004a4237d30fc6ffa"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "sibling-agent",
+        "reviewedAt": "2026-06-28",
+        "status": "commented",
+        "scope": [
+          "series structure",
+          "evidence anchoring",
+          "privacy"
+        ],
+        "notes": "Earlier sibling review identified source-ledger gaps; those gaps were resolved before publication with article-specific source alignment.",
+        "resolvedAt": "2026-06-28"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-28",
+        "status": "approved",
+        "scope": [
+          "publication",
+          "reader experience",
+          "privacy",
+          "series structure"
+        ],
+        "notes": "Human maintainer approved the local preview for website publication after article layout, reading-flow, privacy, and series-structure review.",
+        "contentHash": "04ca94cd253843667b32e0f421ae0b1389c7e23318ddde6414071b707e57db10"
+      },
+      {
+        "reviewer": "sibling-agent",
+        "reviewedAt": "2026-06-28",
+        "status": "approved",
+        "scope": [
+          "publication-gate",
+          "source alignment",
+          "provenance",
+          "privacy",
+          "generated artifacts"
+        ],
+        "notes": "Independent sibling review approved the final publication packet with no blocking findings after source-ledger, provenance, privacy, and generated-artifact checks.",
+        "contentHash": "04ca94cd253843667b32e0f421ae0b1389c7e23318ddde6414071b707e57db10"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "04ca94cd253843667b32e0f421ae0b1389c7e23318ddde6414071b707e57db10"
+}

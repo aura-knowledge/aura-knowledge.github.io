@@ -237,8 +237,8 @@ function isPublished(article: Article) {
 
 export function getArticles(options: { includeUnpublished?: boolean } = {}): Article[] {
   const loaded = loadArticles();
-  if (options.includeUnpublished) {
-    return loaded;
+  if (options.includeUnpublished || import.meta.env.DEV) {
+    return loaded.filter((article) => article.status !== "archived" && article.artifact.status !== "archived");
   }
 
   return loaded.filter(isPublished);

@@ -355,6 +355,126 @@
     "status": "design"
   },
   {
+    "id": "article:ai-delegation-orchestration",
+    "type": "article",
+    "label": "AI Delegation Orchestration: A Series on Durable Agent Work",
+    "path": "/articles/ai-delegation-orchestration/",
+    "maturity": "sprout"
+  },
+  {
+    "id": "article:ai-delegation-orchestration-01-from-conversation-to-delegation",
+    "type": "article",
+    "label": "From Conversation to Delegation: Why AI Work Needs a Durable Record",
+    "path": "/articles/ai-delegation-orchestration-01-from-conversation-to-delegation/",
+    "maturity": "sprout"
+  },
+  {
+    "id": "article:ai-delegation-orchestration-01-from-conversation-to-delegation:claim-001",
+    "type": "claim",
+    "label": "Conversation can remain the interface for AI, but consequential AI work should be organized around bounded delegations rather than chat transcripts.",
+    "localId": "claim-001",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:ai-delegation-orchestration-02-the-delegation-record",
+    "type": "article",
+    "label": "The Delegation Record: A Schema for Consequential AI Work",
+    "path": "/articles/ai-delegation-orchestration-02-the-delegation-record/",
+    "maturity": "sprout"
+  },
+  {
+    "id": "article:ai-delegation-orchestration-02-the-delegation-record:claim-001",
+    "type": "claim",
+    "label": "A delegation record is the system-of-record artifact that makes AI work inspectable, resumable, reviewable, and bounded.",
+    "localId": "claim-001",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:ai-delegation-orchestration-03-the-operator-cockpit-problem",
+    "type": "article",
+    "label": "The Operator Cockpit Problem: Why More Traces Are Not Enough",
+    "path": "/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem/",
+    "maturity": "sprout"
+  },
+  {
+    "id": "article:ai-delegation-orchestration-03-the-operator-cockpit-problem:claim-001",
+    "type": "claim",
+    "label": "The operator problem is not lack of information; it is lack of control routing across many active delegations.",
+    "localId": "claim-001",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:ai-delegation-orchestration-04-control-loci-not-human-managers",
+    "type": "article",
+    "label": "Control Loci, Not Human Managers: An Agent-Native Routing Model",
+    "path": "/articles/ai-delegation-orchestration-04-control-loci-not-human-managers/",
+    "maturity": "sprout"
+  },
+  {
+    "id": "article:ai-delegation-orchestration-04-control-loci-not-human-managers:claim-001",
+    "type": "claim",
+    "label": "Agent systems should route decisions to the right control locus instead of copying human management structures or escalating every uncertainty to a person.",
+    "localId": "claim-001",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:ai-delegation-orchestration-05-long-running-delegations",
+    "type": "article",
+    "label": "Long-Running Delegations: How Agents Can Work for Hours Without Losing the Plot",
+    "path": "/articles/ai-delegation-orchestration-05-long-running-delegations/",
+    "maturity": "sprout"
+  },
+  {
+    "id": "article:ai-delegation-orchestration-05-long-running-delegations:claim-001",
+    "type": "claim",
+    "label": "Long-running AI work is viable only when the delegation has checkpoints, evidence gates, self-remediation loops, interruption rules, rollback paths, and explicit stop conditions.",
+    "localId": "claim-001",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+    "type": "article",
+    "label": "Capability Contracts for Agent Networks",
+    "path": "/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks/",
+    "maturity": "sprout"
+  },
+  {
+    "id": "article:ai-delegation-orchestration-06-capability-contracts-for-agent-networks:claim-001",
+    "type": "claim",
+    "label": "Agent systems should be organized around replaceable capabilities with explicit contracts, not around vague role prompts or artificial replicas of human organizations.",
+    "localId": "claim-001",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+    "type": "article",
+    "label": "Commitment Boundaries in High-Stakes Domains",
+    "path": "/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains/",
+    "maturity": "sprout"
+  },
+  {
+    "id": "article:ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains:claim-001",
+    "type": "claim",
+    "label": "High-stakes AI use should be designed around commitment boundaries: AI may help prepare work, but external, legal, financial, public, or rights-affecting actions need stricter evidence, review, appeal, privacy, and accountability controls.",
+    "localId": "claim-001",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:ai-delegation-orchestration:claim-001",
+    "type": "claim",
+    "label": "AI interfaces can stay conversational, but consequential AI work should be governed through durable delegations, explicit records, operator control surfaces, and domain-specific review boundaries rather than chat transcripts alone.",
+    "localId": "claim-001",
+    "confidence": "medium",
+    "status": "framing"
+  },
+  {
     "id": "article:ai-winters-expert-systems",
     "type": "article",
     "label": "Winters, Expert Systems, and the Cost of Overpromising Intelligence",
@@ -1100,6 +1220,13 @@
     "sourceType": "paper"
   },
   {
+    "id": "source-aba-formal-opinion-512",
+    "type": "source",
+    "label": "American Bar Association, Formal Opinion 512: Generative Artificial Intelligence Tools",
+    "url": "https://www.americanbar.org/content/dam/aba/administrative/professional_responsibility/ethics-opinions/aba-formal-opinion-512.pdf",
+    "sourceType": "report"
+  },
+  {
     "id": "source-adobe-ai-traffic-2025",
     "type": "source",
     "label": "Adobe Analytics: Traffic to U.S. Retail Websites from Generative AI Sources Jumps 1,200 Percent",
@@ -1156,6 +1283,20 @@
     "sourceType": "product"
   },
   {
+    "id": "source-amershi-human-ai-guidelines",
+    "type": "source",
+    "label": "Amershi et al., Guidelines for Human-AI Interaction",
+    "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-anthropic-building-effective-agents",
+    "type": "source",
+    "label": "Anthropic, Building effective agents",
+    "url": "https://www.anthropic.com/research/building-effective-agents",
+    "sourceType": "article"
+  },
+  {
     "id": "source-anthropic-prompting",
     "type": "source",
     "label": "Anthropic: Prompt engineering overview",
@@ -1168,6 +1309,13 @@
     "label": "Learning Representations by Back-Propagating Errors",
     "url": "https://doi.org/10.1038/323533a0",
     "sourceType": "research-paper"
+  },
+  {
+    "id": "source-bainbridge-ironies-automation",
+    "type": "source",
+    "label": "Bainbridge, Ironies of Automation",
+    "url": "https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf",
+    "sourceType": "paper"
   },
   {
     "id": "source-bayesian-truth-serum",
@@ -1422,6 +1570,13 @@
     "sourceType": "textbook"
   },
   {
+    "id": "source-endsley-situation-awareness",
+    "type": "source",
+    "label": "Endsley, Toward a Theory of Situation Awareness in Dynamic Systems",
+    "url": "https://journals.sagepub.com/doi/10.1518/001872095779049543",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-epa-safer-choice-products",
     "type": "source",
     "label": "Search Products that Meet the Safer Choice Standard",
@@ -1434,6 +1589,13 @@
     "label": "AI Act",
     "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
     "sourceType": "policy"
+  },
+  {
+    "id": "source-eu-ai-act-2024-1689",
+    "type": "source",
+    "label": "EU AI Act, Regulation (EU) 2024/1689",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+    "sourceType": "standard"
   },
   {
     "id": "source-eu-ai-code",
@@ -1576,6 +1738,13 @@
     "sourceType": "standard"
   },
   {
+    "id": "source-gutwin-greenberg-workspace-awareness",
+    "type": "source",
+    "label": "Gutwin and Greenberg, A Descriptive Framework of Workspace Awareness for Real-Time Groupware",
+    "url": "https://link.springer.com/article/10.1023/A%3A1021271517844",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-hai-ai-index",
     "type": "source",
     "label": "The 2026 AI Index Report",
@@ -1616,6 +1785,13 @@
     "label": "Mathematical Problems",
     "url": "https://aleph0.clarku.edu/~djoyce/hilbert/problems.html",
     "sourceType": "documentation"
+  },
+  {
+    "id": "source-hollan-hutchins-kirsh-distributed-cognition",
+    "type": "source",
+    "label": "Hollan, Hutchins, and Kirsh, Distributed Cognition",
+    "url": "https://www.lri.fr/~mbl/Stanford/CS477/papers/DistributedCognition-TOCHI.pdf",
+    "sourceType": "paper"
   },
   {
     "id": "source-hong-kong-privacy-tips",
@@ -1667,6 +1843,20 @@
     "sourceType": "official-statistics"
   },
   {
+    "id": "source-langgraph",
+    "type": "source",
+    "label": "LangGraph documentation",
+    "url": "https://docs.langchain.com/oss/python/langgraph/overview",
+    "sourceType": "documentation"
+  },
+  {
+    "id": "source-langgraph-hitl",
+    "type": "source",
+    "label": "LangGraph human-in-the-loop documentation",
+    "url": "https://docs.langchain.com/oss/python/langchain/human-in-the-loop",
+    "sourceType": "documentation"
+  },
+  {
     "id": "source-lecun-docrec-1998",
     "type": "source",
     "label": "Gradient-Based Learning Applied to Document Recognition",
@@ -1679,6 +1869,13 @@
     "label": "Trust in Automation: Designing for Appropriate Reliance",
     "url": "https://journals.sagepub.com/doi/10.1518/hfes.46.1.50_30392",
     "sourceType": "research"
+  },
+  {
+    "id": "source-lee-see-trust-automation",
+    "type": "source",
+    "label": "Lee and See, Trust in Automation",
+    "url": "https://journals.sagepub.com/doi/10.1518/hfes.46.1.50_30392",
+    "sourceType": "paper"
   },
   {
     "id": "source-leibniz-logic",
@@ -1716,11 +1913,39 @@
     "sourceType": "paper"
   },
   {
+    "id": "source-malone-crowston",
+    "type": "source",
+    "label": "Malone and Crowston, The Interdisciplinary Study of Coordination",
+    "url": "https://crowston.syr.edu/sites/default/files/acmcs94.pdf",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-mark-interrupted-work",
+    "type": "source",
+    "label": "Mark, Gudith, and Klocke, The Cost of Interrupted Work",
+    "url": "https://www.ics.uci.edu/~gmark/chi08-mark.pdf",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-mccarthy-common-sense",
     "type": "source",
     "label": "Programs with Common Sense",
     "url": "https://jmc.stanford.edu/articles/mcc59/mcc59.pdf",
     "sourceType": "paper"
+  },
+  {
+    "id": "source-mcp-introduction",
+    "type": "source",
+    "label": "Model Context Protocol introduction",
+    "url": "https://modelcontextprotocol.io/docs/getting-started/intro",
+    "sourceType": "protocol"
+  },
+  {
+    "id": "source-mcp-security-best-practices",
+    "type": "source",
+    "label": "Model Context Protocol security best practices",
+    "url": "https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices",
+    "sourceType": "documentation"
   },
   {
     "id": "source-minsky-papert-1969",
@@ -1805,6 +2030,27 @@
     "label": "Artificial Intelligence in Science",
     "url": "https://doi.org/10.1787/a8d820bd-en",
     "sourceType": "research-synthesis"
+  },
+  {
+    "id": "source-openai-agents",
+    "type": "source",
+    "label": "OpenAI Agents guide",
+    "url": "https://developers.openai.com/api/docs/guides/agents",
+    "sourceType": "documentation"
+  },
+  {
+    "id": "source-openai-agents-hitl",
+    "type": "source",
+    "label": "OpenAI Agents SDK human-in-the-loop documentation",
+    "url": "https://openai.github.io/openai-agents-python/human_in_the_loop/",
+    "sourceType": "documentation"
+  },
+  {
+    "id": "source-openai-agents-tracing",
+    "type": "source",
+    "label": "OpenAI Agents SDK tracing",
+    "url": "https://openai.github.io/openai-agents-python/tracing/",
+    "sourceType": "documentation"
   },
   {
     "id": "source-openai-chatgpt-shopping",
@@ -2136,6 +2382,13 @@
     "sourceType": "official-guidance"
   },
   {
+    "id": "source-unesco-generative-ai-education-research",
+    "type": "source",
+    "label": "UNESCO guidance on generative AI in education and research",
+    "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+    "sourceType": "report"
+  },
+  {
     "id": "source-usco-ai",
     "type": "source",
     "label": "Copyright and Artificial Intelligence",
@@ -2295,6 +2548,11 @@
     "id": "topic:governance",
     "type": "topic",
     "label": "governance"
+  },
+  {
+    "id": "topic:human-ai-interaction",
+    "type": "topic",
+    "label": "human-ai-interaction"
   },
   {
     "id": "topic:human-progress",

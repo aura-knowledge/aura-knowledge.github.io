@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 3,
+  "id": "article:ai-delegation-orchestration-02-the-delegation-record",
+  "slug": "ai-delegation-orchestration-02-the-delegation-record",
+  "title": "The Delegation Record: A Schema for Consequential AI Work",
+  "canonicalPath": "/articles/ai-delegation-orchestration-02-the-delegation-record/",
+  "sourcePath": "content/articles/2026/ai-delegation-orchestration-02-the-delegation-record/article.md",
+  "agentBriefPath": "content/articles/2026/ai-delegation-orchestration-02-the-delegation-record/agent.md",
+  "thesis": "A delegation record is the system-of-record artifact that makes AI work inspectable, resumable, reviewable, and bounded.",
+  "status": "published",
+  "maturity": "sprout",
+  "publishedAt": "2026-06-28",
+  "updatedAt": "2026-06-28",
+  "audiences": [
+    "builders",
+    "researchers",
+    "students",
+    "agents"
+  ],
+  "topics": [
+    "ai-agents",
+    "agent-orchestration",
+    "human-ai-interaction"
+  ],
+  "series": {
+    "slug": "ai-delegation-orchestration",
+    "title": "AI Delegation Orchestration",
+    "season": "Season 1",
+    "order": 2,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "A delegation record is the system-of-record artifact that makes AI work inspectable, resumable, reviewable, and bounded.",
+      "confidence": "medium",
+      "status": "argument",
+      "verification": {
+        "reviewedAt": "2026-06-28",
+        "reviewer": "human-publication-approval",
+        "status": "verified"
+      },
+      "evidence": [
+        {
+          "sourceId": "source-openai-agents",
+          "snippet": "Agent tooling documents tools, handoffs, and guardrails as explicit parts of an agent workflow.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-openai-agents-tracing",
+          "snippet": "Tracing documentation supports retaining structured execution records for inspection and debugging.",
+          "supports": "direct",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-openai-agents-hitl",
+          "snippet": "Human-in-the-loop documentation supports pausing, reviewing, and resuming work at explicit intervention points.",
+          "supports": "direct",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-langgraph",
+          "snippet": "Stateful graph execution supports durable workflow state rather than relying only on chat history.",
+          "supports": "direct",
+          "assessedAt": "2026-06-28"
+        },
+        {
+          "sourceId": "source-nist-ai-rmf",
+          "snippet": "AI risk guidance supports documented governance, measurement, and accountable review of AI system behavior.",
+          "supports": "background",
+          "assessedAt": "2026-06-28"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The delegation record and next-best-control models are proposed design primitives, not accepted standards.",
+          "assessedAt": "2026-06-28"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-openai-agents",
+      "title": "OpenAI Agents guide",
+      "url": "https://developers.openai.com/api/docs/guides/agents",
+      "type": "documentation",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-openai-agents-tracing",
+      "title": "OpenAI Agents SDK tracing",
+      "url": "https://openai.github.io/openai-agents-python/tracing/",
+      "type": "documentation",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-openai-agents-hitl",
+      "title": "OpenAI Agents SDK human-in-the-loop documentation",
+      "url": "https://openai.github.io/openai-agents-python/human_in_the_loop/",
+      "type": "documentation",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-langgraph",
+      "title": "LangGraph documentation",
+      "url": "https://docs.langchain.com/oss/python/langgraph/overview",
+      "type": "documentation",
+      "accessed": "2026-06-28"
+    },
+    {
+      "id": "source-nist-ai-rmf",
+      "title": "NIST AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "type": "report",
+      "accessed": "2026-06-28"
+    }
+  ],
+  "related": [
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    },
+    {
+      "type": "article",
+      "id": "article:agent-control-planes"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=sprout as an exploratory uncertainty marker.",
+    "Do not present proposed orchestration patterns as accepted standards.",
+    "Keep examples generic and detached from private implementations."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-28",
+    "createdBy": "codex-agent",
+    "agents": [
+      {
+        "role": "drafting-and-site-preview",
+        "model": "gpt-5",
+        "invokedAt": "2026-06-28",
+        "inputHash": "sha256:9255fe72c20e316673d203b79ef2da89beccc117eee708eef5e4a7e53c77ea7d",
+        "outputHash": "sha256:74423a3793ca0ed033948fe2fe170890545a743b8a92146ef627baef36786c1f"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "sibling-agent",
+        "reviewedAt": "2026-06-28",
+        "status": "commented",
+        "scope": [
+          "series structure",
+          "evidence anchoring",
+          "privacy"
+        ],
+        "notes": "Earlier sibling review identified source-ledger gaps; those gaps were resolved before publication with article-specific source alignment.",
+        "resolvedAt": "2026-06-28"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-28",
+        "status": "approved",
+        "scope": [
+          "publication",
+          "reader experience",
+          "privacy",
+          "series structure"
+        ],
+        "notes": "Human maintainer approved the local preview for website publication after article layout, reading-flow, privacy, and series-structure review.",
+        "contentHash": "9c0dedcd941c2ddfdb5dfbf0f632ef4d7237227ed6b8daa2ce8b465f0bc1b5bc"
+      },
+      {
+        "reviewer": "sibling-agent",
+        "reviewedAt": "2026-06-28",
+        "status": "approved",
+        "scope": [
+          "publication-gate",
+          "source alignment",
+          "provenance",
+          "privacy",
+          "generated artifacts"
+        ],
+        "notes": "Independent sibling review approved the final publication packet with no blocking findings after source-ledger, provenance, privacy, and generated-artifact checks.",
+        "contentHash": "9c0dedcd941c2ddfdb5dfbf0f632ef4d7237227ed6b8daa2ce8b465f0bc1b5bc"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "9c0dedcd941c2ddfdb5dfbf0f632ef4d7237227ed6b8daa2ce8b465f0bc1b5bc"
+}

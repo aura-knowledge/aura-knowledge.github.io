@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-26T00:00:00.000Z",
+  "generatedAt": "2026-06-28T00:00:00.000Z",
   "articles": [
     {
       "slug": "agent-auditable-research",
@@ -656,6 +656,212 @@
         "needs-evidence": 0,
         "missing-counterevidence": 0,
         "draft": 4
+      }
+    },
+    {
+      "slug": "ai-delegation-orchestration",
+      "title": "AI Delegation Orchestration: A Series on Durable Agent Work",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "AI interfaces can stay conversational, but consequential AI work should be governed through durable delegations, explicit records, operator control surfaces, and domain-specific review boundaries rather than chat transcripts alone.",
+          "confidence": "medium",
+          "status": "framing",
+          "state": "verified",
+          "evidenceCount": 5,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 1,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 0
+      }
+    },
+    {
+      "slug": "ai-delegation-orchestration-01-from-conversation-to-delegation",
+      "title": "From Conversation to Delegation: Why AI Work Needs a Durable Record",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Conversation can remain the interface for AI, but consequential AI work should be organized around bounded delegations rather than chat transcripts.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "verified",
+          "evidenceCount": 4,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-delegation-orchestration-01-from-conversation-to-delegation: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 1,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 0
+      }
+    },
+    {
+      "slug": "ai-delegation-orchestration-02-the-delegation-record",
+      "title": "The Delegation Record: A Schema for Consequential AI Work",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "A delegation record is the system-of-record artifact that makes AI work inspectable, resumable, reviewable, and bounded.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "verified",
+          "evidenceCount": 5,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 1,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 0
+      }
+    },
+    {
+      "slug": "ai-delegation-orchestration-03-the-operator-cockpit-problem",
+      "title": "The Operator Cockpit Problem: Why More Traces Are Not Enough",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "The operator problem is not lack of information; it is lack of control routing across many active delegations.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "verified",
+          "evidenceCount": 4,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 1,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 0
+      }
+    },
+    {
+      "slug": "ai-delegation-orchestration-04-control-loci-not-human-managers",
+      "title": "Control Loci, Not Human Managers: An Agent-Native Routing Model",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Agent systems should route decisions to the right control locus instead of copying human management structures or escalating every uncertainty to a person.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "verified",
+          "evidenceCount": 4,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 1,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 0
+      }
+    },
+    {
+      "slug": "ai-delegation-orchestration-05-long-running-delegations",
+      "title": "Long-Running Delegations: How Agents Can Work for Hours Without Losing the Plot",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Long-running AI work is viable only when the delegation has checkpoints, evidence gates, self-remediation loops, interruption rules, rollback paths, and explicit stop conditions.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "verified",
+          "evidenceCount": 4,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 1,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 0
+      }
+    },
+    {
+      "slug": "ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+      "title": "Capability Contracts for Agent Networks",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Agent systems should be organized around replaceable capabilities with explicit contracts, not around vague role prompts or artificial replicas of human organizations.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "verified",
+          "evidenceCount": 4,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 1,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 0
+      }
+    },
+    {
+      "slug": "ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+      "title": "Commitment Boundaries in High-Stakes Domains",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "High-stakes AI use should be designed around commitment boundaries: AI may help prepare work, but external, legal, financial, public, or rights-affecting actions need stricter evidence, review, appeal, privacy, and accountability controls.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "verified",
+          "evidenceCount": 4,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 1,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 0
       }
     },
     {

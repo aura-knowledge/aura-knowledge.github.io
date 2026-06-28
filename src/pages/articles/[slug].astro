@@ -67,71 +67,74 @@ const jsonLd = {
       </div>
     </header>
 
-    {seriesNavigation && (
-      <nav class="article-series-nav" aria-labelledby="article-series-nav-title">
-        <div>
-          <p class="eyebrow">{seriesNavigation.series.season ?? "Series"}</p>
-          <h2 id="article-series-nav-title">{seriesNavigation.series.title}</h2>
-          <p>
-            Entry {(article.series?.order ?? 0) + 1} of {seriesNavigation.entries.length}
-          </p>
-        </div>
-        <div class="article-series-nav-links">
-          {seriesNavigation.previous ? (
-            <a href={`${base}articles/${seriesNavigation.previous.slug}/`}>
-              <span>Previous</span>
-              {seriesNavigation.previous.title}
-            </a>
-          ) : (
-            <span class="article-series-nav-empty">Start of series</span>
-          )}
-          {seriesNavigation.next ? (
-            <a href={`${base}articles/${seriesNavigation.next.slug}/`}>
-              <span>Next</span>
-              {seriesNavigation.next.title}
-            </a>
-          ) : (
-            <span class="article-series-nav-empty">End of series</span>
-          )}
-        </div>
-      </nav>
-    )}
-
     <div class="article-layout">
-      <FocusRail claims={article.artifact.claims} />
-
       <article class="article-body">
         <Content />
 
+        {seriesNavigation && (
+          <nav class="article-series-nav" aria-labelledby="article-series-nav-title">
+            <div>
+              <p class="eyebrow">{seriesNavigation.series.season ?? "Series"}</p>
+              <h2 id="article-series-nav-title">{seriesNavigation.series.title}</h2>
+              <p>
+                Entry {(article.series?.order ?? 0) + 1} of {seriesNavigation.entries.length}
+              </p>
+            </div>
+            <div class="article-series-nav-links">
+              {seriesNavigation.previous ? (
+                <a href={`${base}articles/${seriesNavigation.previous.slug}/`}>
+                  <span>Previous</span>
+                  {seriesNavigation.previous.title}
+                </a>
+              ) : (
+                <span class="article-series-nav-empty">Start of series</span>
+              )}
+              {seriesNavigation.next ? (
+                <a href={`${base}articles/${seriesNavigation.next.slug}/`}>
+                  <span>Next</span>
+                  {seriesNavigation.next.title}
+                </a>
+              ) : (
+                <span class="article-series-nav-empty">End of series</span>
+              )}
+            </div>
+          </nav>
+        )}
+
+        {article.artifact.claims.length > 1 && <FocusRail claims={article.artifact.claims} />}
+
         <SourceLedger sources={article.artifact.sources} />
 
-        <section class="claim-audit" aria-labelledby="claim-audit-title">
-          <div class="claim-audit-heading">
+        <details class="claim-audit" aria-labelledby="claim-audit-title">
+          <summary class="claim-audit-heading">
             <div>
               <p class="eyebrow">Audit layer</p>
               <h2 id="claim-audit-title">Claim packets</h2>
             </div>
+            <span class="claim-audit-summary-action">Open audit layer</span>
+          </summary>
+          <div class="claim-audit-content">
             <div class="claim-audit-controls" aria-label="Scroll claim packets">
               <button type="button" data-claim-carousel-prev aria-label="Previous claim packet">&lsaquo;</button>
               <button type="button" data-claim-carousel-next aria-label="Next claim packet">&rsaquo;</button>
             </div>
+            <p>
+              Each card is generated from the same artifact that agents consume. The essay stays
+              readable; the claim packet keeps the trust layer inspectable.
+            </p>
+            <p class="claim-legend">
+              <strong>Confidence</strong> reflects how strongly the evidence supports the claim
+              (low / medium / high). <strong>Status</strong> describes the claim's role (e.g., core,
+              argument, landscape). <strong>Evidence</strong> links to supporting sources;
+              <strong>counterpoints</strong> note boundary conditions or conflicting findings.
+            </p>
+            <div class="claim-audit-grid" data-claim-carousel tabindex="0" role="region" aria-label="Claim packet cards">
+              {article.artifact.claims.map((claim) => (
+                <ClaimCard claim={claim} sourceById={sourceById} />
+              ))}
+            </div>
           </div>
-          <p>
-            Each card is generated from the same artifact that agents consume. The essay stays
-            readable; the claim packet keeps the trust layer inspectable.
-          </p>
-          <p class="claim-legend">
-            <strong>Confidence</strong> reflects how strongly the evidence supports the claim
-            (low / medium / high). <strong>Status</strong> describes the claim's role (e.g., core,
-            argument, landscape). <strong>Evidence</strong> links to supporting sources;
-            <strong>counterpoints</strong> note boundary conditions or conflicting findings.
-          </p>
-          <div class="claim-audit-grid" data-claim-carousel tabindex="0" role="region" aria-label="Claim packet cards">
-            {article.artifact.claims.map((claim) => (
-              <ClaimCard claim={claim} sourceById={sourceById} />
-            ))}
-          </div>
-        </section>
+        </details>
 
         <ProvenancePanel provenance={article.artifact.provenance} contentHash={article.artifact.contentHash} />
 

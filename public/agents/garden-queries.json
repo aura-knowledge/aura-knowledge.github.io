@@ -3,10 +3,10 @@
   "schema": "https://aura-knowledge.github.io/schemas/garden-queries.schema.json",
   "site": "https://aura-knowledge.github.io",
   "base": "",
-  "generatedAt": "2026-06-26T00:00:00.000Z",
+  "generatedAt": "2026-06-28T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 328
+    "totalResults": 387
   },
   "dimensions": [
     {
@@ -34,6 +34,7 @@
         "formal-logic",
         "foundation-models",
         "governance",
+        "human-ai-interaction",
         "human-progress",
         "hype-cycle",
         "incumbent-adjacent-ventures",
@@ -79,6 +80,7 @@
         "consumer-behavior",
         "dartmouth",
         "data",
+        "delegation",
         "digital-gardens",
         "early-ai",
         "education",
@@ -87,6 +89,7 @@
         "expert-systems",
         "governance",
         "history-of-ai",
+        "human-ai-interaction",
         "human-computer-interaction",
         "human-computers",
         "human-progress",
@@ -124,7 +127,8 @@
         "symbolic-ai",
         "transformers",
         "turing",
-        "voice-interfaces"
+        "voice-interfaces",
+        "workflow"
       ]
     },
     {
@@ -253,13 +257,69 @@
         "groupBy": "topic"
       },
       "resultType": "articles",
-      "resultCount": 60,
+      "resultCount": 84,
       "results": [
         {
           "articleId": "article:agent-control-planes",
           "slug": "agent-control-planes",
           "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
           "agentJsonPath": "/agents/articles/agent-control-planes.json",
+          "topic": "agent-orchestration"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration",
+          "slug": "ai-delegation-orchestration",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration.json",
+          "topic": "agent-orchestration"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-01-from-conversation-to-delegation",
+          "slug": "ai-delegation-orchestration-01-from-conversation-to-delegation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-01-from-conversation-to-delegation/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-01-from-conversation-to-delegation.json",
+          "topic": "agent-orchestration"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-02-the-delegation-record",
+          "slug": "ai-delegation-orchestration-02-the-delegation-record",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-02-the-delegation-record/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-02-the-delegation-record.json",
+          "topic": "agent-orchestration"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-03-the-operator-cockpit-problem",
+          "slug": "ai-delegation-orchestration-03-the-operator-cockpit-problem",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem.json",
+          "topic": "agent-orchestration"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-04-control-loci-not-human-managers",
+          "slug": "ai-delegation-orchestration-04-control-loci-not-human-managers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-04-control-loci-not-human-managers/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-04-control-loci-not-human-managers.json",
+          "topic": "agent-orchestration"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-05-long-running-delegations",
+          "slug": "ai-delegation-orchestration-05-long-running-delegations",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-05-long-running-delegations/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-05-long-running-delegations.json",
+          "topic": "agent-orchestration"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+          "slug": "ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks.json",
+          "topic": "agent-orchestration"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+          "slug": "ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains.json",
           "topic": "agent-orchestration"
         },
         {
@@ -295,6 +355,62 @@
           "slug": "ai-agent-first-conversation",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
           "agentJsonPath": "/agents/articles/ai-agent-first-conversation.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration",
+          "slug": "ai-delegation-orchestration",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-01-from-conversation-to-delegation",
+          "slug": "ai-delegation-orchestration-01-from-conversation-to-delegation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-01-from-conversation-to-delegation/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-01-from-conversation-to-delegation.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-02-the-delegation-record",
+          "slug": "ai-delegation-orchestration-02-the-delegation-record",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-02-the-delegation-record/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-02-the-delegation-record.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-03-the-operator-cockpit-problem",
+          "slug": "ai-delegation-orchestration-03-the-operator-cockpit-problem",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-04-control-loci-not-human-managers",
+          "slug": "ai-delegation-orchestration-04-control-loci-not-human-managers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-04-control-loci-not-human-managers/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-04-control-loci-not-human-managers.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-05-long-running-delegations",
+          "slug": "ai-delegation-orchestration-05-long-running-delegations",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-05-long-running-delegations/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-05-long-running-delegations.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+          "slug": "ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+          "slug": "ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains.json",
           "topic": "ai-agents"
         },
         {
@@ -471,6 +587,62 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
           "agentJsonPath": "/agents/articles/human-systems.json",
           "topic": "governance"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration",
+          "slug": "ai-delegation-orchestration",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration.json",
+          "topic": "human-ai-interaction"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-01-from-conversation-to-delegation",
+          "slug": "ai-delegation-orchestration-01-from-conversation-to-delegation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-01-from-conversation-to-delegation/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-01-from-conversation-to-delegation.json",
+          "topic": "human-ai-interaction"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-02-the-delegation-record",
+          "slug": "ai-delegation-orchestration-02-the-delegation-record",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-02-the-delegation-record/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-02-the-delegation-record.json",
+          "topic": "human-ai-interaction"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-03-the-operator-cockpit-problem",
+          "slug": "ai-delegation-orchestration-03-the-operator-cockpit-problem",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem.json",
+          "topic": "human-ai-interaction"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-04-control-loci-not-human-managers",
+          "slug": "ai-delegation-orchestration-04-control-loci-not-human-managers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-04-control-loci-not-human-managers/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-04-control-loci-not-human-managers.json",
+          "topic": "human-ai-interaction"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-05-long-running-delegations",
+          "slug": "ai-delegation-orchestration-05-long-running-delegations",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-05-long-running-delegations/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-05-long-running-delegations.json",
+          "topic": "human-ai-interaction"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+          "slug": "ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks.json",
+          "topic": "human-ai-interaction"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+          "slug": "ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains.json",
+          "topic": "human-ai-interaction"
         },
         {
           "articleId": "article:before-machines",
@@ -1058,7 +1230,7 @@
         "groupBy": "sourceType"
       },
       "resultType": "sources",
-      "resultCount": 220,
+      "resultCount": 255,
       "results": [
         {
           "articleId": "article:human-systems",
@@ -1079,6 +1251,26 @@
           "sourceTitle": "Artificial Intelligence (AI) Coined at Dartmouth",
           "sourceType": "archival-record",
           "sourceUrl": "https://home.dartmouth.edu/about/artificial-intelligence-ai-coined-dartmouth"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-05-long-running-delegations",
+          "slug": "ai-delegation-orchestration-05-long-running-delegations",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-05-long-running-delegations/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-05-long-running-delegations.json",
+          "sourceId": "source-anthropic-building-effective-agents",
+          "sourceTitle": "Anthropic, Building effective agents",
+          "sourceType": "article",
+          "sourceUrl": "https://www.anthropic.com/research/building-effective-agents"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+          "slug": "ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks.json",
+          "sourceId": "source-anthropic-building-effective-agents",
+          "sourceTitle": "Anthropic, Building effective agents",
+          "sourceType": "article",
+          "sourceUrl": "https://www.anthropic.com/research/building-effective-agents"
         },
         {
           "articleId": "article:birth-of-ai",
@@ -1429,6 +1621,136 @@
           "sourceTitle": "Product snippet structured data",
           "sourceType": "documentation",
           "sourceUrl": "https://developers.google.com/search/docs/appearance/structured-data/product-snippet"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration",
+          "slug": "ai-delegation-orchestration",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration.json",
+          "sourceId": "source-openai-agents",
+          "sourceTitle": "OpenAI Agents guide",
+          "sourceType": "documentation",
+          "sourceUrl": "https://developers.openai.com/api/docs/guides/agents"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration",
+          "slug": "ai-delegation-orchestration",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration.json",
+          "sourceId": "source-langgraph",
+          "sourceTitle": "LangGraph documentation",
+          "sourceType": "documentation",
+          "sourceUrl": "https://docs.langchain.com/oss/python/langgraph/overview"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-02-the-delegation-record",
+          "slug": "ai-delegation-orchestration-02-the-delegation-record",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-02-the-delegation-record/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-02-the-delegation-record.json",
+          "sourceId": "source-openai-agents",
+          "sourceTitle": "OpenAI Agents guide",
+          "sourceType": "documentation",
+          "sourceUrl": "https://developers.openai.com/api/docs/guides/agents"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-02-the-delegation-record",
+          "slug": "ai-delegation-orchestration-02-the-delegation-record",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-02-the-delegation-record/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-02-the-delegation-record.json",
+          "sourceId": "source-openai-agents-tracing",
+          "sourceTitle": "OpenAI Agents SDK tracing",
+          "sourceType": "documentation",
+          "sourceUrl": "https://openai.github.io/openai-agents-python/tracing/"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-02-the-delegation-record",
+          "slug": "ai-delegation-orchestration-02-the-delegation-record",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-02-the-delegation-record/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-02-the-delegation-record.json",
+          "sourceId": "source-openai-agents-hitl",
+          "sourceTitle": "OpenAI Agents SDK human-in-the-loop documentation",
+          "sourceType": "documentation",
+          "sourceUrl": "https://openai.github.io/openai-agents-python/human_in_the_loop/"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-02-the-delegation-record",
+          "slug": "ai-delegation-orchestration-02-the-delegation-record",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-02-the-delegation-record/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-02-the-delegation-record.json",
+          "sourceId": "source-langgraph",
+          "sourceTitle": "LangGraph documentation",
+          "sourceType": "documentation",
+          "sourceUrl": "https://docs.langchain.com/oss/python/langgraph/overview"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-03-the-operator-cockpit-problem",
+          "slug": "ai-delegation-orchestration-03-the-operator-cockpit-problem",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem.json",
+          "sourceId": "source-openai-agents-tracing",
+          "sourceTitle": "OpenAI Agents SDK tracing",
+          "sourceType": "documentation",
+          "sourceUrl": "https://openai.github.io/openai-agents-python/tracing/"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-03-the-operator-cockpit-problem",
+          "slug": "ai-delegation-orchestration-03-the-operator-cockpit-problem",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem.json",
+          "sourceId": "source-langgraph",
+          "sourceTitle": "LangGraph documentation",
+          "sourceType": "documentation",
+          "sourceUrl": "https://docs.langchain.com/oss/python/langgraph/overview"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-04-control-loci-not-human-managers",
+          "slug": "ai-delegation-orchestration-04-control-loci-not-human-managers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-04-control-loci-not-human-managers/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-04-control-loci-not-human-managers.json",
+          "sourceId": "source-openai-agents-hitl",
+          "sourceTitle": "OpenAI Agents SDK human-in-the-loop documentation",
+          "sourceType": "documentation",
+          "sourceUrl": "https://openai.github.io/openai-agents-python/human_in_the_loop/"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-05-long-running-delegations",
+          "slug": "ai-delegation-orchestration-05-long-running-delegations",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-05-long-running-delegations/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-05-long-running-delegations.json",
+          "sourceId": "source-langgraph",
+          "sourceTitle": "LangGraph documentation",
+          "sourceType": "documentation",
+          "sourceUrl": "https://docs.langchain.com/oss/python/langgraph/overview"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-05-long-running-delegations",
+          "slug": "ai-delegation-orchestration-05-long-running-delegations",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-05-long-running-delegations/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-05-long-running-delegations.json",
+          "sourceId": "source-langgraph-hitl",
+          "sourceTitle": "LangGraph human-in-the-loop documentation",
+          "sourceType": "documentation",
+          "sourceUrl": "https://docs.langchain.com/oss/python/langchain/human-in-the-loop"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-05-long-running-delegations",
+          "slug": "ai-delegation-orchestration-05-long-running-delegations",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-05-long-running-delegations/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-05-long-running-delegations.json",
+          "sourceId": "source-openai-agents-hitl",
+          "sourceTitle": "OpenAI Agents SDK human-in-the-loop documentation",
+          "sourceType": "documentation",
+          "sourceUrl": "https://openai.github.io/openai-agents-python/human_in_the_loop/"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+          "slug": "ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks.json",
+          "sourceId": "source-mcp-security-best-practices",
+          "sourceTitle": "Model Context Protocol security best practices",
+          "sourceType": "documentation",
+          "sourceUrl": "https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices"
         },
         {
           "articleId": "article:audio-first-voice-consumption",
@@ -2301,6 +2623,126 @@
           "sourceUrl": "https://arxiv.org/abs/2410.02506"
         },
         {
+          "articleId": "article:ai-delegation-orchestration",
+          "slug": "ai-delegation-orchestration",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration.json",
+          "sourceId": "source-malone-crowston",
+          "sourceTitle": "Malone and Crowston, The Interdisciplinary Study of Coordination",
+          "sourceType": "paper",
+          "sourceUrl": "https://crowston.syr.edu/sites/default/files/acmcs94.pdf"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration",
+          "slug": "ai-delegation-orchestration",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration.json",
+          "sourceId": "source-endsley-situation-awareness",
+          "sourceTitle": "Endsley, Toward a Theory of Situation Awareness in Dynamic Systems",
+          "sourceType": "paper",
+          "sourceUrl": "https://journals.sagepub.com/doi/10.1518/001872095779049543"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-01-from-conversation-to-delegation",
+          "slug": "ai-delegation-orchestration-01-from-conversation-to-delegation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-01-from-conversation-to-delegation/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-01-from-conversation-to-delegation.json",
+          "sourceId": "source-malone-crowston",
+          "sourceTitle": "Malone and Crowston, The Interdisciplinary Study of Coordination",
+          "sourceType": "paper",
+          "sourceUrl": "https://crowston.syr.edu/sites/default/files/acmcs94.pdf"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-01-from-conversation-to-delegation",
+          "slug": "ai-delegation-orchestration-01-from-conversation-to-delegation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-01-from-conversation-to-delegation/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-01-from-conversation-to-delegation.json",
+          "sourceId": "source-endsley-situation-awareness",
+          "sourceTitle": "Endsley, Toward a Theory of Situation Awareness in Dynamic Systems",
+          "sourceType": "paper",
+          "sourceUrl": "https://journals.sagepub.com/doi/10.1518/001872095779049543"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-01-from-conversation-to-delegation",
+          "slug": "ai-delegation-orchestration-01-from-conversation-to-delegation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-01-from-conversation-to-delegation/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-01-from-conversation-to-delegation.json",
+          "sourceId": "source-gutwin-greenberg-workspace-awareness",
+          "sourceTitle": "Gutwin and Greenberg, A Descriptive Framework of Workspace Awareness for Real-Time Groupware",
+          "sourceType": "paper",
+          "sourceUrl": "https://link.springer.com/article/10.1023/A%3A1021271517844"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-01-from-conversation-to-delegation",
+          "slug": "ai-delegation-orchestration-01-from-conversation-to-delegation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-01-from-conversation-to-delegation/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-01-from-conversation-to-delegation.json",
+          "sourceId": "source-mark-interrupted-work",
+          "sourceTitle": "Mark, Gudith, and Klocke, The Cost of Interrupted Work",
+          "sourceType": "paper",
+          "sourceUrl": "https://www.ics.uci.edu/~gmark/chi08-mark.pdf"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-03-the-operator-cockpit-problem",
+          "slug": "ai-delegation-orchestration-03-the-operator-cockpit-problem",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem.json",
+          "sourceId": "source-endsley-situation-awareness",
+          "sourceTitle": "Endsley, Toward a Theory of Situation Awareness in Dynamic Systems",
+          "sourceType": "paper",
+          "sourceUrl": "https://journals.sagepub.com/doi/10.1518/001872095779049543"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-03-the-operator-cockpit-problem",
+          "slug": "ai-delegation-orchestration-03-the-operator-cockpit-problem",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-03-the-operator-cockpit-problem.json",
+          "sourceId": "source-gutwin-greenberg-workspace-awareness",
+          "sourceTitle": "Gutwin and Greenberg, A Descriptive Framework of Workspace Awareness for Real-Time Groupware",
+          "sourceType": "paper",
+          "sourceUrl": "https://link.springer.com/article/10.1023/A%3A1021271517844"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-04-control-loci-not-human-managers",
+          "slug": "ai-delegation-orchestration-04-control-loci-not-human-managers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-04-control-loci-not-human-managers/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-04-control-loci-not-human-managers.json",
+          "sourceId": "source-bainbridge-ironies-automation",
+          "sourceTitle": "Bainbridge, Ironies of Automation",
+          "sourceType": "paper",
+          "sourceUrl": "https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-04-control-loci-not-human-managers",
+          "slug": "ai-delegation-orchestration-04-control-loci-not-human-managers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-04-control-loci-not-human-managers/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-04-control-loci-not-human-managers.json",
+          "sourceId": "source-lee-see-trust-automation",
+          "sourceTitle": "Lee and See, Trust in Automation",
+          "sourceType": "paper",
+          "sourceUrl": "https://journals.sagepub.com/doi/10.1518/hfes.46.1.50_30392"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-04-control-loci-not-human-managers",
+          "slug": "ai-delegation-orchestration-04-control-loci-not-human-managers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-04-control-loci-not-human-managers/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-04-control-loci-not-human-managers.json",
+          "sourceId": "source-amershi-human-ai-guidelines",
+          "sourceTitle": "Amershi et al., Guidelines for Human-AI Interaction",
+          "sourceType": "paper",
+          "sourceUrl": "https://www.microsoft.com/en-us/research/wp-content/uploads/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+          "slug": "ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks.json",
+          "sourceId": "source-hollan-hutchins-kirsh-distributed-cognition",
+          "sourceTitle": "Hollan, Hutchins, and Kirsh, Distributed Cognition",
+          "sourceType": "paper",
+          "sourceUrl": "https://www.lri.fr/~mbl/Stanford/CS477/papers/DistributedCognition-TOCHI.pdf"
+        },
+        {
           "articleId": "article:birth-of-ai",
           "slug": "birth-of-ai",
           "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
@@ -2571,6 +3013,26 @@
           "sourceUrl": "https://stripe.com/newsroom/news/stripe-openai-instant-checkout"
         },
         {
+          "articleId": "article:ai-delegation-orchestration",
+          "slug": "ai-delegation-orchestration",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration.json",
+          "sourceId": "source-mcp-introduction",
+          "sourceTitle": "Model Context Protocol introduction",
+          "sourceType": "protocol",
+          "sourceUrl": "https://modelcontextprotocol.io/docs/getting-started/intro"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+          "slug": "ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks.json",
+          "sourceId": "source-mcp-introduction",
+          "sourceTitle": "Model Context Protocol introduction",
+          "sourceType": "protocol",
+          "sourceUrl": "https://modelcontextprotocol.io/docs/getting-started/intro"
+        },
+        {
           "articleId": "article:ai-winters-expert-systems",
           "slug": "ai-winters-expert-systems",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
@@ -2649,6 +3111,56 @@
           "sourceTitle": "Search Products that Meet the Safer Choice Standard",
           "sourceType": "regulatory-data",
           "sourceUrl": "https://www.epa.gov/saferchoice/products"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration",
+          "slug": "ai-delegation-orchestration",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration.json",
+          "sourceId": "source-nist-ai-rmf",
+          "sourceTitle": "NIST AI Risk Management Framework",
+          "sourceType": "report",
+          "sourceUrl": "https://www.nist.gov/itl/ai-risk-management-framework"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-02-the-delegation-record",
+          "slug": "ai-delegation-orchestration-02-the-delegation-record",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-02-the-delegation-record/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-02-the-delegation-record.json",
+          "sourceId": "source-nist-ai-rmf",
+          "sourceTitle": "NIST AI Risk Management Framework",
+          "sourceType": "report",
+          "sourceUrl": "https://www.nist.gov/itl/ai-risk-management-framework"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+          "slug": "ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains.json",
+          "sourceId": "source-nist-ai-rmf",
+          "sourceTitle": "NIST AI Risk Management Framework",
+          "sourceType": "report",
+          "sourceUrl": "https://www.nist.gov/itl/ai-risk-management-framework"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+          "slug": "ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains.json",
+          "sourceId": "source-aba-formal-opinion-512",
+          "sourceTitle": "American Bar Association, Formal Opinion 512: Generative Artificial Intelligence Tools",
+          "sourceType": "report",
+          "sourceUrl": "https://www.americanbar.org/content/dam/aba/administrative/professional_responsibility/ethics-opinions/aba-formal-opinion-512.pdf"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+          "slug": "ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains.json",
+          "sourceId": "source-unesco-generative-ai-education-research",
+          "sourceTitle": "UNESCO guidance on generative AI in education and research",
+          "sourceType": "report",
+          "sourceUrl": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research"
         },
         {
           "articleId": "article:audio-first-voice-consumption",
@@ -3189,6 +3701,16 @@
           "sourceTitle": "AI Risk Management Framework",
           "sourceType": "standard",
           "sourceUrl": "https://www.nist.gov/itl/ai-risk-management-framework"
+        },
+        {
+          "articleId": "article:ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+          "slug": "ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains/",
+          "agentJsonPath": "/agents/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains.json",
+          "sourceId": "source-eu-ai-act-2024-1689",
+          "sourceTitle": "EU AI Act, Regulation (EU) 2024/1689",
+          "sourceType": "standard",
+          "sourceUrl": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
         },
         {
           "articleId": "article:ai-winters-expert-systems",
