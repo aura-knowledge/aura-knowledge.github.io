@@ -499,59 +499,6 @@ details[open] .details-state .when-open {
   max-width: 880px;
 }
 
-.garden-map {
-  display: grid;
-  gap: 0.75rem;
-  align-self: start;
-  border-left: 1px solid var(--border);
-  padding-left: clamp(1rem, 3vw, 1.5rem);
-}
-
-.garden-path {
-  display: grid;
-  grid-template-columns: minmax(4.8rem, 0.32fr) 1fr;
-  gap: 0.18rem 0.8rem;
-  align-content: center;
-  min-height: 6.25rem;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: color-mix(in srgb, var(--surface) 78%, transparent);
-  color: var(--text);
-  padding: 0.9rem;
-  text-decoration: none;
-}
-
-.garden-path:hover,
-.garden-path:focus-visible {
-  border-color: var(--accent);
-  background: var(--surface);
-}
-
-.garden-path:focus-visible {
-  box-shadow:
-    0 0 0 2px var(--bg),
-    0 0 0 4px var(--accent-strong);
-  outline: none;
-}
-
-.garden-path span {
-  grid-row: 1 / span 2;
-  color: var(--accent-strong);
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0;
-  text-transform: uppercase;
-}
-
-.garden-path strong {
-  line-height: 1.2;
-}
-
-.garden-path small {
-  color: var(--text-soft);
-  font-size: 0.8rem;
-}
-
 .home-claim-section {
   border-top: 1px solid var(--border);
   padding: clamp(1.6rem, 4vw, 3rem) 0 clamp(2.5rem, 6vw, 4.5rem);
@@ -562,7 +509,7 @@ details[open] .details-state .when-open {
   grid-template-columns: minmax(0, 0.42fr) minmax(0, 1fr);
   gap: clamp(1.25rem, 4vw, 3rem);
   border-top: 1px solid var(--border);
-  padding: clamp(1.5rem, 4vw, 3rem) 0;
+  padding: clamp(1.35rem, 3vw, 2.2rem) 0;
 }
 
 .reader-guide-copy p:not(.eyebrow) {
@@ -575,9 +522,12 @@ details[open] .details-state .when-open {
 
 .reader-guide-steps {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0.75rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
   margin: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--surface) 78%, transparent);
   padding: 0;
   list-style: none;
   counter-reset: reader-step;
@@ -588,24 +538,25 @@ details[open] .details-state .when-open {
   display: grid;
   align-content: start;
   gap: 0.35rem;
-  min-height: 10rem;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: color-mix(in srgb, var(--surface) 78%, transparent);
-  padding: 1rem;
+  min-height: 8rem;
+  padding: 0.95rem;
   counter-increment: reader-step;
+}
+
+.reader-guide-steps li + li {
+  border-left: 1px solid var(--border);
 }
 
 .reader-guide-steps li::before {
   content: counter(reader-step);
   display: grid;
   place-items: center;
-  width: 1.8rem;
-  height: 1.8rem;
+  width: 1.55rem;
+  height: 1.55rem;
   border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--border));
   border-radius: 999px;
   color: var(--accent-strong);
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   font-weight: 820;
   line-height: 1;
 }
@@ -673,7 +624,7 @@ details[open] .details-state .when-open {
 
 .garden-entry-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   border-top: 1px solid var(--border);
   padding: clamp(2.5rem, 6vw, 5rem) 0;
@@ -2100,13 +2051,6 @@ details[open] .details-state .when-open {
     font-size: 1.08rem;
   }
 
-  .garden-map {
-    border-left: 0;
-    border-top: 1px solid var(--border);
-    padding-left: 0;
-    padding-top: 1rem;
-  }
-
   .home-claim-head {
     grid-template-columns: 1fr;
     align-items: start;
@@ -2119,6 +2063,11 @@ details[open] .details-state .when-open {
 
   .reader-guide-steps {
     grid-template-columns: 1fr;
+  }
+
+  .reader-guide-steps li + li {
+    border-top: 1px solid var(--border);
+    border-left: 0;
   }
 
   .reader-guide-steps li {

@@ -21,41 +21,32 @@ const latestSourceById = new Map(
 const pageSections = [
   { id: "overview", label: "Overview" },
   { id: "how-to-read", label: "How to read" },
-  { id: "claim-packets", label: "Claim packets" },
   { id: "latest", label: "Latest" },
+  { id: "evidence-trail", label: "Evidence trail" },
   { id: "threads", label: "Threads" },
   { id: "records", label: "Records" }
 ];
 const readingPaths = [
   {
-    label: "Latest",
-    title: latest ? "Start with the latest essay" : "Start with articles",
-    text: latest
-      ? latest.summary
-      : "Published essays will appear here once they are reviewed and marked published.",
-    href: latest ? `${base}articles/${latest.slug}/` : `${base}articles/`,
-    meta: latest ? latest.readingTime : `${articles.length} essays`
-  },
-  {
-    label: "Archive",
-    title: "See all essays",
-    text: "Use the article index when you want the complete reading list without touching internal planning pages.",
+    label: "Articles",
+    title: "Browse the archive",
+    text: "Use the article index when you want the complete reading list by date.",
     href: `${base}articles/`,
     meta: `${articles.length} essays`
   },
   {
-    label: "Evidence",
-    title: "Inspect claims",
-    text: "Open the evidence graph when you want relationships, provenance, and source paths instead of prose alone.",
-    href: `${base}graph/`,
-    meta: `${claimCount} claims`
+    label: "Topics",
+    title: "Follow a thread",
+    text: "Use topics after an article gives you a direction, not as the front door.",
+    href: `${base}topics/`,
+    meta: `${topicEntries.length} visible threads`
   },
   {
-    label: "Agents",
-    title: "Use structured packets",
-    text: "Agents can enter through compact JSON feeds, graph files, and packet indexes without scraping human pages.",
-    href: `${base}agents/`,
-    meta: `${sourceIds.size} sources`
+    label: "Graph",
+    title: "Inspect relationships",
+    text: "Open the graph when you want claims, sources, and links across articles.",
+    href: `${base}graph/`,
+    meta: `${claimCount} claims`
   }
 ];
 ---
@@ -69,18 +60,17 @@ const readingPaths = [
       <section class="home-hero" id="overview" data-page-section aria-labelledby="home-title">
         <div class="home-hero-copy">
           <p class="eyebrow">Aura Knowledge</p>
-          <h1 id="home-title">A public garden of reviewable knowledge records.</h1>
+          <h1 id="home-title">Essays you can read. Claims you can inspect.</h1>
           <p class="lede">
-            Essays are the readable surface. Under each one are claim maps, source ledgers,
-            provenance notes, and machine-readable artifacts that make the work traceable.
+            Start with the article. Each essay carries an evidence trail with claims, sources,
+            confidence, counterpoints, and provenance notes.
           </p>
           <p class="lede-note">
-            AURA stands for <strong>Agentic Universal Records Architecture</strong>: readable ideas
-            connected to reviewable records, provenance, and agent-ready artifacts.
+            AURA keeps the readable idea and its review record connected, so you can move from
+            argument to evidence without losing the thread.
           </p>
           <p class="reader-note">
-            Start as a reader. Inspect the machinery only when you want to check why a claim is
-            believable.
+            Reader route: read the essay, inspect claims when needed, then branch.
           </p>
           {!latest && (
             <EmptyState
@@ -105,91 +95,32 @@ const readingPaths = [
       <section class="reader-guide" id="how-to-read" data-page-section aria-labelledby="reader-guide-title">
         <div class="reader-guide-copy">
           <p class="eyebrow">For human readers</p>
-          <h2 id="reader-guide-title">How to read this site.</h2>
+          <h2 id="reader-guide-title">How to read an Aura article.</h2>
           <p>
-            Read the article first. The evidence layer is there when you want to slow down,
-            challenge a claim, or follow the source trail.
+            Aura pages are written for reading. The evidence layer is for moments when you want
+            confidence, a source trail, or a path into adjacent ideas.
           </p>
         </div>
         <ol class="reader-guide-steps">
           <li>
-            <strong>Read the essay.</strong>
-            <span>Start with the thesis, examples, and argument. Do not begin with the graph.</span>
+            <strong>Start with the essay.</strong>
+            <span>Follow the thesis, examples, and argument before opening supporting structures.</span>
           </li>
           <li>
-            <strong>Pause at a claim.</strong>
-            <span>When something feels important, inspect the claim packet attached to that idea.</span>
+            <strong>Inspect one claim.</strong>
+            <span>Use the packet for evidence, counterpoints, confidence, and review state.</span>
           </li>
           <li>
-            <strong>Check the evidence.</strong>
-            <span>Look at sources, counterpoints, confidence, and reviewer status before trusting it.</span>
-          </li>
-          <li>
-            <strong>Branch after reading.</strong>
-            <span>Use topics, related articles, and the graph only after you know what thread you want.</span>
+            <strong>Branch with intent.</strong>
+            <span>Open topics, related articles, or the graph after you know what thread you want.</span>
           </li>
         </ol>
       </section>
 
-      <section class="home-claim-section" id="claim-packets" data-page-section aria-labelledby="home-claim-title">
-        <div class="home-claim-head">
-          <div>
-            <p class="eyebrow">Claim packets</p>
-            <h2 id="home-claim-title">The trust layer is visible before the archive.</h2>
-            <p>
-              The site is not only a blog index. Each article produces inspectable claim packets:
-              evidence, counterpoints, confidence, status, and reviewer state.
-            </p>
-          </div>
-          {latestClaims.length > 0 && (
-            <div class="claim-audit-controls" aria-label="Scroll claim packets">
-              <button type="button" data-claim-carousel-prev aria-label="Previous claim packet">&lsaquo;</button>
-              <button type="button" data-claim-carousel-next aria-label="Next claim packet">&rsaquo;</button>
-            </div>
-          )}
-        </div>
-        {latest && latestClaims.length > 0 ? (
-          <>
-            <div class="home-claim-context">
-              <span>Latest packet source</span>
-              <a href={`${base}articles/${latest.slug}/`}>{latest.title}</a>
-            </div>
-            <div class="claim-audit-grid home-claim-grid" data-claim-carousel tabindex="0" role="region" aria-label="Claim packet cards">
-              {latestClaims.map((claim) => (
-                <ClaimCard claim={claim} sourceById={latestSourceById} />
-              ))}
-            </div>
-          </>
-        ) : (
-          <EmptyState
-            heading="No claim packets yet"
-            headingLevel={3}
-            message="Claim packets appear here after a published article has structured claims."
-            action={{ href: `${base}articles/`, text: "Browse articles" }}
-          />
-        )}
-      </section>
-
-      <section class="garden-entry-grid" aria-labelledby="paths-title">
-      <header class="section-intro">
-        <p class="eyebrow">Entry paths</p>
-        <h2 id="paths-title">Read first. Inspect structure when the essay asks for it.</h2>
-      </header>
-      {readingPaths.map((path) => (
-        <article class="entry-path-card">
-          <p>{path.label}</p>
-          <h3>
-            <a href={path.href}>{path.title}</a>
-          </h3>
-          <span>{path.text}</span>
-        </article>
-      ))}
-      </section>
-
       <section class="section-band garden-feature" id="latest" data-page-section aria-labelledby="latest-title">
       <div>
-        <p class="eyebrow">Latest path</p>
-        <h2 id="latest-title">The article is the front door.</h2>
+        <p class="eyebrow">Latest article</p>
+        <h2 id="latest-title">Start here.</h2>
       </div>
       {latest ? (
         <article class="latest-plot">
@@ -227,6 +158,61 @@ const readingPaths = [
       )}
       </section>
 
+      <section class="home-claim-section" id="evidence-trail" data-page-section aria-labelledby="home-claim-title">
+        <div class="home-claim-head">
+          <div>
+            <p class="eyebrow">Evidence trail</p>
+            <h2 id="home-claim-title">Every major claim has a packet.</h2>
+            <p>
+              A claim packet is the compact record behind a statement: evidence, counterpoints,
+              confidence, status, and review state. Use it when you want to verify, not before you read.
+            </p>
+          </div>
+          {latestClaims.length > 0 && (
+            <div class="claim-audit-controls" aria-label="Scroll evidence packets">
+              <button type="button" data-claim-carousel-prev aria-label="Previous evidence packet">&lsaquo;</button>
+              <button type="button" data-claim-carousel-next aria-label="Next evidence packet">&rsaquo;</button>
+            </div>
+          )}
+        </div>
+        {latest && latestClaims.length > 0 ? (
+          <>
+            <div class="home-claim-context">
+              <span>Packet preview from latest article</span>
+              <a href={`${base}articles/${latest.slug}/`}>{latest.title}</a>
+            </div>
+            <div class="claim-audit-grid home-claim-grid" data-claim-carousel tabindex="0" role="region" aria-label="Evidence trail claim packet cards">
+              {latestClaims.map((claim) => (
+                <ClaimCard claim={claim} sourceById={latestSourceById} />
+              ))}
+            </div>
+          </>
+        ) : (
+          <EmptyState
+            heading="No evidence trail yet"
+            headingLevel={3}
+            message="Evidence packets appear here after a published article has structured claims."
+            action={{ href: `${base}articles/`, text: "Browse articles" }}
+          />
+        )}
+      </section>
+
+      <section class="garden-entry-grid" aria-labelledby="paths-title">
+      <header class="section-intro">
+        <p class="eyebrow">Continue reading</p>
+        <h2 id="paths-title">Use structure after the article gives you a direction.</h2>
+      </header>
+      {readingPaths.map((path) => (
+        <article class="entry-path-card">
+          <p>{path.label}</p>
+          <h3>
+            <a href={path.href}>{path.title}</a>
+          </h3>
+          <span>{path.text}</span>
+        </article>
+      ))}
+      </section>
+
       <section class="section-band topic-branch-section" id="threads" data-page-section aria-labelledby="topics-title">
       <div>
         <p class="eyebrow">Reading threads</p>
@@ -258,7 +244,7 @@ const readingPaths = [
       <section class="section-band record-grid" id="records" data-page-section aria-labelledby="records-title">
       <header class="section-intro">
         <p class="eyebrow">Records</p>
-        <h2 id="records-title">The human page and the machine packet point to the same work.</h2>
+        <h2 id="records-title">Utilities and structured records stay below the reading path.</h2>
       </header>
       <article class="record-card">
         <p>Evidence</p>
