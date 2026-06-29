@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 3,
+  "id": "article:ai-demystified",
+  "slug": "ai-demystified",
+  "title": "AI, De-Mystified: A Field Guide to Modern AI Terminology",
+  "canonicalPath": "/articles/ai-demystified/",
+  "sourcePath": "content/articles/2026/ai-demystified/article.md",
+  "agentBriefPath": "content/articles/2026/ai-demystified/agent.md",
+  "thesis": "Modern AI terminology becomes less confusing when each term is explained through plain language, older related ideas, practical examples, benefits, limits, and academic roots rather than being treated as a fresh breakthrough every time.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-29",
+  "updatedAt": "2026-06-29",
+  "audiences": [
+    "general",
+    "students",
+    "builders"
+  ],
+  "topics": [
+    "ai-agents",
+    "ai-literacy"
+  ],
+  "series": {
+    "slug": "ai-demystified",
+    "title": "AI, De-Mystified",
+    "order": 0,
+    "role": "guide"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "AI terminology becomes more useful when each term is explained through plain language, older related ideas, practical examples, benefits, limits, and academic roots instead of being treated as a fresh breakthrough every time.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-series-proposal",
+          "snippet": "The series explains one concept at a time using plain language, relevant analogies, practical examples, benefits, limitations, and links to deeper academic ideas.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some readers prefer dense, technical definitions first and may find the plain-language approach slower.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "A repeating article structure makes it easier for readers to learn one concept at a time and compare new terms with ideas they already know.",
+      "confidence": "medium",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-series-proposal",
+          "snippet": "Each article follows a simple repeatable shape with Plain English Meaning, Existing Concept It Resembles, What Is Actually New, How It Works In Practice, Where It Helps, Where It Fails, Academic Connections, Practical Checklist, The De-Hype Check, and Open Questions.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "A fixed structure may feel repetitive to readers who binge several articles at once rather than studying one at a time.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Keeping the series inside Aura Knowledge, focused on one concept at a time, protects it from becoming a broad encyclopedia, benchmark hub, or product marketing guide.",
+      "confidence": "medium",
+      "status": "strategy",
+      "evidence": [
+        {
+          "sourceId": "source-series-proposal",
+          "snippet": "The positioning recommends publishing inside Aura Knowledge first, avoiding a separate website, product comparisons, and academic survey breadth.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "If the audience grows, a dedicated microsite or index may eventually be useful.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-series-proposal",
+      "title": "AI, De-Mystified Series Proposal",
+      "url": "https://github.com/aura-knowledge/meta/blob/main/proposals/ai-demystified/README.md",
+      "type": "article",
+      "accessed": "2026-06-29"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:loops-vs-goals"
+    },
+    {
+      "type": "article",
+      "id": "article:context-management"
+    },
+    {
+      "type": "article",
+      "id": "article:memory-vs-context"
+    },
+    {
+      "type": "article",
+      "id": "article:prompt-engineering"
+    },
+    {
+      "type": "article",
+      "id": "article:prompt-caching"
+    },
+    {
+      "type": "article",
+      "id": "article:evaluations"
+    },
+    {
+      "type": "article",
+      "id": "article:agents"
+    },
+    {
+      "type": "article",
+      "id": "article:planning-and-reflection"
+    },
+    {
+      "type": "article",
+      "id": "article:retrieval-augmented-generation"
+    },
+    {
+      "type": "article",
+      "id": "article:tool-use"
+    },
+    {
+      "type": "article",
+      "id": "article:long-running-sessions"
+    },
+    {
+      "type": "article",
+      "id": "article:multi-agent-systems"
+    },
+    {
+      "type": "article",
+      "id": "article:fine-tuning"
+    },
+    {
+      "type": "article",
+      "id": "article:reasoning-models"
+    },
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    },
+    {
+      "type": "topic",
+      "id": "topic:ai-literacy"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Point users to the 14 chapter articles for detailed explanations of each concept.",
+    "Preserve the plain-language-first, technical-depth-later structure when summarizing."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-29",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:ac9ee0a421ffba66a581e29d088672637ace55e1f3206949d432110accd8507b"
+      },
+      {
+        "role": "review",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:ac9ee0a421ffba66a581e29d088672637ace55e1f3206949d432110accd8507b"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "tone",
+          "privacy",
+          "scope"
+        ],
+        "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
+        "contentHash": "ac9ee0a421ffba66a581e29d088672637ace55e1f3206949d432110accd8507b"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "examples",
+          "tone",
+          "safety"
+        ],
+        "notes": "Human author approved the draft for publication.",
+        "contentHash": "ac9ee0a421ffba66a581e29d088672637ace55e1f3206949d432110accd8507b"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "ac9ee0a421ffba66a581e29d088672637ace55e1f3206949d432110accd8507b"
+}
