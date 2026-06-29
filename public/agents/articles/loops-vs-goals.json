@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 3,
+  "id": "article:loops-vs-goals",
+  "slug": "loops-vs-goals",
+  "title": "Loops vs Goals: The Difference Between Repetition and Direction in AI Agents",
+  "canonicalPath": "/articles/loops-vs-goals/",
+  "sourcePath": "content/articles/2026/loops-vs-goals/article.md",
+  "agentBriefPath": "content/articles/2026/loops-vs-goals/agent.md",
+  "thesis": "In long-running AI systems, loops provide repeated progress, but loops only become useful when governed by clear goals, exit conditions, progress checks, and stopping rules.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-29",
+  "updatedAt": "2026-06-29",
+  "audiences": [
+    "general",
+    "students",
+    "builders"
+  ],
+  "topics": [
+    "ai-agents",
+    "ai-literacy"
+  ],
+  "series": {
+    "slug": "ai-demystified",
+    "title": "AI, De-Mystified",
+    "order": 1,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "A loop repeats work; a goal gives the loop direction and a stopping point.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-sutton-barto-rl",
+          "snippet": "The agent-environment interaction is a loop: at each step the agent receives a state, selects an action, and receives a reward; the goal is encoded by the reward signal.",
+          "supports": "background",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some agent designs separate goal specification from the loop entirely, which can make the goal harder to update as the loop runs.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "The pairing of loops and goals appears in control engineering, reinforcement learning, and the scientific method, not only in recent AI.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-sutton-barto-rl",
+          "snippet": "Reinforcement learning formalizes the idea of an agent that acts in an environment over time to maximize cumulative reward.",
+          "supports": "background",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "These older fields often assume formally defined goals and stable environments, whereas LLM-based agents face open-ended, ambiguous objectives.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Practical AI loops repeat steps such as thinking, acting, observing, editing, or searching until a goal is reached or an exit condition fires.",
+      "confidence": "medium-high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-react-paper",
+          "snippet": "ReAct interleaves reasoning and acting to solve language reasoning and decision-making tasks by maintaining a loop of thought, action, and observation.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-self-refine-paper",
+          "snippet": "Self-Refine iteratively refines outputs using feedback from the model itself, forming a generate-feedback-refine loop.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Not all useful AI workflows are explicitly looped; some tasks are better handled by a single, carefully crafted prompt.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Long-running AI sessions need exit conditions and progress checks to avoid drift, runaway work, or hidden goal substitution.",
+      "confidence": "medium",
+      "status": "risk",
+      "evidence": [
+        {
+          "sourceId": "source-react-paper",
+          "snippet": "Reasoning-acting loops can take many steps; successful deployment depends on stopping criteria and task boundaries.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some systems use cost or time budgets as simple exit conditions, but budgets do not guarantee the goal has been reached.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-sutton-barto-rl",
+      "title": "Sutton and Barto: Reinforcement Learning: An Introduction",
+      "url": "http://incompleteideas.net/book/the-book-2nd.html",
+      "type": "book",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-react-paper",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "url": "https://arxiv.org/abs/2210.03629",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-self-refine-paper",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "url": "https://arxiv.org/abs/2303.17651",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:ai-agent-first-conversation"
+    },
+    {
+      "type": "article",
+      "id": "article:ai-agent-advanced-questions"
+    },
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Do not present AI agents as all-knowing or safe for high-stakes decisions without human review.",
+    "When summarizing, preserve the plain-language-first, technical-depth-later structure."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-29",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:361b5ebae99f61f33f9c76cd883b47f5c24058e08947ae7d0e676aeb6f07897b"
+      },
+      {
+        "role": "review",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:361b5ebae99f61f33f9c76cd883b47f5c24058e08947ae7d0e676aeb6f07897b"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "tone",
+          "privacy",
+          "scope"
+        ],
+        "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
+        "contentHash": "361b5ebae99f61f33f9c76cd883b47f5c24058e08947ae7d0e676aeb6f07897b"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "examples",
+          "tone",
+          "safety"
+        ],
+        "notes": "Human author approved the draft for publication.",
+        "contentHash": "361b5ebae99f61f33f9c76cd883b47f5c24058e08947ae7d0e676aeb6f07897b"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "361b5ebae99f61f33f9c76cd883b47f5c24058e08947ae7d0e676aeb6f07897b",
+  "generatedAt": "2026-06-29T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/loops-vs-goals/",
+  "agentJsonPath": "/agents/articles/loops-vs-goals.json",
+  "agentMarkdownPath": "/agents/articles/loops-vs-goals.md",
+  "sourceRepoPath": "content/articles/2026/loops-vs-goals/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/loops-vs-goals/article.md",
+  "tokenEstimate": 487,
+  "sectionOutline": [
+    {
+      "id": "plain-english-meaning",
+      "title": "Plain English Meaning"
+    },
+    {
+      "id": "existing-concept-it-resembles",
+      "title": "Existing Concept It Resembles"
+    },
+    {
+      "id": "what-is-actually-new",
+      "title": "What Is Actually New?"
+    },
+    {
+      "id": "how-it-works-in-practice",
+      "title": "How It Works In Practice"
+    },
+    {
+      "id": "where-it-helps",
+      "title": "Where It Helps"
+    },
+    {
+      "id": "where-it-fails",
+      "title": "Where It Fails"
+    },
+    {
+      "id": "academic-connections",
+      "title": "Academic Connections"
+    },
+    {
+      "id": "practical-checklist",
+      "title": "Practical Checklist"
+    },
+    {
+      "id": "the-de-hype-check",
+      "title": "The De-Hype Check"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    }
+  ]
+}

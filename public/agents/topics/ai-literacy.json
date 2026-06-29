@@ -3,7 +3,8 @@
   "topic": "ai-literacy",
   "articleIds": [
     "article:ai-agent-advanced-questions",
-    "article:ai-agent-first-conversation"
+    "article:ai-agent-first-conversation",
+    "article:loops-vs-goals"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/ai-literacy/",
   "agentJsonPath": "/agents/topics/ai-literacy.json",
@@ -71,6 +72,34 @@
       "sourceCount": 3,
       "tokenEstimate": 530,
       "contentHash": "f9987826579f1516fc43e8890524ec069d702d595bf733cc83d01b79f832847c"
+    },
+    {
+      "id": "article:loops-vs-goals",
+      "slug": "loops-vs-goals",
+      "title": "Loops vs Goals: The Difference Between Repetition and Direction in AI Agents",
+      "summary": "A plain-language explanation of why AI agents need both loops and goals, with everyday analogies, practical examples, and clear limits.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "ai-literacy"
+      ],
+      "tags": [
+        "ai-agents",
+        "ai-literacy",
+        "loops",
+        "goals",
+        "de-hype"
+      ],
+      "canonicalPath": "/articles/loops-vs-goals/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/loops-vs-goals/",
+      "agentJsonPath": "/agents/articles/loops-vs-goals.json",
+      "agentMarkdownPath": "/agents/articles/loops-vs-goals.md",
+      "updatedAt": "2026-06-29",
+      "claimCount": 4,
+      "sourceCount": 3,
+      "tokenEstimate": 487,
+      "contentHash": "361b5ebae99f61f33f9c76cd883b47f5c24058e08947ae7d0e676aeb6f07897b"
     }
   ]
 }

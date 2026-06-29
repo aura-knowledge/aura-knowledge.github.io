@@ -32,6 +32,7 @@
 - [The Human Road Through AI: Labor, Institutions, Governance, and Meaning](https://aura-knowledge.github.io/articles/human-systems/)
 - [Learning Machines: Statistics, Neural Networks, and the Data Turn](https://aura-knowledge.github.io/articles/learning-machines/)
 - [The Long Human Road to AI: A Reader’s Guide to Season 1](https://aura-knowledge.github.io/articles/long-human-road-to-ai/)
+- [Loops vs Goals: The Difference Between Repetition and Direction in AI Agents](https://aura-knowledge.github.io/articles/loops-vs-goals/)
 
 ## Agent Artifacts
 - [Agent Index JSON](https://aura-knowledge.github.io/agents/index.json)
@@ -85,6 +86,8 @@
 - [learning-machines Markdown](https://aura-knowledge.github.io/agents/articles/learning-machines.md)
 - [long-human-road-to-ai JSON](https://aura-knowledge.github.io/agents/articles/long-human-road-to-ai.json)
 - [long-human-road-to-ai Markdown](https://aura-knowledge.github.io/agents/articles/long-human-road-to-ai.md)
+- [loops-vs-goals JSON](https://aura-knowledge.github.io/agents/articles/loops-vs-goals.json)
+- [loops-vs-goals Markdown](https://aura-knowledge.github.io/agents/articles/loops-vs-goals.md)
 - [agent-orchestration topic JSON](https://aura-knowledge.github.io/agents/topics/agent-orchestration.json)
 - [agent-provenance topic JSON](https://aura-knowledge.github.io/agents/topics/agent-provenance.json)
 - [agentic-commerce topic JSON](https://aura-knowledge.github.io/agents/topics/agentic-commerce.json)

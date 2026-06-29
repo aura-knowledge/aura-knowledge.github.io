@@ -3,10 +3,10 @@
   "schema": "https://aura-knowledge.github.io/schemas/garden-queries.schema.json",
   "site": "https://aura-knowledge.github.io",
   "base": "",
-  "generatedAt": "2026-06-28T00:00:00.000Z",
+  "generatedAt": "2026-06-29T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 387
+    "totalResults": 395
   },
   "dimensions": [
     {
@@ -80,6 +80,7 @@
         "consumer-behavior",
         "dartmouth",
         "data",
+        "de-hype",
         "delegation",
         "digital-gardens",
         "early-ai",
@@ -87,6 +88,7 @@
         "evals",
         "evaluation",
         "expert-systems",
+        "goals",
         "governance",
         "history-of-ai",
         "human-ai-interaction",
@@ -100,6 +102,7 @@
         "labor",
         "llm-routing",
         "logic",
+        "loops",
         "machine-learning",
         "mechanical-calculation",
         "model-choice",
@@ -257,7 +260,7 @@
         "groupBy": "topic"
       },
       "resultType": "articles",
-      "resultCount": 84,
+      "resultCount": 86,
       "results": [
         {
           "articleId": "article:agent-control-planes",
@@ -421,6 +424,13 @@
           "topic": "ai-agents"
         },
         {
+          "articleId": "article:loops-vs-goals",
+          "slug": "loops-vs-goals",
+          "articleUrl": "https://aura-knowledge.github.io/articles/loops-vs-goals/",
+          "agentJsonPath": "/agents/articles/loops-vs-goals.json",
+          "topic": "ai-agents"
+        },
+        {
           "articleId": "article:foundation-models",
           "slug": "foundation-models",
           "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
@@ -467,6 +477,13 @@
           "slug": "ai-agent-first-conversation",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
           "agentJsonPath": "/agents/articles/ai-agent-first-conversation.json",
+          "topic": "ai-literacy"
+        },
+        {
+          "articleId": "article:loops-vs-goals",
+          "slug": "loops-vs-goals",
+          "articleUrl": "https://aura-knowledge.github.io/articles/loops-vs-goals/",
+          "agentJsonPath": "/agents/articles/loops-vs-goals.json",
           "topic": "ai-literacy"
         },
         {
@@ -879,7 +896,7 @@
         "confidence": "high"
       },
       "resultType": "claims",
-      "resultCount": 34,
+      "resultCount": 36,
       "results": [
         {
           "articleId": "article:agent-auditable-research",
@@ -1220,6 +1237,26 @@
           "claim": "Analogies help make AI history understandable, but they are teaching devices, not evidence, and every analogy has a limit.",
           "confidence": "high",
           "status": "framing"
+        },
+        {
+          "articleId": "article:loops-vs-goals",
+          "slug": "loops-vs-goals",
+          "articleUrl": "https://aura-knowledge.github.io/articles/loops-vs-goals/",
+          "agentJsonPath": "/agents/articles/loops-vs-goals.json",
+          "claimId": "claim-001",
+          "claim": "A loop repeats work; a goal gives the loop direction and a stopping point.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:loops-vs-goals",
+          "slug": "loops-vs-goals",
+          "articleUrl": "https://aura-knowledge.github.io/articles/loops-vs-goals/",
+          "agentJsonPath": "/agents/articles/loops-vs-goals.json",
+          "claimId": "claim-002",
+          "claim": "The pairing of loops and goals appears in control engineering, reinforcement learning, and the scientific method, not only in recent AI.",
+          "confidence": "high",
+          "status": "landscape"
         }
       ]
     },
@@ -1230,7 +1267,7 @@
         "groupBy": "sourceType"
       },
       "resultType": "sources",
-      "resultCount": 255,
+      "resultCount": 258,
       "results": [
         {
           "articleId": "article:human-systems",
@@ -1461,6 +1498,16 @@
           "sourceTitle": "Perceptrons: An Introduction to Computational Geometry",
           "sourceType": "book",
           "sourceUrl": "https://mitpress.mit.edu/9780262630221/perceptrons/"
+        },
+        {
+          "articleId": "article:loops-vs-goals",
+          "slug": "loops-vs-goals",
+          "articleUrl": "https://aura-knowledge.github.io/articles/loops-vs-goals/",
+          "agentJsonPath": "/agents/articles/loops-vs-goals.json",
+          "sourceId": "source-sutton-barto-rl",
+          "sourceTitle": "Sutton and Barto: Reinforcement Learning: An Introduction",
+          "sourceType": "book",
+          "sourceUrl": "http://incompleteideas.net/book/the-book-2nd.html"
         },
         {
           "articleId": "article:ai-winters-expert-systems",
@@ -2783,6 +2830,26 @@
           "sourceUrl": "https://homepages.math.uic.edu/~lreyzin/papers/rosenblatt58.pdf"
         },
         {
+          "articleId": "article:loops-vs-goals",
+          "slug": "loops-vs-goals",
+          "articleUrl": "https://aura-knowledge.github.io/articles/loops-vs-goals/",
+          "agentJsonPath": "/agents/articles/loops-vs-goals.json",
+          "sourceId": "source-react-paper",
+          "sourceTitle": "ReAct: Synergizing Reasoning and Acting in Language Models",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2210.03629"
+        },
+        {
+          "articleId": "article:loops-vs-goals",
+          "slug": "loops-vs-goals",
+          "articleUrl": "https://aura-knowledge.github.io/articles/loops-vs-goals/",
+          "agentJsonPath": "/agents/articles/loops-vs-goals.json",
+          "sourceId": "source-self-refine-paper",
+          "sourceTitle": "Self-Refine: Iterative Refinement with Self-Feedback",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2303.17651"
+        },
+        {
           "articleId": "article:foundation-models",
           "slug": "foundation-models",
           "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
@@ -3792,7 +3859,7 @@
         "status": "published"
       },
       "resultType": "articles",
-      "resultCount": 14,
+      "resultCount": 15,
       "results": [
         {
           "articleId": "article:agent-auditable-research",
@@ -3877,6 +3944,12 @@
           "slug": "long-human-road-to-ai",
           "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
           "agentJsonPath": "/agents/articles/long-human-road-to-ai.json"
+        },
+        {
+          "articleId": "article:loops-vs-goals",
+          "slug": "loops-vs-goals",
+          "articleUrl": "https://aura-knowledge.github.io/articles/loops-vs-goals/",
+          "agentJsonPath": "/agents/articles/loops-vs-goals.json"
         }
       ]
     }
