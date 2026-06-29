@@ -20,6 +20,7 @@ const latestSourceById = new Map(
 );
 const pageSections = [
   { id: "overview", label: "Overview" },
+  { id: "how-to-read", label: "How to read" },
   { id: "claim-packets", label: "Claim packets" },
   { id: "latest", label: "Latest" },
   { id: "threads", label: "Threads" },
@@ -77,6 +78,10 @@ const readingPaths = [
             AURA stands for <strong>Agentic Universal Records Architecture</strong>: readable ideas
             connected to reviewable records, provenance, and agent-ready artifacts.
           </p>
+          <p class="reader-note">
+            Start as a reader. Inspect the machinery only when you want to check why a claim is
+            believable.
+          </p>
           {!latest && (
             <EmptyState
               heading="Nothing here yet"
@@ -95,6 +100,35 @@ const readingPaths = [
           </div>
         </div>
 
+      </section>
+
+      <section class="reader-guide" id="how-to-read" data-page-section aria-labelledby="reader-guide-title">
+        <div class="reader-guide-copy">
+          <p class="eyebrow">For human readers</p>
+          <h2 id="reader-guide-title">How to read this site.</h2>
+          <p>
+            Read the article first. The evidence layer is there when you want to slow down,
+            challenge a claim, or follow the source trail.
+          </p>
+        </div>
+        <ol class="reader-guide-steps">
+          <li>
+            <strong>Read the essay.</strong>
+            <span>Start with the thesis, examples, and argument. Do not begin with the graph.</span>
+          </li>
+          <li>
+            <strong>Pause at a claim.</strong>
+            <span>When something feels important, inspect the claim packet attached to that idea.</span>
+          </li>
+          <li>
+            <strong>Check the evidence.</strong>
+            <span>Look at sources, counterpoints, confidence, and reviewer status before trusting it.</span>
+          </li>
+          <li>
+            <strong>Branch after reading.</strong>
+            <span>Use topics, related articles, and the graph only after you know what thread you want.</span>
+          </li>
+        </ol>
       </section>
 
       <section class="home-claim-section" id="claim-packets" data-page-section aria-labelledby="home-claim-title">
