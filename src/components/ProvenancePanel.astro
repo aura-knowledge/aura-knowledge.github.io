@@ -47,8 +47,8 @@ const hashAligned = latestApproved?.contentHash === contentHash;
     <details class="provenance-panel agent-detail-panel" aria-labelledby="provenance-title">
   <summary>
     <span>
-      <span class="eyebrow">Agent record</span>
-      <strong id="provenance-title">Creation and review details</strong>
+      <span class="eyebrow">Review record</span>
+      <strong id="provenance-title">How this was made</strong>
     </span>
     <span class="details-state">
       <span class="when-closed">Show details</span>
@@ -116,6 +116,6 @@ const hashAligned = latestApproved?.contentHash === contentHash;
   }
     </details>
   ) : (
-    <p class="provenance-panel" aria-labelledby="provenance-title">Provenance not available.</p>
+    <p class="provenance-panel" aria-labelledby="provenance-title">Review history not available.</p>
   )
 }

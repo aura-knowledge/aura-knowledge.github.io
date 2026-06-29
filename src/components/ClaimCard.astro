@@ -13,9 +13,9 @@ const { claim, sourceById } = Astro.props;
 
 <article class="claim-audit-card" id={`${claim.id}-packet`}>
   <header>
-    <span aria-label={`Claim ${claim.id.replace("claim-", "C")}`}>{claim.id.replace("claim-", "C")}</span>
-    <strong title={`Confidence: ${claim.confidence}. Status indicates how certain the evidence makes us.`}>{claim.confidence}</strong>
-    <span title={`Status: ${claim.status}. Describes the role of this claim in the article.`}>{claim.status}</span>
+    <span aria-label={`Point ${claim.id.replace("claim-", "C")}`}>{claim.id.replace("claim-", "C")}</span>
+    <strong title={`Confidence: ${claim.confidence}. Indicates how strongly the sources support this point.`}>{claim.confidence}</strong>
+    <span title={`Status: ${claim.status}. Describes the role of this point in the article.`}>{claim.status}</span>
   </header>
   <h3>{claim.claim}</h3>
   {claim.verification && (
@@ -26,7 +26,7 @@ const { claim, sourceById } = Astro.props;
   )}
   <dl>
     <div>
-      <dt>Evidence ({claim.evidence.length})</dt>
+      <dt>Sources ({claim.evidence.length})</dt>
       <dd>
         {claim.evidence.length > 0 ? (
           <ul class="claim-evidence-list">
@@ -35,7 +35,7 @@ const { claim, sourceById } = Astro.props;
             ))}
           </ul>
         ) : (
-          <span>No evidence recorded.</span>
+          <span>No source note recorded.</span>
         )}
       </dd>
     </div>

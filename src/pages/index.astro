@@ -22,7 +22,7 @@ const pageSections = [
   { id: "overview", label: "Overview" },
   { id: "how-to-read", label: "How to read" },
   { id: "latest", label: "Latest" },
-  { id: "evidence-trail", label: "Evidence trail" },
+  { id: "source-notes", label: "Source notes" },
   { id: "threads", label: "Threads" },
   { id: "records", label: "Records" }
 ];
@@ -42,35 +42,35 @@ const readingPaths = [
     meta: `${topicEntries.length} visible threads`
   },
   {
-    label: "Graph",
-    title: "Inspect relationships",
-    text: "Open the graph when you want claims, sources, and links across articles.",
+    label: "Map",
+    title: "Open the reading map",
+    text: "See how topics, articles, sources, and important points connect.",
     href: `${base}graph/`,
-    meta: `${claimCount} claims`
+    meta: `${claimCount} points`
   }
 ];
 ---
 
 <BaseLayout
   title="Aura Knowledge"
-  description="A focused AI-era knowledge garden for human-readable essays and agent-auditable research artifacts."
+  description="A focused AI-era knowledge garden for readable essays with sources, notes, and review history close by."
 >
   <div class="page-shell home-shell">
     <div class="home-content" aria-label="Aura Knowledge home">
       <section class="home-hero" id="overview" data-page-section aria-labelledby="home-title">
         <div class="home-hero-copy">
           <p class="eyebrow">Aura Knowledge</p>
-          <h1 id="home-title">Essays you can read. Claims you can inspect.</h1>
+          <h1 id="home-title">Essays to read. Sources to follow.</h1>
           <p class="lede">
-            Start with the article. Each essay carries an evidence trail with claims, sources,
-            confidence, counterpoints, and provenance notes.
+            Start with the article. When a point matters, the source notes are close by:
+            supporting sources, context, counterpoints, and review history.
           </p>
           <p class="lede-note">
-            AURA keeps the readable idea and its review record connected, so you can move from
-            argument to evidence without losing the thread.
+            AURA keeps the readable idea and its review record connected, so you can move from an
+            argument to its sources without losing the thread.
           </p>
           <p class="reader-note">
-            Reader route: read the essay, inspect claims when needed, then branch.
+            Reader route: read first, check details when needed, then branch.
           </p>
           {!latest && (
             <EmptyState
@@ -86,7 +86,7 @@ const readingPaths = [
               </a>
             )}
             <a class="button" href={`${base}articles/`}>All articles</a>
-            <a class="button" href={`${base}graph/`}>Evidence graph</a>
+            <a class="button" href={`${base}graph/`}>Reading map</a>
           </div>
         </div>
 
@@ -97,8 +97,8 @@ const readingPaths = [
           <p class="eyebrow">For human readers</p>
           <h2 id="reader-guide-title">How to read an Aura article.</h2>
           <p>
-            Aura pages are written for reading. The evidence layer is for moments when you want
-            confidence, a source trail, or a path into adjacent ideas.
+            Aura pages are written for reading. Extra notes are available for moments when you want
+            confidence, source context, or a path into adjacent ideas.
           </p>
         </div>
         <ol class="reader-guide-steps">
@@ -107,12 +107,12 @@ const readingPaths = [
             <span>Follow the thesis, examples, and argument before opening supporting structures.</span>
           </li>
           <li>
-            <strong>Inspect one claim.</strong>
-            <span>Use the packet for evidence, counterpoints, confidence, and review state.</span>
+            <strong>Check one point.</strong>
+            <span>Use the notes for sources, counterpoints, confidence, and review status.</span>
           </li>
           <li>
             <strong>Branch with intent.</strong>
-            <span>Open topics, related articles, or the graph after you know what thread you want.</span>
+            <span>Open topics, related articles, or the map after you know what thread you want.</span>
           </li>
         </ol>
       </section>
@@ -133,7 +133,7 @@ const readingPaths = [
           </div>
           <dl>
             <div>
-              <dt>Claims</dt>
+              <dt>Points</dt>
               <dd>{latest.artifact.claims.length}</dd>
             </div>
             <div>
@@ -141,8 +141,8 @@ const readingPaths = [
               <dd>{latest.artifact.sources.length}</dd>
             </div>
             <div>
-              <dt>Packet</dt>
-              <dd>JSON + brief</dd>
+              <dt>Notes</dt>
+              <dd>Sources + brief</dd>
             </div>
           </dl>
         </article>
@@ -158,30 +158,31 @@ const readingPaths = [
       )}
       </section>
 
-      <section class="home-claim-section" id="evidence-trail" data-page-section aria-labelledby="home-claim-title">
+      <section class="home-claim-section" id="source-notes" data-page-section aria-labelledby="home-claim-title">
         <div class="home-claim-head">
           <div>
-            <p class="eyebrow">Evidence trail</p>
-            <h2 id="home-claim-title">Every major claim has a packet.</h2>
+            <p class="eyebrow">Source notes</p>
+            <h2 id="home-claim-title">Important points come with context.</h2>
             <p>
-              A claim packet is the compact record behind a statement: evidence, counterpoints,
-              confidence, status, and review state. Use it when you want to verify, not before you read.
+              For readers who want to look closer, each important point can show sources,
+              counterpoints, confidence, and review status. Use this when you want to check
+              something, not before you read.
             </p>
           </div>
           {latestClaims.length > 0 && (
-            <div class="claim-audit-controls" aria-label="Scroll evidence packets">
-              <button type="button" data-claim-carousel-prev aria-label="Previous evidence packet">&lsaquo;</button>
-              <button type="button" data-claim-carousel-next aria-label="Next evidence packet">&rsaquo;</button>
+            <div class="claim-audit-controls" aria-label="Scroll source notes">
+              <button type="button" data-claim-carousel-prev aria-label="Previous source note">&lsaquo;</button>
+              <button type="button" data-claim-carousel-next aria-label="Next source note">&rsaquo;</button>
             </div>
           )}
         </div>
         {latest && latestClaims.length > 0 ? (
           <>
             <div class="home-claim-context">
-              <span>Packet preview from latest article</span>
+              <span>Notes from latest article</span>
               <a href={`${base}articles/${latest.slug}/`}>{latest.title}</a>
             </div>
-            <div class="claim-audit-grid home-claim-grid" data-claim-carousel tabindex="0" role="region" aria-label="Evidence trail claim packet cards">
+            <div class="claim-audit-grid home-claim-grid" data-claim-carousel tabindex="0" role="region" aria-label="Source note cards">
               {latestClaims.map((claim) => (
                 <ClaimCard claim={claim} sourceById={latestSourceById} />
               ))}
@@ -189,9 +190,9 @@ const readingPaths = [
           </>
         ) : (
           <EmptyState
-            heading="No evidence trail yet"
+            heading="No source notes yet"
             headingLevel={3}
-            message="Evidence packets appear here after a published article has structured claims."
+            message="Source notes appear here after a published article has structured points."
             action={{ href: `${base}articles/`, text: "Browse articles" }}
           />
         )}
@@ -200,7 +201,7 @@ const readingPaths = [
       <section class="garden-entry-grid" aria-labelledby="paths-title">
       <header class="section-intro">
         <p class="eyebrow">Continue reading</p>
-        <h2 id="paths-title">Use structure after the article gives you a direction.</h2>
+        <h2 id="paths-title">Use the map after the article gives you a direction.</h2>
       </header>
       {readingPaths.map((path) => (
         <article class="entry-path-card">
@@ -235,7 +236,7 @@ const readingPaths = [
         <EmptyState
           heading="No reading threads yet"
           headingLevel={3}
-          message="Reading threads are generated from published article artifacts."
+          message="Reading threads are generated from published articles."
           action={{ href: `${base}articles/`, text: "Browse articles" }}
         />
       )}
@@ -247,10 +248,10 @@ const readingPaths = [
         <h2 id="records-title">Utilities and structured records stay below the reading path.</h2>
       </header>
       <article class="record-card">
-        <p>Evidence</p>
-        <h3>Claims and sources stay visible when needed.</h3>
-        <span>{claimCount} claims and {sourceIds.size} unique source records are exposed through article pages and graph data.</span>
-        <a class="packet-link" href={`${base}graph/`}>Open the claims graph</a>
+        <p>Map</p>
+        <h3>Important points and sources stay reachable.</h3>
+        <span>{claimCount} important points and {sourceIds.size} unique source records are available through article pages and map data.</span>
+        <a class="packet-link" href={`${base}graph/`}>Open the reading map</a>
       </article>
       <article class="record-card">
         <p>About</p>
@@ -259,10 +260,10 @@ const readingPaths = [
         <a class="packet-link" href={`${base}organization/`}>Open the about page</a>
       </article>
       <article class="record-card">
-        <p>Agents</p>
+        <p>Machine access</p>
         <h3>Automation gets a separate entrance.</h3>
-        <span>Compact feeds, packet indexes, and graph files support agents without dominating the reader interface.</span>
-        <a class="packet-link" href={`${base}agents/`}>Browse agent JSON feeds</a>
+        <span>Compact feeds and structured files support agents without dominating the reader interface.</span>
+        <a class="packet-link" href={`${base}agents/`}>Browse machine-readable files</a>
       </article>
       </section>
     </div>

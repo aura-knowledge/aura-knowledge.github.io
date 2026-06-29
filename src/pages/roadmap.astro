@@ -21,19 +21,19 @@ const ideaById = new Map(roadmap.ideas.map((idea) => [idea.id, idea]));
 >
   <div class="page-shell utility-page roadmap-page">
     <header class="utility-hero roadmap-hero">
-      <p class="eyebrow">Build artifact</p>
+      <p class="eyebrow">Build notes</p>
       <h1>{roadmap.title}</h1>
       <p class="lede">{roadmap.summary}</p>
       <p class="lede-note">
         This page is for people inspecting how the garden is being built. It is not part of the
         main reading path.
       </p>
-      <div class="roadmap-actions" aria-label="Roadmap artifacts">
+      <div class="roadmap-actions" aria-label="Roadmap links">
         <a class="button primary" href={reportUrl}>Research report</a>
-        <a class="button" href={`${base}evidence-canvas/`}>Evidence canvas</a>
+        <a class="button" href={`${base}evidence-canvas/`}>Source coverage</a>
         <a class="button" href={roadmap.sourceRepo.url}>Source repo</a>
         <a class="button" href={`${base}agents/roadmap/${roadmap.slug}.json`}>
-          Agent JSON
+          Machine JSON
         </a>
       </div>
     </header>
@@ -69,7 +69,7 @@ const ideaById = new Map(roadmap.ideas.map((idea) => [idea.id, idea]));
     <section class="section-band" aria-labelledby="phase-title">
       <div class="roadmap-section-head">
         <p class="eyebrow">Sequence</p>
-        <h2 id="phase-title">Four phases, each with a concrete artifact outcome.</h2>
+        <h2 id="phase-title">Four phases, each with a concrete output.</h2>
       </div>
       <div class="phase-lane">
         {roadmap.phases.map((phase, index) => (

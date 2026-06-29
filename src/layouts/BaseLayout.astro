@@ -20,7 +20,7 @@ const pathname = Astro.url.pathname;
 
 const navItems = [
   { href: `${base}articles/`, label: "Articles" },
-  { href: `${base}graph/`, label: "Evidence" },
+  { href: `${base}graph/`, label: "Map" },
   { href: `${base}organization/`, label: "About" }
 ];
 
@@ -81,13 +81,13 @@ const isActive = (href: string) => {
     </main>
     <footer class="site-footer">
       <div class="site-footer-inner">
-        <span>Readable essays, auditable research packets.</span>
+        <span>Readable essays with sources close by.</span>
         <div class="footer-meta">
-          <span>Structured for agents. Guided for humans.</span>
+          <span>Built for readers first. Structured files are available when needed.</span>
           <nav aria-label="Utility links">
             <a class="footer-utility" href={`${base}topics/`}>Topic index</a>
             <a class="footer-utility" href={`${base}roadmap/`}>Roadmap</a>
-            <a class="footer-utility" href={`${base}agents/`}>Agent entry</a>
+            <a class="footer-utility" href={`${base}agents/`}>Machine files</a>
             <a class="footer-utility" href={`${base}llms.txt`}>llms.txt</a>
           </nav>
         </div>

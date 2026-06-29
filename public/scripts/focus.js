@@ -18,10 +18,8 @@
   );
 
   markers.forEach((marker) => {
-    if (!marker.textContent.trim()) {
-      const number = marker.id.replace(/^claim-0*/, "");
-      marker.textContent = `Claim C${number}`;
-    }
+    const number = marker.id.replace(/^claim-0*/, "");
+    marker.textContent = `Point C${number}`;
 
     if (!marker.dataset.claim) {
       marker.dataset.claim = marker.id;

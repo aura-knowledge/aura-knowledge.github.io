@@ -11,13 +11,13 @@ const { claims } = Astro.props;
 <details class="focus-rail" data-focus-rail>
   <summary class="focus-rail-header">
     <span>
-      <span class="focus-rail-kicker">Audit map</span>
-      <strong id="claims-title">Claims and evidence</strong>
-      <small>{claims.length} claim{claims.length === 1 ? "" : "s"}</small>
+      <span class="focus-rail-kicker">Article guide</span>
+      <strong id="claims-title">Important points and sources</strong>
+      <small>{claims.length} point{claims.length === 1 ? "" : "s"}</small>
     </span>
     <span class="details-state">
-      <span class="when-closed">Show map</span>
-      <span class="when-open">Hide map</span>
+      <span class="when-closed">Show guide</span>
+      <span class="when-open">Hide guide</span>
     </span>
   </summary>
   <ol>

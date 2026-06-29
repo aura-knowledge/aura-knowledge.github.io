@@ -8,18 +8,18 @@ const { slug, base = "" } = Astro.props;
 ---
 
 <section class="agent-packet-link" aria-labelledby="agent-packet-title">
-  <h2 id="agent-packet-title">Machine-readable packet</h2>
+  <h2 id="agent-packet-title">Machine-readable files</h2>
   <p>
-    The same claims, sources, and relationships are also available as a structured artifact
-    for agents. The packet follows the
-    <a href="https://github.com/aura-knowledge/meta/blob/main/schemas/provenance-bundle.schema.json">provenance-bundle schema</a>.
+    The same points, sources, and relationships are also available as structured files
+    for agents and tools. The JSON follows the
+    <a href="https://github.com/aura-knowledge/meta/blob/main/schemas/provenance-bundle.schema.json">publication record schema</a>.
   </p>
   <div class="button-row">
-    <a class="button" href={`${base}agents/articles/${slug}.json`} aria-label={`View structured JSON artifact for ${slug}`}>
-      Structured artifact (JSON)
+    <a class="button" href={`${base}agents/articles/${slug}.json`} aria-label={`View structured JSON file for ${slug}`}>
+      JSON file
     </a>
-    <a class="button" href={`${base}agents/articles/${slug}.md`} aria-label={`View agent brief markdown for ${slug}`}>
-      Agent brief (Markdown)
+    <a class="button" href={`${base}agents/articles/${slug}.md`} aria-label={`View machine-readable Markdown brief for ${slug}`}>
+      Brief (Markdown)
     </a>
   </div>
 </section>

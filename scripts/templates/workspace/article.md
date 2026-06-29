@@ -21,7 +21,7 @@ sourcePath: content/articles/{{year}}/{{slug}}/article.md
 
 Write the human-readable essay here. Replace this paragraph with the central argument.
 
-<span id="claim-001" class="claim-marker" data-claim="claim-001">Claim C1</span> State the claim in one plain sentence.
+<span id="claim-001" class="claim-marker" data-claim="claim-001">Point C1</span> State the point in one plain sentence.
 
 ## Context
 
@@ -31,12 +31,12 @@ Add background, framing, and the landscape that the claim sits in.
 
 - Capture sources in `workspace/sources/`.
 - Summarize each source in `workspace/notes.md`.
-- Record evidence and counterevidence in `artifact.json`.
+- Record sources and counterpoints in `artifact.json`.
 
 ## Next steps
 
 1. Fill `workspace/plan.md` with the research plan.
 2. Add sources to `workspace/sources/`.
 3. Draft the article body in this file.
-4. Update `artifact.json` claims, evidence, and provenance.
+4. Update `artifact.json` points, sources, and review details.
 5. Run `npm run generate` and `npm run check`.

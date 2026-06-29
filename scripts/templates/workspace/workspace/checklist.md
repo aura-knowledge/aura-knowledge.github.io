@@ -5,7 +5,7 @@
 - [ ] Every claim has at least one evidence packet.
 - [ ] High-confidence, contested, or risk claims have counterevidence.
 - [ ] Every evidence packet has a source and a snippet.
-- [ ] All `sourceId` values resolve to entries in the source ledger.
+- [ ] All `sourceId` values resolve to entries in the source list.
 - [ ] Each claim has a visible marker in `article.md`.
 
 ## Sources

@@ -68,16 +68,16 @@ function sortedEntries(counts) {
 ---
 
 <BaseLayout
-  title="Evidence Canvas"
-  description="A static summary of claim coverage, source diversity, maturity, counterevidence, and graph health for the knowledge garden."
+  title="Source Coverage"
+  description="A static summary of point coverage, source diversity, maturity, counterpoints, and map health for the knowledge garden."
 >
   <div class="page-shell utility-page evidence-canvas-page">
     <header class="utility-hero">
-      <p class="eyebrow">Evidence health</p>
-      <h1>Claim Evidence Canvas</h1>
+      <p class="eyebrow">Source health</p>
+      <h1>Source coverage</h1>
       <p class="lede">
-        A build-time snapshot of claim coverage, source diversity, maturity, counterevidence, and
-        graph provenance. No live data; this page is regenerated from the same artifacts agents
+        A build-time snapshot of point coverage, source diversity, maturity, counterpoints, and
+        map review history. No live data; this page is regenerated from the same structured files agents
         consume.
       </p>
     </header>
@@ -88,7 +88,7 @@ function sortedEntries(counts) {
         <strong>{totalArticles}</strong>
       </article>
       <article>
-        <span>Claims</span>
+        <span>Points</span>
         <strong>{totalClaims}</strong>
       </article>
       <article>
@@ -108,13 +108,13 @@ function sortedEntries(counts) {
     <section class="section-band section-grid" aria-labelledby="claim-states-title">
       <div>
         <p class="eyebrow">Verification</p>
-        <h2 id="claim-states-title">Claim states</h2>
+        <h2 id="claim-states-title">Point states</h2>
       </div>
       <div>
         <ul class="signal-list">
           {sortedEntries(stateCounts).map(([state, count]) => (
             <li>
-              <strong>{state}</strong> — {count} claim{count === 1 ? "" : "s"}
+              <strong>{state}</strong> — {count} point{count === 1 ? "" : "s"}
             </li>
           ))}
         </ul>
@@ -156,21 +156,21 @@ function sortedEntries(counts) {
     <section class="section-band section-grid" aria-labelledby="counterevidence-title">
       <div>
         <p class="eyebrow">Rigor</p>
-        <h2 id="counterevidence-title">Counterevidence coverage</h2>
+        <h2 id="counterevidence-title">Counterpoint coverage</h2>
       </div>
       <div>
         <p>
-          {claimsWithCounterevidence} of {totalClaims} claims ({Math.round(
+          {claimsWithCounterevidence} of {totalClaims} points ({Math.round(
             (claimsWithCounterevidence / Math.max(totalClaims, 1)) * 100
-          )}%) have at least one counterevidence packet.
+          )}%) have at least one counterpoint note.
         </p>
       </div>
     </section>
 
     <section class="section-band section-grid" aria-labelledby="graph-health-title">
       <div>
-        <p class="eyebrow">Provenance</p>
-        <h2 id="graph-health-title">Graph health</h2>
+        <p class="eyebrow">Review history</p>
+        <h2 id="graph-health-title">Map health</h2>
       </div>
       <div>
         <ul class="signal-list">

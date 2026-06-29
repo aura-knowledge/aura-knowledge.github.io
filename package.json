@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "npm run generate && astro build",
+    "build": "npm run generate && astro build && npm run postprocess:reader-copy",
     "preview": "astro preview",
     "generate": "node scripts/generate-agent-index.mjs && node scripts/generate-agent-tools-manifest.mjs",
+    "postprocess:reader-copy": "node scripts/postprocess-reader-copy.mjs",
     "generate:tools": "node scripts/generate-agent-tools-manifest.mjs",
     "validate": "node scripts/validate-content.mjs",
     "check:series": "node scripts/check-series.mjs",
@@ -28,7 +29,7 @@
     "eval:briefs": "node scripts/eval-briefs.mjs",
     "inspect:packet": "node scripts/inspect-packet.mjs",
     "inspect:packet:smoke": "node scripts/inspect-packet.mjs --article agent-auditable-research --format json >/dev/null && node scripts/inspect-packet.mjs --source source-agentic-publications-2025 --format markdown >/dev/null && node scripts/inspect-packet.mjs --graph-slice article:agent-auditable-research --format json >/dev/null",
-    "check": "npm run generate && npm run validate && npm run check:series && astro build && npm run validate:build && npm run garden:query:smoke && npm run eval:briefs && npm run inspect:packet:smoke && npm run agent:tools:smoke"
+    "check": "npm run generate && npm run validate && npm run check:series && astro build && npm run postprocess:reader-copy && npm run validate:build && npm run garden:query:smoke && npm run eval:briefs && npm run inspect:packet:smoke && npm run agent:tools:smoke"
   },
   "overrides": {
     "esbuild": "0.28.1"
