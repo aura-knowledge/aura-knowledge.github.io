@@ -292,6 +292,14 @@
     "status": "risk"
   },
   {
+    "id": "article:agents:claim-005",
+    "type": "claim",
+    "label": "A modern AI agent can be understood as a model plus a harness that provides tools, memory, permissions, checkpoints, and human oversight.",
+    "localId": "claim-005",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
     "id": "article:ai-agent-advanced-questions",
     "type": "article",
     "label": "Beyond the First Conversation: Advanced Questions for New AI Agent Users",
@@ -1278,7 +1286,7 @@
   {
     "id": "article:long-running-sessions:claim-003",
     "type": "claim",
-    "label": "In practice, long-running sessions combine summarization, checkpoints, and context pruning to keep the active window focused without losing the goal.",
+    "label": "In practice, long-running sessions combine summarization, checkpoints, context pruning, and prompt caching to keep the active window focused without losing the goal.",
     "localId": "claim-003",
     "confidence": "medium-high",
     "status": "design"
@@ -1290,6 +1298,14 @@
     "localId": "claim-004",
     "confidence": "medium",
     "status": "risk"
+  },
+  {
+    "id": "article:long-running-sessions:claim-005",
+    "type": "claim",
+    "label": "Prompt caching can cut the cost and latency of repeated context in long sessions, making extended sessions more practical.",
+    "localId": "claim-005",
+    "confidence": "medium-high",
+    "status": "design"
   },
   {
     "id": "article:loops-vs-goals",
@@ -1446,6 +1462,14 @@
     "localId": "claim-004",
     "confidence": "medium",
     "status": "risk"
+  },
+  {
+    "id": "article:planning-and-reflection:claim-005",
+    "type": "claim",
+    "label": "A self-harness pattern can turn one-off reflection into reusable verification routines that are proposed by the model and validated against held-out examples.",
+    "localId": "claim-005",
+    "confidence": "medium",
+    "status": "design"
   },
   {
     "id": "article:prompt-caching",
@@ -2560,6 +2584,13 @@
     "sourceType": "official-statistics"
   },
   {
+    "id": "source-langchain-deepagents",
+    "type": "source",
+    "label": "LangChain: Deep Agents",
+    "url": "https://python.langchain.com/docs/concepts/deepagents/",
+    "sourceType": "documentation"
+  },
+  {
     "id": "source-langgraph",
     "type": "source",
     "label": "LangGraph documentation",
@@ -2648,6 +2679,13 @@
     "type": "source",
     "label": "Lost in the Middle: How Language Models Use Long Contexts",
     "url": "https://arxiv.org/abs/2307.03172",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-lumer-prompt-caching-agents",
+    "type": "source",
+    "label": "Cross-Provider Evaluation of Prompt Caching in Multi-Turn Research Agents",
+    "url": "https://arxiv.org/abs/2601.06007v2",
     "sourceType": "paper"
   },
   {
@@ -3048,6 +3086,13 @@
     "label": "Marvellous Machines: Early Robots",
     "url": "https://www.sciencemuseum.org.uk/objects-and-stories/marvellous-machines-early-robots",
     "sourceType": "museum-story"
+  },
+  {
+    "id": "source-self-harness-paper",
+    "type": "source",
+    "label": "Self-Harness: Mining Weaknesses to Generate Test-Time Harnesses",
+    "url": "https://arxiv.org/abs/2606.09498",
+    "sourceType": "paper"
   },
   {
     "id": "source-self-refine-paper",

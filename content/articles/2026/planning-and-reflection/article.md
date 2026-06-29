@@ -58,6 +58,22 @@ Reflection has also changed. Instead of an external evaluator for every step, th
 
 The flexibility is real, but so is the risk. A plan written in prose can look convincing without being correct, and a self-critique can be confidently wrong.
 
+<h2 id="from-reflection-to-harnesses">From Reflection to Harnesses</h2>
+
+A newer pattern goes beyond asking the model to critique its own output. It asks the model to design a *harness* — a structured routine of checks, tools, and guardrails — for a recurring weakness it notices in itself. The loop has three stages:
+
+1. **Mine a weakness:** run the model on examples and collect failures.
+2. **Propose a harness:** write a small test, tool call, or verification rule that would catch that failure.
+3. **Validate the harness:** check that the proposed routine actually helps on held-out examples and does not hurt overall performance.
+
+This turns reflection into a durable engineering artifact rather than a one-time self-critique. The harness can be reused across similar tasks, reviewed by humans, and improved when new failures appear.
+
+<span id="claim-005" class="claim-marker" data-claim="claim-005">Claim C5</span> A self-harness pattern can turn one-off reflection into reusable verification routines that are proposed by the model and validated against held-out examples.
+
+<aside class="analogy-limit" data-claim="claim-005">
+  <strong>Analogy limit:</strong> A harness proposed by the model is still only as good as the validation behind it. If the test set shares the model's blind spots, the harness can look useful while reinforcing the same errors.
+</aside>
+
 <h2 id="how-it-works-in-practice">How It Works In Practice</h2>
 
 Here are three common patterns.

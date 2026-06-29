@@ -45,6 +45,7 @@
 {"from":"article:agents","to":"article:agents:claim-002","type":"argues"}
 {"from":"article:agents","to":"article:agents:claim-003","type":"argues"}
 {"from":"article:agents","to":"article:agents:claim-004","type":"argues"}
+{"from":"article:agents","to":"article:agents:claim-005","type":"argues"}
 {"from":"article:agents","to":"article:loops-vs-goals","type":"article"}
 {"from":"article:agents","to":"topic:ai-agents","type":"covers"}
 {"from":"article:agents","to":"topic:ai-literacy","type":"covers"}
@@ -293,6 +294,7 @@
 {"from":"article:long-running-sessions","to":"article:long-running-sessions:claim-002","type":"argues"}
 {"from":"article:long-running-sessions","to":"article:long-running-sessions:claim-003","type":"argues"}
 {"from":"article:long-running-sessions","to":"article:long-running-sessions:claim-004","type":"argues"}
+{"from":"article:long-running-sessions","to":"article:long-running-sessions:claim-005","type":"argues"}
 {"from":"article:long-running-sessions","to":"article:loops-vs-goals","type":"article"}
 {"from":"article:long-running-sessions","to":"topic:ai-agents","type":"covers"}
 {"from":"article:long-running-sessions","to":"topic:ai-literacy","type":"covers"}
@@ -326,6 +328,7 @@
 {"from":"article:planning-and-reflection","to":"article:planning-and-reflection:claim-002","type":"argues"}
 {"from":"article:planning-and-reflection","to":"article:planning-and-reflection:claim-003","type":"argues"}
 {"from":"article:planning-and-reflection","to":"article:planning-and-reflection:claim-004","type":"argues"}
+{"from":"article:planning-and-reflection","to":"article:planning-and-reflection:claim-005","type":"argues"}
 {"from":"article:planning-and-reflection","to":"article:loops-vs-goals","type":"article"}
 {"from":"article:planning-and-reflection","to":"topic:ai-agents","type":"covers"}
 {"from":"article:planning-and-reflection","to":"topic:ai-literacy","type":"covers"}
@@ -582,6 +585,7 @@
 {"from":"source-instructgpt-paper","to":"article:fine-tuning:claim-004","type":"supports"}
 {"from":"source-isaw-antikythera","to":"article:before-machines:claim-005","type":"supports"}
 {"from":"source-itu-facts-2025","to":"article:human-systems:claim-005","type":"supports"}
+{"from":"source-langchain-deepagents","to":"article:agents:claim-005","type":"supports"}
 {"from":"source-langgraph-hitl","to":"article:ai-delegation-orchestration-05-long-running-delegations:claim-001","type":"supports"}
 {"from":"source-langgraph","to":"article:ai-delegation-orchestration-02-the-delegation-record:claim-001","type":"supports"}
 {"from":"source-langgraph","to":"article:ai-delegation-orchestration-03-the-operator-cockpit-problem:claim-001","type":"supports"}
@@ -602,6 +606,10 @@
 {"from":"source-logic-theory-machine","to":"article:birth-of-ai:claim-003","type":"supports"}
 {"from":"source-lora-paper","to":"article:fine-tuning:claim-003","type":"supports"}
 {"from":"source-lost-in-the-middle","to":"article:context-management:claim-004","type":"supports"}
+{"from":"source-lumer-prompt-caching-agents","to":"article:long-running-sessions:claim-003","type":"supports"}
+{"from":"source-lumer-prompt-caching-agents","to":"article:long-running-sessions:claim-005","type":"supports"}
+{"from":"source-lumer-prompt-caching-agents","to":"article:prompt-caching:claim-003","type":"supports"}
+{"from":"source-lumer-prompt-caching-agents","to":"article:prompt-caching:claim-004","type":"supports"}
 {"from":"source-malone-crowston","to":"article:ai-delegation-orchestration-01-from-conversation-to-delegation:claim-001","type":"supports"}
 {"from":"source-malone-crowston","to":"article:ai-delegation-orchestration:claim-001","type":"supports"}
 {"from":"source-mark-interrupted-work","to":"article:ai-delegation-orchestration-01-from-conversation-to-delegation:claim-001","type":"supports"}
@@ -715,6 +723,7 @@
 {"from":"source-schema-review","to":"article:agentic-commerce-product-truth:claim-010","type":"supports"}
 {"from":"source-schick-toolformer","to":"article:tool-use:claim-001","type":"supports"}
 {"from":"source-science-museum-automata","to":"article:before-machines:claim-006","type":"supports"}
+{"from":"source-self-harness-paper","to":"article:planning-and-reflection:claim-005","type":"supports"}
 {"from":"source-self-refine-paper","to":"article:long-running-sessions:claim-003","type":"supports"}
 {"from":"source-self-refine-paper","to":"article:loops-vs-goals:claim-003","type":"supports"}
 {"from":"source-self-refine-paper","to":"article:planning-and-reflection:claim-003","type":"supports"}

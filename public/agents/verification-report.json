@@ -475,6 +475,27 @@
               "message": "2026/agents: claim-004 relies on a single source type for evidence."
             }
           ]
+        },
+        {
+          "id": "claim-005",
+          "claim": "A modern AI agent can be understood as a model plus a harness that provides tools, memory, permissions, checkpoints, and human oversight.",
+          "confidence": "medium-high",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/agents: claim-005 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/agents: claim-005 relies on a single source type for evidence."
+            }
+          ]
         }
       ],
       "summary": {
@@ -483,7 +504,7 @@
         "stale": 0,
         "needs-evidence": 0,
         "missing-counterevidence": 0,
-        "draft": 4
+        "draft": 5
       }
     },
     {
@@ -2254,11 +2275,11 @@
         },
         {
           "id": "claim-003",
-          "claim": "In practice, long-running sessions combine summarization, checkpoints, and context pruning to keep the active window focused without losing the goal.",
+          "claim": "In practice, long-running sessions combine summarization, checkpoints, context pruning, and prompt caching to keep the active window focused without losing the goal.",
           "confidence": "medium-high",
           "status": "design",
           "state": "draft",
-          "evidenceCount": 2,
+          "evidenceCount": 3,
           "counterevidenceCount": 1,
           "findings": [
             {
@@ -2283,6 +2304,27 @@
               "message": "2026/long-running-sessions: claim-004 relies on a single source type for evidence."
             }
           ]
+        },
+        {
+          "id": "claim-005",
+          "claim": "Prompt caching can cut the cost and latency of repeated context in long sessions, making extended sessions more practical.",
+          "confidence": "medium-high",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/long-running-sessions: claim-005 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/long-running-sessions: claim-005 relies on a single source type for evidence."
+            }
+          ]
         }
       ],
       "summary": {
@@ -2291,7 +2333,7 @@
         "stale": 0,
         "needs-evidence": 0,
         "missing-counterevidence": 0,
-        "draft": 4
+        "draft": 5
       }
     },
     {
@@ -2654,6 +2696,27 @@
               "message": "2026/planning-and-reflection: claim-004 relies on a single source type for evidence."
             }
           ]
+        },
+        {
+          "id": "claim-005",
+          "claim": "A self-harness pattern can turn one-off reflection into reusable verification routines that are proposed by the model and validated against held-out examples.",
+          "confidence": "medium",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/planning-and-reflection: claim-005 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/planning-and-reflection: claim-005 relies on a single source type for evidence."
+            }
+          ]
         }
       ],
       "summary": {
@@ -2662,7 +2725,7 @@
         "stale": 0,
         "needs-evidence": 0,
         "missing-counterevidence": 0,
-        "draft": 4
+        "draft": 5
       }
     },
     {
@@ -2707,20 +2770,9 @@
           "confidence": "medium-high",
           "status": "design",
           "state": "draft",
-          "evidenceCount": 1,
+          "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/prompt-caching: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/prompt-caching: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -2728,7 +2780,7 @@
           "confidence": "medium",
           "status": "risk",
           "state": "draft",
-          "evidenceCount": 2,
+          "evidenceCount": 3,
           "counterevidenceCount": 1,
           "findings": []
         }

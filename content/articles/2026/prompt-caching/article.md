@@ -67,6 +67,8 @@ A typical workflow looks like this:
 
 <span id="claim-003" class="claim-marker" data-claim="claim-003">Claim C3</span> In practice, prompt caching saves the most when a large, stable prefix is sent repeatedly and the variable part stays at the end.
 
+A recent cross-provider evaluation of multi-turn research agents using 10,000-token system prompts found that prompt caching cut API costs by **41–80%** and improved time-to-first-token by **13–31%**. The same study found that strategic cache-block control beat naive full-context caching: placing dynamic content at the end of the system prompt, avoiding dynamic function-call blocks, and excluding volatile tool results produced more consistent gains.
+
 <h2 id="where-it-helps">Where It Helps</h2>
 
 Prompt caching is useful when the same heavy context is reused across lighter queries:
@@ -108,6 +110,7 @@ Before relying on prompt caching, ask:
 - Does the provider support prompt caching, and what are the minimum token and retention rules?
 - Is call frequency high enough to offset cache-write costs?
 - Are you monitoring cache hit rates and actual spend, not just assumed savings?
+- Are dynamic sections placed at the end, and are volatile tool results kept out of cached prefixes?
 
 <h2 id="the-de-hype-check">The De-Hype Check</h2>
 

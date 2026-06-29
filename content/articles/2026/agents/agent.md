@@ -26,6 +26,7 @@ An AI agent is a goal-directed system that uses tools, loops, context, memory, a
 - `claim-002`: The idea of an agent that follows goals and uses tools is older than large language models; it appears in automation scripts, personal assistants, and game AI.
 - `claim-003`: In practice, an agent's loop repeatedly decides which tool to use, what to remember, and whether the goal is satisfied.
 - `claim-004`: Agent behavior depends heavily on clear goals, reliable tools, and careful limits; without them, autonomy becomes cost and error.
+- `claim-005`: A modern AI agent can be understood as a model plus a harness that provides tools, memory, permissions, checkpoints, and human oversight.
 
 ## Source Families
 

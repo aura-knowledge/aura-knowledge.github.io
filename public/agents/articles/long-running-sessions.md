@@ -24,8 +24,9 @@ Long-running AI sessions are not just long conversations. They need deliberate m
 
 - `claim-001`: A long-running session is useful only when the system can remember what matters, recognize progress, and decide when to stop.
 - `claim-002`: Keeping extended work coherent is already familiar from workflow orchestration, durable execution, project management, and process control.
-- `claim-003`: In practice, long-running sessions combine summarization, checkpoints, and context pruning to keep the active window focused without losing the goal.
+- `claim-003`: In practice, long-running sessions combine summarization, checkpoints, context pruning, and prompt caching to keep the active window focused without losing the goal.
 - `claim-004`: Without summaries, checkpoints, and stopping rules, long-running sessions drift, waste resources, or resume in broken states.
+- `claim-005`: Prompt caching can cut the cost and latency of repeated context in long sessions, making extended sessions more practical.
 
 ## Source Families
 

@@ -112,6 +112,26 @@
           "assessedAt": "2026-06-29"
         }
       ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "A self-harness pattern can turn one-off reflection into reusable verification routines that are proposed by the model and validated against held-out examples.",
+      "confidence": "medium",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-self-harness-paper",
+          "snippet": "Self-Harness mines weaknesses in an LLM, proposes harnesses to mitigate them, and validates each harness on held-out data to ensure it improves reliability without degrading overall performance.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "If the validation data share the model's blind spots, a harness can appear effective while reinforcing the same errors.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
     }
   ],
   "sources": [
@@ -142,6 +162,13 @@
       "url": "https://arxiv.org/abs/2303.11366",
       "type": "paper",
       "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-self-harness-paper",
+      "title": "Self-Harness: Mining Weaknesses to Generate Test-Time Harnesses",
+      "url": "https://arxiv.org/abs/2606.09498",
+      "type": "paper",
+      "accessed": "2026-06-29"
     }
   ],
   "related": [
@@ -169,14 +196,14 @@
         "model": "kimi",
         "invokedAt": "2026-06-29",
         "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-        "outputHash": "sha256:4640fcc98f40ce658ad392e4598110002fe037fb41eae6dc9e9dadece0b2f916"
+        "outputHash": "sha256:d3dce937b302fd9f5434128bee3769e975c18dc3338ac506e829f45a55d473dd"
       },
       {
         "role": "review",
         "model": "kimi",
         "invokedAt": "2026-06-29",
         "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-        "outputHash": "sha256:4640fcc98f40ce658ad392e4598110002fe037fb41eae6dc9e9dadece0b2f916"
+        "outputHash": "sha256:d3dce937b302fd9f5434128bee3769e975c18dc3338ac506e829f45a55d473dd"
       }
     ],
     "reviews": [
@@ -191,7 +218,7 @@
           "scope"
         ],
         "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
-        "contentHash": "4640fcc98f40ce658ad392e4598110002fe037fb41eae6dc9e9dadece0b2f916"
+        "contentHash": "d3dce937b302fd9f5434128bee3769e975c18dc3338ac506e829f45a55d473dd"
       },
       {
         "reviewer": "human",
@@ -204,7 +231,7 @@
           "safety"
         ],
         "notes": "Human author approved the draft for publication.",
-        "contentHash": "4640fcc98f40ce658ad392e4598110002fe037fb41eae6dc9e9dadece0b2f916"
+        "contentHash": "d3dce937b302fd9f5434128bee3769e975c18dc3338ac506e829f45a55d473dd"
       }
     ],
     "policy": {
@@ -212,5 +239,5 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "4640fcc98f40ce658ad392e4598110002fe037fb41eae6dc9e9dadece0b2f916"
+  "contentHash": "d3dce937b302fd9f5434128bee3769e975c18dc3338ac506e829f45a55d473dd"
 }

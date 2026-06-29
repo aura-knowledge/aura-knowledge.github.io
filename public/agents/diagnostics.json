@@ -3,8 +3,8 @@
   "generatedAt": "2026-06-29T00:00:00.000Z",
   "summary": {
     "errors": 0,
-    "warnings": 149,
-    "total": 149
+    "warnings": 153,
+    "total": 153
   },
   "findings": [
     {
@@ -86,6 +86,16 @@
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/agents: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/agents: claim-005 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/agents: claim-005 relies on a single source type for evidence."
     },
     {
       "rule": "low-source-diversity",
@@ -455,6 +465,16 @@
     {
       "rule": "low-source-diversity",
       "severity": "warning",
+      "message": "2026/long-running-sessions: claim-005 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/long-running-sessions: claim-005 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
       "message": "2026/loops-vs-goals: claim-001 relies on a single source for evidence."
     },
     {
@@ -590,22 +610,22 @@
     {
       "rule": "low-source-diversity",
       "severity": "warning",
+      "message": "2026/planning-and-reflection: claim-005 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/planning-and-reflection: claim-005 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
       "message": "2026/prompt-caching: claim-002 relies on a single source for evidence."
     },
     {
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/prompt-caching: claim-002 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/prompt-caching: claim-003 relies on a single source for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/prompt-caching: claim-003 relies on a single source type for evidence."
     },
     {
       "rule": "low-source-diversity",
