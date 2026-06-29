@@ -954,6 +954,84 @@
       }
     },
     {
+      "slug": "ai-demystified",
+      "title": "AI, De-Mystified: A Field Guide to Modern AI Terminology",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "AI terminology becomes more useful when each term is explained through plain language, older related ideas, practical examples, benefits, limits, and academic roots instead of being treated as a fresh breakthrough every time.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-demystified: claim-001 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-demystified: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-002",
+          "claim": "A repeating article structure makes it easier for readers to learn one concept at a time and compare new terms with ideas they already know.",
+          "confidence": "medium",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-demystified: claim-002 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-demystified: claim-002 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-003",
+          "claim": "Keeping the series inside Aura Knowledge, focused on one concept at a time, protects it from becoming a broad encyclopedia, benchmark hub, or product marketing guide.",
+          "confidence": "medium",
+          "status": "strategy",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-demystified: claim-003 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-demystified: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 3
+      }
+    },
+    {
       "slug": "ai-winters-expert-systems",
       "title": "Winters, Expert Systems, and the Cost of Overpromising Intelligence",
       "status": "published",

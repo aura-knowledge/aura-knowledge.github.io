@@ -1193,6 +1193,216 @@
       }
     },
     {
+      "from": "article:ai-demystified",
+      "to": "article:ai-demystified:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "article:ai-demystified:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "article:ai-demystified:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "article:agents",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "article:context-management",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "article:evaluations",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "article:fine-tuning",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "article:long-running-sessions",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "article:loops-vs-goals",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "article:memory-vs-context",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "article:multi-agent-systems",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "article:planning-and-reflection",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "article:prompt-caching",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "article:prompt-engineering",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "article:reasoning-models",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "article:retrieval-augmented-generation",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "article:tool-use",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "topic:ai-agents",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "topic:ai-literacy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "topic:ai-agents",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "topic:ai-literacy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "article:ai-winters-expert-systems",
       "to": "article:ai-winters-expert-systems:claim-001",
       "type": "argues",
@@ -7088,6 +7298,36 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-series-proposal",
+      "to": "article:ai-demystified:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-series-proposal",
+      "to": "article:ai-demystified:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-series-proposal",
+      "to": "article:ai-demystified:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
         "reviewer": "generator",
         "status": "machine-generated"
       }

@@ -14,6 +14,7 @@
     "article:ai-delegation-orchestration-05-long-running-delegations",
     "article:ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
     "article:ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
+    "article:ai-demystified",
     "article:audio-first-voice-consumption",
     "article:context-management",
     "article:evaluations",
@@ -394,6 +395,33 @@
       "sourceCount": 4,
       "tokenEstimate": 200,
       "contentHash": "95d688f18c57d85bc47bf42659da888e3802d56ff121a43e3ae3ceaf49271250"
+    },
+    {
+      "id": "article:ai-demystified",
+      "slug": "ai-demystified",
+      "title": "AI, De-Mystified: A Field Guide to Modern AI Terminology",
+      "summary": "The guide article for the AI, De-Mystified series, introducing the series promise, article order, and how to read the articles.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "ai-literacy"
+      ],
+      "tags": [
+        "ai-agents",
+        "ai-literacy",
+        "series-overview",
+        "reading-guide"
+      ],
+      "canonicalPath": "/articles/ai-demystified/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-demystified/",
+      "agentJsonPath": "/agents/articles/ai-demystified.json",
+      "agentMarkdownPath": "/agents/articles/ai-demystified.md",
+      "updatedAt": "2026-06-29",
+      "claimCount": 3,
+      "sourceCount": 1,
+      "tokenEstimate": 428,
+      "contentHash": "ac9ee0a421ffba66a581e29d088672637ace55e1f3206949d432110accd8507b"
     },
     {
       "id": "article:audio-first-voice-consumption",
