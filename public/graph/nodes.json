@@ -514,6 +514,37 @@
     "status": "framing"
   },
   {
+    "id": "article:ai-demystified",
+    "type": "article",
+    "label": "AI, De-Mystified: A Field Guide to Modern AI Terminology",
+    "path": "/articles/ai-demystified/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:ai-demystified:claim-001",
+    "type": "claim",
+    "label": "AI terminology becomes more useful when each term is explained through plain language, older related ideas, practical examples, benefits, limits, and academic roots instead of being treated as a fresh breakthrough every time.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:ai-demystified:claim-002",
+    "type": "claim",
+    "label": "A repeating article structure makes it easier for readers to learn one concept at a time and compare new terms with ideas they already know.",
+    "localId": "claim-002",
+    "confidence": "medium",
+    "status": "design"
+  },
+  {
+    "id": "article:ai-demystified:claim-003",
+    "type": "claim",
+    "label": "Keeping the series inside Aura Knowledge, focused on one concept at a time, protects it from becoming a broad encyclopedia, benchmark hub, or product marketing guide.",
+    "localId": "claim-003",
+    "confidence": "medium",
+    "status": "strategy"
+  },
+  {
     "id": "article:ai-winters-expert-systems",
     "type": "article",
     "label": "Winters, Expert Systems, and the Cost of Overpromising Intelligence",
@@ -3051,6 +3082,13 @@
     "type": "source",
     "label": "Logic and Artificial Intelligence",
     "url": "https://plato.stanford.edu/entries/logic-ai/",
+    "sourceType": "article"
+  },
+  {
+    "id": "source-series-proposal",
+    "type": "source",
+    "label": "AI, De-Mystified Series Proposal",
+    "url": "https://github.com/aura-knowledge/meta/blob/main/proposals/ai-demystified/README.md",
     "sourceType": "article"
   },
   {

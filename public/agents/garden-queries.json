@@ -6,7 +6,7 @@
   "generatedAt": "2026-06-29T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 515
+    "totalResults": 519
   },
   "dimensions": [
     {
@@ -281,7 +281,7 @@
         "groupBy": "topic"
       },
       "resultType": "articles",
-      "resultCount": 112,
+      "resultCount": 114,
       "results": [
         {
           "articleId": "article:agent-control-planes",
@@ -445,6 +445,13 @@
           "topic": "ai-agents"
         },
         {
+          "articleId": "article:ai-demystified",
+          "slug": "ai-demystified",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-demystified/",
+          "agentJsonPath": "/agents/articles/ai-demystified.json",
+          "topic": "ai-agents"
+        },
+        {
           "articleId": "article:audio-first-voice-consumption",
           "slug": "audio-first-voice-consumption",
           "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
@@ -596,6 +603,13 @@
           "slug": "ai-agent-first-conversation",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
           "agentJsonPath": "/agents/articles/ai-agent-first-conversation.json",
+          "topic": "ai-literacy"
+        },
+        {
+          "articleId": "article:ai-demystified",
+          "slug": "ai-demystified",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-demystified/",
+          "agentJsonPath": "/agents/articles/ai-demystified.json",
           "topic": "ai-literacy"
         },
         {
@@ -1740,7 +1754,7 @@
         "groupBy": "sourceType"
       },
       "resultType": "sources",
-      "resultCount": 312,
+      "resultCount": 313,
       "results": [
         {
           "articleId": "article:human-systems",
@@ -1781,6 +1795,16 @@
           "sourceTitle": "Anthropic, Building effective agents",
           "sourceType": "article",
           "sourceUrl": "https://www.anthropic.com/research/building-effective-agents"
+        },
+        {
+          "articleId": "article:ai-demystified",
+          "slug": "ai-demystified",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-demystified/",
+          "agentJsonPath": "/agents/articles/ai-demystified.json",
+          "sourceId": "source-series-proposal",
+          "sourceTitle": "AI, De-Mystified Series Proposal",
+          "sourceType": "article",
+          "sourceUrl": "https://github.com/aura-knowledge/meta/blob/main/proposals/ai-demystified/README.md"
         },
         {
           "articleId": "article:birth-of-ai",
@@ -4872,7 +4896,7 @@
         "status": "published"
       },
       "resultType": "articles",
-      "resultCount": 28,
+      "resultCount": 29,
       "results": [
         {
           "articleId": "article:agent-auditable-research",
@@ -4909,6 +4933,12 @@
           "slug": "ai-agent-first-conversation",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
           "agentJsonPath": "/agents/articles/ai-agent-first-conversation.json"
+        },
+        {
+          "articleId": "article:ai-demystified",
+          "slug": "ai-demystified",
+          "articleUrl": "https://aura-knowledge.github.io/articles/ai-demystified/",
+          "agentJsonPath": "/agents/articles/ai-demystified.json"
         },
         {
           "articleId": "article:ai-winters-expert-systems",

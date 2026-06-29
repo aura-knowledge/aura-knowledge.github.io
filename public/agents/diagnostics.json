@@ -3,8 +3,8 @@
   "generatedAt": "2026-06-29T00:00:00.000Z",
   "summary": {
     "errors": 0,
-    "warnings": 143,
-    "total": 143
+    "warnings": 149,
+    "total": 149
   },
   "findings": [
     {
@@ -201,6 +201,36 @@
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/ai-delegation-orchestration-01-from-conversation-to-delegation: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-demystified: claim-001 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-demystified: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-demystified: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-demystified: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-demystified: claim-003 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/ai-demystified: claim-003 relies on a single source type for evidence."
     },
     {
       "rule": "low-source-diversity",
