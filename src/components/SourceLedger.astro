@@ -13,8 +13,12 @@ const { sources } = Astro.props;
     <span>
       <span class="eyebrow">Structured sources</span>
       <strong id="sources-title">Source ledger</strong>
+      <small>{sources.length} source{sources.length === 1 ? "" : "s"}</small>
     </span>
-    <span>{sources.length} sources</span>
+    <span class="details-state">
+      <span class="when-closed">Show sources</span>
+      <span class="when-open">Hide sources</span>
+    </span>
   </summary>
   <ul>
     {sources.map((source) => (
