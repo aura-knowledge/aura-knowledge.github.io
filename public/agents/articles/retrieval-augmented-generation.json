@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 3,
+  "id": "article:retrieval-augmented-generation",
+  "slug": "retrieval-augmented-generation",
+  "title": "Retrieval-Augmented Generation: Looking Things Up Before Answering",
+  "canonicalPath": "/articles/retrieval-augmented-generation/",
+  "sourcePath": "content/articles/2026/retrieval-augmented-generation/article.md",
+  "agentBriefPath": "content/articles/2026/retrieval-augmented-generation/agent.md",
+  "thesis": "Retrieval-augmented generation improves a language model's answers by giving it relevant external material at request time, but the quality of the answer still depends on what can be found, how well it is matched, and whether the model uses it faithfully.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-29",
+  "updatedAt": "2026-06-29",
+  "audiences": [
+    "general",
+    "students",
+    "builders"
+  ],
+  "topics": [
+    "ai-agents",
+    "ai-literacy"
+  ],
+  "series": {
+    "slug": "ai-demystified",
+    "title": "AI, De-Mystified",
+    "order": 9,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Retrieval-augmented generation gives a language model relevant external material at request time instead of relying only on its training data and the current prompt.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-rag-lewis-2020",
+          "snippet": "RAG models combine a parametric memory with a non-parametric memory: a pre-trained seq2seq model generates text and a dense vector index of Wikipedia provides relevant documents.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some systems blur the line by retrieving from a model's own internal memory or using retrieval only as a fallback, so the boundary is not always strict.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "RAG builds on older ideas from information retrieval and open-book question answering: search for sources, then use them to answer.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-drqa-chen-2017",
+          "snippet": "Open-domain question answering systems retrieve relevant documents and then read them to find answers, separating search from reading comprehension.",
+          "supports": "background",
+          "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-rag-survey-gao-2024",
+          "snippet": "RAG inherits from decades of information retrieval and question-answering research, with recent advances coming from large language models as the generator.",
+          "supports": "background",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Modern RAG often uses dense neural retrieval and generative synthesis, which are more integrated than traditional retrieval-then-extraction pipelines.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "A typical RAG pipeline has three stages: indexing documents, retrieving relevant chunks, and generating an answer conditioned on those chunks.",
+      "confidence": "high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-dpr-karpukhin-2020",
+          "snippet": "Dense passage retrieval encodes passages into vectors for indexing, then retrieves top-k passages for a question, which a reader model uses to produce an answer.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-rag-survey-gao-2024",
+          "snippet": "Naive RAG consists of indexing, retrieval, and generation stages; more advanced variants add query rewriting, reranking, or iterative retrieval.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Production systems often add extra stages such as query expansion, reranking, validation, or human review, so the three-stage description is a simplification.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "RAG reduces some kinds of hallucination, but it cannot fix missing, outdated, or misleading source material, and it can introduce new errors by misusing retrieved passages.",
+      "confidence": "medium",
+      "status": "risk",
+      "evidence": [
+        {
+          "sourceId": "source-rag-survey-gao-2024",
+          "snippet": "RAG can mitigate factual hallucinations by grounding answers in retrieved context, but it remains vulnerable to retrieving noisy, outdated, or biased documents.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some studies show that stronger models can ignore or override retrieved passages when they conflict with parametric knowledge, making RAG less reliable than expected.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-rag-lewis-2020",
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "url": "https://arxiv.org/abs/2005.11401",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-dpr-karpukhin-2020",
+      "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+      "url": "https://arxiv.org/abs/2004.04906",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-drqa-chen-2017",
+      "title": "Reading Wikipedia to Answer Open-Domain Questions",
+      "url": "https://arxiv.org/abs/1704.00051",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-rag-survey-gao-2024",
+      "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "url": "https://arxiv.org/abs/2312.10997",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:loops-vs-goals"
+    },
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Do not present RAG as eliminating hallucinations or making a model inherently trustworthy.",
+    "When summarizing, preserve the plain-language-first, technical-depth-later structure."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-29",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:33db8b6cf649269f21fdd5295366eb347d378bcad17e9754f976f48a6d5731be"
+      },
+      {
+        "role": "review",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:33db8b6cf649269f21fdd5295366eb347d378bcad17e9754f976f48a6d5731be"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "tone",
+          "privacy",
+          "scope"
+        ],
+        "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
+        "contentHash": "33db8b6cf649269f21fdd5295366eb347d378bcad17e9754f976f48a6d5731be"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "examples",
+          "tone",
+          "safety"
+        ],
+        "notes": "Human author approved the draft for publication.",
+        "contentHash": "33db8b6cf649269f21fdd5295366eb347d378bcad17e9754f976f48a6d5731be"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "33db8b6cf649269f21fdd5295366eb347d378bcad17e9754f976f48a6d5731be",
+  "generatedAt": "2026-06-29T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/retrieval-augmented-generation/",
+  "agentJsonPath": "/agents/articles/retrieval-augmented-generation.json",
+  "agentMarkdownPath": "/agents/articles/retrieval-augmented-generation.md",
+  "sourceRepoPath": "content/articles/2026/retrieval-augmented-generation/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/retrieval-augmented-generation/article.md",
+  "tokenEstimate": 534,
+  "sectionOutline": [
+    {
+      "id": "plain-english-meaning",
+      "title": "Plain English Meaning"
+    },
+    {
+      "id": "existing-concept-it-resembles",
+      "title": "Existing Concept It Resembles"
+    },
+    {
+      "id": "what-is-actually-new",
+      "title": "What Is Actually New?"
+    },
+    {
+      "id": "how-it-works-in-practice",
+      "title": "How It Works In Practice"
+    },
+    {
+      "id": "where-it-helps",
+      "title": "Where It Helps"
+    },
+    {
+      "id": "where-it-fails",
+      "title": "Where It Fails"
+    },
+    {
+      "id": "academic-connections",
+      "title": "Academic Connections"
+    },
+    {
+      "id": "practical-checklist",
+      "title": "Practical Checklist"
+    },
+    {
+      "id": "the-de-hype-check",
+      "title": "The De-Hype Check"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    }
+  ]
+}

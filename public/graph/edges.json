@@ -433,6 +433,86 @@
       }
     },
     {
+      "from": "article:agents",
+      "to": "article:agents:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:agents",
+      "to": "article:agents:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:agents",
+      "to": "article:agents:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:agents",
+      "to": "article:agents:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:agents",
+      "to": "article:loops-vs-goals",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:agents",
+      "to": "topic:ai-agents",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:agents",
+      "to": "topic:ai-literacy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:agents",
+      "to": "topic:ai-agents",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "article:ai-agent-advanced-questions",
       "to": "article:ai-agent-advanced-questions:claim-001",
       "type": "argues",
@@ -1603,6 +1683,246 @@
       }
     },
     {
+      "from": "article:context-management",
+      "to": "article:context-management:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:context-management",
+      "to": "article:context-management:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:context-management",
+      "to": "article:context-management:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:context-management",
+      "to": "article:context-management:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:context-management",
+      "to": "article:loops-vs-goals",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:context-management",
+      "to": "topic:ai-agents",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:context-management",
+      "to": "topic:ai-literacy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:context-management",
+      "to": "topic:ai-agents",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:evaluations",
+      "to": "article:evaluations:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:evaluations",
+      "to": "article:evaluations:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:evaluations",
+      "to": "article:evaluations:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:evaluations",
+      "to": "article:evaluations:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:evaluations",
+      "to": "article:loops-vs-goals",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:evaluations",
+      "to": "topic:ai-agents",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:evaluations",
+      "to": "topic:ai-literacy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:evaluations",
+      "to": "topic:ai-agents",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:fine-tuning",
+      "to": "article:fine-tuning:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:fine-tuning",
+      "to": "article:fine-tuning:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:fine-tuning",
+      "to": "article:fine-tuning:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:fine-tuning",
+      "to": "article:fine-tuning:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:fine-tuning",
+      "to": "article:loops-vs-goals",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:fine-tuning",
+      "to": "topic:ai-agents",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:fine-tuning",
+      "to": "topic:ai-literacy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:fine-tuning",
+      "to": "topic:ai-agents",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "article:formal-logic-to-computation",
       "to": "article:formal-logic-to-computation:claim-001",
       "type": "argues",
@@ -2383,6 +2703,86 @@
       }
     },
     {
+      "from": "article:long-running-sessions",
+      "to": "article:long-running-sessions:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:long-running-sessions",
+      "to": "article:long-running-sessions:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:long-running-sessions",
+      "to": "article:long-running-sessions:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:long-running-sessions",
+      "to": "article:long-running-sessions:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:long-running-sessions",
+      "to": "article:loops-vs-goals",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:long-running-sessions",
+      "to": "topic:ai-agents",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:long-running-sessions",
+      "to": "topic:ai-literacy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:long-running-sessions",
+      "to": "topic:ai-agents",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "article:loops-vs-goals",
       "to": "article:loops-vs-goals:claim-001",
       "type": "argues",
@@ -2464,6 +2864,646 @@
     },
     {
       "from": "article:loops-vs-goals",
+      "to": "topic:ai-agents",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:memory-vs-context",
+      "to": "article:memory-vs-context:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:memory-vs-context",
+      "to": "article:memory-vs-context:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:memory-vs-context",
+      "to": "article:memory-vs-context:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:memory-vs-context",
+      "to": "article:memory-vs-context:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:memory-vs-context",
+      "to": "article:loops-vs-goals",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:memory-vs-context",
+      "to": "topic:ai-agents",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:memory-vs-context",
+      "to": "topic:ai-literacy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:memory-vs-context",
+      "to": "topic:ai-agents",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:multi-agent-systems",
+      "to": "article:multi-agent-systems:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:multi-agent-systems",
+      "to": "article:multi-agent-systems:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:multi-agent-systems",
+      "to": "article:multi-agent-systems:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:multi-agent-systems",
+      "to": "article:multi-agent-systems:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:multi-agent-systems",
+      "to": "article:loops-vs-goals",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:multi-agent-systems",
+      "to": "topic:ai-agents",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:multi-agent-systems",
+      "to": "topic:ai-literacy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:multi-agent-systems",
+      "to": "topic:ai-agents",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:planning-and-reflection",
+      "to": "article:planning-and-reflection:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:planning-and-reflection",
+      "to": "article:planning-and-reflection:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:planning-and-reflection",
+      "to": "article:planning-and-reflection:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:planning-and-reflection",
+      "to": "article:planning-and-reflection:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:planning-and-reflection",
+      "to": "article:loops-vs-goals",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:planning-and-reflection",
+      "to": "topic:ai-agents",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:planning-and-reflection",
+      "to": "topic:ai-literacy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:planning-and-reflection",
+      "to": "topic:ai-agents",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:prompt-caching",
+      "to": "article:prompt-caching:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:prompt-caching",
+      "to": "article:prompt-caching:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:prompt-caching",
+      "to": "article:prompt-caching:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:prompt-caching",
+      "to": "article:prompt-caching:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:prompt-caching",
+      "to": "article:loops-vs-goals",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:prompt-caching",
+      "to": "topic:ai-agents",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:prompt-caching",
+      "to": "topic:ai-literacy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:prompt-caching",
+      "to": "topic:ai-agents",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:prompt-engineering",
+      "to": "article:prompt-engineering:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:prompt-engineering",
+      "to": "article:prompt-engineering:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:prompt-engineering",
+      "to": "article:prompt-engineering:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:prompt-engineering",
+      "to": "article:prompt-engineering:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:prompt-engineering",
+      "to": "article:loops-vs-goals",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:prompt-engineering",
+      "to": "topic:ai-agents",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:prompt-engineering",
+      "to": "topic:ai-literacy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:prompt-engineering",
+      "to": "topic:ai-agents",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:reasoning-models",
+      "to": "article:reasoning-models:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:reasoning-models",
+      "to": "article:reasoning-models:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:reasoning-models",
+      "to": "article:reasoning-models:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:reasoning-models",
+      "to": "article:reasoning-models:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:reasoning-models",
+      "to": "article:loops-vs-goals",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:reasoning-models",
+      "to": "topic:ai-agents",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:reasoning-models",
+      "to": "topic:ai-literacy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:reasoning-models",
+      "to": "topic:ai-agents",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:retrieval-augmented-generation",
+      "to": "article:retrieval-augmented-generation:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:retrieval-augmented-generation",
+      "to": "article:retrieval-augmented-generation:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:retrieval-augmented-generation",
+      "to": "article:retrieval-augmented-generation:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:retrieval-augmented-generation",
+      "to": "article:retrieval-augmented-generation:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:retrieval-augmented-generation",
+      "to": "article:loops-vs-goals",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:retrieval-augmented-generation",
+      "to": "topic:ai-agents",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:retrieval-augmented-generation",
+      "to": "topic:ai-literacy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:retrieval-augmented-generation",
+      "to": "topic:ai-agents",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:tool-use",
+      "to": "article:tool-use:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:tool-use",
+      "to": "article:tool-use:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:tool-use",
+      "to": "article:tool-use:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:tool-use",
+      "to": "article:tool-use:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:tool-use",
+      "to": "article:loops-vs-goals",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:tool-use",
+      "to": "topic:ai-agents",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:tool-use",
+      "to": "topic:ai-literacy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:tool-use",
       "to": "topic:ai-agents",
       "type": "topic",
       "provenance": {
@@ -3193,11 +4233,51 @@
       }
     },
     {
+      "from": "source-attention-is-all-you-need",
+      "to": "article:context-management:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-autogen",
+      "to": "article:multi-agent-systems:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-autonomous-agents-llm",
+      "to": "article:agents:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-backprop-1986",
       "to": "article:learning-machines:claim-006",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-baddeley-hitch",
+      "to": "article:memory-vs-context:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -3243,6 +4323,16 @@
       }
     },
     {
+      "from": "source-big-bench",
+      "to": "article:evaluations:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-boole-laws-thought",
       "to": "article:formal-logic-to-computation:claim-001",
       "type": "supports",
@@ -3268,6 +4358,36 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-brown-few-shot",
+      "to": "article:prompt-engineering:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-brown-few-shot",
+      "to": "article:prompt-engineering:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-bsharat-instructions",
+      "to": "article:prompt-engineering:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -3523,6 +4643,26 @@
       }
     },
     {
+      "from": "source-cot-paper",
+      "to": "article:planning-and-reflection:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-cowan-working-memory",
+      "to": "article:context-management:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-cpsc-recalls-api",
       "to": "article:agentic-commerce-product-truth:claim-015",
       "type": "supports",
@@ -3713,6 +4853,26 @@
       }
     },
     {
+      "from": "source-dpr-karpukhin-2020",
+      "to": "article:retrieval-augmented-generation:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-drqa-chen-2017",
+      "to": "article:retrieval-augmented-generation:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-eigentrust",
       "to": "article:agentic-commerce-product-truth:claim-009",
       "type": "supports",
@@ -3853,6 +5013,26 @@
       }
     },
     {
+      "from": "source-eval-survey",
+      "to": "article:evaluations:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-eval-survey",
+      "to": "article:evaluations:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-feigenbaum-1977",
       "to": "article:ai-winters-expert-systems:claim-003",
       "type": "supports",
@@ -3973,11 +5153,51 @@
       }
     },
     {
+      "from": "source-generative-agents",
+      "to": "article:long-running-sessions:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-generative-agents",
+      "to": "article:long-running-sessions:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-gibson-affordances",
+      "to": "article:tool-use:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-godel",
       "to": "article:formal-logic-to-computation:claim-004",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-goodfellow-deep-learning",
+      "to": "article:fine-tuning:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -4263,6 +5483,26 @@
       }
     },
     {
+      "from": "source-helm",
+      "to": "article:evaluations:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-helm",
+      "to": "article:evaluations:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-hilbert-problems",
       "to": "article:formal-logic-to-computation:claim-003",
       "type": "supports",
@@ -4278,6 +5518,26 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-28",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-huggingface-fine-tuning-guide",
+      "to": "article:fine-tuning:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-human-in-loop",
+      "to": "article:agents:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -4338,6 +5598,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-instructgpt-paper",
+      "to": "article:fine-tuning:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -4503,6 +5773,16 @@
       }
     },
     {
+      "from": "source-llm-plus-p",
+      "to": "article:agents:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-llms-txt",
       "to": "article:agent-auditable-research:claim-002",
       "type": "supports",
@@ -4528,6 +5808,26 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-lora-paper",
+      "to": "article:fine-tuning:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-lost-in-the-middle",
+      "to": "article:context-management:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -4603,6 +5903,26 @@
       }
     },
     {
+      "from": "source-memgpt",
+      "to": "article:memory-vs-context:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-memgpt",
+      "to": "article:memory-vs-context:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-minsky-papert-1969",
       "to": "article:learning-machines:claim-004",
       "type": "supports",
@@ -4623,11 +5943,41 @@
       }
     },
     {
+      "from": "source-mmlu",
+      "to": "article:evaluations:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-mpiwg-antikythera",
       "to": "article:before-machines:claim-005",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-multi-agent-debate",
+      "to": "article:multi-agent-systems:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-multi-agent-debate",
+      "to": "article:multi-agent-systems:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -4983,6 +6333,16 @@
       }
     },
     {
+      "from": "source-openai-fine-tuning-guide",
+      "to": "article:fine-tuning:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-openai-merchants",
       "to": "article:agentic-commerce-product-truth:claim-001",
       "type": "supports",
@@ -5013,6 +6373,66 @@
       }
     },
     {
+      "from": "source-openai-o1",
+      "to": "article:reasoning-models:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-openai-prompt-caching",
+      "to": "article:prompt-caching:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-openai-prompt-caching",
+      "to": "article:prompt-caching:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-openai-prompt-caching",
+      "to": "article:prompt-caching:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-openai-prompt-guide",
+      "to": "article:prompt-engineering:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-openai-prompt-guide",
+      "to": "article:prompt-engineering:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-openai-stripe-acp",
       "to": "article:agentic-commerce-product-truth:claim-008",
       "type": "supports",
@@ -5038,6 +6458,26 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-18",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pagedattention",
+      "to": "article:prompt-caching:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pagedattention",
+      "to": "article:prompt-caching:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5153,11 +6593,121 @@
       }
     },
     {
+      "from": "source-rag-lewis-2020",
+      "to": "article:retrieval-augmented-generation:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-rag-survey-gao-2024",
+      "to": "article:retrieval-augmented-generation:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-rag-survey-gao-2024",
+      "to": "article:retrieval-augmented-generation:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-rag-survey-gao-2024",
+      "to": "article:retrieval-augmented-generation:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-rag",
+      "to": "article:context-management:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-rag",
+      "to": "article:memory-vs-context:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-rag",
+      "to": "article:memory-vs-context:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-react-2022",
       "to": "article:foundation-models:claim-008",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-react-paper",
+      "to": "article:agents:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-react-paper",
+      "to": "article:agents:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-react-paper",
+      "to": "article:long-running-sessions:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-react-paper",
+      "to": "article:long-running-sessions:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5175,6 +6725,56 @@
     {
       "from": "source-react-paper",
       "to": "article:loops-vs-goals:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-react-paper",
+      "to": "article:planning-and-reflection:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-react-paper",
+      "to": "article:reasoning-models:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-react-paper",
+      "to": "article:tool-use:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-reflexion-paper",
+      "to": "article:long-running-sessions:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-reflexion-paper",
+      "to": "article:planning-and-reflection:claim-003",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-29",
@@ -5218,6 +6818,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-russell-norvig-aima",
+      "to": "article:tool-use:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5333,6 +6943,16 @@
       }
     },
     {
+      "from": "source-schick-toolformer",
+      "to": "article:tool-use:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-science-museum-automata",
       "to": "article:before-machines:claim-006",
       "type": "supports",
@@ -5344,7 +6964,37 @@
     },
     {
       "from": "source-self-refine-paper",
+      "to": "article:long-running-sessions:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-self-refine-paper",
       "to": "article:loops-vs-goals:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-self-refine-paper",
+      "to": "article:planning-and-reflection:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-self-refine-paper",
+      "to": "article:planning-and-reflection:claim-004",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-29",
@@ -5623,6 +7273,16 @@
       }
     },
     {
+      "from": "source-toolformer-paper",
+      "to": "article:agents:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-transformer-2017",
       "to": "article:foundation-models:claim-003",
       "type": "supports",
@@ -5658,6 +7318,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-18",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-tulving-memory",
+      "to": "article:memory-vs-context:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5793,6 +7463,26 @@
       }
     },
     {
+      "from": "source-wei-cot-2022",
+      "to": "article:reasoning-models:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-wei-cot",
+      "to": "article:prompt-engineering:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-whipple-napier",
       "to": "article:before-machines:claim-003",
       "type": "supports",
@@ -5823,6 +7513,36 @@
       }
     },
     {
+      "from": "source-wikipedia-memoization",
+      "to": "article:prompt-caching:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-wooldridge-mas",
+      "to": "article:multi-agent-systems:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-wooldridge-mas",
+      "to": "article:multi-agent-systems:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-wordpress-mcp-adapter",
       "to": "article:agent-auditable-research:claim-004",
       "type": "supports",
@@ -5838,6 +7558,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-yao-tot-2023",
+      "to": "article:reasoning-models:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
         "reviewer": "generator",
         "status": "machine-generated"
       }

@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 3,
+  "id": "article:evaluations",
+  "slug": "evaluations",
+  "title": "Evaluations: How We Know an AI Workflow Improved",
+  "canonicalPath": "/articles/evaluations/",
+  "sourcePath": "content/articles/2026/evaluations/article.md",
+  "agentBriefPath": "content/articles/2026/evaluations/agent.md",
+  "thesis": "Evaluations turn vague quality claims into testable checks by defining what 'good' means, collecting evidence, and distinguishing real improvement from noise or gaming.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-29",
+  "updatedAt": "2026-06-29",
+  "audiences": [
+    "general",
+    "students",
+    "builders"
+  ],
+  "topics": [
+    "ai-agents",
+    "ai-literacy"
+  ],
+  "series": {
+    "slug": "ai-demystified",
+    "title": "AI, De-Mystified",
+    "order": 6,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "An evaluation is a test that turns a quality claim into a repeatable, observable result.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-eval-survey",
+          "snippet": "The survey frames LLM evaluation as a cornerstone of responsible development, organizing it around knowledge and capability evaluation, alignment evaluation, and safety evaluation.",
+          "supports": "background",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some dimensions of quality, such as creativity or conversational rapport, are hard to operationalize into repeatable tests and may rely partly on subjective judgment.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Benchmarks, report cards, and clinical trials all evaluate outcomes against a standard; AI evaluation extends the same idea to generated outputs and workflows.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-helm",
+          "snippet": "HELM taxonomizes scenarios and metrics for language models and evaluates models under standardized conditions, treating evaluation as a transparent, shared measurement exercise.",
+          "supports": "background",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "AI outputs are often open-ended and context-dependent, so defining the 'standard' is more contested than in report cards or clinical trials with fixed rubrics and endpoints.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "A practical AI evaluation usually mixes automatic checks, human judgments, and task-specific metrics rather than relying on a single score.",
+      "confidence": "medium-high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-helm",
+          "snippet": "HELM adopts a multi-metric approach, measuring accuracy, calibration, robustness, fairness, bias, toxicity, and efficiency across scenarios.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-eval-survey",
+          "snippet": "The survey categorizes evaluation methodologies across capability, alignment, and safety, emphasizing that different evaluation methods serve different purposes.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "For narrowly defined tasks, such as passing a fixed set of code tests, a single automatic metric can be sufficient and easier to reproduce.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "A high score on a benchmark can hide failure modes that matter in real use, because no metric captures every kind of usefulness or harm.",
+      "confidence": "medium",
+      "status": "risk",
+      "evidence": [
+        {
+          "sourceId": "source-big-bench",
+          "snippet": "BIG-bench finds that tasks with brittle metrics or multi-step reasoning can show poor absolute performance even when models improve with scale, highlighting limits of narrow benchmarks.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-mmlu",
+          "snippet": "Models can score above random chance on MMLU while still showing lopsided performance and near-random accuracy on socially important subjects such as morality and law.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some benchmarks are designed to correlate with downstream tasks, and strong performance on them can genuinely predict useful behavior in related settings.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-helm",
+      "title": "Holistic Evaluation of Language Models (HELM)",
+      "url": "https://arxiv.org/abs/2211.09110",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-mmlu",
+      "title": "Measuring Massive Multitask Language Understanding",
+      "url": "https://arxiv.org/abs/2009.03300",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-big-bench",
+      "title": "Beyond the Imitation Game Benchmark (BIG-bench)",
+      "url": "https://arxiv.org/abs/2206.04615",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-eval-survey",
+      "title": "Evaluating Large Language Models: A Comprehensive Survey",
+      "url": "https://arxiv.org/abs/2310.19736",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:loops-vs-goals"
+    },
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Do not present benchmark scores as guarantees of real-world safety or usefulness.",
+    "When summarizing, preserve the plain-language-first, technical-depth-later structure."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-29",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:9f1fe31ae9a3d4bfef02a406351557274a80a908bfcd2068fde08603799f939d"
+      },
+      {
+        "role": "review",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:9f1fe31ae9a3d4bfef02a406351557274a80a908bfcd2068fde08603799f939d"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "tone",
+          "privacy",
+          "scope"
+        ],
+        "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
+        "contentHash": "9f1fe31ae9a3d4bfef02a406351557274a80a908bfcd2068fde08603799f939d"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "examples",
+          "tone",
+          "safety"
+        ],
+        "notes": "Human author approved the draft for publication.",
+        "contentHash": "9f1fe31ae9a3d4bfef02a406351557274a80a908bfcd2068fde08603799f939d"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "9f1fe31ae9a3d4bfef02a406351557274a80a908bfcd2068fde08603799f939d",
+  "generatedAt": "2026-06-29T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/evaluations/",
+  "agentJsonPath": "/agents/articles/evaluations.json",
+  "agentMarkdownPath": "/agents/articles/evaluations.md",
+  "sourceRepoPath": "content/articles/2026/evaluations/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/evaluations/article.md",
+  "tokenEstimate": 482,
+  "sectionOutline": [
+    {
+      "id": "plain-english-meaning",
+      "title": "Plain English Meaning"
+    },
+    {
+      "id": "existing-concept-it-resembles",
+      "title": "Existing Concept It Resembles"
+    },
+    {
+      "id": "what-is-actually-new",
+      "title": "What Is Actually New?"
+    },
+    {
+      "id": "how-it-works-in-practice",
+      "title": "How It Works In Practice"
+    },
+    {
+      "id": "where-it-helps",
+      "title": "Where It Helps"
+    },
+    {
+      "id": "where-it-fails",
+      "title": "Where It Fails"
+    },
+    {
+      "id": "academic-connections",
+      "title": "Academic Connections"
+    },
+    {
+      "id": "practical-checklist",
+      "title": "Practical Checklist"
+    },
+    {
+      "id": "the-de-hype-check",
+      "title": "The De-Hype Check"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    }
+  ]
+}

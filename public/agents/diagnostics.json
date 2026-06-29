@@ -3,8 +3,8 @@
   "generatedAt": "2026-06-29T00:00:00.000Z",
   "summary": {
     "errors": 0,
-    "warnings": 58,
-    "total": 58
+    "warnings": 143,
+    "total": 143
   },
   "findings": [
     {
@@ -56,6 +56,36 @@
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/agentic-commerce-product-truth: claim-014 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/agents: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/agents: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/agents: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/agents: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/agents: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/agents: claim-004 relies on a single source type for evidence."
     },
     {
       "rule": "low-source-diversity",
@@ -190,6 +220,106 @@
     {
       "rule": "low-source-diversity",
       "severity": "warning",
+      "message": "2026/context-management: claim-001 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/context-management: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/context-management: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/context-management: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/context-management: claim-003 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/context-management: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/context-management: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/context-management: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/evaluations: claim-001 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/evaluations: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/evaluations: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/evaluations: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/evaluations: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/evaluations: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/fine-tuning: claim-001 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/fine-tuning: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/fine-tuning: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/fine-tuning: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/fine-tuning: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/fine-tuning: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
       "message": "2026/foundation-models: claim-001 relies on a single source for evidence."
     },
     {
@@ -265,6 +395,36 @@
     {
       "rule": "low-source-diversity",
       "severity": "warning",
+      "message": "2026/long-running-sessions: claim-001 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/long-running-sessions: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/long-running-sessions: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/long-running-sessions: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/long-running-sessions: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/long-running-sessions: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
       "message": "2026/loops-vs-goals: claim-001 relies on a single source for evidence."
     },
     {
@@ -296,6 +456,271 @@
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/loops-vs-goals: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/memory-vs-context: claim-001 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/memory-vs-context: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/memory-vs-context: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/memory-vs-context: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/memory-vs-context: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/memory-vs-context: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/multi-agent-systems: claim-001 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/multi-agent-systems: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/multi-agent-systems: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/multi-agent-systems: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/multi-agent-systems: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/multi-agent-systems: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/multi-agent-systems: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/planning-and-reflection: claim-001 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/planning-and-reflection: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/planning-and-reflection: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/planning-and-reflection: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/planning-and-reflection: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/planning-and-reflection: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/planning-and-reflection: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/prompt-caching: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/prompt-caching: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/prompt-caching: claim-003 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/prompt-caching: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/prompt-engineering: claim-001 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/prompt-engineering: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/prompt-engineering: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/prompt-engineering: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/prompt-engineering: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/prompt-engineering: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/prompt-engineering: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/reasoning-models: claim-001 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/reasoning-models: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/reasoning-models: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/reasoning-models: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/reasoning-models: claim-003 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/reasoning-models: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/reasoning-models: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/reasoning-models: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/retrieval-augmented-generation: claim-001 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/retrieval-augmented-generation: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/retrieval-augmented-generation: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/retrieval-augmented-generation: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/retrieval-augmented-generation: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/retrieval-augmented-generation: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/tool-use: claim-001 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/tool-use: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/tool-use: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/tool-use: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/tool-use: claim-003 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/tool-use: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/tool-use: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/tool-use: claim-004 relies on a single source type for evidence."
     }
   ]
 }

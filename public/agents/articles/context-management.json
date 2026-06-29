@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 3,
+  "id": "article:context-management",
+  "slug": "context-management",
+  "title": "Context Management: What the AI Sees Right Now",
+  "canonicalPath": "/articles/context-management/",
+  "sourcePath": "content/articles/2026/context-management/article.md",
+  "agentBriefPath": "content/articles/2026/context-management/agent.md",
+  "thesis": "Context management is the process of selecting, organizing, and limiting the information placed in a model's current working window so that the most relevant material is available without exceeding capacity.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-29",
+  "updatedAt": "2026-06-29",
+  "audiences": [
+    "general",
+    "students",
+    "builders"
+  ],
+  "topics": [
+    "ai-agents",
+    "ai-literacy"
+  ],
+  "series": {
+    "slug": "ai-demystified",
+    "title": "AI, De-Mystified",
+    "order": 2,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "A model can only work with the information currently in its context window; context management decides what that information is.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-attention-is-all-you-need",
+          "snippet": "The transformer uses self-attention over the full input sequence, meaning every prediction is conditioned on the tokens currently present in the context window.",
+          "supports": "background",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some systems supplement the context window with external memory, recurrence, or compression techniques, so the immediate window is not always the absolute boundary.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Context management resembles human working memory and attention, but it uses fixed-size, lossy windows rather than flexible human recall.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-cowan-working-memory",
+          "snippet": "Working memory capacity is limited, and attention determines which information remains active for ongoing processing.",
+          "supports": "background",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Human working memory is content-addressable and can be cued by partial information, whereas a model's context is typically a fixed sequence and items outside it are inaccessible without a retrieval step.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Retrieval and summarization can extend the effective context, but they trade completeness, accuracy, and cost.",
+      "confidence": "medium-high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-rag",
+          "snippet": "Retrieval-augmented generation retrieves relevant documents from an external corpus and conditions generation on them, expanding what the model can use beyond its parametric memory.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Retrieved passages can be irrelevant or misleading, and summarization can drop details the model needs, so expanding context does not guarantee better answers.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Good context management requires deciding what to include, what to compress, and when to stop, because a bigger window is not always a better answer.",
+      "confidence": "medium",
+      "status": "risk",
+      "evidence": [
+        {
+          "sourceId": "source-lost-in-the-middle",
+          "snippet": "Language model performance degrades when relevant information is located in the middle of a long context, indicating that larger windows do not automatically lead to better use of information.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Larger context windows and improved architectures reduce these effects, but they also increase latency and cost and do not remove the need for careful curation.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-attention-is-all-you-need",
+      "title": "Attention Is All You Need",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-lost-in-the-middle",
+      "title": "Lost in the Middle: How Language Models Use Long Contexts",
+      "url": "https://arxiv.org/abs/2307.03172",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-rag",
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "url": "https://arxiv.org/abs/2005.11401",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-cowan-working-memory",
+      "title": "Cowan: The Magical Number 4 in Short-Term Memory",
+      "url": "https://doi.org/10.1017/S0140525X01003922",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:loops-vs-goals"
+    },
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Do not present context windows as unlimited memory or perfect recall.",
+    "When summarizing, preserve the plain-language-first, technical-depth-later structure."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-29",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:196347d1ef48a12e6a510cf077a5ae750dd5d6b79afd117002df9d0ca49abd94"
+      },
+      {
+        "role": "review",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:196347d1ef48a12e6a510cf077a5ae750dd5d6b79afd117002df9d0ca49abd94"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "tone",
+          "privacy",
+          "scope"
+        ],
+        "notes": "Sibling-agent review against structure-drafting and review-finalization checklists. Privacy scan passed. No proprietary or personal content detected.",
+        "contentHash": "196347d1ef48a12e6a510cf077a5ae750dd5d6b79afd117002df9d0ca49abd94"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "examples",
+          "tone",
+          "safety"
+        ],
+        "notes": "Human author approved the draft for publication.",
+        "contentHash": "196347d1ef48a12e6a510cf077a5ae750dd5d6b79afd117002df9d0ca49abd94"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "196347d1ef48a12e6a510cf077a5ae750dd5d6b79afd117002df9d0ca49abd94",
+  "generatedAt": "2026-06-29T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/context-management/",
+  "agentJsonPath": "/agents/articles/context-management.json",
+  "agentMarkdownPath": "/agents/articles/context-management.md",
+  "sourceRepoPath": "content/articles/2026/context-management/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/context-management/article.md",
+  "tokenEstimate": 540,
+  "sectionOutline": [
+    {
+      "id": "plain-english-meaning",
+      "title": "Plain English Meaning"
+    },
+    {
+      "id": "existing-concept-it-resembles",
+      "title": "Existing Concept It Resembles"
+    },
+    {
+      "id": "what-is-actually-new",
+      "title": "What Is Actually New?"
+    },
+    {
+      "id": "how-it-works-in-practice",
+      "title": "How It Works In Practice"
+    },
+    {
+      "id": "where-it-helps",
+      "title": "Where It Helps"
+    },
+    {
+      "id": "where-it-fails",
+      "title": "Where It Fails"
+    },
+    {
+      "id": "academic-connections",
+      "title": "Academic Connections"
+    },
+    {
+      "id": "practical-checklist",
+      "title": "Practical Checklist"
+    },
+    {
+      "id": "the-de_hype-check",
+      "title": "The De-Hype Check"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    }
+  ]
+}

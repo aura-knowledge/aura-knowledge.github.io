@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 3,
+  "id": "article:agents",
+  "slug": "agents",
+  "title": "Agents: Goal-Directed AI Systems That Use Tools",
+  "canonicalPath": "/articles/agents/",
+  "sourcePath": "content/articles/2026/agents/article.md",
+  "agentBriefPath": "content/articles/2026/agents/agent.md",
+  "thesis": "An AI agent is a goal-directed system that uses tools, loops, context, memory, and evaluation to keep working across multiple steps instead of producing a single response.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-29",
+  "updatedAt": "2026-06-29",
+  "audiences": [
+    "general",
+    "students",
+    "builders"
+  ],
+  "topics": [
+    "ai-agents",
+    "ai-literacy"
+  ],
+  "series": {
+    "slug": "ai-demystified",
+    "title": "AI, De-Mystified",
+    "order": 7,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "An AI agent is a system that pursues a goal across multiple steps, choosing when to use tools, what to remember, and when to stop.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-react-paper",
+          "snippet": "ReAct interleaves reasoning and acting so that an agent can maintain a goal, select actions, observe results, and decide when to continue or stop.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-toolformer-paper",
+          "snippet": "Toolformer trains language models to decide which APIs to call, how to pass arguments, and how to incorporate returned results into future tokens.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some systems marketed as agents are single-turn or tool-free; the term is used loosely in industry marketing.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "The idea of an agent that follows goals and uses tools is older than large language models; it appears in automation scripts, personal assistants, and game AI.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-autonomous-agents-llm",
+          "snippet": "Autonomous agent research predates large language models and includes goal-directed systems in robotics, simulations, and software automation.",
+          "supports": "background",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Earlier agents typically relied on formal goal specifications and hard-coded interfaces, whereas LLM agents operate through natural-language goals and flexible tool descriptions.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "In practice, an agent's loop repeatedly decides which tool to use, what to remember, and whether the goal is satisfied.",
+      "confidence": "medium-high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-react-paper",
+          "snippet": "The reasoning-acting loop maintains a trajectory of thought, action, and observation that lets the agent adapt tool use based on context.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-llm-plus-p",
+          "snippet": "Planning-based agents decompose a goal into sub-goals and select actions through explicit planning before execution.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some production agent frameworks hard-code tool sequences for safety, reducing the model's role to parameter filling rather than open-ended selection.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Agent behavior depends heavily on clear goals, reliable tools, and careful limits; without them, autonomy becomes cost and error.",
+      "confidence": "medium",
+      "status": "risk",
+      "evidence": [
+        {
+          "sourceId": "source-human-in-loop",
+          "snippet": "Human-in-the-loop methods are used to maintain safety and quality when autonomous systems face ambiguous goals or high-stakes decisions.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "For narrow, low-stakes tasks, agents can run with minimal governance and still produce acceptable results.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-react-paper",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "url": "https://arxiv.org/abs/2210.03629",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-toolformer-paper",
+      "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "url": "https://arxiv.org/abs/2302.04761",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-llm-plus-p",
+      "title": "LLM+P: Empowering Large Language Models with Optimal Planning Proficiency",
+      "url": "https://arxiv.org/abs/2304.11477",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-autonomous-agents-llm",
+      "title": "Large Language Model based Multi-Agents: A Survey of Progress and Challenges",
+      "url": "https://arxiv.org/abs/2402.01680",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-human-in-loop",
+      "title": "Human-in-the-loop Machine Learning: a state of the art",
+      "url": "https://arxiv.org/abs/2108.00981",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:loops-vs-goals"
+    },
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Do not present AI agents as all-knowing, fully autonomous, or safe for high-stakes decisions without human review.",
+    "When summarizing, preserve the plain-language-first, technical-depth-later structure."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-29",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:00ae27d5496aa4197ffe45885c6a738536d773c290e2aa378cdeb346be2b9043"
+      },
+      {
+        "role": "review",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:00ae27d5496aa4197ffe45885c6a738536d773c290e2aa378cdeb346be2b9043"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "tone",
+          "privacy",
+          "scope"
+        ],
+        "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
+        "contentHash": "00ae27d5496aa4197ffe45885c6a738536d773c290e2aa378cdeb346be2b9043"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "examples",
+          "tone",
+          "safety"
+        ],
+        "notes": "Human author approved the draft for publication.",
+        "contentHash": "00ae27d5496aa4197ffe45885c6a738536d773c290e2aa378cdeb346be2b9043"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "00ae27d5496aa4197ffe45885c6a738536d773c290e2aa378cdeb346be2b9043",
+  "generatedAt": "2026-06-29T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/agents/",
+  "agentJsonPath": "/agents/articles/agents.json",
+  "agentMarkdownPath": "/agents/articles/agents.md",
+  "sourceRepoPath": "content/articles/2026/agents/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/agents/article.md",
+  "tokenEstimate": 508,
+  "sectionOutline": [
+    {
+      "id": "plain-english-meaning",
+      "title": "Plain English Meaning"
+    },
+    {
+      "id": "existing-concept-it-resembles",
+      "title": "Existing Concept It Resembles"
+    },
+    {
+      "id": "what-is-actually-new",
+      "title": "What Is Actually New?"
+    },
+    {
+      "id": "how-it-works-in-practice",
+      "title": "How It Works In Practice"
+    },
+    {
+      "id": "where-it-helps",
+      "title": "Where It Helps"
+    },
+    {
+      "id": "where-it-fails",
+      "title": "Where It Fails"
+    },
+    {
+      "id": "academic-connections",
+      "title": "Academic Connections"
+    },
+    {
+      "id": "practical-checklist",
+      "title": "Practical Checklist"
+    },
+    {
+      "id": "the-de-hype-check",
+      "title": "The De-Hype Check"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    }
+  ]
+}

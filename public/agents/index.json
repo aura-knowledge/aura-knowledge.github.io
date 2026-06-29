@@ -96,6 +96,34 @@
       "contentHash": "4014d7d5a97200dd5194fd5c82e83c9d74f602ccc90fc5ec9abf2e393643e302"
     },
     {
+      "id": "article:agents",
+      "slug": "agents",
+      "title": "Agents: Goal-Directed AI Systems That Use Tools",
+      "summary": "A plain-language guide to what AI agents are, how they combine goals, tools, loops, and memory, and where the current hype overstates their autonomy.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "ai-literacy"
+      ],
+      "tags": [
+        "ai-agents",
+        "ai-literacy",
+        "agents",
+        "tools",
+        "de-hype"
+      ],
+      "canonicalPath": "/articles/agents/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/agents/",
+      "agentJsonPath": "/agents/articles/agents.json",
+      "agentMarkdownPath": "/agents/articles/agents.md",
+      "updatedAt": "2026-06-29",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 508,
+      "contentHash": "00ae27d5496aa4197ffe45885c6a738536d773c290e2aa378cdeb346be2b9043"
+    },
+    {
       "id": "article:ai-agent-advanced-questions",
       "slug": "ai-agent-advanced-questions",
       "title": "Beyond the First Conversation: Advanced Questions for New AI Agent Users",
@@ -534,6 +562,90 @@
       "contentHash": "ecec9f458d695b5a53bfea9e6856fb376b5174ed3bf0487ce3a7cdd36baf96c1"
     },
     {
+      "id": "article:context-management",
+      "slug": "context-management",
+      "title": "Context Management: What the AI Sees Right Now",
+      "summary": "A plain-language guide to context management: how language models choose what goes into their working window, why it matters, and where the limits lie.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "ai-literacy"
+      ],
+      "tags": [
+        "ai-agents",
+        "ai-literacy",
+        "context",
+        "memory",
+        "de-hype"
+      ],
+      "canonicalPath": "/articles/context-management/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/context-management/",
+      "agentJsonPath": "/agents/articles/context-management.json",
+      "agentMarkdownPath": "/agents/articles/context-management.md",
+      "updatedAt": "2026-06-29",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 540,
+      "contentHash": "196347d1ef48a12e6a510cf077a5ae750dd5d6b79afd117002df9d0ca49abd94"
+    },
+    {
+      "id": "article:evaluations",
+      "slug": "evaluations",
+      "title": "Evaluations: How We Know an AI Workflow Improved",
+      "summary": "A plain-language guide to AI evaluations: what they measure, how to design them, and why a good score does not always mean a useful system.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "ai-literacy"
+      ],
+      "tags": [
+        "ai-agents",
+        "ai-literacy",
+        "evaluations",
+        "benchmarking",
+        "de-hype"
+      ],
+      "canonicalPath": "/articles/evaluations/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/evaluations/",
+      "agentJsonPath": "/agents/articles/evaluations.json",
+      "agentMarkdownPath": "/agents/articles/evaluations.md",
+      "updatedAt": "2026-06-29",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 482,
+      "contentHash": "9f1fe31ae9a3d4bfef02a406351557274a80a908bfcd2068fde08603799f939d"
+    },
+    {
+      "id": "article:fine-tuning",
+      "slug": "fine-tuning",
+      "title": "Fine-Tuning: Teaching a Model a Narrower Behavior",
+      "summary": "A plain-language guide to fine-tuning: what it changes, how it differs from prompting and retrieval, where it helps, and where the hype overpromises.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "ai-literacy"
+      ],
+      "tags": [
+        "ai-agents",
+        "ai-literacy",
+        "fine-tuning",
+        "transfer-learning",
+        "de-hype"
+      ],
+      "canonicalPath": "/articles/fine-tuning/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/fine-tuning/",
+      "agentJsonPath": "/agents/articles/fine-tuning.json",
+      "agentMarkdownPath": "/agents/articles/fine-tuning.md",
+      "updatedAt": "2026-06-29",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 509,
+      "contentHash": "94e920a1ee4f0ffaa530fb636e76df35e06c1aafb9647a3e01f82c64494b1527"
+    },
+    {
       "id": "article:formal-logic-to-computation",
       "slug": "formal-logic-to-computation",
       "title": "From Formal Logic to Computation: The Mathematical Road to AI",
@@ -701,6 +813,34 @@
       "contentHash": "d852055f4b0a5abd15924735fd73242312304723715c3bc13efc099f0f23dc26"
     },
     {
+      "id": "article:long-running-sessions",
+      "slug": "long-running-sessions",
+      "title": "Long-Running Sessions: Keeping AI Work Coherent Over Time",
+      "summary": "A plain-language guide to what makes AI sessions stay coherent across long tasks, where they drift, and how to keep them on track.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "ai-literacy"
+      ],
+      "tags": [
+        "ai-agents",
+        "ai-literacy",
+        "sessions",
+        "memory",
+        "de-hype"
+      ],
+      "canonicalPath": "/articles/long-running-sessions/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/long-running-sessions/",
+      "agentJsonPath": "/agents/articles/long-running-sessions.json",
+      "agentMarkdownPath": "/agents/articles/long-running-sessions.md",
+      "updatedAt": "2026-06-29",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 465,
+      "contentHash": "5e107cc4c74a8c0b19674c1df621b86145734a401833433985158f140ccfbeb7"
+    },
+    {
       "id": "article:loops-vs-goals",
       "slug": "loops-vs-goals",
       "title": "Loops vs Goals: The Difference Between Repetition and Direction in AI Agents",
@@ -727,6 +867,229 @@
       "sourceCount": 3,
       "tokenEstimate": 487,
       "contentHash": "361b5ebae99f61f33f9c76cd883b47f5c24058e08947ae7d0e676aeb6f07897b"
+    },
+    {
+      "id": "article:memory-vs-context",
+      "slug": "memory-vs-context",
+      "title": "Memory vs Context: What Should Survive the Conversation?",
+      "summary": "A plain-language explanation of the difference between context and memory in AI systems, with everyday analogies, practical examples, and clear limits.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "ai-literacy"
+      ],
+      "tags": [
+        "ai-agents",
+        "ai-literacy",
+        "memory",
+        "context",
+        "de-hype"
+      ],
+      "canonicalPath": "/articles/memory-vs-context/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/memory-vs-context/",
+      "agentJsonPath": "/agents/articles/memory-vs-context.json",
+      "agentMarkdownPath": "/agents/articles/memory-vs-context.md",
+      "updatedAt": "2026-06-29",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 507,
+      "contentHash": "a5ba348df1d444326a962a0728062b1b024b8ec5f7b10757792f93c552476dbb"
+    },
+    {
+      "id": "article:multi-agent-systems",
+      "slug": "multi-agent-systems",
+      "title": "Multi-Agent Systems: When More Than One AI Worker Is Involved",
+      "summary": "A plain-language explanation of multi-agent systems: how multiple AI workers are assigned different roles, how they coordinate, and where the design tradeoffs really matter.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "ai-literacy"
+      ],
+      "tags": [
+        "ai-agents",
+        "ai-literacy",
+        "multi-agent-systems",
+        "coordination",
+        "de-hype"
+      ],
+      "canonicalPath": "/articles/multi-agent-systems/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/multi-agent-systems/",
+      "agentJsonPath": "/agents/articles/multi-agent-systems.json",
+      "agentMarkdownPath": "/agents/articles/multi-agent-systems.md",
+      "updatedAt": "2026-06-29",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 489,
+      "contentHash": "a98fc69a4f76de44aec09b4053d177a0e5f61c7d61707cac1564e8055aa860d0"
+    },
+    {
+      "id": "article:planning-and-reflection",
+      "slug": "planning-and-reflection",
+      "title": "Planning and Reflection: How AI Breaks Down and Revises Work",
+      "summary": "A plain-language explanation of planning and reflection in AI agents, showing how systems break work into steps, check their own output, and revise before continuing.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "ai-literacy"
+      ],
+      "tags": [
+        "ai-agents",
+        "ai-literacy",
+        "planning",
+        "reflection",
+        "de-hype"
+      ],
+      "canonicalPath": "/articles/planning-and-reflection/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/planning-and-reflection/",
+      "agentJsonPath": "/agents/articles/planning-and-reflection.json",
+      "agentMarkdownPath": "/agents/articles/planning-and-reflection.md",
+      "updatedAt": "2026-06-29",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 511,
+      "contentHash": "4640fcc98f40ce658ad392e4598110002fe037fb41eae6dc9e9dadece0b2f916"
+    },
+    {
+      "id": "article:prompt-caching",
+      "slug": "prompt-caching",
+      "title": "Prompt Caching: Reusing Stable Context",
+      "summary": "A plain-language guide to prompt caching: what it reuses, why providers offer it, where the savings are real, and what builders should check before relying on it.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "ai-literacy"
+      ],
+      "tags": [
+        "ai-agents",
+        "ai-literacy",
+        "prompt-caching",
+        "caching",
+        "de-hype"
+      ],
+      "canonicalPath": "/articles/prompt-caching/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/prompt-caching/",
+      "agentJsonPath": "/agents/articles/prompt-caching.json",
+      "agentMarkdownPath": "/agents/articles/prompt-caching.md",
+      "updatedAt": "2026-06-29",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 512,
+      "contentHash": "e3a53873ce3f920e3accebf3a2315e2986d4bbecf51a29919b40d2063c747b66"
+    },
+    {
+      "id": "article:prompt-engineering",
+      "slug": "prompt-engineering",
+      "title": "Prompt Engineering: Instruction Design, Not Magic Words",
+      "summary": "A plain-language guide to prompt engineering: how clear instructions, examples, and constraints shape AI outputs, and why it is design rather than magic.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "ai-literacy"
+      ],
+      "tags": [
+        "ai-agents",
+        "ai-literacy",
+        "prompt-engineering",
+        "de-hype"
+      ],
+      "canonicalPath": "/articles/prompt-engineering/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/prompt-engineering/",
+      "agentJsonPath": "/agents/articles/prompt-engineering.json",
+      "agentMarkdownPath": "/agents/articles/prompt-engineering.md",
+      "updatedAt": "2026-06-29",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 499,
+      "contentHash": "bcd482cd554fc8fa770fe1730753d0ff7d37b181722aa74f129685d11f0ed738"
+    },
+    {
+      "id": "article:reasoning-models",
+      "slug": "reasoning-models",
+      "title": "Reasoning Models: Slower Thinking, Better Checks?",
+      "summary": "A plain-language explanation of reasoning models: how they use extra computation to work through problems step by step, and where the real limits lie.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "ai-literacy"
+      ],
+      "tags": [
+        "ai-agents",
+        "ai-literacy",
+        "reasoning",
+        "chain-of-thought",
+        "de-hype"
+      ],
+      "canonicalPath": "/articles/reasoning-models/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/reasoning-models/",
+      "agentJsonPath": "/agents/articles/reasoning-models.json",
+      "agentMarkdownPath": "/agents/articles/reasoning-models.md",
+      "updatedAt": "2026-06-29",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 485,
+      "contentHash": "b21dae5f1c44bbe6635b0cf257a7a84cf9ec8eaa3715c432faf4e67e0e572861"
+    },
+    {
+      "id": "article:retrieval-augmented-generation",
+      "slug": "retrieval-augmented-generation",
+      "title": "Retrieval-Augmented Generation: Looking Things Up Before Answering",
+      "summary": "A plain-language guide to retrieval-augmented generation: what it is, when it helps, why it sometimes fails, and what older ideas it builds on.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "ai-literacy"
+      ],
+      "tags": [
+        "ai-agents",
+        "ai-literacy",
+        "retrieval-augmented-generation",
+        "rag",
+        "de-hype"
+      ],
+      "canonicalPath": "/articles/retrieval-augmented-generation/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/retrieval-augmented-generation/",
+      "agentJsonPath": "/agents/articles/retrieval-augmented-generation.json",
+      "agentMarkdownPath": "/agents/articles/retrieval-augmented-generation.md",
+      "updatedAt": "2026-06-29",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 534,
+      "contentHash": "33db8b6cf649269f21fdd5295366eb347d378bcad17e9754f976f48a6d5731be"
+    },
+    {
+      "id": "article:tool-use",
+      "slug": "tool-use",
+      "title": "Tool Use: When the Model Calls Something Outside Itself",
+      "summary": "A plain-language explanation of how AI tool use extends what a model can do by connecting it to external capabilities, with examples, limits, and an anti-hype check.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "ai-literacy"
+      ],
+      "tags": [
+        "ai-agents",
+        "ai-literacy",
+        "tool-use",
+        "function-calling",
+        "de-hype"
+      ],
+      "canonicalPath": "/articles/tool-use/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/tool-use/",
+      "agentJsonPath": "/agents/articles/tool-use.json",
+      "agentMarkdownPath": "/agents/articles/tool-use.md",
+      "updatedAt": "2026-06-29",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 569,
+      "contentHash": "be152f2bda77bbac6a66d7fcbef1dcfeb335d03a41fbbc85b41d183229004eb0"
     }
   ],
   "topics": [
@@ -770,6 +1133,7 @@
       "label": "ai agents",
       "articleIds": [
         "article:agent-control-planes",
+        "article:agents",
         "article:ai-agent-advanced-questions",
         "article:ai-agent-first-conversation",
         "article:ai-delegation-orchestration",
@@ -781,7 +1145,19 @@
         "article:ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
         "article:ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
         "article:audio-first-voice-consumption",
-        "article:loops-vs-goals"
+        "article:context-management",
+        "article:evaluations",
+        "article:fine-tuning",
+        "article:long-running-sessions",
+        "article:loops-vs-goals",
+        "article:memory-vs-context",
+        "article:multi-agent-systems",
+        "article:planning-and-reflection",
+        "article:prompt-caching",
+        "article:prompt-engineering",
+        "article:reasoning-models",
+        "article:retrieval-augmented-generation",
+        "article:tool-use"
       ],
       "pageUrl": "https://aura-knowledge.github.io/topics/ai-agents/",
       "agentJsonPath": "/agents/topics/ai-agents.json"
@@ -811,9 +1187,22 @@
       "topic": "ai-literacy",
       "label": "ai literacy",
       "articleIds": [
+        "article:agents",
         "article:ai-agent-advanced-questions",
         "article:ai-agent-first-conversation",
-        "article:loops-vs-goals"
+        "article:context-management",
+        "article:evaluations",
+        "article:fine-tuning",
+        "article:long-running-sessions",
+        "article:loops-vs-goals",
+        "article:memory-vs-context",
+        "article:multi-agent-systems",
+        "article:planning-and-reflection",
+        "article:prompt-caching",
+        "article:prompt-engineering",
+        "article:reasoning-models",
+        "article:retrieval-augmented-generation",
+        "article:tool-use"
       ],
       "pageUrl": "https://aura-knowledge.github.io/topics/ai-literacy/",
       "agentJsonPath": "/agents/topics/ai-literacy.json"
@@ -1160,6 +1549,7 @@
         "article:agent-auditable-research",
         "article:agent-control-planes",
         "article:agentic-commerce-product-truth",
+        "article:agents",
         "article:ai-agent-advanced-questions",
         "article:ai-agent-first-conversation",
         "article:ai-delegation-orchestration",
@@ -1174,12 +1564,24 @@
         "article:audio-first-voice-consumption",
         "article:before-machines",
         "article:birth-of-ai",
+        "article:context-management",
+        "article:evaluations",
+        "article:fine-tuning",
         "article:formal-logic-to-computation",
         "article:foundation-models",
         "article:human-systems",
         "article:learning-machines",
         "article:long-human-road-to-ai",
-        "article:loops-vs-goals"
+        "article:long-running-sessions",
+        "article:loops-vs-goals",
+        "article:memory-vs-context",
+        "article:multi-agent-systems",
+        "article:planning-and-reflection",
+        "article:prompt-caching",
+        "article:prompt-engineering",
+        "article:reasoning-models",
+        "article:retrieval-augmented-generation",
+        "article:tool-use"
       ],
       "pageUrl": "https://aura-knowledge.github.io/articles/2026/",
       "months": [
@@ -1190,6 +1592,7 @@
             "article:agent-auditable-research",
             "article:agent-control-planes",
             "article:agentic-commerce-product-truth",
+            "article:agents",
             "article:ai-agent-advanced-questions",
             "article:ai-agent-first-conversation",
             "article:ai-delegation-orchestration",
@@ -1204,12 +1607,24 @@
             "article:audio-first-voice-consumption",
             "article:before-machines",
             "article:birth-of-ai",
+            "article:context-management",
+            "article:evaluations",
+            "article:fine-tuning",
             "article:formal-logic-to-computation",
             "article:foundation-models",
             "article:human-systems",
             "article:learning-machines",
             "article:long-human-road-to-ai",
-            "article:loops-vs-goals"
+            "article:long-running-sessions",
+            "article:loops-vs-goals",
+            "article:memory-vs-context",
+            "article:multi-agent-systems",
+            "article:planning-and-reflection",
+            "article:prompt-caching",
+            "article:prompt-engineering",
+            "article:reasoning-models",
+            "article:retrieval-augmented-generation",
+            "article:tool-use"
           ],
           "pageUrl": "https://aura-knowledge.github.io/articles/2026/06/"
         }

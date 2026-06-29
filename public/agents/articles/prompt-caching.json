@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 3,
+  "id": "article:prompt-caching",
+  "slug": "prompt-caching",
+  "title": "Prompt Caching: Reusing Stable Context",
+  "canonicalPath": "/articles/prompt-caching/",
+  "sourcePath": "content/articles/2026/prompt-caching/article.md",
+  "agentBriefPath": "content/articles/2026/prompt-caching/agent.md",
+  "thesis": "Prompt caching reduces latency and cost by reusing repeated prompt or context prefixes, but the benefit depends on stable prefixes, provider rules, and enough repeated calls to offset cache-write costs.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-29",
+  "updatedAt": "2026-06-29",
+  "audiences": [
+    "general",
+    "students",
+    "builders"
+  ],
+  "topics": [
+    "ai-agents",
+    "ai-literacy"
+  ],
+  "series": {
+    "slug": "ai-demystified",
+    "title": "AI, De-Mystified",
+    "order": 5,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Prompt caching reuses the unchanged prefix of a prompt so the provider does not have to reprocess it on every call.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-openai-prompt-caching",
+          "snippet": "Cache hits are only possible for exact prefix matches within a prompt. Prompt Caching can reduce latency by up to 80% and input token costs by up to 90%.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-pagedattention",
+          "snippet": "vLLM achieves flexible sharing of KV cache within and across requests to further reduce memory usage.",
+          "supports": "background",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some providers require explicit cache-control markers or beta headers rather than automatic prefix matching, so the mechanism is not uniform across platforms.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Prompt caching is a specialized form of memoization: it stores the result of an expensive computation so later requests can reuse it.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-wikipedia-memoization",
+          "snippet": "Memoization is an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Traditional memoization matches the entire input, while prompt caching matches only a prefix and is subject to provider eviction and minimum-token rules.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "In practice, prompt caching saves the most when a large, stable prefix is sent repeatedly and the variable part stays at the end.",
+      "confidence": "medium-high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-openai-prompt-caching",
+          "snippet": "To realize caching benefits, place static content like instructions and examples at the beginning of your prompt, and put variable content, such as user-specific information, at the end.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some tasks are cheaper or simpler with a single, carefully crafted prompt than with a long cached prefix and multiple follow-up calls.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "The savings from prompt caching are bounded by which tokens match, the provider's pricing and retention rules, and whether the same prefix is reused often enough to offset cache-write costs.",
+      "confidence": "medium",
+      "status": "risk",
+      "evidence": [
+        {
+          "sourceId": "source-openai-prompt-caching",
+          "snippet": "Caching is enabled automatically for prompts that are 1024 tokens or longer. Cached prefixes generally remain active for 5 to 10 minutes of inactivity, up to a maximum of one hour.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-pagedattention",
+          "snippet": "vLLM improves throughput by 2-4x with the same level of latency; the improvement is more pronounced with longer sequences.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Providers may route requests across machines or evict caches unpredictably, so real-world savings can be lower than headline percentages.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-openai-prompt-caching",
+      "title": "OpenAI: Prompt Caching",
+      "url": "https://platform.openai.com/docs/guides/prompt-caching",
+      "type": "documentation",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-anthropic-prompt-caching",
+      "title": "Anthropic: Prompt Caching",
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching",
+      "type": "documentation",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-wikipedia-memoization",
+      "title": "Wikipedia: Memoization",
+      "url": "https://en.wikipedia.org/wiki/Memoization",
+      "type": "article",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-pagedattention",
+      "title": "vLLM: PagedAttention for Efficient LLM Serving",
+      "url": "https://arxiv.org/abs/2309.06180",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:loops-vs-goals"
+    },
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Do not present prompt caching as a guaranteed cost reduction without noting provider rules and prefix-matching limits.",
+    "When summarizing, preserve the plain-language-first, technical-depth-later structure."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-29",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:e3a53873ce3f920e3accebf3a2315e2986d4bbecf51a29919b40d2063c747b66"
+      },
+      {
+        "role": "review",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:e3a53873ce3f920e3accebf3a2315e2986d4bbecf51a29919b40d2063c747b66"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "tone",
+          "privacy",
+          "scope"
+        ],
+        "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
+        "contentHash": "e3a53873ce3f920e3accebf3a2315e2986d4bbecf51a29919b40d2063c747b66"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "examples",
+          "tone",
+          "safety"
+        ],
+        "notes": "Human author approved the draft for publication.",
+        "contentHash": "e3a53873ce3f920e3accebf3a2315e2986d4bbecf51a29919b40d2063c747b66"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "e3a53873ce3f920e3accebf3a2315e2986d4bbecf51a29919b40d2063c747b66",
+  "generatedAt": "2026-06-29T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/prompt-caching/",
+  "agentJsonPath": "/agents/articles/prompt-caching.json",
+  "agentMarkdownPath": "/agents/articles/prompt-caching.md",
+  "sourceRepoPath": "content/articles/2026/prompt-caching/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/prompt-caching/article.md",
+  "tokenEstimate": 512,
+  "sectionOutline": [
+    {
+      "id": "plain-english-meaning",
+      "title": "Plain English Meaning"
+    },
+    {
+      "id": "existing-concept-it-resembles",
+      "title": "Existing Concept It Resembles"
+    },
+    {
+      "id": "what-is-actually-new",
+      "title": "What Is Actually New?"
+    },
+    {
+      "id": "how-it-works-in-practice",
+      "title": "How It Works In Practice"
+    },
+    {
+      "id": "where-it-helps",
+      "title": "Where It Helps"
+    },
+    {
+      "id": "where-it-fails",
+      "title": "Where It Fails"
+    },
+    {
+      "id": "academic-connections",
+      "title": "Academic Connections"
+    },
+    {
+      "id": "practical-checklist",
+      "title": "Practical Checklist"
+    },
+    {
+      "id": "the-de-hype-check",
+      "title": "The De-Hype Check"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    }
+  ]
+}
