@@ -412,6 +412,15 @@ h3 {
   color: var(--text);
 }
 
+.reader-note {
+  max-width: 56ch;
+  margin: 1.1rem 0 0;
+  color: var(--text);
+  font-size: var(--step-0);
+  font-weight: 700;
+  line-height: 1.45;
+}
+
 .button-row {
   display: flex;
   flex-wrap: wrap;
@@ -546,6 +555,70 @@ details[open] .details-state .when-open {
 .home-claim-section {
   border-top: 1px solid var(--border);
   padding: clamp(1.6rem, 4vw, 3rem) 0 clamp(2.5rem, 6vw, 4.5rem);
+}
+
+.reader-guide {
+  display: grid;
+  grid-template-columns: minmax(0, 0.42fr) minmax(0, 1fr);
+  gap: clamp(1.25rem, 4vw, 3rem);
+  border-top: 1px solid var(--border);
+  padding: clamp(1.5rem, 4vw, 3rem) 0;
+}
+
+.reader-guide-copy p:not(.eyebrow) {
+  max-width: 42ch;
+  margin: 1rem 0 0;
+  color: var(--text-muted);
+  font-size: var(--step--1);
+  line-height: 1.55;
+}
+
+.reader-guide-steps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: reader-step;
+}
+
+.reader-guide-steps li {
+  position: relative;
+  display: grid;
+  align-content: start;
+  gap: 0.35rem;
+  min-height: 10rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--surface) 78%, transparent);
+  padding: 1rem;
+  counter-increment: reader-step;
+}
+
+.reader-guide-steps li::before {
+  content: counter(reader-step);
+  display: grid;
+  place-items: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--border));
+  border-radius: 999px;
+  color: var(--accent-strong);
+  font-size: 0.78rem;
+  font-weight: 820;
+  line-height: 1;
+}
+
+.reader-guide-steps strong {
+  color: var(--text);
+  line-height: 1.25;
+}
+
+.reader-guide-steps span {
+  color: var(--text-muted);
+  font-size: var(--step--1);
+  line-height: 1.45;
 }
 
 .home-claim-head {
@@ -1962,6 +2035,7 @@ details[open] .details-state .when-open {
 
   .home-hero,
   .home-shell,
+  .reader-guide,
   .garden-feature,
   .topic-branch-section,
   .section-grid,
@@ -2041,6 +2115,14 @@ details[open] .details-state .when-open {
   .home-claim-grid {
     margin-inline: -0.35rem;
     padding-inline: 0.35rem;
+  }
+
+  .reader-guide-steps {
+    grid-template-columns: 1fr;
+  }
+
+  .reader-guide-steps li {
+    min-height: auto;
   }
 
   .garden-entry-grid,
