@@ -253,6 +253,45 @@
     "status": "proposal"
   },
   {
+    "id": "article:agents",
+    "type": "article",
+    "label": "Agents: Goal-Directed AI Systems That Use Tools",
+    "path": "/articles/agents/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:agents:claim-001",
+    "type": "claim",
+    "label": "An AI agent is a system that pursues a goal across multiple steps, choosing when to use tools, what to remember, and when to stop.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:agents:claim-002",
+    "type": "claim",
+    "label": "The idea of an agent that follows goals and uses tools is older than large language models; it appears in automation scripts, personal assistants, and game AI.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:agents:claim-003",
+    "type": "claim",
+    "label": "In practice, an agent's loop repeatedly decides which tool to use, what to remember, and whether the goal is satisfied.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:agents:claim-004",
+    "type": "claim",
+    "label": "Agent behavior depends heavily on clear goals, reliable tools, and careful limits; without them, autonomy becomes cost and error.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "risk"
+  },
+  {
     "id": "article:ai-agent-advanced-questions",
     "type": "article",
     "label": "Beyond the First Conversation: Advanced Questions for New AI Agent Users",
@@ -703,6 +742,123 @@
     "status": "argument"
   },
   {
+    "id": "article:context-management",
+    "type": "article",
+    "label": "Context Management: What the AI Sees Right Now",
+    "path": "/articles/context-management/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:context-management:claim-001",
+    "type": "claim",
+    "label": "A model can only work with the information currently in its context window; context management decides what that information is.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:context-management:claim-002",
+    "type": "claim",
+    "label": "Context management resembles human working memory and attention, but it uses fixed-size, lossy windows rather than flexible human recall.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:context-management:claim-003",
+    "type": "claim",
+    "label": "Retrieval and summarization can extend the effective context, but they trade completeness, accuracy, and cost.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:context-management:claim-004",
+    "type": "claim",
+    "label": "Good context management requires deciding what to include, what to compress, and when to stop, because a bigger window is not always a better answer.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "risk"
+  },
+  {
+    "id": "article:evaluations",
+    "type": "article",
+    "label": "Evaluations: How We Know an AI Workflow Improved",
+    "path": "/articles/evaluations/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:evaluations:claim-001",
+    "type": "claim",
+    "label": "An evaluation is a test that turns a quality claim into a repeatable, observable result.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:evaluations:claim-002",
+    "type": "claim",
+    "label": "Benchmarks, report cards, and clinical trials all evaluate outcomes against a standard; AI evaluation extends the same idea to generated outputs and workflows.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:evaluations:claim-003",
+    "type": "claim",
+    "label": "A practical AI evaluation usually mixes automatic checks, human judgments, and task-specific metrics rather than relying on a single score.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:evaluations:claim-004",
+    "type": "claim",
+    "label": "A high score on a benchmark can hide failure modes that matter in real use, because no metric captures every kind of usefulness or harm.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "risk"
+  },
+  {
+    "id": "article:fine-tuning",
+    "type": "article",
+    "label": "Fine-Tuning: Teaching a Model a Narrower Behavior",
+    "path": "/articles/fine-tuning/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:fine-tuning:claim-001",
+    "type": "claim",
+    "label": "Fine-tuning changes a model's learned behavior by continuing training on targeted examples, rather than changing what the model sees at runtime.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:fine-tuning:claim-002",
+    "type": "claim",
+    "label": "Fine-tuning is a form of transfer learning: it adapts a general model to a narrower task using additional examples.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:fine-tuning:claim-003",
+    "type": "claim",
+    "label": "Fine-tuning works best when the task is narrow, the desired outputs are consistent, and high-quality labeled examples are available.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:fine-tuning:claim-004",
+    "type": "claim",
+    "label": "Fine-tuning can bake in errors, biases, or brittle patterns from the training data, so it must be paired with evaluation and clear limits.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "risk"
+  },
+  {
     "id": "article:formal-logic-to-computation",
     "type": "article",
     "label": "From Formal Logic to Computation: The Mathematical Road to AI",
@@ -1066,6 +1222,45 @@
     "status": "framing"
   },
   {
+    "id": "article:long-running-sessions",
+    "type": "article",
+    "label": "Long-Running Sessions: Keeping AI Work Coherent Over Time",
+    "path": "/articles/long-running-sessions/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:long-running-sessions:claim-001",
+    "type": "claim",
+    "label": "A long-running session is useful only when the system can remember what matters, recognize progress, and decide when to stop.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:long-running-sessions:claim-002",
+    "type": "claim",
+    "label": "Keeping extended work coherent is already familiar from workflow orchestration, durable execution, project management, and process control.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:long-running-sessions:claim-003",
+    "type": "claim",
+    "label": "In practice, long-running sessions combine summarization, checkpoints, and context pruning to keep the active window focused without losing the goal.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:long-running-sessions:claim-004",
+    "type": "claim",
+    "label": "Without summaries, checkpoints, and stopping rules, long-running sessions drift, waste resources, or resume in broken states.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "risk"
+  },
+  {
     "id": "article:loops-vs-goals",
     "type": "article",
     "label": "Loops vs Goals: The Difference Between Repetition and Direction in AI Agents",
@@ -1100,6 +1295,318 @@
     "id": "article:loops-vs-goals:claim-004",
     "type": "claim",
     "label": "Long-running AI sessions need exit conditions and progress checks to avoid drift, runaway work, or hidden goal substitution.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "risk"
+  },
+  {
+    "id": "article:memory-vs-context",
+    "type": "article",
+    "label": "Memory vs Context: What Should Survive the Conversation?",
+    "path": "/articles/memory-vs-context/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:memory-vs-context:claim-001",
+    "type": "claim",
+    "label": "Context is immediate working material; memory is selected information that persists across time and must be deliberately retrieved or stored.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:memory-vs-context:claim-002",
+    "type": "claim",
+    "label": "The split between immediate context and stored memory appears in cognitive psychology, user interfaces, and database design, not only in recent AI.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:memory-vs-context:claim-003",
+    "type": "claim",
+    "label": "Practical AI systems move information between context and memory through summarization, retrieval, and structured storage, and each transfer is a chance to lose or distort meaning.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:memory-vs-context:claim-004",
+    "type": "claim",
+    "label": "Memory is only useful when retrieval is accurate, updates are careful, and forgetting is as deliberate as remembering.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "risk"
+  },
+  {
+    "id": "article:multi-agent-systems",
+    "type": "article",
+    "label": "Multi-Agent Systems: When More Than One AI Worker Is Involved",
+    "path": "/articles/multi-agent-systems/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:multi-agent-systems:claim-001",
+    "type": "claim",
+    "label": "A multi-agent system solves a problem by dividing it among specialized agents and coordinating their work, not by simply running several models in parallel.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:multi-agent-systems:claim-002",
+    "type": "claim",
+    "label": "Multi-agent systems borrow ideas from distributed systems, ensemble methods, and organizational design, not just recent AI research.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:multi-agent-systems:claim-003",
+    "type": "claim",
+    "label": "Common multi-agent patterns include sequential pipelines, manager-and-workers, and debate-and-review, and each pattern carries different coordination risks.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:multi-agent-systems:claim-004",
+    "type": "claim",
+    "label": "Adding agents increases coordination cost, ambiguity, and failure modes; a multi-agent design should be justified by a specific division of labor, not by default.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "risk"
+  },
+  {
+    "id": "article:planning-and-reflection",
+    "type": "article",
+    "label": "Planning and Reflection: How AI Breaks Down and Revises Work",
+    "path": "/articles/planning-and-reflection/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:planning-and-reflection:claim-001",
+    "type": "claim",
+    "label": "Planning breaks a goal into ordered steps before action; reflection checks results against the goal and decides whether to revise the plan.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:planning-and-reflection:claim-002",
+    "type": "claim",
+    "label": "Planning and reflection are rooted in project management, scientific method, and classical AI search, not only in recent language models.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:planning-and-reflection:claim-003",
+    "type": "claim",
+    "label": "In practice, AI planning and reflection appear as upfront plans, iterative plan-revise loops, and step-by-step reasoning with final verification.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:planning-and-reflection:claim-004",
+    "type": "claim",
+    "label": "Reflection in AI agents is most reliable when paired with external checks such as tests, retrieved sources, or human review; self-critique alone can confirm rather than catch errors.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "risk"
+  },
+  {
+    "id": "article:prompt-caching",
+    "type": "article",
+    "label": "Prompt Caching: Reusing Stable Context",
+    "path": "/articles/prompt-caching/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:prompt-caching:claim-001",
+    "type": "claim",
+    "label": "Prompt caching reuses the unchanged prefix of a prompt so the provider does not have to reprocess it on every call.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:prompt-caching:claim-002",
+    "type": "claim",
+    "label": "Prompt caching is a specialized form of memoization: it stores the result of an expensive computation so later requests can reuse it.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:prompt-caching:claim-003",
+    "type": "claim",
+    "label": "In practice, prompt caching saves the most when a large, stable prefix is sent repeatedly and the variable part stays at the end.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:prompt-caching:claim-004",
+    "type": "claim",
+    "label": "The savings from prompt caching are bounded by which tokens match, the provider's pricing and retention rules, and whether the same prefix is reused often enough to offset cache-write costs.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "risk"
+  },
+  {
+    "id": "article:prompt-engineering",
+    "type": "article",
+    "label": "Prompt Engineering: Instruction Design, Not Magic Words",
+    "path": "/articles/prompt-engineering/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:prompt-engineering:claim-001",
+    "type": "claim",
+    "label": "A prompt is not just a question; it is the designed instruction, context, examples, and constraints that shape what a language model produces.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:prompt-engineering:claim-002",
+    "type": "claim",
+    "label": "Prompt engineering resembles older practices such as clear writing, task design, and human-computer interaction, updated for probabilistic language models.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:prompt-engineering:claim-003",
+    "type": "claim",
+    "label": "Practical prompt engineering uses techniques—such as giving examples, breaking tasks into steps, and defining output formats—to steer model behavior.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:prompt-engineering:claim-004",
+    "type": "claim",
+    "label": "Prompt engineering is a powerful interface tool, but it cannot fix model errors, guarantee truthfulness, or replace evaluation and oversight.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "risk"
+  },
+  {
+    "id": "article:reasoning-models",
+    "type": "article",
+    "label": "Reasoning Models: Slower Thinking, Better Checks?",
+    "path": "/articles/reasoning-models/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:reasoning-models:claim-001",
+    "type": "claim",
+    "label": "Reasoning models improve hard tasks by deliberately spending more computation on explicit intermediate steps before producing a final answer.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:reasoning-models:claim-002",
+    "type": "claim",
+    "label": "Step-by-step problem solving is an old idea; what changed is scale and language-driven search.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:reasoning-models:claim-003",
+    "type": "claim",
+    "label": "In practice, reasoning models expose a longer trace of intermediate reasoning that can be inspected, even if the trace is not always faithful or complete.",
+    "localId": "claim-003",
+    "confidence": "medium",
+    "status": "design"
+  },
+  {
+    "id": "article:reasoning-models:claim-004",
+    "type": "claim",
+    "label": "The gains from reasoning models are strongest on complex, well-defined tasks and weakest on simple, ambiguous, or human-judgment tasks.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "risk"
+  },
+  {
+    "id": "article:retrieval-augmented-generation",
+    "type": "article",
+    "label": "Retrieval-Augmented Generation: Looking Things Up Before Answering",
+    "path": "/articles/retrieval-augmented-generation/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:retrieval-augmented-generation:claim-001",
+    "type": "claim",
+    "label": "Retrieval-augmented generation gives a language model relevant external material at request time instead of relying only on its training data and the current prompt.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:retrieval-augmented-generation:claim-002",
+    "type": "claim",
+    "label": "RAG builds on older ideas from information retrieval and open-book question answering: search for sources, then use them to answer.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:retrieval-augmented-generation:claim-003",
+    "type": "claim",
+    "label": "A typical RAG pipeline has three stages: indexing documents, retrieving relevant chunks, and generating an answer conditioned on those chunks.",
+    "localId": "claim-003",
+    "confidence": "high",
+    "status": "design"
+  },
+  {
+    "id": "article:retrieval-augmented-generation:claim-004",
+    "type": "claim",
+    "label": "RAG reduces some kinds of hallucination, but it cannot fix missing, outdated, or misleading source material, and it can introduce new errors by misusing retrieved passages.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "risk"
+  },
+  {
+    "id": "article:tool-use",
+    "type": "article",
+    "label": "Tool Use: When the Model Calls Something Outside Itself",
+    "path": "/articles/tool-use/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:tool-use:claim-001",
+    "type": "claim",
+    "label": "Tool use extends a language model by letting it invoke external capabilities it does not itself possess.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:tool-use:claim-002",
+    "type": "claim",
+    "label": "Tool use in AI is conceptually similar to delegation, remote procedure calls, and human use of instruments, but it automates the choice of which tool to invoke.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:tool-use:claim-003",
+    "type": "claim",
+    "label": "Common tool-use patterns include search, code execution, file or database retrieval, and API calls, each with different reliability and risk profiles.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:tool-use:claim-004",
+    "type": "claim",
+    "label": "Tool use introduces failure modes of wrong selection, bad arguments, misplaced trust in tool output, and unwanted actions that must be governed by permissions and checks.",
     "localId": "claim-004",
     "confidence": "medium",
     "status": "risk"
@@ -1336,6 +1843,13 @@
     "sourceType": "article"
   },
   {
+    "id": "source-anthropic-prompt-caching",
+    "type": "source",
+    "label": "Anthropic: Prompt Caching",
+    "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching",
+    "sourceType": "documentation"
+  },
+  {
     "id": "source-anthropic-prompting",
     "type": "source",
     "label": "Anthropic: Prompt engineering overview",
@@ -1343,11 +1857,39 @@
     "sourceType": "product"
   },
   {
+    "id": "source-attention-is-all-you-need",
+    "type": "source",
+    "label": "Attention Is All You Need",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-autogen",
+    "type": "source",
+    "label": "Wu, Bansal, Jin, et al.: AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+    "url": "https://arxiv.org/abs/2308.08155",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-autonomous-agents-llm",
+    "type": "source",
+    "label": "Large Language Model based Multi-Agents: A Survey of Progress and Challenges",
+    "url": "https://arxiv.org/abs/2402.01680",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-backprop-1986",
     "type": "source",
     "label": "Learning Representations by Back-Propagating Errors",
     "url": "https://doi.org/10.1038/323533a0",
     "sourceType": "research-paper"
+  },
+  {
+    "id": "source-baddeley-hitch",
+    "type": "source",
+    "label": "Baddeley & Hitch: Working Memory",
+    "url": "https://www.simplypsychology.org/working-memory.html",
+    "sourceType": "article"
   },
   {
     "id": "source-bainbridge-ironies-automation",
@@ -1378,6 +1920,13 @@
     "sourceType": "research"
   },
   {
+    "id": "source-big-bench",
+    "type": "source",
+    "label": "Beyond the Imitation Game Benchmark (BIG-bench)",
+    "url": "https://arxiv.org/abs/2206.04615",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-boole-laws-thought",
     "type": "source",
     "label": "An Investigation of the Laws of Thought",
@@ -1397,6 +1946,20 @@
     "label": "Cybernetics",
     "url": "https://www.britannica.com/science/cybernetics",
     "sourceType": "documentation"
+  },
+  {
+    "id": "source-brown-few-shot",
+    "type": "source",
+    "label": "Brown et al.: Language Models are Few-Shot Learners",
+    "url": "https://arxiv.org/abs/2005.14165",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-bsharat-instructions",
+    "type": "source",
+    "label": "Bsharat et al.: Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4",
+    "url": "https://arxiv.org/abs/2312.16171",
+    "sourceType": "paper"
   },
   {
     "id": "source-c2pa",
@@ -1525,6 +2088,20 @@
     "sourceType": "article"
   },
   {
+    "id": "source-cot-paper",
+    "type": "source",
+    "label": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "url": "https://arxiv.org/abs/2201.11903",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-cowan-working-memory",
+    "type": "source",
+    "label": "Cowan: The Magical Number 4 in Short-Term Memory",
+    "url": "https://doi.org/10.1017/S0140525X01003922",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-cpsc-recalls-api",
     "type": "source",
     "label": "CPSC Recalls Application Program Interface API Information",
@@ -1586,6 +2163,20 @@
     "label": "Digital Gardens",
     "url": "https://vivqu.com/blog/2020/10/18/digital-gardens/",
     "sourceType": "design"
+  },
+  {
+    "id": "source-dpr-karpukhin-2020",
+    "type": "source",
+    "label": "Dense Passage Retrieval for Open-Domain Question Answering",
+    "url": "https://arxiv.org/abs/2004.04906",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-drqa-chen-2017",
+    "type": "source",
+    "label": "Reading Wikipedia to Answer Open-Domain Questions",
+    "url": "https://arxiv.org/abs/1704.00051",
+    "sourceType": "paper"
   },
   {
     "id": "source-edvac-first-draft",
@@ -1651,6 +2242,13 @@
     "sourceType": "regulatory"
   },
   {
+    "id": "source-eval-survey",
+    "type": "source",
+    "label": "Evaluating Large Language Models: A Comprehensive Survey",
+    "url": "https://arxiv.org/abs/2310.19736",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-feigenbaum-1977",
     "type": "source",
     "label": "The Art of Artificial Intelligence: I. Themes and Case Studies of Knowledge Engineering",
@@ -1714,11 +2312,32 @@
     "sourceType": "product"
   },
   {
+    "id": "source-generative-agents",
+    "type": "source",
+    "label": "Generative Agents: Interactive Simulacra of Human Behavior",
+    "url": "https://arxiv.org/abs/2304.03442",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-gibson-affordances",
+    "type": "source",
+    "label": "Gibson: The Ecological Approach to Visual Perception",
+    "url": "https://www.hachettebookgroup.com/titles/james-j-gibson/the-ecological-approach-to-visual-perception/9780205238818/",
+    "sourceType": "book"
+  },
+  {
     "id": "source-godel",
     "type": "source",
     "label": "Gödel's Incompleteness Theorems",
     "url": "https://plato.stanford.edu/entries/goedel-incompleteness/",
     "sourceType": "documentation"
+  },
+  {
+    "id": "source-goodfellow-deep-learning",
+    "type": "source",
+    "label": "Goodfellow, Bengio, and Courville: Deep Learning",
+    "url": "https://www.deeplearningbook.org/",
+    "sourceType": "book"
   },
   {
     "id": "source-google-ap2",
@@ -1812,6 +2431,13 @@
     "sourceType": "safety-guide"
   },
   {
+    "id": "source-helm",
+    "type": "source",
+    "label": "Holistic Evaluation of Language Models (HELM)",
+    "url": "https://arxiv.org/abs/2211.09110",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-helm-2022",
     "type": "source",
     "label": "Holistic Evaluation of Language Models",
@@ -1840,6 +2466,20 @@
     "sourceType": "safety-guide"
   },
   {
+    "id": "source-huggingface-fine-tuning-guide",
+    "type": "source",
+    "label": "Hugging Face: Fine-tuning",
+    "url": "https://huggingface.co/docs/transformers/training",
+    "sourceType": "article"
+  },
+  {
+    "id": "source-human-in-loop",
+    "type": "source",
+    "label": "Human-in-the-loop Machine Learning: a state of the art",
+    "url": "https://arxiv.org/abs/2108.00981",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-iea-energy-ai",
     "type": "source",
     "label": "Key Questions on Energy and AI",
@@ -1866,6 +2506,13 @@
     "label": "ImageNet Large Scale Visual Recognition Challenge",
     "url": "https://www.image-net.org/challenges/LSVRC/",
     "sourceType": "benchmark-site"
+  },
+  {
+    "id": "source-instructgpt-paper",
+    "type": "source",
+    "label": "Training language models to follow instructions with human feedback",
+    "url": "https://arxiv.org/abs/2203.02155",
+    "sourceType": "paper"
   },
   {
     "id": "source-isaw-antikythera",
@@ -1938,6 +2585,13 @@
     "sourceType": "public-report"
   },
   {
+    "id": "source-llm-plus-p",
+    "type": "source",
+    "label": "LLM+P: Empowering Large Language Models with Optimal Planning Proficiency",
+    "url": "https://arxiv.org/abs/2304.11477",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-llms-txt",
     "type": "source",
     "label": "llms.txt proposal",
@@ -1949,6 +2603,20 @@
     "type": "source",
     "label": "The Logic Theory Machine: A Complex Information Processing System",
     "url": "https://www.rand.org/pubs/papers/P868.html",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-lora-paper",
+    "type": "source",
+    "label": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "url": "https://arxiv.org/abs/2106.09685",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-lost-in-the-middle",
+    "type": "source",
+    "label": "Lost in the Middle: How Language Models Use Long Contexts",
+    "url": "https://arxiv.org/abs/2307.03172",
     "sourceType": "paper"
   },
   {
@@ -1987,6 +2655,13 @@
     "sourceType": "documentation"
   },
   {
+    "id": "source-memgpt",
+    "type": "source",
+    "label": "Packer et al.: MemGPT: Towards LLMs as Operating Systems",
+    "url": "https://arxiv.org/abs/2310.08560",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-minsky-papert-1969",
     "type": "source",
     "label": "Perceptrons: An Introduction to Computational Geometry",
@@ -1994,11 +2669,25 @@
     "sourceType": "book"
   },
   {
+    "id": "source-mmlu",
+    "type": "source",
+    "label": "Measuring Massive Multitask Language Understanding",
+    "url": "https://arxiv.org/abs/2009.03300",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-mpiwg-antikythera",
     "type": "source",
     "label": "The Inscriptions of the Antikythera Mechanism",
     "url": "https://www.mpiwg-berlin.mpg.de/research/projects/inscriptions-antikythera-mechanism",
     "sourceType": "research-project"
+  },
+  {
+    "id": "source-multi-agent-debate",
+    "type": "source",
+    "label": "Du, Li, Tarlow, et al.: Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+    "url": "https://arxiv.org/abs/2305.14325",
+    "sourceType": "paper"
   },
   {
     "id": "source-mycin-1984",
@@ -2099,11 +2788,39 @@
     "sourceType": "product"
   },
   {
+    "id": "source-openai-fine-tuning-guide",
+    "type": "source",
+    "label": "OpenAI: Fine-tuning guide",
+    "url": "https://platform.openai.com/docs/guides/fine-tuning",
+    "sourceType": "article"
+  },
+  {
     "id": "source-openai-merchants",
     "type": "source",
     "label": "Power product discovery in ChatGPT",
     "url": "https://chatgpt.com/merchants/",
     "sourceType": "product"
+  },
+  {
+    "id": "source-openai-o1",
+    "type": "source",
+    "label": "OpenAI: Learning to Reason with LLMs",
+    "url": "https://openai.com/index/learning-to-reason-with-llms/",
+    "sourceType": "article"
+  },
+  {
+    "id": "source-openai-prompt-caching",
+    "type": "source",
+    "label": "OpenAI: Prompt Caching",
+    "url": "https://platform.openai.com/docs/guides/prompt-caching",
+    "sourceType": "documentation"
+  },
+  {
+    "id": "source-openai-prompt-guide",
+    "type": "source",
+    "label": "OpenAI: Prompt Engineering",
+    "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+    "sourceType": "documentation"
   },
   {
     "id": "source-openai-stripe-acp",
@@ -2125,6 +2842,13 @@
     "label": "openFDA Food Enforcement API",
     "url": "https://open.fda.gov/apis/food/enforcement/",
     "sourceType": "regulatory-data"
+  },
+  {
+    "id": "source-pagedattention",
+    "type": "source",
+    "label": "vLLM: PagedAttention for Efficient LLM Serving",
+    "url": "https://arxiv.org/abs/2309.06180",
+    "sourceType": "paper"
   },
   {
     "id": "source-pai-data-labor",
@@ -2183,11 +2907,32 @@
     "sourceType": "case-study"
   },
   {
+    "id": "source-rag",
+    "type": "source",
+    "label": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-rag-2020",
     "type": "source",
     "label": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
     "url": "https://arxiv.org/abs/2005.11401",
     "sourceType": "research"
+  },
+  {
+    "id": "source-rag-lewis-2020",
+    "type": "source",
+    "label": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-rag-survey-gao-2024",
+    "type": "source",
+    "label": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+    "url": "https://arxiv.org/abs/2312.10997",
+    "sourceType": "paper"
   },
   {
     "id": "source-react-2022",
@@ -2204,6 +2949,13 @@
     "sourceType": "paper"
   },
   {
+    "id": "source-reflexion-paper",
+    "type": "source",
+    "label": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2303.11366",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-rlhf-2022",
     "type": "source",
     "label": "Training language models to follow instructions with human feedback",
@@ -2216,6 +2968,13 @@
     "label": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
     "url": "https://homepages.math.uic.edu/~lreyzin/papers/rosenblatt58.pdf",
     "sourceType": "paper"
+  },
+  {
+    "id": "source-russell-norvig-aima",
+    "type": "source",
+    "label": "Russell and Norvig: Artificial Intelligence: A Modern Approach",
+    "url": "https://aima.cs.berkeley.edu/",
+    "sourceType": "book"
   },
   {
     "id": "source-samuel-1959",
@@ -2244,6 +3003,13 @@
     "label": "Schema.org Review",
     "url": "https://schema.org/Review",
     "sourceType": "schema"
+  },
+  {
+    "id": "source-schick-toolformer",
+    "type": "source",
+    "label": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "url": "https://arxiv.org/abs/2302.04761",
+    "sourceType": "paper"
   },
   {
     "id": "source-science-museum-automata",
@@ -2400,6 +3166,13 @@
     "sourceType": "research"
   },
   {
+    "id": "source-toolformer-paper",
+    "type": "source",
+    "label": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "url": "https://arxiv.org/abs/2302.04761",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-transformer-2017",
     "type": "source",
     "label": "Attention Is All You Need",
@@ -2419,6 +3192,13 @@
     "label": "A Survey on Truth Discovery",
     "url": "https://www.kdd.org/exploration_files/Article1_17_2.pdf",
     "sourceType": "research"
+  },
+  {
+    "id": "source-tulving-memory",
+    "type": "source",
+    "label": "Tulving: Episodic and Semantic Memory",
+    "url": "https://plato.stanford.edu/entries/memory/",
+    "sourceType": "article"
   },
   {
     "id": "source-turing-1936",
@@ -2477,6 +3257,20 @@
     "sourceType": "standard"
   },
   {
+    "id": "source-wei-cot",
+    "type": "source",
+    "label": "Wei et al.: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "url": "https://arxiv.org/abs/2201.11903",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-wei-cot-2022",
+    "type": "source",
+    "label": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "url": "https://arxiv.org/abs/2201.11903",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-whipple-napier",
     "type": "source",
     "label": "John Napier's Calculating Tools",
@@ -2488,6 +3282,20 @@
     "type": "source",
     "label": "Cybernetics: Or Control and Communication in the Animal and the Machine",
     "url": "https://doi.org/10.7551/mitpress/11810.001.0001",
+    "sourceType": "book"
+  },
+  {
+    "id": "source-wikipedia-memoization",
+    "type": "source",
+    "label": "Wikipedia: Memoization",
+    "url": "https://en.wikipedia.org/wiki/Memoization",
+    "sourceType": "article"
+  },
+  {
+    "id": "source-wooldridge-mas",
+    "type": "source",
+    "label": "Wooldridge: An Introduction to MultiAgent Systems",
+    "url": "https://www.cs.ox.ac.uk/people/michael.wooldridge/pubs/imas/IMAS2e.pdf",
     "sourceType": "book"
   },
   {
@@ -2503,6 +3311,13 @@
     "label": "Digital Progress and Trends Report 2023",
     "url": "https://doi.org/10.1596/978-1-4648-2049-6",
     "sourceType": "institutional-report"
+  },
+  {
+    "id": "source-yao-tot-2023",
+    "type": "source",
+    "label": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+    "url": "https://arxiv.org/abs/2305.10601",
+    "sourceType": "paper"
   },
   {
     "id": "topic:agent-orchestration",

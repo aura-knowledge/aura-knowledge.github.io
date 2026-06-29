@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 3,
+  "id": "article:fine-tuning",
+  "slug": "fine-tuning",
+  "title": "Fine-Tuning: Teaching a Model a Narrower Behavior",
+  "canonicalPath": "/articles/fine-tuning/",
+  "sourcePath": "content/articles/2026/fine-tuning/article.md",
+  "agentBriefPath": "content/articles/2026/fine-tuning/agent.md",
+  "thesis": "Fine-tuning reshapes a model's learned behavior by continuing training on targeted examples, making it useful for stable, narrow tasks, but it is not a substitute for clear instructions, good data, or ongoing evaluation.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-29",
+  "updatedAt": "2026-06-29",
+  "audiences": [
+    "general",
+    "students",
+    "builders"
+  ],
+  "topics": [
+    "ai-agents",
+    "ai-literacy"
+  ],
+  "series": {
+    "slug": "ai-demystified",
+    "title": "AI, De-Mystified",
+    "order": 13,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Fine-tuning changes a model's learned behavior by continuing training on targeted examples, rather than changing what the model sees at runtime.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-openai-fine-tuning-guide",
+          "snippet": "Fine-tuning lets you get more out of the models available through the API by providing higher quality results than prompt engineering alone, training with more examples than can fit in a prompt.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some providers now blur the line by allowing runtime examples, retrieval, and cached weights; the practical boundary between fine-tuning and prompting can depend on the platform.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Fine-tuning is a form of transfer learning: it adapts a general model to a narrower task using additional examples.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-goodfellow-deep-learning",
+          "snippet": "Transfer learning and domain adaptation refer to the situation where what has been learned in one setting is exploited to improve generalization in another setting.",
+          "supports": "background",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Not every fine-tuning procedure follows the classic transfer-learning setup; some methods train on a broad mixture of tasks rather than a single narrow target domain.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Fine-tuning works best when the task is narrow, the desired outputs are consistent, and high-quality labeled examples are available.",
+      "confidence": "medium-high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-huggingface-fine-tuning-guide",
+          "snippet": "Fine-tuning is a training approach where a pretrained model is trained on a smaller, task-specific dataset to adapt it for a particular downstream task.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-lora-paper",
+          "snippet": "LoRA freezes the pretrained model weights and injects trainable rank decomposition matrices into each layer of the Transformer architecture, greatly reducing the number of trainable parameters for downstream tasks.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Emerging techniques such as instruction tuning train on very broad mixtures and still improve across many tasks, so narrowness is a useful heuristic rather than a strict requirement.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Fine-tuning can bake in errors, biases, or brittle patterns from the training data, so it must be paired with evaluation and clear limits.",
+      "confidence": "medium-high",
+      "status": "risk",
+      "evidence": [
+        {
+          "sourceId": "source-instructgpt-paper",
+          "snippet": "Models trained with RLHF can become more brittle and can exploit distributional shifts or optimize the proxy objective in unintended ways.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Careful data curation, holdout evaluation, and human oversight can reduce these risks substantially; the claim is about necessary caution, not inevitability.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-goodfellow-deep-learning",
+      "title": "Goodfellow, Bengio, and Courville: Deep Learning",
+      "url": "https://www.deeplearningbook.org/",
+      "type": "book",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-openai-fine-tuning-guide",
+      "title": "OpenAI: Fine-tuning guide",
+      "url": "https://platform.openai.com/docs/guides/fine-tuning",
+      "type": "article",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-huggingface-fine-tuning-guide",
+      "title": "Hugging Face: Fine-tuning",
+      "url": "https://huggingface.co/docs/transformers/training",
+      "type": "article",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-lora-paper",
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "url": "https://arxiv.org/abs/2106.09685",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-instructgpt-paper",
+      "title": "Training language models to follow instructions with human feedback",
+      "url": "https://arxiv.org/abs/2203.02155",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:loops-vs-goals"
+    },
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Do not present fine-tuning as a substitute for good data, clear goals, or human review.",
+    "When summarizing, preserve the plain-language-first, technical-depth-later structure."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-29",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:94e920a1ee4f0ffaa530fb636e76df35e06c1aafb9647a3e01f82c64494b1527"
+      },
+      {
+        "role": "review",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:94e920a1ee4f0ffaa530fb636e76df35e06c1aafb9647a3e01f82c64494b1527"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "tone",
+          "privacy",
+          "scope"
+        ],
+        "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
+        "contentHash": "94e920a1ee4f0ffaa530fb636e76df35e06c1aafb9647a3e01f82c64494b1527"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "examples",
+          "tone",
+          "safety"
+        ],
+        "notes": "Human author approved the draft for publication.",
+        "contentHash": "94e920a1ee4f0ffaa530fb636e76df35e06c1aafb9647a3e01f82c64494b1527"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "94e920a1ee4f0ffaa530fb636e76df35e06c1aafb9647a3e01f82c64494b1527"
+}

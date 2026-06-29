@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 3,
+  "id": "article:reasoning-models",
+  "slug": "reasoning-models",
+  "title": "Reasoning Models: Slower Thinking, Better Checks?",
+  "canonicalPath": "/articles/reasoning-models/",
+  "sourcePath": "content/articles/2026/reasoning-models/article.md",
+  "agentBriefPath": "content/articles/2026/reasoning-models/agent.md",
+  "thesis": "Reasoning models improve difficult tasks by spending additional compute on explicit intermediate reasoning steps, but the gains come with higher latency, cost, and no guarantee of correctness.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-29",
+  "updatedAt": "2026-06-29",
+  "audiences": [
+    "general",
+    "students",
+    "builders"
+  ],
+  "topics": [
+    "ai-agents",
+    "ai-literacy"
+  ],
+  "series": {
+    "slug": "ai-demystified",
+    "title": "AI, De-Mystified",
+    "order": 14,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Reasoning models improve hard tasks by deliberately spending more computation on explicit intermediate steps before producing a final answer.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-wei-cot-2022",
+          "snippet": "Chain-of-thought prompting elicits multi-step reasoning and improves performance on math word problems and symbolic reasoning tasks.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "On trivial or sufficiently familiar tasks, adding explicit reasoning steps increases latency and cost without improving accuracy.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Step-by-step problem solving is an old idea; what changed is scale and language-driven search.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-yao-tot-2023",
+          "snippet": "Tree of Thoughts frames language-model reasoning as deliberate search over coherent units of text, allowing exploration, evaluation, and backtracking.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Classical AI planners and theorem provers also performed step-by-step search, but relied on formal symbolic states rather than natural language.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "In practice, reasoning models expose a longer trace of intermediate reasoning that can be inspected, even if the trace is not always faithful or complete.",
+      "confidence": "medium",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-react-paper",
+          "snippet": "ReAct interleaves reasoning traces with actions, producing intermediate steps that can be inspected alongside tool outputs.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Research on chain-of-thought faithfulness finds that visible reasoning traces do not always reflect the true factors determining the model's answer.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "The gains from reasoning models are strongest on complex, well-defined tasks and weakest on simple, ambiguous, or human-judgment tasks.",
+      "confidence": "medium-high",
+      "status": "risk",
+      "evidence": [
+        {
+          "sourceId": "source-openai-o1",
+          "snippet": "OpenAI's o1 models use additional test-time compute to improve scores on challenging math, science, and coding benchmarks.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "User-facing evaluations show that for many everyday queries, faster non-reasoning models are preferred because of latency and cost.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-wei-cot-2022",
+      "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "url": "https://arxiv.org/abs/2201.11903",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-yao-tot-2023",
+      "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+      "url": "https://arxiv.org/abs/2305.10601",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-react-paper",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "url": "https://arxiv.org/abs/2210.03629",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-openai-o1",
+      "title": "OpenAI: Learning to Reason with LLMs",
+      "url": "https://openai.com/index/learning-to-reason-with-llms/",
+      "type": "article",
+      "accessed": "2026-06-29"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:loops-vs-goals"
+    },
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Do not present reasoning models as all-knowing or safe for high-stakes decisions without human review.",
+    "When summarizing, preserve the plain-language-first, technical-depth-later structure."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-29",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:b21dae5f1c44bbe6635b0cf257a7a84cf9ec8eaa3715c432faf4e67e0e572861"
+      },
+      {
+        "role": "review",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:b21dae5f1c44bbe6635b0cf257a7a84cf9ec8eaa3715c432faf4e67e0e572861"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "tone",
+          "privacy",
+          "scope"
+        ],
+        "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
+        "contentHash": "b21dae5f1c44bbe6635b0cf257a7a84cf9ec8eaa3715c432faf4e67e0e572861"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "examples",
+          "tone",
+          "safety"
+        ],
+        "notes": "Human author approved the draft for publication.",
+        "contentHash": "b21dae5f1c44bbe6635b0cf257a7a84cf9ec8eaa3715c432faf4e67e0e572861"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "b21dae5f1c44bbe6635b0cf257a7a84cf9ec8eaa3715c432faf4e67e0e572861",
+  "generatedAt": "2026-06-29T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/reasoning-models/",
+  "agentJsonPath": "/agents/articles/reasoning-models.json",
+  "agentMarkdownPath": "/agents/articles/reasoning-models.md",
+  "sourceRepoPath": "content/articles/2026/reasoning-models/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/reasoning-models/article.md",
+  "tokenEstimate": 485,
+  "sectionOutline": [
+    {
+      "id": "plain-english-meaning",
+      "title": "Plain English Meaning"
+    },
+    {
+      "id": "existing-concept-it-resembles",
+      "title": "Existing Concept It Resembles"
+    },
+    {
+      "id": "what-is-actually-new",
+      "title": "What Is Actually New?"
+    },
+    {
+      "id": "how-it-works-in-practice",
+      "title": "How It Works In Practice"
+    },
+    {
+      "id": "where-it-helps",
+      "title": "Where It Helps"
+    },
+    {
+      "id": "where-it-fails",
+      "title": "Where It Fails"
+    },
+    {
+      "id": "academic-connections",
+      "title": "Academic Connections"
+    },
+    {
+      "id": "practical-checklist",
+      "title": "Practical Checklist"
+    },
+    {
+      "id": "the-de-hype-check",
+      "title": "The De-Hype Check"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    }
+  ]
+}

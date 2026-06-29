@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 3,
+  "id": "article:prompt-engineering",
+  "slug": "prompt-engineering",
+  "title": "Prompt Engineering: Instruction Design, Not Magic Words",
+  "canonicalPath": "/articles/prompt-engineering/",
+  "sourcePath": "content/articles/2026/prompt-engineering/article.md",
+  "agentBriefPath": "content/articles/2026/prompt-engineering/agent.md",
+  "thesis": "Prompt engineering is the disciplined design of instructions, examples, constraints, and evaluation criteria so that a language model produces useful, reliable output.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-29",
+  "updatedAt": "2026-06-29",
+  "audiences": [
+    "general",
+    "students",
+    "builders"
+  ],
+  "topics": [
+    "ai-agents",
+    "ai-literacy"
+  ],
+  "series": {
+    "slug": "ai-demystified",
+    "title": "AI, De-Mystified",
+    "order": 4,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "A prompt is not just a question; it is the designed instruction, context, examples, and constraints that shape what a language model produces.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-brown-few-shot",
+          "snippet": "Language models can perform a wide range of tasks from natural-language instructions and from a few examples concatenated in the model's context.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "For simple tasks, a bare question can be enough; prompt design becomes important mainly as tasks grow more specific or complex.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Prompt engineering resembles older practices such as clear writing, task design, and human-computer interaction, updated for probabilistic language models.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-openai-prompt-guide",
+          "snippet": "Prompt engineering best practices include writing clear instructions, providing reference text, and splitting complex tasks into simpler subtasks.",
+          "supports": "background",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Unlike human readers, language models lack persistent memory, real-world grounding, and explicit intent, so analogies to human instruction have limits.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Practical prompt engineering uses techniques—such as giving examples, breaking tasks into steps, and defining output formats—to steer model behavior.",
+      "confidence": "medium-high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-brown-few-shot",
+          "snippet": "Few-shot prompting provides input-output examples in the context, allowing the model to infer the desired pattern.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-wei-cot",
+          "snippet": "Chain-of-thought prompting elicits reasoning by prompting the model to generate intermediate reasoning steps before the final answer.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-bsharat-instructions",
+          "snippet": "Empirical studies of principled instructions find that specifying output format and asking the model to reason step by step improve task performance.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "These techniques vary in effectiveness across models and tasks; some tasks are better addressed with fine-tuning, retrieval, or tool use than with prompting alone.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Prompt engineering is a powerful interface tool, but it cannot fix model errors, guarantee truthfulness, or replace evaluation and oversight.",
+      "confidence": "medium",
+      "status": "risk",
+      "evidence": [
+        {
+          "sourceId": "source-openai-prompt-guide",
+          "snippet": "Prompt engineering is iterative; outputs should be evaluated against ground truth because models can produce plausible-sounding but incorrect answers.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "In narrow, well-specified domains, carefully designed prompts can substantially reduce certain classes of errors, so the limits are context-dependent.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-brown-few-shot",
+      "title": "Brown et al.: Language Models are Few-Shot Learners",
+      "url": "https://arxiv.org/abs/2005.14165",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-wei-cot",
+      "title": "Wei et al.: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "url": "https://arxiv.org/abs/2201.11903",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-bsharat-instructions",
+      "title": "Bsharat et al.: Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4",
+      "url": "https://arxiv.org/abs/2312.16171",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-openai-prompt-guide",
+      "title": "OpenAI: Prompt Engineering",
+      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+      "type": "documentation",
+      "accessed": "2026-06-29"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:loops-vs-goals"
+    },
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Do not present prompt engineering as a substitute for evaluation, oversight, or ground-truth verification.",
+    "When summarizing, preserve the plain-language-first, technical-depth-later structure."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-29",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:bcd482cd554fc8fa770fe1730753d0ff7d37b181722aa74f129685d11f0ed738"
+      },
+      {
+        "role": "review",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:bcd482cd554fc8fa770fe1730753d0ff7d37b181722aa74f129685d11f0ed738"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "tone",
+          "privacy",
+          "scope"
+        ],
+        "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
+        "contentHash": "bcd482cd554fc8fa770fe1730753d0ff7d37b181722aa74f129685d11f0ed738"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "examples",
+          "tone",
+          "safety"
+        ],
+        "notes": "Human author approved the draft for publication.",
+        "contentHash": "bcd482cd554fc8fa770fe1730753d0ff7d37b181722aa74f129685d11f0ed738"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "bcd482cd554fc8fa770fe1730753d0ff7d37b181722aa74f129685d11f0ed738"
+}

@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 3,
+  "id": "article:multi-agent-systems",
+  "slug": "multi-agent-systems",
+  "title": "Multi-Agent Systems: When More Than One AI Worker Is Involved",
+  "canonicalPath": "/articles/multi-agent-systems/",
+  "sourcePath": "content/articles/2026/multi-agent-systems/article.md",
+  "agentBriefPath": "content/articles/2026/multi-agent-systems/agent.md",
+  "thesis": "Multi-agent systems split complex work across specialized AI agents, but the engineering value comes from coordination, communication, evaluation, and cost tradeoffs, not from simply adding more agents.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-29",
+  "updatedAt": "2026-06-29",
+  "audiences": [
+    "general",
+    "students",
+    "builders"
+  ],
+  "topics": [
+    "ai-agents",
+    "ai-literacy"
+  ],
+  "series": {
+    "slug": "ai-demystified",
+    "title": "AI, De-Mystified",
+    "order": 12,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "A multi-agent system solves a problem by dividing it among specialized agents and coordinating their work, not by simply running several models in parallel.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-wooldridge-mas",
+          "snippet": "A multi-agent system is one composed of multiple interacting, autonomous agents, where the key problem is coordinating those agents so that they can work together.",
+          "supports": "background",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some implementations call themselves multi-agent while mostly running the same prompt across several outputs and picking the best one, which is closer to ensembling than true division of labor.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Multi-agent systems borrow ideas from distributed systems, ensemble methods, and organizational design, not just recent AI research.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-wooldridge-mas",
+          "snippet": "Research in multi-agent systems draws on ideas from economics, game theory, and distributed computing, treating coordination as a central problem.",
+          "supports": "background",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Classical multi-agent work often assumes formally specified agents and environments, whereas LLM-based agents are defined informally by prompts, making direct transfer of older theory difficult.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Common multi-agent patterns include sequential pipelines, manager-and-workers, and debate-and-review, and each pattern carries different coordination risks.",
+      "confidence": "medium-high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-autogen",
+          "snippet": "Conversational programming with multiple agents enables flexible patterns such as sequential chats, group chats, and nested chats for task decomposition.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-multi-agent-debate",
+          "snippet": "Multiple instances of a language model debate their answers over several rounds, improving reasoning and factual accuracy.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "These patterns are not standardized; different frameworks implement them with different interfaces, error-handling rules, and observability guarantees.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Adding agents increases coordination cost, ambiguity, and failure modes; a multi-agent design should be justified by a specific division of labor, not by default.",
+      "confidence": "medium",
+      "status": "risk",
+      "evidence": [
+        {
+          "sourceId": "source-multi-agent-debate",
+          "snippet": "Debate improves accuracy on some reasoning tasks but increases the number of model calls, latency, and the complexity of aggregating conflicting outputs.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "For some simple tasks, a carefully written single-agent prompt can match or beat a multi-agent setup at lower cost and latency.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-wooldridge-mas",
+      "title": "Wooldridge: An Introduction to MultiAgent Systems",
+      "url": "https://www.cs.ox.ac.uk/people/michael.wooldridge/pubs/imas/IMAS2e.pdf",
+      "type": "book",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-multi-agent-debate",
+      "title": "Du, Li, Tarlow, et al.: Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+      "url": "https://arxiv.org/abs/2305.14325",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-react-paper",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "url": "https://arxiv.org/abs/2210.03629",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-autogen",
+      "title": "Wu, Bansal, Jin, et al.: AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+      "url": "https://arxiv.org/abs/2308.08155",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:loops-vs-goals"
+    },
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Do not present multi-agent systems as automatically better than single-agent systems.",
+    "When summarizing, preserve the plain-language-first, technical-depth-later structure."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-29",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:a98fc69a4f76de44aec09b4053d177a0e5f61c7d61707cac1564e8055aa860d0"
+      },
+      {
+        "role": "review",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:a98fc69a4f76de44aec09b4053d177a0e5f61c7d61707cac1564e8055aa860d0"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "tone",
+          "privacy",
+          "scope"
+        ],
+        "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
+        "contentHash": "a98fc69a4f76de44aec09b4053d177a0e5f61c7d61707cac1564e8055aa860d0"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "examples",
+          "tone",
+          "safety"
+        ],
+        "notes": "Human author approved the draft for publication.",
+        "contentHash": "a98fc69a4f76de44aec09b4053d177a0e5f61c7d61707cac1564e8055aa860d0"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "a98fc69a4f76de44aec09b4053d177a0e5f61c7d61707cac1564e8055aa860d0",
+  "generatedAt": "2026-06-29T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/multi-agent-systems/",
+  "agentJsonPath": "/agents/articles/multi-agent-systems.json",
+  "agentMarkdownPath": "/agents/articles/multi-agent-systems.md",
+  "sourceRepoPath": "content/articles/2026/multi-agent-systems/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/multi-agent-systems/article.md",
+  "tokenEstimate": 489,
+  "sectionOutline": [
+    {
+      "id": "plain-english-meaning",
+      "title": "Plain English Meaning"
+    },
+    {
+      "id": "existing-concept-it-resembles",
+      "title": "Existing Concept It Resembles"
+    },
+    {
+      "id": "what-is-actually-new",
+      "title": "What Is Actually New?"
+    },
+    {
+      "id": "how-it-works-in-practice",
+      "title": "How It Works In Practice"
+    },
+    {
+      "id": "where-it-helps",
+      "title": "Where It Helps"
+    },
+    {
+      "id": "where-it-fails",
+      "title": "Where It Fails"
+    },
+    {
+      "id": "academic-connections",
+      "title": "Academic Connections"
+    },
+    {
+      "id": "practical-checklist",
+      "title": "Practical Checklist"
+    },
+    {
+      "id": "the-de-hype-check",
+      "title": "The De-Hype Check"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    }
+  ]
+}

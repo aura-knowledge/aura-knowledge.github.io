@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 3,
+  "id": "article:tool-use",
+  "slug": "tool-use",
+  "title": "Tool Use: When the Model Calls Something Outside Itself",
+  "canonicalPath": "/articles/tool-use/",
+  "sourcePath": "content/articles/2026/tool-use/article.md",
+  "agentBriefPath": "content/articles/2026/tool-use/agent.md",
+  "thesis": "Tool use extends a language model beyond its trained knowledge by letting it call external capabilities such as search, code execution, and APIs, but its value depends on choosing the right tool, validating the result, and knowing when not to use one.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-29",
+  "updatedAt": "2026-06-29",
+  "audiences": [
+    "general",
+    "students",
+    "builders"
+  ],
+  "topics": [
+    "ai-agents",
+    "ai-literacy"
+  ],
+  "series": {
+    "slug": "ai-demystified",
+    "title": "AI, De-Mystified",
+    "order": 10,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Tool use extends a language model by letting it invoke external capabilities it does not itself possess.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-schick-toolformer",
+          "snippet": "Toolformer trains a language model to decide which APIs to call, when to call them, what arguments to pass, and how to best incorporate the results into future token prediction.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Tool use assumes the external capability is available and correctly implemented; a missing or broken tool leaves the model no better off.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Tool use in AI is conceptually similar to delegation, remote procedure calls, and human use of instruments, but it automates the choice of which tool to invoke.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-russell-norvig-aima",
+          "snippet": "An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators.",
+          "supports": "background",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Older systems often hard-code when to call a tool; modern models learn or are prompted to decide dynamically, which introduces new error modes.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Common tool-use patterns include search, code execution, file or database retrieval, and API calls, each with different reliability and risk profiles.",
+      "confidence": "medium-high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-react-paper",
+          "snippet": "ReAct interleaves reasoning traces and task-specific actions, allowing the model to perform actions such as search over Wikipedia and interact with environments beyond language generation.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The boundaries between these patterns blur; retrieval can be implemented as a tool call, and code execution can be chained with search in many ways.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Tool use introduces failure modes of wrong selection, bad arguments, misplaced trust in tool output, and unwanted actions that must be governed by permissions and checks.",
+      "confidence": "medium",
+      "status": "risk",
+      "evidence": [
+        {
+          "sourceId": "source-gibson-affordances",
+          "snippet": "Affordances are the perceived action possibilities of an object or environment; mismatches between perceived and actual affordances lead to action errors.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Many deployed systems reduce these risks by hard-coding tool availability, requiring human confirmation for high-stakes actions, or using deterministic validation layers.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-schick-toolformer",
+      "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "url": "https://arxiv.org/abs/2302.04761",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-react-paper",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "url": "https://arxiv.org/abs/2210.03629",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-russell-norvig-aima",
+      "title": "Russell and Norvig: Artificial Intelligence: A Modern Approach",
+      "url": "https://aima.cs.berkeley.edu/",
+      "type": "book",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-gibson-affordances",
+      "title": "Gibson: The Ecological Approach to Visual Perception",
+      "url": "https://www.hachettebookgroup.com/titles/james-j-gibson/the-ecological-approach-to-visual-perception/9780205238818/",
+      "type": "book",
+      "accessed": "2026-06-29"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:loops-vs-goals"
+    },
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Do not present tool use as making a model omniscient or safe for high-stakes actions without verification.",
+    "When summarizing, preserve the plain-language-first, technical-depth-later structure."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-29",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:be152f2bda77bbac6a66d7fcbef1dcfeb335d03a41fbbc85b41d183229004eb0"
+      },
+      {
+        "role": "review",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:be152f2bda77bbac6a66d7fcbef1dcfeb335d03a41fbbc85b41d183229004eb0"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "tone",
+          "privacy",
+          "scope"
+        ],
+        "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
+        "contentHash": "be152f2bda77bbac6a66d7fcbef1dcfeb335d03a41fbbc85b41d183229004eb0"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "examples",
+          "tone",
+          "safety"
+        ],
+        "notes": "Human author approved the draft for publication.",
+        "contentHash": "be152f2bda77bbac6a66d7fcbef1dcfeb335d03a41fbbc85b41d183229004eb0"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "be152f2bda77bbac6a66d7fcbef1dcfeb335d03a41fbbc85b41d183229004eb0"
+}

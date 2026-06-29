@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 3,
+  "id": "article:long-running-sessions",
+  "slug": "long-running-sessions",
+  "title": "Long-Running Sessions: Keeping AI Work Coherent Over Time",
+  "canonicalPath": "/articles/long-running-sessions/",
+  "sourcePath": "content/articles/2026/long-running-sessions/article.md",
+  "agentBriefPath": "content/articles/2026/long-running-sessions/agent.md",
+  "thesis": "Long-running AI sessions need clear goals, summaries, memory, checkpoints, context pruning, and stopping rules to avoid drift and wasted work.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-29",
+  "updatedAt": "2026-06-29",
+  "audiences": [
+    "general",
+    "students",
+    "builders"
+  ],
+  "topics": [
+    "ai-agents",
+    "ai-literacy"
+  ],
+  "series": {
+    "slug": "ai-demystified",
+    "title": "AI, De-Mystified",
+    "order": 11,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "A long-running session is useful only when the system can remember what matters, recognize progress, and decide when to stop.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-generative-agents",
+          "snippet": "Generative agents use a memory stream, retrieval, and reflection to maintain coherent behavior over extended simulated time.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Memory and summarization are selective. Important details can be compressed out or retrieved incorrectly, so remembering what matters is not guaranteed.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Keeping extended work coherent is already familiar from workflow orchestration, durable execution, project management, and process control.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-react-paper",
+          "snippet": "Reasoning and acting have a long history in AI; ReAct explicitly connects the loop of thought, action, and observation to prior work in reinforcement learning and decision making.",
+          "supports": "background",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Older fields usually assume formally defined goals, stable environments, or fixed stages. LLM-based sessions face ambiguous, shifting goals and improvised steps.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "In practice, long-running sessions combine summarization, checkpoints, and context pruning to keep the active window focused without losing the goal.",
+      "confidence": "medium-high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-self-refine-paper",
+          "snippet": "Self-Refine iteratively refines outputs using self-generated feedback, showing how a loop of generation and summary can extend a single session.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-react-paper",
+          "snippet": "ReAct interleaves reasoning traces and actions, relying on the session history to stay focused on the task while observing new information.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Not every useful task needs a long session; some problems are best solved by a single, carefully crafted prompt or a stateless function.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Without summaries, checkpoints, and stopping rules, long-running sessions drift, waste resources, or resume in broken states.",
+      "confidence": "medium",
+      "status": "risk",
+      "evidence": [
+        {
+          "sourceId": "source-reflexion-paper",
+          "snippet": "Reflexion shows that language agents can benefit from verbal reinforcement signals to correct trajectory, implying that unguided trajectories can drift or repeat errors.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-generative-agents",
+          "snippet": "Long-term memory retrieval in generative agents can fail to surface the most relevant context, leading to behavior that diverges from prior decisions.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Simple exit conditions such as cost or time budgets can prevent runaway work, but they do not guarantee the original goal has been reached.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-react-paper",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "url": "https://arxiv.org/abs/2210.03629",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-self-refine-paper",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "url": "https://arxiv.org/abs/2303.17651",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-generative-agents",
+      "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+      "url": "https://arxiv.org/abs/2304.03442",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-reflexion-paper",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2303.11366",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:loops-vs-goals"
+    },
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Do not present long-running AI sessions as capable of remembering everything or running unattended indefinitely.",
+    "When summarizing, preserve the plain-language-first, technical-depth-later structure."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-29",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:5e107cc4c74a8c0b19674c1df621b86145734a401833433985158f140ccfbeb7"
+      },
+      {
+        "role": "review",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:5e107cc4c74a8c0b19674c1df621b86145734a401833433985158f140ccfbeb7"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "tone",
+          "privacy",
+          "scope"
+        ],
+        "notes": "Sibling-agent review against article structure. Privacy scan passed. No proprietary or personal content detected.",
+        "contentHash": "5e107cc4c74a8c0b19674c1df621b86145734a401833433985158f140ccfbeb7"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "examples",
+          "tone",
+          "safety"
+        ],
+        "notes": "Human author approved the draft for publication.",
+        "contentHash": "5e107cc4c74a8c0b19674c1df621b86145734a401833433985158f140ccfbeb7"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "5e107cc4c74a8c0b19674c1df621b86145734a401833433985158f140ccfbeb7",
+  "generatedAt": "2026-06-29T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/long-running-sessions/",
+  "agentJsonPath": "/agents/articles/long-running-sessions.json",
+  "agentMarkdownPath": "/agents/articles/long-running-sessions.md",
+  "sourceRepoPath": "content/articles/2026/long-running-sessions/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/long-running-sessions/article.md",
+  "tokenEstimate": 465,
+  "sectionOutline": [
+    {
+      "id": "plain-english-meaning",
+      "title": "Plain English Meaning"
+    },
+    {
+      "id": "existing-concept-it-resembles",
+      "title": "Existing Concept It Resembles"
+    },
+    {
+      "id": "what-is-actually-new",
+      "title": "What Is Actually New?"
+    },
+    {
+      "id": "how-it-works-in-practice",
+      "title": "How It Works In Practice"
+    },
+    {
+      "id": "where-it-helps",
+      "title": "Where It Helps"
+    },
+    {
+      "id": "where-it-fails",
+      "title": "Where It Fails"
+    },
+    {
+      "id": "academic-connections",
+      "title": "Academic Connections"
+    },
+    {
+      "id": "practical-checklist",
+      "title": "Practical Checklist"
+    },
+    {
+      "id": "the-de-hype-check",
+      "title": "The De-Hype Check"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    }
+  ]
+}

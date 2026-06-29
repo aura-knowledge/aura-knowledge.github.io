@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 3,
+  "id": "article:memory-vs-context",
+  "slug": "memory-vs-context",
+  "title": "Memory vs Context: What Should Survive the Conversation?",
+  "canonicalPath": "/articles/memory-vs-context/",
+  "sourcePath": "content/articles/2026/memory-vs-context/article.md",
+  "agentBriefPath": "content/articles/2026/memory-vs-context/agent.md",
+  "thesis": "Context is the immediate working material an AI can see right now; memory is selected information that persists across time and must be deliberately retrieved or stored.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-06-29",
+  "updatedAt": "2026-06-29",
+  "audiences": [
+    "general",
+    "students",
+    "builders"
+  ],
+  "topics": [
+    "ai-agents",
+    "ai-literacy"
+  ],
+  "series": {
+    "slug": "ai-demystified",
+    "title": "AI, De-Mystified",
+    "order": 3,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Context is immediate working material; memory is selected information that persists across time and must be deliberately retrieved or stored.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-memgpt",
+          "snippet": "MemGPT treats the LLM's fixed context window as a finite resource and manages it with a tiered memory system, explicitly moving data between context and longer-term storage.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Very long-context models can place large amounts of material directly in the prompt, reducing the visible difference between context and memory.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "The split between immediate context and stored memory appears in cognitive psychology, user interfaces, and database design, not only in recent AI.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-baddeley-hitch",
+          "snippet": "Baddeley and Hitch's working memory model distinguishes a limited-capacity workspace from longer-term storage, a framing that predates modern AI.",
+          "supports": "background",
+          "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-tulving-memory",
+          "snippet": "Tulving's separation of episodic and semantic memory provides a cognitive-science vocabulary for different kinds of stored knowledge.",
+          "supports": "background",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "These older fields often assume biological or stable organizational constraints, whereas LLM context is bounded by tokens, latency, and cost rather than fixed human capacity.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Practical AI systems move information between context and memory through summarization, retrieval, and structured storage, and each transfer is a chance to lose or distort meaning.",
+      "confidence": "medium-high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-rag",
+          "snippet": "Retrieval-augmented generation inserts selected external documents into the model's context at inference time, making retrieval quality a central design concern.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-memgpt",
+          "snippet": "MemGPT uses paging-style operations to move data between context and memory, which can compress or select information imperfectly.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some workflows keep all relevant information in context and avoid transfer, accepting higher cost in exchange for simpler reasoning.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Memory is only useful when retrieval is accurate, updates are careful, and forgetting is as deliberate as remembering.",
+      "confidence": "medium",
+      "status": "risk",
+      "evidence": [
+        {
+          "sourceId": "source-rag",
+          "snippet": "Downstream answer quality in retrieval-augmented systems depends strongly on whether the retriever returns relevant and accurate passages.",
+          "supports": "indirect",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "In narrow, well-curated domains, simple retrieval and infrequent updates can be sufficient, making elaborate memory management unnecessary.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-baddeley-hitch",
+      "title": "Baddeley & Hitch: Working Memory",
+      "url": "https://www.simplypsychology.org/working-memory.html",
+      "type": "article",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-tulving-memory",
+      "title": "Tulving: Episodic and Semantic Memory",
+      "url": "https://plato.stanford.edu/entries/memory/",
+      "type": "article",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-rag",
+      "title": "Lewis et al.: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "url": "https://arxiv.org/abs/2005.11401",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-memgpt",
+      "title": "Packer et al.: MemGPT: Towards LLMs as Operating Systems",
+      "url": "https://arxiv.org/abs/2310.08560",
+      "type": "paper",
+      "accessed": "2026-06-29"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:loops-vs-goals"
+    },
+    {
+      "type": "topic",
+      "id": "topic:ai-agents"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Do not present AI memory as equivalent to human memory.",
+    "When summarizing, preserve the plain-language-first, technical-depth-later structure."
+  ],
+  "provenance": {
+    "createdAt": "2026-06-29",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:a5ba348df1d444326a962a0728062b1b024b8ec5f7b10757792f93c552476dbb"
+      },
+      {
+        "role": "review",
+        "model": "kimi",
+        "invokedAt": "2026-06-29",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:a5ba348df1d444326a962a0728062b1b024b8ec5f7b10757792f93c552476dbb"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "tone",
+          "privacy",
+          "scope"
+        ],
+        "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
+        "contentHash": "a5ba348df1d444326a962a0728062b1b024b8ec5f7b10757792f93c552476dbb"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-06-29",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "examples",
+          "tone",
+          "safety"
+        ],
+        "notes": "Human author approved the draft for publication.",
+        "contentHash": "a5ba348df1d444326a962a0728062b1b024b8ec5f7b10757792f93c552476dbb"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "a5ba348df1d444326a962a0728062b1b024b8ec5f7b10757792f93c552476dbb",
+  "generatedAt": "2026-06-29T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/memory-vs-context/",
+  "agentJsonPath": "/agents/articles/memory-vs-context.json",
+  "agentMarkdownPath": "/agents/articles/memory-vs-context.md",
+  "sourceRepoPath": "content/articles/2026/memory-vs-context/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/memory-vs-context/article.md",
+  "tokenEstimate": 507,
+  "sectionOutline": [
+    {
+      "id": "plain-english-meaning",
+      "title": "Plain English Meaning"
+    },
+    {
+      "id": "existing-concept-it-resembles",
+      "title": "Existing Concept It Resembles"
+    },
+    {
+      "id": "what-is-actually-new",
+      "title": "What Is Actually New?"
+    },
+    {
+      "id": "how-it-works-in-practice",
+      "title": "How It Works In Practice"
+    },
+    {
+      "id": "where-it-helps",
+      "title": "Where It Helps"
+    },
+    {
+      "id": "where-it-fails",
+      "title": "Where It Fails"
+    },
+    {
+      "id": "academic-connections",
+      "title": "Academic Connections"
+    },
+    {
+      "id": "practical-checklist",
+      "title": "Practical Checklist"
+    },
+    {
+      "id": "the-de-hype-check",
+      "title": "The De-Hype Check"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    }
+  ]
+}

@@ -6,7 +6,7 @@
   "generatedAt": "2026-06-29T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 395
+    "totalResults": 515
   },
   "dimensions": [
     {
@@ -64,6 +64,7 @@
         "abacus",
         "accessibility",
         "agent-orchestration",
+        "agents",
         "ai-agents",
         "ai-history",
         "ai-literacy",
@@ -74,10 +75,15 @@
         "audio",
         "automata",
         "automation",
+        "benchmarking",
+        "caching",
+        "chain-of-thought",
         "commerce",
         "computation",
         "computing-history",
         "consumer-behavior",
+        "context",
+        "coordination",
         "dartmouth",
         "data",
         "de-hype",
@@ -87,7 +93,10 @@
         "education",
         "evals",
         "evaluation",
+        "evaluations",
         "expert-systems",
+        "fine-tuning",
+        "function-calling",
         "goals",
         "governance",
         "history-of-ai",
@@ -105,6 +114,7 @@
         "loops",
         "machine-learning",
         "mechanical-calculation",
+        "memory",
         "model-choice",
         "multi-agent-systems",
         "multimodality",
@@ -113,21 +123,32 @@
         "observability",
         "onboarding",
         "open-protocols",
+        "planning",
         "pretraining",
         "privacy",
         "product-truth",
+        "prompt-caching",
+        "prompt-engineering",
         "prompt-template",
         "prompting",
         "publishing",
+        "rag",
         "reading-guide",
+        "reasoning",
         "recipe",
+        "reflection",
         "research-workflows",
+        "retrieval-augmented-generation",
         "scaling",
         "screen-fatigue",
         "series-overview",
+        "sessions",
         "statistics",
         "summarization",
         "symbolic-ai",
+        "tool-use",
+        "tools",
+        "transfer-learning",
         "transformers",
         "turing",
         "voice-interfaces",
@@ -260,7 +281,7 @@
         "groupBy": "topic"
       },
       "resultType": "articles",
-      "resultCount": 86,
+      "resultCount": 112,
       "results": [
         {
           "articleId": "article:agent-control-planes",
@@ -347,6 +368,13 @@
           "topic": "ai-agents"
         },
         {
+          "articleId": "article:agents",
+          "slug": "agents",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agents/",
+          "agentJsonPath": "/agents/articles/agents.json",
+          "topic": "ai-agents"
+        },
+        {
           "articleId": "article:ai-agent-advanced-questions",
           "slug": "ai-agent-advanced-questions",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
@@ -424,10 +452,94 @@
           "topic": "ai-agents"
         },
         {
+          "articleId": "article:context-management",
+          "slug": "context-management",
+          "articleUrl": "https://aura-knowledge.github.io/articles/context-management/",
+          "agentJsonPath": "/agents/articles/context-management.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:evaluations",
+          "slug": "evaluations",
+          "articleUrl": "https://aura-knowledge.github.io/articles/evaluations/",
+          "agentJsonPath": "/agents/articles/evaluations.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:fine-tuning",
+          "slug": "fine-tuning",
+          "articleUrl": "https://aura-knowledge.github.io/articles/fine-tuning/",
+          "agentJsonPath": "/agents/articles/fine-tuning.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:long-running-sessions",
+          "slug": "long-running-sessions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-running-sessions/",
+          "agentJsonPath": "/agents/articles/long-running-sessions.json",
+          "topic": "ai-agents"
+        },
+        {
           "articleId": "article:loops-vs-goals",
           "slug": "loops-vs-goals",
           "articleUrl": "https://aura-knowledge.github.io/articles/loops-vs-goals/",
           "agentJsonPath": "/agents/articles/loops-vs-goals.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:memory-vs-context",
+          "slug": "memory-vs-context",
+          "articleUrl": "https://aura-knowledge.github.io/articles/memory-vs-context/",
+          "agentJsonPath": "/agents/articles/memory-vs-context.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:multi-agent-systems",
+          "slug": "multi-agent-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/multi-agent-systems/",
+          "agentJsonPath": "/agents/articles/multi-agent-systems.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:planning-and-reflection",
+          "slug": "planning-and-reflection",
+          "articleUrl": "https://aura-knowledge.github.io/articles/planning-and-reflection/",
+          "agentJsonPath": "/agents/articles/planning-and-reflection.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:prompt-caching",
+          "slug": "prompt-caching",
+          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-caching/",
+          "agentJsonPath": "/agents/articles/prompt-caching.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:prompt-engineering",
+          "slug": "prompt-engineering",
+          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-engineering/",
+          "agentJsonPath": "/agents/articles/prompt-engineering.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:reasoning-models",
+          "slug": "reasoning-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/reasoning-models/",
+          "agentJsonPath": "/agents/articles/reasoning-models.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:retrieval-augmented-generation",
+          "slug": "retrieval-augmented-generation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/retrieval-augmented-generation/",
+          "agentJsonPath": "/agents/articles/retrieval-augmented-generation.json",
+          "topic": "ai-agents"
+        },
+        {
+          "articleId": "article:tool-use",
+          "slug": "tool-use",
+          "articleUrl": "https://aura-knowledge.github.io/articles/tool-use/",
+          "agentJsonPath": "/agents/articles/tool-use.json",
           "topic": "ai-agents"
         },
         {
@@ -466,6 +578,13 @@
           "topic": "ai-history"
         },
         {
+          "articleId": "article:agents",
+          "slug": "agents",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agents/",
+          "agentJsonPath": "/agents/articles/agents.json",
+          "topic": "ai-literacy"
+        },
+        {
           "articleId": "article:ai-agent-advanced-questions",
           "slug": "ai-agent-advanced-questions",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
@@ -480,10 +599,94 @@
           "topic": "ai-literacy"
         },
         {
+          "articleId": "article:context-management",
+          "slug": "context-management",
+          "articleUrl": "https://aura-knowledge.github.io/articles/context-management/",
+          "agentJsonPath": "/agents/articles/context-management.json",
+          "topic": "ai-literacy"
+        },
+        {
+          "articleId": "article:evaluations",
+          "slug": "evaluations",
+          "articleUrl": "https://aura-knowledge.github.io/articles/evaluations/",
+          "agentJsonPath": "/agents/articles/evaluations.json",
+          "topic": "ai-literacy"
+        },
+        {
+          "articleId": "article:fine-tuning",
+          "slug": "fine-tuning",
+          "articleUrl": "https://aura-knowledge.github.io/articles/fine-tuning/",
+          "agentJsonPath": "/agents/articles/fine-tuning.json",
+          "topic": "ai-literacy"
+        },
+        {
+          "articleId": "article:long-running-sessions",
+          "slug": "long-running-sessions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-running-sessions/",
+          "agentJsonPath": "/agents/articles/long-running-sessions.json",
+          "topic": "ai-literacy"
+        },
+        {
           "articleId": "article:loops-vs-goals",
           "slug": "loops-vs-goals",
           "articleUrl": "https://aura-knowledge.github.io/articles/loops-vs-goals/",
           "agentJsonPath": "/agents/articles/loops-vs-goals.json",
+          "topic": "ai-literacy"
+        },
+        {
+          "articleId": "article:memory-vs-context",
+          "slug": "memory-vs-context",
+          "articleUrl": "https://aura-knowledge.github.io/articles/memory-vs-context/",
+          "agentJsonPath": "/agents/articles/memory-vs-context.json",
+          "topic": "ai-literacy"
+        },
+        {
+          "articleId": "article:multi-agent-systems",
+          "slug": "multi-agent-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/multi-agent-systems/",
+          "agentJsonPath": "/agents/articles/multi-agent-systems.json",
+          "topic": "ai-literacy"
+        },
+        {
+          "articleId": "article:planning-and-reflection",
+          "slug": "planning-and-reflection",
+          "articleUrl": "https://aura-knowledge.github.io/articles/planning-and-reflection/",
+          "agentJsonPath": "/agents/articles/planning-and-reflection.json",
+          "topic": "ai-literacy"
+        },
+        {
+          "articleId": "article:prompt-caching",
+          "slug": "prompt-caching",
+          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-caching/",
+          "agentJsonPath": "/agents/articles/prompt-caching.json",
+          "topic": "ai-literacy"
+        },
+        {
+          "articleId": "article:prompt-engineering",
+          "slug": "prompt-engineering",
+          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-engineering/",
+          "agentJsonPath": "/agents/articles/prompt-engineering.json",
+          "topic": "ai-literacy"
+        },
+        {
+          "articleId": "article:reasoning-models",
+          "slug": "reasoning-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/reasoning-models/",
+          "agentJsonPath": "/agents/articles/reasoning-models.json",
+          "topic": "ai-literacy"
+        },
+        {
+          "articleId": "article:retrieval-augmented-generation",
+          "slug": "retrieval-augmented-generation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/retrieval-augmented-generation/",
+          "agentJsonPath": "/agents/articles/retrieval-augmented-generation.json",
+          "topic": "ai-literacy"
+        },
+        {
+          "articleId": "article:tool-use",
+          "slug": "tool-use",
+          "articleUrl": "https://aura-knowledge.github.io/articles/tool-use/",
+          "agentJsonPath": "/agents/articles/tool-use.json",
           "topic": "ai-literacy"
         },
         {
@@ -896,7 +1099,7 @@
         "confidence": "high"
       },
       "resultType": "claims",
-      "resultCount": 36,
+      "resultCount": 63,
       "results": [
         {
           "articleId": "article:agent-auditable-research",
@@ -927,6 +1130,26 @@
           "claim": "Mixture-of-Experts and conditional computation predate LLMs and provide the earliest architectural precedent for learned routing.",
           "confidence": "high",
           "status": "core"
+        },
+        {
+          "articleId": "article:agents",
+          "slug": "agents",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agents/",
+          "agentJsonPath": "/agents/articles/agents.json",
+          "claimId": "claim-001",
+          "claim": "An AI agent is a system that pursues a goal across multiple steps, choosing when to use tools, what to remember, and when to stop.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:agents",
+          "slug": "agents",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agents/",
+          "agentJsonPath": "/agents/articles/agents.json",
+          "claimId": "claim-002",
+          "claim": "The idea of an agent that follows goals and uses tools is older than large language models; it appears in automation scripts, personal assistants, and game AI.",
+          "confidence": "high",
+          "status": "landscape"
         },
         {
           "articleId": "article:ai-winters-expert-systems",
@@ -987,6 +1210,66 @@
           "claim": "Early AI treated reasoning as symbolic manipulation and search.",
           "confidence": "high",
           "status": "framing"
+        },
+        {
+          "articleId": "article:context-management",
+          "slug": "context-management",
+          "articleUrl": "https://aura-knowledge.github.io/articles/context-management/",
+          "agentJsonPath": "/agents/articles/context-management.json",
+          "claimId": "claim-001",
+          "claim": "A model can only work with the information currently in its context window; context management decides what that information is.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:context-management",
+          "slug": "context-management",
+          "articleUrl": "https://aura-knowledge.github.io/articles/context-management/",
+          "agentJsonPath": "/agents/articles/context-management.json",
+          "claimId": "claim-002",
+          "claim": "Context management resembles human working memory and attention, but it uses fixed-size, lossy windows rather than flexible human recall.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
+          "articleId": "article:evaluations",
+          "slug": "evaluations",
+          "articleUrl": "https://aura-knowledge.github.io/articles/evaluations/",
+          "agentJsonPath": "/agents/articles/evaluations.json",
+          "claimId": "claim-001",
+          "claim": "An evaluation is a test that turns a quality claim into a repeatable, observable result.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:evaluations",
+          "slug": "evaluations",
+          "articleUrl": "https://aura-knowledge.github.io/articles/evaluations/",
+          "agentJsonPath": "/agents/articles/evaluations.json",
+          "claimId": "claim-002",
+          "claim": "Benchmarks, report cards, and clinical trials all evaluate outcomes against a standard; AI evaluation extends the same idea to generated outputs and workflows.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
+          "articleId": "article:fine-tuning",
+          "slug": "fine-tuning",
+          "articleUrl": "https://aura-knowledge.github.io/articles/fine-tuning/",
+          "agentJsonPath": "/agents/articles/fine-tuning.json",
+          "claimId": "claim-001",
+          "claim": "Fine-tuning changes a model's learned behavior by continuing training on targeted examples, rather than changing what the model sees at runtime.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:fine-tuning",
+          "slug": "fine-tuning",
+          "articleUrl": "https://aura-knowledge.github.io/articles/fine-tuning/",
+          "agentJsonPath": "/agents/articles/fine-tuning.json",
+          "claimId": "claim-002",
+          "claim": "Fine-tuning is a form of transfer learning: it adapts a general model to a narrower task using additional examples.",
+          "confidence": "high",
+          "status": "landscape"
         },
         {
           "articleId": "article:formal-logic-to-computation",
@@ -1239,6 +1522,26 @@
           "status": "framing"
         },
         {
+          "articleId": "article:long-running-sessions",
+          "slug": "long-running-sessions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-running-sessions/",
+          "agentJsonPath": "/agents/articles/long-running-sessions.json",
+          "claimId": "claim-001",
+          "claim": "A long-running session is useful only when the system can remember what matters, recognize progress, and decide when to stop.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:long-running-sessions",
+          "slug": "long-running-sessions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-running-sessions/",
+          "agentJsonPath": "/agents/articles/long-running-sessions.json",
+          "claimId": "claim-002",
+          "claim": "Keeping extended work coherent is already familiar from workflow orchestration, durable execution, project management, and process control.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
           "articleId": "article:loops-vs-goals",
           "slug": "loops-vs-goals",
           "articleUrl": "https://aura-knowledge.github.io/articles/loops-vs-goals/",
@@ -1257,6 +1560,176 @@
           "claim": "The pairing of loops and goals appears in control engineering, reinforcement learning, and the scientific method, not only in recent AI.",
           "confidence": "high",
           "status": "landscape"
+        },
+        {
+          "articleId": "article:memory-vs-context",
+          "slug": "memory-vs-context",
+          "articleUrl": "https://aura-knowledge.github.io/articles/memory-vs-context/",
+          "agentJsonPath": "/agents/articles/memory-vs-context.json",
+          "claimId": "claim-001",
+          "claim": "Context is immediate working material; memory is selected information that persists across time and must be deliberately retrieved or stored.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:memory-vs-context",
+          "slug": "memory-vs-context",
+          "articleUrl": "https://aura-knowledge.github.io/articles/memory-vs-context/",
+          "agentJsonPath": "/agents/articles/memory-vs-context.json",
+          "claimId": "claim-002",
+          "claim": "The split between immediate context and stored memory appears in cognitive psychology, user interfaces, and database design, not only in recent AI.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
+          "articleId": "article:multi-agent-systems",
+          "slug": "multi-agent-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/multi-agent-systems/",
+          "agentJsonPath": "/agents/articles/multi-agent-systems.json",
+          "claimId": "claim-001",
+          "claim": "A multi-agent system solves a problem by dividing it among specialized agents and coordinating their work, not by simply running several models in parallel.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:multi-agent-systems",
+          "slug": "multi-agent-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/multi-agent-systems/",
+          "agentJsonPath": "/agents/articles/multi-agent-systems.json",
+          "claimId": "claim-002",
+          "claim": "Multi-agent systems borrow ideas from distributed systems, ensemble methods, and organizational design, not just recent AI research.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
+          "articleId": "article:planning-and-reflection",
+          "slug": "planning-and-reflection",
+          "articleUrl": "https://aura-knowledge.github.io/articles/planning-and-reflection/",
+          "agentJsonPath": "/agents/articles/planning-and-reflection.json",
+          "claimId": "claim-001",
+          "claim": "Planning breaks a goal into ordered steps before action; reflection checks results against the goal and decides whether to revise the plan.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:planning-and-reflection",
+          "slug": "planning-and-reflection",
+          "articleUrl": "https://aura-knowledge.github.io/articles/planning-and-reflection/",
+          "agentJsonPath": "/agents/articles/planning-and-reflection.json",
+          "claimId": "claim-002",
+          "claim": "Planning and reflection are rooted in project management, scientific method, and classical AI search, not only in recent language models.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
+          "articleId": "article:prompt-caching",
+          "slug": "prompt-caching",
+          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-caching/",
+          "agentJsonPath": "/agents/articles/prompt-caching.json",
+          "claimId": "claim-001",
+          "claim": "Prompt caching reuses the unchanged prefix of a prompt so the provider does not have to reprocess it on every call.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:prompt-caching",
+          "slug": "prompt-caching",
+          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-caching/",
+          "agentJsonPath": "/agents/articles/prompt-caching.json",
+          "claimId": "claim-002",
+          "claim": "Prompt caching is a specialized form of memoization: it stores the result of an expensive computation so later requests can reuse it.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
+          "articleId": "article:prompt-engineering",
+          "slug": "prompt-engineering",
+          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-engineering/",
+          "agentJsonPath": "/agents/articles/prompt-engineering.json",
+          "claimId": "claim-001",
+          "claim": "A prompt is not just a question; it is the designed instruction, context, examples, and constraints that shape what a language model produces.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:prompt-engineering",
+          "slug": "prompt-engineering",
+          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-engineering/",
+          "agentJsonPath": "/agents/articles/prompt-engineering.json",
+          "claimId": "claim-002",
+          "claim": "Prompt engineering resembles older practices such as clear writing, task design, and human-computer interaction, updated for probabilistic language models.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
+          "articleId": "article:reasoning-models",
+          "slug": "reasoning-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/reasoning-models/",
+          "agentJsonPath": "/agents/articles/reasoning-models.json",
+          "claimId": "claim-001",
+          "claim": "Reasoning models improve hard tasks by deliberately spending more computation on explicit intermediate steps before producing a final answer.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:reasoning-models",
+          "slug": "reasoning-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/reasoning-models/",
+          "agentJsonPath": "/agents/articles/reasoning-models.json",
+          "claimId": "claim-002",
+          "claim": "Step-by-step problem solving is an old idea; what changed is scale and language-driven search.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
+          "articleId": "article:retrieval-augmented-generation",
+          "slug": "retrieval-augmented-generation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/retrieval-augmented-generation/",
+          "agentJsonPath": "/agents/articles/retrieval-augmented-generation.json",
+          "claimId": "claim-001",
+          "claim": "Retrieval-augmented generation gives a language model relevant external material at request time instead of relying only on its training data and the current prompt.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:retrieval-augmented-generation",
+          "slug": "retrieval-augmented-generation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/retrieval-augmented-generation/",
+          "agentJsonPath": "/agents/articles/retrieval-augmented-generation.json",
+          "claimId": "claim-002",
+          "claim": "RAG builds on older ideas from information retrieval and open-book question answering: search for sources, then use them to answer.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
+          "articleId": "article:retrieval-augmented-generation",
+          "slug": "retrieval-augmented-generation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/retrieval-augmented-generation/",
+          "agentJsonPath": "/agents/articles/retrieval-augmented-generation.json",
+          "claimId": "claim-003",
+          "claim": "A typical RAG pipeline has three stages: indexing documents, retrieving relevant chunks, and generating an answer conditioned on those chunks.",
+          "confidence": "high",
+          "status": "design"
+        },
+        {
+          "articleId": "article:tool-use",
+          "slug": "tool-use",
+          "articleUrl": "https://aura-knowledge.github.io/articles/tool-use/",
+          "agentJsonPath": "/agents/articles/tool-use.json",
+          "claimId": "claim-001",
+          "claim": "Tool use extends a language model by letting it invoke external capabilities it does not itself possess.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:tool-use",
+          "slug": "tool-use",
+          "articleUrl": "https://aura-knowledge.github.io/articles/tool-use/",
+          "agentJsonPath": "/agents/articles/tool-use.json",
+          "claimId": "claim-002",
+          "claim": "Tool use in AI is conceptually similar to delegation, remote procedure calls, and human use of instruments, but it automates the choice of which tool to invoke.",
+          "confidence": "high",
+          "status": "landscape"
         }
       ]
     },
@@ -1267,7 +1740,7 @@
         "groupBy": "sourceType"
       },
       "resultType": "sources",
-      "resultCount": 258,
+      "resultCount": 312,
       "results": [
         {
           "articleId": "article:human-systems",
@@ -1380,6 +1853,26 @@
           "sourceUrl": "https://news.cornell.edu/stories/2019/09/professors-perceptron-paved-way-ai-60-years-too-soon"
         },
         {
+          "articleId": "article:fine-tuning",
+          "slug": "fine-tuning",
+          "articleUrl": "https://aura-knowledge.github.io/articles/fine-tuning/",
+          "agentJsonPath": "/agents/articles/fine-tuning.json",
+          "sourceId": "source-openai-fine-tuning-guide",
+          "sourceTitle": "OpenAI: Fine-tuning guide",
+          "sourceType": "article",
+          "sourceUrl": "https://platform.openai.com/docs/guides/fine-tuning"
+        },
+        {
+          "articleId": "article:fine-tuning",
+          "slug": "fine-tuning",
+          "articleUrl": "https://aura-knowledge.github.io/articles/fine-tuning/",
+          "agentJsonPath": "/agents/articles/fine-tuning.json",
+          "sourceId": "source-huggingface-fine-tuning-guide",
+          "sourceTitle": "Hugging Face: Fine-tuning",
+          "sourceType": "article",
+          "sourceUrl": "https://huggingface.co/docs/transformers/training"
+        },
+        {
           "articleId": "article:formal-logic-to-computation",
           "slug": "formal-logic-to-computation",
           "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
@@ -1430,6 +1923,46 @@
           "sourceUrl": "https://ia803209.us.archive.org/27/items/bstj27-3-379/bstj27-3-379_text.pdf"
         },
         {
+          "articleId": "article:memory-vs-context",
+          "slug": "memory-vs-context",
+          "articleUrl": "https://aura-knowledge.github.io/articles/memory-vs-context/",
+          "agentJsonPath": "/agents/articles/memory-vs-context.json",
+          "sourceId": "source-baddeley-hitch",
+          "sourceTitle": "Baddeley & Hitch: Working Memory",
+          "sourceType": "article",
+          "sourceUrl": "https://www.simplypsychology.org/working-memory.html"
+        },
+        {
+          "articleId": "article:memory-vs-context",
+          "slug": "memory-vs-context",
+          "articleUrl": "https://aura-knowledge.github.io/articles/memory-vs-context/",
+          "agentJsonPath": "/agents/articles/memory-vs-context.json",
+          "sourceId": "source-tulving-memory",
+          "sourceTitle": "Tulving: Episodic and Semantic Memory",
+          "sourceType": "article",
+          "sourceUrl": "https://plato.stanford.edu/entries/memory/"
+        },
+        {
+          "articleId": "article:prompt-caching",
+          "slug": "prompt-caching",
+          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-caching/",
+          "agentJsonPath": "/agents/articles/prompt-caching.json",
+          "sourceId": "source-wikipedia-memoization",
+          "sourceTitle": "Wikipedia: Memoization",
+          "sourceType": "article",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Memoization"
+        },
+        {
+          "articleId": "article:reasoning-models",
+          "slug": "reasoning-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/reasoning-models/",
+          "agentJsonPath": "/agents/articles/reasoning-models.json",
+          "sourceId": "source-openai-o1",
+          "sourceTitle": "OpenAI: Learning to Reason with LLMs",
+          "sourceType": "article",
+          "sourceUrl": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
           "articleId": "article:learning-machines",
           "slug": "learning-machines",
           "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
@@ -1458,6 +1991,16 @@
           "sourceTitle": "The Quest for Artificial Intelligence: A History of Ideas and Achievements",
           "sourceType": "book",
           "sourceUrl": "https://ai.stanford.edu/~nilsson/QAI/qai.pdf"
+        },
+        {
+          "articleId": "article:fine-tuning",
+          "slug": "fine-tuning",
+          "articleUrl": "https://aura-knowledge.github.io/articles/fine-tuning/",
+          "agentJsonPath": "/agents/articles/fine-tuning.json",
+          "sourceId": "source-goodfellow-deep-learning",
+          "sourceTitle": "Goodfellow, Bengio, and Courville: Deep Learning",
+          "sourceType": "book",
+          "sourceUrl": "https://www.deeplearningbook.org/"
         },
         {
           "articleId": "article:formal-logic-to-computation",
@@ -1508,6 +2051,36 @@
           "sourceTitle": "Sutton and Barto: Reinforcement Learning: An Introduction",
           "sourceType": "book",
           "sourceUrl": "http://incompleteideas.net/book/the-book-2nd.html"
+        },
+        {
+          "articleId": "article:multi-agent-systems",
+          "slug": "multi-agent-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/multi-agent-systems/",
+          "agentJsonPath": "/agents/articles/multi-agent-systems.json",
+          "sourceId": "source-wooldridge-mas",
+          "sourceTitle": "Wooldridge: An Introduction to MultiAgent Systems",
+          "sourceType": "book",
+          "sourceUrl": "https://www.cs.ox.ac.uk/people/michael.wooldridge/pubs/imas/IMAS2e.pdf"
+        },
+        {
+          "articleId": "article:tool-use",
+          "slug": "tool-use",
+          "articleUrl": "https://aura-knowledge.github.io/articles/tool-use/",
+          "agentJsonPath": "/agents/articles/tool-use.json",
+          "sourceId": "source-russell-norvig-aima",
+          "sourceTitle": "Russell and Norvig: Artificial Intelligence: A Modern Approach",
+          "sourceType": "book",
+          "sourceUrl": "https://aima.cs.berkeley.edu/"
+        },
+        {
+          "articleId": "article:tool-use",
+          "slug": "tool-use",
+          "articleUrl": "https://aura-knowledge.github.io/articles/tool-use/",
+          "agentJsonPath": "/agents/articles/tool-use.json",
+          "sourceId": "source-gibson-affordances",
+          "sourceTitle": "Gibson: The Ecological Approach to Visual Perception",
+          "sourceType": "book",
+          "sourceUrl": "https://www.hachettebookgroup.com/titles/james-j-gibson/the-ecological-approach-to-visual-perception/9780205238818/"
         },
         {
           "articleId": "article:ai-winters-expert-systems",
@@ -1898,6 +2471,36 @@
           "sourceTitle": "Cybernetics",
           "sourceType": "documentation",
           "sourceUrl": "https://www.britannica.com/science/cybernetics"
+        },
+        {
+          "articleId": "article:prompt-caching",
+          "slug": "prompt-caching",
+          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-caching/",
+          "agentJsonPath": "/agents/articles/prompt-caching.json",
+          "sourceId": "source-openai-prompt-caching",
+          "sourceTitle": "OpenAI: Prompt Caching",
+          "sourceType": "documentation",
+          "sourceUrl": "https://platform.openai.com/docs/guides/prompt-caching"
+        },
+        {
+          "articleId": "article:prompt-caching",
+          "slug": "prompt-caching",
+          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-caching/",
+          "agentJsonPath": "/agents/articles/prompt-caching.json",
+          "sourceId": "source-anthropic-prompt-caching",
+          "sourceTitle": "Anthropic: Prompt Caching",
+          "sourceType": "documentation",
+          "sourceUrl": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching"
+        },
+        {
+          "articleId": "article:prompt-engineering",
+          "slug": "prompt-engineering",
+          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-engineering/",
+          "agentJsonPath": "/agents/articles/prompt-engineering.json",
+          "sourceId": "source-openai-prompt-guide",
+          "sourceTitle": "OpenAI: Prompt Engineering",
+          "sourceType": "documentation",
+          "sourceUrl": "https://platform.openai.com/docs/guides/prompt-engineering"
         },
         {
           "articleId": "article:before-machines",
@@ -2670,6 +3273,56 @@
           "sourceUrl": "https://arxiv.org/abs/2410.02506"
         },
         {
+          "articleId": "article:agents",
+          "slug": "agents",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agents/",
+          "agentJsonPath": "/agents/articles/agents.json",
+          "sourceId": "source-react-paper",
+          "sourceTitle": "ReAct: Synergizing Reasoning and Acting in Language Models",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2210.03629"
+        },
+        {
+          "articleId": "article:agents",
+          "slug": "agents",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agents/",
+          "agentJsonPath": "/agents/articles/agents.json",
+          "sourceId": "source-toolformer-paper",
+          "sourceTitle": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2302.04761"
+        },
+        {
+          "articleId": "article:agents",
+          "slug": "agents",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agents/",
+          "agentJsonPath": "/agents/articles/agents.json",
+          "sourceId": "source-llm-plus-p",
+          "sourceTitle": "LLM+P: Empowering Large Language Models with Optimal Planning Proficiency",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2304.11477"
+        },
+        {
+          "articleId": "article:agents",
+          "slug": "agents",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agents/",
+          "agentJsonPath": "/agents/articles/agents.json",
+          "sourceId": "source-autonomous-agents-llm",
+          "sourceTitle": "Large Language Model based Multi-Agents: A Survey of Progress and Challenges",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2402.01680"
+        },
+        {
+          "articleId": "article:agents",
+          "slug": "agents",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agents/",
+          "agentJsonPath": "/agents/articles/agents.json",
+          "sourceId": "source-human-in-loop",
+          "sourceTitle": "Human-in-the-loop Machine Learning: a state of the art",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2108.00981"
+        },
+        {
           "articleId": "article:ai-delegation-orchestration",
           "slug": "ai-delegation-orchestration",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration/",
@@ -2830,6 +3483,146 @@
           "sourceUrl": "https://homepages.math.uic.edu/~lreyzin/papers/rosenblatt58.pdf"
         },
         {
+          "articleId": "article:context-management",
+          "slug": "context-management",
+          "articleUrl": "https://aura-knowledge.github.io/articles/context-management/",
+          "agentJsonPath": "/agents/articles/context-management.json",
+          "sourceId": "source-attention-is-all-you-need",
+          "sourceTitle": "Attention Is All You Need",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/1706.03762"
+        },
+        {
+          "articleId": "article:context-management",
+          "slug": "context-management",
+          "articleUrl": "https://aura-knowledge.github.io/articles/context-management/",
+          "agentJsonPath": "/agents/articles/context-management.json",
+          "sourceId": "source-lost-in-the-middle",
+          "sourceTitle": "Lost in the Middle: How Language Models Use Long Contexts",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2307.03172"
+        },
+        {
+          "articleId": "article:context-management",
+          "slug": "context-management",
+          "articleUrl": "https://aura-knowledge.github.io/articles/context-management/",
+          "agentJsonPath": "/agents/articles/context-management.json",
+          "sourceId": "source-rag",
+          "sourceTitle": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2005.11401"
+        },
+        {
+          "articleId": "article:context-management",
+          "slug": "context-management",
+          "articleUrl": "https://aura-knowledge.github.io/articles/context-management/",
+          "agentJsonPath": "/agents/articles/context-management.json",
+          "sourceId": "source-cowan-working-memory",
+          "sourceTitle": "Cowan: The Magical Number 4 in Short-Term Memory",
+          "sourceType": "paper",
+          "sourceUrl": "https://doi.org/10.1017/S0140525X01003922"
+        },
+        {
+          "articleId": "article:evaluations",
+          "slug": "evaluations",
+          "articleUrl": "https://aura-knowledge.github.io/articles/evaluations/",
+          "agentJsonPath": "/agents/articles/evaluations.json",
+          "sourceId": "source-helm",
+          "sourceTitle": "Holistic Evaluation of Language Models (HELM)",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2211.09110"
+        },
+        {
+          "articleId": "article:evaluations",
+          "slug": "evaluations",
+          "articleUrl": "https://aura-knowledge.github.io/articles/evaluations/",
+          "agentJsonPath": "/agents/articles/evaluations.json",
+          "sourceId": "source-mmlu",
+          "sourceTitle": "Measuring Massive Multitask Language Understanding",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2009.03300"
+        },
+        {
+          "articleId": "article:evaluations",
+          "slug": "evaluations",
+          "articleUrl": "https://aura-knowledge.github.io/articles/evaluations/",
+          "agentJsonPath": "/agents/articles/evaluations.json",
+          "sourceId": "source-big-bench",
+          "sourceTitle": "Beyond the Imitation Game Benchmark (BIG-bench)",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2206.04615"
+        },
+        {
+          "articleId": "article:evaluations",
+          "slug": "evaluations",
+          "articleUrl": "https://aura-knowledge.github.io/articles/evaluations/",
+          "agentJsonPath": "/agents/articles/evaluations.json",
+          "sourceId": "source-eval-survey",
+          "sourceTitle": "Evaluating Large Language Models: A Comprehensive Survey",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2310.19736"
+        },
+        {
+          "articleId": "article:fine-tuning",
+          "slug": "fine-tuning",
+          "articleUrl": "https://aura-knowledge.github.io/articles/fine-tuning/",
+          "agentJsonPath": "/agents/articles/fine-tuning.json",
+          "sourceId": "source-lora-paper",
+          "sourceTitle": "LoRA: Low-Rank Adaptation of Large Language Models",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2106.09685"
+        },
+        {
+          "articleId": "article:fine-tuning",
+          "slug": "fine-tuning",
+          "articleUrl": "https://aura-knowledge.github.io/articles/fine-tuning/",
+          "agentJsonPath": "/agents/articles/fine-tuning.json",
+          "sourceId": "source-instructgpt-paper",
+          "sourceTitle": "Training language models to follow instructions with human feedback",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2203.02155"
+        },
+        {
+          "articleId": "article:long-running-sessions",
+          "slug": "long-running-sessions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-running-sessions/",
+          "agentJsonPath": "/agents/articles/long-running-sessions.json",
+          "sourceId": "source-react-paper",
+          "sourceTitle": "ReAct: Synergizing Reasoning and Acting in Language Models",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2210.03629"
+        },
+        {
+          "articleId": "article:long-running-sessions",
+          "slug": "long-running-sessions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-running-sessions/",
+          "agentJsonPath": "/agents/articles/long-running-sessions.json",
+          "sourceId": "source-self-refine-paper",
+          "sourceTitle": "Self-Refine: Iterative Refinement with Self-Feedback",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2303.17651"
+        },
+        {
+          "articleId": "article:long-running-sessions",
+          "slug": "long-running-sessions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-running-sessions/",
+          "agentJsonPath": "/agents/articles/long-running-sessions.json",
+          "sourceId": "source-generative-agents",
+          "sourceTitle": "Generative Agents: Interactive Simulacra of Human Behavior",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2304.03442"
+        },
+        {
+          "articleId": "article:long-running-sessions",
+          "slug": "long-running-sessions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-running-sessions/",
+          "agentJsonPath": "/agents/articles/long-running-sessions.json",
+          "sourceId": "source-reflexion-paper",
+          "sourceTitle": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2303.11366"
+        },
+        {
           "articleId": "article:loops-vs-goals",
           "slug": "loops-vs-goals",
           "articleUrl": "https://aura-knowledge.github.io/articles/loops-vs-goals/",
@@ -2848,6 +3641,226 @@
           "sourceTitle": "Self-Refine: Iterative Refinement with Self-Feedback",
           "sourceType": "paper",
           "sourceUrl": "https://arxiv.org/abs/2303.17651"
+        },
+        {
+          "articleId": "article:memory-vs-context",
+          "slug": "memory-vs-context",
+          "articleUrl": "https://aura-knowledge.github.io/articles/memory-vs-context/",
+          "agentJsonPath": "/agents/articles/memory-vs-context.json",
+          "sourceId": "source-rag",
+          "sourceTitle": "Lewis et al.: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2005.11401"
+        },
+        {
+          "articleId": "article:memory-vs-context",
+          "slug": "memory-vs-context",
+          "articleUrl": "https://aura-knowledge.github.io/articles/memory-vs-context/",
+          "agentJsonPath": "/agents/articles/memory-vs-context.json",
+          "sourceId": "source-memgpt",
+          "sourceTitle": "Packer et al.: MemGPT: Towards LLMs as Operating Systems",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2310.08560"
+        },
+        {
+          "articleId": "article:multi-agent-systems",
+          "slug": "multi-agent-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/multi-agent-systems/",
+          "agentJsonPath": "/agents/articles/multi-agent-systems.json",
+          "sourceId": "source-multi-agent-debate",
+          "sourceTitle": "Du, Li, Tarlow, et al.: Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2305.14325"
+        },
+        {
+          "articleId": "article:multi-agent-systems",
+          "slug": "multi-agent-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/multi-agent-systems/",
+          "agentJsonPath": "/agents/articles/multi-agent-systems.json",
+          "sourceId": "source-react-paper",
+          "sourceTitle": "ReAct: Synergizing Reasoning and Acting in Language Models",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2210.03629"
+        },
+        {
+          "articleId": "article:multi-agent-systems",
+          "slug": "multi-agent-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/multi-agent-systems/",
+          "agentJsonPath": "/agents/articles/multi-agent-systems.json",
+          "sourceId": "source-autogen",
+          "sourceTitle": "Wu, Bansal, Jin, et al.: AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2308.08155"
+        },
+        {
+          "articleId": "article:planning-and-reflection",
+          "slug": "planning-and-reflection",
+          "articleUrl": "https://aura-knowledge.github.io/articles/planning-and-reflection/",
+          "agentJsonPath": "/agents/articles/planning-and-reflection.json",
+          "sourceId": "source-react-paper",
+          "sourceTitle": "ReAct: Synergizing Reasoning and Acting in Language Models",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2210.03629"
+        },
+        {
+          "articleId": "article:planning-and-reflection",
+          "slug": "planning-and-reflection",
+          "articleUrl": "https://aura-knowledge.github.io/articles/planning-and-reflection/",
+          "agentJsonPath": "/agents/articles/planning-and-reflection.json",
+          "sourceId": "source-cot-paper",
+          "sourceTitle": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2201.11903"
+        },
+        {
+          "articleId": "article:planning-and-reflection",
+          "slug": "planning-and-reflection",
+          "articleUrl": "https://aura-knowledge.github.io/articles/planning-and-reflection/",
+          "agentJsonPath": "/agents/articles/planning-and-reflection.json",
+          "sourceId": "source-self-refine-paper",
+          "sourceTitle": "Self-Refine: Iterative Refinement with Self-Feedback",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2303.17651"
+        },
+        {
+          "articleId": "article:planning-and-reflection",
+          "slug": "planning-and-reflection",
+          "articleUrl": "https://aura-knowledge.github.io/articles/planning-and-reflection/",
+          "agentJsonPath": "/agents/articles/planning-and-reflection.json",
+          "sourceId": "source-reflexion-paper",
+          "sourceTitle": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2303.11366"
+        },
+        {
+          "articleId": "article:prompt-caching",
+          "slug": "prompt-caching",
+          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-caching/",
+          "agentJsonPath": "/agents/articles/prompt-caching.json",
+          "sourceId": "source-pagedattention",
+          "sourceTitle": "vLLM: PagedAttention for Efficient LLM Serving",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2309.06180"
+        },
+        {
+          "articleId": "article:prompt-engineering",
+          "slug": "prompt-engineering",
+          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-engineering/",
+          "agentJsonPath": "/agents/articles/prompt-engineering.json",
+          "sourceId": "source-brown-few-shot",
+          "sourceTitle": "Brown et al.: Language Models are Few-Shot Learners",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2005.14165"
+        },
+        {
+          "articleId": "article:prompt-engineering",
+          "slug": "prompt-engineering",
+          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-engineering/",
+          "agentJsonPath": "/agents/articles/prompt-engineering.json",
+          "sourceId": "source-wei-cot",
+          "sourceTitle": "Wei et al.: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2201.11903"
+        },
+        {
+          "articleId": "article:prompt-engineering",
+          "slug": "prompt-engineering",
+          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-engineering/",
+          "agentJsonPath": "/agents/articles/prompt-engineering.json",
+          "sourceId": "source-bsharat-instructions",
+          "sourceTitle": "Bsharat et al.: Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2312.16171"
+        },
+        {
+          "articleId": "article:reasoning-models",
+          "slug": "reasoning-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/reasoning-models/",
+          "agentJsonPath": "/agents/articles/reasoning-models.json",
+          "sourceId": "source-wei-cot-2022",
+          "sourceTitle": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2201.11903"
+        },
+        {
+          "articleId": "article:reasoning-models",
+          "slug": "reasoning-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/reasoning-models/",
+          "agentJsonPath": "/agents/articles/reasoning-models.json",
+          "sourceId": "source-yao-tot-2023",
+          "sourceTitle": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2305.10601"
+        },
+        {
+          "articleId": "article:reasoning-models",
+          "slug": "reasoning-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/reasoning-models/",
+          "agentJsonPath": "/agents/articles/reasoning-models.json",
+          "sourceId": "source-react-paper",
+          "sourceTitle": "ReAct: Synergizing Reasoning and Acting in Language Models",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2210.03629"
+        },
+        {
+          "articleId": "article:retrieval-augmented-generation",
+          "slug": "retrieval-augmented-generation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/retrieval-augmented-generation/",
+          "agentJsonPath": "/agents/articles/retrieval-augmented-generation.json",
+          "sourceId": "source-rag-lewis-2020",
+          "sourceTitle": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2005.11401"
+        },
+        {
+          "articleId": "article:retrieval-augmented-generation",
+          "slug": "retrieval-augmented-generation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/retrieval-augmented-generation/",
+          "agentJsonPath": "/agents/articles/retrieval-augmented-generation.json",
+          "sourceId": "source-dpr-karpukhin-2020",
+          "sourceTitle": "Dense Passage Retrieval for Open-Domain Question Answering",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2004.04906"
+        },
+        {
+          "articleId": "article:retrieval-augmented-generation",
+          "slug": "retrieval-augmented-generation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/retrieval-augmented-generation/",
+          "agentJsonPath": "/agents/articles/retrieval-augmented-generation.json",
+          "sourceId": "source-drqa-chen-2017",
+          "sourceTitle": "Reading Wikipedia to Answer Open-Domain Questions",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/1704.00051"
+        },
+        {
+          "articleId": "article:retrieval-augmented-generation",
+          "slug": "retrieval-augmented-generation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/retrieval-augmented-generation/",
+          "agentJsonPath": "/agents/articles/retrieval-augmented-generation.json",
+          "sourceId": "source-rag-survey-gao-2024",
+          "sourceTitle": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2312.10997"
+        },
+        {
+          "articleId": "article:tool-use",
+          "slug": "tool-use",
+          "articleUrl": "https://aura-knowledge.github.io/articles/tool-use/",
+          "agentJsonPath": "/agents/articles/tool-use.json",
+          "sourceId": "source-schick-toolformer",
+          "sourceTitle": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2302.04761"
+        },
+        {
+          "articleId": "article:tool-use",
+          "slug": "tool-use",
+          "articleUrl": "https://aura-knowledge.github.io/articles/tool-use/",
+          "agentJsonPath": "/agents/articles/tool-use.json",
+          "sourceId": "source-react-paper",
+          "sourceTitle": "ReAct: Synergizing Reasoning and Acting in Language Models",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2210.03629"
         },
         {
           "articleId": "article:foundation-models",
@@ -3859,7 +4872,7 @@
         "status": "published"
       },
       "resultType": "articles",
-      "resultCount": 15,
+      "resultCount": 28,
       "results": [
         {
           "articleId": "article:agent-auditable-research",
@@ -3878,6 +4891,12 @@
           "slug": "agentic-commerce-product-truth",
           "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
           "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json"
+        },
+        {
+          "articleId": "article:agents",
+          "slug": "agents",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agents/",
+          "agentJsonPath": "/agents/articles/agents.json"
         },
         {
           "articleId": "article:ai-agent-advanced-questions",
@@ -3916,6 +4935,24 @@
           "agentJsonPath": "/agents/articles/birth-of-ai.json"
         },
         {
+          "articleId": "article:context-management",
+          "slug": "context-management",
+          "articleUrl": "https://aura-knowledge.github.io/articles/context-management/",
+          "agentJsonPath": "/agents/articles/context-management.json"
+        },
+        {
+          "articleId": "article:evaluations",
+          "slug": "evaluations",
+          "articleUrl": "https://aura-knowledge.github.io/articles/evaluations/",
+          "agentJsonPath": "/agents/articles/evaluations.json"
+        },
+        {
+          "articleId": "article:fine-tuning",
+          "slug": "fine-tuning",
+          "articleUrl": "https://aura-knowledge.github.io/articles/fine-tuning/",
+          "agentJsonPath": "/agents/articles/fine-tuning.json"
+        },
+        {
           "articleId": "article:formal-logic-to-computation",
           "slug": "formal-logic-to-computation",
           "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
@@ -3946,10 +4983,64 @@
           "agentJsonPath": "/agents/articles/long-human-road-to-ai.json"
         },
         {
+          "articleId": "article:long-running-sessions",
+          "slug": "long-running-sessions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-running-sessions/",
+          "agentJsonPath": "/agents/articles/long-running-sessions.json"
+        },
+        {
           "articleId": "article:loops-vs-goals",
           "slug": "loops-vs-goals",
           "articleUrl": "https://aura-knowledge.github.io/articles/loops-vs-goals/",
           "agentJsonPath": "/agents/articles/loops-vs-goals.json"
+        },
+        {
+          "articleId": "article:memory-vs-context",
+          "slug": "memory-vs-context",
+          "articleUrl": "https://aura-knowledge.github.io/articles/memory-vs-context/",
+          "agentJsonPath": "/agents/articles/memory-vs-context.json"
+        },
+        {
+          "articleId": "article:multi-agent-systems",
+          "slug": "multi-agent-systems",
+          "articleUrl": "https://aura-knowledge.github.io/articles/multi-agent-systems/",
+          "agentJsonPath": "/agents/articles/multi-agent-systems.json"
+        },
+        {
+          "articleId": "article:planning-and-reflection",
+          "slug": "planning-and-reflection",
+          "articleUrl": "https://aura-knowledge.github.io/articles/planning-and-reflection/",
+          "agentJsonPath": "/agents/articles/planning-and-reflection.json"
+        },
+        {
+          "articleId": "article:prompt-caching",
+          "slug": "prompt-caching",
+          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-caching/",
+          "agentJsonPath": "/agents/articles/prompt-caching.json"
+        },
+        {
+          "articleId": "article:prompt-engineering",
+          "slug": "prompt-engineering",
+          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-engineering/",
+          "agentJsonPath": "/agents/articles/prompt-engineering.json"
+        },
+        {
+          "articleId": "article:reasoning-models",
+          "slug": "reasoning-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/reasoning-models/",
+          "agentJsonPath": "/agents/articles/reasoning-models.json"
+        },
+        {
+          "articleId": "article:retrieval-augmented-generation",
+          "slug": "retrieval-augmented-generation",
+          "articleUrl": "https://aura-knowledge.github.io/articles/retrieval-augmented-generation/",
+          "agentJsonPath": "/agents/articles/retrieval-augmented-generation.json"
+        },
+        {
+          "articleId": "article:tool-use",
+          "slug": "tool-use",
+          "articleUrl": "https://aura-knowledge.github.io/articles/tool-use/",
+          "agentJsonPath": "/agents/articles/tool-use.json"
         }
       ]
     }
