@@ -1066,6 +1066,45 @@
     "status": "framing"
   },
   {
+    "id": "article:loops-vs-goals",
+    "type": "article",
+    "label": "Loops vs Goals: The Difference Between Repetition and Direction in AI Agents",
+    "path": "/articles/loops-vs-goals/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:loops-vs-goals:claim-001",
+    "type": "claim",
+    "label": "A loop repeats work; a goal gives the loop direction and a stopping point.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:loops-vs-goals:claim-002",
+    "type": "claim",
+    "label": "The pairing of loops and goals appears in control engineering, reinforcement learning, and the scientific method, not only in recent AI.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:loops-vs-goals:claim-003",
+    "type": "claim",
+    "label": "Practical AI loops repeat steps such as thinking, acting, observing, editing, or searching until a goal is reached or an exit condition fires.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:loops-vs-goals:claim-004",
+    "type": "claim",
+    "label": "Long-running AI sessions need exit conditions and progress checks to avoid drift, runaway work, or hidden goal substitution.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "risk"
+  },
+  {
     "id": "source-001",
     "type": "source",
     "label": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
@@ -2158,6 +2197,13 @@
     "sourceType": "research"
   },
   {
+    "id": "source-react-paper",
+    "type": "source",
+    "label": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-rlhf-2022",
     "type": "source",
     "label": "Training language models to follow instructions with human feedback",
@@ -2205,6 +2251,13 @@
     "label": "Marvellous Machines: Early Robots",
     "url": "https://www.sciencemuseum.org.uk/objects-and-stories/marvellous-machines-early-robots",
     "sourceType": "museum-story"
+  },
+  {
+    "id": "source-self-refine-paper",
+    "type": "source",
+    "label": "Self-Refine: Iterative Refinement with Self-Feedback",
+    "url": "https://arxiv.org/abs/2303.17651",
+    "sourceType": "paper"
   },
   {
     "id": "source-sep-ai",
@@ -2317,6 +2370,13 @@
     "label": "Status Quo Bias in Decision Making",
     "url": "https://rzeckhauser.scholars.harvard.edu/publications/status-quo-bias-decision-making",
     "sourceType": "research"
+  },
+  {
+    "id": "source-sutton-barto-rl",
+    "type": "source",
+    "label": "Sutton and Barto: Reinforcement Learning: An Introduction",
+    "url": "http://incompleteideas.net/book/the-book-2nd.html",
+    "sourceType": "book"
   },
   {
     "id": "source-sutton-bitter",

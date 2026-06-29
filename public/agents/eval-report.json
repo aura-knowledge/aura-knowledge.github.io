@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-28T00:00:00.000Z",
+  "generatedAt": "2026-06-29T00:00:00.000Z",
   "summary": {
     "total": 5,
     "passed": 5,
@@ -104,7 +104,8 @@
           "ai-delegation-orchestration-05-long-running-delegations",
           "ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
           "ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
-          "audio-first-voice-consumption"
+          "audio-first-voice-consumption",
+          "loops-vs-goals"
         ],
         "claimIds": [
           "article:agent-auditable-research:claim-001",
@@ -161,7 +162,11 @@
           "article:audio-first-voice-consumption:claim-004",
           "article:audio-first-voice-consumption:claim-005",
           "article:audio-first-voice-consumption:claim-006",
-          "article:audio-first-voice-consumption:claim-007"
+          "article:audio-first-voice-consumption:claim-007",
+          "article:loops-vs-goals:claim-001",
+          "article:loops-vs-goals:claim-002",
+          "article:loops-vs-goals:claim-003",
+          "article:loops-vs-goals:claim-004"
         ]
       },
       "failures": []
@@ -194,7 +199,8 @@
           "foundation-models",
           "human-systems",
           "learning-machines",
-          "long-human-road-to-ai"
+          "long-human-road-to-ai",
+          "loops-vs-goals"
         ],
         "claimIds": [
           "article:agent-auditable-research:claim-001",
@@ -302,7 +308,11 @@
           "article:long-human-road-to-ai:claim-004",
           "article:long-human-road-to-ai:claim-005",
           "article:long-human-road-to-ai:claim-006",
-          "article:long-human-road-to-ai:claim-007"
+          "article:long-human-road-to-ai:claim-007",
+          "article:loops-vs-goals:claim-001",
+          "article:loops-vs-goals:claim-002",
+          "article:loops-vs-goals:claim-003",
+          "article:loops-vs-goals:claim-004"
         ]
       },
       "failures": []

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-06-28T00:00:00.000Z",
+  "generatedAt": "2026-06-29T00:00:00.000Z",
   "site": "https://aura-knowledge.github.io",
   "base": "",
   "articles": [
@@ -699,6 +699,34 @@
       "sourceCount": 18,
       "tokenEstimate": 628,
       "contentHash": "d852055f4b0a5abd15924735fd73242312304723715c3bc13efc099f0f23dc26"
+    },
+    {
+      "id": "article:loops-vs-goals",
+      "slug": "loops-vs-goals",
+      "title": "Loops vs Goals: The Difference Between Repetition and Direction in AI Agents",
+      "summary": "A plain-language explanation of why AI agents need both loops and goals, with everyday analogies, practical examples, and clear limits.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-agents",
+        "ai-literacy"
+      ],
+      "tags": [
+        "ai-agents",
+        "ai-literacy",
+        "loops",
+        "goals",
+        "de-hype"
+      ],
+      "canonicalPath": "/articles/loops-vs-goals/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/loops-vs-goals/",
+      "agentJsonPath": "/agents/articles/loops-vs-goals.json",
+      "agentMarkdownPath": "/agents/articles/loops-vs-goals.md",
+      "updatedAt": "2026-06-29",
+      "claimCount": 4,
+      "sourceCount": 3,
+      "tokenEstimate": 487,
+      "contentHash": "361b5ebae99f61f33f9c76cd883b47f5c24058e08947ae7d0e676aeb6f07897b"
     }
   ],
   "topics": [
@@ -752,7 +780,8 @@
         "article:ai-delegation-orchestration-05-long-running-delegations",
         "article:ai-delegation-orchestration-06-capability-contracts-for-agent-networks",
         "article:ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains",
-        "article:audio-first-voice-consumption"
+        "article:audio-first-voice-consumption",
+        "article:loops-vs-goals"
       ],
       "pageUrl": "https://aura-knowledge.github.io/topics/ai-agents/",
       "agentJsonPath": "/agents/topics/ai-agents.json"
@@ -783,7 +812,8 @@
       "label": "ai literacy",
       "articleIds": [
         "article:ai-agent-advanced-questions",
-        "article:ai-agent-first-conversation"
+        "article:ai-agent-first-conversation",
+        "article:loops-vs-goals"
       ],
       "pageUrl": "https://aura-knowledge.github.io/topics/ai-literacy/",
       "agentJsonPath": "/agents/topics/ai-literacy.json"
@@ -1148,7 +1178,8 @@
         "article:foundation-models",
         "article:human-systems",
         "article:learning-machines",
-        "article:long-human-road-to-ai"
+        "article:long-human-road-to-ai",
+        "article:loops-vs-goals"
       ],
       "pageUrl": "https://aura-knowledge.github.io/articles/2026/",
       "months": [
@@ -1177,7 +1208,8 @@
             "article:foundation-models",
             "article:human-systems",
             "article:learning-machines",
-            "article:long-human-road-to-ai"
+            "article:long-human-road-to-ai",
+            "article:loops-vs-goals"
           ],
           "pageUrl": "https://aura-knowledge.github.io/articles/2026/06/"
         }

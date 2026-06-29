@@ -236,6 +236,15 @@
 {"from":"article:long-human-road-to-ai","to":"topic:education","type":"covers"}
 {"from":"article:long-human-road-to-ai","to":"topic:human-progress","type":"covers"}
 {"from":"article:long-human-road-to-ai","to":"topic:long-human-road-to-ai","type":"covers"}
+{"from":"article:loops-vs-goals","to":"article:loops-vs-goals:claim-001","type":"argues"}
+{"from":"article:loops-vs-goals","to":"article:loops-vs-goals:claim-002","type":"argues"}
+{"from":"article:loops-vs-goals","to":"article:loops-vs-goals:claim-003","type":"argues"}
+{"from":"article:loops-vs-goals","to":"article:loops-vs-goals:claim-004","type":"argues"}
+{"from":"article:loops-vs-goals","to":"article:ai-agent-advanced-questions","type":"article"}
+{"from":"article:loops-vs-goals","to":"article:ai-agent-first-conversation","type":"article"}
+{"from":"article:loops-vs-goals","to":"topic:ai-agents","type":"covers"}
+{"from":"article:loops-vs-goals","to":"topic:ai-literacy","type":"covers"}
+{"from":"article:loops-vs-goals","to":"topic:ai-agents","type":"topic"}
 {"from":"source-001","to":"article:agent-control-planes:claim-001","type":"supports"}
 {"from":"source-001","to":"article:agent-control-planes:claim-002","type":"supports"}
 {"from":"source-001","to":"article:audio-first-voice-consumption:claim-001","type":"supports"}
@@ -505,6 +514,8 @@
 {"from":"source-r1-revisited-1984","to":"article:ai-winters-expert-systems:claim-004","type":"supports"}
 {"from":"source-rag-2020","to":"article:foundation-models:claim-008","type":"supports"}
 {"from":"source-react-2022","to":"article:foundation-models:claim-008","type":"supports"}
+{"from":"source-react-paper","to":"article:loops-vs-goals:claim-003","type":"supports"}
+{"from":"source-react-paper","to":"article:loops-vs-goals:claim-004","type":"supports"}
 {"from":"source-rlhf-2022","to":"article:foundation-models:claim-006","type":"supports"}
 {"from":"source-rosenblatt-1958","to":"article:birth-of-ai:claim-005","type":"supports"}
 {"from":"source-rosenblatt-1958","to":"article:learning-machines:claim-004","type":"supports"}
@@ -521,6 +532,7 @@
 {"from":"source-schema-review","to":"article:agentic-commerce-product-truth:claim-006","type":"supports"}
 {"from":"source-schema-review","to":"article:agentic-commerce-product-truth:claim-010","type":"supports"}
 {"from":"source-science-museum-automata","to":"article:before-machines:claim-006","type":"supports"}
+{"from":"source-self-refine-paper","to":"article:loops-vs-goals:claim-003","type":"supports"}
 {"from":"source-sep-ai","to":"article:birth-of-ai:claim-001","type":"supports"}
 {"from":"source-sep-ai","to":"article:birth-of-ai:claim-005","type":"supports"}
 {"from":"source-sep-ai","to":"article:long-human-road-to-ai:claim-004","type":"supports"}
@@ -543,6 +555,8 @@
 {"from":"source-smithsonian-napier-rods","to":"article:before-machines:claim-003","type":"supports"}
 {"from":"source-smithsonian-punch-cards","to":"article:before-machines:claim-007","type":"supports"}
 {"from":"source-status-quo-bias","to":"article:agentic-commerce-product-truth:claim-002","type":"supports"}
+{"from":"source-sutton-barto-rl","to":"article:loops-vs-goals:claim-001","type":"supports"}
+{"from":"source-sutton-barto-rl","to":"article:loops-vs-goals:claim-002","type":"supports"}
 {"from":"source-sutton-bitter","to":"article:learning-machines:claim-008","type":"supports"}
 {"from":"source-tech-insider-models","to":"article:ai-agent-advanced-questions:claim-007","type":"supports"}
 {"from":"source-toolformer-2023","to":"article:foundation-models:claim-008","type":"supports"}
