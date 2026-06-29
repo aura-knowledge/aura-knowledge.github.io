@@ -37,10 +37,13 @@ const topicEntries = getTopicEntries(articles).sort(
                 <strong>{formatTopicLabel(topic)}</strong>
                 <small>{topicArticles.length} article{topicArticles.length === 1 ? "" : "s"}</small>
               </span>
-              <span>Expand</span>
+              <span class="details-state">
+                <span class="when-closed">Show articles</span>
+                <span class="when-open">Hide articles</span>
+              </span>
             </summary>
             <div class="topic-index-links">
-              <a class="topic-index-detail-link" href={`${base}topics/${topic}/`}>Open topic page</a>
+              <a class="topic-index-detail-link" href={`${base}topics/${topic}/`}>View topic page</a>
               {topicArticles.map((article) => (
                 <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
               ))}
