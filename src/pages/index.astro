@@ -15,7 +15,7 @@ const sourceIds = new Set(
 );
 const readingPaths = [
   {
-    label: "Read",
+    label: "Latest",
     title: latest ? "Start with the latest essay" : "Start with articles",
     text: latest
       ? latest.summary
@@ -24,16 +24,16 @@ const readingPaths = [
     meta: latest ? latest.readingTime : `${articles.length} essays`
   },
   {
-    label: "Browse",
-    title: "Follow topic stems",
-    text: "Move through the garden by topic rather than recency. Each stem opens the articles attached to that idea.",
-    href: `${base}topics/`,
-    meta: `${topicEntries.length} visible stems`
+    label: "Archive",
+    title: "See all essays",
+    text: "Use the article index when you want the complete reading list without touching internal planning pages.",
+    href: `${base}articles/`,
+    meta: `${articles.length} essays`
   },
   {
-    label: "Trace",
-    title: "Inspect claims and sources",
-    text: "Open the graph when you want relationships, provenance, and evidence paths instead of a reading list.",
+    label: "Evidence",
+    title: "Inspect claims",
+    text: "Open the evidence graph when you want relationships, provenance, and source paths instead of prose alone.",
     href: `${base}graph/`,
     meta: `${claimCount} claims`
   },
@@ -77,8 +77,8 @@ const readingPaths = [
               Read the latest article
             </a>
           )}
-          <a class="button" href={`${base}topics/`}>Browse topics</a>
-          <a class="button" href={`${base}graph/`}>Trace the graph</a>
+          <a class="button" href={`${base}articles/`}>All articles</a>
+          <a class="button" href={`${base}graph/`}>Evidence graph</a>
         </div>
       </div>
 
@@ -96,7 +96,7 @@ const readingPaths = [
     <section class="garden-entry-grid" aria-labelledby="paths-title">
       <header class="section-intro">
         <p class="eyebrow">Entry paths</p>
-        <h2 id="paths-title">Choose how you want to move through the garden.</h2>
+        <h2 id="paths-title">Read first. Inspect structure when the essay asks for it.</h2>
       </header>
       {readingPaths.map((path) => (
         <article class="entry-path-card">
@@ -112,7 +112,7 @@ const readingPaths = [
     <section class="section-band garden-feature" aria-labelledby="latest-title">
       <div>
         <p class="eyebrow">Latest path</p>
-        <h2 id="latest-title">Start with a source object, then branch outward.</h2>
+        <h2 id="latest-title">The article is the front door.</h2>
       </div>
       {latest ? (
         <article class="latest-plot">
@@ -152,8 +152,12 @@ const readingPaths = [
 
     <section class="section-band topic-branch-section" aria-labelledby="topics-title">
       <div>
-        <p class="eyebrow">Topic stems</p>
-        <h2 id="topics-title">Browse by relationship, not only by date.</h2>
+        <p class="eyebrow">Reading threads</p>
+        <h2 id="topics-title">Topics are a secondary index, not the map.</h2>
+        <p>
+          Use these labels after you have a direction. They are useful for resurfacing related
+          essays, but they should not be the first thing a reader has to decode.
+        </p>
       </div>
       {topicEntries.length > 0 ? (
         <div class="topic-branch-grid">
@@ -166,9 +170,9 @@ const readingPaths = [
         </div>
       ) : (
         <EmptyState
-          heading="No topic stems yet"
+          heading="No reading threads yet"
           headingLevel={3}
-          message="Topic stems are generated from published article artifacts."
+          message="Reading threads are generated from published article artifacts."
           action={{ href: `${base}articles/`, text: "Browse articles" }}
         />
       )}
@@ -180,16 +184,16 @@ const readingPaths = [
         <h2 id="records-title">The human page and the machine packet point to the same work.</h2>
       </header>
       <article class="record-card">
-        <p>Trace</p>
-        <h3>Claims and sources stay visible.</h3>
+        <p>Evidence</p>
+        <h3>Claims and sources stay visible when needed.</h3>
         <span>{claimCount} claims and {sourceIds.size} unique source records are exposed through article pages and graph data.</span>
         <a class="packet-link" href={`${base}graph/`}>Open the claims graph</a>
       </article>
       <article class="record-card">
-        <p>Direction</p>
-        <h3>The roadmap is part of the garden.</h3>
-        <span>Future work is published as a reviewable sequence rather than hidden as private planning.</span>
-        <a class="packet-link" href={`${base}roadmap/`}>Open the public roadmap</a>
+        <p>About</p>
+        <h3>The operating model has its own page.</h3>
+        <span>Organization, repository, publication rules, and internal planning links stay outside the reading path.</span>
+        <a class="packet-link" href={`${base}organization/`}>Open the about page</a>
       </article>
       <article class="record-card">
         <p>Agents</p>
