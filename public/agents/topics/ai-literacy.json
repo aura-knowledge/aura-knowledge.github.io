@@ -46,10 +46,10 @@
       "agentJsonPath": "/agents/articles/agents.json",
       "agentMarkdownPath": "/agents/articles/agents.md",
       "updatedAt": "2026-06-29",
-      "claimCount": 4,
-      "sourceCount": 5,
-      "tokenEstimate": 508,
-      "contentHash": "00ae27d5496aa4197ffe45885c6a738536d773c290e2aa378cdeb346be2b9043"
+      "claimCount": 5,
+      "sourceCount": 6,
+      "tokenEstimate": 540,
+      "contentHash": "e5783ecc535523266970dd085bc420d3caff3b77ae173591bc09263f73d2d912"
     },
     {
       "id": "article:ai-agent-advanced-questions",
@@ -249,10 +249,10 @@
       "agentJsonPath": "/agents/articles/long-running-sessions.json",
       "agentMarkdownPath": "/agents/articles/long-running-sessions.md",
       "updatedAt": "2026-06-29",
-      "claimCount": 4,
-      "sourceCount": 4,
-      "tokenEstimate": 465,
-      "contentHash": "5e107cc4c74a8c0b19674c1df621b86145734a401833433985158f140ccfbeb7"
+      "claimCount": 5,
+      "sourceCount": 5,
+      "tokenEstimate": 496,
+      "contentHash": "eb8ff1fe9565aae89289fea8c2dd4c377e5dc02960e9f1f82e63fb0f6dccc6fd"
     },
     {
       "id": "article:loops-vs-goals",
@@ -361,10 +361,10 @@
       "agentJsonPath": "/agents/articles/planning-and-reflection.json",
       "agentMarkdownPath": "/agents/articles/planning-and-reflection.md",
       "updatedAt": "2026-06-29",
-      "claimCount": 4,
-      "sourceCount": 4,
+      "claimCount": 5,
+      "sourceCount": 5,
       "tokenEstimate": 511,
-      "contentHash": "4640fcc98f40ce658ad392e4598110002fe037fb41eae6dc9e9dadece0b2f916"
+      "contentHash": "d3dce937b302fd9f5434128bee3769e975c18dc3338ac506e829f45a55d473dd"
     },
     {
       "id": "article:prompt-caching",
@@ -390,9 +390,9 @@
       "agentMarkdownPath": "/agents/articles/prompt-caching.md",
       "updatedAt": "2026-06-29",
       "claimCount": 4,
-      "sourceCount": 4,
+      "sourceCount": 5,
       "tokenEstimate": 512,
-      "contentHash": "e3a53873ce3f920e3accebf3a2315e2986d4bbecf51a29919b40d2063c747b66"
+      "contentHash": "79e89b409944a0cf6c388603a5a637844fc0cb77abf06f5fed8a204897cf3236"
     },
     {
       "id": "article:prompt-engineering",

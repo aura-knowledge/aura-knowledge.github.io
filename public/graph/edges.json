@@ -474,6 +474,16 @@
     },
     {
       "from": "article:agents",
+      "to": "article:agents:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:agents",
       "to": "article:loops-vs-goals",
       "type": "article",
       "provenance": {
@@ -2954,6 +2964,16 @@
     },
     {
       "from": "article:long-running-sessions",
+      "to": "article:long-running-sessions:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:long-running-sessions",
       "to": "article:loops-vs-goals",
       "type": "article",
       "provenance": {
@@ -3275,6 +3295,16 @@
     {
       "from": "article:planning-and-reflection",
       "to": "article:planning-and-reflection:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:planning-and-reflection",
+      "to": "article:planning-and-reflection:claim-005",
       "type": "argues",
       "provenance": {
         "reviewedAt": "2026-06-29",
@@ -5843,6 +5873,16 @@
       }
     },
     {
+      "from": "source-langchain-deepagents",
+      "to": "article:agents:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-langgraph-hitl",
       "to": "article:ai-delegation-orchestration-05-long-running-delegations:claim-001",
       "type": "supports",
@@ -6035,6 +6075,46 @@
     {
       "from": "source-lost-in-the-middle",
       "to": "article:context-management:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-lumer-prompt-caching-agents",
+      "to": "article:long-running-sessions:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-lumer-prompt-caching-agents",
+      "to": "article:long-running-sessions:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-lumer-prompt-caching-agents",
+      "to": "article:prompt-caching:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-lumer-prompt-caching-agents",
+      "to": "article:prompt-caching:claim-004",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-29",
@@ -7168,6 +7248,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-self-harness-paper",
+      "to": "article:planning-and-reflection:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-06-29",
         "reviewer": "generator",
         "status": "machine-generated"
       }

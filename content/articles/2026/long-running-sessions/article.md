@@ -71,7 +71,11 @@ Three mechanisms usually work together.
 
 <strong>3. Context pruning and stopping rules.</strong> Models can only process a limited amount of text at once. Context pruning decides what stays in the active window. Stopping rules decide when the session ends because the goal is reached, the budget is spent, or the system detects that it is stuck.
 
-<span id="claim-003" class="claim-marker" data-claim="claim-003">Claim C3</span> In practice, long-running sessions combine summarization, checkpoints, and context pruning to keep the active window focused without losing the goal.
+<strong>4. Caching repeated context.</strong> In multi-turn sessions, much of the context is the same from turn to turn — system instructions, background documents, or earlier summaries. Prompt caching lets the provider reuse that prefix instead of reprocessing it every time. A recent cross-provider study of research agents found that caching cut API costs by **41–80%** and improved time-to-first-token by **13–31%**. Lower cost and faster first tokens make it practical to keep a session alive longer, though caching is only helpful when the repeated material is large enough to outweigh the overhead.
+
+<span id="claim-003" class="claim-marker" data-claim="claim-003">Claim C3</span> In practice, long-running sessions combine summarization, checkpoints, context pruning, and prompt caching to keep the active window focused without losing the goal.
+
+<span id="claim-005" class="claim-marker" data-claim="claim-005">Claim C5</span> Prompt caching can cut the cost and latency of repeated context in long sessions, making extended sessions more practical.
 
 <h2 id="where-it-helps">Where It Helps</h2>
 

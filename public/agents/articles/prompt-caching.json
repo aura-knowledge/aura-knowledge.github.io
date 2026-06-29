@@ -84,6 +84,12 @@
           "snippet": "To realize caching benefits, place static content like instructions and examples at the beginning of your prompt, and put variable content, such as user-specific information, at the end.",
           "supports": "direct",
           "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-lumer-prompt-caching-agents",
+          "snippet": "Prompt caching reduces API costs by 41-80% and improves time to first token by 13-31% across providers. Strategic prompt cache block control provides more consistent benefits than naive full-context caching.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
         }
       ],
       "counterevidence": [
@@ -109,6 +115,12 @@
           "sourceId": "source-pagedattention",
           "snippet": "vLLM improves throughput by 2-4x with the same level of latency; the improvement is more pronounced with longer sequences.",
           "supports": "indirect",
+          "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-lumer-prompt-caching-agents",
+          "snippet": "Strategic prompt cache block control, such as placing dynamic content at the end of the system prompt and excluding dynamic tool results, provides more consistent benefits than naive full-context caching, which can paradoxically increase latency.",
+          "supports": "direct",
           "assessedAt": "2026-06-29"
         }
       ],
@@ -148,6 +160,13 @@
       "url": "https://arxiv.org/abs/2309.06180",
       "type": "paper",
       "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-lumer-prompt-caching-agents",
+      "title": "Lumer et al.: Prompt Caching for Multi-Turn LLM Agents",
+      "url": "https://arxiv.org/abs/2601.06007",
+      "type": "paper",
+      "accessed": "2026-06-29"
     }
   ],
   "related": [
@@ -175,14 +194,14 @@
         "model": "kimi",
         "invokedAt": "2026-06-29",
         "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-        "outputHash": "sha256:e3a53873ce3f920e3accebf3a2315e2986d4bbecf51a29919b40d2063c747b66"
+        "outputHash": "sha256:79e89b409944a0cf6c388603a5a637844fc0cb77abf06f5fed8a204897cf3236"
       },
       {
         "role": "review",
         "model": "kimi",
         "invokedAt": "2026-06-29",
         "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-        "outputHash": "sha256:e3a53873ce3f920e3accebf3a2315e2986d4bbecf51a29919b40d2063c747b66"
+        "outputHash": "sha256:79e89b409944a0cf6c388603a5a637844fc0cb77abf06f5fed8a204897cf3236"
       }
     ],
     "reviews": [
@@ -197,7 +216,7 @@
           "scope"
         ],
         "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
-        "contentHash": "e3a53873ce3f920e3accebf3a2315e2986d4bbecf51a29919b40d2063c747b66"
+        "contentHash": "79e89b409944a0cf6c388603a5a637844fc0cb77abf06f5fed8a204897cf3236"
       },
       {
         "reviewer": "human",
@@ -210,7 +229,7 @@
           "safety"
         ],
         "notes": "Human author approved the draft for publication.",
-        "contentHash": "e3a53873ce3f920e3accebf3a2315e2986d4bbecf51a29919b40d2063c747b66"
+        "contentHash": "79e89b409944a0cf6c388603a5a637844fc0cb77abf06f5fed8a204897cf3236"
       }
     ],
     "policy": {
@@ -218,7 +237,7 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "e3a53873ce3f920e3accebf3a2315e2986d4bbecf51a29919b40d2063c747b66",
+  "contentHash": "79e89b409944a0cf6c388603a5a637844fc0cb77abf06f5fed8a204897cf3236",
   "generatedAt": "2026-06-29T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/prompt-caching/",
   "agentJsonPath": "/agents/articles/prompt-caching.json",

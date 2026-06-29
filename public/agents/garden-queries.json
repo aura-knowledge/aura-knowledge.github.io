@@ -6,7 +6,7 @@
   "generatedAt": "2026-06-29T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 519
+    "totalResults": 523
   },
   "dimensions": [
     {
@@ -1754,7 +1754,7 @@
         "groupBy": "sourceType"
       },
       "resultType": "sources",
-      "resultCount": 313,
+      "resultCount": 317,
       "results": [
         {
           "articleId": "article:human-systems",
@@ -2265,6 +2265,16 @@
           "sourceTitle": "Product snippet structured data",
           "sourceType": "documentation",
           "sourceUrl": "https://developers.google.com/search/docs/appearance/structured-data/product-snippet"
+        },
+        {
+          "articleId": "article:agents",
+          "slug": "agents",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agents/",
+          "agentJsonPath": "/agents/articles/agents.json",
+          "sourceId": "source-langchain-deepagents",
+          "sourceTitle": "LangChain: Deep Agents",
+          "sourceType": "documentation",
+          "sourceUrl": "https://python.langchain.com/docs/concepts/deepagents/"
         },
         {
           "articleId": "article:ai-delegation-orchestration",
@@ -3647,6 +3657,16 @@
           "sourceUrl": "https://arxiv.org/abs/2303.11366"
         },
         {
+          "articleId": "article:long-running-sessions",
+          "slug": "long-running-sessions",
+          "articleUrl": "https://aura-knowledge.github.io/articles/long-running-sessions/",
+          "agentJsonPath": "/agents/articles/long-running-sessions.json",
+          "sourceId": "source-lumer-prompt-caching-agents",
+          "sourceTitle": "Cross-Provider Evaluation of Prompt Caching in Multi-Turn Research Agents",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2601.06007v2"
+        },
+        {
           "articleId": "article:loops-vs-goals",
           "slug": "loops-vs-goals",
           "articleUrl": "https://aura-knowledge.github.io/articles/loops-vs-goals/",
@@ -3757,6 +3777,16 @@
           "sourceUrl": "https://arxiv.org/abs/2303.11366"
         },
         {
+          "articleId": "article:planning-and-reflection",
+          "slug": "planning-and-reflection",
+          "articleUrl": "https://aura-knowledge.github.io/articles/planning-and-reflection/",
+          "agentJsonPath": "/agents/articles/planning-and-reflection.json",
+          "sourceId": "source-self-harness-paper",
+          "sourceTitle": "Self-Harness: Mining Weaknesses to Generate Test-Time Harnesses",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2606.09498"
+        },
+        {
           "articleId": "article:prompt-caching",
           "slug": "prompt-caching",
           "articleUrl": "https://aura-knowledge.github.io/articles/prompt-caching/",
@@ -3765,6 +3795,16 @@
           "sourceTitle": "vLLM: PagedAttention for Efficient LLM Serving",
           "sourceType": "paper",
           "sourceUrl": "https://arxiv.org/abs/2309.06180"
+        },
+        {
+          "articleId": "article:prompt-caching",
+          "slug": "prompt-caching",
+          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-caching/",
+          "agentJsonPath": "/agents/articles/prompt-caching.json",
+          "sourceId": "source-lumer-prompt-caching-agents",
+          "sourceTitle": "Lumer et al.: Prompt Caching for Multi-Turn LLM Agents",
+          "sourceType": "paper",
+          "sourceUrl": "https://arxiv.org/abs/2601.06007"
         },
         {
           "articleId": "article:prompt-engineering",

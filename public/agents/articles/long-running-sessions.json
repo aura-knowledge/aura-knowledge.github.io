@@ -69,7 +69,7 @@
     },
     {
       "id": "claim-003",
-      "claim": "In practice, long-running sessions combine summarization, checkpoints, and context pruning to keep the active window focused without losing the goal.",
+      "claim": "In practice, long-running sessions combine summarization, checkpoints, context pruning, and prompt caching to keep the active window focused without losing the goal.",
       "confidence": "medium-high",
       "status": "design",
       "evidence": [
@@ -82,6 +82,12 @@
         {
           "sourceId": "source-react-paper",
           "snippet": "ReAct interleaves reasoning traces and actions, relying on the session history to stay focused on the task while observing new information.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        },
+        {
+          "sourceId": "source-lumer-prompt-caching-agents",
+          "snippet": "Prompt caching reduces the cost and latency of repeated context in multi-turn sessions, making it more practical to keep long-running sessions coherent.",
           "supports": "direct",
           "assessedAt": "2026-06-29"
         }
@@ -118,6 +124,26 @@
           "assessedAt": "2026-06-29"
         }
       ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "Prompt caching can cut the cost and latency of repeated context in long sessions, making extended sessions more practical.",
+      "confidence": "medium-high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-lumer-prompt-caching-agents",
+          "snippet": "A cross-provider evaluation of multi-turn research agents with 10,000-token system prompts found prompt caching reduced API costs by 41–80% and improved time-to-first-token by 13–31%.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Caching benefits depend on context size, provider implementation, and how much of the prompt is repeated; small or highly varied sessions may see little gain.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
     }
   ],
   "sources": [
@@ -148,6 +174,13 @@
       "url": "https://arxiv.org/abs/2303.11366",
       "type": "paper",
       "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-lumer-prompt-caching-agents",
+      "title": "Cross-Provider Evaluation of Prompt Caching in Multi-Turn Research Agents",
+      "url": "https://arxiv.org/abs/2601.06007v2",
+      "type": "paper",
+      "accessed": "2026-06-29"
     }
   ],
   "related": [
@@ -175,14 +208,14 @@
         "model": "kimi",
         "invokedAt": "2026-06-29",
         "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-        "outputHash": "sha256:5e107cc4c74a8c0b19674c1df621b86145734a401833433985158f140ccfbeb7"
+        "outputHash": "sha256:eb8ff1fe9565aae89289fea8c2dd4c377e5dc02960e9f1f82e63fb0f6dccc6fd"
       },
       {
         "role": "review",
         "model": "kimi",
         "invokedAt": "2026-06-29",
         "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-        "outputHash": "sha256:5e107cc4c74a8c0b19674c1df621b86145734a401833433985158f140ccfbeb7"
+        "outputHash": "sha256:eb8ff1fe9565aae89289fea8c2dd4c377e5dc02960e9f1f82e63fb0f6dccc6fd"
       }
     ],
     "reviews": [
@@ -197,7 +230,7 @@
           "scope"
         ],
         "notes": "Sibling-agent review against article structure. Privacy scan passed. No proprietary or personal content detected.",
-        "contentHash": "5e107cc4c74a8c0b19674c1df621b86145734a401833433985158f140ccfbeb7"
+        "contentHash": "eb8ff1fe9565aae89289fea8c2dd4c377e5dc02960e9f1f82e63fb0f6dccc6fd"
       },
       {
         "reviewer": "human",
@@ -210,7 +243,7 @@
           "safety"
         ],
         "notes": "Human author approved the draft for publication.",
-        "contentHash": "5e107cc4c74a8c0b19674c1df621b86145734a401833433985158f140ccfbeb7"
+        "contentHash": "eb8ff1fe9565aae89289fea8c2dd4c377e5dc02960e9f1f82e63fb0f6dccc6fd"
       }
     ],
     "policy": {
@@ -218,14 +251,14 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "5e107cc4c74a8c0b19674c1df621b86145734a401833433985158f140ccfbeb7",
+  "contentHash": "eb8ff1fe9565aae89289fea8c2dd4c377e5dc02960e9f1f82e63fb0f6dccc6fd",
   "generatedAt": "2026-06-29T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/long-running-sessions/",
   "agentJsonPath": "/agents/articles/long-running-sessions.json",
   "agentMarkdownPath": "/agents/articles/long-running-sessions.md",
   "sourceRepoPath": "content/articles/2026/long-running-sessions/article.md",
   "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/long-running-sessions/article.md",
-  "tokenEstimate": 465,
+  "tokenEstimate": 496,
   "sectionOutline": [
     {
       "id": "plain-english-meaning",

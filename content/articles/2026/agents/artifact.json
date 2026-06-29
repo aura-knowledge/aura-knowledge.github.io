@@ -118,6 +118,26 @@
           "assessedAt": "2026-06-29"
         }
       ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "A modern AI agent can be understood as a model plus a harness that provides tools, memory, permissions, checkpoints, and human oversight.",
+      "confidence": "medium-high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-langchain-deepagents",
+          "snippet": "Deep Agents is an agent harness built on top of LangChain that adds execution environment, context management, delegation, and steering around a model.",
+          "supports": "direct",
+          "assessedAt": "2026-06-29"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The term 'harness' is a design lens, not an industry standard; different frameworks split model, harness, and tool responsibilities differently.",
+          "assessedAt": "2026-06-29"
+        }
+      ]
     }
   ],
   "sources": [
@@ -155,6 +175,13 @@
       "url": "https://arxiv.org/abs/2108.00981",
       "type": "paper",
       "accessed": "2026-06-29"
+    },
+    {
+      "id": "source-langchain-deepagents",
+      "title": "LangChain: Deep Agents",
+      "url": "https://python.langchain.com/docs/concepts/deepagents/",
+      "type": "documentation",
+      "accessed": "2026-06-29"
     }
   ],
   "related": [
@@ -182,14 +209,14 @@
         "model": "kimi",
         "invokedAt": "2026-06-29",
         "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-        "outputHash": "sha256:00ae27d5496aa4197ffe45885c6a738536d773c290e2aa378cdeb346be2b9043"
+        "outputHash": "sha256:e5783ecc535523266970dd085bc420d3caff3b77ae173591bc09263f73d2d912"
       },
       {
         "role": "review",
         "model": "kimi",
         "invokedAt": "2026-06-29",
         "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-        "outputHash": "sha256:00ae27d5496aa4197ffe45885c6a738536d773c290e2aa378cdeb346be2b9043"
+        "outputHash": "sha256:e5783ecc535523266970dd085bc420d3caff3b77ae173591bc09263f73d2d912"
       }
     ],
     "reviews": [
@@ -204,7 +231,7 @@
           "scope"
         ],
         "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
-        "contentHash": "00ae27d5496aa4197ffe45885c6a738536d773c290e2aa378cdeb346be2b9043"
+        "contentHash": "e5783ecc535523266970dd085bc420d3caff3b77ae173591bc09263f73d2d912"
       },
       {
         "reviewer": "human",
@@ -217,7 +244,7 @@
           "safety"
         ],
         "notes": "Human author approved the draft for publication.",
-        "contentHash": "00ae27d5496aa4197ffe45885c6a738536d773c290e2aa378cdeb346be2b9043"
+        "contentHash": "e5783ecc535523266970dd085bc420d3caff3b77ae173591bc09263f73d2d912"
       }
     ],
     "policy": {
@@ -225,5 +252,5 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "00ae27d5496aa4197ffe45885c6a738536d773c290e2aa378cdeb346be2b9043"
+  "contentHash": "e5783ecc535523266970dd085bc420d3caff3b77ae173591bc09263f73d2d912"
 }

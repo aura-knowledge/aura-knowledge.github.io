@@ -57,6 +57,18 @@ What changed is the **glue**. In older agents, the glue was hard-coded logic. In
 
 That flexibility is the real advance. The same agent can, in principle, look up a flight, edit a file, run a test, or summarize a paper depending on the goal. But flexibility is also a risk: it can misinterpret the goal, call the wrong tool, trust a bad result, or loop endlessly while sounding confident.
 
+<h2 id="the-harness-idea">The Harness Idea</h2>
+
+A useful shorthand is: **agent = model + harness**. The model supplies language understanding and reasoning. The harness supplies everything else: the tools the agent can call, the memory it can read and write, the permissions that bound its actions, the checkpoints that let humans pause or resume it, and the subagents it can delegate to.
+
+LangChain's DeepAgents is one example of such a harness. It wraps a model with a virtual filesystem, sandboxed code execution, skills, memory, subagent spawning, and human-in-the-loop interrupts. The model is still the thinker; the harness turns that thinking into repeated, governed action.
+
+<span id="claim-005" class="claim-marker" data-claim="claim-005">Claim C5</span> A modern AI agent can be understood as a model plus a harness that provides tools, memory, permissions, checkpoints, and human oversight.
+
+<aside class="analogy-limit" data-claim="claim-005">
+  <strong>Analogy limit:</strong> Calling the wrapper a "harness" is a design lens, not a universal standard. Different frameworks split responsibilities differently, and the boundaries between model, harness, and tool are not always sharp.
+</aside>
+
 <h2 id="how-it-works-in-practice">How It Works In Practice</h2>
 
 Most practical agents share the same skeleton:
