@@ -23,16 +23,16 @@ function nodeLabel(id) {
 ---
 
 <BaseLayout
-  title="Knowledge Graph"
-  description="A topic and claim graph for the knowledge garden."
+  title="Reading Map"
+  description="A map of Aura Knowledge topics, articles, and source-backed points."
 >
   <div class="page-shell utility-page">
     <header class="utility-hero">
-      <p class="eyebrow">Graph</p>
-      <h1>Browse the stems, then inspect the claims.</h1>
+      <p class="eyebrow">Reading map</p>
+      <h1>Move from topics to articles, then to the important points.</h1>
       <p class="lede">
-        The graph is deliberately simple in the first release: topics point to articles, then each
-        article exposes its claim map once. The generated JSON files expose the same map to agents.
+        This map is deliberately simple: topics lead to articles, and each article lists the main
+        points you may want to check. The generated files expose the same structure to automation.
       </p>
     </header>
 
@@ -64,7 +64,7 @@ function nodeLabel(id) {
     <section class="graph-branch-list graph-article-branches" aria-labelledby="article-claim-maps">
       <div class="roadmap-section-head">
         <p class="eyebrow">Article maps</p>
-        <h2 id="article-claim-maps">Each article appears once with its claims.</h2>
+        <h2 id="article-claim-maps">Each article appears once with its important points.</h2>
       </div>
       {articles.length > 0 ? (
         articles.map((article) => (
@@ -92,7 +92,7 @@ function nodeLabel(id) {
         <EmptyState
           heading="No article maps yet"
           headingLevel={3}
-          message="No articles have been published yet. Article claim maps will appear once essays are published."
+          message="No articles have been published yet. Article maps will appear once essays are published."
           action={{ href: `${base}roadmap/`, text: "Open the roadmap" }}
         />
       )}
@@ -100,13 +100,13 @@ function nodeLabel(id) {
 
     <section class="section-band" aria-labelledby="graph-edges-title">
       <div class="roadmap-section-head">
-        <p class="eyebrow">Provenance</p>
-        <h2 id="graph-edges-title">Graph edges and provenance</h2>
+        <p class="eyebrow">Review history</p>
+        <h2 id="graph-edges-title">Map links and review history</h2>
       </div>
       <p>
-        Each edge is generated from the artifact at build time and carries provenance metadata.
-        <code>supports</code> and <code>contests</code> edges come from evidence and counterevidence
-        packets; other edge types come from <code>artifact.related</code>.
+        Each link is generated from the published records at build time. Supporting and
+        contrasting source notes create the strongest links; related-article links come from the
+        article record.
       </p>
       <ul class="graph-edge-list">
         {edges.slice(0, 50).map((edge) => (

@@ -19,12 +19,12 @@ const topicEntries = getTopicEntries(articles).sort(
       <p class="eyebrow">Topic index</p>
       <h1>A compact index, not the front door.</h1>
       <p class="lede">
-        Topics are generated from article artifacts. They are useful once you know the thread you
+        Topics are generated from published articles. They are useful once you know the thread you
         want, but the normal reading path starts with articles.
       </p>
       <div class="button-row" aria-label="Topic index starting points">
         <a class="button primary" href={`${base}articles/`}>Start with articles</a>
-        <a class="button" href={`${base}graph/`}>Evidence graph</a>
+        <a class="button" href={`${base}graph/`}>Reading map</a>
       </div>
     </header>
 
@@ -54,7 +54,7 @@ const topicEntries = getTopicEntries(articles).sort(
         <EmptyState
           heading="No topic index yet"
           headingLevel={2}
-          message="Topics are created from published article artifacts, so the index appears once articles are live."
+          message="Topics appear once published articles are live."
           action={{ href: `${base}articles/`, text: "Browse articles" }}
         />
       )}

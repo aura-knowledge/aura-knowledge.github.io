@@ -108,30 +108,31 @@ const jsonLd = {
         <details class="claim-audit" aria-labelledby="claim-audit-title">
           <summary class="claim-audit-heading">
             <div>
-              <p class="eyebrow">Audit layer</p>
-              <h2 id="claim-audit-title">Claim packets</h2>
+              <p class="eyebrow">Look closer</p>
+              <h2 id="claim-audit-title">Sources and notes</h2>
             </div>
             <span class="claim-audit-summary-action details-state">
-              <span class="when-closed">Open audit layer</span>
-              <span class="when-open">Close audit layer</span>
+              <span class="when-closed">Open details</span>
+              <span class="when-open">Close details</span>
             </span>
           </summary>
           <div class="claim-audit-content">
-            <div class="claim-audit-controls" aria-label="Scroll claim packets">
-              <button type="button" data-claim-carousel-prev aria-label="Previous claim packet">&lsaquo;</button>
-              <button type="button" data-claim-carousel-next aria-label="Next claim packet">&rsaquo;</button>
+            <div class="claim-audit-controls" aria-label="Scroll source notes">
+              <button type="button" data-claim-carousel-prev aria-label="Previous source note">&lsaquo;</button>
+              <button type="button" data-claim-carousel-next aria-label="Next source note">&rsaquo;</button>
             </div>
             <p>
-              Each card is generated from the same artifact that agents consume. The essay stays
-              readable; the claim packet keeps the trust layer inspectable.
+              These notes collect the sources, counterpoints, and review status behind the
+              article's important points. Read the essay first; open this when you want to check
+              something.
             </p>
             <p class="claim-legend">
-              <strong>Confidence</strong> reflects how strongly the evidence supports the claim
-              (low / medium / high). <strong>Status</strong> describes the claim's role (e.g., core,
-              argument, landscape). <strong>Evidence</strong> links to supporting sources;
+              <strong>Confidence</strong> reflects how strongly the sources support the point
+              (low / medium / high). <strong>Status</strong> describes the point's role (e.g., core,
+              argument, landscape). <strong>Sources</strong> link to supporting material;
               <strong>counterpoints</strong> note boundary conditions or conflicting findings.
             </p>
-            <div class="claim-audit-grid" data-claim-carousel tabindex="0" role="region" aria-label="Claim packet cards">
+            <div class="claim-audit-grid" data-claim-carousel tabindex="0" role="region" aria-label="Source note cards">
               {article.artifact.claims.map((claim) => (
                 <ClaimCard claim={claim} sourceById={sourceById} />
               ))}
