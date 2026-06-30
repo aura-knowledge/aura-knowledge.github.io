@@ -104,10 +104,6 @@ const isActive = (href: string) => {
     <footer class="site-footer">
       <div class="site-footer-inner">
         <span>Readable essays with sources close by.</span>
-        <span class="offline-badge" title="Offline cache status" aria-label="Offline cache status">
-          <span class="offline-badge-dot" aria-hidden="true"></span>
-          <span class="offline-badge-text">Offline ready</span>
-        </span>
         <div class="footer-meta">
           <span>Built for readers first. Structured files are available when needed.</span>
           <nav aria-label="Utility links">
@@ -116,6 +112,10 @@ const isActive = (href: string) => {
             <a class="footer-utility" href={`${base}agents/`}>Machine files</a>
             <a class="footer-utility" href={`${base}llms.txt`}>llms.txt</a>
           </nav>
+          <span class="offline-badge" title="Offline cache status" aria-label="Offline cache status">
+            <span class="offline-badge-dot" aria-hidden="true"></span>
+            <span class="offline-badge-text">Offline ready</span>
+          </span>
         </div>
       </div>
     </footer>
