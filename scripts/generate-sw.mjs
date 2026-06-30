@@ -87,8 +87,13 @@ self.addEventListener("fetch", (event) => {
       let cacheKey = url.pathname;
       if (cacheKey.endsWith("/")) {
         cacheKey = cacheKey + "index.html";
-      } else if (!path.extname(cacheKey)) {
-        cacheKey = cacheKey + "/index.html";
+      } else {
+        // Check if the URL has a file extension (last segment contains a dot)
+        const lastSlash = cacheKey.lastIndexOf("/");
+        const lastSegment = cacheKey.slice(lastSlash + 1);
+        if (!lastSegment.includes(".")) {
+          cacheKey = cacheKey + "/index.html";
+        }
       }
 
       // Try cache first (cache-first strategy)
