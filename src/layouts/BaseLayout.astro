@@ -59,7 +59,16 @@ const isActive = (href: string) => {
     <script is:inline define:vars={{ swPath: `${base}sw.js` }}>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", () => {
-          navigator.serviceWorker.register(swPath).catch(() => {});
+          navigator.serviceWorker.register(swPath).then(reg => {
+            function notifyReady() {
+              document.documentElement.setAttribute("data-sw-ready", "true");
+            }
+            if (navigator.serviceWorker.controller) {
+              notifyReady();
+            } else {
+              navigator.serviceWorker.addEventListener("controllerchange", notifyReady);
+            }
+          }).catch(() => {});
         });
       }
     </script>
@@ -95,6 +104,10 @@ const isActive = (href: string) => {
     <footer class="site-footer">
       <div class="site-footer-inner">
         <span>Readable essays with sources close by.</span>
+        <span class="offline-badge" title="Offline cache status" aria-label="Offline cache status">
+          <span class="offline-badge-dot" aria-hidden="true"></span>
+          <span class="offline-badge-text">Offline ready</span>
+        </span>
         <div class="footer-meta">
           <span>Built for readers first. Structured files are available when needed.</span>
           <nav aria-label="Utility links">

@@ -14,6 +14,12 @@ const result = await generateSW({
   globIgnores: ["sw.js", "workbox-*.js"],
   maximumFileSizeToCacheInBytes: 3 * 1024 * 1024,
   directoryIndex: "index.html",
+  navigateFallback: "/index.html",
+  navigateFallbackDenylist: [
+    /^\/agents\//,
+    /^\/_astro\//,
+    /\.(json|md|jsonl|txt|svg|webp|png|webmanifest)$/,
+  ],
   cleanupOutdatedCaches: true,
   clientsClaim: true,
   skipWaiting: true,

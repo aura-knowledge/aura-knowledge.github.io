@@ -1954,6 +1954,30 @@ details[open] .details-state .when-open {
   font-size: var(--step--1);
 }
 
+.offline-badge {
+  display: none;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: var(--step--2);
+  color: var(--text-soft);
+}
+
+.offline-badge-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--text-soft);
+  flex-shrink: 0;
+}
+
+[data-sw-ready="true"] .offline-badge {
+  display: inline-flex;
+}
+
+[data-sw-ready="true"] .offline-badge-dot {
+  background: #62c370;
+}
+
 .site-footer-inner {
   display: flex;
   justify-content: space-between;
@@ -1982,6 +2006,10 @@ details[open] .details-state .when-open {
 
   .footer-meta nav {
     justify-content: flex-start;
+  }
+
+  .offline-badge {
+    display: none;
   }
 
   .home-hero,
