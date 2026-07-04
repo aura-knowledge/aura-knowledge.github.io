@@ -820,6 +820,53 @@
     "status": "risk"
   },
   {
+    "id": "article:designing-for-substance",
+    "type": "article",
+    "label": "Designing for Substance: Platform Incentives and the Attention Economy",
+    "path": "/articles/designing-for-substance/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:designing-for-substance:claim-001",
+    "type": "claim",
+    "label": "The attention economy is not an inevitable feature of the internet. It is the product of specific design choices—engagement metrics, personalized recommendations, infinite scroll, and advertising-based business models—that could be redesigned.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:designing-for-substance:claim-002",
+    "type": "claim",
+    "label": "Alternative metrics such as time well spent, creator sustainability, learning outcomes, civic value, and long-term user flourishing can be measured and rewarded, though none is perfect or easy to game-proof.",
+    "localId": "claim-002",
+    "confidence": "medium",
+    "status": "design"
+  },
+  {
+    "id": "article:designing-for-substance:claim-003",
+    "type": "claim",
+    "label": "Accountability for platform design can emerge through regulation, public pressure, and user migration to better-designed platforms. No single lever is sufficient on its own.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "strategy"
+  },
+  {
+    "id": "article:designing-for-substance:claim-004",
+    "type": "claim",
+    "label": "Substance-friendly design is a category that includes chronological feeds, user-chosen algorithms, expert curation, reputation systems, and friction against virality. It is not limited to a single product or business model.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:designing-for-substance:claim-005",
+    "type": "claim",
+    "label": "A substance-oriented platform would ask how to help users leave better than they arrived, rather than how to maximize time on platform.",
+    "localId": "claim-005",
+    "confidence": "medium",
+    "status": "normative"
+  },
+  {
     "id": "article:evaluations",
     "type": "article",
     "label": "Evaluations: How We Know an AI Workflow Improved",
@@ -1628,6 +1675,131 @@
     "status": "risk"
   },
   {
+    "id": "article:the-attention-extraction",
+    "type": "article",
+    "label": "The Attention Extraction: How India's Digital Dividend Is Becoming a Cognitive Deficit",
+    "path": "/articles/the-attention-extraction/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-attention-extraction:claim-001",
+    "type": "claim",
+    "label": "India has near-universal digital access, but entertainment and social media use crowd out education and production among young users.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-attention-extraction:claim-002",
+    "type": "claim",
+    "label": "A large share of digital advertising revenue in India flows to foreign platforms, while local safety, quality signals, and creator sustainability lag behind.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:the-attention-extraction:claim-003",
+    "type": "claim",
+    "label": "Short-form feeds use variable rewards, infinite scroll, autoplay, and personalized recommendations to extend engagement beyond user intent.",
+    "localId": "claim-003",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-attention-extraction:claim-004",
+    "type": "claim",
+    "label": "The costs of the attention economy appear across attention spans, productivity, youth mental health, and social trust.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-generational-bet",
+    "type": "article",
+    "label": "The Generational Bet: Will India Build the AI Age or Scroll Through It?",
+    "path": "/articles/the-generational-bet/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-generational-bet:claim-001",
+    "type": "claim",
+    "label": "Artificial intelligence has collapsed the cost of creation for individuals in research, writing, coding, designing, translating, and teaching.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-generational-bet:claim-002",
+    "type": "claim",
+    "label": "The attention economy has trained users to consume before they create, and the default behavior of the same devices has not caught up with AI's creative affordances.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "behavioral"
+  },
+  {
+    "id": "article:the-generational-bet:claim-003",
+    "type": "claim",
+    "label": "The creator-economy incentive structure appears to reward reach and engagement more than substantive, educational, or slow-burn work.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:the-generational-bet:claim-004",
+    "type": "claim",
+    "label": "Small daily choices about attention may compound, over years, into individual skill and, at scale, into national capacity.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:the-substance-builder",
+    "type": "article",
+    "label": "The Substance Builder: How to Turn Dead Time into Small Acts of Creation",
+    "path": "/articles/the-substance-builder/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-substance-builder:claim-001",
+    "type": "claim",
+    "label": "Substance is built through small, repeated acts of writing, coding, designing, translating, or teaching that compound over time.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-substance-builder:claim-002",
+    "type": "claim",
+    "label": "AI lowers the activation energy for starting drafts, lessons, prototypes, and explanations.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:the-substance-builder:claim-003",
+    "type": "claim",
+    "label": "The main cost of building substance is redirecting attention from consumption, not purchasing equipment or changing schedules dramatically.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "behavioral"
+  },
+  {
+    "id": "article:the-substance-builder:claim-004",
+    "type": "claim",
+    "label": "Unfinished or unnoticed early projects still build the skill stack for later work.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:the-substance-builder:claim-005",
+    "type": "claim",
+    "label": "Teaching an idea to someone else turns passive information into owned knowledge.",
+    "localId": "claim-005",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
     "id": "article:tool-use",
     "type": "article",
     "label": "Tool Use: When the Model Calls Something Outside Itself",
@@ -1891,6 +2063,13 @@
     "sourceType": "paper"
   },
   {
+    "id": "source-anders-ericsson-deliberate-practice",
+    "type": "source",
+    "label": "Anders Ericsson: The Role of Deliberate Practice in the Acquisition of Expert Performance",
+    "url": "https://psycnet.apa.org/record/1993-40718-001",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
     "id": "source-anthropic-building-effective-agents",
     "type": "source",
     "label": "Anthropic, Building effective agents",
@@ -1910,6 +2089,13 @@
     "label": "Anthropic: Prompt engineering overview",
     "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
     "sourceType": "product"
+  },
+  {
+    "id": "source-aser-2024",
+    "type": "source",
+    "label": "ASER 2024 National Findings",
+    "url": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf",
+    "sourceType": "research-report"
   },
   {
     "id": "source-attention-is-all-you-need",
@@ -1961,6 +2147,13 @@
     "sourceType": "research"
   },
   {
+    "id": "source-bcg-creator-economy",
+    "type": "source",
+    "label": "BCG: India from Content to Commerce—Mapping India's Creator Economy",
+    "url": "https://www.bcg.com/publications/2025/india-from-content-to-commerce-mapping-indias-creator-economy",
+    "sourceType": "industry-report"
+  },
+  {
     "id": "source-beehiiv-mcp-v2",
     "type": "source",
     "label": "beehiiv MCP v2",
@@ -1980,6 +2173,13 @@
     "label": "Beyond the Imitation Game Benchmark (BIG-bench)",
     "url": "https://arxiv.org/abs/2206.04615",
     "sourceType": "paper"
+  },
+  {
+    "id": "source-bj-fogg-tiny-habits",
+    "type": "source",
+    "label": "BJ Fogg: Tiny Habits",
+    "url": "https://tinyhabits.com/",
+    "sourceType": "book-website"
   },
   {
     "id": "source-boole-laws-thought",
@@ -2022,6 +2222,27 @@
     "label": "C2PA Content Credentials and Provenance Standard",
     "url": "https://c2pa.org/",
     "sourceType": "standard"
+  },
+  {
+    "id": "source-cal-newport-deep-work",
+    "type": "source",
+    "label": "Cal Newport: Deep Work",
+    "url": "https://www.calnewport.com/books/deep-work/",
+    "sourceType": "book"
+  },
+  {
+    "id": "source-cal-newport-tao-of-cal",
+    "type": "source",
+    "label": "Cal Newport: The Tao of Cal",
+    "url": "https://calnewport.com/the-tao-of-cal/",
+    "sourceType": "blog-post"
+  },
+  {
+    "id": "source-center-humane-tech",
+    "type": "source",
+    "label": "Center for Humane Technology",
+    "url": "https://www.humanetech.com/",
+    "sourceType": "organization-website"
   },
   {
     "id": "source-chatgpt-overview",
@@ -2220,6 +2441,13 @@
     "sourceType": "design"
   },
   {
+    "id": "source-digital-services-act",
+    "type": "source",
+    "label": "European Commission: Digital Services Act",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act",
+    "sourceType": "government-policy"
+  },
+  {
     "id": "source-dpr-karpukhin-2020",
     "type": "source",
     "label": "Dense Passage Retrieval for Open-Domain Question Answering",
@@ -2232,6 +2460,13 @@
     "label": "Reading Wikipedia to Answer Open-Domain Questions",
     "url": "https://arxiv.org/abs/1704.00051",
     "sourceType": "paper"
+  },
+  {
+    "id": "source-duolingo-max",
+    "type": "source",
+    "label": "Duolingo: Introducing Duolingo Max",
+    "url": "https://blog.duolingo.com/duolingo-max/",
+    "sourceType": "product-blog"
   },
   {
     "id": "source-edvac-first-draft",
@@ -2260,6 +2495,13 @@
     "label": "Endsley, Toward a Theory of Situation Awareness in Dynamic Systems",
     "url": "https://journals.sagepub.com/doi/10.1518/001872095779049543",
     "sourceType": "paper"
+  },
+  {
+    "id": "source-engagement-divisive-content",
+    "type": "source",
+    "label": "Milli et al.: Engagement, User Satisfaction, and the Amplification of Divisive Content on Social Media (PNAS Nexus)",
+    "url": "https://doi.org/10.1093/pnasnexus/pgaf062",
+    "sourceType": "peer-reviewed-study"
   },
   {
     "id": "source-epa-safer-choice-products",
@@ -2351,6 +2593,13 @@
     "label": "Future AI Path: 10 Everyday Tasks You Can Automate with AI Right Now",
     "url": "https://futureaipath.com/ai-productivity/task-automation/10-everyday-tasks-you-can-automate-with-ai-right-now/",
     "sourceType": "guide"
+  },
+  {
+    "id": "source-gallup-global-workplace-india",
+    "type": "source",
+    "label": "Gallup State of the Global Workplace: India Country-Level Data",
+    "url": "https://www.gallup.com/workplace/705650/state-global-workplace-india-country-level-data.aspx",
+    "sourceType": "industry-report"
   },
   {
     "id": "source-gartner-b2b-ai-2026",
@@ -2535,6 +2784,20 @@
     "sourceType": "paper"
   },
   {
+    "id": "source-iamai-kantar-2024",
+    "type": "source",
+    "label": "IAMAI-Kantar: Internet in India Report 2024",
+    "url": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf",
+    "sourceType": "industry-report"
+  },
+  {
+    "id": "source-ibef-ad-revenue-fy24",
+    "type": "source",
+    "label": "IBEF: Tech giants generate over US$7.13 billion in advertising revenue in FY24",
+    "url": "https://www.ibef.org/news/tech-giants-generate-over-us-7-13-billion-rs-60-000-crore-in-advertising-revenue-in-fy24",
+    "sourceType": "industry-report"
+  },
+  {
     "id": "source-iea-energy-ai",
     "type": "source",
     "label": "Key Questions on Energy and AI",
@@ -2563,6 +2826,13 @@
     "sourceType": "benchmark-site"
   },
   {
+    "id": "source-india-budget-economic-survey",
+    "type": "source",
+    "label": "India Budget: Economic Survey 2025-26 Education and Health Chapter",
+    "url": "https://www.indiabudget.gov.in/economicsurvey/doc/eschapter/echap11.pdf",
+    "sourceType": "government-report"
+  },
+  {
     "id": "source-instructgpt-paper",
     "type": "source",
     "label": "Training language models to follow instructions with human feedback",
@@ -2577,11 +2847,25 @@
     "sourceType": "university-research-summary"
   },
   {
+    "id": "source-it-rules-2021",
+    "type": "source",
+    "label": "MeitY: Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 (updated 10.02.2026)",
+    "url": "https://www.meity.gov.in/static/uploads/2026/02/550681ab908f8afb135b0ad42816a1c9.pdf",
+    "sourceType": "regulatory-text"
+  },
+  {
     "id": "source-itu-facts-2025",
     "type": "source",
     "label": "Measuring Digital Development: Facts and Figures 2025",
     "url": "https://www.itu.int/hub/publication/d-ind-ict_mdd-2025-3/",
     "sourceType": "official-statistics"
+  },
+  {
+    "id": "source-khan-academy-khanmigo",
+    "type": "source",
+    "label": "Khan Academy: Khanmigo",
+    "url": "https://www.khanacademy.org/khan-labs/khanmigo",
+    "sourceType": "product-page"
   },
   {
     "id": "source-langchain-deepagents",
@@ -2647,6 +2931,13 @@
     "sourceType": "public-report"
   },
   {
+    "id": "source-linux-foundation-ai-india",
+    "type": "source",
+    "label": "Linux Foundation: AI for Economic and Social Good in India",
+    "url": "https://www.linuxfoundation.org/hubfs/Research%20Reports/meta_osai_india_report_021626a.pdf?hsLang=en",
+    "sourceType": "research-report"
+  },
+  {
     "id": "source-llm-plus-p",
     "type": "source",
     "label": "LLM+P: Empowering Large Language Models with Optimal Planning Proficiency",
@@ -2703,6 +2994,20 @@
     "sourceType": "paper"
   },
   {
+    "id": "source-mastodon-admin-motivations",
+    "type": "source",
+    "label": "ACM: Trouble in Paradise? Understanding Mastodon Admin's Motivations, Experiences, and Challenges Running Decentralised Social Media",
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3687059",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
+    "id": "source-mastodon-feed-curation",
+    "type": "source",
+    "label": "arXiv preprint: Understanding Decentralized Social Feed Curation on Mastodon",
+    "url": "https://arxiv.org/html/2504.18817v1",
+    "sourceType": "preprint"
+  },
+  {
     "id": "source-mccarthy-common-sense",
     "type": "source",
     "label": "Programs with Common Sense",
@@ -2729,6 +3034,13 @@
     "label": "Packer et al.: MemGPT: Towards LLMs as Operating Systems",
     "url": "https://arxiv.org/abs/2310.08560",
     "sourceType": "paper"
+  },
+  {
+    "id": "source-milli-divisive-content",
+    "type": "source",
+    "label": "Milli et al.: Engagement, User Satisfaction, and the Amplification of Divisive Content on Social Media (PNAS Nexus)",
+    "url": "https://doi.org/10.1093/pnasnexus/pgaf062",
+    "sourceType": "peer-reviewed-study"
   },
   {
     "id": "source-minsky-papert-1969",
@@ -2764,6 +3076,20 @@
     "label": "Rule-Based Expert Systems: The MYCIN Experiments of the Stanford Heuristic Programming Project",
     "url": "https://www.shortliffe.net/Buchanan-Shortliffe-1984/MYCIN%20Book.htm",
     "sourceType": "expert-system-retrospective"
+  },
+  {
+    "id": "source-nasscom-ey-ai-adoption",
+    "type": "source",
+    "label": "NASSCOM-EY: AI Adoption Index",
+    "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/insights/ai/documents/ey-nasscom-ai-adoption-index.pdf",
+    "sourceType": "industry-report"
+  },
+  {
+    "id": "source-nasscom-india-opportunity",
+    "type": "source",
+    "label": "NASSCOM: Unlocking Value from Data and AI – The India Opportunity",
+    "url": "https://nasscom.in/knowledge-center/publications/unlocking-value-data-and-ai-india-opportunity",
+    "sourceType": "industry-report"
   },
   {
     "id": "source-nature-antikythera-2006",
@@ -2815,6 +3141,13 @@
     "sourceType": "institutional-history"
   },
   {
+    "id": "source-nsso-time-use-2024",
+    "type": "source",
+    "label": "NSSO Time Use Survey 2024 Factsheet",
+    "url": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf",
+    "sourceType": "government-report"
+  },
+  {
     "id": "source-oecd-ai-principles",
     "type": "source",
     "label": "OECD AI Principles",
@@ -2827,6 +3160,13 @@
     "label": "Artificial Intelligence in Science",
     "url": "https://doi.org/10.1787/a8d820bd-en",
     "sourceType": "research-synthesis"
+  },
+  {
+    "id": "source-oecd-genai-productivity",
+    "type": "source",
+    "label": "OECD: The effects of generative AI on productivity, innovation and entrepreneurship",
+    "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/the-effects-of-generative-ai-on-productivity-innovation-and-entrepreneurship_da1d085d/b21df222-en.pdf",
+    "sourceType": "research-report"
   },
   {
     "id": "source-openai-agents",
@@ -2932,6 +3272,55 @@
     "label": "Artificial Intelligence",
     "url": "https://www.pewresearch.org/topic/internet-technology/emerging-technology/artificial-intelligence/",
     "sourceType": "survey-topic"
+  },
+  {
+    "id": "source-pib-economic-survey",
+    "type": "source",
+    "label": "PIB: Economic Survey 2025-26 Press Release",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2",
+    "sourceType": "government-press-release"
+  },
+  {
+    "id": "source-pib-ncert-mental-health",
+    "type": "source",
+    "label": "PIB: NCERT Mental Health and Well-being Survey of School Students",
+    "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1993919",
+    "sourceType": "government-press-release"
+  },
+  {
+    "id": "source-pib-tele-manas",
+    "type": "source",
+    "label": "PIB Tele-MANAS Press Note",
+    "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=153277",
+    "sourceType": "government-press-release"
+  },
+  {
+    "id": "source-pib-transforming-india-ai",
+    "type": "source",
+    "label": "PIB: Transforming India with AI",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2209737&reg=3&lang=1",
+    "sourceType": "government-press-release"
+  },
+  {
+    "id": "source-pib-youth-dividend-ai",
+    "type": "source",
+    "label": "PIB: India's Youth Dividend in the AI Era",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2230044&reg=3&lang=1",
+    "sourceType": "government-press-release"
+  },
+  {
+    "id": "source-pmc-adolescent-mental-health",
+    "type": "source",
+    "label": "PMC: Social media and mental health among Indian adolescents",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11438920/",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
+    "id": "source-pmc-short-video-attention",
+    "type": "source",
+    "label": "PMC: The adverse impact of mobile phone short-form video addiction on attentional functions and self-control",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11236742/",
+    "sourceType": "peer-reviewed-study"
   },
   {
     "id": "source-post-1936",
@@ -3214,11 +3603,32 @@
     "sourceType": "museum-exhibit"
   },
   {
+    "id": "source-stanford-ai-vibrancy",
+    "type": "source",
+    "label": "Stanford University: Global AI Vibrancy Tool",
+    "url": "https://aiindex.stanford.edu/data-governance/global-ai-vibrancy-tool/",
+    "sourceType": "research-tool"
+  },
+  {
+    "id": "source-stanford-hai-ai-index-2025",
+    "type": "source",
+    "label": "Stanford HAI: AI Index Report 2025",
+    "url": "https://aiindex.stanford.edu/report/",
+    "sourceType": "research-report"
+  },
+  {
     "id": "source-status-quo-bias",
     "type": "source",
     "label": "Status Quo Bias in Decision Making",
     "url": "https://rzeckhauser.scholars.harvard.edu/publications/status-quo-bias-decision-making",
     "sourceType": "research"
+  },
+  {
+    "id": "source-steelcase-attention-span",
+    "type": "source",
+    "label": "Steelcase: Our 47-Second Attention Span with Gloria Mark (transcript)",
+    "url": "https://www.steelcase.com/research/articles/our-47-second-attention-span-with-gloria-mark-s5-ep3-transcript/",
+    "sourceType": "interview-transcript"
   },
   {
     "id": "source-sutton-barto-rl",
@@ -3396,6 +3806,20 @@
     "sourceType": "institutional-report"
   },
   {
+    "id": "source-yale-outrage-amplification",
+    "type": "source",
+    "label": "Yale News: Likes and shares teach people to express more outrage online",
+    "url": "https://news.yale.edu/2021/08/13/likes-and-shares-teach-people-express-more-outrage-online",
+    "sourceType": "university-news"
+  },
+  {
+    "id": "source-yale-outrage-online",
+    "type": "source",
+    "label": "Yale News: Likes and shares teach people to express more outrage online",
+    "url": "https://news.yale.edu/2021/08/13/likes-and-shares-teach-people-express-more-outrage-online",
+    "sourceType": "university-news"
+  },
+  {
     "id": "source-yao-tot-2023",
     "type": "source",
     "label": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
@@ -3423,6 +3847,11 @@
     "label": "ai-agents"
   },
   {
+    "id": "topic:ai-assisted-creation",
+    "type": "topic",
+    "label": "ai-assisted-creation"
+  },
+  {
     "id": "topic:ai-governance",
     "type": "topic",
     "label": "ai-governance"
@@ -3446,6 +3875,16 @@
     "id": "topic:ai-society",
     "type": "topic",
     "label": "ai-society"
+  },
+  {
+    "id": "topic:artificial-intelligence",
+    "type": "topic",
+    "label": "artificial-intelligence"
+  },
+  {
+    "id": "topic:attention-economy",
+    "type": "topic",
+    "label": "attention-economy"
   },
   {
     "id": "topic:audio",
@@ -3473,9 +3912,24 @@
     "label": "cybernetics"
   },
   {
+    "id": "topic:deep-work",
+    "type": "topic",
+    "label": "deep-work"
+  },
+  {
     "id": "topic:digital-gardens",
     "type": "topic",
     "label": "digital-gardens"
+  },
+  {
+    "id": "topic:digital-minimalism",
+    "type": "topic",
+    "label": "digital-minimalism"
+  },
+  {
+    "id": "topic:digital-wellbeing",
+    "type": "topic",
+    "label": "digital-wellbeing"
   },
   {
     "id": "topic:education",
@@ -3493,6 +3947,11 @@
     "label": "expert-systems"
   },
   {
+    "id": "topic:fediverse",
+    "type": "topic",
+    "label": "fediverse"
+  },
+  {
     "id": "topic:formal-logic",
     "type": "topic",
     "label": "formal-logic"
@@ -3503,9 +3962,19 @@
     "label": "foundation-models"
   },
   {
+    "id": "topic:generational-responsibility",
+    "type": "topic",
+    "label": "generational-responsibility"
+  },
+  {
     "id": "topic:governance",
     "type": "topic",
     "label": "governance"
+  },
+  {
+    "id": "topic:habit-formation",
+    "type": "topic",
+    "label": "habit-formation"
   },
   {
     "id": "topic:human-ai-interaction",
@@ -3528,9 +3997,19 @@
     "label": "incumbent-adjacent-ventures"
   },
   {
+    "id": "topic:india",
+    "type": "topic",
+    "label": "india"
+  },
+  {
     "id": "topic:information-theory",
     "type": "topic",
     "label": "information-theory"
+  },
+  {
+    "id": "topic:innovation",
+    "type": "topic",
+    "label": "innovation"
   },
   {
     "id": "topic:institutions",
@@ -3541,6 +4020,11 @@
     "id": "topic:labor",
     "type": "topic",
     "label": "labor"
+  },
+  {
+    "id": "topic:learning",
+    "type": "topic",
+    "label": "learning"
   },
   {
     "id": "topic:llm-routing",
@@ -3558,6 +4042,11 @@
     "label": "machine-learning"
   },
   {
+    "id": "topic:mental-health",
+    "type": "topic",
+    "label": "mental-health"
+  },
+  {
     "id": "topic:neural-networks",
     "type": "topic",
     "label": "neural-networks"
@@ -3573,6 +4062,11 @@
     "label": "open-protocols"
   },
   {
+    "id": "topic:platform-design",
+    "type": "topic",
+    "label": "platform-design"
+  },
+  {
     "id": "topic:privacy",
     "type": "topic",
     "label": "privacy"
@@ -3583,9 +4077,29 @@
     "label": "product-truth"
   },
   {
+    "id": "topic:productivity",
+    "type": "topic",
+    "label": "productivity"
+  },
+  {
     "id": "topic:prompting",
     "type": "topic",
     "label": "prompting"
+  },
+  {
+    "id": "topic:public-interest-technology",
+    "type": "topic",
+    "label": "public-interest-technology"
+  },
+  {
+    "id": "topic:public-policy",
+    "type": "topic",
+    "label": "public-policy"
+  },
+  {
+    "id": "topic:regulation",
+    "type": "topic",
+    "label": "regulation"
   },
   {
     "id": "topic:research-workflows",
@@ -3596,6 +4110,11 @@
     "id": "topic:scaling",
     "type": "topic",
     "label": "scaling"
+  },
+  {
+    "id": "topic:social-media",
+    "type": "topic",
+    "label": "social-media"
   },
   {
     "id": "topic:symbolic-ai",

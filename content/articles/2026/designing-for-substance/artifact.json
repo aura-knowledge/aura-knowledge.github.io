@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 3,
+  "id": "article:designing-for-substance",
+  "slug": "designing-for-substance",
+  "title": "Designing for Substance: Platform Incentives and the Attention Economy",
+  "canonicalPath": "/articles/designing-for-substance/",
+  "sourcePath": "content/articles/2026/designing-for-substance/article.md",
+  "agentBriefPath": "content/articles/2026/designing-for-substance/agent.md",
+  "thesis": "The attention economy is not inevitable. It is the product of specific design choices—engagement metrics, personalized recommendations, infinite scroll, and advertising-based business models—that could be redesigned.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-04",
+  "updatedAt": "2026-07-04",
+  "audiences": [
+    "builders",
+    "policy",
+    "researchers",
+    "general"
+  ],
+  "topics": [
+    "platform-design",
+    "attention-economy",
+    "regulation",
+    "digital-wellbeing",
+    "public-interest-technology",
+    "fediverse"
+  ],
+  "series": {
+    "slug": "attention-extraction",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 4,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "The attention economy is not an inevitable feature of the internet. It is the product of specific design choices—engagement metrics, personalized recommendations, infinite scroll, and advertising-based business models—that could be redesigned.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-engagement-divisive-content",
+          "snippet": "Milli et al. found that engagement-based ranking can amplify divisive content even when users report preferring less divisive material.",
+          "supports": "direct",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "sourceId": "source-yale-outrage-amplification",
+          "snippet": "Yale research showed that likes and shares teach people to express more outrage over time, illustrating a feedback loop shaped by platform design.",
+          "supports": "direct",
+          "assessedAt": "2026-07-04"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some platforms argue that engagement-based ranking simply reflects revealed preference and that users would leave if they disliked it. Network effects and lack of alternatives weaken this counterargument.",
+          "assessedAt": "2026-07-04"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Alternative metrics such as time well spent, creator sustainability, learning outcomes, civic value, and long-term user flourishing can be measured and rewarded, though none is perfect or easy to game-proof.",
+      "confidence": "medium",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-center-humane-tech",
+          "snippet": "The Center for Humane Technology advocates for metrics and design patterns that prioritize user well-being over time on device.",
+          "supports": "background",
+          "assessedAt": "2026-07-04"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Alternative metrics are harder to define and easier to game than engagement. 'Time well spent' can be manipulated by self-reports, and 'flourishing' lacks stable operational definitions.",
+          "assessedAt": "2026-07-04"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Accountability for platform design can emerge through regulation, public pressure, and user migration to better-designed platforms. No single lever is sufficient on its own.",
+      "confidence": "medium-high",
+      "status": "strategy",
+      "evidence": [
+        {
+          "sourceId": "source-digital-services-act",
+          "snippet": "The Digital Services Act requires large platforms to assess and mitigate systemic risks, including risks to mental health and democratic discourse.",
+          "supports": "direct",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "sourceId": "source-it-rules-2021",
+          "snippet": "India's IT Rules impose due-diligence and grievance obligations on intermediaries, treating platform design as a regulatory concern.",
+          "supports": "direct",
+          "assessedAt": "2026-07-04"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Regulation can be slow, captured by incumbents, or used to suppress speech. Public pressure alone rarely changes core business models. User migration is limited by network effects.",
+          "assessedAt": "2026-07-04"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Substance-friendly design is a category that includes chronological feeds, user-chosen algorithms, expert curation, reputation systems, and friction against virality. It is not limited to a single product or business model.",
+      "confidence": "medium-high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-mastodon-feed-curation",
+          "snippet": "Research on Mastodon documents decentralized feed curation and user control as alternatives to centralized engagement optimization.",
+          "supports": "direct",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "sourceId": "source-mastodon-admin-motivations",
+          "snippet": "A study of Mastodon administrators explores the motivations and challenges of running decentralized social media at scale.",
+          "supports": "background",
+          "assessedAt": "2026-07-04"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Decentralized and friction-based designs can reduce reach, make platforms harder to use, and struggle with moderation at scale. These tradeoffs can limit adoption.",
+          "assessedAt": "2026-07-04"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "A substance-oriented platform would ask how to help users leave better than they arrived, rather than how to maximize time on platform.",
+      "confidence": "medium",
+      "status": "normative",
+      "evidence": [
+        {
+          "sourceId": "source-center-humane-tech",
+          "snippet": "Humane-technology framing distinguishes between maximizing time on device and designing for user autonomy and long-term well-being.",
+          "supports": "background",
+          "assessedAt": "2026-07-04"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Platforms funded by advertising may be unable to prioritize departure over retention without changing their business model. The claim is therefore more a design north star than a guaranteed market outcome.",
+          "assessedAt": "2026-07-04"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-digital-services-act",
+      "title": "European Commission: Digital Services Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act",
+      "type": "government-policy",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-it-rules-2021",
+      "title": "MeitY: Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 (updated 10.02.2026)",
+      "url": "https://www.meity.gov.in/static/uploads/2026/02/550681ab908f8afb135b0ad42816a1c9.pdf",
+      "type": "regulatory-text",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-mastodon-admin-motivations",
+      "title": "ACM: Trouble in Paradise? Understanding Mastodon Admin's Motivations, Experiences, and Challenges Running Decentralised Social Media",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3687059",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-mastodon-feed-curation",
+      "title": "arXiv preprint: Understanding Decentralized Social Feed Curation on Mastodon",
+      "url": "https://arxiv.org/html/2504.18817v1",
+      "type": "preprint",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-engagement-divisive-content",
+      "title": "Milli et al.: Engagement, User Satisfaction, and the Amplification of Divisive Content on Social Media (PNAS Nexus)",
+      "url": "https://doi.org/10.1093/pnasnexus/pgaf062",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-yale-outrage-amplification",
+      "title": "Yale News: Likes and shares teach people to express more outrage online",
+      "url": "https://news.yale.edu/2021/08/13/likes-and-shares-teach-people-express-more-outrage-online",
+      "type": "university-news",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-center-humane-tech",
+      "title": "Center for Humane Technology",
+      "url": "https://www.humanetech.com/",
+      "type": "organization-website",
+      "accessed": "2026-07-04"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:the-attention-extraction"
+    },
+    {
+      "type": "article",
+      "id": "article:the-generational-bet"
+    },
+    {
+      "type": "article",
+      "id": "article:the-substance-builder"
+    },
+    {
+      "type": "topic",
+      "id": "topic:platform-design"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    },
+    {
+      "type": "topic",
+      "id": "topic:regulation"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Do not present the attention economy as inevitable or purely driven by user demand.",
+    "Preserve the exploratory tone; do not convert the article into a product pitch or regulatory handbook.",
+    "When summarizing, keep the distinction between diagnosis (Lane A), stakes (Lane B), individual practice (Lane C), and systemic design (Lane D).",
+    "Cite the specific source IDs when discussing regulation, platform research, or the fediverse."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-04",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-04",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-04",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "c965b0f4ba6d93d146389f1cdf0eb60e6bbd21d04c6d8276fe1ad94ee18cd67c"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "c965b0f4ba6d93d146389f1cdf0eb60e6bbd21d04c6d8276fe1ad94ee18cd67c"
+}

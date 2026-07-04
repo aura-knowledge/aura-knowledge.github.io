@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 3,
+  "id": "article:the-generational-bet",
+  "slug": "the-generational-bet",
+  "title": "The Generational Bet: Will India Build the AI Age or Scroll Through It?",
+  "canonicalPath": "/articles/the-generational-bet/",
+  "sourcePath": "content/articles/2026/the-generational-bet/article.md",
+  "agentBriefPath": "content/articles/2026/the-generational-bet/agent.md",
+  "thesis": "India has the youngest large population on Earth, deep software talent, and cheap AI-assisted tools, but the attention economy has trained a generation to consume before it creates. The next few years are a compounding bet on whether young Indians use AI to build, learn, and solve problems or remain primarily passive consumers.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-04",
+  "updatedAt": "2026-07-04",
+  "audiences": [
+    "students",
+    "builders",
+    "policy",
+    "general"
+  ],
+  "topics": [
+    "artificial-intelligence",
+    "india",
+    "attention-economy",
+    "generational-responsibility",
+    "deep-work",
+    "innovation"
+  ],
+  "series": {
+    "slug": "attention-extraction",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 2,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Artificial intelligence has collapsed the cost of creation for individuals in research, writing, coding, designing, translating, and teaching.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-oecd-genai-productivity",
+          "snippet": "The OECD review finds early evidence of productivity gains from generative AI in writing, coding, customer service, and professional tasks, especially when workers use the tool within structured workflows.",
+          "supports": "direct",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "sourceId": "source-linux-foundation-ai-india",
+          "snippet": "The Linux Foundation report on AI for economic and social good in India notes that open AI models can lower barriers for local-language applications, education, agriculture, and health.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-04"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Productivity gains are uneven and largest for workers who already possess enough skill to direct the tool; AI magnifies capability but does not create expertise from scratch.",
+          "assessedAt": "2026-07-04"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "The attention economy has trained users to consume before they create, and the default behavior of the same devices has not caught up with AI's creative affordances.",
+      "confidence": "high",
+      "status": "behavioral",
+      "evidence": [
+        {
+          "sourceId": "source-aser-2024",
+          "snippet": "ASER 2024 reports that 76% of 14–16-year-olds use smartphones for social media while 57% use them for education, suggesting consumption remains the dominant default.",
+          "supports": "direct",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "sourceId": "source-bcg-creator-economy",
+          "snippet": "BCG's mapping of India's creator economy shows a market heavily oriented toward reach, entertainment, and engagement-based monetization.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-04"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Educational and creative uses are growing, and device access alone does not determine behavior; family, school, and platform design also shape outcomes.",
+          "assessedAt": "2026-07-04"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "The creator-economy incentive structure appears to reward reach and engagement more than substantive, educational, or slow-burn work.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-bcg-creator-economy",
+          "snippet": "BCG identifies creator monetization in India as driven primarily by brand deals, platform payouts, and audience size, which align incentives with attention capture.",
+          "supports": "direct",
+          "assessedAt": "2026-07-04"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Many creators produce substantive, educational work within the current system, and quality is difficult to measure reliably as a ranking signal.",
+          "assessedAt": "2026-07-04"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Small daily choices about attention may compound, over years, into individual skill and, at scale, into national capacity.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-pib-youth-dividend-ai",
+          "snippet": "The PIB release on India's youth dividend in the AI era frames the country's young population as a strategic asset for AI-led development.",
+          "supports": "background",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "sourceId": "source-nasscom-india-opportunity",
+          "snippet": "NASSCOM estimated that data and AI could add $450–500 billion to India's GDP by 2025, underscoring the economic stakes of how the technology is used.",
+          "supports": "background",
+          "assessedAt": "2026-07-04"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Individual attention choices are constrained by economics, education, platform design, and social context; national capacity depends on institutions and investment as well as habits.",
+          "assessedAt": "2026-07-04"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-pib-youth-dividend-ai",
+      "title": "PIB: India's Youth Dividend in the AI Era",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2230044&reg=3&lang=1",
+      "type": "government-press-release",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-pib-transforming-india-ai",
+      "title": "PIB: Transforming India with AI",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2209737&reg=3&lang=1",
+      "type": "government-press-release",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-nasscom-india-opportunity",
+      "title": "NASSCOM: Unlocking Value from Data and AI – The India Opportunity",
+      "url": "https://nasscom.in/knowledge-center/publications/unlocking-value-data-and-ai-india-opportunity",
+      "type": "industry-report",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-nasscom-ey-ai-adoption",
+      "title": "NASSCOM-EY: AI Adoption Index",
+      "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/insights/ai/documents/ey-nasscom-ai-adoption-index.pdf",
+      "type": "industry-report",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-linux-foundation-ai-india",
+      "title": "Linux Foundation: AI for Economic and Social Good in India",
+      "url": "https://www.linuxfoundation.org/hubfs/Research%20Reports/meta_osai_india_report_021626a.pdf?hsLang=en",
+      "type": "research-report",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-aser-2024",
+      "title": "ASER 2024 National Findings",
+      "url": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf",
+      "type": "research-report",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-bcg-creator-economy",
+      "title": "BCG: India from Content to Commerce—Mapping India's Creator Economy",
+      "url": "https://www.bcg.com/publications/2025/india-from-content-to-commerce-mapping-indias-creator-economy",
+      "type": "industry-report",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-stanford-ai-vibrancy",
+      "title": "Stanford University: Global AI Vibrancy Tool",
+      "url": "https://aiindex.stanford.edu/data-governance/global-ai-vibrancy-tool/",
+      "type": "research-tool",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-oecd-genai-productivity",
+      "title": "OECD: The effects of generative AI on productivity, innovation and entrepreneurship",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/the-effects-of-generative-ai-on-productivity-innovation-and-entrepreneurship_da1d085d/b21df222-en.pdf",
+      "type": "research-report",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-stanford-hai-ai-index-2025",
+      "title": "Stanford HAI: AI Index Report 2025",
+      "url": "https://aiindex.stanford.edu/report/",
+      "type": "research-report",
+      "accessed": "2026-07-04"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:the-attention-extraction"
+    },
+    {
+      "type": "article",
+      "id": "article:the-substance-builder"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    },
+    {
+      "type": "topic",
+      "id": "topic:artificial-intelligence"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit and preserve the distinction between core claims and supporting observations.",
+    "Treat maturity=seed as an explicit uncertainty marker; do not overstate empirical certainty.",
+    "Do not reduce the argument to nationalist boosterism or to a critique of specific companies.",
+    "When summarizing, preserve the article's habit-problem framing and its Lane B role in the series.",
+    "Point practical-strategy questions toward Lane C and platform-design questions toward Lane D.",
+    "Do not present AI as a substitute for skill, education, or institutional investment."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-04",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-04",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-04",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "22aeb909b1d890d78041bfc206c3e8e7ef1eeb84195252f33e73f2c1e714e74d"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "22aeb909b1d890d78041bfc206c3e8e7ef1eeb84195252f33e73f2c1e714e74d",
+  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+  "agentJsonPath": "/agents/articles/the-generational-bet.json",
+  "agentMarkdownPath": "/agents/articles/the-generational-bet.md",
+  "sourceRepoPath": "content/articles/2026/the-generational-bet/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/the-generational-bet/article.md",
+  "tokenEstimate": 647,
+  "sectionOutline": [
+    {
+      "id": "the-narrow-window",
+      "title": "The Narrow Window"
+    },
+    {
+      "id": "the-diagnosis-in-brief",
+      "title": "The Diagnosis in Brief"
+    },
+    {
+      "id": "historical-hinges",
+      "title": "Historical Hinges"
+    },
+    {
+      "id": "why-creation-is-now-cheaper",
+      "title": "Why Creation Is Now Cheaper"
+    },
+    {
+      "id": "the-life-phase-threads",
+      "title": "The Life-Phase Threads"
+    },
+    {
+      "id": "the-creator-economy-problem",
+      "title": "The Creator-Economy Problem"
+    },
+    {
+      "id": "the-startup-pattern",
+      "title": "The Startup Pattern"
+    },
+    {
+      "id": "the-compounding-bet",
+      "title": "The Compounding Bet"
+    },
+    {
+      "id": "systemic-levers-not-silver-bullets",
+      "title": "Systemic Levers, Not Silver Bullets"
+    },
+    {
+      "id": "what-this-article-is-not",
+      "title": "What This Article Is Not"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    },
+    {
+      "id": "the-bet",
+      "title": "The Bet"
+    }
+  ]
+}
