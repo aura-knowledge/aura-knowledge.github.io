@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-06-29T00:00:00.000Z",
+  "generatedAt": "2026-07-04T00:00:00.000Z",
   "edges": [
     {
       "from": "article:agent-auditable-research",
@@ -1983,6 +1983,176 @@
       }
     },
     {
+      "from": "article:designing-for-substance",
+      "to": "article:designing-for-substance:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:designing-for-substance",
+      "to": "article:designing-for-substance:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:designing-for-substance",
+      "to": "article:designing-for-substance:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:designing-for-substance",
+      "to": "article:designing-for-substance:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:designing-for-substance",
+      "to": "article:designing-for-substance:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:designing-for-substance",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:designing-for-substance",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:designing-for-substance",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:designing-for-substance",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:designing-for-substance",
+      "to": "topic:digital-wellbeing",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:designing-for-substance",
+      "to": "topic:fediverse",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:designing-for-substance",
+      "to": "topic:platform-design",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:designing-for-substance",
+      "to": "topic:public-interest-technology",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:designing-for-substance",
+      "to": "topic:regulation",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:designing-for-substance",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:designing-for-substance",
+      "to": "topic:platform-design",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:designing-for-substance",
+      "to": "topic:regulation",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "article:evaluations",
       "to": "article:evaluations:claim-001",
       "type": "argues",
@@ -3673,6 +3843,476 @@
       }
     },
     {
+      "from": "article:the-attention-extraction",
+      "to": "article:the-attention-extraction:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-attention-extraction",
+      "to": "article:the-attention-extraction:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-attention-extraction",
+      "to": "article:the-attention-extraction:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-attention-extraction",
+      "to": "article:the-attention-extraction:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-attention-extraction",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-attention-extraction",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-attention-extraction",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-attention-extraction",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-attention-extraction",
+      "to": "topic:digital-wellbeing",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-attention-extraction",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-attention-extraction",
+      "to": "topic:mental-health",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-attention-extraction",
+      "to": "topic:public-policy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-attention-extraction",
+      "to": "topic:social-media",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-attention-extraction",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-attention-extraction",
+      "to": "topic:digital-wellbeing",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-attention-extraction",
+      "to": "topic:india",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-generational-bet",
+      "to": "article:the-generational-bet:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-generational-bet",
+      "to": "article:the-generational-bet:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-generational-bet",
+      "to": "article:the-generational-bet:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-generational-bet",
+      "to": "article:the-generational-bet:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-generational-bet",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-generational-bet",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-generational-bet",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-generational-bet",
+      "to": "topic:artificial-intelligence",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-generational-bet",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-generational-bet",
+      "to": "topic:deep-work",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-generational-bet",
+      "to": "topic:generational-responsibility",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-generational-bet",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-generational-bet",
+      "to": "topic:innovation",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-generational-bet",
+      "to": "topic:artificial-intelligence",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-generational-bet",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-substance-builder",
+      "to": "article:the-substance-builder:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-substance-builder",
+      "to": "article:the-substance-builder:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-substance-builder",
+      "to": "article:the-substance-builder:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-substance-builder",
+      "to": "article:the-substance-builder:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-substance-builder",
+      "to": "article:the-substance-builder:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-substance-builder",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-substance-builder",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-substance-builder",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-substance-builder",
+      "to": "topic:ai-assisted-creation",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-substance-builder",
+      "to": "topic:deep-work",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-substance-builder",
+      "to": "topic:digital-minimalism",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-substance-builder",
+      "to": "topic:habit-formation",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-substance-builder",
+      "to": "topic:learning",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-substance-builder",
+      "to": "topic:productivity",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-substance-builder",
+      "to": "topic:ai-assisted-creation",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-substance-builder",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "article:tool-use",
       "to": "article:tool-use:claim-001",
       "type": "argues",
@@ -4443,6 +5083,26 @@
       }
     },
     {
+      "from": "source-anders-ericsson-deliberate-practice",
+      "to": "article:the-substance-builder:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-anders-ericsson-deliberate-practice",
+      "to": "article:the-substance-builder:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-anthropic-building-effective-agents",
       "to": "article:ai-delegation-orchestration-05-long-running-delegations:claim-001",
       "type": "supports",
@@ -4468,6 +5128,26 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-aser-2024",
+      "to": "article:the-attention-extraction:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-aser-2024",
+      "to": "article:the-generational-bet:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -4543,6 +5223,26 @@
       }
     },
     {
+      "from": "source-bcg-creator-economy",
+      "to": "article:the-generational-bet:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-bcg-creator-economy",
+      "to": "article:the-generational-bet:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-beehiiv-mcp-v2",
       "to": "article:agent-auditable-research:claim-004",
       "type": "supports",
@@ -4568,6 +5268,26 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-bj-fogg-tiny-habits",
+      "to": "article:the-substance-builder:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-bj-fogg-tiny-habits",
+      "to": "article:the-substance-builder:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -4648,6 +5368,66 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-18",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-cal-newport-deep-work",
+      "to": "article:the-substance-builder:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-cal-newport-deep-work",
+      "to": "article:the-substance-builder:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-cal-newport-deep-work",
+      "to": "article:the-substance-builder:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-cal-newport-tao-of-cal",
+      "to": "article:the-substance-builder:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-center-humane-tech",
+      "to": "article:designing-for-substance:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-center-humane-tech",
+      "to": "article:designing-for-substance:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5093,6 +5873,16 @@
       }
     },
     {
+      "from": "source-digital-services-act",
+      "to": "article:designing-for-substance:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-dpr-karpukhin-2020",
       "to": "article:retrieval-augmented-generation:claim-003",
       "type": "supports",
@@ -5108,6 +5898,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-duolingo-max",
+      "to": "article:the-substance-builder:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5168,6 +5968,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-28",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-engagement-divisive-content",
+      "to": "article:designing-for-substance:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5368,6 +6178,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-gallup-global-workplace-india",
+      "to": "article:the-attention-extraction:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5783,6 +6603,36 @@
       }
     },
     {
+      "from": "source-iamai-kantar-2024",
+      "to": "article:the-attention-extraction:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-iamai-kantar-2024",
+      "to": "article:the-attention-extraction:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ibef-ad-revenue-fy24",
+      "to": "article:the-attention-extraction:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-iea-energy-ai",
       "to": "article:human-systems:claim-005",
       "type": "supports",
@@ -5863,11 +6713,41 @@
       }
     },
     {
+      "from": "source-it-rules-2021",
+      "to": "article:designing-for-substance:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-itu-facts-2025",
       "to": "article:human-systems:claim-005",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-khan-academy-khanmigo",
+      "to": "article:the-substance-builder:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-khan-academy-khanmigo",
+      "to": "article:the-substance-builder:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -6023,6 +6903,16 @@
       }
     },
     {
+      "from": "source-linux-foundation-ai-india",
+      "to": "article:the-generational-bet:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-llm-plus-p",
       "to": "article:agents:claim-003",
       "type": "supports",
@@ -6153,6 +7043,26 @@
       }
     },
     {
+      "from": "source-mastodon-admin-motivations",
+      "to": "article:designing-for-substance:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-mastodon-feed-curation",
+      "to": "article:designing-for-substance:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-mccarthy-common-sense",
       "to": "article:birth-of-ai:claim-002",
       "type": "supports",
@@ -6208,6 +7118,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-milli-divisive-content",
+      "to": "article:the-attention-extraction:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -6298,6 +7218,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-19",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-nasscom-india-opportunity",
+      "to": "article:the-generational-bet:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -6503,6 +7433,16 @@
       }
     },
     {
+      "from": "source-nsso-time-use-2024",
+      "to": "article:the-attention-extraction:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-oecd-ai-principles",
       "to": "article:human-systems:claim-003",
       "type": "supports",
@@ -6538,6 +7478,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-oecd-genai-productivity",
+      "to": "article:the-generational-bet:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -6798,6 +7748,66 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pib-ncert-mental-health",
+      "to": "article:the-attention-extraction:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pib-tele-manas",
+      "to": "article:the-attention-extraction:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pib-youth-dividend-ai",
+      "to": "article:the-generational-bet:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pmc-adolescent-mental-health",
+      "to": "article:the-attention-extraction:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pmc-short-video-attention",
+      "to": "article:the-attention-extraction:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pmc-short-video-attention",
+      "to": "article:the-attention-extraction:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7553,6 +8563,16 @@
       }
     },
     {
+      "from": "source-steelcase-attention-span",
+      "to": "article:the-attention-extraction:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-sutton-barto-rl",
       "to": "article:loops-vs-goals:claim-001",
       "type": "supports",
@@ -7888,6 +8908,26 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-yale-outrage-amplification",
+      "to": "article:designing-for-substance:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-yale-outrage-online",
+      "to": "article:the-attention-extraction:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-04",
         "reviewer": "generator",
         "status": "machine-generated"
       }

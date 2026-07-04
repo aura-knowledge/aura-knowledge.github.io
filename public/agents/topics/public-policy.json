@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "topic": "public-policy",
+  "articleIds": [
+    "article:the-attention-extraction"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/public-policy/",
+  "agentJsonPath": "/agents/topics/public-policy.json",
+  "articles": [
+    {
+      "id": "article:the-attention-extraction",
+      "slug": "the-attention-extraction",
+      "title": "The Attention Extraction: How India's Digital Dividend Is Becoming a Cognitive Deficit",
+      "summary": "A diagnosis of how India's digital-access success has inverted into an attention-extraction economy, using public government, academic, and industry sources to show the costs across attention, productivity, youth mental health, and social trust.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "social-media",
+        "public-policy",
+        "mental-health"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "social-media",
+        "public-policy",
+        "mental-health"
+      ],
+      "canonicalPath": "/articles/the-attention-extraction/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+      "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+      "agentMarkdownPath": "/agents/articles/the-attention-extraction.md",
+      "updatedAt": "2026-07-04",
+      "claimCount": 4,
+      "sourceCount": 14,
+      "tokenEstimate": 666,
+      "contentHash": "62b8063f45c5c9922dd0b1dea4adb147bf1179b68c17dea883307233b32a46fa"
+    }
+  ]
+}
