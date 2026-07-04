@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-29T00:00:00.000Z",
+  "generatedAt": "2026-07-04T00:00:00.000Z",
   "articles": [
     {
       "slug": "agent-auditable-research",
@@ -1477,6 +1477,93 @@
         "needs-evidence": 0,
         "missing-counterevidence": 0,
         "draft": 4
+      }
+    },
+    {
+      "slug": "designing-for-substance",
+      "title": "Designing for Substance: Platform Incentives and the Attention Economy",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "The attention economy is not an inevitable feature of the internet. It is the product of specific design choices—engagement metrics, personalized recommendations, infinite scroll, and advertising-based business models—that could be redesigned.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "Alternative metrics such as time well spent, creator sustainability, learning outcomes, civic value, and long-term user flourishing can be measured and rewarded, though none is perfect or easy to game-proof.",
+          "confidence": "medium",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/designing-for-substance: claim-002 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/designing-for-substance: claim-002 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-003",
+          "claim": "Accountability for platform design can emerge through regulation, public pressure, and user migration to better-designed platforms. No single lever is sufficient on its own.",
+          "confidence": "medium-high",
+          "status": "strategy",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "Substance-friendly design is a category that includes chronological feeds, user-chosen algorithms, expert curation, reputation systems, and friction against virality. It is not limited to a single product or business model.",
+          "confidence": "medium-high",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-005",
+          "claim": "A substance-oriented platform would ask how to help users leave better than they arrived, rather than how to maximize time on platform.",
+          "confidence": "medium",
+          "status": "normative",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/designing-for-substance: claim-005 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/designing-for-substance: claim-005 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 5
       }
     },
     {
@@ -3074,6 +3161,204 @@
         "needs-evidence": 0,
         "missing-counterevidence": 0,
         "draft": 4
+      }
+    },
+    {
+      "slug": "the-attention-extraction",
+      "title": "The Attention Extraction: How India's Digital Dividend Is Becoming a Cognitive Deficit",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "India has near-universal digital access, but entertainment and social media use crowd out education and production among young users.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 2,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "A large share of digital advertising revenue in India flows to foreign platforms, while local safety, quality signals, and creator sustainability lag behind.",
+          "confidence": "medium-high",
+          "status": "landscape",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 2,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-attention-extraction: claim-002 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-003",
+          "claim": "Short-form feeds use variable rewards, infinite scroll, autoplay, and personalized recommendations to extend engagement beyond user intent.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 2,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "The costs of the attention economy appear across attention spans, productivity, youth mental health, and social trust.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 8,
+          "counterevidenceCount": 2,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
+      "slug": "the-generational-bet",
+      "title": "The Generational Bet: Will India Build the AI Age or Scroll Through It?",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Artificial intelligence has collapsed the cost of creation for individuals in research, writing, coding, designing, translating, and teaching.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-generational-bet: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-002",
+          "claim": "The attention economy has trained users to consume before they create, and the default behavior of the same devices has not caught up with AI's creative affordances.",
+          "confidence": "high",
+          "status": "behavioral",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "The creator-economy incentive structure appears to reward reach and engagement more than substantive, educational, or slow-burn work.",
+          "confidence": "medium-high",
+          "status": "landscape",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-generational-bet: claim-003 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-generational-bet: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "Small daily choices about attention may compound, over years, into individual skill and, at scale, into national capacity.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
+      "slug": "the-substance-builder",
+      "title": "The Substance Builder: How to Turn Dead Time into Small Acts of Creation",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Substance is built through small, repeated acts of writing, coding, designing, translating, or teaching that compound over time.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "AI lowers the activation energy for starting drafts, lessons, prototypes, and explanations.",
+          "confidence": "medium-high",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "The main cost of building substance is redirecting attention from consumption, not purchasing equipment or changing schedules dramatically.",
+          "confidence": "medium-high",
+          "status": "behavioral",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "Unfinished or unnoticed early projects still build the skill stack for later work.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-005",
+          "claim": "Teaching an idea to someone else turns passive information into owned knowledge.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 5
       }
     },
     {

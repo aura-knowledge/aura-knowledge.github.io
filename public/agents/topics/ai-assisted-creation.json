@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "topic": "ai-assisted-creation",
+  "articleIds": [
+    "article:the-substance-builder"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/ai-assisted-creation/",
+  "agentJsonPath": "/agents/topics/ai-assisted-creation.json",
+  "articles": [
+    {
+      "id": "article:the-substance-builder",
+      "slug": "the-substance-builder",
+      "title": "The Substance Builder: How to Turn Dead Time into Small Acts of Creation",
+      "summary": "Building substance is not about dramatic discipline or quitting the internet. It is about redirecting small windows of attention toward creation, learning, and teaching, using AI to lower the activation energy of starting.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-assisted-creation",
+        "deep-work",
+        "digital-minimalism",
+        "habit-formation",
+        "learning",
+        "productivity"
+      ],
+      "tags": [
+        "ai-assisted-creation",
+        "deep-work",
+        "digital-minimalism",
+        "habit-formation",
+        "learning",
+        "productivity"
+      ],
+      "canonicalPath": "/articles/the-substance-builder/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+      "agentJsonPath": "/agents/articles/the-substance-builder.json",
+      "agentMarkdownPath": "/agents/articles/the-substance-builder.md",
+      "updatedAt": "2026-07-04",
+      "claimCount": 5,
+      "sourceCount": 6,
+      "tokenEstimate": 497,
+      "contentHash": "ea4c8423c8a7c7eff937808f5d1e7793ee9f661ffdfc333a3fa1dd7ba28c6f4b"
+    }
+  ]
+}

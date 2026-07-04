@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "topic": "deep-work",
+  "articleIds": [
+    "article:the-generational-bet",
+    "article:the-substance-builder"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/deep-work/",
+  "agentJsonPath": "/agents/topics/deep-work.json",
+  "articles": [
+    {
+      "id": "article:the-generational-bet",
+      "slug": "the-generational-bet",
+      "title": "The Generational Bet: Will India Build the AI Age or Scroll Through It?",
+      "summary": "India has the youngest large population on Earth, deep software talent, and cheap AI-assisted tools. The open question is whether the next few years become a compounding bet on building, or a continuation of the attention-economy habit of consuming.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "artificial-intelligence",
+        "india",
+        "attention-economy",
+        "generational-responsibility",
+        "deep-work",
+        "innovation"
+      ],
+      "tags": [
+        "artificial-intelligence",
+        "india",
+        "attention-economy",
+        "generational-responsibility",
+        "deep-work",
+        "innovation"
+      ],
+      "canonicalPath": "/articles/the-generational-bet/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+      "agentJsonPath": "/agents/articles/the-generational-bet.json",
+      "agentMarkdownPath": "/agents/articles/the-generational-bet.md",
+      "updatedAt": "2026-07-04",
+      "claimCount": 4,
+      "sourceCount": 10,
+      "tokenEstimate": 647,
+      "contentHash": "22aeb909b1d890d78041bfc206c3e8e7ef1eeb84195252f33e73f2c1e714e74d"
+    },
+    {
+      "id": "article:the-substance-builder",
+      "slug": "the-substance-builder",
+      "title": "The Substance Builder: How to Turn Dead Time into Small Acts of Creation",
+      "summary": "Building substance is not about dramatic discipline or quitting the internet. It is about redirecting small windows of attention toward creation, learning, and teaching, using AI to lower the activation energy of starting.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-assisted-creation",
+        "deep-work",
+        "digital-minimalism",
+        "habit-formation",
+        "learning",
+        "productivity"
+      ],
+      "tags": [
+        "ai-assisted-creation",
+        "deep-work",
+        "digital-minimalism",
+        "habit-formation",
+        "learning",
+        "productivity"
+      ],
+      "canonicalPath": "/articles/the-substance-builder/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+      "agentJsonPath": "/agents/articles/the-substance-builder.json",
+      "agentMarkdownPath": "/agents/articles/the-substance-builder.md",
+      "updatedAt": "2026-07-04",
+      "claimCount": 5,
+      "sourceCount": 6,
+      "tokenEstimate": 497,
+      "contentHash": "ea4c8423c8a7c7eff937808f5d1e7793ee9f661ffdfc333a3fa1dd7ba28c6f4b"
+    }
+  ]
+}

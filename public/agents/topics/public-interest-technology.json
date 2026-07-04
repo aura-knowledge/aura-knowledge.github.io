@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "topic": "public-interest-technology",
+  "articleIds": [
+    "article:designing-for-substance"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/public-interest-technology/",
+  "agentJsonPath": "/agents/topics/public-interest-technology.json",
+  "articles": [
+    {
+      "id": "article:designing-for-substance",
+      "slug": "designing-for-substance",
+      "title": "Designing for Substance: Platform Incentives and the Attention Economy",
+      "summary": "An exploration of how platform incentives could be redesigned to reward substance over extraction, from regulation and metrics to product alternatives like the fediverse.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "platform-design",
+        "attention-economy",
+        "regulation",
+        "digital-wellbeing",
+        "public-interest-technology",
+        "fediverse"
+      ],
+      "tags": [
+        "platform-design",
+        "attention-economy",
+        "regulation",
+        "digital-wellbeing",
+        "public-interest-technology",
+        "fediverse"
+      ],
+      "canonicalPath": "/articles/designing-for-substance/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
+      "agentJsonPath": "/agents/articles/designing-for-substance.json",
+      "agentMarkdownPath": "/agents/articles/designing-for-substance.md",
+      "updatedAt": "2026-07-04",
+      "claimCount": 5,
+      "sourceCount": 7,
+      "tokenEstimate": 593,
+      "contentHash": "c965b0f4ba6d93d146389f1cdf0eb60e6bbd21d04c6d8276fe1ad94ee18cd67c"
+    }
+  ]
+}

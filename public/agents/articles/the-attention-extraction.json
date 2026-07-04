@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 3,
+  "id": "article:the-attention-extraction",
+  "slug": "the-attention-extraction",
+  "title": "The Attention Extraction: How India's Digital Dividend Is Becoming a Cognitive Deficit",
+  "canonicalPath": "/articles/the-attention-extraction/",
+  "sourcePath": "content/articles/2026/the-attention-extraction/article.md",
+  "agentBriefPath": "content/articles/2026/the-attention-extraction/agent.md",
+  "thesis": "India's digital-access success has quietly inverted. The same infrastructure that could have accelerated learning, production, and civic participation is now optimized to capture and monetize attention, producing measurable costs in cognition, mental health, economic output, and social trust—not because users are weak, but because the system is designed to keep them scrolling.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-04",
+  "updatedAt": "2026-07-04",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "social-media",
+    "public-policy",
+    "mental-health"
+  ],
+  "series": {
+    "slug": "attention-extraction",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 1,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "India has near-universal digital access, but entertainment and social media use crowd out education and production among young users.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-iamai-kantar-2024",
+          "snippet": "The Internet in India Report 2024 documents near-ubiquitous digital access and a usage mix dominated by entertainment and social media.",
+          "supports": "direct",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "sourceId": "source-aser-2024",
+          "snippet": "Among 14–16-year-olds, 76% use smartphones for social media while 57% use them for education.",
+          "supports": "direct",
+          "assessedAt": "2026-07-04"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Social platforms are also used for peer learning, exam groups, and skill discovery, so the boundary between social and educational use is not clean.",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "summary": "Access itself is a precondition for productive use; the gap between access and productive use is correlational and shaped by income, schooling, and parental supervision.",
+          "assessedAt": "2026-07-04"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "A large share of digital advertising revenue in India flows to foreign platforms, while local safety, quality signals, and creator sustainability lag behind.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-ibef-ad-revenue-fy24",
+          "snippet": "Tech giants generated over US$7.13 billion (roughly ₹60,000 crore) in advertising revenue in India in FY24.",
+          "supports": "direct",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "sourceId": "source-iamai-kantar-2024",
+          "snippet": "The report maps Indian internet usage onto platforms whose design and monetization decisions are made outside the country.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-04"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Domestic platforms such as ShareChat, Dailyhunt, and JioMart also capture significant Indian attention and advertising spend.",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "summary": "India's IT Rules and periodic draft regulations create local safety obligations, even if enforcement and design influence remain uneven.",
+          "assessedAt": "2026-07-04"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Short-form feeds use variable rewards, infinite scroll, autoplay, and personalized recommendations to extend engagement beyond user intent.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-pmc-short-video-attention",
+          "snippet": "Heavy short-form video use is associated with impaired attention and reduced self-control.",
+          "supports": "direct",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "sourceId": "source-steelcase-attention-span",
+          "snippet": "Gloria Mark's research tracks the shrinking of attention spans, with the average screen switch occurring around 47 seconds.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-04"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Users can disable autoplay, mute notifications, and set time limits; platform defaults are influential but not irresistible.",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "summary": "Not all platforms use every engagement-maximizing pattern, and some design choices improve user control.",
+          "assessedAt": "2026-07-04"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "The costs of the attention economy appear across attention spans, productivity, youth mental health, and social trust.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-pmc-short-video-attention",
+          "snippet": "Short-form video addiction is associated with attentional dysfunction and reduced self-control.",
+          "supports": "direct",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "sourceId": "source-gallup-global-workplace-india",
+          "snippet": "Gallup data places India's employee engagement at 23%, with attention fragmentation contributing to the productivity picture.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "sourceId": "source-pmc-adolescent-mental-health",
+          "snippet": "Social media use is linked to mental-health strain among Indian adolescents.",
+          "supports": "direct",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "sourceId": "source-pib-ncert-mental-health",
+          "snippet": "The NCERT survey of school students reports significant stress, anxiety, and screen-related concern.",
+          "supports": "direct",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "sourceId": "source-pib-tele-manas",
+          "snippet": "Tele-MANAS call volumes indicate rising reported mental-health distress at scale.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "sourceId": "source-milli-divisive-content",
+          "snippet": "Engagement-based recommendation systems amplify divisive content on social media.",
+          "supports": "direct",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "sourceId": "source-yale-outrage-online",
+          "snippet": "Likes and shares teach users to express more outrage online over time.",
+          "supports": "direct",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "sourceId": "source-nsso-time-use-2024",
+          "snippet": "The Time Use Survey provides a structural view of unpaid hours absorbed by screen-based leisure.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-04"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Productivity and mental health are also shaped by education quality, employment structure, poverty, and family environment; the attention economy is one factor among many.",
+          "assessedAt": "2026-07-04"
+        },
+        {
+          "summary": "Social trust is difficult to measure directly, and much of the evidence on polarization is correlational or based on platform-specific samples.",
+          "assessedAt": "2026-07-04"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-pib-economic-survey",
+      "title": "PIB: Economic Survey 2025-26 Press Release",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2",
+      "type": "government-press-release",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-india-budget-economic-survey",
+      "title": "India Budget: Economic Survey 2025-26 Education and Health Chapter",
+      "url": "https://www.indiabudget.gov.in/economicsurvey/doc/eschapter/echap11.pdf",
+      "type": "government-report",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-iamai-kantar-2024",
+      "title": "IAMAI-Kantar: Internet in India Report 2024",
+      "url": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf",
+      "type": "industry-report",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-aser-2024",
+      "title": "ASER 2024 National Findings",
+      "url": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf",
+      "type": "research-report",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-pib-ncert-mental-health",
+      "title": "PIB: NCERT Mental Health and Well-being Survey of School Students",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1993919",
+      "type": "government-press-release",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-nsso-time-use-2024",
+      "title": "NSSO Time Use Survey 2024 Factsheet",
+      "url": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf",
+      "type": "government-report",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-pib-tele-manas",
+      "title": "PIB Tele-MANAS Press Note",
+      "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=153277",
+      "type": "government-press-release",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-pmc-short-video-attention",
+      "title": "PMC: The adverse impact of mobile phone short-form video addiction on attentional functions and self-control",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11236742/",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-pmc-adolescent-mental-health",
+      "title": "PMC: Social media and mental health among Indian adolescents",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11438920/",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-milli-divisive-content",
+      "title": "Milli et al.: Engagement, User Satisfaction, and the Amplification of Divisive Content on Social Media (PNAS Nexus)",
+      "url": "https://doi.org/10.1093/pnasnexus/pgaf062",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-yale-outrage-online",
+      "title": "Yale News: Likes and shares teach people to express more outrage online",
+      "url": "https://news.yale.edu/2021/08/13/likes-and-shares-teach-people-express-more-outrage-online",
+      "type": "university-news",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-steelcase-attention-span",
+      "title": "Steelcase: Our 47-Second Attention Span with Gloria Mark (transcript)",
+      "url": "https://www.steelcase.com/research/articles/our-47-second-attention-span-with-gloria-mark-s5-ep3-transcript/",
+      "type": "interview-transcript",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-gallup-global-workplace-india",
+      "title": "Gallup State of the Global Workplace: India Country-Level Data",
+      "url": "https://www.gallup.com/workplace/705650/state-global-workplace-india-country-level-data.aspx",
+      "type": "industry-report",
+      "accessed": "2026-07-04"
+    },
+    {
+      "id": "source-ibef-ad-revenue-fy24",
+      "title": "IBEF: Tech giants generate over US$7.13 billion in advertising revenue in FY24",
+      "url": "https://www.ibef.org/news/tech-giants-generate-over-us-7-13-billion-rs-60-000-crore-in-advertising-revenue-in-fy24",
+      "type": "industry-report",
+      "accessed": "2026-07-04"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:the-generational-bet"
+    },
+    {
+      "type": "article",
+      "id": "article:the-substance-builder"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    },
+    {
+      "type": "topic",
+      "id": "topic:digital-wellbeing"
+    },
+    {
+      "type": "topic",
+      "id": "topic:india"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit and treat each claim as separate from the solution chapters.",
+    "Treat maturity=seed and diagnosis-only scope as explicit constraints; do not drift into personal advice or platform redesign.",
+    "Preserve the plain-language, evidence-cautious tone; do not sensationalize mental-health findings.",
+    "When citing sources, use the source IDs and URLs from the artifact; do not invent or generalize beyond the public evidence.",
+    "Keep personal observations abstracted to public scenes, in line with the privacy acknowledgment."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-04",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-04",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-04",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "62b8063f45c5c9922dd0b1dea4adb147bf1179b68c17dea883307233b32a46fa"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "62b8063f45c5c9922dd0b1dea4adb147bf1179b68c17dea883307233b32a46fa",
+  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+  "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+  "agentMarkdownPath": "/agents/articles/the-attention-extraction.md",
+  "sourceRepoPath": "content/articles/2026/the-attention-extraction/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/the-attention-extraction/article.md",
+  "tokenEstimate": 666,
+  "sectionOutline": [
+    {
+      "id": "the-inversion",
+      "title": "The Inversion"
+    },
+    {
+      "id": "access-without-proportionate-productive-use",
+      "title": "Access Without Proportionate Productive Use"
+    },
+    {
+      "id": "value-concentrates-upstream",
+      "title": "Value Concentrates Upstream"
+    },
+    {
+      "id": "addiction-is-a-feature",
+      "title": "Addiction Is a Feature, Not a Bug"
+    },
+    {
+      "id": "costs-across-domains",
+      "title": "Costs Across Domains"
+    },
+    {
+      "id": "why-this-matters-for-the-ai-moment",
+      "title": "Why This Matters for the AI Moment"
+    },
+    {
+      "id": "historical-analogies",
+      "title": "Historical Analogies"
+    },
+    {
+      "id": "life-phase-threads",
+      "title": "Life-Phase Threads"
+    },
+    {
+      "id": "what-this-article-is-not",
+      "title": "What This Article Is Not"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    }
+  ]
+}
