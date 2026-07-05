@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 3,
+  "id": "article:the-small-rep-theory",
+  "slug": "the-small-rep-theory",
+  "title": "The Small-Rep Theory",
+  "canonicalPath": "/articles/the-small-rep-theory/",
+  "sourcePath": "content/articles/2026/the-small-rep-theory/article.md",
+  "agentBriefPath": "content/articles/2026/the-small-rep-theory/agent.md",
+  "thesis": "Lasting skill and substance build from small, focused, deliberately designed repetitions rather than from heroic intensity or passive consumption.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "skill-building",
+    "deliberate-practice",
+    "habits"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 15,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Lasting skill and substance build from small, focused, deliberately designed repetitions rather than from heroic intensity or passive consumption.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-ericsson-1993-deliberate-practice",
+          "snippet": "Expert performance is associated with accumulated deliberate practice—training activities designed to improve specific aspects of performance with feedback.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-fogg-tiny-habits-2019",
+          "snippet": "Tiny habits rely on small behaviors anchored to existing routines and celebrated immediately, making behavior change less dependent on motivation.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some skills require long blocks of sustained practice, equipment, or expert instruction that a small-rep framework alone cannot provide.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Ericsson's research emphasizes deliberate, goal-directed practice with feedback, not a magic 10,000-hour threshold.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-ericsson-1993-deliberate-practice",
+          "snippet": "The 1993 study found differences in accumulated deliberate practice among violinists, but the 10,000-hour figure was an average, not a rule.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-ericsson-pool-peak-2016",
+          "snippet": "Peak clarifies that deliberate practice requires well-defined goals, full attention, immediate feedback, and frequent exits from the comfort zone.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Popular accounts often oversimplify Ericsson's findings as a 10,000-hour rule, which he explicitly disputed.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Newport's deep-work research shows that the quality and undividedness of attention matter more than the raw number of hours spent, especially for cognitively demanding tasks.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-newport-deep-work-2016",
+          "snippet": "Deep work is defined as professional activities performed in a state of distraction-free concentration that push cognitive capabilities to their limit.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The deep-work framework is drawn from productivity writing, not from controlled experiments on learning outcomes.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Fogg's behavior model shows that small, well-prompted behaviors matched to current ability are more reliable than motivation-dependent willpower.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-fogg-behavior-model",
+          "snippet": "The Fogg Behavior Model states that behavior occurs when Motivation, Ability, and a Prompt converge at the same moment (B = MAP).",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-fogg-tiny-habits-2019",
+          "snippet": "The Tiny Habits method makes behaviors tiny, anchors them to existing routines, and uses immediate celebration to reinforce the habit loop.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Long-term behavior change may still require motivation and meaning beyond friction reduction; tiny habits are a starting mechanism, not a complete theory of character.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "The practical form of the small-rep theory is: shrink the session, sharpen the goal, anchor it to an existing prompt, and repeat.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-fogg-tiny-habits-2019",
+          "snippet": "Tiny Habits recipe: After I [anchor], I will [tiny behavior], then I celebrate.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-ericsson-pool-peak-2016",
+          "snippet": "Deliberate practice requires focused sessions with clear goals and feedback.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-newport-deep-work-2016",
+          "snippet": "Deep work requires scheduling focused blocks and protecting them from distraction.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The exact recipe may need adaptation for different skills, ages, and life contexts; one size does not fit all.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "In an attention-extraction environment, small reps are a counter-pattern to binge-scrolling because they reclaim brief windows of dead time for deliberate creation and learning.",
+      "confidence": "medium",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-fogg-behavior-model",
+          "snippet": "Designing behaviors that are easy to do and anchored to existing prompts can replace default behaviors that require little ability but happen often.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-newport-deep-work-2016",
+          "snippet": "Protecting attention from constant distraction is necessary for cognitively valuable work.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "There is limited India-specific empirical evidence that small-rep interventions reduce screen time or improve outcomes; the claim is a design hypothesis, not a proven intervention effect.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "Small reps do not guarantee elite expertise, but they raise the probability of sustained skill growth and reduce the friction that normally kills new habits.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-fogg-tiny-habits-2019",
+          "snippet": "Making behaviors tiny and easy increases the chance that they will be repeated and grow naturally over time.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-ericsson-pool-peak-2016",
+          "snippet": "Sustained deliberate practice over years is required for elite performance, but small structured sessions are the building blocks.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Without coaching, feedback, and increasing difficulty, small reps may plateau at a low level of competence.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-ericsson-1993-deliberate-practice",
+      "title": "Ericsson, Krampe, and Tesch-Römer (1993): The Role of Deliberate Practice in the Acquisition of Expert Performance",
+      "url": "https://doi.org/10.1037/0033-295X.100.3.363",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ericsson-pool-peak-2016",
+      "title": "Ericsson and Pool (2016): Peak: Secrets from the New Science of Expertise",
+      "url": "https://www.goodreads.com/book/show/26312997-peak",
+      "type": "book",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-newport-deep-work-2016",
+      "title": "Newport (2016): Deep Work: Rules for Focused Success in a Distracted World",
+      "url": "https://calnewport.com/books/deep-work/",
+      "type": "book",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-fogg-behavior-model",
+      "title": "Fogg Behavior Model",
+      "url": "https://behaviormodel.org/",
+      "type": "academic-website",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-fogg-tiny-habits-2019",
+      "title": "Fogg (2019): Tiny Habits: The Small Changes That Change Everything",
+      "url": "https://tinyhabits.com/",
+      "type": "book",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:the-attention-extraction"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:the-generational-bet"
+    },
+    {
+      "type": "article",
+      "id": "article:the-substance-builder"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    },
+    {
+      "type": "topic",
+      "id": "topic:digital-wellbeing"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit; do not collapse the small-rep theory into generic productivity advice.",
+    "Preserve the plain-language, evidence-cautious tone; avoid promising guaranteed transformation.",
+    "When citing sources, use the source IDs and URLs from the artifact; do not invent or generalize beyond the public evidence.",
+    "Distinguish the small-rep theory from the popular 10,000-hour rule and from shallow productivity hacks.",
+    "Flag that the synthesis applies global research frameworks to the Indian context and is not based on India-specific intervention studies."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:5b21a6af734bb37d8c42799003a7d00fd6d44b82978fd64d2a977c4b8a27e2d1",
+        "outputHash": "sha256:5b21a6af734bb37d8c42799003a7d00fd6d44b82978fd64d2a977c4b8a27e2d1"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "5b21a6af734bb37d8c42799003a7d00fd6d44b82978fd64d2a977c4b8a27e2d1"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "5b21a6af734bb37d8c42799003a7d00fd6d44b82978fd64d2a977c4b8a27e2d1",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
+  "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
+  "agentMarkdownPath": "/agents/articles/the-small-rep-theory.md",
+  "sourceRepoPath": "content/articles/2026/the-small-rep-theory/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/the-small-rep-theory/article.md",
+  "tokenEstimate": 659,
+  "sectionOutline": [
+    {
+      "id": "what-the-three-sources-actually-say",
+      "title": "What the Three Sources Actually Say"
+    },
+    {
+      "id": "the-anatomy-of-a-small-rep",
+      "title": "The Anatomy of a Small Rep"
+    },
+    {
+      "id": "small-reps-in-an-extraction-economy",
+      "title": "Small Reps in an Extraction Economy"
+    },
+    {
+      "id": "examples-across-domains",
+      "title": "Examples Across Domains"
+    },
+    {
+      "id": "what-small-reps-are-not",
+      "title": "What Small Reps Are Not"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

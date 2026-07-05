@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 3,
+  "id": "article:what-ai-makes-cheap",
+  "slug": "what-ai-makes-cheap",
+  "title": "What AI Makes Cheap",
+  "canonicalPath": "/articles/what-ai-makes-cheap/",
+  "sourcePath": "content/articles/2026/what-ai-makes-cheap/article.md",
+  "agentBriefPath": "content/articles/2026/what-ai-makes-cheap/agent.md",
+  "thesis": "Generative AI makes many knowledge tasks dramatically cheaper, but India's payoff depends on whether the saved time and attention are redirected toward learning, creation, and problem-solving rather than back into extraction.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "artificial-intelligence",
+    "generative-ai",
+    "digital-economy",
+    "productivity"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 9,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Generative AI can now produce acceptable first drafts of text, code, translation, images, and voice at a small fraction of the previous cost and time.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-oecd-genai-productivity-2025",
+          "snippet": "An OECD review found professionals using generative AI completed writing tasks ~40% faster with quality up ~18%, developers using Copilot coded 56% faster, and consultants completed 12% more tasks 25% faster.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Outputs often require human verification; hallucinations and quality variation mean the first draft is not the final product.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "The largest productivity gains from generative AI show up for less experienced workers and in well-defined, bounded tasks, narrowing some skill gaps while raising the premium on judgment and verification.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-oecd-genai-productivity-2025",
+          "snippet": "The OECD review notes that generative AI tends to help most when tasks are clearly bounded and users are less experienced, while experienced workers gain mainly by delegating routine parts and retaining judgment on complex parts.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some experiments also show gains for experienced workers who integrate AI strategically; bounded-task gains may not transfer to open-ended, high-stakes work.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "India's Bhashini platform is an example of making multilingual AI a public good, offering translation and speech-to-text across 22 scheduled Indian languages.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-pib-bhashini-2025",
+          "snippet": "Bhashini, under the National Language Translation Mission, is an AI platform enabling real-time translation, automatic speech recognition, and text-to-speech across 22 scheduled Indian languages.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Coverage of 22 languages does not mean equal quality across all languages and dialects; performance depends on available training data.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Indian enterprise adoption of generative AI remains early: a minority have production workloads or can fully measure AI returns, suggesting the cost savings are not yet system-wide.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-ey-aidea-india-2025",
+          "snippet": "EY India's C-suite survey found 36% of Indian enterprises had allocated budgets to generative AI and 24% were testing it, but only 15% had generative AI workloads in production and only 8% could fully measure and allocate AI returns.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The survey is a snapshot of C-suite self-reporting; adoption numbers may have changed rapidly after the survey period.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "NASSCOM's AI Adoption Index estimates that four sectors—BFSI, retail and CPG, healthcare, and industrials/automotive—could contribute roughly 60% of India's potential AI-driven GDP value by FY2026, and that India's AI skills penetration is above the global average.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-nasscom-ai-adoption-index",
+          "snippet": "The NASSCOM AI Adoption Index estimates that four key sectors could contribute ~60% of the potential AI-driven value add to India's GDP by FY2026, and that India's AI skills penetration between 2015 and 2021 was 3.09 times the global average.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Potential value is not guaranteed value; skills penetration does not imply equal deployment or productivity realization across sectors.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "Because attention is the limiting input, the economic value of cheaper knowledge work depends on whether saved time is reinvested in learning, creation, and problem-solving or recaptured by extraction.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-pib-economic-survey",
+          "snippet": "The Economic Survey 2025-26 warned that digital addiction threatens India's demographic dividend, framing attention as a scarce national resource.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-ncaer-ihds-wave3",
+          "snippet": "NCAER IHDS Wave 3 reports a 4.1:1 entertainment-to-education internet-use ratio, showing the current direction of India's digital attention budget.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The link between AI-induced time savings and reinvestment is conceptual; no direct measurement shows how saved time is currently being used in India.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "Without deliberate redirection, AI could also make extraction cheaper—through hyper-personalized feeds, synthetic content, and automated influencers—lowering the cost of capturing attention.",
+      "confidence": "medium",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-oecd-genai-productivity-2025",
+          "snippet": "The OECD review flags misuse, bias, manipulated content, and the risk of over-reliance alongside productivity gains, noting that lower content-production costs can scale both beneficial and harmful uses.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The extraction risk is prospective; current Indian-scale measurement of AI-driven synthetic content or automated influencers is not cited here.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-oecd-genai-productivity-2025",
+      "title": "OECD: The effects of generative AI on productivity, innovation and entrepreneurship",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/the-effects-of-generative-ai-on-productivity-innovation-and-entrepreneurship_da1d085d/b21df222-en.pdf",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ey-aidea-india-2025",
+      "title": "EY India: The AIdea of India 2025 — How much productivity can GenAI unlock in India?",
+      "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/services/ai/aidea/2025/01/ey-the-aidea-of-india-2025-how-much-productivity-can-genai-unlock-in-india.pdf",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-nasscom-ai-adoption-index",
+      "title": "NASSCOM: AI Adoption Index",
+      "url": "https://nasscom.in/knowledge-center/publications/nasscom-ai-adoption-index",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-pib-bhashini-2025",
+      "title": "PIB: 22 Languages, Digitally Reimagined — Bhashini under the National Language Translation Mission",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251025675501.pdf",
+      "type": "government-press-release",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-pib-economic-survey",
+      "title": "PIB: Economic Survey 2025-26 Press Release",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2",
+      "type": "government-press-release",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ncaer-ihds-wave3",
+      "title": "NCAER: The Evolving Landscape of Digital Inclusion in India (IHDS Wave 3)",
+      "url": "https://ncaer.org/wp-content/uploads/2026/06/NCAER_Report_June_26.pdf",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-aser-2024",
+      "title": "ASER 2024 National Findings",
+      "url": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:the-attention-extraction"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:the-generational-bet"
+    },
+    {
+      "type": "article",
+      "id": "article:the-substance-builder"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    },
+    {
+      "type": "topic",
+      "id": "topic:india"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit and keep each claim separate from diagnosis and design chapters.",
+    "Preserve the evidence-cautious tone; present experimental productivity figures as directional, not national estimates.",
+    "When citing sources, use the source IDs and URLs from the artifact; do not generalize beyond the public evidence.",
+    "Flag any figure that is experimental or global when applied to India.",
+    "Distinguish AI capability (what models can do) from deployment (what enterprises or citizens actually use)."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:36f08fb0c0f3fddf41eb669a1eab7f20979d1c313049bdd40c371f48bc2025d0",
+        "outputHash": "sha256:36f08fb0c0f3fddf41eb669a1eab7f20979d1c313049bdd40c371f48bc2025d0"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "36f08fb0c0f3fddf41eb669a1eab7f20979d1c313049bdd40c371f48bc2025d0"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "36f08fb0c0f3fddf41eb669a1eab7f20979d1c313049bdd40c371f48bc2025d0",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+  "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
+  "agentMarkdownPath": "/agents/articles/what-ai-makes-cheap.md",
+  "sourceRepoPath": "content/articles/2026/what-ai-makes-cheap/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/what-ai-makes-cheap/article.md",
+  "tokenEstimate": 778,
+  "sectionOutline": [
+    {
+      "id": "the-cost-of-a-draft-is-falling",
+      "title": "The Cost of a Draft Is Falling"
+    },
+    {
+      "id": "who-benefits-most",
+      "title": "Who Benefits Most"
+    },
+    {
+      "id": "indias-language-layer",
+      "title": "India's Language Layer"
+    },
+    {
+      "id": "the-enterprise-gap",
+      "title": "The Enterprise Gap"
+    },
+    {
+      "id": "the-real-scarcity-is-attention-and-judgment",
+      "title": "The Real Scarcity Is Attention and Judgment"
+    },
+    {
+      "id": "ai-could-cheapen-extraction-too",
+      "title": "AI Could Cheapen Extraction Too"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

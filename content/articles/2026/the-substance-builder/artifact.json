@@ -27,9 +27,9 @@
     "productivity"
   ],
   "series": {
-    "slug": "attention-extraction",
+    "slug": "attention-substance-ai-moment",
     "title": "Attention, Substance, and the AI Moment",
-    "order": 3,
+    "order": 14,
     "role": "chapter"
   },
   "claims": [
@@ -252,14 +252,14 @@
         "role": "drafting",
         "model": "kimi",
         "invokedAt": "2026-07-04",
-        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-        "outputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+        "inputHash": "sha256:38037aef9caf70e6f6d4e2ced64ad01c3ed185b0010cc594c6b57d8ea2eaaa15",
+        "outputHash": "sha256:38037aef9caf70e6f6d4e2ced64ad01c3ed185b0010cc594c6b57d8ea2eaaa15"
       }
     ],
     "reviews": [
       {
         "reviewer": "human",
-        "reviewedAt": "2026-07-04",
+        "reviewedAt": "2026-07-05",
         "status": "approved",
         "scope": [
           "thesis",
@@ -269,7 +269,7 @@
           "sources"
         ],
         "notes": "Human author approved publication.",
-        "contentHash": "ea4c8423c8a7c7eff937808f5d1e7793ee9f661ffdfc333a3fa1dd7ba28c6f4b"
+        "contentHash": "89751bead595b585f40cba7b08703aff1ab7e2a80c2df9a023c603fbbdc321e0"
       }
     ],
     "policy": {
@@ -277,5 +277,5 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "ea4c8423c8a7c7eff937808f5d1e7793ee9f661ffdfc333a3fa1dd7ba28c6f4b"
+  "contentHash": "89751bead595b585f40cba7b08703aff1ab7e2a80c2df9a023c603fbbdc321e0"
 }

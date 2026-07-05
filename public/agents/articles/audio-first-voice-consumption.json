@@ -429,8 +429,8 @@
         "role": "drafting",
         "model": "kimi",
         "invokedAt": "2026-06-26",
-        "inputHash": "sha256:6fb5066de6aa13617120074e2d4cf2e8d6602881048df9500e56e2d8207d3b20",
-        "outputHash": "sha256:c3bd3e681ca805aba641e0d6f617bbf291e46a68ce97705abaeae20c89cf5031"
+        "inputHash": "sha256:91df0331a91b7896a885033651191cafd46a7e004776180106c6fbadd6c6851e",
+        "outputHash": "sha256:91df0331a91b7896a885033651191cafd46a7e004776180106c6fbadd6c6851e"
       }
     ],
     "reviews": [
@@ -465,7 +465,7 @@
       "version": "1.0.0"
     }
   },
-  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
   "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
   "agentMarkdownPath": "/agents/articles/audio-first-voice-consumption.md",

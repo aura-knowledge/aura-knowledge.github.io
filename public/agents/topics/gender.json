@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "topic": "gender",
+  "articleIds": [
+    "article:gender-and-the-attention-economy"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/gender/",
+  "agentJsonPath": "/agents/topics/gender.json",
+  "articles": [
+    {
+      "id": "article:gender-and-the-attention-economy",
+      "slug": "gender-and-the-attention-economy",
+      "title": "Gender and the Attention Economy",
+      "summary": "Uses government surveys and industry data to examine how women experience India's attention economy differently—through access gaps, unpaid care burdens, online safety risks, and unequal creator-economy opportunities.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "gender",
+        "digital-inclusion",
+        "digital-wellbeing"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "gender",
+        "digital-inclusion",
+        "digital-wellbeing"
+      ],
+      "canonicalPath": "/articles/gender-and-the-attention-economy/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
+      "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json",
+      "agentMarkdownPath": "/agents/articles/gender-and-the-attention-economy.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 6,
+      "tokenEstimate": 901,
+      "contentHash": "d6c669b3e663a43e8bd886da687b89e85f33efcde536f010006a9952e8241d0c"
+    }
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "schemaVersion": 3,
+  "id": "article:a-map-of-levers",
+  "slug": "a-map-of-levers",
+  "title": "A Map of Levers",
+  "canonicalPath": "/articles/a-map-of-levers/",
+  "sourcePath": "content/articles/2026/a-map-of-levers/article.md",
+  "agentBriefPath": "content/articles/2026/a-map-of-levers/agent.md",
+  "thesis": "India's attention crisis is not solvable by any single actor, but it is movable by the combined leverage of individuals, households, platforms, investors, regulators, and citizens making substance-oriented choices at each layer.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "synthesis",
+    "platform-design",
+    "policy",
+    "regulation"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 20,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "India's attention crisis is not solvable by any single actor, but it is movable by the combined leverage of individuals, households, platforms, investors, regulators, and citizens making substance-oriented choices at each layer.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-pib-economic-survey",
+          "snippet": "The Economic Survey 2025-26 identifies digital addiction as a threat to the demographic dividend and notes government, educational, and mental-health responses.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-eu-dsa-transparency",
+          "snippet": "The EU DSA demonstrates that layered accountability — transparency, researcher access, audits, and regulatory oversight — can be applied to very large platforms.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "There is limited India-specific evidence proving that coordinated multi-layer intervention works at national scale; the claim is a structural framework, not an empirically tested model.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "India has built near-universal digital access, but the dominant use of that access is entertainment and social extraction rather than education, work, creation, or rest.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-ncaer-ihds-wave3",
+          "snippet": "NCAER IHDS Wave 3 finds that 66% of reported internet use is for entertainment while 16.1% is for education, a 4.1:1 ratio.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-aser-2024",
+          "snippet": "ASER 2024 reports that 76% of 14-16-year-olds use smartphones for social media while 57% use them for education.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-gallup-global-workplace-india",
+          "snippet": "Gallup State of the Global Workplace India data place employee engagement at 23% in 2025, down from 33% in 2022.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The same platforms are used for both social and educational purposes, and reported shares may not cleanly map to actual minutes; screen time is not uniformly harmful.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Individual attention practices can reduce personal extraction, but their effect is bounded by platform defaults, social norms, and economic pressure; they work best when supported by household and design changes.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-pib-economic-survey",
+          "snippet": "The Economic Survey 2025-26 notes that digital access cannot be fully restricted and recommends moderated safe spaces, school curricula, and offline youth hubs.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-nsso-time-use-2024",
+          "snippet": "NSSO TUS 2024 shows leisure and mass-media participation is nearly universal, implying individual choice operates within strong structural defaults.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some studies find limited wellbeing effects from moderate screen-time reduction, suggesting that use patterns and content quality matter more than raw time.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Platform design is the highest-leverage intervention in the attention economy because a single design default can reshape the behaviour of millions of users at once.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-eu-dsa-transparency",
+          "snippet": "The EU DSA requires very large platforms to disclose recommender-system logic, risk assessments, and audits, treating design as a systemic risk.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-bcig-creator-economy",
+          "snippet": "BCG's creator-economy report documents how platform monetisation rules and recommendation systems shape creator behaviour and income distribution.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-science-advances-outrage",
+          "snippet": "A Science Advances study found that positive social feedback for moral-outrage expressions increases the likelihood of future outrage expressions.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-microsoft-research-bengaluru-polarization",
+          "snippet": "A Microsoft Research Bengaluru study of Indian influencers found that polarised influencers are rewarded with increased retweeting.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Design changes can be circumvented, A/B tested away, or rolled back if business metrics suffer; user habits and network effects also constrain design impact.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "Investor pressure can shift platform incentives when fiduciaries begin to value long-term attention quality, civic trust, and user autonomy alongside reach and revenue.",
+      "confidence": "medium",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-bcig-creator-economy",
+          "snippet": "BCG documents how monetisation gaps and concentrated ad payments create pressure for creators and platforms to optimise for engagement over quality.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-eu-dsa-transparency",
+          "snippet": "Regulatory risk under the EU DSA has already influenced platform disclosure and audit spending, affecting how investors price attention-extraction business models.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Evidence that Indian investors currently reward attention quality is sparse; most venture and public-market metrics still prioritise growth and engagement.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "Regulation is a necessary floor for the attention economy, but it is insufficient on its own because rules lag design, enforcement is uneven, and platforms can comply without changing their core extraction model.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-it-rules-2021",
+          "snippet": "The Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules 2021 establish due-diligence obligations for intermediaries in India.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-dpdp-act-2023",
+          "snippet": "The Digital Personal Data Protection Act 2023 creates consent and children's-data frameworks, though implementation rules are still emerging.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-eu-dsa-transparency",
+          "snippet": "The EU DSA shows that even comprehensive platform regulation requires ongoing enforcement, researcher access, and civil-society scrutiny to be effective.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some scholars argue that well-enforced regulation can significantly shift platform behaviour; the limitation may be enforcement capacity rather than regulation itself.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "Civic accountability — research, journalism, whistleblowing, organised user demand, and alternative-platform adoption — is the layer that makes regulation and investor pressure credible.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-eu-dsa-transparency",
+          "snippet": "The EU DSA mandates data access for vetted researchers and transparency reporting, explicitly designing civil-society scrutiny into enforcement.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-pib-economic-survey",
+          "snippet": "Tele-MANAS has received over 32 lakh calls, with about 70% of callers aged 18-45, showing civic demand for mental-health support tied to digital distress.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Civil society in India is fragmented and often under-resourced; organised user demand is less visible than in Europe or the United States.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-008",
+      "claim": "Sustained change requires aligned movement across all six layers; any single-layer intervention will be absorbed, gamed, or exhausted by the others.",
+      "confidence": "medium",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-pib-economic-survey",
+          "snippet": "The Economic Survey 2025-26 calls for a multi-pronged response to digital addiction: schools, parents, mental-health services, and offline alternatives.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-eu-dsa-transparency",
+          "snippet": "The EU DSA combines transparency, audits, researcher access, and whistleblower protections, recognising that no single instrument is sufficient.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Historical examples exist where a single intervention — a court ruling, a viral scandal, or a platform redesign — produced rapid change, so multi-layer alignment is not strictly necessary in every case.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-pib-economic-survey",
+      "title": "PIB: Economic Survey 2025-26 Press Release on Digital Addiction and Mental Health",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2",
+      "type": "government-press-release",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-nsso-time-use-2024",
+      "title": "NSSO Time Use Survey 2024 Factsheet",
+      "url": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ncaer-ihds-wave3",
+      "title": "NCAER: The Evolving Landscape of Digital Inclusion in India (IHDS Wave 3)",
+      "url": "https://ncaer.org/wp-content/uploads/2026/06/NCAER_Report_June_26.pdf",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-aser-2024",
+      "title": "ASER 2024 National Findings",
+      "url": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-gallup-global-workplace-india",
+      "title": "Gallup State of the Global Workplace: India Country-Level Data",
+      "url": "https://www.gallup.com/workplace/705650/state-global-workplace-india-country-level-data.aspx",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-bcig-creator-economy",
+      "title": "BCG: From Content to Commerce — Mapping India's Creator Economy",
+      "url": "https://web-assets.bcg.com/c8/35/2a008ddf4e049d99a901b17233f0/gift-report.pdf",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-eu-dsa-transparency",
+      "title": "European Commission: How the Digital Services Act Enhances Transparency Online",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/dsa-brings-transparency",
+      "type": "regulatory-text",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-science-advances-outrage",
+      "title": "Brady et al. (2021): How Social Learning Amplifies Moral Outrage Expression in Online Social Networks, Science Advances",
+      "url": "https://www.science.org/doi/10.1126/sciadv.abe5641",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-microsoft-research-bengaluru-polarization",
+      "title": "Dash et al. (2022): Divided We Rule — Influencer Polarization on Twitter during Political Crises in India, ICWSM",
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/19279",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-it-rules-2021",
+      "title": "Ministry of Electronics and IT: Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 (updated 28.10.2022)",
+      "url": "https://www.meity.gov.in/static/uploads/2024/02/IT-Intermediary-Rules-2021-updated-on-28.10.2022-2.pdf",
+      "type": "regulatory-text",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-dpdp-act-2023",
+      "title": "Ministry of Electronics and IT: Digital Personal Data Protection Act, 2023",
+      "url": "https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf",
+      "type": "regulatory-text",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-dpdp-rules-2025",
+      "title": "Ministry of Electronics and IT: Digital Personal Data Protection Rules, 2025",
+      "url": "https://www.meity.gov.in/documents/act-and-policies/digital-personal-data-protection-rules-2025-gDOxUjMtQWa?pageTitle=Digital-Personal-Data-Protection-Rules-2025",
+      "type": "regulatory-text",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ncert-2022",
+      "title": "NCERT: Mental Health and Well-being of School Students – A Survey, 2022",
+      "url": "https://www.ncert.nic.in/pdf/Mental_Health_WSS_A_Survey_new.pdf",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:the-attention-extraction"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:the-generational-bet"
+    },
+    {
+      "type": "article",
+      "id": "article:the-substance-builder"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    },
+    {
+      "type": "topic",
+      "id": "topic:india"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit and treat this synthesis article as a framework, not a primary-data source.",
+    "Preserve the plain-language, evidence-cautious tone; do not present the six-layer model as a proven causal theory.",
+    "When citing sources, use the source IDs and URLs from the artifact; flag global benchmarks and industry estimates as such.",
+    "Link to the existing series articles listed in related rather than to unpublished or future articles.",
+    "Treat regulation and platform-design claims as context-dependent; do not generalise EU rules to Indian law without caveat."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:71190f03d689629fe5004d15bcc0c872da3a2bc19d526bf6c4daa3abb16d18f6",
+        "outputHash": "sha256:71190f03d689629fe5004d15bcc0c872da3a2bc19d526bf6c4daa3abb16d18f6"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "3bfb89f509202214b6454cd92bff340dc6322aafafcbad5d08b0cdaef4ef9c96"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "3bfb89f509202214b6454cd92bff340dc6322aafafcbad5d08b0cdaef4ef9c96",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+  "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+  "agentMarkdownPath": "/agents/articles/a-map-of-levers.md",
+  "sourceRepoPath": "content/articles/2026/a-map-of-levers/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/a-map-of-levers/article.md",
+  "tokenEstimate": 860,
+  "sectionOutline": [
+    {
+      "id": "the-diagnosis-in-one-picture",
+      "title": "The Diagnosis in One Picture"
+    },
+    {
+      "id": "six-layers-of-leverage",
+      "title": "Six Layers of Leverage"
+    },
+    {
+      "id": "the-inner-layers-individual-and-household",
+      "title": "The Inner Layers: Individual and Household"
+    },
+    {
+      "id": "the-middle-layers-platform-and-investor",
+      "title": "The Middle Layers: Platform and Investor"
+    },
+    {
+      "id": "the-outer-layers-regulator-and-citizen",
+      "title": "The Outer Layers: Regulator and Citizen"
+    },
+    {
+      "id": "why-the-layers-must-move-together",
+      "title": "Why the Layers Must Move Together"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

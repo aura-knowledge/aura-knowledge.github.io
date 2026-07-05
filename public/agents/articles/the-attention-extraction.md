@@ -18,7 +18,7 @@ India's digital-access success has quietly inverted. The same infrastructure tha
 - Indian citizens, educators, parents, and builders who sense that screen time has become excessive but have not yet seen the aggregated public evidence.
 - Researchers and policy readers looking for a sourced, compressed diagnosis of the attention economy in India.
 - Students and young workers trying to name the structural forces behind their own digital habits.
-- Agents that need a compact, claim-structured summary of Lane A in the attention-extraction series.
+- Agents that need a compact, claim-structured summary of the diagnosis article in the Attention, Substance, and the AI Moment series.
 
 ## Claims
 

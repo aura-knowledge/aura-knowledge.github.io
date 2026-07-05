@@ -147,15 +147,15 @@
         "role": "drafting",
         "model": "kimi",
         "invokedAt": "2026-06-26",
-        "inputHash": "sha256:d599e966fa7fc73552f887bbcf6248fb11a54cf9de540dfd9fd51b9de061b244",
+        "inputHash": "sha256:f9987826579f1516fc43e8890524ec069d702d595bf733cc83d01b79f832847c",
         "outputHash": "sha256:f9987826579f1516fc43e8890524ec069d702d595bf733cc83d01b79f832847c"
       },
       {
         "role": "review",
         "model": "kimi",
         "invokedAt": "2026-06-26",
-        "inputHash": "sha256:d6651e21815a9dc70aa1c0bb5fedeb3e191893e5b5bfe5a062b695e360ed757e",
-        "outputHash": "sha256:f576e90afef128efcffc92b93741e3276054ca8897f057b84bbf7cf2250e8eab"
+        "inputHash": "sha256:f9987826579f1516fc43e8890524ec069d702d595bf733cc83d01b79f832847c",
+        "outputHash": "sha256:f9987826579f1516fc43e8890524ec069d702d595bf733cc83d01b79f832847c"
       }
     ],
     "reviews": [
@@ -191,7 +191,7 @@
       "version": "1.0.0"
     }
   },
-  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
   "agentJsonPath": "/agents/articles/ai-agent-first-conversation.json",
   "agentMarkdownPath": "/agents/articles/ai-agent-first-conversation.md",

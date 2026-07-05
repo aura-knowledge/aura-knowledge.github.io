@@ -1,12 +1,57 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
   "summary": {
     "errors": 0,
-    "warnings": 161,
-    "total": 161
+    "warnings": 280,
+    "total": 280
   },
   "findings": [
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/a-map-of-levers: claim-006 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/a-readers-guide-to-the-series: claim-001 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/a-readers-guide-to-the-series: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/a-readers-guide-to-the-series: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/a-readers-guide-to-the-series: claim-003 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/a-readers-guide-to-the-series: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/a-readers-guide-to-the-series: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/a-readers-guide-to-the-series: claim-005 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/a-readers-guide-to-the-series: claim-005 relies on a single source type for evidence."
+    },
     {
       "rule": "low-source-diversity",
       "severity": "warning",
@@ -260,6 +305,51 @@
     {
       "rule": "low-source-diversity",
       "severity": "warning",
+      "message": "2026/by-the-numbers-what-indians-do-online: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/by-the-numbers-what-indians-do-online: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/by-the-numbers-what-indians-do-online: claim-003 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/by-the-numbers-what-indians-do-online: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/by-the-numbers-what-indians-do-online: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/by-the-numbers-what-indians-do-online: claim-005 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/by-the-numbers-what-indians-do-online: claim-005 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/by-the-numbers-what-indians-do-online: claim-006 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/by-the-numbers-what-indians-do-online: claim-006 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
       "message": "2026/context-management: claim-001 relies on a single source for evidence."
     },
     {
@@ -316,6 +406,41 @@
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/designing-for-substance: claim-005 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/engagement-is-a-design-choice: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/engagement-is-a-design-choice: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/engagement-is-a-design-choice: claim-003 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/engagement-is-a-design-choice: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/engagement-is-a-design-choice: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/engagement-is-a-design-choice: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/engagement-is-a-design-choice: claim-005 relies on a single source type for evidence."
     },
     {
       "rule": "low-source-diversity",
@@ -451,6 +576,56 @@
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/foundation-models: claim-012 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/gender-and-the-attention-economy: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/gender-and-the-attention-economy: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/gender-and-the-attention-economy: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/gender-and-the-attention-economy: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/gender-and-the-attention-economy: claim-005 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/gender-and-the-attention-economy: claim-005 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/gender-and-the-attention-economy: claim-006 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/gender-and-the-attention-economy: claim-006 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/gender-and-the-attention-economy: claim-007 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/gender-and-the-attention-economy: claim-007 relies on a single source type for evidence."
     },
     {
       "rule": "low-source-diversity",
@@ -725,6 +900,21 @@
     {
       "rule": "low-source-diversity",
       "severity": "warning",
+      "message": "2026/regulation-as-a-floor-dsa-it-rules-dpdp: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/regulation-as-a-floor-dsa-it-rules-dpdp: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/regulation-as-a-floor-dsa-it-rules-dpdp: claim-005 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
       "message": "2026/retrieval-augmented-generation: claim-001 relies on a single source for evidence."
     },
     {
@@ -760,6 +950,146 @@
     {
       "rule": "low-source-diversity",
       "severity": "warning",
+      "message": "2026/the-better-question: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-better-question: claim-003 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-better-question: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-better-question: claim-005 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-better-question: claim-005 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-compounding-bet: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-compounding-bet: claim-007 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-compounding-bet: claim-007 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-creator-economys-incentive-trap: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-creator-economys-incentive-trap: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-creator-economys-incentive-trap: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-creator-economys-incentive-trap: claim-003 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-creator-economys-incentive-trap: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-creator-economys-incentive-trap: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-creator-economys-incentive-trap: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-creator-economys-incentive-trap: claim-005 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-creator-economys-incentive-trap: claim-006 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-creator-economys-incentive-trap: claim-006 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-creator-economys-incentive-trap: claim-007 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-creator-economys-incentive-trap: claim-007 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-engagement-gap-productivity-india: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-engagement-gap-productivity-india: claim-003 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-engagement-gap-productivity-india: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-engagement-gap-productivity-india: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-engagement-gap-productivity-india: claim-005 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-engagement-gap-productivity-india: claim-005 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-engagement-gap-productivity-india: claim-007 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-engagement-gap-productivity-india: claim-007 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
       "message": "2026/the-generational-bet: claim-001 relies on a single source type for evidence."
     },
     {
@@ -771,6 +1101,121 @@
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/the-generational-bet: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-indic-language-internet-and-vernacular-feeds: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-indic-language-internet-and-vernacular-feeds: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-indic-language-internet-and-vernacular-feeds: claim-003 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-indic-language-internet-and-vernacular-feeds: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-indic-language-internet-and-vernacular-feeds: claim-007 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-indic-language-internet-and-vernacular-feeds: claim-007 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-life-phase-thread: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-life-phase-thread: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-life-phase-thread: claim-006 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-life-phase-thread: claim-006 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-small-rep-theory: claim-003 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-small-rep-theory: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-small-rep-theory: claim-005 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-small-rep-theory: claim-007 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-student-screen-education-vs-entertainment: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-student-screen-education-vs-entertainment: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-student-screen-education-vs-entertainment: claim-003 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-student-screen-education-vs-entertainment: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-student-screen-education-vs-entertainment: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-student-screen-education-vs-entertainment: claim-005 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-student-screen-education-vs-entertainment: claim-005 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-student-screen-education-vs-entertainment: claim-006 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/the-student-screen-education-vs-entertainment: claim-006 relies on a single source type for evidence."
     },
     {
       "rule": "low-source-diversity",
@@ -811,6 +1256,156 @@
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/tool-use: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-003 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-005 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-005 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-006 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-006 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-007 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-007 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-008 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-008 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/what-ai-makes-cheap: claim-001 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/what-ai-makes-cheap: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/what-ai-makes-cheap: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/what-ai-makes-cheap: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/what-ai-makes-cheap: claim-003 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/what-ai-makes-cheap: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/what-ai-makes-cheap: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/what-ai-makes-cheap: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/what-ai-makes-cheap: claim-005 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/what-ai-makes-cheap: claim-005 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/what-ai-makes-cheap: claim-007 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/what-ai-makes-cheap: claim-007 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/who-profits-advertising-foreign-platforms: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/who-profits-advertising-foreign-platforms: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/who-profits-advertising-foreign-platforms: claim-006 relies on a single source type for evidence."
     }
   ]
 }

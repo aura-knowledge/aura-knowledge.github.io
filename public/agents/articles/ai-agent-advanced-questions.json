@@ -250,15 +250,15 @@
         "role": "drafting",
         "model": "kimi",
         "invokedAt": "2026-06-26",
-        "inputHash": "sha256:d599e966fa7fc73552f887bbcf6248fb11a54cf9de540dfd9fd51b9de061b244",
+        "inputHash": "sha256:6a1159bec01d89c53b7760a4c0a335edd67e31ead8ccf2c490bad5ffcba08185",
         "outputHash": "sha256:6a1159bec01d89c53b7760a4c0a335edd67e31ead8ccf2c490bad5ffcba08185"
       },
       {
         "role": "review",
         "model": "kimi",
         "invokedAt": "2026-06-26",
-        "inputHash": "sha256:d6651e21815a9dc70aa1c0bb5fedeb3e191893e5b5bfe5a062b695e360ed757e",
-        "outputHash": "sha256:6de57fe9ff916530fa3d76cc64cc4328ebe1f3453886830415f2292728e621b0"
+        "inputHash": "sha256:6a1159bec01d89c53b7760a4c0a335edd67e31ead8ccf2c490bad5ffcba08185",
+        "outputHash": "sha256:6a1159bec01d89c53b7760a4c0a335edd67e31ead8ccf2c490bad5ffcba08185"
       }
     ],
     "reviews": [
@@ -294,7 +294,7 @@
       "version": "1.0.0"
     }
   },
-  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
   "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json",
   "agentMarkdownPath": "/agents/articles/ai-agent-advanced-questions.md",

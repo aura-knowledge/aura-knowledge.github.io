@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 3,
+  "id": "article:who-profits-advertising-foreign-platforms",
+  "slug": "who-profits-advertising-foreign-platforms",
+  "title": "Who Profits?",
+  "canonicalPath": "/articles/who-profits-advertising-foreign-platforms/",
+  "sourcePath": "content/articles/2026/who-profits-advertising-foreign-platforms/article.md",
+  "agentBriefPath": "content/articles/2026/who-profits-advertising-foreign-platforms/agent.md",
+  "thesis": "The concentration of India's digital advertising revenue in foreign platforms and the steep income inequality among creators reveal an extraction pattern in which most of the value leaves the country or accumulates at the top of the creator pyramid.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-advertising",
+    "creator-economy",
+    "platform-economics"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 5,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Google and Meta captured roughly 64% of India's ₹94,700 crore digital advertising market in 2025, leaving the domestic platform ecosystem with a minority share of the revenue generated from Indian attention.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-storyboard18-google-meta-share",
+          "snippet": "Search and social media platforms, led by Google and Meta, claimed 64% of India's total digital advertising revenues in 2025, with digital advertising reaching ₹94,700 crore.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-ficci-ey-me-2026",
+          "snippet": "FICCI-EY Media & Entertainment Report 2026 estimates India's digital advertising market at ₹94,700 crore in 2025, growing 26% year-on-year.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The 64% share is an industry estimate from a trade report and may not exactly match the platforms' internal revenue recognition; e-commerce/retail media is the fastest-growing challenger segment.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Meta India's gross advertising revenue reached ₹22,730 crore in FY24, while Google India's gross advertising revenue reached ₹34,742 crore in FY25, putting the two firms' combined India gross ad sales at roughly ₹57,500 crore in the latest available filings.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-pitchonnet-meta-india-fy24",
+          "snippet": "Meta India's gross advertising revenue across Facebook, Instagram, and WhatsApp platforms reached ₹22,730 crore in FY24, rising 24% year-on-year.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-angel-one-google-india-fy25",
+          "snippet": "Google India's gross advertising revenue rose 11.3% year-on-year to ₹34,742 crore in FY25, compared with ₹31,221 crore in FY24, according to RoC filings.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The Meta and Google figures are from different fiscal years (FY24 for Meta, FY25 for Google) and may not be directly additive; Meta's FY25 gross figure is expected to be higher when filed.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Because Google and Meta India operate as advertising resellers, most of the gross ad revenue they report flows back to global parent entities as inter-company costs, so the net economic benefit retained in India is far smaller than the headline sales figure suggests.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-angel-one-google-india-fy25",
+          "snippet": "Google India paid ₹32,047.6 crore to Google Asia Pacific for advertising inventory in FY25, leaving net advertising revenue at ₹2,694.4 crore and total revenue from operations at ₹5,340.1 crore.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-pitchonnet-jiostar-comparison",
+          "snippet": "Google India and Meta India operate as advertising resellers, recording gross revenues that reflect full ad inventory sold to Indian advertisers before remitting most of that amount back to global parent entities as inter-company costs.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The reseller structure is legal and ordinary for multinational platforms; it also supports local employment, SME advertiser access, and creator distribution that would not otherwise exist.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "India has an estimated 2–2.5 million active digital creators, but only 8–10% monetize effectively, and most earn less than a living wage from content creation.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-bcg-creator-economy-2025",
+          "snippet": "BCG's From Content to Commerce: Mapping India's Creator Economy estimates 2–2.5 million monetized content creators influencing more than $350–400 billion in consumer spending.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-business-today-bcg-creators",
+          "snippet": "Only 8–10% of India's 2–2.5 million active creators effectively monetize their content; a majority earn less than ₹18,000 a month and smaller YouTubers average ₹3.8 lakh a year.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Creator counts and monetization rates depend on definitions; part-time creators may not expect a living wage, and informal income streams are not fully captured.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "Creator income is highly concentrated, with the largest share of payments going to a small top tier; most creators depend on brand deals and ad revenue in a market where per-view rates are low and unpredictable.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-business-today-bcg-creators",
+          "snippet": "Most creators rely on ad revenue and brand sponsorships, which remain skewed in favour of top-tier influencers; those with a million-plus subscribers can cross ₹50,000 a month, but that tier is rare.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-creatoriq-compensation-2026",
+          "snippet": "Global data shows the top 10% of creators earned 62% of total payments in 2025 and the top 1% earned 21%, indicating strong income concentration in creator markets.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The income-concentration percentages are global, not India-specific; India's market structure may differ, and direct India data on creator payment distribution are not publicly available.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "The current structure creates an extraction dynamic: advertising value generated from Indian attention disproportionately benefits foreign platforms and a small top tier of creators, while domestic platforms and mid-tier creators operate on thinner margins.",
+      "confidence": "medium-high",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-storyboard18-google-meta-share",
+          "snippet": "Google and Meta's 64% share of India's digital ad market underscores the deepening concentration of ad spend on a small number of global platforms.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-business-today-bcg-creators",
+          "snippet": "Most Indian creators earn too little or nothing at all, while the ecosystem influences hundreds of billions in consumer spending.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Foreign platforms also invest in Indian infrastructure, employ local staff, enable SME advertising, and give creators global reach; extraction is a framing, not a measured transfer.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-storyboard18-google-meta-share",
+      "title": "Storyboard18: Google and Meta hold 64% of India's digital ad market",
+      "url": "https://www.storyboard18.com/advertising/google-meta-claim-64-of-india-digital-ads-as-e-commerce-surges-93065.htm",
+      "type": "news-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ficci-ey-me-2026",
+      "title": "FICCI-EY Media & Entertainment Report 2026 (cited via Storyboard18)",
+      "url": "https://www.storyboard18.com/advertising/google-meta-claim-64-of-india-digital-ads-as-e-commerce-surges-93065.htm",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-angel-one-google-india-fy25",
+      "title": "Angel One: Google India Gross Ads Revenue Rises 11% in FY25",
+      "url": "https://www.angelone.in/news/unlisted-companies/google-india-gross-ads-revenue-rises-11-in-fy25-net-income-slips-on-higher-costs",
+      "type": "news-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-pitchonnet-meta-india-fy24",
+      "title": "PitchOnNet: Meta India gross advertising revenue reached ₹22,730 crore in FY24",
+      "url": "https://www.pitchonnet.com/pitch-feature/the-third-force-jiostar-emerges-indias-challenger-to-google-and-meta-in-the-revenue-race-39804.html",
+      "type": "news-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-pitchonnet-jiostar-comparison",
+      "title": "PitchOnNet: JioStar emerges as India's challenger to Google and Meta in the revenue race",
+      "url": "https://www.pitchonnet.com/pitch-feature/the-third-force-jiostar-emerges-indias-challenger-to-google-and-meta-in-the-revenue-race-39804.html",
+      "type": "news-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-bcg-creator-economy-2025",
+      "title": "BCG: From Content to Commerce: Mapping India's Creator Economy",
+      "url": "https://www.bcg.com/publications/2025/india-from-content-to-commerce-mapping-indias-creator-economy",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-business-today-bcg-creators",
+      "title": "Business Today: BCG report reveals harsh truth about India's creators",
+      "url": "https://www.businesstoday.in/technology/news/story/not-everyone-making-youtube-videos-is-rich-bcg-report-reveals-harsh-truth-about-indias-creators-474634-2025-05-04",
+      "type": "news-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-creatoriq-compensation-2026",
+      "title": "CreatorIQ: State of Creator Compensation 2026",
+      "url": "https://www.creatoriq.com/press/releases/state-of-creator-compensation-",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:the-attention-extraction"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:the-generational-bet"
+    },
+    {
+      "type": "article",
+      "id": "article:the-substance-builder"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    },
+    {
+      "type": "topic",
+      "id": "topic:india"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit and distinguish between gross advertising revenue, net revenue retained in India, and creator take-home pay.",
+    "Preserve the evidence-cautious tone; do not present the extraction framing as a measured transfer of value.",
+    "When citing sources, use the source IDs and URLs from the artifact; do not invent or generalize beyond the public evidence.",
+    "Flag global benchmarks, such as the CreatorIQ income-concentration figures, when applied to India.",
+    "Treat the article as part of the Diagnosis arc; do not drift into solution chapters unless explicitly asked."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:176785871c9700f89f4a2eb07507e28b2c79cd03b8d69756476d3d4e8f2b1b9d",
+        "outputHash": "sha256:176785871c9700f89f4a2eb07507e28b2c79cd03b8d69756476d3d4e8f2b1b9d"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "176785871c9700f89f4a2eb07507e28b2c79cd03b8d69756476d3d4e8f2b1b9d"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "176785871c9700f89f4a2eb07507e28b2c79cd03b8d69756476d3d4e8f2b1b9d",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+  "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
+  "agentMarkdownPath": "/agents/articles/who-profits-advertising-foreign-platforms.md",
+  "sourceRepoPath": "content/articles/2026/who-profits-advertising-foreign-platforms/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/who-profits-advertising-foreign-platforms/article.md",
+  "tokenEstimate": 859,
+  "sectionOutline": [
+    {
+      "id": "the-platform-tax",
+      "title": "The Platform Tax"
+    },
+    {
+      "id": "gross-revenue-vs-what-stays",
+      "title": "Gross Revenue vs. What Stays"
+    },
+    {
+      "id": "the-creator-precariat",
+      "title": "The Creator Precariat"
+    },
+    {
+      "id": "the-illusion-of-the-gold-rush",
+      "title": "The Illusion of the Gold Rush"
+    },
+    {
+      "id": "what-the-money-could-buy",
+      "title": "What the Money Could Buy"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

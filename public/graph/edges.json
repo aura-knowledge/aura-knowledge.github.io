@@ -1,7 +1,417 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
   "edges": [
+    {
+      "from": "article:a-map-of-levers",
+      "to": "article:a-map-of-levers:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "article:a-map-of-levers:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "article:a-map-of-levers:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "article:a-map-of-levers:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "article:a-map-of-levers:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "article:a-map-of-levers:claim-006",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "article:a-map-of-levers:claim-007",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "article:a-map-of-levers:claim-008",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "article:attention-substance-ai-moment",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "article:by-the-numbers-what-indians-do-online",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "topic:digital-wellbeing",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "topic:platform-design",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "topic:policy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "topic:regulation",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "topic:synthesis",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-map-of-levers",
+      "to": "topic:india",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-readers-guide-to-the-series",
+      "to": "article:a-readers-guide-to-the-series:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-readers-guide-to-the-series",
+      "to": "article:a-readers-guide-to-the-series:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-readers-guide-to-the-series",
+      "to": "article:a-readers-guide-to-the-series:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-readers-guide-to-the-series",
+      "to": "article:a-readers-guide-to-the-series:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-readers-guide-to-the-series",
+      "to": "article:a-readers-guide-to-the-series:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-readers-guide-to-the-series",
+      "to": "article:attention-substance-ai-moment",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-readers-guide-to-the-series",
+      "to": "article:by-the-numbers-what-indians-do-online",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-readers-guide-to-the-series",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-readers-guide-to-the-series",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-readers-guide-to-the-series",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-readers-guide-to-the-series",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-readers-guide-to-the-series",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-readers-guide-to-the-series",
+      "to": "topic:digital-wellbeing",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-readers-guide-to-the-series",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-readers-guide-to-the-series",
+      "to": "topic:reading-paths",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-readers-guide-to-the-series",
+      "to": "topic:series-guide",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-readers-guide-to-the-series",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:a-readers-guide-to-the-series",
+      "to": "topic:india",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
     {
       "from": "article:agent-auditable-research",
       "to": "article:agent-auditable-research:claim-001",
@@ -1543,6 +1953,286 @@
       }
     },
     {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:attention-substance-ai-moment:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:a-map-of-levers",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:a-readers-guide-to-the-series",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:by-the-numbers-what-indians-do-online",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:engagement-is-a-design-choice",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:gender-and-the-attention-economy",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:the-better-question",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:the-compounding-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:the-creator-economys-incentive-trap",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:the-engagement-gap-productivity-india",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:the-indic-language-internet-and-vernacular-feeds",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:the-life-phase-thread",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:the-small-rep-theory",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:the-student-screen-education-vs-entertainment",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:trust-and-outrage-platforms-and-cohesion",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:what-ai-makes-cheap",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:who-profits-advertising-foreign-platforms",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "topic:artificial-intelligence",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "topic:digital-wellbeing",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "topic:series-guide",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "article:audio-first-voice-consumption",
       "to": "article:audio-first-voice-consumption:claim-001",
       "type": "argues",
@@ -1903,6 +2593,156 @@
       }
     },
     {
+      "from": "article:by-the-numbers-what-indians-do-online",
+      "to": "article:by-the-numbers-what-indians-do-online:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:by-the-numbers-what-indians-do-online",
+      "to": "article:by-the-numbers-what-indians-do-online:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:by-the-numbers-what-indians-do-online",
+      "to": "article:by-the-numbers-what-indians-do-online:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:by-the-numbers-what-indians-do-online",
+      "to": "article:by-the-numbers-what-indians-do-online:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:by-the-numbers-what-indians-do-online",
+      "to": "article:by-the-numbers-what-indians-do-online:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:by-the-numbers-what-indians-do-online",
+      "to": "article:by-the-numbers-what-indians-do-online:claim-006",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:by-the-numbers-what-indians-do-online",
+      "to": "article:by-the-numbers-what-indians-do-online:claim-007",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:by-the-numbers-what-indians-do-online",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:by-the-numbers-what-indians-do-online",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:by-the-numbers-what-indians-do-online",
+      "to": "topic:data",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:by-the-numbers-what-indians-do-online",
+      "to": "topic:digital-wellbeing",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:by-the-numbers-what-indians-do-online",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:by-the-numbers-what-indians-do-online",
+      "to": "topic:internet-use",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:by-the-numbers-what-indians-do-online",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:by-the-numbers-what-indians-do-online",
+      "to": "topic:india",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "article:context-management",
       "to": "article:context-management:claim-001",
       "type": "argues",
@@ -2148,6 +2988,216 @@
       "type": "topic",
       "provenance": {
         "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "article:engagement-is-a-design-choice:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "article:engagement-is-a-design-choice:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "article:engagement-is-a-design-choice:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "article:engagement-is-a-design-choice:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "article:engagement-is-a-design-choice:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "article:engagement-is-a-design-choice:claim-006",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "article:engagement-is-a-design-choice:claim-007",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "article:attention-substance-ai-moment",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "article:by-the-numbers-what-indians-do-online",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "topic:algorithms",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "topic:business-models",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "topic:digital-wellbeing",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "topic:platform-design",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:engagement-is-a-design-choice",
+      "to": "topic:india",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2668,6 +3718,216 @@
       "type": "covers",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "article:gender-and-the-attention-economy:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "article:gender-and-the-attention-economy:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "article:gender-and-the-attention-economy:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "article:gender-and-the-attention-economy:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "article:gender-and-the-attention-economy:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "article:gender-and-the-attention-economy:claim-006",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "article:gender-and-the-attention-economy:claim-007",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "article:attention-substance-ai-moment",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "article:by-the-numbers-what-indians-do-online",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "topic:digital-inclusion",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "topic:digital-wellbeing",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "topic:gender",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "topic:gender",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:gender-and-the-attention-economy",
+      "to": "topic:india",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -3763,6 +5023,216 @@
       }
     },
     {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-006",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-007",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "article:attention-substance-ai-moment",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "article:by-the-numbers-what-indians-do-online",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "topic:digital-services-act",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "topic:dpdp",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "topic:platform-accountability",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "topic:regulation",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "to": "topic:india",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "article:retrieval-augmented-generation",
       "to": "article:retrieval-augmented-generation:claim-001",
       "type": "argues",
@@ -4003,6 +5473,816 @@
       }
     },
     {
+      "from": "article:the-better-question",
+      "to": "article:the-better-question:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-better-question",
+      "to": "article:the-better-question:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-better-question",
+      "to": "article:the-better-question:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-better-question",
+      "to": "article:the-better-question:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-better-question",
+      "to": "article:the-better-question:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-better-question",
+      "to": "article:the-better-question:claim-006",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-better-question",
+      "to": "article:the-better-question:claim-007",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-better-question",
+      "to": "article:attention-substance-ai-moment",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-better-question",
+      "to": "article:by-the-numbers-what-indians-do-online",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-better-question",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-better-question",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-better-question",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-better-question",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-better-question",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-better-question",
+      "to": "topic:digital-wellbeing",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-better-question",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-better-question",
+      "to": "topic:platform-design",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-better-question",
+      "to": "topic:synthesis",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-better-question",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-better-question",
+      "to": "topic:india",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "article:the-compounding-bet:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "article:the-compounding-bet:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "article:the-compounding-bet:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "article:the-compounding-bet:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "article:the-compounding-bet:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "article:the-compounding-bet:claim-006",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "article:the-compounding-bet:claim-007",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "article:attention-substance-ai-moment",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "article:by-the-numbers-what-indians-do-online",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "topic:artificial-intelligence",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "topic:deep-work",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "topic:generational-responsibility",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "topic:productivity",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-compounding-bet",
+      "to": "topic:india",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "article:the-creator-economys-incentive-trap:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "article:the-creator-economys-incentive-trap:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "article:the-creator-economys-incentive-trap:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "article:the-creator-economys-incentive-trap:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "article:the-creator-economys-incentive-trap:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "article:the-creator-economys-incentive-trap:claim-006",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "article:the-creator-economys-incentive-trap:claim-007",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "article:by-the-numbers-what-indians-do-online",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "topic:artificial-intelligence",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "topic:creator-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "topic:digital-wellbeing",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "topic:inequality",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-creator-economys-incentive-trap",
+      "to": "topic:india",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "article:the-engagement-gap-productivity-india:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "article:the-engagement-gap-productivity-india:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "article:the-engagement-gap-productivity-india:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "article:the-engagement-gap-productivity-india:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "article:the-engagement-gap-productivity-india:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "article:the-engagement-gap-productivity-india:claim-006",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "article:the-engagement-gap-productivity-india:claim-007",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "article:attention-substance-ai-moment",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "article:by-the-numbers-what-indians-do-online",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "topic:digital-wellbeing",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "topic:productivity",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "topic:workplace",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-engagement-gap-productivity-india",
+      "to": "topic:india",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "article:the-generational-bet",
       "to": "article:the-generational-bet:claim-001",
       "type": "argues",
@@ -4148,6 +6428,826 @@
       "type": "topic",
       "provenance": {
         "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "article:the-indic-language-internet-and-vernacular-feeds:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "article:the-indic-language-internet-and-vernacular-feeds:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "article:the-indic-language-internet-and-vernacular-feeds:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "article:the-indic-language-internet-and-vernacular-feeds:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "article:the-indic-language-internet-and-vernacular-feeds:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "article:the-indic-language-internet-and-vernacular-feeds:claim-006",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "article:the-indic-language-internet-and-vernacular-feeds:claim-007",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "article:attention-substance-ai-moment",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "article:by-the-numbers-what-indians-do-online",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "topic:digital-wellbeing",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "topic:language",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "topic:vernacular-internet",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-indic-language-internet-and-vernacular-feeds",
+      "to": "topic:india",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-life-phase-thread",
+      "to": "article:the-life-phase-thread:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-life-phase-thread",
+      "to": "article:the-life-phase-thread:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-life-phase-thread",
+      "to": "article:the-life-phase-thread:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-life-phase-thread",
+      "to": "article:the-life-phase-thread:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-life-phase-thread",
+      "to": "article:the-life-phase-thread:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-life-phase-thread",
+      "to": "article:the-life-phase-thread:claim-006",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-life-phase-thread",
+      "to": "article:the-life-phase-thread:claim-007",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-life-phase-thread",
+      "to": "article:by-the-numbers-what-indians-do-online",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-life-phase-thread",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-life-phase-thread",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-life-phase-thread",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-life-phase-thread",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-life-phase-thread",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-life-phase-thread",
+      "to": "topic:digital-wellbeing",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-life-phase-thread",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-life-phase-thread",
+      "to": "topic:intergenerational",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-life-phase-thread",
+      "to": "topic:life-phases",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-life-phase-thread",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-life-phase-thread",
+      "to": "topic:india",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "article:the-small-rep-theory:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "article:the-small-rep-theory:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "article:the-small-rep-theory:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "article:the-small-rep-theory:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "article:the-small-rep-theory:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "article:the-small-rep-theory:claim-006",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "article:the-small-rep-theory:claim-007",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "article:attention-substance-ai-moment",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "article:by-the-numbers-what-indians-do-online",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "topic:deliberate-practice",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "topic:digital-wellbeing",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "topic:habits",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "topic:skill-building",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-small-rep-theory",
+      "to": "topic:digital-wellbeing",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-006",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-007",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-008",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "article:attention-substance-ai-moment",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "article:by-the-numbers-what-indians-do-online",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "topic:digital-wellbeing",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "topic:education",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "topic:mental-health",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "topic:students",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:the-student-screen-education-vs-entertainment",
+      "to": "topic:india",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -4388,6 +7488,626 @@
       "type": "topic",
       "provenance": {
         "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "article:trust-and-outrage-platforms-and-cohesion:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "article:trust-and-outrage-platforms-and-cohesion:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "article:trust-and-outrage-platforms-and-cohesion:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "article:trust-and-outrage-platforms-and-cohesion:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "article:trust-and-outrage-platforms-and-cohesion:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "article:trust-and-outrage-platforms-and-cohesion:claim-006",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "article:trust-and-outrage-platforms-and-cohesion:claim-007",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "article:trust-and-outrage-platforms-and-cohesion:claim-008",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "article:attention-substance-ai-moment",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "article:by-the-numbers-what-indians-do-online",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "topic:misinformation",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "topic:platform-design",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "topic:polarization",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "topic:social-media",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:trust-and-outrage-platforms-and-cohesion",
+      "to": "topic:india",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "article:what-ai-makes-cheap:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "article:what-ai-makes-cheap:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "article:what-ai-makes-cheap:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "article:what-ai-makes-cheap:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "article:what-ai-makes-cheap:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "article:what-ai-makes-cheap:claim-006",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "article:what-ai-makes-cheap:claim-007",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "article:attention-substance-ai-moment",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "article:by-the-numbers-what-indians-do-online",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "topic:artificial-intelligence",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "topic:digital-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "topic:generative-ai",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "topic:productivity",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:what-ai-makes-cheap",
+      "to": "topic:india",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:who-profits-advertising-foreign-platforms",
+      "to": "article:who-profits-advertising-foreign-platforms:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:who-profits-advertising-foreign-platforms",
+      "to": "article:who-profits-advertising-foreign-platforms:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:who-profits-advertising-foreign-platforms",
+      "to": "article:who-profits-advertising-foreign-platforms:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:who-profits-advertising-foreign-platforms",
+      "to": "article:who-profits-advertising-foreign-platforms:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:who-profits-advertising-foreign-platforms",
+      "to": "article:who-profits-advertising-foreign-platforms:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:who-profits-advertising-foreign-platforms",
+      "to": "article:who-profits-advertising-foreign-platforms:claim-006",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:who-profits-advertising-foreign-platforms",
+      "to": "article:attention-substance-ai-moment",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:who-profits-advertising-foreign-platforms",
+      "to": "article:by-the-numbers-what-indians-do-online",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:who-profits-advertising-foreign-platforms",
+      "to": "article:designing-for-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:who-profits-advertising-foreign-platforms",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:who-profits-advertising-foreign-platforms",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:who-profits-advertising-foreign-platforms",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:who-profits-advertising-foreign-platforms",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:who-profits-advertising-foreign-platforms",
+      "to": "topic:creator-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:who-profits-advertising-foreign-platforms",
+      "to": "topic:digital-advertising",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:who-profits-advertising-foreign-platforms",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:who-profits-advertising-foreign-platforms",
+      "to": "topic:platform-economics",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:who-profits-advertising-foreign-platforms",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:who-profits-advertising-foreign-platforms",
+      "to": "topic:india",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5003,6 +8723,16 @@
       }
     },
     {
+      "from": "source-ahmad-social-media-work-2022",
+      "to": "article:the-engagement-gap-productivity-india:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-alexnet-2012",
       "to": "article:learning-machines:claim-008",
       "type": "supports",
@@ -5103,6 +8833,26 @@
       }
     },
     {
+      "from": "source-angel-one-google-india-fy25",
+      "to": "article:who-profits-advertising-foreign-platforms:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-angel-one-google-india-fy25",
+      "to": "article:who-profits-advertising-foreign-platforms:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-anthropic-building-effective-agents",
       "to": "article:ai-delegation-orchestration-05-long-running-delegations:claim-001",
       "type": "supports",
@@ -5134,10 +8884,80 @@
     },
     {
       "from": "source-aser-2024",
+      "to": "article:a-map-of-levers:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-aser-2024",
+      "to": "article:attention-substance-ai-moment:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-aser-2024",
+      "to": "article:by-the-numbers-what-indians-do-online:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-aser-2024",
       "to": "article:the-attention-extraction:claim-001",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-aser-2024",
+      "to": "article:the-better-question:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-aser-2024",
+      "to": "article:the-better-question:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-aser-2024",
+      "to": "article:the-compounding-bet:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-aser-2024",
+      "to": "article:the-compounding-bet:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5153,11 +8973,101 @@
       }
     },
     {
+      "from": "source-aser-2024",
+      "to": "article:the-life-phase-thread:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-aser-2024",
+      "to": "article:the-life-phase-thread:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-aser-2024",
+      "to": "article:the-life-phase-thread:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-aser-2024",
+      "to": "article:the-life-phase-thread:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-aser-2024",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-aser-2024",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-aser-2024",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-008",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-attention-extraction",
+      "to": "article:a-readers-guide-to-the-series:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-attention-is-all-you-need",
       "to": "article:context-management:claim-001",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-australia-osa-factsheet",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5223,6 +9133,56 @@
       }
     },
     {
+      "from": "source-bcg-creator-economy-2025",
+      "to": "article:engagement-is-a-design-choice:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-bcg-creator-economy-2025",
+      "to": "article:the-creator-economys-incentive-trap:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-bcg-creator-economy-2025",
+      "to": "article:the-creator-economys-incentive-trap:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-bcg-creator-economy-2025",
+      "to": "article:the-creator-economys-incentive-trap:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-bcg-creator-economy-2025",
+      "to": "article:who-profits-advertising-foreign-platforms:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-bcg-creator-economy",
       "to": "article:the-generational-bet:claim-002",
       "type": "supports",
@@ -5238,6 +9198,36 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-bcg-gen-z-india-2024",
+      "to": "article:the-creator-economys-incentive-trap:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-bcig-creator-economy",
+      "to": "article:a-map-of-levers:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-bcig-creator-economy",
+      "to": "article:a-map-of-levers:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5303,6 +9293,36 @@
       }
     },
     {
+      "from": "source-brady-science-advances-2021",
+      "to": "article:engagement-is-a-design-choice:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-brady-science-advances-2021",
+      "to": "article:trust-and-outrage-platforms-and-cohesion:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-brady-science-advances-2021",
+      "to": "article:trust-and-outrage-platforms-and-cohesion:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-britannica-automaton",
       "to": "article:before-machines:claim-006",
       "type": "supports",
@@ -5348,6 +9368,46 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-business-today-bcg-creators",
+      "to": "article:who-profits-advertising-foreign-platforms:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-business-today-bcg-creators",
+      "to": "article:who-profits-advertising-foreign-platforms:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-business-today-bcg-creators",
+      "to": "article:who-profits-advertising-foreign-platforms:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-by-the-numbers",
+      "to": "article:a-readers-guide-to-the-series:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5693,6 +9753,46 @@
       }
     },
     {
+      "from": "source-creatoriq-compensation-2026",
+      "to": "article:the-creator-economys-incentive-trap:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-creatoriq-compensation-2026",
+      "to": "article:the-creator-economys-incentive-trap:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-creatoriq-compensation-2026",
+      "to": "article:who-profits-advertising-foreign-platforms:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-dailyhunt-forbes",
+      "to": "article:the-indic-language-internet-and-vernacular-feeds:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-dartmouth-1955",
       "to": "article:birth-of-ai:claim-001",
       "type": "supports",
@@ -5793,6 +9893,16 @@
       }
     },
     {
+      "from": "source-dash-icwsm-2022",
+      "to": "article:trust-and-outrage-platforms-and-cohesion:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-deep-learning-book",
       "to": "article:learning-machines:claim-006",
       "type": "supports",
@@ -5818,6 +9928,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-18",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-designing-for-substance",
+      "to": "article:a-readers-guide-to-the-series:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5878,6 +9998,56 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-dpdp-act-2023",
+      "to": "article:a-map-of-levers:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-dpdp-act-2023",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-dpdp-act-2023",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-dpdp-act-2023",
+      "to": "article:the-better-question:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-dpdp-rules-2025",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -6003,6 +10173,56 @@
       }
     },
     {
+      "from": "source-ericsson-1993-deliberate-practice",
+      "to": "article:the-small-rep-theory:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ericsson-1993-deliberate-practice",
+      "to": "article:the-small-rep-theory:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ericsson-pool-peak-2016",
+      "to": "article:the-small-rep-theory:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ericsson-pool-peak-2016",
+      "to": "article:the-small-rep-theory:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ericsson-pool-peak-2016",
+      "to": "article:the-small-rep-theory:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-eu-ai-act-2024-1689",
       "to": "article:ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains:claim-001",
       "type": "supports",
@@ -6063,6 +10283,136 @@
       }
     },
     {
+      "from": "source-eu-dsa-transparency",
+      "to": "article:a-map-of-levers:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-eu-dsa-transparency",
+      "to": "article:a-map-of-levers:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-eu-dsa-transparency",
+      "to": "article:a-map-of-levers:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-eu-dsa-transparency",
+      "to": "article:a-map-of-levers:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-eu-dsa-transparency",
+      "to": "article:a-map-of-levers:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-eu-dsa-transparency",
+      "to": "article:a-map-of-levers:claim-008",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-eu-dsa",
+      "to": "article:engagement-is-a-design-choice:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-eu-dsa",
+      "to": "article:engagement-is-a-design-choice:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-eu-dsa",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-eu-dsa",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-eu-dsa",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-eu-dsa",
+      "to": "article:the-better-question:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-eu-dsa",
+      "to": "article:the-better-question:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-eval-survey",
       "to": "article:evaluations:claim-001",
       "type": "supports",
@@ -6083,11 +10433,101 @@
       }
     },
     {
+      "from": "source-exchange4media-gen-z-creators-2025",
+      "to": "article:the-creator-economys-incentive-trap:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ey-aidea-india-2025",
+      "to": "article:what-ai-makes-cheap:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-feigenbaum-1977",
       "to": "article:ai-winters-expert-systems:claim-003",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-19",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ficci-ey-me-2026",
+      "to": "article:who-profits-advertising-foreign-platforms:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-fogg-behavior-model",
+      "to": "article:the-small-rep-theory:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-fogg-behavior-model",
+      "to": "article:the-small-rep-theory:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-fogg-tiny-habits-2019",
+      "to": "article:the-small-rep-theory:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-fogg-tiny-habits-2019",
+      "to": "article:the-small-rep-theory:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-fogg-tiny-habits-2019",
+      "to": "article:the-small-rep-theory:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-fogg-tiny-habits-2019",
+      "to": "article:the-small-rep-theory:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -6184,10 +10624,150 @@
     },
     {
       "from": "source-gallup-global-workplace-india",
+      "to": "article:a-map-of-levers:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-gallup-global-workplace-india",
+      "to": "article:by-the-numbers-what-indians-do-online:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-gallup-global-workplace-india",
       "to": "article:the-attention-extraction:claim-004",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-gallup-global-workplace-india",
+      "to": "article:the-better-question:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-gallup-global-workplace-india",
+      "to": "article:the-better-question:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-gallup-global-workplace-india",
+      "to": "article:the-compounding-bet:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-gallup-global-workplace-india",
+      "to": "article:the-compounding-bet:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-gallup-global-workplace-india",
+      "to": "article:the-compounding-bet:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-gallup-global-workplace-india",
+      "to": "article:the-compounding-bet:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-gallup-global-workplace-india",
+      "to": "article:the-life-phase-thread:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-gallup-global-workplace-india",
+      "to": "article:the-life-phase-thread:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-gallup-india-country-data",
+      "to": "article:the-engagement-gap-productivity-india:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-gallup-quiet-quitting-india",
+      "to": "article:the-engagement-gap-productivity-india:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-gallup-quiet-quitting-india",
+      "to": "article:the-engagement-gap-productivity-india:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-garimella-whatsapp-2025",
+      "to": "article:trust-and-outrage-platforms-and-cohesion:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -6208,6 +10788,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-26",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-generational-bet",
+      "to": "article:a-readers-guide-to-the-series:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -6238,6 +10828,26 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-gloria-mark-attention-span",
+      "to": "article:the-engagement-gap-productivity-india:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-gloria-mark-attention-span",
+      "to": "article:the-engagement-gap-productivity-india:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -6433,6 +11043,16 @@
       }
     },
     {
+      "from": "source-gsma-gender-gap-2024",
+      "to": "article:gender-and-the-attention-economy:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-gutwin-greenberg-workspace-awareness",
       "to": "article:ai-delegation-orchestration-01-from-conversation-to-delegation:claim-001",
       "type": "supports",
@@ -6604,6 +11224,26 @@
     },
     {
       "from": "source-iamai-kantar-2024",
+      "to": "article:attention-substance-ai-moment:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-iamai-kantar-2024",
+      "to": "article:by-the-numbers-what-indians-do-online:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-iamai-kantar-2024",
       "to": "article:the-attention-extraction:claim-001",
       "type": "supports",
       "provenance": {
@@ -6623,6 +11263,56 @@
       }
     },
     {
+      "from": "source-iamai-kantar-2024",
+      "to": "article:the-indic-language-internet-and-vernacular-feeds:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-iamai-kantar-2024",
+      "to": "article:the-indic-language-internet-and-vernacular-feeds:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-iamai-kantar-2024",
+      "to": "article:the-indic-language-internet-and-vernacular-feeds:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-iamai-kantar-2024",
+      "to": "article:the-indic-language-internet-and-vernacular-feeds:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-iamai-kantar-2024",
+      "to": "article:the-indic-language-internet-and-vernacular-feeds:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-ibef-ad-revenue-fy24",
       "to": "article:the-attention-extraction:claim-002",
       "type": "supports",
@@ -6633,11 +11323,61 @@
       }
     },
     {
+      "from": "source-icrier-digital-economy-2024",
+      "to": "article:by-the-numbers-what-indians-do-online:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ideasforindia-gender-digital-divide",
+      "to": "article:gender-and-the-attention-economy:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ideasforindia-gender-digital-divide",
+      "to": "article:gender-and-the-attention-economy:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-iea-energy-ai",
       "to": "article:human-systems:claim-005",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ijip-adolescent-screen-time",
+      "to": "article:by-the-numbers-what-indians-do-online:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ijip-adolescent-screen-time",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -6693,6 +11433,46 @@
       }
     },
     {
+      "from": "source-india-hate-lab-2024",
+      "to": "article:trust-and-outrage-platforms-and-cohesion:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-india-skills-report-2025",
+      "to": "article:the-engagement-gap-productivity-india:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-indiaai-mission",
+      "to": "article:the-compounding-bet:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-indiaai-mission",
+      "to": "article:the-compounding-bet:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-instructgpt-paper",
       "to": "article:fine-tuning:claim-004",
       "type": "supports",
@@ -6714,10 +11494,50 @@
     },
     {
       "from": "source-it-rules-2021",
+      "to": "article:a-map-of-levers:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-it-rules-2021",
       "to": "article:designing-for-substance:claim-003",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-it-rules-2021",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-it-rules-2021",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-it-rules-2021",
+      "to": "article:the-better-question:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -6728,6 +11548,26 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-kerala-hc-phone-ban-2024",
+      "to": "article:the-engagement-gap-productivity-india:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-kerala-hc-phone-ban",
+      "to": "article:engagement-is-a-design-choice:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -6808,6 +11648,36 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-28",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-lasi-digital-exclusion-2023",
+      "to": "article:the-life-phase-thread:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-lasi-digital-exclusion-2023",
+      "to": "article:the-life-phase-thread:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-lasi-digital-exclusion-2023",
+      "to": "article:the-life-phase-thread:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -6928,6 +11798,36 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-17",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-localcircles-2025",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-localcircles-2025",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-008",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-localcircles-children-screentime-2025",
+      "to": "article:the-life-phase-thread:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7123,11 +12023,131 @@
       }
     },
     {
+      "from": "source-mercer-mettl-graduate-skill-index-2025",
+      "to": "article:the-engagement-gap-productivity-india:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-meta-google-ad-revenue-india",
+      "to": "article:engagement-is-a-design-choice:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-meta-oversight-board-2023",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-meta-oversight-board-2023",
+      "to": "article:trust-and-outrage-platforms-and-cohesion:claim-008",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-microsoft-research-bengaluru-polarization",
+      "to": "article:a-map-of-levers:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-microsoft-work-trend-index-2025",
+      "to": "article:the-engagement-gap-productivity-india:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-milli-divisive-content",
       "to": "article:the-attention-extraction:claim-004",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-milli-pnas-nexus-2025",
+      "to": "article:engagement-is-a-design-choice:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-milli-pnas-nexus-2025",
+      "to": "article:engagement-is-a-design-choice:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-milli-pnas-nexus-2025",
+      "to": "article:engagement-is-a-design-choice:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-milli-pnas-nexus-2025",
+      "to": "article:engagement-is-a-design-choice:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-milli-pnas-nexus-2025",
+      "to": "article:trust-and-outrage-platforms-and-cohesion:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-milli-pnas-nexus-2025",
+      "to": "article:trust-and-outrage-platforms-and-cohesion:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7223,6 +12243,36 @@
       }
     },
     {
+      "from": "source-nasscom-ai-adoption-index",
+      "to": "article:the-compounding-bet:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-nasscom-ai-adoption-index",
+      "to": "article:the-compounding-bet:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-nasscom-ai-adoption-index",
+      "to": "article:what-ai-makes-cheap:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-nasscom-india-opportunity",
       "to": "article:the-generational-bet:claim-004",
       "type": "supports",
@@ -7238,6 +12288,146 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ncaer-ihds-wave3",
+      "to": "article:a-map-of-levers:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ncaer-ihds-wave3",
+      "to": "article:by-the-numbers-what-indians-do-online:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ncaer-ihds-wave3",
+      "to": "article:by-the-numbers-what-indians-do-online:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ncaer-ihds-wave3",
+      "to": "article:by-the-numbers-what-indians-do-online:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ncaer-ihds-wave3",
+      "to": "article:the-better-question:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ncaer-ihds-wave3",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ncaer-ihds-wave3",
+      "to": "article:what-ai-makes-cheap:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ncert-2022",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ncert-2022",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ncert-2022",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ncert-mental-health-2022",
+      "to": "article:the-life-phase-thread:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-newport-deep-work-2016",
+      "to": "article:the-small-rep-theory:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-newport-deep-work-2016",
+      "to": "article:the-small-rep-theory:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-newport-deep-work-2016",
+      "to": "article:the-small-rep-theory:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7433,11 +12623,91 @@
       }
     },
     {
+      "from": "source-nsso-cams-dataforindia",
+      "to": "article:gender-and-the-attention-economy:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-nsso-cams-dataforindia",
+      "to": "article:gender-and-the-attention-economy:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-nsso-time-use-2024",
+      "to": "article:a-map-of-levers:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-nsso-time-use-2024",
+      "to": "article:by-the-numbers-what-indians-do-online:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-nsso-time-use-2024",
       "to": "article:the-attention-extraction:claim-004",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-nsso-time-use-2024",
+      "to": "article:the-life-phase-thread:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-nsso-tus-2024",
+      "to": "article:gender-and-the-attention-economy:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-nsso-tus-2024",
+      "to": "article:gender-and-the-attention-economy:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-nsso-tus-2024",
+      "to": "article:gender-and-the-attention-economy:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7478,6 +12748,56 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-oecd-genai-productivity-2025",
+      "to": "article:what-ai-makes-cheap:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-oecd-genai-productivity-2025",
+      "to": "article:what-ai-makes-cheap:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-oecd-genai-productivity-2025",
+      "to": "article:what-ai-makes-cheap:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-oecd-genai-productivity",
+      "to": "article:the-compounding-bet:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-oecd-genai-productivity",
+      "to": "article:the-compounding-bet:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7753,6 +13073,146 @@
       }
     },
     {
+      "from": "source-pib-bhashini-2024",
+      "to": "article:the-indic-language-internet-and-vernacular-feeds:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pib-bhashini-2025",
+      "to": "article:what-ai-makes-cheap:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pib-economic-survey-2025-26",
+      "to": "article:the-engagement-gap-productivity-india:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pib-economic-survey",
+      "to": "article:a-map-of-levers:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pib-economic-survey",
+      "to": "article:a-map-of-levers:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pib-economic-survey",
+      "to": "article:a-map-of-levers:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pib-economic-survey",
+      "to": "article:a-map-of-levers:claim-008",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pib-economic-survey",
+      "to": "article:engagement-is-a-design-choice:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pib-economic-survey",
+      "to": "article:the-better-question:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pib-economic-survey",
+      "to": "article:the-better-question:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pib-economic-survey",
+      "to": "article:the-better-question:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pib-economic-survey",
+      "to": "article:the-better-question:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pib-economic-survey",
+      "to": "article:what-ai-makes-cheap:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pib-it-rules-faq",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-pib-ncert-mental-health",
       "to": "article:the-attention-extraction:claim-004",
       "type": "supports",
@@ -7783,11 +13243,71 @@
       }
     },
     {
+      "from": "source-pitchonnet-jiostar-comparison",
+      "to": "article:who-profits-advertising-foreign-platforms:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pitchonnet-meta-india-fy24",
+      "to": "article:who-profits-advertising-foreign-platforms:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-pmc-adolescent-mental-health",
       "to": "article:the-attention-extraction:claim-004",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pmc-adolescent-mental-health",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pmc-rural-screen-time",
+      "to": "article:by-the-numbers-what-indians-do-online:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pmc-rural-screen-time",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pmc-rural-screen-time",
+      "to": "article:the-student-screen-education-vs-entertainment:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7858,6 +13378,26 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-17",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-prs-cybercrimes-women",
+      "to": "article:gender-and-the-attention-economy:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-prs-cybercrimes-women",
+      "to": "article:gender-and-the-attention-economy:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -8063,6 +13603,36 @@
       }
     },
     {
+      "from": "source-readers-guide",
+      "to": "article:a-readers-guide-to-the-series:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-readers-guide",
+      "to": "article:a-readers-guide-to-the-series:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-realsiteworth-cpm-2026",
+      "to": "article:the-creator-economys-incentive-trap:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-reflexion-paper",
       "to": "article:long-running-sessions:claim-004",
       "type": "supports",
@@ -8253,6 +13823,16 @@
       }
     },
     {
+      "from": "source-science-advances-outrage",
+      "to": "article:a-map-of-levers:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-science-museum-automata",
       "to": "article:before-machines:claim-006",
       "type": "supports",
@@ -8403,6 +13983,36 @@
       }
     },
     {
+      "from": "source-series-index",
+      "to": "article:a-readers-guide-to-the-series:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-series-index",
+      "to": "article:a-readers-guide-to-the-series:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-series-index",
+      "to": "article:a-readers-guide-to-the-series:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-series-proposal",
       "to": "article:ai-demystified:claim-001",
       "type": "supports",
@@ -8433,6 +14043,16 @@
       }
     },
     {
+      "from": "source-sflc-takedown-analysis",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-shannon-info-1948",
       "to": "article:formal-logic-to-computation:claim-008",
       "type": "supports",
@@ -8458,6 +14078,46 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-sharechat-2025",
+      "to": "article:the-indic-language-internet-and-vernacular-feeds:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-sharechat-2025",
+      "to": "article:the-indic-language-internet-and-vernacular-feeds:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-sharechat-2025",
+      "to": "article:the-indic-language-internet-and-vernacular-feeds:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-sharechat-2025",
+      "to": "article:the-indic-language-internet-and-vernacular-feeds:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -8553,6 +14213,36 @@
       }
     },
     {
+      "from": "source-stanford-ai-index",
+      "to": "article:the-compounding-bet:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-stanford-ai-index",
+      "to": "article:the-compounding-bet:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-stanford-ai-vibrancy",
+      "to": "article:the-compounding-bet:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-status-quo-bias",
       "to": "article:agentic-commerce-product-truth:claim-002",
       "type": "supports",
@@ -8568,6 +14258,36 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-storyboard18-google-meta-share",
+      "to": "article:who-profits-advertising-foreign-platforms:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-storyboard18-google-meta-share",
+      "to": "article:who-profits-advertising-foreign-platforms:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-substance-builder",
+      "to": "article:a-readers-guide-to-the-series:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -8723,6 +14443,16 @@
       }
     },
     {
+      "from": "source-uk-osa",
+      "to": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-unesco-genai-edu",
       "to": "article:human-systems:claim-004",
       "type": "supports",
@@ -8748,6 +14478,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-vivo-switch-off-2022",
+      "to": "article:the-life-phase-thread:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -8808,6 +14548,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-18",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-wef-global-risks-2024",
+      "to": "article:trust-and-outrage-platforms-and-cohesion:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -8938,6 +14688,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-29",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ytface-cpm-2026",
+      "to": "article:the-creator-economys-incentive-trap:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }

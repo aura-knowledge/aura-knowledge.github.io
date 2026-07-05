@@ -2,7 +2,8 @@
   "schemaVersion": 1,
   "topic": "mental-health",
   "articleIds": [
-    "article:the-attention-extraction"
+    "article:the-attention-extraction",
+    "article:the-student-screen-education-vs-entertainment"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/mental-health/",
   "agentJsonPath": "/agents/topics/mental-health.json",
@@ -37,8 +38,41 @@
       "updatedAt": "2026-07-04",
       "claimCount": 4,
       "sourceCount": 14,
-      "tokenEstimate": 666,
-      "contentHash": "62b8063f45c5c9922dd0b1dea4adb147bf1179b68c17dea883307233b32a46fa"
+      "tokenEstimate": 674,
+      "contentHash": "5b81fd168cb7606da30f36bd9a7c235d4b1977f8cae02a9e8ec4e1e628ce5fe9"
+    },
+    {
+      "id": "article:the-student-screen-education-vs-entertainment",
+      "slug": "the-student-screen-education-vs-entertainment",
+      "title": "The Student Screen",
+      "summary": "A diagnosis of student screen use in India, drawing on ASER 2024 and NCERT 2022. The same device could support learning but is often captured by entertainment and social feeds, with measurable costs to attention, sleep, and mental well-being.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "students",
+        "education",
+        "mental-health"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "students",
+        "education",
+        "mental-health"
+      ],
+      "canonicalPath": "/articles/the-student-screen-education-vs-entertainment/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+      "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+      "agentMarkdownPath": "/agents/articles/the-student-screen-education-vs-entertainment.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 8,
+      "sourceCount": 10,
+      "tokenEstimate": 796,
+      "contentHash": "bd57880f5cca1b649f423609b0f33b11d409b3d6b0adce858ae86c8b1a3a5ef2"
     }
   ]
 }

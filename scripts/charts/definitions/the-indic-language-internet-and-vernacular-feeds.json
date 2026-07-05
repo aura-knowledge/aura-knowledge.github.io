@@ -1,0 +1,11 @@
+{
+  "type": "grouped_bar",
+  "csv": "india-internet-users-by-geography-2024.csv",
+  "filename": "india-internet-users-by-geography-2024.svg",
+  "title": "India's internet users by geography (2024)",
+  "x_key": "region",
+  "y_key": "millions",
+  "y_label": "Active internet users (millions)",
+  "source": "IAMAI-Kantar Internet in India Report 2024",
+  "caveat": "Based on ICUBE 2024 study covering over 90,000 households; urban/rural classification as defined by the survey."
+}

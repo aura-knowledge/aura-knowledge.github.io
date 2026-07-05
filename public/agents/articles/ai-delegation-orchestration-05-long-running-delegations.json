@@ -128,8 +128,8 @@
         "role": "drafting-and-site-preview",
         "model": "gpt-5",
         "invokedAt": "2026-06-28",
-        "inputHash": "sha256:debaba724b96de32d5a5332180b94a9e8bd66e7b7b4b5038381a40a5124f5a6c",
-        "outputHash": "sha256:cafc9a5e8375a3fdc42a87e2f03c2ffe8b61588b4f1521b17bcee5a164bb3e83"
+        "inputHash": "sha256:a42d2db3e1d383a1f5c319075fcdce7bc1182c2a780ccba78d90eb43dc667bc7",
+        "outputHash": "sha256:a42d2db3e1d383a1f5c319075fcdce7bc1182c2a780ccba78d90eb43dc667bc7"
       }
     ],
     "reviews": [
@@ -143,7 +143,8 @@
           "privacy"
         ],
         "notes": "Earlier sibling review identified source-ledger gaps; those gaps were resolved before publication with article-specific source alignment.",
-        "resolvedAt": "2026-06-28"
+        "resolvedAt": "2026-06-28",
+        "contentHash": "a42d2db3e1d383a1f5c319075fcdce7bc1182c2a780ccba78d90eb43dc667bc7"
       },
       {
         "reviewer": "human",
@@ -179,7 +180,7 @@
     }
   },
   "contentHash": "a42d2db3e1d383a1f5c319075fcdce7bc1182c2a780ccba78d90eb43dc667bc7",
-  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-05-long-running-delegations/",
   "agentJsonPath": "/agents/articles/ai-delegation-orchestration-05-long-running-delegations.json",
   "agentMarkdownPath": "/agents/articles/ai-delegation-orchestration-05-long-running-delegations.md",

@@ -430,7 +430,8 @@
           "tone",
           "privacy"
         ],
-        "notes": "Drafted from public series charter, season synthesis, article map, and source canon. No client or private information included. Approved for publication after final review."
+        "notes": "Drafted from public series charter, season synthesis, article map, and source canon. No client or private information included. Approved for publication after final review.",
+        "contentHash": "d852055f4b0a5abd15924735fd73242312304723715c3bc13efc099f0f23dc26"
       },
       {
         "reviewer": "human",
@@ -451,7 +452,7 @@
       "version": "1.0.0"
     }
   },
-  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
   "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
   "agentMarkdownPath": "/agents/articles/long-human-road-to-ai.md",

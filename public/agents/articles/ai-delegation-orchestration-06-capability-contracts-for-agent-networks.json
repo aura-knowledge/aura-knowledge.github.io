@@ -128,8 +128,8 @@
         "role": "drafting-and-site-preview",
         "model": "gpt-5",
         "invokedAt": "2026-06-28",
-        "inputHash": "sha256:5aa76f2040787afd8b777ea4ed4af82974b89a9552edb10d3a968e3853983d5c",
-        "outputHash": "sha256:d62f207cb226a1921aa71632681502ea8a38ef984d5c0046334cff23ddbb8fa2"
+        "inputHash": "sha256:e2828555014eaf339ec5e645ae23c648d51ce09019c7137833258056aa89b22f",
+        "outputHash": "sha256:e2828555014eaf339ec5e645ae23c648d51ce09019c7137833258056aa89b22f"
       }
     ],
     "reviews": [
@@ -143,7 +143,8 @@
           "privacy"
         ],
         "notes": "Earlier sibling review identified source-ledger gaps; those gaps were resolved before publication with article-specific source alignment.",
-        "resolvedAt": "2026-06-28"
+        "resolvedAt": "2026-06-28",
+        "contentHash": "e2828555014eaf339ec5e645ae23c648d51ce09019c7137833258056aa89b22f"
       },
       {
         "reviewer": "human",
@@ -179,7 +180,7 @@
     }
   },
   "contentHash": "e2828555014eaf339ec5e645ae23c648d51ce09019c7137833258056aa89b22f",
-  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks/",
   "agentJsonPath": "/agents/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks.json",
   "agentMarkdownPath": "/agents/articles/ai-delegation-orchestration-06-capability-contracts-for-agent-networks.md",

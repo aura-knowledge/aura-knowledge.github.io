@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "topic": "policy",
+  "articleIds": [
+    "article:a-map-of-levers"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/policy/",
+  "agentJsonPath": "/agents/topics/policy.json",
+  "articles": [
+    {
+      "id": "article:a-map-of-levers",
+      "slug": "a-map-of-levers",
+      "title": "A Map of Levers",
+      "summary": "This synthesis article maps the actors and interventions that can redirect India's digital infrastructure toward substance—from individual habits and household rules to platform design, investor pressure, regulation, and civic accountability.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "synthesis",
+        "platform-design",
+        "policy",
+        "regulation"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "synthesis",
+        "policy",
+        "platform-design"
+      ],
+      "canonicalPath": "/articles/a-map-of-levers/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+      "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+      "agentMarkdownPath": "/agents/articles/a-map-of-levers.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 8,
+      "sourceCount": 13,
+      "tokenEstimate": 860,
+      "contentHash": "3bfb89f509202214b6454cd92bff340dc6322aafafcbad5d08b0cdaef4ef9c96"
+    }
+  ]
+}

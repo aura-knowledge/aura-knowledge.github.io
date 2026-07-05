@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 3,
+  "id": "article:gender-and-the-attention-economy",
+  "slug": "gender-and-the-attention-economy",
+  "title": "Gender and the Attention Economy",
+  "canonicalPath": "/articles/gender-and-the-attention-economy/",
+  "sourcePath": "content/articles/2026/gender-and-the-attention-economy/article.md",
+  "agentBriefPath": "content/articles/2026/gender-and-the-attention-economy/agent.md",
+  "thesis": "Women in India face a double bind in the attention economy: lower access and digital skills limit participation, while those who do participate encounter disproportionate care burdens, safety risks, and economic inequality.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "gender",
+    "digital-inclusion",
+    "digital-wellbeing"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 13,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Women in India face a double bind in the attention economy: lower access and digital skills limit participation, while those who do participate encounter disproportionate care burdens, safety risks, and economic inequality.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-nsso-cams-dataforindia",
+          "snippet": "NSSO CAMS 2022-23 finds roughly eight in ten women had recently used a mobile phone versus over nine in ten men, and roughly half of women had recently used the internet versus about two-thirds of men.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-nsso-tus-2024",
+          "snippet": "NSSO Time Use Survey 2024 finds women spent 289 minutes/day on unpaid domestic services and 137 minutes/day on caregiving, far above men's 88 and 75 minutes respectively.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-prs-cybercrimes-women",
+          "snippet": "Parliamentary committee report summarised by PRS notes cybercrimes against women rose 239% between 2017 and 2022.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The gap is narrowing: women now make up 47% of India's internet users, the highest share on record, and the gender gap nearly vanishes among children.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "NSSO CAMS 2022-23 data show a sharp gender gap at the point of digital entry: roughly eight in ten women had recently used a mobile phone, compared with over nine in ten men, and roughly half of women had recently used the internet, compared with about two-thirds of men.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-nsso-cams-dataforindia",
+          "snippet": "About 85% of adults used a mobile phone in the last three months; about eight in ten women had used phones versus over nine in ten men. Two-thirds of men had used the internet versus half of women.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Phone and internet use are self-reported and measured over a three-month window; some women may use devices occasionally without considering themselves users.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "GSMA's Mobile Gender Gap Report 2024 shows that women in low- and middle-income countries are about 15% less likely than men to use mobile internet, with roughly 60% of unconnected women concentrated in South Asia and Sub-Saharan Africa; India-specific estimates show women are 33% less likely than men to use mobile internet.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-gsma-gender-gap-2024",
+          "snippet": "Women in LMICs are 15% less likely than men to use mobile internet; around 60% of unconnected women live in South Asia and Sub-Saharan Africa.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-ideasforindia-gender-digital-divide",
+          "snippet": "Indian women are 33% less likely than men to use mobile internet, and only about 30% know how to use the internet to find information, operate mobile money, or access apps and e-services.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The 15% figure is a global LMIC estimate, not India-specific; India's actual gap may differ. The 33% India figure comes from GSMA data cited in a policy synthesis.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "NSSO Time Use Survey 2024 found that women who performed unpaid domestic services spent 289 minutes a day on them, compared with 88 minutes for men, and women spent 137 minutes on caregiving versus men's 75 minutes.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-nsso-tus-2024",
+          "snippet": "Females spent 289 minutes/day on unpaid domestic services; males spent 88 minutes. Females spent 137 minutes/day on caregiving; males spent 75 minutes.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Figures are averages among those who performed the activity, not the whole population; they do not capture seasonal variation or differences by age, class, or region.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "Women's leisure and mass-media time is more fragmented by unpaid care work than men's, so the attention economy extracts a scarcer, more interrupted resource from women even when raw minutes look similar.",
+      "confidence": "medium",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-nsso-tus-2024",
+          "snippet": "Men spent 177 minutes/day and women 164 minutes/day on culture, leisure, and mass-media use among participants.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The NSSO TUS does not measure fragmentation or interruption directly; this claim is an inference from the large gender gap in unpaid work and caregiving.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "A 2026 parliamentary committee report summarised by PRS Legislative Research noted that cybercrimes against women in India rose 239% between 2017 and 2022.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-prs-cybercrimes-women",
+          "snippet": "As per National Crime Record Bureau data, between 2017 and 2022 there has been a 239% increase in cybercrimes against women.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Reported cybercrime counts reflect both real incidence and reporting willingness, police capacity, and legal classification; actual rates are likely undercounted.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "The creator economy and high-skill digital work remain unevenly accessible to women: only about 2.2% of employed Indian women work in business services, partly due to the digital-skills gap.",
+      "confidence": "medium",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-ideasforindia-gender-digital-divide",
+          "snippet": "Only 2.2% of employed women in India work in business services, and women's lower digital skills and access constrain movement into high-productivity ICT services.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Business-services employment is shaped by education, norms, mobility, and labour demand as well as digital skills; the figure is an indicator, not proof of causation.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-nsso-tus-2024",
+      "title": "NSSO Time Use Survey 2024 Factsheet",
+      "url": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-nsso-cams-dataforindia",
+      "title": "Data For India: Access to phones and the internet (based on NSSO CAMS 2022-23)",
+      "url": "https://www.dataforindia.com/comm-tech/",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-iamai-kantar-2024",
+      "title": "IAMAI-Kantar: Internet in India Report 2024",
+      "url": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-gsma-gender-gap-2024",
+      "title": "GSMA: The Mobile Gender Gap Report 2024",
+      "url": "https://www.gsma.com/gender-gap-2024/",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ideasforindia-gender-digital-divide",
+      "title": "Ideas for India: Digital gender divide amidst India's service-led growth",
+      "url": "https://www.ideasforindia.in/topics/social-identity/digital-gender-divide-amidst-india-s-service-led-growth",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-prs-cybercrimes-women",
+      "title": "PRS Legislative Research: Cyber Crimes and Cyber Security of Women (Committee on the Empowerment of Women, 2026)",
+      "url": "https://prsindia.org/policy/report-summaries/cyber-crimes-and-cyber-security-of-women",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:the-attention-extraction"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:the-generational-bet"
+    },
+    {
+      "type": "article",
+      "id": "article:the-substance-builder"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    },
+    {
+      "type": "topic",
+      "id": "topic:india"
+    },
+    {
+      "type": "topic",
+      "id": "topic:gender"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit and treat each claim as separate from solution chapters.",
+    "Preserve the evidence-cautious, non-preachy tone; do not shame individuals or imply all screen time is harmful.",
+    "When citing sources, use the source IDs and URLs from the artifact; do not invent or generalise beyond the public evidence.",
+    "Flag any India figure that is a global benchmark or regional estimate so readers do not mistake it for a national measurement.",
+    "Point users to the Diagnosis and Designing for Substance chapters for platform-incentive and intervention context."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:d6c669b3e663a43e8bd886da687b89e85f33efcde536f010006a9952e8241d0c",
+        "outputHash": "sha256:d6c669b3e663a43e8bd886da687b89e85f33efcde536f010006a9952e8241d0c"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "d6c669b3e663a43e8bd886da687b89e85f33efcde536f010006a9952e8241d0c"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "d6c669b3e663a43e8bd886da687b89e85f33efcde536f010006a9952e8241d0c"
+}

@@ -2,11 +2,47 @@
   "schemaVersion": 1,
   "topic": "regulation",
   "articleIds": [
-    "article:designing-for-substance"
+    "article:a-map-of-levers",
+    "article:designing-for-substance",
+    "article:regulation-as-a-floor-dsa-it-rules-dpdp"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/regulation/",
   "agentJsonPath": "/agents/topics/regulation.json",
   "articles": [
+    {
+      "id": "article:a-map-of-levers",
+      "slug": "a-map-of-levers",
+      "title": "A Map of Levers",
+      "summary": "This synthesis article maps the actors and interventions that can redirect India's digital infrastructure toward substance—from individual habits and household rules to platform design, investor pressure, regulation, and civic accountability.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "synthesis",
+        "platform-design",
+        "policy",
+        "regulation"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "synthesis",
+        "policy",
+        "platform-design"
+      ],
+      "canonicalPath": "/articles/a-map-of-levers/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+      "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+      "agentMarkdownPath": "/agents/articles/a-map-of-levers.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 8,
+      "sourceCount": 13,
+      "tokenEstimate": 860,
+      "contentHash": "3bfb89f509202214b6454cd92bff340dc6322aafafcbad5d08b0cdaef4ef9c96"
+    },
     {
       "id": "article:designing-for-substance",
       "slug": "designing-for-substance",
@@ -37,8 +73,41 @@
       "updatedAt": "2026-07-04",
       "claimCount": 5,
       "sourceCount": 7,
-      "tokenEstimate": 593,
-      "contentHash": "c965b0f4ba6d93d146389f1cdf0eb60e6bbd21d04c6d8276fe1ad94ee18cd67c"
+      "tokenEstimate": 597,
+      "contentHash": "0b2a3c9e15c58c7d9e62e4a008f4efed10935f844ea50d7f3733c7533040b9d3"
+    },
+    {
+      "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+      "title": "Regulation as a Floor",
+      "summary": "Compares India’s IT Rules 2021 and DPDP Act 2023 with the EU DSA, UK OSA, and Australia’s eSafety framework. Regulation can curb harms but cannot alone make substance the easier path; design, business models, and public pressure matter too.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "regulation",
+        "platform-accountability",
+        "digital-services-act",
+        "dpdp"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "regulation",
+        "platform-accountability",
+        "digital-services-act",
+        "dpdp"
+      ],
+      "canonicalPath": "/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+      "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+      "agentMarkdownPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 9,
+      "tokenEstimate": 739,
+      "contentHash": "07e1441b2711489b41140cf46bcf1a91ee20835c45b9a5e717f80e3f7bcd1523"
     }
   ]
 }
