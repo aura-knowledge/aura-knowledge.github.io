@@ -2,6 +2,7 @@
   "schemaVersion": 1,
   "topic": "productivity",
   "articleIds": [
+    "article:attention-substance-ai-moment-tldr",
     "article:historical-analogies-of-missed-transitions",
     "article:the-compounding-bet",
     "article:the-engagement-gap-productivity-india",
@@ -12,6 +13,38 @@
   "pageUrl": "https://aura-knowledge.github.io/topics/productivity/",
   "agentJsonPath": "/agents/topics/productivity.json",
   "articles": [
+    {
+      "id": "article:attention-substance-ai-moment-tldr",
+      "slug": "attention-substance-ai-moment-tldr",
+      "title": "Attention, Substance, and the AI Moment: The TLDR",
+      "summary": "A concise, shareable summary of the Attention, Substance, and the AI Moment series. It focuses on the productivity opportunity cost of mobile and AI misuse and how individuals can choose substance over scroll.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "productivity",
+        "artificial-intelligence",
+        "digital-wellbeing"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "productivity",
+        "artificial-intelligence",
+        "digital-wellbeing",
+        "summary"
+      ],
+      "canonicalPath": "/articles/attention-substance-ai-moment-tldr/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+      "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+      "agentMarkdownPath": "/agents/articles/attention-substance-ai-moment-tldr.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 5,
+      "sourceCount": 20,
+      "tokenEstimate": 504,
+      "contentHash": "49ad4c4fffdfbe7f85062f135c383277143a13973207c36170f44d49b3b69ad0"
+    },
     {
       "id": "article:historical-analogies-of-missed-transitions",
       "slug": "historical-analogies-of-missed-transitions",

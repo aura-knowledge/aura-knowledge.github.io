@@ -60,7 +60,8 @@ const relatedSlugs = [
   "a-map-of-levers",
   "product-ideas-that-could-shift-incentives",
   "open-questions-the-series-leaves-unresolved",
-  "a-readers-guide-to-the-series"
+  "a-readers-guide-to-the-series",
+  "attention-substance-ai-moment-tldr"
 ];
 
 const related = relatedSlugs.map((s) => ({ type: "article", id: `article:${s}` }));
@@ -76,7 +77,7 @@ const review = artifact.provenance.reviews[artifact.provenance.reviews.length - 
 review.status = "approved";
 review.contentHash = contentHash;
 review.reviewedAt = new Date().toISOString().slice(0, 10);
-review.notes = "Updated to include all 50 series articles.";
+review.notes = "Updated series index to include all 50 series articles plus the TLDR summary.";
 
 await writeFile(artifactPath, `${JSON.stringify(artifact, null, 2)}\n`);
 console.log(`Updated series index with ${relatedSlugs.length} related articles.`);

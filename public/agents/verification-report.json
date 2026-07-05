@@ -1640,6 +1640,71 @@
       }
     },
     {
+      "slug": "attention-substance-ai-moment-tldr",
+      "title": "Attention, Substance, and the AI Moment: The TLDR",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "India has near-universal digital access, but entertainment and social media dominate online time, crowding out education and production among young users.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "Screen time is high, and short-form feeds are engineered to extend engagement beyond user intent.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 5,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "The costs of the attention economy show up in productivity, youth mental health, and social trust.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 6,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "AI makes knowledge work dramatically cheaper, but the payoff depends on whether saved time is reinvested in learning and creation rather than recaptured by extraction.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 4,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-005",
+          "claim": "Individuals can redirect small windows of attention toward substance using AI as a journeyman assistant; the main cost is attention reclaimed from low-value consumption.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 4,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 5
+      }
+    },
+    {
       "slug": "audio-first-voice-consumption",
       "title": "Listening to the Firehose: Can Voice-First, Two-Way Audio Become a Legitimate Assistive Medium?",
       "status": "published",

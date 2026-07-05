@@ -889,6 +889,53 @@
     "maturity": "seed"
   },
   {
+    "id": "article:attention-substance-ai-moment-tldr",
+    "type": "article",
+    "label": "Attention, Substance, and the AI Moment: The TLDR",
+    "path": "/articles/attention-substance-ai-moment-tldr/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:attention-substance-ai-moment-tldr:claim-001",
+    "type": "claim",
+    "label": "India has near-universal digital access, but entertainment and social media dominate online time, crowding out education and production among young users.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:attention-substance-ai-moment-tldr:claim-002",
+    "type": "claim",
+    "label": "Screen time is high, and short-form feeds are engineered to extend engagement beyond user intent.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:attention-substance-ai-moment-tldr:claim-003",
+    "type": "claim",
+    "label": "The costs of the attention economy show up in productivity, youth mental health, and social trust.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:attention-substance-ai-moment-tldr:claim-004",
+    "type": "claim",
+    "label": "AI makes knowledge work dramatically cheaper, but the payoff depends on whether saved time is reinvested in learning and creation rather than recaptured by extraction.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:attention-substance-ai-moment-tldr:claim-005",
+    "type": "claim",
+    "label": "Individuals can redirect small windows of attention toward substance using AI as a journeyman assistant; the main cost is attention reclaimed from low-value consumption.",
+    "localId": "claim-005",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
     "id": "article:attention-substance-ai-moment:claim-001",
     "type": "claim",
     "label": "India's digital-access success has created an attention-extraction economy that diverts time and talent away from learning, creation, and civic problem-solving, but the same infrastructure could be redirected toward substance if individuals, platforms, and policymakers make different choices.",
@@ -6022,8 +6069,8 @@
   {
     "id": "source-nasscom-ai-adoption-index",
     "type": "source",
-    "label": "NASSCOM-EY: AI Adoption Index 2.0 — Tracking India's Sectoral Progress in AI Adoption",
-    "url": "https://nasscom.in/knowledge-center/publications/ai-adoption-index-20-tracking-indias-sectoral-progress-ai-adoption",
+    "label": "NASSCOM: AI Adoption Index",
+    "url": "https://nasscom.in/knowledge-center/publications/nasscom-ai-adoption-index",
     "sourceType": "industry-report"
   },
   {
