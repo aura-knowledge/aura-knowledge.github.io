@@ -3793,7 +3793,7 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
           "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
           "claimId": "claim-001",
-          "claim": "India has near-universal digital access, but entertainment and social media dominate online time, crowding out education and production among young users.",
+          "claim": "India has near-universal digital access, but entertainment and social media dominate online time across all age groups, crowding out education, planning, and productive use.",
           "confidence": "high",
           "status": "core"
         },
@@ -3803,7 +3803,7 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
           "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
           "claimId": "claim-002",
-          "claim": "Screen time is high, and short-form feeds are engineered to extend engagement beyond user intent.",
+          "claim": "Screen time is high across all age groups, and feeds — on phones and laptops — are engineered to extend engagement beyond user intent.",
           "confidence": "high",
           "status": "core"
         },
