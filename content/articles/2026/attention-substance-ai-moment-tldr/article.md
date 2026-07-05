@@ -22,7 +22,9 @@ agentArtifact: /agents/articles/attention-substance-ai-moment-tldr.json
 sourcePath: content/articles/2026/attention-substance-ai-moment-tldr/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · TLDR</p>
+<p class="article-kicker">Standalone Summary</p>
+
+<em>This is the short version of a 49-article series, <a href="/articles/attention-substance-ai-moment/">Attention, Substance, and the AI Moment</a>. If you only have a few minutes, start here.</em>
 
 India solved access. Cheap data, cheap phones, and Indic-language content brought nearly a billion people online. The question now is not whether Indians are connected; it is what the connection is being used for.
 
@@ -105,3 +107,7 @@ This means the lever is closer than it looks. You do not need to wait for regula
 The useful question is not "Should I use my phone less?" It is "Is this device making me more capable than it found me?"
 
 If the answer is no, the fix is not a digital-detox retreat. It is a small, repeated choice to use the most powerful tool in your pocket as a power tool—not only as a toy. And that choice, multiplied across a billion users, is what will eventually change what the platform chooses to be.
+
+---
+
+<em>Want the full evidence, historical analogies, design alternatives, and policy discussion? Read the complete series: <a href="/articles/attention-substance-ai-moment/">Attention, Substance, and the AI Moment</a>.</em>
