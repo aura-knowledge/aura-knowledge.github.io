@@ -725,8 +725,8 @@
     {
       "id": "article:attention-substance-ai-moment-tldr",
       "slug": "attention-substance-ai-moment-tldr",
-      "title": "Attention, Substance, and the AI Moment: The TLDR",
-      "summary": "A concise, shareable summary of the Attention, Substance, and the AI Moment series. It focuses on the productivity opportunity cost of mobile and AI misuse and how individuals can choose substance over scroll.",
+      "title": "Your Phone Is a Power Tool. You're Using It as a Toy.",
+      "summary": "A standalone essay on how entertainment-driven mobile use is wasting the most precious resource you have — your own attention — and how the same phone, used differently, could make you more capable with less effort than you think.",
       "status": "published",
       "maturity": "seed",
       "topics": [
@@ -741,8 +741,7 @@
         "india",
         "productivity",
         "artificial-intelligence",
-        "digital-wellbeing",
-        "summary"
+        "digital-wellbeing"
       ],
       "canonicalPath": "/articles/attention-substance-ai-moment-tldr/",
       "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
@@ -752,7 +751,7 @@
       "claimCount": 5,
       "sourceCount": 20,
       "tokenEstimate": 504,
-      "contentHash": "4b2a7bc85545730811e735f4fa576f45895785bfe268ca62a958a5e1f0408d98"
+      "contentHash": "1675a0ac342cc136a7b5ecb5af3b91d51884a0ef96cd2fde6190e612d704617c"
     },
     {
       "id": "article:audio-first-voice-consumption",

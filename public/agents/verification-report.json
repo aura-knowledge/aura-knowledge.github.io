@@ -1641,7 +1641,7 @@
     },
     {
       "slug": "attention-substance-ai-moment-tldr",
-      "title": "Attention, Substance, and the AI Moment: The TLDR",
+      "title": "Your Phone Is a Power Tool. You're Using It as a Toy.",
       "status": "published",
       "claims": [
         {
@@ -1666,7 +1666,7 @@
         },
         {
           "id": "claim-003",
-          "claim": "The costs of the attention economy show up in productivity, youth mental health, and social trust.",
+          "claim": "The costs show up in productivity, mental health, and attention capacity.",
           "confidence": "medium-high",
           "status": "core",
           "state": "draft",
@@ -1676,7 +1676,7 @@
         },
         {
           "id": "claim-004",
-          "claim": "AI makes knowledge work dramatically cheaper, but the payoff depends on whether saved time is reinvested in learning and creation rather than recaptured by extraction.",
+          "claim": "AI makes productive work dramatically cheaper and more accessible, but only for people who choose to use it that way.",
           "confidence": "medium-high",
           "status": "core",
           "state": "draft",
@@ -1686,7 +1686,7 @@
         },
         {
           "id": "claim-005",
-          "claim": "Individuals can redirect small windows of attention toward substance using AI as a journeyman assistant; the main cost is attention reclaimed from low-value consumption.",
+          "claim": "Small, repeated shifts from consumption to creation can compound into real capability, and the main cost is attention reclaimed from low-value scrolling.",
           "confidence": "medium-high",
           "status": "core",
           "state": "draft",

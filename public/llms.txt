@@ -33,7 +33,7 @@
 - [Winters, Expert Systems, and the Cost of Overpromising Intelligence](https://aura-knowledge.github.io/articles/ai-winters-expert-systems/)
 - [Alternative Metrics: Time Well Spent, Sustainability, Learning, Civic Value](https://aura-knowledge.github.io/articles/alternative-metrics-time-well-spent/)
 - [Attention, Substance, and the AI Moment: A Series Index](https://aura-knowledge.github.io/articles/attention-substance-ai-moment/)
-- [Attention, Substance, and the AI Moment: The TLDR](https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/)
+- [Your Phone Is a Power Tool. You're Using It as a Toy.](https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/)
 - [Listening to the Firehose: Can Voice-First, Two-Way Audio Become a Legitimate Assistive Medium?](https://aura-knowledge.github.io/articles/audio-first-voice-consumption/)
 - [Before Machines: Calculation, Automata, and the Dream of Mechanical Reason](https://aura-knowledge.github.io/articles/before-machines/)
 - [Bhashini and the Indic-Language AI Moment](https://aura-knowledge.github.io/articles/bhashini-and-the-indic-language-ai-moment/)
