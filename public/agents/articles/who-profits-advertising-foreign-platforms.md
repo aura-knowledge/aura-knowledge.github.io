@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:who-profits-advertising-foreign-platforms
 articleId: article:who-profits-advertising-foreign-platforms
 slug: who-profits-advertising-foreign-platforms
-title: 'Agent Brief for "Who Profits?"'
+title: "Agent Brief for 'Who Profits?'"
 tokenBudget: 1500
 status: published
 updated: 2026-07-05

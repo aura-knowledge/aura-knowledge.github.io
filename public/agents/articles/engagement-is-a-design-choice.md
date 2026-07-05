@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:engagement-is-a-design-choice
 articleId: article:engagement-is-a-design-choice
 slug: engagement-is-a-design-choice
-title: 'Agent Brief for "Engagement Is a Design Choice"'
+title: "Agent Brief for 'Engagement Is a Design Choice'"
 tokenBudget: 1500
 status: published
 updated: 2026-07-05

@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:formal-logic-to-computation
 articleId: article:formal-logic-to-computation
 slug: formal-logic-to-computation
-title: 'Agent Brief for "From Formal Logic to Computation: The Mathematical Road to AI"'
+title: "Agent Brief for 'From Formal Logic to Computation: The Mathematical Road to AI'"
 tokenBudget: 1200
 status: published
 updated: 2026-06-20

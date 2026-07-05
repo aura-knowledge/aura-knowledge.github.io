@@ -1,0 +1,11 @@
+{
+  "type": "horizontal_bar",
+  "csv": "passive-vs-active-study.csv",
+  "filename": "passive-vs-active-study.svg",
+  "title": "Average retention by learning method (Learning Pyramid estimate)",
+  "x_key": "method",
+  "y_key": "retention_pct",
+  "x_label": "Average retention (%)",
+  "source": "National Training Laboratories Learning Pyramid (commonly cited, contested)",
+  "caveat": "Retention figures are pedagogical estimates, not experimental measurements; used here as a heuristic."
+}

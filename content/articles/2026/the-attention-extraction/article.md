@@ -22,7 +22,7 @@ agentArtifact: /agents/articles/the-attention-extraction.json
 sourcePath: content/articles/2026/the-attention-extraction/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 1: The Diagnosis</p>
+<p class="article-kicker">Attention, Substance, and the AI Moment · Part 1</p>
 
 India dug canals of cheap data across the country. The water reached everywhere—villages, railway platforms, late-night kitchens, school corridors. But the channels were not built to irrigate fields. They were built to carry away attention. The same infrastructure that could have turned a young, connected population into a productive force is now, in large part, a harvesting machine. The crop is not wheat or rice; it is hours.
 
@@ -36,13 +36,13 @@ For two decades, India's policy story was about getting people online. The story
 
 The Economic Survey 2025–26, released through the Press Information Bureau and the India Budget portal, flags digital addiction as an emerging public-health challenge with implications for the demographic dividend. That is not a fringe anxiety. It is an official recognition that the next question is not access but use. The question is no longer whether people are online; it is what the online economy is doing to the people who live inside it.
 
-The shift is visible in public transit and shared waiting spaces in dense, mobile-first countries. Commuters stare at glowing rectangles. A norm of private, audio-isolated behavior in shared physical spaces has replaced the older bustle of incidental social contact. Global media norms that emphasize personal entertainment over incidental social contact have traveled fast, reshaping how people spend time in queues, at tea stalls, and on long-distance buses. The device is not an occasional tool; it is the default environment.
+The shift is visible in public transit and shared waiting spaces in dense, mobile-first countries. Commuters stare at glowing rectangles. A norm of private, audio-isolated behavior in shared physical spaces has replaced the older bustle of incidental social contact, a change examined more closely in [Public Space and Private Screens](/articles/public-space-and-private-screens/). Global media norms that emphasize personal entertainment over incidental social contact have traveled fast, reshaping how people spend time in queues, at tea stalls, and on long-distance buses. The device is not an occasional tool; it is the default environment.
 
 The extraction is hard to see because each individual scroll feels small. A few minutes after lunch, a few songs before sleep, one more clip while waiting for a bus—these do not look like a structural problem. They look like rest. But rest is not what the design is optimizing for. The design is optimizing for engagement, and engagement is measured in aggregate hours that run into the billions. What is invisible to the user is visible in the quarterly reports.
 
 <h2 id="access-without-proportionate-productive-use">Access Without Proportionate Productive Use</h2>
 
-The IAMAI-Kantar Internet in India Report 2024 documents the scale of the access story. But it also documents the usage mix. Entertainment and social media dominate time online. For young users, the pull is especially strong. A private research compilation that has been summarized and sanitized for public citation, drawing on the same public reports, notes that educational use is routinely outspent by short-form video, social feeds, and gaming.
+The IAMAI-Kantar Internet in India Report 2024 documents the scale of the access story. But it also documents the usage mix. Entertainment and social media dominate time online. For young users, the pull is especially strong; the mechanics of that pull are explored in [The Reel Nation: Short-Form Video and the Economics of a Swipe](/articles/the-reel-nation-short-form-video/). A private research compilation that has been summarized and sanitized for public citation, drawing on the same public reports, notes that educational use is routinely outspent by short-form video, social feeds, and gaming.
 
 ASER 2024 sharpens the picture. Among 14–16-year-olds, 76% use smartphones for social media, while 57% use them for education. The overlap is not zero, but the gap is the point. A device that could be a textbook, a tutor, and a workshop is more often a theater, a casino, and a gossip circle. Access alone does not produce learning; it produces learning only when the surrounding economy rewards it. Right now, the surrounding economy rewards the opposite.
 
@@ -66,7 +66,7 @@ Creators feel the squeeze. The same platforms that promise livelihoods also engi
 
 <span id="claim-003" class="claim-marker" data-claim="claim-003">Claim C3</span> Short-form feeds use variable rewards, infinite scroll, autoplay, and personalized recommendations to extend engagement beyond user intent.
 
-The design patterns are not hidden. Variable rewards keep users pulling the lever because the next item might be great. Infinite scroll removes the natural stopping point that a page turn or a channel change once provided. Autoplay carries the viewer from one clip to the next without consent. Personalized recommendations reorder the world so that everything feels relevant, even when it is irrelevant to the user's original purpose.
+The design patterns are not hidden. Variable rewards keep users pulling the lever because the next item might be great. Infinite scroll removes the natural stopping point that a page turn or a channel change once provided. Autoplay carries the viewer from one clip to the next without consent. Personalized recommendations reorder the world so that everything feels relevant, even when it is irrelevant to the user's original purpose. These mechanisms are examined in detail in [The Design of Extraction](/articles/the-design-of-extraction/).
 
 A peer-reviewed study indexed in PubMed Central, "The adverse impact of mobile phone short-form video addiction on attentional functions and self-control," finds that heavy short-form video use is associated with impaired attention and reduced self-control. The causality is hard to pin down—people with poorer attention may also gravitate toward bite-sized content—but the association is consistent and worrying. The design is not neutral. It is optimized for one outcome: more time.
 
@@ -90,7 +90,7 @@ The costs are not theoretical. They show up in four places.
 
 <h2 id="why-this-matters-for-the-ai-moment">Why This Matters for the AI Moment</h2>
 
-Artificial intelligence is often framed as a new engine for productivity: faster coding, cheaper tutoring, more personalized health information. Those possibilities are real, but they are not the only path AI can take. The same technology that helps a student learn a concept can also generate an infinite supply of personalized, engaging, low-cost content designed to keep that student watching. AI lowers the cost of producing feeds, recommendations, and synthetic personalities. Without a clear priority for substance, the attention economy will simply become more efficient at extraction.
+Artificial intelligence is often framed as a new engine for productivity: faster coding, cheaper tutoring, more personalized health information. Those possibilities are real, but they are not the only path AI can take. The same technology that helps a student learn a concept can also generate an infinite supply of personalized, engaging, low-cost content designed to keep that student watching. AI lowers the cost of producing feeds, recommendations, and synthetic personalities. Without a clear priority for substance, the attention economy will simply become more efficient at extraction, a risk explored further in [AI Could Make Extraction Cheaper Too](/articles/ai-could-make-extraction-cheaper-too/).
 
 This is why diagnosis comes before design. If the goal is to make India's digital dividend real, the country needs to see clearly what is currently being harvested. Access, content, and engagement are not the same as learning, production, and trust. Confusing them has already produced measurable costs. AI can amplify either side. The question is which side the next generation of products, norms, and policies will favor.
 
@@ -158,3 +158,5 @@ All claims are framed with appropriate caution. Where the data is correlational,
 - [The Substance Builder](/articles/the-substance-builder/) — practical paths for turning dead time into small acts of creation.
 - [Designing for Substance](/articles/designing-for-substance/) — how platforms and policymakers could make substance the easier path.
 - [Attention, Substance, and the AI Moment](/articles/attention-substance-ai-moment/) — the full series guide and reading paths.
+- [Sleep, Anxiety, and the Tele-MANAS Signal](/articles/sleep-anxiety-and-tele-manas/) — the mental-health warning signal behind always-on life.
+- [The Green Revolution Trade-Off](/articles/the-green-revolution-trade-off/) — a historical analogy for solving one urgent problem while creating slower, structural costs.

@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 3,
+  "id": "article:india-in-global-context",
+  "slug": "india-in-global-context",
+  "title": "India in Global Context: The Attention Economy Is Not Only an Indian Story",
+  "canonicalPath": "/articles/india-in-global-context/",
+  "sourcePath": "content/articles/2026/india-in-global-context/article.md",
+  "agentBriefPath": "content/articles/2026/india-in-global-context/agent.md",
+  "thesis": "India's attention-extraction challenges are not unique; they are a mobile-first, price-sensitive variant of a global pattern, and India's scale gives its regulatory and design choices outsized influence.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "global-comparison",
+    "platform-governance",
+    "regulation"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 12,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "India ranks among the highest countries for daily smartphone screen time.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-datareportal-digital-2025",
+          "snippet": "DataReportal's Digital 2025 Global Overview Report places India among the highest countries for average daily time spent on mobile devices.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-itu-facts",
+          "snippet": "The ITU Facts and Figures 2024 report notes that lower-middle-income countries, including India, have driven recent internet-user growth and show high mobile engagement.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Screen-time rankings vary by survey methodology, device definition, and sample population; India's exact global rank is sensitive to these choices.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Brazil, Indonesia, and Nigeria show similar patterns of mobile-first entertainment and platform concentration.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-itu-facts",
+          "snippet": "ITU Facts and Figures 2024 highlights that emerging economies in Asia, Africa, and Latin America have grown fastest in internet access, with mobile as the primary mode and entertainment as a leading use case.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-datareportal-digital-2025",
+          "snippet": "DataReportal's country-level data shows comparable daily mobile usage and social-media dominance in Brazil, Indonesia, Nigeria, and India.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Each market has distinct language, income, and regulatory contexts; platform concentration is similar but not identical, and local competitors matter in some regions.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "The US and China have larger domestic platform ecosystems but face similar debates about youth screen time and platform accountability.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-us-sg-social-media-youth",
+          "snippet": "The U.S. Surgeon General's 2023 advisory on social media and youth mental health warns that current evidence is sufficient to justify concern and action on platform design.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-china-cac-algorithmic-recommendations",
+          "snippet": "China's CAC provisions on algorithmic recommendations and minor-protection rules reflect government efforts to limit excessive youth screen time and platform power.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-eu-dsa",
+          "snippet": "The EU Digital Services Act imposes due-diligence, transparency, and risk-management obligations on large platforms, reflecting a broader global turn toward platform accountability.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The US and China differ sharply in legal tradition, enforcement capacity, and speech protections; their regulatory models are not directly transferable to India.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "India's regulatory choices—DSA-style due diligence, app-store rules, data protection—will shape how the global South addresses extraction.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-india-dpdp-2023",
+          "snippet": "India's Digital Personal Data Protection Act, 2023 establishes consent-based data processing and children's data protections, creating a baseline for platform design obligations.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-india-it-rules-2021",
+          "snippet": "The revised Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 introduce due-diligence, grievance, and transparency obligations for intermediaries.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-eu-dsa",
+          "snippet": "The EU Digital Services Act provides a reference model for due-diligence and risk-assessment regimes that India's rules partially adapt.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "India's regulatory capacity, judicial backlog, and industry influence may limit enforcement; other global South countries may follow different models, such as ASEAN or African Union frameworks.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-datareportal-digital-2025",
+      "title": "DataReportal: Digital 2025 Global Overview Report",
+      "url": "https://datareportal.com/reports/digital-2025-global-overview-report",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-itu-facts",
+      "title": "ITU: Facts and Figures 2024",
+      "url": "https://www.itu.int/itu-d/reports/statistics/facts-figures-2024/",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-eu-dsa",
+      "title": "EU Digital Services Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-us-sg-social-media-youth",
+      "title": "U.S. Surgeon General: Social Media and Youth Mental Health Advisory",
+      "url": "https://www.hhs.gov/sites/default/files/sg-youth-mental-health-social-media-advisory.pdf",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-china-cac-algorithmic-recommendations",
+      "title": "China CAC: Provisions on the Management of Algorithmic Recommendations in Internet Information Services",
+      "url": "https://www.cac.gov.cn/2022-01/04/c_1642894606364259.htm",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-india-dpdp-2023",
+      "title": "India: Digital Personal Data Protection Act, 2023",
+      "url": "https://www.meity.gov.in/writereaddata/files/Digital%20Personal%20Data%20Protection%20Act%202023.pdf",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-india-it-rules-2021",
+      "title": "India: Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021",
+      "url": "https://www.meity.gov.in/writereaddata/files/Intermediary_Guidelines_and_Digital_Media_Ethics_Code_Rules_2021.pdf",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:historical-hinges-access-is-not-benefit"
+    },
+    {
+      "type": "article",
+      "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit; each claim represents a distinct comparative or regulatory point.",
+    "Preserve the evidence-cautious, non-moralizing tone; India is a high-resolution case of a global pattern, not a uniquely failing one.",
+    "When citing figures, distinguish between DataReportal/ITU global estimates and India-specific measurements from elsewhere in the series.",
+    "Treat US and Chinese regulatory models as reference points, not templates; India's constitutional framework differs on speech and privacy.",
+    "Flag any source that is more than two years old or whose URL may have changed, and suggest a fresher replacement if available.",
+    "A global screen-time bar chart is embedded in the 'Scale Makes It Visible' section; cite DataReportal and ITU when discussing it."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:ac5d4a415044b04292c46c56f2bed9f5e5e390a7782480a0695e3e8af37e86da",
+        "outputHash": "sha256:ac5d4a415044b04292c46c56f2bed9f5e5e390a7782480a0695e3e8af37e86da"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "5742b77c6207ba7ffde81785f57dfc69e8dd1490b315ccb7a83c1bf3fbe6e635"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "5742b77c6207ba7ffde81785f57dfc69e8dd1490b315ccb7a83c1bf3fbe6e635",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/india-in-global-context/",
+  "agentJsonPath": "/agents/articles/india-in-global-context.json",
+  "agentMarkdownPath": "/agents/articles/india-in-global-context.md",
+  "sourceRepoPath": "content/articles/2026/india-in-global-context/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/india-in-global-context/article.md",
+  "tokenEstimate": 195,
+  "sectionOutline": [
+    {
+      "id": "the-scale-makes-it-visible",
+      "title": "The Scale Makes It Visible"
+    },
+    {
+      "id": "the-same-playbook-cheaper-data",
+      "title": "The Same Playbook, Cheaper Data"
+    },
+    {
+      "id": "the-platform-powers-are-not-exempt",
+      "title": "The Platform Powers Are Not Exempt"
+    },
+    {
+      "id": "regulation-as-a-shared-experiment",
+      "title": "Regulation as a Shared Experiment"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

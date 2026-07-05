@@ -2,11 +2,45 @@
   "schemaVersion": 1,
   "topic": "business-models",
   "articleIds": [
+    "article:business-models-that-reward-substance",
     "article:engagement-is-a-design-choice"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/business-models/",
   "agentJsonPath": "/agents/topics/business-models.json",
   "articles": [
+    {
+      "id": "article:business-models-that-reward-substance",
+      "slug": "business-models-that-reward-substance",
+      "title": "Business Models That Reward Substance",
+      "summary": "Compares revenue models and their incentive effects, arguing that business-model diversity is a precondition for design diversity.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "business-models",
+        "platform-design",
+        "media"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "business-models",
+        "platform-design",
+        "media"
+      ],
+      "canonicalPath": "/articles/business-models-that-reward-substance/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/business-models-that-reward-substance/",
+      "agentJsonPath": "/agents/articles/business-models-that-reward-substance.json",
+      "agentMarkdownPath": "/agents/articles/business-models-that-reward-substance.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 234,
+      "contentHash": "1f26ad853add00b6e05b7af85889c558fb8c18f1e43d28bf32d4b47c8fc5f970"
+    },
     {
       "id": "article:engagement-is-a-design-choice",
       "slug": "engagement-is-a-design-choice",
@@ -38,7 +72,7 @@
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 879,
-      "contentHash": "b658a45e5e248472079d1560ae0fbd12abc49064c4f12c28d1b1abee730fd06a"
+      "contentHash": "7585c03a336b10fe1b3acc19fdafc0bf8de138d8c6de08d781f634649a090e94"
     }
   ]
 }

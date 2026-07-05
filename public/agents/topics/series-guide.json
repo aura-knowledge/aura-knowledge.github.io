@@ -37,7 +37,7 @@
       "claimCount": 5,
       "sourceCount": 7,
       "tokenEstimate": 532,
-      "contentHash": "fcbc0027046f452e0114248491dbb9c4cf1afbe846dc59443bf67b78583548d7"
+      "contentHash": "9a4cba9103f7f8abdd9b275013c8a883635d88fbda37325216e7767a0140eb59"
     },
     {
       "id": "article:attention-substance-ai-moment",
@@ -68,7 +68,7 @@
       "claimCount": 1,
       "sourceCount": 2,
       "tokenEstimate": 465,
-      "contentHash": "e6e3f46b1414ff04e3dd733429ba07ca3c10aa200bfb968353fb689b19b17da9"
+      "contentHash": "17ed890d4dd63451002e282c8c6150ce6a7648061a0d3fc345b6468874e8f4de"
     }
   ]
 }

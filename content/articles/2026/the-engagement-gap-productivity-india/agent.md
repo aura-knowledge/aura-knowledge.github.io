@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:the-engagement-gap-productivity-india
 articleId: article:the-engagement-gap-productivity-india
 slug: the-engagement-gap-productivity-india
-title: 'Agent Brief for "The Engagement Gap"'
+title: "Agent Brief for 'The Engagement Gap'"
 tokenBudget: 1500
 status: published
 updated: 2026-07-05

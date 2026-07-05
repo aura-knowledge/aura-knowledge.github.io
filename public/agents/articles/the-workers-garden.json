@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 3,
+  "id": "article:the-workers-garden",
+  "slug": "the-workers-garden",
+  "title": "The Worker's Garden: Commutes, Side Projects, and Career Capital",
+  "canonicalPath": "/articles/the-workers-garden/",
+  "sourcePath": "content/articles/2026/the-workers-garden/article.md",
+  "agentBriefPath": "content/articles/2026/the-workers-garden/agent.md",
+  "thesis": "Working adults can build substantial career capital by converting small, recurring windows of dead time into deliberate practice, side projects, and public learning.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "career",
+    "productivity",
+    "side-projects",
+    "adult-learning",
+    "artificial-intelligence"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 32,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Commutes and waiting time add up to hundreds of hours per year for many workers.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-gallup-global-workplace-india",
+          "snippet": "Gallup data places India's employee engagement at 23% and estimates roughly $351 billion in annual losses from disengagement, illustrating the scale of attention fragmentation in the workforce.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-newport-deep-work",
+          "snippet": "Newport emphasizes that knowledge workers often lose large amounts of potential deep-work time to fragmentation and unstructured gaps in the day.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Commute times vary enormously by city, income, and transport mode; not all workers have predictable or safe enough commutes to use them for learning.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Small daily investments in skill-building compound more reliably than sporadic heroic efforts.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-fogg-tiny-habits",
+          "snippet": "Fogg's research shows that tiny, consistent behaviors are more likely to persist than large, willpower-dependent goals because they reduce friction and create automaticity.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-ericsson-deliberate-practice",
+          "snippet": "Ericsson's work on deliberate practice finds that sustained, structured practice over time is a stronger predictor of expertise than occasional intensive sessions.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some skills require long, uninterrupted sessions to reach breakthrough moments; micro-sessions alone may be insufficient for mastery in every domain.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Side projects and public learning signal capability more credibly than credentials alone in many fields.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-newport-deep-work",
+          "snippet": "Newport argues that the ability to perform deep, valuable work is increasingly scarce and demonstrable through output rather than credentials alone.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Credentials remain important in regulated professions and large organizations with formal hiring filters; side projects are not universally portable signals.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "AI lowers the cost of starting side projects in writing, coding, design, and translation.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-stanford-hai-2025",
+          "snippet": "The Stanford HAI AI Index Report 2025 documents rapid adoption of AI tools across text, code, image, and language tasks, lowering entry barriers for non-experts.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Easier starts can also lead to lower-quality output and weaker learning if users outsource judgment rather than using AI as a scaffold.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-newport-deep-work",
+      "title": "Cal Newport: Deep Work",
+      "url": "https://www.calnewport.com/books/deep-work/",
+      "type": "book",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-fogg-tiny-habits",
+      "title": "BJ Fogg: Tiny Habits",
+      "url": "https://www.tinyhabits.com/",
+      "type": "book",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-gallup-global-workplace-india",
+      "title": "Gallup State of the Global Workplace: India Country-Level Data",
+      "url": "https://www.gallup.com/workplace/705650/state-global-workplace-india-country-level-data.aspx",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ericsson-deliberate-practice",
+      "title": "Ericsson: The Role of Deliberate Practice in the Acquisition of Expert Performance",
+      "url": "https://psycnet.apa.org/record/1993-40718-001",
+      "type": "paper",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-stanford-hai-2025",
+      "title": "Stanford HAI: AI Index Report 2025",
+      "url": "https://aiindex.stanford.edu/report/",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:the-students-garden"
+    },
+    {
+      "type": "article",
+      "id": "article:the-familys-garden"
+    },
+    {
+      "type": "article",
+      "id": "article:failure-teaching-and-the-skill-stack"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as retrieval units and route evidence questions to the specific claim.",
+    "Preserve the practical, non-prescriptive tone; this article offers experiments, not moral obligations.",
+    "When citing sources, use the source IDs and URLs from the artifact; do not generalize beyond the public evidence.",
+    "Flag structural barriers such as unsafe commutes, unpaid care work, or exploitative jobs when readers ask about applicability.",
+    "Point to adjacent articles in the Building Substance arc for related strategies.",
+    "The Hidden Time Budget section includes a reclaimed-time table that illustrates how commute, lunch, waiting, and wind-down windows can compound into career capital."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:ec8d71f8d2201af56c4f26881826dac86d728521d2f23360c7b13dc0a0fe25d0",
+        "outputHash": "sha256:ec8d71f8d2201af56c4f26881826dac86d728521d2f23360c7b13dc0a0fe25d0"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "f28e4e718becf603328a3254ccea6537818f96b67f15980bfa50fb3ae15d148c"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "f28e4e718becf603328a3254ccea6537818f96b67f15980bfa50fb3ae15d148c",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/the-workers-garden/",
+  "agentJsonPath": "/agents/articles/the-workers-garden.json",
+  "agentMarkdownPath": "/agents/articles/the-workers-garden.md",
+  "sourceRepoPath": "content/articles/2026/the-workers-garden/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/the-workers-garden/article.md",
+  "tokenEstimate": 526,
+  "sectionOutline": [
+    {
+      "id": "the-hidden-time-budget",
+      "title": "The Hidden Time Budget"
+    },
+    {
+      "id": "the-compound-of-small-sessions",
+      "title": "The Compound of Small Sessions"
+    },
+    {
+      "id": "show-dont-just-tell",
+      "title": "Show, Don't Just Tell"
+    },
+    {
+      "id": "ai-as-the-on-ramp-not-the-shortcut",
+      "title": "AI as the On-Ramp, Not the Shortcut"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

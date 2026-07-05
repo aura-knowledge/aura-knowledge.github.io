@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "topic": "active-learning",
+  "articleIds": [
+    "article:the-students-garden"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/active-learning/",
+  "agentJsonPath": "/agents/topics/active-learning.json",
+  "articles": [
+    {
+      "id": "article:the-students-garden",
+      "slug": "the-students-garden",
+      "title": "The Student's Garden: Learning in Public, Teaching in Private",
+      "summary": "Offers practical guidance for students using AI: active learning, public note-taking, peer teaching, and avoiding the answer-generation trap.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "education",
+        "active-learning",
+        "students"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "education",
+        "active-learning",
+        "students"
+      ],
+      "canonicalPath": "/articles/the-students-garden/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-students-garden/",
+      "agentJsonPath": "/agents/articles/the-students-garden.json",
+      "agentMarkdownPath": "/agents/articles/the-students-garden.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 492,
+      "contentHash": "73fada8fa9f0b4eb3b63b435a796680cbfbe9ab113b43386b4ba069dfbf13d60"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "topic": "civil-society",
+  "articleIds": [
+    "article:public-pressure-and-internal-accountability"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/civil-society/",
+  "agentJsonPath": "/agents/topics/civil-society.json",
+  "articles": [
+    {
+      "id": "article:public-pressure-and-internal-accountability",
+      "slug": "public-pressure-and-internal-accountability",
+      "title": "Public Pressure and Internal Accountability",
+      "summary": "Maps the ecosystem of non-regulatory accountability: investigative reporting, internal leaks, shareholder pressure, civil-society campaigns, and academic research.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "accountability",
+        "platform-governance",
+        "civil-society"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "accountability",
+        "platform-governance",
+        "civil-society"
+      ],
+      "canonicalPath": "/articles/public-pressure-and-internal-accountability/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/public-pressure-and-internal-accountability/",
+      "agentJsonPath": "/agents/articles/public-pressure-and-internal-accountability.json",
+      "agentMarkdownPath": "/agents/articles/public-pressure-and-internal-accountability.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 245,
+      "contentHash": "68bec887e19009714f520ce36bd33d54455a39d01f99a87004882009f3703e43"
+    }
+  ]
+}

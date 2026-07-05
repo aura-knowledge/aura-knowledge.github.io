@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 3,
+  "id": "article:ai-as-journeyman-assistant",
+  "slug": "ai-as-journeyman-assistant",
+  "title": "AI as a Journeyman Assistant, Not a Replacement",
+  "canonicalPath": "/articles/ai-as-journeyman-assistant/",
+  "sourcePath": "content/articles/2026/ai-as-journeyman-assistant/article.md",
+  "agentBriefPath": "content/articles/2026/ai-as-journeyman-assistant/agent.md",
+  "thesis": "Generative AI is most useful when it acts as a journeyman assistant—lowering friction, expanding reach, and accelerating feedback—while the human retains ownership of judgment, taste, and final decisions.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "artificial-intelligence",
+    "ai-assisted-learning"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 30,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "AI is most useful as a journeyman assistant that lowers friction without replacing human judgment.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-brynjolfsson-generative-ai-at-work",
+          "snippet": "A randomized controlled trial of customer-support agents found that AI assistance improved productivity most for less experienced workers, suggesting AI works best as a support tool that amplifies human capability.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-oecd-gen-ai-productivity",
+          "snippet": "OECD analysis finds that generative AI can raise productivity in knowledge work, especially when workers retain oversight and apply judgment to AI-generated outputs.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "In high-stakes domains, even small errors in AI output can have large consequences; the journeyman model assumes human reviewers can catch mistakes, which is not always true under time pressure.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "The boundary between using AI and outsourcing thinking is porous and must be actively managed.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-khanmigo",
+          "snippet": "Khanmigo is designed to ask questions rather than give direct answers, preserving the learner's cognitive work and helping manage the boundary between assistance and substitution.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-duolingo-max",
+          "snippet": "Duolingo Max provides explanations and practice prompts, but learning still depends on the user's active engagement and repeated retrieval.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-oecd-gen-ai-productivity",
+          "snippet": "OECD analysis emphasizes that realizing productivity gains from generative AI requires workers to maintain oversight and avoid over-reliance on automated outputs.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The boundary is subjective; what one person experiences as assistance another may experience as delegation, depending on skill level, motivation, and task design.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "AI can accelerate feedback loops in writing, coding, design, translation, and tutoring.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-brynjolfsson-generative-ai-at-work",
+          "snippet": "Support agents with AI access resolved more conversations per hour and spent less time per case, demonstrating faster feedback loops in a structured knowledge task.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-oecd-gen-ai-productivity",
+          "snippet": "Survey and experimental evidence across occupations shows generative AI compresses the time to produce drafts, translations, code snippets, and explanations.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Faster feedback loops can also lower quality thresholds or increase the volume of low-value output if human review does not scale with generation.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Human judgment, taste, and accountability remain the scarce and valuable inputs.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-oecd-gen-ai-productivity",
+          "snippet": "The most valuable worker competencies in AI-augmented environments are those least likely to be automated: critical thinking, creativity, and responsibility for outcomes.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-brynjolfsson-generative-ai-at-work",
+          "snippet": "AI benefits were concentrated among lower-skill workers, while top performers showed smaller gains, implying that elite judgment and expertise remain scarce.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "As models improve, the set of tasks requiring human judgment may shrink; some strategic and creative tasks may eventually be automated or heavily augmented.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-khanmigo",
+      "title": "Khan Academy: Khanmigo",
+      "url": "https://www.khanacademy.org/khan-labs/khanmigo",
+      "type": "website",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-duolingo-max",
+      "title": "Duolingo: Duolingo Max",
+      "url": "https://blog.duolingo.com/duolingo-max/",
+      "type": "website",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-oecd-gen-ai-productivity",
+      "title": "OECD: Generative AI and the future of work",
+      "url": "https://www.oecd.org/en/publications/generative-ai-and-the-future-of-work_7b8b65ad-en.html",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-brynjolfsson-generative-ai-at-work",
+      "title": "Brynjolfsson, Li & Raymond: Generative AI at Work",
+      "url": "https://www.nber.org/papers/w31161",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:the-students-garden"
+    },
+    {
+      "type": "article",
+      "id": "article:the-workers-garden"
+    },
+    {
+      "type": "article",
+      "id": "article:what-ai-makes-cheap"
+    },
+    {
+      "type": "article",
+      "id": "article:the-substance-builder"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit and route evidentiary questions to the productivity and tutoring sources.",
+    "Preserve the practical, non-prescriptive tone; the article offers rules of thumb, not a formal methodology.",
+    "When discussing AI assistance, distinguish between accelerating feedback loops and replacing human judgment.",
+    "Flag that long-term causal evidence on routine AI assistance and skill development is still emerging.",
+    "Point readers to the related garden articles and the substance-builder article in the Building Substance arc.",
+    "The article includes a Mermaid flowchart after Claim C3 illustrating the human-AI iteration loop."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:5309108d339a9d9b80ae5ce85c17c81330fa559edaf4647974729b181d028f24",
+        "outputHash": "sha256:5309108d339a9d9b80ae5ce85c17c81330fa559edaf4647974729b181d028f24"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "f903bc9ab7a692495e3c84d51f2db293c6ab2315a047e8b82ebad48b74d07c56"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "f903bc9ab7a692495e3c84d51f2db293c6ab2315a047e8b82ebad48b74d07c56"
+}

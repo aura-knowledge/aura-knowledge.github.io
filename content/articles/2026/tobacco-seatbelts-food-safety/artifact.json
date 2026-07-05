@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 3,
+  "id": "article:tobacco-seatbelts-food-safety",
+  "slug": "tobacco-seatbelts-food-safety",
+  "title": "Tobacco, Seatbelts, and Food Safety: How Societies Learn to Regulate Design",
+  "canonicalPath": "/articles/tobacco-seatbelts-food-safety/",
+  "sourcePath": "content/articles/2026/tobacco-seatbelts-food-safety/article.md",
+  "agentBriefPath": "content/articles/2026/tobacco-seatbelts-food-safety/agent.md",
+  "thesis": "Societies have repeatedly moved harmful products from the frame of 'personal choice' to the frame of 'design and marketing accountability'; attention-extraction platforms are a candidate for the same transition.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "public-health",
+    "regulation",
+    "design",
+    "platform-accountability",
+    "history"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 15,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Tobacco was marketed as a personal and even healthy choice before epidemiology shifted the regulatory frame.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-who-tobacco",
+          "snippet": "The WHO report on the global tobacco epidemic documents the historical marketing of tobacco as a socially acceptable and even health-associated product, and the subsequent shift toward evidence-based regulation.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Regulatory responses varied widely across countries and were shaped by local politics and industry influence, not only by epidemiology.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Seatbelt and food-safety rules changed behavior through defaults and design standards rather than lectures.",
+      "confidence": "high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-nhtsa-seatbelts",
+          "snippet": "NHTSA data show that seatbelt use increased substantially after the combination of state laws, reminder systems, and vehicle safety standards changed the default behavior inside automobiles.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-fda-history",
+          "snippet": "The 1906 Food and Drugs Act and subsequent FDA inspection regimes shifted responsibility for food safety from consumers to producers through processing and design standards.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Public education campaigns and cultural norms also contributed to safer behavior; design standards were one factor among several.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "These transitions required a combination of scientific evidence, advocacy, litigation, and regulation.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-who-tobacco",
+          "snippet": "Global tobacco control combined epidemiological evidence, public advocacy, litigation, and the WHO Framework Convention on Tobacco Control to shift the regulatory frame.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-fda-history",
+          "snippet": "U.S. food-safety reform followed journalistic exposés, public pressure, and legislative action that created enforceable inspection and design standards.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The relative importance of each factor differed by issue and jurisdiction; some transitions relied more on market liability than on regulation.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Attention platforms are at an earlier stage of the same transition: evidence is accumulating, but design standards remain weak.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-who-tobacco",
+          "snippet": "Tobacco regulation took decades to move from personal-choice framing to design-level interventions, suggesting attention platforms may be at an earlier point in a similar arc.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-nhtsa-seatbelts",
+          "snippet": "Seatbelt and vehicle-safety standards demonstrate that design defaults can reshape population-level behavior once evidence and regulation align.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Attention platforms also enable education, civic organizing, and economic opportunity; treating them solely as harms risks over-regulating speech and innovation.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-who-tobacco",
+      "title": "WHO: WHO Report on the Global Tobacco Epidemic",
+      "url": "https://www.who.int/tobacco/global_report/en/",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-nhtsa-seatbelts",
+      "title": "NHTSA: Seat Belt Use in America",
+      "url": "https://www.nhtsa.gov/risky-driving/seat-belts",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-cdc-food-safety",
+      "title": "CDC: Food Safety in the United States",
+      "url": "https://www.cdc.gov/foodsafety/",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-fda-history",
+      "title": "FDA: The 1906 Food and Drugs Act and Its Enforcement",
+      "url": "https://www.fda.gov/about-fda/fda-history-exhibits/1906-food-and-drugs-act-and-its-enforcement",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:historical-hinges-access-is-not-benefit"
+    },
+    {
+      "type": "article",
+      "id": "article:the-green-revolution-trade-off"
+    },
+    {
+      "type": "article",
+      "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp"
+    },
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    }
+  ],
+  "agentInstructions": [
+    "Treat the tobacco, seatbelt, and food-safety cases as analogies for regulatory learning, not as claims of identical harm magnitude.",
+    "Route requests for platform-specific evidence to the Diagnosis articles (short-form video, student screen, engagement gap).",
+    "Preserve the evidence-cautious tone; do not imply that regulation alone solves attention extraction.",
+    "When asked for Indian policy implications, point to the Regulation as a Floor article and to later Designing for Substance chapters.",
+    "Use claim IDs as the retrieval unit and distinguish core historical claims from analogy claims about attention platforms.",
+    "The article includes a Mermaid regulation-milestones-timeline summarizing tobacco, seatbelt, and food-safety milestones; treat it as an illustrative overview, not as new evidence."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:120103623f0dbd995543c8405438402b7b2ca85dc2ce71d947abf6b44067cb37",
+        "outputHash": "sha256:120103623f0dbd995543c8405438402b7b2ca85dc2ce71d947abf6b44067cb37"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "6807ba8589523997378deff3df9378a6210845cf01ed345ea8478510f1674d32"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "6807ba8589523997378deff3df9378a6210845cf01ed345ea8478510f1674d32"
+}

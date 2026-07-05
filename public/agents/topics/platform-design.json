@@ -3,8 +3,11 @@
   "topic": "platform-design",
   "articleIds": [
     "article:a-map-of-levers",
+    "article:ai-could-make-extraction-cheaper-too",
+    "article:business-models-that-reward-substance",
     "article:designing-for-substance",
     "article:engagement-is-a-design-choice",
+    "article:product-ideas-that-could-shift-incentives",
     "article:the-better-question",
     "article:trust-and-outrage-platforms-and-cohesion"
   ],
@@ -43,7 +46,75 @@
       "claimCount": 8,
       "sourceCount": 13,
       "tokenEstimate": 860,
-      "contentHash": "3bfb89f509202214b6454cd92bff340dc6322aafafcbad5d08b0cdaef4ef9c96"
+      "contentHash": "6f361b3969e6d350c7c0af935801c329a62bd65a0fb4a9689d43672c369ad00f"
+    },
+    {
+      "id": "article:ai-could-make-extraction-cheaper-too",
+      "slug": "ai-could-make-extraction-cheaper-too",
+      "title": "AI Could Make Extraction Cheaper Too",
+      "summary": "Surveys how AI can amplify attention extraction through synthetic media, hyper-personalization, and automated influence, and argues for guardrails before scale.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "synthetic-media",
+        "misinformation",
+        "platform-design"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "synthetic-media",
+        "misinformation",
+        "platform-design"
+      ],
+      "canonicalPath": "/articles/ai-could-make-extraction-cheaper-too/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-could-make-extraction-cheaper-too/",
+      "agentJsonPath": "/agents/articles/ai-could-make-extraction-cheaper-too.json",
+      "agentMarkdownPath": "/agents/articles/ai-could-make-extraction-cheaper-too.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 218,
+      "contentHash": "4a8f4a51566f82bb931985a3032e0fb32c4d87f3004971d2d2744db36a5d3da9"
+    },
+    {
+      "id": "article:business-models-that-reward-substance",
+      "slug": "business-models-that-reward-substance",
+      "title": "Business Models That Reward Substance",
+      "summary": "Compares revenue models and their incentive effects, arguing that business-model diversity is a precondition for design diversity.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "business-models",
+        "platform-design",
+        "media"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "business-models",
+        "platform-design",
+        "media"
+      ],
+      "canonicalPath": "/articles/business-models-that-reward-substance/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/business-models-that-reward-substance/",
+      "agentJsonPath": "/agents/articles/business-models-that-reward-substance.json",
+      "agentMarkdownPath": "/agents/articles/business-models-that-reward-substance.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 234,
+      "contentHash": "1f26ad853add00b6e05b7af85889c558fb8c18f1e43d28bf32d4b47c8fc5f970"
     },
     {
       "id": "article:designing-for-substance",
@@ -76,7 +147,7 @@
       "claimCount": 5,
       "sourceCount": 7,
       "tokenEstimate": 597,
-      "contentHash": "0b2a3c9e15c58c7d9e62e4a008f4efed10935f844ea50d7f3733c7533040b9d3"
+      "contentHash": "776a597d5a9045184d75499b50b88b35a5a7ef2378a72ce17e300f6967a070c3"
     },
     {
       "id": "article:engagement-is-a-design-choice",
@@ -109,7 +180,42 @@
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 879,
-      "contentHash": "b658a45e5e248472079d1560ae0fbd12abc49064c4f12c28d1b1abee730fd06a"
+      "contentHash": "7585c03a336b10fe1b3acc19fdafc0bf8de138d8c6de08d781f634649a090e94"
+    },
+    {
+      "id": "article:product-ideas-that-could-shift-incentives",
+      "slug": "product-ideas-that-could-shift-incentives",
+      "title": "Product Ideas That Could Shift the Incentives",
+      "summary": "Sketches product and platform alternatives—quality-based incentives, public-interest algorithms, creator reputation economies—that could reward substance over extraction.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "algorithms",
+        "creator-economy",
+        "platform-design"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "algorithms",
+        "creator-economy",
+        "platform-design"
+      ],
+      "canonicalPath": "/articles/product-ideas-that-could-shift-incentives/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
+      "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
+      "agentMarkdownPath": "/agents/articles/product-ideas-that-could-shift-incentives.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 6,
+      "tokenEstimate": 291,
+      "contentHash": "4dfd02f7205a72689d7b7f743e4e7b8a22f8075e5b3aa10606afc6942e733a6a"
     },
     {
       "id": "article:the-better-question",
@@ -140,7 +246,7 @@
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 797,
-      "contentHash": "1ec6e905e6de8680421cf67e230310b23cdd692295947717b63e91654185ff55"
+      "contentHash": "5b2dd30ccbdc6b8a0062de9648d4799310202bc46b06a4207a56aba88f3eef70"
     },
     {
       "id": "article:trust-and-outrage-platforms-and-cohesion",
@@ -173,7 +279,7 @@
       "claimCount": 8,
       "sourceCount": 7,
       "tokenEstimate": 724,
-      "contentHash": "d4b1a6a3628cd9b1835bf350cceebf1917f37eca7760fb9e497cb23cd800f73a"
+      "contentHash": "58db791880b24a6ac451427a87506af3a68f3a83bb63ca881eb057ad23050116"
     }
   ]
 }

@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:birth-of-ai
 articleId: article:birth-of-ai
 slug: birth-of-ai
-title: 'Agent Brief for "The Birth of AI: Dartmouth, Symbolic Systems, and Early Optimism"'
+title: "Agent Brief for 'The Birth of AI: Dartmouth, Symbolic Systems, and Early Optimism'"
 tokenBudget: 1200
 status: published
 updated: 2026-06-20

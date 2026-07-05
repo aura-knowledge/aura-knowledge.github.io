@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "topic": "family",
+  "articleIds": [
+    "article:the-familys-garden"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/family/",
+  "agentJsonPath": "/agents/topics/family.json",
+  "articles": [
+    {
+      "id": "article:the-familys-garden",
+      "slug": "the-familys-garden",
+      "title": "The Family's Garden: Attention Contracts at Home",
+      "summary": "Offers household-level strategies for managing screens: device-free meals, modeling, shared creative time, and age-appropriate boundaries.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "family",
+        "parenting",
+        "design"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "family",
+        "parenting",
+        "design"
+      ],
+      "canonicalPath": "/articles/the-familys-garden/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-familys-garden/",
+      "agentJsonPath": "/agents/articles/the-familys-garden.json",
+      "agentMarkdownPath": "/agents/articles/the-familys-garden.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 226,
+      "contentHash": "ff968f9345e84b466ac9e4d40307874bf36fae6549dc6c21cd1eb640324c3502"
+    }
+  ]
+}

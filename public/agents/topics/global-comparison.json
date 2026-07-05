@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "topic": "global-comparison",
+  "articleIds": [
+    "article:india-in-global-context"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/global-comparison/",
+  "agentJsonPath": "/agents/topics/global-comparison.json",
+  "articles": [
+    {
+      "id": "article:india-in-global-context",
+      "slug": "india-in-global-context",
+      "title": "India in Global Context: The Attention Economy Is Not Only an Indian Story",
+      "summary": "Compares India with Brazil, Indonesia, Nigeria, the US, and China on screen time, platform concentration, and regulatory responses.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "global-comparison",
+        "platform-governance",
+        "regulation"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "global-comparison",
+        "platform-governance",
+        "regulation"
+      ],
+      "canonicalPath": "/articles/india-in-global-context/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/india-in-global-context/",
+      "agentJsonPath": "/agents/articles/india-in-global-context.json",
+      "agentMarkdownPath": "/agents/articles/india-in-global-context.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 7,
+      "tokenEstimate": 195,
+      "contentHash": "5742b77c6207ba7ffde81785f57dfc69e8dd1490b315ccb7a83c1bf3fbe6e635"
+    }
+  ]
+}

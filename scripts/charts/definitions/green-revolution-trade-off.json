@@ -1,0 +1,10 @@
+{
+  "type": "multi_series_line",
+  "csv": "green-revolution-trade-off.csv",
+  "filename": "green-revolution-trade-off.svg",
+  "title": "The Green Revolution trade-off: output up, water tables down",
+  "x_key": "metric",
+  "y_label": "Index / depth in metres",
+  "source": "Evenson and Gollin; FAO AQUASTAT; illustrative index",
+  "caveat": "Output index is illustrative; water-depth trends vary by region and are shown as a directional signal."
+}

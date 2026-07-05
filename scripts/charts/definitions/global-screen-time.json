@@ -1,0 +1,12 @@
+{
+  "type": "horizontal_bar",
+  "csv": "global-screen-time.csv",
+  "filename": "global-screen-time.svg",
+  "title": "Estimated daily smartphone screen time by country",
+  "x_key": "country",
+  "y_key": "minutes_per_day",
+  "x_label": "Minutes per day",
+  "unit": " min",
+  "source": "DataReportal Digital 2025 and industry estimates",
+  "caveat": "Figures are estimates and vary by methodology; mobile-first countries tend to rank higher."
+}

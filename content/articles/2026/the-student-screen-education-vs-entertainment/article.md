@@ -22,7 +22,7 @@ agentArtifact: /agents/articles/the-student-screen-education-vs-entertainment.js
 sourcePath: content/articles/2026/the-student-screen-education-vs-entertainment/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 1: The Diagnosis</p>
+<p class="article-kicker">Attention, Substance, and the AI Moment · Part 1</p>
 
 For most Indian teenagers, the smartphone is no longer a luxury. It is the textbook they did not ask for, the tuition center that fits in a pocket, and the cinema, arcade, and gossip circle that never close. The country has solved access: roughly <a href="https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf">886 million internet users</a> and <a href="https://www.trade.gov/country-commercial-guides/india-digital-economy">650 million smartphone users</a>, cheap data, and content in dozens of languages. The unsolved problem is use.
 

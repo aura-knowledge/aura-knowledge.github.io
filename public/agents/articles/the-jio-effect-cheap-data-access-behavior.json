@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 3,
+  "id": "article:the-jio-effect-cheap-data-access-behavior",
+  "slug": "the-jio-effect-cheap-data-access-behavior",
+  "title": "The Jio Effect: Cheap Data and the Access-Behavior Paradox",
+  "canonicalPath": "/articles/the-jio-effect-cheap-data-access-behavior/",
+  "sourcePath": "content/articles/2026/the-jio-effect-cheap-data-access-behavior/article.md",
+  "agentBriefPath": "content/articles/2026/the-jio-effect-cheap-data-access-behavior/agent.md",
+  "thesis": "The Jio-led collapse in mobile-data prices made India one of the world's largest and cheapest internet markets, but the behavioral dividend has gone more toward consumption than creation or learning.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "history",
+    "infrastructure",
+    "short-form-video"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 17,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Jio's 2016 launch reduced Indian mobile-data prices to among the lowest in the world.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-trai-pricing",
+          "snippet": "TRAI Performance Indicators Reports document the post-2016 collapse in data average revenue per user as incumbents matched Jio's tariffs.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-itu-affordability",
+          "snippet": "ITU affordability data consistently ranks India among the cheapest large markets for mobile broadband relative to income.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Price comparisons depend on plan type, network quality, and purchasing-power adjustments; 'among the lowest' is a relative claim that can shift with methodology.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "India added hundreds of millions of internet users in the following years, many in rural areas and on low-cost smartphones.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-iamai-kantar-2024",
+          "snippet": "The Internet in India Report 2024 describes India as one of the world's largest online populations, with rural India driving much of the remaining growth.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "User counts are estimates that vary across reports; 'added hundreds of millions' reflects net growth over several years and includes users who may have multiple connections or inactive accounts.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "The same low-cost data enabled a surge in short-form video, gaming, and messaging.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-bain-short-form-india",
+          "snippet": "Bain's report on the rise of short-form video in India documents rapid growth in short-form video consumption and user time spent.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-iamai-kantar-2024",
+          "snippet": "The Internet in India Report 2024 finds that entertainment, social media, and messaging dominate reported internet use.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Low-cost data enabled many kinds of use, including education, banking, and telemedicine; the surge in entertainment is a pattern, not the only outcome, and causality is shaped by platform design and user choice.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "The access success now raises a use question: can the same infrastructure be redirected toward productivity and learning?",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-iamai-kantar-2024",
+          "snippet": "The same report notes near-universal access and a usage mix dominated by entertainment, implying that infrastructure alone does not determine productive use.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-itu-affordability",
+          "snippet": "Affordability removed a binding constraint on access, shifting the policy question from connectivity to quality and use of access.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Productivity and learning uses are growing too; the ratio, not the existence of productive use, is the concern, and redirecting use requires changes in design, incentives, and norms, not just infrastructure.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-trai-pricing",
+      "title": "TRAI: Indian Telecom Services Performance Indicators",
+      "url": "https://www.trai.gov.in/release-publication/reports/performance-indicators-reports",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-iamai-kantar-2024",
+      "title": "IAMAI-Kantar: Internet in India Report 2024",
+      "url": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-itu-affordability",
+      "title": "ITU: Affordability of ICT services",
+      "url": "https://www.itu.int/itu-d/reports/statistics/affordability-of-ict-services-2023/",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-bain-short-form-india",
+      "title": "Bain: The Rise of Short-Form Video in India",
+      "url": "https://www.bain.com/insights/the-rise-of-short-form-video-in-india/",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:the-reel-nation-short-form-video"
+    },
+    {
+      "type": "article",
+      "id": "article:historical-hinges-access-is-not-benefit"
+    }
+  ],
+  "agentInstructions": [
+    "Treat the Jio launch as a structural inflection point, not a moral judgment about any company or user.",
+    "Keep the access dividend and the attention-extraction cost in balance; do not let one erase the other.",
+    "Cite only the public sources listed in the artifact; flag industry estimates as estimates.",
+    "When readers ask about AI, connect the Jio pattern to the AI opportunity-cost chapters: cheap infrastructure plus default design determines whether a technology builds substance or extracts attention."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:dae3dc95301e21d9fd3983bdbc97036591c08787565a042182aa0db9059c4ca7",
+        "outputHash": "sha256:dae3dc95301e21d9fd3983bdbc97036591c08787565a042182aa0db9059c4ca7"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "a7e6c9e3bb5844fe3469c9ce849cbb547700d9f59e374a603c2292503261f273"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "a7e6c9e3bb5844fe3469c9ce849cbb547700d9f59e374a603c2292503261f273",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/the-jio-effect-cheap-data-access-behavior/",
+  "agentJsonPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.json",
+  "agentMarkdownPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.md",
+  "sourceRepoPath": "content/articles/2026/the-jio-effect-cheap-data-access-behavior/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/the-jio-effect-cheap-data-access-behavior/article.md",
+  "tokenEstimate": 372,
+  "sectionOutline": [
+    {
+      "id": "the-price-collapse",
+      "title": "The Price Collapse"
+    },
+    {
+      "id": "the-access-explosion",
+      "title": "The Access Explosion"
+    },
+    {
+      "id": "the-behavior-that-followed",
+      "title": "The Behavior That Followed"
+    },
+    {
+      "id": "the-access-behavior-paradox",
+      "title": "The Access-Behavior Paradox"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

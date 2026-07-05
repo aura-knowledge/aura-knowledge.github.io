@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "topic": "adult-learning",
+  "articleIds": [
+    "article:the-workers-garden"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/adult-learning/",
+  "agentJsonPath": "/agents/topics/adult-learning.json",
+  "articles": [
+    {
+      "id": "article:the-workers-garden",
+      "slug": "the-workers-garden",
+      "title": "The Worker's Garden: Commutes, Side Projects, and Career Capital",
+      "summary": "Practical strategies for working adults to reclaim commute and downtime for small acts of learning and creation.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "career",
+        "productivity",
+        "side-projects",
+        "adult-learning",
+        "artificial-intelligence"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "career",
+        "productivity",
+        "side-projects",
+        "adult-learning",
+        "artificial-intelligence"
+      ],
+      "canonicalPath": "/articles/the-workers-garden/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-workers-garden/",
+      "agentJsonPath": "/agents/articles/the-workers-garden.json",
+      "agentMarkdownPath": "/agents/articles/the-workers-garden.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 526,
+      "contentHash": "f28e4e718becf603328a3254ccea6537818f96b67f15980bfa50fb3ae15d148c"
+    }
+  ]
+}

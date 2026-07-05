@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 3,
+  "id": "article:friction-chronological-feeds-user-chosen-algorithms",
+  "slug": "friction-chronological-feeds-user-chosen-algorithms",
+  "title": "Friction, Chronological Feeds, and User-Chosen Algorithms",
+  "canonicalPath": "/articles/friction-chronological-feeds-user-chosen-algorithms/",
+  "sourcePath": "content/articles/2026/friction-chronological-feeds-user-chosen-algorithms/article.md",
+  "agentBriefPath": "content/articles/2026/friction-chronological-feeds-user-chosen-algorithms/agent.md",
+  "thesis": "Platform design can reduce attention extraction through well-tested interventions: chronological feeds, friction before sharing or scrolling, and user-chosen ranking algorithms.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "design",
+    "social-media",
+    "misinformation",
+    "algorithms"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 42,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Chronological feeds reduce the power of engagement-optimized recommendations by removing the ranking signal that rewards time on site and emotional reactions.",
+      "confidence": "high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-twitter-chronological",
+          "snippet": "Twitter reintroduced a chronological timeline option after user pressure, demonstrating that platforms can offer non-engagement-based ordering at scale.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-instagram-well-being",
+          "snippet": "Instagram well-being research explored interventions such as hidden likes and feed changes that reduce social comparison and engagement pressure.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Chronological feeds can still surface polarizing or misleading content and may bury high-quality posts that a user would have valued but missed due to timing.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Friction before sharing—such as asking whether a user wants to share unverified content—reduces the spread of misinformation without blocking speech.",
+      "confidence": "medium-high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-penn-facebook-friction",
+          "snippet": "A Penn/Stanford study of Facebook users found that small delays and prompts asking users to reconsider sharing reduced the spread of misleading content.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-instagram-well-being",
+          "snippet": "Instagram well-being research explored prompt-based and friction-like interventions designed to slow impulsive sharing and reduce social comparison.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Users may habituate to prompts over time, bypass friction through screenshots, or share off-platform, limiting long-term effectiveness.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "User-chosen algorithm modes give agency back to users by letting them select ranking criteria without requiring them to leave the platform.",
+      "confidence": "medium-high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-eu-dma",
+          "snippet": "The EU Digital Markets Act requires large platforms to increase interoperability and user choice around data and ranking, establishing user-chosen algorithms as a regulatory direction.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-twitter-chronological",
+          "snippet": "Platform documentation for chronological timeline options shows that user-selectable feed modes are technically viable at scale.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Most users stick with defaults, so offering choice without changing the default may leave most behavior unchanged.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "These design changes are technically feasible but often conflict with ad-supported business models that optimize for engagement, time on site, and viral distribution.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-instagram-well-being",
+          "snippet": "Platform well-being research has been cautious and partial, suggesting that business incentives limit how deeply engagement-reducing designs are deployed as defaults.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-penn-facebook-friction",
+          "snippet": "Experimental evidence that friction reduces sharing has not been matched by default deployment, indicating a business-model constraint rather than a technical one.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Less extractive design may improve long-term trust, retention, and brand value, so the conflict with ad-supported models is not absolute and depends on time horizon.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-penn-facebook-friction",
+      "title": "Penn/Stanford: The Effects of Facebook Feed Friction",
+      "url": "https://www.nber.org/papers/w30214",
+      "type": "paper",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-twitter-chronological",
+      "title": "Twitter: Chronological timeline option",
+      "url": "https://help.twitter.com/en/using-x/home-timeline",
+      "type": "website",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-instagram-well-being",
+      "title": "Instagram: Hidden likes and well-being research",
+      "url": "https://about.instagram.com/blog/announcements/instagram-well-being-research",
+      "type": "article",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-eu-dma",
+      "title": "EU Digital Markets Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-markets-act",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-pew-social-media",
+      "title": "Pew Research Center: Social Media and News",
+      "url": "https://www.pewresearch.org/journalism/fact-sheet/news-use-across-social-media-platforms/",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "article",
+      "id": "article:engagement-is-a-design-choice"
+    },
+    {
+      "type": "article",
+      "id": "article:business-models-that-reward-substance"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit and distinguish technical feasibility from actual platform deployment.",
+    "Preserve the plain-language, evidence-cautious tone; do not imply that any single design intervention eliminates attention extraction.",
+    "When citing sources, use the source IDs and URLs from the artifact; do not generalize beyond the public evidence.",
+    "Route questions about Indian regulation to the DSA/IT Rules/DPDP article and business-model questions to Business Models That Reward Substance.",
+    "Flag any platform behavior claim as experimental, deployed-but-buried, or default depending on the evidence.",
+    "Article includes a 'Visual Summary' Mermaid diagram contrasting engagement-optimized defaults (infinite scroll, autoplay, algorithmic ranking, one-tap share) with substance-oriented defaults (chronological feed, friction before sharing, user-chosen algorithms, visible choice)."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:4717b32b9eb93a4961839a8a0003f3aba3d267ec07fc4d7b67a7156e11b9cd9b",
+        "outputHash": "sha256:4717b32b9eb93a4961839a8a0003f3aba3d267ec07fc4d7b67a7156e11b9cd9b"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "21521e52b917b8a7564cddfdbfaf85536a76943b744c02e3c161db15cd5cc3ef"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "21521e52b917b8a7564cddfdbfaf85536a76943b744c02e3c161db15cd5cc3ef",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
+  "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json",
+  "agentMarkdownPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.md",
+  "sourceRepoPath": "content/articles/2026/friction-chronological-feeds-user-chosen-algorithms/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/friction-chronological-feeds-user-chosen-algorithms/article.md",
+  "tokenEstimate": 277,
+  "sectionOutline": [
+    {
+      "id": "chronological-feeds",
+      "title": "Chronological Feeds"
+    },
+    {
+      "id": "friction-before-sharing",
+      "title": "Friction Before Sharing"
+    },
+    {
+      "id": "user-chosen-algorithms",
+      "title": "User-Chosen Algorithms"
+    },
+    {
+      "id": "visual-summary",
+      "title": "Visual Summary"
+    },
+    {
+      "id": "why-the-changes-are-hard",
+      "title": "Why the Changes Are Hard"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 3,
+  "id": "article:historical-analogies-of-missed-transitions",
+  "slug": "historical-analogies-of-missed-transitions",
+  "title": "Historical Analogies of Missed Transitions",
+  "canonicalPath": "/articles/historical-analogies-of-missed-transitions/",
+  "sourcePath": "content/articles/2026/historical-analogies-of-missed-transitions/article.md",
+  "agentBriefPath": "content/articles/2026/historical-analogies-of-missed-transitions/agent.md",
+  "thesis": "Countries that missed earlier technological transitions—industrialization, electrification, personal computing, and the early internet—suffered persistent income and sovereignty gaps; India's AI moment is the next such hinge.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "artificial-intelligence",
+    "history",
+    "productivity",
+    "economic-development"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 27,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Late industrialization was associated with slower long-run income growth and greater dependency.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-maddison-project",
+          "snippet": "The Maddison Project Database documents long-run GDP per capita trajectories showing wide and persistent income gaps between early industrializers and late adopters.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-acemoglu-industrialization",
+          "snippet": "Acemoglu and Robinson argue that inclusive institutions and broad-based productive capacity shaped which nations sustained growth after industrialization.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some late industrializers, such as parts of East Asia, caught up rapidly through deliberate policy and investment; history is not deterministic.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "The PC and early-internet divide left lasting productivity gaps between adopters and laggards.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-world-bank-digital",
+          "snippet": "The World Development Report 2016 finds that digital dividends are uneven and depend on complementary investments in human capital, competition, and institutions.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Leapfrogging in mobile telephony and payments shows that late adopters can skip earlier infrastructure stages under the right conditions.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "AI is likely to have a similar compounding effect on productivity, defense, and scientific discovery.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-imf-gen-ai-labor",
+          "snippet": "IMF analysis suggests generative AI could raise productivity but warns that gains may be concentrated in economies with stronger digital infrastructure and cognitive-task employment.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "AI's economic impact remains uncertain; productivity gains from previous general-purpose technologies took decades to materialize and were shaped by policy choices.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "India's large talent base gives it a window, but the window is not indefinitely open.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-nasscom-india-ai-adoption",
+          "snippet": "NASSCOM reports document India's large technology workforce, startup ecosystem, and growing AI adoption across services and enterprises.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Talent alone does not guarantee leadership; domestic research funding, compute infrastructure, data governance, and platform economics also matter.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-maddison-project",
+      "title": "Maddison Project Database",
+      "url": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023",
+      "type": "dataset",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-acemoglu-industrialization",
+      "title": "Acemoglu and Robinson: Why Nations Fail",
+      "url": "https://en.wikipedia.org/wiki/Why_Nations_Fail",
+      "type": "book",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-world-bank-digital",
+      "title": "World Bank: World Development Report 2016 - Digital Dividends",
+      "url": "https://www.worldbank.org/en/publication/wdr2016",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-imf-gen-ai-labor",
+      "title": "IMF: Gen-AI - Artificial Intelligence and the Future of Work",
+      "url": "https://www.imf.org/en/Publications/Staff-Discussion-Notes/Issues/2024/01/14/Gen-AI-Artificial-Intelligence-and-the-Future-of-Work-542379",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-nasscom-india-ai-adoption",
+      "title": "NASSCOM: India AI Adoption and Technology Industry Reports",
+      "url": "https://nasscom.in/knowledge-center/publications",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:ai-could-make-extraction-cheaper-too"
+    },
+    {
+      "type": "article",
+      "id": "article:bhashini-and-the-indic-language-ai-moment"
+    }
+  ],
+  "agentInstructions": [
+    "Treat historical comparisons as analogies, not deterministic predictions; avoid saying history guarantees any AI outcome.",
+    "Route evidentiary questions to the specific claim ID and source; do not generalize beyond the cited evidence.",
+    "Preserve the evidence-cautious tone; do not sensationalize AI's national impact.",
+    "Flag estimates, cross-country comparisons, and analogy-based claims as such when summarizing or answering questions.",
+    "When discussing India, distinguish between talent potential and realized outcomes; the window is open but narrowing.",
+    "The article includes an illustrative GDP-per-capita trajectory chart (Mermaid xychart-beta) comparing India, China, South Korea, Argentina, and Nigeria from 1950 to 2020; treat the values as approximate trend indicators, not precise estimates."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:2c7da9121a2a11c3820239ff74acc5cbe0484c3211ec804e8f71bfad9d39bd13",
+        "outputHash": "sha256:2c7da9121a2a11c3820239ff74acc5cbe0484c3211ec804e8f71bfad9d39bd13"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author reviewed and approved the draft.",
+        "contentHash": "f8d7648a11dc2580fd1d8984244dfc3249c23a4251f1b38b96816b6aec01bafd"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "f8d7648a11dc2580fd1d8984244dfc3249c23a4251f1b38b96816b6aec01bafd"
+}

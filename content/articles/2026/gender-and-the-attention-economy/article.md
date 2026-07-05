@@ -21,7 +21,7 @@ agentArtifact: /agents/articles/gender-and-the-attention-economy.json
 sourcePath: content/articles/2026/gender-and-the-attention-economy/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 2: Historical and Human Frames</p>
+<p class="article-kicker">Attention, Substance, and the AI Moment · Part 2</p>
 
 India's digital story is usually told as a universal access story: cheaper data, cheaper phones, more users. But access is not experienced uniformly. Gender shapes when people come online, what devices they control, how much uninterrupted time they have, and what risks they face for being visible.
 

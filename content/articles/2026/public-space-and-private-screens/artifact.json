@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 3,
+  "id": "article:public-space-and-private-screens",
+  "slug": "public-space-and-private-screens",
+  "title": "Public Space and Private Screens: The Commute Is Not Empty",
+  "canonicalPath": "/articles/public-space-and-private-screens/",
+  "sourcePath": "content/articles/2026/public-space-and-private-screens/article.md",
+  "agentBriefPath": "content/articles/2026/public-space-and-private-screens/agent.md",
+  "thesis": "When shared physical spaces become collections of private screens, societies lose low-cost channels for knowledge exchange, solidarity, and cross-class encounter that no app can fully replace.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "design",
+    "social-cohesion",
+    "public-space"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 4,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Mass-media participation is nearly universal in India, while voluntary social participation has fallen sharply.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-nsso-time-use-2024",
+          "snippet": "The NSSO Time Use Survey 2024 finds that 93% of Indians aged 6 and above participate in mass media or leisure activities, while voluntary social participation has declined.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-putnam-bowling-alone",
+          "snippet": "Putnam documents the decline of in-person civic engagement and voluntary association in modern societies.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The NSSO survey measures participation categories, not platform-specific attention or the quality of social interaction; some digital participation may also be social.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Public transit and waiting spaces in India show high rates of individual screen use across income groups.",
+      "confidence": "medium",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-nsso-time-use-2024",
+          "snippet": "Rising leisure time and near-universal mass-media participation suggest large amounts of screen use occur in public and transit contexts.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-pew-mobile-etiquette-2015",
+          "snippet": "A Pew study found that 23% of cellphone owners in the U.S. used their phones in public to avoid interacting with others, illustrating how devices reshape public behavior.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "There is no nationally representative India survey of transit or public-space screen use; the claim rests on observational pattern and inference rather than census data.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Incidental conversation in public spaces historically served as a low-cost channel for information, apprenticeship, and social cohesion.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-oldenburg-third-places",
+          "snippet": "Oldenburg argues that third places — informal public gathering spots — are anchors of community life and facilitate creative interaction across social boundaries.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-putnam-bowling-alone",
+          "snippet": "Putnam links routine in-person association to the formation of social capital, trust, and civic engagement.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-nsso-time-use-2024",
+          "snippet": "The NSSO Time Use Survey 2024 shows near-universal mass-media participation alongside declining voluntary social participation, implying an opportunity cost for incidental public interaction.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Not all incidental public interaction is positive; harassment, discrimination, and unwanted contact can make withdrawal a rational and protective choice.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Headphones and private feeds convert shared space into parallel solitude, making social withdrawal feel like a norm.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-pew-mobile-etiquette-2015",
+          "snippet": "Pew found that a significant share of cellphone owners use phones in public to avoid interaction, normalizing device-mediated withdrawal.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-turkle-alone-together",
+          "snippet": "Turkle describes 'alone together' — physical proximity combined with psychological distance created by always-on personal devices.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Headphones and feeds can also create personal safety, autonomy, and restorative solitude in crowded or stressful environments; withdrawal is not always a loss.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-nsso-time-use-2024",
+      "title": "NSSO Time Use Survey 2024 Factsheet",
+      "url": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-putnam-bowling-alone",
+      "title": "Robert Putnam: Bowling Alone",
+      "url": "https://en.wikipedia.org/wiki/Bowling_Alone",
+      "type": "book",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-oldenburg-third-places",
+      "title": "Ray Oldenburg: The Great Good Place",
+      "url": "https://en.wikipedia.org/wiki/Third_place",
+      "type": "book",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-pew-mobile-etiquette-2015",
+      "title": "Pew Research Center: Americans' Views on Mobile Etiquette",
+      "url": "https://www.pewinternet.org/2015/08/26/americans-views-on-mobile-etiquette/",
+      "type": "survey",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-turkle-alone-together",
+      "title": "Sherry Turkle: Alone Together",
+      "url": "https://en.wikipedia.org/wiki/Sherry_Turkle",
+      "type": "book",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:the-reel-nation-short-form-video"
+    },
+    {
+      "type": "article",
+      "id": "article:the-student-screen-education-vs-entertainment"
+    }
+  ],
+  "agentInstructions": [
+    "Treat the article as observational and structural, not as a strict causal claim about phones causing civic decline.",
+    "Use claim IDs as the retrieval unit and route quantitative or mental-health questions to the appropriate Diagnosis articles.",
+    "Preserve the evidence-cautious tone; acknowledge that digital connection and personal safety are valid reasons for withdrawal.",
+    "When citing sources, use the source IDs and URLs from the artifact; do not invent India-specific transit screen-time data.",
+    "Refer to related articles by title and canonical path, not by internal arc or lane labels.",
+    "A before-and-after Mermaid diagram comparing a shared train compartment in 2005 and 2025 is embedded after Claim C2; preserve it when editing the article."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:366539f42f4385c0b98357da55b3335d5b967a1b3c93462e7c7c0206540f3fc4",
+        "outputHash": "sha256:366539f42f4385c0b98357da55b3335d5b967a1b3c93462e7c7c0206540f3fc4"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "a6b188c0cb5f28a1ccc4d40f2d8ad67ceb0a27e23ab576b5d5b15efb7d6997c8"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "a6b188c0cb5f28a1ccc4d40f2d8ad67ceb0a27e23ab576b5d5b15efb7d6997c8"
+}

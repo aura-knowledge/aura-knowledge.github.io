@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:the-life-phase-thread
 articleId: article:the-life-phase-thread
 slug: the-life-phase-thread
-title: 'Agent Brief for "The Life-Phase Thread"'
+title: "Agent Brief for 'The Life-Phase Thread'"
 tokenBudget: 1500
 status: published
 updated: 2026-07-05

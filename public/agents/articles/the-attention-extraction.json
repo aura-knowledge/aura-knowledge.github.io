@@ -348,7 +348,7 @@
           "sources"
         ],
         "notes": "Human author approved publication.",
-        "contentHash": "5b81fd168cb7606da30f36bd9a7c235d4b1977f8cae02a9e8ec4e1e628ce5fe9"
+        "contentHash": "a7b6211099e0e919f7287ce0d0569b8a5f13cae6ee9e4bff5b80f00e4aee5cb4"
       }
     ],
     "policy": {
@@ -356,7 +356,7 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "5b81fd168cb7606da30f36bd9a7c235d4b1977f8cae02a9e8ec4e1e628ce5fe9",
+  "contentHash": "a7b6211099e0e919f7287ce0d0569b8a5f13cae6ee9e4bff5b80f00e4aee5cb4",
   "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
   "agentJsonPath": "/agents/articles/the-attention-extraction.json",
