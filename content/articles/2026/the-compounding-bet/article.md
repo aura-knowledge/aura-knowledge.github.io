@@ -65,6 +65,8 @@ xychart-beta
 
 *The chart above is illustrative, not empirical. The exact rates are arbitrary; the shape is the point.*
 
+*Accessible description: The line chart shows two hypothetical paths over ten years. One line starts at a skill index of 100 and compounds upward to roughly 259, representing small daily learning choices. The other line starts at 100 and declines to roughly 59, representing daily attention diverted to distraction. The shape, not the exact numbers, is the point.*
+
 <span id="claim-004" class="claim-marker" data-claim="claim-004">Claim C4</span> Small daily choices about attention compound over years into large differences in individual skill; multiplied across a young population, those differences become differences in national capacity.
 
 The student who uses AI to interrogate an idea builds a mind. The student who uses it to finish homework builds a transcript. The worker who spends a commute learning builds a skill stack. The worker who spends it scrolling builds a tolerance for boredom. The parent who is present teaches attention by example. These differences are slow and uneven, which is why they are easy to dismiss in the moment. They are also why they matter.

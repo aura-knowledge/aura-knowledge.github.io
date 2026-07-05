@@ -346,7 +346,7 @@
           "sources"
         ],
         "notes": "Human author approved publication.",
-        "contentHash": "d882ba77ff9280c221b6ee69a48d916c57e4234be70426b9cd1e4c8bffc11d12"
+        "contentHash": "0c0895ce5054a37dcb895f36204883b905464bba6a736b441219cab2911e21d9"
       }
     ],
     "policy": {
@@ -354,7 +354,7 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "d882ba77ff9280c221b6ee69a48d916c57e4234be70426b9cd1e4c8bffc11d12",
+  "contentHash": "0c0895ce5054a37dcb895f36204883b905464bba6a736b441219cab2911e21d9",
   "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
   "agentJsonPath": "/agents/articles/the-compounding-bet.json",

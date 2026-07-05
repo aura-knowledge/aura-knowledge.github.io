@@ -107,6 +107,8 @@ flowchart LR
 
 *Diagram: business model and success metric form a loop with ranking signals, user experience, and behavior. Changing any node changes the others.*
 
+*Accessible description: The flowchart shows a feedback loop. Business model (ad-supported or subscription/public/cooperative) feeds into success metric (time spent or time well spent), which feeds into ranking signal (predicted engagement or stated preference/quality/friction), which feeds into user experience, which shapes behavior, which feeds back into the success metric. Arrows also show alternative inputs entering business model, success metric, and ranking signal.*
+
 <h2 id="sources-and-method">Sources and Method</h2>
 
 This article draws on peer-reviewed experiments (Milli et al., <em>PNAS Nexus</em>; Brady et al., <em>Science Advances</em>), consulting and industry research (BCG's <em>From Content to Commerce: Mapping India's Creator Economy</em>), regulatory filings (Meta and Google India ROC filings), government policy documents (Economic Survey 2025–26, EU Digital Services Act, India's IT Rules 2021 and DPDP Act 2023), and judicial records (Kerala High Court, December 2024). Experimental findings are described as causal within the study conditions; business-model figures are described as reported revenue, not social cost. Global platform-design findings are applied to India as structural parallels, not as India-specific measurements unless stated.
