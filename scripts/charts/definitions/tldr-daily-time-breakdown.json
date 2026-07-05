@@ -1,0 +1,12 @@
+{
+  "type": "horizontal_bar",
+  "csv": "tldr-daily-time-breakdown.csv",
+  "filename": "tldr-daily-time-breakdown.svg",
+  "title": "Where the hours go: estimated daily screen time by activity",
+  "x_key": "activity",
+  "y_key": "daily_minutes",
+  "x_label": "Minutes per day",
+  "unit": " min",
+  "source": "NCAER IHDS Wave 3, IAMAI-Kantar 2024, NSSO Time Use Survey 2024",
+  "caveat": "Illustrative composite; actual time varies by age, region, and device. Laptop and phone time combined."
+}

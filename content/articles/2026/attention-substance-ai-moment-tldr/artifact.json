@@ -452,7 +452,7 @@
           "privacy"
         ],
         "notes": "Human author approved publication as a TLDR summary of the series.",
-        "contentHash": "2673cbd3f170a71c0b88f6dbdebb8ae91136bd3cd99eb0394d571c33a94b4c60"
+        "contentHash": "c9ad6c598484b4fe6fa808eb83dbf9071c366b435239a820edef150abfc35f20"
       }
     ],
     "policy": {
@@ -460,5 +460,5 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "2673cbd3f170a71c0b88f6dbdebb8ae91136bd3cd99eb0394d571c33a94b4c60"
+  "contentHash": "c9ad6c598484b4fe6fa808eb83dbf9071c366b435239a820edef150abfc35f20"
 }
