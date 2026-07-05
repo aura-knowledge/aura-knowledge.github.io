@@ -53,6 +53,12 @@ The diagnosis turns into stakes. Artificial intelligence is making creation, res
 **Movement 3: The Path Out** — Arcs 4, 5, and 6  
 The final movement moves from the individual to the system and back. It starts with what one person, family, student, or worker can do with reclaimed attention and AI as an assistant. Then it looks at how platforms, metrics, regulation, and business models could make substance the easier path. It closes with synthesis: a map of levers, product sketches, unresolved questions, and a reader’s guide. By the end the question is “What is the smallest version of this I can start building?”
 
+<h2 id="start-here">Start Here</h2>
+
+If you only have a few minutes, start with the one-article summary:
+
+- **[Attention, Substance, and the AI Moment: The TLDR](/articles/attention-substance-ai-moment-tldr/)** — The best data, the core argument, and the simplest thing one person can do.
+
 <h2 id="the-articles">The Articles</h2>
 
 ### Part 1: The Diagnosis

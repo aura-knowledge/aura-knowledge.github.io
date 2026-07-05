@@ -6,7 +6,7 @@
   "generatedAt": "2026-07-05T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 1285
+    "totalResults": 1313
   },
   "dimensions": [
     {
@@ -332,6 +332,7 @@
         "statistics",
         "students",
         "summarization",
+        "summary",
         "symbolic-ai",
         "synthesis",
         "synthetic-media",
@@ -512,7 +513,7 @@
         "groupBy": "topic"
       },
       "resultType": "articles",
-      "resultCount": 432,
+      "resultCount": 437,
       "results": [
         {
           "articleId": "article:public-pressure-and-internal-accountability",
@@ -1068,6 +1069,13 @@
           "topic": "artificial-intelligence"
         },
         {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "topic": "artificial-intelligence"
+        },
+        {
           "articleId": "article:historical-analogies-of-missed-transitions",
           "slug": "historical-analogies-of-missed-transitions",
           "articleUrl": "https://aura-knowledge.github.io/articles/historical-analogies-of-missed-transitions/",
@@ -1191,6 +1199,13 @@
           "slug": "attention-substance-ai-moment",
           "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
           "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
           "topic": "attention-economy"
         },
         {
@@ -1845,6 +1860,13 @@
           "topic": "digital-wellbeing"
         },
         {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "topic": "digital-wellbeing"
+        },
+        {
           "articleId": "article:bhashini-and-the-indic-language-ai-moment",
           "slug": "bhashini-and-the-indic-language-ai-moment",
           "articleUrl": "https://aura-knowledge.github.io/articles/bhashini-and-the-indic-language-ai-moment/",
@@ -2430,6 +2452,13 @@
           "slug": "attention-substance-ai-moment",
           "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
           "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
           "topic": "india"
         },
         {
@@ -3175,6 +3204,13 @@
           "topic": "product-truth"
         },
         {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "topic": "productivity"
+        },
+        {
           "articleId": "article:historical-analogies-of-missed-transitions",
           "slug": "historical-analogies-of-missed-transitions",
           "articleUrl": "https://aura-knowledge.github.io/articles/historical-analogies-of-missed-transitions/",
@@ -3570,7 +3606,7 @@
         "confidence": "high"
       },
       "resultType": "claims",
-      "resultCount": 151,
+      "resultCount": 153,
       "results": [
         {
           "articleId": "article:a-map-of-levers",
@@ -3751,6 +3787,26 @@
           "claim": "India's digital-access success has created an attention-extraction economy that diverts time and talent away from learning, creation, and civic problem-solving, but the same infrastructure could be redirected toward substance if individuals, platforms, and policymakers make different choices.",
           "confidence": "high",
           "status": "framing"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "claimId": "claim-001",
+          "claim": "India has near-universal digital access, but entertainment and social media dominate online time, crowding out education and production among young users.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "claimId": "claim-002",
+          "claim": "Screen time is high, and short-form feeds are engineered to extend engagement beyond user intent.",
+          "confidence": "high",
+          "status": "core"
         },
         {
           "articleId": "article:before-machines",
@@ -5091,7 +5147,7 @@
         "groupBy": "sourceType"
       },
       "resultType": "sources",
-      "resultCount": 623,
+      "resultCount": 643,
       "results": [
         {
           "articleId": "article:the-engagement-gap-productivity-india",
@@ -5484,6 +5540,16 @@
           "sourceUrl": "https://calnewport.com/the-tao-of-cal/"
         },
         {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-cal-newport-deep-work",
+          "sourceTitle": "Cal Newport: Deep Work",
+          "sourceType": "book",
+          "sourceUrl": "https://www.calnewport.com/books/deep-work/"
+        },
+        {
           "articleId": "article:birth-of-ai",
           "slug": "birth-of-ai",
           "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
@@ -5742,6 +5808,16 @@
           "sourceTitle": "Gibson: The Ecological Approach to Visual Perception",
           "sourceType": "book",
           "sourceUrl": "https://www.hachettebookgroup.com/titles/james-j-gibson/the-ecological-approach-to-visual-perception/9780205238818/"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-bj-fogg-tiny-habits",
+          "sourceTitle": "BJ Fogg: Tiny Habits",
+          "sourceType": "book-website",
+          "sourceUrl": "https://tinyhabits.com/"
         },
         {
           "articleId": "article:the-substance-builder",
@@ -6354,6 +6430,36 @@
           "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2"
         },
         {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-pib-ncert-mental-health",
+          "sourceTitle": "PIB: NCERT Mental Health and Well-being Survey of School Students",
+          "sourceType": "government-press-release",
+          "sourceUrl": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1993919"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-pib-tele-manas",
+          "sourceTitle": "PIB Tele-MANAS Press Note",
+          "sourceType": "government-press-release",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=153277"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-pib-bhashini-2025",
+          "sourceTitle": "PIB: 22 Languages, Digitally Reimagined — Bhashini under the National Language Translation Mission",
+          "sourceType": "government-press-release",
+          "sourceUrl": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251025675501.pdf"
+        },
+        {
           "articleId": "article:by-the-numbers-what-indians-do-online",
           "slug": "by-the-numbers-what-indians-do-online",
           "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
@@ -6612,6 +6718,16 @@
           "sourceTitle": "EU Digital Services Act",
           "sourceType": "government-report",
           "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-nsso-time-use-2024",
+          "sourceTitle": "NSSO Time Use Survey 2024 Factsheet",
+          "sourceType": "government-report",
+          "sourceUrl": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf"
         },
         {
           "articleId": "article:bhashini-and-the-indic-language-ai-moment",
@@ -7192,6 +7308,36 @@
           "sourceTitle": "IAMAI-Kantar: Internet in India Report 2024",
           "sourceType": "industry-report",
           "sourceUrl": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-iamai-kantar-2024",
+          "sourceTitle": "IAMAI-Kantar: Internet in India Report 2024",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-gallup-global-workplace-india",
+          "sourceTitle": "Gallup State of the Global Workplace: India Country-Level Data",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.gallup.com/workplace/705650/state-global-workplace-india-country-level-data.aspx"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-nasscom-ai-adoption-index",
+          "sourceTitle": "NASSCOM: AI Adoption Index",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://nasscom.in/knowledge-center/publications/nasscom-ai-adoption-index"
         },
         {
           "articleId": "article:bhashini-and-the-indic-language-ai-moment",
@@ -7842,6 +7988,16 @@
           "sourceTitle": "World Economic Forum, Global Risks Report 2024",
           "sourceType": "international-report",
           "sourceUrl": "https://www.weforum.org/publications/global-risks-report-2024/"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-steelcase-attention-span",
+          "sourceTitle": "Steelcase: Our 47-Second Attention Span with Gloria Mark (transcript)",
+          "sourceType": "interview-transcript",
+          "sourceUrl": "https://www.steelcase.com/research/articles/our-47-second-attention-span-with-gloria-mark-s5-ep3-transcript/"
         },
         {
           "articleId": "article:the-attention-extraction",
@@ -9254,6 +9410,66 @@
           "sourceUrl": "https://www.nber.org/papers/w31161"
         },
         {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-ijip-adolescent-screen-time",
+          "sourceTitle": "International Journal of Indian Psychology: Impact of Digital Screen Time on Adolescents",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://ijip.in/wp-content/uploads/2024/09/18.01.171.20241203.pdf"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-pmc-rural-screen-time",
+          "sourceTitle": "PMC: Prevalence of excess screen time among secondary school children in rural India",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10876028/"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-pmc-short-video-attention",
+          "sourceTitle": "PMC: The adverse impact of mobile phone short-form video addiction on attentional functions and self-control",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11236742/"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-pmc-adolescent-mental-health",
+          "sourceTitle": "PMC: Social media and mental health among Indian adolescents",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11438920/"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-milli-divisive-content",
+          "sourceTitle": "Milli et al.: Engagement, User Satisfaction, and the Amplification of Divisive Content on Social Media (PNAS Nexus)",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://doi.org/10.1093/pnasnexus/pgaf062"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-anders-ericsson-deliberate-practice",
+          "sourceTitle": "Anders Ericsson: The Role of Deliberate Practice in the Acquisition of Expert Performance",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://psycnet.apa.org/record/1993-40718-001"
+        },
+        {
           "articleId": "article:by-the-numbers-what-indians-do-online",
           "slug": "by-the-numbers-what-indians-do-online",
           "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
@@ -10504,6 +10720,36 @@
           "sourceUrl": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf"
         },
         {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-ncaer-ihds-wave3",
+          "sourceTitle": "NCAER: The Evolving Landscape of Digital Inclusion in India (IHDS Wave 3)",
+          "sourceType": "research-report",
+          "sourceUrl": "https://ncaer.org/wp-content/uploads/2026/06/NCAER_Report_June_26.pdf"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-aser-2024",
+          "sourceTitle": "ASER 2024 National Findings",
+          "sourceType": "research-report",
+          "sourceUrl": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-oecd-genai-productivity-2025",
+          "sourceTitle": "OECD: The effects of generative AI on productivity, innovation and entrepreneurship",
+          "sourceType": "research-report",
+          "sourceUrl": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/the-effects-of-generative-ai-on-productivity-innovation-and-entrepreneurship_da1d085d/b21df222-en.pdf"
+        },
+        {
           "articleId": "article:business-models-that-reward-substance",
           "slug": "business-models-that-reward-substance",
           "articleUrl": "https://aura-knowledge.github.io/articles/business-models-that-reward-substance/",
@@ -11064,6 +11310,16 @@
           "sourceUrl": "https://www.oversightboard.com/wp-content/uploads/2024/06/Oversight-Board-2023-Annual-Report.pdf"
         },
         {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "sourceId": "source-yale-outrage-online",
+          "sourceTitle": "Yale News: Likes and shares teach people to express more outrage online",
+          "sourceType": "university-news",
+          "sourceUrl": "https://news.yale.edu/2021/08/13/likes-and-shares-teach-people-express-more-outrage-online"
+        },
+        {
           "articleId": "article:designing-for-substance",
           "slug": "designing-for-substance",
           "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
@@ -11333,7 +11589,7 @@
         "status": "published"
       },
       "resultType": "articles",
-      "resultCount": 79,
+      "resultCount": 80,
       "results": [
         {
           "articleId": "article:a-map-of-levers",
@@ -11424,6 +11680,12 @@
           "slug": "attention-substance-ai-moment",
           "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
           "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment-tldr",
+          "slug": "attention-substance-ai-moment-tldr",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json"
         },
         {
           "articleId": "article:audio-first-voice-consumption",
