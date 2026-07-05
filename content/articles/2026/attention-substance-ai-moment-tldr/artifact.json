@@ -2,11 +2,11 @@
   "schemaVersion": 3,
   "id": "article:attention-substance-ai-moment-tldr",
   "slug": "attention-substance-ai-moment-tldr",
-  "title": "Attention, Substance, and the AI Moment: The TLDR",
+  "title": "Your Phone Is a Power Tool. You're Using It as a Toy.",
   "canonicalPath": "/articles/attention-substance-ai-moment-tldr/",
   "sourcePath": "content/articles/2026/attention-substance-ai-moment-tldr/article.md",
   "agentBriefPath": "content/articles/2026/attention-substance-ai-moment-tldr/agent.md",
-  "thesis": "India's digital-access success has created an attention-extraction economy that diverts time and talent away from productivity, learning, and creation; the same mobile and AI tools could be redirected toward substance if individuals make deliberate choices.",
+  "thesis": "The most capable device most people own is optimized to keep them swiping rather than learning, creating, or building — but the same phone, used differently, could make people dramatically more capable with less effort than they think, and the choice to shift is in their hands right now.",
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
@@ -104,7 +104,7 @@
     },
     {
       "id": "claim-003",
-      "claim": "The costs of the attention economy show up in productivity, youth mental health, and social trust.",
+      "claim": "The costs show up in productivity, mental health, and attention capacity.",
       "confidence": "medium-high",
       "status": "core",
       "evidence": [
@@ -154,7 +154,7 @@
     },
     {
       "id": "claim-004",
-      "claim": "AI makes knowledge work dramatically cheaper, but the payoff depends on whether saved time is reinvested in learning and creation rather than recaptured by extraction.",
+      "claim": "AI makes productive work dramatically cheaper and more accessible, but only for people who choose to use it that way.",
       "confidence": "medium-high",
       "status": "core",
       "evidence": [
@@ -192,7 +192,7 @@
     },
     {
       "id": "claim-005",
-      "claim": "Individuals can redirect small windows of attention toward substance using AI as a journeyman assistant; the main cost is attention reclaimed from low-value consumption.",
+      "claim": "Small, repeated shifts from consumption to creation can compound into real capability, and the main cost is attention reclaimed from low-value scrolling.",
       "confidence": "medium-high",
       "status": "core",
       "evidence": [
@@ -452,7 +452,7 @@
           "privacy"
         ],
         "notes": "Human author approved publication as a TLDR summary of the series.",
-        "contentHash": "4b2a7bc85545730811e735f4fa576f45895785bfe268ca62a958a5e1f0408d98"
+        "contentHash": "1675a0ac342cc136a7b5ecb5af3b91d51884a0ef96cd2fde6190e612d704617c"
       }
     ],
     "policy": {
@@ -460,5 +460,5 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "4b2a7bc85545730811e735f4fa576f45895785bfe268ca62a958a5e1f0408d98"
+  "contentHash": "1675a0ac342cc136a7b5ecb5af3b91d51884a0ef96cd2fde6190e612d704617c"
 }
