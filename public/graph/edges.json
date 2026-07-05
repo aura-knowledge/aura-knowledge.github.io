@@ -2553,6 +2553,226 @@
       }
     },
     {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "article:attention-substance-ai-moment-tldr:claim-001",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "article:attention-substance-ai-moment-tldr:claim-002",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "article:attention-substance-ai-moment-tldr:claim-003",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "article:attention-substance-ai-moment-tldr:claim-004",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "article:attention-substance-ai-moment-tldr:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "article:ai-as-journeyman-assistant",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "article:attention-substance-ai-moment",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "article:by-the-numbers-what-indians-do-online",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "article:the-attention-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "article:the-design-of-extraction",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "article:the-generational-bet",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "article:the-reel-nation-short-form-video",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "article:the-substance-builder",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "article:what-ai-makes-cheap",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "topic:artificial-intelligence",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "topic:attention-economy",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "topic:digital-wellbeing",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "topic:india",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "topic:productivity",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "topic:attention-economy",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "topic:india",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment-tldr",
+      "to": "topic:productivity",
+      "type": "topic",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "article:attention-substance-ai-moment",
       "to": "article:attention-substance-ai-moment:claim-001",
       "type": "argues",
@@ -2615,6 +2835,16 @@
     {
       "from": "article:attention-substance-ai-moment",
       "to": "article:alternative-metrics-time-well-spent",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:attention-substance-ai-moment",
+      "to": "article:attention-substance-ai-moment-tldr",
       "type": "article",
       "provenance": {
         "reviewedAt": "2026-07-05",
@@ -13374,6 +13604,16 @@
     },
     {
       "from": "source-anders-ericsson-deliberate-practice",
+      "to": "article:attention-substance-ai-moment-tldr:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-anders-ericsson-deliberate-practice",
       "to": "article:the-substance-builder:claim-001",
       "type": "supports",
       "provenance": {
@@ -13455,6 +13695,16 @@
     {
       "from": "source-aser-2024",
       "to": "article:a-map-of-levers:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-aser-2024",
+      "to": "article:attention-substance-ai-moment-tldr:claim-001",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-05",
@@ -13914,6 +14164,16 @@
     },
     {
       "from": "source-bj-fogg-tiny-habits",
+      "to": "article:attention-substance-ai-moment-tldr:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-bj-fogg-tiny-habits",
       "to": "article:the-substance-builder:claim-001",
       "type": "supports",
       "provenance": {
@@ -14118,6 +14378,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-18",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-cal-newport-deep-work",
+      "to": "article:attention-substance-ai-moment-tldr:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -15794,6 +16064,16 @@
     },
     {
       "from": "source-gallup-global-workplace-india",
+      "to": "article:attention-substance-ai-moment-tldr:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-gallup-global-workplace-india",
       "to": "article:by-the-numbers-what-indians-do-online:claim-006",
       "type": "supports",
       "provenance": {
@@ -16494,6 +16774,16 @@
     },
     {
       "from": "source-iamai-kantar-2024",
+      "to": "article:attention-substance-ai-moment-tldr:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-iamai-kantar-2024",
       "to": "article:attention-substance-ai-moment:claim-001",
       "type": "supports",
       "provenance": {
@@ -16738,6 +17028,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ijip-adolescent-screen-time",
+      "to": "article:attention-substance-ai-moment-tldr:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -17724,6 +18024,16 @@
     },
     {
       "from": "source-milli-divisive-content",
+      "to": "article:attention-substance-ai-moment-tldr:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-milli-divisive-content",
       "to": "article:the-attention-extraction:claim-004",
       "type": "supports",
       "provenance": {
@@ -17934,6 +18244,16 @@
     },
     {
       "from": "source-nasscom-ai-adoption-index",
+      "to": "article:attention-substance-ai-moment-tldr:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-nasscom-ai-adoption-index",
       "to": "article:the-compounding-bet:claim-001",
       "type": "supports",
       "provenance": {
@@ -18045,6 +18365,26 @@
     {
       "from": "source-ncaer-ihds-wave3",
       "to": "article:a-map-of-levers:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ncaer-ihds-wave3",
+      "to": "article:attention-substance-ai-moment-tldr:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ncaer-ihds-wave3",
+      "to": "article:attention-substance-ai-moment-tldr:claim-004",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-05",
@@ -18474,6 +18814,16 @@
     },
     {
       "from": "source-nsso-time-use-2024",
+      "to": "article:attention-substance-ai-moment-tldr:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-nsso-time-use-2024",
       "to": "article:by-the-numbers-what-indians-do-online:claim-005",
       "type": "supports",
       "provenance": {
@@ -18665,6 +19015,26 @@
     {
       "from": "source-oecd-gen-ai-productivity",
       "to": "article:ai-as-journeyman-assistant:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-oecd-genai-productivity-2025",
+      "to": "article:attention-substance-ai-moment-tldr:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-oecd-genai-productivity-2025",
+      "to": "article:attention-substance-ai-moment-tldr:claim-005",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-05",
@@ -19134,6 +19504,16 @@
     },
     {
       "from": "source-pib-bhashini-2025",
+      "to": "article:attention-substance-ai-moment-tldr:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pib-bhashini-2025",
       "to": "article:what-ai-makes-cheap:claim-003",
       "type": "supports",
       "provenance": {
@@ -19264,10 +19644,30 @@
     },
     {
       "from": "source-pib-ncert-mental-health",
+      "to": "article:attention-substance-ai-moment-tldr:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pib-ncert-mental-health",
       "to": "article:the-attention-extraction:claim-004",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pib-tele-manas",
+      "to": "article:attention-substance-ai-moment-tldr:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -19354,6 +19754,16 @@
     },
     {
       "from": "source-pmc-adolescent-mental-health",
+      "to": "article:attention-substance-ai-moment-tldr:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pmc-adolescent-mental-health",
       "to": "article:the-attention-extraction:claim-004",
       "type": "supports",
       "provenance": {
@@ -19394,6 +19804,16 @@
     },
     {
       "from": "source-pmc-rural-screen-time",
+      "to": "article:attention-substance-ai-moment-tldr:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pmc-rural-screen-time",
       "to": "article:by-the-numbers-what-indians-do-online:claim-004",
       "type": "supports",
       "provenance": {
@@ -19425,6 +19845,16 @@
     {
       "from": "source-pmc-short-video-addiction",
       "to": "article:the-reel-nation-short-form-video:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-pmc-short-video-attention",
+      "to": "article:attention-substance-ai-moment-tldr:claim-002",
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-05",
@@ -20564,6 +20994,16 @@
     },
     {
       "from": "source-steelcase-attention-span",
+      "to": "article:attention-substance-ai-moment-tldr:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-steelcase-attention-span",
       "to": "article:the-attention-extraction:claim-003",
       "type": "supports",
       "provenance": {
@@ -21228,6 +21668,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-04",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-yale-outrage-online",
+      "to": "article:attention-substance-ai-moment-tldr:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-05",
         "reviewer": "generator",
         "status": "machine-generated"
       }

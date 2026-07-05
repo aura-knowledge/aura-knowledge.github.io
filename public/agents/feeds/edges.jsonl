@@ -253,6 +253,28 @@
 {"from":"article:alternative-metrics-time-well-spent","to":"topic:india","type":"covers"}
 {"from":"article:alternative-metrics-time-well-spent","to":"topic:metrics","type":"covers"}
 {"from":"article:alternative-metrics-time-well-spent","to":"topic:platform-governance","type":"covers"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"article:attention-substance-ai-moment-tldr:claim-001","type":"argues"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"article:attention-substance-ai-moment-tldr:claim-002","type":"argues"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"article:attention-substance-ai-moment-tldr:claim-003","type":"argues"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"article:attention-substance-ai-moment-tldr:claim-004","type":"argues"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"article:attention-substance-ai-moment-tldr:claim-005","type":"argues"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"article:ai-as-journeyman-assistant","type":"article"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"article:attention-substance-ai-moment","type":"article"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"article:by-the-numbers-what-indians-do-online","type":"article"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"article:the-attention-extraction","type":"article"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"article:the-design-of-extraction","type":"article"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"article:the-generational-bet","type":"article"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"article:the-reel-nation-short-form-video","type":"article"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"article:the-substance-builder","type":"article"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"article:what-ai-makes-cheap","type":"article"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"topic:artificial-intelligence","type":"covers"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"topic:attention-economy","type":"covers"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"topic:digital-wellbeing","type":"covers"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"topic:india","type":"covers"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"topic:productivity","type":"covers"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"topic:attention-economy","type":"topic"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"topic:india","type":"topic"}
+{"from":"article:attention-substance-ai-moment-tldr","to":"topic:productivity","type":"topic"}
 {"from":"article:attention-substance-ai-moment","to":"article:attention-substance-ai-moment:claim-001","type":"argues"}
 {"from":"article:attention-substance-ai-moment","to":"article:a-map-of-levers","type":"article"}
 {"from":"article:attention-substance-ai-moment","to":"article:a-readers-guide-to-the-series","type":"article"}
@@ -260,6 +282,7 @@
 {"from":"article:attention-substance-ai-moment","to":"article:ai-as-journeyman-assistant","type":"article"}
 {"from":"article:attention-substance-ai-moment","to":"article:ai-could-make-extraction-cheaper-too","type":"article"}
 {"from":"article:attention-substance-ai-moment","to":"article:alternative-metrics-time-well-spent","type":"article"}
+{"from":"article:attention-substance-ai-moment","to":"article:attention-substance-ai-moment-tldr","type":"article"}
 {"from":"article:attention-substance-ai-moment","to":"article:bhashini-and-the-indic-language-ai-moment","type":"article"}
 {"from":"article:attention-substance-ai-moment","to":"article:business-models-that-reward-substance","type":"article"}
 {"from":"article:attention-substance-ai-moment","to":"article:by-the-numbers-what-indians-do-online","type":"article"}
@@ -1335,6 +1358,7 @@
 {"from":"source-amazon-rufus","to":"article:agentic-commerce-product-truth:claim-008","type":"supports"}
 {"from":"source-amazon-rufus","to":"article:agentic-commerce-product-truth:claim-013","type":"supports"}
 {"from":"source-amershi-human-ai-guidelines","to":"article:ai-delegation-orchestration-04-control-loci-not-human-managers:claim-001","type":"supports"}
+{"from":"source-anders-ericsson-deliberate-practice","to":"article:attention-substance-ai-moment-tldr:claim-005","type":"supports"}
 {"from":"source-anders-ericsson-deliberate-practice","to":"article:the-substance-builder:claim-001","type":"supports"}
 {"from":"source-anders-ericsson-deliberate-practice","to":"article:the-substance-builder:claim-004","type":"supports"}
 {"from":"source-angel-one-google-india-fy25","to":"article:who-profits-advertising-foreign-platforms:claim-002","type":"supports"}
@@ -1344,6 +1368,7 @@
 {"from":"source-anthropic-prompting","to":"article:ai-agent-advanced-questions:claim-005","type":"supports"}
 {"from":"source-apa-adolescent-social-media","to":"article:age-appropriate-design:claim-002","type":"supports"}
 {"from":"source-aser-2024","to":"article:a-map-of-levers:claim-002","type":"supports"}
+{"from":"source-aser-2024","to":"article:attention-substance-ai-moment-tldr:claim-001","type":"supports"}
 {"from":"source-aser-2024","to":"article:attention-substance-ai-moment:claim-001","type":"supports"}
 {"from":"source-aser-2024","to":"article:by-the-numbers-what-indians-do-online:claim-003","type":"supports"}
 {"from":"source-aser-2024","to":"article:the-attention-extraction:claim-001","type":"supports"}
@@ -1389,6 +1414,7 @@
 {"from":"source-bhashini","to":"article:bhashini-and-the-indic-language-ai-moment:claim-003","type":"supports"}
 {"from":"source-bhashini","to":"article:the-citizens-garden:claim-002","type":"supports"}
 {"from":"source-big-bench","to":"article:evaluations:claim-004","type":"supports"}
+{"from":"source-bj-fogg-tiny-habits","to":"article:attention-substance-ai-moment-tldr:claim-005","type":"supports"}
 {"from":"source-bj-fogg-tiny-habits","to":"article:the-substance-builder:claim-001","type":"supports"}
 {"from":"source-bj-fogg-tiny-habits","to":"article:the-substance-builder:claim-003","type":"supports"}
 {"from":"source-boole-laws-thought","to":"article:formal-logic-to-computation:claim-001","type":"supports"}
@@ -1410,6 +1436,7 @@
 {"from":"source-by-the-numbers","to":"article:a-readers-guide-to-the-series:claim-004","type":"supports"}
 {"from":"source-c2pa","to":"article:agentic-commerce-product-truth:claim-011","type":"supports"}
 {"from":"source-c2pa","to":"article:agentic-commerce-product-truth:claim-013","type":"supports"}
+{"from":"source-cal-newport-deep-work","to":"article:attention-substance-ai-moment-tldr:claim-005","type":"supports"}
 {"from":"source-cal-newport-deep-work","to":"article:the-substance-builder:claim-001","type":"supports"}
 {"from":"source-cal-newport-deep-work","to":"article:the-substance-builder:claim-004","type":"supports"}
 {"from":"source-cal-newport-deep-work","to":"article:the-substance-builder:claim-005","type":"supports"}
@@ -1577,6 +1604,7 @@
 {"from":"source-ftc-fake-reviews-2024","to":"article:agentic-commerce-product-truth:claim-011","type":"supports"}
 {"from":"source-future-ai-path-automation","to":"article:ai-agent-advanced-questions:claim-006","type":"supports"}
 {"from":"source-gallup-global-workplace-india","to":"article:a-map-of-levers:claim-002","type":"supports"}
+{"from":"source-gallup-global-workplace-india","to":"article:attention-substance-ai-moment-tldr:claim-003","type":"supports"}
 {"from":"source-gallup-global-workplace-india","to":"article:by-the-numbers-what-indians-do-online:claim-006","type":"supports"}
 {"from":"source-gallup-global-workplace-india","to":"article:the-attention-extraction:claim-004","type":"supports"}
 {"from":"source-gallup-global-workplace-india","to":"article:the-better-question:claim-001","type":"supports"}
@@ -1647,6 +1675,7 @@
 {"from":"source-humane-tech","to":"article:alternative-metrics-time-well-spent:claim-004","type":"supports"}
 {"from":"source-humanetech-impact","to":"article:product-ideas-that-could-shift-incentives:claim-004","type":"supports"}
 {"from":"source-iamai-kantar-2024","to":"article:ai-could-make-extraction-cheaper-too:claim-003","type":"supports"}
+{"from":"source-iamai-kantar-2024","to":"article:attention-substance-ai-moment-tldr:claim-001","type":"supports"}
 {"from":"source-iamai-kantar-2024","to":"article:attention-substance-ai-moment:claim-001","type":"supports"}
 {"from":"source-iamai-kantar-2024","to":"article:by-the-numbers-what-indians-do-online:claim-001","type":"supports"}
 {"from":"source-iamai-kantar-2024","to":"article:historical-hinges-access-is-not-benefit:claim-004","type":"supports"}
@@ -1672,6 +1701,7 @@
 {"from":"source-ideasforindia-gender-digital-divide","to":"article:gender-and-the-attention-economy:claim-003","type":"supports"}
 {"from":"source-ideasforindia-gender-digital-divide","to":"article:gender-and-the-attention-economy:claim-007","type":"supports"}
 {"from":"source-iea-energy-ai","to":"article:human-systems:claim-005","type":"supports"}
+{"from":"source-ijip-adolescent-screen-time","to":"article:attention-substance-ai-moment-tldr:claim-002","type":"supports"}
 {"from":"source-ijip-adolescent-screen-time","to":"article:by-the-numbers-what-indians-do-online:claim-004","type":"supports"}
 {"from":"source-ijip-adolescent-screen-time","to":"article:the-student-screen-education-vs-entertainment:claim-004","type":"supports"}
 {"from":"source-ilo-genai-jobs","to":"article:human-systems:claim-002","type":"supports"}
@@ -1770,6 +1800,7 @@
 {"from":"source-microsoft-digital-defense","to":"article:ai-could-make-extraction-cheaper-too:claim-003","type":"supports"}
 {"from":"source-microsoft-research-bengaluru-polarization","to":"article:a-map-of-levers:claim-004","type":"supports"}
 {"from":"source-microsoft-work-trend-index-2025","to":"article:the-engagement-gap-productivity-india:claim-002","type":"supports"}
+{"from":"source-milli-divisive-content","to":"article:attention-substance-ai-moment-tldr:claim-003","type":"supports"}
 {"from":"source-milli-divisive-content","to":"article:the-attention-extraction:claim-004","type":"supports"}
 {"from":"source-milli-pnas-nexus-2025","to":"article:engagement-is-a-design-choice:claim-001","type":"supports"}
 {"from":"source-milli-pnas-nexus-2025","to":"article:engagement-is-a-design-choice:claim-002","type":"supports"}
@@ -1791,6 +1822,7 @@
 {"from":"source-mycin-1984","to":"article:ai-winters-expert-systems:claim-003","type":"supports"}
 {"from":"source-mycin-1984","to":"article:ai-winters-expert-systems:claim-004","type":"supports"}
 {"from":"source-mycin-1984","to":"article:ai-winters-expert-systems:claim-005","type":"supports"}
+{"from":"source-nasscom-ai-adoption-index","to":"article:attention-substance-ai-moment-tldr:claim-004","type":"supports"}
 {"from":"source-nasscom-ai-adoption-index","to":"article:the-compounding-bet:claim-001","type":"supports"}
 {"from":"source-nasscom-ai-adoption-index","to":"article:the-compounding-bet:claim-003","type":"supports"}
 {"from":"source-nasscom-ai-adoption-index","to":"article:what-ai-makes-cheap:claim-005","type":"supports"}
@@ -1803,6 +1835,8 @@
 {"from":"source-nasscom-talent","to":"article:the-demographic-dividend-is-not-automatic:claim-004","type":"supports"}
 {"from":"source-nature-antikythera-2006","to":"article:before-machines:claim-005","type":"supports"}
 {"from":"source-ncaer-ihds-wave3","to":"article:a-map-of-levers:claim-002","type":"supports"}
+{"from":"source-ncaer-ihds-wave3","to":"article:attention-substance-ai-moment-tldr:claim-001","type":"supports"}
+{"from":"source-ncaer-ihds-wave3","to":"article:attention-substance-ai-moment-tldr:claim-004","type":"supports"}
 {"from":"source-ncaer-ihds-wave3","to":"article:by-the-numbers-what-indians-do-online:claim-001","type":"supports"}
 {"from":"source-ncaer-ihds-wave3","to":"article:by-the-numbers-what-indians-do-online:claim-002","type":"supports"}
 {"from":"source-ncaer-ihds-wave3","to":"article:by-the-numbers-what-indians-do-online:claim-007","type":"supports"}
@@ -1845,6 +1879,7 @@
 {"from":"source-nsso-cams-dataforindia","to":"article:gender-and-the-attention-economy:claim-001","type":"supports"}
 {"from":"source-nsso-cams-dataforindia","to":"article:gender-and-the-attention-economy:claim-002","type":"supports"}
 {"from":"source-nsso-time-use-2024","to":"article:a-map-of-levers:claim-003","type":"supports"}
+{"from":"source-nsso-time-use-2024","to":"article:attention-substance-ai-moment-tldr:claim-002","type":"supports"}
 {"from":"source-nsso-time-use-2024","to":"article:by-the-numbers-what-indians-do-online:claim-005","type":"supports"}
 {"from":"source-nsso-time-use-2024","to":"article:public-space-and-private-screens:claim-001","type":"supports"}
 {"from":"source-nsso-time-use-2024","to":"article:public-space-and-private-screens:claim-002","type":"supports"}
@@ -1865,6 +1900,8 @@
 {"from":"source-oecd-gen-ai-productivity","to":"article:ai-as-journeyman-assistant:claim-002","type":"supports"}
 {"from":"source-oecd-gen-ai-productivity","to":"article:ai-as-journeyman-assistant:claim-003","type":"supports"}
 {"from":"source-oecd-gen-ai-productivity","to":"article:ai-as-journeyman-assistant:claim-004","type":"supports"}
+{"from":"source-oecd-genai-productivity-2025","to":"article:attention-substance-ai-moment-tldr:claim-004","type":"supports"}
+{"from":"source-oecd-genai-productivity-2025","to":"article:attention-substance-ai-moment-tldr:claim-005","type":"supports"}
 {"from":"source-oecd-genai-productivity-2025","to":"article:what-ai-makes-cheap:claim-001","type":"supports"}
 {"from":"source-oecd-genai-productivity-2025","to":"article:what-ai-makes-cheap:claim-002","type":"supports"}
 {"from":"source-oecd-genai-productivity-2025","to":"article:what-ai-makes-cheap:claim-007","type":"supports"}
@@ -1911,6 +1948,7 @@
 {"from":"source-pew-mobile-etiquette-2015","to":"article:public-space-and-private-screens:claim-002","type":"supports"}
 {"from":"source-pew-mobile-etiquette-2015","to":"article:public-space-and-private-screens:claim-004","type":"supports"}
 {"from":"source-pib-bhashini-2024","to":"article:the-indic-language-internet-and-vernacular-feeds:claim-007","type":"supports"}
+{"from":"source-pib-bhashini-2025","to":"article:attention-substance-ai-moment-tldr:claim-004","type":"supports"}
 {"from":"source-pib-bhashini-2025","to":"article:what-ai-makes-cheap:claim-003","type":"supports"}
 {"from":"source-pib-economic-survey-2025-26","to":"article:the-engagement-gap-productivity-india:claim-006","type":"supports"}
 {"from":"source-pib-economic-survey","to":"article:a-map-of-levers:claim-001","type":"supports"}
@@ -1924,7 +1962,9 @@
 {"from":"source-pib-economic-survey","to":"article:the-better-question:claim-007","type":"supports"}
 {"from":"source-pib-economic-survey","to":"article:what-ai-makes-cheap:claim-006","type":"supports"}
 {"from":"source-pib-it-rules-faq","to":"article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-002","type":"supports"}
+{"from":"source-pib-ncert-mental-health","to":"article:attention-substance-ai-moment-tldr:claim-003","type":"supports"}
 {"from":"source-pib-ncert-mental-health","to":"article:the-attention-extraction:claim-004","type":"supports"}
+{"from":"source-pib-tele-manas","to":"article:attention-substance-ai-moment-tldr:claim-003","type":"supports"}
 {"from":"source-pib-tele-manas","to":"article:the-attention-extraction:claim-004","type":"supports"}
 {"from":"source-pib-youth-dividend-ai","to":"article:the-generational-bet:claim-004","type":"supports"}
 {"from":"source-pib-youth","to":"article:the-demographic-dividend-is-not-automatic:claim-001","type":"supports"}
@@ -1933,14 +1973,17 @@
 {"from":"source-pitchonnet-meta-india-fy24","to":"article:who-profits-advertising-foreign-platforms:claim-002","type":"supports"}
 {"from":"source-plfs-india","to":"article:the-demographic-dividend-is-not-automatic:claim-002","type":"supports"}
 {"from":"source-plfs-india","to":"article:the-demographic-dividend-is-not-automatic:claim-003","type":"supports"}
+{"from":"source-pmc-adolescent-mental-health","to":"article:attention-substance-ai-moment-tldr:claim-003","type":"supports"}
 {"from":"source-pmc-adolescent-mental-health","to":"article:the-attention-extraction:claim-004","type":"supports"}
 {"from":"source-pmc-adolescent-mental-health","to":"article:the-student-screen-education-vs-entertainment:claim-007","type":"supports"}
 {"from":"source-pmc-executive-control","to":"article:the-reel-nation-short-form-video:claim-002","type":"supports"}
 {"from":"source-pmc-executive-control","to":"article:the-reel-nation-short-form-video:claim-003","type":"supports"}
+{"from":"source-pmc-rural-screen-time","to":"article:attention-substance-ai-moment-tldr:claim-002","type":"supports"}
 {"from":"source-pmc-rural-screen-time","to":"article:by-the-numbers-what-indians-do-online:claim-004","type":"supports"}
 {"from":"source-pmc-rural-screen-time","to":"article:the-student-screen-education-vs-entertainment:claim-004","type":"supports"}
 {"from":"source-pmc-rural-screen-time","to":"article:the-student-screen-education-vs-entertainment:claim-007","type":"supports"}
 {"from":"source-pmc-short-video-addiction","to":"article:the-reel-nation-short-form-video:claim-003","type":"supports"}
+{"from":"source-pmc-short-video-attention","to":"article:attention-substance-ai-moment-tldr:claim-002","type":"supports"}
 {"from":"source-pmc-short-video-attention","to":"article:the-attention-extraction:claim-003","type":"supports"}
 {"from":"source-pmc-short-video-attention","to":"article:the-attention-extraction:claim-004","type":"supports"}
 {"from":"source-pmc-sleep-screen","to":"article:sleep-anxiety-and-tele-manas:claim-003","type":"supports"}
@@ -2054,6 +2097,7 @@
 {"from":"source-stanford-hai-2025","to":"article:what-india-is-building-vs-could-build:claim-003","type":"supports"}
 {"from":"source-stanford-hai-2025","to":"article:what-india-is-building-vs-could-build:claim-004","type":"supports"}
 {"from":"source-status-quo-bias","to":"article:agentic-commerce-product-truth:claim-002","type":"supports"}
+{"from":"source-steelcase-attention-span","to":"article:attention-substance-ai-moment-tldr:claim-002","type":"supports"}
 {"from":"source-steelcase-attention-span","to":"article:the-attention-extraction:claim-003","type":"supports"}
 {"from":"source-storyboard18-google-meta-share","to":"article:who-profits-advertising-foreign-platforms:claim-001","type":"supports"}
 {"from":"source-storyboard18-google-meta-share","to":"article:who-profits-advertising-foreign-platforms:claim-006","type":"supports"}
@@ -2121,6 +2165,7 @@
 {"from":"source-world-bank-india-population","to":"article:the-demographic-dividend-is-not-automatic:claim-001","type":"supports"}
 {"from":"source-worldbank-digital-2023","to":"article:human-systems:claim-005","type":"supports"}
 {"from":"source-yale-outrage-amplification","to":"article:designing-for-substance:claim-001","type":"supports"}
+{"from":"source-yale-outrage-online","to":"article:attention-substance-ai-moment-tldr:claim-003","type":"supports"}
 {"from":"source-yale-outrage-online","to":"article:the-attention-extraction:claim-004","type":"supports"}
 {"from":"source-yao-tot-2023","to":"article:reasoning-models:claim-002","type":"supports"}
 {"from":"source-youtube-research","to":"article:alternative-metrics-time-well-spent:claim-001","type":"supports"}

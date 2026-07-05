@@ -9,6 +9,7 @@
     "article:ai-could-make-extraction-cheaper-too",
     "article:alternative-metrics-time-well-spent",
     "article:attention-substance-ai-moment",
+    "article:attention-substance-ai-moment-tldr",
     "article:bhashini-and-the-indic-language-ai-moment",
     "article:business-models-that-reward-substance",
     "article:by-the-numbers-what-indians-do-online",
@@ -286,7 +287,39 @@
       "claimCount": 1,
       "sourceCount": 2,
       "tokenEstimate": 465,
-      "contentHash": "4b869bfb702fc1ebedea739f25791fbc2099dc2a1eb7fc5c072c186490d89dce"
+      "contentHash": "b112c8c034c5914e0b9b13c9b5d6cd238f20d53dd993f0e8b3562de574ade26f"
+    },
+    {
+      "id": "article:attention-substance-ai-moment-tldr",
+      "slug": "attention-substance-ai-moment-tldr",
+      "title": "Attention, Substance, and the AI Moment: The TLDR",
+      "summary": "A concise, shareable summary of the Attention, Substance, and the AI Moment series. It focuses on the productivity opportunity cost of mobile and AI misuse and how individuals can choose substance over scroll.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "productivity",
+        "artificial-intelligence",
+        "digital-wellbeing"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "productivity",
+        "artificial-intelligence",
+        "digital-wellbeing",
+        "summary"
+      ],
+      "canonicalPath": "/articles/attention-substance-ai-moment-tldr/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
+      "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+      "agentMarkdownPath": "/agents/articles/attention-substance-ai-moment-tldr.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 5,
+      "sourceCount": 20,
+      "tokenEstimate": 504,
+      "contentHash": "49ad4c4fffdfbe7f85062f135c383277143a13973207c36170f44d49b3b69ad0"
     },
     {
       "id": "article:bhashini-and-the-indic-language-ai-moment",
