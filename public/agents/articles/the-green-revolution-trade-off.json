@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 3,
+  "id": "article:the-green-revolution-trade-off",
+  "slug": "the-green-revolution-trade-off",
+  "title": "The Green Revolution Trade-Off",
+  "canonicalPath": "/articles/the-green-revolution-trade-off/",
+  "sourcePath": "content/articles/2026/the-green-revolution-trade-off/article.md",
+  "agentBriefPath": "content/articles/2026/the-green-revolution-trade-off/agent.md",
+  "thesis": "The Green Revolution shows that a technological breakthrough can solve an immediate crisis while creating slower, harder-to-reverse costs; India's digital-access success deserves a similar long-term audit.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "history",
+    "agriculture",
+    "analogy",
+    "long-term-thinking"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 14,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "The Green Revolution dramatically increased cereal production and averted famine in India.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-evenson-gollin",
+          "snippet": "Evenson and Gollin assess that high-yielding varieties raised cereal yields across much of Asia and Latin America and prevented significant food-shortfall losses.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The benefits were unevenly distributed by region, crop, and farm size; some areas and crops saw limited gains.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "The Green Revolution also led to groundwater depletion, soil salinity, and reduced crop diversity in several regions.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-fao-water",
+          "snippet": "FAO water-resource assessments note that intensive groundwater pumping for agriculture has placed severe pressure on renewable water resources in parts of South Asia, including India's grain belt.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-evenson-gollin",
+          "snippet": "The concentration on high-yielding wheat and rice displaced other crops in many cropping systems, contributing to reduced crop diversity.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The severity of ecological impacts varied widely by irrigation management, soil type, and local policy; not all Green Revolution regions experienced the same costs.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "The costs were delayed and diffuse, making them politically harder to address than the initial hunger crisis.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-fao-water",
+          "snippet": "Groundwater depletion and soil degradation accumulated over decades across millions of farms, lacking the single visible trigger of a famine.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-evenson-gollin",
+          "snippet": "The Green Revolution's benefits were immediate and concentrated, while many of its costs emerged slowly and were spread across ecosystems and future harvests.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some policy responses, such as groundwater regulation and crop-diversification programs, did eventually emerge, showing the costs were not entirely ignored.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Universal digital access similarly solves an access crisis while creating attention, mental-health, and civic-cohesion costs that accumulate slowly.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-iamai-kantar-2024",
+          "snippet": "The Internet in India Report 2024 documents near-ubiquitous digital access and a usage mix dominated by entertainment and social media.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-aser-2024",
+          "snippet": "ASER 2024 finds that 76% of 14–16-year-olds use smartphones for social media while 57% use them for education.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The analogy is interpretive, not causal; digital access also enables education, livelihoods, and civic participation, and the mental-health and civic-cohesion links remain contested.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-evenson-gollin",
+      "title": "Evenson and Gollin: Assessing the Impact of the Green Revolution",
+      "url": "https://www.jstor.org/stable/3137268",
+      "type": "paper",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-fao-water",
+      "title": "FAO: Water withdrawal and pressure on renewable water resources",
+      "url": "https://www.fao.org/aquastat/en/",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-iamai-kantar-2024",
+      "title": "IAMAI-Kantar: Internet in India Report 2024",
+      "url": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-aser-2024",
+      "title": "ASER 2024 National Findings",
+      "url": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:tobacco-seatbelts-food-safety"
+    },
+    {
+      "type": "article",
+      "id": "article:the-jio-effect-cheap-data-access-behavior"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    }
+  ],
+  "agentInstructions": [
+    "Preserve the analogy-as-pattern framing; do not treat the Green Revolution comparison as a causal claim.",
+    "Route factual questions about agricultural impacts to the Evenson-Gollin and FAO sources.",
+    "Route questions about Indian digital use to IAMAI-Kantar, NCAER IHDS, and ASER sources.",
+    "Avoid overstating either the benefits of the Green Revolution or the harms of digital access.",
+    "When comparing the two cases, note the differences in mechanism and harm type.",
+    "A visualization of Green Revolution output and groundwater trends is embedded after claim C2; cite Evenson-Gollin and FAO sources when discussing it."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:89145027e04ed27238aeb2c9e49a873e2a3e91f14f5678e2203fafee98518adc",
+        "outputHash": "sha256:89145027e04ed27238aeb2c9e49a873e2a3e91f14f5678e2203fafee98518adc"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "1c2ebd611bacda78168ee5d2f6376ec03f7b8d1fcc2bae2a1dc64bafda5dd2d4"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "1c2ebd611bacda78168ee5d2f6376ec03f7b8d1fcc2bae2a1dc64bafda5dd2d4",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/the-green-revolution-trade-off/",
+  "agentJsonPath": "/agents/articles/the-green-revolution-trade-off.json",
+  "agentMarkdownPath": "/agents/articles/the-green-revolution-trade-off.md",
+  "sourceRepoPath": "content/articles/2026/the-green-revolution-trade-off/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/the-green-revolution-trade-off/article.md",
+  "tokenEstimate": 276,
+  "sectionOutline": [
+    {
+      "id": "the-hunger-crisis-and-the-technological-fix",
+      "title": "The Hunger Crisis and the Technological Fix"
+    },
+    {
+      "id": "the-deferred-costs",
+      "title": "The Deferred Costs"
+    },
+    {
+      "id": "the-access-use-parallel",
+      "title": "The Access-Use Parallel"
+    },
+    {
+      "id": "what-the-analogy-does-and-does-not-claim",
+      "title": "What the Analogy Does and Does Not Claim"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

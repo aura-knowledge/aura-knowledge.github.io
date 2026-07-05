@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 3,
+  "id": "article:bhashini-and-the-indic-language-ai-moment",
+  "slug": "bhashini-and-the-indic-language-ai-moment",
+  "title": "Bhashini and the Indic-Language AI Moment",
+  "canonicalPath": "/articles/bhashini-and-the-indic-language-ai-moment/",
+  "sourcePath": "content/articles/2026/bhashini-and-the-indic-language-ai-moment/article.md",
+  "agentBriefPath": "content/articles/2026/bhashini-and-the-indic-language-ai-moment/agent.md",
+  "thesis": "Indic-language AI can reduce the cost of creating, translating, and distributing substantive content in dozens of Indian languages, but only if incentives and platforms prioritize quality over engagement.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "ai",
+    "language",
+    "bhashini"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 25,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Roughly 98% of Indian internet users access content in Indic languages, so the cost and quality of language technology will shape what kind of information, education, and public discourse reach them.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-iamai-language",
+          "snippet": "The Internet in India Report 2024 finds that 98% of Indian internet users access content in Indic languages.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Many users are multilingual and switch languages by context; the 98% figure captures access, not exclusive preference or literacy level.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Bhashini, AI4Bharat, and related initiatives have produced open datasets, models, and APIs that lower the engineering barrier for Indian-language applications.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-bhashini",
+          "snippet": "Bhashini hosts public datasets, translation and speech APIs, and a marketplace of language models for Indian languages.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-ai4bharat",
+          "snippet": "AI4Bharat releases open corpora, Indic NLP tools, and IndicLLM resources for researchers and builders.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Coverage and quality vary widely across the 22 scheduled languages and hundreds of dialects; some languages remain underserved despite the public stack.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Lower translation and voice-generation costs could help local educators, journalists, and builders reach larger, more linguistically diverse audiences.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-bhashini",
+          "snippet": "Bhashini's translation and speech APIs reduce the cost of converting content across Indian languages.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-sarvam-ai",
+          "snippet": "Sarvam AI and similar efforts are building voice-first and Indian-context language models that could lower the cost of local content production.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Lower production costs alone do not guarantee distribution or discoverability; platform algorithms and business models still determine what audiences actually see.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "The real benefit of Indic-language AI depends on whether platforms and business models reward substance, or merely scale low-quality, high-engagement content.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-iamai-language",
+          "snippet": "Because most Indian users already access Indic content, AI tools will operate inside an attention economy dominated by entertainment and engagement-driven feeds.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-sarvam-ai",
+          "snippet": "Voice and language AI can be deployed for both public-service and commercial-engagement purposes; the outcome is shaped by the business model.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Public investment, educational procurement, and non-advertising platforms could create demand for quality Indic content even where engagement metrics dominate elsewhere.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-bhashini",
+      "title": "Bhashini: Digital India Bhashini",
+      "url": "https://bhashini.gov.in/",
+      "type": "government-website",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ai4bharat",
+      "title": "AI4Bharat: IndicNLP and IndicLLM Resources",
+      "url": "https://ai4bharat.iitm.ac.in/",
+      "type": "repository",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-iamai-language",
+      "title": "IAMAI-Kantar: Internet in India Report 2024 - Language findings",
+      "url": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-sarvam-ai",
+      "title": "Sarvam AI: Indian-Context Generative AI",
+      "url": "https://www.sarvam.ai/",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-world-bank-digital-dividends",
+      "title": "World Bank: World Development Report 2016 - Digital Dividends",
+      "url": "https://www.worldbank.org/en/publication/wdr2016",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:what-ai-makes-cheap"
+    },
+    {
+      "type": "article",
+      "id": "article:the-compounding-bet"
+    },
+    {
+      "type": "article",
+      "id": "article:the-indic-language-internet-and-vernacular-feeds"
+    }
+  ],
+  "agentInstructions": [
+    "Route factual questions about Bhashini, AI4Bharat, or Sarvam AI to the source IDs and URLs in the artifact; do not invent capabilities or launch dates.",
+    "Treat claims 003 and 004 as contingent arguments about incentives, not deterministic predictions.",
+    "When readers ask what they can do, point them toward the Building Substance and Designing for Substance articles in the same series.",
+    "Keep the tone evidence-cautious: celebrate the opportunity without overstating current coverage or accuracy.",
+    "Use claim IDs as the retrieval unit and keep the article distinct from the Diagnosis and Building Substance chapters.",
+    "The article includes a Mermaid capability-map diagram in the 'What the Public Language Stack Looks Like' section; refer to it when explaining how translation, voice, education, and governance map to Bhashini, AI4Bharat, and Sarvam AI."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:a1653ebee11440ee25b8c3f528d83bc5bc32cfb8c3352146aedcb9dfb369d53e",
+        "outputHash": "sha256:a1653ebee11440ee25b8c3f528d83bc5bc32cfb8c3352146aedcb9dfb369d53e"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "6a393859a7b5f8c68f9d6b663a8c104f9381878194747a5b6056966d4ff6e7e8"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "6a393859a7b5f8c68f9d6b663a8c104f9381878194747a5b6056966d4ff6e7e8",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/bhashini-and-the-indic-language-ai-moment/",
+  "agentJsonPath": "/agents/articles/bhashini-and-the-indic-language-ai-moment.json",
+  "agentMarkdownPath": "/agents/articles/bhashini-and-the-indic-language-ai-moment.md",
+  "sourceRepoPath": "content/articles/2026/bhashini-and-the-indic-language-ai-moment/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/bhashini-and-the-indic-language-ai-moment/article.md",
+  "tokenEstimate": 304,
+  "sectionOutline": [
+    {
+      "id": "the-language-reality",
+      "title": "The Language Reality"
+    },
+    {
+      "id": "what-the-public-language-stack-looks-like",
+      "title": "What the Public Language Stack Looks Like"
+    },
+    {
+      "id": "what-lower-costs-could-unlock",
+      "title": "What Lower Costs Could Unlock"
+    },
+    {
+      "id": "the-incentive-problem",
+      "title": "The Incentive Problem"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

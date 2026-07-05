@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:gender-and-the-attention-economy
 articleId: article:gender-and-the-attention-economy
 slug: gender-and-the-attention-economy
-title: 'Agent Brief for "Gender and the Attention Economy"'
+title: "Agent Brief for 'Gender and the Attention Economy'"
 tokenBudget: 1500
 status: published
 updated: 2026-07-05

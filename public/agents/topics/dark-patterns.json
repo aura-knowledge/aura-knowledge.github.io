@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "topic": "dark-patterns",
+  "articleIds": [
+    "article:the-design-of-extraction"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/dark-patterns/",
+  "agentJsonPath": "/agents/topics/dark-patterns.json",
+  "articles": [
+    {
+      "id": "article:the-design-of-extraction",
+      "slug": "the-design-of-extraction",
+      "title": "The Design of Extraction: Variable Rewards, Notifications, and Dark Patterns",
+      "summary": "Catalogues the interaction-design patterns that keep users in feeds longer than intended, and why each one is a choice, not an inevitable feature of digital life.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "dark-patterns",
+        "notifications",
+        "variable-rewards"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "dark-patterns",
+        "notifications",
+        "variable-rewards"
+      ],
+      "canonicalPath": "/articles/the-design-of-extraction/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-design-of-extraction/",
+      "agentJsonPath": "/agents/articles/the-design-of-extraction.json",
+      "agentMarkdownPath": "/agents/articles/the-design-of-extraction.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 273,
+      "contentHash": "5e44c5454d692f76da527fa8e3ee7063c9465f8bc85a1e00aa48e2444050a219"
+    }
+  ]
+}

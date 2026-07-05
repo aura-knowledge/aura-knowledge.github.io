@@ -1,0 +1,542 @@
+{
+  "seriesSlug": "attention-substance-ai-moment",
+  "seriesTitle": "Attention, Substance, and the AI Moment",
+  "year": "2026",
+  "topic": "attention-economy",
+  "commonAudiences": ["general", "students", "builders", "policy", "researchers"],
+  "commonTopics": ["attention-economy", "india", "digital-wellbeing"],
+  "articles": [
+    {
+      "slug": "the-reel-nation-short-form-video",
+      "order": 3,
+      "title": "The Reel Nation: Short-Form Video and the Economics of a Swipe",
+      "dek": "How infinite, variable-reward feeds turn minutes into hours, and what the neuroscience of short-form video means for India's attention budget.",
+      "summary": "Examines the design mechanics and usage scale of short-form video in India, separating documented harms from hype and tracing the opportunity cost.",
+      "thesis": "Short-form video is not merely entertainment; its engagement architecture—autoplay, variable rewards, and personalized recommendations—makes it unusually effective at capturing time, with measurable cognitive and mental-health correlates.",
+      "claims": [
+        "India has one of the world's largest short-form video user bases, with average daily use reaching 55–60 minutes per user.",
+        "Short-form feeds rely on variable rewards, infinite scroll, autoplay, and algorithmic personalization to extend session length.",
+        "Peer-reviewed studies link heavy short-form video use to reduced executive control, sleep disruption, and anxiety, though causality remains contested.",
+        "The opportunity cost of short-form video dominance falls on education, skill-building, and offline social interaction."
+      ],
+      "sources": [
+        {"id": "source-bain-short-form-india", "title": "Bain: The Rise of Short-Form Video in India", "url": "https://www.bain.com/insights/the-rise-of-short-form-video-in-india/", "type": "industry-report"},
+        {"id": "source-bmc-short-video-addiction", "title": "BMC Psychiatry: Short-form video addiction and mental health among Chinese college students", "url": "https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-024-05587-3", "type": "peer-reviewed-study"},
+        {"id": "source-pmc-executive-control", "title": "PMC: Short-form video use and executive function in young adults", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10876028/", "type": "peer-reviewed-study"},
+        {"id": "source-iamai-kantar-2024", "title": "IAMAI-Kantar: Internet in India Report 2024", "url": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf", "type": "industry-report"}
+      ],
+      "visualization": "engagement-loop-flowchart"
+    },
+    {
+      "slug": "public-space-and-private-screens",
+      "order": 4,
+      "title": "Public Space and Private Screens: The Commute Is Not Empty",
+      "dek": "Trains, buses, and waiting rooms used to be places of incidental encounter. Now they are feed-consumption zones, and something social is being lost.",
+      "summary": "Uses observational and survey evidence to describe how phones and headphones reshape public space in India, and what incidental conversation, learning, and solidarity are displaced.",
+      "thesis": "When shared physical spaces become collections of private screens, societies lose low-cost channels for knowledge exchange, solidarity, and cross-class encounter that no app can fully replace.",
+      "claims": [
+        "Mass-media participation is nearly universal in India, while voluntary social participation has fallen sharply.",
+        "Public transit and waiting spaces in India show high rates of individual screen use across income groups.",
+        "Incidental conversation in public spaces historically served as a low-cost channel for information, apprenticeship, and social cohesion.",
+        "Headphones and private feeds convert shared space into parallel solitude, making social withdrawal feel like a norm."
+      ],
+      "sources": [
+        {"id": "source-nsso-time-use-2024", "title": "NSSO Time Use Survey 2024 Factsheet", "url": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf", "type": "government-report"},
+        {"id": "source-putnam-bowling-alone", "title": "Robert Putnam: Bowling Alone", "url": "https://en.wikipedia.org/wiki/Bowling_Alone", "type": "book"},
+        {"id": "source-oldenburg-third-places", "title": "Ray Oldenburg: The Great Good Place", "url": "https://en.wikipedia.org/wiki/Third_place", "type": "book"}
+      ],
+      "visualization": "public-space-before-after"
+    },
+    {
+      "slug": "sleep-anxiety-and-tele-manas",
+      "order": 6,
+      "title": "Sleep, Anxiety, and the Tele-MANAS Signal",
+      "dek": "India's national mental-health helpline is receiving millions of calls. The data is a warning about the psychological load of an always-on, feed-driven life.",
+      "summary": "Interprets Tele-MANAS call-volume data and adolescent mental-health surveys as a public-health signal, not a moral failing, and connects them to attention-extraction design.",
+      "thesis": "Tele-MANAS and school-based mental-health surveys reveal a large, growing burden of anxiety, sleep disruption, and distress among young Indians; screen-heavy, notification-driven routines are one contributing factor among many.",
+      "claims": [
+        "Tele-MANAS has received more than 32 lakh calls, with roughly 70% from people aged 18–45.",
+        "NCERT and state surveys report high rates of anxiety, mood disturbance, and sleep problems among Indian adolescents.",
+        "Sleep disruption from evening screen use is one documented pathway between heavy smartphone use and next-day distress.",
+        "Mental-health data should be read as a public-health signal shaped by design, economics, and social context, not as evidence of individual weakness."
+      ],
+      "sources": [
+        {"id": "source-tele-manas-pib", "title": "PIB: Tele-MANAS completes over 32 lakh calls", "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2045678", "type": "government-press-release"},
+        {"id": "source-ncert-mental-health-2022", "title": "NCERT: Mental Health and Well-being of School Students Survey", "url": "https://ncert.nic.in/pdf/announcement/Mental_Health_Survey.pdf", "type": "government-report"},
+        {"id": "source-pmc-sleep-screen", "title": "PMC: Screen time and sleep quality in adolescents", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7774621/", "type": "peer-reviewed-study"}
+      ],
+      "visualization": "tele-manas-calls-line"
+    },
+    {
+      "slug": "the-design-of-extraction",
+      "order": 9,
+      "title": "The Design of Extraction: Variable Rewards, Notifications, and Dark Patterns",
+      "dek": "Engagement is not an accident. It is engineered through well-documented mechanisms that make feeds hard to leave.",
+      "summary": "Catalogues the interaction-design patterns—variable rewards, infinite scroll, autoplay, streaks, red dots, pull-to-refresh—that keep users in feeds longer than they intended.",
+      "thesis": "Attention platforms use a recurring set of design mechanisms—variable rewards, infinite scroll, autoplay, notifications, streaks, and social-proof cues—to extend sessions; understanding these mechanisms is a prerequisite for designing alternatives.",
+      "claims": [
+        "Variable-ratio reward schedules, borrowed from gambling research, are central to feed engagement.",
+        "Infinite scroll, autoplay, and pull-to-refresh remove natural stopping points from content consumption.",
+        "Notifications, red dots, and streaks exploit loss aversion and social reciprocity to drive reopening.",
+        "These patterns are not neutral user preferences; they are product decisions that can be changed."
+      ],
+      "sources": [
+        {"id": "source-harris-ted", "title": "Tristan Harris: How a handful of tech companies control billions of minds every day", "url": "https://www.ted.com/talks/tristan_harris_how_a_handful_of_tech_companies_control_billions_of_minds_every_day", "type": "talk"},
+        {"id": "source-eyal-hooked", "title": "Nir Eyal: Hooked: How to Build Habit-Forming Products", "url": "https://www.nirandfar.com/hooked/", "type": "book"},
+        {"id": "source-dark-patterns-org", "title": "Dark Patterns: Deceptive Design", "url": "https://www.deceptive.design/", "type": "website"}
+      ],
+      "visualization": "engagement-mechanisms-timeline"
+    },
+    {
+      "slug": "india-in-global-context",
+      "order": 12,
+      "title": "India in Global Context: The Attention Economy Is Not Only an Indian Story",
+      "dek": "India's scale makes the problem visible, but the attention-extraction playbook is global. What can India learn from others, and what can it teach?",
+      "summary": "Compares India with Brazil, Indonesia, Nigeria, the US, and China on screen time, platform concentration, and regulatory responses.",
+      "thesis": "India's attention-extraction challenges are not unique; they are a mobile-first, price-sensitive variant of a global pattern, and India's scale gives its regulatory and design choices outsized influence.",
+      "claims": [
+        "India ranks among the highest countries for daily smartphone screen time.",
+        "Brazil, Indonesia, and Nigeria show similar patterns of mobile-first entertainment and platform concentration.",
+        "The US and China have larger domestic platform ecosystems but face similar debates about youth screen time and platform accountability.",
+        "India's regulatory choices—DSA-style due diligence, app-store rules, data-protection—will shape how the global South addresses extraction."
+      ],
+      "sources": [
+        {"id": "source-datareportal-digital-2025", "title": "DataReportal: Digital 2025 Global Overview Report", "url": "https://datareportal.com/reports/digital-2025-global-overview-report", "type": "industry-report"},
+        {"id": "source-itu-facts", "title": "ITU: Facts and Figures 2024", "url": "https://www.itu.int/itu-d/reports/statistics/facts-figures-2024/", "type": "government-report"},
+        {"id": "source-eu-dsa", "title": "EU Digital Services Act", "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package", "type": "government-report"}
+      ],
+      "visualization": "global-screen-time-bar"
+    },
+    {
+      "slug": "historical-hinges-access-is-not-benefit",
+      "order": 13,
+      "title": "Historical Hinges: When Access to a Tool Did Not Guarantee Its Benefits",
+      "dek": "The printing press, the steam engine, the PC, and the early internet all produced both flourishing and waste. The pattern is older than the smartphone.",
+      "summary": "Uses historical technology transitions to show that access alone does not determine benefit; the distribution of gains depends on institutions, literacy, and norms.",
+      "thesis": "Major communication and productivity technologies have repeatedly created access first and benefits later; the lag is filled by literacy, institutions, and norms that help societies use the tool rather than be used by it.",
+      "claims": [
+        "The printing press initially produced a flood of pamphlets and misinformation before stabilizing into modern publishing norms.",
+        "The industrial revolution raised living standards over generations, but early disruptions included child labor, pollution, and urban squalar.",
+        "The personal computer and early internet had a 'productivity paradox' before organizational practices caught up.",
+        "Smartphones and AI are at a similar hinge: access is here, but the institutions for healthy use are still forming."
+      ],
+      "sources": [
+        {"id": "source-eisenstein-printing-press", "title": "Elizabeth Eisenstein: The Printing Press as an Agent of Change", "url": "https://en.wikipedia.org/wiki/Elizabeth_L._Eisenstein", "type": "book"},
+        {"id": "source-brynjolfsson-productivity-paradox", "title": "Brynjolfsson: The Productivity J-Curve", "url": "https://www.nber.org/papers/w25189", "type": "paper"},
+        {"id": "source-postman-technopoly", "title": "Neil Postman: Technopoly", "url": "https://en.wikipedia.org/wiki/Technopoly", "type": "book"}
+      ],
+      "visualization": "technology-hinges-timeline"
+    },
+    {
+      "slug": "the-green-revolution-trade-off",
+      "order": 14,
+      "title": "The Green Revolution Trade-Off",
+      "dek": "India solved food scarcity with a technological package that later revealed water, soil, and diversity costs. Digital access has its own hidden bill.",
+      "summary": "Uses the Green Revolution as an analogy for solving one urgent problem while creating slower, structural costs that only become visible later.",
+      "thesis": "The Green Revolution shows that a technological breakthrough can solve an immediate crisis while creating slower, harder-to-reverse costs; India's digital-access success deserves a similar long-term audit.",
+      "claims": [
+        "The Green Revolution dramatically increased cereal production and averted famine in India.",
+        "It also led to groundwater depletion, soil salinity, and reduced crop diversity in several regions.",
+        "The costs were delayed and diffuse, making them politically harder to address than the initial hunger crisis.",
+        "Universal digital access similarly solves an access crisis while creating attention, mental-health, and civic-cohesion costs that accumulate slowly."
+      ],
+      "sources": [
+        {"id": "source-evenson-gollin", "title": "Evenson and Gollin: Assessing the Impact of the Green Revolution", "url": "https://www.jstor.org/stable/3137268", "type": "paper"},
+        {"id": "source-fao-water", "title": "FAO: Water withdrawal and pressure on renewable water resources", "url": "https://www.fao.org/aquastat/en/", "type": "government-report"}
+      ],
+      "visualization": "green-revolution-trade-off"
+    },
+    {
+      "slug": "tobacco-seatbelts-food-safety",
+      "order": 15,
+      "title": "Tobacco, Seatbelts, and Food Safety: How Societies Learn to Regulate Design",
+      "dek": "Harmful products were once framed as personal choices. Over time, societies realized that design and marketing also matter.",
+      "summary": "Surveys public-health precedents to argue that attention-extraction platforms can be treated as design problems, not only user-responsibility problems.",
+      "thesis": "Societies have repeatedly moved harmful products from the frame of 'personal choice' to the frame of 'design and marketing accountability'; attention-extraction platforms are a candidate for the same transition.",
+      "claims": [
+        "Tobacco was marketed as a personal and even healthy choice before epidemiology shifted the regulatory frame.",
+        "Seatbelt and food-safety rules changed behavior through defaults and design standards rather than lectures.",
+        "These transitions required a combination of scientific evidence, advocacy, litigation, and regulation.",
+        "Attention platforms are at an earlier stage of the same transition: evidence is accumulating, but design standards remain weak."
+      ],
+      "sources": [
+        {"id": "source-who-tobacco", "title": "WHO: WHO Report on the Global Tobacco Epidemic", "url": "https://www.who.int/tobacco/global_report/en/", "type": "government-report"},
+        {"id": "source-nhtsa-seatbelts", "title": "NHTSA: Seat Belt Use in America", "url": "https://www.nhtsa.gov/risky-driving/seat-belts", "type": "government-report"}
+      ],
+      "visualization": "regulation-milestones-timeline"
+    },
+    {
+      "slug": "the-jio-effect-cheap-data-access-behavior",
+      "order": 17,
+      "title": "The Jio Effect: Cheap Data and the Access-Behavior Paradox",
+      "dek": "Reliance Jio made mobile data so cheap that India became a data-abundant economy overnight. The behavior shift is the story that followed.",
+      "summary": "Traces how Jio's 2016 launch collapsed data prices, expanded access, and reshaped Indian internet behavior toward entertainment and short-form video.",
+      "thesis": "The Jio-led collapse in mobile-data prices made India one of the world's largest and cheapest internet markets, but the behavioral dividend has gone more toward consumption than creation or learning.",
+      "claims": [
+        "Jio's 2016 launch reduced Indian mobile-data prices to among the lowest in the world.",
+        "India added hundreds of millions of internet users in the following years, many in rural areas and on low-cost smartphones.",
+        "The same low-cost data enabled a surge in short-form video, gaming, and messaging.",
+        "The access success now raises a use question: can the same infrastructure be redirected toward productivity and learning?"
+      ],
+      "sources": [
+        {"id": "source-trai-pricing", "title": "TRAI: Indian Telecom Services Performance Indicators", "url": "https://www.trai.gov.in/release-publication/reports/performance-indicators-reports", "type": "government-report"},
+        {"id": "source-iamai-kantar-2024", "title": "IAMAI-Kantar: Internet in India Report 2024", "url": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf", "type": "industry-report"},
+        {"id": "source-itu-affordability", "title": "ITU: Affordability of ICT services", "url": "https://www.itu.int/itu-d/reports/statistics/affordability-of-ict-services-2023/", "type": "government-report"}
+      ],
+      "visualization": "data-price-timeline"
+    },
+    {
+      "slug": "the-demographic-dividend-is-not-automatic",
+      "order": 21,
+      "title": "The Demographic Dividend Is Not Automatic: Youth, Talent, and Time",
+      "dek": "India has one of the world's youngest populations, but youth alone does not produce prosperity. How time is spent matters as much as how many young people there are.",
+      "summary": "Connects India's youth demographics to employment and skill data, arguing that the demographic dividend depends on how young people invest their attention.",
+      "thesis": "India's large working-age population is a necessary but not sufficient condition for economic transformation; the dividend depends on whether young Indians spend their time building skills or being harvested for attention.",
+      "claims": [
+        "Roughly 65% of India's population is under 35, giving it one of the world's youngest workforces.",
+        "India Skills Report and other surveys find employability rates below 55% for many graduate cohorts.",
+        "Youth unemployment, especially among graduates, is elevated relative to overall unemployment.",
+        "The demographic dividend is therefore a time-use dividend: the same years can build human capital or be absorbed by low-value screen activity."
+      ],
+      "sources": [
+        {"id": "source-pib-youth", "title": "PIB: Youth in India", "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2219931", "type": "government-press-release"},
+        {"id": "source-india-skills-report", "title": "India Skills Report 2025", "url": "https://www.wheebox.com/wee-projects/India-skills-report-publications.php", "type": "industry-report"},
+        {"id": "source-nasscom-talent", "title": "NASSCOM: India Talent Demand-Supply Gap", "url": "https://nasscom.in/knowledge-center/publications", "type": "industry-report"}
+      ],
+      "visualization": "population-pyramid"
+    },
+    {
+      "slug": "what-india-is-building-vs-could-build",
+      "order": 22,
+      "title": "What India Is Building vs. What It Could Build",
+      "dek": "India's startup ecosystem excels at convenience. It is weaker in semiconductors, foundational AI, and scientific tools. That is a choice, not a destiny.",
+      "summary": "Compares India's current startup and innovation portfolio with the deep-tech and AI infrastructure it could prioritize.",
+      "thesis": "India's digital economy has produced valuable convenience services, but a disproportionate share of capital and talent is going toward aggregation rather than deep tech, foundational AI, and scientific infrastructure.",
+      "claims": [
+        "India's digital economy contributes roughly 11.74% of GDP, led by services and consumer platforms.",
+        "A large share of venture funding and startup talent has gone into delivery, ride-hailing, and quick commerce.",
+        "Semiconductors, foundational AI models, scientific instruments, and industrial automation receive far smaller shares of capital and attention.",
+        "National AI readiness depends on shifting some fraction of talent and capital toward harder, slower problems."
+      ],
+      "sources": [
+        {"id": "source-icrier-digital-economy-2024", "title": "MeitY/ICRIER: Estimation and Measurement of India's Digital Economy", "url": "https://www.meity.gov.in/static/uploads/2025/01/5ff397f9e8152d5562ed4cef1a6b767b.pdf", "type": "government-report"},
+        {"id": "source-nasscom-deep-tech", "title": "NASSCOM: Deep Tech Startups in India", "url": "https://nasscom.in/knowledge-center/publications", "type": "industry-report"},
+        {"id": "source-ivca-venture", "title": "IVCA: Indian Private Equity and Venture Capital Report", "url": "https://ivca.in/research-reports/", "type": "industry-report"}
+      ],
+      "visualization": "venture-funding-by-sector"
+    },
+    {
+      "slug": "ai-could-make-extraction-cheaper-too",
+      "order": 24,
+      "title": "AI Could Make Extraction Cheaper Too",
+      "dek": "The same AI tools that can tutor and translate can also generate infinite feeds, deepfakes, and synthetic influencers. The direction depends on design, not the technology itself.",
+      "summary": "Surveys how AI can amplify attention extraction through synthetic media, hyper-personalization, and automated influence, and argues for guardrails before scale.",
+      "thesis": "AI lowers the cost of producing persuasive, personalized, and synthetic content, which can deepen attention extraction and misinformation unless platforms, regulators, and users build countervailing norms.",
+      "claims": [
+        "Generative AI dramatically lowers the cost of producing video, audio, text, and images at scale.",
+        "AI-powered recommendation can make feeds more personally addictive and harder to audit.",
+        "Deepfakes and synthetic influencers are already entering Indian political and consumer discourse.",
+        "The same technology can be designed toward substance if quality, provenance, and user control become first-class goals."
+      ],
+      "sources": [
+        {"id": "source-stanford-hai-2025", "title": "Stanford HAI: AI Index Report 2025", "url": "https://aiindex.stanford.edu/report/", "type": "industry-report"},
+        {"id": "source-wef-deepfakes", "title": "WEF: Global Risks Report 2024 - AI-generated misinformation", "url": "https://www.weforum.org/publications/global-risks-report-2024/", "type": "industry-report"},
+        {"id": "source-microsoft-digital-defense", "title": "Microsoft: Digital Defense Report 2024", "url": "https://www.microsoft.com/en-us/security/business/security-insider/intelligence-reports", "type": "industry-report"}
+      ],
+      "visualization": "ai-extraction-pipeline"
+    },
+    {
+      "slug": "bhashini-and-the-indic-language-ai-moment",
+      "order": 25,
+      "title": "Bhashini and the Indic-Language AI Moment",
+      "dek": "Most of India's internet users prefer Indic languages. AI translation and voice could turn that diversity from a barrier into a creative force.",
+      "summary": "Explains how Indic-language AI—Bhashini, AI4Bharat, Sarvam, and others—could shift content creation from entertainment-first to knowledge-first.",
+      "thesis": "Indic-language AI can reduce the cost of creating, translating, and distributing substantive content in dozens of Indian languages, but only if incentives and platforms prioritize quality over engagement.",
+      "claims": [
+        "98% of Indian internet users access content in Indic languages.",
+        "Bhashini and AI4Bharat have built open language datasets, models, and APIs for Indian languages.",
+        "Lower translation and voice-generation costs could enable local educators, journalists, and builders to reach larger audiences.",
+        "The benefit depends on whether platforms reward substance or merely scale low-quality, high-engagement content."
+      ],
+      "sources": [
+        {"id": "source-bhashini", "title": "Bhashini: Digital India Bhashini", "url": "https://bhashini.gov.in/", "type": "government-website"},
+        {"id": "source-ai4bharat", "title": "AI4Bharat: IndicNLP and IndicLLM Resources", "url": "https://ai4bharat.iitm.ac.in/", "type": "repository"},
+        {"id": "source-iamai-language", "title": "IAMAI-Kantar: Internet in India Report 2024 - Language findings", "url": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf", "type": "industry-report"}
+      ],
+      "visualization": "indic-language-capability-map"
+    },
+    {
+      "slug": "historical-analogies-of-missed-transitions",
+      "order": 27,
+      "title": "Historical Analogies of Missed Transitions",
+      "dek": "Nations that arrived late to industrialization, electrification, or computing paid a long price. Missing the AI transition could be similarly costly.",
+      "summary": "Uses cross-country historical comparisons to show that missing a technology transition has persistent economic and geopolitical consequences.",
+      "thesis": "Countries that missed earlier technological transitions—industrialization, electrification, personal computing, and the early internet—suffered persistent income and sovereignty gaps; India's AI moment is the next such hinge.",
+      "claims": [
+        "Late industrialization was associated with slower long-run income growth and greater dependency.",
+        "The PC and early-internet divide left lasting productivity gaps between adopters and laggards.",
+        "AI is likely to have a similar compounding effect on productivity, defense, and scientific discovery.",
+        "India's large talent base gives it a window, but the window is not indefinitely open."
+      ],
+      "sources": [
+        {"id": "source-maddison-project", "title": "Maddison Project Database", "url": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023", "type": "dataset"},
+        {"id": "source-acemoglu-industrialization", "title": "Acemoglu and Robinson: Why Nations Fail", "url": "https://en.wikipedia.org/wiki/Why_Nations_Fail", "type": "book"},
+        {"id": "source-world-bank-digital", "title": "World Bank: World Development Report 2016 - Digital Dividends", "url": "https://www.worldbank.org/en/publication/wdr2016", "type": "government-report"}
+      ],
+      "visualization": "gdp-trajectory-comparison"
+    },
+    {
+      "slug": "the-students-garden",
+      "order": 31,
+      "title": "The Student's Garden: Learning in Public, Teaching in Private",
+      "dek": "AI can be a tutor, a ghostwriter, or a distraction. The difference is whether the student does the thinking.",
+      "summary": "Offers practical guidance for students using AI: active learning, public note-taking, peer teaching, and avoiding the answer-generation trap.",
+      "thesis": "Students can use AI to deepen learning if they treat it as a Socratic tutor and an audience for their own explanations, rather than a shortcut for producing finished answers.",
+      "claims": [
+        "Passive consumption of AI-generated answers produces weaker learning than active explanation and problem-solving.",
+        "Teaching what you learn—through notes, blogs, videos, or peer sessions—is one of the most reliable ways to deepen understanding.",
+        "AI can lower the friction of producing explanations, flashcards, and practice questions.",
+        "The risk is that AI becomes a substitute for struggle; the opportunity is that it becomes a scaffold for struggle."
+      ],
+      "sources": [
+        {"id": "source-khanmigo", "title": "Khan Academy: Khanmigo", "url": "https://www.khanacademy.org/khan-labs/khanmigo", "type": "website"},
+        {"id": "source-duolingo-max", "title": "Duolingo: Duolingo Max", "url": "https://blog.duolingo.com/duolingo-max/", "type": "website"},
+        {"id": "source-ericsson-deliberate-practice", "title": "Ericsson: The Role of Deliberate Practice in the Acquisition of Expert Performance", "url": "https://psycnet.apa.org/record/1993-40718-001", "type": "paper"}
+      ],
+      "visualization": "passive-vs-active-study"
+    },
+    {
+      "slug": "the-workers-garden",
+      "order": 32,
+      "title": "The Worker's Garden: Commutes, Side Projects, and Career Capital",
+      "dek": "Dead time is not dead if you tend it. A commute can become a learning loop, and a side project can become a skill stack.",
+      "summary": "Practical strategies for working adults to reclaim commute and downtime for small acts of learning and creation.",
+      "thesis": "Working adults can build substantial career capital by converting small, recurring windows of dead time into deliberate practice, side projects, and public learning.",
+      "claims": [
+        "Commutes and waiting time add up to hundreds of hours per year for many workers.",
+        "Small daily investments in skill-building compound more reliably than sporadic heroic efforts.",
+        "Side projects and public learning signal capability more credibly than credentials alone in many fields.",
+        "AI lowers the cost of starting side projects in writing, coding, design, and translation."
+      ],
+      "sources": [
+        {"id": "source-newport-deep-work", "title": "Cal Newport: Deep Work", "url": "https://www.calnewport.com/books/deep-work/", "type": "book"},
+        {"id": "source-fogg-tiny-habits", "title": "BJ Fogg: Tiny Habits", "url": "https://www.tinyhabits.com/", "type": "book"},
+        {"id": "source-gallup-global-workplace-india", "title": "Gallup State of the Global Workplace: India Country-Level Data", "url": "https://www.gallup.com/workplace/705650/state-global-workplace-india-country-level-data.aspx", "type": "industry-report"}
+      ],
+      "visualization": "reclaimed-time-calendar"
+    },
+    {
+      "slug": "the-familys-garden",
+      "order": 33,
+      "title": "The Family's Garden: Attention Contracts at Home",
+      "dek": "The smallest unit of attention reform is the household. Parents cannot preach what they do not practice.",
+      "summary": "Offers household-level strategies for managing screens: device-free meals, modeling, shared creative time, and age-appropriate boundaries.",
+      "thesis": "Households can protect attention and nurture substance by making explicit, modelled agreements about device use rather than relying on prohibition or individual willpower.",
+      "claims": [
+        "Parent screen use is one of the strongest predictors of child screen use.",
+        "Device-free meals and shared activities are associated with better family connection and child well-being.",
+        "Age-appropriate boundaries work better than total prohibition, which often increases secrecy and desire.",
+        "Families that create together—cooking, building, reading, discussing—build attention habits that outlast any single rule."
+      ],
+      "sources": [
+        {"id": "source-aap-media", "title": "AAP: Media and Young Minds", "url": "https://publications.aap.org/pediatrics/article/138/5/e20162591/60321/Media-and-Young-Minds", "type": "peer-reviewed-study"},
+        {"id": "source-vivo-study", "title": "Vivo and CMR: Impact of Smartphones on Human Relationships", "url": "https://www.vivo.com/in/about-vivo/newsroom/2020/1907", "type": "industry-report"}
+      ],
+      "visualization": "family-table-before-after"
+    },
+    {
+      "slug": "the-citizens-garden",
+      "order": 34,
+      "title": "The Citizen's Garden: Local Knowledge plus AI",
+      "dek": "A small civic act—translating a scheme, mapping a drain, explaining a vaccine—can scale when shared. AI makes the first step easier.",
+      "summary": "Shows how ordinary citizens can use AI to produce local knowledge and help neighbors, moving from online consumption to offline civic contribution.",
+      "thesis": "Citizens can use AI to lower the cost of producing and sharing local knowledge—translated schemes, neighborhood maps, health explainers—and turn online attention into offline civic good.",
+      "claims": [
+        "Government schemes, health information, and civic services are often inaccessible because of language, formality, and fragmentation.",
+        "AI translation, summarization, and voice generation can bridge some of these gaps at low cost.",
+        "Local volunteers and community organizations remain essential for trust and last-mile delivery.",
+        "Small civic acts, when documented and shared, can compound into neighborhood-level infrastructure."
+      ],
+      "sources": [
+        {"id": "source-bhashini", "title": "Bhashini: Digital India Bhashini", "url": "https://bhashini.gov.in/", "type": "government-website"},
+        {"id": "source-ongo-civic-tech", "title": "Open Government Partnership: Civic Tech Guide", "url": "https://www.opengovpartnership.org/topics/civic-tech/", "type": "website"}
+      ],
+      "visualization": "civic-act-scaling"
+    },
+    {
+      "slug": "failure-teaching-and-the-skill-stack",
+      "order": 35,
+      "title": "Failure, Teaching, and the Skill Stack",
+      "dek": "The first essays, code, and videos will be bad. That is the tuition. Teaching what you are learning makes the tuition pay off faster.",
+      "summary": "Argues that early failure and public teaching are features, not bugs, of building substance over time.",
+      "thesis": "Building substantive skills requires tolerating bad early work and using teaching as a forcing function for clarity; the resulting skill stack compounds even when individual projects fail.",
+      "claims": [
+        "Early work is supposed to be bad; the gap between taste and ability closes through repetition and feedback.",
+        "Teaching forces you to clarify what you actually understand.",
+        "A portfolio of unfinished but documented projects is more valuable than a hidden record of perfect beginnings.",
+        "AI can accelerate feedback loops, but it cannot replace the judgment that comes from repeated practice."
+      ],
+      "sources": [
+        {"id": "source-ericsson-deliberate-practice", "title": "Ericsson: The Role of Deliberate Practice in the Acquisition of Expert Performance", "url": "https://psycnet.apa.org/record/1993-40718-001", "type": "paper"},
+        {"id": "source-ira-glass-gap", "title": "Ira Glass on the gap between taste and ability", "url": "https://www.youtube.com/watch?v=BI23U7U2aUY", "type": "talk"}
+      ],
+      "visualization": "skill-stack-diagram"
+    },
+    {
+      "slug": "alternative-metrics-time-well-spent",
+      "order": 38,
+      "title": "Alternative Metrics: Time Well Spent, Sustainability, Learning, Civic Value",
+      "dek": "What platforms optimize for is what they become. The metrics can be changed, but only if we agree on what to measure.",
+      "summary": "Surveys proposed alternatives to engagement-based metrics and their tradeoffs: time well spent, learning outcomes, civic value, and sustainability.",
+      "thesis": "Replacing engagement-based optimization requires a contested but necessary conversation about what counts as success—time well spent, learning, well-being, civic value, and long-term platform health.",
+      "claims": [
+        "Engagement metrics are not neutral; they encode a business model and a theory of user value.",
+        "Proposed alternatives include time well spent, meaningful social interaction, learning outcomes, and civic participation.",
+        "Each alternative metric can be gamed and requires safeguards.",
+        "The first step is to make metrics visible and debatable rather than treating engagement as inevitable."
+      ],
+      "sources": [
+        {"id": "source-humane-tech", "title": "Center for Humane Technology", "url": "https://www.humanetech.com/", "type": "website"},
+        {"id": "source-mosseri-time-well-spent", "title": "Adam Mosseri: Defining Time Well Spent", "url": "https://about.instagram.com/blog/announcements/defining-time-well-spent", "type": "article"},
+        {"id": "source-youtube-research", "title": "YouTube: Responsibility research", "url": "https://research.youtube/categories/responsibility/", "type": "website"}
+      ],
+      "visualization": "metrics-radar-chart"
+    },
+    {
+      "slug": "public-pressure-and-internal-accountability",
+      "order": 40,
+      "title": "Public Pressure and Internal Accountability",
+      "dek": "Regulation is slow. Researchers, journalists, employees, and users can force change faster by making extraction visible.",
+      "summary": "Maps the ecosystem of non-regulatory accountability: investigative reporting, internal leaks, shareholder pressure, civil-society campaigns, and academic research.",
+      "thesis": "Regulation is necessary but slow; a healthier attention ecosystem also requires researchers, journalists, whistleblowers, employees, shareholders, and civil society to make platform incentives and harms visible.",
+      "claims": [
+        "Academic research has repeatedly revealed harms—addiction, polarization, mental health—that platforms initially disputed.",
+        "Investigative journalism and whistleblower leaks have forced public debate and some design changes.",
+        "Shareholder and employee activism can shift corporate priorities when framed in business-risk terms.",
+        "Civil-society campaigns help translate technical findings into public demand and policy proposals."
+      ],
+      "sources": [
+        {"id": "source-haugen-facebook-papers", "title": "The Facebook Papers / Frances Haugen", "url": "https://en.wikipedia.org/wiki/Facebook_Papers", "type": "document-collection"},
+        {"id": "source-reuters-institute", "title": "Reuters Institute: Digital News Report", "url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report", "type": "industry-report"},
+        {"id": "source-cis-india", "title": "CIS India: Internet Governance Research", "url": "https://cis-india.org/", "type": "website"}
+      ],
+      "visualization": "accountability-ecosystem"
+    },
+    {
+      "slug": "user-migration-and-the-exit-problem",
+      "order": 41,
+      "title": "User Migration and the Exit Problem",
+      "dek": "People dislike extraction but stay because everyone they know is on the same platform. Network effects are the lock.",
+      "summary": "Explains why users rarely leave harmful platforms even when alternatives exist, and what interoperability and federation could change.",
+      "thesis": "Network effects and switching costs make individual exit from dominant platforms costly; interoperability, data portability, and federation can lower those costs and create space for healthier alternatives.",
+      "claims": [
+        "Network effects mean a platform's value rises with the number of users, making latecomers uncompetitive.",
+        "Switching costs include lost contacts, content archives, and reputation.",
+        "Data portability and interoperability can reduce lock-in.",
+        "Federated protocols like ActivityPub allow users to change providers without leaving their networks."
+      ],
+      "sources": [
+        {"id": "source-mastodon", "title": "Mastodon: Federated Social Media", "url": "https://joinmastodon.org/", "type": "website"},
+        {"id": "source-activitypub", "title": "W3C: ActivityPub Protocol", "url": "https://www.w3.org/TR/activitypub/", "type": "specification"},
+        {"id": "source-eu-dma", "title": "EU Digital Markets Act", "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-markets-act", "type": "government-report"}
+      ],
+      "visualization": "network-effect-lock-in"
+    },
+    {
+      "slug": "friction-chronological-feeds-user-chosen-algorithms",
+      "order": 42,
+      "title": "Friction, Chronological Feeds, and User-Chosen Algorithms",
+      "dek": "Small design changes—chronological order, share friction, user-chosen ranking—can make platforms less extractive without banning anything.",
+      "summary": "Surveys evidence on design interventions that reduce extraction: chronological feeds, friction before sharing, and user control over ranking algorithms.",
+      "thesis": "Platform design can reduce attention extraction through well-tested interventions: chronological feeds, friction before sharing or scrolling, and user-chosen ranking algorithms.",
+      "claims": [
+        "Chronological feeds reduce the power of engagement-optimized recommendations.",
+        "Friction before sharing—such as asking whether a user wants to share unverified content—reduces misinformation spread.",
+        "User-chosen algorithm modes give agency back to users without requiring them to leave the platform.",
+        "These changes are technically feasible but often conflict with ad-supported business models."
+      ],
+      "sources": [
+        {"id": "source-penn-facebook-friction", "title": "Penn/Stanford: The Effects of Facebook Feed Friction", "url": "https://www.nber.org/papers/w30214", "type": "paper"},
+        {"id": "source-twitter-chronological", "title": "Twitter: Chronological timeline option", "url": "https://help.twitter.com/en/using-x/home-timeline", "type": "website"},
+        {"id": "source-instagram-well-being", "title": "Instagram: Hidden likes and well-being research", "url": "https://about.instagram.com/blog/announcements/instagram-well-being-research", "type": "article"}
+      ],
+      "visualization": "design-intervention-before-after"
+    },
+    {
+      "slug": "business-models-that-reward-substance",
+      "order": 43,
+      "title": "Business Models That Reward Substance",
+      "dek": "Advertising rewards attention. Subscriptions, patronage, public funding, and cooperatives can reward quality instead.",
+      "summary": "Compares revenue models and their incentive effects, arguing that business-model diversity is a precondition for design diversity.",
+      "thesis": "Ad-supported platforms will tend to optimize for engagement; alternative business models—subscriptions, patronage, public funding, cooperatives, and reputation systems—can align platform incentives with substance.",
+      "claims": [
+        "Advertising-funded platforms optimize for time-on-site and ad impressions, which favors engagement over quality.",
+        "Subscriptions align incentives with user satisfaction and retention.",
+        "Public funding and philanthropy can support content that has civic value but limited commercial appeal.",
+        "Cooperatives and reputation economies can reward contributions that the market undervalues."
+      ],
+      "sources": [
+        {"id": "source-stratechery-aggregation", "title": "Stratechery: Aggregation Theory", "url": "https://stratechery.com/concepts/aggregation-theory/", "type": "article"},
+        {"id": "source-patreon", "title": "Patreon: Creator Economy", "url": "https://www.patreon.com/", "type": "website"},
+        {"id": "source-npr-funding", "title": "NPR: Public Radio Funding Model", "url": "https://www.npr.org/about-npr/178660742/public-radio-finances", "type": "website"}
+      ],
+      "visualization": "business-model-incentives"
+    },
+    {
+      "slug": "age-appropriate-design",
+      "order": 44,
+      "title": "Age-Appropriate Design and Protecting Vulnerable Users",
+      "dek": "Children, the elderly, and low-literacy users need stronger defaults. Their attention is not a fair target for extraction.",
+      "summary": "Argues for age-appropriate design defaults, friction, and verification to protect children, elderly users, and others who are especially vulnerable to extraction.",
+      "thesis": "Vulnerable users—children, elderly people, and low-literacy users—deserve stronger default protections, age-appropriate design, and limits on data-driven persuasion.",
+      "claims": [
+        "Children's developing brains are more susceptible to variable rewards and social comparison.",
+        "Elderly users face higher risks from scams, misinformation, and platform complexity.",
+        "Low-literacy users may not recognize dark patterns or understand data practices.",
+        "Age-appropriate design standards, such as the UK's Age Appropriate Design Code, offer a regulatory template."
+      ],
+      "sources": [
+        {"id": "source-uk-age-design-code", "title": "UK ICO: Age Appropriate Design Code", "url": "https://ico.org.uk/for-organisations/childrens-code/", "type": "government-report"},
+        {"id": "source-lasi-elderly", "title": "LASI: Longitudinal Aging Study in India", "url": "https://iiasd.org/lasi/", "type": "research-report"},
+        {"id": "source-unicef-child-online", "title": "UNICEF: Child Online Safety", "url": "https://www.unicef.org/end-violence/child-online-safety", "type": "website"}
+      ],
+      "visualization": "age-design-matrix"
+    },
+    {
+      "slug": "product-ideas-that-could-shift-incentives",
+      "order": 47,
+      "title": "Product Ideas That Could Shift the Incentives",
+      "dek": "What would a social platform look like if it tried to make users more capable, more informed, and more connected by the time they logged off?",
+      "summary": "Sketches product and platform alternatives—quality-based incentives, public-interest algorithms, creator reputation economies—that could reward substance over extraction.",
+      "thesis": "Several product designs could shift platform incentives toward substance: quality-based recommendation signals, public-interest algorithms, creator reputation economies, and user-owned attention budgets.",
+      "claims": [
+        "Quality signals—such as citations, completion rates, and user-reported learning—can complement engagement signals.",
+        "Public-interest algorithms could surface locally relevant, verified, and constructive content.",
+        "Creator reputation economies can reward consistent quality over viral moments.",
+        "User-owned attention budgets and time-well-spent dashboards can restore agency."
+      ],
+      "sources": [
+        {"id": "source-karma-reputation", "title": "Reddit: Karma and Community Points", "url": "https://www.reddit.com/wiki/karma/", "type": "website"},
+        {"id": "source-stack-exchange", "title": "Stack Exchange: Reputation and Moderation", "url": "https://stackexchange.com/", "type": "website"},
+        {"id": "source-github-stars", "title": "GitHub: Stars and Contribution Graphs", "url": "https://github.com/", "type": "website"}
+      ],
+      "visualization": "product-sketches-incentive-diagrams"
+    },
+    {
+      "slug": "open-questions-the-series-leaves-unresolved",
+      "order": 48,
+      "title": "Open Questions the Series Leaves Unresolved",
+      "dek": "Honest uncertainty is better than false certainty. Here are the questions this series could not settle.",
+      "summary": "Lists unresolved questions about causality, optimal regulation, cultural variation, and the balance between freedom and protection.",
+      "thesis": "The attention economy raises empirical and normative questions—about causality, cultural variation, regulation, and freedom—that the series documents but does not definitively answer.",
+      "claims": [
+        "The causal effect of specific platform features on mental health and productivity remains hard to isolate.",
+        "Different cultures may need different balances between protection and autonomy.",
+        "The right level of regulation is contested: too little leaves users exposed; too much risks overreach.",
+        "India's path will depend on choices made by platforms, policymakers, educators, and individuals over the next decade."
+      ],
+      "sources": [],
+      "visualization": "open-questions-radar"
+    }
+  ]
+}

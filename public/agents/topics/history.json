@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "topic": "history",
+  "articleIds": [
+    "article:historical-analogies-of-missed-transitions",
+    "article:historical-hinges-access-is-not-benefit",
+    "article:the-green-revolution-trade-off",
+    "article:the-jio-effect-cheap-data-access-behavior",
+    "article:tobacco-seatbelts-food-safety"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/history/",
+  "agentJsonPath": "/agents/topics/history.json",
+  "articles": [
+    {
+      "id": "article:historical-analogies-of-missed-transitions",
+      "slug": "historical-analogies-of-missed-transitions",
+      "title": "Historical Analogies of Missed Transitions",
+      "summary": "Uses cross-country historical comparisons to show that missing a technology transition has persistent economic and geopolitical consequences.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "history",
+        "productivity",
+        "economic-development"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "history",
+        "productivity",
+        "economic-development"
+      ],
+      "canonicalPath": "/articles/historical-analogies-of-missed-transitions/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/historical-analogies-of-missed-transitions/",
+      "agentJsonPath": "/agents/articles/historical-analogies-of-missed-transitions.json",
+      "agentMarkdownPath": "/agents/articles/historical-analogies-of-missed-transitions.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 303,
+      "contentHash": "f8d7648a11dc2580fd1d8984244dfc3249c23a4251f1b38b96816b6aec01bafd"
+    },
+    {
+      "id": "article:historical-hinges-access-is-not-benefit",
+      "slug": "historical-hinges-access-is-not-benefit",
+      "title": "Historical Hinges: When Access to a Tool Did Not Guarantee Its Benefits",
+      "summary": "Uses historical technology transitions to show that access alone does not determine benefit; the distribution of gains depends on institutions, literacy, and norms.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "technology",
+        "institutions",
+        "artificial-intelligence"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "technology",
+        "institutions",
+        "artificial-intelligence"
+      ],
+      "canonicalPath": "/articles/historical-hinges-access-is-not-benefit/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/historical-hinges-access-is-not-benefit/",
+      "agentJsonPath": "/agents/articles/historical-hinges-access-is-not-benefit.json",
+      "agentMarkdownPath": "/agents/articles/historical-hinges-access-is-not-benefit.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 392,
+      "contentHash": "5e05ae1fc7c89cf568d073ca3c18568fe28d658608f7ae231604d8780ea934ac"
+    },
+    {
+      "id": "article:the-green-revolution-trade-off",
+      "slug": "the-green-revolution-trade-off",
+      "title": "The Green Revolution Trade-Off",
+      "summary": "Uses the Green Revolution as an analogy for solving one urgent problem while creating slower, structural costs that only become visible later.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "agriculture",
+        "analogy",
+        "long-term-thinking"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "agriculture",
+        "analogy",
+        "long-term-thinking"
+      ],
+      "canonicalPath": "/articles/the-green-revolution-trade-off/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-green-revolution-trade-off/",
+      "agentJsonPath": "/agents/articles/the-green-revolution-trade-off.json",
+      "agentMarkdownPath": "/agents/articles/the-green-revolution-trade-off.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 276,
+      "contentHash": "1c2ebd611bacda78168ee5d2f6376ec03f7b8d1fcc2bae2a1dc64bafda5dd2d4"
+    },
+    {
+      "id": "article:the-jio-effect-cheap-data-access-behavior",
+      "slug": "the-jio-effect-cheap-data-access-behavior",
+      "title": "The Jio Effect: Cheap Data and the Access-Behavior Paradox",
+      "summary": "Traces how Jio's 2016 launch collapsed data prices, expanded access, and reshaped Indian internet behavior toward entertainment and short-form video.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "infrastructure",
+        "short-form-video"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "infrastructure",
+        "short-form-video"
+      ],
+      "canonicalPath": "/articles/the-jio-effect-cheap-data-access-behavior/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-jio-effect-cheap-data-access-behavior/",
+      "agentJsonPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.json",
+      "agentMarkdownPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 372,
+      "contentHash": "a7e6c9e3bb5844fe3469c9ce849cbb547700d9f59e374a603c2292503261f273"
+    },
+    {
+      "id": "article:tobacco-seatbelts-food-safety",
+      "slug": "tobacco-seatbelts-food-safety",
+      "title": "Tobacco, Seatbelts, and Food Safety: How Societies Learn to Regulate Design",
+      "summary": "Surveys public-health precedents to argue that attention-extraction platforms can be treated as design problems, not only user-responsibility problems.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "public-health",
+        "regulation",
+        "design",
+        "platform-accountability",
+        "history"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "public-health",
+        "regulation",
+        "design",
+        "platform-accountability",
+        "history"
+      ],
+      "canonicalPath": "/articles/tobacco-seatbelts-food-safety/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/tobacco-seatbelts-food-safety/",
+      "agentJsonPath": "/agents/articles/tobacco-seatbelts-food-safety.json",
+      "agentMarkdownPath": "/agents/articles/tobacco-seatbelts-food-safety.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 258,
+      "contentHash": "6807ba8589523997378deff3df9378a6210845cf01ed345ea8478510f1674d32"
+    }
+  ]
+}

@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:a-readers-guide-to-the-series
 articleId: article:a-readers-guide-to-the-series
 slug: a-readers-guide-to-the-series
-title: 'Agent Brief for "A Reader''s Guide to the Series"'
+title: "Agent Brief for 'A Reader''s Guide to the Series'"
 tokenBudget: 1500
 status: published
 updated: 2026-07-05

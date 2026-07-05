@@ -2,12 +2,48 @@
   "schemaVersion": 1,
   "topic": "social-media",
   "articleIds": [
+    "article:friction-chronological-feeds-user-chosen-algorithms",
     "article:the-attention-extraction",
     "article:trust-and-outrage-platforms-and-cohesion"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/social-media/",
   "agentJsonPath": "/agents/topics/social-media.json",
   "articles": [
+    {
+      "id": "article:friction-chronological-feeds-user-chosen-algorithms",
+      "slug": "friction-chronological-feeds-user-chosen-algorithms",
+      "title": "Friction, Chronological Feeds, and User-Chosen Algorithms",
+      "summary": "Surveys evidence on design interventions that reduce extraction: chronological feeds, friction before sharing, and user control over ranking algorithms.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "social-media",
+        "misinformation",
+        "algorithms"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "social-media",
+        "misinformation",
+        "algorithms"
+      ],
+      "canonicalPath": "/articles/friction-chronological-feeds-user-chosen-algorithms/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
+      "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json",
+      "agentMarkdownPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 277,
+      "contentHash": "21521e52b917b8a7564cddfdbfaf85536a76943b744c02e3c161db15cd5cc3ef"
+    },
     {
       "id": "article:the-attention-extraction",
       "slug": "the-attention-extraction",
@@ -39,7 +75,7 @@
       "claimCount": 4,
       "sourceCount": 14,
       "tokenEstimate": 674,
-      "contentHash": "5b81fd168cb7606da30f36bd9a7c235d4b1977f8cae02a9e8ec4e1e628ce5fe9"
+      "contentHash": "a7b6211099e0e919f7287ce0d0569b8a5f13cae6ee9e4bff5b80f00e4aee5cb4"
     },
     {
       "id": "article:trust-and-outrage-platforms-and-cohesion",
@@ -72,7 +108,7 @@
       "claimCount": 8,
       "sourceCount": 7,
       "tokenEstimate": 724,
-      "contentHash": "d4b1a6a3628cd9b1835bf350cceebf1917f37eca7760fb9e497cb23cd800f73a"
+      "contentHash": "58db791880b24a6ac451427a87506af3a68f3a83bb63ca881eb057ad23050116"
     }
   ]
 }

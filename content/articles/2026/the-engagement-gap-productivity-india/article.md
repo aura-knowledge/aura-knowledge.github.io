@@ -21,7 +21,7 @@ agentArtifact: /agents/articles/the-engagement-gap-productivity-india.json
 sourcePath: content/articles/2026/the-engagement-gap-productivity-india/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 1: The Diagnosis</p>
+<p class="article-kicker">Attention, Substance, and the AI Moment · Part 1</p>
 
 India's digital-access story created one of the world's largest online workforces. The same transition, however, is now showing up inside offices, factories, and remote-work windows as a different kind of problem: people are present but not fully engaged, interrupted before they can finish a thought, and entering the labour market with uneven preparation. The engagement gap is not a separate issue from the attention economy. It is where the attention economy meets gross domestic product.
 

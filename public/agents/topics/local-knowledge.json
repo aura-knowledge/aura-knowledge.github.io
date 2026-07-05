@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "topic": "local-knowledge",
+  "articleIds": [
+    "article:the-citizens-garden"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/local-knowledge/",
+  "agentJsonPath": "/agents/topics/local-knowledge.json",
+  "articles": [
+    {
+      "id": "article:the-citizens-garden",
+      "slug": "the-citizens-garden",
+      "title": "The Citizen's Garden: Local Knowledge plus AI",
+      "summary": "Shows how ordinary citizens can use AI to produce local knowledge and help neighbors, moving from online consumption to offline civic contribution.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "civic-tech",
+        "artificial-intelligence",
+        "local-knowledge",
+        "bhashini"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "civic-tech",
+        "artificial-intelligence",
+        "local-knowledge",
+        "bhashini"
+      ],
+      "canonicalPath": "/articles/the-citizens-garden/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-citizens-garden/",
+      "agentJsonPath": "/agents/articles/the-citizens-garden.json",
+      "agentMarkdownPath": "/agents/articles/the-citizens-garden.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 307,
+      "contentHash": "48249a1f571fa817161271612ebe803b794eedd8dc4389c16393b972dde65d1c"
+    }
+  ]
+}

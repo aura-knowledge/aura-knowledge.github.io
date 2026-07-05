@@ -3,6 +3,7 @@
   "topic": "synthesis",
   "articleIds": [
     "article:a-map-of-levers",
+    "article:open-questions-the-series-leaves-unresolved",
     "article:the-better-question"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/synthesis/",
@@ -40,7 +41,44 @@
       "claimCount": 8,
       "sourceCount": 13,
       "tokenEstimate": 860,
-      "contentHash": "3bfb89f509202214b6454cd92bff340dc6322aafafcbad5d08b0cdaef4ef9c96"
+      "contentHash": "6f361b3969e6d350c7c0af935801c329a62bd65a0fb4a9689d43672c369ad00f"
+    },
+    {
+      "id": "article:open-questions-the-series-leaves-unresolved",
+      "slug": "open-questions-the-series-leaves-unresolved",
+      "title": "Open Questions the Series Leaves Unresolved",
+      "summary": "Honest uncertainty about the attention economy—causality, culture, regulation, and the choices that will shape India's next decade.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "synthesis",
+        "policy",
+        "mental-health",
+        "design",
+        "artificial-intelligence"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "synthesis",
+        "policy",
+        "mental-health",
+        "design",
+        "artificial-intelligence"
+      ],
+      "canonicalPath": "/articles/open-questions-the-series-leaves-unresolved/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/open-questions-the-series-leaves-unresolved/",
+      "agentJsonPath": "/agents/articles/open-questions-the-series-leaves-unresolved.json",
+      "agentMarkdownPath": "/agents/articles/open-questions-the-series-leaves-unresolved.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 2,
+      "tokenEstimate": 288,
+      "contentHash": "fb0ac32ee6018b8b5be4644aa55dfb3be6c4c9937e5dcd6b75a858627eebc72e"
     },
     {
       "id": "article:the-better-question",
@@ -71,7 +109,7 @@
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 797,
-      "contentHash": "1ec6e905e6de8680421cf67e230310b23cdd692295947717b63e91654185ff55"
+      "contentHash": "5b2dd30ccbdc6b8a0062de9648d4799310202bc46b06a4207a56aba88f3eef70"
     }
   ]
 }

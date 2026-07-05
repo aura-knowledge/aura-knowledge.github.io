@@ -2,12 +2,48 @@
   "schemaVersion": 1,
   "topic": "creator-economy",
   "articleIds": [
+    "article:product-ideas-that-could-shift-incentives",
     "article:the-creator-economys-incentive-trap",
     "article:who-profits-advertising-foreign-platforms"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/creator-economy/",
   "agentJsonPath": "/agents/topics/creator-economy.json",
   "articles": [
+    {
+      "id": "article:product-ideas-that-could-shift-incentives",
+      "slug": "product-ideas-that-could-shift-incentives",
+      "title": "Product Ideas That Could Shift the Incentives",
+      "summary": "Sketches product and platform alternatives—quality-based incentives, public-interest algorithms, creator reputation economies—that could reward substance over extraction.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "algorithms",
+        "creator-economy",
+        "platform-design"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "algorithms",
+        "creator-economy",
+        "platform-design"
+      ],
+      "canonicalPath": "/articles/product-ideas-that-could-shift-incentives/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
+      "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
+      "agentMarkdownPath": "/agents/articles/product-ideas-that-could-shift-incentives.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 6,
+      "tokenEstimate": 291,
+      "contentHash": "4dfd02f7205a72689d7b7f743e4e7b8a22f8075e5b3aa10606afc6942e733a6a"
+    },
     {
       "id": "article:the-creator-economys-incentive-trap",
       "slug": "the-creator-economys-incentive-trap",
@@ -39,7 +75,7 @@
       "claimCount": 7,
       "sourceCount": 8,
       "tokenEstimate": 869,
-      "contentHash": "39150f279bc25f4a7f2c09f7956e4c39706488916f9e976b0bf15f3be98fc41c"
+      "contentHash": "07cbff728144d28565712c71730df2a4bf456f39a87508fc5c2b46826b687362"
     },
     {
       "id": "article:who-profits-advertising-foreign-platforms",
@@ -70,7 +106,7 @@
       "claimCount": 6,
       "sourceCount": 8,
       "tokenEstimate": 859,
-      "contentHash": "176785871c9700f89f4a2eb07507e28b2c79cd03b8d69756476d3d4e8f2b1b9d"
+      "contentHash": "442c5c2d56bf142244756bfae0cd34f39d8f8c762ee19c6bd96fd0bf95d226e5"
     }
   ]
 }

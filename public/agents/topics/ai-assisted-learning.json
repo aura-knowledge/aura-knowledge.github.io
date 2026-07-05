@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "topic": "ai-assisted-learning",
+  "articleIds": [
+    "article:ai-as-journeyman-assistant"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/ai-assisted-learning/",
+  "agentJsonPath": "/agents/topics/ai-assisted-learning.json",
+  "articles": [
+    {
+      "id": "article:ai-as-journeyman-assistant",
+      "slug": "ai-as-journeyman-assistant",
+      "title": "AI as a Journeyman Assistant, Not a Replacement",
+      "summary": "Practical guidance on treating AI as a collaborator that drafts, translates, tutors, and debugs, while keeping the human learner in the driver's seat.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "ai-assisted-learning"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "ai-assisted-learning"
+      ],
+      "canonicalPath": "/articles/ai-as-journeyman-assistant/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-as-journeyman-assistant/",
+      "agentJsonPath": "/agents/articles/ai-as-journeyman-assistant.json",
+      "agentMarkdownPath": "/agents/articles/ai-as-journeyman-assistant.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 351,
+      "contentHash": "f903bc9ab7a692495e3c84d51f2db293c6ab2315a047e8b82ebad48b74d07c56"
+    }
+  ]
+}

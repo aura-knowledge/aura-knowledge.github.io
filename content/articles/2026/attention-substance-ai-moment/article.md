@@ -16,7 +16,7 @@ tags:
   - artificial-intelligence
   - series-guide
 summary: "A guide to the Attention, Substance, and the AI Moment series: the diagnosis, the generational stakes, individual practice, systemic design, and curated reading paths."
-readingTime: 8 min
+readingTime: 10 min
 agentArtifact: /agents/articles/attention-substance-ai-moment.json
 sourcePath: content/articles/2026/attention-substance-ai-moment/article.md
 ---
@@ -46,39 +46,67 @@ The series is organized into six arcs. Each arc is a self-contained thread; each
 
 - **[The Attention Extraction](/articles/the-attention-extraction/)** — The overview and thesis of the diagnosis: how India's digital dividend became a cognitive deficit.
 - **[By the Numbers: What Indians Actually Do Online](/articles/by-the-numbers-what-indians-do-online/)** — A data-forward look at the country's digital time budget across entertainment, education, work, and communication.
+- **[The Reel Nation: Short-Form Video and the Economics of a Swipe](/articles/the-reel-nation-short-form-video/)** — How infinite, variable-reward feeds turn minutes into hours.
+- **[Public Space and Private Screens](/articles/public-space-and-private-screens/)** — What disappears from trains, buses, and waiting rooms when every face is on a screen.
 - **[The Student Screen](/articles/the-student-screen-education-vs-entertainment/)** — How adolescents split their screen time between education and entertainment, and what it costs.
+- **[Sleep, Anxiety, and the Tele-MANAS Signal](/articles/sleep-anxiety-and-tele-manas/)** — India's national mental-health helpline as a warning signal about always-on life.
 - **[The Engagement Gap](/articles/the-engagement-gap-productivity-india/)** — How the usage mix shows up in workplaces, productivity, and economic output.
 - **[Who Profits?](/articles/who-profits-advertising-foreign-platforms/)** — Where India's digital advertising money goes, and why the creator economy is sharply stratified.
+- **[The Design of Extraction](/articles/the-design-of-extraction/)** — Variable rewards, notifications, infinite scroll, and other mechanisms that make feeds hard to leave.
 - **[Trust and Outrage](/articles/trust-and-outrage-platforms-and-cohesion/)** — How engagement-based ranking affects social trust, outrage, and civic cohesion.
 - **[The Indic-Language Internet and the Vernacular Feed](/articles/the-indic-language-internet-and-vernacular-feeds/)** — Why language expansion changed the scale and shape of extraction.
+- **[India in Global Context](/articles/india-in-global-context/)** — The attention economy is not only an Indian story; comparable patterns in Brazil, Indonesia, Nigeria, the US, and China.
 
 ### Part 2: Historical and Human Frames
 
+- **[Historical Hinges](/articles/historical-hinges-access-is-not-benefit/)** — When access to a powerful tool did not guarantee its benefits: printing press, industrial revolution, PC, early internet.
+- **[The Green Revolution Trade-Off](/articles/the-green-revolution-trade-off/)** — Solving one urgent problem while creating slower, structural costs that only become visible later.
+- **[Tobacco, Seatbelts, and Food Safety](/articles/tobacco-seatbelts-food-safety/)** — How societies learn to move harmful products from "personal choice" to "design accountability."
 - **[The Life-Phase Thread](/articles/the-life-phase-thread/)** — How attention habits shape outcomes across childhood, adolescence, working life, and old age.
+- **[The Jio Effect](/articles/the-jio-effect-cheap-data-access-behavior/)** — How cheap data reshaped Indian internet behavior almost overnight.
 - **[Gender and the Attention Economy](/articles/gender-and-the-attention-economy/)** — How unpaid care work, shared devices, and online harms are distributed unevenly.
 
 ### Part 3: The AI Opportunity Cost
 
 - **[The Generational Bet](/articles/the-generational-bet/)** — The stakes: will India build the AI age or scroll through it?
 - **[What AI Makes Cheap](/articles/what-ai-makes-cheap/)** — What generative AI lowers the cost of, and where the savings could go.
+- **[The Demographic Dividend Is Not Automatic](/articles/the-demographic-dividend-is-not-automatic/)** — Youth, talent, and time: the dividend depends on how attention is spent.
+- **[What India Is Building vs. What It Could Build](/articles/what-india-is-building-vs-could-build/)** — Convenience aggregation versus deep tech and foundational AI.
 - **[The Creator Economy's Incentive Trap](/articles/the-creator-economys-incentive-trap/)** — Why viral attention is a fragile livelihood, and what alternatives exist.
+- **[AI Could Make Extraction Cheaper Too](/articles/ai-could-make-extraction-cheaper-too/)** — Synthetic content, hyper-personalized feeds, and the risks of AI-powered extraction.
+- **[Bhashini and the Indic-Language AI Moment](/articles/bhashini-and-the-indic-language-ai-moment/)** — How Indic-language AI could turn diversity into a creative force.
 - **[The Compounding Bet](/articles/the-compounding-bet/)** — Why small, sustained investments in substance compound over a career or a generation.
+- **[Historical Analogies of Missed Transitions](/articles/historical-analogies-of-missed-transitions/)** — Nations that arrived late to industrialization, computing, or the internet paid a long price.
 
 ### Part 4: Building Substance
 
 - **[The Substance Builder](/articles/the-substance-builder/)** — How to turn dead time into small acts of creation and learning.
 - **[The Small-Rep Theory](/articles/the-small-rep-theory/)** — Why deliberate practice, deep work, and tiny habits matter more than viral moments.
+- **[AI as a Journeyman Assistant](/articles/ai-as-journeyman-assistant/)** — Using AI to lower the first step of hard work without outsourcing the thinking.
+- **[The Student's Garden](/articles/the-students-garden/)** — Learning in public, teaching in private, and avoiding the answer-generation trap.
+- **[The Worker's Garden](/articles/the-workers-garden/)** — Commutes, side projects, and career capital from reclaimed time.
+- **[The Family's Garden](/articles/the-familys-garden/)** — Attention contracts at home: device-free meals, modeling, and shared creative time.
+- **[The Citizen's Garden](/articles/the-citizens-garden/)** — Local knowledge plus AI: small civic acts that scale.
+- **[Failure, Teaching, and the Skill Stack](/articles/failure-teaching-and-the-skill-stack/)** — Early bad work and public teaching as features of building substance.
 
 ### Part 5: Designing for Substance
 
 - **[Designing for Substance](/articles/designing-for-substance/)** — Platform incentives and the attention economy: how design chooses what is easy.
 - **[Engagement Is a Design Choice](/articles/engagement-is-a-design-choice/)** — Why ranking metrics are not inevitable, and what alternative metrics could do.
+- **[Alternative Metrics](/articles/alternative-metrics-time-well-spent/)** — Time well spent, learning, civic value, sustainability, and the metrics that could replace engagement.
 - **[Regulation as a Floor](/articles/regulation-as-a-floor-dsa-it-rules-dpdp/)** — What India's IT Rules, DPDP Act, and global frameworks can and cannot fix.
+- **[Public Pressure and Internal Accountability](/articles/public-pressure-and-internal-accountability/)** — Researchers, journalists, whistleblowers, employees, shareholders, and civil society.
+- **[User Migration and the Exit Problem](/articles/user-migration-and-the-exit-problem/)** — Network effects, switching costs, interoperability, and federation.
+- **[Friction, Chronological Feeds, and User-Chosen Algorithms](/articles/friction-chronological-feeds-user-chosen-algorithms/)** — Small design changes that reduce extraction without banning anything.
+- **[Business Models That Reward Substance](/articles/business-models-that-reward-substance/)** — Subscriptions, patronage, public funding, cooperatives, and reputation economies.
+- **[Age-Appropriate Design](/articles/age-appropriate-design/)** — Protecting children, elderly users, and low-literacy users through default design.
 
 ### Part 6: Synthesis
 
 - **[Leave Better Than You Arrived](/articles/the-better-question/)** — A north star for platform design: does a product leave users more capable than it found them?
 - **[A Map of Levers](/articles/a-map-of-levers/)** — Who can pull which levers—individuals, families, schools, builders, platforms, investors, policymakers.
+- **[Product Ideas That Could Shift the Incentives](/articles/product-ideas-that-could-shift-incentives/)** — Sketches of platforms and products that could reward substance over extraction.
+- **[Open Questions the Series Leaves Unresolved](/articles/open-questions-the-series-leaves-unresolved/)** — Honest uncertainty and invitations for further research.
 - **[A Reader's Guide to the Series](/articles/a-readers-guide-to-the-series/)** — Question-based and role-based reading paths through the whole series.
 
 <h2 id="how-to-read-this-series">How to Read This Series</h2>
@@ -87,20 +115,23 @@ If you have limited time, start with the article that matches your question:
 
 - **"Is this really a problem?"** → [The Attention Extraction](/articles/the-attention-extraction/)
 - **"How big is the problem in numbers?"** → [By the Numbers](/articles/by-the-numbers-what-indians-do-online/)
+- **"What do short-form feeds do to attention?"** → [The Reel Nation](/articles/the-reel-nation-short-form-video/)
 - **"What does it mean for students?"** → [The Student Screen](/articles/the-student-screen-education-vs-entertainment/)
+- **"What does it mean for mental health?"** → [Sleep, Anxiety, and the Tele-MANAS Signal](/articles/sleep-anxiety-and-tele-manas/)
 - **"What does it mean for work?"** → [The Engagement Gap](/articles/the-engagement-gap-productivity-india/)
 - **"Where does the money go?"** → [Who Profits?](/articles/who-profits-advertising-foreign-platforms/)
 - **"Why does AI make this urgent?"** → [The Generational Bet](/articles/the-generational-bet/)
 - **"What can I do today?"** → [The Substance Builder](/articles/the-substance-builder/)
+- **"How should I use AI without outsourcing my thinking?"** → [AI as a Journeyman Assistant](/articles/ai-as-journeyman-assistant/)
 - **"What could platforms or policymakers do?"** → [Designing for Substance](/articles/designing-for-substance/)
 - **"How do the pieces fit together?"** → [A Map of Levers](/articles/a-map-of-levers/)
 
 If you are reading for a specific role:
 
-- **Parents and educators** may want the Diagnosis articles on students and mental health, the life-phase thread, and the family-garden article.
-- **Students and young workers** may want the AI opportunity-cost articles and the practical substance-building guides.
-- **Builders and product designers** may want the Diagnosis articles on platform economics and design extraction, plus the entire Designing for Substance arc.
-- **Policymakers and civic actors** may want the diagnosis, the regulatory and design-alternatives articles, and the synthesis levers map.
+- **Parents and educators** may want the Diagnosis articles on students and mental health, the life-phase thread, the family garden, and age-appropriate design.
+- **Students and young workers** may want the AI opportunity-cost articles, the practical substance-building guides, and the student and worker garden articles.
+- **Builders and product designers** may want the Diagnosis articles on platform economics and design extraction, plus the entire Designing for Substance arc and the product-ideas article.
+- **Policymakers and civic actors** may want the diagnosis, the regulatory and design-alternatives articles, the public-pressure and accountability articles, and the synthesis levers map.
 
 <h2 id="a-note-on-evidence">A Note on Evidence</h2>
 

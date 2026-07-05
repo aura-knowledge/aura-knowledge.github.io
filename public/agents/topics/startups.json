@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "topic": "startups",
+  "articleIds": [
+    "article:what-india-is-building-vs-could-build"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/startups/",
+  "agentJsonPath": "/agents/topics/startups.json",
+  "articles": [
+    {
+      "id": "article:what-india-is-building-vs-could-build",
+      "slug": "what-india-is-building-vs-could-build",
+      "title": "What India Is Building vs. What It Could Build",
+      "summary": "Compares India's current startup and innovation portfolio with the deep-tech and AI infrastructure it could prioritize.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "deep-tech",
+        "startups",
+        "venture-capital",
+        "innovation-policy"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "deep-tech",
+        "startups",
+        "venture-capital",
+        "innovation-policy"
+      ],
+      "canonicalPath": "/articles/what-india-is-building-vs-could-build/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/what-india-is-building-vs-could-build/",
+      "agentJsonPath": "/agents/articles/what-india-is-building-vs-could-build.json",
+      "agentMarkdownPath": "/agents/articles/what-india-is-building-vs-could-build.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 474,
+      "contentHash": "1c65c2cbfaabb5ee4c87a6d5e05fef5ea438e4fac17145b118be57d675855556"
+    }
+  ]
+}

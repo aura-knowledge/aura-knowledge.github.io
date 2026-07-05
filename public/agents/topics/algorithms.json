@@ -2,7 +2,9 @@
   "schemaVersion": 1,
   "topic": "algorithms",
   "articleIds": [
-    "article:engagement-is-a-design-choice"
+    "article:engagement-is-a-design-choice",
+    "article:friction-chronological-feeds-user-chosen-algorithms",
+    "article:product-ideas-that-could-shift-incentives"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/algorithms/",
   "agentJsonPath": "/agents/topics/algorithms.json",
@@ -38,7 +40,77 @@
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 879,
-      "contentHash": "b658a45e5e248472079d1560ae0fbd12abc49064c4f12c28d1b1abee730fd06a"
+      "contentHash": "7585c03a336b10fe1b3acc19fdafc0bf8de138d8c6de08d781f634649a090e94"
+    },
+    {
+      "id": "article:friction-chronological-feeds-user-chosen-algorithms",
+      "slug": "friction-chronological-feeds-user-chosen-algorithms",
+      "title": "Friction, Chronological Feeds, and User-Chosen Algorithms",
+      "summary": "Surveys evidence on design interventions that reduce extraction: chronological feeds, friction before sharing, and user control over ranking algorithms.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "social-media",
+        "misinformation",
+        "algorithms"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "social-media",
+        "misinformation",
+        "algorithms"
+      ],
+      "canonicalPath": "/articles/friction-chronological-feeds-user-chosen-algorithms/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
+      "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json",
+      "agentMarkdownPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 277,
+      "contentHash": "21521e52b917b8a7564cddfdbfaf85536a76943b744c02e3c161db15cd5cc3ef"
+    },
+    {
+      "id": "article:product-ideas-that-could-shift-incentives",
+      "slug": "product-ideas-that-could-shift-incentives",
+      "title": "Product Ideas That Could Shift the Incentives",
+      "summary": "Sketches product and platform alternatives—quality-based incentives, public-interest algorithms, creator reputation economies—that could reward substance over extraction.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "algorithms",
+        "creator-economy",
+        "platform-design"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "algorithms",
+        "creator-economy",
+        "platform-design"
+      ],
+      "canonicalPath": "/articles/product-ideas-that-could-shift-incentives/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
+      "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
+      "agentMarkdownPath": "/agents/articles/product-ideas-that-could-shift-incentives.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 6,
+      "tokenEstimate": 291,
+      "contentHash": "4dfd02f7205a72689d7b7f743e4e7b8a22f8075e5b3aa10606afc6942e733a6a"
     }
   ]
 }

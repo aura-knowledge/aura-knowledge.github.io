@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:the-compounding-bet
 articleId: article:the-compounding-bet
 slug: the-compounding-bet
-title: 'Agent Brief for "The Compounding Bet"'
+title: "Agent Brief for 'The Compounding Bet'"
 tokenBudget: 1500
 status: published
 updated: 2026-07-05

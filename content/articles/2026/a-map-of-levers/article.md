@@ -22,7 +22,7 @@ agentArtifact: /agents/articles/a-map-of-levers.json
 sourcePath: content/articles/2026/a-map-of-levers/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 6: Synthesis and Action</p>
+<p class="article-kicker">Attention, Substance, and the AI Moment · Part 6</p>
 
 India's digital infrastructure is a remarkable public good: nearly 900 million internet users, more than 650 million smartphones, and some of the cheapest data on earth. The same infrastructure, however, is now tuned to harvest attention at industrial scale. The diagnosis in this series is clear: a 4:1 entertainment-to-education ratio, adolescents more likely to open social media than a learning app, and workers who lose focus before the quarter-hour mark.
 
@@ -74,7 +74,7 @@ Still, individual skill matters. The substance-building articles in this series 
 
 <span id="claim-003" class="claim-marker" data-claim="claim-003">Claim C3</span> Individual attention practices can reduce personal extraction, but their effect is bounded by platform defaults, social norms, and economic pressure; they work best when supported by household and design changes.
 
-The household layer is arguably the most underused lever in India. Parents, siblings, and shared meals set the grammar of device use. A family that charges phones outside the bedroom, keeps meals screen-free, and talks about what children watched creates a different default than one where every member retreats into a private feed. The NCERT 2022 mental-health survey of more than 379,000 students found that <strong>81% felt anxious about studies and exams</strong> — a signal that the household and school environment matters at least as much as the apps.
+The household layer is arguably the most underused lever in India. Parents, siblings, and shared meals set the grammar of device use. A family that charges phones outside the bedroom, keeps meals screen-free, and talks about what children watched creates a different default than one where every member retreats into a private feed. The NCERT 2022 mental-health survey of more than 379,000 students found that <strong>81% felt anxious about studies and exams</strong> — a signal that the household and school environment matters at least as much as the apps. [The Family's Garden](/articles/the-familys-garden/) explores how households can build small attention contracts that hold.
 
 Household levers are unevenly available. Single-earner families, gig workers, and households with limited space cannot always enforce device-free zones. The point is not to shame families that struggle, but to recognize that where norms can change, they change behavior faster than most policy can.
 
@@ -82,9 +82,9 @@ Household levers are unevenly available. Single-earner families, gig workers, an
 
 If the inner layers are where users live, the middle layers are where the architecture is built. Platform design determines what is easy, what is rewarded, and what is hidden.
 
-The current default is well documented: infinite scroll, autoplay, variable rewards, red-dot notifications, and algorithmic feeds that optimise for time-on-site. These are the product of metrics chosen by business models. An ad-funded platform that sells attention will design for attention. A subscription platform that sells trust or learning will design for trust or learning.
+The current default is well documented: infinite scroll, autoplay, variable rewards, red-dot notifications, and algorithmic feeds that optimise for time-on-site. [The Design of Extraction](/articles/the-design-of-extraction/) documents how these mechanisms make feeds hard to leave. These are the product of metrics chosen by business models. An ad-funded platform that sells attention will design for attention. A subscription platform that sells trust or learning will design for trust or learning.
 
-<span id="claim-004" class="claim-marker" data-claim="claim-004">Claim C4</span> Platform design is the highest-leverage intervention in the attention economy because a single design default — chronological feed, friction before sharing, or a substance-oriented recommendation signal — can reshape the behavior of millions of users at once.
+<span id="claim-004" class="claim-marker" data-claim="claim-004">Claim C4</span> Platform design is the highest-leverage intervention in the attention economy because a single design default — chronological feed, friction before sharing, or a substance-oriented recommendation signal — can reshape the behavior of millions of users at once. [Friction, Chronological Feeds, and User-Chosen Algorithms](/articles/friction-chronological-feeds-user-chosen-algorithms/) surveys small design changes that reduce extraction without banning anything.
 
 A <a href="https://www.science.org/doi/10.1126/sciadv.abe5641"><em>Science Advances</em> study</a> found social rewards amplify moral-outrage expression online, and a <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/19279">Microsoft Research Bengaluru study</a> found polarised Indian influencers are rewarded with increased retweeting. The <a href="https://digital-strategy.ec.europa.eu/en/policies/dsa-brings-transparency">EU Digital Services Act</a> now requires very large platforms to publish risk assessments, allow vetted researchers to access data, and face audits for systemic harms. These are design-accountability levers, not content-policing levers.
 
@@ -104,7 +104,7 @@ Regulation in India has moved from absence to partial presence. The Information 
 
 The Kerala High Court's December 2024 internal memorandum restricting personal phone use by court staff during office hours is an example of institutional recognition, not a national solution. The EU Digital Services Act offers a more systematic template: transparency reports, researcher data access, algorithmic audits, and age-appropriate design obligations. India does not need to copy it wholesale, but it can learn from the principle that platforms should be accountable for systemic risks, not only illegal content.
 
-Citizens and civil society close the loop. Researchers who document harm, journalists who expose design tactics, fact-checkers who slow misinformation, and users who switch to better-designed services all create pressure that markets and governments cannot generate alone. The Tele-MANAS programme has received more than 32 lakh calls since its launch, with roughly 70% of callers aged 18–45. That is not only a service metric; it is a signal that civic demand for mental-health support has outpaced the design of the systems that produced the distress.
+Citizens and civil society close the loop. Researchers who document harm, journalists who expose design tactics, fact-checkers who slow misinformation, and users who switch to better-designed services all create pressure that markets and governments cannot generate alone. [Public Pressure and Internal Accountability](/articles/public-pressure-and-internal-accountability/) maps the roles researchers, journalists, whistleblowers, employees, and shareholders can play. The Tele-MANAS programme has received more than 32 lakh calls since its launch, with roughly 70% of callers aged 18–45. That is not only a service metric; it is a signal that civic demand for mental-health support has outpaced the design of the systems that produced the distress.
 
 <span id="claim-007" class="claim-marker" data-claim="claim-007">Claim C7</span> Civic accountability — research, journalism, whistleblowing, organised user demand, and alternative-platform adoption — is the layer that makes regulation and investor pressure credible.
 
@@ -116,7 +116,7 @@ A platform that introduces friction before sharing reduces the viral spread of o
 
 <span id="claim-008" class="claim-marker" data-claim="claim-008">Claim C8</span> Sustained change requires aligned movement across all six layers; any single-layer intervention will be absorbed, gamed, or exhausted by the others.
 
-The AI moment makes this coordination more urgent. Artificial intelligence can lower the cost of creation, translation, tutoring, and scientific discovery. It can also lower the cost of extraction: synthetic content, hyper-personalised feeds, AI influencers, and deepfakes. Which path dominates depends on which layers move first. If platforms and investors double down on engagement, extraction accelerates. If regulators, citizens, and households demand substance-oriented design, AI becomes a tool for the substance builder.
+The AI moment makes this coordination more urgent. Artificial intelligence can lower the cost of creation, translation, tutoring, and scientific discovery. It can also lower the cost of extraction: synthetic content, hyper-personalised feeds, AI influencers, and deepfakes. [AI Could Make Extraction Cheaper Too](/articles/ai-could-make-extraction-cheaper-too/) traces how generative AI could deepen the extraction loop before the opportunity window closes. Which path dominates depends on which layers move first. If platforms and investors double down on engagement, extraction accelerates. If regulators, citizens, and households demand substance-oriented design, AI becomes a tool for the substance builder.
 
 <h2 id="sources-and-method">Sources and Method</h2>
 
@@ -137,4 +137,5 @@ This article synthesises evidence from across the <em>Attention, Substance, and 
 - [The Generational Bet](/articles/the-generational-bet/) — why AI makes the next few years a compounding bet.
 - [The Substance Builder](/articles/the-substance-builder/) — practical paths for individual attention practice.
 - [Designing for Substance](/articles/designing-for-substance/) — platform incentives and the design of extraction.
+- [Product Ideas That Could Shift the Incentives](/articles/product-ideas-that-could-shift-incentives/) — sketches of platforms and products that could reward substance over extraction.
 - [Attention, Substance, and the AI Moment: A Series Index](/articles/attention-substance-ai-moment/) — the full series guide and reading paths.

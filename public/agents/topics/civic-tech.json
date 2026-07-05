@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "topic": "civic-tech",
+  "articleIds": [
+    "article:alternative-metrics-time-well-spent",
+    "article:the-citizens-garden"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/civic-tech/",
+  "agentJsonPath": "/agents/topics/civic-tech.json",
+  "articles": [
+    {
+      "id": "article:alternative-metrics-time-well-spent",
+      "slug": "alternative-metrics-time-well-spent",
+      "title": "Alternative Metrics: Time Well Spent, Sustainability, Learning, Civic Value",
+      "summary": "Surveys proposed alternatives to engagement-based metrics and their tradeoffs: time well spent, learning outcomes, civic value, and sustainability.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "metrics",
+        "design",
+        "platform-governance",
+        "civic-tech"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "metrics",
+        "design",
+        "platform-governance",
+        "civic-tech"
+      ],
+      "canonicalPath": "/articles/alternative-metrics-time-well-spent/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/alternative-metrics-time-well-spent/",
+      "agentJsonPath": "/agents/articles/alternative-metrics-time-well-spent.json",
+      "agentMarkdownPath": "/agents/articles/alternative-metrics-time-well-spent.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 270,
+      "contentHash": "c49c8db8fad9468f2f5de96d655457175a9767d0cceb457918fc831a32e0856c"
+    },
+    {
+      "id": "article:the-citizens-garden",
+      "slug": "the-citizens-garden",
+      "title": "The Citizen's Garden: Local Knowledge plus AI",
+      "summary": "Shows how ordinary citizens can use AI to produce local knowledge and help neighbors, moving from online consumption to offline civic contribution.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "civic-tech",
+        "artificial-intelligence",
+        "local-knowledge",
+        "bhashini"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "civic-tech",
+        "artificial-intelligence",
+        "local-knowledge",
+        "bhashini"
+      ],
+      "canonicalPath": "/articles/the-citizens-garden/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-citizens-garden/",
+      "agentJsonPath": "/agents/articles/the-citizens-garden.json",
+      "agentMarkdownPath": "/agents/articles/the-citizens-garden.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 307,
+      "contentHash": "48249a1f571fa817161271612ebe803b794eedd8dc4389c16393b972dde65d1c"
+    }
+  ]
+}

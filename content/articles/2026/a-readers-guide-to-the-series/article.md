@@ -21,7 +21,7 @@ agentArtifact: /agents/articles/a-readers-guide-to-the-series.json
 sourcePath: content/articles/2026/a-readers-guide-to-the-series/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 6: Synthesis</p>
+<p class="article-kicker">Attention, Substance, and the AI Moment · Part 6</p>
 
 A long series is useful only if readers can find the part that answers their question. This guide is a map, not a summary. It explains how the [Attention, Substance, and the AI Moment](/articles/attention-substance-ai-moment/) series is organized, which published articles answer which questions, and how different readers—parents, students, builders, policymakers, educators—might move through it without reading every chapter in order.
 
@@ -48,9 +48,12 @@ If you have limited time, start with the question that brought you here.
 
 - **"Is this really a problem?"** → [The Attention Extraction](/articles/the-attention-extraction/) maps how India's digital-access success has inverted into an attention-extraction economy.
 - **"What does the data actually say?"** → [By the Numbers: What Indians Actually Do Online](/articles/by-the-numbers-what-indians-do-online/) breaks down the entertainment-to-education ratio and the country's digital time budget.
+- **"What do short-form feeds do to attention?"** → [The Reel Nation: Short-Form Video and the Economics of a Swipe](/articles/the-reel-nation-short-form-video/) explains how infinite, variable-reward feeds turn minutes into hours.
 - **"Why does AI make this urgent?"** → [The Generational Bet](/articles/the-generational-bet/) reframes the AI moment as a habit problem, not a technology problem.
 - **"What can I do today?"** → [The Substance Builder](/articles/the-substance-builder/) offers small, repeated practices for turning dead time into creation and learning.
+- **"How should I use AI without outsourcing my thinking?"** → [AI as a Journeyman Assistant](/articles/ai-as-journeyman-assistant/) shows how to use AI to lower the first step of hard work without giving up the thinking.
 - **"What could platforms or policymakers do?"** → [Designing for Substance](/articles/designing-for-substance/) looks at metrics, regulation, and product alternatives.
+- **"What historical patterns should inform the AI moment?"** → [Historical Hinges](/articles/historical-hinges-access-is-not-benefit/) traces when access to a powerful tool did not guarantee its benefits.
 - **"How do I navigate the whole series?"** → You are reading it.
 
 <span id="claim-003" class="claim-marker" data-claim="claim-003">Claim C3</span> Most readers will find the series more useful if they enter by question or role rather than reading front to back, because the articles are designed to be self-contained.
@@ -65,11 +68,11 @@ Different readers will find different articles most relevant.
 
 **Students and young workers** may want [The Generational Bet](/articles/the-generational-bet/) and [The Substance Builder](/articles/the-substance-builder/) first. The bet article explains why small daily choices compound; the builder article shows how to start. The AI opportunity-cost articles are the natural next step.
 
-**Builders and product designers** may want the Diagnosis articles on platform economics and design extraction, plus the entire Designing for Substance arc. [Designing for Substance](/articles/designing-for-substance/) is the central article, but [The Attention Extraction](/articles/the-attention-extraction/) gives the problem statement it answers.
+**Builders and product designers** may want the Diagnosis articles on platform economics and design extraction, plus the entire Designing for Substance arc. [Designing for Substance](/articles/designing-for-substance/) is the central article, but [The Attention Extraction](/articles/the-attention-extraction/) gives the problem statement it answers. [The Design of Extraction](/articles/the-design-of-extraction/) breaks down the mechanisms—variable rewards, notifications, infinite scroll—that make feeds hard to leave.
 
 **Policymakers and civic actors** may want the diagnosis, the regulatory and design-alternatives articles, and the synthesis levers map. [By the Numbers](/articles/by-the-numbers-what-indians-do-online/) and [The Attention Extraction](/articles/the-attention-extraction/) provide the evidence base; [Designing for Substance](/articles/designing-for-substance/) covers regulation and public-interest design.
 
-**Researchers and journalists** may want to use the series as a source index. Each article includes a Sources and Method section, claim markers, and an artifact file with source URLs and confidence labels.
+**Researchers and journalists** may want to use the series as a source index. Each article includes a Sources and Method section, claim markers, and an artifact file with source URLs and confidence labels. [Open Questions the Series Leaves Unresolved](/articles/open-questions-the-series-leaves-unresolved/) collects the honest uncertainties and invitations for further research.
 
 <span id="claim-004" class="claim-marker" data-claim="claim-004">Claim C4</span> The series explicitly distinguishes India-specific survey data from global benchmarks and industry estimates, so readers can judge the strength of each claim for themselves.
 
@@ -95,6 +98,11 @@ That constraint matters. It prevents the guide from promising articles that do n
 - [Attention, Substance, and the AI Moment: A Series Index](/articles/attention-substance-ai-moment/) — the living landing page for the whole series.
 - [The Attention Extraction](/articles/the-attention-extraction/) — the diagnosis and overview.
 - [By the Numbers: What Indians Actually Do Online](/articles/by-the-numbers-what-indians-do-online/) — the data-forward diagnosis.
+- [The Reel Nation: Short-Form Video and the Economics of a Swipe](/articles/the-reel-nation-short-form-video/) — how infinite, variable-reward feeds turn minutes into hours.
+- [Historical Hinges](/articles/historical-hinges-access-is-not-benefit/) — when access to a powerful tool did not guarantee its benefits.
 - [The Generational Bet](/articles/the-generational-bet/) — the AI opportunity cost framed as a habit problem.
+- [AI as a Journeyman Assistant](/articles/ai-as-journeyman-assistant/) — using AI to lower the first step of hard work without outsourcing the thinking.
 - [The Substance Builder](/articles/the-substance-builder/) — individual practice for reclaiming attention.
+- [The Design of Extraction](/articles/the-design-of-extraction/) — the mechanisms that make feeds hard to leave.
 - [Designing for Substance](/articles/designing-for-substance/) — platform incentives and systemic design.
+- [Open Questions the Series Leaves Unresolved](/articles/open-questions-the-series-leaves-unresolved/) — honest uncertainty and invitations for further research.

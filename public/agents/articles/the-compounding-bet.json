@@ -29,7 +29,7 @@
   "series": {
     "slug": "attention-substance-ai-moment",
     "title": "Attention, Substance, and the AI Moment",
-    "order": 11,
+    "order": 26,
     "role": "chapter"
   },
   "claims": [
@@ -346,7 +346,7 @@
           "sources"
         ],
         "notes": "Human author approved publication.",
-        "contentHash": "0c0895ce5054a37dcb895f36204883b905464bba6a736b441219cab2911e21d9"
+        "contentHash": "1d9dc1bd1cee040a792048ecab6acad39cf130a561507617cb60d79141158281"
       }
     ],
     "policy": {
@@ -354,7 +354,7 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "0c0895ce5054a37dcb895f36204883b905464bba6a736b441219cab2911e21d9",
+  "contentHash": "1d9dc1bd1cee040a792048ecab6acad39cf130a561507617cb60d79141158281",
   "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
   "agentJsonPath": "/agents/articles/the-compounding-bet.json",

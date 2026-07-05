@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:the-indic-language-internet-and-vernacular-feeds
 articleId: article:the-indic-language-internet-and-vernacular-feeds
 slug: the-indic-language-internet-and-vernacular-feeds
-title: 'Agent Brief for "The Indic-Language Internet and the Vernacular Feed"'
+title: "Agent Brief for 'The Indic-Language Internet and the Vernacular Feed'"
 tokenBudget: 1500
 status: published
 updated: 2026-07-05

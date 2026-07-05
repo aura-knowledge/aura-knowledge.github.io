@@ -118,6 +118,53 @@
     "status": "framing"
   },
   {
+    "id": "article:age-appropriate-design",
+    "type": "article",
+    "label": "Age-Appropriate Design and Protecting Vulnerable Users",
+    "path": "/articles/age-appropriate-design/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:age-appropriate-design:claim-001",
+    "type": "claim",
+    "label": "Vulnerable users—children, elderly people, and low-literacy users—deserve stronger default protections, age-appropriate design, and limits on data-driven persuasion because their attention and data are not fair targets for extraction.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:age-appropriate-design:claim-002",
+    "type": "claim",
+    "label": "Children's developing brains are more susceptible to variable rewards and social comparison, which makes engagement-optimized design a disproportionate risk for them.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:age-appropriate-design:claim-003",
+    "type": "claim",
+    "label": "Elderly users face higher risks from scams, misinformation, and platform complexity, so safety defaults and simplified paths matter as much as screen-time limits.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:age-appropriate-design:claim-004",
+    "type": "claim",
+    "label": "Low-literacy users may not recognize dark patterns or understand data practices, which makes plain-language defaults and friction against harmful choices essential.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "core"
+  },
+  {
+    "id": "article:age-appropriate-design:claim-005",
+    "type": "claim",
+    "label": "Age-appropriate design standards, such as the UK's Age Appropriate Design Code, offer a regulatory template for stronger defaults and limits on data-driven persuasion.",
+    "localId": "claim-005",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
     "id": "article:agent-auditable-research",
     "type": "article",
     "label": "The Future of Publishing Is Agent-Auditable Research",
@@ -520,6 +567,84 @@
     "status": "design"
   },
   {
+    "id": "article:ai-as-journeyman-assistant",
+    "type": "article",
+    "label": "AI as a Journeyman Assistant, Not a Replacement",
+    "path": "/articles/ai-as-journeyman-assistant/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:ai-as-journeyman-assistant:claim-001",
+    "type": "claim",
+    "label": "AI is most useful as a journeyman assistant that lowers friction without replacing human judgment.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:ai-as-journeyman-assistant:claim-002",
+    "type": "claim",
+    "label": "The boundary between using AI and outsourcing thinking is porous and must be actively managed.",
+    "localId": "claim-002",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:ai-as-journeyman-assistant:claim-003",
+    "type": "claim",
+    "label": "AI can accelerate feedback loops in writing, coding, design, translation, and tutoring.",
+    "localId": "claim-003",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:ai-as-journeyman-assistant:claim-004",
+    "type": "claim",
+    "label": "Human judgment, taste, and accountability remain the scarce and valuable inputs.",
+    "localId": "claim-004",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:ai-could-make-extraction-cheaper-too",
+    "type": "article",
+    "label": "AI Could Make Extraction Cheaper Too",
+    "path": "/articles/ai-could-make-extraction-cheaper-too/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:ai-could-make-extraction-cheaper-too:claim-001",
+    "type": "claim",
+    "label": "Generative AI dramatically lowers the cost of producing video, audio, text, and images at scale.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:ai-could-make-extraction-cheaper-too:claim-002",
+    "type": "claim",
+    "label": "AI-powered recommendation can make feeds more personally addictive and harder to audit.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:ai-could-make-extraction-cheaper-too:claim-003",
+    "type": "claim",
+    "label": "Deepfakes and synthetic influencers are already entering Indian political and consumer discourse.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:ai-could-make-extraction-cheaper-too:claim-004",
+    "type": "claim",
+    "label": "The same technology can be designed toward substance if quality, provenance, and user control become first-class goals.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "design"
+  },
+  {
     "id": "article:ai-delegation-orchestration",
     "type": "article",
     "label": "AI Delegation Orchestration: A Series on Durable Agent Work",
@@ -718,6 +843,45 @@
     "status": "argument"
   },
   {
+    "id": "article:alternative-metrics-time-well-spent",
+    "type": "article",
+    "label": "Alternative Metrics: Time Well Spent, Sustainability, Learning, Civic Value",
+    "path": "/articles/alternative-metrics-time-well-spent/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:alternative-metrics-time-well-spent:claim-001",
+    "type": "claim",
+    "label": "Engagement metrics are not neutral; they encode a business model and a theory of user value.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:alternative-metrics-time-well-spent:claim-002",
+    "type": "claim",
+    "label": "Proposed alternatives include time well spent, meaningful social interaction, learning outcomes, and civic participation.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:alternative-metrics-time-well-spent:claim-003",
+    "type": "claim",
+    "label": "Each alternative metric can be gamed and requires safeguards.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:alternative-metrics-time-well-spent:claim-004",
+    "type": "claim",
+    "label": "The first step is to make metrics visible and debatable rather than treating engagement as inevitable.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "design"
+  },
+  {
     "id": "article:attention-substance-ai-moment",
     "type": "article",
     "label": "Attention, Substance, and the AI Moment: A Series Index",
@@ -867,6 +1031,45 @@
     "status": "core"
   },
   {
+    "id": "article:bhashini-and-the-indic-language-ai-moment",
+    "type": "article",
+    "label": "Bhashini and the Indic-Language AI Moment",
+    "path": "/articles/bhashini-and-the-indic-language-ai-moment/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:bhashini-and-the-indic-language-ai-moment:claim-001",
+    "type": "claim",
+    "label": "Roughly 98% of Indian internet users access content in Indic languages, so the cost and quality of language technology will shape what kind of information, education, and public discourse reach them.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:bhashini-and-the-indic-language-ai-moment:claim-002",
+    "type": "claim",
+    "label": "Bhashini, AI4Bharat, and related initiatives have produced open datasets, models, and APIs that lower the engineering barrier for Indian-language applications.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:bhashini-and-the-indic-language-ai-moment:claim-003",
+    "type": "claim",
+    "label": "Lower translation and voice-generation costs could help local educators, journalists, and builders reach larger, more linguistically diverse audiences.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:bhashini-and-the-indic-language-ai-moment:claim-004",
+    "type": "claim",
+    "label": "The real benefit of Indic-language AI depends on whether platforms and business models reward substance, or merely scale low-quality, high-engagement content.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
     "id": "article:birth-of-ai",
     "type": "article",
     "label": "The Birth of AI: Dartmouth, Symbolic Systems, and Early Optimism",
@@ -911,6 +1114,45 @@
     "label": "The early field included multiple lineages, including symbolic reasoning, cybernetics, neural approaches, game-playing, and machine-intelligence philosophy.",
     "localId": "claim-005",
     "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:business-models-that-reward-substance",
+    "type": "article",
+    "label": "Business Models That Reward Substance",
+    "path": "/articles/business-models-that-reward-substance/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:business-models-that-reward-substance:claim-001",
+    "type": "claim",
+    "label": "Advertising-funded platforms optimize for time-on-site and ad impressions, which favors engagement over quality.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:business-models-that-reward-substance:claim-002",
+    "type": "claim",
+    "label": "Subscriptions align incentives with user satisfaction and retention.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:business-models-that-reward-substance:claim-003",
+    "type": "claim",
+    "label": "Public funding and philanthropy can support content that has civic value but limited commercial appeal.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:business-models-that-reward-substance:claim-004",
+    "type": "claim",
+    "label": "Cooperatives and reputation economies can reward contributions that the market undervalues.",
+    "localId": "claim-004",
+    "confidence": "medium",
     "status": "argument"
   },
   {
@@ -1165,6 +1407,45 @@
     "status": "risk"
   },
   {
+    "id": "article:failure-teaching-and-the-skill-stack",
+    "type": "article",
+    "label": "Failure, Teaching, and the Skill Stack",
+    "path": "/articles/failure-teaching-and-the-skill-stack/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:failure-teaching-and-the-skill-stack:claim-001",
+    "type": "claim",
+    "label": "Early work is supposed to be bad; the gap between taste and ability closes through repetition and feedback.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:failure-teaching-and-the-skill-stack:claim-002",
+    "type": "claim",
+    "label": "Teaching forces you to clarify what you actually understand.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:failure-teaching-and-the-skill-stack:claim-003",
+    "type": "claim",
+    "label": "A portfolio of unfinished but documented projects is more valuable than a hidden record of perfect beginnings.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:failure-teaching-and-the-skill-stack:claim-004",
+    "type": "claim",
+    "label": "AI can accelerate feedback loops, but it cannot replace the judgment that comes from repeated practice.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
     "id": "article:fine-tuning",
     "type": "article",
     "label": "Fine-Tuning: Teaching a Model a Narrower Behavior",
@@ -1378,6 +1659,45 @@
     "status": "landscape"
   },
   {
+    "id": "article:friction-chronological-feeds-user-chosen-algorithms",
+    "type": "article",
+    "label": "Friction, Chronological Feeds, and User-Chosen Algorithms",
+    "path": "/articles/friction-chronological-feeds-user-chosen-algorithms/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:friction-chronological-feeds-user-chosen-algorithms:claim-001",
+    "type": "claim",
+    "label": "Chronological feeds reduce the power of engagement-optimized recommendations by removing the ranking signal that rewards time on site and emotional reactions.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "design"
+  },
+  {
+    "id": "article:friction-chronological-feeds-user-chosen-algorithms:claim-002",
+    "type": "claim",
+    "label": "Friction before sharing—such as asking whether a user wants to share unverified content—reduces the spread of misinformation without blocking speech.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:friction-chronological-feeds-user-chosen-algorithms:claim-003",
+    "type": "claim",
+    "label": "User-chosen algorithm modes give agency back to users by letting them select ranking criteria without requiring them to leave the platform.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:friction-chronological-feeds-user-chosen-algorithms:claim-004",
+    "type": "claim",
+    "label": "These design changes are technically feasible but often conflict with ad-supported business models that optimize for engagement, time on site, and viral distribution.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
     "id": "article:gender-and-the-attention-economy",
     "type": "article",
     "label": "Gender and the Attention Economy",
@@ -1441,6 +1761,84 @@
     "status": "landscape"
   },
   {
+    "id": "article:historical-analogies-of-missed-transitions",
+    "type": "article",
+    "label": "Historical Analogies of Missed Transitions",
+    "path": "/articles/historical-analogies-of-missed-transitions/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:historical-analogies-of-missed-transitions:claim-001",
+    "type": "claim",
+    "label": "Late industrialization was associated with slower long-run income growth and greater dependency.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:historical-analogies-of-missed-transitions:claim-002",
+    "type": "claim",
+    "label": "The PC and early-internet divide left lasting productivity gaps between adopters and laggards.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:historical-analogies-of-missed-transitions:claim-003",
+    "type": "claim",
+    "label": "AI is likely to have a similar compounding effect on productivity, defense, and scientific discovery.",
+    "localId": "claim-003",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:historical-analogies-of-missed-transitions:claim-004",
+    "type": "claim",
+    "label": "India's large talent base gives it a window, but the window is not indefinitely open.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:historical-hinges-access-is-not-benefit",
+    "type": "article",
+    "label": "Historical Hinges: When Access to a Tool Did Not Guarantee Its Benefits",
+    "path": "/articles/historical-hinges-access-is-not-benefit/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:historical-hinges-access-is-not-benefit:claim-001",
+    "type": "claim",
+    "label": "The printing press initially produced a flood of pamphlets and misinformation before stabilizing into modern publishing norms.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:historical-hinges-access-is-not-benefit:claim-002",
+    "type": "claim",
+    "label": "The industrial revolution raised living standards over generations, but early disruptions included child labor, pollution, and urban squalor.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:historical-hinges-access-is-not-benefit:claim-003",
+    "type": "claim",
+    "label": "The personal computer and early internet had a 'productivity paradox' before organizational practices caught up.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:historical-hinges-access-is-not-benefit:claim-004",
+    "type": "claim",
+    "label": "Smartphones and AI are at a similar hinge: access is here, but the institutions for healthy use are still forming.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
     "id": "article:human-systems",
     "type": "article",
     "label": "The Human Road Through AI: Labor, Institutions, Governance, and Meaning",
@@ -1492,6 +1890,45 @@
     "type": "claim",
     "label": "Public trust is a design constraint because adoption depends on people's ability to understand, challenge, and rely on AI-mediated systems.",
     "localId": "claim-006",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:india-in-global-context",
+    "type": "article",
+    "label": "India in Global Context: The Attention Economy Is Not Only an Indian Story",
+    "path": "/articles/india-in-global-context/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:india-in-global-context:claim-001",
+    "type": "claim",
+    "label": "India ranks among the highest countries for daily smartphone screen time.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:india-in-global-context:claim-002",
+    "type": "claim",
+    "label": "Brazil, Indonesia, and Nigeria show similar patterns of mobile-first entertainment and platform concentration.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:india-in-global-context:claim-003",
+    "type": "claim",
+    "label": "The US and China have larger domestic platform ecosystems but face similar debates about youth screen time and platform accountability.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:india-in-global-context:claim-004",
+    "type": "claim",
+    "label": "India's regulatory choices—DSA-style due diligence, app-store rules, data protection—will shape how the global South addresses extraction.",
+    "localId": "claim-004",
     "confidence": "medium",
     "status": "argument"
   },
@@ -1794,6 +2231,45 @@
     "status": "risk"
   },
   {
+    "id": "article:open-questions-the-series-leaves-unresolved",
+    "type": "article",
+    "label": "Open Questions the Series Leaves Unresolved",
+    "path": "/articles/open-questions-the-series-leaves-unresolved/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:open-questions-the-series-leaves-unresolved:claim-001",
+    "type": "claim",
+    "label": "The causal effect of specific platform features on mental health, learning, and productivity remains hard to isolate.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:open-questions-the-series-leaves-unresolved:claim-002",
+    "type": "claim",
+    "label": "Different cultures may need different balances between protection and autonomy.",
+    "localId": "claim-002",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:open-questions-the-series-leaves-unresolved:claim-003",
+    "type": "claim",
+    "label": "The right level of regulation is contested: too little leaves users exposed; too much risks overreach.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:open-questions-the-series-leaves-unresolved:claim-004",
+    "type": "claim",
+    "label": "India's path will depend on choices made by platforms, policymakers, educators, and individuals over the next decade.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
     "id": "article:planning-and-reflection",
     "type": "article",
     "label": "Planning and Reflection: How AI Breaks Down and Revises Work",
@@ -1837,6 +2313,45 @@
     "type": "claim",
     "label": "A self-harness pattern can turn one-off reflection into reusable verification routines that are proposed by the model and validated against held-out examples.",
     "localId": "claim-005",
+    "confidence": "medium",
+    "status": "design"
+  },
+  {
+    "id": "article:product-ideas-that-could-shift-incentives",
+    "type": "article",
+    "label": "Product Ideas That Could Shift the Incentives",
+    "path": "/articles/product-ideas-that-could-shift-incentives/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:product-ideas-that-could-shift-incentives:claim-001",
+    "type": "claim",
+    "label": "Quality signals—such as citations, completion rates, and user-reported learning—can complement engagement signals and steer recommendation systems toward substance.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:product-ideas-that-could-shift-incentives:claim-002",
+    "type": "claim",
+    "label": "Public-interest algorithms could surface locally relevant, verified, and constructive content when the stakes are high.",
+    "localId": "claim-002",
+    "confidence": "medium",
+    "status": "design"
+  },
+  {
+    "id": "article:product-ideas-that-could-shift-incentives:claim-003",
+    "type": "claim",
+    "label": "Creator reputation economies can reward consistent quality over viral moments.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:product-ideas-that-could-shift-incentives:claim-004",
+    "type": "claim",
+    "label": "User-owned attention budgets and time-well-spent dashboards can restore agency without removing choice.",
+    "localId": "claim-004",
     "confidence": "medium",
     "status": "design"
   },
@@ -1917,6 +2432,84 @@
     "localId": "claim-004",
     "confidence": "medium",
     "status": "risk"
+  },
+  {
+    "id": "article:public-pressure-and-internal-accountability",
+    "type": "article",
+    "label": "Public Pressure and Internal Accountability",
+    "path": "/articles/public-pressure-and-internal-accountability/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:public-pressure-and-internal-accountability:claim-001",
+    "type": "claim",
+    "label": "Academic research has repeatedly revealed harms—addiction, polarization, mental health—that platforms initially disputed.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:public-pressure-and-internal-accountability:claim-002",
+    "type": "claim",
+    "label": "Investigative journalism and whistleblower leaks have forced public debate and some design changes.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:public-pressure-and-internal-accountability:claim-003",
+    "type": "claim",
+    "label": "Shareholder and employee activism can shift corporate priorities when framed in business-risk terms.",
+    "localId": "claim-003",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:public-pressure-and-internal-accountability:claim-004",
+    "type": "claim",
+    "label": "Civil-society campaigns help translate technical findings into public demand and policy proposals.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:public-space-and-private-screens",
+    "type": "article",
+    "label": "Public Space and Private Screens: The Commute Is Not Empty",
+    "path": "/articles/public-space-and-private-screens/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:public-space-and-private-screens:claim-001",
+    "type": "claim",
+    "label": "Mass-media participation is nearly universal in India, while voluntary social participation has fallen sharply.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:public-space-and-private-screens:claim-002",
+    "type": "claim",
+    "label": "Public transit and waiting spaces in India show high rates of individual screen use across income groups.",
+    "localId": "claim-002",
+    "confidence": "medium",
+    "status": "landscape"
+  },
+  {
+    "id": "article:public-space-and-private-screens:claim-003",
+    "type": "claim",
+    "label": "Incidental conversation in public spaces historically served as a low-cost channel for information, apprenticeship, and social cohesion.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:public-space-and-private-screens:claim-004",
+    "type": "claim",
+    "label": "Headphones and private feeds convert shared space into parallel solitude, making social withdrawal feel like a norm.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "argument"
   },
   {
     "id": "article:reasoning-models",
@@ -2060,6 +2653,45 @@
     "status": "risk"
   },
   {
+    "id": "article:sleep-anxiety-and-tele-manas",
+    "type": "article",
+    "label": "Sleep, Anxiety, and the Tele-MANAS Signal",
+    "path": "/articles/sleep-anxiety-and-tele-manas/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:sleep-anxiety-and-tele-manas:claim-001",
+    "type": "claim",
+    "label": "Tele-MANAS has received more than 32 lakh calls, with roughly 70% from people aged 18–45.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:sleep-anxiety-and-tele-manas:claim-002",
+    "type": "claim",
+    "label": "NCERT and state surveys report high rates of anxiety, mood disturbance, and sleep problems among Indian adolescents.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:sleep-anxiety-and-tele-manas:claim-003",
+    "type": "claim",
+    "label": "Sleep disruption from evening screen use is one documented pathway between heavy smartphone use and next-day distress.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:sleep-anxiety-and-tele-manas:claim-004",
+    "type": "claim",
+    "label": "Mental-health data should be read as a public-health signal shaped by design, economics, and social context, not as evidence of individual weakness.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
     "id": "article:the-attention-extraction",
     "type": "article",
     "label": "The Attention Extraction: How India's Digital Dividend Is Becoming a Cognitive Deficit",
@@ -2160,6 +2792,45 @@
     "localId": "claim-007",
     "confidence": "medium-high",
     "status": "core"
+  },
+  {
+    "id": "article:the-citizens-garden",
+    "type": "article",
+    "label": "The Citizen's Garden: Local Knowledge plus AI",
+    "path": "/articles/the-citizens-garden/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-citizens-garden:claim-001",
+    "type": "claim",
+    "label": "Government schemes, health information, and civic services are often inaccessible not because they do not exist, but because of language barriers, formal language, and fragmentation across offices, apps, and deadlines.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-citizens-garden:claim-002",
+    "type": "claim",
+    "label": "AI translation, summarization, and voice generation can lower the cost of turning complex official information into local, spoken, shareable knowledge.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-citizens-garden:claim-003",
+    "type": "claim",
+    "label": "Local volunteers, community organizations, and trusted neighbors remain essential for trust, verification, and last-mile delivery.",
+    "localId": "claim-003",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-citizens-garden:claim-004",
+    "type": "claim",
+    "label": "Small civic acts—translated, documented, and shared—can compound into neighborhood-level infrastructure that outlasts the person who started them.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "argument"
   },
   {
     "id": "article:the-compounding-bet",
@@ -2288,6 +2959,84 @@
     "status": "core"
   },
   {
+    "id": "article:the-demographic-dividend-is-not-automatic",
+    "type": "article",
+    "label": "The Demographic Dividend Is Not Automatic: Youth, Talent, and Time",
+    "path": "/articles/the-demographic-dividend-is-not-automatic/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-demographic-dividend-is-not-automatic:claim-001",
+    "type": "claim",
+    "label": "Roughly 65% of India's population is under 35, giving it one of the world's youngest workforces.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-demographic-dividend-is-not-automatic:claim-002",
+    "type": "claim",
+    "label": "India Skills Report and other surveys find employability rates below 55% for many graduate cohorts.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-demographic-dividend-is-not-automatic:claim-003",
+    "type": "claim",
+    "label": "Youth unemployment, especially among graduates, is elevated relative to overall unemployment.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:the-demographic-dividend-is-not-automatic:claim-004",
+    "type": "claim",
+    "label": "The demographic dividend is therefore a time-use dividend: the same years can build human capital or be absorbed by low-value screen activity.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:the-design-of-extraction",
+    "type": "article",
+    "label": "The Design of Extraction: Variable Rewards, Notifications, and Dark Patterns",
+    "path": "/articles/the-design-of-extraction/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-design-of-extraction:claim-001",
+    "type": "claim",
+    "label": "Variable-ratio reward schedules, borrowed from gambling research, are central to feed engagement.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-design-of-extraction:claim-002",
+    "type": "claim",
+    "label": "Infinite scroll, autoplay, and pull-to-refresh remove natural stopping points from content consumption.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-design-of-extraction:claim-003",
+    "type": "claim",
+    "label": "Notifications, red dots, and streaks exploit loss aversion and social reciprocity to drive reopening.",
+    "localId": "claim-003",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-design-of-extraction:claim-004",
+    "type": "claim",
+    "label": "These patterns are not neutral user preferences; they are product decisions that can be changed.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
     "id": "article:the-engagement-gap-productivity-india",
     "type": "article",
     "label": "The Engagement Gap",
@@ -2351,6 +3100,45 @@
     "status": "framing"
   },
   {
+    "id": "article:the-familys-garden",
+    "type": "article",
+    "label": "The Family's Garden: Attention Contracts at Home",
+    "path": "/articles/the-familys-garden/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-familys-garden:claim-001",
+    "type": "claim",
+    "label": "Parent screen use is one of the strongest predictors of child screen use.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-familys-garden:claim-002",
+    "type": "claim",
+    "label": "Device-free meals and shared activities are associated with better family connection and child well-being.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-familys-garden:claim-003",
+    "type": "claim",
+    "label": "Age-appropriate boundaries work better than total prohibition, which often increases secrecy and desire.",
+    "localId": "claim-003",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:the-familys-garden:claim-004",
+    "type": "claim",
+    "label": "Families that create together—cooking, building, reading, discussing—build attention habits that outlast any single rule.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
     "id": "article:the-generational-bet",
     "type": "article",
     "label": "The Generational Bet: Will India Build the AI Age or Scroll Through It?",
@@ -2385,6 +3173,45 @@
     "id": "article:the-generational-bet:claim-004",
     "type": "claim",
     "label": "Small daily choices about attention may compound, over years, into individual skill and, at scale, into national capacity.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:the-green-revolution-trade-off",
+    "type": "article",
+    "label": "The Green Revolution Trade-Off",
+    "path": "/articles/the-green-revolution-trade-off/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-green-revolution-trade-off:claim-001",
+    "type": "claim",
+    "label": "The Green Revolution dramatically increased cereal production and averted famine in India.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-green-revolution-trade-off:claim-002",
+    "type": "claim",
+    "label": "The Green Revolution also led to groundwater depletion, soil salinity, and reduced crop diversity in several regions.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-green-revolution-trade-off:claim-003",
+    "type": "claim",
+    "label": "The costs were delayed and diffuse, making them politically harder to address than the initial hunger crisis.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:the-green-revolution-trade-off:claim-004",
+    "type": "claim",
+    "label": "Universal digital access similarly solves an access crisis while creating attention, mental-health, and civic-cohesion costs that accumulate slowly.",
     "localId": "claim-004",
     "confidence": "medium",
     "status": "argument"
@@ -2453,6 +3280,45 @@
     "status": "framing"
   },
   {
+    "id": "article:the-jio-effect-cheap-data-access-behavior",
+    "type": "article",
+    "label": "The Jio Effect: Cheap Data and the Access-Behavior Paradox",
+    "path": "/articles/the-jio-effect-cheap-data-access-behavior/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-jio-effect-cheap-data-access-behavior:claim-001",
+    "type": "claim",
+    "label": "Jio's 2016 launch reduced Indian mobile-data prices to among the lowest in the world.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-jio-effect-cheap-data-access-behavior:claim-002",
+    "type": "claim",
+    "label": "India added hundreds of millions of internet users in the following years, many in rural areas and on low-cost smartphones.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-jio-effect-cheap-data-access-behavior:claim-003",
+    "type": "claim",
+    "label": "The same low-cost data enabled a surge in short-form video, gaming, and messaging.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:the-jio-effect-cheap-data-access-behavior:claim-004",
+    "type": "claim",
+    "label": "The access success now raises a use question: can the same infrastructure be redirected toward productivity and learning?",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
     "id": "article:the-life-phase-thread",
     "type": "article",
     "label": "The Life-Phase Thread",
@@ -2514,6 +3380,45 @@
     "localId": "claim-007",
     "confidence": "medium",
     "status": "core"
+  },
+  {
+    "id": "article:the-reel-nation-short-form-video",
+    "type": "article",
+    "label": "The Reel Nation: Short-Form Video and the Economics of a Swipe",
+    "path": "/articles/the-reel-nation-short-form-video/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-reel-nation-short-form-video:claim-001",
+    "type": "claim",
+    "label": "India has one of the world's largest short-form video user bases, with average daily use reaching 55–60 minutes per user.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-reel-nation-short-form-video:claim-002",
+    "type": "claim",
+    "label": "Short-form feeds rely on variable rewards, infinite scroll, autoplay, and algorithmic personalization to extend session length.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-reel-nation-short-form-video:claim-003",
+    "type": "claim",
+    "label": "Peer-reviewed studies link heavy short-form video use to reduced executive control, sleep disruption, and anxiety, though causality remains contested.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:the-reel-nation-short-form-video:claim-004",
+    "type": "claim",
+    "label": "The opportunity cost of short-form video dominance falls on education, skill-building, and offline social interaction.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "argument"
   },
   {
     "id": "article:the-small-rep-theory",
@@ -2650,6 +3555,45 @@
     "status": "framing"
   },
   {
+    "id": "article:the-students-garden",
+    "type": "article",
+    "label": "The Student's Garden: Learning in Public, Teaching in Private",
+    "path": "/articles/the-students-garden/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-students-garden:claim-001",
+    "type": "claim",
+    "label": "Passive consumption of AI-generated answers produces weaker learning than active explanation and problem-solving.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-students-garden:claim-002",
+    "type": "claim",
+    "label": "Teaching what you learn—through notes, blogs, videos, or peer sessions—is one of the most reliable ways to deepen understanding.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-students-garden:claim-003",
+    "type": "claim",
+    "label": "AI can lower the friction of producing explanations, flashcards, and practice questions.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-students-garden:claim-004",
+    "type": "claim",
+    "label": "The risk is that AI becomes a substitute for struggle; the opportunity is that it becomes a scaffold for struggle.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
     "id": "article:the-substance-builder",
     "type": "article",
     "label": "The Substance Builder: How to Turn Dead Time into Small Acts of Creation",
@@ -2695,6 +3639,84 @@
     "localId": "claim-005",
     "confidence": "high",
     "status": "core"
+  },
+  {
+    "id": "article:the-workers-garden",
+    "type": "article",
+    "label": "The Worker's Garden: Commutes, Side Projects, and Career Capital",
+    "path": "/articles/the-workers-garden/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-workers-garden:claim-001",
+    "type": "claim",
+    "label": "Commutes and waiting time add up to hundreds of hours per year for many workers.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-workers-garden:claim-002",
+    "type": "claim",
+    "label": "Small daily investments in skill-building compound more reliably than sporadic heroic efforts.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-workers-garden:claim-003",
+    "type": "claim",
+    "label": "Side projects and public learning signal capability more credibly than credentials alone in many fields.",
+    "localId": "claim-003",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:the-workers-garden:claim-004",
+    "type": "claim",
+    "label": "AI lowers the cost of starting side projects in writing, coding, design, and translation.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:tobacco-seatbelts-food-safety",
+    "type": "article",
+    "label": "Tobacco, Seatbelts, and Food Safety: How Societies Learn to Regulate Design",
+    "path": "/articles/tobacco-seatbelts-food-safety/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:tobacco-seatbelts-food-safety:claim-001",
+    "type": "claim",
+    "label": "Tobacco was marketed as a personal and even healthy choice before epidemiology shifted the regulatory frame.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:tobacco-seatbelts-food-safety:claim-002",
+    "type": "claim",
+    "label": "Seatbelt and food-safety rules changed behavior through defaults and design standards rather than lectures.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "design"
+  },
+  {
+    "id": "article:tobacco-seatbelts-food-safety:claim-003",
+    "type": "claim",
+    "label": "These transitions required a combination of scientific evidence, advocacy, litigation, and regulation.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:tobacco-seatbelts-food-safety:claim-004",
+    "type": "claim",
+    "label": "Attention platforms are at an earlier stage of the same transition: evidence is accumulating, but design standards remain weak.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "argument"
   },
   {
     "id": "article:tool-use",
@@ -2807,6 +3829,45 @@
     "status": "landscape"
   },
   {
+    "id": "article:user-migration-and-the-exit-problem",
+    "type": "article",
+    "label": "User Migration and the Exit Problem",
+    "path": "/articles/user-migration-and-the-exit-problem/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:user-migration-and-the-exit-problem:claim-001",
+    "type": "claim",
+    "label": "Network effects mean a platform's value rises with the number of users, making latecomers uncompetitive.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:user-migration-and-the-exit-problem:claim-002",
+    "type": "claim",
+    "label": "Switching costs include lost contacts, content archives, and reputation.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:user-migration-and-the-exit-problem:claim-003",
+    "type": "claim",
+    "label": "Data portability and interoperability can reduce lock-in.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:user-migration-and-the-exit-problem:claim-004",
+    "type": "claim",
+    "label": "Federated protocols like ActivityPub allow users to change providers without leaving their networks.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
     "id": "article:what-ai-makes-cheap",
     "type": "article",
     "label": "What AI Makes Cheap",
@@ -2868,6 +3929,45 @@
     "localId": "claim-007",
     "confidence": "medium",
     "status": "core"
+  },
+  {
+    "id": "article:what-india-is-building-vs-could-build",
+    "type": "article",
+    "label": "What India Is Building vs. What It Could Build",
+    "path": "/articles/what-india-is-building-vs-could-build/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:what-india-is-building-vs-could-build:claim-001",
+    "type": "claim",
+    "label": "India's digital economy contributes roughly 11.74% of GDP, led by services and consumer platforms.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:what-india-is-building-vs-could-build:claim-002",
+    "type": "claim",
+    "label": "A large share of venture funding and startup talent has gone into delivery, ride-hailing, and quick commerce.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:what-india-is-building-vs-could-build:claim-003",
+    "type": "claim",
+    "label": "Semiconductors, foundational AI models, scientific instruments, and industrial automation receive far smaller shares of capital and attention.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:what-india-is-building-vs-could-build:claim-004",
+    "type": "claim",
+    "label": "National AI readiness depends on shifting some fraction of talent and capital toward harder, slower problems.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "argument"
   },
   {
     "id": "article:who-profits-advertising-foreign-platforms",
@@ -3079,11 +4179,32 @@
     "sourceType": "paper"
   },
   {
+    "id": "source-aap-media",
+    "type": "source",
+    "label": "AAP: Media and Young Minds",
+    "url": "https://publications.aap.org/pediatrics/article/138/5/e20162591/60321/Media-and-Young-Minds",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
     "id": "source-aba-formal-opinion-512",
     "type": "source",
     "label": "American Bar Association, Formal Opinion 512: Generative Artificial Intelligence Tools",
     "url": "https://www.americanbar.org/content/dam/aba/administrative/professional_responsibility/ethics-opinions/aba-formal-opinion-512.pdf",
     "sourceType": "report"
+  },
+  {
+    "id": "source-acemoglu-industrialization",
+    "type": "source",
+    "label": "Acemoglu and Robinson: Why Nations Fail",
+    "url": "https://en.wikipedia.org/wiki/Why_Nations_Fail",
+    "sourceType": "book"
+  },
+  {
+    "id": "source-activitypub",
+    "type": "source",
+    "label": "W3C: ActivityPub Protocol",
+    "url": "https://www.w3.org/TR/activitypub/",
+    "sourceType": "specification"
   },
   {
     "id": "source-adobe-ai-traffic-2025",
@@ -3119,6 +4240,13 @@
     "label": "PMC: The use of social media at workplace and its influence on productivity in the era of COVID-19",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9516508/",
     "sourceType": "peer-reviewed-study"
+  },
+  {
+    "id": "source-ai4bharat",
+    "type": "source",
+    "label": "AI4Bharat: IndicNLP and IndicLLM Resources",
+    "url": "https://ai4bharat.iitm.ac.in/",
+    "sourceType": "repository"
   },
   {
     "id": "source-alexnet-2012",
@@ -3191,6 +4319,13 @@
     "sourceType": "product"
   },
   {
+    "id": "source-apa-adolescent-social-media",
+    "type": "source",
+    "label": "American Psychological Association: Health Advisory on Social Media Use in Adolescence",
+    "url": "https://www.apa.org/topics/social-media-internet/health-advisory-adolescent-social-media-use",
+    "sourceType": "research-report"
+  },
+  {
     "id": "source-aser-2024",
     "type": "source",
     "label": "ASER 2024 National Findings",
@@ -3245,6 +4380,13 @@
     "label": "Baddeley & Hitch: Working Memory",
     "url": "https://www.simplypsychology.org/working-memory.html",
     "sourceType": "article"
+  },
+  {
+    "id": "source-bain-short-form-india",
+    "type": "source",
+    "label": "Bain: The Rise of Short-Form Video in India",
+    "url": "https://www.bain.com/insights/the-rise-of-short-form-video-in-india/",
+    "sourceType": "industry-report"
   },
   {
     "id": "source-bainbridge-ironies-automation",
@@ -3310,6 +4452,13 @@
     "sourceType": "research"
   },
   {
+    "id": "source-bhashini",
+    "type": "source",
+    "label": "Bhashini: Digital India Bhashini",
+    "url": "https://bhashini.gov.in/",
+    "sourceType": "government-website"
+  },
+  {
     "id": "source-bhashini-website",
     "type": "source",
     "label": "Bhashini: AI-driven Indian language translation services",
@@ -3363,6 +4512,20 @@
     "type": "source",
     "label": "Brown et al.: Language Models are Few-Shot Learners",
     "url": "https://arxiv.org/abs/2005.14165",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-brynjolfsson-generative-ai-at-work",
+    "type": "source",
+    "label": "Brynjolfsson, Li & Raymond: Generative AI at Work",
+    "url": "https://www.nber.org/papers/w31161",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
+    "id": "source-brynjolfsson-productivity-paradox",
+    "type": "source",
+    "label": "Brynjolfsson: The Productivity J-Curve",
+    "url": "https://www.nber.org/papers/w25189",
     "sourceType": "paper"
   },
   {
@@ -3422,6 +4585,13 @@
     "sourceType": "blog-post"
   },
   {
+    "id": "source-cdc-food-safety",
+    "type": "source",
+    "label": "CDC: Food Safety in the United States",
+    "url": "https://www.cdc.gov/foodsafety/",
+    "sourceType": "government-report"
+  },
+  {
     "id": "source-center-humane-tech",
     "type": "source",
     "label": "Center for Humane Technology",
@@ -3434,6 +4604,13 @@
     "label": "OpenAI: What can ChatGPT do?",
     "url": "https://openai.com/chatgpt/overview/",
     "sourceType": "product"
+  },
+  {
+    "id": "source-china-cac-algorithmic-recommendations",
+    "type": "source",
+    "label": "China CAC: Provisions on the Management of Algorithmic Recommendations in Internet Information Services",
+    "url": "https://www.cac.gov.cn/2022-01/04/c_1642894606364259.htm",
+    "sourceType": "government-report"
   },
   {
     "id": "source-chinchilla-2022",
@@ -3520,6 +4697,13 @@
     "sourceType": "documentation"
   },
   {
+    "id": "source-cis-india",
+    "type": "source",
+    "label": "CIS India: Internet Governance Research",
+    "url": "https://cis-india.org/",
+    "sourceType": "website"
+  },
+  {
     "id": "source-claude-capabilities",
     "type": "source",
     "label": "Anthropic: Claude capabilities",
@@ -3539,6 +4723,20 @@
     "label": "Introducing EmDash",
     "url": "https://blog.cloudflare.com/emdash-wordpress/",
     "sourceType": "product"
+  },
+  {
+    "id": "source-cmu-reputation-stackoverflow",
+    "type": "source",
+    "label": "CMU: Analysis of the Reputation System and User Contributions on Stack Overflow",
+    "url": "https://www.cs.cmu.edu/~ymovshov/Papers/asonam_2013.pdf",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
+    "id": "source-commonsense-media-screens-2024",
+    "type": "source",
+    "label": "Common Sense Media: The New Normal: Parents, Teens, Screens, and Sleep in 2024",
+    "url": "https://www.commonsensemedia.org/research/the-new-normal-parents-teens-screens-and-sleep-in-2024",
+    "sourceType": "industry-report"
   },
   {
     "id": "source-cornell-perceptron",
@@ -3583,6 +4781,13 @@
     "sourceType": "news-article"
   },
   {
+    "id": "source-dark-patterns-org",
+    "type": "source",
+    "label": "Dark Patterns: Deceptive Design",
+    "url": "https://www.deceptive.design/",
+    "sourceType": "website"
+  },
+  {
     "id": "source-dartmouth-1955",
     "type": "source",
     "label": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
@@ -3609,6 +4814,13 @@
     "label": "Dash et al., Divided We Rule: Influencer Polarization on Twitter during Political Crises in India, ICWSM (2022)",
     "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/19279",
     "sourceType": "peer-reviewed-study"
+  },
+  {
+    "id": "source-datareportal-digital-2025",
+    "type": "source",
+    "label": "DataReportal: Digital 2025 Global Overview Report",
+    "url": "https://datareportal.com/reports/digital-2025-global-overview-report",
+    "sourceType": "industry-report"
   },
   {
     "id": "source-deep-learning-book",
@@ -3688,11 +4900,18 @@
     "sourceType": "paper"
   },
   {
+    "id": "source-dunlosky-effective-learning",
+    "type": "source",
+    "label": "Dunlosky et al.: Improving Students' Learning With Effective Learning Techniques",
+    "url": "https://dx.doi.org/10.1177/1529100612453266",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-duolingo-max",
     "type": "source",
-    "label": "Duolingo: Introducing Duolingo Max",
+    "label": "Duolingo: Duolingo Max",
     "url": "https://blog.duolingo.com/duolingo-max/",
-    "sourceType": "product-blog"
+    "sourceType": "website"
   },
   {
     "id": "source-edvac-first-draft",
@@ -3707,6 +4926,13 @@
     "label": "The EigenTrust Algorithm for Reputation Management in P2P Networks",
     "url": "https://nlp.stanford.edu/pubs/eigentrust.pdf",
     "sourceType": "research"
+  },
+  {
+    "id": "source-eisenstein-printing-press",
+    "type": "source",
+    "label": "Elizabeth Eisenstein: The Printing Press as an Agent of Change",
+    "url": "https://en.wikipedia.org/wiki/Elizabeth_L._Eisenstein",
+    "sourceType": "book"
   },
   {
     "id": "source-elements-stat-learning",
@@ -3744,6 +4970,13 @@
     "sourceType": "peer-reviewed-study"
   },
   {
+    "id": "source-ericsson-deliberate-practice",
+    "type": "source",
+    "label": "Ericsson: The Role of Deliberate Practice in the Acquisition of Expert Performance",
+    "url": "https://psycnet.apa.org/record/1993-40718-001",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-ericsson-pool-peak-2016",
     "type": "source",
     "label": "Ericsson and Pool (2016): Peak: Secrets from the New Science of Expertise",
@@ -3753,9 +4986,9 @@
   {
     "id": "source-eu-ai-act",
     "type": "source",
-    "label": "AI Act",
-    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
-    "sourceType": "policy"
+    "label": "European Union: Artificial Intelligence Act",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+    "sourceType": "government-report"
   },
   {
     "id": "source-eu-ai-act-2024-1689",
@@ -3779,11 +5012,32 @@
     "sourceType": "regulatory"
   },
   {
+    "id": "source-eu-digital-services-act",
+    "type": "source",
+    "label": "EU Digital Services Act",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package",
+    "sourceType": "government-report"
+  },
+  {
+    "id": "source-eu-dma",
+    "type": "source",
+    "label": "EU Digital Markets Act",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-markets-act",
+    "sourceType": "government-report"
+  },
+  {
     "id": "source-eu-dsa",
     "type": "source",
     "label": "European Commission: The Digital Services Act",
     "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act",
     "sourceType": "regulatory-text"
+  },
+  {
+    "id": "source-eu-dsa-regulation",
+    "type": "source",
+    "label": "European Commission: Digital Services Act",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package",
+    "sourceType": "government-report"
   },
   {
     "id": "source-eu-dsa-transparency",
@@ -3797,6 +5051,13 @@
     "type": "source",
     "label": "Evaluating Large Language Models: A Comprehensive Survey",
     "url": "https://arxiv.org/abs/2310.19736",
+    "sourceType": "paper"
+  },
+  {
+    "id": "source-evenson-gollin",
+    "type": "source",
+    "label": "Evenson and Gollin: Assessing the Impact of the Green Revolution",
+    "url": "https://www.jstor.org/stable/3137268",
     "sourceType": "paper"
   },
   {
@@ -3821,6 +5082,27 @@
     "sourceType": "industry-report"
   },
   {
+    "id": "source-eyal-hooked",
+    "type": "source",
+    "label": "Nir Eyal: Hooked: How to Build Habit-Forming Products",
+    "url": "https://www.nirandfar.com/hooked/",
+    "sourceType": "book"
+  },
+  {
+    "id": "source-fao-water",
+    "type": "source",
+    "label": "FAO: Water withdrawal and pressure on renewable water resources",
+    "url": "https://www.fao.org/aquastat/en/",
+    "sourceType": "government-report"
+  },
+  {
+    "id": "source-fda-history",
+    "type": "source",
+    "label": "FDA: The 1906 Food and Drugs Act and Its Enforcement",
+    "url": "https://www.fda.gov/about-fda/fda-history-exhibits/1906-food-and-drugs-act-and-its-enforcement",
+    "sourceType": "government-report"
+  },
+  {
     "id": "source-feigenbaum-1977",
     "type": "source",
     "label": "The Art of Artificial Intelligence: I. Themes and Case Studies of Knowledge Engineering",
@@ -3842,11 +5124,25 @@
     "sourceType": "industry-report"
   },
   {
+    "id": "source-fiorella-mayer-learning-by-teaching",
+    "type": "source",
+    "label": "Fiorella & Mayer: The Cambridge Handbook of Multimedia Learning — Learning by Teaching",
+    "url": "https://psycnet.apa.org/record/2015-45253-001",
+    "sourceType": "book"
+  },
+  {
     "id": "source-fogg-behavior-model",
     "type": "source",
-    "label": "Fogg Behavior Model",
+    "label": "B.J. Fogg: A Behavior Model for Persuasive Design",
     "url": "https://behaviormodel.org/",
-    "sourceType": "academic-website"
+    "sourceType": "research-report"
+  },
+  {
+    "id": "source-fogg-tiny-habits",
+    "type": "source",
+    "label": "BJ Fogg: Tiny Habits",
+    "url": "https://www.tinyhabits.com/",
+    "sourceType": "book"
   },
   {
     "id": "source-fogg-tiny-habits-2019",
@@ -3868,6 +5164,13 @@
     "label": "On the Opportunities and Risks of Foundation Models",
     "url": "https://arxiv.org/abs/2108.07258",
     "sourceType": "research-report"
+  },
+  {
+    "id": "source-freeman-active-learning",
+    "type": "source",
+    "label": "Freeman et al.: Active learning increases student performance in science, engineering, and mathematics",
+    "url": "https://www.pnas.org/doi/10.1073/pnas.1319030111",
+    "sourceType": "peer-reviewed-study"
   },
   {
     "id": "source-frege-logic",
@@ -3952,6 +5255,13 @@
     "label": "Gibson: The Ecological Approach to Visual Perception",
     "url": "https://www.hachettebookgroup.com/titles/james-j-gibson/the-ecological-approach-to-visual-perception/9780205238818/",
     "sourceType": "book"
+  },
+  {
+    "id": "source-github-stars",
+    "type": "source",
+    "label": "GitHub: Stars and Contribution Graphs",
+    "url": "https://github.com/",
+    "sourceType": "website"
   },
   {
     "id": "source-gloria-mark-attention-span",
@@ -4066,11 +5376,25 @@
     "sourceType": "historiographic-commentary"
   },
   {
+    "id": "source-harris-ted",
+    "type": "source",
+    "label": "Tristan Harris: How a handful of tech companies control billions of minds every day",
+    "url": "https://www.ted.com/talks/tristan_harris_how_a_handful_of_tech_companies_control_billions_of_minds_every_day",
+    "sourceType": "talk"
+  },
+  {
     "id": "source-hathway-ai-safety",
     "type": "source",
     "label": "Hathway: How to Use AI Safely: 10 Mistakes to Avoid for Secure Usage",
     "url": "https://www.hathway.com/About/Blog/how-to-use-ai-safely",
     "sourceType": "safety-guide"
+  },
+  {
+    "id": "source-haugen-facebook-papers",
+    "type": "source",
+    "label": "The Facebook Papers / Frances Haugen",
+    "url": "https://en.wikipedia.org/wiki/Facebook_Papers",
+    "sourceType": "document-collection"
   },
   {
     "id": "source-helm",
@@ -4122,9 +5446,30 @@
     "sourceType": "paper"
   },
   {
+    "id": "source-humane-tech",
+    "type": "source",
+    "label": "Center for Humane Technology",
+    "url": "https://www.humanetech.com/",
+    "sourceType": "website"
+  },
+  {
+    "id": "source-humanetech-impact",
+    "type": "source",
+    "label": "Center for Humane Technology: Impact and Story",
+    "url": "https://www.humanetech.com/impact-and-story",
+    "sourceType": "website"
+  },
+  {
     "id": "source-iamai-kantar-2024",
     "type": "source",
     "label": "IAMAI-Kantar: Internet in India Report 2024",
+    "url": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf",
+    "sourceType": "industry-report"
+  },
+  {
+    "id": "source-iamai-language",
+    "type": "source",
+    "label": "IAMAI-Kantar: Internet in India Report 2024 - Language findings",
     "url": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf",
     "sourceType": "industry-report"
   },
@@ -4185,10 +5530,24 @@
     "sourceType": "benchmark-site"
   },
   {
+    "id": "source-imf-gen-ai-labor",
+    "type": "source",
+    "label": "IMF: Gen-AI - Artificial Intelligence and the Future of Work",
+    "url": "https://www.imf.org/en/Publications/Staff-Discussion-Notes/Issues/2024/01/14/Gen-AI-Artificial-Intelligence-and-the-Future-of-Work-542379",
+    "sourceType": "government-report"
+  },
+  {
     "id": "source-india-budget-economic-survey",
     "type": "source",
     "label": "India Budget: Economic Survey 2025-26 Education and Health Chapter",
     "url": "https://www.indiabudget.gov.in/economicsurvey/doc/eschapter/echap11.pdf",
+    "sourceType": "government-report"
+  },
+  {
+    "id": "source-india-dpdp-2023",
+    "type": "source",
+    "label": "India: Digital Personal Data Protection Act, 2023",
+    "url": "https://www.meity.gov.in/writereaddata/files/Digital%20Personal%20Data%20Protection%20Act%202023.pdf",
     "sourceType": "government-report"
   },
   {
@@ -4197,6 +5556,20 @@
     "label": "India Hate Lab, Hate Speech Events in India 2024 Report",
     "url": "https://www.csohate.org/2025/02/10/hate-speech-report-india-2024/",
     "sourceType": "watchdog-report"
+  },
+  {
+    "id": "source-india-it-rules-2021",
+    "type": "source",
+    "label": "India: Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021",
+    "url": "https://www.meity.gov.in/writereaddata/files/Intermediary_Guidelines_and_Digital_Media_Ethics_Code_Rules_2021.pdf",
+    "sourceType": "government-report"
+  },
+  {
+    "id": "source-india-skills-report",
+    "type": "source",
+    "label": "India Skills Report 2025",
+    "url": "https://www.wheebox.com/wee-projects/India-skills-report-publications.php",
+    "sourceType": "industry-report"
   },
   {
     "id": "source-india-skills-report-2025",
@@ -4213,11 +5586,32 @@
     "sourceType": "government-press-release"
   },
   {
+    "id": "source-instagram-well-being",
+    "type": "source",
+    "label": "Instagram: Hidden likes and well-being research",
+    "url": "https://about.instagram.com/blog/announcements/instagram-well-being-research",
+    "sourceType": "article"
+  },
+  {
     "id": "source-instructgpt-paper",
     "type": "source",
     "label": "Training language models to follow instructions with human feedback",
     "url": "https://arxiv.org/abs/2203.02155",
     "sourceType": "paper"
+  },
+  {
+    "id": "source-internet-freedom-foundation",
+    "type": "source",
+    "label": "Internet Freedom Foundation (India)",
+    "url": "https://internetfreedom.in/",
+    "sourceType": "website"
+  },
+  {
+    "id": "source-ira-glass-gap",
+    "type": "source",
+    "label": "Ira Glass on the gap between taste and ability",
+    "url": "https://www.youtube.com/watch?v=BI23U7U2aUY",
+    "sourceType": "talk"
   },
   {
     "id": "source-isaw-antikythera",
@@ -4241,11 +5635,39 @@
     "sourceType": "government-report"
   },
   {
+    "id": "source-itu-affordability",
+    "type": "source",
+    "label": "ITU: Affordability of ICT services",
+    "url": "https://www.itu.int/itu-d/reports/statistics/affordability-of-ict-services-2023/",
+    "sourceType": "government-report"
+  },
+  {
+    "id": "source-itu-facts",
+    "type": "source",
+    "label": "ITU: Facts and Figures 2024",
+    "url": "https://www.itu.int/itu-d/reports/statistics/facts-figures-2024/",
+    "sourceType": "government-report"
+  },
+  {
     "id": "source-itu-facts-2025",
     "type": "source",
     "label": "Measuring Digital Development: Facts and Figures 2025",
     "url": "https://www.itu.int/hub/publication/d-ind-ict_mdd-2025-3/",
     "sourceType": "official-statistics"
+  },
+  {
+    "id": "source-ivca-venture",
+    "type": "source",
+    "label": "IVCA: Indian Private Equity and Venture Capital Report",
+    "url": "https://ivca.in/research-reports/",
+    "sourceType": "industry-report"
+  },
+  {
+    "id": "source-karma-reputation",
+    "type": "source",
+    "label": "Reddit: Karma and Community Points",
+    "url": "https://www.reddit.com/wiki/karma/",
+    "sourceType": "website"
   },
   {
     "id": "source-kerala-hc-phone-ban",
@@ -4267,6 +5689,20 @@
     "label": "Khan Academy: Khanmigo",
     "url": "https://www.khanacademy.org/khan-labs/khanmigo",
     "sourceType": "product-page"
+  },
+  {
+    "id": "source-khanmigo",
+    "type": "source",
+    "label": "Khan Academy: Khanmigo",
+    "url": "https://www.khanacademy.org/khan-labs/khanmigo",
+    "sourceType": "website"
+  },
+  {
+    "id": "source-klemperer-switching-costs",
+    "type": "source",
+    "label": "Klemperer: Competition When Consumers Have Switching Costs",
+    "url": "https://www.jstor.org/stable/2729695",
+    "sourceType": "article"
   },
   {
     "id": "source-langchain-deepagents",
@@ -4295,6 +5731,13 @@
     "label": "MDPI Sustainability: Ensuring Sustainable Digital Inclusion among the Elderly (LASI-based analysis)",
     "url": "https://www.mdpi.com/2071-1050/16/17/7485",
     "sourceType": "peer-reviewed-study"
+  },
+  {
+    "id": "source-lasi-elderly",
+    "type": "source",
+    "label": "LASI: Longitudinal Aging Study in India",
+    "url": "https://iiasd.org/lasi/",
+    "sourceType": "research-report"
   },
   {
     "id": "source-lecun-docrec-1998",
@@ -4402,6 +5845,13 @@
     "sourceType": "paper"
   },
   {
+    "id": "source-maddison-project",
+    "type": "source",
+    "label": "Maddison Project Database",
+    "url": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023",
+    "sourceType": "dataset"
+  },
+  {
     "id": "source-malone-crowston",
     "type": "source",
     "label": "Malone and Crowston, The Interdisciplinary Study of Coordination",
@@ -4414,6 +5864,13 @@
     "label": "Mark, Gudith, and Klocke, The Cost of Interrupted Work",
     "url": "https://www.ics.uci.edu/~gmark/chi08-mark.pdf",
     "sourceType": "paper"
+  },
+  {
+    "id": "source-mastodon",
+    "type": "source",
+    "label": "Mastodon: Federated Social Media",
+    "url": "https://joinmastodon.org/",
+    "sourceType": "website"
   },
   {
     "id": "source-mastodon-admin-motivations",
@@ -4479,6 +5936,13 @@
     "sourceType": "platform-accountability-report"
   },
   {
+    "id": "source-microsoft-digital-defense",
+    "type": "source",
+    "label": "Microsoft: Digital Defense Report 2024",
+    "url": "https://www.microsoft.com/en-us/security/business/security-insider/intelligence-reports",
+    "sourceType": "industry-report"
+  },
+  {
     "id": "source-microsoft-research-bengaluru-polarization",
     "type": "source",
     "label": "Dash et al. (2022): Divided We Rule — Influencer Polarization on Twitter during Political Crises in India, ICWSM",
@@ -4521,6 +5985,20 @@
     "sourceType": "paper"
   },
   {
+    "id": "source-mosseri-time-well-spent",
+    "type": "source",
+    "label": "Adam Mosseri: Defining Time Well Spent",
+    "url": "https://about.instagram.com/blog/announcements/defining-time-well-spent",
+    "sourceType": "article"
+  },
+  {
+    "id": "source-mozilla-youtube-regrets",
+    "type": "source",
+    "label": "Mozilla Foundation: YouTube Regrets Research",
+    "url": "https://foundation.mozilla.org/en/campaigns/youtube-regrets/",
+    "sourceType": "research-report"
+  },
+  {
     "id": "source-mpiwg-antikythera",
     "type": "source",
     "label": "The Inscriptions of the Antikythera Mechanism",
@@ -4556,6 +6034,13 @@
     "sourceType": "industry-report"
   },
   {
+    "id": "source-nasscom-deep-tech",
+    "type": "source",
+    "label": "NASSCOM: Deep Tech Startups in India",
+    "url": "https://nasscom.in/knowledge-center/publications",
+    "sourceType": "industry-report"
+  },
+  {
     "id": "source-nasscom-ey-ai-adoption",
     "type": "source",
     "label": "NASSCOM-EY: AI Adoption Index",
@@ -4563,10 +6048,24 @@
     "sourceType": "industry-report"
   },
   {
+    "id": "source-nasscom-india-ai-adoption",
+    "type": "source",
+    "label": "NASSCOM: India AI Adoption and Technology Industry Reports",
+    "url": "https://nasscom.in/knowledge-center/publications",
+    "sourceType": "industry-report"
+  },
+  {
     "id": "source-nasscom-india-opportunity",
     "type": "source",
     "label": "NASSCOM: Unlocking Value from Data and AI – The India Opportunity",
     "url": "https://nasscom.in/knowledge-center/publications/unlocking-value-data-and-ai-india-opportunity",
+    "sourceType": "industry-report"
+  },
+  {
+    "id": "source-nasscom-talent",
+    "type": "source",
+    "label": "NASSCOM: India Talent Demand-Supply Gap",
+    "url": "https://nasscom.in/knowledge-center/publications",
     "sourceType": "industry-report"
   },
   {
@@ -4593,9 +6092,16 @@
   {
     "id": "source-ncert-mental-health-2022",
     "type": "source",
-    "label": "Ministry of Education: NCERT Student Mental Health Survey 2022 (Parliamentary Release)",
-    "url": "https://sansad.in/getFile/annex/260/AU1478.pdf?source=pqars",
+    "label": "NCERT: Mental Health and Well-being of School Students Survey",
+    "url": "https://ncert.nic.in/pdf/announcement/Mental_Health_Survey.pdf",
     "sourceType": "government-report"
+  },
+  {
+    "id": "source-newport-deep-work",
+    "type": "source",
+    "label": "Cal Newport: Deep Work",
+    "url": "https://www.calnewport.com/books/deep-work/",
+    "sourceType": "book"
   },
   {
     "id": "source-newport-deep-work-2016",
@@ -4603,6 +6109,13 @@
     "label": "Newport (2016): Deep Work: Rules for Focused Success in a Distracted World",
     "url": "https://calnewport.com/books/deep-work/",
     "sourceType": "book"
+  },
+  {
+    "id": "source-nhtsa-seatbelts",
+    "type": "source",
+    "label": "NHTSA: Seat Belt Use in America",
+    "url": "https://www.nhtsa.gov/risky-driving/seat-belts",
+    "sourceType": "government-report"
   },
   {
     "id": "source-nilsson-quest-ai",
@@ -4638,6 +6151,13 @@
     "label": "4 Principles for Reducing Cognitive Load in Forms",
     "url": "https://www.nngroup.com/articles/4-principles-reduce-cognitive-load/",
     "sourceType": "design"
+  },
+  {
+    "id": "source-npr-funding",
+    "type": "source",
+    "label": "NPR: Public Radio Funding Model",
+    "url": "https://www.npr.org/about-npr/178660742/public-radio-finances",
+    "sourceType": "website"
   },
   {
     "id": "source-nrc-ai-1999",
@@ -4682,6 +6202,20 @@
     "sourceType": "research-synthesis"
   },
   {
+    "id": "source-oecd-data-portability",
+    "type": "source",
+    "label": "OECD: Data Portability, Interoperability and Digital Platform Competition",
+    "url": "https://www.oecd.org/publications/data-portability-interoperability-and-digital-platform-competition-4afb73d4-en.htm",
+    "sourceType": "government-report"
+  },
+  {
+    "id": "source-oecd-gen-ai-productivity",
+    "type": "source",
+    "label": "OECD: Generative AI and the future of work",
+    "url": "https://www.oecd.org/en/publications/generative-ai-and-the-future-of-work_7b8b65ad-en.html",
+    "sourceType": "research-report"
+  },
+  {
     "id": "source-oecd-genai-productivity",
     "type": "source",
     "label": "OECD: The effects of generative AI on productivity, innovation and entrepreneurship",
@@ -4694,6 +6228,27 @@
     "label": "OECD: The effects of generative AI on productivity, innovation and entrepreneurship",
     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/the-effects-of-generative-ai-on-productivity-innovation-and-entrepreneurship_da1d085d/b21df222-en.pdf",
     "sourceType": "research-report"
+  },
+  {
+    "id": "source-ofcom-online-nation-2024",
+    "type": "source",
+    "label": "Ofcom: Online Nation 2024",
+    "url": "https://www.ofcom.org.uk/online-safety/online-nation/",
+    "sourceType": "government-report"
+  },
+  {
+    "id": "source-oldenburg-third-places",
+    "type": "source",
+    "label": "Ray Oldenburg: The Great Good Place",
+    "url": "https://en.wikipedia.org/wiki/Third_place",
+    "sourceType": "book"
+  },
+  {
+    "id": "source-ongo-civic-tech",
+    "type": "source",
+    "label": "Open Government Partnership: Civic Tech Guide",
+    "url": "https://www.opengovpartnership.org/topics/civic-tech/",
+    "sourceType": "website"
   },
   {
     "id": "source-openai-agents",
@@ -4780,6 +6335,13 @@
     "sourceType": "regulatory-data"
   },
   {
+    "id": "source-oxford-mental-health-causality",
+    "type": "source",
+    "label": "Orben & Przybylski, Nature Human Behaviour: The association between adolescent well-being and digital technology use",
+    "url": "https://www.nature.com/articles/s41562-019-0604-1",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
     "id": "source-pagedattention",
     "type": "source",
     "label": "vLLM: PagedAttention for Efficient LLM Serving",
@@ -4794,11 +6356,39 @@
     "sourceType": "practice-guidance"
   },
   {
+    "id": "source-patreon",
+    "type": "source",
+    "label": "Patreon: Creator Economy",
+    "url": "https://www.patreon.com/",
+    "sourceType": "website"
+  },
+  {
+    "id": "source-penn-facebook-friction",
+    "type": "source",
+    "label": "Penn/Stanford: The Effects of Facebook Feed Friction",
+    "url": "https://www.nber.org/papers/w30214",
+    "sourceType": "paper"
+  },
+  {
     "id": "source-pew-ai-topic",
     "type": "source",
     "label": "Artificial Intelligence",
     "url": "https://www.pewresearch.org/topic/internet-technology/emerging-technology/artificial-intelligence/",
     "sourceType": "survey-topic"
+  },
+  {
+    "id": "source-pew-mobile-etiquette-2015",
+    "type": "source",
+    "label": "Pew Research Center: Americans' Views on Mobile Etiquette",
+    "url": "https://www.pewinternet.org/2015/08/26/americans-views-on-mobile-etiquette/",
+    "sourceType": "survey"
+  },
+  {
+    "id": "source-pew-social-media",
+    "type": "source",
+    "label": "Pew Research Center: Social Media and News",
+    "url": "https://www.pewresearch.org/journalism/fact-sheet/news-use-across-social-media-platforms/",
+    "sourceType": "research-report"
   },
   {
     "id": "source-pib-bhashini-2024",
@@ -4857,6 +6447,13 @@
     "sourceType": "government-press-release"
   },
   {
+    "id": "source-pib-youth",
+    "type": "source",
+    "label": "PIB: Youth in India",
+    "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2219931",
+    "sourceType": "government-press-release"
+  },
+  {
     "id": "source-pib-youth-dividend-ai",
     "type": "source",
     "label": "PIB: India's Youth Dividend in the AI Era",
@@ -4878,10 +6475,24 @@
     "sourceType": "news-report"
   },
   {
+    "id": "source-plfs-india",
+    "type": "source",
+    "label": "Periodic Labour Force Survey (PLFS), Ministry of Statistics and Programme Implementation",
+    "url": "https://www.mospi.gov.in/web/plfs",
+    "sourceType": "government-report"
+  },
+  {
     "id": "source-pmc-adolescent-mental-health",
     "type": "source",
     "label": "PMC: Social media and mental health among Indian adolescents",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11438920/",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
+    "id": "source-pmc-executive-control",
+    "type": "source",
+    "label": "PMC: Short-form video use and executive function in young adults",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10876028/",
     "sourceType": "peer-reviewed-study"
   },
   {
@@ -4892,10 +6503,24 @@
     "sourceType": "peer-reviewed-study"
   },
   {
+    "id": "source-pmc-short-video-addiction",
+    "type": "source",
+    "label": "PMC: Heterogeneity in short video addiction and its association with inattention and negative emotions among college students",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12984201/",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
     "id": "source-pmc-short-video-attention",
     "type": "source",
     "label": "PMC: The adverse impact of mobile phone short-form video addiction on attentional functions and self-control",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11236742/",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
+    "id": "source-pmc-sleep-screen",
+    "type": "source",
+    "label": "PMC: Screen time and sleep quality in adolescents",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7774621/",
     "sourceType": "peer-reviewed-study"
   },
   {
@@ -4904,6 +6529,13 @@
     "label": "Finite Combinatory Processes - Formulation 1",
     "url": "https://doi.org/10.2307/2269031",
     "sourceType": "article"
+  },
+  {
+    "id": "source-postman-technopoly",
+    "type": "source",
+    "label": "Neil Postman: Technopoly",
+    "url": "https://en.wikipedia.org/wiki/Technopoly",
+    "sourceType": "book"
   },
   {
     "id": "source-principia-archive",
@@ -4932,6 +6564,13 @@
     "label": "PRS Legislative Research: Cyber Crimes and Cyber Security of Women (Committee on the Empowerment of Women, 2026)",
     "url": "https://prsindia.org/policy/report-summaries/cyber-crimes-and-cyber-security-of-women",
     "sourceType": "government-report"
+  },
+  {
+    "id": "source-putnam-bowling-alone",
+    "type": "source",
+    "label": "Robert Putnam: Bowling Alone",
+    "url": "https://en.wikipedia.org/wiki/Bowling_Alone",
+    "sourceType": "book"
   },
   {
     "id": "source-r1-1980",
@@ -5011,6 +6650,20 @@
     "sourceType": "paper"
   },
   {
+    "id": "source-reuters-digital-news-report-2025",
+    "type": "source",
+    "label": "Reuters Institute: Digital News Report 2025",
+    "url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2025",
+    "sourceType": "research-report"
+  },
+  {
+    "id": "source-reuters-institute",
+    "type": "source",
+    "label": "Reuters Institute: Digital News Report",
+    "url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report",
+    "sourceType": "industry-report"
+  },
+  {
     "id": "source-rlhf-2022",
     "type": "source",
     "label": "Training language models to follow instructions with human feedback",
@@ -5039,6 +6692,13 @@
     "sourceType": "research-paper"
   },
   {
+    "id": "source-sarvam-ai",
+    "type": "source",
+    "label": "Sarvam AI: Indian-Context Generative AI",
+    "url": "https://www.sarvam.ai/",
+    "sourceType": "industry-report"
+  },
+  {
     "id": "source-scaling-laws-2020",
     "type": "source",
     "label": "Scaling Laws for Neural Language Models",
@@ -5065,6 +6725,13 @@
     "label": "Toolformer: Language Models Can Teach Themselves to Use Tools",
     "url": "https://arxiv.org/abs/2302.04761",
     "sourceType": "paper"
+  },
+  {
+    "id": "source-schull-addiction-by-design",
+    "type": "source",
+    "label": "Natasha Dow Schüll: Addiction by Design",
+    "url": "https://press.princeton.edu/books/paperback/9780691166960/addiction-by-design",
+    "sourceType": "book"
   },
   {
     "id": "source-science-advances-outrage",
@@ -5228,6 +6895,13 @@
     "sourceType": "museum-exhibit"
   },
   {
+    "id": "source-stack-exchange",
+    "type": "source",
+    "label": "Stack Exchange: Reputation and Moderation",
+    "url": "https://stackexchange.com/",
+    "sourceType": "website"
+  },
+  {
     "id": "source-stanford-ai-index",
     "type": "source",
     "label": "Stanford HAI: The 2025 AI Index Report — Technical Performance",
@@ -5240,6 +6914,13 @@
     "label": "Stanford HAI: The Global AI Vibrancy Tool 2025",
     "url": "https://hai.stanford.edu/research/the-global-ai-vibrancy-tool-2024",
     "sourceType": "research-report"
+  },
+  {
+    "id": "source-stanford-hai-2025",
+    "type": "source",
+    "label": "Stanford HAI: AI Index Report 2025",
+    "url": "https://aiindex.stanford.edu/report/",
+    "sourceType": "industry-report"
   },
   {
     "id": "source-stanford-hai-ai-index-2025",
@@ -5270,6 +6951,13 @@
     "sourceType": "news-report"
   },
   {
+    "id": "source-stratechery-aggregation",
+    "type": "source",
+    "label": "Stratechery: Aggregation Theory",
+    "url": "https://stratechery.com/concepts/aggregation-theory/",
+    "sourceType": "article"
+  },
+  {
     "id": "source-substance-builder",
     "type": "source",
     "label": "The Substance Builder: How to Turn Dead Time into Small Acts of Creation",
@@ -5298,6 +6986,20 @@
     "sourceType": "comparison"
   },
   {
+    "id": "source-tele-manas-pib",
+    "type": "source",
+    "label": "PIB: Tele-MANAS - India's National Tele Mental Health Programme",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/dec/doc20241228477601.pdf",
+    "sourceType": "government-report"
+  },
+  {
+    "id": "source-thompson-making-of-the-english-working-class",
+    "type": "source",
+    "label": "E.P. Thompson: The Making of the English Working Class",
+    "url": "https://en.wikipedia.org/wiki/The_Making_of_the_English_Working_Class",
+    "sourceType": "book"
+  },
+  {
     "id": "source-toolformer-2023",
     "type": "source",
     "label": "Toolformer: Language Models Can Teach Themselves to Use Tools",
@@ -5310,6 +7012,13 @@
     "label": "Toolformer: Language Models Can Teach Themselves to Use Tools",
     "url": "https://arxiv.org/abs/2302.04761",
     "sourceType": "paper"
+  },
+  {
+    "id": "source-trai-pricing",
+    "type": "source",
+    "label": "TRAI: Indian Telecom Services Performance Indicators",
+    "url": "https://www.trai.gov.in/release-publication/reports/performance-indicators-reports",
+    "sourceType": "government-report"
   },
   {
     "id": "source-transformer-2017",
@@ -5354,6 +7063,27 @@
     "sourceType": "article"
   },
   {
+    "id": "source-turkle-alone-together",
+    "type": "source",
+    "label": "Sherry Turkle: Alone Together",
+    "url": "https://en.wikipedia.org/wiki/Sherry_Turkle",
+    "sourceType": "book"
+  },
+  {
+    "id": "source-twitter-chronological",
+    "type": "source",
+    "label": "Twitter: Chronological timeline option",
+    "url": "https://help.twitter.com/en/using-x/home-timeline",
+    "sourceType": "website"
+  },
+  {
+    "id": "source-uk-age-design-code",
+    "type": "source",
+    "label": "UK ICO: Age Appropriate Design Code",
+    "url": "https://ico.org.uk/for-organisations/childrens-code/",
+    "sourceType": "government-report"
+  },
+  {
     "id": "source-uk-osa",
     "type": "source",
     "label": "UK Government: Online Safety Act 2023 Explainer",
@@ -5375,11 +7105,39 @@
     "sourceType": "report"
   },
   {
+    "id": "source-unicef-child-online",
+    "type": "source",
+    "label": "UNICEF: Child Online Safety",
+    "url": "https://www.unicef.org/end-violence/child-online-safety",
+    "sourceType": "website"
+  },
+  {
+    "id": "source-unicef-parenting-digital-age",
+    "type": "source",
+    "label": "UNICEF: Parenting in the Digital Age",
+    "url": "https://www.unicef.org/parenting/child-care/parenting-digital-age",
+    "sourceType": "website"
+  },
+  {
+    "id": "source-us-sg-social-media-youth",
+    "type": "source",
+    "label": "U.S. Surgeon General: Social Media and Youth Mental Health Advisory",
+    "url": "https://www.hhs.gov/sites/default/files/sg-youth-mental-health-social-media-advisory.pdf",
+    "sourceType": "government-report"
+  },
+  {
     "id": "source-usco-ai",
     "type": "source",
     "label": "Copyright and Artificial Intelligence",
     "url": "https://www.copyright.gov/ai/",
     "sourceType": "official-report-series"
+  },
+  {
+    "id": "source-vivo-study",
+    "type": "source",
+    "label": "Vivo and CMR: Impact of Smartphones on Human Relationships",
+    "url": "https://www.vivo.com/in/about-vivo/newsroom/2020/1907",
+    "sourceType": "industry-report"
   },
   {
     "id": "source-vivo-switch-off-2022",
@@ -5410,6 +7168,13 @@
     "sourceType": "standard"
   },
   {
+    "id": "source-wef-deepfakes",
+    "type": "source",
+    "label": "WEF: Global Risks Report 2024 - AI-generated misinformation",
+    "url": "https://www.weforum.org/publications/global-risks-report-2024/",
+    "sourceType": "industry-report"
+  },
+  {
     "id": "source-wef-global-risks-2024",
     "type": "source",
     "label": "World Economic Forum, Global Risks Report 2024",
@@ -5438,11 +7203,39 @@
     "sourceType": "museum-exhibit"
   },
   {
+    "id": "source-who-adolescent-mental-health",
+    "type": "source",
+    "label": "WHO: Adolescent mental health fact sheet",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+    "sourceType": "government-report"
+  },
+  {
+    "id": "source-who-tobacco",
+    "type": "source",
+    "label": "WHO: WHO Report on the Global Tobacco Epidemic",
+    "url": "https://www.who.int/tobacco/global_report/en/",
+    "sourceType": "government-report"
+  },
+  {
     "id": "source-wiener-cybernetics",
     "type": "source",
     "label": "Cybernetics: Or Control and Communication in the Animal and the Machine",
     "url": "https://doi.org/10.7551/mitpress/11810.001.0001",
     "sourceType": "book"
+  },
+  {
+    "id": "source-wikipedia-cambridge-analytica",
+    "type": "source",
+    "label": "Wikipedia: Facebook–Cambridge Analytica data scandal",
+    "url": "https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal",
+    "sourceType": "document-collection"
+  },
+  {
+    "id": "source-wikipedia-cooperative",
+    "type": "source",
+    "label": "Wikipedia: Cooperative",
+    "url": "https://en.wikipedia.org/wiki/Cooperative",
+    "sourceType": "encyclopedia"
   },
   {
     "id": "source-wikipedia-memoization",
@@ -5464,6 +7257,27 @@
     "label": "From Abilities to AI Agents: Introducing the WordPress MCP Adapter",
     "url": "https://developer.wordpress.org/news/2026/02/from-abilities-to-ai-agents-introducing-the-wordpress-mcp-adapter/",
     "sourceType": "product"
+  },
+  {
+    "id": "source-world-bank-digital",
+    "type": "source",
+    "label": "World Bank: World Development Report 2016 - Digital Dividends",
+    "url": "https://www.worldbank.org/en/publication/wdr2016",
+    "sourceType": "government-report"
+  },
+  {
+    "id": "source-world-bank-digital-dividends",
+    "type": "source",
+    "label": "World Bank: World Development Report 2016 - Digital Dividends",
+    "url": "https://www.worldbank.org/en/publication/wdr2016",
+    "sourceType": "government-report"
+  },
+  {
+    "id": "source-world-bank-india-population",
+    "type": "source",
+    "label": "World Bank: India Population Data",
+    "url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=IN",
+    "sourceType": "government-report"
   },
   {
     "id": "source-worldbank-digital-2023",
@@ -5494,11 +7308,38 @@
     "sourceType": "paper"
   },
   {
+    "id": "source-youtube-research",
+    "type": "source",
+    "label": "YouTube: Responsibility research",
+    "url": "https://research.youtube/categories/responsibility/",
+    "sourceType": "website"
+  },
+  {
     "id": "source-ytface-cpm-2026",
     "type": "source",
     "label": "YTface: YouTube CPM and RPM Rates by Country (2026 Guide)",
     "url": "https://www.ytface.com/cpm-rates-by-country.html",
     "sourceType": "industry-report"
+  },
+  {
+    "id": "topic:accountability",
+    "type": "topic",
+    "label": "accountability"
+  },
+  {
+    "id": "topic:active-learning",
+    "type": "topic",
+    "label": "active-learning"
+  },
+  {
+    "id": "topic:adolescents",
+    "type": "topic",
+    "label": "adolescents"
+  },
+  {
+    "id": "topic:adult-learning",
+    "type": "topic",
+    "label": "adult-learning"
   },
   {
     "id": "topic:agent-orchestration",
@@ -5516,6 +7357,16 @@
     "label": "agentic-commerce"
   },
   {
+    "id": "topic:agriculture",
+    "type": "topic",
+    "label": "agriculture"
+  },
+  {
+    "id": "topic:ai",
+    "type": "topic",
+    "label": "ai"
+  },
+  {
     "id": "topic:ai-agents",
     "type": "topic",
     "label": "ai-agents"
@@ -5524,6 +7375,11 @@
     "id": "topic:ai-assisted-creation",
     "type": "topic",
     "label": "ai-assisted-creation"
+  },
+  {
+    "id": "topic:ai-assisted-learning",
+    "type": "topic",
+    "label": "ai-assisted-learning"
   },
   {
     "id": "topic:ai-governance",
@@ -5556,6 +7412,11 @@
     "label": "algorithms"
   },
   {
+    "id": "topic:analogy",
+    "type": "topic",
+    "label": "analogy"
+  },
+  {
     "id": "topic:artificial-intelligence",
     "type": "topic",
     "label": "artificial-intelligence"
@@ -5571,9 +7432,34 @@
     "label": "audio"
   },
   {
+    "id": "topic:bhashini",
+    "type": "topic",
+    "label": "bhashini"
+  },
+  {
     "id": "topic:business-models",
     "type": "topic",
     "label": "business-models"
+  },
+  {
+    "id": "topic:career",
+    "type": "topic",
+    "label": "career"
+  },
+  {
+    "id": "topic:children",
+    "type": "topic",
+    "label": "children"
+  },
+  {
+    "id": "topic:civic-tech",
+    "type": "topic",
+    "label": "civic-tech"
+  },
+  {
+    "id": "topic:civil-society",
+    "type": "topic",
+    "label": "civil-society"
   },
   {
     "id": "topic:computability",
@@ -5601,9 +7487,19 @@
     "label": "cybernetics"
   },
   {
+    "id": "topic:dark-patterns",
+    "type": "topic",
+    "label": "dark-patterns"
+  },
+  {
     "id": "topic:data",
     "type": "topic",
     "label": "data"
+  },
+  {
+    "id": "topic:deep-tech",
+    "type": "topic",
+    "label": "deep-tech"
   },
   {
     "id": "topic:deep-work",
@@ -5614,6 +7510,11 @@
     "id": "topic:deliberate-practice",
     "type": "topic",
     "label": "deliberate-practice"
+  },
+  {
+    "id": "topic:design",
+    "type": "topic",
+    "label": "design"
   },
   {
     "id": "topic:digital-advertising",
@@ -5656,9 +7557,24 @@
     "label": "dpdp"
   },
   {
+    "id": "topic:economic-development",
+    "type": "topic",
+    "label": "economic-development"
+  },
+  {
     "id": "topic:education",
     "type": "topic",
     "label": "education"
+  },
+  {
+    "id": "topic:elderly",
+    "type": "topic",
+    "label": "elderly"
+  },
+  {
+    "id": "topic:employment",
+    "type": "topic",
+    "label": "employment"
   },
   {
     "id": "topic:evaluation",
@@ -5669,6 +7585,21 @@
     "id": "topic:expert-systems",
     "type": "topic",
     "label": "expert-systems"
+  },
+  {
+    "id": "topic:failure",
+    "type": "topic",
+    "label": "failure"
+  },
+  {
+    "id": "topic:family",
+    "type": "topic",
+    "label": "family"
+  },
+  {
+    "id": "topic:federation",
+    "type": "topic",
+    "label": "federation"
   },
   {
     "id": "topic:fediverse",
@@ -5701,6 +7632,11 @@
     "label": "generative-ai"
   },
   {
+    "id": "topic:global-comparison",
+    "type": "topic",
+    "label": "global-comparison"
+  },
+  {
     "id": "topic:governance",
     "type": "topic",
     "label": "governance"
@@ -5714,6 +7650,11 @@
     "id": "topic:habits",
     "type": "topic",
     "label": "habits"
+  },
+  {
+    "id": "topic:history",
+    "type": "topic",
+    "label": "history"
   },
   {
     "id": "topic:human-ai-interaction",
@@ -5751,9 +7692,19 @@
     "label": "information-theory"
   },
   {
+    "id": "topic:infrastructure",
+    "type": "topic",
+    "label": "infrastructure"
+  },
+  {
     "id": "topic:innovation",
     "type": "topic",
     "label": "innovation"
+  },
+  {
+    "id": "topic:innovation-policy",
+    "type": "topic",
+    "label": "innovation-policy"
   },
   {
     "id": "topic:institutions",
@@ -5769,6 +7720,11 @@
     "id": "topic:internet-use",
     "type": "topic",
     "label": "internet-use"
+  },
+  {
+    "id": "topic:interoperability",
+    "type": "topic",
+    "label": "interoperability"
   },
   {
     "id": "topic:labor",
@@ -5791,9 +7747,19 @@
     "label": "life-phases"
   },
   {
+    "id": "topic:literacy",
+    "type": "topic",
+    "label": "literacy"
+  },
+  {
     "id": "topic:llm-routing",
     "type": "topic",
     "label": "llm-routing"
+  },
+  {
+    "id": "topic:local-knowledge",
+    "type": "topic",
+    "label": "local-knowledge"
   },
   {
     "id": "topic:long-human-road-to-ai",
@@ -5801,9 +7767,19 @@
     "label": "long-human-road-to-ai"
   },
   {
+    "id": "topic:long-term-thinking",
+    "type": "topic",
+    "label": "long-term-thinking"
+  },
+  {
     "id": "topic:machine-learning",
     "type": "topic",
     "label": "machine-learning"
+  },
+  {
+    "id": "topic:media",
+    "type": "topic",
+    "label": "media"
   },
   {
     "id": "topic:mental-health",
@@ -5811,14 +7787,29 @@
     "label": "mental-health"
   },
   {
+    "id": "topic:metrics",
+    "type": "topic",
+    "label": "metrics"
+  },
+  {
     "id": "topic:misinformation",
     "type": "topic",
     "label": "misinformation"
   },
   {
+    "id": "topic:network-effects",
+    "type": "topic",
+    "label": "network-effects"
+  },
+  {
     "id": "topic:neural-networks",
     "type": "topic",
     "label": "neural-networks"
+  },
+  {
+    "id": "topic:notifications",
+    "type": "topic",
+    "label": "notifications"
   },
   {
     "id": "topic:onboarding",
@@ -5829,6 +7820,11 @@
     "id": "topic:open-protocols",
     "type": "topic",
     "label": "open-protocols"
+  },
+  {
+    "id": "topic:parenting",
+    "type": "topic",
+    "label": "parenting"
   },
   {
     "id": "topic:platform-accountability",
@@ -5844,6 +7840,11 @@
     "id": "topic:platform-economics",
     "type": "topic",
     "label": "platform-economics"
+  },
+  {
+    "id": "topic:platform-governance",
+    "type": "topic",
+    "label": "platform-governance"
   },
   {
     "id": "topic:polarization",
@@ -5876,6 +7877,11 @@
     "label": "prompting"
   },
   {
+    "id": "topic:public-health",
+    "type": "topic",
+    "label": "public-health"
+  },
+  {
     "id": "topic:public-interest-technology",
     "type": "topic",
     "label": "public-interest-technology"
@@ -5884,6 +7890,11 @@
     "id": "topic:public-policy",
     "type": "topic",
     "label": "public-policy"
+  },
+  {
+    "id": "topic:public-space",
+    "type": "topic",
+    "label": "public-space"
   },
   {
     "id": "topic:reading-paths",
@@ -5911,14 +7922,44 @@
     "label": "series-guide"
   },
   {
+    "id": "topic:short-form-video",
+    "type": "topic",
+    "label": "short-form-video"
+  },
+  {
+    "id": "topic:side-projects",
+    "type": "topic",
+    "label": "side-projects"
+  },
+  {
     "id": "topic:skill-building",
     "type": "topic",
     "label": "skill-building"
   },
   {
+    "id": "topic:skills",
+    "type": "topic",
+    "label": "skills"
+  },
+  {
+    "id": "topic:sleep",
+    "type": "topic",
+    "label": "sleep"
+  },
+  {
+    "id": "topic:social-cohesion",
+    "type": "topic",
+    "label": "social-cohesion"
+  },
+  {
     "id": "topic:social-media",
     "type": "topic",
     "label": "social-media"
+  },
+  {
+    "id": "topic:startups",
+    "type": "topic",
+    "label": "startups"
   },
   {
     "id": "topic:students",
@@ -5936,9 +7977,34 @@
     "label": "synthesis"
   },
   {
+    "id": "topic:synthetic-media",
+    "type": "topic",
+    "label": "synthetic-media"
+  },
+  {
+    "id": "topic:teaching",
+    "type": "topic",
+    "label": "teaching"
+  },
+  {
+    "id": "topic:technology",
+    "type": "topic",
+    "label": "technology"
+  },
+  {
     "id": "topic:transformers",
     "type": "topic",
     "label": "transformers"
+  },
+  {
+    "id": "topic:variable-rewards",
+    "type": "topic",
+    "label": "variable-rewards"
+  },
+  {
+    "id": "topic:venture-capital",
+    "type": "topic",
+    "label": "venture-capital"
   },
   {
     "id": "topic:vernacular-internet",
@@ -5954,5 +8020,10 @@
     "id": "topic:workplace",
     "type": "topic",
     "label": "workplace"
+  },
+  {
+    "id": "topic:youth",
+    "type": "topic",
+    "label": "youth"
   }
 ]

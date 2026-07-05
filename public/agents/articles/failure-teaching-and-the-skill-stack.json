@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 3,
+  "id": "article:failure-teaching-and-the-skill-stack",
+  "slug": "failure-teaching-and-the-skill-stack",
+  "title": "Failure, Teaching, and the Skill Stack",
+  "canonicalPath": "/articles/failure-teaching-and-the-skill-stack/",
+  "sourcePath": "content/articles/2026/failure-teaching-and-the-skill-stack/article.md",
+  "agentBriefPath": "content/articles/2026/failure-teaching-and-the-skill-stack/agent.md",
+  "thesis": "Building substantive skills requires tolerating bad early work and using teaching as a forcing function for clarity; the resulting skill stack compounds even when individual projects fail.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "skill-building",
+    "deliberate-practice",
+    "learning",
+    "ai-assisted-creation",
+    "failure",
+    "teaching"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 35,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Early work is supposed to be bad; the gap between taste and ability closes through repetition and feedback.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-ericsson-deliberate-practice",
+          "snippet": "Deliberate practice—repeated performance of intended behavior with feedback and correction—accounts for much of the variance in the acquisition of expert performance.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-ira-glass-gap",
+          "snippet": "Ira Glass describes the gap between a beginner's taste and their ability, and argues that the only way to close it is to produce a large volume of work.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Quality instruction, prior knowledge, and supportive environments can reduce the amount of unproductive early failure; repetition without feedback can entrench bad habits.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Teaching forces you to clarify what you actually understand.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-dunlosky-effective-learning",
+          "snippet": "Elaborative interrogation and self-explanation are high-utility learning techniques because they require learners to generate explanations and identify gaps in understanding.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-fiorella-mayer-learning-by-teaching",
+          "snippet": "Learning by teaching produces meaningful gains because preparing to teach encourages learners to organize knowledge and monitor their own comprehension.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Teaching can reinforce misconceptions if the teacher's own understanding is shaky; it works best when paired with some baseline comprehension and corrective feedback.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "A portfolio of unfinished but documented projects is more valuable than a hidden record of perfect beginnings.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-ira-glass-gap",
+          "snippet": "The taste-ability gap can only be closed by producing a large volume of work, most of which will be imperfect at the start.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-ericsson-deliberate-practice",
+          "snippet": "Expert performance develops through sustained effort in a domain, with accumulated experience providing the foundation for increasingly complex skills.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "In fields where credentials or polished deliverables gate opportunity, visible unfinished work may be penalized; documentation is not a substitute for meeting entry requirements.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "AI can accelerate feedback loops, but it cannot replace the judgment that comes from repeated practice.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-dunlosky-effective-learning",
+          "snippet": "Active learning techniques such as practice testing and distributed practice outperform passive review because they require the learner to generate and evaluate responses.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-fiorella-mayer-learning-by-teaching",
+          "snippet": "The benefits of learning by teaching stem from generative processing and metacognitive monitoring, which cannot be fully delegated to an external tool.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Adaptive AI tutoring systems have demonstrated learning gains in some settings; whether AI substitutes for or scaffolds judgment depends on how learners use it, not on the tool alone.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-ericsson-deliberate-practice",
+      "title": "Ericsson: The Role of Deliberate Practice in the Acquisition of Expert Performance",
+      "url": "https://psycnet.apa.org/record/1993-40718-001",
+      "type": "paper",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ira-glass-gap",
+      "title": "Ira Glass on the gap between taste and ability",
+      "url": "https://www.youtube.com/watch?v=BI23U7U2aUY",
+      "type": "talk",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-dunlosky-effective-learning",
+      "title": "Dunlosky et al.: Improving Students' Learning With Effective Learning Techniques",
+      "url": "https://dx.doi.org/10.1177/1529100612453266",
+      "type": "paper",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-fiorella-mayer-learning-by-teaching",
+      "title": "Fiorella & Mayer: The Cambridge Handbook of Multimedia Learning — Learning by Teaching",
+      "url": "https://psycnet.apa.org/record/2015-45253-001",
+      "type": "book",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:the-small-rep-theory"
+    },
+    {
+      "type": "article",
+      "id": "article:the-students-garden"
+    },
+    {
+      "type": "article",
+      "id": "article:the-compounding-bet"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit and keep each claim distinct from adjacent articles in the series.",
+    "Preserve the plain-language, encouraging-but-realistic tone; do not promise rapid mastery or frame failure as a final outcome.",
+    "When citing sources, use the source IDs and URLs from the artifact; do not generalize beyond the public evidence.",
+    "Treat AI as a scaffold for practice, not a replacement for the judgment that comes from repeated attempts and feedback.",
+    "Flag when a recommendation is a practical heuristic rather than an empirically tested intervention.",
+    "Article includes a skill-stack loop Mermaid diagram in 'The Documented Skill Stack' section; when discussing the skill stack, reference the cycle of early work, teaching, feedback, and reuse."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:f4e401482ba598f463280e32f2d116a115e237c598a794eec56aecc1a62a870d",
+        "outputHash": "sha256:f4e401482ba598f463280e32f2d116a115e237c598a794eec56aecc1a62a870d"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "a95e00e39cc83a61256a5b2cad5c72ac975e7defb21cbcb83bb7357594bfe387"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "a95e00e39cc83a61256a5b2cad5c72ac975e7defb21cbcb83bb7357594bfe387",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/failure-teaching-and-the-skill-stack/",
+  "agentJsonPath": "/agents/articles/failure-teaching-and-the-skill-stack.json",
+  "agentMarkdownPath": "/agents/articles/failure-teaching-and-the-skill-stack.md",
+  "sourceRepoPath": "content/articles/2026/failure-teaching-and-the-skill-stack/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/failure-teaching-and-the-skill-stack/article.md",
+  "tokenEstimate": 276,
+  "sectionOutline": [
+    {
+      "id": "the-gap-is-the-tuition",
+      "title": "The Gap Is the Tuition"
+    },
+    {
+      "id": "teaching-as-a-forcing-function",
+      "title": "Teaching as a Forcing Function"
+    },
+    {
+      "id": "the-documented-skill-stack",
+      "title": "The Documented Skill Stack"
+    },
+    {
+      "id": "ai-and-the-judgment-gap",
+      "title": "AI and the Judgment Gap"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:learning-machines
 articleId: article:learning-machines
 slug: learning-machines
-title: 'Agent Brief for "Learning Machines: Statistics, Neural Networks, and the Data Turn"'
+title: "Agent Brief for 'Learning Machines: Statistics, Neural Networks, and the Data Turn'"
 tokenBudget: 1200
 status: published
 updated: 2026-06-20

@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:trust-and-outrage-platforms-and-cohesion
 articleId: article:trust-and-outrage-platforms-and-cohesion
 slug: trust-and-outrage-platforms-and-cohesion
-title: 'Agent Brief for "Trust and Outrage"'
+title: "Agent Brief for 'Trust and Outrage'"
 tokenBudget: 1500
 status: published
 updated: 2026-07-05
