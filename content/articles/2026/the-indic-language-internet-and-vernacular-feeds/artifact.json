@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 3,
+  "id": "article:the-indic-language-internet-and-vernacular-feeds",
+  "slug": "the-indic-language-internet-and-vernacular-feeds",
+  "title": "The Indic-Language Internet and the Vernacular Feed",
+  "canonicalPath": "/articles/the-indic-language-internet-and-vernacular-feeds/",
+  "sourcePath": "content/articles/2026/the-indic-language-internet-and-vernacular-feeds/article.md",
+  "agentBriefPath": "content/articles/2026/the-indic-language-internet-and-vernacular-feeds/agent.md",
+  "thesis": "The shift to an Indic-language, mobile-first internet multiplied India's online population, but it also multiplied the surface area for attention extraction, because the same engagement-optimized feed designs now operate across dozens of languages with weaker local safety, quality, and creator-economy supports.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "language",
+    "vernacular-internet"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 7,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "The shift to an Indic-language, mobile-first internet multiplied India's online population, but it also multiplied the surface area for attention extraction, because the same engagement-optimized feed designs now operate across dozens of languages with weaker local safety, quality, and creator-economy supports.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-iamai-kantar-2024",
+          "snippet": "India reached 886 million active internet users in 2024, with 98% accessing content in Indic languages and rural India accounting for 55% of users.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-sharechat-2025",
+          "snippet": "ShareChat reported over 350 million active users as of 2025, with 90% consuming content in local languages, indicating national scale for vernacular feeds.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Vernacular platforms also host education, agriculture, and civic content; the problem is the incentive structure and quality resourcing, not the language itself.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "The IAMAI-Kantar Internet in India Report 2024 found that 98 percent of Indian internet users accessed content in Indic languages, with 57 percent of urban users preferring regional-language content.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-iamai-kantar-2024",
+          "snippet": "Nearly all internet users (98%) accessed content in Indic languages, with Tamil, Telugu, and Malayalam emerging as the most popular. Over half (57%) of urban internet users prefer consuming content in regional languages.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The 98% figure measures access, not exclusive use; many users switch between English and Indic languages depending on context.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Rural India accounted for 488 million internet users, or 55 percent of the total active user base, in 2024, and rural growth outpaced urban growth.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-iamai-kantar-2024",
+          "snippet": "Rural India, with 488 million users, leads this growth and now accounts for 55% of the total internet population. Rural growth is occurring at twice the pace of urban regions.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Urban users still lead in digital commerce, payments, and online education; rural dominance is in volume and entertainment/communication use, not in all categories.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Vernacular platforms such as ShareChat and Dailyhunt operate at national scale, with ShareChat reporting more than 350 million active users and 90 percent of them consuming local-language content as of 2025.",
+      "confidence": "medium",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-sharechat-2025",
+          "snippet": "As of 2025, ShareChat has over 350 million active users, 90% of whom consume content in local languages.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-dailyhunt-forbes",
+          "snippet": "Dailyhunt's product-market fit rests on the fact that nearly 70% of the Indian population speaks non-English languages.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "ShareChat's active-user figure is industry-reported and has not been independently audited; definitions of 'active user' vary across platforms.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "The same engagement-optimized designs—infinite scroll, autoplay, algorithmic recommendations, push notifications, and streaks—that shape English and Hindi feeds now operate across dozens of Indic languages.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-iamai-kantar-2024",
+          "snippet": "Regional language content is central to the digital experience, with entertainment, streaming, social media, and communication dominating usage across urban and rural demographics.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-sharechat-2025",
+          "snippet": "ShareChat and similar platforms support content in 15 Indian languages and attract users from non-metro cities, applying the same feed-based engagement model at scale.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some vernacular platforms emphasize community and local creators, which can produce healthier interaction patterns than global platforms.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "Indic-language content ecosystems have fewer local fact-checkers, moderators, and creator-economy supports than English/Hindi ecosystems, creating weaker quality and safety signals.",
+      "confidence": "medium",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-iamai-kantar-2024",
+          "snippet": "With 98% of 886 million users accessing Indic-language content across dozens of languages, the scale of vernacular content far exceeds the documented supply of language-specific moderation and fact-checking capacity.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-sharechat-2025",
+          "snippet": "ShareChat alone reports 350 million active users across 15 Indian languages, illustrating that platform-scale vernacular operations now require safety and quality infrastructure that has not been publicly documented.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Independent fact-checkers and citizen-led verification networks exist in several Indian languages; coverage is uneven but not absent.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "Government language-technology initiatives such as Bhashini and AI translation could lower friction for quality vernacular content, but access and translation alone do not guarantee substance.",
+      "confidence": "medium",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-pib-bhashini-2024",
+          "snippet": "BHASHINI is bridging language barriers for accessible digital services with 100 million+ inferences per month; translation services are available in 22 scheduled Indian languages.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Translation technology can also accelerate spam, low-quality content, and misinformation at scale if quality controls are not built in.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-iamai-kantar-2024",
+      "title": "IAMAI-Kantar: Internet in India Report 2024",
+      "url": "https://www.entrepreneur.com/en-in/news-and-trends/internet-users-in-india-set-to-cross-900-mn-led-by-indic/485634",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-businessworld-iamai-summary",
+      "title": "BW Businessworld: India Set To Reach 900 Mn Internet Users By 2025",
+      "url": "https://www.businessworld.in/article/india-set-to-reach-900-mn-internet-users-by-2025-report-545106",
+      "type": "news-article",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-sharechat-2025",
+      "title": "AtomComm: Why Regional Language Content is the Next Big Thing for Indian Digital Campaigns",
+      "url": "https://atomcomm.in/regional-language-content-indian-digital-campaigns/",
+      "type": "industry-article",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-dailyhunt-forbes",
+      "title": "Forbes India: We solved ML for vernacular Indian languages early on—Dailyhunt",
+      "url": "https://ms.forbesindia.com/article/one-ceo-club/we-solved-ml-for-vernacular-indian-languages-early-on-dailyhunt/",
+      "type": "news-article",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-pib-bhashini-2024",
+      "title": "PIB: Year End Review 2024 of Ministry of Electronics & Information Technology",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2088268",
+      "type": "government-press-release",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-bhashini-website",
+      "title": "Bhashini: AI-driven Indian language translation services",
+      "url": "https://bhashini.gov.in/",
+      "type": "government-website",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:the-attention-extraction"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:the-generational-bet"
+    },
+    {
+      "type": "article",
+      "id": "article:the-substance-builder"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    },
+    {
+      "type": "topic",
+      "id": "topic:india"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit and keep each claim distinct from solution chapters.",
+    "Preserve the plain-language, evidence-cautious tone; do not sensationalize vernacular-internet risks.",
+    "When citing sources, use the source IDs and URLs from the artifact; do not invent or generalize beyond the public evidence.",
+    "Flag industry-reported platform metrics as unverified when asked for precise user counts.",
+    "Treat Bhashini and AI translation as enabling infrastructure, not automatic solutions to attention extraction."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:2cbd75681869256f55e76d86902ff8f7ca822f828a129971ae66da62ecfaef8d",
+        "outputHash": "sha256:2cbd75681869256f55e76d86902ff8f7ca822f828a129971ae66da62ecfaef8d"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "2cbd75681869256f55e76d86902ff8f7ca822f828a129971ae66da62ecfaef8d"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "2cbd75681869256f55e76d86902ff8f7ca822f828a129971ae66da62ecfaef8d"
+}

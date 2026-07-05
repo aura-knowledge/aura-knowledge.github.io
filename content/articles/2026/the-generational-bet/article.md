@@ -22,7 +22,7 @@ agentArtifact: /agents/articles/the-generational-bet.json
 sourcePath: content/articles/2026/the-generational-bet/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Chapter 2</p>
+<p class="article-kicker">Attention, Substance, and the AI Moment · Part 3: The AI Opportunity Cost</p>
 
 When the printing press arrived in Europe, it did not automatically make societies wiser. It made them *capable* of wisdom. The communities that gained power were the ones that built publishing houses, schools, libraries, and habits of argument. The communities that lost ground treated the press as a faster way to circulate what they already believed. The same machine produced science and panic, poetry and propaganda. The difference was the habit of mind that met the machine.
 
@@ -32,7 +32,7 @@ We are at a similar hinge with artificial intelligence. The same phone that deli
 
 <h2 id="the-narrow-window">The Narrow Window</h2>
 
-India stands at a generational window that will not stay open forever. It has the youngest large population on Earth, a deep bench of software and engineering talent, and near-universal access to AI-assisted tools through cheap smartphones and low-cost data. NASSCOM's report *Unlocking Value from Data and AI* estimated that data and AI could add $450–500 billion to India's GDP by 2025. That figure is now less a prediction than a benchmark against which to measure adoption. The Linux Foundation's report on AI for economic and social good in India, produced with the Open Source AI Initiative, notes that the country is well positioned to apply open models to local languages, agriculture, health, and education. The Stanford HAI AI Index Report 2025 and the Stanford Global AI Vibrancy Tool place India among the most active AI economies by volume of talent, investment, and adoption.
+India stands at a generational window that will not stay open forever. It has the youngest large population on Earth, a deep bench of software and engineering talent, and near-universal access to AI-assisted tools through cheap smartphones and low-cost data. NASSCOM's report *Unlocking Value from Data and AI* estimated that data and AI could add $450–500 billion to India's GDP by around 2025. That figure is now less a prediction than a prior forecast used as a benchmark against which to measure adoption. The Linux Foundation's report on AI for economic and social good in India, produced with the Open Source AI Initiative, notes that the country is well positioned to apply open models to local languages, agriculture, health, and education. The Stanford HAI AI Index Report 2025 and the Stanford Global AI Vibrancy Tool place India among the most active AI economies by volume of talent, investment, and adoption.
 
 The raw ingredients are present. Yet ingredients do not cook themselves. The same NASSCOM-EY AI Adoption Index that documents enterprise interest also finds that adoption is uneven and that many organizations are still in early, experimental phases. The OECD's review of generative AI's effects on productivity, innovation, and entrepreneurship finds large potential gains but also large gaps between pilot projects and sustained, measured impact. Having the tool is different from using it well.
 
@@ -40,7 +40,7 @@ The raw ingredients are present. Yet ingredients do not cook themselves. The sam
 
 <h2 id="the-diagnosis-in-brief">The Diagnosis in Brief</h2>
 
-Lane A of this series laid out the diagnosis in detail. The short version is this: India's digital ecosystem has become extremely good at extracting attention and extremely uneven at directing it toward substance. ASER 2024 found that 76% of 14–16-year-olds use smartphones for social media while only 57% use them for education. The gap is not a technology gap. The devices are the same. The gap is one of default behavior.
+[The Attention Extraction](/articles/the-attention-extraction/) laid out the diagnosis in detail. The short version is this: India's digital ecosystem has become extremely good at extracting attention and extremely uneven at directing it toward substance. ASER 2024 found that 76% of 14–16-year-olds use smartphones for social media while only 57% use them for education. The gap is not a technology gap. The devices are the same. The gap is one of default behavior.
 
 BCG's report *India from Content to Commerce* maps a creator economy that is large, growing, and heavily tilted toward reach and entertainment. That is not a moral failing; it is an incentive structure. Platforms reward what keeps users watching, sharing, and returning. The reward function does not automatically favor education, depth, or slow-burn skill. The result is a generation that has more creation power in its pocket than any previous generation, but whose daily rhythm is still shaped by consumption.
 
@@ -112,11 +112,11 @@ National capacity is just individual capacity added up and connected. A country 
 
 <h2 id="systemic-levers-not-silver-bullets">Systemic Levers, Not Silver Bullets</h2>
 
-The habit problem is not only an individual problem. The environment shapes the habit. Lane D of this series will examine the design of platforms, incentives, and policy in detail. Here it is enough to name the levers that could change the game without pretending any of them is a complete answer.
+The habit problem is not only an individual problem. The environment shapes the habit. [Designing for Substance](/articles/designing-for-substance/) examines the design of platforms, incentives, and policy in detail. Here it is enough to name the levers that could change the game without pretending any of them is a complete answer.
 
 **Quality-based incentives.** A hypothetical platform that weights creator rewards by content quality rather than engagement alone would change what gets produced. Quality is hard to measure, and any metric can be gamed, but the current metric is not neutral. It is a choice.
 
-**Friction against virality.** Some friction is good. Features that slow down sharing, require context, or surface corrections before amplification can reduce the reward for outrage and misinformation. The Digital Services Act in Europe and India's Information Technology Rules are attempts to introduce accountability into platform design. Their effectiveness is still being tested, but the direction matters.
+**Friction against virality.** Some friction is good. Features that slow down sharing, require context, or surface corrections before amplification can reduce the reward for outrage and misinformation. The Digital Services Act in Europe is an attempt to introduce systemic accountability into platform design, including risk assessments, algorithmic transparency, and independent audits. India's Information Technology Rules focus more narrowly on content takedown, grievance redressal, and traceability. Their effectiveness is still being tested, but the direction matters.
 
 **Open and federated alternatives.** The fediverse and other decentralized networks show that social media can be built around communities and protocols rather than a single engagement-maximizing algorithm. They are smaller and harder to use, but they demonstrate that another design is possible.
 
@@ -128,11 +128,11 @@ These levers are not a business plan. They are a reminder that individual habit 
 
 It is worth being clear about the boundaries, because the topic invites drift.
 
-This article is not a tutorial on using AI tools. Practical strategies for individuals who want to create and learn instead of consume are the subject of Lane C, *The Substance Builder*.
+This article is not a tutorial on using AI tools. Practical strategies for individuals who want to create and learn instead of consume are the subject of [The Substance Builder](/articles/the-substance-builder/).
 
 It is not a critique of any single company, app, or founder. The attention economy is a pattern produced by many actors responding to the same incentives. Naming villains would make the argument feel satisfying and miss the point.
 
-It is not a platform-design proposal. The design of better incentives, ranking systems, and regulatory frameworks is the work of Lane D, *Designing for Substance*.
+It is not a platform-design proposal. The design of better incentives, ranking systems, and regulatory frameworks is the work of [Designing for Substance](/articles/designing-for-substance/).
 
 It is also not a nationalist sermon. India's situation is not unique. Every country with young people and cheap internet faces a version of this bet. The question is what India does with its particular advantages: scale, talent, English access, and a large domestic market.
 
@@ -143,6 +143,15 @@ It is also not a nationalist sermon. India's situation is not unique. Every coun
 - What would a creator-economy metric that rewards substance actually look like in practice?
 - Will India's startup ecosystem shift toward foundational technology, or will consumer aggregation remain the dominant pattern?
 - How should public policy balance innovation and accountability without producing rules that only large incumbents can afford to follow?
+
+<h2 id="related-in-this-series">Related in This Series</h2>
+
+- [The Attention Extraction](/articles/the-attention-extraction/) — the diagnosis and thesis of the series.
+- [By the Numbers: What Indians Actually Do Online](/articles/by-the-numbers-what-indians-do-online/) — the national digital time budget behind the generational bet.
+- [What AI Makes Cheap](/articles/what-ai-makes-cheap/) — what generative AI lowers the cost of, and where the savings could go.
+- [The Substance Builder](/articles/the-substance-builder/) — practical paths for turning dead time into small acts of creation.
+- [Designing for Substance](/articles/designing-for-substance/) — how platforms and policymakers could make substance the easier path.
+- [Attention, Substance, and the AI Moment](/articles/attention-substance-ai-moment/) — the full series guide and reading paths.
 
 <h2 id="the-bet">The Bet</h2>
 

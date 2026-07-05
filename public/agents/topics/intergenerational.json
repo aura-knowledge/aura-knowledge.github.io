@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "topic": "intergenerational",
+  "articleIds": [
+    "article:the-life-phase-thread"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/intergenerational/",
+  "agentJsonPath": "/agents/topics/intergenerational.json",
+  "articles": [
+    {
+      "id": "article:the-life-phase-thread",
+      "slug": "the-life-phase-thread",
+      "title": "The Life-Phase Thread",
+      "summary": "Uses public surveys and academic sources to show that the attention economy imposes different but connected costs at each life stage, from adolescent screen ratios to elderly digital exclusion.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "life-phases",
+        "intergenerational"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "life-phases",
+        "intergenerational"
+      ],
+      "canonicalPath": "/articles/the-life-phase-thread/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+      "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
+      "agentMarkdownPath": "/agents/articles/the-life-phase-thread.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 7,
+      "tokenEstimate": 690,
+      "contentHash": "e8420e8ea044f5968c083af110f6791b1c08198e7e3f93b0c09343f3b41e25c0"
+    }
+  ]
+}

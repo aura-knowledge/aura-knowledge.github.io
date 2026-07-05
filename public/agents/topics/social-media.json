@@ -2,7 +2,8 @@
   "schemaVersion": 1,
   "topic": "social-media",
   "articleIds": [
-    "article:the-attention-extraction"
+    "article:the-attention-extraction",
+    "article:trust-and-outrage-platforms-and-cohesion"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/social-media/",
   "agentJsonPath": "/agents/topics/social-media.json",
@@ -37,8 +38,41 @@
       "updatedAt": "2026-07-04",
       "claimCount": 4,
       "sourceCount": 14,
-      "tokenEstimate": 666,
-      "contentHash": "62b8063f45c5c9922dd0b1dea4adb147bf1179b68c17dea883307233b32a46fa"
+      "tokenEstimate": 674,
+      "contentHash": "5b81fd168cb7606da30f36bd9a7c235d4b1977f8cae02a9e8ec4e1e628ce5fe9"
+    },
+    {
+      "id": "article:trust-and-outrage-platforms-and-cohesion",
+      "slug": "trust-and-outrage-platforms-and-cohesion",
+      "title": "Trust and Outrage",
+      "summary": "Examines the design incentives and evidence behind divisive-content amplification in India, from algorithmic feeds to misinformation and hate-speech trends, and asks whether platforms can be designed to reward cohesion instead of fracture.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "social-media",
+        "misinformation",
+        "polarization",
+        "platform-design"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "social-media",
+        "misinformation",
+        "polarization",
+        "platform-design"
+      ],
+      "canonicalPath": "/articles/trust-and-outrage-platforms-and-cohesion/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+      "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+      "agentMarkdownPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 8,
+      "sourceCount": 7,
+      "tokenEstimate": 724,
+      "contentHash": "d4b1a6a3628cd9b1835bf350cceebf1917f37eca7760fb9e497cb23cd800f73a"
     }
   ]
 }

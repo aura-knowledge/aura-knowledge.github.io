@@ -447,7 +447,8 @@
           "tone",
           "privacy"
         ],
-        "notes": "Initial seed draft reviewed for source-to-claim alignment, analogy limits, and privacy cleanliness before public review. Approved for publication after final review."
+        "notes": "Initial seed draft reviewed for source-to-claim alignment, analogy limits, and privacy cleanliness before public review. Approved for publication after final review.",
+        "contentHash": "62d909d5e9f88204dabd2fb1f284d1077e805963e509747a07706e9d8ade9c38"
       },
       {
         "reviewer": "human",

@@ -350,7 +350,8 @@
           "tone",
           "privacy"
         ],
-        "notes": "Initial agent review against the LHRA work package and source map. No private or proprietary content detected. Claim markers and source IDs verified. Approved for publication after final review."
+        "notes": "Initial agent review against the LHRA work package and source map. No private or proprietary content detected. Claim markers and source IDs verified. Approved for publication after final review.",
+        "contentHash": "ecec9f458d695b5a53bfea9e6856fb376b5174ed3bf0487ce3a7cdd36baf96c1"
       },
       {
         "reviewer": "human",
@@ -371,7 +372,7 @@
       "version": "1.0.0"
     }
   },
-  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
   "agentJsonPath": "/agents/articles/birth-of-ai.json",
   "agentMarkdownPath": "/agents/articles/birth-of-ai.md",

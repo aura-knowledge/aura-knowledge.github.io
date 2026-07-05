@@ -174,14 +174,14 @@
         "role": "drafting",
         "model": "kimi",
         "invokedAt": "2026-06-29",
-        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "inputHash": "sha256:33db8b6cf649269f21fdd5295366eb347d378bcad17e9754f976f48a6d5731be",
         "outputHash": "sha256:33db8b6cf649269f21fdd5295366eb347d378bcad17e9754f976f48a6d5731be"
       },
       {
         "role": "review",
         "model": "kimi",
         "invokedAt": "2026-06-29",
-        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "inputHash": "sha256:33db8b6cf649269f21fdd5295366eb347d378bcad17e9754f976f48a6d5731be",
         "outputHash": "sha256:33db8b6cf649269f21fdd5295366eb347d378bcad17e9754f976f48a6d5731be"
       }
     ],
@@ -219,7 +219,7 @@
     }
   },
   "contentHash": "33db8b6cf649269f21fdd5295366eb347d378bcad17e9754f976f48a6d5731be",
-  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/retrieval-augmented-generation/",
   "agentJsonPath": "/agents/articles/retrieval-augmented-generation.json",
   "agentMarkdownPath": "/agents/articles/retrieval-augmented-generation.md",

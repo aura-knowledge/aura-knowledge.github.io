@@ -26,9 +26,9 @@
     "fediverse"
   ],
   "series": {
-    "slug": "attention-extraction",
+    "slug": "attention-substance-ai-moment",
     "title": "Attention, Substance, and the AI Moment",
-    "order": 4,
+    "order": 16,
     "role": "chapter"
   },
   "claims": [
@@ -233,7 +233,7 @@
     "Treat maturity=seed as an explicit uncertainty marker.",
     "Do not present the attention economy as inevitable or purely driven by user demand.",
     "Preserve the exploratory tone; do not convert the article into a product pitch or regulatory handbook.",
-    "When summarizing, keep the distinction between diagnosis (Lane A), stakes (Lane B), individual practice (Lane C), and systemic design (Lane D).",
+    "When summarizing, keep the distinction between diagnosis (The Attention Extraction), stakes (The Generational Bet), individual practice (The Substance Builder), and systemic design (Designing for Substance).",
     "Cite the specific source IDs when discussing regulation, platform research, or the fediverse."
   ],
   "provenance": {
@@ -244,14 +244,14 @@
         "role": "drafting",
         "model": "kimi",
         "invokedAt": "2026-07-04",
-        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-        "outputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+        "inputHash": "sha256:ad1b15f8f48917aab98e8e13c4ce0800aa1251a8c41a49b8da23eef95aa49a68",
+        "outputHash": "sha256:ad1b15f8f48917aab98e8e13c4ce0800aa1251a8c41a49b8da23eef95aa49a68"
       }
     ],
     "reviews": [
       {
         "reviewer": "human",
-        "reviewedAt": "2026-07-04",
+        "reviewedAt": "2026-07-05",
         "status": "approved",
         "scope": [
           "thesis",
@@ -261,7 +261,7 @@
           "sources"
         ],
         "notes": "Human author approved publication.",
-        "contentHash": "c965b0f4ba6d93d146389f1cdf0eb60e6bbd21d04c6d8276fe1ad94ee18cd67c"
+        "contentHash": "0b2a3c9e15c58c7d9e62e4a008f4efed10935f844ea50d7f3733c7533040b9d3"
       }
     ],
     "policy": {
@@ -269,5 +269,5 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "c965b0f4ba6d93d146389f1cdf0eb60e6bbd21d04c6d8276fe1ad94ee18cd67c"
+  "contentHash": "0b2a3c9e15c58c7d9e62e4a008f4efed10935f844ea50d7f3733c7533040b9d3"
 }

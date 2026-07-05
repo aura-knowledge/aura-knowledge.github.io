@@ -312,7 +312,8 @@
           "tone",
           "privacy"
         ],
-        "notes": "Initial agent draft from a public, sanitized work package. Human review is pending before publication. Approved for publication after final review."
+        "notes": "Initial agent draft from a public, sanitized work package. Human review is pending before publication. Approved for publication after final review.",
+        "contentHash": "f266d04e23ea69c9a19a7e2e400af7b9a4b96bfa81d117765e3cb6e46f5a8e25"
       },
       {
         "reviewer": "human",
@@ -333,7 +334,7 @@
       "version": "1.0.0"
     }
   },
-  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
   "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json",
   "agentMarkdownPath": "/agents/articles/ai-winters-expert-systems.md",

@@ -423,7 +423,8 @@
           "tone",
           "privacy"
         ],
-        "notes": "Initial agent review against the source map and privacy contract; no client or proprietary content detected. Human author retains final judgment. Approved for publication after final review."
+        "notes": "Initial agent review against the source map and privacy contract; no client or proprietary content detected. Human author retains final judgment. Approved for publication after final review.",
+        "contentHash": "6a8f23247fb3417c59ac22aea68afd60feb57db63686a32dba9f735235121098"
       },
       {
         "reviewer": "human",
@@ -444,7 +445,7 @@
       "version": "1.0.0"
     }
   },
-  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
   "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
   "agentMarkdownPath": "/agents/articles/formal-logic-to-computation.md",

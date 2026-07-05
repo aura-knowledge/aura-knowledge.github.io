@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 3,
+  "id": "article:the-student-screen-education-vs-entertainment",
+  "slug": "the-student-screen-education-vs-entertainment",
+  "title": "The Student Screen",
+  "canonicalPath": "/articles/the-student-screen-education-vs-entertainment/",
+  "sourcePath": "content/articles/2026/the-student-screen-education-vs-entertainment/article.md",
+  "agentBriefPath": "content/articles/2026/the-student-screen-education-vs-entertainment/agent.md",
+  "thesis": "The smartphone has become the default study tool and entertainment console for Indian teenagers, but platform design and social incentives tilt daily use toward entertainment and social media, widening the gap between access to learning and actual learning.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "parents",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "students",
+    "education",
+    "mental-health"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 3,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "The smartphone has become the default study tool and entertainment console for Indian teenagers, but platform design and social incentives tilt daily use toward entertainment and social media, widening the gap between access to learning and actual learning.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-aser-2024",
+          "snippet": "Among 14–16-year-olds who can use a smartphone, 76% used it for social media in the reference week while 57% used it for education.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-ncert-2022",
+          "snippet": "NCERT's 2022 survey of roughly 379,000 students found 81% anxious about studies/exams and 43% reporting mood swings.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Many students use the same platforms and devices for peer learning, exam groups, and informal skill discovery, so the boundary between educational and social use is fuzzy.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "ASER 2024 reports that among 14–16-year-olds who can use a smartphone, 76% used it for social media in the reference week while 57% used it for education.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-aser-2024",
+          "snippet": "Of those who know how to use a smartphone, 57% reported using it for an educational activity in the preceding week while 76% said they used it for social media during the same period.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The survey measures any use during the reference week, not time spent or learning outcomes, and the same session can include both social and educational content.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "The broader Indian internet-use mix is roughly 4:1 entertainment to education, suggesting that the student pattern reflects a national default rather than an adolescent quirk.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-ncaer-ihds-wave3",
+          "snippet": "NCAER IHDS Wave 3 finds 66% of reported internet use is for entertainment and 16.1% is for education, a ratio of about 4.1:1.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Reported shares depend on self-classification and may not map cleanly onto actual minutes; multi-purpose use can be classified differently.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Heavy daily screen time is common among Indian youth: one Indian review reports 4–5 hours per day for adolescents, and a rural school study found 83% of secondary students exceeded the two-hour recommendation.",
+      "confidence": "medium",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-ijip-adolescent-screen-time",
+          "snippet": "A review of Indian adolescent screen-time studies reports averages of 4–5 hours per day across devices and activities.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-pmc-rural-screen-time",
+          "snippet": "A rural secondary-school study in Pune found 83.2% of students spent more than the recommended two hours per day on screen devices; mobile phones were the most common device.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Screen-time figures vary by age, region, income, and measurement method; no single nationally representative census exists.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "A LocalCircles survey of urban parents (n=57,000+) found that 49% of children aged 9–17 spend 3+ hours per day on social media, videos/OTT, and online games.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-localcircles-2025",
+          "snippet": "49% of urban Indian parents of children aged 9–17 say their children spend an average of 3 hours or more each day on social media, videos/OTT, and online games.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The survey is self-reported by parents, urban-skewed, and measures perceived time rather than platform-measured time.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "NCERT's 2022 survey of roughly 379,000 students found 81% anxious about studies/exams and 43% reporting mood swings, showing the pressure context in which student screen use happens.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-ncert-2022",
+          "snippet": "A large percentage of students (81%) experienced anxiety over coursework, examinations, and results; 43% had mood swings.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The survey captures self-reported emotional states, not clinical diagnoses, and was conducted before the most recent surge in short-form video use.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "Excessive screen time and night-time device use are associated with poorer sleep, concentration, and mental-health symptoms in Indian adolescents, though causality is not established.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-pmc-rural-screen-time",
+          "snippet": "Excess screen time was significantly associated with delayed bedtime on weekdays and weekends.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-ncert-2022",
+          "snippet": "Large student survey documents widespread anxiety and mood swings, the emotional context in which screen habits are embedded.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-pmc-adolescent-mental-health",
+          "snippet": "A systematic review of Indian adolescent social-media use links higher use with higher rates of depression, anxiety, and stress, especially when use is passive or comparison-driven.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Most available studies are cross-sectional; causality and reverse causation remain unresolved.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-008",
+      "claim": "The same device and connectivity could support learning if defaults change — through school-led digital literacy, parental mediation, and design friction that makes educational use easier to start and entertainment easier to pause.",
+      "confidence": "medium",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-aser-2024",
+          "snippet": "The high share of education-related smartphone use (57%) shows that learning-oriented use is already common and could be expanded with better defaults.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-localcircles-2025",
+          "snippet": "Parent surveys indicate awareness of problematic use and support for rules such as parental consent and time limits.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Evidence on which specific interventions work at scale in India is limited; global findings may not transfer directly.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-aser-2024",
+      "title": "ASER 2024 National Findings",
+      "url": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ncert-2022",
+      "title": "NCERT: Mental Health and Well-being of School Students – A Survey, 2022",
+      "url": "https://www.ncert.nic.in/pdf/Mental_Health_WSS_A_Survey_new.pdf",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ncaer-ihds-wave3",
+      "title": "NCAER: The Evolving Landscape of Digital Inclusion in India (IHDS Wave 3)",
+      "url": "https://ncaer.org/wp-content/uploads/2026/06/NCAER_Report_June_26.pdf",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ficci-ey-me-2026",
+      "title": "EY: India’s media and entertainment sector grew 9% to INR2.78 trillion in 2025",
+      "url": "https://www.ey.com/en_in/newsroom/2026/03/india-s-media-and-entertainment-sector-grew-9-percent-to-inr-2-point-78-trillion-in-2025-driven-by-digital-and-live-experiences-ficci-ey-report",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-pmc-rural-screen-time",
+      "title": "PMC: Prevalence of excess screen time among secondary school children in rural India",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10876028/",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-localcircles-2025",
+      "title": "LocalCircles: 1 in 2 parents have children addicted to social media, OTT & gaming",
+      "url": "https://www.localcircles.com/a/press/page/children-social-media-addiction",
+      "type": "survey",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ita-india-digital-economy",
+      "title": "U.S. International Trade Administration: India Digital Economy",
+      "url": "https://www.trade.gov/country-commercial-guides/india-digital-economy",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ijip-adolescent-screen-time",
+      "title": "International Journal of Indian Psychology: Impact of Digital Screen Time on Adolescents",
+      "url": "https://ijip.in/wp-content/uploads/2024/09/18.01.171.20241203.pdf",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-pmc-adolescent-mental-health",
+      "title": "PMC: Social media and mental health among Indian adolescents",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11438920/",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-pib-economic-survey",
+      "title": "PIB: Economic Survey 2025-26 Press Release",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2",
+      "type": "government-press-release",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:the-attention-extraction"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:the-generational-bet"
+    },
+    {
+      "type": "article",
+      "id": "article:the-substance-builder"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    },
+    {
+      "type": "topic",
+      "id": "topic:india"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit; each claim is scoped to student screen use and should not be conflated with workplace or elder-digital-exclusion claims.",
+    "Preserve the evidence-cautious tone; avoid causal language where the underlying studies are correlational.",
+    "When citing sources, use the source IDs and URLs in the artifact; do not invent or generalize beyond the public evidence.",
+    "Flag screen-time figures that are industry estimates or clinical samples, not nationally representative measurements.",
+    "Direct readers seeking practical responses to the Substance Builder and Designing for Substance articles in this series."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:da2dc597af719e11900b7df25674faf98eaffd72c0b1d54e47bfdb901c106cd8",
+        "outputHash": "sha256:da2dc597af719e11900b7df25674faf98eaffd72c0b1d54e47bfdb901c106cd8"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "bd57880f5cca1b649f423609b0f33b11d409b3d6b0adce858ae86c8b1a3a5ef2"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "bd57880f5cca1b649f423609b0f33b11d409b3d6b0adce858ae86c8b1a3a5ef2",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+  "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+  "agentMarkdownPath": "/agents/articles/the-student-screen-education-vs-entertainment.md",
+  "sourceRepoPath": "content/articles/2026/the-student-screen-education-vs-entertainment/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/the-student-screen-education-vs-entertainment/article.md",
+  "tokenEstimate": 796,
+  "sectionOutline": [
+    {
+      "id": "the-device-is-the-same",
+      "title": "The Device Is the Same"
+    },
+    {
+      "id": "a-gap-in-use-not-access",
+      "title": "A Gap in Use, Not Access"
+    },
+    {
+      "id": "the-hours-add-up",
+      "title": "The Hours Add Up"
+    },
+    {
+      "id": "the-cost-in-sleep-mood-and-attention",
+      "title": "The Cost in Sleep, Mood, and Attention"
+    },
+    {
+      "id": "why-the-device-keeps-winning",
+      "title": "Why the Device Keeps Winning"
+    },
+    {
+      "id": "what-would-shift-the-default",
+      "title": "What Would Shift the Default"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

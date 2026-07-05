@@ -1,0 +1,11 @@
+{
+  "type": "grouped_bar",
+  "csv": "the-engagement-gap-productivity-india.csv",
+  "filename": "india-engagement-benchmarks.svg",
+  "title": "Employee engagement in India and benchmarks",
+  "x_key": "label",
+  "y_key": "engagement_pct",
+  "y_label": "Engaged employees (%)",
+  "source": "Gallup State of the Global Workplace 2025",
+  "caveat": "Three-year rolling averages. India 2022 represents a recent peak; the 2025 figure is the lowest in four years. South Asia and global figures are provided for comparison."
+}

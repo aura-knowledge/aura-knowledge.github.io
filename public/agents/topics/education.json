@@ -3,7 +3,8 @@
   "topic": "education",
   "articleIds": [
     "article:before-machines",
-    "article:long-human-road-to-ai"
+    "article:long-human-road-to-ai",
+    "article:the-student-screen-education-vs-entertainment"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/education/",
   "agentJsonPath": "/agents/topics/education.json",
@@ -73,6 +74,39 @@
       "sourceCount": 18,
       "tokenEstimate": 628,
       "contentHash": "d852055f4b0a5abd15924735fd73242312304723715c3bc13efc099f0f23dc26"
+    },
+    {
+      "id": "article:the-student-screen-education-vs-entertainment",
+      "slug": "the-student-screen-education-vs-entertainment",
+      "title": "The Student Screen",
+      "summary": "A diagnosis of student screen use in India, drawing on ASER 2024 and NCERT 2022. The same device could support learning but is often captured by entertainment and social feeds, with measurable costs to attention, sleep, and mental well-being.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "students",
+        "education",
+        "mental-health"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "students",
+        "education",
+        "mental-health"
+      ],
+      "canonicalPath": "/articles/the-student-screen-education-vs-entertainment/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+      "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+      "agentMarkdownPath": "/agents/articles/the-student-screen-education-vs-entertainment.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 8,
+      "sourceCount": 10,
+      "tokenEstimate": 796,
+      "contentHash": "bd57880f5cca1b649f423609b0f33b11d409b3d6b0adce858ae86c8b1a3a5ef2"
     }
   ]
 }

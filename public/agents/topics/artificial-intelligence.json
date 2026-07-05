@@ -2,11 +2,112 @@
   "schemaVersion": 1,
   "topic": "artificial-intelligence",
   "articleIds": [
-    "article:the-generational-bet"
+    "article:attention-substance-ai-moment",
+    "article:the-compounding-bet",
+    "article:the-creator-economys-incentive-trap",
+    "article:the-generational-bet",
+    "article:what-ai-makes-cheap"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/artificial-intelligence/",
   "agentJsonPath": "/agents/topics/artificial-intelligence.json",
   "articles": [
+    {
+      "id": "article:attention-substance-ai-moment",
+      "slug": "attention-substance-ai-moment",
+      "title": "Attention, Substance, and the AI Moment: A Series Index",
+      "summary": "A guide to the Attention, Substance, and the AI Moment series: the diagnosis, the generational stakes, individual practice, systemic design, and curated reading paths.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "series-guide"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "series-guide"
+      ],
+      "canonicalPath": "/articles/attention-substance-ai-moment/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
+      "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json",
+      "agentMarkdownPath": "/agents/articles/attention-substance-ai-moment.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 1,
+      "sourceCount": 2,
+      "tokenEstimate": 465,
+      "contentHash": "e6e3f46b1414ff04e3dd733429ba07ca3c10aa200bfb968353fb689b19b17da9"
+    },
+    {
+      "id": "article:the-compounding-bet",
+      "slug": "the-compounding-bet",
+      "title": "The Compounding Bet",
+      "summary": "Reframes India's AI opportunity as a compounding function of attention. Uses Gallup, NASSCOM, and public AI-readiness data to show how small shifts in daily learning, work, and creation habits could aggregate into large differences in national capacity over the next decade.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "artificial-intelligence",
+        "deep-work",
+        "generational-responsibility",
+        "productivity"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "artificial-intelligence",
+        "deep-work",
+        "generational-responsibility",
+        "productivity"
+      ],
+      "canonicalPath": "/articles/the-compounding-bet/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+      "agentJsonPath": "/agents/articles/the-compounding-bet.json",
+      "agentMarkdownPath": "/agents/articles/the-compounding-bet.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 8,
+      "tokenEstimate": 802,
+      "contentHash": "d882ba77ff9280c221b6ee69a48d916c57e4234be70426b9cd1e4c8bffc11d12"
+    },
+    {
+      "id": "article:the-creator-economys-incentive-trap",
+      "slug": "the-creator-economys-incentive-trap",
+      "title": "The Creator Economy's Incentive Trap",
+      "summary": "India's creator economy is reaching massive scale, yet few monetize well and income concentrates at the top. This article examines the gap between aspiration and livelihood, and asks what the AI moment means for young Indians betting on viral attention.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "creator-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "inequality"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "creator-economy",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "inequality"
+      ],
+      "canonicalPath": "/articles/the-creator-economys-incentive-trap/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+      "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
+      "agentMarkdownPath": "/agents/articles/the-creator-economys-incentive-trap.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 8,
+      "tokenEstimate": 869,
+      "contentHash": "39150f279bc25f4a7f2c09f7956e4c39706488916f9e976b0bf15f3be98fc41c"
+    },
     {
       "id": "article:the-generational-bet",
       "slug": "the-generational-bet",
@@ -37,8 +138,41 @@
       "updatedAt": "2026-07-04",
       "claimCount": 4,
       "sourceCount": 10,
-      "tokenEstimate": 647,
-      "contentHash": "22aeb909b1d890d78041bfc206c3e8e7ef1eeb84195252f33e73f2c1e714e74d"
+      "tokenEstimate": 658,
+      "contentHash": "d1a2919152f83fe2f55afe29b161b63b6a5679343434f7257e2a3bcae0f26f20"
+    },
+    {
+      "id": "article:what-ai-makes-cheap",
+      "slug": "what-ai-makes-cheap",
+      "title": "What AI Makes Cheap",
+      "summary": "Generative AI lowers the cost of writing, coding, translating, designing, tutoring, and many knowledge tasks. This article maps what is becoming cheap, what India is building, and why the payoff depends on whether reclaimed attention flows into learning or back into extraction.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "artificial-intelligence",
+        "generative-ai",
+        "digital-economy",
+        "productivity"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "artificial-intelligence",
+        "generative-ai",
+        "digital-economy",
+        "productivity"
+      ],
+      "canonicalPath": "/articles/what-ai-makes-cheap/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+      "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
+      "agentMarkdownPath": "/agents/articles/what-ai-makes-cheap.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 7,
+      "tokenEstimate": 778,
+      "contentHash": "36f08fb0c0f3fddf41eb669a1eab7f20979d1c313049bdd40c371f48bc2025d0"
     }
   ]
 }

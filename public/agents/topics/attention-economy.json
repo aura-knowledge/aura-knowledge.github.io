@@ -2,13 +2,158 @@
   "schemaVersion": 1,
   "topic": "attention-economy",
   "articleIds": [
+    "article:a-map-of-levers",
+    "article:a-readers-guide-to-the-series",
+    "article:attention-substance-ai-moment",
+    "article:by-the-numbers-what-indians-do-online",
     "article:designing-for-substance",
+    "article:engagement-is-a-design-choice",
+    "article:gender-and-the-attention-economy",
+    "article:regulation-as-a-floor-dsa-it-rules-dpdp",
     "article:the-attention-extraction",
-    "article:the-generational-bet"
+    "article:the-better-question",
+    "article:the-compounding-bet",
+    "article:the-creator-economys-incentive-trap",
+    "article:the-engagement-gap-productivity-india",
+    "article:the-generational-bet",
+    "article:the-indic-language-internet-and-vernacular-feeds",
+    "article:the-life-phase-thread",
+    "article:the-small-rep-theory",
+    "article:the-student-screen-education-vs-entertainment",
+    "article:trust-and-outrage-platforms-and-cohesion",
+    "article:what-ai-makes-cheap",
+    "article:who-profits-advertising-foreign-platforms"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/attention-economy/",
   "agentJsonPath": "/agents/topics/attention-economy.json",
   "articles": [
+    {
+      "id": "article:a-map-of-levers",
+      "slug": "a-map-of-levers",
+      "title": "A Map of Levers",
+      "summary": "This synthesis article maps the actors and interventions that can redirect India's digital infrastructure toward substance—from individual habits and household rules to platform design, investor pressure, regulation, and civic accountability.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "synthesis",
+        "platform-design",
+        "policy",
+        "regulation"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "synthesis",
+        "policy",
+        "platform-design"
+      ],
+      "canonicalPath": "/articles/a-map-of-levers/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+      "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+      "agentMarkdownPath": "/agents/articles/a-map-of-levers.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 8,
+      "sourceCount": 13,
+      "tokenEstimate": 860,
+      "contentHash": "3bfb89f509202214b6454cd92bff340dc6322aafafcbad5d08b0cdaef4ef9c96"
+    },
+    {
+      "id": "article:a-readers-guide-to-the-series",
+      "slug": "a-readers-guide-to-the-series",
+      "title": "A Reader's Guide to the Series",
+      "summary": "Helps readers choose where to start in the series based on their question or role, explains the six arcs, and points only to published articles.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "series-guide",
+        "reading-paths"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "series-guide",
+        "reading-paths"
+      ],
+      "canonicalPath": "/articles/a-readers-guide-to-the-series/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+      "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+      "agentMarkdownPath": "/agents/articles/a-readers-guide-to-the-series.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 5,
+      "sourceCount": 7,
+      "tokenEstimate": 532,
+      "contentHash": "fcbc0027046f452e0114248491dbb9c4cf1afbe846dc59443bf67b78583548d7"
+    },
+    {
+      "id": "article:attention-substance-ai-moment",
+      "slug": "attention-substance-ai-moment",
+      "title": "Attention, Substance, and the AI Moment: A Series Index",
+      "summary": "A guide to the Attention, Substance, and the AI Moment series: the diagnosis, the generational stakes, individual practice, systemic design, and curated reading paths.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "series-guide"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "series-guide"
+      ],
+      "canonicalPath": "/articles/attention-substance-ai-moment/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
+      "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json",
+      "agentMarkdownPath": "/agents/articles/attention-substance-ai-moment.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 1,
+      "sourceCount": 2,
+      "tokenEstimate": 465,
+      "contentHash": "e6e3f46b1414ff04e3dd733429ba07ca3c10aa200bfb968353fb689b19b17da9"
+    },
+    {
+      "id": "article:by-the-numbers-what-indians-do-online",
+      "slug": "by-the-numbers-what-indians-do-online",
+      "title": "By the Numbers: What Indians Actually Do Online",
+      "summary": "Uses government, academic, and industry sources to map India's digital time budget across entertainment, education, work, and communication.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "data",
+        "internet-use"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "data",
+        "internet-use"
+      ],
+      "canonicalPath": "/articles/by-the-numbers-what-indians-do-online/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+      "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+      "agentMarkdownPath": "/agents/articles/by-the-numbers-what-indians-do-online.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 12,
+      "tokenEstimate": 739,
+      "contentHash": "30aaa419aeab9e4e13f2417ccb346572a874a8d914e354a1f4e1437eb9b39ae2"
+    },
     {
       "id": "article:designing-for-substance",
       "slug": "designing-for-substance",
@@ -39,8 +184,105 @@
       "updatedAt": "2026-07-04",
       "claimCount": 5,
       "sourceCount": 7,
-      "tokenEstimate": 593,
-      "contentHash": "c965b0f4ba6d93d146389f1cdf0eb60e6bbd21d04c6d8276fe1ad94ee18cd67c"
+      "tokenEstimate": 597,
+      "contentHash": "0b2a3c9e15c58c7d9e62e4a008f4efed10935f844ea50d7f3733c7533040b9d3"
+    },
+    {
+      "id": "article:engagement-is-a-design-choice",
+      "slug": "engagement-is-a-design-choice",
+      "title": "Engagement Is a Design Choice",
+      "summary": "Explores how engagement-based ranking and ad-supported business models are design choices, not natural laws. Cites evidence that alternative metrics can reduce divisive amplification and asks what it would take to make substance the default.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "platform-design",
+        "algorithms",
+        "business-models"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "platform-design",
+        "algorithms",
+        "business-models"
+      ],
+      "canonicalPath": "/articles/engagement-is-a-design-choice/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+      "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+      "agentMarkdownPath": "/agents/articles/engagement-is-a-design-choice.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 7,
+      "tokenEstimate": 879,
+      "contentHash": "5f89b73f4c91dbbede314b218c1ab1d7a62eab89e7ba0c89b1680a78a0c7692b"
+    },
+    {
+      "id": "article:gender-and-the-attention-economy",
+      "slug": "gender-and-the-attention-economy",
+      "title": "Gender and the Attention Economy",
+      "summary": "Uses government surveys and industry data to examine how women experience India's attention economy differently—through access gaps, unpaid care burdens, online safety risks, and unequal creator-economy opportunities.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "gender",
+        "digital-inclusion",
+        "digital-wellbeing"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "gender",
+        "digital-inclusion",
+        "digital-wellbeing"
+      ],
+      "canonicalPath": "/articles/gender-and-the-attention-economy/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
+      "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json",
+      "agentMarkdownPath": "/agents/articles/gender-and-the-attention-economy.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 6,
+      "tokenEstimate": 901,
+      "contentHash": "d6c669b3e663a43e8bd886da687b89e85f33efcde536f010006a9952e8241d0c"
+    },
+    {
+      "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+      "title": "Regulation as a Floor",
+      "summary": "Compares India’s IT Rules 2021 and DPDP Act 2023 with the EU DSA, UK OSA, and Australia’s eSafety framework. Regulation can curb harms but cannot alone make substance the easier path; design, business models, and public pressure matter too.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "regulation",
+        "platform-accountability",
+        "digital-services-act",
+        "dpdp"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "regulation",
+        "platform-accountability",
+        "digital-services-act",
+        "dpdp"
+      ],
+      "canonicalPath": "/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+      "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+      "agentMarkdownPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 9,
+      "tokenEstimate": 739,
+      "contentHash": "07e1441b2711489b41140cf46bcf1a91ee20835c45b9a5e717f80e3f7bcd1523"
     },
     {
       "id": "article:the-attention-extraction",
@@ -72,8 +314,136 @@
       "updatedAt": "2026-07-04",
       "claimCount": 4,
       "sourceCount": 14,
-      "tokenEstimate": 666,
-      "contentHash": "62b8063f45c5c9922dd0b1dea4adb147bf1179b68c17dea883307233b32a46fa"
+      "tokenEstimate": 674,
+      "contentHash": "5b81fd168cb7606da30f36bd9a7c235d4b1977f8cae02a9e8ec4e1e628ce5fe9"
+    },
+    {
+      "id": "article:the-better-question",
+      "slug": "the-better-question",
+      "title": "Leave Better Than You Arrived: A North Star for Platform Design",
+      "summary": "Synthesizes the Designing for Substance arc into a practical north star: platform success should be measured by whether users leave with more clarity, skill, or civic capacity than they had when they arrived.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "platform-design",
+        "synthesis"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "platform-design",
+        "synthesis"
+      ],
+      "canonicalPath": "/articles/the-better-question/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
+      "agentJsonPath": "/agents/articles/the-better-question.json",
+      "agentMarkdownPath": "/agents/articles/the-better-question.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 7,
+      "tokenEstimate": 797,
+      "contentHash": "1ec6e905e6de8680421cf67e230310b23cdd692295947717b63e91654185ff55"
+    },
+    {
+      "id": "article:the-compounding-bet",
+      "slug": "the-compounding-bet",
+      "title": "The Compounding Bet",
+      "summary": "Reframes India's AI opportunity as a compounding function of attention. Uses Gallup, NASSCOM, and public AI-readiness data to show how small shifts in daily learning, work, and creation habits could aggregate into large differences in national capacity over the next decade.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "artificial-intelligence",
+        "deep-work",
+        "generational-responsibility",
+        "productivity"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "artificial-intelligence",
+        "deep-work",
+        "generational-responsibility",
+        "productivity"
+      ],
+      "canonicalPath": "/articles/the-compounding-bet/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+      "agentJsonPath": "/agents/articles/the-compounding-bet.json",
+      "agentMarkdownPath": "/agents/articles/the-compounding-bet.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 8,
+      "tokenEstimate": 802,
+      "contentHash": "d882ba77ff9280c221b6ee69a48d916c57e4234be70426b9cd1e4c8bffc11d12"
+    },
+    {
+      "id": "article:the-creator-economys-incentive-trap",
+      "slug": "the-creator-economys-incentive-trap",
+      "title": "The Creator Economy's Incentive Trap",
+      "summary": "India's creator economy is reaching massive scale, yet few monetize well and income concentrates at the top. This article examines the gap between aspiration and livelihood, and asks what the AI moment means for young Indians betting on viral attention.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "creator-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "inequality"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "creator-economy",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "inequality"
+      ],
+      "canonicalPath": "/articles/the-creator-economys-incentive-trap/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+      "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
+      "agentMarkdownPath": "/agents/articles/the-creator-economys-incentive-trap.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 8,
+      "tokenEstimate": 869,
+      "contentHash": "39150f279bc25f4a7f2c09f7956e4c39706488916f9e976b0bf15f3be98fc41c"
+    },
+    {
+      "id": "article:the-engagement-gap-productivity-india",
+      "slug": "the-engagement-gap-productivity-india",
+      "title": "The Engagement Gap",
+      "summary": "Examines Gallup engagement data, workplace distraction research, and Indian graduate-employability figures to show how attention extraction affects productivity and the country's demographic dividend.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "productivity",
+        "workplace"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "productivity",
+        "workplace"
+      ],
+      "canonicalPath": "/articles/the-engagement-gap-productivity-india/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
+      "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json",
+      "agentMarkdownPath": "/agents/articles/the-engagement-gap-productivity-india.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 9,
+      "tokenEstimate": 885,
+      "contentHash": "37b395d28cc12622855c5d9335ed413a64fb1ca258501f7734dc0ec8c1c29ba8"
     },
     {
       "id": "article:the-generational-bet",
@@ -105,8 +475,233 @@
       "updatedAt": "2026-07-04",
       "claimCount": 4,
       "sourceCount": 10,
-      "tokenEstimate": 647,
-      "contentHash": "22aeb909b1d890d78041bfc206c3e8e7ef1eeb84195252f33e73f2c1e714e74d"
+      "tokenEstimate": 658,
+      "contentHash": "d1a2919152f83fe2f55afe29b161b63b6a5679343434f7257e2a3bcae0f26f20"
+    },
+    {
+      "id": "article:the-indic-language-internet-and-vernacular-feeds",
+      "slug": "the-indic-language-internet-and-vernacular-feeds",
+      "title": "The Indic-Language Internet and the Vernacular Feed",
+      "summary": "India's internet is now overwhelmingly Indic-language, rural, and mobile-first. This article examines how language expansion multiplied the audience, what vernacular feeds look like at scale, and why engagement-maximizing designs operate across languages with fewer guardrails.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "language",
+        "vernacular-internet"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "language",
+        "vernacular-internet"
+      ],
+      "canonicalPath": "/articles/the-indic-language-internet-and-vernacular-feeds/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
+      "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json",
+      "agentMarkdownPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 6,
+      "tokenEstimate": 763,
+      "contentHash": "2cbd75681869256f55e76d86902ff8f7ca822f828a129971ae66da62ecfaef8d"
+    },
+    {
+      "id": "article:the-life-phase-thread",
+      "slug": "the-life-phase-thread",
+      "title": "The Life-Phase Thread",
+      "summary": "Uses public surveys and academic sources to show that the attention economy imposes different but connected costs at each life stage, from adolescent screen ratios to elderly digital exclusion.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "life-phases",
+        "intergenerational"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "life-phases",
+        "intergenerational"
+      ],
+      "canonicalPath": "/articles/the-life-phase-thread/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+      "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
+      "agentMarkdownPath": "/agents/articles/the-life-phase-thread.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 7,
+      "tokenEstimate": 690,
+      "contentHash": "e8420e8ea044f5968c083af110f6791b1c08198e7e3f93b0c09343f3b41e25c0"
+    },
+    {
+      "id": "article:the-small-rep-theory",
+      "slug": "the-small-rep-theory",
+      "title": "The Small-Rep Theory",
+      "summary": "Synthesizes research on deliberate practice, deep work, and tiny habits into a practical framework for building substance one small repetition at a time.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "skill-building",
+        "deliberate-practice",
+        "habits"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "skill-building",
+        "deliberate-practice",
+        "habits"
+      ],
+      "canonicalPath": "/articles/the-small-rep-theory/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
+      "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
+      "agentMarkdownPath": "/agents/articles/the-small-rep-theory.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 5,
+      "tokenEstimate": 659,
+      "contentHash": "5b21a6af734bb37d8c42799003a7d00fd6d44b82978fd64d2a977c4b8a27e2d1"
+    },
+    {
+      "id": "article:the-student-screen-education-vs-entertainment",
+      "slug": "the-student-screen-education-vs-entertainment",
+      "title": "The Student Screen",
+      "summary": "A diagnosis of student screen use in India, drawing on ASER 2024 and NCERT 2022. The same device could support learning but is often captured by entertainment and social feeds, with measurable costs to attention, sleep, and mental well-being.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "students",
+        "education",
+        "mental-health"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "students",
+        "education",
+        "mental-health"
+      ],
+      "canonicalPath": "/articles/the-student-screen-education-vs-entertainment/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+      "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+      "agentMarkdownPath": "/agents/articles/the-student-screen-education-vs-entertainment.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 8,
+      "sourceCount": 10,
+      "tokenEstimate": 796,
+      "contentHash": "bd57880f5cca1b649f423609b0f33b11d409b3d6b0adce858ae86c8b1a3a5ef2"
+    },
+    {
+      "id": "article:trust-and-outrage-platforms-and-cohesion",
+      "slug": "trust-and-outrage-platforms-and-cohesion",
+      "title": "Trust and Outrage",
+      "summary": "Examines the design incentives and evidence behind divisive-content amplification in India, from algorithmic feeds to misinformation and hate-speech trends, and asks whether platforms can be designed to reward cohesion instead of fracture.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "social-media",
+        "misinformation",
+        "polarization",
+        "platform-design"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "social-media",
+        "misinformation",
+        "polarization",
+        "platform-design"
+      ],
+      "canonicalPath": "/articles/trust-and-outrage-platforms-and-cohesion/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+      "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+      "agentMarkdownPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 8,
+      "sourceCount": 7,
+      "tokenEstimate": 724,
+      "contentHash": "d4b1a6a3628cd9b1835bf350cceebf1917f37eca7760fb9e497cb23cd800f73a"
+    },
+    {
+      "id": "article:what-ai-makes-cheap",
+      "slug": "what-ai-makes-cheap",
+      "title": "What AI Makes Cheap",
+      "summary": "Generative AI lowers the cost of writing, coding, translating, designing, tutoring, and many knowledge tasks. This article maps what is becoming cheap, what India is building, and why the payoff depends on whether reclaimed attention flows into learning or back into extraction.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "artificial-intelligence",
+        "generative-ai",
+        "digital-economy",
+        "productivity"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "artificial-intelligence",
+        "generative-ai",
+        "digital-economy",
+        "productivity"
+      ],
+      "canonicalPath": "/articles/what-ai-makes-cheap/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+      "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
+      "agentMarkdownPath": "/agents/articles/what-ai-makes-cheap.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 7,
+      "tokenEstimate": 778,
+      "contentHash": "36f08fb0c0f3fddf41eb669a1eab7f20979d1c313049bdd40c371f48bc2025d0"
+    },
+    {
+      "id": "article:who-profits-advertising-foreign-platforms",
+      "slug": "who-profits-advertising-foreign-platforms",
+      "title": "Who Profits?",
+      "summary": "Most of India's digital advertising spending flows to a pair of foreign platforms, while the creator economy is sharply stratified. This article traces the money using regulatory filings and industry research, and asks what a more balanced attention economy would require.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-advertising",
+        "creator-economy",
+        "platform-economics"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-advertising",
+        "creator-economy",
+        "platform-economics"
+      ],
+      "canonicalPath": "/articles/who-profits-advertising-foreign-platforms/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+      "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
+      "agentMarkdownPath": "/agents/articles/who-profits-advertising-foreign-platforms.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 6,
+      "sourceCount": 8,
+      "tokenEstimate": 859,
+      "contentHash": "176785871c9700f89f4a2eb07507e28b2c79cd03b8d69756476d3d4e8f2b1b9d"
     }
   ]
 }

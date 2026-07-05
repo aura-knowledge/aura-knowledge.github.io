@@ -193,14 +193,14 @@
         "role": "drafting",
         "model": "kimi",
         "invokedAt": "2026-06-29",
-        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "inputHash": "sha256:79e89b409944a0cf6c388603a5a637844fc0cb77abf06f5fed8a204897cf3236",
         "outputHash": "sha256:79e89b409944a0cf6c388603a5a637844fc0cb77abf06f5fed8a204897cf3236"
       },
       {
         "role": "review",
         "model": "kimi",
         "invokedAt": "2026-06-29",
-        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "inputHash": "sha256:79e89b409944a0cf6c388603a5a637844fc0cb77abf06f5fed8a204897cf3236",
         "outputHash": "sha256:79e89b409944a0cf6c388603a5a637844fc0cb77abf06f5fed8a204897cf3236"
       }
     ],
@@ -238,7 +238,7 @@
     }
   },
   "contentHash": "79e89b409944a0cf6c388603a5a637844fc0cb77abf06f5fed8a204897cf3236",
-  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/prompt-caching/",
   "agentJsonPath": "/agents/articles/prompt-caching.json",
   "agentMarkdownPath": "/agents/articles/prompt-caching.md",

@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 3,
+  "id": "article:a-readers-guide-to-the-series",
+  "slug": "a-readers-guide-to-the-series",
+  "title": "A Reader's Guide to the Series",
+  "canonicalPath": "/articles/a-readers-guide-to-the-series/",
+  "sourcePath": "content/articles/2026/a-readers-guide-to-the-series/article.md",
+  "agentBriefPath": "content/articles/2026/a-readers-guide-to-the-series/agent.md",
+  "thesis": "A reader's guide makes the series usable by mapping published articles to the questions different readers bring, rather than forcing a single front-to-back order.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "series-guide",
+    "reading-paths"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 21,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "The series is organized into six arcs that move from diagnosis through historical framing, the AI opportunity cost, individual practice, systemic design, and synthesis.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-series-index",
+          "snippet": "The series index lists six arcs: The Diagnosis, Historical and Human Frames, The AI Opportunity Cost, Building Substance, Designing for Substance, and Synthesis and Action.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The arc labels are editorial framing, not fixed taxonomies; some articles cross arc boundaries.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "The four seed articles cover the core arguments of diagnosis, generational stakes, individual practice, and systemic design.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-series-index",
+          "snippet": "The series index identifies The Attention Extraction, The Generational Bet, The Substance Builder, and Designing for Substance as the seed articles that anchor the series.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-attention-extraction",
+          "snippet": "The Attention Extraction provides the diagnosis of how India's digital-access success has inverted into attention extraction.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-generational-bet",
+          "snippet": "The Generational Bet frames the AI moment as a habit problem and a compounding national wager.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-substance-builder",
+          "snippet": "The Substance Builder gives practical, low-fractice guidance for turning dead time into small acts of creation.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-designing-for-substance",
+          "snippet": "Designing for Substance explores platform incentives, alternative metrics, regulation, and product alternatives.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The seed articles are not the only articles that address these themes; later deep-dives add evidence and nuance.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Most readers will find the series more useful if they enter by question or role rather than reading front to back, because the articles are designed to be self-contained.",
+      "confidence": "medium-high",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-readers-guide",
+          "snippet": "The reader's guide structures entry points by question and by role, and notes that articles can stand alone.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some readers may prefer a linear read, and cross-references assume at least passing familiarity with earlier concepts.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "The series explicitly distinguishes India-specific survey data from global benchmarks and industry estimates.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-series-index",
+          "snippet": "The series index states that every claim is framed with caution, correlational language is used where appropriate, and global figures are labeled as benchmarks applied to India.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-by-the-numbers",
+          "snippet": "By the Numbers labels figures from NSSO, ASER, NCAER, and Gallup with scope and caveat notes, and distinguishes India-specific surveys from global benchmarks.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Not every data callout carries a full three-part caveat label; some sentences rely on context for the confidence signal.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "This guide links only to articles that are already published and will be updated as new articles go live.",
+      "confidence": "high",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-readers-guide",
+          "snippet": "The reader's guide states that it links only to published articles and mentions future articles in plain text without links.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The guide may become outdated between updates if new articles publish before the guide is refreshed.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-readers-guide",
+      "title": "A Reader's Guide to the Series",
+      "url": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+      "type": "article",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-series-index",
+      "title": "Attention, Substance, and the AI Moment: A Series Index",
+      "url": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
+      "type": "article",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-attention-extraction",
+      "title": "The Attention Extraction: How India's Digital Dividend Is Becoming a Cognitive Deficit",
+      "url": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+      "type": "article",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-by-the-numbers",
+      "title": "By the Numbers: What Indians Actually Do Online",
+      "url": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+      "type": "article",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-generational-bet",
+      "title": "The Generational Bet: Will India Build the AI Age or Scroll Through It?",
+      "url": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+      "type": "article",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-substance-builder",
+      "title": "The Substance Builder: How to Turn Dead Time into Small Acts of Creation",
+      "url": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+      "type": "article",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-designing-for-substance",
+      "title": "Designing for Substance: Platform Incentives and the Attention Economy",
+      "url": "https://aura-knowledge.github.io/articles/designing-for-substance/",
+      "type": "article",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:the-attention-extraction"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:the-generational-bet"
+    },
+    {
+      "type": "article",
+      "id": "article:the-substance-builder"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    },
+    {
+      "type": "topic",
+      "id": "topic:india"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit and route readers to the specific article that answers their question.",
+    "Do not link to articles that are not yet published; mention them in plain text if needed.",
+    "Preserve the navigational, non-preachy tone; the guide is a map, not a sermon.",
+    "When citing evidence, use the source IDs and URLs from the artifact; do not generalize beyond the published articles.",
+    "Flag that the guide is a living document and may need updating as the series grows."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:fcbc0027046f452e0114248491dbb9c4cf1afbe846dc59443bf67b78583548d7",
+        "outputHash": "sha256:fcbc0027046f452e0114248491dbb9c4cf1afbe846dc59443bf67b78583548d7"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources",
+          "related-links"
+        ],
+        "notes": "Human author approved publication; links limited to published articles only.",
+        "contentHash": "fcbc0027046f452e0114248491dbb9c4cf1afbe846dc59443bf67b78583548d7"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "fcbc0027046f452e0114248491dbb9c4cf1afbe846dc59443bf67b78583548d7",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+  "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+  "agentMarkdownPath": "/agents/articles/a-readers-guide-to-the-series.md",
+  "sourceRepoPath": "content/articles/2026/a-readers-guide-to-the-series/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/a-readers-guide-to-the-series/article.md",
+  "tokenEstimate": 532,
+  "sectionOutline": [
+    {
+      "id": "the-six-arcs",
+      "title": "The Six Arcs"
+    },
+    {
+      "id": "start-with-your-question",
+      "title": "Start With Your Question"
+    },
+    {
+      "id": "read-for-your-role",
+      "title": "Read for Your Role"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

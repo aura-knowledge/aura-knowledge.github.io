@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "topic": "language",
+  "articleIds": [
+    "article:the-indic-language-internet-and-vernacular-feeds"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/language/",
+  "agentJsonPath": "/agents/topics/language.json",
+  "articles": [
+    {
+      "id": "article:the-indic-language-internet-and-vernacular-feeds",
+      "slug": "the-indic-language-internet-and-vernacular-feeds",
+      "title": "The Indic-Language Internet and the Vernacular Feed",
+      "summary": "India's internet is now overwhelmingly Indic-language, rural, and mobile-first. This article examines how language expansion multiplied the audience, what vernacular feeds look like at scale, and why engagement-maximizing designs operate across languages with fewer guardrails.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "language",
+        "vernacular-internet"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "language",
+        "vernacular-internet"
+      ],
+      "canonicalPath": "/articles/the-indic-language-internet-and-vernacular-feeds/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
+      "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json",
+      "agentMarkdownPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 6,
+      "tokenEstimate": 763,
+      "contentHash": "2cbd75681869256f55e76d86902ff8f7ca822f828a129971ae66da62ecfaef8d"
+    }
+  ]
+}

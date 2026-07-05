@@ -52,5 +52,5 @@ This article was drafted and structured with AI agent assistance following the A
 
 - This is a seed article; examples are illustrative.
 - It does not prescribe specific platforms, apps, or productivity systems.
-- It does not cover platform-design or policy solutions, which are addressed in Lane D.
-- It does not re-argue the diagnosis of attention extraction (Lane A) or the generational stakes (Lane B).
+- It does not cover platform-design or policy solutions, which are addressed in [Designing for Substance](/articles/designing-for-substance/).
+- It does not re-argue the diagnosis of [The Attention Extraction](/articles/the-attention-extraction/) or the generational stakes of [The Generational Bet](/articles/the-generational-bet/).

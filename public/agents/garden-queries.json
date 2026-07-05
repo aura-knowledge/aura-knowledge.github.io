@@ -3,10 +3,10 @@
   "schema": "https://aura-knowledge.github.io/schemas/garden-queries.schema.json",
   "site": "https://aura-knowledge.github.io",
   "base": "",
-  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 595
+    "totalResults": 900
   },
   "dimensions": [
     {
@@ -23,57 +23,87 @@
         "ai-literacy",
         "ai-native-publishing",
         "ai-society",
+        "algorithms",
         "artificial-intelligence",
         "attention-economy",
         "audio",
+        "business-models",
         "computability",
         "computing-history",
         "consumer-behavior",
+        "creator-economy",
         "cybernetics",
+        "data",
         "deep-work",
+        "deliberate-practice",
+        "digital-advertising",
+        "digital-economy",
         "digital-gardens",
+        "digital-inclusion",
         "digital-minimalism",
+        "digital-services-act",
         "digital-wellbeing",
+        "dpdp",
         "education",
         "evaluation",
         "expert-systems",
         "fediverse",
         "formal-logic",
         "foundation-models",
+        "gender",
         "generational-responsibility",
+        "generative-ai",
         "governance",
         "habit-formation",
+        "habits",
         "human-ai-interaction",
         "human-progress",
         "hype-cycle",
         "incumbent-adjacent-ventures",
         "india",
+        "inequality",
         "information-theory",
         "innovation",
         "institutions",
+        "intergenerational",
+        "internet-use",
         "labor",
+        "language",
         "learning",
+        "life-phases",
         "llm-routing",
         "long-human-road-to-ai",
         "machine-learning",
         "mental-health",
+        "misinformation",
         "neural-networks",
         "onboarding",
         "open-protocols",
+        "platform-accountability",
         "platform-design",
+        "platform-economics",
+        "polarization",
+        "policy",
         "privacy",
         "product-truth",
         "productivity",
         "prompting",
         "public-interest-technology",
         "public-policy",
+        "reading-paths",
         "regulation",
         "research-workflows",
         "scaling",
+        "series-guide",
+        "skill-building",
         "social-media",
+        "students",
         "symbolic-ai",
+        "synthesis",
         "transformers",
-        "voice-interfaces"
+        "vernacular-internet",
+        "voice-interfaces",
+        "workplace"
       ]
     },
     {
@@ -90,6 +120,7 @@
         "ai-literacy",
         "ai-society",
         "ai-winters",
+        "algorithms",
         "ambient-computing",
         "artificial-intelligence",
         "attention-economy",
@@ -97,6 +128,7 @@
         "automata",
         "automation",
         "benchmarking",
+        "business-models",
         "caching",
         "chain-of-thought",
         "commerce",
@@ -105,14 +137,21 @@
         "consumer-behavior",
         "context",
         "coordination",
+        "creator-economy",
         "dartmouth",
         "data",
         "de-hype",
         "deep-work",
         "delegation",
+        "deliberate-practice",
+        "digital-advertising",
+        "digital-economy",
         "digital-gardens",
+        "digital-inclusion",
         "digital-minimalism",
+        "digital-services-act",
         "digital-wellbeing",
+        "dpdp",
         "early-ai",
         "education",
         "evals",
@@ -122,10 +161,13 @@
         "fediverse",
         "fine-tuning",
         "function-calling",
+        "gender",
         "generational-responsibility",
+        "generative-ai",
         "goals",
         "governance",
         "habit-formation",
+        "habits",
         "history-of-ai",
         "human-ai-interaction",
         "human-computer-interaction",
@@ -133,12 +175,17 @@
         "human-progress",
         "hype-cycle",
         "india",
+        "inequality",
         "information-overload",
         "information-theory",
         "innovation",
         "institutions",
+        "intergenerational",
+        "internet-use",
         "labor",
+        "language",
         "learning",
+        "life-phases",
         "llm-routing",
         "logic",
         "loops",
@@ -146,6 +193,7 @@
         "mechanical-calculation",
         "memory",
         "mental-health",
+        "misinformation",
         "model-choice",
         "multi-agent-systems",
         "multimodality",
@@ -155,7 +203,11 @@
         "onboarding",
         "open-protocols",
         "planning",
+        "platform-accountability",
         "platform-design",
+        "platform-economics",
+        "polarization",
+        "policy",
         "pretraining",
         "privacy",
         "product-truth",
@@ -169,6 +221,7 @@
         "publishing",
         "rag",
         "reading-guide",
+        "reading-paths",
         "reasoning",
         "recipe",
         "reflection",
@@ -177,19 +230,25 @@
         "retrieval-augmented-generation",
         "scaling",
         "screen-fatigue",
+        "series-guide",
         "series-overview",
         "sessions",
+        "skill-building",
         "social-media",
         "statistics",
+        "students",
         "summarization",
         "symbolic-ai",
+        "synthesis",
         "tool-use",
         "tools",
         "transfer-learning",
         "transformers",
         "turing",
+        "vernacular-internet",
         "voice-interfaces",
-        "workflow"
+        "workflow",
+        "workplace"
       ]
     },
     {
@@ -217,6 +276,8 @@
       "name": "citesSourceType",
       "description": "Source type cited by the article.",
       "values": [
+        "academic-research",
+        "academic-website",
         "annual-report",
         "archival-record",
         "article",
@@ -238,26 +299,35 @@
         "energy-analysis",
         "essay",
         "expert-system-retrospective",
+        "government-act",
         "government-history",
         "government-policy",
         "government-press-release",
+        "government-regulation",
         "government-report",
+        "government-website",
         "guidance",
         "guide",
         "historical-analysis",
         "historiographic-commentary",
+        "industry-article",
         "industry-report",
         "institutional-history",
         "institutional-report",
         "intergovernmental-principles",
+        "international-regulation",
+        "international-report",
         "interview-transcript",
         "journal-article",
+        "legislation",
         "museum-collection",
         "museum-exhibit",
         "museum-object",
         "museum-research-project",
         "museum-story",
         "museum-timeline",
+        "news-article",
+        "news-report",
         "official-framework",
         "official-guidance",
         "official-report-series",
@@ -266,6 +336,7 @@
         "original-paper",
         "paper",
         "peer-reviewed-study",
+        "platform-accountability-report",
         "policy",
         "practice-guidance",
         "preprint",
@@ -294,11 +365,14 @@
         "schema",
         "standard",
         "standards-framework",
+        "survey",
         "survey-topic",
         "technical-report",
         "textbook",
+        "transparency-report",
         "university-news",
         "university-research-summary",
+        "watchdog-report",
         "working-paper"
       ]
     },
@@ -331,7 +405,7 @@
         "groupBy": "topic"
       },
       "resultType": "articles",
-      "resultCount": 138,
+      "resultCount": 238,
       "results": [
         {
           "articleId": "article:agent-control-planes",
@@ -775,6 +849,34 @@
           "topic": "ai-society"
         },
         {
+          "articleId": "article:engagement-is-a-design-choice",
+          "slug": "engagement-is-a-design-choice",
+          "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+          "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+          "topic": "algorithms"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment",
+          "slug": "attention-substance-ai-moment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json",
+          "topic": "artificial-intelligence"
+        },
+        {
+          "articleId": "article:the-compounding-bet",
+          "slug": "the-compounding-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+          "agentJsonPath": "/agents/articles/the-compounding-bet.json",
+          "topic": "artificial-intelligence"
+        },
+        {
+          "articleId": "article:the-creator-economys-incentive-trap",
+          "slug": "the-creator-economys-incentive-trap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+          "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
+          "topic": "artificial-intelligence"
+        },
+        {
           "articleId": "article:the-generational-bet",
           "slug": "the-generational-bet",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
@@ -782,10 +884,66 @@
           "topic": "artificial-intelligence"
         },
         {
+          "articleId": "article:what-ai-makes-cheap",
+          "slug": "what-ai-makes-cheap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+          "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
+          "topic": "artificial-intelligence"
+        },
+        {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:a-readers-guide-to-the-series",
+          "slug": "a-readers-guide-to-the-series",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+          "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment",
+          "slug": "attention-substance-ai-moment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "topic": "attention-economy"
+        },
+        {
           "articleId": "article:designing-for-substance",
           "slug": "designing-for-substance",
           "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
           "agentJsonPath": "/agents/articles/designing-for-substance.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:engagement-is-a-design-choice",
+          "slug": "engagement-is-a-design-choice",
+          "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+          "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:gender-and-the-attention-economy",
+          "slug": "gender-and-the-attention-economy",
+          "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
+          "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
           "topic": "attention-economy"
         },
         {
@@ -796,10 +954,87 @@
           "topic": "attention-economy"
         },
         {
+          "articleId": "article:the-better-question",
+          "slug": "the-better-question",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
+          "agentJsonPath": "/agents/articles/the-better-question.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:the-compounding-bet",
+          "slug": "the-compounding-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+          "agentJsonPath": "/agents/articles/the-compounding-bet.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:the-creator-economys-incentive-trap",
+          "slug": "the-creator-economys-incentive-trap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+          "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:the-engagement-gap-productivity-india",
+          "slug": "the-engagement-gap-productivity-india",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
+          "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json",
+          "topic": "attention-economy"
+        },
+        {
           "articleId": "article:the-generational-bet",
           "slug": "the-generational-bet",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
           "agentJsonPath": "/agents/articles/the-generational-bet.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:the-indic-language-internet-and-vernacular-feeds",
+          "slug": "the-indic-language-internet-and-vernacular-feeds",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
+          "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:the-life-phase-thread",
+          "slug": "the-life-phase-thread",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+          "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:the-small-rep-theory",
+          "slug": "the-small-rep-theory",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
+          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:trust-and-outrage-platforms-and-cohesion",
+          "slug": "trust-and-outrage-platforms-and-cohesion",
+          "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+          "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:what-ai-makes-cheap",
+          "slug": "what-ai-makes-cheap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+          "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:who-profits-advertising-foreign-platforms",
+          "slug": "who-profits-advertising-foreign-platforms",
+          "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+          "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
           "topic": "attention-economy"
         },
         {
@@ -808,6 +1043,13 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
           "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
           "topic": "audio"
+        },
+        {
+          "articleId": "article:engagement-is-a-design-choice",
+          "slug": "engagement-is-a-design-choice",
+          "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+          "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+          "topic": "business-models"
         },
         {
           "articleId": "article:formal-logic-to-computation",
@@ -845,11 +1087,39 @@
           "topic": "consumer-behavior"
         },
         {
+          "articleId": "article:the-creator-economys-incentive-trap",
+          "slug": "the-creator-economys-incentive-trap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+          "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
+          "topic": "creator-economy"
+        },
+        {
+          "articleId": "article:who-profits-advertising-foreign-platforms",
+          "slug": "who-profits-advertising-foreign-platforms",
+          "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+          "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
+          "topic": "creator-economy"
+        },
+        {
           "articleId": "article:formal-logic-to-computation",
           "slug": "formal-logic-to-computation",
           "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
           "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
           "topic": "cybernetics"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "topic": "data"
+        },
+        {
+          "articleId": "article:the-compounding-bet",
+          "slug": "the-compounding-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+          "agentJsonPath": "/agents/articles/the-compounding-bet.json",
+          "topic": "deep-work"
         },
         {
           "articleId": "article:the-generational-bet",
@@ -866,11 +1136,39 @@
           "topic": "deep-work"
         },
         {
+          "articleId": "article:the-small-rep-theory",
+          "slug": "the-small-rep-theory",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
+          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
+          "topic": "deliberate-practice"
+        },
+        {
+          "articleId": "article:who-profits-advertising-foreign-platforms",
+          "slug": "who-profits-advertising-foreign-platforms",
+          "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+          "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
+          "topic": "digital-advertising"
+        },
+        {
+          "articleId": "article:what-ai-makes-cheap",
+          "slug": "what-ai-makes-cheap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+          "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
+          "topic": "digital-economy"
+        },
+        {
           "articleId": "article:agent-auditable-research",
           "slug": "agent-auditable-research",
           "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
           "agentJsonPath": "/agents/articles/agent-auditable-research.json",
           "topic": "digital-gardens"
+        },
+        {
+          "articleId": "article:gender-and-the-attention-economy",
+          "slug": "gender-and-the-attention-economy",
+          "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
+          "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json",
+          "topic": "digital-inclusion"
         },
         {
           "articleId": "article:the-substance-builder",
@@ -880,10 +1178,59 @@
           "topic": "digital-minimalism"
         },
         {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+          "topic": "digital-services-act"
+        },
+        {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "topic": "digital-wellbeing"
+        },
+        {
+          "articleId": "article:a-readers-guide-to-the-series",
+          "slug": "a-readers-guide-to-the-series",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+          "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+          "topic": "digital-wellbeing"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment",
+          "slug": "attention-substance-ai-moment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json",
+          "topic": "digital-wellbeing"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "topic": "digital-wellbeing"
+        },
+        {
           "articleId": "article:designing-for-substance",
           "slug": "designing-for-substance",
           "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
           "agentJsonPath": "/agents/articles/designing-for-substance.json",
+          "topic": "digital-wellbeing"
+        },
+        {
+          "articleId": "article:engagement-is-a-design-choice",
+          "slug": "engagement-is-a-design-choice",
+          "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+          "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+          "topic": "digital-wellbeing"
+        },
+        {
+          "articleId": "article:gender-and-the-attention-economy",
+          "slug": "gender-and-the-attention-economy",
+          "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
+          "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json",
           "topic": "digital-wellbeing"
         },
         {
@@ -892,6 +1239,62 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
           "agentJsonPath": "/agents/articles/the-attention-extraction.json",
           "topic": "digital-wellbeing"
+        },
+        {
+          "articleId": "article:the-better-question",
+          "slug": "the-better-question",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
+          "agentJsonPath": "/agents/articles/the-better-question.json",
+          "topic": "digital-wellbeing"
+        },
+        {
+          "articleId": "article:the-creator-economys-incentive-trap",
+          "slug": "the-creator-economys-incentive-trap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+          "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
+          "topic": "digital-wellbeing"
+        },
+        {
+          "articleId": "article:the-engagement-gap-productivity-india",
+          "slug": "the-engagement-gap-productivity-india",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
+          "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json",
+          "topic": "digital-wellbeing"
+        },
+        {
+          "articleId": "article:the-indic-language-internet-and-vernacular-feeds",
+          "slug": "the-indic-language-internet-and-vernacular-feeds",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
+          "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json",
+          "topic": "digital-wellbeing"
+        },
+        {
+          "articleId": "article:the-life-phase-thread",
+          "slug": "the-life-phase-thread",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+          "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
+          "topic": "digital-wellbeing"
+        },
+        {
+          "articleId": "article:the-small-rep-theory",
+          "slug": "the-small-rep-theory",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
+          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
+          "topic": "digital-wellbeing"
+        },
+        {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+          "topic": "digital-wellbeing"
+        },
+        {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+          "topic": "dpdp"
         },
         {
           "articleId": "article:before-machines",
@@ -905,6 +1308,13 @@
           "slug": "long-human-road-to-ai",
           "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
           "agentJsonPath": "/agents/articles/long-human-road-to-ai.json",
+          "topic": "education"
+        },
+        {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
           "topic": "education"
         },
         {
@@ -943,11 +1353,32 @@
           "topic": "foundation-models"
         },
         {
+          "articleId": "article:gender-and-the-attention-economy",
+          "slug": "gender-and-the-attention-economy",
+          "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
+          "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json",
+          "topic": "gender"
+        },
+        {
+          "articleId": "article:the-compounding-bet",
+          "slug": "the-compounding-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+          "agentJsonPath": "/agents/articles/the-compounding-bet.json",
+          "topic": "generational-responsibility"
+        },
+        {
           "articleId": "article:the-generational-bet",
           "slug": "the-generational-bet",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
           "agentJsonPath": "/agents/articles/the-generational-bet.json",
           "topic": "generational-responsibility"
+        },
+        {
+          "articleId": "article:what-ai-makes-cheap",
+          "slug": "what-ai-makes-cheap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+          "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
+          "topic": "generative-ai"
         },
         {
           "articleId": "article:human-systems",
@@ -962,6 +1393,13 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
           "agentJsonPath": "/agents/articles/the-substance-builder.json",
           "topic": "habit-formation"
+        },
+        {
+          "articleId": "article:the-small-rep-theory",
+          "slug": "the-small-rep-theory",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
+          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
+          "topic": "habits"
         },
         {
           "articleId": "article:ai-delegation-orchestration",
@@ -1048,10 +1486,87 @@
           "topic": "incumbent-adjacent-ventures"
         },
         {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:a-readers-guide-to-the-series",
+          "slug": "a-readers-guide-to-the-series",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+          "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment",
+          "slug": "attention-substance-ai-moment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:engagement-is-a-design-choice",
+          "slug": "engagement-is-a-design-choice",
+          "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+          "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:gender-and-the-attention-economy",
+          "slug": "gender-and-the-attention-economy",
+          "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
+          "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+          "topic": "india"
+        },
+        {
           "articleId": "article:the-attention-extraction",
           "slug": "the-attention-extraction",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
           "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:the-better-question",
+          "slug": "the-better-question",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
+          "agentJsonPath": "/agents/articles/the-better-question.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:the-compounding-bet",
+          "slug": "the-compounding-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+          "agentJsonPath": "/agents/articles/the-compounding-bet.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:the-creator-economys-incentive-trap",
+          "slug": "the-creator-economys-incentive-trap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+          "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:the-engagement-gap-productivity-india",
+          "slug": "the-engagement-gap-productivity-india",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
+          "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json",
           "topic": "india"
         },
         {
@@ -1060,6 +1575,62 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
           "agentJsonPath": "/agents/articles/the-generational-bet.json",
           "topic": "india"
+        },
+        {
+          "articleId": "article:the-indic-language-internet-and-vernacular-feeds",
+          "slug": "the-indic-language-internet-and-vernacular-feeds",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
+          "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:the-life-phase-thread",
+          "slug": "the-life-phase-thread",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+          "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:the-small-rep-theory",
+          "slug": "the-small-rep-theory",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
+          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:trust-and-outrage-platforms-and-cohesion",
+          "slug": "trust-and-outrage-platforms-and-cohesion",
+          "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+          "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:what-ai-makes-cheap",
+          "slug": "what-ai-makes-cheap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+          "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:who-profits-advertising-foreign-platforms",
+          "slug": "who-profits-advertising-foreign-platforms",
+          "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+          "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:the-creator-economys-incentive-trap",
+          "slug": "the-creator-economys-incentive-trap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+          "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
+          "topic": "inequality"
         },
         {
           "articleId": "article:formal-logic-to-computation",
@@ -1083,6 +1654,20 @@
           "topic": "institutions"
         },
         {
+          "articleId": "article:the-life-phase-thread",
+          "slug": "the-life-phase-thread",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+          "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
+          "topic": "intergenerational"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "topic": "internet-use"
+        },
+        {
           "articleId": "article:human-systems",
           "slug": "human-systems",
           "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
@@ -1090,11 +1675,25 @@
           "topic": "labor"
         },
         {
+          "articleId": "article:the-indic-language-internet-and-vernacular-feeds",
+          "slug": "the-indic-language-internet-and-vernacular-feeds",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
+          "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json",
+          "topic": "language"
+        },
+        {
           "articleId": "article:the-substance-builder",
           "slug": "the-substance-builder",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
           "agentJsonPath": "/agents/articles/the-substance-builder.json",
           "topic": "learning"
+        },
+        {
+          "articleId": "article:the-life-phase-thread",
+          "slug": "the-life-phase-thread",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+          "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
+          "topic": "life-phases"
         },
         {
           "articleId": "article:agent-control-planes",
@@ -1174,6 +1773,20 @@
           "topic": "mental-health"
         },
         {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+          "topic": "mental-health"
+        },
+        {
+          "articleId": "article:trust-and-outrage-platforms-and-cohesion",
+          "slug": "trust-and-outrage-platforms-and-cohesion",
+          "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+          "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+          "topic": "misinformation"
+        },
+        {
           "articleId": "article:learning-machines",
           "slug": "learning-machines",
           "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
@@ -1202,11 +1815,67 @@
           "topic": "open-protocols"
         },
         {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+          "topic": "platform-accountability"
+        },
+        {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "topic": "platform-design"
+        },
+        {
           "articleId": "article:designing-for-substance",
           "slug": "designing-for-substance",
           "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
           "agentJsonPath": "/agents/articles/designing-for-substance.json",
           "topic": "platform-design"
+        },
+        {
+          "articleId": "article:engagement-is-a-design-choice",
+          "slug": "engagement-is-a-design-choice",
+          "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+          "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+          "topic": "platform-design"
+        },
+        {
+          "articleId": "article:the-better-question",
+          "slug": "the-better-question",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
+          "agentJsonPath": "/agents/articles/the-better-question.json",
+          "topic": "platform-design"
+        },
+        {
+          "articleId": "article:trust-and-outrage-platforms-and-cohesion",
+          "slug": "trust-and-outrage-platforms-and-cohesion",
+          "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+          "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+          "topic": "platform-design"
+        },
+        {
+          "articleId": "article:who-profits-advertising-foreign-platforms",
+          "slug": "who-profits-advertising-foreign-platforms",
+          "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+          "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
+          "topic": "platform-economics"
+        },
+        {
+          "articleId": "article:trust-and-outrage-platforms-and-cohesion",
+          "slug": "trust-and-outrage-platforms-and-cohesion",
+          "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+          "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+          "topic": "polarization"
+        },
+        {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "topic": "policy"
         },
         {
           "articleId": "article:ai-agent-advanced-questions",
@@ -1223,10 +1892,31 @@
           "topic": "product-truth"
         },
         {
+          "articleId": "article:the-compounding-bet",
+          "slug": "the-compounding-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+          "agentJsonPath": "/agents/articles/the-compounding-bet.json",
+          "topic": "productivity"
+        },
+        {
+          "articleId": "article:the-engagement-gap-productivity-india",
+          "slug": "the-engagement-gap-productivity-india",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
+          "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json",
+          "topic": "productivity"
+        },
+        {
           "articleId": "article:the-substance-builder",
           "slug": "the-substance-builder",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
           "agentJsonPath": "/agents/articles/the-substance-builder.json",
+          "topic": "productivity"
+        },
+        {
+          "articleId": "article:what-ai-makes-cheap",
+          "slug": "what-ai-makes-cheap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+          "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
           "topic": "productivity"
         },
         {
@@ -1251,10 +1941,31 @@
           "topic": "public-policy"
         },
         {
+          "articleId": "article:a-readers-guide-to-the-series",
+          "slug": "a-readers-guide-to-the-series",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+          "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+          "topic": "reading-paths"
+        },
+        {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "topic": "regulation"
+        },
+        {
           "articleId": "article:designing-for-substance",
           "slug": "designing-for-substance",
           "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
           "agentJsonPath": "/agents/articles/designing-for-substance.json",
+          "topic": "regulation"
+        },
+        {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
           "topic": "regulation"
         },
         {
@@ -1272,11 +1983,46 @@
           "topic": "scaling"
         },
         {
+          "articleId": "article:a-readers-guide-to-the-series",
+          "slug": "a-readers-guide-to-the-series",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+          "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+          "topic": "series-guide"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment",
+          "slug": "attention-substance-ai-moment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json",
+          "topic": "series-guide"
+        },
+        {
+          "articleId": "article:the-small-rep-theory",
+          "slug": "the-small-rep-theory",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
+          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
+          "topic": "skill-building"
+        },
+        {
           "articleId": "article:the-attention-extraction",
           "slug": "the-attention-extraction",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
           "agentJsonPath": "/agents/articles/the-attention-extraction.json",
           "topic": "social-media"
+        },
+        {
+          "articleId": "article:trust-and-outrage-platforms-and-cohesion",
+          "slug": "trust-and-outrage-platforms-and-cohesion",
+          "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+          "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+          "topic": "social-media"
+        },
+        {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+          "topic": "students"
         },
         {
           "articleId": "article:birth-of-ai",
@@ -1286,6 +2032,20 @@
           "topic": "symbolic-ai"
         },
         {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "topic": "synthesis"
+        },
+        {
+          "articleId": "article:the-better-question",
+          "slug": "the-better-question",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
+          "agentJsonPath": "/agents/articles/the-better-question.json",
+          "topic": "synthesis"
+        },
+        {
           "articleId": "article:foundation-models",
           "slug": "foundation-models",
           "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
@@ -1293,11 +2053,25 @@
           "topic": "transformers"
         },
         {
+          "articleId": "article:the-indic-language-internet-and-vernacular-feeds",
+          "slug": "the-indic-language-internet-and-vernacular-feeds",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
+          "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json",
+          "topic": "vernacular-internet"
+        },
+        {
           "articleId": "article:audio-first-voice-consumption",
           "slug": "audio-first-voice-consumption",
           "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
           "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
           "topic": "voice-interfaces"
+        },
+        {
+          "articleId": "article:the-engagement-gap-productivity-india",
+          "slug": "the-engagement-gap-productivity-india",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
+          "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json",
+          "topic": "workplace"
         }
       ]
     },
@@ -1331,8 +2105,58 @@
         "confidence": "high"
       },
       "resultType": "claims",
-      "resultCount": 70,
+      "resultCount": 119,
       "results": [
+        {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "claimId": "claim-002",
+          "claim": "India has built near-universal digital access, but the dominant use of that access is entertainment and social extraction rather than education, work, creation, or rest.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:a-readers-guide-to-the-series",
+          "slug": "a-readers-guide-to-the-series",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+          "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+          "claimId": "claim-001",
+          "claim": "The series is organized into six arcs that move from diagnosis through historical framing, the AI opportunity cost, individual practice, systemic design, and synthesis.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:a-readers-guide-to-the-series",
+          "slug": "a-readers-guide-to-the-series",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+          "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+          "claimId": "claim-002",
+          "claim": "The four seed articles cover the core arguments of diagnosis, generational stakes, individual practice, and systemic design.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:a-readers-guide-to-the-series",
+          "slug": "a-readers-guide-to-the-series",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+          "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+          "claimId": "claim-004",
+          "claim": "The series explicitly distinguishes India-specific survey data from global benchmarks and industry estimates.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:a-readers-guide-to-the-series",
+          "slug": "a-readers-guide-to-the-series",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+          "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+          "claimId": "claim-005",
+          "claim": "This guide links only to articles that are already published and will be updated as new articles go live.",
+          "confidence": "high",
+          "status": "framing"
+        },
         {
           "articleId": "article:agent-auditable-research",
           "slug": "agent-auditable-research",
@@ -1394,6 +2218,16 @@
           "status": "core"
         },
         {
+          "articleId": "article:attention-substance-ai-moment",
+          "slug": "attention-substance-ai-moment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json",
+          "claimId": "claim-001",
+          "claim": "India's digital-access success has created an attention-extraction economy that diverts time and talent away from learning, creation, and civic problem-solving, but the same infrastructure could be redirected toward substance if individuals, platforms, and policymakers make different choices.",
+          "confidence": "high",
+          "status": "framing"
+        },
+        {
           "articleId": "article:before-machines",
           "slug": "before-machines",
           "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
@@ -1444,6 +2278,46 @@
           "status": "framing"
         },
         {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "claimId": "claim-001",
+          "claim": "India's digital-access success has produced a usage mix dominated by entertainment and social media, with education and production occupying a far smaller share of online time than the country's demographic dividend requires.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "claimId": "claim-002",
+          "claim": "The NCAER India Human Development Survey Wave 3 found that roughly two-thirds of reported internet use is for entertainment while only about one-sixth is for education, a ratio of roughly 4:1.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "claimId": "claim-003",
+          "claim": "ASER 2024 reports that 76% of 14–16-year-olds use smartphones for social media while 57% use them for education.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "claimId": "claim-005",
+          "claim": "The NSSO Time Use Survey 2024 shows that 93% of Indians aged 6 and above participate in mass media or leisure activities, and leisure time has risen about 15% since 2019.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
           "articleId": "article:context-management",
           "slug": "context-management",
           "articleUrl": "https://aura-knowledge.github.io/articles/context-management/",
@@ -1470,6 +2344,46 @@
           "agentJsonPath": "/agents/articles/designing-for-substance.json",
           "claimId": "claim-001",
           "claim": "The attention economy is not an inevitable feature of the internet. It is the product of specific design choices—engagement metrics, personalized recommendations, infinite scroll, and advertising-based business models—that could be redesigned.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:engagement-is-a-design-choice",
+          "slug": "engagement-is-a-design-choice",
+          "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+          "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+          "claimId": "claim-001",
+          "claim": "Engagement is a design choice, not a natural law; it emerges from the metric a platform chooses to optimize, and that metric can be changed.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:engagement-is-a-design-choice",
+          "slug": "engagement-is-a-design-choice",
+          "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+          "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+          "claimId": "claim-002",
+          "claim": "When a platform ranks content by predicted engagement, it systematically favors content that triggers strong emotional reactions, often at the expense of accuracy, civility, and long-term user well-being.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:engagement-is-a-design-choice",
+          "slug": "engagement-is-a-design-choice",
+          "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+          "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+          "claimId": "claim-003",
+          "claim": "Engagement-based ranking algorithms amplify emotionally charged and out-group-hostile content compared with reverse-chronological feeds, and users do not prefer the political content the algorithm selects.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:engagement-is-a-design-choice",
+          "slug": "engagement-is-a-design-choice",
+          "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+          "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+          "claimId": "claim-004",
+          "claim": "Likes, shares, and retweets act as reinforcement signals: users learn to produce the content that the platform rewards, and the platform then ranks that content more highly, creating a self-reinforcing feedback loop.",
           "confidence": "high",
           "status": "core"
         },
@@ -1652,6 +2566,36 @@
           "claim": "Language-model evaluation needs multi-metric transparency because accuracy alone hides tradeoffs in calibration, robustness, fairness, bias, toxicity, and efficiency.",
           "confidence": "high",
           "status": "risk"
+        },
+        {
+          "articleId": "article:gender-and-the-attention-economy",
+          "slug": "gender-and-the-attention-economy",
+          "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
+          "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json",
+          "claimId": "claim-002",
+          "claim": "NSSO CAMS 2022-23 data show a sharp gender gap at the point of digital entry: roughly eight in ten women had recently used a mobile phone, compared with over nine in ten men, and roughly half of women had recently used the internet, compared with about two-thirds of men.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:gender-and-the-attention-economy",
+          "slug": "gender-and-the-attention-economy",
+          "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
+          "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json",
+          "claimId": "claim-004",
+          "claim": "NSSO Time Use Survey 2024 found that women who performed unpaid domestic services spent 289 minutes a day on them, compared with 88 minutes for men, and women spent 137 minutes on caregiving versus men's 75 minutes.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:gender-and-the-attention-economy",
+          "slug": "gender-and-the-attention-economy",
+          "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
+          "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json",
+          "claimId": "claim-006",
+          "claim": "A 2026 parliamentary committee report summarised by PRS Legislative Research noted that cybercrimes against women in India rose 239% between 2017 and 2022.",
+          "confidence": "high",
+          "status": "landscape"
         },
         {
           "articleId": "article:learning-machines",
@@ -1924,6 +2868,46 @@
           "status": "landscape"
         },
         {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+          "claimId": "claim-001",
+          "claim": "Regulation can set a floor for platform accountability by mandating transparency, due process, and data protection, but it cannot by itself make substance-oriented design the default.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+          "claimId": "claim-002",
+          "claim": "The IT Rules 2021 focus on content takedown, user grievances, and traceability rather than on the design defaults—autoplay, infinite scroll, algorithmic ranking—that drive attention extraction.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+          "claimId": "claim-004",
+          "claim": "The EU Digital Services Act goes further than India’s current framework by requiring systemic risk assessments, algorithmic transparency, and independent oversight for very large online platforms.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+          "claimId": "claim-005",
+          "claim": "The UK Online Safety Act and Australia’s eSafety model introduce duty-of-care or safety-standard approaches that India has not yet adopted for attention-economy harms.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
           "articleId": "article:retrieval-augmented-generation",
           "slug": "retrieval-augmented-generation",
           "articleUrl": "https://aura-knowledge.github.io/articles/retrieval-augmented-generation/",
@@ -1974,6 +2958,56 @@
           "status": "core"
         },
         {
+          "articleId": "article:the-better-question",
+          "slug": "the-better-question",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
+          "agentJsonPath": "/agents/articles/the-better-question.json",
+          "claimId": "claim-002",
+          "claim": "India's digital-access success has produced a usage mix in which entertainment and social media dominate education and productive use, especially among adolescents.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:the-compounding-bet",
+          "slug": "the-compounding-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+          "agentJsonPath": "/agents/articles/the-compounding-bet.json",
+          "claimId": "claim-002",
+          "claim": "Generative AI has collapsed the cost of first drafts, first prototypes, first translations, and first tutoring sessions, which makes individual creation less dependent on institutional gatekeepers than it was even five years ago.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:the-creator-economys-incentive-trap",
+          "slug": "the-creator-economys-incentive-trap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+          "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
+          "claimId": "claim-002",
+          "claim": "BCG estimates that India has 2–2.5 million monetized creators influencing $350–400 billion in annual consumer spending, with that influence projected to exceed $1 trillion by 2030.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:the-creator-economys-incentive-trap",
+          "slug": "the-creator-economys-incentive-trap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+          "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
+          "claimId": "claim-004",
+          "claim": "Global creator-compensation data shows extreme income concentration: the top 10% of creators earned 62% of payments and the top 1% earned 21% in 2025, while median campaign earnings remained far below the average.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
+          "articleId": "article:the-engagement-gap-productivity-india",
+          "slug": "the-engagement-gap-productivity-india",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
+          "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json",
+          "claimId": "claim-001",
+          "claim": "India's employee engagement fell to 23% in 2025, a seven-point drop from the prior rolling average and the lowest level in four years, and Gallup estimates the annual cost of disengagement at roughly $351 billion, or about 9% of GDP.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
           "articleId": "article:the-generational-bet",
           "slug": "the-generational-bet",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
@@ -1992,6 +3026,126 @@
           "claim": "The attention economy has trained users to consume before they create, and the default behavior of the same devices has not caught up with AI's creative affordances.",
           "confidence": "high",
           "status": "behavioral"
+        },
+        {
+          "articleId": "article:the-indic-language-internet-and-vernacular-feeds",
+          "slug": "the-indic-language-internet-and-vernacular-feeds",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
+          "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json",
+          "claimId": "claim-001",
+          "claim": "The shift to an Indic-language, mobile-first internet multiplied India's online population, but it also multiplied the surface area for attention extraction, because the same engagement-optimized feed designs now operate across dozens of languages with weaker local safety, quality, and creator-economy supports.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:the-indic-language-internet-and-vernacular-feeds",
+          "slug": "the-indic-language-internet-and-vernacular-feeds",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
+          "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json",
+          "claimId": "claim-002",
+          "claim": "The IAMAI-Kantar Internet in India Report 2024 found that 98 percent of Indian internet users accessed content in Indic languages, with 57 percent of urban users preferring regional-language content.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:the-indic-language-internet-and-vernacular-feeds",
+          "slug": "the-indic-language-internet-and-vernacular-feeds",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
+          "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json",
+          "claimId": "claim-003",
+          "claim": "Rural India accounted for 488 million internet users, or 55 percent of the total active user base, in 2024, and rural growth outpaced urban growth.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
+          "articleId": "article:the-indic-language-internet-and-vernacular-feeds",
+          "slug": "the-indic-language-internet-and-vernacular-feeds",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
+          "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json",
+          "claimId": "claim-005",
+          "claim": "The same engagement-optimized designs—infinite scroll, autoplay, algorithmic recommendations, push notifications, and streaks—that shape English and Hindi feeds now operate across dozens of Indic languages.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:the-life-phase-thread",
+          "slug": "the-life-phase-thread",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+          "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
+          "claimId": "claim-003",
+          "claim": "Indian students face a split-screen adolescence in which recreational smartphone use outpaces educational use and academic anxiety is reported by a large majority.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:the-life-phase-thread",
+          "slug": "the-life-phase-thread",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+          "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
+          "claimId": "claim-004",
+          "claim": "India's young workers enter labour markets where engagement is low, attention is fragmented, and digital distraction imposes a large economic cost.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
+          "articleId": "article:the-life-phase-thread",
+          "slug": "the-life-phase-thread",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+          "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
+          "claimId": "claim-006",
+          "claim": "Older Indians are largely left out of the digital infrastructure, with roughly nine in ten older adults digitally excluded.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:the-small-rep-theory",
+          "slug": "the-small-rep-theory",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
+          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
+          "claimId": "claim-002",
+          "claim": "Ericsson's research emphasizes deliberate, goal-directed practice with feedback, not a magic 10,000-hour threshold.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:the-small-rep-theory",
+          "slug": "the-small-rep-theory",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
+          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
+          "claimId": "claim-004",
+          "claim": "Fogg's behavior model shows that small, well-prompted behaviors matched to current ability are more reliable than motivation-dependent willpower.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+          "claimId": "claim-002",
+          "claim": "ASER 2024 reports that among 14–16-year-olds who can use a smartphone, 76% used it for social media in the reference week while 57% used it for education.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+          "claimId": "claim-003",
+          "claim": "The broader Indian internet-use mix is roughly 4:1 entertainment to education, suggesting that the student pattern reflects a national default rather than an adolescent quirk.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+          "claimId": "claim-006",
+          "claim": "NCERT's 2022 survey of roughly 379,000 students found 81% anxious about studies/exams and 43% reporting mood swings, showing the pressure context in which student screen use happens.",
+          "confidence": "high",
+          "status": "core"
         },
         {
           "articleId": "article:the-substance-builder",
@@ -2032,6 +3186,116 @@
           "claim": "Tool use in AI is conceptually similar to delegation, remote procedure calls, and human use of instruments, but it automates the choice of which tool to invoke.",
           "confidence": "high",
           "status": "landscape"
+        },
+        {
+          "articleId": "article:trust-and-outrage-platforms-and-cohesion",
+          "slug": "trust-and-outrage-platforms-and-cohesion",
+          "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+          "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+          "claimId": "claim-001",
+          "claim": "On major social platforms, engagement-based ranking systematically amplifies emotionally charged and divisive content because anger and moral outrage generate more likes, shares, and comments than neutral or constructive material.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:trust-and-outrage-platforms-and-cohesion",
+          "slug": "trust-and-outrage-platforms-and-cohesion",
+          "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+          "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+          "claimId": "claim-002",
+          "claim": "Users who receive more likes and shares for expressing moral outrage tend to express more outrage over time, especially in politically moderate networks.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:trust-and-outrage-platforms-and-cohesion",
+          "slug": "trust-and-outrage-platforms-and-cohesion",
+          "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+          "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+          "claimId": "claim-003",
+          "claim": "On Twitter/X, engagement-based feeds contained a higher share of angry political tweets than chronological feeds in a large-scale audit.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:trust-and-outrage-platforms-and-cohesion",
+          "slug": "trust-and-outrage-platforms-and-cohesion",
+          "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+          "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+          "claimId": "claim-004",
+          "claim": "Indian influencers on Twitter received higher retweet rates for polarizing-event tweets than for their other tweets in a 2022 Microsoft Research Bengaluru study.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:what-ai-makes-cheap",
+          "slug": "what-ai-makes-cheap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+          "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
+          "claimId": "claim-001",
+          "claim": "Generative AI can now produce acceptable first drafts of text, code, translation, images, and voice at a small fraction of the previous cost and time.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:what-ai-makes-cheap",
+          "slug": "what-ai-makes-cheap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+          "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
+          "claimId": "claim-002",
+          "claim": "The largest productivity gains from generative AI show up for less experienced workers and in well-defined, bounded tasks, narrowing some skill gaps while raising the premium on judgment and verification.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:what-ai-makes-cheap",
+          "slug": "what-ai-makes-cheap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+          "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
+          "claimId": "claim-003",
+          "claim": "India's Bhashini platform is an example of making multilingual AI a public good, offering translation and speech-to-text across 22 scheduled Indian languages.",
+          "confidence": "high",
+          "status": "landscape"
+        },
+        {
+          "articleId": "article:who-profits-advertising-foreign-platforms",
+          "slug": "who-profits-advertising-foreign-platforms",
+          "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+          "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
+          "claimId": "claim-001",
+          "claim": "Google and Meta captured roughly 64% of India's ₹94,700 crore digital advertising market in 2025, leaving the domestic platform ecosystem with a minority share of the revenue generated from Indian attention.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:who-profits-advertising-foreign-platforms",
+          "slug": "who-profits-advertising-foreign-platforms",
+          "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+          "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
+          "claimId": "claim-002",
+          "claim": "Meta India's gross advertising revenue reached ₹22,730 crore in FY24, while Google India's gross advertising revenue reached ₹34,742 crore in FY25, putting the two firms' combined India gross ad sales at roughly ₹57,500 crore in the latest available filings.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:who-profits-advertising-foreign-platforms",
+          "slug": "who-profits-advertising-foreign-platforms",
+          "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+          "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
+          "claimId": "claim-003",
+          "claim": "Because Google and Meta India operate as advertising resellers, most of the gross ad revenue they report flows back to global parent entities as inter-company costs, so the net economic benefit retained in India is far smaller than the headline sales figure suggests.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:who-profits-advertising-foreign-platforms",
+          "slug": "who-profits-advertising-foreign-platforms",
+          "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+          "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
+          "claimId": "claim-004",
+          "claim": "India has an estimated 2–2.5 million active digital creators, but only 8–10% monetize effectively, and most earn less than a living wage from content creation.",
+          "confidence": "high",
+          "status": "core"
         }
       ]
     },
@@ -2042,8 +3306,28 @@
         "groupBy": "sourceType"
       },
       "resultType": "sources",
-      "resultCount": 354,
+      "resultCount": 492,
       "results": [
+        {
+          "articleId": "article:the-engagement-gap-productivity-india",
+          "slug": "the-engagement-gap-productivity-india",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
+          "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json",
+          "sourceId": "source-gloria-mark-attention-span",
+          "sourceTitle": "Gloria Mark: Attention Span — Research Overview",
+          "sourceType": "academic-research",
+          "sourceUrl": "https://gloriamark.com/attention-span/"
+        },
+        {
+          "articleId": "article:the-small-rep-theory",
+          "slug": "the-small-rep-theory",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
+          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
+          "sourceId": "source-fogg-behavior-model",
+          "sourceTitle": "Fogg Behavior Model",
+          "sourceType": "academic-website",
+          "sourceUrl": "https://behaviormodel.org/"
+        },
         {
           "articleId": "article:human-systems",
           "slug": "human-systems",
@@ -2063,6 +3347,76 @@
           "sourceTitle": "Artificial Intelligence (AI) Coined at Dartmouth",
           "sourceType": "archival-record",
           "sourceUrl": "https://home.dartmouth.edu/about/artificial-intelligence-ai-coined-dartmouth"
+        },
+        {
+          "articleId": "article:a-readers-guide-to-the-series",
+          "slug": "a-readers-guide-to-the-series",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+          "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+          "sourceId": "source-readers-guide",
+          "sourceTitle": "A Reader's Guide to the Series",
+          "sourceType": "article",
+          "sourceUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/"
+        },
+        {
+          "articleId": "article:a-readers-guide-to-the-series",
+          "slug": "a-readers-guide-to-the-series",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+          "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+          "sourceId": "source-series-index",
+          "sourceTitle": "Attention, Substance, and the AI Moment: A Series Index",
+          "sourceType": "article",
+          "sourceUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/"
+        },
+        {
+          "articleId": "article:a-readers-guide-to-the-series",
+          "slug": "a-readers-guide-to-the-series",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+          "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+          "sourceId": "source-attention-extraction",
+          "sourceTitle": "The Attention Extraction: How India's Digital Dividend Is Becoming a Cognitive Deficit",
+          "sourceType": "article",
+          "sourceUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/"
+        },
+        {
+          "articleId": "article:a-readers-guide-to-the-series",
+          "slug": "a-readers-guide-to-the-series",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+          "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+          "sourceId": "source-by-the-numbers",
+          "sourceTitle": "By the Numbers: What Indians Actually Do Online",
+          "sourceType": "article",
+          "sourceUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/"
+        },
+        {
+          "articleId": "article:a-readers-guide-to-the-series",
+          "slug": "a-readers-guide-to-the-series",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+          "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+          "sourceId": "source-generational-bet",
+          "sourceTitle": "The Generational Bet: Will India Build the AI Age or Scroll Through It?",
+          "sourceType": "article",
+          "sourceUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/"
+        },
+        {
+          "articleId": "article:a-readers-guide-to-the-series",
+          "slug": "a-readers-guide-to-the-series",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+          "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+          "sourceId": "source-substance-builder",
+          "sourceTitle": "The Substance Builder: How to Turn Dead Time into Small Acts of Creation",
+          "sourceType": "article",
+          "sourceUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/"
+        },
+        {
+          "articleId": "article:a-readers-guide-to-the-series",
+          "slug": "a-readers-guide-to-the-series",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+          "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+          "sourceId": "source-designing-for-substance",
+          "sourceTitle": "Designing for Substance: Platform Incentives and the Attention Economy",
+          "sourceType": "article",
+          "sourceUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/"
         },
         {
           "articleId": "article:ai-delegation-orchestration-05-long-running-delegations",
@@ -2383,6 +3737,36 @@
           "sourceTitle": "Wooldridge: An Introduction to MultiAgent Systems",
           "sourceType": "book",
           "sourceUrl": "https://www.cs.ox.ac.uk/people/michael.wooldridge/pubs/imas/IMAS2e.pdf"
+        },
+        {
+          "articleId": "article:the-small-rep-theory",
+          "slug": "the-small-rep-theory",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
+          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
+          "sourceId": "source-ericsson-pool-peak-2016",
+          "sourceTitle": "Ericsson and Pool (2016): Peak: Secrets from the New Science of Expertise",
+          "sourceType": "book",
+          "sourceUrl": "https://www.goodreads.com/book/show/26312997-peak"
+        },
+        {
+          "articleId": "article:the-small-rep-theory",
+          "slug": "the-small-rep-theory",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
+          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
+          "sourceId": "source-newport-deep-work-2016",
+          "sourceTitle": "Newport (2016): Deep Work: Rules for Focused Success in a Distracted World",
+          "sourceType": "book",
+          "sourceUrl": "https://calnewport.com/books/deep-work/"
+        },
+        {
+          "articleId": "article:the-small-rep-theory",
+          "slug": "the-small-rep-theory",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
+          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
+          "sourceId": "source-fogg-tiny-habits-2019",
+          "sourceTitle": "Fogg (2019): Tiny Habits: The Small Changes That Change Everything",
+          "sourceType": "book",
+          "sourceUrl": "https://tinyhabits.com/"
         },
         {
           "articleId": "article:the-substance-builder",
@@ -2945,6 +4329,16 @@
           "sourceUrl": "https://www.shortliffe.net/Buchanan-Shortliffe-1984/MYCIN%20Book.htm"
         },
         {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+          "sourceId": "source-dpdp-act-2023",
+          "sourceTitle": "MeitY: Digital Personal Data Protection Act, 2023",
+          "sourceType": "government-act",
+          "sourceUrl": "https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf"
+        },
+        {
           "articleId": "article:before-machines",
           "slug": "before-machines",
           "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
@@ -2963,6 +4357,46 @@
           "sourceTitle": "European Commission: Digital Services Act",
           "sourceType": "government-policy",
           "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act"
+        },
+        {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "sourceId": "source-pib-economic-survey",
+          "sourceTitle": "PIB: Economic Survey 2025-26 Press Release on Digital Addiction and Mental Health",
+          "sourceType": "government-press-release",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "sourceId": "source-pib-economic-survey",
+          "sourceTitle": "PIB: Economic Survey 2025-26 Press Release",
+          "sourceType": "government-press-release",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2"
+        },
+        {
+          "articleId": "article:engagement-is-a-design-choice",
+          "slug": "engagement-is-a-design-choice",
+          "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+          "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+          "sourceId": "source-pib-economic-survey",
+          "sourceTitle": "PIB: Economic Survey 2025-26 Press Release",
+          "sourceType": "government-press-release",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2"
+        },
+        {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+          "sourceId": "source-pib-it-rules-faq",
+          "sourceTitle": "PIB FAQs on Part II of the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021",
+          "sourceType": "government-press-release",
+          "sourceUrl": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2021/nov/doc202111171.pdf"
         },
         {
           "articleId": "article:the-attention-extraction",
@@ -2995,6 +4429,36 @@
           "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=153277"
         },
         {
+          "articleId": "article:the-better-question",
+          "slug": "the-better-question",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
+          "agentJsonPath": "/agents/articles/the-better-question.json",
+          "sourceId": "source-pib-economic-survey",
+          "sourceTitle": "PIB: Economic Survey 2025-26 Press Release",
+          "sourceType": "government-press-release",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2"
+        },
+        {
+          "articleId": "article:the-compounding-bet",
+          "slug": "the-compounding-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+          "agentJsonPath": "/agents/articles/the-compounding-bet.json",
+          "sourceId": "source-indiaai-mission",
+          "sourceTitle": "Digital India: IndiaAI Mission Expands AI Ecosystem with Affordable Compute and Startup Support",
+          "sourceType": "government-press-release",
+          "sourceUrl": "https://www.digitalindia.gov.in/press_release/indiaai-mission-expands-ai-ecosystem-with-affordable-compute-and-startup-support/"
+        },
+        {
+          "articleId": "article:the-engagement-gap-productivity-india",
+          "slug": "the-engagement-gap-productivity-india",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
+          "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json",
+          "sourceId": "source-pib-economic-survey-2025-26",
+          "sourceTitle": "PIB: Economic Survey 2025-26 Press Release",
+          "sourceType": "government-press-release",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2"
+        },
+        {
           "articleId": "article:the-generational-bet",
           "slug": "the-generational-bet",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
@@ -3015,6 +4479,156 @@
           "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2209737&reg=3&lang=1"
         },
         {
+          "articleId": "article:the-indic-language-internet-and-vernacular-feeds",
+          "slug": "the-indic-language-internet-and-vernacular-feeds",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
+          "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json",
+          "sourceId": "source-pib-bhashini-2024",
+          "sourceTitle": "PIB: Year End Review 2024 of Ministry of Electronics & Information Technology",
+          "sourceType": "government-press-release",
+          "sourceUrl": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2088268"
+        },
+        {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+          "sourceId": "source-pib-economic-survey",
+          "sourceTitle": "PIB: Economic Survey 2025-26 Press Release",
+          "sourceType": "government-press-release",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2"
+        },
+        {
+          "articleId": "article:what-ai-makes-cheap",
+          "slug": "what-ai-makes-cheap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+          "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
+          "sourceId": "source-pib-bhashini-2025",
+          "sourceTitle": "PIB: 22 Languages, Digitally Reimagined — Bhashini under the National Language Translation Mission",
+          "sourceType": "government-press-release",
+          "sourceUrl": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251025675501.pdf"
+        },
+        {
+          "articleId": "article:what-ai-makes-cheap",
+          "slug": "what-ai-makes-cheap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+          "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
+          "sourceId": "source-pib-economic-survey",
+          "sourceTitle": "PIB: Economic Survey 2025-26 Press Release",
+          "sourceType": "government-press-release",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2"
+        },
+        {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+          "sourceId": "source-it-rules-2021",
+          "sourceTitle": "Gazette of India: Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021",
+          "sourceType": "government-regulation",
+          "sourceUrl": "https://egazette.nic.in/WriteReadData/2021/225464.pdf"
+        },
+        {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+          "sourceId": "source-dpdp-rules-2025",
+          "sourceTitle": "MeitY: Digital Personal Data Protection Rules, 2025",
+          "sourceType": "government-regulation",
+          "sourceUrl": "https://www.meity.gov.in/documents/act-and-policies/digital-personal-data-protection-rules-2025-gDOxUjMtQWa?pageTitle=Digital-Personal-Data-Protection-Rules-2025"
+        },
+        {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+          "sourceId": "source-uk-osa",
+          "sourceTitle": "UK Government: Online Safety Act 2023 Explainer",
+          "sourceType": "government-regulation",
+          "sourceUrl": "https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer"
+        },
+        {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+          "sourceId": "source-australia-osa-factsheet",
+          "sourceTitle": "eSafety Commissioner: Online Safety Act 2021 Fact Sheet",
+          "sourceType": "government-regulation",
+          "sourceUrl": "https://www.esafety.gov.au/sites/default/files/2021-07/Online%20Safety%20Act%20-%20Fact%20sheet.pdf"
+        },
+        {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "sourceId": "source-nsso-time-use-2024",
+          "sourceTitle": "NSSO Time Use Survey 2024 Factsheet",
+          "sourceType": "government-report",
+          "sourceUrl": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf"
+        },
+        {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "sourceId": "source-ncert-2022",
+          "sourceTitle": "NCERT: Mental Health and Well-being of School Students – A Survey, 2022",
+          "sourceType": "government-report",
+          "sourceUrl": "https://www.ncert.nic.in/pdf/Mental_Health_WSS_A_Survey_new.pdf"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "sourceId": "source-nsso-time-use-2024",
+          "sourceTitle": "NSSO Time Use Survey 2024 Factsheet",
+          "sourceType": "government-report",
+          "sourceUrl": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "sourceId": "source-ita-india-digital-economy",
+          "sourceTitle": "U.S. International Trade Administration: India Digital Economy",
+          "sourceType": "government-report",
+          "sourceUrl": "https://www.trade.gov/country-commercial-guides/india-digital-economy"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "sourceId": "source-icrier-digital-economy-2024",
+          "sourceTitle": "MeitY/ICRIER: Estimation and Measurement of India's Digital Economy",
+          "sourceType": "government-report",
+          "sourceUrl": "https://www.meity.gov.in/static/uploads/2025/01/5ff397f9e8152d5562ed4cef1a6b767b.pdf"
+        },
+        {
+          "articleId": "article:gender-and-the-attention-economy",
+          "slug": "gender-and-the-attention-economy",
+          "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
+          "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json",
+          "sourceId": "source-nsso-tus-2024",
+          "sourceTitle": "NSSO Time Use Survey 2024 Factsheet",
+          "sourceType": "government-report",
+          "sourceUrl": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf"
+        },
+        {
+          "articleId": "article:gender-and-the-attention-economy",
+          "slug": "gender-and-the-attention-economy",
+          "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
+          "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json",
+          "sourceId": "source-prs-cybercrimes-women",
+          "sourceTitle": "PRS Legislative Research: Cyber Crimes and Cyber Security of Women (Committee on the Empowerment of Women, 2026)",
+          "sourceType": "government-report",
+          "sourceUrl": "https://prsindia.org/policy/report-summaries/cyber-crimes-and-cyber-security-of-women"
+        },
+        {
           "articleId": "article:the-attention-extraction",
           "slug": "the-attention-extraction",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
@@ -3033,6 +4647,56 @@
           "sourceTitle": "NSSO Time Use Survey 2024 Factsheet",
           "sourceType": "government-report",
           "sourceUrl": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf"
+        },
+        {
+          "articleId": "article:the-life-phase-thread",
+          "slug": "the-life-phase-thread",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+          "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
+          "sourceId": "source-ncert-mental-health-2022",
+          "sourceTitle": "Ministry of Education: NCERT Student Mental Health Survey 2022 (Parliamentary Release)",
+          "sourceType": "government-report",
+          "sourceUrl": "https://sansad.in/getFile/annex/260/AU1478.pdf?source=pqars"
+        },
+        {
+          "articleId": "article:the-life-phase-thread",
+          "slug": "the-life-phase-thread",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+          "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
+          "sourceId": "source-nsso-time-use-2024",
+          "sourceTitle": "NSSO Time Use Survey 2024 Factsheet",
+          "sourceType": "government-report",
+          "sourceUrl": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf"
+        },
+        {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+          "sourceId": "source-ncert-2022",
+          "sourceTitle": "NCERT: Mental Health and Well-being of School Students – A Survey, 2022",
+          "sourceType": "government-report",
+          "sourceUrl": "https://www.ncert.nic.in/pdf/Mental_Health_WSS_A_Survey_new.pdf"
+        },
+        {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+          "sourceId": "source-ita-india-digital-economy",
+          "sourceTitle": "U.S. International Trade Administration: India Digital Economy",
+          "sourceType": "government-report",
+          "sourceUrl": "https://www.trade.gov/country-commercial-guides/india-digital-economy"
+        },
+        {
+          "articleId": "article:the-indic-language-internet-and-vernacular-feeds",
+          "slug": "the-indic-language-internet-and-vernacular-feeds",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
+          "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json",
+          "sourceId": "source-bhashini-website",
+          "sourceTitle": "Bhashini: AI-driven Indian language translation services",
+          "sourceType": "government-website",
+          "sourceUrl": "https://bhashini.gov.in/"
         },
         {
           "articleId": "article:audio-first-voice-consumption",
@@ -3105,6 +4769,36 @@
           "sourceUrl": "https://cacm.acm.org/opinion/how-the-ai-boom-went-bust/"
         },
         {
+          "articleId": "article:the-indic-language-internet-and-vernacular-feeds",
+          "slug": "the-indic-language-internet-and-vernacular-feeds",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
+          "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json",
+          "sourceId": "source-sharechat-2025",
+          "sourceTitle": "AtomComm: Why Regional Language Content is the Next Big Thing for Indian Digital Campaigns",
+          "sourceType": "industry-article",
+          "sourceUrl": "https://atomcomm.in/regional-language-content-indian-digital-campaigns/"
+        },
+        {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "sourceId": "source-gallup-global-workplace-india",
+          "sourceTitle": "Gallup State of the Global Workplace: India Country-Level Data",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.gallup.com/workplace/705650/state-global-workplace-india-country-level-data.aspx"
+        },
+        {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "sourceId": "source-bcig-creator-economy",
+          "sourceTitle": "BCG: From Content to Commerce — Mapping India's Creator Economy",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://web-assets.bcg.com/c8/35/2a008ddf4e049d99a901b17233f0/gift-report.pdf"
+        },
+        {
           "articleId": "article:agentic-commerce-product-truth",
           "slug": "agentic-commerce-product-truth",
           "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
@@ -3113,6 +4807,96 @@
           "sourceTitle": "How Amazon uses AI innovations to stop fraud and counterfeits",
           "sourceType": "industry-report",
           "sourceUrl": "https://www.aboutamazon.com/news/policy-new-views/amazon-brand-protection-report-2024-counterfeit-products"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment",
+          "slug": "attention-substance-ai-moment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json",
+          "sourceId": "source-iamai-kantar-2024",
+          "sourceTitle": "IAMAI-Kantar: Internet in India Report 2024",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "sourceId": "source-iamai-kantar-2024",
+          "sourceTitle": "IAMAI-Kantar: Internet in India Report 2024",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "sourceId": "source-ficci-ey-me-2026",
+          "sourceTitle": "EY: India’s media and entertainment sector grew 9% to INR2.78 trillion in 2025",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.ey.com/en_in/newsroom/2026/03/india-s-media-and-entertainment-sector-grew-9-percent-to-inr-2-point-78-trillion-in-2025-driven-by-digital-and-live-experiences-ficci-ey-report"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "sourceId": "source-ey-sensor-tower-hours",
+          "sourceTitle": "EY: A Studio Called India / Sensor Tower (hours spent on phones)",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/pdf/2025/ey-a-studio-called-india-content-and-media-services-for-the-world.pdf"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "sourceId": "source-gallup-global-workplace-india",
+          "sourceTitle": "Gallup State of the Global Workplace: India Country-Level Data",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.gallup.com/workplace/705650/state-global-workplace-india-country-level-data.aspx"
+        },
+        {
+          "articleId": "article:engagement-is-a-design-choice",
+          "slug": "engagement-is-a-design-choice",
+          "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+          "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+          "sourceId": "source-bcg-creator-economy-2025",
+          "sourceTitle": "BCG: From Content to Commerce: Mapping India's Creator Economy",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.bcg.com/publications/2025/india-from-content-to-commerce-mapping-indias-creator-economy"
+        },
+        {
+          "articleId": "article:engagement-is-a-design-choice",
+          "slug": "engagement-is-a-design-choice",
+          "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+          "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+          "sourceId": "source-meta-google-ad-revenue-india",
+          "sourceTitle": "IBEF / industry reports: Tech giants' advertising revenue from India",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.ibef.org/news/tech-giants-generate-over-us-7-13-billion-rs-60-000-crore-in-advertising-revenue-in-fy24"
+        },
+        {
+          "articleId": "article:gender-and-the-attention-economy",
+          "slug": "gender-and-the-attention-economy",
+          "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
+          "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json",
+          "sourceId": "source-iamai-kantar-2024",
+          "sourceTitle": "IAMAI-Kantar: Internet in India Report 2024",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf"
+        },
+        {
+          "articleId": "article:gender-and-the-attention-economy",
+          "slug": "gender-and-the-attention-economy",
+          "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
+          "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json",
+          "sourceId": "source-gsma-gender-gap-2024",
+          "sourceTitle": "GSMA: The Mobile Gender Gap Report 2024",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.gsma.com/gender-gap-2024/"
         },
         {
           "articleId": "article:the-attention-extraction",
@@ -3145,6 +4929,156 @@
           "sourceUrl": "https://www.ibef.org/news/tech-giants-generate-over-us-7-13-billion-rs-60-000-crore-in-advertising-revenue-in-fy24"
         },
         {
+          "articleId": "article:the-better-question",
+          "slug": "the-better-question",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
+          "agentJsonPath": "/agents/articles/the-better-question.json",
+          "sourceId": "source-gallup-global-workplace-india",
+          "sourceTitle": "Gallup State of the Global Workplace: India Country-Level Data",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.gallup.com/workplace/705650/state-global-workplace-india-country-level-data.aspx"
+        },
+        {
+          "articleId": "article:the-compounding-bet",
+          "slug": "the-compounding-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+          "agentJsonPath": "/agents/articles/the-compounding-bet.json",
+          "sourceId": "source-gallup-global-workplace-india",
+          "sourceTitle": "Gallup State of the Global Workplace: India Country-Level Data",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.gallup.com/workplace/705650/state-global-workplace-india-country-level-data.aspx"
+        },
+        {
+          "articleId": "article:the-compounding-bet",
+          "slug": "the-compounding-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+          "agentJsonPath": "/agents/articles/the-compounding-bet.json",
+          "sourceId": "source-nasscom-ai-adoption-index",
+          "sourceTitle": "NASSCOM-EY: AI Adoption Index 2.0 — Tracking India's Sectoral Progress in AI Adoption",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://nasscom.in/knowledge-center/publications/ai-adoption-index-20-tracking-indias-sectoral-progress-ai-adoption"
+        },
+        {
+          "articleId": "article:the-compounding-bet",
+          "slug": "the-compounding-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+          "agentJsonPath": "/agents/articles/the-compounding-bet.json",
+          "sourceId": "source-nasscom-bcg-ai-market",
+          "sourceTitle": "NASSCOM-BCG: AI Powered Tech Services — A Roadmap for Future Ready Firms",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://nasscom.in/knowledge-center/publications/ai-powered-tech-services-roadmap-future-ready-firms"
+        },
+        {
+          "articleId": "article:the-creator-economys-incentive-trap",
+          "slug": "the-creator-economys-incentive-trap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+          "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
+          "sourceId": "source-bcg-creator-economy-2025",
+          "sourceTitle": "BCG: From Content to Commerce: Mapping India's Creator Economy",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://web-assets.bcg.com/c8/35/2a008ddf4e049d99a901b17233f0/gift-report.pdf"
+        },
+        {
+          "articleId": "article:the-creator-economys-incentive-trap",
+          "slug": "the-creator-economys-incentive-trap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+          "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
+          "sourceId": "source-bcg-publication-creator-economy-2025",
+          "sourceTitle": "BCG: From Content to Commerce: Mapping India's Creator Economy (publication page)",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.bcg.com/publications/2025/india-from-content-to-commerce-mapping-indias-creator-economy"
+        },
+        {
+          "articleId": "article:the-creator-economys-incentive-trap",
+          "slug": "the-creator-economys-incentive-trap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+          "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
+          "sourceId": "source-bcg-gen-z-india-2024",
+          "sourceTitle": "BCG: The $2 Trillion Opportunity: How Gen Z Is Shaping the New India",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.bcg.com/publications/2024/india-the-2-trillion-opportunity-how-gen-z-is-shaping-the-new-india"
+        },
+        {
+          "articleId": "article:the-creator-economys-incentive-trap",
+          "slug": "the-creator-economys-incentive-trap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+          "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
+          "sourceId": "source-creatoriq-compensation-2026",
+          "sourceTitle": "CreatorIQ: State of Creator Compensation 2026",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.creatoriq.com/press/releases/state-of-creator-compensation-?hs_amp=true"
+        },
+        {
+          "articleId": "article:the-creator-economys-incentive-trap",
+          "slug": "the-creator-economys-incentive-trap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+          "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
+          "sourceId": "source-realsiteworth-cpm-2026",
+          "sourceTitle": "Real Site Worth: YouTube RPM vs CPM — what each one actually means",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://realsiteworth.com/blog/youtube-rpm-vs-cpm-explained"
+        },
+        {
+          "articleId": "article:the-creator-economys-incentive-trap",
+          "slug": "the-creator-economys-incentive-trap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+          "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
+          "sourceId": "source-ytface-cpm-2026",
+          "sourceTitle": "YTface: YouTube CPM and RPM Rates by Country (2026 Guide)",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.ytface.com/cpm-rates-by-country.html"
+        },
+        {
+          "articleId": "article:the-engagement-gap-productivity-india",
+          "slug": "the-engagement-gap-productivity-india",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
+          "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json",
+          "sourceId": "source-gallup-india-country-data",
+          "sourceTitle": "Gallup: State of the Global Workplace — India Country-Level Data",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.gallup.com/workplace/705650/state-global-workplace-india-country-level-data.aspx"
+        },
+        {
+          "articleId": "article:the-engagement-gap-productivity-india",
+          "slug": "the-engagement-gap-productivity-india",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
+          "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json",
+          "sourceId": "source-gallup-quiet-quitting-india",
+          "sourceTitle": "Gallup: Quiet Quitting Is on the Rise in India",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.gallup.com/workplace/709277/quiet-quitting-rise-india.aspx"
+        },
+        {
+          "articleId": "article:the-engagement-gap-productivity-india",
+          "slug": "the-engagement-gap-productivity-india",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
+          "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json",
+          "sourceId": "source-microsoft-work-trend-index-2025",
+          "sourceTitle": "Microsoft: 2025 Work Trend Index Annual Report",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://assets-c4akfrf5b4d3f4b7.z01.azurefd.net/assets/2025/04/2025_Work_Trend_Index_Annual_Report_680aaa7fe52dd.pdf"
+        },
+        {
+          "articleId": "article:the-engagement-gap-productivity-india",
+          "slug": "the-engagement-gap-productivity-india",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
+          "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json",
+          "sourceId": "source-india-skills-report-2025",
+          "sourceTitle": "Taggd: Insights from India Skills Report 2025",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://taggd.in/industry-reports/isr/india-skills-report-2025/"
+        },
+        {
+          "articleId": "article:the-engagement-gap-productivity-india",
+          "slug": "the-engagement-gap-productivity-india",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
+          "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json",
+          "sourceId": "source-mercer-mettl-graduate-skill-index-2025",
+          "sourceTitle": "PERSOLKELLY India: The Employability Gap",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.persolindia.com/articles/the-employability-gap"
+        },
+        {
           "articleId": "article:the-generational-bet",
           "slug": "the-generational-bet",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
@@ -3173,6 +5107,86 @@
           "sourceTitle": "BCG: India from Content to Commerce—Mapping India's Creator Economy",
           "sourceType": "industry-report",
           "sourceUrl": "https://www.bcg.com/publications/2025/india-from-content-to-commerce-mapping-indias-creator-economy"
+        },
+        {
+          "articleId": "article:the-indic-language-internet-and-vernacular-feeds",
+          "slug": "the-indic-language-internet-and-vernacular-feeds",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
+          "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json",
+          "sourceId": "source-iamai-kantar-2024",
+          "sourceTitle": "IAMAI-Kantar: Internet in India Report 2024",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.entrepreneur.com/en-in/news-and-trends/internet-users-in-india-set-to-cross-900-mn-led-by-indic/485634"
+        },
+        {
+          "articleId": "article:the-life-phase-thread",
+          "slug": "the-life-phase-thread",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+          "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
+          "sourceId": "source-gallup-global-workplace-india",
+          "sourceTitle": "Gallup State of the Global Workplace: India Country-Level Data",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.gallup.com/workplace/705650/state-global-workplace-india-country-level-data.aspx"
+        },
+        {
+          "articleId": "article:the-life-phase-thread",
+          "slug": "the-life-phase-thread",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+          "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
+          "sourceId": "source-vivo-switch-off-2022",
+          "sourceTitle": "vivo Switch Off Study on Impact of Smartphones on Spousal Relationships",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://vivonewsroom.in/press-release/smartphone-addiction-88-married-indians-feel-that-excessive-usage-of-smartphones-is-hurting-their-relationship-vivo-switch-off-study-on-impact-of-smartphones-on-spousal-relationships/"
+        },
+        {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+          "sourceId": "source-ficci-ey-me-2026",
+          "sourceTitle": "EY: India’s media and entertainment sector grew 9% to INR2.78 trillion in 2025",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.ey.com/en_in/newsroom/2026/03/india-s-media-and-entertainment-sector-grew-9-percent-to-inr-2-point-78-trillion-in-2025-driven-by-digital-and-live-experiences-ficci-ey-report"
+        },
+        {
+          "articleId": "article:what-ai-makes-cheap",
+          "slug": "what-ai-makes-cheap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+          "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
+          "sourceId": "source-ey-aidea-india-2025",
+          "sourceTitle": "EY India: The AIdea of India 2025 — How much productivity can GenAI unlock in India?",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/services/ai/aidea/2025/01/ey-the-aidea-of-india-2025-how-much-productivity-can-genai-unlock-in-india.pdf"
+        },
+        {
+          "articleId": "article:what-ai-makes-cheap",
+          "slug": "what-ai-makes-cheap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+          "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
+          "sourceId": "source-nasscom-ai-adoption-index",
+          "sourceTitle": "NASSCOM: AI Adoption Index",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://nasscom.in/knowledge-center/publications/nasscom-ai-adoption-index"
+        },
+        {
+          "articleId": "article:who-profits-advertising-foreign-platforms",
+          "slug": "who-profits-advertising-foreign-platforms",
+          "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+          "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
+          "sourceId": "source-ficci-ey-me-2026",
+          "sourceTitle": "FICCI-EY Media & Entertainment Report 2026 (cited via Storyboard18)",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.storyboard18.com/advertising/google-meta-claim-64-of-india-digital-ads-as-e-commerce-surges-93065.htm"
+        },
+        {
+          "articleId": "article:who-profits-advertising-foreign-platforms",
+          "slug": "who-profits-advertising-foreign-platforms",
+          "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+          "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
+          "sourceId": "source-creatoriq-compensation-2026",
+          "sourceTitle": "CreatorIQ: State of Creator Compensation 2026",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.creatoriq.com/press/releases/state-of-creator-compensation-"
         },
         {
           "articleId": "article:ai-winters-expert-systems",
@@ -3213,6 +5227,26 @@
           "sourceTitle": "OECD AI Principles",
           "sourceType": "intergovernmental-principles",
           "sourceUrl": "https://oecd.ai/en/ai-principles"
+        },
+        {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+          "sourceId": "source-eu-dsa",
+          "sourceTitle": "EUR-Lex: Regulation (EU) 2022/2065 — Digital Services Act",
+          "sourceType": "international-regulation",
+          "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R2065"
+        },
+        {
+          "articleId": "article:trust-and-outrage-platforms-and-cohesion",
+          "slug": "trust-and-outrage-platforms-and-cohesion",
+          "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+          "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+          "sourceId": "source-wef-global-risks-2024",
+          "sourceTitle": "World Economic Forum, Global Risks Report 2024",
+          "sourceType": "international-report",
+          "sourceUrl": "https://www.weforum.org/publications/global-risks-report-2024/"
         },
         {
           "articleId": "article:the-attention-extraction",
@@ -3283,6 +5317,16 @@
           "sourceTitle": "Kraus et al., The Role of Trust in Proactive Conversational Assistants (2021)",
           "sourceType": "journal-article",
           "sourceUrl": "https://doi.org/10.1109/ACCESS.2021.3103893"
+        },
+        {
+          "articleId": "article:the-better-question",
+          "slug": "the-better-question",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
+          "agentJsonPath": "/agents/articles/the-better-question.json",
+          "sourceId": "source-dpdp-act-2023",
+          "sourceTitle": "Ministry of Electronics and Information Technology: Digital Personal Data Protection Act, 2023",
+          "sourceType": "legislation",
+          "sourceUrl": "https://www.meity.gov.in/writereaddata/files/Digital%20Personal%20Data%20Protection%20Act%202023.pdf"
         },
         {
           "articleId": "article:long-human-road-to-ai",
@@ -3463,6 +5507,116 @@
           "sourceTitle": "Timeline of Computer History",
           "sourceType": "museum-timeline",
           "sourceUrl": "https://www.computerhistory.org/timeline/"
+        },
+        {
+          "articleId": "article:the-indic-language-internet-and-vernacular-feeds",
+          "slug": "the-indic-language-internet-and-vernacular-feeds",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
+          "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json",
+          "sourceId": "source-businessworld-iamai-summary",
+          "sourceTitle": "BW Businessworld: India Set To Reach 900 Mn Internet Users By 2025",
+          "sourceType": "news-article",
+          "sourceUrl": "https://www.businessworld.in/article/india-set-to-reach-900-mn-internet-users-by-2025-report-545106"
+        },
+        {
+          "articleId": "article:the-indic-language-internet-and-vernacular-feeds",
+          "slug": "the-indic-language-internet-and-vernacular-feeds",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
+          "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json",
+          "sourceId": "source-dailyhunt-forbes",
+          "sourceTitle": "Forbes India: We solved ML for vernacular Indian languages early on—Dailyhunt",
+          "sourceType": "news-article",
+          "sourceUrl": "https://ms.forbesindia.com/article/one-ceo-club/we-solved-ml-for-vernacular-indian-languages-early-on-dailyhunt/"
+        },
+        {
+          "articleId": "article:engagement-is-a-design-choice",
+          "slug": "engagement-is-a-design-choice",
+          "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+          "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+          "sourceId": "source-kerala-hc-phone-ban",
+          "sourceTitle": "LiveLaw: Kerala High Court restricts personal mobile-phone use during work hours",
+          "sourceType": "news-report",
+          "sourceUrl": "https://www.livelaw.in/high-court/kerala-high-court/kerala-high-court-registrar-general-mobile-phone-use-ban-277365"
+        },
+        {
+          "articleId": "article:the-creator-economys-incentive-trap",
+          "slug": "the-creator-economys-incentive-trap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+          "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
+          "sourceId": "source-exchange4media-gen-z-creators-2025",
+          "sourceTitle": "Exchange4Media: 83% Gen Z create content and 80% want brands playing along",
+          "sourceType": "news-report",
+          "sourceUrl": "https://www.exchange4media.com/marketing-news/83-gen-z-create-content-and-80-want-brands-playing-along-survey-149389.html"
+        },
+        {
+          "articleId": "article:the-creator-economys-incentive-trap",
+          "slug": "the-creator-economys-incentive-trap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+          "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
+          "sourceId": "source-bwmarketingworld-gen-z-creators-2025",
+          "sourceTitle": "BW Marketing World: Most Gen Z Are Now Content Creators, With 80% Seeking Brand Involvement",
+          "sourceType": "news-report",
+          "sourceUrl": "https://www.bwmarketingworld.com/article/most-gen-z-are-now-content-creators-with-80-seeking-brand-involvement-survey-579969"
+        },
+        {
+          "articleId": "article:the-engagement-gap-productivity-india",
+          "slug": "the-engagement-gap-productivity-india",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
+          "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json",
+          "sourceId": "source-kerala-hc-phone-ban-2024",
+          "sourceTitle": "LiveLaw: Kerala High Court Registrar General Mobile Phone Use Ban",
+          "sourceType": "news-report",
+          "sourceUrl": "https://www.livelaw.in/high-court/kerala-high-court/kerala-high-court-registrar-general-mobile-phone-use-ban-277365"
+        },
+        {
+          "articleId": "article:who-profits-advertising-foreign-platforms",
+          "slug": "who-profits-advertising-foreign-platforms",
+          "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+          "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
+          "sourceId": "source-storyboard18-google-meta-share",
+          "sourceTitle": "Storyboard18: Google and Meta hold 64% of India's digital ad market",
+          "sourceType": "news-report",
+          "sourceUrl": "https://www.storyboard18.com/advertising/google-meta-claim-64-of-india-digital-ads-as-e-commerce-surges-93065.htm"
+        },
+        {
+          "articleId": "article:who-profits-advertising-foreign-platforms",
+          "slug": "who-profits-advertising-foreign-platforms",
+          "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+          "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
+          "sourceId": "source-angel-one-google-india-fy25",
+          "sourceTitle": "Angel One: Google India Gross Ads Revenue Rises 11% in FY25",
+          "sourceType": "news-report",
+          "sourceUrl": "https://www.angelone.in/news/unlisted-companies/google-india-gross-ads-revenue-rises-11-in-fy25-net-income-slips-on-higher-costs"
+        },
+        {
+          "articleId": "article:who-profits-advertising-foreign-platforms",
+          "slug": "who-profits-advertising-foreign-platforms",
+          "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+          "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
+          "sourceId": "source-pitchonnet-meta-india-fy24",
+          "sourceTitle": "PitchOnNet: Meta India gross advertising revenue reached ₹22,730 crore in FY24",
+          "sourceType": "news-report",
+          "sourceUrl": "https://www.pitchonnet.com/pitch-feature/the-third-force-jiostar-emerges-indias-challenger-to-google-and-meta-in-the-revenue-race-39804.html"
+        },
+        {
+          "articleId": "article:who-profits-advertising-foreign-platforms",
+          "slug": "who-profits-advertising-foreign-platforms",
+          "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+          "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
+          "sourceId": "source-pitchonnet-jiostar-comparison",
+          "sourceTitle": "PitchOnNet: JioStar emerges as India's challenger to Google and Meta in the revenue race",
+          "sourceType": "news-report",
+          "sourceUrl": "https://www.pitchonnet.com/pitch-feature/the-third-force-jiostar-emerges-indias-challenger-to-google-and-meta-in-the-revenue-race-39804.html"
+        },
+        {
+          "articleId": "article:who-profits-advertising-foreign-platforms",
+          "slug": "who-profits-advertising-foreign-platforms",
+          "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+          "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
+          "sourceId": "source-business-today-bcg-creators",
+          "sourceTitle": "Business Today: BCG report reveals harsh truth about India's creators",
+          "sourceType": "news-report",
+          "sourceUrl": "https://www.businesstoday.in/technology/news/story/not-everyone-making-youtube-videos-is-rich-bcg-report-reveals-harsh-truth-about-indias-creators-474634-2025-05-04"
         },
         {
           "articleId": "article:human-systems",
@@ -4405,6 +6559,46 @@
           "sourceUrl": "https://arxiv.org/abs/2210.03629"
         },
         {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "sourceId": "source-science-advances-outrage",
+          "sourceTitle": "Brady et al. (2021): How Social Learning Amplifies Moral Outrage Expression in Online Social Networks, Science Advances",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://www.science.org/doi/10.1126/sciadv.abe5641"
+        },
+        {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "sourceId": "source-microsoft-research-bengaluru-polarization",
+          "sourceTitle": "Dash et al. (2022): Divided We Rule — Influencer Polarization on Twitter during Political Crises in India, ICWSM",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://ojs.aaai.org/index.php/ICWSM/article/view/19279"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "sourceId": "source-ijip-adolescent-screen-time",
+          "sourceTitle": "International Journal of Indian Psychology: Impact of Digital Screen Time on Adolescents",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://ijip.in/wp-content/uploads/2024/09/18.01.171.20241203.pdf"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "sourceId": "source-pmc-rural-screen-time",
+          "sourceTitle": "PMC: Prevalence of excess screen time among secondary school children in rural India",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10876028/"
+        },
+        {
           "articleId": "article:designing-for-substance",
           "slug": "designing-for-substance",
           "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
@@ -4423,6 +6617,26 @@
           "sourceTitle": "Milli et al.: Engagement, User Satisfaction, and the Amplification of Divisive Content on Social Media (PNAS Nexus)",
           "sourceType": "peer-reviewed-study",
           "sourceUrl": "https://doi.org/10.1093/pnasnexus/pgaf062"
+        },
+        {
+          "articleId": "article:engagement-is-a-design-choice",
+          "slug": "engagement-is-a-design-choice",
+          "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+          "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+          "sourceId": "source-milli-pnas-nexus-2025",
+          "sourceTitle": "Milli et al.: Engagement, User Satisfaction, and the Amplification of Divisive Content on Social Media (PNAS Nexus / Knight First Amendment Institute)",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://knightcolumbia.org/content/engagement-user-satisfaction-and-the-amplification-of-divisive-content-on-social-media"
+        },
+        {
+          "articleId": "article:engagement-is-a-design-choice",
+          "slug": "engagement-is-a-design-choice",
+          "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+          "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+          "sourceId": "source-brady-science-advances-2021",
+          "sourceTitle": "Brady et al.: How social learning amplifies moral outrage expression in online social networks (Science Advances / Yale)",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://news.yale.edu/2021/08/13/likes-and-shares-teach-people-express-more-outrage-online"
         },
         {
           "articleId": "article:the-attention-extraction",
@@ -4455,6 +6669,66 @@
           "sourceUrl": "https://doi.org/10.1093/pnasnexus/pgaf062"
         },
         {
+          "articleId": "article:the-engagement-gap-productivity-india",
+          "slug": "the-engagement-gap-productivity-india",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
+          "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json",
+          "sourceId": "source-ahmad-social-media-work-2022",
+          "sourceTitle": "PMC: The use of social media at workplace and its influence on productivity in the era of COVID-19",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9516508/"
+        },
+        {
+          "articleId": "article:the-life-phase-thread",
+          "slug": "the-life-phase-thread",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+          "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
+          "sourceId": "source-lasi-digital-exclusion-2023",
+          "sourceTitle": "MDPI Sustainability: Ensuring Sustainable Digital Inclusion among the Elderly (LASI-based analysis)",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://www.mdpi.com/2071-1050/16/17/7485"
+        },
+        {
+          "articleId": "article:the-small-rep-theory",
+          "slug": "the-small-rep-theory",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
+          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
+          "sourceId": "source-ericsson-1993-deliberate-practice",
+          "sourceTitle": "Ericsson, Krampe, and Tesch-Römer (1993): The Role of Deliberate Practice in the Acquisition of Expert Performance",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://doi.org/10.1037/0033-295X.100.3.363"
+        },
+        {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+          "sourceId": "source-pmc-rural-screen-time",
+          "sourceTitle": "PMC: Prevalence of excess screen time among secondary school children in rural India",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10876028/"
+        },
+        {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+          "sourceId": "source-ijip-adolescent-screen-time",
+          "sourceTitle": "International Journal of Indian Psychology: Impact of Digital Screen Time on Adolescents",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://ijip.in/wp-content/uploads/2024/09/18.01.171.20241203.pdf"
+        },
+        {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+          "sourceId": "source-pmc-adolescent-mental-health",
+          "sourceTitle": "PMC: Social media and mental health among Indian adolescents",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11438920/"
+        },
+        {
           "articleId": "article:the-substance-builder",
           "slug": "the-substance-builder",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
@@ -4463,6 +6737,56 @@
           "sourceTitle": "Anders Ericsson: The Role of Deliberate Practice in the Acquisition of Expert Performance",
           "sourceType": "peer-reviewed-study",
           "sourceUrl": "https://psycnet.apa.org/record/1993-40718-001"
+        },
+        {
+          "articleId": "article:trust-and-outrage-platforms-and-cohesion",
+          "slug": "trust-and-outrage-platforms-and-cohesion",
+          "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+          "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+          "sourceId": "source-brady-science-advances-2021",
+          "sourceTitle": "Brady et al., How social learning amplifies moral outrage expression in online social networks, Science Advances (2021)",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://www.science.org/doi/10.1126/sciadv.abe5641"
+        },
+        {
+          "articleId": "article:trust-and-outrage-platforms-and-cohesion",
+          "slug": "trust-and-outrage-platforms-and-cohesion",
+          "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+          "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+          "sourceId": "source-milli-pnas-nexus-2025",
+          "sourceTitle": "Milli et al., Engagement, user satisfaction, and the amplification of divisive content on social media, PNAS Nexus (2025)",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11894805/"
+        },
+        {
+          "articleId": "article:trust-and-outrage-platforms-and-cohesion",
+          "slug": "trust-and-outrage-platforms-and-cohesion",
+          "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+          "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+          "sourceId": "source-dash-icwsm-2022",
+          "sourceTitle": "Dash et al., Divided We Rule: Influencer Polarization on Twitter during Political Crises in India, ICWSM (2022)",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://ojs.aaai.org/index.php/ICWSM/article/view/19279"
+        },
+        {
+          "articleId": "article:trust-and-outrage-platforms-and-cohesion",
+          "slug": "trust-and-outrage-platforms-and-cohesion",
+          "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+          "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+          "sourceId": "source-garimella-whatsapp-2025",
+          "sourceTitle": "Garimella et al., Global Patterns of Viral Content on WhatsApp, ICWSM 2025 (arXiv:2407.08172)",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://arxiv.org/abs/2407.08172"
+        },
+        {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+          "sourceId": "source-meta-oversight-board-2023",
+          "sourceTitle": "Meta Oversight Board: 2023 Annual Report Shows Board’s Impact on Meta",
+          "sourceType": "platform-accountability-report",
+          "sourceUrl": "https://www.oversightboard.com/news/2023-annual-report-shows-boards-impact-on-meta/"
         },
         {
           "articleId": "article:foundation-models",
@@ -4775,6 +7099,26 @@
           "sourceUrl": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
         },
         {
+          "articleId": "article:the-better-question",
+          "slug": "the-better-question",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
+          "agentJsonPath": "/agents/articles/the-better-question.json",
+          "sourceId": "source-it-rules-2021",
+          "sourceTitle": "Ministry of Electronics and Information Technology: Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021",
+          "sourceType": "regulation",
+          "sourceUrl": "https://www.meity.gov.in/writereaddata/files/Intermediary_Guidelines_and_Digital_Media_Ethics_Code_Rules_2021.pdf"
+        },
+        {
+          "articleId": "article:the-better-question",
+          "slug": "the-better-question",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
+          "agentJsonPath": "/agents/articles/the-better-question.json",
+          "sourceId": "source-eu-dsa",
+          "sourceTitle": "EUR-Lex: Regulation (EU) 2022/2065 — Digital Services Act",
+          "sourceType": "regulation",
+          "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R2065"
+        },
+        {
           "articleId": "article:agentic-commerce-product-truth",
           "slug": "agentic-commerce-product-truth",
           "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
@@ -4825,6 +7169,46 @@
           "sourceUrl": "https://www.epa.gov/saferchoice/products"
         },
         {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "sourceId": "source-eu-dsa-transparency",
+          "sourceTitle": "European Commission: How the Digital Services Act Enhances Transparency Online",
+          "sourceType": "regulatory-text",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/dsa-brings-transparency"
+        },
+        {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "sourceId": "source-it-rules-2021",
+          "sourceTitle": "Ministry of Electronics and IT: Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 (updated 28.10.2022)",
+          "sourceType": "regulatory-text",
+          "sourceUrl": "https://www.meity.gov.in/static/uploads/2024/02/IT-Intermediary-Rules-2021-updated-on-28.10.2022-2.pdf"
+        },
+        {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "sourceId": "source-dpdp-act-2023",
+          "sourceTitle": "Ministry of Electronics and IT: Digital Personal Data Protection Act, 2023",
+          "sourceType": "regulatory-text",
+          "sourceUrl": "https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf"
+        },
+        {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "sourceId": "source-dpdp-rules-2025",
+          "sourceTitle": "Ministry of Electronics and IT: Digital Personal Data Protection Rules, 2025",
+          "sourceType": "regulatory-text",
+          "sourceUrl": "https://www.meity.gov.in/documents/act-and-policies/digital-personal-data-protection-rules-2025-gDOxUjMtQWa?pageTitle=Digital-Personal-Data-Protection-Rules-2025"
+        },
+        {
           "articleId": "article:designing-for-substance",
           "slug": "designing-for-substance",
           "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
@@ -4833,6 +7217,16 @@
           "sourceTitle": "MeitY: Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 (updated 10.02.2026)",
           "sourceType": "regulatory-text",
           "sourceUrl": "https://www.meity.gov.in/static/uploads/2026/02/550681ab908f8afb135b0ad42816a1c9.pdf"
+        },
+        {
+          "articleId": "article:engagement-is-a-design-choice",
+          "slug": "engagement-is-a-design-choice",
+          "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+          "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+          "sourceId": "source-eu-dsa",
+          "sourceTitle": "European Commission: The Digital Services Act",
+          "sourceType": "regulatory-text",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act"
         },
         {
           "articleId": "article:ai-delegation-orchestration",
@@ -5285,6 +7679,56 @@
           "sourceUrl": "https://www.mpiwg-berlin.mpg.de/research/projects/inscriptions-antikythera-mechanism"
         },
         {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "sourceId": "source-ncaer-ihds-wave3",
+          "sourceTitle": "NCAER: The Evolving Landscape of Digital Inclusion in India (IHDS Wave 3)",
+          "sourceType": "research-report",
+          "sourceUrl": "https://ncaer.org/wp-content/uploads/2026/06/NCAER_Report_June_26.pdf"
+        },
+        {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+          "sourceId": "source-aser-2024",
+          "sourceTitle": "ASER 2024 National Findings",
+          "sourceType": "research-report",
+          "sourceUrl": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf"
+        },
+        {
+          "articleId": "article:attention-substance-ai-moment",
+          "slug": "attention-substance-ai-moment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json",
+          "sourceId": "source-aser-2024",
+          "sourceTitle": "ASER 2024 National Findings",
+          "sourceType": "research-report",
+          "sourceUrl": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "sourceId": "source-ncaer-ihds-wave3",
+          "sourceTitle": "NCAER: The Evolving Landscape of Digital Inclusion in India (IHDS Wave 3)",
+          "sourceType": "research-report",
+          "sourceUrl": "https://ncaer.org/wp-content/uploads/2026/06/NCAER_Report_June_26.pdf"
+        },
+        {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+          "sourceId": "source-aser-2024",
+          "sourceTitle": "ASER 2024 National Findings",
+          "sourceType": "research-report",
+          "sourceUrl": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf"
+        },
+        {
           "articleId": "article:foundation-models",
           "slug": "foundation-models",
           "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
@@ -5295,10 +7739,90 @@
           "sourceUrl": "https://arxiv.org/abs/2108.07258"
         },
         {
+          "articleId": "article:gender-and-the-attention-economy",
+          "slug": "gender-and-the-attention-economy",
+          "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
+          "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json",
+          "sourceId": "source-nsso-cams-dataforindia",
+          "sourceTitle": "Data For India: Access to phones and the internet (based on NSSO CAMS 2022-23)",
+          "sourceType": "research-report",
+          "sourceUrl": "https://www.dataforindia.com/comm-tech/"
+        },
+        {
+          "articleId": "article:gender-and-the-attention-economy",
+          "slug": "gender-and-the-attention-economy",
+          "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
+          "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json",
+          "sourceId": "source-ideasforindia-gender-digital-divide",
+          "sourceTitle": "Ideas for India: Digital gender divide amidst India's service-led growth",
+          "sourceType": "research-report",
+          "sourceUrl": "https://www.ideasforindia.in/topics/social-identity/digital-gender-divide-amidst-india-s-service-led-growth"
+        },
+        {
           "articleId": "article:the-attention-extraction",
           "slug": "the-attention-extraction",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
           "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "sourceId": "source-aser-2024",
+          "sourceTitle": "ASER 2024 National Findings",
+          "sourceType": "research-report",
+          "sourceUrl": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf"
+        },
+        {
+          "articleId": "article:the-better-question",
+          "slug": "the-better-question",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
+          "agentJsonPath": "/agents/articles/the-better-question.json",
+          "sourceId": "source-ncaer-ihds-wave3",
+          "sourceTitle": "NCAER: The Evolving Landscape of Digital Inclusion in India (IHDS Wave 3)",
+          "sourceType": "research-report",
+          "sourceUrl": "https://ncaer.org/wp-content/uploads/2026/06/NCAER_Report_June_26.pdf"
+        },
+        {
+          "articleId": "article:the-better-question",
+          "slug": "the-better-question",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
+          "agentJsonPath": "/agents/articles/the-better-question.json",
+          "sourceId": "source-aser-2024",
+          "sourceTitle": "ASER 2024 National Findings",
+          "sourceType": "research-report",
+          "sourceUrl": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf"
+        },
+        {
+          "articleId": "article:the-compounding-bet",
+          "slug": "the-compounding-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+          "agentJsonPath": "/agents/articles/the-compounding-bet.json",
+          "sourceId": "source-stanford-ai-index",
+          "sourceTitle": "Stanford HAI: The 2025 AI Index Report — Technical Performance",
+          "sourceType": "research-report",
+          "sourceUrl": "https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance"
+        },
+        {
+          "articleId": "article:the-compounding-bet",
+          "slug": "the-compounding-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+          "agentJsonPath": "/agents/articles/the-compounding-bet.json",
+          "sourceId": "source-stanford-ai-vibrancy",
+          "sourceTitle": "Stanford HAI: The Global AI Vibrancy Tool 2025",
+          "sourceType": "research-report",
+          "sourceUrl": "https://hai.stanford.edu/research/the-global-ai-vibrancy-tool-2024"
+        },
+        {
+          "articleId": "article:the-compounding-bet",
+          "slug": "the-compounding-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+          "agentJsonPath": "/agents/articles/the-compounding-bet.json",
+          "sourceId": "source-oecd-genai-productivity",
+          "sourceTitle": "OECD: The effects of generative AI on productivity, innovation and entrepreneurship",
+          "sourceType": "research-report",
+          "sourceUrl": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/the-effects-of-generative-ai-on-productivity-innovation-and-entrepreneurship_da1d085d/b21df222-en.pdf"
+        },
+        {
+          "articleId": "article:the-compounding-bet",
+          "slug": "the-compounding-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+          "agentJsonPath": "/agents/articles/the-compounding-bet.json",
           "sourceId": "source-aser-2024",
           "sourceTitle": "ASER 2024 National Findings",
           "sourceType": "research-report",
@@ -5343,6 +7867,76 @@
           "sourceTitle": "Stanford HAI: AI Index Report 2025",
           "sourceType": "research-report",
           "sourceUrl": "https://aiindex.stanford.edu/report/"
+        },
+        {
+          "articleId": "article:the-life-phase-thread",
+          "slug": "the-life-phase-thread",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+          "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
+          "sourceId": "source-aser-2024",
+          "sourceTitle": "ASER 2024 National Findings",
+          "sourceType": "research-report",
+          "sourceUrl": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf"
+        },
+        {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+          "sourceId": "source-aser-2024",
+          "sourceTitle": "ASER 2024 National Findings",
+          "sourceType": "research-report",
+          "sourceUrl": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf"
+        },
+        {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+          "sourceId": "source-ncaer-ihds-wave3",
+          "sourceTitle": "NCAER: The Evolving Landscape of Digital Inclusion in India (IHDS Wave 3)",
+          "sourceType": "research-report",
+          "sourceUrl": "https://ncaer.org/wp-content/uploads/2026/06/NCAER_Report_June_26.pdf"
+        },
+        {
+          "articleId": "article:what-ai-makes-cheap",
+          "slug": "what-ai-makes-cheap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+          "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
+          "sourceId": "source-oecd-genai-productivity-2025",
+          "sourceTitle": "OECD: The effects of generative AI on productivity, innovation and entrepreneurship",
+          "sourceType": "research-report",
+          "sourceUrl": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/the-effects-of-generative-ai-on-productivity-innovation-and-entrepreneurship_da1d085d/b21df222-en.pdf"
+        },
+        {
+          "articleId": "article:what-ai-makes-cheap",
+          "slug": "what-ai-makes-cheap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+          "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
+          "sourceId": "source-ncaer-ihds-wave3",
+          "sourceTitle": "NCAER: The Evolving Landscape of Digital Inclusion in India (IHDS Wave 3)",
+          "sourceType": "research-report",
+          "sourceUrl": "https://ncaer.org/wp-content/uploads/2026/06/NCAER_Report_June_26.pdf"
+        },
+        {
+          "articleId": "article:what-ai-makes-cheap",
+          "slug": "what-ai-makes-cheap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+          "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
+          "sourceId": "source-aser-2024",
+          "sourceTitle": "ASER 2024 National Findings",
+          "sourceType": "research-report",
+          "sourceUrl": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf"
+        },
+        {
+          "articleId": "article:who-profits-advertising-foreign-platforms",
+          "slug": "who-profits-advertising-foreign-platforms",
+          "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+          "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
+          "sourceId": "source-bcg-creator-economy-2025",
+          "sourceTitle": "BCG: From Content to Commerce: Mapping India's Creator Economy",
+          "sourceType": "research-report",
+          "sourceUrl": "https://www.bcg.com/publications/2025/india-from-content-to-commerce-mapping-indias-creator-economy"
         },
         {
           "articleId": "article:human-systems",
@@ -5505,6 +8099,26 @@
           "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf"
         },
         {
+          "articleId": "article:the-life-phase-thread",
+          "slug": "the-life-phase-thread",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+          "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
+          "sourceId": "source-localcircles-children-screentime-2025",
+          "sourceTitle": "LocalCircles: Children, Social Media and Online Gaming Addiction Survey 2025",
+          "sourceType": "survey",
+          "sourceUrl": "https://www.localcircles.com/a/press/page/children-social-media-addiction"
+        },
+        {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
+          "sourceId": "source-localcircles-2025",
+          "sourceTitle": "LocalCircles: 1 in 2 parents have children addicted to social media, OTT & gaming",
+          "sourceType": "survey",
+          "sourceUrl": "https://www.localcircles.com/a/press/page/children-social-media-addiction"
+        },
+        {
           "articleId": "article:human-systems",
           "slug": "human-systems",
           "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
@@ -5545,6 +8159,16 @@
           "sourceUrl": "https://www.deeplearningbook.org/"
         },
         {
+          "articleId": "article:trust-and-outrage-platforms-and-cohesion",
+          "slug": "trust-and-outrage-platforms-and-cohesion",
+          "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+          "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+          "sourceId": "source-meta-oversight-board-2023",
+          "sourceTitle": "Meta Oversight Board, 2023 Annual Report",
+          "sourceType": "transparency-report",
+          "sourceUrl": "https://www.oversightboard.com/wp-content/uploads/2024/06/Oversight-Board-2023-Annual-Report.pdf"
+        },
+        {
           "articleId": "article:designing-for-substance",
           "slug": "designing-for-substance",
           "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
@@ -5575,6 +8199,26 @@
           "sourceUrl": "https://isaw.nyu.edu/research/antikythera-mechanism"
         },
         {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+          "sourceId": "source-sflc-takedown-analysis",
+          "sourceTitle": "SFLC.in: Data Analysis of Meta, X, and ShareChat on Content Takedown",
+          "sourceType": "watchdog-report",
+          "sourceUrl": "https://sflc.in/data-analysis-of-meta-x-and-sharechat-on-content-takedown/"
+        },
+        {
+          "articleId": "article:trust-and-outrage-platforms-and-cohesion",
+          "slug": "trust-and-outrage-platforms-and-cohesion",
+          "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+          "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+          "sourceId": "source-india-hate-lab-2024",
+          "sourceTitle": "India Hate Lab, Hate Speech Events in India 2024 Report",
+          "sourceType": "watchdog-report",
+          "sourceUrl": "https://www.csohate.org/2025/02/10/hate-speech-report-india-2024/"
+        },
+        {
           "articleId": "article:human-systems",
           "slug": "human-systems",
           "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
@@ -5594,8 +8238,20 @@
         "status": "published"
       },
       "resultType": "articles",
-      "resultCount": 33,
+      "resultCount": 51,
       "results": [
+        {
+          "articleId": "article:a-map-of-levers",
+          "slug": "a-map-of-levers",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+          "agentJsonPath": "/agents/articles/a-map-of-levers.json"
+        },
+        {
+          "articleId": "article:a-readers-guide-to-the-series",
+          "slug": "a-readers-guide-to-the-series",
+          "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+          "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json"
+        },
         {
           "articleId": "article:agent-auditable-research",
           "slug": "agent-auditable-research",
@@ -5645,6 +8301,12 @@
           "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json"
         },
         {
+          "articleId": "article:attention-substance-ai-moment",
+          "slug": "attention-substance-ai-moment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
+          "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json"
+        },
+        {
           "articleId": "article:audio-first-voice-consumption",
           "slug": "audio-first-voice-consumption",
           "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
@@ -5663,6 +8325,12 @@
           "agentJsonPath": "/agents/articles/birth-of-ai.json"
         },
         {
+          "articleId": "article:by-the-numbers-what-indians-do-online",
+          "slug": "by-the-numbers-what-indians-do-online",
+          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json"
+        },
+        {
           "articleId": "article:context-management",
           "slug": "context-management",
           "articleUrl": "https://aura-knowledge.github.io/articles/context-management/",
@@ -5673,6 +8341,12 @@
           "slug": "designing-for-substance",
           "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
           "agentJsonPath": "/agents/articles/designing-for-substance.json"
+        },
+        {
+          "articleId": "article:engagement-is-a-design-choice",
+          "slug": "engagement-is-a-design-choice",
+          "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+          "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json"
         },
         {
           "articleId": "article:evaluations",
@@ -5697,6 +8371,12 @@
           "slug": "foundation-models",
           "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
           "agentJsonPath": "/agents/articles/foundation-models.json"
+        },
+        {
+          "articleId": "article:gender-and-the-attention-economy",
+          "slug": "gender-and-the-attention-economy",
+          "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
+          "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json"
         },
         {
           "articleId": "article:human-systems",
@@ -5765,6 +8445,12 @@
           "agentJsonPath": "/agents/articles/reasoning-models.json"
         },
         {
+          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json"
+        },
+        {
           "articleId": "article:retrieval-augmented-generation",
           "slug": "retrieval-augmented-generation",
           "articleUrl": "https://aura-knowledge.github.io/articles/retrieval-augmented-generation/",
@@ -5777,10 +8463,58 @@
           "agentJsonPath": "/agents/articles/the-attention-extraction.json"
         },
         {
+          "articleId": "article:the-better-question",
+          "slug": "the-better-question",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
+          "agentJsonPath": "/agents/articles/the-better-question.json"
+        },
+        {
+          "articleId": "article:the-compounding-bet",
+          "slug": "the-compounding-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+          "agentJsonPath": "/agents/articles/the-compounding-bet.json"
+        },
+        {
+          "articleId": "article:the-creator-economys-incentive-trap",
+          "slug": "the-creator-economys-incentive-trap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+          "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json"
+        },
+        {
+          "articleId": "article:the-engagement-gap-productivity-india",
+          "slug": "the-engagement-gap-productivity-india",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
+          "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json"
+        },
+        {
           "articleId": "article:the-generational-bet",
           "slug": "the-generational-bet",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
           "agentJsonPath": "/agents/articles/the-generational-bet.json"
+        },
+        {
+          "articleId": "article:the-indic-language-internet-and-vernacular-feeds",
+          "slug": "the-indic-language-internet-and-vernacular-feeds",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
+          "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json"
+        },
+        {
+          "articleId": "article:the-life-phase-thread",
+          "slug": "the-life-phase-thread",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+          "agentJsonPath": "/agents/articles/the-life-phase-thread.json"
+        },
+        {
+          "articleId": "article:the-small-rep-theory",
+          "slug": "the-small-rep-theory",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
+          "agentJsonPath": "/agents/articles/the-small-rep-theory.json"
+        },
+        {
+          "articleId": "article:the-student-screen-education-vs-entertainment",
+          "slug": "the-student-screen-education-vs-entertainment",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
+          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json"
         },
         {
           "articleId": "article:the-substance-builder",
@@ -5793,6 +8527,24 @@
           "slug": "tool-use",
           "articleUrl": "https://aura-knowledge.github.io/articles/tool-use/",
           "agentJsonPath": "/agents/articles/tool-use.json"
+        },
+        {
+          "articleId": "article:trust-and-outrage-platforms-and-cohesion",
+          "slug": "trust-and-outrage-platforms-and-cohesion",
+          "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+          "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json"
+        },
+        {
+          "articleId": "article:what-ai-makes-cheap",
+          "slug": "what-ai-makes-cheap",
+          "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
+          "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json"
+        },
+        {
+          "articleId": "article:who-profits-advertising-foreign-platforms",
+          "slug": "who-profits-advertising-foreign-platforms",
+          "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
+          "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json"
         }
       ]
     }
