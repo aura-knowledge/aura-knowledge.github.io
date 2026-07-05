@@ -25,12 +25,6 @@
     "artificial-intelligence",
     "digital-wellbeing"
   ],
-  "series": {
-    "slug": "attention-substance-ai-moment",
-    "title": "Attention, Substance, and the AI Moment",
-    "order": 50,
-    "role": "companion"
-  },
   "claims": [
     {
       "id": "claim-001",
@@ -458,7 +452,7 @@
           "privacy"
         ],
         "notes": "Human author approved publication as a TLDR summary of the series.",
-        "contentHash": "49ad4c4fffdfbe7f85062f135c383277143a13973207c36170f44d49b3b69ad0"
+        "contentHash": "4b2a7bc85545730811e735f4fa576f45895785bfe268ca62a958a5e1f0408d98"
       }
     ],
     "policy": {
@@ -466,5 +460,5 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "49ad4c4fffdfbe7f85062f135c383277143a13973207c36170f44d49b3b69ad0"
+  "contentHash": "4b2a7bc85545730811e735f4fa576f45895785bfe268ca62a958a5e1f0408d98"
 }
