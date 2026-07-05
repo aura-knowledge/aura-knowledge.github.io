@@ -898,7 +898,7 @@
   {
     "id": "article:attention-substance-ai-moment-tldr:claim-001",
     "type": "claim",
-    "label": "India has near-universal digital access, but entertainment and social media dominate online time, crowding out education and production among young users.",
+    "label": "India has near-universal digital access, but entertainment and social media dominate online time across all age groups, crowding out education, planning, and productive use.",
     "localId": "claim-001",
     "confidence": "high",
     "status": "core"
@@ -906,7 +906,7 @@
   {
     "id": "article:attention-substance-ai-moment-tldr:claim-002",
     "type": "claim",
-    "label": "Screen time is high, and short-form feeds are engineered to extend engagement beyond user intent.",
+    "label": "Screen time is high across all age groups, and feeds — on phones and laptops — are engineered to extend engagement beyond user intent.",
     "localId": "claim-002",
     "confidence": "high",
     "status": "core"
@@ -914,7 +914,7 @@
   {
     "id": "article:attention-substance-ai-moment-tldr:claim-003",
     "type": "claim",
-    "label": "The costs show up in productivity, mental health, and attention capacity.",
+    "label": "The costs show up in productivity, mental health, and attention capacity — for everyone, not just students.",
     "localId": "claim-003",
     "confidence": "medium-high",
     "status": "core"
@@ -922,7 +922,7 @@
   {
     "id": "article:attention-substance-ai-moment-tldr:claim-004",
     "type": "claim",
-    "label": "AI makes productive work dramatically cheaper and more accessible, but only for people who choose to use it that way.",
+    "label": "AI makes productive work dramatically cheaper and more accessible for everyone — but only for people who choose to use it that way.",
     "localId": "claim-004",
     "confidence": "medium-high",
     "status": "core"
@@ -930,7 +930,7 @@
   {
     "id": "article:attention-substance-ai-moment-tldr:claim-005",
     "type": "claim",
-    "label": "Small, repeated shifts from consumption to creation can compound into real capability, and the main cost is attention reclaimed from low-value scrolling.",
+    "label": "Small, repeated shifts from consumption to creation can compound into real capability, and the main cost is attention reclaimed from low-value scrolling or bingeing.",
     "localId": "claim-005",
     "confidence": "medium-high",
     "status": "core"
