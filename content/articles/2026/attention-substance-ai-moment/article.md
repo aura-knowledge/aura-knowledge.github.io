@@ -40,6 +40,19 @@ The series is organized into six arcs. Each arc is a self-contained thread; each
 5. **Designing for Substance** — How platforms, metrics, regulation, and alternative business models could make substance the easier path.
 6. **Synthesis and Action** — How the threads fit together, who can pull which levers, and what questions remain unresolved.
 
+<h2 id="the-series-as-a-journey">The Series as a Journey (Bookmarks)</h2>
+
+If you read the whole series from beginning to end, the argument moves through three larger movements. Each movement hands you a different lens, and each ends at the threshold of the next. You can treat these as bookmarks: read straight through, or jump to the movement that matches where you are right now.
+
+**Movement 1: Seeing the Trap** — Arcs 1 and 2  
+Start with the present: how Indian internet time is actually spent, what short-form feeds do to attention, who profits, and what it costs in sleep, trust, and public life. Then step back into history to see that access to a powerful tool does not automatically produce benefit — printing presses, PCs, and cheap data all needed social choices before they became generative. By the end of this movement the question is no longer “Is this happening?” but “Why does this feel so familiar?”
+
+**Movement 2: The Fork Ahead** — Arc 3  
+The diagnosis turns into stakes. Artificial intelligence is making creation, research, translation, and learning cheap at exactly the moment when billions of hours are being captured by extraction. The articles here ask whether India will compound that cheapness into deep tech and civic skill, or watch another transition pass while optimizing for convenience and attention. By the end of this movement the question becomes “What are we about to miss?”
+
+**Movement 3: The Path Out** — Arcs 4, 5, and 6  
+The final movement moves from the individual to the system and back. It starts with what one person, family, student, or worker can do with reclaimed attention and AI as an assistant. Then it looks at how platforms, metrics, regulation, and business models could make substance the easier path. It closes with synthesis: a map of levers, product sketches, unresolved questions, and a reader’s guide. By the end the question is “What is the smallest version of this I can start building?”
+
 <h2 id="the-articles">The Articles</h2>
 
 ### Part 1: The Diagnosis
