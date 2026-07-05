@@ -2844,16 +2844,6 @@
     },
     {
       "from": "article:attention-substance-ai-moment",
-      "to": "article:attention-substance-ai-moment-tldr",
-      "type": "article",
-      "provenance": {
-        "reviewedAt": "2026-07-05",
-        "reviewer": "generator",
-        "status": "machine-generated"
-      }
-    },
-    {
-      "from": "article:attention-substance-ai-moment",
       "to": "article:bhashini-and-the-indic-language-ai-moment",
       "type": "article",
       "provenance": {
