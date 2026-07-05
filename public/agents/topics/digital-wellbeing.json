@@ -212,7 +212,7 @@
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 879,
-      "contentHash": "5f89b73f4c91dbbede314b218c1ab1d7a62eab89e7ba0c89b1680a78a0c7692b"
+      "contentHash": "b658a45e5e248472079d1560ae0fbd12abc49064c4f12c28d1b1abee730fd06a"
     },
     {
       "id": "article:gender-and-the-attention-economy",
@@ -499,7 +499,7 @@
       "claimCount": 8,
       "sourceCount": 10,
       "tokenEstimate": 796,
-      "contentHash": "bd57880f5cca1b649f423609b0f33b11d409b3d6b0adce858ae86c8b1a3a5ef2"
+      "contentHash": "a90414a4c60ab239eb04f1c458fa852e57f6e757a1fb853939485285b400779e"
     }
   ]
 }

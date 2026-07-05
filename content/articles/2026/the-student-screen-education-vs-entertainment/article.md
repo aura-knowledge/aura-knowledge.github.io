@@ -92,7 +92,7 @@ Schools can teach digital literacy as a practical skill: not just how to use a p
 
 Parents can mediate. Global evidence and Indian parent surveys both suggest that clear rules, device-free meals, and co-viewing or discussion of online content reduce problematic use. The LocalCircles data show that parents are aware of the issue; the gap is often in consistent practice.
 
-Platforms and policymakers have a role that goes beyond warnings. Friction design — prompts to pause, chronological feeds, disabling autoplay for minors, and age-appropriate defaults — can make entertainment less automatic without banning it. The DPDP Rules, 2025 on parental consent for under-18 users are one step; the larger question is whether design incentives can be shifted toward time well spent.
+Platforms and policymakers have a role that goes beyond warnings. Friction design — prompts to pause, chronological feeds, disabling autoplay for minors, and age-appropriate defaults — can make entertainment less automatic without banning it. The <a href="https://www.meity.gov.in/documents/act-and-policies/digital-personal-data-protection-rules-2025-gDOxUjMtQWa?pageTitle=Digital-Personal-Data-Protection-Rules-2025">DPDP Rules, 2025</a> on parental consent for under-18 users are one step; the larger question is whether design incentives can be shifted toward time well spent.
 
 <span id="claim-008" class="claim-marker" data-claim="claim-008">Claim C8</span> The same device and connectivity could support learning if defaults change — through school-led digital literacy, parental mediation, and design friction that makes educational use easier to start and entertainment easier to pause.
 
