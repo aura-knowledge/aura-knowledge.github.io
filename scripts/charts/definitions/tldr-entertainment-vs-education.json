@@ -1,0 +1,10 @@
+{
+  "type": "pie",
+  "csv": "tldr-entertainment-vs-education.csv",
+  "filename": "tldr-entertainment-vs-education.svg",
+  "title": "How India's internet time is split",
+  "x_key": "activity",
+  "y_key": "share_pct",
+  "source": "NCAER IHDS Wave 3 (2024-25)",
+  "caveat": "Self-reported usage shares; actual minutes may differ. Illustrative allocation."
+}

@@ -81,6 +81,27 @@ def save_svg(fig: plt.Figure, filename: str, source: str, caveat: str,
     meta_path.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8")
 
 
+def pie_chart(csv_path: Path, title: str, x_key: str, y_key: str,
+              source: str, caveat: str, filename: str,
+              alt_text: Optional[str] = None) -> None:
+    rows = read_csv(csv_path)
+    labels = [r[x_key] for r in rows]
+    values = [float(r[y_key]) for r in rows]
+    colors = COLORS["palette"][: len(labels)]
+
+    fig, ax = plt.subplots(figsize=(8, 6))
+    wedges, texts, autotexts = ax.pie(
+        values, labels=labels, autopct="%1.0f%%", startangle=90,
+        colors=colors, pctdistance=0.75, labeldistance=1.08,
+        textprops={"fontsize": 10})
+    for t in autotexts:
+        t.set_fontsize(10)
+        t.set_weight("bold")
+    ax.set_title(title, fontsize=14, weight="bold", pad=16)
+    fig.text(0.5, 0.02, f"Source: {source} — {caveat}", ha="center", fontsize=9, style="italic")
+    save_svg(fig, filename, source, caveat, alt_text=alt_text)
+
+
 def grouped_bar_chart(csv_path: Path, title: str, x_key: str, y_key: str, y_label: str,
                       source: str, caveat: str, filename: str,
                       alt_text: Optional[str] = None) -> None:
@@ -293,6 +314,8 @@ def main() -> None:
             line_chart(**kwargs, y_label=chart["y_label"])
         elif ctype == "horizontal_bar":
             horizontal_bar_chart(**kwargs, x_label=chart["x_label"], unit=chart.get("unit", "%"))
+        elif ctype == "pie":
+            pie_chart(**kwargs)
         else:
             print(f"Unknown chart type: {ctype}")
 

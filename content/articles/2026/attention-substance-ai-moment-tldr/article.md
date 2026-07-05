@@ -39,6 +39,11 @@ The answer is mostly entertainment. The NCAER India Human Development Survey Wav
 
 Studies of Indian adolescents report 4–5 hours of daily screen time. In one rural study, 83% of secondary school children exceeded the recommended two-hour daily limit. But adults are not exempt: the working professional who opens Netflix on a laptop after dinner, the parent who scrolls for an hour in bed, the manager who checks WhatsApp between meetings instead of taking a real break — the pattern holds. The device changes, the screen size changes, the ratio does not.
 
+<figure>
+  <img src="/images/articles/2026/attention-substance-ai-moment/tldr-entertainment-vs-education.svg" alt="Pie chart showing roughly two-thirds of India's internet time goes to entertainment and social media, while only about one-sixth goes to education." loading="lazy" />
+  <figcaption>India's internet time is dominated by entertainment and social media. Education gets roughly one-sixth. Source: NCAER IHDS Wave 3 (2024–25).</figcaption>
+</figure>
+
 These are not isolated data points. They describe a structural pattern: a population with unprecedented access to information and shrinking capacity to use it for anything that requires sustained attention.
 
 <span id="claim-002" class="claim-marker" data-claim="claim-002">Claim C2</span> Screen time is high across all age groups, and feeds — on phones and laptops — are engineered to extend engagement beyond user intent.
@@ -50,6 +55,11 @@ Here is the uncomfortable part: it does not feel like a problem. A few reels aft
 But rest is not what the design is optimizing for. Variable rewards keep you pulling because the next video might be great. Infinite scroll removes the natural stopping point. Autoplay carries you from one episode to the next without asking. Personalized recommendations reorder the world so everything feels relevant — whether you are on a 6-inch phone or a 15-inch laptop.
 
 A peer-reviewed study on short-form video addiction found heavy use associated with impaired attention and reduced self-control. Gloria Mark's research on attention spans found that the average time people spend on a screen before switching has fallen to roughly 47 seconds. Every switch carries a cognitive cost — the work of remembering what you were doing, reassembling context, getting back to where you were.
+
+<figure>
+  <img src="/images/articles/2026/attention-substance-ai-moment/tldr-daily-time-breakdown.svg" alt="Horizontal bar chart showing estimated daily minutes spent on reels, web series, social media, education, news, and creative work." loading="lazy" />
+  <figcaption>Where the hours go: estimated daily screen time by activity. Phone and laptop combined. Source: NCAER, IAMAI-Kantar, NSSO Time Use Survey.</figcaption>
+</figure>
 
 The result: you finish a one-hour scroll or binge session tired, not rested. Your attention is more fragmented than when you started. You did not learn anything you can recall the next morning. And the platform collected another hour of your life.
 
@@ -73,6 +83,11 @@ What you may not have had until now is the time, the energy, or the bandwidth to
 
 That friction just collapsed. AI tools now let you draft a plan, prototype an idea, research a market, write a proposal, translate a document, or build a teaching module in the time it takes to watch one episode of a web series. You do not need to quit your job. You do not need funding. You do not need a team. You need fifteen minutes and the willingness to try.
 
+<figure>
+  <img src="/images/articles/2026/attention-substance-ai-moment/what-ai-makes-cheap.svg" alt="Bar chart showing AI productivity gains: writing 40% faster, coding 56% faster, consulting analysis 25% faster." loading="lazy" />
+  <figcaption>AI productivity gains by task. An OECD review found 40% faster writing, 56% faster coding. Source: OECD (2025).</figcaption>
+</figure>
+
 The person who has spent twenty years understanding logistics, healthcare, agriculture, education, finance, or manufacturing now has a tool that can turn that understanding into something shareable — an essay, a tool, a course, a framework — without requiring a sabbatical. The barrier between your experience and productive output has never been lower. The only question is whether you pick up the tool or pick up the remote.
 
 <span id="claim-004" class="claim-marker" data-claim="claim-004">Claim C4</span> AI makes productive work dramatically cheaper and more accessible for everyone — but only for people who choose to use it that way.
@@ -92,6 +107,11 @@ The easiest way to see the shift is to put the two options side by side. Same fi
 | 15 min of celebrity gossip | 15 min improving a skill relevant to your career — a tool, a framework, a language | You are slightly more valuable at work than last week |
 
 The point is not that entertainment is bad. The point is that the same fifteen minutes, redirected, compounds. Fifteen minutes a day is 91 hours a year. That is enough to learn the fundamentals of a new field, build a working prototype, write a dozen short essays, or make a dozen informed financial decisions. The cost of the scroll is not the fifteen minutes. It is what those fifteen minutes could have become.
+
+<figure>
+  <img src="/images/articles/2026/attention-substance-ai-moment/tldr-fifteen-min-compounding.svg" alt="Line chart showing how 15 minutes a day compounds: 7 hours in a month, 45 hours in six months, 91 hours in a year." loading="lazy" />
+  <figcaption>What 15 minutes a day becomes over time. That is 91 hours a year — enough to learn a new skill, build a prototype, or write a dozen essays.</figcaption>
+</figure>
 
 <h2 id="take-control-instead-of-letting-the-internet-decide">Take Control Instead of Letting the Internet Decide</h2>
 
