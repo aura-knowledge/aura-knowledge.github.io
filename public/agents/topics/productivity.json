@@ -2,14 +2,51 @@
   "schemaVersion": 1,
   "topic": "productivity",
   "articleIds": [
+    "article:historical-analogies-of-missed-transitions",
     "article:the-compounding-bet",
     "article:the-engagement-gap-productivity-india",
     "article:the-substance-builder",
+    "article:the-workers-garden",
     "article:what-ai-makes-cheap"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/productivity/",
   "agentJsonPath": "/agents/topics/productivity.json",
   "articles": [
+    {
+      "id": "article:historical-analogies-of-missed-transitions",
+      "slug": "historical-analogies-of-missed-transitions",
+      "title": "Historical Analogies of Missed Transitions",
+      "summary": "Uses cross-country historical comparisons to show that missing a technology transition has persistent economic and geopolitical consequences.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "history",
+        "productivity",
+        "economic-development"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "history",
+        "productivity",
+        "economic-development"
+      ],
+      "canonicalPath": "/articles/historical-analogies-of-missed-transitions/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/historical-analogies-of-missed-transitions/",
+      "agentJsonPath": "/agents/articles/historical-analogies-of-missed-transitions.json",
+      "agentMarkdownPath": "/agents/articles/historical-analogies-of-missed-transitions.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 303,
+      "contentHash": "f8d7648a11dc2580fd1d8984244dfc3249c23a4251f1b38b96816b6aec01bafd"
+    },
     {
       "id": "article:the-compounding-bet",
       "slug": "the-compounding-bet",
@@ -41,7 +78,7 @@
       "claimCount": 7,
       "sourceCount": 8,
       "tokenEstimate": 802,
-      "contentHash": "0c0895ce5054a37dcb895f36204883b905464bba6a736b441219cab2911e21d9"
+      "contentHash": "1d9dc1bd1cee040a792048ecab6acad39cf130a561507617cb60d79141158281"
     },
     {
       "id": "article:the-engagement-gap-productivity-india",
@@ -72,7 +109,7 @@
       "claimCount": 7,
       "sourceCount": 9,
       "tokenEstimate": 885,
-      "contentHash": "37b395d28cc12622855c5d9335ed413a64fb1ca258501f7734dc0ec8c1c29ba8"
+      "contentHash": "c6559982b5bafcebb56f9a83f05dfa123b3000a3c2652673a7aab96516e8eaa7"
     },
     {
       "id": "article:the-substance-builder",
@@ -105,7 +142,44 @@
       "claimCount": 5,
       "sourceCount": 6,
       "tokenEstimate": 500,
-      "contentHash": "89751bead595b585f40cba7b08703aff1ab7e2a80c2df9a023c603fbbdc321e0"
+      "contentHash": "c9c9a05577503f9c699e6b4b1f24f3fbe510bc6c5cdebefa2eb53eb7369e0323"
+    },
+    {
+      "id": "article:the-workers-garden",
+      "slug": "the-workers-garden",
+      "title": "The Worker's Garden: Commutes, Side Projects, and Career Capital",
+      "summary": "Practical strategies for working adults to reclaim commute and downtime for small acts of learning and creation.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "career",
+        "productivity",
+        "side-projects",
+        "adult-learning",
+        "artificial-intelligence"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "career",
+        "productivity",
+        "side-projects",
+        "adult-learning",
+        "artificial-intelligence"
+      ],
+      "canonicalPath": "/articles/the-workers-garden/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-workers-garden/",
+      "agentJsonPath": "/agents/articles/the-workers-garden.json",
+      "agentMarkdownPath": "/agents/articles/the-workers-garden.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 526,
+      "contentHash": "f28e4e718becf603328a3254ccea6537818f96b67f15980bfa50fb3ae15d148c"
     },
     {
       "id": "article:what-ai-makes-cheap",
@@ -138,7 +212,7 @@
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 778,
-      "contentHash": "36f08fb0c0f3fddf41eb669a1eab7f20979d1c313049bdd40c371f48bc2025d0"
+      "contentHash": "264b2f4d83d62522d93394f82867db70f7c874016f74b377ce9cdc585dfa8269"
     }
   ]
 }

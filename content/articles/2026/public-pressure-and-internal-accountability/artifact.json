@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 3,
+  "id": "article:public-pressure-and-internal-accountability",
+  "slug": "public-pressure-and-internal-accountability",
+  "title": "Public Pressure and Internal Accountability",
+  "canonicalPath": "/articles/public-pressure-and-internal-accountability/",
+  "sourcePath": "content/articles/2026/public-pressure-and-internal-accountability/article.md",
+  "agentBriefPath": "content/articles/2026/public-pressure-and-internal-accountability/agent.md",
+  "thesis": "Regulation is necessary but slow; a healthier attention ecosystem also requires researchers, journalists, whistleblowers, employees, shareholders, and civil society to make platform incentives and harms visible.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "accountability",
+    "platform-governance",
+    "civil-society"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 40,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Academic research has repeatedly revealed harms—addiction, polarization, mental health—that platforms initially disputed.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-reuters-institute",
+          "snippet": "The Reuters Institute Digital News Report documents long-term research into platform effects on news consumption, polarization, and trust.",
+          "supports": "background",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-haugen-facebook-papers",
+          "snippet": "The Facebook Papers disclosed internal company research that often confirmed or amplified external academic findings on mental health and polarization.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Platforms frequently dispute causal interpretation, noting that much research is correlational and that effect sizes vary across populations and study designs.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Investigative journalism and whistleblower leaks have forced public debate and some design changes.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-haugen-facebook-papers",
+          "snippet": "Disclosures attributed to Frances Haugen generated congressional hearings, regulatory inquiries, and public debate about Instagram's impact on teens and algorithmic amplification.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-wikipedia-cambridge-analytica",
+          "snippet": "The Facebook–Cambridge Analytica scandal, reported by investigative journalists, led to global hearings, fines, and platform changes around data access and third-party apps.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-reuters-institute",
+          "snippet": "Reuters Institute research tracks how investigative reporting on platform power shapes public trust and regulatory demand across markets.",
+          "supports": "background",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Public attention from leaks is often short-lived; many disclosed practices continue in modified form, and design changes are difficult to verify externally.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Shareholder and employee activism can shift corporate priorities when framed in business-risk terms.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-haugen-facebook-papers",
+          "snippet": "Employee dissent and internal research leaks increased perceived business and regulatory risk around content moderation and teen mental health.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-reuters-institute",
+          "snippet": "Industry and shareholder attention to platform trust and safety has grown as regulatory risk and brand risk have become more material to valuations.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Employee and shareholder pressure is sporadic, can be overridden by revenue priorities, and rarely produces structural business-model change on its own.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Civil-society campaigns help translate technical findings into public demand and policy proposals.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-cis-india",
+          "snippet": "CIS India produces research and commentary that translates technical platform-governance issues into policy-relevant analysis for Indian lawmakers and the public.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-internet-freedom-foundation",
+          "snippet": "The Internet Freedom Foundation runs public campaigns and litigation that turn technical concerns about surveillance, net neutrality, and platform power into civic demand.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-reuters-institute",
+          "snippet": "Reuters Institute surveys document growing public and regulatory demand for platform accountability in news and information ecosystems.",
+          "supports": "background",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Civil-society campaigns can be under-resourced, poorly representative, or captured by ideological framing, limiting their legitimacy and durability.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-haugen-facebook-papers",
+      "title": "The Facebook Papers / Frances Haugen",
+      "url": "https://en.wikipedia.org/wiki/Facebook_Papers",
+      "type": "document-collection",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-reuters-institute",
+      "title": "Reuters Institute: Digital News Report",
+      "url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-cis-india",
+      "title": "CIS India: Internet Governance Research",
+      "url": "https://cis-india.org/",
+      "type": "website",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-internet-freedom-foundation",
+      "title": "Internet Freedom Foundation (India)",
+      "url": "https://internetfreedom.in/",
+      "type": "website",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-wikipedia-cambridge-analytica",
+      "title": "Wikipedia: Facebook–Cambridge Analytica data scandal",
+      "url": "https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal",
+      "type": "document-collection",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:user-migration-and-the-exit-problem"
+    },
+    {
+      "type": "article",
+      "id": "article:friction-chronological-feeds-user-chosen-algorithms"
+    },
+    {
+      "type": "article",
+      "id": "article:business-models-that-reward-substance"
+    },
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    }
+  ],
+  "agentInstructions": [
+    "Treat this article as a synthesis chapter in the Attention, Substance, and the AI Moment series (Part 6: Synthesis and Action).",
+    "Use claim IDs as the retrieval unit and source IDs for evidence tracing; do not invent internal documents or leaks.",
+    "Preserve the evidence-cautious tone: informal accountability complements but does not replace regulation.",
+    "When discussing India, prioritize public sources from organizations such as CIS India and the Internet Freedom Foundation.",
+    "Flag any source that summarizes or aggregates primary disclosures so readers do not mistake it for the original document.",
+    "The article includes a Mermaid network diagram of the accountability ecosystem in the section following Claim C2."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:4c7e09e0478375c49ed451257bfce1b5d45dda134437fc364f48e4b43aa629f4",
+        "outputHash": "sha256:4c7e09e0478375c49ed451257bfce1b5d45dda134437fc364f48e4b43aa629f4"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "68bec887e19009714f520ce36bd33d54455a39d01f99a87004882009f3703e43"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "68bec887e19009714f520ce36bd33d54455a39d01f99a87004882009f3703e43"
+}

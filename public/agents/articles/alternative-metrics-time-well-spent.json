@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 3,
+  "id": "article:alternative-metrics-time-well-spent",
+  "slug": "alternative-metrics-time-well-spent",
+  "title": "Alternative Metrics: Time Well Spent, Sustainability, Learning, Civic Value",
+  "canonicalPath": "/articles/alternative-metrics-time-well-spent/",
+  "sourcePath": "content/articles/2026/alternative-metrics-time-well-spent/article.md",
+  "agentBriefPath": "content/articles/2026/alternative-metrics-time-well-spent/agent.md",
+  "thesis": "Replacing engagement-based optimization requires a contested but necessary conversation about what counts as success—time well spent, learning, well-being, civic value, and long-term platform health.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "metrics",
+    "design",
+    "platform-governance",
+    "civic-tech"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 38,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Engagement metrics are not neutral; they encode a business model and a theory of user value.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-humane-tech",
+          "snippet": "The Center for Humane Technology documents how attention-economy product design—autoplay, infinite scroll, variable rewards—emerges from optimization for engagement and advertising revenue.",
+          "supports": "background",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-youtube-research",
+          "snippet": "YouTube's responsibility research acknowledges that optimizing purely for watch time can surface content that keeps users watching but that they later regret.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-mozilla-youtube-regrets",
+          "snippet": "Mozilla Foundation's YouTube Regrets research found that watch-time optimization surfaces misleading or harmful content because extreme material captures attention.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Platforms argue that engagement metrics also reflect genuine user preference and satisfaction, and that many users actively choose entertainment over more demanding content.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Proposed alternatives include time well spent, meaningful social interaction, learning outcomes, and civic participation.",
+      "confidence": "medium-high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-mosseri-time-well-spent",
+          "snippet": "Adam Mosseri's 2018 post on 'Defining Time Well Spent' describes Instagram's intent to measure the value users feel after a session rather than only the time spent.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-humane-tech",
+          "snippet": "Humane-technology advocates propose a basket of metrics—well-being, meaningful connection, learning, and civic engagement—as healthier targets than pure attention.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "These categories overlap and are difficult to operationalize; different stakeholders will disagree on what counts as meaningful, learning, or civic value.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Each alternative metric can be gamed and requires safeguards.",
+      "confidence": "medium-high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-mozilla-youtube-regrets",
+          "snippet": "Mozilla Foundation's YouTube Regrets research found that watch-time optimization can surface misleading, hateful, or disturbing content because extreme material captures attention.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-eu-digital-services-act",
+          "snippet": "The EU Digital Services Act requires large platforms to assess systemic risks and subject their algorithms to external audits, acknowledging that disclosed metrics need oversight.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Engagement metrics are already gamed today; adding safeguards for new metrics raises compliance costs that may favor large incumbents over smaller alternatives.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "The first step is to make metrics visible and debatable rather than treating engagement as inevitable.",
+      "confidence": "medium",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-eu-digital-services-act",
+          "snippet": "The EU Digital Services Act requires large platforms to explain recommender systems and offer non-profiling alternatives such as chronological feeds.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-humane-tech",
+          "snippet": "Advocates for humane technology argue that public awareness and debate about optimization targets are prerequisites for any structural change in platform design.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Disclosing metrics can reveal trade secrets, be ignored by users, or be captured by adversarial actors who optimize against the public interest.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-humane-tech",
+      "title": "Center for Humane Technology",
+      "url": "https://www.humanetech.com/",
+      "type": "website",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-mosseri-time-well-spent",
+      "title": "Adam Mosseri: Defining Time Well Spent",
+      "url": "https://about.instagram.com/blog/announcements/defining-time-well-spent",
+      "type": "article",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-youtube-research",
+      "title": "YouTube: Responsibility research",
+      "url": "https://research.youtube/categories/responsibility/",
+      "type": "website",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-mozilla-youtube-regrets",
+      "title": "Mozilla Foundation: YouTube Regrets Research",
+      "url": "https://foundation.mozilla.org/en/campaigns/youtube-regrets/",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-eu-digital-services-act",
+      "title": "EU Digital Services Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:engagement-is-a-design-choice"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "article",
+      "id": "article:public-pressure-and-internal-accountability"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit; treat each claim as a distinct conceptual point in the Designing for Substance arc.",
+    "Preserve the evidence-cautious, conceptual tone; this article surveys design choices and policy proposals, not causal behavioral findings.",
+    "When citing sources, use the source IDs and URLs from the artifact; do not invent platform metrics or internal data.",
+    "For India-specific usage numbers, route readers to the Diagnosis articles rather than generalizing from global platform statements.",
+    "Always pair discussion of alternative metrics with their gaming risks and the need for audits, transparency, and human judgment."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:0f226f0544a2f66b727125a8688a916d0f886aef4c081d11aa02aa3780834ba7",
+        "outputHash": "sha256:0f226f0544a2f66b727125a8688a916d0f886aef4c081d11aa02aa3780834ba7"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "c49c8db8fad9468f2f5de96d655457175a9767d0cceb457918fc831a32e0856c"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "c49c8db8fad9468f2f5de96d655457175a9767d0cceb457918fc831a32e0856c",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/alternative-metrics-time-well-spent/",
+  "agentJsonPath": "/agents/articles/alternative-metrics-time-well-spent.json",
+  "agentMarkdownPath": "/agents/articles/alternative-metrics-time-well-spent.md",
+  "sourceRepoPath": "content/articles/2026/alternative-metrics-time-well-spent/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/alternative-metrics-time-well-spent/article.md",
+  "tokenEstimate": 270,
+  "sectionOutline": [
+    {
+      "id": "the-metric-is-the-message",
+      "title": "The Metric Is the Message"
+    },
+    {
+      "id": "what-counts-as-time-well-spent",
+      "title": "What Counts as Time Well Spent?"
+    },
+    {
+      "id": "every-number-can-be-gamed",
+      "title": "Every Number Can Be Gamed"
+    },
+    {
+      "id": "make-metrics-visible-and-debatable",
+      "title": "Make Metrics Visible and Debatable"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

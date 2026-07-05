@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "topic": "elderly",
+  "articleIds": [
+    "article:age-appropriate-design"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/elderly/",
+  "agentJsonPath": "/agents/topics/elderly.json",
+  "articles": [
+    {
+      "id": "article:age-appropriate-design",
+      "slug": "age-appropriate-design",
+      "title": "Age-Appropriate Design and Protecting Vulnerable Users",
+      "summary": "Argues for age-appropriate design defaults, friction, and verification to protect children, elderly users, and others who are especially vulnerable to extraction.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "children",
+        "elderly",
+        "literacy",
+        "regulation"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "children",
+        "elderly",
+        "literacy",
+        "regulation"
+      ],
+      "canonicalPath": "/articles/age-appropriate-design/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/age-appropriate-design/",
+      "agentJsonPath": "/agents/articles/age-appropriate-design.json",
+      "agentMarkdownPath": "/agents/articles/age-appropriate-design.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 5,
+      "sourceCount": 5,
+      "tokenEstimate": 225,
+      "contentHash": "a546bd6f8a1c89e8d2fc8642d920c6b5326377cabfdec6332b849e1dd5c7abe4"
+    }
+  ]
+}

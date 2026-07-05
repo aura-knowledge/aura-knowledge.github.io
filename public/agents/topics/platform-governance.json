@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "topic": "platform-governance",
+  "articleIds": [
+    "article:alternative-metrics-time-well-spent",
+    "article:india-in-global-context",
+    "article:public-pressure-and-internal-accountability"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/platform-governance/",
+  "agentJsonPath": "/agents/topics/platform-governance.json",
+  "articles": [
+    {
+      "id": "article:alternative-metrics-time-well-spent",
+      "slug": "alternative-metrics-time-well-spent",
+      "title": "Alternative Metrics: Time Well Spent, Sustainability, Learning, Civic Value",
+      "summary": "Surveys proposed alternatives to engagement-based metrics and their tradeoffs: time well spent, learning outcomes, civic value, and sustainability.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "metrics",
+        "design",
+        "platform-governance",
+        "civic-tech"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "metrics",
+        "design",
+        "platform-governance",
+        "civic-tech"
+      ],
+      "canonicalPath": "/articles/alternative-metrics-time-well-spent/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/alternative-metrics-time-well-spent/",
+      "agentJsonPath": "/agents/articles/alternative-metrics-time-well-spent.json",
+      "agentMarkdownPath": "/agents/articles/alternative-metrics-time-well-spent.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 270,
+      "contentHash": "c49c8db8fad9468f2f5de96d655457175a9767d0cceb457918fc831a32e0856c"
+    },
+    {
+      "id": "article:india-in-global-context",
+      "slug": "india-in-global-context",
+      "title": "India in Global Context: The Attention Economy Is Not Only an Indian Story",
+      "summary": "Compares India with Brazil, Indonesia, Nigeria, the US, and China on screen time, platform concentration, and regulatory responses.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "global-comparison",
+        "platform-governance",
+        "regulation"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "global-comparison",
+        "platform-governance",
+        "regulation"
+      ],
+      "canonicalPath": "/articles/india-in-global-context/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/india-in-global-context/",
+      "agentJsonPath": "/agents/articles/india-in-global-context.json",
+      "agentMarkdownPath": "/agents/articles/india-in-global-context.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 7,
+      "tokenEstimate": 195,
+      "contentHash": "5742b77c6207ba7ffde81785f57dfc69e8dd1490b315ccb7a83c1bf3fbe6e635"
+    },
+    {
+      "id": "article:public-pressure-and-internal-accountability",
+      "slug": "public-pressure-and-internal-accountability",
+      "title": "Public Pressure and Internal Accountability",
+      "summary": "Maps the ecosystem of non-regulatory accountability: investigative reporting, internal leaks, shareholder pressure, civil-society campaigns, and academic research.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "accountability",
+        "platform-governance",
+        "civil-society"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "accountability",
+        "platform-governance",
+        "civil-society"
+      ],
+      "canonicalPath": "/articles/public-pressure-and-internal-accountability/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/public-pressure-and-internal-accountability/",
+      "agentJsonPath": "/agents/articles/public-pressure-and-internal-accountability.json",
+      "agentMarkdownPath": "/agents/articles/public-pressure-and-internal-accountability.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 245,
+      "contentHash": "68bec887e19009714f520ce36bd33d54455a39d01f99a87004882009f3703e43"
+    }
+  ]
+}

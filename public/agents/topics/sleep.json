@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "topic": "sleep",
+  "articleIds": [
+    "article:sleep-anxiety-and-tele-manas"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/sleep/",
+  "agentJsonPath": "/agents/topics/sleep.json",
+  "articles": [
+    {
+      "id": "article:sleep-anxiety-and-tele-manas",
+      "slug": "sleep-anxiety-and-tele-manas",
+      "title": "Sleep, Anxiety, and the Tele-MANAS Signal",
+      "summary": "Interprets Tele-MANAS call data and adolescent mental-health surveys as a public-health signal, not moral failure, and connects them to attention-extraction design.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "mental-health",
+        "sleep",
+        "adolescents"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "mental-health",
+        "sleep",
+        "adolescents",
+        "tele-manas"
+      ],
+      "canonicalPath": "/articles/sleep-anxiety-and-tele-manas/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/sleep-anxiety-and-tele-manas/",
+      "agentJsonPath": "/agents/articles/sleep-anxiety-and-tele-manas.json",
+      "agentMarkdownPath": "/agents/articles/sleep-anxiety-and-tele-manas.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 289,
+      "contentHash": "e8ccd9151baf4e024b495b460d573216a555cab229668ef062e22caa22d02be3"
+    }
+  ]
+}

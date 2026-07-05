@@ -22,7 +22,7 @@ agentArtifact: /agents/articles/the-small-rep-theory.json
 sourcePath: content/articles/2026/the-small-rep-theory/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 4: Building Substance</p>
+<p class="article-kicker">Attention, Substance, and the AI Moment · Part 4</p>
 
 The most common failure mode of self-improvement is not laziness. It is heroic ambition followed by quiet abandonment. A person decides to learn Hindi coding tutorials, wake at five, post daily, and finish a course every weekend. They last ten days, miss one morning, feel defeated, and stop.
 

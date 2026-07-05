@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "topic": "public-space",
+  "articleIds": [
+    "article:public-space-and-private-screens"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/public-space/",
+  "agentJsonPath": "/agents/topics/public-space.json",
+  "articles": [
+    {
+      "id": "article:public-space-and-private-screens",
+      "slug": "public-space-and-private-screens",
+      "title": "Public Space and Private Screens: The Commute Is Not Empty",
+      "summary": "Uses observational and survey evidence to describe how phones and headphones reshape public space in India, and what incidental conversation, learning, and solidarity are displaced.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "social-cohesion",
+        "public-space"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "social-cohesion",
+        "public-space"
+      ],
+      "canonicalPath": "/articles/public-space-and-private-screens/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/public-space-and-private-screens/",
+      "agentJsonPath": "/agents/articles/public-space-and-private-screens.json",
+      "agentMarkdownPath": "/agents/articles/public-space-and-private-screens.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 343,
+      "contentHash": "a6b188c0cb5f28a1ccc4d40f2d8ad67ceb0a27e23ab576b5d5b15efb7d6997c8"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "horizontal_bar",
+  "csv": "venture-funding-by-sector.csv",
+  "filename": "venture-funding-by-sector.svg",
+  "title": "Estimated share of Indian venture funding by sector",
+  "x_key": "sector",
+  "y_key": "funding_pct",
+  "x_label": "Estimated share of funding (%)",
+  "source": "IVCA and Tracxn sector estimates",
+  "caveat": "Illustrative shares based on reported sector aggregates; definitions vary across sources."
+}

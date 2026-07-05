@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:before-machines
 articleId: article:before-machines
 slug: before-machines
-title: 'Agent Brief for "Before Machines: Calculation, Automata, and the Dream of Mechanical Reason"'
+title: "Agent Brief for 'Before Machines: Calculation, Automata, and the Dream of Mechanical Reason'"
 tokenBudget: 1200
 status: published
 updated: 2026-06-20

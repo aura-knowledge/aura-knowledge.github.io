@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:the-student-screen-education-vs-entertainment
 articleId: article:the-student-screen-education-vs-entertainment
 slug: the-student-screen-education-vs-entertainment
-title: 'Agent Brief for "The Student Screen"'
+title: "Agent Brief for 'The Student Screen'"
 tokenBudget: 1500
 status: published
 updated: 2026-07-05

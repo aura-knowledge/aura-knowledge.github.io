@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "topic": "media",
+  "articleIds": [
+    "article:business-models-that-reward-substance"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/media/",
+  "agentJsonPath": "/agents/topics/media.json",
+  "articles": [
+    {
+      "id": "article:business-models-that-reward-substance",
+      "slug": "business-models-that-reward-substance",
+      "title": "Business Models That Reward Substance",
+      "summary": "Compares revenue models and their incentive effects, arguing that business-model diversity is a precondition for design diversity.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "business-models",
+        "platform-design",
+        "media"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "business-models",
+        "platform-design",
+        "media"
+      ],
+      "canonicalPath": "/articles/business-models-that-reward-substance/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/business-models-that-reward-substance/",
+      "agentJsonPath": "/agents/articles/business-models-that-reward-substance.json",
+      "agentMarkdownPath": "/agents/articles/business-models-that-reward-substance.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 234,
+      "contentHash": "1f26ad853add00b6e05b7af85889c558fb8c18f1e43d28bf32d4b47c8fc5f970"
+    }
+  ]
+}

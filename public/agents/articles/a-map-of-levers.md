@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:a-map-of-levers
 articleId: article:a-map-of-levers
 slug: a-map-of-levers
-title: 'Agent Brief for "A Map of Levers"'
+title: "Agent Brief for 'A Map of Levers'"
 tokenBudget: 1500
 status: published
 updated: 2026-07-05

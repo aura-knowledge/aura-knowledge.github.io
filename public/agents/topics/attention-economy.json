@@ -4,24 +4,52 @@
   "articleIds": [
     "article:a-map-of-levers",
     "article:a-readers-guide-to-the-series",
+    "article:age-appropriate-design",
+    "article:ai-as-journeyman-assistant",
+    "article:ai-could-make-extraction-cheaper-too",
+    "article:alternative-metrics-time-well-spent",
     "article:attention-substance-ai-moment",
+    "article:bhashini-and-the-indic-language-ai-moment",
+    "article:business-models-that-reward-substance",
     "article:by-the-numbers-what-indians-do-online",
     "article:designing-for-substance",
     "article:engagement-is-a-design-choice",
+    "article:failure-teaching-and-the-skill-stack",
+    "article:friction-chronological-feeds-user-chosen-algorithms",
     "article:gender-and-the-attention-economy",
+    "article:historical-analogies-of-missed-transitions",
+    "article:historical-hinges-access-is-not-benefit",
+    "article:india-in-global-context",
+    "article:open-questions-the-series-leaves-unresolved",
+    "article:product-ideas-that-could-shift-incentives",
+    "article:public-pressure-and-internal-accountability",
+    "article:public-space-and-private-screens",
     "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+    "article:sleep-anxiety-and-tele-manas",
     "article:the-attention-extraction",
     "article:the-better-question",
+    "article:the-citizens-garden",
     "article:the-compounding-bet",
     "article:the-creator-economys-incentive-trap",
+    "article:the-demographic-dividend-is-not-automatic",
+    "article:the-design-of-extraction",
     "article:the-engagement-gap-productivity-india",
+    "article:the-familys-garden",
     "article:the-generational-bet",
+    "article:the-green-revolution-trade-off",
     "article:the-indic-language-internet-and-vernacular-feeds",
+    "article:the-jio-effect-cheap-data-access-behavior",
     "article:the-life-phase-thread",
+    "article:the-reel-nation-short-form-video",
     "article:the-small-rep-theory",
     "article:the-student-screen-education-vs-entertainment",
+    "article:the-students-garden",
+    "article:the-workers-garden",
+    "article:tobacco-seatbelts-food-safety",
     "article:trust-and-outrage-platforms-and-cohesion",
+    "article:user-migration-and-the-exit-problem",
     "article:what-ai-makes-cheap",
+    "article:what-india-is-building-vs-could-build",
     "article:who-profits-advertising-foreign-platforms"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/attention-economy/",
@@ -59,7 +87,7 @@
       "claimCount": 8,
       "sourceCount": 13,
       "tokenEstimate": 860,
-      "contentHash": "3bfb89f509202214b6454cd92bff340dc6322aafafcbad5d08b0cdaef4ef9c96"
+      "contentHash": "6f361b3969e6d350c7c0af935801c329a62bd65a0fb4a9689d43672c369ad00f"
     },
     {
       "id": "article:a-readers-guide-to-the-series",
@@ -90,7 +118,145 @@
       "claimCount": 5,
       "sourceCount": 7,
       "tokenEstimate": 532,
-      "contentHash": "fcbc0027046f452e0114248491dbb9c4cf1afbe846dc59443bf67b78583548d7"
+      "contentHash": "9a4cba9103f7f8abdd9b275013c8a883635d88fbda37325216e7767a0140eb59"
+    },
+    {
+      "id": "article:age-appropriate-design",
+      "slug": "age-appropriate-design",
+      "title": "Age-Appropriate Design and Protecting Vulnerable Users",
+      "summary": "Argues for age-appropriate design defaults, friction, and verification to protect children, elderly users, and others who are especially vulnerable to extraction.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "children",
+        "elderly",
+        "literacy",
+        "regulation"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "children",
+        "elderly",
+        "literacy",
+        "regulation"
+      ],
+      "canonicalPath": "/articles/age-appropriate-design/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/age-appropriate-design/",
+      "agentJsonPath": "/agents/articles/age-appropriate-design.json",
+      "agentMarkdownPath": "/agents/articles/age-appropriate-design.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 5,
+      "sourceCount": 5,
+      "tokenEstimate": 225,
+      "contentHash": "a546bd6f8a1c89e8d2fc8642d920c6b5326377cabfdec6332b849e1dd5c7abe4"
+    },
+    {
+      "id": "article:ai-as-journeyman-assistant",
+      "slug": "ai-as-journeyman-assistant",
+      "title": "AI as a Journeyman Assistant, Not a Replacement",
+      "summary": "Practical guidance on treating AI as a collaborator that drafts, translates, tutors, and debugs, while keeping the human learner in the driver's seat.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "ai-assisted-learning"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "ai-assisted-learning"
+      ],
+      "canonicalPath": "/articles/ai-as-journeyman-assistant/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-as-journeyman-assistant/",
+      "agentJsonPath": "/agents/articles/ai-as-journeyman-assistant.json",
+      "agentMarkdownPath": "/agents/articles/ai-as-journeyman-assistant.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 351,
+      "contentHash": "f903bc9ab7a692495e3c84d51f2db293c6ab2315a047e8b82ebad48b74d07c56"
+    },
+    {
+      "id": "article:ai-could-make-extraction-cheaper-too",
+      "slug": "ai-could-make-extraction-cheaper-too",
+      "title": "AI Could Make Extraction Cheaper Too",
+      "summary": "Surveys how AI can amplify attention extraction through synthetic media, hyper-personalization, and automated influence, and argues for guardrails before scale.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "synthetic-media",
+        "misinformation",
+        "platform-design"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "synthetic-media",
+        "misinformation",
+        "platform-design"
+      ],
+      "canonicalPath": "/articles/ai-could-make-extraction-cheaper-too/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-could-make-extraction-cheaper-too/",
+      "agentJsonPath": "/agents/articles/ai-could-make-extraction-cheaper-too.json",
+      "agentMarkdownPath": "/agents/articles/ai-could-make-extraction-cheaper-too.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 218,
+      "contentHash": "4a8f4a51566f82bb931985a3032e0fb32c4d87f3004971d2d2744db36a5d3da9"
+    },
+    {
+      "id": "article:alternative-metrics-time-well-spent",
+      "slug": "alternative-metrics-time-well-spent",
+      "title": "Alternative Metrics: Time Well Spent, Sustainability, Learning, Civic Value",
+      "summary": "Surveys proposed alternatives to engagement-based metrics and their tradeoffs: time well spent, learning outcomes, civic value, and sustainability.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "metrics",
+        "design",
+        "platform-governance",
+        "civic-tech"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "metrics",
+        "design",
+        "platform-governance",
+        "civic-tech"
+      ],
+      "canonicalPath": "/articles/alternative-metrics-time-well-spent/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/alternative-metrics-time-well-spent/",
+      "agentJsonPath": "/agents/articles/alternative-metrics-time-well-spent.json",
+      "agentMarkdownPath": "/agents/articles/alternative-metrics-time-well-spent.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 270,
+      "contentHash": "c49c8db8fad9468f2f5de96d655457175a9767d0cceb457918fc831a32e0856c"
     },
     {
       "id": "article:attention-substance-ai-moment",
@@ -121,7 +287,73 @@
       "claimCount": 1,
       "sourceCount": 2,
       "tokenEstimate": 465,
-      "contentHash": "e6e3f46b1414ff04e3dd733429ba07ca3c10aa200bfb968353fb689b19b17da9"
+      "contentHash": "17ed890d4dd63451002e282c8c6150ce6a7648061a0d3fc345b6468874e8f4de"
+    },
+    {
+      "id": "article:bhashini-and-the-indic-language-ai-moment",
+      "slug": "bhashini-and-the-indic-language-ai-moment",
+      "title": "Bhashini and the Indic-Language AI Moment",
+      "summary": "How Indic-language AI could turn India's language diversity from a barrier into a creative force for substantive content.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "ai",
+        "language",
+        "bhashini"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "ai",
+        "language",
+        "bhashini"
+      ],
+      "canonicalPath": "/articles/bhashini-and-the-indic-language-ai-moment/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/bhashini-and-the-indic-language-ai-moment/",
+      "agentJsonPath": "/agents/articles/bhashini-and-the-indic-language-ai-moment.json",
+      "agentMarkdownPath": "/agents/articles/bhashini-and-the-indic-language-ai-moment.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 304,
+      "contentHash": "6a393859a7b5f8c68f9d6b663a8c104f9381878194747a5b6056966d4ff6e7e8"
+    },
+    {
+      "id": "article:business-models-that-reward-substance",
+      "slug": "business-models-that-reward-substance",
+      "title": "Business Models That Reward Substance",
+      "summary": "Compares revenue models and their incentive effects, arguing that business-model diversity is a precondition for design diversity.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "business-models",
+        "platform-design",
+        "media"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "business-models",
+        "platform-design",
+        "media"
+      ],
+      "canonicalPath": "/articles/business-models-that-reward-substance/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/business-models-that-reward-substance/",
+      "agentJsonPath": "/agents/articles/business-models-that-reward-substance.json",
+      "agentMarkdownPath": "/agents/articles/business-models-that-reward-substance.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 234,
+      "contentHash": "1f26ad853add00b6e05b7af85889c558fb8c18f1e43d28bf32d4b47c8fc5f970"
     },
     {
       "id": "article:by-the-numbers-what-indians-do-online",
@@ -152,7 +384,7 @@
       "claimCount": 7,
       "sourceCount": 12,
       "tokenEstimate": 739,
-      "contentHash": "30aaa419aeab9e4e13f2417ccb346572a874a8d914e354a1f4e1437eb9b39ae2"
+      "contentHash": "fcf6ac5f114e1e55afc7a19730472993c0cd7613be40a7771e9fdb1adbac4abc"
     },
     {
       "id": "article:designing-for-substance",
@@ -185,7 +417,7 @@
       "claimCount": 5,
       "sourceCount": 7,
       "tokenEstimate": 597,
-      "contentHash": "0b2a3c9e15c58c7d9e62e4a008f4efed10935f844ea50d7f3733c7533040b9d3"
+      "contentHash": "776a597d5a9045184d75499b50b88b35a5a7ef2378a72ce17e300f6967a070c3"
     },
     {
       "id": "article:engagement-is-a-design-choice",
@@ -218,7 +450,81 @@
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 879,
-      "contentHash": "b658a45e5e248472079d1560ae0fbd12abc49064c4f12c28d1b1abee730fd06a"
+      "contentHash": "7585c03a336b10fe1b3acc19fdafc0bf8de138d8c6de08d781f634649a090e94"
+    },
+    {
+      "id": "article:failure-teaching-and-the-skill-stack",
+      "slug": "failure-teaching-and-the-skill-stack",
+      "title": "Failure, Teaching, and the Skill Stack",
+      "summary": "Argues that early failure and public teaching are features, not bugs, of building substance over time.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "skill-building",
+        "deliberate-practice",
+        "learning",
+        "ai-assisted-creation",
+        "failure",
+        "teaching"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "skill-building",
+        "deliberate-practice",
+        "learning",
+        "ai-assisted-creation",
+        "failure",
+        "teaching"
+      ],
+      "canonicalPath": "/articles/failure-teaching-and-the-skill-stack/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/failure-teaching-and-the-skill-stack/",
+      "agentJsonPath": "/agents/articles/failure-teaching-and-the-skill-stack.json",
+      "agentMarkdownPath": "/agents/articles/failure-teaching-and-the-skill-stack.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 276,
+      "contentHash": "a95e00e39cc83a61256a5b2cad5c72ac975e7defb21cbcb83bb7357594bfe387"
+    },
+    {
+      "id": "article:friction-chronological-feeds-user-chosen-algorithms",
+      "slug": "friction-chronological-feeds-user-chosen-algorithms",
+      "title": "Friction, Chronological Feeds, and User-Chosen Algorithms",
+      "summary": "Surveys evidence on design interventions that reduce extraction: chronological feeds, friction before sharing, and user control over ranking algorithms.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "social-media",
+        "misinformation",
+        "algorithms"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "social-media",
+        "misinformation",
+        "algorithms"
+      ],
+      "canonicalPath": "/articles/friction-chronological-feeds-user-chosen-algorithms/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
+      "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json",
+      "agentMarkdownPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 277,
+      "contentHash": "21521e52b917b8a7564cddfdbfaf85536a76943b744c02e3c161db15cd5cc3ef"
     },
     {
       "id": "article:gender-and-the-attention-economy",
@@ -249,7 +555,248 @@
       "claimCount": 7,
       "sourceCount": 6,
       "tokenEstimate": 901,
-      "contentHash": "d6c669b3e663a43e8bd886da687b89e85f33efcde536f010006a9952e8241d0c"
+      "contentHash": "9293a231c785b90054853fa00438bddc4f8aaf91e35cbf580211c88327b2b44f"
+    },
+    {
+      "id": "article:historical-analogies-of-missed-transitions",
+      "slug": "historical-analogies-of-missed-transitions",
+      "title": "Historical Analogies of Missed Transitions",
+      "summary": "Uses cross-country historical comparisons to show that missing a technology transition has persistent economic and geopolitical consequences.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "history",
+        "productivity",
+        "economic-development"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "history",
+        "productivity",
+        "economic-development"
+      ],
+      "canonicalPath": "/articles/historical-analogies-of-missed-transitions/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/historical-analogies-of-missed-transitions/",
+      "agentJsonPath": "/agents/articles/historical-analogies-of-missed-transitions.json",
+      "agentMarkdownPath": "/agents/articles/historical-analogies-of-missed-transitions.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 303,
+      "contentHash": "f8d7648a11dc2580fd1d8984244dfc3249c23a4251f1b38b96816b6aec01bafd"
+    },
+    {
+      "id": "article:historical-hinges-access-is-not-benefit",
+      "slug": "historical-hinges-access-is-not-benefit",
+      "title": "Historical Hinges: When Access to a Tool Did Not Guarantee Its Benefits",
+      "summary": "Uses historical technology transitions to show that access alone does not determine benefit; the distribution of gains depends on institutions, literacy, and norms.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "technology",
+        "institutions",
+        "artificial-intelligence"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "technology",
+        "institutions",
+        "artificial-intelligence"
+      ],
+      "canonicalPath": "/articles/historical-hinges-access-is-not-benefit/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/historical-hinges-access-is-not-benefit/",
+      "agentJsonPath": "/agents/articles/historical-hinges-access-is-not-benefit.json",
+      "agentMarkdownPath": "/agents/articles/historical-hinges-access-is-not-benefit.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 392,
+      "contentHash": "5e05ae1fc7c89cf568d073ca3c18568fe28d658608f7ae231604d8780ea934ac"
+    },
+    {
+      "id": "article:india-in-global-context",
+      "slug": "india-in-global-context",
+      "title": "India in Global Context: The Attention Economy Is Not Only an Indian Story",
+      "summary": "Compares India with Brazil, Indonesia, Nigeria, the US, and China on screen time, platform concentration, and regulatory responses.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "global-comparison",
+        "platform-governance",
+        "regulation"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "global-comparison",
+        "platform-governance",
+        "regulation"
+      ],
+      "canonicalPath": "/articles/india-in-global-context/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/india-in-global-context/",
+      "agentJsonPath": "/agents/articles/india-in-global-context.json",
+      "agentMarkdownPath": "/agents/articles/india-in-global-context.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 7,
+      "tokenEstimate": 195,
+      "contentHash": "5742b77c6207ba7ffde81785f57dfc69e8dd1490b315ccb7a83c1bf3fbe6e635"
+    },
+    {
+      "id": "article:open-questions-the-series-leaves-unresolved",
+      "slug": "open-questions-the-series-leaves-unresolved",
+      "title": "Open Questions the Series Leaves Unresolved",
+      "summary": "Honest uncertainty about the attention economy—causality, culture, regulation, and the choices that will shape India's next decade.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "synthesis",
+        "policy",
+        "mental-health",
+        "design",
+        "artificial-intelligence"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "synthesis",
+        "policy",
+        "mental-health",
+        "design",
+        "artificial-intelligence"
+      ],
+      "canonicalPath": "/articles/open-questions-the-series-leaves-unresolved/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/open-questions-the-series-leaves-unresolved/",
+      "agentJsonPath": "/agents/articles/open-questions-the-series-leaves-unresolved.json",
+      "agentMarkdownPath": "/agents/articles/open-questions-the-series-leaves-unresolved.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 2,
+      "tokenEstimate": 288,
+      "contentHash": "fb0ac32ee6018b8b5be4644aa55dfb3be6c4c9937e5dcd6b75a858627eebc72e"
+    },
+    {
+      "id": "article:product-ideas-that-could-shift-incentives",
+      "slug": "product-ideas-that-could-shift-incentives",
+      "title": "Product Ideas That Could Shift the Incentives",
+      "summary": "Sketches product and platform alternatives—quality-based incentives, public-interest algorithms, creator reputation economies—that could reward substance over extraction.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "algorithms",
+        "creator-economy",
+        "platform-design"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "algorithms",
+        "creator-economy",
+        "platform-design"
+      ],
+      "canonicalPath": "/articles/product-ideas-that-could-shift-incentives/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
+      "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
+      "agentMarkdownPath": "/agents/articles/product-ideas-that-could-shift-incentives.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 6,
+      "tokenEstimate": 291,
+      "contentHash": "4dfd02f7205a72689d7b7f743e4e7b8a22f8075e5b3aa10606afc6942e733a6a"
+    },
+    {
+      "id": "article:public-pressure-and-internal-accountability",
+      "slug": "public-pressure-and-internal-accountability",
+      "title": "Public Pressure and Internal Accountability",
+      "summary": "Maps the ecosystem of non-regulatory accountability: investigative reporting, internal leaks, shareholder pressure, civil-society campaigns, and academic research.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "accountability",
+        "platform-governance",
+        "civil-society"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "accountability",
+        "platform-governance",
+        "civil-society"
+      ],
+      "canonicalPath": "/articles/public-pressure-and-internal-accountability/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/public-pressure-and-internal-accountability/",
+      "agentJsonPath": "/agents/articles/public-pressure-and-internal-accountability.json",
+      "agentMarkdownPath": "/agents/articles/public-pressure-and-internal-accountability.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 245,
+      "contentHash": "68bec887e19009714f520ce36bd33d54455a39d01f99a87004882009f3703e43"
+    },
+    {
+      "id": "article:public-space-and-private-screens",
+      "slug": "public-space-and-private-screens",
+      "title": "Public Space and Private Screens: The Commute Is Not Empty",
+      "summary": "Uses observational and survey evidence to describe how phones and headphones reshape public space in India, and what incidental conversation, learning, and solidarity are displaced.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "social-cohesion",
+        "public-space"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "social-cohesion",
+        "public-space"
+      ],
+      "canonicalPath": "/articles/public-space-and-private-screens/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/public-space-and-private-screens/",
+      "agentJsonPath": "/agents/articles/public-space-and-private-screens.json",
+      "agentMarkdownPath": "/agents/articles/public-space-and-private-screens.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 343,
+      "contentHash": "a6b188c0cb5f28a1ccc4d40f2d8ad67ceb0a27e23ab576b5d5b15efb7d6997c8"
     },
     {
       "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
@@ -282,7 +829,41 @@
       "claimCount": 7,
       "sourceCount": 9,
       "tokenEstimate": 747,
-      "contentHash": "07e1441b2711489b41140cf46bcf1a91ee20835c45b9a5e717f80e3f7bcd1523"
+      "contentHash": "f27b70499ea313a69588d6ad39220eda04243bb0e25eb05587b79e9d7183ed89"
+    },
+    {
+      "id": "article:sleep-anxiety-and-tele-manas",
+      "slug": "sleep-anxiety-and-tele-manas",
+      "title": "Sleep, Anxiety, and the Tele-MANAS Signal",
+      "summary": "Interprets Tele-MANAS call data and adolescent mental-health surveys as a public-health signal, not moral failure, and connects them to attention-extraction design.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "mental-health",
+        "sleep",
+        "adolescents"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "mental-health",
+        "sleep",
+        "adolescents",
+        "tele-manas"
+      ],
+      "canonicalPath": "/articles/sleep-anxiety-and-tele-manas/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/sleep-anxiety-and-tele-manas/",
+      "agentJsonPath": "/agents/articles/sleep-anxiety-and-tele-manas.json",
+      "agentMarkdownPath": "/agents/articles/sleep-anxiety-and-tele-manas.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 289,
+      "contentHash": "e8ccd9151baf4e024b495b460d573216a555cab229668ef062e22caa22d02be3"
     },
     {
       "id": "article:the-attention-extraction",
@@ -315,7 +896,7 @@
       "claimCount": 4,
       "sourceCount": 14,
       "tokenEstimate": 674,
-      "contentHash": "5b81fd168cb7606da30f36bd9a7c235d4b1977f8cae02a9e8ec4e1e628ce5fe9"
+      "contentHash": "a7b6211099e0e919f7287ce0d0569b8a5f13cae6ee9e4bff5b80f00e4aee5cb4"
     },
     {
       "id": "article:the-better-question",
@@ -346,7 +927,42 @@
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 797,
-      "contentHash": "1ec6e905e6de8680421cf67e230310b23cdd692295947717b63e91654185ff55"
+      "contentHash": "5b2dd30ccbdc6b8a0062de9648d4799310202bc46b06a4207a56aba88f3eef70"
+    },
+    {
+      "id": "article:the-citizens-garden",
+      "slug": "the-citizens-garden",
+      "title": "The Citizen's Garden: Local Knowledge plus AI",
+      "summary": "Shows how ordinary citizens can use AI to produce local knowledge and help neighbors, moving from online consumption to offline civic contribution.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "civic-tech",
+        "artificial-intelligence",
+        "local-knowledge",
+        "bhashini"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "civic-tech",
+        "artificial-intelligence",
+        "local-knowledge",
+        "bhashini"
+      ],
+      "canonicalPath": "/articles/the-citizens-garden/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-citizens-garden/",
+      "agentJsonPath": "/agents/articles/the-citizens-garden.json",
+      "agentMarkdownPath": "/agents/articles/the-citizens-garden.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 307,
+      "contentHash": "48249a1f571fa817161271612ebe803b794eedd8dc4389c16393b972dde65d1c"
     },
     {
       "id": "article:the-compounding-bet",
@@ -379,7 +995,7 @@
       "claimCount": 7,
       "sourceCount": 8,
       "tokenEstimate": 802,
-      "contentHash": "0c0895ce5054a37dcb895f36204883b905464bba6a736b441219cab2911e21d9"
+      "contentHash": "1d9dc1bd1cee040a792048ecab6acad39cf130a561507617cb60d79141158281"
     },
     {
       "id": "article:the-creator-economys-incentive-trap",
@@ -412,7 +1028,77 @@
       "claimCount": 7,
       "sourceCount": 8,
       "tokenEstimate": 869,
-      "contentHash": "39150f279bc25f4a7f2c09f7956e4c39706488916f9e976b0bf15f3be98fc41c"
+      "contentHash": "07cbff728144d28565712c71730df2a4bf456f39a87508fc5c2b46826b687362"
+    },
+    {
+      "id": "article:the-demographic-dividend-is-not-automatic",
+      "slug": "the-demographic-dividend-is-not-automatic",
+      "title": "The Demographic Dividend Is Not Automatic: Youth, Talent, and Time",
+      "summary": "Connects India's youth demographics to employment and skill data, arguing that the demographic dividend depends on how young people invest their attention.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "youth",
+        "employment",
+        "skills",
+        "ai"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "youth",
+        "employment",
+        "skills",
+        "ai"
+      ],
+      "canonicalPath": "/articles/the-demographic-dividend-is-not-automatic/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-demographic-dividend-is-not-automatic/",
+      "agentJsonPath": "/agents/articles/the-demographic-dividend-is-not-automatic.json",
+      "agentMarkdownPath": "/agents/articles/the-demographic-dividend-is-not-automatic.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 185,
+      "contentHash": "3046c0bc6ee177dfef3a39376fb328d53b6a95240cb02a5b0fcf3a3f9b829a93"
+    },
+    {
+      "id": "article:the-design-of-extraction",
+      "slug": "the-design-of-extraction",
+      "title": "The Design of Extraction: Variable Rewards, Notifications, and Dark Patterns",
+      "summary": "Catalogues the interaction-design patterns that keep users in feeds longer than intended, and why each one is a choice, not an inevitable feature of digital life.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "dark-patterns",
+        "notifications",
+        "variable-rewards"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "dark-patterns",
+        "notifications",
+        "variable-rewards"
+      ],
+      "canonicalPath": "/articles/the-design-of-extraction/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-design-of-extraction/",
+      "agentJsonPath": "/agents/articles/the-design-of-extraction.json",
+      "agentMarkdownPath": "/agents/articles/the-design-of-extraction.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 273,
+      "contentHash": "5e44c5454d692f76da527fa8e3ee7063c9465f8bc85a1e00aa48e2444050a219"
     },
     {
       "id": "article:the-engagement-gap-productivity-india",
@@ -443,7 +1129,40 @@
       "claimCount": 7,
       "sourceCount": 9,
       "tokenEstimate": 885,
-      "contentHash": "37b395d28cc12622855c5d9335ed413a64fb1ca258501f7734dc0ec8c1c29ba8"
+      "contentHash": "c6559982b5bafcebb56f9a83f05dfa123b3000a3c2652673a7aab96516e8eaa7"
+    },
+    {
+      "id": "article:the-familys-garden",
+      "slug": "the-familys-garden",
+      "title": "The Family's Garden: Attention Contracts at Home",
+      "summary": "Offers household-level strategies for managing screens: device-free meals, modeling, shared creative time, and age-appropriate boundaries.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "family",
+        "parenting",
+        "design"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "family",
+        "parenting",
+        "design"
+      ],
+      "canonicalPath": "/articles/the-familys-garden/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-familys-garden/",
+      "agentJsonPath": "/agents/articles/the-familys-garden.json",
+      "agentMarkdownPath": "/agents/articles/the-familys-garden.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 226,
+      "contentHash": "ff968f9345e84b466ac9e4d40307874bf36fae6549dc6c21cd1eb640324c3502"
     },
     {
       "id": "article:the-generational-bet",
@@ -476,7 +1195,42 @@
       "claimCount": 4,
       "sourceCount": 10,
       "tokenEstimate": 658,
-      "contentHash": "d1a2919152f83fe2f55afe29b161b63b6a5679343434f7257e2a3bcae0f26f20"
+      "contentHash": "273af6cb9297a078f5cc75f08c449a484b3b80cec535f6dd191ab2c5ead00571"
+    },
+    {
+      "id": "article:the-green-revolution-trade-off",
+      "slug": "the-green-revolution-trade-off",
+      "title": "The Green Revolution Trade-Off",
+      "summary": "Uses the Green Revolution as an analogy for solving one urgent problem while creating slower, structural costs that only become visible later.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "agriculture",
+        "analogy",
+        "long-term-thinking"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "agriculture",
+        "analogy",
+        "long-term-thinking"
+      ],
+      "canonicalPath": "/articles/the-green-revolution-trade-off/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-green-revolution-trade-off/",
+      "agentJsonPath": "/agents/articles/the-green-revolution-trade-off.json",
+      "agentMarkdownPath": "/agents/articles/the-green-revolution-trade-off.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 276,
+      "contentHash": "1c2ebd611bacda78168ee5d2f6376ec03f7b8d1fcc2bae2a1dc64bafda5dd2d4"
     },
     {
       "id": "article:the-indic-language-internet-and-vernacular-feeds",
@@ -507,7 +1261,40 @@
       "claimCount": 7,
       "sourceCount": 6,
       "tokenEstimate": 763,
-      "contentHash": "2cbd75681869256f55e76d86902ff8f7ca822f828a129971ae66da62ecfaef8d"
+      "contentHash": "34a702fd058cd8a36f46bfec32f7d490c09d2abd2d2de7212490775fb332729b"
+    },
+    {
+      "id": "article:the-jio-effect-cheap-data-access-behavior",
+      "slug": "the-jio-effect-cheap-data-access-behavior",
+      "title": "The Jio Effect: Cheap Data and the Access-Behavior Paradox",
+      "summary": "Traces how Jio's 2016 launch collapsed data prices, expanded access, and reshaped Indian internet behavior toward entertainment and short-form video.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "infrastructure",
+        "short-form-video"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "infrastructure",
+        "short-form-video"
+      ],
+      "canonicalPath": "/articles/the-jio-effect-cheap-data-access-behavior/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-jio-effect-cheap-data-access-behavior/",
+      "agentJsonPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.json",
+      "agentMarkdownPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 372,
+      "contentHash": "a7e6c9e3bb5844fe3469c9ce849cbb547700d9f59e374a603c2292503261f273"
     },
     {
       "id": "article:the-life-phase-thread",
@@ -538,7 +1325,42 @@
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 690,
-      "contentHash": "e8420e8ea044f5968c083af110f6791b1c08198e7e3f93b0c09343f3b41e25c0"
+      "contentHash": "738c73fe1a5cb46d123c7d9b52e19887acf36e270af5795c24dc5d651c66f3f3"
+    },
+    {
+      "id": "article:the-reel-nation-short-form-video",
+      "slug": "the-reel-nation-short-form-video",
+      "title": "The Reel Nation: Short-Form Video and the Economics of a Swipe",
+      "summary": "Examines the design mechanics and usage scale of short-form video in India, separating documented harms from hype and tracing the opportunity cost.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "short-form-video",
+        "mental-health",
+        "youth",
+        "design"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "short-form-video",
+        "mental-health",
+        "youth",
+        "design"
+      ],
+      "canonicalPath": "/articles/the-reel-nation-short-form-video/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-reel-nation-short-form-video/",
+      "agentJsonPath": "/agents/articles/the-reel-nation-short-form-video.json",
+      "agentMarkdownPath": "/agents/articles/the-reel-nation-short-form-video.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 6,
+      "tokenEstimate": 265,
+      "contentHash": "e79e3653a0aa31910577f9cd85eb541b2733d9911e37fb961f2b359c0bf3d26d"
     },
     {
       "id": "article:the-small-rep-theory",
@@ -571,7 +1393,7 @@
       "claimCount": 7,
       "sourceCount": 5,
       "tokenEstimate": 659,
-      "contentHash": "5b21a6af734bb37d8c42799003a7d00fd6d44b82978fd64d2a977c4b8a27e2d1"
+      "contentHash": "7ead4979bac4ecea0e4bb0cc52d08b41293f97697a50c89a3339a93da944ff0e"
     },
     {
       "id": "article:the-student-screen-education-vs-entertainment",
@@ -604,7 +1426,116 @@
       "claimCount": 8,
       "sourceCount": 10,
       "tokenEstimate": 796,
-      "contentHash": "a90414a4c60ab239eb04f1c458fa852e57f6e757a1fb853939485285b400779e"
+      "contentHash": "ef94b4d3b4278ba525440d5ece26522a3d391e42b5b85fa059fc5338fb4e3cf1"
+    },
+    {
+      "id": "article:the-students-garden",
+      "slug": "the-students-garden",
+      "title": "The Student's Garden: Learning in Public, Teaching in Private",
+      "summary": "Offers practical guidance for students using AI: active learning, public note-taking, peer teaching, and avoiding the answer-generation trap.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "education",
+        "active-learning",
+        "students"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "education",
+        "active-learning",
+        "students"
+      ],
+      "canonicalPath": "/articles/the-students-garden/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-students-garden/",
+      "agentJsonPath": "/agents/articles/the-students-garden.json",
+      "agentMarkdownPath": "/agents/articles/the-students-garden.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 492,
+      "contentHash": "73fada8fa9f0b4eb3b63b435a796680cbfbe9ab113b43386b4ba069dfbf13d60"
+    },
+    {
+      "id": "article:the-workers-garden",
+      "slug": "the-workers-garden",
+      "title": "The Worker's Garden: Commutes, Side Projects, and Career Capital",
+      "summary": "Practical strategies for working adults to reclaim commute and downtime for small acts of learning and creation.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "career",
+        "productivity",
+        "side-projects",
+        "adult-learning",
+        "artificial-intelligence"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "career",
+        "productivity",
+        "side-projects",
+        "adult-learning",
+        "artificial-intelligence"
+      ],
+      "canonicalPath": "/articles/the-workers-garden/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-workers-garden/",
+      "agentJsonPath": "/agents/articles/the-workers-garden.json",
+      "agentMarkdownPath": "/agents/articles/the-workers-garden.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 526,
+      "contentHash": "f28e4e718becf603328a3254ccea6537818f96b67f15980bfa50fb3ae15d148c"
+    },
+    {
+      "id": "article:tobacco-seatbelts-food-safety",
+      "slug": "tobacco-seatbelts-food-safety",
+      "title": "Tobacco, Seatbelts, and Food Safety: How Societies Learn to Regulate Design",
+      "summary": "Surveys public-health precedents to argue that attention-extraction platforms can be treated as design problems, not only user-responsibility problems.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "public-health",
+        "regulation",
+        "design",
+        "platform-accountability",
+        "history"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "public-health",
+        "regulation",
+        "design",
+        "platform-accountability",
+        "history"
+      ],
+      "canonicalPath": "/articles/tobacco-seatbelts-food-safety/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/tobacco-seatbelts-food-safety/",
+      "agentJsonPath": "/agents/articles/tobacco-seatbelts-food-safety.json",
+      "agentMarkdownPath": "/agents/articles/tobacco-seatbelts-food-safety.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 258,
+      "contentHash": "6807ba8589523997378deff3df9378a6210845cf01ed345ea8478510f1674d32"
     },
     {
       "id": "article:trust-and-outrage-platforms-and-cohesion",
@@ -637,7 +1568,44 @@
       "claimCount": 8,
       "sourceCount": 7,
       "tokenEstimate": 724,
-      "contentHash": "d4b1a6a3628cd9b1835bf350cceebf1917f37eca7760fb9e497cb23cd800f73a"
+      "contentHash": "58db791880b24a6ac451427a87506af3a68f3a83bb63ca881eb057ad23050116"
+    },
+    {
+      "id": "article:user-migration-and-the-exit-problem",
+      "slug": "user-migration-and-the-exit-problem",
+      "title": "User Migration and the Exit Problem",
+      "summary": "Explains why users rarely leave harmful platforms even when alternatives exist, and what interoperability and federation could change.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "network-effects",
+        "interoperability",
+        "federation",
+        "design",
+        "regulation"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "network-effects",
+        "interoperability",
+        "federation",
+        "design",
+        "regulation"
+      ],
+      "canonicalPath": "/articles/user-migration-and-the-exit-problem/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/user-migration-and-the-exit-problem/",
+      "agentJsonPath": "/agents/articles/user-migration-and-the-exit-problem.json",
+      "agentMarkdownPath": "/agents/articles/user-migration-and-the-exit-problem.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 161,
+      "contentHash": "126c5c98a26bf36a5dbcf056e09c2c2ec6c9220b7d23f311afa87ac893a5857a"
     },
     {
       "id": "article:what-ai-makes-cheap",
@@ -670,7 +1638,44 @@
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 778,
-      "contentHash": "36f08fb0c0f3fddf41eb669a1eab7f20979d1c313049bdd40c371f48bc2025d0"
+      "contentHash": "264b2f4d83d62522d93394f82867db70f7c874016f74b377ce9cdc585dfa8269"
+    },
+    {
+      "id": "article:what-india-is-building-vs-could-build",
+      "slug": "what-india-is-building-vs-could-build",
+      "title": "What India Is Building vs. What It Could Build",
+      "summary": "Compares India's current startup and innovation portfolio with the deep-tech and AI infrastructure it could prioritize.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "deep-tech",
+        "startups",
+        "venture-capital",
+        "innovation-policy"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "deep-tech",
+        "startups",
+        "venture-capital",
+        "innovation-policy"
+      ],
+      "canonicalPath": "/articles/what-india-is-building-vs-could-build/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/what-india-is-building-vs-could-build/",
+      "agentJsonPath": "/agents/articles/what-india-is-building-vs-could-build.json",
+      "agentMarkdownPath": "/agents/articles/what-india-is-building-vs-could-build.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 474,
+      "contentHash": "1c65c2cbfaabb5ee4c87a6d5e05fef5ea438e4fac17145b118be57d675855556"
     },
     {
       "id": "article:who-profits-advertising-foreign-platforms",
@@ -701,7 +1706,7 @@
       "claimCount": 6,
       "sourceCount": 8,
       "tokenEstimate": 859,
-      "contentHash": "176785871c9700f89f4a2eb07507e28b2c79cd03b8d69756476d3d4e8f2b1b9d"
+      "contentHash": "442c5c2d56bf142244756bfae0cd34f39d8f8c762ee19c6bd96fd0bf95d226e5"
     }
   ]
 }

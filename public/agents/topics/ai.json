@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "topic": "ai",
+  "articleIds": [
+    "article:bhashini-and-the-indic-language-ai-moment",
+    "article:the-demographic-dividend-is-not-automatic"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/ai/",
+  "agentJsonPath": "/agents/topics/ai.json",
+  "articles": [
+    {
+      "id": "article:bhashini-and-the-indic-language-ai-moment",
+      "slug": "bhashini-and-the-indic-language-ai-moment",
+      "title": "Bhashini and the Indic-Language AI Moment",
+      "summary": "How Indic-language AI could turn India's language diversity from a barrier into a creative force for substantive content.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "ai",
+        "language",
+        "bhashini"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "ai",
+        "language",
+        "bhashini"
+      ],
+      "canonicalPath": "/articles/bhashini-and-the-indic-language-ai-moment/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/bhashini-and-the-indic-language-ai-moment/",
+      "agentJsonPath": "/agents/articles/bhashini-and-the-indic-language-ai-moment.json",
+      "agentMarkdownPath": "/agents/articles/bhashini-and-the-indic-language-ai-moment.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 304,
+      "contentHash": "6a393859a7b5f8c68f9d6b663a8c104f9381878194747a5b6056966d4ff6e7e8"
+    },
+    {
+      "id": "article:the-demographic-dividend-is-not-automatic",
+      "slug": "the-demographic-dividend-is-not-automatic",
+      "title": "The Demographic Dividend Is Not Automatic: Youth, Talent, and Time",
+      "summary": "Connects India's youth demographics to employment and skill data, arguing that the demographic dividend depends on how young people invest their attention.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "youth",
+        "employment",
+        "skills",
+        "ai"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "youth",
+        "employment",
+        "skills",
+        "ai"
+      ],
+      "canonicalPath": "/articles/the-demographic-dividend-is-not-automatic/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-demographic-dividend-is-not-automatic/",
+      "agentJsonPath": "/agents/articles/the-demographic-dividend-is-not-automatic.json",
+      "agentMarkdownPath": "/agents/articles/the-demographic-dividend-is-not-automatic.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 185,
+      "contentHash": "3046c0bc6ee177dfef3a39376fb328d53b6a95240cb02a5b0fcf3a3f9b829a93"
+    }
+  ]
+}

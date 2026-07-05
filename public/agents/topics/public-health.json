@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "topic": "public-health",
+  "articleIds": [
+    "article:tobacco-seatbelts-food-safety"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/public-health/",
+  "agentJsonPath": "/agents/topics/public-health.json",
+  "articles": [
+    {
+      "id": "article:tobacco-seatbelts-food-safety",
+      "slug": "tobacco-seatbelts-food-safety",
+      "title": "Tobacco, Seatbelts, and Food Safety: How Societies Learn to Regulate Design",
+      "summary": "Surveys public-health precedents to argue that attention-extraction platforms can be treated as design problems, not only user-responsibility problems.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "public-health",
+        "regulation",
+        "design",
+        "platform-accountability",
+        "history"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "public-health",
+        "regulation",
+        "design",
+        "platform-accountability",
+        "history"
+      ],
+      "canonicalPath": "/articles/tobacco-seatbelts-food-safety/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/tobacco-seatbelts-food-safety/",
+      "agentJsonPath": "/agents/articles/tobacco-seatbelts-food-safety.json",
+      "agentMarkdownPath": "/agents/articles/tobacco-seatbelts-food-safety.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 258,
+      "contentHash": "6807ba8589523997378deff3df9378a6210845cf01ed345ea8478510f1674d32"
+    }
+  ]
+}

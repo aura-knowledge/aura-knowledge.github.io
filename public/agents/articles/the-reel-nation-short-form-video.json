@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 3,
+  "id": "article:the-reel-nation-short-form-video",
+  "slug": "the-reel-nation-short-form-video",
+  "title": "The Reel Nation: Short-Form Video and the Economics of a Swipe",
+  "canonicalPath": "/articles/the-reel-nation-short-form-video/",
+  "sourcePath": "content/articles/2026/the-reel-nation-short-form-video/article.md",
+  "agentBriefPath": "content/articles/2026/the-reel-nation-short-form-video/agent.md",
+  "thesis": "Short-form video is not merely entertainment; its engagement architecture—autoplay, variable rewards, and personalized recommendations—makes it unusually effective at capturing time, with measurable cognitive and mental-health correlates.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "short-form-video",
+    "mental-health",
+    "youth",
+    "design"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 3,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "India has one of the world's largest short-form video user bases, with average daily use reaching 55–60 minutes per user.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-bain-short-form-india",
+          "snippet": "Bain estimates that short-form video users in India spend an average of 55–60 minutes per day on these platforms.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-iamai-kantar-2024",
+          "snippet": "The Internet in India Report 2024 documents the scale and depth of short-form video adoption across Indian internet users.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Industry averages hide wide variation by age, region, and income, and the underlying estimates may be platform-derived or self-reported rather than independently measured.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Short-form feeds rely on variable rewards, infinite scroll, autoplay, and algorithmic personalization to extend session length.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-bain-short-form-india",
+          "snippet": "The Bain report describes the engagement architecture of short-form video, including autoplay, infinite feeds, and algorithmic recommendations.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-pmc-executive-control",
+          "snippet": "Research on short-form video use situates these design patterns within the broader literature on variable-reward and habit-forming interfaces.",
+          "supports": "background",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Users can set time limits, disable autoplay, or choose alternative platforms, so design architecture influences but does not determine behaviour.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Peer-reviewed studies link heavy short-form video use to reduced executive control, sleep disruption, and anxiety, though causality remains contested.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-pmc-short-video-addiction",
+          "snippet": "A PMC study found associations between short-form video addiction, inattention, and negative emotions among Chinese college students.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-pmc-executive-control",
+          "snippet": "A PMC study reported links between short-form video use and executive-function differences in young adults.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Most evidence is correlational, so reverse causality is possible: people with poorer sleep, anxiety, or executive control may gravitate toward low-friction entertainment.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "The opportunity cost of short-form video dominance falls on education, skill-building, and offline social interaction.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-bain-short-form-india",
+          "snippet": "The large share of daily time absorbed by short-form video implies a trade-off against other activities, including learning and social interaction.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-iamai-kantar-2024",
+          "snippet": "The Internet in India Report 2024 shows that entertainment, led by short-form video, occupies the largest share of Indian internet use.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Short-form video also supports informal learning, creator livelihoods, and social connection, so the opportunity cost depends on what the displaced activity would have been.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-bain-short-form-india",
+      "title": "Bain & Company: Short-form video in India",
+      "url": "https://www.bain.com/about/media-center/press-releases/2022/short-form-video-india/",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-pmc-short-video-addiction",
+      "title": "PMC: Heterogeneity in short video addiction and its association with inattention and negative emotions among college students",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12984201/",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-pmc-executive-control",
+      "title": "PMC: Short-form video use and executive function in young adults",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10876028/",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-iamai-kantar-2024",
+      "title": "IAMAI-Kantar: Internet in India Report 2024",
+      "url": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ficci-ey-me-2026",
+      "title": "EY: India's media and entertainment sector grew 9% to INR2.78 trillion in 2025",
+      "url": "https://www.ey.com/en_in/newsroom/2026/03/india-s-media-and-entertainment-sector-grew-9-percent-to-inr-2-point-78-trillion-in-2025-driven-by-digital-and-live-experiences-ficci-ey-report",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-nsso-time-use-2024",
+      "title": "NSSO Time Use Survey 2024 Factsheet",
+      "url": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:public-space-and-private-screens"
+    },
+    {
+      "type": "article",
+      "id": "article:the-design-of-extraction"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    },
+    {
+      "type": "topic",
+      "id": "topic:india"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit and keep the four diagnosis claims separate from solution chapters.",
+    "Preserve the evidence-cautious tone: short-form video is dominant by design, but causal evidence for individual harm remains correlational.",
+    "Cite sources by their IDs and URLs from the artifact; do not generalize beyond the public evidence.",
+    "Distinguish industry estimates from nationally representative measurements when discussing India.",
+    "Route broader time-budget questions to 'By the Numbers' and design-mechanics questions to 'The Design of Extraction.'",
+    "Article includes a Mermaid engagement-loop flowchart in the 'Why the Feed Never Stops' section to illustrate the variable-reward mechanics behind Claim C2."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:5b3d8146e280bbdbbac9fa6ac82d06bc8404f17ef2ff77e5f7b22ce6520d0ee5",
+        "outputHash": "sha256:5b3d8146e280bbdbbac9fa6ac82d06bc8404f17ef2ff77e5f7b22ce6520d0ee5"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "e79e3653a0aa31910577f9cd85eb541b2733d9911e37fb961f2b359c0bf3d26d"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "e79e3653a0aa31910577f9cd85eb541b2733d9911e37fb961f2b359c0bf3d26d",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/the-reel-nation-short-form-video/",
+  "agentJsonPath": "/agents/articles/the-reel-nation-short-form-video.json",
+  "agentMarkdownPath": "/agents/articles/the-reel-nation-short-form-video.md",
+  "sourceRepoPath": "content/articles/2026/the-reel-nation-short-form-video/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/the-reel-nation-short-form-video/article.md",
+  "tokenEstimate": 265,
+  "sectionOutline": [
+    {
+      "id": "the-scale-of-the-swipe",
+      "title": "The Scale of the Swipe"
+    },
+    {
+      "id": "why-the-feed-never-stops",
+      "title": "Why the Feed Never Stops"
+    },
+    {
+      "id": "what-the-evidence-actually-says",
+      "title": "What the Evidence Actually Says"
+    },
+    {
+      "id": "the-opportunity-cost",
+      "title": "The Opportunity Cost"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

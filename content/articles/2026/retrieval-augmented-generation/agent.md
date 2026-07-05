@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:retrieval-augmented-generation
 articleId: article:retrieval-augmented-generation
 slug: retrieval-augmented-generation
-title: 'Agent Brief for "Retrieval-Augmented Generation: Looking Things Up Before Answering"'
+title: "Agent Brief for 'Retrieval-Augmented Generation: Looking Things Up Before Answering'"
 tokenBudget: 1200
 status: published
 updated: 2026-06-29

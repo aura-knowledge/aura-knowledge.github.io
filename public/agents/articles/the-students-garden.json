@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 3,
+  "id": "article:the-students-garden",
+  "slug": "the-students-garden",
+  "title": "The Student's Garden: Learning in Public, Teaching in Private",
+  "canonicalPath": "/articles/the-students-garden/",
+  "sourcePath": "content/articles/2026/the-students-garden/article.md",
+  "agentBriefPath": "content/articles/2026/the-students-garden/agent.md",
+  "thesis": "Students can use AI to deepen learning if they treat it as a Socratic tutor and an audience for their own explanations, rather than a shortcut for producing finished answers.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "artificial-intelligence",
+    "education",
+    "active-learning",
+    "students"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 31,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Passive consumption of AI-generated answers produces weaker learning than active explanation and problem-solving.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-freeman-active-learning",
+          "snippet": "A 2014 meta-analysis in PNAS found that active learning significantly increases student performance in science, engineering, and mathematics compared with traditional lecturing.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-ericsson-deliberate-practice",
+          "snippet": "Deliberate practice research emphasizes active, effortful engagement with feedback as the driver of expertise development.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "AI-generated answers can be a starting point for novices who lack background knowledge; the harm depends on how the output is used, not on the tool itself.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Teaching what you learn—through notes, blogs, videos, or peer sessions—is one of the most reliable ways to deepen understanding.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-freeman-active-learning",
+          "snippet": "Active-learning methods that require students to explain, discuss, and apply concepts show larger learning gains than passive review.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-ericsson-deliberate-practice",
+          "snippet": "Explaining and receiving feedback are core components of deliberate practice that build robust mental representations.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The benefit of teaching depends on preparation and prior understanding; explaining prematurely can reinforce misconceptions.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "AI can lower the friction of producing explanations, flashcards, and practice questions.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-khanmigo",
+          "snippet": "Khanmigo is designed as a Socratic tutor that asks questions rather than giving direct answers, scaffolding student thinking.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-duolingo-max",
+          "snippet": "Duolingo Max uses conversational AI to provide explanations and practice prompts tailored to learner mistakes.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Lower friction can also encourage shallow use; generating flashcards is only useful if the student actually studies them actively.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "The risk is that AI becomes a substitute for struggle; the opportunity is that it becomes a scaffold for struggle.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-ericsson-deliberate-practice",
+          "snippet": "Deliberate practice requires working at the edge of current ability; removing all struggle eliminates the conditions for growth.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-khanmigo",
+          "snippet": "Tutoring systems that give hints rather than answers are intended to preserve productive struggle while reducing frustration.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The boundary between scaffold and substitute is subjective and depends on student maturity, subject difficulty, and tool design; what scaffolds one learner may shortcut another.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-khanmigo",
+      "title": "Khan Academy: Khanmigo",
+      "url": "https://www.khanacademy.org/khan-labs/khanmigo",
+      "type": "website",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-duolingo-max",
+      "title": "Duolingo: Duolingo Max",
+      "url": "https://blog.duolingo.com/duolingo-max/",
+      "type": "website",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ericsson-deliberate-practice",
+      "title": "Ericsson: The Role of Deliberate Practice in the Acquisition of Expert Performance",
+      "url": "https://psycnet.apa.org/record/1993-40718-001",
+      "type": "paper",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-freeman-active-learning",
+      "title": "Freeman et al.: Active learning increases student performance in science, engineering, and mathematics",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1319030111",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:the-workers-garden"
+    },
+    {
+      "type": "article",
+      "id": "article:the-familys-garden"
+    },
+    {
+      "type": "article",
+      "id": "article:failure-teaching-and-the-skill-stack"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit and route evidentiary questions to the active-learning and deliberate-practice sources.",
+    "Preserve the practical, non-prescriptive tone; the article offers rules of thumb, not a formal curriculum.",
+    "When discussing AI tutoring, distinguish between Socratic scaffolding and answer generation.",
+    "Flag that long-term causal evidence on AI-assisted learning is still emerging.",
+    "Point readers to the other garden articles and the skill-stack article in the Building Substance arc.",
+    "The article includes a passive-vs-active-study SVG visualization after Claim C2 to illustrate retention differences by learning method."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:6ba241cc0a421d750f59aaf0bdc51c5a1b79257adcd771916406e682eeb7a707",
+        "outputHash": "sha256:6ba241cc0a421d750f59aaf0bdc51c5a1b79257adcd771916406e682eeb7a707"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "73fada8fa9f0b4eb3b63b435a796680cbfbe9ab113b43386b4ba069dfbf13d60"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "73fada8fa9f0b4eb3b63b435a796680cbfbe9ab113b43386b4ba069dfbf13d60",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/the-students-garden/",
+  "agentJsonPath": "/agents/articles/the-students-garden.json",
+  "agentMarkdownPath": "/agents/articles/the-students-garden.md",
+  "sourceRepoPath": "content/articles/2026/the-students-garden/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/the-students-garden/article.md",
+  "tokenEstimate": 492,
+  "sectionOutline": [
+    {
+      "id": "the-answer-trap",
+      "title": "The Answer Trap"
+    },
+    {
+      "id": "the-socratic-tutor",
+      "title": "The Socratic Tutor"
+    },
+    {
+      "id": "learn-in-public-teach-in-private",
+      "title": "Learn in Public, Teach in Private"
+    },
+    {
+      "id": "a-few-rules-of-thumb",
+      "title": "A Few Rules of Thumb"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

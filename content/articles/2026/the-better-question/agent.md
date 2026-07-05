@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:the-better-question
 articleId: article:the-better-question
 slug: the-better-question
-title: 'Agent Brief for "Leave Better Than You Arrived: A North Star for Platform Design"'
+title: "Agent Brief for 'Leave Better Than You Arrived: A North Star for Platform Design'"
 tokenBudget: 1500
 status: published
 updated: 2026-07-05

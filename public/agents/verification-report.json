@@ -214,6 +214,88 @@
       }
     },
     {
+      "slug": "age-appropriate-design",
+      "title": "Age-Appropriate Design and Protecting Vulnerable Users",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Vulnerable users—children, elderly people, and low-literacy users—deserve stronger default protections, age-appropriate design, and limits on data-driven persuasion because their attention and data are not fair targets for extraction.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "Children's developing brains are more susceptible to variable rewards and social comparison, which makes engagement-optimized design a disproportionate risk for them.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "Elderly users face higher risks from scams, misinformation, and platform complexity, so safety defaults and simplified paths matter as much as screen-time limits.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "Low-literacy users may not recognize dark patterns or understand data practices, which makes plain-language defaults and friction against harmful choices essential.",
+          "confidence": "medium",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/age-appropriate-design: claim-004 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-005",
+          "claim": "Age-appropriate design standards, such as the UK's Age Appropriate Design Code, offer a regulatory template for stronger defaults and limits on data-driven persuasion.",
+          "confidence": "medium-high",
+          "status": "landscape",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/age-appropriate-design: claim-005 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/age-appropriate-design: claim-005 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 5
+      }
+    },
+    {
       "slug": "agent-auditable-research",
       "title": "The Future of Publishing Is Agent-Auditable Research",
       "status": "published",
@@ -980,6 +1062,155 @@
       }
     },
     {
+      "slug": "ai-as-journeyman-assistant",
+      "title": "AI as a Journeyman Assistant, Not a Replacement",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "AI is most useful as a journeyman assistant that lowers friction without replacing human judgment.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "The boundary between using AI and outsourcing thinking is porous and must be actively managed.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "AI can accelerate feedback loops in writing, coding, design, translation, and tutoring.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "Human judgment, taste, and accountability remain the scarce and valuable inputs.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
+      "slug": "ai-could-make-extraction-cheaper-too",
+      "title": "AI Could Make Extraction Cheaper Too",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Generative AI dramatically lowers the cost of producing video, audio, text, and images at scale.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-could-make-extraction-cheaper-too: claim-001 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-could-make-extraction-cheaper-too: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-002",
+          "claim": "AI-powered recommendation can make feeds more personally addictive and harder to audit.",
+          "confidence": "medium-high",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-could-make-extraction-cheaper-too: claim-002 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-could-make-extraction-cheaper-too: claim-002 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-003",
+          "claim": "Deepfakes and synthetic influencers are already entering Indian political and consumer discourse.",
+          "confidence": "medium-high",
+          "status": "landscape",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-could-make-extraction-cheaper-too: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "The same technology can be designed toward substance if quality, provenance, and user control become first-class goals.",
+          "confidence": "medium",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-could-make-extraction-cheaper-too: claim-004 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/ai-could-make-extraction-cheaper-too: claim-004 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
       "slug": "ai-delegation-orchestration",
       "title": "AI Delegation Orchestration: A Series on Durable Agent Work",
       "status": "published",
@@ -1329,6 +1560,61 @@
       }
     },
     {
+      "slug": "alternative-metrics-time-well-spent",
+      "title": "Alternative Metrics: Time Well Spent, Sustainability, Learning, Civic Value",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Engagement metrics are not neutral; they encode a business model and a theory of user value.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "Proposed alternatives include time well spent, meaningful social interaction, learning outcomes, and civic participation.",
+          "confidence": "medium-high",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "Each alternative metric can be gamed and requires safeguards.",
+          "confidence": "medium-high",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "The first step is to make metrics visible and debatable rather than treating engagement as inevitable.",
+          "confidence": "medium",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
       "slug": "attention-substance-ai-moment",
       "title": "Attention, Substance, and the AI Moment: A Series Index",
       "status": "published",
@@ -1552,6 +1838,78 @@
       }
     },
     {
+      "slug": "bhashini-and-the-indic-language-ai-moment",
+      "title": "Bhashini and the Indic-Language AI Moment",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Roughly 98% of Indian internet users access content in Indic languages, so the cost and quality of language technology will shape what kind of information, education, and public discourse reach them.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/bhashini-and-the-indic-language-ai-moment: claim-001 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/bhashini-and-the-indic-language-ai-moment: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-002",
+          "claim": "Bhashini, AI4Bharat, and related initiatives have produced open datasets, models, and APIs that lower the engineering barrier for Indian-language applications.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "Lower translation and voice-generation costs could help local educators, journalists, and builders reach larger, more linguistically diverse audiences.",
+          "confidence": "medium-high",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "The real benefit of Indic-language AI depends on whether platforms and business models reward substance, or merely scale low-quality, high-engagement content.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/bhashini-and-the-indic-language-ai-moment: claim-004 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
       "slug": "birth-of-ai",
       "title": "The Birth of AI: Dartmouth, Symbolic Systems, and Early Optimism",
       "status": "published",
@@ -1614,6 +1972,94 @@
         "needs-evidence": 0,
         "missing-counterevidence": 0,
         "draft": 5
+      }
+    },
+    {
+      "slug": "business-models-that-reward-substance",
+      "title": "Business Models That Reward Substance",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Advertising-funded platforms optimize for time-on-site and ad impressions, which favors engagement over quality.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/business-models-that-reward-substance: claim-001 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/business-models-that-reward-substance: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-002",
+          "claim": "Subscriptions align incentives with user satisfaction and retention.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "Public funding and philanthropy can support content that has civic value but limited commercial appeal.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/business-models-that-reward-substance: claim-003 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/business-models-that-reward-substance: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "Cooperatives and reputation economies can reward contributions that the market undervalues.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/business-models-that-reward-substance: claim-004 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/business-models-that-reward-substance: claim-004 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
       }
     },
     {
@@ -2151,6 +2597,61 @@
       }
     },
     {
+      "slug": "failure-teaching-and-the-skill-stack",
+      "title": "Failure, Teaching, and the Skill Stack",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Early work is supposed to be bad; the gap between taste and ability closes through repetition and feedback.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "Teaching forces you to clarify what you actually understand.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "A portfolio of unfinished but documented projects is more valuable than a hidden record of perfect beginnings.",
+          "confidence": "medium-high",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "AI can accelerate feedback loops, but it cannot replace the judgment that comes from repeated practice.",
+          "confidence": "medium-high",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
       "slug": "fine-tuning",
       "title": "Fine-Tuning: Teaching a Model a Narrower Behavior",
       "status": "published",
@@ -2554,6 +3055,61 @@
       }
     },
     {
+      "slug": "friction-chronological-feeds-user-chosen-algorithms",
+      "title": "Friction, Chronological Feeds, and User-Chosen Algorithms",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Chronological feeds reduce the power of engagement-optimized recommendations by removing the ranking signal that rewards time on site and emotional reactions.",
+          "confidence": "high",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "Friction before sharing—such as asking whether a user wants to share unverified content—reduces the spread of misinformation without blocking speech.",
+          "confidence": "medium-high",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "User-chosen algorithm modes give agency back to users by letting them select ranking criteria without requiring them to leave the platform.",
+          "confidence": "medium-high",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "These design changes are technically feasible but often conflict with ad-supported business models that optimize for engagement, time on site, and viral distribution.",
+          "confidence": "medium-high",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
       "slug": "gender-and-the-attention-economy",
       "title": "Gender and the Attention Economy",
       "status": "published",
@@ -2694,6 +3250,182 @@
       }
     },
     {
+      "slug": "historical-analogies-of-missed-transitions",
+      "title": "Historical Analogies of Missed Transitions",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Late industrialization was associated with slower long-run income growth and greater dependency.",
+          "confidence": "medium-high",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "The PC and early-internet divide left lasting productivity gaps between adopters and laggards.",
+          "confidence": "medium-high",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/historical-analogies-of-missed-transitions: claim-002 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/historical-analogies-of-missed-transitions: claim-002 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-003",
+          "claim": "AI is likely to have a similar compounding effect on productivity, defense, and scientific discovery.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/historical-analogies-of-missed-transitions: claim-003 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/historical-analogies-of-missed-transitions: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "India's large talent base gives it a window, but the window is not indefinitely open.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/historical-analogies-of-missed-transitions: claim-004 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/historical-analogies-of-missed-transitions: claim-004 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
+      "slug": "historical-hinges-access-is-not-benefit",
+      "title": "Historical Hinges: When Access to a Tool Did Not Guarantee Its Benefits",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "The printing press initially produced a flood of pamphlets and misinformation before stabilizing into modern publishing norms.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/historical-hinges-access-is-not-benefit: claim-001 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/historical-hinges-access-is-not-benefit: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-002",
+          "claim": "The industrial revolution raised living standards over generations, but early disruptions included child labor, pollution, and urban squalor.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/historical-hinges-access-is-not-benefit: claim-002 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/historical-hinges-access-is-not-benefit: claim-002 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-003",
+          "claim": "The personal computer and early internet had a 'productivity paradox' before organizational practices caught up.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/historical-hinges-access-is-not-benefit: claim-003 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/historical-hinges-access-is-not-benefit: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "Smartphones and AI are at a similar hinge: access is here, but the institutions for healthy use are still forming.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
       "slug": "human-systems",
       "title": "The Human Road Through AI: Labor, Institutions, Governance, and Meaning",
       "status": "published",
@@ -2766,6 +3498,73 @@
         "needs-evidence": 0,
         "missing-counterevidence": 0,
         "draft": 6
+      }
+    },
+    {
+      "slug": "india-in-global-context",
+      "title": "India in Global Context: The Attention Economy Is Not Only an Indian Story",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "India ranks among the highest countries for daily smartphone screen time.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "Brazil, Indonesia, and Nigeria show similar patterns of mobile-first entertainment and platform concentration.",
+          "confidence": "medium-high",
+          "status": "landscape",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "The US and China have larger domestic platform ecosystems but face similar debates about youth screen time and platform accountability.",
+          "confidence": "medium-high",
+          "status": "landscape",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/india-in-global-context: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "India's regulatory choices—DSA-style due diligence, app-store rules, data protection—will shape how the global South addresses extraction.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/india-in-global-context: claim-004 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
       }
     },
     {
@@ -3336,6 +4135,105 @@
       }
     },
     {
+      "slug": "open-questions-the-series-leaves-unresolved",
+      "title": "Open Questions the Series Leaves Unresolved",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "The causal effect of specific platform features on mental health, learning, and productivity remains hard to isolate.",
+          "confidence": "medium-high",
+          "status": "landscape",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/open-questions-the-series-leaves-unresolved: claim-001 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/open-questions-the-series-leaves-unresolved: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-002",
+          "claim": "Different cultures may need different balances between protection and autonomy.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/open-questions-the-series-leaves-unresolved: claim-002 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/open-questions-the-series-leaves-unresolved: claim-002 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-003",
+          "claim": "The right level of regulation is contested: too little leaves users exposed; too much risks overreach.",
+          "confidence": "medium-high",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/open-questions-the-series-leaves-unresolved: claim-003 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/open-questions-the-series-leaves-unresolved: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "India's path will depend on choices made by platforms, policymakers, educators, and individuals over the next decade.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/open-questions-the-series-leaves-unresolved: claim-004 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/open-questions-the-series-leaves-unresolved: claim-004 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
       "slug": "planning-and-reflection",
       "title": "Planning and Reflection: How AI Breaks Down and Revises Work",
       "status": "published",
@@ -3448,6 +4346,61 @@
         "needs-evidence": 0,
         "missing-counterevidence": 0,
         "draft": 5
+      }
+    },
+    {
+      "slug": "product-ideas-that-could-shift-incentives",
+      "title": "Product Ideas That Could Shift the Incentives",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Quality signals—such as citations, completion rates, and user-reported learning—can complement engagement signals and steer recommendation systems toward substance.",
+          "confidence": "medium-high",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "Public-interest algorithms could surface locally relevant, verified, and constructive content when the stakes are high.",
+          "confidence": "medium",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "Creator reputation economies can reward consistent quality over viral moments.",
+          "confidence": "medium-high",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "User-owned attention budgets and time-well-spent dashboards can restore agency without removing choice.",
+          "confidence": "medium",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
       }
     },
     {
@@ -3599,6 +4552,116 @@
               "message": "2026/prompt-engineering: claim-004 relies on a single source type for evidence."
             }
           ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
+      "slug": "public-pressure-and-internal-accountability",
+      "title": "Public Pressure and Internal Accountability",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Academic research has repeatedly revealed harms—addiction, polarization, mental health—that platforms initially disputed.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "Investigative journalism and whistleblower leaks have forced public debate and some design changes.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "Shareholder and employee activism can shift corporate priorities when framed in business-risk terms.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "Civil-society campaigns help translate technical findings into public demand and policy proposals.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
+      "slug": "public-space-and-private-screens",
+      "title": "Public Space and Private Screens: The Commute Is Not Empty",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Mass-media participation is nearly universal in India, while voluntary social participation has fallen sharply.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "Public transit and waiting spaces in India show high rates of individual screen use across income groups.",
+          "confidence": "medium",
+          "status": "landscape",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "Incidental conversation in public spaces historically served as a low-cost channel for information, apprenticeship, and social cohesion.",
+          "confidence": "medium-high",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "Headphones and private feeds convert shared space into parallel solitude, making social withdrawal feel like a norm.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
         }
       ],
       "summary": {
@@ -3901,6 +4964,95 @@
       }
     },
     {
+      "slug": "sleep-anxiety-and-tele-manas",
+      "title": "Sleep, Anxiety, and the Tele-MANAS Signal",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Tele-MANAS has received more than 32 lakh calls, with roughly 70% from people aged 18–45.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/sleep-anxiety-and-tele-manas: claim-001 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/sleep-anxiety-and-tele-manas: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-002",
+          "claim": "NCERT and state surveys report high rates of anxiety, mood disturbance, and sleep problems among Indian adolescents.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/sleep-anxiety-and-tele-manas: claim-002 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-003",
+          "claim": "Sleep disruption from evening screen use is one documented pathway between heavy smartphone use and next-day distress.",
+          "confidence": "medium-high",
+          "status": "landscape",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/sleep-anxiety-and-tele-manas: claim-003 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/sleep-anxiety-and-tele-manas: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "Mental-health data should be read as a public-health signal shaped by design, economics, and social context, not as evidence of individual weakness.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/sleep-anxiety-and-tele-manas: claim-004 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
       "slug": "the-attention-extraction",
       "title": "The Attention Extraction: How India's Digital Dividend Is Becoming a Cognitive Deficit",
       "status": "published",
@@ -4072,6 +5224,94 @@
         "needs-evidence": 0,
         "missing-counterevidence": 0,
         "draft": 7
+      }
+    },
+    {
+      "slug": "the-citizens-garden",
+      "title": "The Citizen's Garden: Local Knowledge plus AI",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Government schemes, health information, and civic services are often inaccessible not because they do not exist, but because of language barriers, formal language, and fragmentation across offices, apps, and deadlines.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "AI translation, summarization, and voice generation can lower the cost of turning complex official information into local, spoken, shareable knowledge.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-citizens-garden: claim-002 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-citizens-garden: claim-002 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-003",
+          "claim": "Local volunteers, community organizations, and trusted neighbors remain essential for trust, verification, and last-mile delivery.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-citizens-garden: claim-003 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-citizens-garden: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "Small civic acts—translated, documented, and shared—can compound into neighborhood-level infrastructure that outlasts the person who started them.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-citizens-garden: claim-004 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-citizens-garden: claim-004 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
       }
     },
     {
@@ -4329,6 +5569,116 @@
       }
     },
     {
+      "slug": "the-demographic-dividend-is-not-automatic",
+      "title": "The Demographic Dividend Is Not Automatic: Youth, Talent, and Time",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Roughly 65% of India's population is under 35, giving it one of the world's youngest workforces.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "India Skills Report and other surveys find employability rates below 55% for many graduate cohorts.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "Youth unemployment, especially among graduates, is elevated relative to overall unemployment.",
+          "confidence": "medium-high",
+          "status": "landscape",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "The demographic dividend is therefore a time-use dividend: the same years can build human capital or be absorbed by low-value screen activity.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
+      "slug": "the-design-of-extraction",
+      "title": "The Design of Extraction: Variable Rewards, Notifications, and Dark Patterns",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Variable-ratio reward schedules, borrowed from gambling research, are central to feed engagement.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "Infinite scroll, autoplay, and pull-to-refresh remove natural stopping points from content consumption.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "Notifications, red dots, and streaks exploit loss aversion and social reciprocity to drive reopening.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "These patterns are not neutral user preferences; they are product decisions that can be changed.",
+          "confidence": "medium-high",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
       "slug": "the-engagement-gap-productivity-india",
       "title": "The Engagement Gap",
       "status": "published",
@@ -4459,6 +5809,83 @@
       }
     },
     {
+      "slug": "the-familys-garden",
+      "title": "The Family's Garden: Attention Contracts at Home",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Parent screen use is one of the strongest predictors of child screen use.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "Device-free meals and shared activities are associated with better family connection and child well-being.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "Age-appropriate boundaries work better than total prohibition, which often increases secrecy and desire.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-familys-garden: claim-003 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-familys-garden: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "Families that create together—cooking, building, reading, discussing—build attention habits that outlast any single rule.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-familys-garden: claim-004 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-familys-garden: claim-004 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
       "slug": "the-generational-bet",
       "title": "The Generational Bet: Will India Build the AI Age or Scroll Through It?",
       "status": "published",
@@ -4513,6 +5940,72 @@
         {
           "id": "claim-004",
           "claim": "Small daily choices about attention may compound, over years, into individual skill and, at scale, into national capacity.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
+      "slug": "the-green-revolution-trade-off",
+      "title": "The Green Revolution Trade-Off",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "The Green Revolution dramatically increased cereal production and averted famine in India.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-green-revolution-trade-off: claim-001 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-green-revolution-trade-off: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-002",
+          "claim": "The Green Revolution also led to groundwater depletion, soil salinity, and reduced crop diversity in several regions.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "The costs were delayed and diffuse, making them politically harder to address than the initial hunger crisis.",
+          "confidence": "medium-high",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "Universal digital access similarly solves an access crisis while creating attention, mental-health, and civic-cohesion costs that accumulate slowly.",
           "confidence": "medium",
           "status": "argument",
           "state": "draft",
@@ -4649,6 +6142,84 @@
       }
     },
     {
+      "slug": "the-jio-effect-cheap-data-access-behavior",
+      "title": "The Jio Effect: Cheap Data and the Access-Behavior Paradox",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Jio's 2016 launch reduced Indian mobile-data prices to among the lowest in the world.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-jio-effect-cheap-data-access-behavior: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-002",
+          "claim": "India added hundreds of millions of internet users in the following years, many in rural areas and on low-cost smartphones.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-jio-effect-cheap-data-access-behavior: claim-002 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-jio-effect-cheap-data-access-behavior: claim-002 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-003",
+          "claim": "The same low-cost data enabled a surge in short-form video, gaming, and messaging.",
+          "confidence": "medium-high",
+          "status": "landscape",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-jio-effect-cheap-data-access-behavior: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "The access success now raises a use question: can the same infrastructure be redirected toward productivity and learning?",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
       "slug": "the-life-phase-thread",
       "title": "The Life-Phase Thread",
       "status": "published",
@@ -4753,6 +6324,79 @@
         "needs-evidence": 0,
         "missing-counterevidence": 0,
         "draft": 7
+      }
+    },
+    {
+      "slug": "the-reel-nation-short-form-video",
+      "title": "The Reel Nation: Short-Form Video and the Economics of a Swipe",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "India has one of the world's largest short-form video user bases, with average daily use reaching 55–60 minutes per user.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-reel-nation-short-form-video: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-002",
+          "claim": "Short-form feeds rely on variable rewards, infinite scroll, autoplay, and algorithmic personalization to extend session length.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "Peer-reviewed studies link heavy short-form video use to reduced executive control, sleep disruption, and anxiety, though causality remains contested.",
+          "confidence": "medium-high",
+          "status": "landscape",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-reel-nation-short-form-video: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "The opportunity cost of short-form video dominance falls on education, skill-building, and offline social interaction.",
+          "confidence": "medium-high",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-reel-nation-short-form-video: claim-004 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
       }
     },
     {
@@ -5009,6 +6653,67 @@
       }
     },
     {
+      "slug": "the-students-garden",
+      "title": "The Student's Garden: Learning in Public, Teaching in Private",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Passive consumption of AI-generated answers produces weaker learning than active explanation and problem-solving.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "Teaching what you learn—through notes, blogs, videos, or peer sessions—is one of the most reliable ways to deepen understanding.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "AI can lower the friction of producing explanations, flashcards, and practice questions.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-students-garden: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "The risk is that AI becomes a substitute for struggle; the opportunity is that it becomes a scaffold for struggle.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
       "slug": "the-substance-builder",
       "title": "The Substance Builder: How to Turn Dead Time into Small Acts of Creation",
       "status": "published",
@@ -5071,6 +6776,167 @@
         "needs-evidence": 0,
         "missing-counterevidence": 0,
         "draft": 5
+      }
+    },
+    {
+      "slug": "the-workers-garden",
+      "title": "The Worker's Garden: Commutes, Side Projects, and Career Capital",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Commutes and waiting time add up to hundreds of hours per year for many workers.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "Small daily investments in skill-building compound more reliably than sporadic heroic efforts.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "Side projects and public learning signal capability more credibly than credentials alone in many fields.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-workers-garden: claim-003 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-workers-garden: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "AI lowers the cost of starting side projects in writing, coding, design, and translation.",
+          "confidence": "medium-high",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-workers-garden: claim-004 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/the-workers-garden: claim-004 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
+      "slug": "tobacco-seatbelts-food-safety",
+      "title": "Tobacco, Seatbelts, and Food Safety: How Societies Learn to Regulate Design",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Tobacco was marketed as a personal and even healthy choice before epidemiology shifted the regulatory frame.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/tobacco-seatbelts-food-safety: claim-001 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/tobacco-seatbelts-food-safety: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-002",
+          "claim": "Seatbelt and food-safety rules changed behavior through defaults and design standards rather than lectures.",
+          "confidence": "high",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/tobacco-seatbelts-food-safety: claim-002 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-003",
+          "claim": "These transitions required a combination of scientific evidence, advocacy, litigation, and regulation.",
+          "confidence": "medium-high",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/tobacco-seatbelts-food-safety: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "Attention platforms are at an earlier stage of the same transition: evidence is accumulating, but design standards remain weak.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/tobacco-seatbelts-food-safety: claim-004 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
       }
     },
     {
@@ -5351,6 +7217,61 @@
       }
     },
     {
+      "slug": "user-migration-and-the-exit-problem",
+      "title": "User Migration and the Exit Problem",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Network effects mean a platform's value rises with the number of users, making latecomers uncompetitive.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-002",
+          "claim": "Switching costs include lost contacts, content archives, and reputation.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "Data portability and interoperability can reduce lock-in.",
+          "confidence": "medium-high",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-004",
+          "claim": "Federated protocols like ActivityPub allow users to change providers without leaving their networks.",
+          "confidence": "medium-high",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
+      }
+    },
+    {
       "slug": "what-ai-makes-cheap",
       "title": "What AI Makes Cheap",
       "status": "published",
@@ -5499,6 +7420,95 @@
         "needs-evidence": 0,
         "missing-counterevidence": 0,
         "draft": 7
+      }
+    },
+    {
+      "slug": "what-india-is-building-vs-could-build",
+      "title": "What India Is Building vs. What It Could Build",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "India's digital economy contributes roughly 11.74% of GDP, led by services and consumer platforms.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/what-india-is-building-vs-could-build: claim-001 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/what-india-is-building-vs-could-build: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-002",
+          "claim": "A large share of venture funding and startup talent has gone into delivery, ride-hailing, and quick commerce.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/what-india-is-building-vs-could-build: claim-002 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/what-india-is-building-vs-could-build: claim-002 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-003",
+          "claim": "Semiconductors, foundational AI models, scientific instruments, and industrial automation receive far smaller shares of capital and attention.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/what-india-is-building-vs-could-build: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "National AI readiness depends on shifting some fraction of talent and capital toward harder, slower problems.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/what-india-is-building-vs-could-build: claim-004 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 4
       }
     },
     {

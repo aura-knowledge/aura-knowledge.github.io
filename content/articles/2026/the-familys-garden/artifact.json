@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 3,
+  "id": "article:the-familys-garden",
+  "slug": "the-familys-garden",
+  "title": "The Family's Garden: Attention Contracts at Home",
+  "canonicalPath": "/articles/the-familys-garden/",
+  "sourcePath": "content/articles/2026/the-familys-garden/article.md",
+  "agentBriefPath": "content/articles/2026/the-familys-garden/agent.md",
+  "thesis": "Households can protect attention and nurture substance by making explicit, modelled agreements about device use rather than relying on prohibition or individual willpower.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "family",
+    "parenting",
+    "design"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 33,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Parent screen use is one of the strongest predictors of child screen use.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-aap-media",
+          "snippet": "The AAP 'Media and Young Minds' review notes that parent media use shapes children's media habits from infancy and can reduce the quality of parent-child interaction.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-vivo-study",
+          "snippet": "The Vivo and CMR study found that Indian parents and children often mirror each other's screen behaviour, with children reporting feeling ignored when parents are absorbed in devices.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Parent screen use is correlated with household income, education, and work demands; children may also model stress or busyness rather than media use itself.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Device-free meals and shared activities are associated with better family connection and child well-being.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-commonsense-media-screens-2024",
+          "snippet": "Common Sense Media reports that families who maintain device-free rituals and shared activities report stronger communication and more balanced screen habits.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-aap-media",
+          "snippet": "AAP guidance emphasizes that co-viewing and family routines around media use support child development more than rules alone.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The association may partly reflect overall family functioning; families under stress may find it harder to maintain rituals regardless of devices.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Age-appropriate boundaries work better than total prohibition, which often increases secrecy and desire.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-aap-media",
+          "snippet": "AAP recommendations stress age-specific, consistent limits and co-viewing over blanket restrictions for young children.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some families and cultures successfully enforce strict screen limits, and context matters more than any single rule style.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Families that create together—cooking, building, reading, discussing—build attention habits that outlast any single rule.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-unicef-parenting-digital-age",
+          "snippet": "UNICEF guidance on parenting in the digital age highlights that shared activities and warm, responsive interaction help children develop self-regulation and attention.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Creative family activities require time, materials, and emotional bandwidth that not all households have; the advice may be harder to implement under economic or caregiving pressure.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-aap-media",
+      "title": "AAP: Media and Young Minds",
+      "url": "https://publications.aap.org/pediatrics/article/138/5/e20162591/60321/Media-and-Young-Minds",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-vivo-study",
+      "title": "Vivo and CMR: Impact of Smartphones on Human Relationships",
+      "url": "https://www.vivo.com/in/about-vivo/newsroom/2020/1907",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-commonsense-media-screens-2024",
+      "title": "Common Sense Media: The New Normal: Parents, Teens, Screens, and Sleep in 2024",
+      "url": "https://www.commonsensemedia.org/research/the-new-normal-parents-teens-screens-and-sleep-in-2024",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-unicef-parenting-digital-age",
+      "title": "UNICEF: Parenting in the Digital Age",
+      "url": "https://www.unicef.org/parenting/child-care/parenting-digital-age",
+      "type": "website",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "article",
+      "id": "article:the-student-screen-education-vs-entertainment"
+    },
+    {
+      "type": "article",
+      "id": "article:a-map-of-levers"
+    }
+  ],
+  "agentInstructions": [
+    "This is a Synthesis and Action chapter; keep recommendations practical, household-level, and non-judgmental.",
+    "Use the four claim IDs as retrieval units; do not collapse them into a single family-screen-time claim.",
+    "Cite only the source IDs listed in the artifact; do not invent developmental studies or clinical outcomes.",
+    "When asked for parenting advice, stay within the article's scope and flag questions that need qualified human judgment.",
+    "The article includes a markdown before/after family-table between Claim C2 and Claim C3; it maps to source-aap-media and source-commonsense-media-screens-2024."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:f6cfe51585794432824c8b9511fc574e97df2d9fbf4ff3a8660ba1deda56ae75",
+        "outputHash": "sha256:f6cfe51585794432824c8b9511fc574e97df2d9fbf4ff3a8660ba1deda56ae75"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "ff968f9345e84b466ac9e4d40307874bf36fae6549dc6c21cd1eb640324c3502"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "ff968f9345e84b466ac9e4d40307874bf36fae6549dc6c21cd1eb640324c3502"
+}

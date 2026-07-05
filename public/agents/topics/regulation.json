@@ -3,8 +3,12 @@
   "topic": "regulation",
   "articleIds": [
     "article:a-map-of-levers",
+    "article:age-appropriate-design",
     "article:designing-for-substance",
-    "article:regulation-as-a-floor-dsa-it-rules-dpdp"
+    "article:india-in-global-context",
+    "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+    "article:tobacco-seatbelts-food-safety",
+    "article:user-migration-and-the-exit-problem"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/regulation/",
   "agentJsonPath": "/agents/topics/regulation.json",
@@ -41,7 +45,44 @@
       "claimCount": 8,
       "sourceCount": 13,
       "tokenEstimate": 860,
-      "contentHash": "3bfb89f509202214b6454cd92bff340dc6322aafafcbad5d08b0cdaef4ef9c96"
+      "contentHash": "6f361b3969e6d350c7c0af935801c329a62bd65a0fb4a9689d43672c369ad00f"
+    },
+    {
+      "id": "article:age-appropriate-design",
+      "slug": "age-appropriate-design",
+      "title": "Age-Appropriate Design and Protecting Vulnerable Users",
+      "summary": "Argues for age-appropriate design defaults, friction, and verification to protect children, elderly users, and others who are especially vulnerable to extraction.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "children",
+        "elderly",
+        "literacy",
+        "regulation"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "children",
+        "elderly",
+        "literacy",
+        "regulation"
+      ],
+      "canonicalPath": "/articles/age-appropriate-design/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/age-appropriate-design/",
+      "agentJsonPath": "/agents/articles/age-appropriate-design.json",
+      "agentMarkdownPath": "/agents/articles/age-appropriate-design.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 5,
+      "sourceCount": 5,
+      "tokenEstimate": 225,
+      "contentHash": "a546bd6f8a1c89e8d2fc8642d920c6b5326377cabfdec6332b849e1dd5c7abe4"
     },
     {
       "id": "article:designing-for-substance",
@@ -74,7 +115,40 @@
       "claimCount": 5,
       "sourceCount": 7,
       "tokenEstimate": 597,
-      "contentHash": "0b2a3c9e15c58c7d9e62e4a008f4efed10935f844ea50d7f3733c7533040b9d3"
+      "contentHash": "776a597d5a9045184d75499b50b88b35a5a7ef2378a72ce17e300f6967a070c3"
+    },
+    {
+      "id": "article:india-in-global-context",
+      "slug": "india-in-global-context",
+      "title": "India in Global Context: The Attention Economy Is Not Only an Indian Story",
+      "summary": "Compares India with Brazil, Indonesia, Nigeria, the US, and China on screen time, platform concentration, and regulatory responses.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "global-comparison",
+        "platform-governance",
+        "regulation"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "global-comparison",
+        "platform-governance",
+        "regulation"
+      ],
+      "canonicalPath": "/articles/india-in-global-context/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/india-in-global-context/",
+      "agentJsonPath": "/agents/articles/india-in-global-context.json",
+      "agentMarkdownPath": "/agents/articles/india-in-global-context.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 7,
+      "tokenEstimate": 195,
+      "contentHash": "5742b77c6207ba7ffde81785f57dfc69e8dd1490b315ccb7a83c1bf3fbe6e635"
     },
     {
       "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
@@ -107,7 +181,81 @@
       "claimCount": 7,
       "sourceCount": 9,
       "tokenEstimate": 747,
-      "contentHash": "07e1441b2711489b41140cf46bcf1a91ee20835c45b9a5e717f80e3f7bcd1523"
+      "contentHash": "f27b70499ea313a69588d6ad39220eda04243bb0e25eb05587b79e9d7183ed89"
+    },
+    {
+      "id": "article:tobacco-seatbelts-food-safety",
+      "slug": "tobacco-seatbelts-food-safety",
+      "title": "Tobacco, Seatbelts, and Food Safety: How Societies Learn to Regulate Design",
+      "summary": "Surveys public-health precedents to argue that attention-extraction platforms can be treated as design problems, not only user-responsibility problems.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "public-health",
+        "regulation",
+        "design",
+        "platform-accountability",
+        "history"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "public-health",
+        "regulation",
+        "design",
+        "platform-accountability",
+        "history"
+      ],
+      "canonicalPath": "/articles/tobacco-seatbelts-food-safety/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/tobacco-seatbelts-food-safety/",
+      "agentJsonPath": "/agents/articles/tobacco-seatbelts-food-safety.json",
+      "agentMarkdownPath": "/agents/articles/tobacco-seatbelts-food-safety.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 258,
+      "contentHash": "6807ba8589523997378deff3df9378a6210845cf01ed345ea8478510f1674d32"
+    },
+    {
+      "id": "article:user-migration-and-the-exit-problem",
+      "slug": "user-migration-and-the-exit-problem",
+      "title": "User Migration and the Exit Problem",
+      "summary": "Explains why users rarely leave harmful platforms even when alternatives exist, and what interoperability and federation could change.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "network-effects",
+        "interoperability",
+        "federation",
+        "design",
+        "regulation"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "network-effects",
+        "interoperability",
+        "federation",
+        "design",
+        "regulation"
+      ],
+      "canonicalPath": "/articles/user-migration-and-the-exit-problem/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/user-migration-and-the-exit-problem/",
+      "agentJsonPath": "/agents/articles/user-migration-and-the-exit-problem.json",
+      "agentMarkdownPath": "/agents/articles/user-migration-and-the-exit-problem.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 161,
+      "contentHash": "126c5c98a26bf36a5dbcf056e09c2c2ec6c9220b7d23f311afa87ac893a5857a"
     }
   ]
 }

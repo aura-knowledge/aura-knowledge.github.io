@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "topic": "economic-development",
+  "articleIds": [
+    "article:historical-analogies-of-missed-transitions"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/economic-development/",
+  "agentJsonPath": "/agents/topics/economic-development.json",
+  "articles": [
+    {
+      "id": "article:historical-analogies-of-missed-transitions",
+      "slug": "historical-analogies-of-missed-transitions",
+      "title": "Historical Analogies of Missed Transitions",
+      "summary": "Uses cross-country historical comparisons to show that missing a technology transition has persistent economic and geopolitical consequences.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "history",
+        "productivity",
+        "economic-development"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "history",
+        "productivity",
+        "economic-development"
+      ],
+      "canonicalPath": "/articles/historical-analogies-of-missed-transitions/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/historical-analogies-of-missed-transitions/",
+      "agentJsonPath": "/agents/articles/historical-analogies-of-missed-transitions.json",
+      "agentMarkdownPath": "/agents/articles/historical-analogies-of-missed-transitions.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 303,
+      "contentHash": "f8d7648a11dc2580fd1d8984244dfc3249c23a4251f1b38b96816b6aec01bafd"
+    }
+  ]
+}

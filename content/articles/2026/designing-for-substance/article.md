@@ -22,7 +22,7 @@ agentArtifact: /agents/articles/designing-for-substance.json
 sourcePath: content/articles/2026/designing-for-substance/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 5: Designing for Substance</p>
+<p class="article-kicker">Attention, Substance, and the AI Moment · Part 5</p>
 
 Before food-safety laws, a factory could sell almost anything that fit in a can. Before tobacco warnings, a company could market cigarettes to children. Before seatbelts were standard, carmakers could treat safety as the driver's private responsibility. In each case, the design of a product was treated as a purely commercial decision until the public costs grew too large to ignore. Then the frame shifted: some design choices are not merely business choices; they are civic choices.
 
@@ -70,7 +70,7 @@ If engagement is not the only possible metric, what else could platforms optimiz
 
 <strong>Long-term flourishing.</strong> This is the broadest and hardest to measure. It asks whether the platform contributes to users' health, relationships, and sense of agency over months and years. It is easy to dismiss as fuzzy, but it is also the standard most people would use if asked whether a product is good for them.
 
-No metric is magic. Every one can be gamed, and every one requires judgment about what counts. But the existence of alternatives undermines the claim that engagement is the only thing platforms can optimize. The hard problem is not imagining alternatives; it is creating the incentives and accountability that make them stick.
+No metric is magic. Every one can be gamed, and every one requires judgment about what counts. But the existence of alternatives undermines the claim that engagement is the only thing platforms can optimize. The hard problem is not imagining alternatives; it is creating the incentives and accountability that make them stick. The [Alternative Metrics](/articles/alternative-metrics-time-well-spent/) article explores these candidates in more detail.
 
 <h2 id="accountability-from-three-directions">Accountability From Three Directions</h2>
 
@@ -86,9 +86,9 @@ Regulation has limits. It can be slow, captured by industry, or weaponized again
 
 <strong>Public pressure.</strong> Regulation is rarely the first mover. Public pressure—from researchers, journalists, civil society, and users—often creates the conditions for it. The Center for Humane Technology and similar groups have helped reframe attention extraction as a design problem rather than a personal-failure problem. Investigative reporting has documented harms. Academic research has supplied evidence. Whistleblowers have made internal choices visible. None of these alone changes a platform, but together they shift what is socially acceptable.
 
-Public pressure also works through internal channels. Employees at major platforms have pushed for ethical review of products. Shareholder proposals have asked companies to measure harms. Consumer boycotts and user campaigns have forced policy changes. The common thread is that design choices become public controversies, and public controversies create costs.
+Public pressure also works through internal channels. Employees at major platforms have pushed for ethical review of products. Shareholder proposals have asked companies to measure harms. Consumer boycotts and user campaigns have forced policy changes. The common thread is that design choices become public controversies, and public controversies create costs. See [Public Pressure and Internal Accountability](/articles/public-pressure-and-internal-accountability/) for a fuller account of these channels.
 
-<strong>User migration.</strong> The third lever is the oldest one in the market: people leaving for something better. This is where product alternatives matter. If users have somewhere else to go that respects their attention, the threat of migration becomes real. Without an exit, regulation and protest have less bite.
+<strong>User migration.</strong> The third lever is the oldest one in the market: people leaving for something better. This is where product alternatives matter. If users have somewhere else to go that respects their attention, the threat of migration becomes real. Without an exit, regulation and protest have less bite. [User Migration and the Exit Problem](/articles/user-migration-and-the-exit-problem/) examines the switching costs and network effects that make exit hard.
 
 Migration is hard. Network effects lock people in. Friends, employers, and public institutions are often on the dominant platform. Leaving can mean social and professional cost. But history shows that network effects are not permanent. Email, the web itself, and mobile messaging all saw shifts once the alternative was good enough. The fediverse and other decentralized models are attempts to build that alternative for social media.
 
@@ -96,7 +96,7 @@ Migration is hard. Network effects lock people in. Friends, employers, and publi
 
 <span id="claim-004" class="claim-marker" data-claim="claim-004">Claim C4</span> Substance-friendly design is a category that includes chronological feeds, user-chosen algorithms, expert curation, reputation systems, and friction against virality. It is not limited to a single product or business model.
 
-If the goal is to help users leave better than they arrived, several design patterns move in that direction.
+If the goal is to help users leave better than they arrived, several design patterns move in that direction. [Friction, Chronological Feeds, and User-Chosen Algorithms](/articles/friction-chronological-feeds-user-chosen-algorithms/) explores these patterns in more detail.
 
 <strong>Chronological feeds.</strong> A simple feed ordered by time removes one of the most powerful optimization levers: the algorithm that selects whatever maximizes engagement. Users see what their contacts posted, when they posted it. The feed may be less addictive, but it is also more predictable and less manipulable.
 
@@ -124,7 +124,7 @@ The question also changes how product teams think about growth. Growth by extrac
 
 What would this look like across different life stages?
 
-<strong>Children.</strong> Age-appropriate design means no infinite scroll, no autoplay, no dark patterns, and no algorithmic recommendations before a certain age. A child's feed should be bounded, predictable, and controlled by caregivers or educators. This is not a radical idea; it is the digital equivalent of child-proofing.
+<strong>Children.</strong> [Age-Appropriate Design](/articles/age-appropriate-design/) means no infinite scroll, no autoplay, no dark patterns, and no algorithmic recommendations before a certain age. A child's feed should be bounded, predictable, and controlled by caregivers or educators. This is not a radical idea; it is the digital equivalent of child-proofing.
 
 <strong>Students.</strong> Educational and civic content should get algorithmic priority; entertainment should be available but not the default. A learning environment does not need to ban fun, but it should make the useful path at least as easy as the distracting one.
 
@@ -156,4 +156,5 @@ These questions do not have easy answers. But asking them is the first step towa
 - [Engagement Is a Design Choice](/articles/engagement-is-a-design-choice/) — why ranking metrics are not inevitable.
 - [Regulation as a Floor](/articles/regulation-as-a-floor-dsa-it-rules-dpdp/) — what India's rules and global frameworks can and cannot do.
 - [A Map of Levers](/articles/a-map-of-levers/) — who can pull which levers to shift the default.
+- [Business Models That Reward Substance](/articles/business-models-that-reward-substance/) — subscriptions, patronage, public funding, and other alternatives to attention-based advertising.
 - [Attention, Substance, and the AI Moment](/articles/attention-substance-ai-moment/) — the full series guide and reading paths.

@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 3,
+  "id": "article:user-migration-and-the-exit-problem",
+  "slug": "user-migration-and-the-exit-problem",
+  "title": "User Migration and the Exit Problem",
+  "canonicalPath": "/articles/user-migration-and-the-exit-problem/",
+  "sourcePath": "content/articles/2026/user-migration-and-the-exit-problem/article.md",
+  "agentBriefPath": "content/articles/2026/user-migration-and-the-exit-problem/agent.md",
+  "thesis": "Network effects and switching costs make individual exit from dominant platforms costly; interoperability, data portability, and federation can lower those costs and create space for healthier alternatives.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "network-effects",
+    "interoperability",
+    "federation",
+    "design",
+    "regulation"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 41,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Network effects mean a platform's value rises with the number of users, making latecomers uncompetitive.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-mastodon",
+          "snippet": "Mastodon describes a federated social-network model in which no single company owns the network, illustrating an alternative to winner-take-all platform structure.",
+          "supports": "background",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-oecd-data-portability",
+          "snippet": "OECD analysis notes that strong network effects and data-driven returns to scale can entrench dominant digital platforms and raise barriers to entry.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Network effects can be overcome when users coordinate migration, when a niche offers superior quality, or when multi-homing reduces the cost of using several platforms at once.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Switching costs include lost contacts, content archives, and reputation.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-eu-dma",
+          "snippet": "The EU Digital Markets Act identifies gatekeeper platforms and imposes data-portability and interoperability obligations precisely because high switching costs lock users in.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-oecd-data-portability",
+          "snippet": "OECD work highlights that switching costs tied to data lock-in, social graphs, and accumulated content reduce competitive pressure on incumbent platforms.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-klemperer-switching-costs",
+          "snippet": "Klemperer's review surveys how switching costs—arising from learning, transaction, and artificial lock-in—soften competition and entrench incumbent firms.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Many users maintain overlapping contact lists across platforms, and younger users in particular may switch services with lower perceived cost if peer groups move together.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Data portability and interoperability can reduce lock-in.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-eu-dma",
+          "snippet": "The Digital Markets Act requires gatekeepers to enable data portability and interoperability as remedies to reduce user lock-in and foster contestability.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-oecd-data-portability",
+          "snippet": "OECD analysis argues that data portability and interoperability can increase platform contestability and user choice when implemented effectively.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-klemperer-switching-costs",
+          "snippet": "Klemperer's analysis suggests that policies and design choices which reduce switching costs can restore competitive pressure and expand user choice.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Portability alone may not change behavior if networks remain concentrated; interoperability must be technically robust, privacy-preserving, and actually used by competitors to matter.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Federated protocols like ActivityPub allow users to change providers without leaving their networks.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-activitypub",
+          "snippet": "The W3C ActivityPub specification defines a decentralized social-networking protocol that lets users on different servers interact and follow one another.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-mastodon",
+          "snippet": "Mastodon implements ActivityPub across independently operated servers, allowing account migration between servers while preserving follows and followers.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Federated services face usability, discovery, moderation, and governance challenges that can limit adoption; the model shifts power to server operators rather than eliminating hierarchy.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-mastodon",
+      "title": "Mastodon: Federated Social Media",
+      "url": "https://joinmastodon.org/",
+      "type": "website",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-activitypub",
+      "title": "W3C: ActivityPub Protocol",
+      "url": "https://www.w3.org/TR/activitypub/",
+      "type": "specification",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-eu-dma",
+      "title": "EU Digital Markets Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-markets-act",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-oecd-data-portability",
+      "title": "OECD: Data Portability, Interoperability and Digital Platform Competition",
+      "url": "https://www.oecd.org/publications/data-portability-interoperability-and-digital-platform-competition-4afb73d4-en.htm",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-klemperer-switching-costs",
+      "title": "Klemperer: Competition When Consumers Have Switching Costs",
+      "url": "https://www.jstor.org/stable/2729695",
+      "type": "article",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "article",
+      "id": "article:engagement-is-a-design-choice"
+    },
+    {
+      "type": "article",
+      "id": "article:friction-chronological-feeds-user-chosen-algorithms"
+    }
+  ],
+  "agentInstructions": [
+    "Route evidentiary questions about network effects, switching costs, interoperability, and federation to the claims and source IDs in this artifact.",
+    "Preserve the cautious framing: lock-in is structural, not a personal failing of users.",
+    "Distinguish technical feasibility from adoption and usability barriers when discussing federation and interoperability.",
+    "Cite sources by sourceId and do not generalize beyond the public evidence; flag global examples that are not India-specific.",
+    "When citing the EU Digital Markets Act or OECD analysis, describe them as policy and analytical sources, not as Indian law or empirical Indian findings.",
+    "The article includes a Mermaid diagram illustrating the network-effect lock-in loop and the interoperability/federation escape path."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:7f25386dda0dc58af48ceb317f5feee670387619c64dcddf3ea105375d7700a7",
+        "outputHash": "sha256:7f25386dda0dc58af48ceb317f5feee670387619c64dcddf3ea105375d7700a7"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "126c5c98a26bf36a5dbcf056e09c2c2ec6c9220b7d23f311afa87ac893a5857a"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "126c5c98a26bf36a5dbcf056e09c2c2ec6c9220b7d23f311afa87ac893a5857a"
+}
