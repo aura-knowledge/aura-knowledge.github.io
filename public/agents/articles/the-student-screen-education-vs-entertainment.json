@@ -363,7 +363,7 @@
           "sources"
         ],
         "notes": "Human author approved publication.",
-        "contentHash": "bd57880f5cca1b649f423609b0f33b11d409b3d6b0adce858ae86c8b1a3a5ef2"
+        "contentHash": "a90414a4c60ab239eb04f1c458fa852e57f6e757a1fb853939485285b400779e"
       }
     ],
     "policy": {
@@ -371,7 +371,7 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "bd57880f5cca1b649f423609b0f33b11d409b3d6b0adce858ae86c8b1a3a5ef2",
+  "contentHash": "a90414a4c60ab239eb04f1c458fa852e57f6e757a1fb853939485285b400779e",
   "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
   "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",

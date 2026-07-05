@@ -807,7 +807,7 @@
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 879,
-      "contentHash": "5f89b73f4c91dbbede314b218c1ab1d7a62eab89e7ba0c89b1680a78a0c7692b"
+      "contentHash": "b658a45e5e248472079d1560ae0fbd12abc49064c4f12c28d1b1abee730fd06a"
     },
     {
       "id": "article:evaluations",
@@ -1316,7 +1316,7 @@
       "updatedAt": "2026-07-05",
       "claimCount": 7,
       "sourceCount": 9,
-      "tokenEstimate": 739,
+      "tokenEstimate": 747,
       "contentHash": "07e1441b2711489b41140cf46bcf1a91ee20835c45b9a5e717f80e3f7bcd1523"
     },
     {
@@ -1442,7 +1442,7 @@
       "claimCount": 7,
       "sourceCount": 8,
       "tokenEstimate": 802,
-      "contentHash": "d882ba77ff9280c221b6ee69a48d916c57e4234be70426b9cd1e4c8bffc11d12"
+      "contentHash": "0c0895ce5054a37dcb895f36204883b905464bba6a736b441219cab2911e21d9"
     },
     {
       "id": "article:the-creator-economys-incentive-trap",
@@ -1667,7 +1667,7 @@
       "claimCount": 8,
       "sourceCount": 10,
       "tokenEstimate": 796,
-      "contentHash": "bd57880f5cca1b649f423609b0f33b11d409b3d6b0adce858ae86c8b1a3a5ef2"
+      "contentHash": "a90414a4c60ab239eb04f1c458fa852e57f6e757a1fb853939485285b400779e"
     },
     {
       "id": "article:the-substance-builder",
