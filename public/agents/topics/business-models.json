@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "topic": "business-models",
+  "articleIds": [
+    "article:engagement-is-a-design-choice"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/business-models/",
+  "agentJsonPath": "/agents/topics/business-models.json",
+  "articles": [
+    {
+      "id": "article:engagement-is-a-design-choice",
+      "slug": "engagement-is-a-design-choice",
+      "title": "Engagement Is a Design Choice",
+      "summary": "Explores how engagement-based ranking and ad-supported business models are design choices, not natural laws. Cites evidence that alternative metrics can reduce divisive amplification and asks what it would take to make substance the default.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "platform-design",
+        "algorithms",
+        "business-models"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "platform-design",
+        "algorithms",
+        "business-models"
+      ],
+      "canonicalPath": "/articles/engagement-is-a-design-choice/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+      "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+      "agentMarkdownPath": "/agents/articles/engagement-is-a-design-choice.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 7,
+      "tokenEstimate": 879,
+      "contentHash": "5f89b73f4c91dbbede314b218c1ab1d7a62eab89e7ba0c89b1680a78a0c7692b"
+    }
+  ]
+}

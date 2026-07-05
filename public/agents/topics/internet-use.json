@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "topic": "internet-use",
+  "articleIds": [
+    "article:by-the-numbers-what-indians-do-online"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/internet-use/",
+  "agentJsonPath": "/agents/topics/internet-use.json",
+  "articles": [
+    {
+      "id": "article:by-the-numbers-what-indians-do-online",
+      "slug": "by-the-numbers-what-indians-do-online",
+      "title": "By the Numbers: What Indians Actually Do Online",
+      "summary": "Uses government, academic, and industry sources to map India's digital time budget across entertainment, education, work, and communication.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "data",
+        "internet-use"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "data",
+        "internet-use"
+      ],
+      "canonicalPath": "/articles/by-the-numbers-what-indians-do-online/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+      "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
+      "agentMarkdownPath": "/agents/articles/by-the-numbers-what-indians-do-online.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 12,
+      "tokenEstimate": 739,
+      "contentHash": "30aaa419aeab9e4e13f2417ccb346572a874a8d914e354a1f4e1437eb9b39ae2"
+    }
+  ]
+}

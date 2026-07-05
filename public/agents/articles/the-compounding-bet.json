@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 3,
+  "id": "article:the-compounding-bet",
+  "slug": "the-compounding-bet",
+  "title": "The Compounding Bet",
+  "canonicalPath": "/articles/the-compounding-bet/",
+  "sourcePath": "content/articles/2026/the-compounding-bet/article.md",
+  "agentBriefPath": "content/articles/2026/the-compounding-bet/agent.md",
+  "thesis": "India's AI opportunity is not mainly a technology or capital problem; it is a compounding attention problem whose payoff depends on whether millions of small daily choices tilt toward learning, creation, and deep work.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "artificial-intelligence",
+    "deep-work",
+    "generational-responsibility",
+    "productivity"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 11,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "India's AI opportunity is not mainly a technology or capital problem; it is a compounding attention problem whose payoff depends on whether millions of small daily choices tilt toward learning, creation, and deep work.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-gallup-global-workplace-india",
+          "snippet": "Gallup 2025 India data shows 23% employee engagement, a 7-point decline, and $351 billion annual disengagement cost.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-nasscom-ai-adoption-index",
+          "snippet": "NASSCOM-EY AI Adoption Index 2.0 documents strong enterprise AI intent and a market projected to reach $17 billion by 2027.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-stanford-ai-vibrancy",
+          "snippet": "Stanford Global AI Vibrancy Tool 2025 ranks India 3rd globally on AI ecosystem strength.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Capital, compute, and policy also constrain India's AI outcomes; attention is one among several binding constraints.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Generative AI has collapsed the cost of first drafts, first prototypes, first translations, and first tutoring sessions, which makes individual creation less dependent on institutional gatekeepers than it was even five years ago.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-oecd-genai-productivity",
+          "snippet": "OECD 2025 review finds early productivity gains from generative AI in writing, coding, customer service, and professional tasks.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-stanford-ai-index",
+          "snippet": "Stanford HAI AI Index 2025 reports AI coding performance on SWE-bench rose from 4.4% in 2023 to 71.7% in 2024.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The cost collapse applies mainly to first drafts and prototypes; judgment, revision, distribution, and institutional credibility remain important.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "India's AI readiness is strong on talent, enterprise intent, and policy infrastructure, but weak on the sustained attention and deep-work habits required to convert access into productive capability at scale.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-nasscom-ai-adoption-index",
+          "snippet": "NASSCOM-EY AI Adoption Index 2.0 finds 87% of Indian companies in middle adoption stages and expert-stage share doubling since 2022.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-gallup-global-workplace-india",
+          "snippet": "Gallup 2025 India engagement fell to 23%, with 59% not engaged and 18% actively disengaged.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-indiaai-mission",
+          "snippet": "IndiaAI Mission has an outlay of over ₹10,000 crore for AI compute, datasets, skilling, and startup support.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Engagement is also shaped by wages, job quality, and management; the weakness is not purely a distraction problem.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Small daily choices about attention compound over years into large differences in individual skill; multiplied across a young population, those differences become differences in national capacity.",
+      "confidence": "medium",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-gallup-global-workplace-india",
+          "snippet": "Large engagement and disengagement cost estimates imply that small attention shifts at scale have macroeconomic consequences.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-aser-2024",
+          "snippet": "ASER 2024 shows 76% of 14-16-year-olds use smartphones for social media vs. 57% for education, indicating early attention allocation patterns.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The compounding curve in the article is illustrative, not empirically derived; individual trajectories vary widely by circumstance.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "The compounding bet is made in three ordinary arenas — schools, workplaces, and households — where the same AI tools can either deepen focus or deepen distraction depending on default habits and environmental design.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-aser-2024",
+          "snippet": "ASER 2024 documents adolescent smartphone use patterns that split between education and social media.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-gallup-global-workplace-india",
+          "snippet": "Gallup data shows low workplace engagement and high daily stress, sadness, and anger among Indian employees.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The same device can be used for both focus and distraction, and boundaries between the two are often fuzzy.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "Public policy, platform design, and education can tilt the compounding curve toward substance, but no single lever is sufficient; the curve bends only when individual habit and systemic design move together.",
+      "confidence": "medium",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-indiaai-mission",
+          "snippet": "Public investment in AI compute, datasets, and skilling through IndiaAI Mission can expand access to substance-building uses.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-oecd-genai-productivity",
+          "snippet": "OECD finds AI productivity gains are largest when tools are embedded in structured workflows, which requires organizational design.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "There is limited India-specific evidence on which interventions most effectively shift attention habits at scale.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "Historical analogies suggest that societies which build creation habits around a new general-purpose technology tend to gain more than societies that treat it mainly as a consumption device, though colonial, capital, and institutional advantages mean the analogy is a shape, not a guarantee.",
+      "confidence": "medium",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-stanford-ai-index",
+          "snippet": "Historical technology transitions show that access spreads faster than productive use, creating divergence between adopters.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Historical winners often had colonial, capital, or institutional advantages that AI does not erase; the analogy is suggestive, not predictive.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-gallup-global-workplace-india",
+      "title": "Gallup State of the Global Workplace: India Country-Level Data",
+      "url": "https://www.gallup.com/workplace/705650/state-global-workplace-india-country-level-data.aspx",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-nasscom-ai-adoption-index",
+      "title": "NASSCOM-EY: AI Adoption Index 2.0 — Tracking India's Sectoral Progress in AI Adoption",
+      "url": "https://nasscom.in/knowledge-center/publications/ai-adoption-index-20-tracking-indias-sectoral-progress-ai-adoption",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-nasscom-bcg-ai-market",
+      "title": "NASSCOM-BCG: AI Powered Tech Services — A Roadmap for Future Ready Firms",
+      "url": "https://nasscom.in/knowledge-center/publications/ai-powered-tech-services-roadmap-future-ready-firms",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-stanford-ai-index",
+      "title": "Stanford HAI: The 2025 AI Index Report — Technical Performance",
+      "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-stanford-ai-vibrancy",
+      "title": "Stanford HAI: The Global AI Vibrancy Tool 2025",
+      "url": "https://hai.stanford.edu/research/the-global-ai-vibrancy-tool-2024",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-oecd-genai-productivity",
+      "title": "OECD: The effects of generative AI on productivity, innovation and entrepreneurship",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/the-effects-of-generative-ai-on-productivity-innovation-and-entrepreneurship_da1d085d/b21df222-en.pdf",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-aser-2024",
+      "title": "ASER 2024 National Findings",
+      "url": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-indiaai-mission",
+      "title": "Digital India: IndiaAI Mission Expands AI Ecosystem with Affordable Compute and Startup Support",
+      "url": "https://www.digitalindia.gov.in/press_release/indiaai-mission-expands-ai-ecosystem-with-affordable-compute-and-startup-support/",
+      "type": "government-press-release",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:the-generational-bet"
+    },
+    {
+      "type": "article",
+      "id": "article:the-attention-extraction"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:the-substance-builder"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    },
+    {
+      "type": "topic",
+      "id": "topic:india"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit and treat the compounding argument as distinct from the diagnosis and design chapters.",
+    "Preserve the evidence-cautious tone; do not present the illustrative compounding curve as empirical data.",
+    "When citing sources, use the source IDs and URLs from the artifact; do not generalize beyond the public evidence.",
+    "Flag Gallup engagement figures as shaped by multiple factors, not only digital distraction.",
+    "Point readers to The Substance Builder for individual practice and Designing for Substance for systemic levers."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:d882ba77ff9280c221b6ee69a48d916c57e4234be70426b9cd1e4c8bffc11d12",
+        "outputHash": "sha256:d882ba77ff9280c221b6ee69a48d916c57e4234be70426b9cd1e4c8bffc11d12"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "d882ba77ff9280c221b6ee69a48d916c57e4234be70426b9cd1e4c8bffc11d12"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "d882ba77ff9280c221b6ee69a48d916c57e4234be70426b9cd1e4c8bffc11d12",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+  "agentJsonPath": "/agents/articles/the-compounding-bet.json",
+  "agentMarkdownPath": "/agents/articles/the-compounding-bet.md",
+  "sourceRepoPath": "content/articles/2026/the-compounding-bet/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/the-compounding-bet/article.md",
+  "tokenEstimate": 802,
+  "sectionOutline": [
+    {
+      "id": "the-cost-collapse-is-real",
+      "title": "The Cost Collapse Is Real"
+    },
+    {
+      "id": "the-readiness-is-strong-the-attention-is-weak",
+      "title": "The Readiness Is Strong; The Attention Is Weak"
+    },
+    {
+      "id": "the-compounding-curve",
+      "title": "The Compounding Curve"
+    },
+    {
+      "id": "where-the-bet-is-made",
+      "title": "Where the Bet Is Made"
+    },
+    {
+      "id": "what-could-tilt-the-curve",
+      "title": "What Could Tilt the Curve"
+    },
+    {
+      "id": "the-historical-pattern",
+      "title": "The Historical Pattern"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

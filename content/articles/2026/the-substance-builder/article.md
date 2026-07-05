@@ -22,7 +22,7 @@ agentArtifact: /agents/articles/the-substance-builder.json
 sourcePath: content/articles/2026/the-substance-builder/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Chapter 3</p>
+<p class="article-kicker">Attention, Substance, and the AI Moment · Part 4: Building Substance</p>
 
 A garden and a junkyard can occupy the same size plot. Both receive sunlight and rain. The difference is what the owner plants, weeds, and returns to each day. The soil does not care; the outcome depends on the gardener's small, repeated choices.
 
@@ -34,7 +34,7 @@ The premise is simple: the same device that extracts attention can also protect 
 
 <h2 id="the-quiet-question">The Quiet Question</h2>
 
-The first two chapters of this series did different work. Chapter 1 mapped how attention is extracted. Chapter 2 argued that the AI moment raises the stakes. This chapter answers the question that usually follows: <em>What can I do today?</em>
+The first two articles of this series did different work. [The Attention Extraction](/articles/the-attention-extraction/) mapped how attention is extracted. [The Generational Bet](/articles/the-generational-bet/) argued that the AI moment raises the stakes. This article answers the question that usually follows: <em>What can I do today?</em>
 
 The honest answer is smaller than most people want. It is not a manifesto. It is one paragraph written on a commute. One function sketched while waiting for tea. One explanation spoken to a child. One translation shared with a neighbor. These acts look trivial in isolation. In sequence, they become substance.
 
@@ -108,7 +108,7 @@ The trade is harder than it sounds because the devices are designed to make cons
 
 A child spending long stretches on algorithmic video content is not a separate problem from adult consumption. It is the same dynamic earlier in life. The parent who wants the child to read, build, or explore must first model the behavior. The device goes to a common spot at meals; the child sees the parent read, write, or build, not just scroll. This is attention redirected at the household level. It is less about rules and more about what the child sees as normal.
 
-<h2 id="failure-is-part">Failure Is Part of the Process</h2>
+<h2 id="failure-is-part-of-the-process">Failure Is Part of the Process</h2>
 
 <span id="claim-004" class="claim-marker" data-claim="claim-004">Claim C4</span> Unfinished or unnoticed early projects still build the skill stack for later work.
 
@@ -174,3 +174,12 @@ If you want to start building substance today:
 - What daily practices are most durable across different life phases?
 - How should households negotiate attention contracts as children grow older?
 - Can small civic acts of explanation and translation scale into local knowledge networks?
+
+<h2 id="related-in-this-series">Related in This Series</h2>
+
+- [The Attention Extraction](/articles/the-attention-extraction/) — the diagnosis and thesis of the series.
+- [The Generational Bet](/articles/the-generational-bet/) — why the AI moment raises the stakes for attention choices.
+- [The Small-Rep Theory](/articles/the-small-rep-theory/) — why deliberate practice, deep work, and tiny habits matter more than viral moments.
+- [Designing for Substance](/articles/designing-for-substance/) — how platforms and policymakers could make substance the easier path.
+- [A Map of Levers](/articles/a-map-of-levers/) — who can pull which levers to shift the default.
+- [Attention, Substance, and the AI Moment](/articles/attention-substance-ai-moment/) — the full series guide and reading paths.

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "topic": "platform-accountability",
+  "articleIds": [
+    "article:regulation-as-a-floor-dsa-it-rules-dpdp"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/platform-accountability/",
+  "agentJsonPath": "/agents/topics/platform-accountability.json",
+  "articles": [
+    {
+      "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+      "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+      "title": "Regulation as a Floor",
+      "summary": "Compares India’s IT Rules 2021 and DPDP Act 2023 with the EU DSA, UK OSA, and Australia’s eSafety framework. Regulation can curb harms but cannot alone make substance the easier path; design, business models, and public pressure matter too.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "regulation",
+        "platform-accountability",
+        "digital-services-act",
+        "dpdp"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "regulation",
+        "platform-accountability",
+        "digital-services-act",
+        "dpdp"
+      ],
+      "canonicalPath": "/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+      "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+      "agentMarkdownPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 9,
+      "tokenEstimate": 739,
+      "contentHash": "07e1441b2711489b41140cf46bcf1a91ee20835c45b9a5e717f80e3f7bcd1523"
+    }
+  ]
+}

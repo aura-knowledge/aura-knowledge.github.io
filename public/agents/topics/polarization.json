@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "topic": "polarization",
+  "articleIds": [
+    "article:trust-and-outrage-platforms-and-cohesion"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/polarization/",
+  "agentJsonPath": "/agents/topics/polarization.json",
+  "articles": [
+    {
+      "id": "article:trust-and-outrage-platforms-and-cohesion",
+      "slug": "trust-and-outrage-platforms-and-cohesion",
+      "title": "Trust and Outrage",
+      "summary": "Examines the design incentives and evidence behind divisive-content amplification in India, from algorithmic feeds to misinformation and hate-speech trends, and asks whether platforms can be designed to reward cohesion instead of fracture.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "social-media",
+        "misinformation",
+        "polarization",
+        "platform-design"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "social-media",
+        "misinformation",
+        "polarization",
+        "platform-design"
+      ],
+      "canonicalPath": "/articles/trust-and-outrage-platforms-and-cohesion/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
+      "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
+      "agentMarkdownPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 8,
+      "sourceCount": 7,
+      "tokenEstimate": 724,
+      "contentHash": "d4b1a6a3628cd9b1835bf350cceebf1917f37eca7760fb9e497cb23cd800f73a"
+    }
+  ]
+}

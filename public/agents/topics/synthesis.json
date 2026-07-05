@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "topic": "synthesis",
+  "articleIds": [
+    "article:a-map-of-levers",
+    "article:the-better-question"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/synthesis/",
+  "agentJsonPath": "/agents/topics/synthesis.json",
+  "articles": [
+    {
+      "id": "article:a-map-of-levers",
+      "slug": "a-map-of-levers",
+      "title": "A Map of Levers",
+      "summary": "This synthesis article maps the actors and interventions that can redirect India's digital infrastructure toward substance—from individual habits and household rules to platform design, investor pressure, regulation, and civic accountability.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "synthesis",
+        "platform-design",
+        "policy",
+        "regulation"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "synthesis",
+        "policy",
+        "platform-design"
+      ],
+      "canonicalPath": "/articles/a-map-of-levers/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
+      "agentJsonPath": "/agents/articles/a-map-of-levers.json",
+      "agentMarkdownPath": "/agents/articles/a-map-of-levers.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 8,
+      "sourceCount": 13,
+      "tokenEstimate": 860,
+      "contentHash": "3bfb89f509202214b6454cd92bff340dc6322aafafcbad5d08b0cdaef4ef9c96"
+    },
+    {
+      "id": "article:the-better-question",
+      "slug": "the-better-question",
+      "title": "Leave Better Than You Arrived: A North Star for Platform Design",
+      "summary": "Synthesizes the Designing for Substance arc into a practical north star: platform success should be measured by whether users leave with more clarity, skill, or civic capacity than they had when they arrived.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "platform-design",
+        "synthesis"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "platform-design",
+        "synthesis"
+      ],
+      "canonicalPath": "/articles/the-better-question/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
+      "agentJsonPath": "/agents/articles/the-better-question.json",
+      "agentMarkdownPath": "/agents/articles/the-better-question.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 7,
+      "tokenEstimate": 797,
+      "contentHash": "1ec6e905e6de8680421cf67e230310b23cdd692295947717b63e91654185ff55"
+    }
+  ]
+}

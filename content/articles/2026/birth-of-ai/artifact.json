@@ -350,7 +350,8 @@
           "tone",
           "privacy"
         ],
-        "notes": "Initial agent review against the LHRA work package and source map. No private or proprietary content detected. Claim markers and source IDs verified. Approved for publication after final review."
+        "notes": "Initial agent review against the LHRA work package and source map. No private or proprietary content detected. Claim markers and source IDs verified. Approved for publication after final review.",
+        "contentHash": "ecec9f458d695b5a53bfea9e6856fb376b5174ed3bf0487ce3a7cdd36baf96c1"
       },
       {
         "reviewer": "human",

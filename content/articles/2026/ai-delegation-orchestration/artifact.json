@@ -148,8 +148,8 @@
         "role": "drafting-and-site-preview",
         "model": "gpt-5",
         "invokedAt": "2026-06-28",
-        "inputHash": "sha256:1fb34c15a34e4efe4813eb295c0b64578ba5c083f7164c95e86a1228929137d7",
-        "outputHash": "sha256:1adcd6cfdc09fa8deab00c8622f81d532891fff8a2432acf59d81d9273aaf407"
+        "inputHash": "sha256:31e452aa5be128c80862d5b7f555b3bf9cb92d8eea99d67476e43f817bb546d1",
+        "outputHash": "sha256:31e452aa5be128c80862d5b7f555b3bf9cb92d8eea99d67476e43f817bb546d1"
       }
     ],
     "reviews": [
@@ -163,7 +163,8 @@
           "privacy"
         ],
         "notes": "Earlier sibling review identified source-ledger gaps; those gaps were resolved before publication with article-specific source alignment.",
-        "resolvedAt": "2026-06-28"
+        "resolvedAt": "2026-06-28",
+        "contentHash": "31e452aa5be128c80862d5b7f555b3bf9cb92d8eea99d67476e43f817bb546d1"
       },
       {
         "reviewer": "human",

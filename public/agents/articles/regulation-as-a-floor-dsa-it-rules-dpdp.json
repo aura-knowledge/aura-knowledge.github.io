@@ -1,0 +1,394 @@
+{
+  "schemaVersion": 3,
+  "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+  "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
+  "title": "Regulation as a Floor",
+  "canonicalPath": "/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+  "sourcePath": "content/articles/2026/regulation-as-a-floor-dsa-it-rules-dpdp/article.md",
+  "agentBriefPath": "content/articles/2026/regulation-as-a-floor-dsa-it-rules-dpdp/agent.md",
+  "thesis": "Regulation sets a floor for platform accountability, but designing for substance requires going beyond compliance to change metrics, business models, and defaults.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "regulation",
+    "platform-accountability",
+    "digital-services-act",
+    "dpdp"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 18,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Regulation can set a floor for platform accountability by mandating transparency, due process, and data protection, but it cannot by itself make substance-oriented design the default.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-it-rules-2021",
+          "snippet": "The IT Rules 2021 impose due diligence, grievance redressal, and compliance obligations on intermediaries, creating a baseline of accountability.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-dpdp-act-2023",
+          "snippet": "The DPDP Act 2023 establishes rights and obligations around personal data, adding a data-protection floor.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some jurisdictions, such as the EU under the DSA, are experimenting with systemic-risk obligations that may indirectly affect design defaults; the boundary between floor and design is evolving.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "The IT Rules 2021 focus on content takedown, user grievances, and traceability rather than on the design defaults—autoplay, infinite scroll, algorithmic ranking—that drive attention extraction.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-it-rules-2021",
+          "snippet": "The rules prescribe due diligence for intermediaries, additional diligence for significant social media intermediaries, grievance redressal, and compliance reporting.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-pib-it-rules-faq",
+          "snippet": "The FAQ explains that the rules aim at an open, safe and trusted internet and accountability of intermediaries, including social media intermediaries.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Amendments to the IT Rules have added deepfake labelling and senior-official takedown authorisation, showing incremental expansion into design-adjacent obligations.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "The DPDP Act 2023 establishes individual rights over digital personal data; the DPDP Rules, 2025, and the Data Protection Board became operational in late 2025, but phased implementation and enforcement capacity are still unfolding.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-dpdp-act-2023",
+          "snippet": "The Act provides for rights of data principals, obligations of data fiduciaries, a Data Protection Board, and penalties, with the Central Government appointing dates for different provisions.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-dpdp-rules-2025",
+          "snippet": "The DPDP Rules, 2025, notified on 13 November 2025, operationalized the Data Protection Board of India and laid out procedural rules for implementing the Act.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Enforcement capacity, staffing, and early Board caseload remain uncertain; compliance timelines for different entities are phased.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "The EU Digital Services Act goes further than India’s current framework by requiring systemic risk assessments, algorithmic transparency, and independent oversight for very large online platforms.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-eu-dsa",
+          "snippet": "The DSA imposes additional obligations on very large online platforms and search engines, including systemic risk assessments, independent audits, and transparency of recommendation algorithms.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The DSA’s effectiveness depends on enforcement capacity and member-state coordination; it is still early in implementation.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "The UK Online Safety Act and Australia’s eSafety model introduce duty-of-care or safety-standard approaches that India has not yet adopted for attention-economy harms.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-uk-osa",
+          "snippet": "The UK Online Safety Act 2023 imposes duties on regulated services to protect users from illegal content and content harmful to children, enforced by Ofcom.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-australia-osa-factsheet",
+          "snippet": "Australia’s Online Safety Act 2021 gives the eSafety Commissioner powers to set expectations, issue takedown notices, and investigate platforms for failing to protect users.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Both models face free-speech and over-reach concerns, and their scope does not automatically cover lawful-but-extractive design either.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "Regulation is better at removing illegal content and protecting personal data than at changing the engagement metrics, ad-supported business models, and default designs that drive attention extraction.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-sflc-takedown-analysis",
+          "snippet": "Analysis of platform transparency reports shows a sharp increase in content takedowns in India after the IT Rules and Grievance Appellate Committees took effect.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-eu-dsa",
+          "snippet": "Even the more expansive DSA focuses largely on illegal content, transparency, and systemic risk rather than prescribing specific substance-oriented design defaults.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some design-related obligations exist, such as bans on dark patterns in the DSA and proposed age-appropriate design in other jurisdictions; the line between harm and design is not fixed.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "Effective protection of attention and promotion of substance likely requires regulation plus design changes, alternative business models, public pressure, and internal platform accountability.",
+      "confidence": "medium-high",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-meta-oversight-board-2023",
+          "snippet": "The Oversight Board’s limited case share from Central and South Asia highlights the need for stronger internal and external accountability mechanisms in large user markets.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-eu-dsa",
+          "snippet": "The DSA’s researcher data-access and transparency provisions are designed to enable public and civic pressure, suggesting regulation works best alongside external scrutiny.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "It is possible that a sufficiently prescriptive regulatory regime could change design directly; no major jurisdiction has yet tested that approach at scale.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-it-rules-2021",
+      "title": "Gazette of India: Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021",
+      "url": "https://egazette.nic.in/WriteReadData/2021/225464.pdf",
+      "type": "government-regulation",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-pib-it-rules-faq",
+      "title": "PIB FAQs on Part II of the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2021/nov/doc202111171.pdf",
+      "type": "government-press-release",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-dpdp-act-2023",
+      "title": "MeitY: Digital Personal Data Protection Act, 2023",
+      "url": "https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf",
+      "type": "government-act",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-dpdp-rules-2025",
+      "title": "MeitY: Digital Personal Data Protection Rules, 2025",
+      "url": "https://www.meity.gov.in/documents/act-and-policies/digital-personal-data-protection-rules-2025-gDOxUjMtQWa?pageTitle=Digital-Personal-Data-Protection-Rules-2025",
+      "type": "government-regulation",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-eu-dsa",
+      "title": "EUR-Lex: Regulation (EU) 2022/2065 — Digital Services Act",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R2065",
+      "type": "international-regulation",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-uk-osa",
+      "title": "UK Government: Online Safety Act 2023 Explainer",
+      "url": "https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer",
+      "type": "government-regulation",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-australia-osa-factsheet",
+      "title": "eSafety Commissioner: Online Safety Act 2021 Fact Sheet",
+      "url": "https://www.esafety.gov.au/sites/default/files/2021-07/Online%20Safety%20Act%20-%20Fact%20sheet.pdf",
+      "type": "government-regulation",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-sflc-takedown-analysis",
+      "title": "SFLC.in: Data Analysis of Meta, X, and ShareChat on Content Takedown",
+      "url": "https://sflc.in/data-analysis-of-meta-x-and-sharechat-on-content-takedown/",
+      "type": "watchdog-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-meta-oversight-board-2023",
+      "title": "Meta Oversight Board: 2023 Annual Report Shows Board’s Impact on Meta",
+      "url": "https://www.oversightboard.com/news/2023-annual-report-shows-boards-impact-on-meta/",
+      "type": "platform-accountability-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:the-attention-extraction"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:the-generational-bet"
+    },
+    {
+      "type": "article",
+      "id": "article:the-substance-builder"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    },
+    {
+      "type": "topic",
+      "id": "topic:india"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as retrieval units and treat each claim as scoped to this regulatory-comparison article.",
+    "Preserve the evidence-cautious tone; do not present legal frameworks as fully implemented if subordinate rules are pending.",
+    "When citing sources, use the source IDs and URLs from the artifact; do not invent or generalize beyond the public evidence.",
+    "Distinguish clearly between illegal-content regulation and design/business-model interventions when answering queries.",
+    "Flag any implementation status that may have changed after 2026-07-05."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:416f4a117677b3aba80d8b4b5650f406204b3d11239061fb78530b3220cca2df",
+        "outputHash": "sha256:416f4a117677b3aba80d8b4b5650f406204b3d11239061fb78530b3220cca2df"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "07e1441b2711489b41140cf46bcf1a91ee20835c45b9a5e717f80e3f7bcd1523"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "07e1441b2711489b41140cf46bcf1a91ee20835c45b9a5e717f80e3f7bcd1523",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+  "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
+  "agentMarkdownPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.md",
+  "sourceRepoPath": "content/articles/2026/regulation-as-a-floor-dsa-it-rules-dpdp/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/regulation-as-a-floor-dsa-it-rules-dpdp/article.md",
+  "tokenEstimate": 739,
+  "sectionOutline": [
+    {
+      "id": "what-indias-rules-cover",
+      "title": "What India’s Rules Cover"
+    },
+    {
+      "id": "how-the-global-floors-compare",
+      "title": "How the Global Floors Compare"
+    },
+    {
+      "id": "what-regulation-can-do",
+      "title": "What Regulation Can Do: Harms, Not Defaults"
+    },
+    {
+      "id": "the-enforcement-gap",
+      "title": "The Enforcement Gap"
+    },
+    {
+      "id": "beyond-the-floor",
+      "title": "Beyond the Floor: Design and Business Models"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

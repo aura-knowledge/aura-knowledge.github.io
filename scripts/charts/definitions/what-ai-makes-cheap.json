@@ -1,0 +1,11 @@
+{
+  "type": "grouped_bar",
+  "csv": "what-ai-makes-cheap.csv",
+  "filename": "what-ai-makes-cheap.svg",
+  "title": "Estimated productivity gains from generative AI by task",
+  "x_key": "task",
+  "y_key": "time_reduction_pct",
+  "y_label": "Estimated time reduction (%)",
+  "source": "OECD review of experimental studies on generative AI and productivity",
+  "caveat": "Experimental settings, mostly outside India; actual gains depend on task, tool, and user skill."
+}

@@ -55,4 +55,4 @@ This article was drafted and structured with AI agent assistance following the A
 - This is a seed article; examples are illustrative and exploratory.
 - It is not a business plan, regulatory handbook, or utopian blueprint.
 - It does not provide implementation details for any specific product or policy.
-- It does not re-argue the diagnosis in Lane A, the stakes in Lane B, or individual practice in Lane C.
+- It does not re-argue the diagnosis in [The Attention Extraction](/articles/the-attention-extraction/), the stakes in [The Generational Bet](/articles/the-generational-bet/), or individual practice in [The Substance Builder](/articles/the-substance-builder/).

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "topic": "reading-paths",
+  "articleIds": [
+    "article:a-readers-guide-to-the-series"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/reading-paths/",
+  "agentJsonPath": "/agents/topics/reading-paths.json",
+  "articles": [
+    {
+      "id": "article:a-readers-guide-to-the-series",
+      "slug": "a-readers-guide-to-the-series",
+      "title": "A Reader's Guide to the Series",
+      "summary": "Helps readers choose where to start in the series based on their question or role, explains the six arcs, and points only to published articles.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "series-guide",
+        "reading-paths"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "series-guide",
+        "reading-paths"
+      ],
+      "canonicalPath": "/articles/a-readers-guide-to-the-series/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+      "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+      "agentMarkdownPath": "/agents/articles/a-readers-guide-to-the-series.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 5,
+      "sourceCount": 7,
+      "tokenEstimate": 532,
+      "contentHash": "fcbc0027046f452e0114248491dbb9c4cf1afbe846dc59443bf67b78583548d7"
+    }
+  ]
+}

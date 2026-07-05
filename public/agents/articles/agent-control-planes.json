@@ -505,8 +505,8 @@
         "role": "drafting",
         "model": "kimi",
         "invokedAt": "2026-06-26",
-        "inputHash": "sha256:852663a4745a1b043b62567fcb06d0eb7ed3c047388f73b7bd965cb02f465361",
-        "outputHash": "sha256:031a91bb4b296847ab01e961f3f925051f3b93ce2ba26f7034007bda42aedc26"
+        "inputHash": "sha256:98f24b29680f350d1b34461bb20e21e32209cb79d8ab2e5822575fab2c08df9c",
+        "outputHash": "sha256:98f24b29680f350d1b34461bb20e21e32209cb79d8ab2e5822575fab2c08df9c"
       }
     ],
     "reviews": [
@@ -541,7 +541,7 @@
       "version": "1.0.0"
     }
   },
-  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
   "agentJsonPath": "/agents/articles/agent-control-planes.json",
   "agentMarkdownPath": "/agents/articles/agent-control-planes.md",

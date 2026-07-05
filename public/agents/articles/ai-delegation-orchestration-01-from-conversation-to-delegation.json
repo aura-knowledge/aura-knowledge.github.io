@@ -128,8 +128,8 @@
         "role": "drafting-and-site-preview",
         "model": "gpt-5",
         "invokedAt": "2026-06-28",
-        "inputHash": "sha256:10e3cede7475364e9caf6654ba9bdcac348456e8f7eed5c1a89b85603618aa92",
-        "outputHash": "sha256:4101037ce50b5e8f040314be9dd89c09ce0421edf1f5d6636cc22b9c2ebdcc68"
+        "inputHash": "sha256:fb87b3f92bc83893f862a3be7b097a10da853a4a49148a00c5b594a9a25c7818",
+        "outputHash": "sha256:fb87b3f92bc83893f862a3be7b097a10da853a4a49148a00c5b594a9a25c7818"
       }
     ],
     "reviews": [
@@ -143,7 +143,8 @@
           "privacy"
         ],
         "notes": "Earlier sibling review identified source-ledger gaps; those gaps were resolved before publication with article-specific source alignment.",
-        "resolvedAt": "2026-06-28"
+        "resolvedAt": "2026-06-28",
+        "contentHash": "fb87b3f92bc83893f862a3be7b097a10da853a4a49148a00c5b594a9a25c7818"
       },
       {
         "reviewer": "human",
@@ -179,7 +180,7 @@
     }
   },
   "contentHash": "fb87b3f92bc83893f862a3be7b097a10da853a4a49148a00c5b594a9a25c7818",
-  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-01-from-conversation-to-delegation/",
   "agentJsonPath": "/agents/articles/ai-delegation-orchestration-01-from-conversation-to-delegation.json",
   "agentMarkdownPath": "/agents/articles/ai-delegation-orchestration-01-from-conversation-to-delegation.md",

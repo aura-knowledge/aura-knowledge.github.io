@@ -22,7 +22,7 @@ agentArtifact: /agents/articles/the-attention-extraction.json
 sourcePath: content/articles/2026/the-attention-extraction/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Chapter 1</p>
+<p class="article-kicker">Attention, Substance, and the AI Moment · Part 1: The Diagnosis</p>
 
 India dug canals of cheap data across the country. The water reached everywhere—villages, railway platforms, late-night kitchens, school corridors. But the channels were not built to irrigate fields. They were built to carry away attention. The same infrastructure that could have turned a young, connected population into a productive force is now, in large part, a harvesting machine. The crop is not wheat or rice; it is hours.
 
@@ -120,11 +120,11 @@ The diagnosis runs through every stage of life. The article does not solve for a
 
 <h2 id="what-this-article-is-not">What This Article Is Not</h2>
 
-This article stays in the diagnosis lane. It is not a lecture on personal discipline. It is not a product review or a guide to healthier habits. It does not prescribe platform redesigns, regulatory fixes, or AI tools. Those live in later chapters:
+This article stays in the diagnosis lane. It is not a lecture on personal discipline. It is not a product review or a guide to healthier habits. It does not prescribe platform redesigns, regulatory fixes, or AI tools. Those live in later articles:
 
-- Lane B reframes the problem as a generational bet on responsibility and substance, including the creator-economy precarity that makes the aspiration gap real.
-- Lane C looks at small daily practices that help individuals create and learn instead of consume.
-- Lane D looks at platform incentives, systemic change, and product alternatives such as the Digital Services Act, India's IT Rules, the fediverse, quality-based incentives, and friction against virality.
+- [The Generational Bet](/articles/the-generational-bet/) reframes the problem as a generational bet on responsibility and substance, including the creator-economy precarity that makes the aspiration gap real.
+- [The Substance Builder](/articles/the-substance-builder/) looks at small daily practices that help individuals create and learn instead of consume.
+- [Designing for Substance](/articles/designing-for-substance/) looks at platform incentives, systemic change, and product alternatives such as the Digital Services Act, India's IT Rules, the fediverse, quality-based incentives, and friction against virality.
 
 The point of stopping at diagnosis is to avoid the easy pivot to advice. Advice makes the reader feel in control; diagnosis makes the reader see the shape of the problem. Both are needed, but not in the same sentence.
 
@@ -138,7 +138,7 @@ Peer-reviewed and academic studies provide the behavioral and cognitive links, i
 
 Industry reports provide the commercial context: IAMAI-Kantar on internet use, Gallup on employee engagement, and IBEF on advertising revenue.
 
-The Economic Survey 2025–26 also proposes responses such as Tele-MANAS expansion and screen-free zones; this article cites only its diagnostic findings and leaves its recommendations for Lane D.
+The Economic Survey 2025–26 also proposes responses such as Tele-MANAS expansion and screen-free zones; this article cites only its diagnostic findings and leaves its recommendations for [Designing for Substance](/articles/designing-for-substance/).
 
 All claims are framed with appropriate caution. Where the data is correlational, the language reflects that. The goal is not to prove a single causal chain but to show that enough public evidence points in the same direction to treat attention extraction as a serious structural problem.
 
@@ -149,3 +149,12 @@ All claims are framed with appropriate caution. Where the data is correlational,
 - Which design changes—friction, defaults, or ranking criteria—reduce extraction without paternalism?
 - How should schools and parents divide responsibility for early digital habits?
 - Can mental-health support scale fast enough to match the speed of platform adoption?
+
+<h2 id="related-in-this-series">Related in This Series</h2>
+
+- [By the Numbers: What Indians Actually Do Online](/articles/by-the-numbers-what-indians-do-online/) — the national digital time budget behind the diagnosis.
+- [The Student Screen](/articles/the-student-screen-education-vs-entertainment/) — how the diagnosis shows up among teenagers.
+- [The Generational Bet](/articles/the-generational-bet/) — the stakes of the AI moment for India's young population.
+- [The Substance Builder](/articles/the-substance-builder/) — practical paths for turning dead time into small acts of creation.
+- [Designing for Substance](/articles/designing-for-substance/) — how platforms and policymakers could make substance the easier path.
+- [Attention, Substance, and the AI Moment](/articles/attention-substance-ai-moment/) — the full series guide and reading paths.

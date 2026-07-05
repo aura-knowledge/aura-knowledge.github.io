@@ -128,8 +128,8 @@
         "role": "drafting-and-site-preview",
         "model": "gpt-5",
         "invokedAt": "2026-06-28",
-        "inputHash": "sha256:9748d4fdb1648fbfa9a2e623bd90e286430984eba403b5e9b4e767d713d0d81e",
-        "outputHash": "sha256:587876cee873881f45876d43e99ce8cc3d1c421535784b6b043a3d0bed87f4e1"
+        "inputHash": "sha256:95d688f18c57d85bc47bf42659da888e3802d56ff121a43e3ae3ceaf49271250",
+        "outputHash": "sha256:95d688f18c57d85bc47bf42659da888e3802d56ff121a43e3ae3ceaf49271250"
       }
     ],
     "reviews": [
@@ -143,7 +143,8 @@
           "privacy"
         ],
         "notes": "Earlier sibling review identified source-ledger gaps; those gaps were resolved before publication with article-specific source alignment.",
-        "resolvedAt": "2026-06-28"
+        "resolvedAt": "2026-06-28",
+        "contentHash": "95d688f18c57d85bc47bf42659da888e3802d56ff121a43e3ae3ceaf49271250"
       },
       {
         "reviewer": "human",
@@ -179,7 +180,7 @@
     }
   },
   "contentHash": "95d688f18c57d85bc47bf42659da888e3802d56ff121a43e3ae3ceaf49271250",
-  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains/",
   "agentJsonPath": "/agents/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains.json",
   "agentMarkdownPath": "/agents/articles/ai-delegation-orchestration-07-commitment-boundaries-in-high-stakes-domains.md",

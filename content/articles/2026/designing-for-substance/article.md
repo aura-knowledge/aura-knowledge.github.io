@@ -22,7 +22,7 @@ agentArtifact: /agents/articles/designing-for-substance.json
 sourcePath: content/articles/2026/designing-for-substance/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Chapter 4</p>
+<p class="article-kicker">Attention, Substance, and the AI Moment · Part 5: Designing for Substance</p>
 
 Before food-safety laws, a factory could sell almost anything that fit in a can. Before tobacco warnings, a company could market cigarettes to children. Before seatbelts were standard, carmakers could treat safety as the driver's private responsibility. In each case, the design of a product was treated as a purely commercial decision until the public costs grew too large to ignore. Then the frame shifted: some design choices are not merely business choices; they are civic choices.
 
@@ -80,7 +80,7 @@ Changing incentives requires pressure from more than one direction. Three stand 
 
 <strong>Regulation.</strong> The European Union's Digital Services Act is a recent example. It requires large platforms to assess and mitigate systemic risks, including risks to mental health and democratic discourse. It demands transparency about recommendation algorithms and advertising. It is not a blueprint for a substance-friendly internet, but it creates legal pressure to treat design as a public-interest question rather than a purely private decision.
 
-India's Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021, updated in 2026, take a different approach. They impose due-diligence requirements on intermediaries, including grievance mechanisms, content takedown procedures, and obligations around harmful or misleading material. Like all such rules, their effectiveness depends on implementation, enforcement, and the balance they strike between accountability and overreach. But they show that governments are no longer treating platform design as hands-off territory.
+India's Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021, amended in 2026 with a deepfake-labelling requirement and other provisions, take a different approach. They impose due-diligence requirements on intermediaries, including grievance mechanisms, content takedown procedures, and obligations around harmful or misleading material. Like all such rules, their effectiveness depends on implementation, enforcement, and the balance they strike between accountability and overreach. But they show that governments are no longer treating platform design as hands-off territory.
 
 Regulation has limits. It can be slow, captured by industry, or weaponized against speech. Done poorly, it can entrench large incumbents who can afford compliance while excluding smaller competitors. But done well, it can set floors—like food-safety standards—that make the worst designs costlier and the better designs more competitive.
 
@@ -148,3 +148,12 @@ Nor is it a claim that regulation or alternative platforms will solve everything
 - When does friction against virality become friction against legitimate speech?
 
 These questions do not have easy answers. But asking them is the first step toward making substance the easier path.
+
+<h2 id="related-in-this-series">Related in This Series</h2>
+
+- [The Attention Extraction](/articles/the-attention-extraction/) — the diagnosis and thesis of the series.
+- [The Generational Bet](/articles/the-generational-bet/) — why the AI moment raises the stakes for design choices.
+- [Engagement Is a Design Choice](/articles/engagement-is-a-design-choice/) — why ranking metrics are not inevitable.
+- [Regulation as a Floor](/articles/regulation-as-a-floor-dsa-it-rules-dpdp/) — what India's rules and global frameworks can and cannot do.
+- [A Map of Levers](/articles/a-map-of-levers/) — who can pull which levers to shift the default.
+- [Attention, Substance, and the AI Moment](/articles/attention-substance-ai-moment/) — the full series guide and reading paths.

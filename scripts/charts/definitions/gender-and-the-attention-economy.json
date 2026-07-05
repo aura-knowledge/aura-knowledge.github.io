@@ -1,0 +1,11 @@
+{
+  "type": "grouped_bar",
+  "csv": "gender-and-the-attention-economy.csv",
+  "filename": "gender-daily-time-use.svg",
+  "title": "Daily time use by gender in India (minutes)",
+  "x_key": "activity",
+  "y_key": "minutes",
+  "y_label": "Minutes per day",
+  "source": "NSSO Time Use Survey 2024",
+  "caveat": "Among persons aged 6 years and above performing each activity. Leisure/mass media is an average across participants and does not capture how fragmented or uninterrupted the time is."
+}

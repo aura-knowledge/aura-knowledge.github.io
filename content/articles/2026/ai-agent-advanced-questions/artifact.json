@@ -52,7 +52,7 @@
     },
     {
       "id": "claim-002",
-      "claim": "Teaching new users three recovery moves \u2014 ask for sources, rephrase, and test with a known answer \u2014 is enough to turn a wrong answer from a stop sign into a learning moment.",
+      "claim": "Teaching new users three recovery moves — ask for sources, rephrase, and test with a known answer — is enough to turn a wrong answer from a stop sign into a learning moment.",
       "confidence": "medium",
       "status": "argument",
       "evidence": [
@@ -112,7 +112,7 @@
     },
     {
       "id": "claim-005",
-      "claim": "Four plain-language moves \u2014 context, desired output, exclusions, and options \u2014 are enough to improve most beginner prompts without teaching prompt-engineering jargon.",
+      "claim": "Four plain-language moves — context, desired output, exclusions, and options — are enough to improve most beginner prompts without teaching prompt-engineering jargon.",
       "confidence": "medium-high",
       "status": "core",
       "evidence": [
@@ -174,7 +174,7 @@
   "sources": [
     {
       "id": "source-openai-usage-study",
-      "title": "TechRadar: OpenAI reveals how people use ChatGPT \u2014 3 things we learned",
+      "title": "TechRadar: OpenAI reveals how people use ChatGPT — 3 things we learned",
       "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/openai-reveals-biggest-ever-study-of-how-people-are-using-chatgpt-here-are-3-things-weve-learned",
       "type": "research",
       "accessed": "2026-06-26"
@@ -250,15 +250,15 @@
         "role": "drafting",
         "model": "kimi",
         "invokedAt": "2026-06-26",
-        "inputHash": "sha256:d599e966fa7fc73552f887bbcf6248fb11a54cf9de540dfd9fd51b9de061b244",
+        "inputHash": "sha256:6a1159bec01d89c53b7760a4c0a335edd67e31ead8ccf2c490bad5ffcba08185",
         "outputHash": "sha256:6a1159bec01d89c53b7760a4c0a335edd67e31ead8ccf2c490bad5ffcba08185"
       },
       {
         "role": "review",
         "model": "kimi",
         "invokedAt": "2026-06-26",
-        "inputHash": "sha256:d6651e21815a9dc70aa1c0bb5fedeb3e191893e5b5bfe5a062b695e360ed757e",
-        "outputHash": "sha256:6de57fe9ff916530fa3d76cc64cc4328ebe1f3453886830415f2292728e621b0"
+        "inputHash": "sha256:6a1159bec01d89c53b7760a4c0a335edd67e31ead8ccf2c490bad5ffcba08185",
+        "outputHash": "sha256:6a1159bec01d89c53b7760a4c0a335edd67e31ead8ccf2c490bad5ffcba08185"
       }
     ],
     "reviews": [

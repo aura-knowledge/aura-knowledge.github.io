@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "topic": "deliberate-practice",
+  "articleIds": [
+    "article:the-small-rep-theory"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/deliberate-practice/",
+  "agentJsonPath": "/agents/topics/deliberate-practice.json",
+  "articles": [
+    {
+      "id": "article:the-small-rep-theory",
+      "slug": "the-small-rep-theory",
+      "title": "The Small-Rep Theory",
+      "summary": "Synthesizes research on deliberate practice, deep work, and tiny habits into a practical framework for building substance one small repetition at a time.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "skill-building",
+        "deliberate-practice",
+        "habits"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "skill-building",
+        "deliberate-practice",
+        "habits"
+      ],
+      "canonicalPath": "/articles/the-small-rep-theory/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
+      "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
+      "agentMarkdownPath": "/agents/articles/the-small-rep-theory.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 5,
+      "tokenEstimate": 659,
+      "contentHash": "5b21a6af734bb37d8c42799003a7d00fd6d44b82978fd64d2a977c4b8a27e2d1"
+    }
+  ]
+}
