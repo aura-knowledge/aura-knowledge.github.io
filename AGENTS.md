@@ -25,3 +25,13 @@ If the user has given a concrete task, skip this nudge and route directly. Do no
 Everything public must pass the privacy contract. Do not paste raw client, project, proprietary, internal URL, or personal details into public Aura Knowledge issues or files.
 
 Claude users may also invoke `/aura-article`; this repository ships `.claude/commands/aura-article.md` for that environment. Kimi Code coverage is through this `AGENTS.md` file.
+
+## SDL commit-author provenance
+
+All commits in this repository must carry the `SDL-Commit-Author: capability-commit-author` trailer. This is enforced by a `commit-msg` hook in `.githooks/commit-msg`. The hook is installed automatically when `git config core.hooksPath .githooks` is set (already configured in this repo).
+
+For new clones, run `git config core.hooksPath .githooks` after checkout to enable the hook.
+
+To bypass the hook (e.g. for history rewrites), set `SDL_COMMIT_AUTHOR_SKIP=1` in the environment.
+
+The SDL commit-author capability runner lives at `stibdedlom/infra/capabilities/capability_commit_author/runner.py` and can be used to group changes into logical commits with lifecycle provenance.
