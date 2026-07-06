@@ -1,6 +1,6 @@
 {
   "source": "NCAER IHDS Wave 3 (2024-25)",
-  "caveat": "Self-reported usage shares; actual minutes may differ. Illustrative allocation.",
+  "caveat": "Self-reported usage shares; actual minutes may differ. The 'Entertainment & Social Media' category combines NCAER's entertainment/news/video share with social-media use reported by ASER. Remaining slices are illustrative allocations.",
   "filename": "tldr-entertainment-vs-education.svg",
   "alt_text": "How India's internet time is split"
 }

@@ -451,8 +451,8 @@
           "tone",
           "privacy"
         ],
-        "notes": "Human author approved original publication as a TLDR summary of the series. Updated 2026-07-06 with chart fixes (line-to-bar compounding chart, sorted daily-breakdown chart, new head-to-head outcome chart) and revised alt text; formal re-approval pending.",
-        "contentHash": "fb827d0aa38a7ab377702f1f37e3917617708600034e15e10d2ad81c11b674d4"
+        "notes": "Human author approved original publication as a TLDR summary of the series. Re-approved 2026-07-06 after sibling-agent review and chart fixes: pie-to-bar internet split, sorted daily-breakdown with semantic colors, diverging head-to-head 15-minute shift chart, SVG text-as-text, and accessible high-contrast palette.",
+        "contentHash": "638f59058b3f8eab4574cbad934bed651dd925f62ef76a7f5e647b525fb50193"
       }
     ],
     "policy": {
@@ -460,7 +460,7 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "fb827d0aa38a7ab377702f1f37e3917617708600034e15e10d2ad81c11b674d4",
+  "contentHash": "638f59058b3f8eab4574cbad934bed651dd925f62ef76a7f5e647b525fb50193",
   "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
   "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
