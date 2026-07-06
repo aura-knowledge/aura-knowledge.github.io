@@ -1,10 +1,13 @@
 {
-  "type": "pie",
+  "type": "horizontal_bar",
   "csv": "tldr-entertainment-vs-education.csv",
   "filename": "tldr-entertainment-vs-education.svg",
   "title": "How India's internet time is split",
   "x_key": "activity",
   "y_key": "share_pct",
+  "x_label": "Share of reported internet time (%)",
+  "unit": "%",
+  "colors": ["#9a3412", "#1d4ed8", "#475569", "#15803d", "#64748b"],
   "source": "NCAER IHDS Wave 3 (2024-25)",
-  "caveat": "Self-reported usage shares; actual minutes may differ. Illustrative allocation."
+  "caveat": "Self-reported usage shares; actual minutes may differ. The 'Entertainment & Social Media' category combines NCAER's entertainment/news/video share with social-media use reported by ASER. Remaining slices are illustrative allocations."
 }
