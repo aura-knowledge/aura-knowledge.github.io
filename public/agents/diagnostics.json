@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "generatedAt": "2026-07-05T00:00:00.000Z",
   "summary": {
-    "errors": 1,
+    "errors": 0,
     "warnings": 371,
-    "total": 372
+    "total": 371
   },
   "findings": [
     {
@@ -336,11 +336,6 @@
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/ai-demystified: claim-003 relies on a single source type for evidence."
-    },
-    {
-      "rule": "provenance-contentHash-mismatch",
-      "severity": "error",
-      "message": "2026/attention-substance-ai-moment-tldr: latest approved review contentHash does not match current article.md hash. Run npm run generate to refresh or re-approve."
     },
     {
       "rule": "low-source-diversity",
