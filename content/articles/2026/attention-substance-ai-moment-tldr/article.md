@@ -40,7 +40,7 @@ The answer is mostly entertainment. The NCAER India Human Development Survey Wav
 Studies of Indian adolescents report 4–5 hours of daily screen time. In one rural study, 83% of secondary school children exceeded the recommended two-hour daily limit. But adults are not exempt: the working professional who opens Netflix on a laptop after dinner, the parent who scrolls for an hour in bed, the manager who checks WhatsApp between meetings instead of taking a real break — the pattern holds. The device changes, the screen size changes, the ratio does not.
 
 <figure>
-  <img src="/images/articles/2026/attention-substance-ai-moment/tldr-entertainment-vs-education.svg" alt="Pie chart showing roughly two-thirds of India's internet time goes to entertainment and social media, while only about one-sixth goes to education." loading="lazy" />
+  <img src="/images/articles/2026/attention-substance-ai-moment/tldr-entertainment-vs-education.svg" alt="Horizontal bar chart showing how India's internet time is split: entertainment and social media at 66%, education at 16%, communication at 8%, work/productive at 5%, and other at 5%." loading="lazy" />
   <figcaption>India's internet time is dominated by entertainment and social media. Education gets roughly one-sixth. Source: NCAER IHDS Wave 3 (2024–25).</figcaption>
 </figure>
 
@@ -109,7 +109,7 @@ The easiest way to see the shift is to put the two options side by side. Same fi
 The point is not that entertainment is bad. The point is that the same fifteen minutes, redirected, compounds. Fifteen minutes a day is 91 hours a year. That is enough to learn the fundamentals of a new field, build a working prototype, write a dozen short essays, or make a dozen informed financial decisions. The cost of the scroll is not the fifteen minutes. It is what those fifteen minutes could have become.
 
 <figure>
-  <img src="/images/articles/2026/attention-substance-ai-moment/tldr-head-to-head-outcomes.svg" alt="Horizontal bar chart showing that 91 hours a year of reels equals roughly 1,820 short videos, web series equals roughly 120 episodes, cricket highlights equals roughly 180 match segments, while the same 91 hours could be spent learning one new concept, drafting a project plan, or researching a financial decision." loading="lazy" />
+  <img src="/images/articles/2026/attention-substance-ai-moment/tldr-head-to-head-outcomes.svg" alt="Diverging bar chart showing a 15-minute daily reallocation: 15 minutes less on reels and 15 minutes more on education and learning, with other activities unchanged." loading="lazy" />
   <figcaption>The same 91 hours, different destinations. Entertainment counts are illustrative estimates based on typical content lengths.</figcaption>
 </figure>
 
