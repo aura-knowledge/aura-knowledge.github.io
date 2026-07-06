@@ -7,6 +7,7 @@
   "y_key": "daily_minutes",
   "x_label": "Minutes per day",
   "unit": " min",
+  "colors": ["#9a3412", "#b91c1c", "#1d4ed8", "#7c2d12", "#15803d", "#475569"],
   "source": "NCAER IHDS Wave 3, IAMAI-Kantar 2024, NSSO Time Use Survey 2024",
   "caveat": "Illustrative composite; actual time varies by age, region, and device. Laptop and phone time combined."
 }

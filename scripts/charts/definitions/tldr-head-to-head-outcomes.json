@@ -1,12 +1,11 @@
 {
-  "type": "horizontal_bar",
+  "type": "diverging_bar",
   "csv": "tldr-head-to-head-outcomes.csv",
   "filename": "tldr-head-to-head-outcomes.svg",
-  "title": "The same 91 hours, different destinations",
-  "x_key": "activity",
-  "y_key": "annual_hours",
-  "x_label": "Hours in one year (15 minutes a day)",
-  "unit": "h",
-  "source": "Author estimates based on typical content lengths",
-  "caveat": "Illustrative comparison. Entertainment counts assume ~3 min/reel, ~45 min/episode, ~30 min/highlight segment; actual content lengths vary widely."
+  "title": "What shifting 15 minutes a day looks like",
+  "x_key": "category",
+  "y_key": "change_minutes",
+  "x_label": "Change in daily minutes",
+  "source": "Author estimate: 15 minutes moved from reels to education/learning",
+  "caveat": "Illustrative reallocation. Actual shifts depend on individual choices; other activities are held constant."
 }

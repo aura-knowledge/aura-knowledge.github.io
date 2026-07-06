@@ -21,6 +21,9 @@ import matplotlib.pyplot as plt
 import matplotlib.patheffects as pe
 import xml.etree.ElementTree as ET
 
+# Keep text as selectable text elements in SVGs rather than vector paths.
+plt.rcParams["svg.fonttype"] = "none"
+
 # Base paths relative to this script
 SCRIPT_DIR = Path(__file__).resolve().parent
 DATA_DIR = SCRIPT_DIR / "data"
@@ -29,16 +32,18 @@ DEFINITIONS_DIR.mkdir(parents=True, exist_ok=True)
 OUT_DIR = SCRIPT_DIR.parent.parent / "public" / "images" / "articles" / "2026" / "attention-substance-ai-moment"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# Color palette (accessible, print-friendly)
+# Color palette (accessible, print-friendly, WCAG 2.2 AA against white)
 COLORS = {
-    "primary": "#2563eb",
-    "secondary": "#7c3aed",
-    "accent": "#059669",
-    "warning": "#d97706",
-    "danger": "#dc2626",
-    "neutral": "#64748b",
+    "primary": "#1d4ed8",
+    "secondary": "#6b21a8",
+    "accent": "#15803d",
+    "warning": "#9a3412",
+    "danger": "#b91c1c",
+    "neutral": "#475569",
     "light": "#cbd5e1",
-    "palette": ["#2563eb", "#7c3aed", "#059669", "#d97706", "#dc2626", "#0891b2", "#4f46e5"],
+    "palette": ["#1d4ed8", "#9a3412", "#15803d", "#6b21a8", "#b91c1c", "#0f766e", "#4338ca"],
+    "entertainment": "#9a3412",
+    "productive": "#1d4ed8",
 }
 
 
@@ -200,13 +205,14 @@ def multi_series_line_chart(csv_path: Path, title: str, x_key: str, y_label: str
 
 def horizontal_bar_chart(csv_path: Path, title: str, x_key: str, y_key: str, x_label: str,
                          source: str, caveat: str, filename: str,
-                         alt_text: Optional[str] = None, unit: str = "%") -> None:
+                         alt_text: Optional[str] = None, unit: str = "%", colors: Optional[list[str]] = None) -> None:
     rows = read_csv(csv_path)
     labels = [r[x_key] for r in rows]
     values = [float(r[y_key]) for r in rows]
+    bar_colors = colors if colors else COLORS["palette"][: len(labels)]
 
     fig, ax = plt.subplots(figsize=(8, 5))
-    bars = ax.barh(labels, values, color=COLORS["palette"][: len(labels)], edgecolor="white")
+    bars = ax.barh(labels, values, color=bar_colors, edgecolor="white")
     ax.set_xlabel(x_label)
     ax.set_title(title, fontsize=14, weight="bold", pad=16)
     ax.spines["top"].set_visible(False)
@@ -215,6 +221,86 @@ def horizontal_bar_chart(csv_path: Path, title: str, x_key: str, y_key: str, x_l
         ax.text(val + max(values) * 0.01, bar.get_y() + bar.get_height() / 2,
                 f"{val:.0f}{unit}", va="center", fontsize=10)
     ax.set_xlim(0, max(values) * 1.2)
+    fig.text(0.5, -0.04, f"Source: {source} — {caveat}", ha="center", fontsize=9, style="italic")
+    save_svg(fig, filename, source, caveat, alt_text=alt_text)
+
+
+def paired_horizontal_bar_chart(csv_path: Path, title: str, x_key: str, y_key_left: str,
+                                y_key_right: str, label_left: str, label_right: str,
+                                source: str, caveat: str, filename: str,
+                                alt_text: Optional[str] = None) -> None:
+    """Diverging horizontal bars: left = consumption counts, right = substance counts.
+
+    CSV columns: x_key (activity label), y_key_left (consumption count),
+    y_key_right (substance count), plus optional *_label columns for bar annotations.
+    """
+    rows = read_csv(csv_path)
+    labels = [r[x_key] for r in rows]
+    left_values = [float(r[y_key_left]) for r in rows]
+    right_values = [float(r[y_key_right]) for r in rows]
+    left_labels = [r.get(f"{y_key_left}_label", f"{v:.0f}") for r, v in zip(rows, left_values)]
+    right_labels = [r.get(f"{y_key_right}_label", f"{v:.0f}") for r, v in zip(rows, right_values)]
+
+    fig, (ax_left, ax_right) = plt.subplots(1, 2, figsize=(10, 5), sharey=True)
+    y = range(len(labels))
+    bar_height = 0.5
+
+    # Left subplot: consumption counts (horizontal bars pointing left)
+    ax_left.barh(y, left_values, color=COLORS["entertainment"], edgecolor="white", height=bar_height)
+    ax_left.set_xlabel(label_left)
+    ax_left.set_title(title, fontsize=14, weight="bold", pad=16)
+    ax_left.invert_xaxis()
+    ax_left.yaxis.tick_right()
+    ax_left.set_yticks(list(y))
+    ax_left.set_yticklabels(labels)
+    ax_left.spines["top"].set_visible(False)
+    ax_left.spines["left"].set_visible(False)
+    for i, (val, lbl) in enumerate(zip(left_values, left_labels)):
+        ax_left.text(val * 0.95, i, lbl, va="center", ha="right", fontsize=9, color="white", weight="bold")
+
+    # Right subplot: substance counts (horizontal bars pointing right)
+    ax_right.barh(y, right_values, color=COLORS["productive"], edgecolor="white", height=bar_height)
+    ax_right.set_xlabel(label_right)
+    ax_right.set_yticks(list(y))
+    ax_right.set_yticklabels([])
+    ax_right.spines["top"].set_visible(False)
+    ax_right.spines["right"].set_visible(False)
+    for i, (val, lbl) in enumerate(zip(right_values, right_labels)):
+        ax_right.text(val * 1.05, i, lbl, va="center", ha="left", fontsize=9, weight="bold")
+
+    fig.text(0.5, -0.04, f"Source: {source} — {caveat}", ha="center", fontsize=9, style="italic")
+    save_svg(fig, filename, source, caveat, alt_text=alt_text)
+
+
+def diverging_bar_chart(csv_path: Path, title: str, x_key: str, y_key: str, x_label: str,
+                        source: str, caveat: str, filename: str,
+                        alt_text: Optional[str] = None, unit: str = "") -> None:
+    """Horizontal diverging bar chart centered at zero. Positive values extend right,
+    negative values extend left. Useful for showing reallocation or before/after shifts.
+    """
+    rows = read_csv(csv_path)
+    labels = [r[x_key] for r in rows]
+    values = [float(r[y_key]) for r in rows]
+
+    colors = [COLORS["productive"] if v > 0 else COLORS["entertainment"] if v < 0 else COLORS["neutral"] for v in values]
+
+    fig, ax = plt.subplots(figsize=(8, 5))
+    bars = ax.barh(labels, values, color=colors, edgecolor="white")
+    ax.set_xlabel(x_label)
+    ax.set_title(title, fontsize=14, weight="bold", pad=16)
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+    ax.axvline(0, color="#111318", linewidth=0.8)
+
+    for bar, val in zip(bars, values):
+        label = f"{val:+.0f}{unit}" if val != 0 else f"0{unit}"
+        x_pos = val + (max(values) * 0.02 if val >= 0 else min(values) * 0.02)
+        ha = "left" if val >= 0 else "right"
+        ax.text(x_pos, bar.get_y() + bar.get_height() / 2, label,
+                va="center", ha=ha, fontsize=10, weight="bold")
+
+    lim = max(abs(min(values)), abs(max(values))) * 1.3
+    ax.set_xlim(-lim, lim)
     fig.text(0.5, -0.04, f"Source: {source} — {caveat}", ha="center", fontsize=9, style="italic")
     save_svg(fig, filename, source, caveat, alt_text=alt_text)
 
@@ -296,6 +382,21 @@ def main() -> None:
                 alt_text=chart.get("alt_text", chart["title"]),
             )
             continue
+        if ctype == "paired_horizontal_bar":
+            paired_horizontal_bar_chart(
+                csv_path=csv_path,
+                title=chart["title"],
+                x_key=chart["x_key"],
+                y_key_left=chart["y_key_left"],
+                y_key_right=chart["y_key_right"],
+                label_left=chart["label_left"],
+                label_right=chart["label_right"],
+                source=chart["source"],
+                caveat=chart["caveat"],
+                filename=chart["filename"],
+                alt_text=chart.get("alt_text", chart["title"]),
+            )
+            continue
         kwargs = {
             "csv_path": csv_path,
             "title": chart["title"],
@@ -313,9 +414,11 @@ def main() -> None:
         elif ctype == "line":
             line_chart(**kwargs, y_label=chart["y_label"])
         elif ctype == "horizontal_bar":
-            horizontal_bar_chart(**kwargs, x_label=chart["x_label"], unit=chart.get("unit", "%"))
+            horizontal_bar_chart(**kwargs, x_label=chart["x_label"], unit=chart.get("unit", "%"), colors=chart.get("colors"))
         elif ctype == "pie":
             pie_chart(**kwargs)
+        elif ctype == "diverging_bar":
+            diverging_bar_chart(**kwargs, x_label=chart["x_label"], unit=chart.get("unit", ""))
         else:
             print(f"Unknown chart type: {ctype}")
 
