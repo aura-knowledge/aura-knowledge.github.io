@@ -104,7 +104,7 @@ def pie_chart(csv_path: Path, title: str, x_key: str, y_key: str,
 
 def grouped_bar_chart(csv_path: Path, title: str, x_key: str, y_key: str, y_label: str,
                       source: str, caveat: str, filename: str,
-                      alt_text: Optional[str] = None) -> None:
+                      alt_text: Optional[str] = None, unit: str = "%") -> None:
     rows = read_csv(csv_path)
     labels = [r[x_key] for r in rows]
     values = [float(r[y_key]) for r in rows]
@@ -118,7 +118,7 @@ def grouped_bar_chart(csv_path: Path, title: str, x_key: str, y_key: str, y_labe
     ax.spines["right"].set_visible(False)
     for bar in bars:
         height = bar.get_height()
-        ax.annotate(f"{height:.0f}%",
+        ax.annotate(f"{height:.0f}{unit}",
                     xy=(bar.get_x() + bar.get_width() / 2, height),
                     xytext=(0, 3),
                     textcoords="offset points",
@@ -307,7 +307,7 @@ def main() -> None:
             "alt_text": chart.get("alt_text", chart["title"]),
         }
         if ctype == "grouped_bar":
-            grouped_bar_chart(**kwargs, y_label=chart["y_label"])
+            grouped_bar_chart(**kwargs, y_label=chart["y_label"], unit=chart.get("unit", "%"))
         elif ctype == "stacked_bar":
             stacked_bar_chart(**kwargs, y_label=chart["y_label"])
         elif ctype == "line":

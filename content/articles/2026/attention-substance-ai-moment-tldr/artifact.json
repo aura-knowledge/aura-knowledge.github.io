@@ -451,8 +451,8 @@
           "tone",
           "privacy"
         ],
-        "notes": "Human author approved publication as a TLDR summary of the series.",
-        "contentHash": "c9ad6c598484b4fe6fa808eb83dbf9071c366b435239a820edef150abfc35f20"
+        "notes": "Human author approved original publication as a TLDR summary of the series. Updated 2026-07-06 with chart fixes (line-to-bar compounding chart, sorted daily-breakdown chart, new head-to-head outcome chart) and revised alt text; formal re-approval pending.",
+        "contentHash": "fb827d0aa38a7ab377702f1f37e3917617708600034e15e10d2ad81c11b674d4"
       }
     ],
     "policy": {
@@ -460,5 +460,5 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "c9ad6c598484b4fe6fa808eb83dbf9071c366b435239a820edef150abfc35f20"
+  "contentHash": "fb827d0aa38a7ab377702f1f37e3917617708600034e15e10d2ad81c11b674d4"
 }

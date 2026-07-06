@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "generatedAt": "2026-07-05T00:00:00.000Z",
   "summary": {
-    "errors": 0,
-    "warnings": 362,
-    "total": 362
+    "errors": 1,
+    "warnings": 371,
+    "total": 372
   },
   "findings": [
     {
@@ -336,6 +336,11 @@
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/ai-demystified: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "provenance-contentHash-mismatch",
+      "severity": "error",
+      "message": "2026/attention-substance-ai-moment-tldr: latest approved review contentHash does not match current article.md hash. Run npm run generate to refresh or re-approve."
     },
     {
       "rule": "low-source-diversity",
@@ -1816,6 +1821,51 @@
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/who-profits-advertising-foreign-platforms: claim-006 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/why-good-content-loses-to-loud-content: claim-001 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/why-good-content-loses-to-loud-content: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/why-good-content-loses-to-loud-content: claim-003 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/why-good-content-loses-to-loud-content: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/why-good-content-loses-to-loud-content: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/why-good-content-loses-to-loud-content: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/why-good-content-loses-to-loud-content: claim-005 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/why-good-content-loses-to-loud-content: claim-006 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/why-good-content-loses-to-loud-content: claim-006 relies on a single source type for evidence."
     }
   ]
 }

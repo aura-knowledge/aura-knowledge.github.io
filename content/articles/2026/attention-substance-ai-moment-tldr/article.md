@@ -109,7 +109,12 @@ The easiest way to see the shift is to put the two options side by side. Same fi
 The point is not that entertainment is bad. The point is that the same fifteen minutes, redirected, compounds. Fifteen minutes a day is 91 hours a year. That is enough to learn the fundamentals of a new field, build a working prototype, write a dozen short essays, or make a dozen informed financial decisions. The cost of the scroll is not the fifteen minutes. It is what those fifteen minutes could have become.
 
 <figure>
-  <img src="/images/articles/2026/attention-substance-ai-moment/tldr-fifteen-min-compounding.svg" alt="Line chart showing how 15 minutes a day compounds: 7 hours in a month, 45 hours in six months, 91 hours in a year." loading="lazy" />
+  <img src="/images/articles/2026/attention-substance-ai-moment/tldr-head-to-head-outcomes.svg" alt="Horizontal bar chart showing that 91 hours a year of reels equals roughly 1,820 short videos, web series equals roughly 120 episodes, cricket highlights equals roughly 180 match segments, while the same 91 hours could be spent learning one new concept, drafting a project plan, or researching a financial decision." loading="lazy" />
+  <figcaption>The same 91 hours, different destinations. Entertainment counts are illustrative estimates based on typical content lengths.</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/articles/2026/attention-substance-ai-moment/tldr-fifteen-min-compounding.svg" alt="Bar chart showing how 15 minutes a day compounds: 2 hours in one week, 7 hours in four weeks, 21 hours in twelve weeks, 46 hours in six months, 91 hours in a year." loading="lazy" />
   <figcaption>What 15 minutes a day becomes over time. That is 91 hours a year — enough to learn a new skill, build a prototype, or write a dozen essays.</figcaption>
 </figure>
 

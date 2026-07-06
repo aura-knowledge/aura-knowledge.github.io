@@ -1,0 +1,12 @@
+{
+  "type": "horizontal_bar",
+  "csv": "tldr-head-to-head-outcomes.csv",
+  "filename": "tldr-head-to-head-outcomes.svg",
+  "title": "The same 91 hours, different destinations",
+  "x_key": "activity",
+  "y_key": "annual_hours",
+  "x_label": "Hours in one year (15 minutes a day)",
+  "unit": "h",
+  "source": "Author estimates based on typical content lengths",
+  "caveat": "Illustrative comparison. Entertainment counts assume ~3 min/reel, ~45 min/episode, ~30 min/highlight segment; actual content lengths vary widely."
+}
