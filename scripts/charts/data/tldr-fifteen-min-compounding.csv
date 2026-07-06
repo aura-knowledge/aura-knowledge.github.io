@@ -1,6 +1,6 @@
-week,scroll_hours,learn_hours
-1,1.75,1.75
-4,7,7
-12,21,21
-26,45.5,45.5
-52,91,91
+period,cumulative_hours
+1 week,2
+4 weeks,7
+12 weeks,21
+26 weeks,46
+52 weeks,91

@@ -7668,6 +7668,131 @@
         "missing-counterevidence": 0,
         "draft": 6
       }
+    },
+    {
+      "slug": "why-good-content-loses-to-loud-content",
+      "title": "Why Good Content Loses to Loud Content",
+      "status": "draft",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "Recommendation systems optimize for predicted engagement — watch time, clicks, shares, replays — rather than for accuracy, depth, or originality.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/why-good-content-loses-to-loud-content: claim-001 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/why-good-content-loses-to-loud-content: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-002",
+          "claim": "Emotional, surprising, or controversial content spreads faster than neutral, high-quality content because it generates stronger engagement signals.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": []
+        },
+        {
+          "id": "claim-003",
+          "claim": "Creators with large existing audiences get a distribution head start that smaller creators cannot match even with higher engagement rates.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/why-good-content-loses-to-loud-content: claim-003 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/why-good-content-loses-to-loud-content: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "Quality creators face a structural disadvantage unless they also master the engagement signals the platform uses.",
+          "confidence": "medium-high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/why-good-content-loses-to-loud-content: claim-004 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/why-good-content-loses-to-loud-content: claim-004 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-005",
+          "claim": "In India's low-payout creator market, the pressure to chase engagement is even stronger, and generative AI may deepen competition without raising average returns.",
+          "confidence": "medium",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/why-good-content-loses-to-loud-content: claim-005 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-006",
+          "claim": "Quality creators can protect themselves by building reputation outside feeds, learning feed mechanics without abandoning substance, and choosing platforms or business models that reward trust over virality.",
+          "confidence": "medium",
+          "status": "framing",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/why-good-content-loses-to-loud-content: claim-006 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/why-good-content-loses-to-loud-content: claim-006 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 6
+      }
     }
   ]
 }

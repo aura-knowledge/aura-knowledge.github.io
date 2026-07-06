@@ -1,11 +1,12 @@
 {
-  "type": "line",
+  "type": "grouped_bar",
   "csv": "tldr-fifteen-min-compounding.csv",
   "filename": "tldr-fifteen-min-compounding.svg",
   "title": "What 15 minutes a day becomes over time",
-  "x_key": "week",
-  "y_key": "scroll_hours",
+  "x_key": "period",
+  "y_key": "cumulative_hours",
   "y_label": "Cumulative hours",
+  "unit": "h",
   "source": "15 min/day × 7 days/week calculation",
   "caveat": "Simple linear projection. 91 hours over a year — enough to learn a new skill, build a prototype, or write a dozen essays."
 }
