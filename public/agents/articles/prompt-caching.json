@@ -238,7 +238,7 @@
     }
   },
   "contentHash": "79e89b409944a0cf6c388603a5a637844fc0cb77abf06f5fed8a204897cf3236",
-  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "generatedAt": "2026-07-07T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/prompt-caching/",
   "agentJsonPath": "/agents/articles/prompt-caching.json",
   "agentMarkdownPath": "/agents/articles/prompt-caching.md",

@@ -3,8 +3,10 @@
   "topic": "creator-economy",
   "articleIds": [
     "article:product-ideas-that-could-shift-incentives",
+    "article:the-attention-matthew-effect",
     "article:the-creator-economys-incentive-trap",
-    "article:who-profits-advertising-foreign-platforms"
+    "article:who-profits-advertising-foreign-platforms",
+    "article:why-good-content-loses-to-loud-content"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/creator-economy/",
   "agentJsonPath": "/agents/topics/creator-economy.json",
@@ -43,6 +45,39 @@
       "sourceCount": 6,
       "tokenEstimate": 291,
       "contentHash": "4dfd02f7205a72689d7b7f743e4e7b8a22f8075e5b3aa10606afc6942e733a6a"
+    },
+    {
+      "id": "article:the-attention-matthew-effect",
+      "slug": "the-attention-matthew-effect",
+      "title": "The Attention Matthew Effect: Why Reach Begets Reach",
+      "summary": "Examines how follower inequality and algorithmic seeding create a Matthew effect in creator markets, making reach itself the scarce resource and leaving quality content without distribution.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "creator-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "platforms"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "creator-economy",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "platforms"
+      ],
+      "canonicalPath": "/articles/the-attention-matthew-effect/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
+      "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
+      "agentMarkdownPath": "/agents/articles/the-attention-matthew-effect.md",
+      "updatedAt": "2026-07-06",
+      "claimCount": 7,
+      "sourceCount": 6,
+      "tokenEstimate": 114,
+      "contentHash": "c46ccd41d164bb9938811546da3651408b84b298db94adfa5dd8e24d739243a9"
     },
     {
       "id": "article:the-creator-economys-incentive-trap",
@@ -107,6 +142,39 @@
       "sourceCount": 8,
       "tokenEstimate": 859,
       "contentHash": "442c5c2d56bf142244756bfae0cd34f39d8f8c762ee19c6bd96fd0bf95d226e5"
+    },
+    {
+      "id": "article:why-good-content-loses-to-loud-content",
+      "slug": "why-good-content-loses-to-loud-content",
+      "title": "Why Good Content Loses to Loud Content",
+      "summary": "On algorithmic platforms, distribution is earned by predicted engagement, not by human-judged quality. This article explains why the reward function favors loud content and what quality creators can do about it.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "creator-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "platforms"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "creator-economy",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "platforms"
+      ],
+      "canonicalPath": "/articles/why-good-content-loses-to-loud-content/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+      "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
+      "agentMarkdownPath": "/agents/articles/why-good-content-loses-to-loud-content.md",
+      "updatedAt": "2026-07-06",
+      "claimCount": 6,
+      "sourceCount": 7,
+      "tokenEstimate": 524,
+      "contentHash": "8a50b59d1f86dc1e261cf824a610abebf67ec10b18ec1a93833d46e8cda1edfe"
     }
   ]
 }

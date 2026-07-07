@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-05",
+  "updatedAt": "2026-07-06",
   "audiences": [
     "general",
     "students",
@@ -142,6 +142,14 @@
     },
     {
       "type": "article",
+      "id": "article:compound-habits-career-stages"
+    },
+    {
+      "type": "article",
+      "id": "article:from-penny-press-to-infinite-scroll"
+    },
+    {
+      "type": "article",
       "id": "article:the-jio-effect-cheap-data-access-behavior"
     },
     {
@@ -167,6 +175,14 @@
     {
       "type": "article",
       "id": "article:the-creator-economys-incentive-trap"
+    },
+    {
+      "type": "article",
+      "id": "article:why-good-content-loses-to-loud-content"
+    },
+    {
+      "type": "article",
+      "id": "article:the-attention-matthew-effect"
     },
     {
       "type": "article",
@@ -306,15 +322,15 @@
     "reviews": [
       {
         "reviewer": "human",
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-06",
         "status": "approved",
         "scope": [
+          "content",
           "series structure",
-          "tone",
           "privacy"
         ],
-        "notes": "Updated series index to include all 49 series articles.",
-        "contentHash": "b112c8c034c5914e0b9b13c9b5d6cd238f20d53dd993f0e8b3562de574ade26f"
+        "notes": "Updated series index with issue 104 expansion articles and approved for publication.",
+        "contentHash": "f8fa1f6c19c5e76080bc618bc8dfc1dfd23d40ed328ef59af61c87539e5ae6e4"
       }
     ],
     "policy": {
@@ -322,8 +338,8 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "b112c8c034c5914e0b9b13c9b5d6cd238f20d53dd993f0e8b3562de574ade26f",
-  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "contentHash": "f8fa1f6c19c5e76080bc618bc8dfc1dfd23d40ed328ef59af61c87539e5ae6e4",
+  "generatedAt": "2026-07-07T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
   "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json",
   "agentMarkdownPath": "/agents/articles/attention-substance-ai-moment.md",

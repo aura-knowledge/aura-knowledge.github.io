@@ -64,11 +64,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
       "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json",
       "agentMarkdownPath": "/agents/articles/attention-substance-ai-moment.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-06",
       "claimCount": 1,
       "sourceCount": 2,
       "tokenEstimate": 465,
-      "contentHash": "b112c8c034c5914e0b9b13c9b5d6cd238f20d53dd993f0e8b3562de574ade26f"
+      "contentHash": "f8fa1f6c19c5e76080bc618bc8dfc1dfd23d40ed328ef59af61c87539e5ae6e4"
     }
   ]
 }
