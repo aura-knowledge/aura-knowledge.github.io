@@ -5,7 +5,7 @@ slug: attention-substance-ai-moment
 title: "Attention, Substance, and the AI Moment: A Series Index"
 dek: "A self-contained research series on how attention is extracted, what the AI opportunity costs, and how individuals and systems can choose substance over scroll."
 date: 2026-07-05
-updated: 2026-07-05
+updated: 2026-07-06
 status: published
 maturity: seed
 topic: attention-economy
@@ -82,6 +82,8 @@ If you only have a few minutes, start with the one-article summary:
 - **[The Green Revolution Trade-Off](/articles/the-green-revolution-trade-off/)** — Solving one urgent problem while creating slower, structural costs that only become visible later.
 - **[Tobacco, Seatbelts, and Food Safety](/articles/tobacco-seatbelts-food-safety/)** — How societies learn to move harmful products from "personal choice" to "design accountability."
 - **[The Life-Phase Thread](/articles/the-life-phase-thread/)** — How attention habits shape outcomes across childhood, adolescence, working life, and old age.
+- **[Compound Habits Across Career Stages](/articles/compound-habits-career-stages/)** — How attention choices in early career compound into skill, reputation, and optionality over decades.
+- **[From Penny Press to Infinite Scroll](/articles/from-penny-press-to-infinite-scroll/)** — A brief history of attention markets and the recurring cycle of access, commodification, and institutional adaptation.
 - **[The Jio Effect](/articles/the-jio-effect-cheap-data-access-behavior/)** — How cheap data reshaped Indian internet behavior almost overnight.
 - **[Gender and the Attention Economy](/articles/gender-and-the-attention-economy/)** — How unpaid care work, shared devices, and online harms are distributed unevenly.
 
@@ -92,6 +94,8 @@ If you only have a few minutes, start with the one-article summary:
 - **[The Demographic Dividend Is Not Automatic](/articles/the-demographic-dividend-is-not-automatic/)** — Youth, talent, and time: the dividend depends on how attention is spent.
 - **[What India Is Building vs. What It Could Build](/articles/what-india-is-building-vs-could-build/)** — Convenience aggregation versus deep tech and foundational AI.
 - **[The Creator Economy's Incentive Trap](/articles/the-creator-economys-incentive-trap/)** — Why viral attention is a fragile livelihood, and what alternatives exist.
+- **[Why Good Content Loses to Loud Content](/articles/why-good-content-loses-to-loud-content/)** — How engagement-based ranking rewards signals that have little to do with human-judged quality.
+- **[The Attention Matthew Effect](/articles/the-attention-matthew-effect/)** — Why existing reach compounds into more reach, and what that means for quality creators.
 - **[AI Could Make Extraction Cheaper Too](/articles/ai-could-make-extraction-cheaper-too/)** — Synthetic content, hyper-personalized feeds, and the risks of AI-powered extraction.
 - **[Bhashini and the Indic-Language AI Moment](/articles/bhashini-and-the-indic-language-ai-moment/)** — How Indic-language AI could turn diversity into a creative force.
 - **[The Compounding Bet](/articles/the-compounding-bet/)** — Why small, sustained investments in substance compound over a career or a generation.

@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 3,
+  "id": "article:modern-ai-stack",
+  "slug": "modern-ai-stack",
+  "title": "The Modern AI Stack: Demystifying the Architecture of Artificial Intelligence",
+  "canonicalPath": "/articles/modern-ai-stack/",
+  "sourcePath": "content/articles/2026/modern-ai-stack/article.md",
+  "agentBriefPath": "content/articles/2026/modern-ai-stack/agent.md",
+  "thesis": "Artificial intelligence is not a single monolithic product but a modular stack of distinct engineering layers; understanding the layers helps builders and observers place tools, companies, and research advances in context.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-07",
+  "updatedAt": "2026-07-07",
+  "audiences": [
+    "general",
+    "students",
+    "builders"
+  ],
+  "topics": [
+    "ai-stack",
+    "agent-architecture",
+    "mcp",
+    "rag",
+    "inference",
+    "model-alignment",
+    "tooling"
+  ],
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Modern AI systems are best understood as a modular stack rather than a single monolithic model.",
+      "confidence": "medium",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-hermes-agent",
+          "snippet": "Hermes Agent is a self-improving AI agent runtime built by Nous Research that spans orchestration, memory, and end-user interfaces, demonstrating how a single product crosses multiple layers.",
+          "supports": "direct",
+          "assessedAt": "2026-07-07"
+        },
+        {
+          "sourceId": "source-claude-desktop",
+          "snippet": "Claude Desktop bundles model alignment, inference, simple orchestration, and specific tools into a single end-user application.",
+          "supports": "direct",
+          "assessedAt": "2026-07-07"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The stack framing is the author's proposed taxonomy; other analysts use different layer counts or group the same capabilities differently.",
+          "assessedAt": "2026-07-07"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Retrieval-augmented generation is a common pattern for grounding models in proprietary or real-time data.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-pinecone",
+          "snippet": "Vector databases such as Pinecone store embeddings so models can retrieve relevant private or fresh documents at query time.",
+          "supports": "direct",
+          "assessedAt": "2026-07-07"
+        },
+        {
+          "sourceId": "source-vllm",
+          "snippet": "RAG has become a standard architectural pattern for connecting LLMs to external knowledge bases and enterprise data.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-07"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "RAG is not the only grounding approach; fine-tuning, knowledge graphs, and long-context windows are alternatives for some use cases.",
+          "assessedAt": "2026-07-07"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Model Context Protocol (MCP) is emerging as a common adapter for agent-tool integration.",
+      "confidence": "medium",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-anthropic-mcp",
+          "snippet": "Anthropic released the Model Context Protocol in late 2024 as an open standard for connecting AI assistants to data sources and tools.",
+          "supports": "direct",
+          "assessedAt": "2026-07-07"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "MCP is still early; other tool-integration approaches (direct API wrappers, custom SDKs, OpenAPI specs) remain common in production.",
+          "assessedAt": "2026-07-07"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "End-user applications such as Claude Desktop bundle multiple lower layers into a single GUI.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-claude-desktop",
+          "snippet": "Claude Desktop is a downloadable application that packages Anthropic's aligned model, inference, simple orchestration, and file-reading tools behind a graphical interface.",
+          "supports": "direct",
+          "assessedAt": "2026-07-07"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some end-user applications expose model or tool choices (e.g., via settings or plugins), so the bundling is not always absolute.",
+          "assessedAt": "2026-07-07"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "Base-model scaling remains important, but much of the visible product engineering and investment has moved up the stack toward orchestration and tool protocols.",
+      "confidence": "medium",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-anthropic-mcp",
+          "snippet": "The release and rapid adoption of MCP signals industry attention shifting to standardized tool protocols.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-07"
+        },
+        {
+          "sourceId": "source-hermes-agent",
+          "snippet": "Hermes Agent's growth as a self-improving agent runtime illustrates engineering focus moving toward orchestration and persistent memory rather than base-model training.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-07"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Frontier labs continue to invest heavily in base-model research and scaling; the observation is about product-engineering focus, not total research investment.",
+          "assessedAt": "2026-07-07"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-hermes-agent",
+      "title": "Nous Research Hermes Agent on GitHub",
+      "url": "https://github.com/nousresearch/hermes-agent",
+      "type": "product",
+      "accessed": "2026-07-07"
+    },
+    {
+      "id": "source-openrouter",
+      "title": "OpenRouter",
+      "url": "https://openrouter.ai/",
+      "type": "product",
+      "accessed": "2026-07-07"
+    },
+    {
+      "id": "source-anthropic-mcp",
+      "title": "Anthropic: Model Context Protocol",
+      "url": "https://www.anthropic.com/news/model-context-protocol",
+      "type": "product",
+      "accessed": "2026-07-07"
+    },
+    {
+      "id": "source-meta-llama-3",
+      "title": "Meta: Llama 3",
+      "url": "https://ai.meta.com/blog/meta-llama-3/",
+      "type": "product",
+      "accessed": "2026-07-07"
+    },
+    {
+      "id": "source-vllm",
+      "title": "vLLM documentation",
+      "url": "https://docs.vllm.ai/",
+      "type": "documentation",
+      "accessed": "2026-07-07"
+    },
+    {
+      "id": "source-langgraph",
+      "title": "LangGraph",
+      "url": "https://langchain-ai.github.io/langgraph/",
+      "type": "documentation",
+      "accessed": "2026-07-07"
+    },
+    {
+      "id": "source-crewai",
+      "title": "CrewAI",
+      "url": "https://crewai.com/",
+      "type": "product",
+      "accessed": "2026-07-07"
+    },
+    {
+      "id": "source-claude-desktop",
+      "title": "Claude desktop app",
+      "url": "https://claude.ai/download",
+      "type": "product",
+      "accessed": "2026-07-07"
+    },
+    {
+      "id": "source-pinecone",
+      "title": "Pinecone vector database",
+      "url": "https://www.pinecone.io/",
+      "type": "product",
+      "accessed": "2026-07-07"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:agent-control-planes"
+    },
+    {
+      "type": "article",
+      "id": "article:ai-delegation-orchestration"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as retrieval units and source IDs for evidence tracing.",
+    "Treat the nine-layer model as a proposed taxonomy, not an industry consensus.",
+    "When citing product examples, note that market positioning can change quickly."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-07",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-07",
+        "inputHash": "sha256:8f9b94c0a22be0dad275ff1dcb7c07f23043764896bdc23fe7293fd499c7974a",
+        "outputHash": "sha256:8f9b94c0a22be0dad275ff1dcb7c07f23043764896bdc23fe7293fd499c7974a"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "sibling-agent",
+        "reviewedAt": "2026-07-07",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "sources",
+          "privacy",
+          "anchor-examples"
+        ],
+        "notes": "Two-pass independent sibling-agent review under SDL governance; first review identified blockers (pi.dev misattribution, unsupported strong claims, missing taxonomy framing, missing citations) that were resolved.",
+        "contentHash": "8f9b94c0a22be0dad275ff1dcb7c07f23043764896bdc23fe7293fd499c7974a"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-07",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources",
+          "publication"
+        ],
+        "notes": "Human author approved publication after sibling-agent review passed and fixes were applied.",
+        "contentHash": "8f9b94c0a22be0dad275ff1dcb7c07f23043764896bdc23fe7293fd499c7974a"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "8f9b94c0a22be0dad275ff1dcb7c07f23043764896bdc23fe7293fd499c7974a"
+}

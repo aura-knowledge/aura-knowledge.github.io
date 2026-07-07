@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 3,
+  "id": "article:why-good-content-loses-to-loud-content",
+  "slug": "why-good-content-loses-to-loud-content",
+  "title": "Why Good Content Loses to Loud Content",
+  "canonicalPath": "/articles/why-good-content-loses-to-loud-content/",
+  "sourcePath": "content/articles/2026/why-good-content-loses-to-loud-content/article.md",
+  "agentBriefPath": "content/articles/2026/why-good-content-loses-to-loud-content/agent.md",
+  "thesis": "Algorithmic content platforms distribute attention based on predicted engagement rather than human-judged quality, which systematically disadvantages careful, substantive creators and rewards loud, emotional, or familiar content.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-06",
+  "updatedAt": "2026-07-06",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "creator-economy",
+    "india",
+    "digital-wellbeing",
+    "artificial-intelligence",
+    "platforms"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 50,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Recommendation systems optimize for predicted engagement — watch time, clicks, shares, replays — rather than for accuracy, depth, or originality.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-milli-divisive-content",
+          "snippet": "Engagement-based recommendation systems amplify divisive content on social media.",
+          "supports": "direct",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Platforms also use quality signals, user satisfaction surveys, and demonetization policies, but these are secondary to engagement in most distribution decisions.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Emotional, surprising, or controversial content spreads faster than neutral, high-quality content because it generates stronger engagement signals.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-yale-outrage-online",
+          "snippet": "Likes and shares teach users to express more outrage online over time.",
+          "supports": "direct",
+          "assessedAt": "2026-07-06"
+        },
+        {
+          "sourceId": "source-vosoughi-false-news",
+          "snippet": "False news spreads faster, farther, and deeper than true news because it is more novel and emotionally provocative.",
+          "supports": "direct",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some neutral, high-quality content achieves large reach through search, recommendations to niche audiences, or slow accumulation over time.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Creators with large existing audiences get a distribution head start that smaller creators cannot match even with higher engagement rates.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-creatoriq-compensation-2026",
+          "snippet": "Top 10% of creators earned 62% of payments and top 1% earned 21% in 2025, indicating extreme concentration of reach and revenue.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Viral breakout content from small creators does happen, but it is statistically rare and often depends on being reshared by larger accounts or picked up by platform editorial features.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Quality creators face a structural disadvantage unless they also master the engagement signals the platform uses.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-milli-divisive-content",
+          "snippet": "Platforms optimize for engagement metrics that do not correlate directly with accuracy or social value.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some creators build large audiences precisely by refusing to optimize for engagement, though they usually rely on non-feed channels or niche communities.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "In India's low-payout creator market, the pressure to chase engagement is even stronger, and generative AI may deepen competition without raising average returns.",
+      "confidence": "medium",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-realsiteworth-cpm-2026",
+          "snippet": "India YouTube CPM estimated around $0.77 vs. US around $36.03, a roughly 47x disparity.",
+          "supports": "direct",
+          "assessedAt": "2026-07-06"
+        },
+        {
+          "sourceId": "source-bcg-creator-economy-2025",
+          "snippet": "Generative AI is identified as a transformative force in India's creator economy, changing content production and monetization models.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "AI may also help quality creators produce more efficiently or reach language-specific audiences where competition is lower.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "Quality creators can protect themselves by building reputation outside feeds, learning feed mechanics without abandoning substance, and choosing platforms or business models that reward trust over virality.",
+      "confidence": "medium",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-cal-newport-deep-work",
+          "snippet": "Deep work and rare, valuable skills compound over time and are less dependent on algorithmic distribution.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "These strategies require time, capital, and access to non-feed channels that not all creators have.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-milli-divisive-content",
+      "title": "Milli et al.: Engagement, User Satisfaction, and the Amplification of Divisive Content on Social Media (PNAS Nexus)",
+      "url": "https://doi.org/10.1093/pnasnexus/pgaf062",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-06"
+    },
+    {
+      "id": "source-yale-outrage-online",
+      "title": "Yale News: Likes and shares teach people to express more outrage online",
+      "url": "https://news.yale.edu/2021/08/13/likes-and-shares-teach-people-express-more-outrage-online",
+      "type": "university-news",
+      "accessed": "2026-07-06"
+    },
+    {
+      "id": "source-vosoughi-false-news",
+      "title": "Vosoughi, Roy, and Aral: The spread of true and false news online (Science, 2018)",
+      "url": "https://doi.org/10.1126/science.aap9559",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-06"
+    },
+    {
+      "id": "source-creatoriq-compensation-2026",
+      "title": "CreatorIQ: State of Creator Compensation 2026",
+      "url": "https://www.creatoriq.com/state-of-creator-compensation-2026",
+      "type": "industry-report",
+      "accessed": "2026-07-06"
+    },
+    {
+      "id": "source-bcg-creator-economy-2025",
+      "title": "BCG: From Content to Commerce: Mapping India's Creator Economy",
+      "url": "https://www.bcg.com/publications/2025/india-from-content-to-commerce-mapping-indias-creator-economy",
+      "type": "industry-report",
+      "accessed": "2026-07-06"
+    },
+    {
+      "id": "source-realsiteworth-cpm-2026",
+      "title": "upGrowth / RealSiteWorth: YouTube CPM benchmarks by country (2026 estimate)",
+      "url": "https://upgrowth.in/youtube-cpm-india/",
+      "type": "industry-report",
+      "accessed": "2026-07-06"
+    },
+    {
+      "id": "source-cal-newport-deep-work",
+      "title": "Cal Newport: Deep Work",
+      "url": "https://www.calnewport.com/books/deep-work/",
+      "type": "book",
+      "accessed": "2026-07-06"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:the-creator-economys-incentive-trap"
+    },
+    {
+      "type": "article",
+      "id": "article:engagement-is-a-design-choice"
+    },
+    {
+      "type": "article",
+      "id": "article:the-design-of-extraction"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    },
+    {
+      "type": "topic",
+      "id": "topic:creator-economy"
+    }
+  ],
+  "agentInstructions": [
+    "Route evidentiary questions about platform algorithms to the cited research studies.",
+    "Distinguish between structural platform incentives and individual creator choices.",
+    "Point readers to the related creator-economy and design-of-extraction articles for context.",
+    "Avoid giving platform-specific growth-hacking advice; keep recommendations at the strategy level."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-06",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-06",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-06",
+        "status": "approved",
+        "scope": [
+          "content",
+          "claims",
+          "sources",
+          "privacy"
+        ],
+        "notes": "Reviewed and approved for publication as part of issue 104 expansion.",
+        "contentHash": "8a50b59d1f86dc1e261cf824a610abebf67ec10b18ec1a93833d46e8cda1edfe"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "8a50b59d1f86dc1e261cf824a610abebf67ec10b18ec1a93833d46e8cda1edfe",
+  "generatedAt": "2026-07-07T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+  "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
+  "agentMarkdownPath": "/agents/articles/why-good-content-loses-to-loud-content.md",
+  "sourceRepoPath": "content/articles/2026/why-good-content-loses-to-loud-content/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/why-good-content-loses-to-loud-content/article.md",
+  "tokenEstimate": 524,
+  "sectionOutline": [
+    {
+      "id": "the-sorting-machine",
+      "title": "The Sorting Machine"
+    },
+    {
+      "id": "the-reach-head-start",
+      "title": "The Reach Head Start"
+    },
+    {
+      "id": "what-quality-means-on-a-feed",
+      "title": "What Quality Means on a Feed"
+    },
+    {
+      "id": "why-this-matters-for-india",
+      "title": "Why This Matters for India"
+    },
+    {
+      "id": "what-quality-creators-can-do",
+      "title": "What Quality Creators Can Do"
+    },
+    {
+      "id": "the-deeper-question",
+      "title": "The Deeper Question"
+    }
+  ]
+}

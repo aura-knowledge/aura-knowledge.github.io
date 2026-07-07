@@ -2,6 +2,7 @@
   "schemaVersion": 1,
   "topic": "history",
   "articleIds": [
+    "article:from-penny-press-to-infinite-scroll",
     "article:historical-analogies-of-missed-transitions",
     "article:historical-hinges-access-is-not-benefit",
     "article:the-green-revolution-trade-off",
@@ -11,6 +12,39 @@
   "pageUrl": "https://aura-knowledge.github.io/topics/history/",
   "agentJsonPath": "/agents/topics/history.json",
   "articles": [
+    {
+      "id": "article:from-penny-press-to-infinite-scroll",
+      "slug": "from-penny-press-to-infinite-scroll",
+      "title": "From Penny Press to Infinite Scroll: A Brief History of Attention Markets",
+      "summary": "Uses the history of the penny press, radio, television, and early internet to show that attention markets follow a recurring pattern, and that the current feed economy is the latest version of an old bargain.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "history",
+        "media",
+        "platforms",
+        "digital-wellbeing"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "history",
+        "media",
+        "platforms",
+        "digital-wellbeing"
+      ],
+      "canonicalPath": "/articles/from-penny-press-to-infinite-scroll/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
+      "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
+      "agentMarkdownPath": "/agents/articles/from-penny-press-to-infinite-scroll.md",
+      "updatedAt": "2026-07-06",
+      "claimCount": 7,
+      "sourceCount": 6,
+      "tokenEstimate": 114,
+      "contentHash": "885cb8f20313a7d2fc972d4cce5a21c75a98e9b27e758185d23b92297aa981f9"
+    },
     {
       "id": "article:historical-analogies-of-missed-transitions",
       "slug": "historical-analogies-of-missed-transitions",

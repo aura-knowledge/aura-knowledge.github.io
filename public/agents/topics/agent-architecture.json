@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "topic": "agent-architecture",
+  "articleIds": [
+    "article:modern-ai-stack"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/agent-architecture/",
+  "agentJsonPath": "/agents/topics/agent-architecture.json",
+  "articles": [
+    {
+      "id": "article:modern-ai-stack",
+      "slug": "modern-ai-stack",
+      "title": "The Modern AI Stack: Demystifying the Architecture of Artificial Intelligence",
+      "summary": "A conceptual tour of the modern AI stack organized into nine layers, from compute hardware and base models through alignment, inference, retrieval, orchestration, tool protocols, guardrails, and end-user applications.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-stack",
+        "agent-architecture",
+        "mcp",
+        "rag",
+        "inference",
+        "model-alignment",
+        "tooling"
+      ],
+      "tags": [
+        "ai-stack",
+        "agent-architecture",
+        "mcp",
+        "rag",
+        "inference",
+        "model-alignment",
+        "tooling"
+      ],
+      "canonicalPath": "/articles/modern-ai-stack/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/modern-ai-stack/",
+      "agentJsonPath": "/agents/articles/modern-ai-stack.json",
+      "agentMarkdownPath": "/agents/articles/modern-ai-stack.md",
+      "updatedAt": "2026-07-07",
+      "claimCount": 5,
+      "sourceCount": 9,
+      "tokenEstimate": 430,
+      "contentHash": "8f9b94c0a22be0dad275ff1dcb7c07f23043764896bdc23fe7293fd499c7974a"
+    }
+  ]
+}

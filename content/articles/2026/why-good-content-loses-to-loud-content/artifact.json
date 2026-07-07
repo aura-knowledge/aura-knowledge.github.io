@@ -7,7 +7,7 @@
   "sourcePath": "content/articles/2026/why-good-content-loses-to-loud-content/article.md",
   "agentBriefPath": "content/articles/2026/why-good-content-loses-to-loud-content/agent.md",
   "thesis": "Algorithmic content platforms distribute attention based on predicted engagement rather than human-judged quality, which systematically disadvantages careful, substantive creators and rewards loud, emotional, or familiar content.",
-  "status": "draft",
+  "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-06",
   "updatedAt": "2026-07-06",
@@ -257,11 +257,25 @@
         "outputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
       }
     ],
-    "reviews": [],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-06",
+        "status": "approved",
+        "scope": [
+          "content",
+          "claims",
+          "sources",
+          "privacy"
+        ],
+        "notes": "Reviewed and approved for publication as part of issue 104 expansion.",
+        "contentHash": "8a50b59d1f86dc1e261cf824a610abebf67ec10b18ec1a93833d46e8cda1edfe"
+      }
+    ],
     "policy": {
       "id": "policy:default",
       "version": "1.0.0"
     }
   },
-  "contentHash": "67dcd351b4c3b69bdc8870e5c7ebf1b23c3f6f3c7f7d0cd11d05c294ca1b0f54"
+  "contentHash": "8a50b59d1f86dc1e261cf824a610abebf67ec10b18ec1a93833d46e8cda1edfe"
 }

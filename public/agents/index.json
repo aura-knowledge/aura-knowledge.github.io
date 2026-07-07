@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "generatedAt": "2026-07-07T00:00:00.000Z",
   "site": "https://aura-knowledge.github.io",
   "base": "",
   "articles": [
@@ -716,11 +716,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
       "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json",
       "agentMarkdownPath": "/agents/articles/attention-substance-ai-moment.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-06",
       "claimCount": 1,
       "sourceCount": 2,
       "tokenEstimate": 465,
-      "contentHash": "b112c8c034c5914e0b9b13c9b5d6cd238f20d53dd993f0e8b3562de574ade26f"
+      "contentHash": "f8fa1f6c19c5e76080bc618bc8dfc1dfd23d40ed328ef59af61c87539e5ae6e4"
     },
     {
       "id": "article:attention-substance-ai-moment-tldr",
@@ -949,6 +949,39 @@
       "sourceCount": 12,
       "tokenEstimate": 739,
       "contentHash": "fcf6ac5f114e1e55afc7a19730472993c0cd7613be40a7771e9fdb1adbac4abc"
+    },
+    {
+      "id": "article:compound-habits-career-stages",
+      "slug": "compound-habits-career-stages",
+      "title": "Compound Habits Across Career Stages",
+      "summary": "Shows how fragmented attention and shallow work early in a career create compounding costs, while small habits of depth build skill and optionality that shape later career stages and family life.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "productivity",
+        "life-phases",
+        "artificial-intelligence"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "productivity",
+        "life-phases",
+        "artificial-intelligence"
+      ],
+      "canonicalPath": "/articles/compound-habits-career-stages/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
+      "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
+      "agentMarkdownPath": "/agents/articles/compound-habits-career-stages.md",
+      "updatedAt": "2026-07-06",
+      "claimCount": 7,
+      "sourceCount": 5,
+      "tokenEstimate": 114,
+      "contentHash": "9d48635b5b5127574f77ba1c89aa1f5f200188793373e23a601ddf4e3a9bfe5a"
     },
     {
       "id": "article:context-management",
@@ -1241,6 +1274,39 @@
       "sourceCount": 5,
       "tokenEstimate": 277,
       "contentHash": "21521e52b917b8a7564cddfdbfaf85536a76943b744c02e3c161db15cd5cc3ef"
+    },
+    {
+      "id": "article:from-penny-press-to-infinite-scroll",
+      "slug": "from-penny-press-to-infinite-scroll",
+      "title": "From Penny Press to Infinite Scroll: A Brief History of Attention Markets",
+      "summary": "Uses the history of the penny press, radio, television, and early internet to show that attention markets follow a recurring pattern, and that the current feed economy is the latest version of an old bargain.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "history",
+        "media",
+        "platforms",
+        "digital-wellbeing"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "history",
+        "media",
+        "platforms",
+        "digital-wellbeing"
+      ],
+      "canonicalPath": "/articles/from-penny-press-to-infinite-scroll/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
+      "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
+      "agentMarkdownPath": "/agents/articles/from-penny-press-to-infinite-scroll.md",
+      "updatedAt": "2026-07-06",
+      "claimCount": 7,
+      "sourceCount": 6,
+      "tokenEstimate": 114,
+      "contentHash": "885cb8f20313a7d2fc972d4cce5a21c75a98e9b27e758185d23b92297aa981f9"
     },
     {
       "id": "article:gender-and-the-attention-economy",
@@ -1558,6 +1624,41 @@
       "sourceCount": 4,
       "tokenEstimate": 507,
       "contentHash": "a5ba348df1d444326a962a0728062b1b024b8ec5f7b10757792f93c552476dbb"
+    },
+    {
+      "id": "article:modern-ai-stack",
+      "slug": "modern-ai-stack",
+      "title": "The Modern AI Stack: Demystifying the Architecture of Artificial Intelligence",
+      "summary": "A conceptual tour of the modern AI stack organized into nine layers, from compute hardware and base models through alignment, inference, retrieval, orchestration, tool protocols, guardrails, and end-user applications.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "ai-stack",
+        "agent-architecture",
+        "mcp",
+        "rag",
+        "inference",
+        "model-alignment",
+        "tooling"
+      ],
+      "tags": [
+        "ai-stack",
+        "agent-architecture",
+        "mcp",
+        "rag",
+        "inference",
+        "model-alignment",
+        "tooling"
+      ],
+      "canonicalPath": "/articles/modern-ai-stack/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/modern-ai-stack/",
+      "agentJsonPath": "/agents/articles/modern-ai-stack.json",
+      "agentMarkdownPath": "/agents/articles/modern-ai-stack.md",
+      "updatedAt": "2026-07-07",
+      "claimCount": 5,
+      "sourceCount": 9,
+      "tokenEstimate": 430,
+      "contentHash": "8f9b94c0a22be0dad275ff1dcb7c07f23043764896bdc23fe7293fd499c7974a"
     },
     {
       "id": "article:multi-agent-systems",
@@ -1963,6 +2064,39 @@
       "sourceCount": 14,
       "tokenEstimate": 674,
       "contentHash": "a7b6211099e0e919f7287ce0d0569b8a5f13cae6ee9e4bff5b80f00e4aee5cb4"
+    },
+    {
+      "id": "article:the-attention-matthew-effect",
+      "slug": "the-attention-matthew-effect",
+      "title": "The Attention Matthew Effect: Why Reach Begets Reach",
+      "summary": "Examines how follower inequality and algorithmic seeding create a Matthew effect in creator markets, making reach itself the scarce resource and leaving quality content without distribution.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "creator-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "platforms"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "creator-economy",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "platforms"
+      ],
+      "canonicalPath": "/articles/the-attention-matthew-effect/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
+      "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
+      "agentMarkdownPath": "/agents/articles/the-attention-matthew-effect.md",
+      "updatedAt": "2026-07-06",
+      "claimCount": 7,
+      "sourceCount": 6,
+      "tokenEstimate": 114,
+      "contentHash": "c46ccd41d164bb9938811546da3651408b84b298db94adfa5dd8e24d739243a9"
     },
     {
       "id": "article:the-better-question",
@@ -2834,6 +2968,39 @@
       "sourceCount": 8,
       "tokenEstimate": 859,
       "contentHash": "442c5c2d56bf142244756bfae0cd34f39d8f8c762ee19c6bd96fd0bf95d226e5"
+    },
+    {
+      "id": "article:why-good-content-loses-to-loud-content",
+      "slug": "why-good-content-loses-to-loud-content",
+      "title": "Why Good Content Loses to Loud Content",
+      "summary": "On algorithmic platforms, distribution is earned by predicted engagement, not by human-judged quality. This article explains why the reward function favors loud content and what quality creators can do about it.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "creator-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "platforms"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "creator-economy",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "platforms"
+      ],
+      "canonicalPath": "/articles/why-good-content-loses-to-loud-content/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+      "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
+      "agentMarkdownPath": "/agents/articles/why-good-content-loses-to-loud-content.md",
+      "updatedAt": "2026-07-06",
+      "claimCount": 6,
+      "sourceCount": 7,
+      "tokenEstimate": 524,
+      "contentHash": "8a50b59d1f86dc1e261cf824a610abebf67ec10b18ec1a93833d46e8cda1edfe"
     }
   ],
   "topics": [
@@ -2872,6 +3039,15 @@
       ],
       "pageUrl": "https://aura-knowledge.github.io/topics/adult-learning/",
       "agentJsonPath": "/agents/topics/adult-learning.json"
+    },
+    {
+      "topic": "agent-architecture",
+      "label": "agent architecture",
+      "articleIds": [
+        "article:modern-ai-stack"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/agent-architecture/",
+      "agentJsonPath": "/agents/topics/agent-architecture.json"
     },
     {
       "topic": "agent-orchestration",
@@ -3046,6 +3222,15 @@
       "agentJsonPath": "/agents/topics/ai-society.json"
     },
     {
+      "topic": "ai-stack",
+      "label": "ai stack",
+      "articleIds": [
+        "article:modern-ai-stack"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/ai-stack/",
+      "agentJsonPath": "/agents/topics/ai-stack.json"
+    },
+    {
       "topic": "algorithms",
       "label": "algorithms",
       "articleIds": [
@@ -3073,9 +3258,11 @@
         "article:ai-could-make-extraction-cheaper-too",
         "article:attention-substance-ai-moment",
         "article:attention-substance-ai-moment-tldr",
+        "article:compound-habits-career-stages",
         "article:historical-analogies-of-missed-transitions",
         "article:historical-hinges-access-is-not-benefit",
         "article:open-questions-the-series-leaves-unresolved",
+        "article:the-attention-matthew-effect",
         "article:the-citizens-garden",
         "article:the-compounding-bet",
         "article:the-creator-economys-incentive-trap",
@@ -3083,7 +3270,8 @@
         "article:the-students-garden",
         "article:the-workers-garden",
         "article:what-ai-makes-cheap",
-        "article:what-india-is-building-vs-could-build"
+        "article:what-india-is-building-vs-could-build",
+        "article:why-good-content-loses-to-loud-content"
       ],
       "pageUrl": "https://aura-knowledge.github.io/topics/artificial-intelligence/",
       "agentJsonPath": "/agents/topics/artificial-intelligence.json"
@@ -3103,10 +3291,12 @@
         "article:bhashini-and-the-indic-language-ai-moment",
         "article:business-models-that-reward-substance",
         "article:by-the-numbers-what-indians-do-online",
+        "article:compound-habits-career-stages",
         "article:designing-for-substance",
         "article:engagement-is-a-design-choice",
         "article:failure-teaching-and-the-skill-stack",
         "article:friction-chronological-feeds-user-chosen-algorithms",
+        "article:from-penny-press-to-infinite-scroll",
         "article:gender-and-the-attention-economy",
         "article:historical-analogies-of-missed-transitions",
         "article:historical-hinges-access-is-not-benefit",
@@ -3118,6 +3308,7 @@
         "article:regulation-as-a-floor-dsa-it-rules-dpdp",
         "article:sleep-anxiety-and-tele-manas",
         "article:the-attention-extraction",
+        "article:the-attention-matthew-effect",
         "article:the-better-question",
         "article:the-citizens-garden",
         "article:the-compounding-bet",
@@ -3141,7 +3332,8 @@
         "article:user-migration-and-the-exit-problem",
         "article:what-ai-makes-cheap",
         "article:what-india-is-building-vs-could-build",
-        "article:who-profits-advertising-foreign-platforms"
+        "article:who-profits-advertising-foreign-platforms",
+        "article:why-good-content-loses-to-loud-content"
       ],
       "pageUrl": "https://aura-knowledge.github.io/topics/attention-economy/",
       "agentJsonPath": "/agents/topics/attention-economy.json"
@@ -3246,8 +3438,10 @@
       "label": "creator economy",
       "articleIds": [
         "article:product-ideas-that-could-shift-incentives",
+        "article:the-attention-matthew-effect",
         "article:the-creator-economys-incentive-trap",
-        "article:who-profits-advertising-foreign-platforms"
+        "article:who-profits-advertising-foreign-platforms",
+        "article:why-good-content-loses-to-loud-content"
       ],
       "pageUrl": "https://aura-knowledge.github.io/topics/creator-economy/",
       "agentJsonPath": "/agents/topics/creator-economy.json"
@@ -3397,10 +3591,12 @@
         "article:bhashini-and-the-indic-language-ai-moment",
         "article:business-models-that-reward-substance",
         "article:by-the-numbers-what-indians-do-online",
+        "article:compound-habits-career-stages",
         "article:designing-for-substance",
         "article:engagement-is-a-design-choice",
         "article:failure-teaching-and-the-skill-stack",
         "article:friction-chronological-feeds-user-chosen-algorithms",
+        "article:from-penny-press-to-infinite-scroll",
         "article:gender-and-the-attention-economy",
         "article:historical-analogies-of-missed-transitions",
         "article:historical-hinges-access-is-not-benefit",
@@ -3411,6 +3607,7 @@
         "article:public-space-and-private-screens",
         "article:sleep-anxiety-and-tele-manas",
         "article:the-attention-extraction",
+        "article:the-attention-matthew-effect",
         "article:the-better-question",
         "article:the-citizens-garden",
         "article:the-creator-economys-incentive-trap",
@@ -3429,7 +3626,8 @@
         "article:the-workers-garden",
         "article:tobacco-seatbelts-food-safety",
         "article:user-migration-and-the-exit-problem",
-        "article:what-india-is-building-vs-could-build"
+        "article:what-india-is-building-vs-could-build",
+        "article:why-good-content-loses-to-loud-content"
       ],
       "pageUrl": "https://aura-knowledge.github.io/topics/digital-wellbeing/",
       "agentJsonPath": "/agents/topics/digital-wellbeing.json"
@@ -3622,6 +3820,7 @@
       "topic": "history",
       "label": "history",
       "articleIds": [
+        "article:from-penny-press-to-infinite-scroll",
         "article:historical-analogies-of-missed-transitions",
         "article:historical-hinges-access-is-not-benefit",
         "article:the-green-revolution-trade-off",
@@ -3690,9 +3889,11 @@
         "article:bhashini-and-the-indic-language-ai-moment",
         "article:business-models-that-reward-substance",
         "article:by-the-numbers-what-indians-do-online",
+        "article:compound-habits-career-stages",
         "article:engagement-is-a-design-choice",
         "article:failure-teaching-and-the-skill-stack",
         "article:friction-chronological-feeds-user-chosen-algorithms",
+        "article:from-penny-press-to-infinite-scroll",
         "article:gender-and-the-attention-economy",
         "article:historical-analogies-of-missed-transitions",
         "article:historical-hinges-access-is-not-benefit",
@@ -3704,6 +3905,7 @@
         "article:regulation-as-a-floor-dsa-it-rules-dpdp",
         "article:sleep-anxiety-and-tele-manas",
         "article:the-attention-extraction",
+        "article:the-attention-matthew-effect",
         "article:the-better-question",
         "article:the-citizens-garden",
         "article:the-compounding-bet",
@@ -3727,7 +3929,8 @@
         "article:user-migration-and-the-exit-problem",
         "article:what-ai-makes-cheap",
         "article:what-india-is-building-vs-could-build",
-        "article:who-profits-advertising-foreign-platforms"
+        "article:who-profits-advertising-foreign-platforms",
+        "article:why-good-content-loses-to-loud-content"
       ],
       "pageUrl": "https://aura-knowledge.github.io/topics/india/",
       "agentJsonPath": "/agents/topics/india.json"
@@ -3740,6 +3943,15 @@
       ],
       "pageUrl": "https://aura-knowledge.github.io/topics/inequality/",
       "agentJsonPath": "/agents/topics/inequality.json"
+    },
+    {
+      "topic": "inference",
+      "label": "inference",
+      "articleIds": [
+        "article:modern-ai-stack"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/inference/",
+      "agentJsonPath": "/agents/topics/inference.json"
     },
     {
       "topic": "information-theory",
@@ -3847,6 +4059,7 @@
       "topic": "life-phases",
       "label": "life phases",
       "articleIds": [
+        "article:compound-habits-career-stages",
         "article:the-life-phase-thread"
       ],
       "pageUrl": "https://aura-knowledge.github.io/topics/life-phases/",
@@ -3914,10 +4127,20 @@
       "agentJsonPath": "/agents/topics/machine-learning.json"
     },
     {
+      "topic": "mcp",
+      "label": "mcp",
+      "articleIds": [
+        "article:modern-ai-stack"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/mcp/",
+      "agentJsonPath": "/agents/topics/mcp.json"
+    },
+    {
       "topic": "media",
       "label": "media",
       "articleIds": [
-        "article:business-models-that-reward-substance"
+        "article:business-models-that-reward-substance",
+        "article:from-penny-press-to-infinite-scroll"
       ],
       "pageUrl": "https://aura-knowledge.github.io/topics/media/",
       "agentJsonPath": "/agents/topics/media.json"
@@ -3954,6 +4177,15 @@
       ],
       "pageUrl": "https://aura-knowledge.github.io/topics/misinformation/",
       "agentJsonPath": "/agents/topics/misinformation.json"
+    },
+    {
+      "topic": "model-alignment",
+      "label": "model alignment",
+      "articleIds": [
+        "article:modern-ai-stack"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/model-alignment/",
+      "agentJsonPath": "/agents/topics/model-alignment.json"
     },
     {
       "topic": "network-effects",
@@ -4057,6 +4289,17 @@
       "agentJsonPath": "/agents/topics/platform-governance.json"
     },
     {
+      "topic": "platforms",
+      "label": "platforms",
+      "articleIds": [
+        "article:from-penny-press-to-infinite-scroll",
+        "article:the-attention-matthew-effect",
+        "article:why-good-content-loses-to-loud-content"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/platforms/",
+      "agentJsonPath": "/agents/topics/platforms.json"
+    },
+    {
       "topic": "polarization",
       "label": "polarization",
       "articleIds": [
@@ -4098,6 +4341,7 @@
       "label": "productivity",
       "articleIds": [
         "article:attention-substance-ai-moment-tldr",
+        "article:compound-habits-career-stages",
         "article:historical-analogies-of-missed-transitions",
         "article:the-compounding-bet",
         "article:the-engagement-gap-productivity-india",
@@ -4152,6 +4396,15 @@
       ],
       "pageUrl": "https://aura-knowledge.github.io/topics/public-space/",
       "agentJsonPath": "/agents/topics/public-space.json"
+    },
+    {
+      "topic": "rag",
+      "label": "rag",
+      "articleIds": [
+        "article:modern-ai-stack"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/rag/",
+      "agentJsonPath": "/agents/topics/rag.json"
     },
     {
       "topic": "reading-paths",
@@ -4339,6 +4592,15 @@
       "agentJsonPath": "/agents/topics/technology.json"
     },
     {
+      "topic": "tooling",
+      "label": "tooling",
+      "articleIds": [
+        "article:modern-ai-stack"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/tooling/",
+      "agentJsonPath": "/agents/topics/tooling.json"
+    },
+    {
       "topic": "transformers",
       "label": "transformers",
       "articleIds": [
@@ -4437,6 +4699,7 @@
         "article:birth-of-ai",
         "article:business-models-that-reward-substance",
         "article:by-the-numbers-what-indians-do-online",
+        "article:compound-habits-career-stages",
         "article:context-management",
         "article:designing-for-substance",
         "article:engagement-is-a-design-choice",
@@ -4446,6 +4709,7 @@
         "article:formal-logic-to-computation",
         "article:foundation-models",
         "article:friction-chronological-feeds-user-chosen-algorithms",
+        "article:from-penny-press-to-infinite-scroll",
         "article:gender-and-the-attention-economy",
         "article:historical-analogies-of-missed-transitions",
         "article:historical-hinges-access-is-not-benefit",
@@ -4456,6 +4720,7 @@
         "article:long-running-sessions",
         "article:loops-vs-goals",
         "article:memory-vs-context",
+        "article:modern-ai-stack",
         "article:multi-agent-systems",
         "article:open-questions-the-series-leaves-unresolved",
         "article:planning-and-reflection",
@@ -4469,6 +4734,7 @@
         "article:retrieval-augmented-generation",
         "article:sleep-anxiety-and-tele-manas",
         "article:the-attention-extraction",
+        "article:the-attention-matthew-effect",
         "article:the-better-question",
         "article:the-citizens-garden",
         "article:the-compounding-bet",
@@ -4494,7 +4760,8 @@
         "article:user-migration-and-the-exit-problem",
         "article:what-ai-makes-cheap",
         "article:what-india-is-building-vs-could-build",
-        "article:who-profits-advertising-foreign-platforms"
+        "article:who-profits-advertising-foreign-platforms",
+        "article:why-good-content-loses-to-loud-content"
       ],
       "pageUrl": "https://aura-knowledge.github.io/articles/2026/",
       "months": [
@@ -4513,14 +4780,17 @@
             "article:bhashini-and-the-indic-language-ai-moment",
             "article:business-models-that-reward-substance",
             "article:by-the-numbers-what-indians-do-online",
+            "article:compound-habits-career-stages",
             "article:designing-for-substance",
             "article:engagement-is-a-design-choice",
             "article:failure-teaching-and-the-skill-stack",
             "article:friction-chronological-feeds-user-chosen-algorithms",
+            "article:from-penny-press-to-infinite-scroll",
             "article:gender-and-the-attention-economy",
             "article:historical-analogies-of-missed-transitions",
             "article:historical-hinges-access-is-not-benefit",
             "article:india-in-global-context",
+            "article:modern-ai-stack",
             "article:open-questions-the-series-leaves-unresolved",
             "article:product-ideas-that-could-shift-incentives",
             "article:public-pressure-and-internal-accountability",
@@ -4528,6 +4798,7 @@
             "article:regulation-as-a-floor-dsa-it-rules-dpdp",
             "article:sleep-anxiety-and-tele-manas",
             "article:the-attention-extraction",
+            "article:the-attention-matthew-effect",
             "article:the-better-question",
             "article:the-citizens-garden",
             "article:the-compounding-bet",
@@ -4552,7 +4823,8 @@
             "article:user-migration-and-the-exit-problem",
             "article:what-ai-makes-cheap",
             "article:what-india-is-building-vs-could-build",
-            "article:who-profits-advertising-foreign-platforms"
+            "article:who-profits-advertising-foreign-platforms",
+            "article:why-good-content-loses-to-loud-content"
           ],
           "pageUrl": "https://aura-knowledge.github.io/articles/2026/07/"
         },
