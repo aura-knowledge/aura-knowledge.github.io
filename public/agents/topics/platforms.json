@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "topic": "platforms",
+  "articleIds": [
+    "article:from-penny-press-to-infinite-scroll",
+    "article:the-attention-matthew-effect",
+    "article:why-good-content-loses-to-loud-content"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/platforms/",
+  "agentJsonPath": "/agents/topics/platforms.json",
+  "articles": [
+    {
+      "id": "article:from-penny-press-to-infinite-scroll",
+      "slug": "from-penny-press-to-infinite-scroll",
+      "title": "From Penny Press to Infinite Scroll: A Brief History of Attention Markets",
+      "summary": "Uses the history of the penny press, radio, television, and early internet to show that attention markets follow a recurring pattern, and that the current feed economy is the latest version of an old bargain.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "history",
+        "media",
+        "platforms",
+        "digital-wellbeing"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "history",
+        "media",
+        "platforms",
+        "digital-wellbeing"
+      ],
+      "canonicalPath": "/articles/from-penny-press-to-infinite-scroll/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
+      "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
+      "agentMarkdownPath": "/agents/articles/from-penny-press-to-infinite-scroll.md",
+      "updatedAt": "2026-07-06",
+      "claimCount": 7,
+      "sourceCount": 6,
+      "tokenEstimate": 114,
+      "contentHash": "6976a5dfa301eefca54a6613a7ac161950bbff440aabe4bfcc3b9f4a372405f4"
+    },
+    {
+      "id": "article:the-attention-matthew-effect",
+      "slug": "the-attention-matthew-effect",
+      "title": "The Attention Matthew Effect: Why Reach Begets Reach",
+      "summary": "Examines how follower inequality and algorithmic seeding create a Matthew effect in creator markets, making reach itself the scarce resource and leaving quality content without distribution.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "creator-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "platforms"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "creator-economy",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "platforms"
+      ],
+      "canonicalPath": "/articles/the-attention-matthew-effect/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
+      "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
+      "agentMarkdownPath": "/agents/articles/the-attention-matthew-effect.md",
+      "updatedAt": "2026-07-06",
+      "claimCount": 7,
+      "sourceCount": 6,
+      "tokenEstimate": 114,
+      "contentHash": "c46ccd41d164bb9938811546da3651408b84b298db94adfa5dd8e24d739243a9"
+    },
+    {
+      "id": "article:why-good-content-loses-to-loud-content",
+      "slug": "why-good-content-loses-to-loud-content",
+      "title": "Why Good Content Loses to Loud Content",
+      "summary": "On algorithmic platforms, distribution is earned by predicted engagement, not by human-judged quality. This article explains why the reward function favors loud content and what quality creators can do about it.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "creator-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "platforms"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "creator-economy",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "platforms"
+      ],
+      "canonicalPath": "/articles/why-good-content-loses-to-loud-content/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+      "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
+      "agentMarkdownPath": "/agents/articles/why-good-content-loses-to-loud-content.md",
+      "updatedAt": "2026-07-06",
+      "claimCount": 6,
+      "sourceCount": 7,
+      "tokenEstimate": 524,
+      "contentHash": "8a50b59d1f86dc1e261cf824a610abebf67ec10b18ec1a93833d46e8cda1edfe"
+    }
+  ]
+}

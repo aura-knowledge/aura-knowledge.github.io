@@ -2,11 +2,45 @@
   "schemaVersion": 1,
   "topic": "life-phases",
   "articleIds": [
+    "article:compound-habits-career-stages",
     "article:the-life-phase-thread"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/life-phases/",
   "agentJsonPath": "/agents/topics/life-phases.json",
   "articles": [
+    {
+      "id": "article:compound-habits-career-stages",
+      "slug": "compound-habits-career-stages",
+      "title": "Compound Habits Across Career Stages",
+      "summary": "Shows how fragmented attention and shallow work early in a career create compounding costs, while small habits of depth build skill and optionality that shape later career stages and family life.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "productivity",
+        "life-phases",
+        "artificial-intelligence"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "productivity",
+        "life-phases",
+        "artificial-intelligence"
+      ],
+      "canonicalPath": "/articles/compound-habits-career-stages/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
+      "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
+      "agentMarkdownPath": "/agents/articles/compound-habits-career-stages.md",
+      "updatedAt": "2026-07-06",
+      "claimCount": 7,
+      "sourceCount": 5,
+      "tokenEstimate": 114,
+      "contentHash": "9d48635b5b5127574f77ba1c89aa1f5f200188793373e23a601ddf4e3a9bfe5a"
+    },
     {
       "id": "article:the-life-phase-thread",
       "slug": "the-life-phase-thread",

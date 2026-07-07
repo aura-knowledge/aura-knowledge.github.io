@@ -6,9 +6,11 @@
     "article:ai-could-make-extraction-cheaper-too",
     "article:attention-substance-ai-moment",
     "article:attention-substance-ai-moment-tldr",
+    "article:compound-habits-career-stages",
     "article:historical-analogies-of-missed-transitions",
     "article:historical-hinges-access-is-not-benefit",
     "article:open-questions-the-series-leaves-unresolved",
+    "article:the-attention-matthew-effect",
     "article:the-citizens-garden",
     "article:the-compounding-bet",
     "article:the-creator-economys-incentive-trap",
@@ -16,7 +18,8 @@
     "article:the-students-garden",
     "article:the-workers-garden",
     "article:what-ai-makes-cheap",
-    "article:what-india-is-building-vs-could-build"
+    "article:what-india-is-building-vs-could-build",
+    "article:why-good-content-loses-to-loud-content"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/artificial-intelligence/",
   "agentJsonPath": "/agents/topics/artificial-intelligence.json",
@@ -112,11 +115,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
       "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json",
       "agentMarkdownPath": "/agents/articles/attention-substance-ai-moment.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-06",
       "claimCount": 1,
       "sourceCount": 2,
       "tokenEstimate": 465,
-      "contentHash": "b112c8c034c5914e0b9b13c9b5d6cd238f20d53dd993f0e8b3562de574ade26f"
+      "contentHash": "f8fa1f6c19c5e76080bc618bc8dfc1dfd23d40ed328ef59af61c87539e5ae6e4"
     },
     {
       "id": "article:attention-substance-ai-moment-tldr",
@@ -148,6 +151,39 @@
       "sourceCount": 20,
       "tokenEstimate": 504,
       "contentHash": "638f59058b3f8eab4574cbad934bed651dd925f62ef76a7f5e647b525fb50193"
+    },
+    {
+      "id": "article:compound-habits-career-stages",
+      "slug": "compound-habits-career-stages",
+      "title": "Compound Habits Across Career Stages",
+      "summary": "Shows how fragmented attention and shallow work early in a career create compounding costs, while small habits of depth build skill and optionality that shape later career stages and family life.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "productivity",
+        "life-phases",
+        "artificial-intelligence"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "productivity",
+        "life-phases",
+        "artificial-intelligence"
+      ],
+      "canonicalPath": "/articles/compound-habits-career-stages/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
+      "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
+      "agentMarkdownPath": "/agents/articles/compound-habits-career-stages.md",
+      "updatedAt": "2026-07-06",
+      "claimCount": 7,
+      "sourceCount": 5,
+      "tokenEstimate": 114,
+      "contentHash": "9d48635b5b5127574f77ba1c89aa1f5f200188793373e23a601ddf4e3a9bfe5a"
     },
     {
       "id": "article:historical-analogies-of-missed-transitions",
@@ -255,6 +291,39 @@
       "sourceCount": 2,
       "tokenEstimate": 288,
       "contentHash": "fb0ac32ee6018b8b5be4644aa55dfb3be6c4c9937e5dcd6b75a858627eebc72e"
+    },
+    {
+      "id": "article:the-attention-matthew-effect",
+      "slug": "the-attention-matthew-effect",
+      "title": "The Attention Matthew Effect: Why Reach Begets Reach",
+      "summary": "Examines how follower inequality and algorithmic seeding create a Matthew effect in creator markets, making reach itself the scarce resource and leaving quality content without distribution.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "creator-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "platforms"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "creator-economy",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "platforms"
+      ],
+      "canonicalPath": "/articles/the-attention-matthew-effect/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
+      "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
+      "agentMarkdownPath": "/agents/articles/the-attention-matthew-effect.md",
+      "updatedAt": "2026-07-06",
+      "claimCount": 7,
+      "sourceCount": 6,
+      "tokenEstimate": 114,
+      "contentHash": "c46ccd41d164bb9938811546da3651408b84b298db94adfa5dd8e24d739243a9"
     },
     {
       "id": "article:the-citizens-garden",
@@ -531,6 +600,39 @@
       "sourceCount": 4,
       "tokenEstimate": 474,
       "contentHash": "1c65c2cbfaabb5ee4c87a6d5e05fef5ea438e4fac17145b118be57d675855556"
+    },
+    {
+      "id": "article:why-good-content-loses-to-loud-content",
+      "slug": "why-good-content-loses-to-loud-content",
+      "title": "Why Good Content Loses to Loud Content",
+      "summary": "On algorithmic platforms, distribution is earned by predicted engagement, not by human-judged quality. This article explains why the reward function favors loud content and what quality creators can do about it.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "creator-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "platforms"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "creator-economy",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "platforms"
+      ],
+      "canonicalPath": "/articles/why-good-content-loses-to-loud-content/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+      "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
+      "agentMarkdownPath": "/agents/articles/why-good-content-loses-to-loud-content.md",
+      "updatedAt": "2026-07-06",
+      "claimCount": 6,
+      "sourceCount": 7,
+      "tokenEstimate": 524,
+      "contentHash": "8a50b59d1f86dc1e261cf824a610abebf67ec10b18ec1a93833d46e8cda1edfe"
     }
   ]
 }
