@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-07-07T00:00:00.000Z",
+  "generatedAt": "2026-07-15T00:00:00.000Z",
   "site": "https://aura-knowledge.github.io",
   "base": "",
   "articles": [
@@ -1754,6 +1754,41 @@
       "contentHash": "d3dce937b302fd9f5434128bee3769e975c18dc3338ac506e829f45a55d473dd"
     },
     {
+      "id": "article:post-subscription-ai-assistant",
+      "slug": "post-subscription-ai-assistant",
+      "title": "The Post-Subscription AI Assistant: What Apple Just Gave Indie Builders",
+      "summary": "WWDC 2026 made Apple's AI stack a cheap, private backend for small developers. This article maps the models, PCC quotas, data-access walls, and why context architecture is the new moat.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "apple-intelligence",
+        "private-cloud-compute",
+        "on-device-ai",
+        "agentic-apps",
+        "indie-ai",
+        "privacy"
+      ],
+      "tags": [
+        "apple-intelligence",
+        "private-cloud-compute",
+        "ios-27",
+        "macos-27",
+        "on-device-ai",
+        "agentic-apps",
+        "indie-ai",
+        "privacy"
+      ],
+      "canonicalPath": "/articles/post-subscription-ai-assistant/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/post-subscription-ai-assistant/",
+      "agentJsonPath": "/agents/articles/post-subscription-ai-assistant.json",
+      "agentMarkdownPath": "/agents/articles/post-subscription-ai-assistant.md",
+      "updatedAt": "2026-07-15",
+      "claimCount": 6,
+      "sourceCount": 8,
+      "tokenEstimate": 702,
+      "contentHash": "0ba656ce9a6858573fdfb2a4358fe62257629188e22bfec2996b8adff5ca1c2c"
+    },
+    {
       "id": "article:product-ideas-that-could-shift-incentives",
       "slug": "product-ideas-that-could-shift-incentives",
       "title": "Product Ideas That Could Shift the Incentives",
@@ -3076,6 +3111,15 @@
       "agentJsonPath": "/agents/topics/agent-provenance.json"
     },
     {
+      "topic": "agentic-apps",
+      "label": "agentic apps",
+      "articleIds": [
+        "article:post-subscription-ai-assistant"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/agentic-apps/",
+      "agentJsonPath": "/agents/topics/agentic-apps.json"
+    },
+    {
       "topic": "agentic-commerce",
       "label": "agentic commerce",
       "articleIds": [
@@ -3249,6 +3293,15 @@
       ],
       "pageUrl": "https://aura-knowledge.github.io/topics/analogy/",
       "agentJsonPath": "/agents/topics/analogy.json"
+    },
+    {
+      "topic": "apple-intelligence",
+      "label": "apple intelligence",
+      "articleIds": [
+        "article:post-subscription-ai-assistant"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/apple-intelligence/",
+      "agentJsonPath": "/agents/topics/apple-intelligence.json"
     },
     {
       "topic": "artificial-intelligence",
@@ -3936,6 +3989,15 @@
       "agentJsonPath": "/agents/topics/india.json"
     },
     {
+      "topic": "indie-ai",
+      "label": "indie ai",
+      "articleIds": [
+        "article:post-subscription-ai-assistant"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/indie-ai/",
+      "agentJsonPath": "/agents/topics/indie-ai.json"
+    },
+    {
       "topic": "inequality",
       "label": "inequality",
       "articleIds": [
@@ -4215,6 +4277,15 @@
       "agentJsonPath": "/agents/topics/notifications.json"
     },
     {
+      "topic": "on-device-ai",
+      "label": "on device ai",
+      "articleIds": [
+        "article:post-subscription-ai-assistant"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/on-device-ai/",
+      "agentJsonPath": "/agents/topics/on-device-ai.json"
+    },
+    {
       "topic": "onboarding",
       "label": "onboarding",
       "articleIds": [
@@ -4322,10 +4393,20 @@
       "topic": "privacy",
       "label": "privacy",
       "articleIds": [
-        "article:ai-agent-advanced-questions"
+        "article:ai-agent-advanced-questions",
+        "article:post-subscription-ai-assistant"
       ],
       "pageUrl": "https://aura-knowledge.github.io/topics/privacy/",
       "agentJsonPath": "/agents/topics/privacy.json"
+    },
+    {
+      "topic": "private-cloud-compute",
+      "label": "private cloud compute",
+      "articleIds": [
+        "article:post-subscription-ai-assistant"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/private-cloud-compute/",
+      "agentJsonPath": "/agents/topics/private-cloud-compute.json"
     },
     {
       "topic": "product-truth",
@@ -4724,6 +4805,7 @@
         "article:multi-agent-systems",
         "article:open-questions-the-series-leaves-unresolved",
         "article:planning-and-reflection",
+        "article:post-subscription-ai-assistant",
         "article:product-ideas-that-could-shift-incentives",
         "article:prompt-caching",
         "article:prompt-engineering",
@@ -4792,6 +4874,7 @@
             "article:india-in-global-context",
             "article:modern-ai-stack",
             "article:open-questions-the-series-leaves-unresolved",
+            "article:post-subscription-ai-assistant",
             "article:product-ideas-that-could-shift-incentives",
             "article:public-pressure-and-internal-accountability",
             "article:public-space-and-private-screens",

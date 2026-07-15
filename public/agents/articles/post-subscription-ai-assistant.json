@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 3,
+  "id": "article:post-subscription-ai-assistant",
+  "slug": "post-subscription-ai-assistant",
+  "title": "The Post-Subscription AI Assistant: What Apple Just Gave Indie Builders",
+  "canonicalPath": "/articles/post-subscription-ai-assistant/",
+  "sourcePath": "content/articles/2026/post-subscription-ai-assistant/article.md",
+  "agentBriefPath": "content/articles/2026/post-subscription-ai-assistant/agent.md",
+  "thesis": "Apple's WWDC 2026 stack makes model inference cheap and private for small developers, shifting the competitive advantage from model access to context architecture: local memory, retrieval, hybrid model routing, and domain-specific data integration within Apple's privacy walls.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-15",
+  "updatedAt": "2026-07-15",
+  "audiences": [
+    "builders",
+    "indie-developers",
+    "product-teams",
+    "technical"
+  ],
+  "topics": [
+    "apple-intelligence",
+    "private-cloud-compute",
+    "on-device-ai",
+    "agentic-apps",
+    "indie-ai",
+    "privacy"
+  ],
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "The LanguageModel protocol makes Apple's on-device models, PCC server models, Claude, and Gemini interchangeable behind the same LanguageModelSession API.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-nerd-level-language-model",
+          "snippet": "You can now work with any language model, including Apple Foundation Models, cloud models like Claude and Gemini, or any other provider that conforms to the Language Model protocol.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Third-party provider packages are beta and tied to the OS 27 betas; API stability is not guaranteed until general availability.",
+          "assessedAt": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Private Cloud Compute is free for App Store Small Business Program developers with fewer than two million first-time App Store downloads, with a six-month migration window if crossed.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-apple-pcc-access",
+          "snippet": "developers in the App Store Small Business Program with fewer than two million first time App Store downloads will be able to use Apple Foundation Models running on Private Cloud Compute (PCC) with no cloud API cost.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
+        },
+        {
+          "sourceId": "source-apple-pcc-access",
+          "snippet": "If any app subsequently exceeds the 2 million first-time downloads threshold, or the developer is no longer enrolled in the App Store Small Business Program, the developer will be notified and must migrate to an alternative solution within 6 months.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Eligibility also requires the Private Cloud Compute entitlement, which Apple assigns to accounts; not every enrolled developer is automatically approved.",
+          "assessedAt": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "PCC has measured daily request limits and is stateless, so apps must carry their own context and design for quotas.",
+      "confidence": "medium-high",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-arxiv-unlocking-pcc",
+          "snippet": "a single TGT can be used to obtain OTTs for approximately 1000 requests. After that, a hard rate limit is enforced, and the token cannot be used anymore until the next day.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
+        },
+        {
+          "sourceId": "source-arxiv-unlocking-pcc",
+          "snippet": "We were able to trigger this rate limit with just 400 consecutive requests a day... PCC responses are state independent",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "These limits come from independent reverse-engineering, not Apple's published terms, and may change as PCC scales or as policy updates.",
+          "assessedAt": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Apple's privacy walls block general cross-app data access, so winning assistants will architect context within their own domain and user-approved system data.",
+      "confidence": "medium-high",
+      "status": "strategy",
+      "evidence": [
+        {
+          "sourceId": "source-aura-proposal-52",
+          "snippet": "Wallet transactions: No general read API. Messages / Mail / Safari history: Only via Share Sheet or manual paste. Screen Time / app usage history: No public API.",
+          "supports": "background",
+          "assessedAt": "2026-07-15"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Apple could expand system access in future releases, especially through user-consented App Intents or MCP servers, but no such broad cross-app API has been announced.",
+          "assessedAt": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "A three-tier build arc — on-device baseline, PCC mid-tier, and user-paid third-party frontier tier — matches the stack's economics and constraints.",
+      "confidence": "medium",
+      "status": "proposal",
+      "evidence": [
+        {
+          "sourceId": "source-nerd-level-language-model",
+          "snippet": "Write to LanguageModelSession once and you can run on Apple's free on-device model, Apple's free Private Cloud Compute tier (if you qualify), Claude, or Gemini, switching by dependency rather than rewrite.",
+          "supports": "background",
+          "assessedAt": "2026-07-15"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The optimal tiering depends on the app's domain and user sensitivity; some apps may never need a third-party frontier model, while others may require it from day one.",
+          "assessedAt": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "The moat in the post-subscription AI assistant shifts from model access to memory, retrieval, and orchestration.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-stork-wwdc-graded",
+          "snippet": "if your edge was the hard VLM-bundling work, Apple just commoditized it. Your moat has to move up-stack — to the specialized reasoning, the data, the workflow",
+          "supports": "background",
+          "assessedAt": "2026-07-15"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Model quality, latency, and provider relationships may still differentiate products, especially at the frontier where Apple's models may lag paid alternatives.",
+          "assessedAt": "2026-07-15"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-apple-afm-3",
+      "title": "Apple Machine Learning Research: Introducing the Third Generation of Apple Foundation Models",
+      "url": "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models",
+      "type": "research",
+      "accessed": "2026-07-15"
+    },
+    {
+      "id": "source-apple-newsroom-wwdc26",
+      "title": "Apple Newsroom: Apple unveils next generation of Apple Intelligence, Siri AI, and more",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
+      "type": "press-release",
+      "accessed": "2026-07-15"
+    },
+    {
+      "id": "source-apple-pcc-access",
+      "title": "Apple Developer: Accessing Private Cloud Compute",
+      "url": "https://developer.apple.com/private-cloud-compute/",
+      "type": "documentation",
+      "accessed": "2026-07-15"
+    },
+    {
+      "id": "source-arxiv-unlocking-pcc",
+      "title": "arXiv: Unlocking Apple's Private Cloud Compute: An Analysis of Privacy-Preserving Artificial Intelligence",
+      "url": "https://arxiv.org/html/2605.24239v1",
+      "type": "research",
+      "accessed": "2026-07-15"
+    },
+    {
+      "id": "source-stork-wwdc-graded",
+      "title": "Stork: WWDC 2026 graded: what Apple shipped (iOS 27)",
+      "url": "https://www.stork.ai/blog/wwdc-2026-graded-what-apple-shipped-ios-27",
+      "type": "analysis",
+      "accessed": "2026-07-15"
+    },
+    {
+      "id": "source-nerd-level-language-model",
+      "title": "Nerd Level Tech: Apple Foundation Models Framework: Claude & Gemini",
+      "url": "https://nerdleveltech.com/apple-foundation-models-framework-claude-gemini",
+      "type": "analysis",
+      "accessed": "2026-07-15"
+    },
+    {
+      "id": "source-google-gemini-apple-devs",
+      "title": "Google: Bringing the latest Gemini models to Apple developers",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/bringing-gemini-models-to-apple-developers/",
+      "type": "product",
+      "accessed": "2026-07-15"
+    },
+    {
+      "id": "source-aura-proposal-52",
+      "title": "Aura Knowledge meta issue #52: Article Proposal — Building the Post-Subscription AI Assistant with Apple Intelligence, PCC, and On-Device Models",
+      "url": "https://github.com/aura-knowledge/meta/issues/52",
+      "type": "proposal",
+      "accessed": "2026-07-15"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:ai-agent-first-conversation"
+    },
+    {
+      "type": "article",
+      "id": "article:ai-agent-advanced-questions"
+    },
+    {
+      "type": "article",
+      "id": "article:memory-vs-context"
+    },
+    {
+      "type": "article",
+      "id": "article:tool-use"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit.",
+    "Treat maturity=seed as an explicit uncertainty marker.",
+    "Do not present PCC as unlimited or free for all developers; qualify with the Small Business Program and download threshold.",
+    "Do not present Apple Intelligence as having general cross-app access; emphasize the documented data-access walls.",
+    "When discussing model choice, keep recommendations task-based rather than benchmark-based."
+  ],
+  "contentHash": "0ba656ce9a6858573fdfb2a4358fe62257629188e22bfec2996b8adff5ca1c2c",
+  "provenance": {
+    "createdAt": "2026-07-15",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-15",
+        "inputHash": "sha256:d599e966fa7fc73552f887bbcf6248fb11a54cf9de540dfd9fd51b9de061b244",
+        "outputHash": "sha256:0ba656ce9a6858573fdfb2a4358fe62257629188e22bfec2996b8adff5ca1c2c"
+      },
+      {
+        "role": "review",
+        "model": "kimi",
+        "invokedAt": "2026-07-15",
+        "inputHash": "sha256:d6651e21815a9dc70aa1c0bb5fedeb3e191893e5b5bfe5a062b695e360ed757e",
+        "outputHash": "sha256:ba1908a79c3d27d8d2e239ac17deb71b2aeaaffe3d6d397e85b23bad1cc3fbed"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15",
+        "status": "approved",
+        "scope": [
+          "claims",
+          "tone",
+          "privacy",
+          "scope"
+        ],
+        "notes": "Sibling-agent review against article-proposal-ideation eval-card. Privacy scan passed. No proprietary or personal content detected.",
+        "contentHash": "0ba656ce9a6858573fdfb2a4358fe62257629188e22bfec2996b8adff5ca1c2c"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-15",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "examples",
+          "tone",
+          "safety"
+        ],
+        "notes": "Human author approved the draft for review publication.",
+        "contentHash": "0ba656ce9a6858573fdfb2a4358fe62257629188e22bfec2996b8adff5ca1c2c"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "generatedAt": "2026-07-15T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/post-subscription-ai-assistant/",
+  "agentJsonPath": "/agents/articles/post-subscription-ai-assistant.json",
+  "agentMarkdownPath": "/agents/articles/post-subscription-ai-assistant.md",
+  "sourceRepoPath": "content/articles/2026/post-subscription-ai-assistant/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/post-subscription-ai-assistant/article.md",
+  "tokenEstimate": 702,
+  "sectionOutline": []
+}

@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-07T00:00:00.000Z",
+  "generatedAt": "2026-07-15T00:00:00.000Z",
   "summary": {
     "errors": 0,
-    "warnings": 417,
-    "total": 417
+    "warnings": 431,
+    "total": 431
   },
   "findings": [
     {
@@ -1176,6 +1176,76 @@
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/planning-and-reflection: claim-005 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/post-subscription-ai-assistant: claim-001 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/post-subscription-ai-assistant: claim-001 relies on a single source type for evidence."
+    },
+    {
+      "rule": "duplicate-evidence-source",
+      "severity": "warning",
+      "message": "2026/post-subscription-ai-assistant: claim-002 cites source source-apple-pcc-access more than once in evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/post-subscription-ai-assistant: claim-002 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/post-subscription-ai-assistant: claim-002 relies on a single source type for evidence."
+    },
+    {
+      "rule": "duplicate-evidence-source",
+      "severity": "warning",
+      "message": "2026/post-subscription-ai-assistant: claim-003 cites source source-arxiv-unlocking-pcc more than once in evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/post-subscription-ai-assistant: claim-003 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/post-subscription-ai-assistant: claim-003 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/post-subscription-ai-assistant: claim-004 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/post-subscription-ai-assistant: claim-004 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/post-subscription-ai-assistant: claim-005 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/post-subscription-ai-assistant: claim-005 relies on a single source type for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/post-subscription-ai-assistant: claim-006 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/post-subscription-ai-assistant: claim-006 relies on a single source type for evidence."
     },
     {
       "rule": "low-source-diversity",

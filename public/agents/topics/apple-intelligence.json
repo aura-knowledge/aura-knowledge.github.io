@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "topic": "apple-intelligence",
+  "articleIds": [
+    "article:post-subscription-ai-assistant"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/apple-intelligence/",
+  "agentJsonPath": "/agents/topics/apple-intelligence.json",
+  "articles": [
+    {
+      "id": "article:post-subscription-ai-assistant",
+      "slug": "post-subscription-ai-assistant",
+      "title": "The Post-Subscription AI Assistant: What Apple Just Gave Indie Builders",
+      "summary": "WWDC 2026 made Apple's AI stack a cheap, private backend for small developers. This article maps the models, PCC quotas, data-access walls, and why context architecture is the new moat.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "apple-intelligence",
+        "private-cloud-compute",
+        "on-device-ai",
+        "agentic-apps",
+        "indie-ai",
+        "privacy"
+      ],
+      "tags": [
+        "apple-intelligence",
+        "private-cloud-compute",
+        "ios-27",
+        "macos-27",
+        "on-device-ai",
+        "agentic-apps",
+        "indie-ai",
+        "privacy"
+      ],
+      "canonicalPath": "/articles/post-subscription-ai-assistant/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/post-subscription-ai-assistant/",
+      "agentJsonPath": "/agents/articles/post-subscription-ai-assistant.json",
+      "agentMarkdownPath": "/agents/articles/post-subscription-ai-assistant.md",
+      "updatedAt": "2026-07-15",
+      "claimCount": 6,
+      "sourceCount": 8,
+      "tokenEstimate": 702,
+      "contentHash": "0ba656ce9a6858573fdfb2a4358fe62257629188e22bfec2996b8adff5ca1c2c"
+    }
+  ]
+}

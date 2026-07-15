@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-07T00:00:00.000Z",
+  "generatedAt": "2026-07-15T00:00:00.000Z",
   "articles": [
     {
       "slug": "a-map-of-levers",
@@ -4823,6 +4823,157 @@
         "needs-evidence": 0,
         "missing-counterevidence": 0,
         "draft": 5
+      }
+    },
+    {
+      "slug": "post-subscription-ai-assistant",
+      "title": "The Post-Subscription AI Assistant: What Apple Just Gave Indie Builders",
+      "status": "published",
+      "claims": [
+        {
+          "id": "claim-001",
+          "claim": "The LanguageModel protocol makes Apple's on-device models, PCC server models, Claude, and Gemini interchangeable behind the same LanguageModelSession API.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/post-subscription-ai-assistant: claim-001 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/post-subscription-ai-assistant: claim-001 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-002",
+          "claim": "Private Cloud Compute is free for App Store Small Business Program developers with fewer than two million first-time App Store downloads, with a six-month migration window if crossed.",
+          "confidence": "high",
+          "status": "core",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "duplicate-evidence-source",
+              "severity": "warning",
+              "message": "2026/post-subscription-ai-assistant: claim-002 cites source source-apple-pcc-access more than once in evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/post-subscription-ai-assistant: claim-002 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/post-subscription-ai-assistant: claim-002 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-003",
+          "claim": "PCC has measured daily request limits and is stateless, so apps must carry their own context and design for quotas.",
+          "confidence": "medium-high",
+          "status": "design",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "duplicate-evidence-source",
+              "severity": "warning",
+              "message": "2026/post-subscription-ai-assistant: claim-003 cites source source-arxiv-unlocking-pcc more than once in evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/post-subscription-ai-assistant: claim-003 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/post-subscription-ai-assistant: claim-003 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-004",
+          "claim": "Apple's privacy walls block general cross-app data access, so winning assistants will architect context within their own domain and user-approved system data.",
+          "confidence": "medium-high",
+          "status": "strategy",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/post-subscription-ai-assistant: claim-004 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/post-subscription-ai-assistant: claim-004 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-005",
+          "claim": "A three-tier build arc — on-device baseline, PCC mid-tier, and user-paid third-party frontier tier — matches the stack's economics and constraints.",
+          "confidence": "medium",
+          "status": "proposal",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/post-subscription-ai-assistant: claim-005 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/post-subscription-ai-assistant: claim-005 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-006",
+          "claim": "The moat in the post-subscription AI assistant shifts from model access to memory, retrieval, and orchestration.",
+          "confidence": "medium",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/post-subscription-ai-assistant: claim-006 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/post-subscription-ai-assistant: claim-006 relies on a single source type for evidence."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "verified": 0,
+        "contested": 0,
+        "stale": 0,
+        "needs-evidence": 0,
+        "missing-counterevidence": 0,
+        "draft": 6
       }
     },
     {

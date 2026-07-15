@@ -762,6 +762,22 @@
 {"from":"article:planning-and-reflection","to":"topic:ai-agents","type":"covers"}
 {"from":"article:planning-and-reflection","to":"topic:ai-literacy","type":"covers"}
 {"from":"article:planning-and-reflection","to":"topic:ai-agents","type":"topic"}
+{"from":"article:post-subscription-ai-assistant","to":"article:post-subscription-ai-assistant:claim-001","type":"argues"}
+{"from":"article:post-subscription-ai-assistant","to":"article:post-subscription-ai-assistant:claim-002","type":"argues"}
+{"from":"article:post-subscription-ai-assistant","to":"article:post-subscription-ai-assistant:claim-003","type":"argues"}
+{"from":"article:post-subscription-ai-assistant","to":"article:post-subscription-ai-assistant:claim-004","type":"argues"}
+{"from":"article:post-subscription-ai-assistant","to":"article:post-subscription-ai-assistant:claim-005","type":"argues"}
+{"from":"article:post-subscription-ai-assistant","to":"article:post-subscription-ai-assistant:claim-006","type":"argues"}
+{"from":"article:post-subscription-ai-assistant","to":"article:ai-agent-advanced-questions","type":"article"}
+{"from":"article:post-subscription-ai-assistant","to":"article:ai-agent-first-conversation","type":"article"}
+{"from":"article:post-subscription-ai-assistant","to":"article:memory-vs-context","type":"article"}
+{"from":"article:post-subscription-ai-assistant","to":"article:tool-use","type":"article"}
+{"from":"article:post-subscription-ai-assistant","to":"topic:agentic-apps","type":"covers"}
+{"from":"article:post-subscription-ai-assistant","to":"topic:apple-intelligence","type":"covers"}
+{"from":"article:post-subscription-ai-assistant","to":"topic:indie-ai","type":"covers"}
+{"from":"article:post-subscription-ai-assistant","to":"topic:on-device-ai","type":"covers"}
+{"from":"article:post-subscription-ai-assistant","to":"topic:privacy","type":"covers"}
+{"from":"article:post-subscription-ai-assistant","to":"topic:private-cloud-compute","type":"covers"}
 {"from":"article:product-ideas-that-could-shift-incentives","to":"article:product-ideas-that-could-shift-incentives:claim-001","type":"argues"}
 {"from":"article:product-ideas-that-could-shift-incentives","to":"article:product-ideas-that-could-shift-incentives:claim-002","type":"argues"}
 {"from":"article:product-ideas-that-could-shift-incentives","to":"article:product-ideas-that-could-shift-incentives:claim-003","type":"argues"}
@@ -1460,6 +1476,8 @@
 {"from":"source-anthropic-mcp","to":"article:modern-ai-stack:claim-005","type":"supports"}
 {"from":"source-anthropic-prompting","to":"article:ai-agent-advanced-questions:claim-005","type":"supports"}
 {"from":"source-apa-adolescent-social-media","to":"article:age-appropriate-design:claim-002","type":"supports"}
+{"from":"source-apple-pcc-access","to":"article:post-subscription-ai-assistant:claim-002","type":"supports"}
+{"from":"source-arxiv-unlocking-pcc","to":"article:post-subscription-ai-assistant:claim-003","type":"supports"}
 {"from":"source-aser-2024","to":"article:a-map-of-levers:claim-002","type":"supports"}
 {"from":"source-aser-2024","to":"article:attention-substance-ai-moment-tldr:claim-001","type":"supports"}
 {"from":"source-aser-2024","to":"article:attention-substance-ai-moment:claim-001","type":"supports"}
@@ -1480,6 +1498,7 @@
 {"from":"source-aser-2024","to":"article:the-student-screen-education-vs-entertainment:claim-008","type":"supports"}
 {"from":"source-attention-extraction","to":"article:a-readers-guide-to-the-series:claim-002","type":"supports"}
 {"from":"source-attention-is-all-you-need","to":"article:context-management:claim-001","type":"supports"}
+{"from":"source-aura-proposal-52","to":"article:post-subscription-ai-assistant:claim-004","type":"supports"}
 {"from":"source-australia-osa-factsheet","to":"article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-005","type":"supports"}
 {"from":"source-autogen","to":"article:multi-agent-systems:claim-003","type":"supports"}
 {"from":"source-autonomous-agents-llm","to":"article:agents:claim-002","type":"supports"}
@@ -1967,6 +1986,8 @@
 {"from":"source-ncert-mental-health-2022","to":"article:sleep-anxiety-and-tele-manas:claim-002","type":"supports"}
 {"from":"source-ncert-mental-health-2022","to":"article:sleep-anxiety-and-tele-manas:claim-004","type":"supports"}
 {"from":"source-ncert-mental-health-2022","to":"article:the-life-phase-thread:claim-003","type":"supports"}
+{"from":"source-nerd-level-language-model","to":"article:post-subscription-ai-assistant:claim-001","type":"supports"}
+{"from":"source-nerd-level-language-model","to":"article:post-subscription-ai-assistant:claim-005","type":"supports"}
 {"from":"source-newport-deep-work-2016","to":"article:the-small-rep-theory:claim-003","type":"supports"}
 {"from":"source-newport-deep-work-2016","to":"article:the-small-rep-theory:claim-005","type":"supports"}
 {"from":"source-newport-deep-work-2016","to":"article:the-small-rep-theory:claim-006","type":"supports"}
@@ -2222,6 +2243,7 @@
 {"from":"source-status-quo-bias","to":"article:agentic-commerce-product-truth:claim-002","type":"supports"}
 {"from":"source-steelcase-attention-span","to":"article:attention-substance-ai-moment-tldr:claim-002","type":"supports"}
 {"from":"source-steelcase-attention-span","to":"article:the-attention-extraction:claim-003","type":"supports"}
+{"from":"source-stork-wwdc-graded","to":"article:post-subscription-ai-assistant:claim-006","type":"supports"}
 {"from":"source-storyboard18-google-meta-share","to":"article:who-profits-advertising-foreign-platforms:claim-001","type":"supports"}
 {"from":"source-storyboard18-google-meta-share","to":"article:who-profits-advertising-foreign-platforms:claim-006","type":"supports"}
 {"from":"source-stratechery-aggregation","to":"article:business-models-that-reward-substance:claim-001","type":"supports"}

@@ -2537,6 +2537,61 @@
     "status": "design"
   },
   {
+    "id": "article:post-subscription-ai-assistant",
+    "type": "article",
+    "label": "The Post-Subscription AI Assistant: What Apple Just Gave Indie Builders",
+    "path": "/articles/post-subscription-ai-assistant/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:post-subscription-ai-assistant:claim-001",
+    "type": "claim",
+    "label": "The LanguageModel protocol makes Apple's on-device models, PCC server models, Claude, and Gemini interchangeable behind the same LanguageModelSession API.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:post-subscription-ai-assistant:claim-002",
+    "type": "claim",
+    "label": "Private Cloud Compute is free for App Store Small Business Program developers with fewer than two million first-time App Store downloads, with a six-month migration window if crossed.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:post-subscription-ai-assistant:claim-003",
+    "type": "claim",
+    "label": "PCC has measured daily request limits and is stateless, so apps must carry their own context and design for quotas.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "design"
+  },
+  {
+    "id": "article:post-subscription-ai-assistant:claim-004",
+    "type": "claim",
+    "label": "Apple's privacy walls block general cross-app data access, so winning assistants will architect context within their own domain and user-approved system data.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "strategy"
+  },
+  {
+    "id": "article:post-subscription-ai-assistant:claim-005",
+    "type": "claim",
+    "label": "A three-tier build arc — on-device baseline, PCC mid-tier, and user-paid third-party frontier tier — matches the stack's economics and constraints.",
+    "localId": "claim-005",
+    "confidence": "medium",
+    "status": "proposal"
+  },
+  {
+    "id": "article:post-subscription-ai-assistant:claim-006",
+    "type": "claim",
+    "label": "The moat in the post-subscription AI assistant shifts from model access to memory, retrieval, and orchestration.",
+    "localId": "claim-006",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
     "id": "article:product-ideas-that-could-shift-incentives",
     "type": "article",
     "label": "Product Ideas That Could Shift the Incentives",
@@ -4671,6 +4726,34 @@
     "sourceType": "research-report"
   },
   {
+    "id": "source-apple-afm-3",
+    "type": "source",
+    "label": "Apple Machine Learning Research: Introducing the Third Generation of Apple Foundation Models",
+    "url": "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models",
+    "sourceType": "research"
+  },
+  {
+    "id": "source-apple-newsroom-wwdc26",
+    "type": "source",
+    "label": "Apple Newsroom: Apple unveils next generation of Apple Intelligence, Siri AI, and more",
+    "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
+    "sourceType": "press-release"
+  },
+  {
+    "id": "source-apple-pcc-access",
+    "type": "source",
+    "label": "Apple Developer: Accessing Private Cloud Compute",
+    "url": "https://developer.apple.com/private-cloud-compute/",
+    "sourceType": "documentation"
+  },
+  {
+    "id": "source-arxiv-unlocking-pcc",
+    "type": "source",
+    "label": "arXiv: Unlocking Apple's Private Cloud Compute: An Analysis of Privacy-Preserving Artificial Intelligence",
+    "url": "https://arxiv.org/html/2605.24239v1",
+    "sourceType": "research"
+  },
+  {
     "id": "source-aser-2024",
     "type": "source",
     "label": "ASER 2024 National Findings",
@@ -4690,6 +4773,13 @@
     "label": "Attention Is All You Need",
     "url": "https://arxiv.org/abs/1706.03762",
     "sourceType": "paper"
+  },
+  {
+    "id": "source-aura-proposal-52",
+    "type": "source",
+    "label": "Aura Knowledge meta issue #52: Article Proposal — Building the Post-Subscription AI Assistant with Apple Intelligence, PCC, and On-Device Models",
+    "url": "https://github.com/aura-knowledge/meta/issues/52",
+    "sourceType": "proposal"
   },
   {
     "id": "source-australia-osa-factsheet",
@@ -5658,6 +5748,13 @@
     "sourceType": "protocol"
   },
   {
+    "id": "source-google-gemini-apple-devs",
+    "type": "source",
+    "label": "Google: Bringing the latest Gemini models to Apple developers",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/bringing-gemini-models-to-apple-developers/",
+    "sourceType": "product"
+  },
+  {
     "id": "source-google-product-structured-data",
     "type": "source",
     "label": "Product snippet structured data",
@@ -6510,6 +6607,13 @@
     "label": "NCERT: Mental Health and Well-being of School Students Survey",
     "url": "https://ncert.nic.in/pdf/announcement/Mental_Health_Survey.pdf",
     "sourceType": "government-report"
+  },
+  {
+    "id": "source-nerd-level-language-model",
+    "type": "source",
+    "label": "Nerd Level Tech: Apple Foundation Models Framework: Claude & Gemini",
+    "url": "https://nerdleveltech.com/apple-foundation-models-framework-claude-gemini",
+    "sourceType": "analysis"
   },
   {
     "id": "source-newport-deep-work",
@@ -7380,6 +7484,13 @@
     "sourceType": "interview-transcript"
   },
   {
+    "id": "source-stork-wwdc-graded",
+    "type": "source",
+    "label": "Stork: WWDC 2026 graded: what Apple shipped (iOS 27)",
+    "url": "https://www.stork.ai/blog/wwdc-2026-graded-what-apple-shipped-ios-27",
+    "sourceType": "analysis"
+  },
+  {
     "id": "source-storyboard18-google-meta-share",
     "type": "source",
     "label": "Storyboard18: Google and Meta hold 64% of India's digital ad market",
@@ -7814,6 +7925,11 @@
     "label": "agent-provenance"
   },
   {
+    "id": "topic:agentic-apps",
+    "type": "topic",
+    "label": "agentic-apps"
+  },
+  {
     "id": "topic:agentic-commerce",
     "type": "topic",
     "label": "agentic-commerce"
@@ -7882,6 +7998,11 @@
     "id": "topic:analogy",
     "type": "topic",
     "label": "analogy"
+  },
+  {
+    "id": "topic:apple-intelligence",
+    "type": "topic",
+    "label": "apple-intelligence"
   },
   {
     "id": "topic:artificial-intelligence",
@@ -8149,6 +8270,11 @@
     "label": "india"
   },
   {
+    "id": "topic:indie-ai",
+    "type": "topic",
+    "label": "indie-ai"
+  },
+  {
     "id": "topic:inequality",
     "type": "topic",
     "label": "inequality"
@@ -8294,6 +8420,11 @@
     "label": "notifications"
   },
   {
+    "id": "topic:on-device-ai",
+    "type": "topic",
+    "label": "on-device-ai"
+  },
+  {
     "id": "topic:onboarding",
     "type": "topic",
     "label": "onboarding"
@@ -8347,6 +8478,11 @@
     "id": "topic:privacy",
     "type": "topic",
     "label": "privacy"
+  },
+  {
+    "id": "topic:private-cloud-compute",
+    "type": "topic",
+    "label": "private-cloud-compute"
   },
   {
     "id": "topic:product-truth",
