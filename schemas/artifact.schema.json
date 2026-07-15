@@ -273,6 +273,45 @@
         "type": "string"
       }
     },
+    "diagnostics": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "accepted": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": true,
+            "required": ["rule", "rationale", "documentedAt"],
+            "properties": {
+              "rule": {
+                "type": "string"
+              },
+              "scope": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                ]
+              },
+              "rationale": {
+                "type": "string"
+              },
+              "documentedAt": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              }
+            }
+          }
+        }
+      }
+    },
     "provenance": {
       "type": "object",
       "additionalProperties": true,

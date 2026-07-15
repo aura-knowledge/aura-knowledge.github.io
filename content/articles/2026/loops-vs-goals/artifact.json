@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-29",
-  "updatedAt": "2026-06-29",
+  "updatedAt": "2026-07-15",
   "audiences": [
     "general",
     "students",
@@ -145,6 +145,10 @@
     {
       "type": "article",
       "id": "article:ai-agent-advanced-questions"
+    },
+    {
+      "type": "article",
+      "id": "article:long-human-road-to-ai"
     },
     {
       "type": "topic",

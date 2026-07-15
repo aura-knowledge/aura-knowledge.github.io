@@ -44,7 +44,7 @@ This is the template. When attention becomes a commodity, the first winners are 
 
 Radio and television introduced a new scarcity. There were only a few channels and a limited number of hours in the broadcast day. Whoever controlled the spectrum controlled attention at a scale the penny press could not match. The gatekeepers were few, and their decisions shaped public culture.
 
-The result was a mixed bargain. On one hand, broadcast networks created shared cultural experiences and invested in journalism, drama, and educational programming. On the other hand, they concentrated power over what millions saw and heard. Advertisers remained the paying customers, and ratings became the measure of value. The "vast wasteland" critique of American television, delivered by FCC chairman Newton Minow in 1961, captured the frustration: a medium with enormous potential was too often filled with disposable entertainment.
+The result was a mixed bargain. On one hand, broadcast networks created shared cultural experiences and invested in journalism, drama, and educational programming. On the other hand, they concentrated power over what millions saw and heard. The "vast wasteland" critique of American television, delivered by FCC chairman Newton Minow in 1961, captured the frustration: a medium with enormous potential was too often filled with disposable entertainment.
 
 Broadcast regulation in many countries tried to address this by imposing public-interest obligations, content standards, and ownership limits. These were imperfect and sometimes captured by political interests, but they represented a social choice: attention was too important to be sold entirely on commercial terms.
 

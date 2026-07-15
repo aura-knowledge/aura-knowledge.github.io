@@ -1,0 +1,12 @@
+{
+  "schema_version": "sdl-routing-index@1",
+  "count": 1,
+  "attestations": [
+    {
+      "issue": 112,
+      "envelope_hash": "sha256:1f38c611aae096a703e93743bb00cad5a59289d04bb7d0b15aec0f65bd249840",
+      "lifecycle_record_id": "",
+      "created_at": "2026-07-15T09:07:27+00:00"
+    }
+  ]
+}

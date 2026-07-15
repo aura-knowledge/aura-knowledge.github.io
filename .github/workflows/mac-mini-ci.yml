@@ -1,0 +1,40 @@
+name: Mac mini CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  mac-mini-build:
+    # Target the self-hosted Mac mini runner. If the runner with these labels is
+    # not registered, the job will remain queued. As of 2026-07-15 the repo has no
+    # registered self-hosted runners, so this workflow cannot execute until the
+    # Mac mini is enrolled in GitHub Actions.
+    runs-on: [self-hosted, macOS, mac-mini]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Runner info
+        run: |
+          echo "Running on Mac mini"
+          uname -a
+          sw_vers || true
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: package.json
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Validate content
+        run: npm run validate

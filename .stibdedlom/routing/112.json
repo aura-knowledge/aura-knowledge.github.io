@@ -1,0 +1,20 @@
+{
+  "schema_version": "sdl-routing-attestation@2",
+  "issue": 112,
+  "goal": "Unblock SDL onboarding PR #110 and self-hosted runner PR #105",
+  "envelope_hash": "sha256:1f38c611aae096a703e93743bb00cad5a59289d04bb7d0b15aec0f65bd249840",
+  "created_at": "2026-07-15T09:07:27+00:00",
+  "kid": "rk-2026-07-11-27bdb969",
+  "algorithm": "ed25519",
+  "runtime_binding": "generic-cli",
+  "chain_id": "aura-knowledge.github.io-112",
+  "node_id": "agent-swarm/issue-112",
+  "capability": "capability-client-orchestrator",
+  "role": "capability-commit-author",
+  "allowed_paths": [
+    ".stibdedlom/",
+    ".github/workflows/",
+    ".githooks/",
+    "AGENTS.md"
+  ]
+}

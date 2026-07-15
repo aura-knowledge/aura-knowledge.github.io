@@ -46,7 +46,7 @@ export function assessClaim(claim, article, options = {}) {
   const sourceById = new Map(article.artifact.sources.map((source) => [source.id, source]));
 
   function add(rule, severity, message) {
-    findings.push({ rule, severity, message: `${prefix}: ${message}` });
+    findings.push({ rule, severity, claimId: claim.id, message: `${prefix}: ${message}` });
   }
 
   // orphan-claim is checked outside this function because it needs article body.
@@ -256,6 +256,17 @@ export function assessProvenance(article, options = {}) {
   return findings;
 }
 
+function buildAcceptedSet(accepted) {
+  const set = new Set();
+  for (const entry of accepted ?? []) {
+    const scopes = Array.isArray(entry.scope) ? entry.scope : [entry.scope ?? "article"];
+    for (const scope of scopes) {
+      set.add(`${entry.rule}:${scope}`);
+    }
+  }
+  return set;
+}
+
 export function assessArticle(article, body, options = {}) {
   const findings = [];
   const prefix = options.prefix ?? `${article.year}/${article.slug}`;
@@ -291,8 +302,18 @@ export function assessArticle(article, body, options = {}) {
     }
   }
 
+  const accepted = buildAcceptedSet(article.artifact.diagnostics?.accepted);
+
   for (const claim of article.artifact.claims) {
-    findings.push(...assessClaim(claim, article, options));
+    for (const finding of assessClaim(claim, article, options)) {
+      if (
+        finding.severity === "warning" &&
+        (accepted.has(`${finding.rule}:article`) || accepted.has(`${finding.rule}:${claim.id}`))
+      ) {
+        continue;
+      }
+      findings.push(finding);
+    }
   }
 
   return findings;

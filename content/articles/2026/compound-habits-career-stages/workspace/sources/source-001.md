@@ -4,7 +4,7 @@
 **title:** Replace with source title
 **url:** https://example.com
 **type:** article
-**accessed:** 2026-07-06
+**accessed:** 2026-07-07
 
 ## Summary
 
