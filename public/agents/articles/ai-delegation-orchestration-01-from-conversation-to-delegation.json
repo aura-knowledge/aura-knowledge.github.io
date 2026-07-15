@@ -180,6 +180,16 @@
     }
   },
   "contentHash": "fb87b3f92bc83893f862a3be7b097a10da853a4a49148a00c5b594a9a25c7818",
+  "diagnostics": {
+    "accepted": [
+      {
+        "rule": "low-source-diversity",
+        "scope": "article",
+        "rationale": "Accepted as a quality backlog item per docs/diagnostics-triage-2026-07-15.md. The claim rests on sources that are sufficient for the current published version; additional independent sources will be added in a future research wave.",
+        "documentedAt": "2026-07-15"
+      }
+    ]
+  },
   "generatedAt": "2026-07-15T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration-01-from-conversation-to-delegation/",
   "agentJsonPath": "/agents/articles/ai-delegation-orchestration-01-from-conversation-to-delegation.json",

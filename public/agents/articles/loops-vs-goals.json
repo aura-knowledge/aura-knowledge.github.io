@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-29",
-  "updatedAt": "2026-06-29",
+  "updatedAt": "2026-07-15",
   "audiences": [
     "general",
     "students",
@@ -147,6 +147,10 @@
       "id": "article:ai-agent-advanced-questions"
     },
     {
+      "type": "article",
+      "id": "article:long-human-road-to-ai"
+    },
+    {
       "type": "topic",
       "id": "topic:ai-agents"
     }
@@ -210,6 +214,22 @@
     }
   },
   "contentHash": "361b5ebae99f61f33f9c76cd883b47f5c24058e08947ae7d0e676aeb6f07897b",
+  "diagnostics": {
+    "accepted": [
+      {
+        "rule": "low-source-diversity",
+        "scope": "article",
+        "rationale": "Documented in docs/diagnostics-triage-2026-07-15.md",
+        "documentedAt": "2026-07-15"
+      },
+      {
+        "rule": "duplicate-evidence-source",
+        "scope": "article",
+        "rationale": "Documented in docs/diagnostics-triage-2026-07-15.md",
+        "documentedAt": "2026-07-15"
+      }
+    ]
+  },
   "generatedAt": "2026-07-15T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/loops-vs-goals/",
   "agentJsonPath": "/agents/articles/loops-vs-goals.json",

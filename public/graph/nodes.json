@@ -2594,17 +2594,17 @@
   {
     "id": "article:product-ideas-that-could-shift-incentives",
     "type": "article",
-    "label": "Product Ideas That Could Shift the Incentives",
+    "label": "Product and Platform Ideas That Could Shift Attention Incentives",
     "path": "/articles/product-ideas-that-could-shift-incentives/",
     "maturity": "seed"
   },
   {
     "id": "article:product-ideas-that-could-shift-incentives:claim-001",
     "type": "claim",
-    "label": "Quality signals—such as citations, completion rates, and user-reported learning—can complement engagement signals and steer recommendation systems toward substance.",
+    "label": "A platform that asks whether content leaves the user more capable, informed, or connected would need different signals, ranking objectives, and business models than one that asks only whether it kept the user watching.",
     "localId": "claim-001",
     "confidence": "medium-high",
-    "status": "design"
+    "status": "framing"
   },
   {
     "id": "article:product-ideas-that-could-shift-incentives:claim-002",
@@ -2629,6 +2629,86 @@
     "localId": "claim-004",
     "confidence": "medium",
     "status": "design"
+  },
+  {
+    "id": "article:product-ideas-that-could-shift-incentives:claim-005",
+    "type": "claim",
+    "label": "Build-new platforms can optimize for substance from inception but face cold-start and network-effects barriers; change-existing strategies have distribution but face incumbent incentive resistance; protocol layers can avoid the winner-take-all problem but require coordination and adoption.",
+    "localId": "claim-005",
+    "confidence": "medium-high",
+    "status": "strategy"
+  },
+  {
+    "id": "article:product-ideas-that-could-shift-incentives:claim-007",
+    "type": "claim",
+    "label": "Agent-mediated attention stewards can defend user intent if they are genuinely buyer-aligned, privacy-preserving, and transparent about whose interests they serve.",
+    "localId": "claim-007",
+    "confidence": "medium",
+    "status": "forecast"
+  },
+  {
+    "id": "article:product-ideas-that-could-shift-incentives:claim-008",
+    "type": "claim",
+    "label": "Creator-economy realignment—through subscriptions, patronage, public funding, and cooperative ownership—can change the metrics that matter and reduce dependence on attention extraction.",
+    "localId": "claim-008",
+    "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:product-ideas-that-could-shift-incentives:claim-009",
+    "type": "claim",
+    "label": "A quality-weighted ranking protocol could reward completion, citation, source transparency, and reported learning, making substance legible to recommendation systems without requiring a single platform to win.",
+    "localId": "claim-009",
+    "confidence": "medium",
+    "status": "proposal"
+  },
+  {
+    "id": "article:product-ideas-that-could-shift-incentives:claim-010",
+    "type": "claim",
+    "label": "A public-interest ranking switch could elevate verified civic information during high-stakes periods, but it requires transparent governance to avoid capture.",
+    "localId": "claim-010",
+    "confidence": "medium",
+    "status": "proposal"
+  },
+  {
+    "id": "article:product-ideas-that-could-shift-incentives:claim-011",
+    "type": "claim",
+    "label": "A cross-platform reputation commons could reward consistent, constructive contribution and reduce the advantage of viral shock over sustained trust.",
+    "localId": "claim-011",
+    "confidence": "medium",
+    "status": "proposal"
+  },
+  {
+    "id": "article:product-ideas-that-could-shift-incentives:claim-012",
+    "type": "claim",
+    "label": "An intent-first attention layer could restore agency through budgets, friction, and defaults, though its effectiveness depends on design and user commitment.",
+    "localId": "claim-012",
+    "confidence": "medium",
+    "status": "proposal"
+  },
+  {
+    "id": "article:product-ideas-that-could-shift-incentives:claim-013",
+    "type": "claim",
+    "label": "A delegated attention agent could filter and schedule information against explicit user goals, but only if it remains auditable, contestable, and free from platform or advertiser capture.",
+    "localId": "claim-013",
+    "confidence": "medium",
+    "status": "proposal"
+  },
+  {
+    "id": "article:product-ideas-that-could-shift-incentives:claim-014",
+    "type": "claim",
+    "label": "Concepts that change ranking objectives are best pursued inside existing platforms or by regulation; concepts that change market structure are best pursued as protocols or interoperability layers; startups are most viable when they demonstrate a behavior incumbents may later adopt.",
+    "localId": "claim-014",
+    "confidence": "medium",
+    "status": "strategy"
+  },
+  {
+    "id": "article:product-ideas-that-could-shift-incentives:claim-015",
+    "type": "claim",
+    "label": "Every alternative attention incentive can be gamed; safeguards such as audits, transparency, human judgment, and appeal mechanisms are required for any of them to remain trustworthy.",
+    "localId": "claim-015",
+    "confidence": "medium-high",
+    "status": "risk"
   },
   {
     "id": "article:prompt-caching",
@@ -4595,9 +4675,9 @@
   {
     "id": "source-activitypub",
     "type": "source",
-    "label": "W3C: ActivityPub Protocol",
+    "label": "W3C ActivityPub Protocol",
     "url": "https://www.w3.org/TR/activitypub/",
-    "sourceType": "specification"
+    "sourceType": "standard"
   },
   {
     "id": "source-adobe-ai-traffic-2025",
@@ -4880,6 +4960,13 @@
     "sourceType": "product"
   },
   {
+    "id": "source-behavioral-economics-choice-overload",
+    "type": "source",
+    "label": "Choice overload - Mini Encyclopedia of Behavioral Economics",
+    "url": "https://www.behavioraleconomics.com/resources/mini-encyclopedia-of-be/choice-overload/",
+    "sourceType": "encyclopedia"
+  },
+  {
     "id": "source-bert-2018",
     "type": "source",
     "label": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
@@ -4927,6 +5014,13 @@
     "label": "Brady et al.: How social learning amplifies moral outrage expression in online social networks (Science Advances / Yale)",
     "url": "https://news.yale.edu/2021/08/13/likes-and-shares-teach-people-express-more-outrage-online",
     "sourceType": "peer-reviewed-study"
+  },
+  {
+    "id": "source-britannica-abacus",
+    "type": "source",
+    "label": "Abacus",
+    "url": "https://www.britannica.com/technology/abacus",
+    "sourceType": "encyclopedia"
   },
   {
     "id": "source-britannica-automaton",
@@ -5181,6 +5275,13 @@
     "sourceType": "industry-report"
   },
   {
+    "id": "source-cope-ai-authorship",
+    "type": "source",
+    "label": "Authorship and AI Tools",
+    "url": "https://publicationethics.org/cope-position-statements/ai-author",
+    "sourceType": "guidance"
+  },
+  {
     "id": "source-cornell-perceptron",
     "type": "source",
     "label": "Professor's perceptron paved the way for AI - 60 years too soon",
@@ -5277,6 +5378,13 @@
     "label": "Deep Learning",
     "url": "https://www.deeplearningbook.org/",
     "sourceType": "textbook"
+  },
+  {
+    "id": "source-deepmind-chinchilla-blog",
+    "type": "source",
+    "label": "An empirical analysis of compute-optimal large language model training",
+    "url": "https://deepmind.google/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/",
+    "sourceType": "blog"
   },
   {
     "id": "source-deloitte-cpo-2025",
@@ -5445,6 +5553,13 @@
     "label": "EU AI Act, Regulation (EU) 2024/1689",
     "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
     "sourceType": "standard"
+  },
+  {
+    "id": "source-eu-ai-act-gpai-news",
+    "type": "source",
+    "label": "General-purpose AI obligations under the EU AI Act kick in from 2 August 2025",
+    "url": "https://www.lexology.com/library/detail.aspx?g=2b7f17a1-73bf-4338-a76e-16fc4ed394c5",
+    "sourceType": "industry-news"
   },
   {
     "id": "source-eu-ai-code",
@@ -5804,6 +5919,13 @@
     "sourceType": "standard"
   },
   {
+    "id": "source-gs1-vc-did-landscape",
+    "type": "source",
+    "label": "Verifiable Credentials and Decentralised Identifiers",
+    "url": "https://ref.gs1.org/docs/2025/VCs-and-DIDs-tech-landscape",
+    "sourceType": "industry-report"
+  },
+  {
     "id": "source-gsma-gender-gap-2024",
     "type": "source",
     "label": "GSMA: The Mobile Gender Gap Report 2024",
@@ -5874,6 +5996,13 @@
     "sourceType": "research"
   },
   {
+    "id": "source-helm-readthedocs",
+    "type": "source",
+    "label": "HELM: Holistic Evaluation of Language Models",
+    "url": "https://crfm-helm.readthedocs.io/",
+    "sourceType": "documentation"
+  },
+  {
     "id": "source-hermes-agent",
     "type": "source",
     "label": "Nous Research Hermes Agent on GitHub",
@@ -5914,6 +6043,13 @@
     "label": "Privacy Commissioner for Personal Data, Hong Kong: 10 Tips for Users of AI Chatbots",
     "url": "https://www.pcpd.org.hk/english/news_events/media_statements/press_20230913.html",
     "sourceType": "safety-guide"
+  },
+  {
+    "id": "source-huggingface-bert-101",
+    "type": "source",
+    "label": "BERT 101: How does BERT work?",
+    "url": "https://huggingface.co/blog/bert-101",
+    "sourceType": "blog"
   },
   {
     "id": "source-huggingface-fine-tuning-guide",
@@ -6145,6 +6281,13 @@
     "label": "IVCA: Indian Private Equity and Venture Capital Report",
     "url": "https://ivca.in/research-reports/",
     "sourceType": "industry-report"
+  },
+  {
+    "id": "source-ixdf-progressive-disclosure",
+    "type": "source",
+    "label": "What is Progressive Disclosure?",
+    "url": "https://ixdf.org/literature/topics/progressive-disclosure",
+    "sourceType": "encyclopedia"
   },
   {
     "id": "source-karma-reputation",
@@ -6658,6 +6801,13 @@
     "sourceType": "guidance"
   },
   {
+    "id": "source-nist-genai-profile-release",
+    "type": "source",
+    "label": "NIST releases its Generative Artificial Intelligence Profile",
+    "url": "https://www.dlapiper.com/en-hk/insights/publications/ai-outlook/2024/nist-releases-its-generative-artificial-intelligence-profile",
+    "sourceType": "industry-news"
+  },
+  {
     "id": "source-nist-math-tables",
     "type": "source",
     "label": "Prehistory: The Math Tables Project",
@@ -6803,6 +6953,20 @@
     "label": "OpenAI: Fine-tuning guide",
     "url": "https://platform.openai.com/docs/guides/fine-tuning",
     "sourceType": "article"
+  },
+  {
+    "id": "source-openai-function-calling",
+    "type": "source",
+    "label": "OpenAI Function Calling Guide",
+    "url": "https://developers.openai.com/api/docs/guides/function-calling",
+    "sourceType": "documentation"
+  },
+  {
+    "id": "source-openai-instructgpt",
+    "type": "source",
+    "label": "Aligning language models to follow instructions",
+    "url": "https://openai.com/research/instruction-following",
+    "sourceType": "blog"
   },
   {
     "id": "source-openai-merchants",
@@ -7092,6 +7256,13 @@
     "sourceType": "standard"
   },
   {
+    "id": "source-privacy-preserving-auth",
+    "type": "source",
+    "label": "Privacy-Preserving Authentication: Theory vs. Practice",
+    "url": "https://arxiv.org/abs/2501.07209",
+    "sourceType": "research"
+  },
+  {
     "id": "source-provenance-2026",
     "type": "source",
     "label": "Responsible Agentic AI Requires Explicit Provenance",
@@ -7183,6 +7354,13 @@
     "sourceType": "industry-report"
   },
   {
+    "id": "source-redhat-foundation-models",
+    "type": "source",
+    "label": "What are foundation models for AI?",
+    "url": "https://www.redhat.com/en/topics/ai/what-are-foundation-models",
+    "sourceType": "documentation"
+  },
+  {
     "id": "source-reflexion-paper",
     "type": "source",
     "label": "Reflexion: Language Agents with Verbal Reinforcement Learning",
@@ -7195,6 +7373,13 @@
     "label": "Reuters Institute: Digital News Report 2025",
     "url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2025",
     "sourceType": "research-report"
+  },
+  {
+    "id": "source-reuters-genai-news-report",
+    "type": "source",
+    "label": "Generative AI and News Report 2025: How people think about AI's role in journalism and society",
+    "url": "https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2025-how-people-think-about-ais-role-journalism-and-society",
+    "sourceType": "report"
   },
   {
     "id": "source-reuters-institute",
@@ -7244,6 +7429,13 @@
     "label": "Scaling Laws for Neural Language Models",
     "url": "https://arxiv.org/abs/2001.08361",
     "sourceType": "research"
+  },
+  {
+    "id": "source-schema-org",
+    "type": "source",
+    "label": "Schema.org Shared Vocabulary",
+    "url": "https://schema.org/",
+    "sourceType": "standard"
   },
   {
     "id": "source-schema-product",
@@ -7447,6 +7639,13 @@
     "label": "Stanford HAI: The 2025 AI Index Report — Technical Performance",
     "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance",
     "sourceType": "research-report"
+  },
+  {
+    "id": "source-stanford-ai-index-news",
+    "type": "source",
+    "label": "Inside the AI Index: 12 takeaways from the 2026 report",
+    "url": "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report",
+    "sourceType": "news"
   },
   {
     "id": "source-stanford-ai-vibrancy",
@@ -7928,6 +8127,11 @@
     "id": "topic:agentic-apps",
     "type": "topic",
     "label": "agentic-apps"
+  },
+  {
+    "id": "topic:agentic-attention",
+    "type": "topic",
+    "label": "agentic-attention"
   },
   {
     "id": "topic:agentic-commerce",
@@ -8503,6 +8707,11 @@
     "id": "topic:public-health",
     "type": "topic",
     "label": "public-health"
+  },
+  {
+    "id": "topic:public-interest-tech",
+    "type": "topic",
+    "label": "public-interest-tech"
   },
   {
     "id": "topic:public-interest-technology",

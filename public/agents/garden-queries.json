@@ -6,7 +6,7 @@
   "generatedAt": "2026-07-15T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 1407
+    "totalResults": 1427
   },
   "dimensions": [
     {
@@ -21,6 +21,7 @@
         "agent-orchestration",
         "agent-provenance",
         "agentic-apps",
+        "agentic-attention",
         "agentic-commerce",
         "agriculture",
         "ai",
@@ -136,6 +137,7 @@
         "productivity",
         "prompting",
         "public-health",
+        "public-interest-tech",
         "public-interest-technology",
         "public-policy",
         "public-space",
@@ -182,6 +184,7 @@
         "agent-architecture",
         "agent-orchestration",
         "agentic-apps",
+        "agentic-attention",
         "agents",
         "agriculture",
         "ai",
@@ -329,6 +332,7 @@
         "prompt-template",
         "prompting",
         "public-health",
+        "public-interest-tech",
         "public-interest-technology",
         "public-policy",
         "public-space",
@@ -412,6 +416,7 @@
         "article",
         "benchmark-site",
         "biographical-reference",
+        "blog",
         "blog-post",
         "book",
         "book-website",
@@ -444,6 +449,7 @@
         "historical-analysis",
         "historiographic-commentary",
         "industry-article",
+        "industry-news",
         "industry-report",
         "institutional-history",
         "institutional-report",
@@ -459,6 +465,7 @@
         "museum-research-project",
         "museum-story",
         "museum-timeline",
+        "news",
         "news-article",
         "news-report",
         "official-framework",
@@ -545,7 +552,7 @@
         "groupBy": "topic"
       },
       "resultType": "articles",
-      "resultCount": 474,
+      "resultCount": 476,
       "results": [
         {
           "articleId": "article:public-pressure-and-internal-accountability",
@@ -658,6 +665,13 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/post-subscription-ai-assistant/",
           "agentJsonPath": "/agents/articles/post-subscription-ai-assistant.json",
           "topic": "agentic-apps"
+        },
+        {
+          "articleId": "article:product-ideas-that-could-shift-incentives",
+          "slug": "product-ideas-that-could-shift-incentives",
+          "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
+          "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
+          "topic": "agentic-attention"
         },
         {
           "articleId": "article:agentic-commerce-product-truth",
@@ -3544,6 +3558,13 @@
           "topic": "public-health"
         },
         {
+          "articleId": "article:product-ideas-that-could-shift-incentives",
+          "slug": "product-ideas-that-could-shift-incentives",
+          "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
+          "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
+          "topic": "public-interest-tech"
+        },
+        {
           "articleId": "article:designing-for-substance",
           "slug": "designing-for-substance",
           "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
@@ -5538,7 +5559,7 @@
         "groupBy": "sourceType"
       },
       "resultType": "sources",
-      "resultCount": 684,
+      "resultCount": 707,
       "results": [
         {
           "articleId": "article:the-engagement-gap-productivity-india",
@@ -5911,6 +5932,16 @@
           "sourceUrl": "https://plato.stanford.edu/entries/memory/"
         },
         {
+          "articleId": "article:product-ideas-that-could-shift-incentives",
+          "slug": "product-ideas-that-could-shift-incentives",
+          "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
+          "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
+          "sourceId": "source-stratechery-aggregation",
+          "sourceTitle": "Stratechery: Aggregation Theory",
+          "sourceType": "article",
+          "sourceUrl": "https://stratechery.com/concepts/aggregation-theory/"
+        },
+        {
           "articleId": "article:prompt-caching",
           "slug": "prompt-caching",
           "articleUrl": "https://aura-knowledge.github.io/articles/prompt-caching/",
@@ -5959,6 +5990,36 @@
           "sourceTitle": "Edward A. Feigenbaum: A.M. Turing Award Laureate profile",
           "sourceType": "biographical-reference",
           "sourceUrl": "https://amturing.acm.org/award_winners/feigenbaum_4167235.cfm"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-huggingface-bert-101",
+          "sourceTitle": "BERT 101: How does BERT work?",
+          "sourceType": "blog",
+          "sourceUrl": "https://huggingface.co/blog/bert-101"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-deepmind-chinchilla-blog",
+          "sourceTitle": "An empirical analysis of compute-optimal large language model training",
+          "sourceType": "blog",
+          "sourceUrl": "https://deepmind.google/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-openai-instructgpt",
+          "sourceTitle": "Aligning language models to follow instructions",
+          "sourceType": "blog",
+          "sourceUrl": "https://openai.com/research/instruction-following"
         },
         {
           "articleId": "article:the-substance-builder",
@@ -6731,6 +6792,36 @@
           "sourceUrl": "https://www.britannica.com/science/cybernetics"
         },
         {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-redhat-foundation-models",
+          "sourceTitle": "What are foundation models for AI?",
+          "sourceType": "documentation",
+          "sourceUrl": "https://www.redhat.com/en/topics/ai/what-are-foundation-models"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-openai-function-calling",
+          "sourceTitle": "OpenAI Function Calling Guide",
+          "sourceType": "documentation",
+          "sourceUrl": "https://developers.openai.com/api/docs/guides/function-calling"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-helm-readthedocs",
+          "sourceTitle": "HELM: Holistic Evaluation of Language Models",
+          "sourceType": "documentation",
+          "sourceUrl": "https://crfm-helm.readthedocs.io/"
+        },
+        {
           "articleId": "article:modern-ai-stack",
           "slug": "modern-ai-stack",
           "articleUrl": "https://aura-knowledge.github.io/articles/modern-ai-stack/",
@@ -6791,6 +6882,26 @@
           "sourceUrl": "https://platform.openai.com/docs/guides/prompt-engineering"
         },
         {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "sourceId": "source-ixdf-progressive-disclosure",
+          "sourceTitle": "What is Progressive Disclosure?",
+          "sourceType": "encyclopedia",
+          "sourceUrl": "https://ixdf.org/literature/topics/progressive-disclosure"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-behavioral-economics-choice-overload",
+          "sourceTitle": "Choice overload - Mini Encyclopedia of Behavioral Economics",
+          "sourceType": "encyclopedia",
+          "sourceUrl": "https://www.behavioraleconomics.com/resources/mini-encyclopedia-of-be/choice-overload/"
+        },
+        {
           "articleId": "article:before-machines",
           "slug": "before-machines",
           "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
@@ -6819,6 +6930,16 @@
           "sourceTitle": "The Modern History of Computing",
           "sourceType": "encyclopedia",
           "sourceUrl": "https://plato.stanford.edu/entries/computing-history/"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-britannica-abacus",
+          "sourceTitle": "Abacus",
+          "sourceType": "encyclopedia",
+          "sourceUrl": "https://www.britannica.com/technology/abacus"
         },
         {
           "articleId": "article:business-models-that-reward-substance",
@@ -7391,6 +7512,16 @@
           "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package"
         },
         {
+          "articleId": "article:product-ideas-that-could-shift-incentives",
+          "slug": "product-ideas-that-could-shift-incentives",
+          "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
+          "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
+          "sourceId": "source-eu-digital-services-act",
+          "sourceTitle": "EU Digital Services Act",
+          "sourceType": "government-report",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act-package"
+        },
+        {
           "articleId": "article:public-space-and-private-screens",
           "slug": "public-space-and-private-screens",
           "articleUrl": "https://aura-knowledge.github.io/articles/public-space-and-private-screens/",
@@ -7661,6 +7792,16 @@
           "sourceUrl": "https://bhashini.gov.in/"
         },
         {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "sourceId": "source-cope-ai-authorship",
+          "sourceTitle": "Authorship and AI Tools",
+          "sourceType": "guidance",
+          "sourceUrl": "https://publicationethics.org/cope-position-statements/ai-author"
+        },
+        {
           "articleId": "article:audio-first-voice-consumption",
           "slug": "audio-first-voice-consumption",
           "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
@@ -7741,6 +7882,26 @@
           "sourceUrl": "https://atomcomm.in/regional-language-content-indian-digital-campaigns/"
         },
         {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-nist-genai-profile-release",
+          "sourceTitle": "NIST releases its Generative Artificial Intelligence Profile",
+          "sourceType": "industry-news",
+          "sourceUrl": "https://www.dlapiper.com/en-hk/insights/publications/ai-outlook/2024/nist-releases-its-generative-artificial-intelligence-profile"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-eu-ai-act-gpai-news",
+          "sourceTitle": "General-purpose AI obligations under the EU AI Act kick in from 2 August 2025",
+          "sourceType": "industry-news",
+          "sourceUrl": "https://www.lexology.com/library/detail.aspx?g=2b7f17a1-73bf-4338-a76e-16fc4ed394c5"
+        },
+        {
           "articleId": "article:a-map-of-levers",
           "slug": "a-map-of-levers",
           "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
@@ -7769,6 +7930,16 @@
           "sourceTitle": "How Amazon uses AI innovations to stop fraud and counterfeits",
           "sourceType": "industry-report",
           "sourceUrl": "https://www.aboutamazon.com/news/policy-new-views/amazon-brand-protection-report-2024-counterfeit-products"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-gs1-vc-did-landscape",
+          "sourceTitle": "Verifiable Credentials and Decentralised Identifiers",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://ref.gs1.org/docs/2025/VCs-and-DIDs-tech-landscape"
         },
         {
           "articleId": "article:ai-could-make-extraction-cheaper-too",
@@ -8859,6 +9030,16 @@
           "sourceTitle": "Timeline of Computer History",
           "sourceType": "museum-timeline",
           "sourceUrl": "https://www.computerhistory.org/timeline/"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-stanford-ai-index-news",
+          "sourceTitle": "Inside the AI Index: 12 takeaways from the 2026 report",
+          "sourceType": "news",
+          "sourceUrl": "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report"
         },
         {
           "articleId": "article:the-indic-language-internet-and-vernacular-feeds",
@@ -10951,6 +11132,16 @@
           "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act"
         },
         {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "sourceId": "source-reuters-genai-news-report",
+          "sourceTitle": "Generative AI and News Report 2025: How people think about AI's role in journalism and society",
+          "sourceType": "report",
+          "sourceUrl": "https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2025-how-people-think-about-ais-role-journalism-and-society"
+        },
+        {
           "articleId": "article:ai-delegation-orchestration",
           "slug": "ai-delegation-orchestration",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-delegation-orchestration/",
@@ -11209,6 +11400,16 @@
           "sourceTitle": "Bayesian Truth Serum",
           "sourceType": "research",
           "sourceUrl": "https://nel.mit.edu/bayesian-truth-serum/"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-privacy-preserving-auth",
+          "sourceTitle": "Privacy-Preserving Authentication: Theory vs. Practice",
+          "sourceType": "research",
+          "sourceUrl": "https://arxiv.org/abs/2501.07209"
         },
         {
           "articleId": "article:ai-agent-advanced-questions",
@@ -11611,6 +11812,16 @@
           "sourceUrl": "https://foundation.mozilla.org/en/youtube-regrets/"
         },
         {
+          "articleId": "article:product-ideas-that-could-shift-incentives",
+          "slug": "product-ideas-that-could-shift-incentives",
+          "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
+          "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
+          "sourceId": "source-reuters-digital-news-report-2025",
+          "sourceTitle": "Reuters Institute: Digital News Report 2025",
+          "sourceType": "research-report",
+          "sourceUrl": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2025"
+        },
+        {
           "articleId": "article:the-attention-extraction",
           "slug": "the-attention-extraction",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
@@ -11991,6 +12202,26 @@
           "sourceUrl": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
         },
         {
+          "articleId": "article:product-ideas-that-could-shift-incentives",
+          "slug": "product-ideas-that-could-shift-incentives",
+          "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
+          "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
+          "sourceId": "source-activitypub",
+          "sourceTitle": "W3C ActivityPub Protocol",
+          "sourceType": "standard",
+          "sourceUrl": "https://www.w3.org/TR/activitypub/"
+        },
+        {
+          "articleId": "article:product-ideas-that-could-shift-incentives",
+          "slug": "product-ideas-that-could-shift-incentives",
+          "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
+          "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
+          "sourceId": "source-schema-org",
+          "sourceTitle": "Schema.org Shared Vocabulary",
+          "sourceType": "standard",
+          "sourceUrl": "https://schema.org/"
+        },
+        {
           "articleId": "article:ai-winters-expert-systems",
           "slug": "ai-winters-expert-systems",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
@@ -12291,6 +12522,26 @@
           "sourceUrl": "https://www.humanetech.com/impact-and-story"
         },
         {
+          "articleId": "article:product-ideas-that-could-shift-incentives",
+          "slug": "product-ideas-that-could-shift-incentives",
+          "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
+          "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
+          "sourceId": "source-patreon",
+          "sourceTitle": "Patreon: Creator Economy",
+          "sourceType": "website",
+          "sourceUrl": "https://www.patreon.com/"
+        },
+        {
+          "articleId": "article:product-ideas-that-could-shift-incentives",
+          "slug": "product-ideas-that-could-shift-incentives",
+          "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
+          "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
+          "sourceId": "source-npr-funding",
+          "sourceTitle": "NPR: Public Radio Funding Model",
+          "sourceType": "website",
+          "sourceUrl": "https://www.npr.org/about-npr/178660742/public-radio-finances"
+        },
+        {
           "articleId": "article:public-pressure-and-internal-accountability",
           "slug": "public-pressure-and-internal-accountability",
           "articleUrl": "https://aura-knowledge.github.io/articles/public-pressure-and-internal-accountability/",
@@ -12390,7 +12641,7 @@
         "status": "published"
       },
       "resultType": "articles",
-      "resultCount": 86,
+      "resultCount": 81,
       "results": [
         {
           "articleId": "article:a-map-of-levers",
@@ -12411,22 +12662,10 @@
           "agentJsonPath": "/agents/articles/age-appropriate-design.json"
         },
         {
-          "articleId": "article:agent-auditable-research",
-          "slug": "agent-auditable-research",
-          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
-          "agentJsonPath": "/agents/articles/agent-auditable-research.json"
-        },
-        {
           "articleId": "article:agent-control-planes",
           "slug": "agent-control-planes",
           "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
           "agentJsonPath": "/agents/articles/agent-control-planes.json"
-        },
-        {
-          "articleId": "article:agentic-commerce-product-truth",
-          "slug": "agentic-commerce-product-truth",
-          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
-          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json"
         },
         {
           "articleId": "article:agents",
@@ -12493,12 +12732,6 @@
           "slug": "audio-first-voice-consumption",
           "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
           "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json"
-        },
-        {
-          "articleId": "article:before-machines",
-          "slug": "before-machines",
-          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
-          "agentJsonPath": "/agents/articles/before-machines.json"
         },
         {
           "articleId": "article:bhashini-and-the-indic-language-ai-moment",
@@ -12571,12 +12804,6 @@
           "slug": "formal-logic-to-computation",
           "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
           "agentJsonPath": "/agents/articles/formal-logic-to-computation.json"
-        },
-        {
-          "articleId": "article:foundation-models",
-          "slug": "foundation-models",
-          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
-          "agentJsonPath": "/agents/articles/foundation-models.json"
         },
         {
           "articleId": "article:friction-chronological-feeds-user-chosen-algorithms",
@@ -12679,12 +12906,6 @@
           "slug": "post-subscription-ai-assistant",
           "articleUrl": "https://aura-knowledge.github.io/articles/post-subscription-ai-assistant/",
           "agentJsonPath": "/agents/articles/post-subscription-ai-assistant.json"
-        },
-        {
-          "articleId": "article:product-ideas-that-could-shift-incentives",
-          "slug": "product-ideas-that-could-shift-incentives",
-          "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
-          "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json"
         },
         {
           "articleId": "article:prompt-caching",

@@ -587,7 +587,7 @@
       "to": "article:agent-auditable-research:claim-001",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-17",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -597,7 +597,7 @@
       "to": "article:agent-auditable-research:claim-002",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-17",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -607,7 +607,7 @@
       "to": "article:agent-auditable-research:claim-003",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-17",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -617,7 +617,7 @@
       "to": "article:agent-auditable-research:claim-004",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-17",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -627,7 +627,7 @@
       "to": "article:agent-auditable-research:claim-005",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-17",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -637,7 +637,7 @@
       "to": "article:agent-auditable-research:claim-006",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-17",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -647,7 +647,7 @@
       "to": "topic:agent-provenance",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-17",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -657,7 +657,7 @@
       "to": "topic:ai-native-publishing",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-17",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -667,7 +667,7 @@
       "to": "topic:digital-gardens",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-17",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -677,7 +677,7 @@
       "to": "topic:research-workflows",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-17",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -797,7 +797,7 @@
       "to": "article:agentic-commerce-product-truth:claim-001",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -807,7 +807,7 @@
       "to": "article:agentic-commerce-product-truth:claim-002",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -817,7 +817,7 @@
       "to": "article:agentic-commerce-product-truth:claim-003",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -827,7 +827,7 @@
       "to": "article:agentic-commerce-product-truth:claim-004",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -837,7 +837,7 @@
       "to": "article:agentic-commerce-product-truth:claim-005",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -847,7 +847,7 @@
       "to": "article:agentic-commerce-product-truth:claim-006",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -857,7 +857,7 @@
       "to": "article:agentic-commerce-product-truth:claim-007",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -867,7 +867,7 @@
       "to": "article:agentic-commerce-product-truth:claim-008",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -877,7 +877,7 @@
       "to": "article:agentic-commerce-product-truth:claim-009",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -887,7 +887,7 @@
       "to": "article:agentic-commerce-product-truth:claim-010",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -897,7 +897,7 @@
       "to": "article:agentic-commerce-product-truth:claim-011",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -907,7 +907,7 @@
       "to": "article:agentic-commerce-product-truth:claim-012",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -917,7 +917,7 @@
       "to": "article:agentic-commerce-product-truth:claim-013",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -927,7 +927,7 @@
       "to": "article:agentic-commerce-product-truth:claim-014",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -937,7 +937,7 @@
       "to": "article:agentic-commerce-product-truth:claim-015",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -947,7 +947,7 @@
       "to": "article:agent-auditable-research",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -957,7 +957,7 @@
       "to": "topic:agentic-commerce",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -967,7 +967,7 @@
       "to": "topic:consumer-behavior",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -977,7 +977,7 @@
       "to": "topic:incumbent-adjacent-ventures",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -987,7 +987,7 @@
       "to": "topic:open-protocols",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -997,7 +997,7 @@
       "to": "topic:product-truth",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -1007,7 +1007,7 @@
       "to": "topic:open-protocols",
       "type": "topic",
       "provenance": {
-        "reviewedAt": "2026-06-18",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2067,7 +2067,7 @@
       "to": "article:ai-demystified:claim-001",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2077,7 +2077,7 @@
       "to": "article:ai-demystified:claim-002",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2087,7 +2087,7 @@
       "to": "article:ai-demystified:claim-003",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2097,7 +2097,17 @@
       "to": "article:agents",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "article:ai-agent-advanced-questions",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2107,7 +2117,7 @@
       "to": "article:context-management",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2117,7 +2127,7 @@
       "to": "article:evaluations",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2127,7 +2137,17 @@
       "to": "article:fine-tuning",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:ai-demystified",
+      "to": "article:long-human-road-to-ai",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2137,7 +2157,7 @@
       "to": "article:long-running-sessions",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2147,7 +2167,7 @@
       "to": "article:loops-vs-goals",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2157,7 +2177,7 @@
       "to": "article:memory-vs-context",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2167,7 +2187,7 @@
       "to": "article:multi-agent-systems",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2177,7 +2197,7 @@
       "to": "article:planning-and-reflection",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2187,7 +2207,7 @@
       "to": "article:prompt-caching",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2197,7 +2217,7 @@
       "to": "article:prompt-engineering",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2207,7 +2227,7 @@
       "to": "article:reasoning-models",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2217,7 +2237,7 @@
       "to": "article:retrieval-augmented-generation",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2227,7 +2247,7 @@
       "to": "article:tool-use",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2237,7 +2257,7 @@
       "to": "topic:ai-agents",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2247,7 +2267,7 @@
       "to": "topic:ai-literacy",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2257,7 +2277,7 @@
       "to": "topic:ai-agents",
       "type": "topic",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -2267,7 +2287,7 @@
       "to": "topic:ai-literacy",
       "type": "topic",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -3477,7 +3497,7 @@
       "to": "article:before-machines:claim-001",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -3487,7 +3507,7 @@
       "to": "article:before-machines:claim-002",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -3497,7 +3517,7 @@
       "to": "article:before-machines:claim-003",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -3507,7 +3527,7 @@
       "to": "article:before-machines:claim-004",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -3517,7 +3537,7 @@
       "to": "article:before-machines:claim-005",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -3527,7 +3547,7 @@
       "to": "article:before-machines:claim-006",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -3537,7 +3557,7 @@
       "to": "article:before-machines:claim-007",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -3547,7 +3567,7 @@
       "to": "article:before-machines:claim-008",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -3557,7 +3577,7 @@
       "to": "article:formal-logic-to-computation",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -3567,7 +3587,7 @@
       "to": "article:long-human-road-to-ai",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -3577,7 +3597,7 @@
       "to": "topic:ai-history",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -3587,7 +3607,7 @@
       "to": "topic:computing-history",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -3597,7 +3617,7 @@
       "to": "topic:education",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -3607,7 +3627,7 @@
       "to": "topic:human-progress",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -3617,7 +3637,7 @@
       "to": "topic:long-human-road-to-ai",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5307,7 +5327,7 @@
       "to": "article:foundation-models:claim-001",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5317,7 +5337,7 @@
       "to": "article:foundation-models:claim-002",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5327,7 +5347,7 @@
       "to": "article:foundation-models:claim-003",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5337,7 +5357,7 @@
       "to": "article:foundation-models:claim-004",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5347,7 +5367,7 @@
       "to": "article:foundation-models:claim-005",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5357,7 +5377,7 @@
       "to": "article:foundation-models:claim-006",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5367,7 +5387,7 @@
       "to": "article:foundation-models:claim-007",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5377,7 +5397,7 @@
       "to": "article:foundation-models:claim-008",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5387,7 +5407,7 @@
       "to": "article:foundation-models:claim-009",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5397,7 +5417,7 @@
       "to": "article:foundation-models:claim-010",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5407,7 +5427,7 @@
       "to": "article:foundation-models:claim-011",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5417,7 +5437,7 @@
       "to": "article:foundation-models:claim-012",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5427,7 +5447,7 @@
       "to": "article:human-systems",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5437,7 +5457,7 @@
       "to": "article:learning-machines",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5447,7 +5467,7 @@
       "to": "article:long-human-road-to-ai",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5457,7 +5477,7 @@
       "to": "topic:ai-governance",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5467,7 +5487,7 @@
       "to": "topic:foundation-models",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5477,7 +5497,7 @@
       "to": "topic:long-human-road-to-ai",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5487,7 +5507,7 @@
       "to": "topic:scaling",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -5497,7 +5517,7 @@
       "to": "topic:transformers",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-20",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7007,7 +7027,7 @@
       "to": "article:loops-vs-goals:claim-001",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7017,7 +7037,7 @@
       "to": "article:loops-vs-goals:claim-002",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7027,7 +7047,7 @@
       "to": "article:loops-vs-goals:claim-003",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7037,7 +7057,7 @@
       "to": "article:loops-vs-goals:claim-004",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7047,7 +7067,7 @@
       "to": "article:ai-agent-advanced-questions",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7057,7 +7077,17 @@
       "to": "article:ai-agent-first-conversation",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:loops-vs-goals",
+      "to": "article:long-human-road-to-ai",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7067,7 +7097,7 @@
       "to": "topic:ai-agents",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7077,7 +7107,7 @@
       "to": "topic:ai-literacy",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7087,7 +7117,7 @@
       "to": "topic:ai-agents",
       "type": "topic",
       "provenance": {
-        "reviewedAt": "2026-06-29",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7807,7 +7837,7 @@
       "to": "article:product-ideas-that-could-shift-incentives:claim-001",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7817,7 +7847,7 @@
       "to": "article:product-ideas-that-could-shift-incentives:claim-002",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7827,7 +7857,7 @@
       "to": "article:product-ideas-that-could-shift-incentives:claim-003",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7837,7 +7867,117 @@
       "to": "article:product-ideas-that-could-shift-incentives:claim-004",
       "type": "argues",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:product-ideas-that-could-shift-incentives",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-005",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:product-ideas-that-could-shift-incentives",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-007",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:product-ideas-that-could-shift-incentives",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-008",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:product-ideas-that-could-shift-incentives",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-009",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:product-ideas-that-could-shift-incentives",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-010",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:product-ideas-that-could-shift-incentives",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-011",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:product-ideas-that-could-shift-incentives",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-012",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:product-ideas-that-could-shift-incentives",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-013",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:product-ideas-that-could-shift-incentives",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-014",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:product-ideas-that-could-shift-incentives",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-015",
+      "type": "argues",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:product-ideas-that-could-shift-incentives",
+      "to": "article:agentic-commerce-product-truth",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7847,7 +7987,7 @@
       "to": "article:alternative-metrics-time-well-spent",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7857,7 +7997,17 @@
       "to": "article:attention-substance-ai-moment",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:product-ideas-that-could-shift-incentives",
+      "to": "article:business-models-that-reward-substance",
+      "type": "article",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7867,7 +8017,7 @@
       "to": "article:designing-for-substance",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7877,7 +8027,17 @@
       "to": "article:engagement-is-a-design-choice",
       "type": "article",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:product-ideas-that-could-shift-incentives",
+      "to": "topic:agentic-attention",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7887,7 +8047,7 @@
       "to": "topic:algorithms",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7897,7 +8057,7 @@
       "to": "topic:attention-economy",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7907,7 +8067,7 @@
       "to": "topic:creator-economy",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7917,7 +8077,7 @@
       "to": "topic:design",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7927,7 +8087,7 @@
       "to": "topic:digital-wellbeing",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7937,7 +8097,7 @@
       "to": "topic:india",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -7947,7 +8107,17 @@
       "to": "topic:platform-design",
       "type": "covers",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "article:product-ideas-that-could-shift-incentives",
+      "to": "topic:public-interest-tech",
+      "type": "covers",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -14484,6 +14654,26 @@
     },
     {
       "from": "source-activitypub",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-activitypub",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-014",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-activitypub",
       "to": "article:user-migration-and-the-exit-problem:claim-004",
       "type": "supports",
       "provenance": {
@@ -15253,6 +15443,16 @@
       }
     },
     {
+      "from": "source-behavioral-economics-choice-overload",
+      "to": "article:agentic-commerce-product-truth:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-bert-2018",
       "to": "article:foundation-models:claim-004",
       "type": "supports",
@@ -15368,6 +15568,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-britannica-abacus",
+      "to": "article:before-machines:claim-002",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -15914,20 +16124,20 @@
     },
     {
       "from": "source-cmu-reputation-stackoverflow",
-      "to": "article:product-ideas-that-could-shift-incentives:claim-001",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-003",
       "type": "supports",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
     },
     {
       "from": "source-cmu-reputation-stackoverflow",
-      "to": "article:product-ideas-that-could-shift-incentives:claim-003",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-009",
       "type": "supports",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -15938,6 +16148,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-cope-ai-authorship",
+      "to": "article:agent-auditable-research:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -16228,6 +16448,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-20",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-deepmind-chinchilla-blog",
+      "to": "article:foundation-models:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -16653,6 +16883,16 @@
       }
     },
     {
+      "from": "source-eu-ai-act-gpai-news",
+      "to": "article:foundation-models:claim-012",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-eu-ai-act",
       "to": "article:ai-could-make-extraction-cheaper-too:claim-004",
       "type": "supports",
@@ -16728,6 +16968,26 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-eu-digital-services-act",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-010",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-eu-digital-services-act",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-015",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -17543,6 +17803,16 @@
       }
     },
     {
+      "from": "source-github-stars",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-011",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-gloria-mark-attention-span",
       "to": "article:the-engagement-gap-productivity-india:claim-002",
       "type": "supports",
@@ -17753,6 +18023,16 @@
       }
     },
     {
+      "from": "source-gs1-vc-did-landscape",
+      "to": "article:agentic-commerce-product-truth:claim-014",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-gsma-gender-gap-2024",
       "to": "article:gender-and-the-attention-economy:claim-003",
       "type": "supports",
@@ -17923,6 +18203,16 @@
       }
     },
     {
+      "from": "source-helm-readthedocs",
+      "to": "article:foundation-models:claim-009",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-helm",
       "to": "article:evaluations:claim-002",
       "type": "supports",
@@ -18003,6 +18293,26 @@
       }
     },
     {
+      "from": "source-huggingface-bert-101",
+      "to": "article:foundation-models:claim-003",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-huggingface-bert-101",
+      "to": "article:foundation-models:claim-004",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-huggingface-fine-tuning-guide",
       "to": "article:fine-tuning:claim-003",
       "type": "supports",
@@ -18054,10 +18364,50 @@
     },
     {
       "from": "source-humanetech-impact",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-humanetech-impact",
       "to": "article:product-ideas-that-could-shift-incentives:claim-004",
       "type": "supports",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-humanetech-impact",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-007",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-humanetech-impact",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-012",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-humanetech-impact",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-013",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -18698,6 +19048,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-ixdf-progressive-disclosure",
+      "to": "article:agent-auditable-research:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -19534,10 +19894,20 @@
     },
     {
       "from": "source-mozilla-youtube-regrets",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-mozilla-youtube-regrets",
       "to": "article:product-ideas-that-could-shift-incentives:claim-002",
       "type": "supports",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -19547,7 +19917,37 @@
       "to": "article:product-ideas-that-could-shift-incentives:claim-004",
       "type": "supports",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-mozilla-youtube-regrets",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-010",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-mozilla-youtube-regrets",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-012",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-mozilla-youtube-regrets",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-015",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -20103,6 +20503,16 @@
       }
     },
     {
+      "from": "source-nist-genai-profile-release",
+      "to": "article:foundation-models:claim-011",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-nist-math-tables",
       "to": "article:before-machines:claim-001",
       "type": "supports",
@@ -20158,6 +20568,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-npr-funding",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-008",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -20653,6 +21073,26 @@
       }
     },
     {
+      "from": "source-openai-function-calling",
+      "to": "article:foundation-models:claim-008",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-openai-instructgpt",
+      "to": "article:foundation-models:claim-006",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-openai-merchants",
       "to": "article:agentic-commerce-product-truth:claim-001",
       "type": "supports",
@@ -20858,6 +21298,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-patreon",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-008",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -21363,6 +21813,16 @@
       }
     },
     {
+      "from": "source-privacy-preserving-auth",
+      "to": "article:agentic-commerce-product-truth:claim-012",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-provenance-2026",
       "to": "article:agent-auditable-research:claim-001",
       "type": "supports",
@@ -21663,6 +22123,16 @@
       }
     },
     {
+      "from": "source-redhat-foundation-models",
+      "to": "article:foundation-models:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
       "from": "source-reflexion-paper",
       "to": "article:long-running-sessions:claim-004",
       "type": "supports",
@@ -21688,6 +22158,26 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-reuters-digital-news-report-2025",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-008",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-reuters-genai-news-report",
+      "to": "article:agent-auditable-research:claim-001",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -21848,6 +22338,16 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-06-19",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-schema-org",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-009",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -22324,20 +22824,10 @@
     },
     {
       "from": "source-stack-exchange",
-      "to": "article:product-ideas-that-could-shift-incentives:claim-001",
-      "type": "supports",
-      "provenance": {
-        "reviewedAt": "2026-07-05",
-        "reviewer": "generator",
-        "status": "machine-generated"
-      }
-    },
-    {
-      "from": "source-stack-exchange",
       "to": "article:product-ideas-that-could-shift-incentives:claim-002",
       "type": "supports",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -22347,7 +22837,37 @@
       "to": "article:product-ideas-that-could-shift-incentives:claim-003",
       "type": "supports",
       "provenance": {
-        "reviewedAt": "2026-07-05",
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-stack-exchange",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-009",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-stack-exchange",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-011",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-stanford-ai-index-news",
+      "to": "article:foundation-models:claim-010",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }
@@ -22488,6 +23008,26 @@
       "type": "supports",
       "provenance": {
         "reviewedAt": "2026-07-05",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-stratechery-aggregation",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-005",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
+        "reviewer": "generator",
+        "status": "machine-generated"
+      }
+    },
+    {
+      "from": "source-stratechery-aggregation",
+      "to": "article:product-ideas-that-could-shift-incentives:claim-014",
+      "type": "supports",
+      "provenance": {
+        "reviewedAt": "2026-07-15",
         "reviewer": "generator",
         "status": "machine-generated"
       }

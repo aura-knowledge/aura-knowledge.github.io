@@ -6,7 +6,7 @@ slug: compound-habits-career-stages
 title: Agent Brief for "Compound Habits Across Career Stages"
 tokenBudget: 1200
 status: published
-updated: 2026-07-06
+updated: 2026-07-07
 ---
 
 ## Thesis

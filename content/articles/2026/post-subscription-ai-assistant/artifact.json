@@ -120,7 +120,7 @@
     },
     {
       "id": "claim-005",
-      "claim": "A three-tier build arc \u2014 on-device baseline, PCC mid-tier, and user-paid third-party frontier tier \u2014 matches the stack's economics and constraints.",
+      "claim": "A three-tier build arc — on-device baseline, PCC mid-tier, and user-paid third-party frontier tier — matches the stack's economics and constraints.",
       "confidence": "medium",
       "status": "proposal",
       "evidence": [
@@ -146,7 +146,7 @@
       "evidence": [
         {
           "sourceId": "source-stork-wwdc-graded",
-          "snippet": "if your edge was the hard VLM-bundling work, Apple just commoditized it. Your moat has to move up-stack \u2014 to the specialized reasoning, the data, the workflow",
+          "snippet": "if your edge was the hard VLM-bundling work, Apple just commoditized it. Your moat has to move up-stack — to the specialized reasoning, the data, the workflow",
           "supports": "background",
           "assessedAt": "2026-07-15"
         }
@@ -211,7 +211,7 @@
     },
     {
       "id": "source-aura-proposal-52",
-      "title": "Aura Knowledge meta issue #52: Article Proposal \u2014 Building the Post-Subscription AI Assistant with Apple Intelligence, PCC, and On-Device Models",
+      "title": "Aura Knowledge meta issue #52: Article Proposal — Building the Post-Subscription AI Assistant with Apple Intelligence, PCC, and On-Device Models",
       "url": "https://github.com/aura-knowledge/meta/issues/52",
       "type": "proposal",
       "accessed": "2026-07-15"
@@ -294,5 +294,21 @@
       "id": "policy:default",
       "version": "1.0.0"
     }
+  },
+  "diagnostics": {
+    "accepted": [
+      {
+        "rule": "low-source-diversity",
+        "scope": "article",
+        "rationale": "Documented in docs/diagnostics-triage-2026-07-15.md",
+        "documentedAt": "2026-07-15"
+      },
+      {
+        "rule": "duplicate-evidence-source",
+        "scope": "article",
+        "rationale": "Documented in docs/diagnostics-triage-2026-07-15.md",
+        "documentedAt": "2026-07-15"
+      }
+    ]
   }
 }

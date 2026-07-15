@@ -295,6 +295,22 @@
       "version": "1.0.0"
     }
   },
+  "diagnostics": {
+    "accepted": [
+      {
+        "rule": "low-source-diversity",
+        "scope": "article",
+        "rationale": "Documented in docs/diagnostics-triage-2026-07-15.md",
+        "documentedAt": "2026-07-15"
+      },
+      {
+        "rule": "duplicate-evidence-source",
+        "scope": "article",
+        "rationale": "Documented in docs/diagnostics-triage-2026-07-15.md",
+        "documentedAt": "2026-07-15"
+      }
+    ]
+  },
   "generatedAt": "2026-07-15T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/post-subscription-ai-assistant/",
   "agentJsonPath": "/agents/articles/post-subscription-ai-assistant.json",

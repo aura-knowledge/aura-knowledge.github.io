@@ -229,6 +229,16 @@
     }
   },
   "contentHash": "6a393859a7b5f8c68f9d6b663a8c104f9381878194747a5b6056966d4ff6e7e8",
+  "diagnostics": {
+    "accepted": [
+      {
+        "rule": "low-source-diversity",
+        "scope": "article",
+        "rationale": "Accepted as a quality backlog item per docs/diagnostics-triage-2026-07-15.md. The claim rests on sources that are sufficient for the current published version; additional independent sources will be added in a future research wave.",
+        "documentedAt": "2026-07-15"
+      }
+    ]
+  },
   "generatedAt": "2026-07-15T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/bhashini-and-the-indic-language-ai-moment/",
   "agentJsonPath": "/agents/articles/bhashini-and-the-indic-language-ai-moment.json",

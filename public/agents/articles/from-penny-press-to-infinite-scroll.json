@@ -274,7 +274,7 @@
           "privacy"
         ],
         "notes": "Reviewed and approved for publication as part of issue 104 expansion.",
-        "contentHash": "885cb8f20313a7d2fc972d4cce5a21c75a98e9b27e758185d23b92297aa981f9"
+        "contentHash": "6976a5dfa301eefca54a6613a7ac161950bbff440aabe4bfcc3b9f4a372405f4"
       }
     ],
     "policy": {
@@ -282,7 +282,17 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "885cb8f20313a7d2fc972d4cce5a21c75a98e9b27e758185d23b92297aa981f9",
+  "contentHash": "6976a5dfa301eefca54a6613a7ac161950bbff440aabe4bfcc3b9f4a372405f4",
+  "diagnostics": {
+    "accepted": [
+      {
+        "rule": "low-source-diversity",
+        "scope": "article",
+        "rationale": "Accepted as a quality backlog item per docs/diagnostics-triage-2026-07-15.md. The claim rests on sources that are sufficient for the current published version; additional independent sources will be added in a future research wave.",
+        "documentedAt": "2026-07-15"
+      }
+    ]
+  },
   "generatedAt": "2026-07-15T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
   "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",

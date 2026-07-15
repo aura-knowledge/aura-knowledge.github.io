@@ -350,6 +350,16 @@
     }
   },
   "contentHash": "f27b70499ea313a69588d6ad39220eda04243bb0e25eb05587b79e9d7183ed89",
+  "diagnostics": {
+    "accepted": [
+      {
+        "rule": "low-source-diversity",
+        "scope": "article",
+        "rationale": "Accepted as a quality backlog item per docs/diagnostics-triage-2026-07-15.md. The claim rests on sources that are sufficient for the current published version; additional independent sources will be added in a future research wave.",
+        "documentedAt": "2026-07-15"
+      }
+    ]
+  },
   "generatedAt": "2026-07-15T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
   "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",

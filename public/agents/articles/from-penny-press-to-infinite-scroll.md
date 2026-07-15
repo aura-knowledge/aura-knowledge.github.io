@@ -6,7 +6,7 @@ slug: from-penny-press-to-infinite-scroll
 title: "Agent Brief for \"From Penny Press to Infinite Scroll: A Brief History of Attention Markets\""
 tokenBudget: 1200
 status: published
-updated: 2026-07-06
+updated: 2026-07-07
 ---
 
 ## Thesis

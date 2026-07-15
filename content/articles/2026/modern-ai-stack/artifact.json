@@ -273,5 +273,21 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "8f9b94c0a22be0dad275ff1dcb7c07f23043764896bdc23fe7293fd499c7974a"
+  "contentHash": "8f9b94c0a22be0dad275ff1dcb7c07f23043764896bdc23fe7293fd499c7974a",
+  "diagnostics": {
+    "accepted": [
+      {
+        "rule": "low-source-diversity",
+        "scope": "article",
+        "rationale": "Documented in docs/diagnostics-triage-2026-07-15.md",
+        "documentedAt": "2026-07-15"
+      },
+      {
+        "rule": "duplicate-evidence-source",
+        "scope": "article",
+        "rationale": "Documented in docs/diagnostics-triage-2026-07-15.md",
+        "documentedAt": "2026-07-15"
+      }
+    ]
+  }
 }

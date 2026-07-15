@@ -219,6 +219,16 @@
     }
   },
   "contentHash": "a5ba348df1d444326a962a0728062b1b024b8ec5f7b10757792f93c552476dbb",
+  "diagnostics": {
+    "accepted": [
+      {
+        "rule": "low-source-diversity",
+        "scope": "article",
+        "rationale": "Accepted as a quality backlog item per docs/diagnostics-triage-2026-07-15.md. The claim rests on sources that are sufficient for the current published version; additional independent sources will be added in a future research wave.",
+        "documentedAt": "2026-07-15"
+      }
+    ]
+  },
   "generatedAt": "2026-07-15T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/memory-vs-context/",
   "agentJsonPath": "/agents/articles/memory-vs-context.json",

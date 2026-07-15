@@ -6,7 +6,7 @@ slug: the-attention-matthew-effect
 title: "Agent Brief for \"The Attention Matthew Effect: Why Reach Begets Reach\""
 tokenBudget: 1200
 status: published
-updated: 2026-07-06
+updated: 2026-07-07
 ---
 
 ## Thesis
