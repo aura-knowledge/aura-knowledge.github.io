@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-06T00:00:00.000Z",
+  "generatedAt": "2026-07-15T00:00:00.000Z",
   "articles": [
     {
       "slug": "a-map-of-levers",
@@ -305,23 +305,17 @@
           "claim": "Polished prose is becoming cheap; inspectable reasoning is becoming scarce.",
           "confidence": "high",
           "status": "core",
-          "state": "draft",
-          "evidenceCount": 2,
+          "state": "verified",
+          "evidenceCount": 3,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agent-auditable-research: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
           "claim": "A future-ready publishing artifact should pair a human essay with a claim graph, evidence ledger, provenance, revision history, and agent contribution record.",
           "confidence": "medium-high",
           "status": "proposal",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 3,
           "counterevidenceCount": 1,
           "findings": []
@@ -331,7 +325,7 @@
           "claim": "Research is the best first wedge because the audience already values citations, methods, uncertainty, and credibility.",
           "confidence": "medium",
           "status": "argument",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
           "findings": []
@@ -341,7 +335,7 @@
           "claim": "Existing publishing, AI research, and protocol tools solve important pieces but not the combined readable-plus-auditable source object.",
           "confidence": "medium-high",
           "status": "landscape",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 4,
           "counterevidenceCount": 1,
           "findings": []
@@ -351,41 +345,29 @@
           "claim": "AI assistance should be disclosed while the human remains accountable for thesis, source selection, wording, and conclusions.",
           "confidence": "high",
           "status": "normative",
-          "state": "draft",
-          "evidenceCount": 2,
+          "state": "verified",
+          "evidenceCount": 3,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agent-auditable-research: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-006",
           "claim": "Attention-aware reading and machine-readable structure are compatible when the page uses progressive disclosure.",
           "confidence": "medium-high",
           "status": "design",
-          "state": "draft",
-          "evidenceCount": 3,
+          "state": "verified",
+          "evidenceCount": 4,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agent-auditable-research: claim-006 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
-        "verified": 0,
+        "verified": 6,
         "contested": 0,
         "stale": 0,
         "needs-evidence": 0,
         "missing-counterevidence": 0,
-        "draft": 6
+        "draft": 0
       }
     },
     {
@@ -517,7 +499,7 @@
           "claim": "Modern online commerce is still largely organized around human attention, even when AI is used behind the scenes for targeting, ranking, and recommendation.",
           "confidence": "medium-high",
           "status": "landscape",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 4,
           "counterevidenceCount": 1,
           "findings": []
@@ -527,23 +509,17 @@
           "claim": "Some brand loyalty is actually status quo bias plus choice overload: the customer sticks with a known product because the market has made exploration expensive.",
           "confidence": "medium-high",
           "status": "behavioral",
-          "state": "draft",
-          "evidenceCount": 2,
+          "state": "verified",
+          "evidenceCount": 3,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agentic-commerce-product-truth: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
           "claim": "One plausible next commerce shift is from the attention economy to delegated-intent commerce: agents may increasingly translate user preferences into product discovery and purchase decisions.",
           "confidence": "medium",
           "status": "forecast",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 5,
           "counterevidenceCount": 1,
           "findings": []
@@ -553,7 +529,7 @@
           "claim": "Agentic commerce is likely to need a product assurance layer richer than current product structured data, because agents need evidence, constraints, provenance, and user-fit signals rather than only titles, offers, ratings, and images.",
           "confidence": "medium",
           "status": "proposal",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 5,
           "counterevidenceCount": 1,
           "findings": []
@@ -563,7 +539,7 @@
           "claim": "The healthiest version of agentic commerce is an open product-truth commons: a contestable, forkable, provenance-rich vocabulary for product claims, evidence, reviews, and buyer-agent preferences.",
           "confidence": "medium",
           "status": "normative",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 5,
           "counterevidenceCount": 1,
           "findings": []
@@ -573,7 +549,7 @@
           "claim": "Post-purchase feedback can evolve from star ratings into structured experience packets that preserve human judgment while making outcomes legible to agents.",
           "confidence": "medium",
           "status": "proposal",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 4,
           "counterevidenceCount": 1,
           "findings": []
@@ -583,7 +559,7 @@
           "claim": "B2B agentic buying may move slower across complex purchases, but narrow recurring procurement categories can be stronger MVP wedges because outcomes are measurable.",
           "confidence": "medium-high",
           "status": "forecast",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 4,
           "counterevidenceCount": 1,
           "findings": []
@@ -593,7 +569,7 @@
           "claim": "The strategic opportunity is not necessarily to replace commerce incumbents, but to demonstrate a concrete agentic behavior, such as buyer-aligned product switching backed by evidence packets and post-purchase feedback, that incumbents may later adopt, adapt, or standardize around.",
           "confidence": "medium",
           "status": "strategy",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 5,
           "counterevidenceCount": 1,
           "findings": []
@@ -603,7 +579,7 @@
           "claim": "Agentic product trust should shift from review aggregation to adversarial claim ledgers: each product claim should carry source, scope, evidence, counter-evidence, incentive, expiry, and dispute state.",
           "confidence": "medium",
           "status": "proposal",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 4,
           "counterevidenceCount": 1,
           "findings": []
@@ -613,7 +589,7 @@
           "claim": "A fair product-truth commons needs graded evidence tiers so offline buyers and small sellers can participate without pretending every attestation has the same trust weight.",
           "confidence": "medium",
           "status": "proposal",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 4,
           "counterevidenceCount": 1,
           "findings": []
@@ -623,7 +599,7 @@
           "claim": "Product-truth infrastructure can reduce the value of fake reviews, but it cannot eradicate manipulation; it moves the battlefield from cheap text generation to collusion, credential abuse, data access, privacy leakage, and governance capture.",
           "confidence": "medium-high",
           "status": "risk",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 5,
           "counterevidenceCount": 1,
           "findings": []
@@ -633,23 +609,17 @@
           "claim": "Private review entitlements should separate purchase or use verification from public identity: the public system should verify an unlinkable, one-time entitlement token rather than linking a review to a user, receipt, store, or account.",
           "confidence": "medium",
           "status": "proposal",
-          "state": "draft",
-          "evidenceCount": 4,
+          "state": "verified",
+          "evidenceCount": 5,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agentic-commerce-product-truth: claim-012 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-013",
           "claim": "Agentic commerce should expose a dual evidence surface: machine-readable claim ledgers for agents and human-readable media, social, community, and brand context for final human judgment.",
           "confidence": "medium",
           "status": "proposal",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 4,
           "counterevidenceCount": 1,
           "findings": []
@@ -659,35 +629,29 @@
           "claim": "Agentic product assurance should be built around signed, scoped, contestable claims about specific product identities, not aggregate reviews or universal truth labels.",
           "confidence": "medium-high",
           "status": "framing",
-          "state": "draft",
-          "evidenceCount": 4,
+          "state": "verified",
+          "evidenceCount": 5,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agentic-commerce-product-truth: claim-014 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-015",
           "claim": "Robust agentic product assurance needs infrastructure beyond reviews and credentials: product identity/versioning, recall feeds, liability, auditors, decision receipts, dispute propagation, portability, red-team benchmarks, and accessible presentation.",
           "confidence": "medium",
           "status": "proposal",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 6,
           "counterevidenceCount": 1,
           "findings": []
         }
       ],
       "summary": {
-        "verified": 0,
+        "verified": 15,
         "contested": 0,
         "stale": 0,
         "needs-evidence": 0,
         "missing-counterevidence": 0,
-        "draft": 15
+        "draft": 0
       }
     },
     {
@@ -1811,7 +1775,7 @@
           "claim": "Computation was performed by people before it became associated with electronic machines.",
           "confidence": "high",
           "status": "core",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 3,
           "counterevidenceCount": 1,
           "findings": []
@@ -1821,23 +1785,17 @@
           "claim": "Counting boards and abaci moved arithmetic into visible physical state that could be manipulated and checked.",
           "confidence": "medium-high",
           "status": "argument",
-          "state": "draft",
-          "evidenceCount": 2,
+          "state": "verified",
+          "evidenceCount": 3,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/before-machines: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
           "claim": "Rods, tables, and logarithmic methods reduced complex calculations by decomposing or reusing prior work.",
           "confidence": "medium",
           "status": "argument",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 3,
           "counterevidenceCount": 1,
           "findings": []
@@ -1847,7 +1805,7 @@
           "claim": "Seventeenth-century mechanical calculators embodied arithmetic operations in physical mechanisms.",
           "confidence": "high",
           "status": "argument",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
           "findings": []
@@ -1857,7 +1815,7 @@
           "claim": "The Antikythera mechanism was a sophisticated geared astronomical calculator or display mechanism.",
           "confidence": "high",
           "status": "argument",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 3,
           "counterevidenceCount": 1,
           "findings": []
@@ -1867,7 +1825,7 @@
           "claim": "Automata made mechanism appear self-directed, inviting audiences to project life or agency onto fixed motion.",
           "confidence": "medium",
           "status": "argument",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
           "findings": []
@@ -1877,7 +1835,7 @@
           "claim": "Jacquard punched cards controlled textile patterns and influenced later ideas about machine input and control.",
           "confidence": "medium-high",
           "status": "argument",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
           "findings": []
@@ -1887,19 +1845,19 @@
           "claim": "Babbage's engines mark a threshold between mechanical arithmetic and designs for automatic computing machinery.",
           "confidence": "medium-high",
           "status": "core",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 3,
           "counterevidenceCount": 1,
           "findings": []
         }
       ],
       "summary": {
-        "verified": 0,
+        "verified": 8,
         "contested": 0,
         "stale": 0,
         "needs-evidence": 0,
         "missing-counterevidence": 0,
-        "draft": 8
+        "draft": 0
       }
     },
     {
@@ -3060,28 +3018,17 @@
           "claim": "A foundation model is a broadly trained model, generally trained with self-supervision at scale, that can be adapted to many downstream tasks.",
           "confidence": "high",
           "status": "framing",
-          "state": "draft",
-          "evidenceCount": 1,
+          "state": "verified",
+          "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/foundation-models: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/foundation-models: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
           "claim": "Foundation models revive general-purpose AI ambition by supporting many tasks from a shared base, but this should not be equated with humanlike understanding.",
           "confidence": "high",
           "status": "core",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 3,
           "counterevidenceCount": 1,
           "findings": []
@@ -3091,81 +3038,47 @@
           "claim": "The Transformer replaced recurrence and convolution with attention for sequence transduction and made training more parallelizable.",
           "confidence": "high",
           "status": "argument",
-          "state": "draft",
-          "evidenceCount": 1,
+          "state": "verified",
+          "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/foundation-models: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/foundation-models: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
           "claim": "Broad pretraining enabled models such as BERT and GPT-3 to be adapted or prompted across many tasks.",
           "confidence": "high",
           "status": "argument",
-          "state": "draft",
-          "evidenceCount": 2,
+          "state": "verified",
+          "evidenceCount": 3,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/foundation-models: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
           "claim": "Scaling research made model size, data, and compute explicit variables, while later work emphasized compute-optimal allocation rather than model size alone.",
           "confidence": "high",
           "status": "argument",
-          "state": "draft",
-          "evidenceCount": 2,
+          "state": "verified",
+          "evidenceCount": 3,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/foundation-models: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-006",
           "claim": "Instruction tuning and RLHF can improve usefulness and intent-following, but do not eliminate mistakes or alignment limits.",
           "confidence": "high",
           "status": "risk",
-          "state": "draft",
-          "evidenceCount": 1,
+          "state": "verified",
+          "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/foundation-models: claim-006 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/foundation-models: claim-006 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-007",
           "claim": "Natural-language supervision and multimodal training widened foundation-model behavior beyond text-only tasks.",
           "confidence": "medium-high",
           "status": "argument",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
           "findings": []
@@ -3175,99 +3088,59 @@
           "claim": "Retrieval, tool use, and reasoning/action loops can extend model behavior by connecting models to external sources, APIs, and environments.",
           "confidence": "high",
           "status": "argument",
-          "state": "draft",
-          "evidenceCount": 3,
+          "state": "verified",
+          "evidenceCount": 4,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/foundation-models: claim-008 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-009",
           "claim": "Language-model evaluation needs multi-metric transparency because accuracy alone hides tradeoffs in calibration, robustness, fairness, bias, toxicity, and efficiency.",
           "confidence": "high",
           "status": "risk",
-          "state": "draft",
-          "evidenceCount": 1,
+          "state": "verified",
+          "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/foundation-models: claim-009 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/foundation-models: claim-009 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-010",
           "claim": "As of 2026-06-19, the 2026 AI Index reports rapid changes in AI capabilities, adoption, incidents, and responsible-AI measurement gaps.",
           "confidence": "medium",
           "status": "landscape",
-          "state": "draft",
-          "evidenceCount": 1,
+          "state": "verified",
+          "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/foundation-models: claim-010 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/foundation-models: claim-010 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-011",
           "claim": "As of 2026-06-19, NIST AI 600-1 is the generative AI profile used here for lifecycle risk-management framing.",
           "confidence": "medium-high",
           "status": "landscape",
-          "state": "draft",
-          "evidenceCount": 2,
+          "state": "verified",
+          "evidenceCount": 3,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/foundation-models: claim-011 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-012",
           "claim": "As of 2026-06-19, European Commission pages state that EU general-purpose AI model rules became effective in August 2025 and that the Code of Practice supports compliance.",
           "confidence": "medium",
           "status": "landscape",
-          "state": "draft",
-          "evidenceCount": 2,
+          "state": "verified",
+          "evidenceCount": 3,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/foundation-models: claim-012 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
-        "verified": 0,
+        "verified": 12,
         "contested": 0,
         "stale": 0,
         "needs-evidence": 0,
         "missing-counterevidence": 0,
-        "draft": 12
+        "draft": 0
       }
     },
     {
@@ -4728,18 +4601,24 @@
     },
     {
       "slug": "product-ideas-that-could-shift-incentives",
-      "title": "Product Ideas That Could Shift the Incentives",
+      "title": "Product and Platform Ideas That Could Shift Attention Incentives",
       "status": "published",
       "claims": [
         {
           "id": "claim-001",
-          "claim": "Quality signals—such as citations, completion rates, and user-reported learning—can complement engagement signals and steer recommendation systems toward substance.",
+          "claim": "A platform that asks whether content leaves the user more capable, informed, or connected would need different signals, ranking objectives, and business models than one that asks only whether it kept the user watching.",
           "confidence": "medium-high",
-          "status": "design",
+          "status": "framing",
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": []
+          "findings": [
+            {
+              "rule": "published-article-with-draft-claim",
+              "severity": "warning",
+              "message": "2026/product-ideas-that-could-shift-incentives: claim-001 is draft-verified but the article is published."
+            }
+          ]
         },
         {
           "id": "claim-002",
@@ -4749,7 +4628,13 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": []
+          "findings": [
+            {
+              "rule": "published-article-with-draft-claim",
+              "severity": "warning",
+              "message": "2026/product-ideas-that-could-shift-incentives: claim-002 is draft-verified but the article is published."
+            }
+          ]
         },
         {
           "id": "claim-003",
@@ -4759,7 +4644,13 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": []
+          "findings": [
+            {
+              "rule": "published-article-with-draft-claim",
+              "severity": "warning",
+              "message": "2026/product-ideas-that-could-shift-incentives: claim-003 is draft-verified but the article is published."
+            }
+          ]
         },
         {
           "id": "claim-004",
@@ -4769,7 +4660,198 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": []
+          "findings": [
+            {
+              "rule": "published-article-with-draft-claim",
+              "severity": "warning",
+              "message": "2026/product-ideas-that-could-shift-incentives: claim-004 is draft-verified but the article is published."
+            }
+          ]
+        },
+        {
+          "id": "claim-005",
+          "claim": "Build-new platforms can optimize for substance from inception but face cold-start and network-effects barriers; change-existing strategies have distribution but face incumbent incentive resistance; protocol layers can avoid the winner-take-all problem but require coordination and adoption.",
+          "confidence": "medium-high",
+          "status": "strategy",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "published-article-with-draft-claim",
+              "severity": "warning",
+              "message": "2026/product-ideas-that-could-shift-incentives: claim-005 is draft-verified but the article is published."
+            }
+          ]
+        },
+        {
+          "id": "claim-007",
+          "claim": "Agent-mediated attention stewards can defend user intent if they are genuinely buyer-aligned, privacy-preserving, and transparent about whose interests they serve.",
+          "confidence": "medium",
+          "status": "forecast",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "published-article-with-draft-claim",
+              "severity": "warning",
+              "message": "2026/product-ideas-that-could-shift-incentives: claim-007 is draft-verified but the article is published."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/product-ideas-that-could-shift-incentives: claim-007 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/product-ideas-that-could-shift-incentives: claim-007 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-008",
+          "claim": "Creator-economy realignment—through subscriptions, patronage, public funding, and cooperative ownership—can change the metrics that matter and reduce dependence on attention extraction.",
+          "confidence": "medium-high",
+          "status": "argument",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "published-article-with-draft-claim",
+              "severity": "warning",
+              "message": "2026/product-ideas-that-could-shift-incentives: claim-008 is draft-verified but the article is published."
+            }
+          ]
+        },
+        {
+          "id": "claim-009",
+          "claim": "A quality-weighted ranking protocol could reward completion, citation, source transparency, and reported learning, making substance legible to recommendation systems without requiring a single platform to win.",
+          "confidence": "medium",
+          "status": "proposal",
+          "state": "draft",
+          "evidenceCount": 3,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "published-article-with-draft-claim",
+              "severity": "warning",
+              "message": "2026/product-ideas-that-could-shift-incentives: claim-009 is draft-verified but the article is published."
+            }
+          ]
+        },
+        {
+          "id": "claim-010",
+          "claim": "A public-interest ranking switch could elevate verified civic information during high-stakes periods, but it requires transparent governance to avoid capture.",
+          "confidence": "medium",
+          "status": "proposal",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "published-article-with-draft-claim",
+              "severity": "warning",
+              "message": "2026/product-ideas-that-could-shift-incentives: claim-010 is draft-verified but the article is published."
+            }
+          ]
+        },
+        {
+          "id": "claim-011",
+          "claim": "A cross-platform reputation commons could reward consistent, constructive contribution and reduce the advantage of viral shock over sustained trust.",
+          "confidence": "medium",
+          "status": "proposal",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "published-article-with-draft-claim",
+              "severity": "warning",
+              "message": "2026/product-ideas-that-could-shift-incentives: claim-011 is draft-verified but the article is published."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/product-ideas-that-could-shift-incentives: claim-011 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-012",
+          "claim": "An intent-first attention layer could restore agency through budgets, friction, and defaults, though its effectiveness depends on design and user commitment.",
+          "confidence": "medium",
+          "status": "proposal",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "published-article-with-draft-claim",
+              "severity": "warning",
+              "message": "2026/product-ideas-that-could-shift-incentives: claim-012 is draft-verified but the article is published."
+            }
+          ]
+        },
+        {
+          "id": "claim-013",
+          "claim": "A delegated attention agent could filter and schedule information against explicit user goals, but only if it remains auditable, contestable, and free from platform or advertiser capture.",
+          "confidence": "medium",
+          "status": "proposal",
+          "state": "draft",
+          "evidenceCount": 1,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "published-article-with-draft-claim",
+              "severity": "warning",
+              "message": "2026/product-ideas-that-could-shift-incentives: claim-013 is draft-verified but the article is published."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/product-ideas-that-could-shift-incentives: claim-013 relies on a single source for evidence."
+            },
+            {
+              "rule": "low-source-diversity",
+              "severity": "warning",
+              "message": "2026/product-ideas-that-could-shift-incentives: claim-013 relies on a single source type for evidence."
+            }
+          ]
+        },
+        {
+          "id": "claim-014",
+          "claim": "Concepts that change ranking objectives are best pursued inside existing platforms or by regulation; concepts that change market structure are best pursued as protocols or interoperability layers; startups are most viable when they demonstrate a behavior incumbents may later adopt.",
+          "confidence": "medium",
+          "status": "strategy",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "published-article-with-draft-claim",
+              "severity": "warning",
+              "message": "2026/product-ideas-that-could-shift-incentives: claim-014 is draft-verified but the article is published."
+            }
+          ]
+        },
+        {
+          "id": "claim-015",
+          "claim": "Every alternative attention incentive can be gamed; safeguards such as audits, transparency, human judgment, and appeal mechanisms are required for any of them to remain trustworthy.",
+          "confidence": "medium-high",
+          "status": "risk",
+          "state": "draft",
+          "evidenceCount": 2,
+          "counterevidenceCount": 1,
+          "findings": [
+            {
+              "rule": "published-article-with-draft-claim",
+              "severity": "warning",
+              "message": "2026/product-ideas-that-could-shift-incentives: claim-015 is draft-verified but the article is published."
+            }
+          ]
         }
       ],
       "summary": {
@@ -4778,7 +4860,7 @@
         "stale": 0,
         "needs-evidence": 0,
         "missing-counterevidence": 0,
-        "draft": 4
+        "draft": 14
       }
     },
     {

@@ -796,8 +796,8 @@
     {
       "id": "article:product-ideas-that-could-shift-incentives",
       "slug": "product-ideas-that-could-shift-incentives",
-      "title": "Product Ideas That Could Shift the Incentives",
-      "summary": "Sketches product and platform alternatives—quality-based incentives, public-interest algorithms, creator reputation economies—that could reward substance over extraction.",
+      "title": "Product and Platform Ideas That Could Shift Attention Incentives",
+      "summary": "Surveys product and platform alternatives that could shift attention incentives from extraction to substance, evaluates build-new versus change-existing strategies, and proposes five differentiated product concepts with rationale and risks.",
       "status": "published",
       "maturity": "seed",
       "topics": [
@@ -807,7 +807,9 @@
         "design",
         "algorithms",
         "creator-economy",
-        "platform-design"
+        "platform-design",
+        "agentic-attention",
+        "public-interest-tech"
       ],
       "tags": [
         "attention-economy",
@@ -816,17 +818,19 @@
         "design",
         "algorithms",
         "creator-economy",
-        "platform-design"
+        "platform-design",
+        "agentic-attention",
+        "public-interest-tech"
       ],
       "canonicalPath": "/articles/product-ideas-that-could-shift-incentives/",
       "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
       "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
       "agentMarkdownPath": "/agents/articles/product-ideas-that-could-shift-incentives.md",
-      "updatedAt": "2026-07-05",
-      "claimCount": 4,
-      "sourceCount": 6,
-      "tokenEstimate": 291,
-      "contentHash": "4dfd02f7205a72689d7b7f743e4e7b8a22f8075e5b3aa10606afc6942e733a6a"
+      "updatedAt": "2026-07-15",
+      "claimCount": 14,
+      "sourceCount": 13,
+      "tokenEstimate": 1161,
+      "contentHash": "94fdce2ea87a40ad99477d3e2ced72284d4702de9f713d788f5b05e842a776fa"
     },
     {
       "id": "article:public-pressure-and-internal-accountability",

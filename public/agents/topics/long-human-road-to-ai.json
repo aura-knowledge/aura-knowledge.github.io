@@ -76,9 +76,9 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
       "agentJsonPath": "/agents/articles/before-machines.json",
       "agentMarkdownPath": "/agents/articles/before-machines.md",
-      "updatedAt": "2026-06-20",
+      "updatedAt": "2026-07-15",
       "claimCount": 8,
-      "sourceCount": 21,
+      "sourceCount": 22,
       "tokenEstimate": 698,
       "contentHash": "62d909d5e9f88204dabd2fb1f284d1077e805963e509747a07706e9d8ade9c38"
     },
@@ -176,9 +176,9 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
       "agentJsonPath": "/agents/articles/foundation-models.json",
       "agentMarkdownPath": "/agents/articles/foundation-models.md",
-      "updatedAt": "2026-06-20",
+      "updatedAt": "2026-07-15",
       "claimCount": 12,
-      "sourceCount": 19,
+      "sourceCount": 28,
       "tokenEstimate": 801,
       "contentHash": "14bbae6f14e0ba003b3697a100f866d7f411d8720590344a4c3d1a72dad84f25"
     },

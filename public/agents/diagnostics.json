@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-06T00:00:00.000Z",
+  "generatedAt": "2026-07-15T00:00:00.000Z",
   "summary": {
     "errors": 0,
-    "warnings": 411,
-    "total": 411
+    "warnings": 408,
+    "total": 408
   },
   "findings": [
     {
@@ -70,21 +70,6 @@
     {
       "rule": "low-source-diversity",
       "severity": "warning",
-      "message": "2026/agent-auditable-research: claim-001 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/agent-auditable-research: claim-005 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/agent-auditable-research: claim-006 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
       "message": "2026/agent-control-planes: claim-002 relies on a single source type for evidence."
     },
     {
@@ -101,21 +86,6 @@
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/agent-control-planes: claim-005 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/agentic-commerce-product-truth: claim-002 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/agentic-commerce-product-truth: claim-012 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/agentic-commerce-product-truth: claim-014 relies on a single source type for evidence."
     },
     {
       "rule": "low-source-diversity",
@@ -346,11 +316,6 @@
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/audio-first-voice-consumption: claim-003 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/before-machines: claim-002 relies on a single source type for evidence."
     },
     {
       "rule": "low-source-diversity",
@@ -656,81 +621,6 @@
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/fine-tuning: claim-004 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/foundation-models: claim-001 relies on a single source for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/foundation-models: claim-001 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/foundation-models: claim-003 relies on a single source for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/foundation-models: claim-003 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/foundation-models: claim-004 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/foundation-models: claim-005 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/foundation-models: claim-006 relies on a single source for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/foundation-models: claim-006 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/foundation-models: claim-008 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/foundation-models: claim-009 relies on a single source for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/foundation-models: claim-009 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/foundation-models: claim-010 relies on a single source for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/foundation-models: claim-010 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/foundation-models: claim-011 relies on a single source type for evidence."
-    },
-    {
-      "rule": "low-source-diversity",
-      "severity": "warning",
-      "message": "2026/foundation-models: claim-012 relies on a single source type for evidence."
     },
     {
       "rule": "low-source-diversity",
@@ -1146,6 +1036,101 @@
       "rule": "low-source-diversity",
       "severity": "warning",
       "message": "2026/planning-and-reflection: claim-005 relies on a single source type for evidence."
+    },
+    {
+      "rule": "published-article-with-draft-claim",
+      "severity": "warning",
+      "message": "2026/product-ideas-that-could-shift-incentives: claim-001 is draft-verified but the article is published."
+    },
+    {
+      "rule": "published-article-with-draft-claim",
+      "severity": "warning",
+      "message": "2026/product-ideas-that-could-shift-incentives: claim-002 is draft-verified but the article is published."
+    },
+    {
+      "rule": "published-article-with-draft-claim",
+      "severity": "warning",
+      "message": "2026/product-ideas-that-could-shift-incentives: claim-003 is draft-verified but the article is published."
+    },
+    {
+      "rule": "published-article-with-draft-claim",
+      "severity": "warning",
+      "message": "2026/product-ideas-that-could-shift-incentives: claim-004 is draft-verified but the article is published."
+    },
+    {
+      "rule": "published-article-with-draft-claim",
+      "severity": "warning",
+      "message": "2026/product-ideas-that-could-shift-incentives: claim-005 is draft-verified but the article is published."
+    },
+    {
+      "rule": "published-article-with-draft-claim",
+      "severity": "warning",
+      "message": "2026/product-ideas-that-could-shift-incentives: claim-007 is draft-verified but the article is published."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/product-ideas-that-could-shift-incentives: claim-007 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/product-ideas-that-could-shift-incentives: claim-007 relies on a single source type for evidence."
+    },
+    {
+      "rule": "published-article-with-draft-claim",
+      "severity": "warning",
+      "message": "2026/product-ideas-that-could-shift-incentives: claim-008 is draft-verified but the article is published."
+    },
+    {
+      "rule": "published-article-with-draft-claim",
+      "severity": "warning",
+      "message": "2026/product-ideas-that-could-shift-incentives: claim-009 is draft-verified but the article is published."
+    },
+    {
+      "rule": "published-article-with-draft-claim",
+      "severity": "warning",
+      "message": "2026/product-ideas-that-could-shift-incentives: claim-010 is draft-verified but the article is published."
+    },
+    {
+      "rule": "published-article-with-draft-claim",
+      "severity": "warning",
+      "message": "2026/product-ideas-that-could-shift-incentives: claim-011 is draft-verified but the article is published."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/product-ideas-that-could-shift-incentives: claim-011 relies on a single source type for evidence."
+    },
+    {
+      "rule": "published-article-with-draft-claim",
+      "severity": "warning",
+      "message": "2026/product-ideas-that-could-shift-incentives: claim-012 is draft-verified but the article is published."
+    },
+    {
+      "rule": "published-article-with-draft-claim",
+      "severity": "warning",
+      "message": "2026/product-ideas-that-could-shift-incentives: claim-013 is draft-verified but the article is published."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/product-ideas-that-could-shift-incentives: claim-013 relies on a single source for evidence."
+    },
+    {
+      "rule": "low-source-diversity",
+      "severity": "warning",
+      "message": "2026/product-ideas-that-could-shift-incentives: claim-013 relies on a single source type for evidence."
+    },
+    {
+      "rule": "published-article-with-draft-claim",
+      "severity": "warning",
+      "message": "2026/product-ideas-that-could-shift-incentives: claim-014 is draft-verified but the article is published."
+    },
+    {
+      "rule": "published-article-with-draft-claim",
+      "severity": "warning",
+      "message": "2026/product-ideas-that-could-shift-incentives: claim-015 is draft-verified but the article is published."
     },
     {
       "rule": "low-source-diversity",

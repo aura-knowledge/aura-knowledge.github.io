@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-07-06T00:00:00.000Z",
+  "generatedAt": "2026-07-15T00:00:00.000Z",
   "site": "https://aura-knowledge.github.io",
   "base": "",
   "articles": [
@@ -129,9 +129,9 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
       "agentJsonPath": "/agents/articles/agent-auditable-research.json",
       "agentMarkdownPath": "/agents/articles/agent-auditable-research.md",
-      "updatedAt": "2026-06-17",
+      "updatedAt": "2026-07-15",
       "claimCount": 6,
-      "sourceCount": 9,
+      "sourceCount": 12,
       "tokenEstimate": 473,
       "contentHash": "9cc411aa12445fd609490b32242da73e065ef4052557270e21a9f0ef8b724aa4"
     },
@@ -191,9 +191,9 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
       "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
       "agentMarkdownPath": "/agents/articles/agentic-commerce-product-truth.md",
-      "updatedAt": "2026-06-18",
+      "updatedAt": "2026-07-15",
       "claimCount": 15,
-      "sourceCount": 34,
+      "sourceCount": 37,
       "tokenEstimate": 1431,
       "contentHash": "4014d7d5a97200dd5194fd5c82e83c9d74f602ccc90fc5ec9abf2e393643e302"
     },
@@ -815,9 +815,9 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
       "agentJsonPath": "/agents/articles/before-machines.json",
       "agentMarkdownPath": "/agents/articles/before-machines.md",
-      "updatedAt": "2026-06-20",
+      "updatedAt": "2026-07-15",
       "claimCount": 8,
-      "sourceCount": 21,
+      "sourceCount": 22,
       "tokenEstimate": 698,
       "contentHash": "62d909d5e9f88204dabd2fb1f284d1077e805963e509747a07706e9d8ade9c38"
     },
@@ -1234,9 +1234,9 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
       "agentJsonPath": "/agents/articles/foundation-models.json",
       "agentMarkdownPath": "/agents/articles/foundation-models.md",
-      "updatedAt": "2026-06-20",
+      "updatedAt": "2026-07-15",
       "claimCount": 12,
-      "sourceCount": 19,
+      "sourceCount": 28,
       "tokenEstimate": 801,
       "contentHash": "14bbae6f14e0ba003b3697a100f866d7f411d8720590344a4c3d1a72dad84f25"
     },
@@ -1721,8 +1721,8 @@
     {
       "id": "article:product-ideas-that-could-shift-incentives",
       "slug": "product-ideas-that-could-shift-incentives",
-      "title": "Product Ideas That Could Shift the Incentives",
-      "summary": "Sketches product and platform alternatives—quality-based incentives, public-interest algorithms, creator reputation economies—that could reward substance over extraction.",
+      "title": "Product and Platform Ideas That Could Shift Attention Incentives",
+      "summary": "Surveys product and platform alternatives that could shift attention incentives from extraction to substance, evaluates build-new versus change-existing strategies, and proposes five differentiated product concepts with rationale and risks.",
       "status": "published",
       "maturity": "seed",
       "topics": [
@@ -1732,7 +1732,9 @@
         "design",
         "algorithms",
         "creator-economy",
-        "platform-design"
+        "platform-design",
+        "agentic-attention",
+        "public-interest-tech"
       ],
       "tags": [
         "attention-economy",
@@ -1741,17 +1743,19 @@
         "design",
         "algorithms",
         "creator-economy",
-        "platform-design"
+        "platform-design",
+        "agentic-attention",
+        "public-interest-tech"
       ],
       "canonicalPath": "/articles/product-ideas-that-could-shift-incentives/",
       "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
       "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
       "agentMarkdownPath": "/agents/articles/product-ideas-that-could-shift-incentives.md",
-      "updatedAt": "2026-07-05",
-      "claimCount": 4,
-      "sourceCount": 6,
-      "tokenEstimate": 291,
-      "contentHash": "4dfd02f7205a72689d7b7f743e4e7b8a22f8075e5b3aa10606afc6942e733a6a"
+      "updatedAt": "2026-07-15",
+      "claimCount": 14,
+      "sourceCount": 13,
+      "tokenEstimate": 1161,
+      "contentHash": "94fdce2ea87a40ad99477d3e2ced72284d4702de9f713d788f5b05e842a776fa"
     },
     {
       "id": "article:prompt-caching",
@@ -3032,6 +3036,15 @@
       "agentJsonPath": "/agents/topics/agent-provenance.json"
     },
     {
+      "topic": "agentic-attention",
+      "label": "agentic attention",
+      "articleIds": [
+        "article:product-ideas-that-could-shift-incentives"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/agentic-attention/",
+      "agentJsonPath": "/agents/topics/agentic-attention.json"
+    },
+    {
       "topic": "agentic-commerce",
       "label": "agentic commerce",
       "articleIds": [
@@ -4291,6 +4304,15 @@
       "agentJsonPath": "/agents/topics/public-health.json"
     },
     {
+      "topic": "public-interest-tech",
+      "label": "public interest tech",
+      "articleIds": [
+        "article:product-ideas-that-could-shift-incentives"
+      ],
+      "pageUrl": "https://aura-knowledge.github.io/topics/public-interest-tech/",
+      "agentJsonPath": "/agents/topics/public-interest-tech.json"
+    },
+    {
       "topic": "public-interest-technology",
       "label": "public interest technology",
       "articleIds": [
@@ -4673,11 +4695,14 @@
             "article:a-map-of-levers",
             "article:a-readers-guide-to-the-series",
             "article:age-appropriate-design",
+            "article:agent-auditable-research",
+            "article:agentic-commerce-product-truth",
             "article:ai-as-journeyman-assistant",
             "article:ai-could-make-extraction-cheaper-too",
             "article:alternative-metrics-time-well-spent",
             "article:attention-substance-ai-moment",
             "article:attention-substance-ai-moment-tldr",
+            "article:before-machines",
             "article:bhashini-and-the-indic-language-ai-moment",
             "article:business-models-that-reward-substance",
             "article:by-the-numbers-what-indians-do-online",
@@ -4685,6 +4710,7 @@
             "article:designing-for-substance",
             "article:engagement-is-a-design-choice",
             "article:failure-teaching-and-the-skill-stack",
+            "article:foundation-models",
             "article:friction-chronological-feeds-user-chosen-algorithms",
             "article:from-penny-press-to-infinite-scroll",
             "article:gender-and-the-attention-economy",
@@ -4732,9 +4758,7 @@
           "yearMonth": "2026-06",
           "monthName": "June",
           "articleIds": [
-            "article:agent-auditable-research",
             "article:agent-control-planes",
-            "article:agentic-commerce-product-truth",
             "article:agents",
             "article:ai-agent-advanced-questions",
             "article:ai-agent-first-conversation",
@@ -4749,13 +4773,11 @@
             "article:ai-demystified",
             "article:ai-winters-expert-systems",
             "article:audio-first-voice-consumption",
-            "article:before-machines",
             "article:birth-of-ai",
             "article:context-management",
             "article:evaluations",
             "article:fine-tuning",
             "article:formal-logic-to-computation",
-            "article:foundation-models",
             "article:human-systems",
             "article:learning-machines",
             "article:long-human-road-to-ai",
