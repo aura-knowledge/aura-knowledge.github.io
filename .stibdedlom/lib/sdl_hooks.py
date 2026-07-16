@@ -83,6 +83,17 @@ def current_branch(repo_root: Path) -> str | None:
     return branch if branch and branch != "HEAD" else None
 
 
+def _protected_rerun_allowed() -> bool:
+    """Allow CI re-validation of already-landed commits on protected branches.
+
+    The protected-branch guard exists to stop *local* direct commits/pushes.
+    The SDL governance workflow re-runs the same validators server-side on a
+    commit that has already landed on ``main``; there the guard would fail by
+    design. Set ``SDL_VALIDATION_RERUN=1`` only in those CI re-run steps.
+    """
+    return os.environ.get("SDL_VALIDATION_RERUN") == "1"
+
+
 def is_protected_branch(branch: str) -> bool:
     for pattern in PROTECTED_BRANCHES:
         if pattern.endswith("*"):
@@ -487,7 +498,7 @@ def validate_commit(
     repo_root = _real(repo_root)
 
     branch = current_branch(repo_root)
-    if branch and is_protected_branch(branch):
+    if branch and is_protected_branch(branch) and not _protected_rerun_allowed():
         return {
             "ok": False,
             "reason": f"direct commits to protected branch '{branch}' are not allowed",
@@ -667,7 +678,7 @@ def validate_push(
 
     if remote_ref:
         branch = remote_ref.replace("refs/heads/", "")
-        if is_protected_branch(branch):
+        if is_protected_branch(branch) and not _protected_rerun_allowed():
             return {
                 "ok": False,
                 "reason": f"direct pushes to protected branch '{branch}' are not allowed",

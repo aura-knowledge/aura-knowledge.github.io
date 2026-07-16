@@ -45,6 +45,10 @@ jobs:
             --repo-root "$PWD"
 
       - name: Re-run pre-commit checks on HEAD
+        env:
+          # CI re-validation of an already-landed commit; the protected-branch
+          # guard targets local direct commits, not server-side re-runs.
+          SDL_VALIDATION_RERUN: "1"
         run: |
           COMMIT_MSG=$(git log -1 --format=%B)
           python3 .stibdedlom/bin/validate-commit.py \
@@ -52,6 +56,8 @@ jobs:
             --commit-msg-text "$COMMIT_MSG"
 
       - name: Re-run pre-push checks
+        env:
+          SDL_VALIDATION_RERUN: "1"
         run: |
           python3 .stibdedlom/bin/validate-push.py \
             --repo-root "$PWD" \
