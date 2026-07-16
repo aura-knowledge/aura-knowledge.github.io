@@ -8,6 +8,12 @@ set -euo pipefail
 REPO_ROOT=$(git rev-parse --show-toplevel)
 
 while read -r local_ref local_sha remote_ref remote_sha; do
+    # For a newly pushed branch, git supplies an all-zeros remote_sha. Fall back
+    # to the default upstream branch so we only validate the branch's new commits,
+    # not the entire repository history that predates SDL onboarding.
+    if [ "$remote_sha" = "0000000000000000000000000000000000000000" ]; then
+        remote_sha=$(git rev-parse origin/main 2>/dev/null || echo "$remote_sha")
+    fi
     python3 "$REPO_ROOT/.stibdedlom/bin/validate-push.py" \
         --repo-root "$REPO_ROOT" \
         --base "$remote_sha" \

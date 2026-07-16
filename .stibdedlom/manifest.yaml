@@ -12,7 +12,7 @@ lifecycle_retention:
   completed_chain_records_days: 90
   max_records_per_chain: 50
   compaction_enabled: true
-infra_commit_ref: "fb831c04ffbbb7dba8f1f499d840f634a775a560"
+infra_commit_ref: "9cf915b85c6fd00f445e28fb4bca24a546265bc8"
 onboarded_template_version: "1"
 onboarded_at: "2026-07-11T05:42:37.443010+00:00"
 registered_at: "2026-07-11T05:42:37.443010+00:00"

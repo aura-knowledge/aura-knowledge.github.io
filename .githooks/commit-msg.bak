@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+#
+# SDL commit-msg hook: ensures every commit carries the
+# SDL-Commit-Author provenance trailer.
+#
+# Install: cp this file to .githooks/commit-msg and run
+#   git config core.hooksPath .githooks
+#
+# To bypass (e.g. for filter-branch rewrites), set
+#   SDL_COMMIT_AUTHOR_SKIP=1
+#
+commit_msg_file="$1"
+message="$(cat "$commit_msg_file")"
+
+# Skip when explicitly requested.
+if [ "${SDL_COMMIT_AUTHOR_SKIP}" = "1" ]; then
+  exit 0
+fi
+
+# Skip merge commits (auto-generated messages).
+if echo "$message" | grep -q "^Merge "; then
+  exit 0
+fi
+
+# Check for the trailer (exact line match).
+if echo "$message" | grep -qx "SDL-Commit-Author: capability-commit-author"; then
+  exit 0
+fi
+
+# Append the trailer automatically.
+echo "" >> "$commit_msg_file"
+echo "SDL-Commit-Author: capability-commit-author" >> "$commit_msg_file"
+exit 0
