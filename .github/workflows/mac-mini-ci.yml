@@ -28,7 +28,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version-file: package.json
-          cache: npm
+          # No `cache: npm` — this is a persistent self-hosted runner that keeps
+          # its own ~/.npm between runs. Uploading the machine-wide 4+ GB cache
+          # to the GitHub cache service is slow, redundant, and can stall the
+          # post-job cache-save step.
 
       - name: Install dependencies
         run: npm ci
