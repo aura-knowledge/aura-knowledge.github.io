@@ -1,0 +1,31 @@
+{
+  "schema_version": "sdl-routing-attestation@2",
+  "issue": 114,
+  "chain_id": "114",
+  "node_id": "114",
+  "goal": "[meta#61 P0] Make garden verification checks able to fail",
+  "allowed_paths": [
+    "scripts",
+    "schemas",
+    "content",
+    "public",
+    "package.json"
+  ],
+  "envelope_hash": "sha256:d62e5bfe0e7cd58ee7da83a37a5b5c5009567cb8c7f7da9a19973a58227cc36d",
+  "policy_ref": ".stibdedlom/invocation-policy.yaml",
+  "manifest_path": ".stibdedlom/manifest.yaml",
+  "base_ref": "origin/main",
+  "created_at": "2026-07-17T07:38:07.939532+00:00",
+  "expires_at": "2026-07-24T07:38:07.939532+00:00",
+  "kid": "rk-2026-07-11-27bdb969",
+  "algorithm": "ed25519",
+  "runtime_binding": {
+    "branch": "fix/verification-theater-p0",
+    "worktree_path": "/Users/vishalsingh/Documents/v-i-s-h-a-l/aura-knowledge/site-verification-gates",
+    "base_sha": "557fc1075d7f4c0ddaecac004af8ce3c68965be2",
+    "base_ref": "origin/main",
+    "max_commits_ahead": 50
+  },
+  "capability": "capability-client-orchestrator",
+  "signature": "ed25519:U2eKXPGWEfNE/bHunP1ePK3ChSKLVdBCbQeKBI2OgVjuk79o93fshbcCXIu23jcQ3WpQJ18JaG/DAeE0sM4GAQ=="
+}

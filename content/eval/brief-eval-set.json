@@ -29,11 +29,11 @@
     },
     {
       "id": "eval-draft-claims",
-      "description": "Regression guard: no published article should return draft-state claims. The draft claims in agent-auditable-research and agentic-commerce-product-truth were verified on 2026-07-15.",
-      "query": { "claimState": "draft" },
+      "description": "Regression guard: no published article may return draft-state claims. Fails while any published article serves unverified claims; tracks the verification backlog from meta#61 / site#114.",
+      "query": { "claimState": "draft", "status": "published" },
       "expected": {
         "slugs": [],
-        "notSlugs": ["agent-auditable-research", "agentic-commerce-product-truth"]
+        "maxResults": 0
       }
     },
     {

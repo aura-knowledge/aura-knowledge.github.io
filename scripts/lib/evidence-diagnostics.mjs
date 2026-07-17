@@ -15,6 +15,8 @@ const CLAIM_STATUS_VALUES = new Set([
   "framing",
   "behavioral"
 ]);
+const PLACEHOLDER_SNIPPET_PATTERN = /evidence snippet pending/i;
+const ZERO_HASH_PATTERN = /^sha256:0{64}$/;
 const SOURCE_TYPES = new Set([
   "paper",
   "article",
@@ -90,6 +92,29 @@ export function assessClaim(claim, article, options = {}) {
       "published-article-with-draft-claim",
       "warning",
       `${claim.id} is draft-verified but the article is published.`
+    );
+  }
+
+  const isPublished =
+    article.articleFrontmatter?.status === "published" && article.artifact.status === "published";
+
+  if (isPublished && !claim.verification) {
+    add(
+      "published-claim-missing-verification",
+      "error",
+      `${claim.id} has no verification object in a published article.`
+    );
+  }
+
+  if (
+    claim.verification?.status === "verified" &&
+    claim.evidence.length > 0 &&
+    claim.evidence.every((packet) => PLACEHOLDER_SNIPPET_PATTERN.test(packet.snippet ?? ""))
+  ) {
+    add(
+      "verified-claim-placeholder-evidence",
+      "error",
+      `${claim.id} is marked verified but every evidence snippet is a placeholder.`
     );
   }
 
@@ -227,6 +252,23 @@ export function assessProvenance(article, options = {}) {
   const humanReviews = (provenance.reviews ?? [])
     .filter((review) => review.reviewer === "human" && review.status === "approved")
     .sort((left, right) => right.reviewedAt.localeCompare(left.reviewedAt));
+
+  for (const agent of provenance.agents ?? []) {
+    const agentLabel = `provenance agent "${agent.role ?? "unknown"}"`;
+    if (ZERO_HASH_PATTERN.test(agent.inputHash ?? "") || ZERO_HASH_PATTERN.test(agent.outputHash ?? "")) {
+      add(
+        "provenance-hash-zero",
+        isPublished ? "error" : "warning",
+        `${agentLabel} uses an all-zero input/output hash, which is placeholder-grade provenance.`
+      );
+    } else if (agent.inputHash && agent.inputHash === agent.outputHash) {
+      add(
+        "provenance-hash-equal",
+        isPublished ? "error" : "warning",
+        `${agentLabel} has identical inputHash and outputHash, which is impossible for real work.`
+      );
+    }
+  }
 
   if (isPublished && humanReviews.length === 0) {
     add(

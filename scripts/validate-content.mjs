@@ -72,6 +72,14 @@ const knownPolicies = await loadPolicies();
 const errors = [];
 const warnings = [];
 
+const TEMPLATE_PLACEHOLDER_MARKERS = [
+  /replace with the first claim/i,
+  /replace with source title/i,
+  /replace with a short summary/i,
+  /replace with a direct quote or excerpt/i,
+  /^\s*[-*]\s*primary audience member\.?\s*$/im
+];
+
 function report(message) {
   errors.push(message);
 }
@@ -280,6 +288,13 @@ for (const article of articles) {
   }
 
   if (article.articleFrontmatter.status === "published" && article.artifact.status === "published") {
+    for (const marker of TEMPLATE_PLACEHOLDER_MARKERS) {
+      if (marker.test(article.agentBody)) {
+        report(
+          `${prefix}: agent.md contains template placeholder text matching ${marker}. Regenerate the agent brief from real article content.`
+        );
+      }
+    }
     await assertExists(path.join(publicRoot, "agents", "articles", `${article.slug}.json`));
     await assertExists(path.join(publicRoot, "agents", "articles", `${article.slug}.md`));
   }

@@ -3,10 +3,10 @@
   "schema": "https://aura-knowledge.github.io/schemas/garden-queries.schema.json",
   "site": "https://aura-knowledge.github.io",
   "base": "",
-  "generatedAt": "2026-07-15T00:00:00.000Z",
+  "generatedAt": "2026-07-17T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 1427
+    "totalResults": 1429
   },
   "dimensions": [
     {
@@ -12641,7 +12641,7 @@
         "status": "published"
       },
       "resultType": "articles",
-      "resultCount": 81,
+      "resultCount": 83,
       "results": [
         {
           "articleId": "article:a-map-of-levers",
@@ -12662,10 +12662,22 @@
           "agentJsonPath": "/agents/articles/age-appropriate-design.json"
         },
         {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json"
+        },
+        {
           "articleId": "article:agent-control-planes",
           "slug": "agent-control-planes",
           "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
           "agentJsonPath": "/agents/articles/agent-control-planes.json"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json"
         },
         {
           "articleId": "article:agents",

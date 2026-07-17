@@ -9,6 +9,8 @@ function parseArgs(argv) {
     if (arg === "--slug") {
       args.slug = argv[index + 1];
       index += 1;
+    } else if (arg === "--check") {
+      args.check = true;
     } else if (arg.startsWith("-")) {
       throw new Error(`Unknown option: ${arg}`);
     } else if (!args.slug) {
@@ -54,15 +56,42 @@ async function main() {
     process.exit(1);
   }
 
+  let totalErrors = 0;
+  let totalWarnings = 0;
+
   for (const article of targets) {
     const audit = buildAudit(article);
-    const auditPath = path.join(article.articleDir, "workspace", "audit.json");
-    await writeJson(auditPath, audit);
     const errorCount = audit.suggestions.filter((s) => s.severity === "error").length;
     const warningCount = audit.suggestions.filter((s) => s.severity === "warning").length;
+    totalErrors += errorCount;
+    totalWarnings += warningCount;
+
+    if (args.check) {
+      if (errorCount + warningCount > 0) {
+        console.log(
+          `${article.year}/${article.slug}: ${errorCount} error(s), ${warningCount} warning(s)`
+        );
+        for (const suggestion of audit.suggestions.filter((s) => s.severity === "error")) {
+          console.log(`  - ${suggestion.message}`);
+        }
+      }
+      continue;
+    }
+
+    const auditPath = path.join(article.articleDir, "workspace", "audit.json");
+    await writeJson(auditPath, audit);
     console.log(
       `${article.year}/${article.slug}: wrote workspace/audit.json (${errorCount} error(s), ${warningCount} warning(s))`
     );
+  }
+
+  if (args.check) {
+    console.log(
+      `Audit check: ${totalErrors} error(s), ${totalWarnings} warning(s) across ${targets.length} article(s).`
+    );
+    if (totalErrors > 0) {
+      process.exit(1);
+    }
   }
 }
 

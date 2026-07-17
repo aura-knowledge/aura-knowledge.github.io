@@ -49,6 +49,10 @@
                 "items": {
                   "type": "string"
                 }
+              },
+              "maxResults": {
+                "type": "integer",
+                "minimum": 0
               }
             }
           }
