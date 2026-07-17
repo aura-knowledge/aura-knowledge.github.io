@@ -677,6 +677,8 @@ export function buildToolsManifest() {
     generatedAt: new Date().toISOString(),
     site: "https://aura-knowledge.github.io",
     base: "",
+    audience: "contributors",
+    note: "These are contributor CLI commands (node scripts/*.mjs) run inside the repository, not remotely callable agent tools. External agents should use the feeds and query catalog instead (see /agents/feeds/manifest.json and /agents/garden-queries.json).",
     tools: TOOL_DEFINITIONS.map((tool) => {
       const { examples, ...rest } = tool;
       return { ...rest, examples };

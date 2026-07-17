@@ -1,8 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-05T03:47:47.376Z",
+  "generatedAt": "2026-07-17T22:45:30.137Z",
   "site": "https://aura-knowledge.github.io",
   "base": "",
+  "audience": "contributors",
+  "note": "These are contributor CLI commands (node scripts/*.mjs) run inside the repository, not remotely callable agent tools. External agents should use the feeds and query catalog instead (see /agents/feeds/manifest.json and /agents/garden-queries.json).",
   "tools": [
     {
       "name": "createWorkspace",
