@@ -17,6 +17,7 @@
     "validate:build": "node scripts/validate-build.mjs",
     "verify": "node scripts/verify-claims.mjs",
     "verify:claim": "node scripts/verify-claim.mjs",
+    "check:sources": "node scripts/check-source-liveness.mjs",
     "agent:record": "node scripts/record-agent-run.mjs",
     "agent:tool": "node scripts/agent-tool.mjs",
     "agent:workflow": "node scripts/agent-workflow.mjs",

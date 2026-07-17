@@ -353,6 +353,7 @@ const llms = [
   `- [Agent Index JSONL](${siteUrl("/agents/index.jsonl")})`,
   `- [Garden Query Catalog](${siteUrl("/agents/garden-queries.json")})`,
   `- [Brief Eval Report](${siteUrl("/agents/eval-report.json")})`,
+  `- [Claim Verification Report](${siteUrl("/agents/verification-report.json")})`,
   `- [Graph Nodes](${siteUrl("/graph/nodes.json")})`,
   `- [Graph Edges](${siteUrl("/graph/edges.json")})`,
   ...roadmaps.map((roadmap) => `- [${roadmap.slug} roadmap JSON](${siteUrl(`/agents/roadmap/${roadmap.slug}.json`)})`),

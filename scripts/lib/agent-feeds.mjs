@@ -10,6 +10,10 @@ export function buildClaimFeeds(articles, site) {
     if (article.artifact.status !== "published") continue;
     const url = articleUrl(article, site);
     for (const claim of article.artifact.claims) {
+      const assessedDates = claim.evidence
+        .map((packet) => packet.assessedAt)
+        .filter(Boolean)
+        .sort();
       lines.push({
         articleId: article.artifact.id,
         slug: article.slug,
@@ -18,6 +22,8 @@ export function buildClaimFeeds(articles, site) {
         claim: claim.claim,
         confidence: claim.confidence,
         status: claim.status,
+        verificationStatus: claim.verification?.status ?? "draft",
+        asOf: assessedDates.length > 0 ? assessedDates[assessedDates.length - 1] : null,
         evidenceCount: claim.evidence.length,
         counterevidenceCount: claim.counterevidence.length,
         articleUrl: url
