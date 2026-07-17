@@ -37,7 +37,7 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-demographic-dividend-is-not-automatic/",
       "agentJsonPath": "/agents/articles/the-demographic-dividend-is-not-automatic.json",
       "agentMarkdownPath": "/agents/articles/the-demographic-dividend-is-not-automatic.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 185,
@@ -72,11 +72,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-reel-nation-short-form-video/",
       "agentJsonPath": "/agents/articles/the-reel-nation-short-form-video.json",
       "agentMarkdownPath": "/agents/articles/the-reel-nation-short-form-video.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
-      "sourceCount": 6,
-      "tokenEstimate": 265,
-      "contentHash": "e79e3653a0aa31910577f9cd85eb541b2733d9911e37fb961f2b359c0bf3d26d"
+      "sourceCount": 7,
+      "tokenEstimate": 283,
+      "contentHash": "00b8f82af3c16ef462ab739b78dd0009012d191bd848899111a124fbe021e8c1"
     }
   ]
 }

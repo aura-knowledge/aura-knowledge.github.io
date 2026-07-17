@@ -6,7 +6,7 @@ slug: regulation-as-a-floor-dsa-it-rules-dpdp
 title: "Agent Brief for 'Regulation as a Floor'"
 tokenBudget: 1500
 status: published
-updated: 2026-07-05
+updated: 2026-07-17
 ---
 
 ## Thesis
@@ -24,7 +24,7 @@ Regulation sets a floor for platform accountability, but designing for substance
 
 - `claim-001`: Regulation can set a floor for platform accountability by mandating transparency, due process, and data protection, but it cannot by itself make substance-oriented design the default.
 - `claim-002`: The IT Rules 2021 focus on content takedown, user grievances, and traceability rather than on the design defaults—autoplay, infinite scroll, algorithmic ranking—that drive attention extraction.
-- `claim-003`: The DPDP Act 2023 and the DPDP Rules, 2025 establish individual rights over digital personal data and an operational Data Protection Board, though phased implementation and enforcement capacity are still unfolding.
+- `claim-003`: The DPDP Act 2023 establishes individual rights over digital personal data; the DPDP Rules, 2025, and the Data Protection Board became operational in late 2025, but phased implementation and enforcement capacity are still unfolding.
 - `claim-004`: The EU Digital Services Act goes further than India’s current framework by requiring systemic risk assessments, algorithmic transparency, and independent oversight for very large online platforms.
 - `claim-005`: The UK Online Safety Act and Australia’s eSafety model introduce duty-of-care or safety-standard approaches that India has not yet adopted for attention-economy harms.
 - `claim-006`: Regulation is better at removing illegal content and protecting personal data than at changing the engagement metrics, ad-supported business models, and default designs that drive attention extraction.

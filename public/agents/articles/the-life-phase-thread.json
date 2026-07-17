@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-05",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "general",
     "students",
@@ -40,9 +40,9 @@
       "evidence": [
         {
           "sourceId": "source-aser-2024",
-          "snippet": "ASER 2024 finds that 76% of 14–16-year-olds use smartphones for social media while 57% use them for education, and only 8% of parents see children as addiction-free.",
+          "snippet": "82.2% of all children in the 14-16 age group reported knowing how to use a smartphone. Of these, 57% reported using it for an educational activity in the preceding week while 76% said that they had used it for social media during the same period.",
           "supports": "direct",
-          "assessedAt": "2026-07-05"
+          "assessedAt": "2026-07-17"
         },
         {
           "sourceId": "source-gallup-global-workplace-india",
@@ -77,16 +77,16 @@
           "assessedAt": "2026-07-05"
         },
         {
-          "sourceId": "source-aser-2024",
-          "snippet": "ASER 2024 reports only 8% of parents of 14–16-year-olds see their children as addiction-free.",
+          "sourceId": "source-localcircles-gadget-addiction-2023",
+          "snippet": "LocalCircles 2023 survey of urban parents: only 8% said their children (ages 9–17) are \"luckily not addicted to any of the above\" social media platforms, online games or entertainment.",
           "supports": "indirect",
-          "assessedAt": "2026-07-05"
+          "assessedAt": "2026-07-17"
         }
       ],
       "counterevidence": [
         {
-          "summary": "LocalCircles is a self-reported, urban, crowd-sourced survey and may over-represent concerned parents; ASER covers rural districts and different age framing.",
-          "assessedAt": "2026-07-05"
+          "summary": "LocalCircles is a self-reported, urban, crowd-sourced survey and may over-represent concerned parents; the 8% not-addicted figure comes from a 2023 survey wave and may have shifted since.",
+          "assessedAt": "2026-07-17"
         }
       ]
     },
@@ -258,6 +258,13 @@
       "url": "https://www.mdpi.com/2071-1050/16/17/7485",
       "type": "peer-reviewed-study",
       "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-localcircles-gadget-addiction-2023",
+      "title": "LocalCircles: Children Gadget Addiction Survey 2023",
+      "url": "https://www.localcircles.com/a/press/page/children-gadget-addiction-india",
+      "type": "survey",
+      "accessed": "2026-07-17"
     }
   ],
   "related": [
@@ -330,7 +337,7 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "738c73fe1a5cb46d123c7d9b52e19887acf36e270af5795c24dc5d651c66f3f3",
+  "contentHash": "5d8c46060057051bdf7cf9d440fc17b239e9884a28745c2a2528320a8b3bd6ed",
   "diagnostics": {
     "accepted": [
       {

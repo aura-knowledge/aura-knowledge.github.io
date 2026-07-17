@@ -6,7 +6,7 @@ slug: a-readers-guide-to-the-series
 title: "Agent Brief for 'A Reader''s Guide to the Series'"
 tokenBudget: 1500
 status: published
-updated: 2026-07-05
+updated: 2026-07-17
 ---
 
 ## Thesis
@@ -24,7 +24,7 @@ A reader's guide makes the series usable by mapping published articles to the qu
 
 - `claim-001`: The series is organized into six arcs that move from diagnosis through historical framing, the AI opportunity cost, individual practice, systemic design, and synthesis.
 - `claim-002`: The four seed articles cover the core arguments of diagnosis, generational stakes, individual practice, and systemic design.
-- `claim-003`: Most readers will find the series more useful if they enter by question or role rather than reading front to back.
+- `claim-003`: Most readers will find the series more useful if they enter by question or role rather than reading front to back, because the articles are designed to be self-contained.
 - `claim-004`: The series explicitly distinguishes India-specific survey data from global benchmarks and industry estimates.
 - `claim-005`: This guide links only to articles that are already published and will be updated as new articles go live.
 

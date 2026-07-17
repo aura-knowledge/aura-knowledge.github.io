@@ -1,24 +1,24 @@
 # Source 002
 
-**id:** source-eu-dma
-**title:** EU Digital Markets Act
-**url:** https://digital-strategy.ec.europa.eu/en/policies/digital-markets-act
+**id:** source-eu-dsa-art38
+**title:** Regulation (EU) 2022/2065 (Digital Services Act), Article 38 — Recommender systems
+**url:** https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065
 **type:** government-report
-**accessed:** 2026-07-05
+**accessed:** 2026-07-17
 
 ## Summary
 
-The Digital Markets Act (DMA) is European Union legislation targeting large online platforms designated as "gatekeepers." It imposes interoperability, data-portability, and user-choice obligations, including requirements that give users more control over how content is ranked and presented. The DMA establishes a regulatory direction toward user-chosen algorithms and less platform-imposed default ordering.
+Article 38 of the EU Digital Services Act obliges very large online platforms and search engines that use recommender systems to offer at least one option that is not based on profiling — a statutory basis for user-chosen (e.g., chronological) feed ranking.
 
 ## Relevance to claims
 
-- claim-003: Supports the argument that user-chosen algorithm modes are a viable regulatory and design direction.
+- claim-003: Direct support that user-chosen algorithm modes are a viable regulatory and design direction.
 - claim-004: Adds context that business-model conflicts may require regulatory pressure to overcome.
 
 ## Key snippet
 
-> "Gatekeepers shall... refrain from requiring business users to use, offer, or interoperate with an identification service of the gatekeeper."
+> "Providers of very large online platforms and of very large online search engines that use recommender systems shall provide at least one option for each of their recommender systems which is not based on profiling."
 
 ## Notes
 
-The DMA does not mandate chronological feeds directly. Its relevance to this article is structural: it treats dominant platforms as infrastructure and requires them to open defaults to competition and user choice. Specific implementation rules continue to evolve.
+Supersedes an earlier workspace entry that attributed this obligation to the EU Digital Markets Act; the correct instrument is the Digital Services Act, Article 38. Corrected 2026-07-17 in the meta#61 P1 sweep.

@@ -45,7 +45,7 @@
       "updatedAt": "2026-06-20",
       "claimCount": 5,
       "sourceCount": 13,
-      "tokenEstimate": 480,
+      "tokenEstimate": 507,
       "contentHash": "f266d04e23ea69c9a19a7e2e400af7b9a4b96bfa81d117765e3cb6e46f5a8e25"
     },
     {
@@ -246,7 +246,7 @@
       "updatedAt": "2026-06-20",
       "claimCount": 8,
       "sourceCount": 13,
-      "tokenEstimate": 707,
+      "tokenEstimate": 773,
       "contentHash": "5bd1220dab68c934e4e765ac3c87dfb2054668731c5f0c907c9732454242253e"
     },
     {
@@ -278,7 +278,7 @@
       "updatedAt": "2026-06-20",
       "claimCount": 7,
       "sourceCount": 18,
-      "tokenEstimate": 628,
+      "tokenEstimate": 648,
       "contentHash": "d852055f4b0a5abd15924735fd73242312304723715c3bc13efc099f0f23dc26"
     }
   ]

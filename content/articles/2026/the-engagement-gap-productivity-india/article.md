@@ -77,7 +77,7 @@ It is tempting to treat the engagement gap as a discipline problem. That reading
 
 <span id="claim-006" class="claim-marker" data-claim="claim-006">Claim C6</span> The combined cost of disengagement, distraction, and skill gaps is large enough to weigh on India's demographic-dividend ambitions; the problem is structural—shaped by work design, platform incentives, and managerial support—and not merely individual willpower.
 
-The Government of India's [Economic Survey 2025–26](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2) explicitly warned that digital addiction threatens the demographic dividend and carries "real economic and social costs." That framing, from the country's official economic document, moves the issue from lifestyle concern to development concern.
+The Government of India's [Economic Survey 2025–26](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931) explicitly warned that digital addiction threatens the demographic dividend and carries "real economic and social costs." That framing, from the country's official economic document, moves the issue from lifestyle concern to development concern.
 
 <h2 id="what-helps-what-we-dont-know">What Helps, What We Don't Know</h2>
 

@@ -6,7 +6,7 @@ slug: post-subscription-ai-assistant
 title: "Agent Brief for 'The Post-Subscription AI Assistant: What Apple Just Gave Indie Builders'"
 tokenBudget: 1500
 status: published
-updated: 2026-07-15
+updated: 2026-07-17
 ---
 
 ## Thesis
@@ -22,7 +22,7 @@ Apple's WWDC 2026 stack — Apple Intelligence, Private Cloud Compute, the Found
 
 ## Claims
 
-- `claim-001`: The `LanguageModel` protocol makes Apple's on-device models, PCC server models, Claude, and Gemini interchangeable behind the same `LanguageModelSession` API.
+- `claim-001`: The LanguageModel protocol makes Apple's on-device models, PCC server models, Claude, and Gemini interchangeable behind the same LanguageModelSession API.
 - `claim-002`: Private Cloud Compute is free for App Store Small Business Program developers with fewer than two million first-time App Store downloads, with a six-month migration window if crossed.
 - `claim-003`: PCC has measured daily request limits and is stateless, so apps must carry their own context and design for quotas.
 - `claim-004`: Apple's privacy walls block general cross-app data access, so winning assistants will architect context within their own domain and user-approved system data.

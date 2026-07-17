@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-05",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "general",
     "students",
@@ -229,10 +229,10 @@
     },
     {
       "id": "source-pib-economic-survey",
-      "title": "PIB: Economic Survey 2025-26 Press Release",
-      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2",
+      "title": "PIB: Economic Survey 2025-26 — Public Health, Digital Addiction and Mental Health (Release ID 2219931, 29 Jan 2026)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931",
       "type": "government-press-release",
-      "accessed": "2026-07-05"
+      "accessed": "2026-07-17"
     },
     {
       "id": "source-eu-dsa",

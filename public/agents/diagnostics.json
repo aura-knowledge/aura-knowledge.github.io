@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "generatedAt": "2026-07-17T00:00:00.000Z",
   "summary": {
-    "errors": 519,
+    "errors": 527,
     "warnings": 15,
-    "total": 534
+    "total": 542
   },
   "findings": [
     {
@@ -1131,6 +1131,11 @@
       "message": "2026/friction-chronological-feeds-user-chosen-algorithms: provenance agent \"drafting\" has identical inputHash and outputHash, which is impossible for real work."
     },
     {
+      "rule": "provenance-contentHash-mismatch",
+      "severity": "error",
+      "message": "2026/friction-chronological-feeds-user-chosen-algorithms: latest approved review contentHash does not match current article.md hash. Run npm run generate to refresh or re-approve."
+    },
+    {
       "rule": "published-claim-missing-verification",
       "severity": "error",
       "claimId": "claim-001",
@@ -2000,6 +2005,11 @@
       "message": "2026/sleep-anxiety-and-tele-manas: provenance agent \"drafting\" has identical inputHash and outputHash, which is impossible for real work."
     },
     {
+      "rule": "provenance-contentHash-mismatch",
+      "severity": "error",
+      "message": "2026/sleep-anxiety-and-tele-manas: latest approved review contentHash does not match current article.md hash. Run npm run generate to refresh or re-approve."
+    },
+    {
       "rule": "published-claim-missing-verification",
       "severity": "error",
       "claimId": "claim-001",
@@ -2103,6 +2113,11 @@
       "rule": "provenance-hash-equal",
       "severity": "error",
       "message": "2026/the-better-question: provenance agent \"drafting\" has identical inputHash and outputHash, which is impossible for real work."
+    },
+    {
+      "rule": "provenance-contentHash-mismatch",
+      "severity": "error",
+      "message": "2026/the-better-question: latest approved review contentHash does not match current article.md hash. Run npm run generate to refresh or re-approve."
     },
     {
       "rule": "published-claim-missing-verification",
@@ -2333,6 +2348,11 @@
       "message": "2026/the-engagement-gap-productivity-india: provenance agent \"drafting\" has identical inputHash and outputHash, which is impossible for real work."
     },
     {
+      "rule": "provenance-contentHash-mismatch",
+      "severity": "error",
+      "message": "2026/the-engagement-gap-productivity-india: latest approved review contentHash does not match current article.md hash. Run npm run generate to refresh or re-approve."
+    },
+    {
       "rule": "published-claim-missing-verification",
       "severity": "error",
       "claimId": "claim-001",
@@ -2514,6 +2534,11 @@
       "message": "2026/the-jio-effect-cheap-data-access-behavior: provenance agent \"drafting\" has identical inputHash and outputHash, which is impossible for real work."
     },
     {
+      "rule": "provenance-contentHash-mismatch",
+      "severity": "error",
+      "message": "2026/the-jio-effect-cheap-data-access-behavior: latest approved review contentHash does not match current article.md hash. Run npm run generate to refresh or re-approve."
+    },
+    {
       "rule": "published-claim-missing-verification",
       "severity": "error",
       "claimId": "claim-001",
@@ -2541,6 +2566,11 @@
       "rule": "provenance-hash-equal",
       "severity": "error",
       "message": "2026/the-life-phase-thread: provenance agent \"drafting\" has identical inputHash and outputHash, which is impossible for real work."
+    },
+    {
+      "rule": "provenance-contentHash-mismatch",
+      "severity": "error",
+      "message": "2026/the-life-phase-thread: latest approved review contentHash does not match current article.md hash. Run npm run generate to refresh or re-approve."
     },
     {
       "rule": "published-claim-missing-verification",
@@ -2588,6 +2618,11 @@
       "rule": "provenance-hash-equal",
       "severity": "error",
       "message": "2026/the-reel-nation-short-form-video: provenance agent \"drafting\" has identical inputHash and outputHash, which is impossible for real work."
+    },
+    {
+      "rule": "provenance-contentHash-mismatch",
+      "severity": "error",
+      "message": "2026/the-reel-nation-short-form-video: latest approved review contentHash does not match current article.md hash. Run npm run generate to refresh or re-approve."
     },
     {
       "rule": "published-claim-missing-verification",
@@ -2955,6 +2990,11 @@
       "rule": "provenance-hash-equal",
       "severity": "error",
       "message": "2026/what-ai-makes-cheap: provenance agent \"drafting\" has identical inputHash and outputHash, which is impossible for real work."
+    },
+    {
+      "rule": "provenance-contentHash-mismatch",
+      "severity": "error",
+      "message": "2026/what-ai-makes-cheap: latest approved review contentHash does not match current article.md hash. Run npm run generate to refresh or re-approve."
     },
     {
       "rule": "published-claim-missing-verification",

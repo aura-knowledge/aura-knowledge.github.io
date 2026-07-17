@@ -34,11 +34,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-jio-effect-cheap-data-access-behavior/",
       "agentJsonPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.json",
       "agentMarkdownPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
-      "sourceCount": 4,
+      "sourceCount": 5,
       "tokenEstimate": 372,
-      "contentHash": "a7e6c9e3bb5844fe3469c9ce849cbb547700d9f59e374a603c2292503261f273"
+      "contentHash": "c36715853be62bee203bbb19f19c6ab3c76ba1936f3fdd252ded566969a8eacf"
     }
   ]
 }

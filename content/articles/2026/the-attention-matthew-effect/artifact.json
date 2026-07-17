@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-06",
-  "updatedAt": "2026-07-06",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "general",
     "students",
@@ -81,9 +81,9 @@
       "evidence": [
         {
           "sourceId": "source-creatoriq-compensation-2026",
-          "snippet": "Top 10% of creators earned 62% of total payments; top 1% earned 21%; median campaign earnings were $3,000 vs. average of $11,400.",
+          "snippet": "The top 10% of creators earned 62% of total payments in 2025, up from 53% in 2023. The top 1% earned 21%, up from 15% in 2023. While creators earned an average of $11.4K per campaign, the median creator earned $3K, signaling limited gains for the majority of creators.",
           "supports": "direct",
-          "assessedAt": "2026-07-06"
+          "assessedAt": "2026-07-17"
         }
       ],
       "counterevidence": [
@@ -177,10 +177,10 @@
   "sources": [
     {
       "id": "source-creatoriq-compensation-2026",
-      "title": "CreatorIQ: State of Creator Compensation 2026",
-      "url": "https://www.creatoriq.com/state-of-creator-compensation-2026",
+      "title": "CreatorIQ: Top 10% of Creators Earned 62% of Payments in 2025 as Creator Compensation Inequality Widens (State of Creator Compensation, Jan 2026)",
+      "url": "https://www.creatoriq.com/press/releases/state-of-creator-compensation-",
       "type": "industry-report",
-      "accessed": "2026-07-06"
+      "accessed": "2026-07-17"
     },
     {
       "id": "source-bcg-creator-economy-2025",

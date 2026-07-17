@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-05",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "general",
     "students",
@@ -36,15 +36,15 @@
   "claims": [
     {
       "id": "claim-001",
-      "claim": "India has one of the world's largest short-form video user bases, with average daily use reaching 55–60 minutes per user.",
+      "claim": "India has one of the world's largest short-form video user bases, with daily active users spending up to 45 minutes a day in 2020 and average use projected to reach 55–60 minutes by 2025.",
       "confidence": "medium-high",
       "status": "core",
       "evidence": [
         {
           "sourceId": "source-bain-short-form-india",
-          "snippet": "Bain estimates that short-form video users in India spend an average of 55–60 minutes per day on these platforms.",
+          "snippet": "In India, the SFV market has taken off over the past two years, growing 3.5 times in user base and 12 times in total time spent by all users on SFV platforms; more than 200 million Indians watched SFVs at least once in 2020, with daily active users spending up to 45 minutes a day.",
           "supports": "direct",
-          "assessedAt": "2026-07-05"
+          "assessedAt": "2026-07-17"
         },
         {
           "sourceId": "source-iamai-kantar-2024",
@@ -71,12 +71,6 @@
           "snippet": "The Bain report describes the engagement architecture of short-form video, including autoplay, infinite feeds, and algorithmic recommendations.",
           "supports": "direct",
           "assessedAt": "2026-07-05"
-        },
-        {
-          "sourceId": "source-pmc-executive-control",
-          "snippet": "Research on short-form video use situates these design patterns within the broader literature on variable-reward and habit-forming interfaces.",
-          "supports": "background",
-          "assessedAt": "2026-07-05"
         }
       ],
       "counterevidence": [
@@ -100,9 +94,15 @@
         },
         {
           "sourceId": "source-pmc-executive-control",
-          "snippet": "A PMC study reported links between short-form video use and executive-function differences in young adults.",
+          "snippet": "Participants (N = 72) viewed either 30 min of TikTok-style content, a neutral documentary, or no video, followed by a task-switching paradigm; the short video group failed to leverage extended preparation time, indicating a selective disruption of goal-driven processing.",
           "supports": "direct",
-          "assessedAt": "2026-07-05"
+          "assessedAt": "2026-07-17"
+        },
+        {
+          "sourceId": "source-pmc-sleep-disruption-ef",
+          "snippet": "SVA was negatively associated with sleep quality, physical activity, and executive function; mediation analysis identified sleep quality as a significant partial mediator in the SVA–EF relationship, accounting for 8.11% of the total effect.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-17"
         }
       ],
       "counterevidence": [
@@ -142,10 +142,10 @@
   "sources": [
     {
       "id": "source-bain-short-form-india",
-      "title": "Bain & Company: Short-form video in India",
+      "title": "Bain & Company: Short-form video is poised to grow to 600 to 650 million users in India by 2025 (press release, Oct 2021)",
       "url": "https://www.bain.com/about/media-center/press-releases/2022/short-form-video-india/",
       "type": "industry-report",
-      "accessed": "2026-07-05"
+      "accessed": "2026-07-17"
     },
     {
       "id": "source-pmc-short-video-addiction",
@@ -156,10 +156,10 @@
     },
     {
       "id": "source-pmc-executive-control",
-      "title": "PMC: Short-form video use and executive function in young adults",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10876028/",
+      "title": "Luo et al.: Swiping Disrupts Switching: Preliminary Evidence for Reduced Cue-Based Preparation Following Short-Form Video Exposure (Behavioral Sciences, 2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12382645/",
       "type": "peer-reviewed-study",
-      "accessed": "2026-07-05"
+      "accessed": "2026-07-17"
     },
     {
       "id": "source-iamai-kantar-2024",
@@ -181,6 +181,13 @@
       "url": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf",
       "type": "government-report",
       "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-pmc-sleep-disruption-ef",
+      "title": "Xiao et al.: When Screens Replace Sleep: Short Video Addiction Impairs Executive Function Through Sleep Disruption in Youth—Is Physical Activity the Antidote? (Brain and Behavior, 2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13087538/",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-17"
     }
   ],
   "related": [
@@ -250,7 +257,7 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "e79e3653a0aa31910577f9cd85eb541b2733d9911e37fb961f2b359c0bf3d26d",
+  "contentHash": "00b8f82af3c16ef462ab739b78dd0009012d191bd848899111a124fbe021e8c1",
   "diagnostics": {
     "accepted": [
       {
@@ -267,7 +274,7 @@
   "agentMarkdownPath": "/agents/articles/the-reel-nation-short-form-video.md",
   "sourceRepoPath": "content/articles/2026/the-reel-nation-short-form-video/article.md",
   "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/the-reel-nation-short-form-video/article.md",
-  "tokenEstimate": 265,
+  "tokenEstimate": 283,
   "sectionOutline": [
     {
       "id": "the-scale-of-the-swipe",

@@ -6,7 +6,7 @@ slug: agentic-commerce-product-truth
 title: Agent Brief for "Agentic Commerce and the Product Truth Layer"
 tokenBudget: 2800
 status: published
-updated: 2026-06-18
+updated: 2026-07-17
 ---
 
 ## Thesis
@@ -19,19 +19,19 @@ Modern commerce still assumes a human is browsing product cards, ads, packaging,
 
 ## Claims
 
-- `claim-001`: Online commerce is still organized around human attention, even when AI is used for ranking and recommendations.
-- `claim-002`: Some brand loyalty is actually status quo bias plus choice overload.
-- `claim-003`: Commerce may move from attention capture toward delegated-intent shopping.
-- `claim-004`: Agentic commerce is likely to need richer product assurance data than current structured product listings.
-- `claim-005`: The healthiest product-truth layer should be open, contestable, provenance-rich, and forkable.
-- `claim-006`: Reviews can evolve into structured post-purchase experience packets.
+- `claim-001`: Modern online commerce is still largely organized around human attention, even when AI is used behind the scenes for targeting, ranking, and recommendation.
+- `claim-002`: Some brand loyalty is actually status quo bias plus choice overload: the customer sticks with a known product because the market has made exploration expensive.
+- `claim-003`: One plausible next commerce shift is from the attention economy to delegated-intent commerce: agents may increasingly translate user preferences into product discovery and purchase decisions.
+- `claim-004`: Agentic commerce is likely to need a product assurance layer richer than current product structured data, because agents need evidence, constraints, provenance, and user-fit signals rather than only titles, offers, ratings, and images.
+- `claim-005`: The healthiest version of agentic commerce is an open product-truth commons: a contestable, forkable, provenance-rich vocabulary for product claims, evidence, reviews, and buyer-agent preferences.
+- `claim-006`: Post-purchase feedback can evolve from star ratings into structured experience packets that preserve human judgment while making outcomes legible to agents.
 - `claim-007`: B2B agentic buying may move slower across complex purchases, but narrow recurring procurement categories can be stronger MVP wedges because outcomes are measurable.
-- `claim-008`: The incumbent-adjacent opportunity is to demonstrate new agentic behaviors that larger commerce platforms may adopt, adapt, or standardize around.
-- `claim-009`: Product trust should shift from review aggregation to adversarial claim ledgers.
-- `claim-010`: Offline buyers and small sellers need graded evidence tiers, not all-or-nothing verification.
-- `claim-011`: Product-truth infrastructure reduces the value of fake reviews but cannot eradicate manipulation.
-- `claim-012`: Private review entitlements should verify genuine purchase or use without linking public feedback to user identity, receipts, stores, accounts, or payment trails.
-- `claim-013`: Agentic commerce should expose a dual evidence surface: machine-readable claim ledgers for agents and human-readable social, media, community, and brand context for people.
+- `claim-008`: The strategic opportunity is not necessarily to replace commerce incumbents, but to demonstrate a concrete agentic behavior, such as buyer-aligned product switching backed by evidence packets and post-purchase feedback, that incumbents may later adopt, adapt, or standardize around.
+- `claim-009`: Agentic product trust should shift from review aggregation to adversarial claim ledgers: each product claim should carry source, scope, evidence, counter-evidence, incentive, expiry, and dispute state.
+- `claim-010`: A fair product-truth commons needs graded evidence tiers so offline buyers and small sellers can participate without pretending every attestation has the same trust weight.
+- `claim-011`: Product-truth infrastructure can reduce the value of fake reviews, but it cannot eradicate manipulation; it moves the battlefield from cheap text generation to collusion, credential abuse, data access, privacy leakage, and governance capture.
+- `claim-012`: Private review entitlements should separate purchase or use verification from public identity: the public system should verify an unlinkable, one-time entitlement token rather than linking a review to a user, receipt, store, or account.
+- `claim-013`: Agentic commerce should expose a dual evidence surface: machine-readable claim ledgers for agents and human-readable media, social, community, and brand context for final human judgment.
 - `claim-014`: Agentic product assurance should be built around signed, scoped, contestable claims about specific product identities, not aggregate reviews or universal truth labels.
 - `claim-015`: Robust agentic product assurance needs infrastructure beyond reviews and credentials: product identity/versioning, recall feeds, liability, auditors, decision receipts, dispute propagation, portability, red-team benchmarks, and accessible presentation.
 

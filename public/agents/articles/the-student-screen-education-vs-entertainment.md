@@ -6,7 +6,7 @@ slug: the-student-screen-education-vs-entertainment
 title: "Agent Brief for 'The Student Screen'"
 tokenBudget: 1500
 status: published
-updated: 2026-07-05
+updated: 2026-07-17
 ---
 
 ## Thesis
@@ -25,7 +25,7 @@ The smartphone has become the default study tool and entertainment console for I
 - `claim-001`: The smartphone has become the default study tool and entertainment console for Indian teenagers, but platform design and social incentives tilt daily use toward entertainment and social media, widening the gap between access to learning and actual learning.
 - `claim-002`: ASER 2024 reports that among 14–16-year-olds who can use a smartphone, 76% used it for social media in the reference week while 57% used it for education.
 - `claim-003`: The broader Indian internet-use mix is roughly 4:1 entertainment to education, suggesting that the student pattern reflects a national default rather than an adolescent quirk.
-- `claim-004`: Heavy daily screen time is common among Indian youth: industry and clinical studies estimate 6–9 hours per day for Gen Z, and a rural school study found 83% of secondary students exceeded the two-hour recommendation.
+- `claim-004`: Heavy daily screen time is common among Indian youth: one Indian review reports 4–5 hours per day for adolescents, and a rural school study found 83% of secondary students exceeded the two-hour recommendation.
 - `claim-005`: A LocalCircles survey of urban parents (n=57,000+) found that 49% of children aged 9–17 spend 3+ hours per day on social media, videos/OTT, and online games.
 - `claim-006`: NCERT's 2022 survey of roughly 379,000 students found 81% anxious about studies/exams and 43% reporting mood swings, showing the pressure context in which student screen use happens.
 - `claim-007`: Excessive screen time and night-time device use are associated with poorer sleep, concentration, and mental-health symptoms in Indian adolescents, though causality is not established.

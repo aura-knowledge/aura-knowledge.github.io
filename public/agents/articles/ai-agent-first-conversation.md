@@ -6,7 +6,7 @@ slug: ai-agent-first-conversation
 title: "Agent Brief for 'You Do Not Need to Learn AI First: A 5-Minute Conversation Recipe'"
 tokenBudget: 1200
 status: published
-updated: 2026-06-26
+updated: 2026-07-17
 ---
 
 ## Thesis
@@ -28,17 +28,10 @@ follow-up email, and action items.
 
 ## Claims
 
-- `claim-001`: A single model-agnostic starter prompt is a more effective
-  onboarding artifact for non-technical users than a feature list or vendor
-  tutorial.
-- `claim-002`: The AI agent itself can act as the tutor, so newcomers do not
-  need to study AI before they start using it.
-- `claim-003`: Suggesting the next question or direction after each answer
-  removes the blank-page problem and keeps the experience experiential rather
-  than instructional.
-- `claim-004`: Two short annotated transcripts are enough to teach the pattern:
-  one proving intelligence through document explanation, and one proving
-  productivity through one-input-multiple-outputs automation.
+- `claim-001`: A single model-agnostic starter prompt is a more effective onboarding artifact for non-technical users than a feature list or vendor tutorial.
+- `claim-002`: The AI agent itself can act as the tutor, so newcomers do not need to study AI before they start using it.
+- `claim-003`: Suggesting the next question or direction after each answer removes the blank-page problem and keeps the experience experiential rather than instructional.
+- `claim-004`: Two short annotated transcripts are enough to teach the pattern: one proving intelligence through document explanation, and one proving productivity through one-input-multiple-outputs automation.
 
 ## Source Families
 

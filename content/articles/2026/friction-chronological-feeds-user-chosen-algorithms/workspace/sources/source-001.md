@@ -1,24 +1,24 @@
 # Source 001
 
-**id:** source-penn-facebook-friction
-**title:** Penn/Stanford: The Effects of Facebook Feed Friction
-**url:** https://www.nber.org/papers/w30214
+**id:** source-pennycook-accuracy-prompts
+**title:** Pennycook et al.: Shifting attention to accuracy can reduce misinformation online (Nature, 2021)
+**url:** https://www.nature.com/articles/s41586-021-03344-2
 **type:** paper
-**accessed:** 2026-07-05
+**accessed:** 2026-07-17
 
 ## Summary
 
-NBER working paper by researchers at Penn and Stanford examining how friction in the Facebook feed affects sharing behavior. The study tests interventions such as prompts that ask users to reconsider before sharing content from low-credibility sources or articles they have not read. It finds that even lightweight friction can reduce the distribution of misinformation without preventing users from sharing.
+Nature study (Pennycook, Epstein, Mosleh, Arechar, Eckles & Rand, 2021) testing accuracy prompts in four survey experiments and a Twitter field experiment. Subtly shifting attention to accuracy increased the quality of news people subsequently shared — lightweight friction before sharing reduces misinformation spread without removing content.
 
 ## Relevance to claims
 
 - claim-002: Direct evidence that friction before sharing reduces misinformation spread.
-- claim-004: Indirect evidence that the intervention is not broadly deployed as a default, suggesting business-model constraints.
+- claim-004: Indirect evidence that such interventions are cheap to deploy yet not default, suggesting business-model constraints.
 
 ## Key snippet
 
-> "Small increases in the cost of sharing can lead to large reductions in the sharing of false content."
+> "we carried out four survey experiments and a field experiment on Twitter; the results show that subtly shifting attention to accuracy increases the quality of news that people subsequently share"
 
 ## Notes
 
-The paper uses a randomized design on the Facebook platform, so findings are causal within the experimental setting but may not generalize to all platforms or populations. The effect sizes are meaningful at scale but modest at the individual level.
+Supersedes an earlier workspace entry that cited a nonexistent "Penn/Stanford: The Effects of Facebook Feed Friction" (NBER w30214 — actually an ACA health-insurance paper). Corrected 2026-07-17 in the meta#61 P1 sweep. The experiments ran on Twitter, not Facebook; effect sizes are meaningful at scale, modest at the individual level.

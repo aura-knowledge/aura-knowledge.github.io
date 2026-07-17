@@ -55,13 +55,13 @@
       "summary": "Interprets Tele-MANAS call-volume data and adolescent mental-health surveys as a public-health signal, not a moral failing, and connects them to attention-extraction design.",
       "thesis": "Tele-MANAS and school-based mental-health surveys reveal a large, growing burden of anxiety, sleep disruption, and distress among young Indians; screen-heavy, notification-driven routines are one contributing factor among many.",
       "claims": [
-        "Tele-MANAS has received more than 32 lakh calls, with roughly 70% from people aged 18–45.",
+        "As of March 2026, Tele-MANAS had handled more than 34 lakh calls, with roughly 70% of callers aged 18–45.",
         "NCERT and state surveys report high rates of anxiety, mood disturbance, and sleep problems among Indian adolescents.",
         "Sleep disruption from evening screen use is one documented pathway between heavy smartphone use and next-day distress.",
         "Mental-health data should be read as a public-health signal shaped by design, economics, and social context, not as evidence of individual weakness."
       ],
       "sources": [
-        {"id": "source-tele-manas-pib", "title": "PIB: Tele-MANAS completes over 32 lakh calls", "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2045678", "type": "government-press-release"},
+        {"id": "source-tele-manas-usq-2806", "title": "MoHFW: Rajya Sabha Unstarred Question No. 2806 — Youth Mental Health Crisis (answered 17 March 2026)", "url": "https://sansad.in/getFile/annex/270/AU2806_g6EFgO.pdf?source=pqars", "type": "government-report"},
         {"id": "source-ncert-mental-health-2022", "title": "NCERT: Mental Health and Well-being of School Students Survey", "url": "https://ncert.nic.in/pdf/announcement/Mental_Health_Survey.pdf", "type": "government-report"},
         {"id": "source-pmc-sleep-screen", "title": "PMC: Screen time and sleep quality in adolescents", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7774621/", "type": "peer-reviewed-study"}
       ],
@@ -438,7 +438,7 @@
       "sources": [
         {"id": "source-mastodon", "title": "Mastodon: Federated Social Media", "url": "https://joinmastodon.org/", "type": "website"},
         {"id": "source-activitypub", "title": "W3C: ActivityPub Protocol", "url": "https://www.w3.org/TR/activitypub/", "type": "specification"},
-        {"id": "source-eu-dma", "title": "EU Digital Markets Act", "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-markets-act", "type": "government-report"}
+        {"id": "source-eu-dsa-art38", "title": "Regulation (EU) 2022/2065 (Digital Services Act), Article 38 — Recommender systems", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065", "type": "government-report"}
       ],
       "visualization": "network-effect-lock-in"
     },
@@ -456,7 +456,7 @@
         "These changes are technically feasible but often conflict with ad-supported business models."
       ],
       "sources": [
-        {"id": "source-penn-facebook-friction", "title": "Penn/Stanford: The Effects of Facebook Feed Friction", "url": "https://www.nber.org/papers/w30214", "type": "paper"},
+        {"id": "source-pennycook-accuracy-prompts", "title": "Pennycook et al.: Shifting attention to accuracy can reduce misinformation online (Nature, 2021)", "url": "https://www.nature.com/articles/s41586-021-03344-2", "type": "paper"},
         {"id": "source-twitter-chronological", "title": "Twitter: Chronological timeline option", "url": "https://help.twitter.com/en/using-x/home-timeline", "type": "website"},
         {"id": "source-instagram-well-being", "title": "Instagram: Hidden likes and well-being research", "url": "https://about.instagram.com/blog/announcements/instagram-well-being-research", "type": "article"}
       ],

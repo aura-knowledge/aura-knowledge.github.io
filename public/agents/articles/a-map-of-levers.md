@@ -6,7 +6,7 @@ slug: a-map-of-levers
 title: "Agent Brief for 'A Map of Levers'"
 tokenBudget: 1500
 status: published
-updated: 2026-07-05
+updated: 2026-07-17
 ---
 
 ## Thesis
@@ -24,7 +24,7 @@ India's attention crisis is not solvable by any single actor, but it is movable 
 ## Claims
 
 - `claim-001`: India's attention crisis is not solvable by any single actor, but it is movable by the combined leverage of individuals, households, platforms, investors, regulators, and citizens making substance-oriented choices at each layer.
-- `claim-002`: The public evidence converges on a single diagnosis: India has built near-universal digital access, but the dominant use of that access is entertainment and social extraction rather than education, work, creation, or rest.
+- `claim-002`: India has built near-universal digital access, but the dominant use of that access is entertainment and social extraction rather than education, work, creation, or rest.
 - `claim-003`: Individual attention practices can reduce personal extraction, but their effect is bounded by platform defaults, social norms, and economic pressure; they work best when supported by household and design changes.
 - `claim-004`: Platform design is the highest-leverage intervention in the attention economy because a single design default can reshape the behaviour of millions of users at once.
 - `claim-005`: Investor pressure can shift platform incentives when fiduciaries begin to value long-term attention quality, civic trust, and user autonomy alongside reach and revenue.

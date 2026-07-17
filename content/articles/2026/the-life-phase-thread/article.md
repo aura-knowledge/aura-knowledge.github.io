@@ -29,7 +29,7 @@ A teenager's fight with a feed is not the same as a young worker's interrupted f
 
 <h2 id="childhood">Childhood: The First Default</h2>
 
-The earliest exposure often happens through a parent's phone. By the time children reach their teens, the device is no longer borrowed; it is expected. A 2025 LocalCircles survey of more than 57,000 urban parents found that **49% of children aged 9–17 spend three or more hours a day on social media, video streaming, or online games**, and 22% of parents reported more than six hours a day. <span id="claim-002" class="claim-marker" data-claim="claim-002">Claim C2</span> ASER 2024 adds a sharper note: among parents of 14–16-year-olds, only **8% saw their children as free of smartphone addiction**.
+The earliest exposure often happens through a parent's phone. By the time children reach their teens, the device is no longer borrowed; it is expected. A 2025 LocalCircles survey of more than 57,000 urban parents found that **49% of children aged 9–17 spend three or more hours a day on social media, video streaming, or online games**, and 22% of parents reported more than six hours a day. <span id="claim-002" class="claim-marker" data-claim="claim-002">Claim C2</span> An earlier LocalCircles survey adds a sharper note: in 2023, among urban parents of children aged 9–17, only **8% said their children were free of addiction to social media, online games, or entertainment**.
 
 These numbers do not mean that every hour on a screen is harmful. They do mean that the default environment for growing up in India is now entertainment-first and friction-light. For most children, the phone arrives before the skill of choosing what to do with it.
 

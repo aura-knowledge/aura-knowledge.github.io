@@ -76,11 +76,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/sleep-anxiety-and-tele-manas/",
       "agentJsonPath": "/agents/articles/sleep-anxiety-and-tele-manas.json",
       "agentMarkdownPath": "/agents/articles/sleep-anxiety-and-tele-manas.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
-      "sourceCount": 4,
-      "tokenEstimate": 289,
-      "contentHash": "e8ccd9151baf4e024b495b460d573216a555cab229668ef062e22caa22d02be3"
+      "sourceCount": 5,
+      "tokenEstimate": 295,
+      "contentHash": "f8a2d65f399946e629846ed6b35900e8cf8460a2926577fc798721eae84fc6e7"
     },
     {
       "id": "article:the-attention-extraction",
@@ -109,7 +109,7 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
       "agentJsonPath": "/agents/articles/the-attention-extraction.json",
       "agentMarkdownPath": "/agents/articles/the-attention-extraction.md",
-      "updatedAt": "2026-07-04",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
       "sourceCount": 14,
       "tokenEstimate": 674,
@@ -144,11 +144,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-reel-nation-short-form-video/",
       "agentJsonPath": "/agents/articles/the-reel-nation-short-form-video.json",
       "agentMarkdownPath": "/agents/articles/the-reel-nation-short-form-video.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
-      "sourceCount": 6,
-      "tokenEstimate": 265,
-      "contentHash": "e79e3653a0aa31910577f9cd85eb541b2733d9911e37fb961f2b359c0bf3d26d"
+      "sourceCount": 7,
+      "tokenEstimate": 283,
+      "contentHash": "00b8f82af3c16ef462ab739b78dd0009012d191bd848899111a124fbe021e8c1"
     },
     {
       "id": "article:the-student-screen-education-vs-entertainment",
@@ -177,10 +177,10 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
       "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
       "agentMarkdownPath": "/agents/articles/the-student-screen-education-vs-entertainment.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 8,
       "sourceCount": 10,
-      "tokenEstimate": 796,
+      "tokenEstimate": 793,
       "contentHash": "ef94b4d3b4278ba525440d5ece26522a3d391e42b5b85fa059fc5338fb4e3cf1"
     }
   ]

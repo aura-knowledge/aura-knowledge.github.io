@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-05",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "general",
     "students",
@@ -67,10 +67,10 @@
       "status": "design",
       "evidence": [
         {
-          "sourceId": "source-penn-facebook-friction",
-          "snippet": "A Penn/Stanford study of Facebook users found that small delays and prompts asking users to reconsider sharing reduced the spread of misleading content.",
+          "sourceId": "source-pennycook-accuracy-prompts",
+          "snippet": "we carried out four survey experiments and a field experiment on Twitter; the results show that subtly shifting attention to accuracy increases the quality of news that people subsequently share",
           "supports": "direct",
-          "assessedAt": "2026-07-05"
+          "assessedAt": "2026-07-17"
         },
         {
           "sourceId": "source-instagram-well-being",
@@ -93,10 +93,10 @@
       "status": "design",
       "evidence": [
         {
-          "sourceId": "source-eu-dma",
-          "snippet": "The EU Digital Markets Act requires large platforms to increase interoperability and user choice around data and ranking, establishing user-chosen algorithms as a regulatory direction.",
+          "sourceId": "source-eu-dsa-art38",
+          "snippet": "Providers of very large online platforms and of very large online search engines that use recommender systems shall provide at least one option for each of their recommender systems which is not based on profiling as defined in Article 4, point (4), of Regulation (EU) 2016/679.",
           "supports": "indirect",
-          "assessedAt": "2026-07-05"
+          "assessedAt": "2026-07-17"
         },
         {
           "sourceId": "source-twitter-chronological",
@@ -125,7 +125,7 @@
           "assessedAt": "2026-07-05"
         },
         {
-          "sourceId": "source-penn-facebook-friction",
+          "sourceId": "source-pennycook-accuracy-prompts",
           "snippet": "Experimental evidence that friction reduces sharing has not been matched by default deployment, indicating a business-model constraint rather than a technical one.",
           "supports": "indirect",
           "assessedAt": "2026-07-05"
@@ -141,11 +141,11 @@
   ],
   "sources": [
     {
-      "id": "source-penn-facebook-friction",
-      "title": "Penn/Stanford: The Effects of Facebook Feed Friction",
-      "url": "https://www.nber.org/papers/w30214",
+      "id": "source-pennycook-accuracy-prompts",
+      "title": "Pennycook et al.: Shifting attention to accuracy can reduce misinformation online (Nature, 2021)",
+      "url": "https://www.nature.com/articles/s41586-021-03344-2",
       "type": "paper",
-      "accessed": "2026-07-05"
+      "accessed": "2026-07-17"
     },
     {
       "id": "source-twitter-chronological",
@@ -162,11 +162,11 @@
       "accessed": "2026-07-05"
     },
     {
-      "id": "source-eu-dma",
-      "title": "EU Digital Markets Act",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-markets-act",
+      "id": "source-eu-dsa-art38",
+      "title": "Regulation (EU) 2022/2065 (Digital Services Act), Article 38 — Recommender systems",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065",
       "type": "government-report",
-      "accessed": "2026-07-05"
+      "accessed": "2026-07-17"
     },
     {
       "id": "source-pew-social-media",
@@ -235,5 +235,5 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "21521e52b917b8a7564cddfdbfaf85536a76943b744c02e3c161db15cd5cc3ef"
+  "contentHash": "762bff6be771c33eb2fcb253a58a2e9c5d4f2c8b28902a9935b7e1cf8654d2ec"
 }

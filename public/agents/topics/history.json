@@ -39,10 +39,10 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
       "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
       "agentMarkdownPath": "/agents/articles/from-penny-press-to-infinite-scroll.md",
-      "updatedAt": "2026-07-06",
+      "updatedAt": "2026-07-17",
       "claimCount": 7,
       "sourceCount": 6,
-      "tokenEstimate": 114,
+      "tokenEstimate": 562,
       "contentHash": "6976a5dfa301eefca54a6613a7ac161950bbff440aabe4bfcc3b9f4a372405f4"
     },
     {
@@ -177,11 +177,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-jio-effect-cheap-data-access-behavior/",
       "agentJsonPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.json",
       "agentMarkdownPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
-      "sourceCount": 4,
+      "sourceCount": 5,
       "tokenEstimate": 372,
-      "contentHash": "a7e6c9e3bb5844fe3469c9ce849cbb547700d9f59e374a603c2292503261f273"
+      "contentHash": "c36715853be62bee203bbb19f19c6ab3c76ba1936f3fdd252ded566969a8eacf"
     },
     {
       "id": "article:tobacco-seatbelts-food-safety",

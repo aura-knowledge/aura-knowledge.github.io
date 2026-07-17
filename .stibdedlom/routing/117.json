@@ -1,0 +1,31 @@
+{
+  "schema_version": "sdl-routing-attestation@2",
+  "issue": 117,
+  "chain_id": "117",
+  "node_id": "117",
+  "goal": "[meta#61 P1] Evidence integrity sweep: citations, agent briefs, verification lifecycle",
+  "allowed_paths": [
+    "scripts",
+    "schemas",
+    "content",
+    "public",
+    "package.json"
+  ],
+  "envelope_hash": "sha256:fb9196a58349deab49299243138d43da7b445c2325bf28f329ece72e4e6013ff",
+  "policy_ref": ".stibdedlom/invocation-policy.yaml",
+  "manifest_path": ".stibdedlom/manifest.yaml",
+  "base_ref": "fix/issue-117-evidence-integrity-p1",
+  "created_at": "2026-07-17T08:49:31.013016+00:00",
+  "expires_at": "2026-07-24T08:49:31.013016+00:00",
+  "kid": "rk-2026-07-11-27bdb969",
+  "algorithm": "ed25519",
+  "runtime_binding": {
+    "branch": "fix/issue-117-evidence-integrity-p1",
+    "worktree_path": "/Users/vishalsingh/Documents/v-i-s-h-a-l/aura-knowledge/site-verification-gates",
+    "base_sha": "7a4601c2a7196b07d26f7fc665c2dcd5a6304655",
+    "base_ref": "fix/issue-117-evidence-integrity-p1",
+    "max_commits_ahead": 50
+  },
+  "capability": "capability-client-orchestrator",
+  "signature": "ed25519:Pym5mOpO0xu+oNUn2BF3qMVtpNLFpooyKYNgof4zjejvfTJ2g0fShyJ0TVvvu92ujw4PsoOTCqShPhx4zchiAA=="
+}

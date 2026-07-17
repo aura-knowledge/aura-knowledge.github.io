@@ -73,7 +73,7 @@
       "updatedAt": "2026-06-20",
       "claimCount": 7,
       "sourceCount": 18,
-      "tokenEstimate": 628,
+      "tokenEstimate": 648,
       "contentHash": "d852055f4b0a5abd15924735fd73242312304723715c3bc13efc099f0f23dc26"
     },
     {
@@ -103,10 +103,10 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
       "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
       "agentMarkdownPath": "/agents/articles/the-student-screen-education-vs-entertainment.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 8,
       "sourceCount": 10,
-      "tokenEstimate": 796,
+      "tokenEstimate": 793,
       "contentHash": "ef94b4d3b4278ba525440d5ece26522a3d391e42b5b85fa059fc5338fb4e3cf1"
     },
     {

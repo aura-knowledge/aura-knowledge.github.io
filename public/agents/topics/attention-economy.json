@@ -88,10 +88,10 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
       "agentJsonPath": "/agents/articles/a-map-of-levers.json",
       "agentMarkdownPath": "/agents/articles/a-map-of-levers.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 8,
       "sourceCount": 13,
-      "tokenEstimate": 860,
+      "tokenEstimate": 850,
       "contentHash": "6f361b3969e6d350c7c0af935801c329a62bd65a0fb4a9689d43672c369ad00f"
     },
     {
@@ -122,7 +122,7 @@
       "updatedAt": "2026-07-05",
       "claimCount": 5,
       "sourceCount": 7,
-      "tokenEstimate": 532,
+      "tokenEstimate": 543,
       "contentHash": "9a4cba9103f7f8abdd9b275013c8a883635d88fbda37325216e7767a0140eb59"
     },
     {
@@ -159,7 +159,7 @@
       "updatedAt": "2026-07-05",
       "claimCount": 5,
       "sourceCount": 5,
-      "tokenEstimate": 225,
+      "tokenEstimate": 292,
       "contentHash": "a546bd6f8a1c89e8d2fc8642d920c6b5326377cabfdec6332b849e1dd5c7abe4"
     },
     {
@@ -322,7 +322,7 @@
       "updatedAt": "2026-07-05",
       "claimCount": 5,
       "sourceCount": 20,
-      "tokenEstimate": 504,
+      "tokenEstimate": 519,
       "contentHash": "638f59058b3f8eab4574cbad934bed651dd925f62ef76a7f5e647b525fb50193"
     },
     {
@@ -355,7 +355,7 @@
       "updatedAt": "2026-07-05",
       "claimCount": 4,
       "sourceCount": 5,
-      "tokenEstimate": 304,
+      "tokenEstimate": 322,
       "contentHash": "6a393859a7b5f8c68f9d6b663a8c104f9381878194747a5b6056966d4ff6e7e8"
     },
     {
@@ -416,10 +416,10 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
       "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
       "agentMarkdownPath": "/agents/articles/by-the-numbers-what-indians-do-online.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 7,
       "sourceCount": 12,
-      "tokenEstimate": 739,
+      "tokenEstimate": 742,
       "contentHash": "fcf6ac5f114e1e55afc7a19730472993c0cd7613be40a7771e9fdb1adbac4abc"
     },
     {
@@ -452,7 +452,7 @@
       "updatedAt": "2026-07-06",
       "claimCount": 7,
       "sourceCount": 5,
-      "tokenEstimate": 114,
+      "tokenEstimate": 503,
       "contentHash": "9d48635b5b5127574f77ba1c89aa1f5f200188793373e23a601ddf4e3a9bfe5a"
     },
     {
@@ -485,7 +485,7 @@
       "updatedAt": "2026-07-04",
       "claimCount": 5,
       "sourceCount": 7,
-      "tokenEstimate": 597,
+      "tokenEstimate": 644,
       "contentHash": "776a597d5a9045184d75499b50b88b35a5a7ef2378a72ce17e300f6967a070c3"
     },
     {
@@ -515,7 +515,7 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
       "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
       "agentMarkdownPath": "/agents/articles/engagement-is-a-design-choice.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 879,
@@ -589,11 +589,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
       "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json",
       "agentMarkdownPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
       "sourceCount": 5,
-      "tokenEstimate": 277,
-      "contentHash": "21521e52b917b8a7564cddfdbfaf85536a76943b744c02e3c161db15cd5cc3ef"
+      "tokenEstimate": 283,
+      "contentHash": "762bff6be771c33eb2fcb253a58a2e9c5d4f2c8b28902a9935b7e1cf8654d2ec"
     },
     {
       "id": "article:from-penny-press-to-infinite-scroll",
@@ -622,10 +622,10 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
       "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
       "agentMarkdownPath": "/agents/articles/from-penny-press-to-infinite-scroll.md",
-      "updatedAt": "2026-07-06",
+      "updatedAt": "2026-07-17",
       "claimCount": 7,
       "sourceCount": 6,
-      "tokenEstimate": 114,
+      "tokenEstimate": 562,
       "contentHash": "6976a5dfa301eefca54a6613a7ac161950bbff440aabe4bfcc3b9f4a372405f4"
     },
     {
@@ -835,7 +835,7 @@
       "updatedAt": "2026-07-15",
       "claimCount": 14,
       "sourceCount": 13,
-      "tokenEstimate": 1161,
+      "tokenEstimate": 1369,
       "contentHash": "94fdce2ea87a40ad99477d3e2ced72284d4702de9f713d788f5b05e842a776fa"
     },
     {
@@ -934,7 +934,7 @@
       "updatedAt": "2026-07-05",
       "claimCount": 7,
       "sourceCount": 9,
-      "tokenEstimate": 747,
+      "tokenEstimate": 751,
       "contentHash": "f27b70499ea313a69588d6ad39220eda04243bb0e25eb05587b79e9d7183ed89"
     },
     {
@@ -965,11 +965,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/sleep-anxiety-and-tele-manas/",
       "agentJsonPath": "/agents/articles/sleep-anxiety-and-tele-manas.json",
       "agentMarkdownPath": "/agents/articles/sleep-anxiety-and-tele-manas.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
-      "sourceCount": 4,
-      "tokenEstimate": 289,
-      "contentHash": "e8ccd9151baf4e024b495b460d573216a555cab229668ef062e22caa22d02be3"
+      "sourceCount": 5,
+      "tokenEstimate": 295,
+      "contentHash": "f8a2d65f399946e629846ed6b35900e8cf8460a2926577fc798721eae84fc6e7"
     },
     {
       "id": "article:the-attention-extraction",
@@ -998,7 +998,7 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
       "agentJsonPath": "/agents/articles/the-attention-extraction.json",
       "agentMarkdownPath": "/agents/articles/the-attention-extraction.md",
-      "updatedAt": "2026-07-04",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
       "sourceCount": 14,
       "tokenEstimate": 674,
@@ -1031,10 +1031,10 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
       "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
       "agentMarkdownPath": "/agents/articles/the-attention-matthew-effect.md",
-      "updatedAt": "2026-07-06",
+      "updatedAt": "2026-07-17",
       "claimCount": 7,
       "sourceCount": 6,
-      "tokenEstimate": 114,
+      "tokenEstimate": 534,
       "contentHash": "c46ccd41d164bb9938811546da3651408b84b298db94adfa5dd8e24d739243a9"
     },
     {
@@ -1062,11 +1062,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
       "agentJsonPath": "/agents/articles/the-better-question.json",
       "agentMarkdownPath": "/agents/articles/the-better-question.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 7,
       "sourceCount": 7,
-      "tokenEstimate": 797,
-      "contentHash": "5b2dd30ccbdc6b8a0062de9648d4799310202bc46b06a4207a56aba88f3eef70"
+      "tokenEstimate": 798,
+      "contentHash": "3f8e5a55e42cd999da572d6156f4d8b6ad5e1bc35a1996f49613791c535c95f3"
     },
     {
       "id": "article:the-citizens-garden",
@@ -1100,7 +1100,7 @@
       "updatedAt": "2026-07-05",
       "claimCount": 4,
       "sourceCount": 4,
-      "tokenEstimate": 307,
+      "tokenEstimate": 315,
       "contentHash": "48249a1f571fa817161271612ebe803b794eedd8dc4389c16393b972dde65d1c"
     },
     {
@@ -1198,7 +1198,7 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-demographic-dividend-is-not-automatic/",
       "agentJsonPath": "/agents/articles/the-demographic-dividend-is-not-automatic.json",
       "agentMarkdownPath": "/agents/articles/the-demographic-dividend-is-not-automatic.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 185,
@@ -1264,11 +1264,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
       "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json",
       "agentMarkdownPath": "/agents/articles/the-engagement-gap-productivity-india.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 7,
       "sourceCount": 9,
       "tokenEstimate": 885,
-      "contentHash": "c6559982b5bafcebb56f9a83f05dfa123b3000a3c2652673a7aab96516e8eaa7"
+      "contentHash": "7037d815e4a17cda07eb01aaca1aebae845447aed1b4bf42b856b795f4db753c"
     },
     {
       "id": "article:the-familys-garden",
@@ -1429,11 +1429,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-jio-effect-cheap-data-access-behavior/",
       "agentJsonPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.json",
       "agentMarkdownPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
-      "sourceCount": 4,
+      "sourceCount": 5,
       "tokenEstimate": 372,
-      "contentHash": "a7e6c9e3bb5844fe3469c9ce849cbb547700d9f59e374a603c2292503261f273"
+      "contentHash": "c36715853be62bee203bbb19f19c6ab3c76ba1936f3fdd252ded566969a8eacf"
     },
     {
       "id": "article:the-life-phase-thread",
@@ -1460,11 +1460,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
       "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
       "agentMarkdownPath": "/agents/articles/the-life-phase-thread.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 7,
-      "sourceCount": 7,
+      "sourceCount": 8,
       "tokenEstimate": 690,
-      "contentHash": "738c73fe1a5cb46d123c7d9b52e19887acf36e270af5795c24dc5d651c66f3f3"
+      "contentHash": "5d8c46060057051bdf7cf9d440fc17b239e9884a28745c2a2528320a8b3bd6ed"
     },
     {
       "id": "article:the-reel-nation-short-form-video",
@@ -1495,11 +1495,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-reel-nation-short-form-video/",
       "agentJsonPath": "/agents/articles/the-reel-nation-short-form-video.json",
       "agentMarkdownPath": "/agents/articles/the-reel-nation-short-form-video.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
-      "sourceCount": 6,
-      "tokenEstimate": 265,
-      "contentHash": "e79e3653a0aa31910577f9cd85eb541b2733d9911e37fb961f2b359c0bf3d26d"
+      "sourceCount": 7,
+      "tokenEstimate": 283,
+      "contentHash": "00b8f82af3c16ef462ab739b78dd0009012d191bd848899111a124fbe021e8c1"
     },
     {
       "id": "article:the-small-rep-theory",
@@ -1561,10 +1561,10 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
       "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
       "agentMarkdownPath": "/agents/articles/the-student-screen-education-vs-entertainment.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 8,
       "sourceCount": 10,
-      "tokenEstimate": 796,
+      "tokenEstimate": 793,
       "contentHash": "ef94b4d3b4278ba525440d5ece26522a3d391e42b5b85fa059fc5338fb4e3cf1"
     },
     {
@@ -1773,11 +1773,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
       "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
       "agentMarkdownPath": "/agents/articles/what-ai-makes-cheap.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 778,
-      "contentHash": "264b2f4d83d62522d93394f82867db70f7c874016f74b377ce9cdc585dfa8269"
+      "contentHash": "fe2c2d3c4f380726825fb1592daf12580bf199a21d223a8f6e9b37b05671a685"
     },
     {
       "id": "article:what-india-is-building-vs-could-build",
@@ -1874,10 +1874,10 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
       "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
       "agentMarkdownPath": "/agents/articles/why-good-content-loses-to-loud-content.md",
-      "updatedAt": "2026-07-06",
+      "updatedAt": "2026-07-17",
       "claimCount": 6,
       "sourceCount": 7,
-      "tokenEstimate": 524,
+      "tokenEstimate": 535,
       "contentHash": "8a50b59d1f86dc1e261cf824a610abebf67ec10b18ec1a93833d46e8cda1edfe"
     }
   ]

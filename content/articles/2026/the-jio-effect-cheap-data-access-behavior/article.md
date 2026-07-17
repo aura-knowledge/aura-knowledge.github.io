@@ -37,10 +37,10 @@ The price drop was not a marginal improvement. It was a phase transition. A reso
 ```mermaid
 timeline
     title From Jio launch to data-abundant India
+    2015 : India surpasses 400 million internet users (IAMAI–IMRB)
     2016 : Reliance Jio launches commercial services
          : Indian mobile-data prices collapse to among the world's lowest
     2018 : Cheap mobile data becomes the new normal across India
-    2020 : India surpasses 400 million internet users
     2024 : India reaches approximately 886 million internet users
 ```
 
@@ -58,7 +58,7 @@ But access is a necessary condition, not a sufficient one. The same low-cost sma
 
 <h2 id="the-behavior-that-followed">The Behavior That Followed</h2>
 
-The shape of Indian internet use after 2016 is well documented. Entertainment, social media, and messaging absorbed the largest share of time. Short-form video, in particular, grew from a niche format to a national pastime. Industry reports describe Indian users spending close to an hour a day in short-form feeds alone. Gaming and messaging expanded in parallel, turning the smartphone into a portable theater, arcade, and gossip circle.
+The shape of Indian internet use after 2016 is well documented. Entertainment, social media, and messaging absorbed the largest share of time. Short-form video, in particular, grew from a niche format to a national pastime. Industry reports measured daily active users spending up to 45 minutes a day in 2020, with average use projected to reach 55–60 minutes by 2025. Gaming and messaging expanded in parallel, turning the smartphone into a portable theater, arcade, and gossip circle.
 
 <span id="claim-003" class="claim-marker" data-claim="claim-003">Claim C3</span> The same low-cost data enabled a surge in short-form video, gaming, and messaging.
 

@@ -100,7 +100,7 @@ This is the hinge the series keeps returning to. India did not accidentally buil
 
 This article synthesizes evidence and arguments from earlier articles in the *Attention, Substance, and the AI Moment* series, particularly the Designing for Substance arc. It also draws directly on:
 
-- The Government of India's [Economic Survey 2025–26 press release](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2), which flags digital addiction among children and youth as a public-health concern with economic consequences.
+- The Government of India's [Economic Survey 2025–26 press release](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931), which flags digital addiction among children and youth as a public-health concern with economic consequences.
 - NCAER's [India Human Development Survey Wave 3](https://ncaer.org/wp-content/uploads/2026/06/NCAER_Report_June_26.pdf), a nationally representative survey finding a 4:1 entertainment-to-education internet-use ratio.
 - [ASER 2024 National Findings](https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf), reporting adolescent smartphone-use patterns.
 - Gallup's [State of the Global Workplace: India Country-Level Data](https://www.gallup.com/workplace/705650/state-global-workplace-india-country-level-data.aspx), with India's 2025 employee-engagement rate at 23%.
