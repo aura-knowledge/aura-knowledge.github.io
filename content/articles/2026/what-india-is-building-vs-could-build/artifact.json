@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-05",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "general",
     "students",
@@ -53,7 +53,13 @@
           "summary": "The 11.74% figure is an estimate based on a specific methodology; different definitions of the digital economy produce different shares, and the services-heavy composition is consistent across methodologies.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -73,7 +79,13 @@
           "summary": "Sector classifications vary across reports, and some consumer platforms also build logistics, payments, and data infrastructure that benefits other sectors.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -99,7 +111,13 @@
           "summary": "India has active public initiatives such as IndiaAI and semiconductor incentives, and deep-tech funding is growing from a small base; the gap is relative, not absolute.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -125,7 +143,13 @@
           "summary": "Some countries have built strong AI ecosystems through applied innovation and platform adoption without leading in foundational models; readiness can be defined in multiple ways.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -187,15 +211,7 @@
   "provenance": {
     "createdAt": "2026-07-05",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-05",
-        "inputHash": "sha256:f3e05edc3ab6ca368b9b34bced05229f64983b4c1d5cb92eeaa21710e2416d66",
-        "outputHash": "sha256:f3e05edc3ab6ca368b9b34bced05229f64983b4c1d5cb92eeaa21710e2416d66"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",

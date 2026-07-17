@@ -57,7 +57,13 @@
           "summary": "Price comparisons depend on plan type, network quality, and purchasing-power adjustments; 'among the lowest' is a relative claim that can shift with methodology.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -83,7 +89,13 @@
           "summary": "User counts are estimates that vary across reports; 'added hundreds of millions' reflects net growth over several years and includes users who may have multiple connections or inactive accounts.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -109,7 +121,13 @@
           "summary": "Low-cost data enabled many kinds of use, including education, banking, and telemedicine; the surge in entertainment is a pattern, not the only outcome, and causality is shaped by platform design and user choice.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -135,7 +153,13 @@
           "summary": "Productivity and learning uses are growing too; the ratio, not the existence of productive use, is the concern, and redirecting use requires changes in design, incentives, and norms, not just infrastructure.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -202,15 +226,7 @@
   "provenance": {
     "createdAt": "2026-07-05",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-05",
-        "inputHash": "sha256:dae3dc95301e21d9fd3983bdbc97036591c08787565a042182aa0db9059c4ca7",
-        "outputHash": "sha256:dae3dc95301e21d9fd3983bdbc97036591c08787565a042182aa0db9059c4ca7"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",
@@ -225,6 +241,16 @@
         ],
         "notes": "Human author approved publication.",
         "contentHash": "a7e6c9e3bb5844fe3469c9ce849cbb547700d9f59e374a603c2292503261f273"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-17",
+        "status": "approved",
+        "scope": [
+          "article"
+        ],
+        "notes": "Re-approved by maintainer after the meta#61 P1 citation repairs (publish instruction, 2026-07-17).",
+        "contentHash": "c36715853be62bee203bbb19f19c6ab3c76ba1936f3fdd252ded566969a8eacf"
       }
     ],
     "policy": {

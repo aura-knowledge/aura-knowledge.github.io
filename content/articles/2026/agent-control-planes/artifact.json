@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "contested",
   "publishedAt": "2026-06-26",
-  "updatedAt": "2026-06-26",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "builders",
     "researchers"
@@ -61,7 +61,13 @@
           "summary": "No canonical definition of 'control plane' exists, so vendor claims may describe very different capability sets, from thin routers to thick frameworks to enterprise governance consoles.",
           "assessedAt": "2026-06-26"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -91,7 +97,13 @@
           "summary": "Token-level gating optimizes for training throughput and capacity, while agent routing must also enforce policies, produce audit trails, and handle human escalation.",
           "assessedAt": "2026-06-26"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -133,7 +145,13 @@
           "summary": "RouterBench and similar evaluations primarily measure accuracy and cost, often underweighting reliability, policy compliance, and latency.",
           "assessedAt": "2026-06-26"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -175,7 +193,13 @@
           "summary": "Performance gains are task-dependent; self-consistency and debate can degrade results when the majority of sampled or argued answers is systematically wrong.",
           "assessedAt": "2026-06-26"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-005",
@@ -217,7 +241,13 @@
           "summary": "Adding an orchestrator model introduces its own latency, cost, failure modes, and training-data biases, which are rarely reported at production scale.",
           "assessedAt": "2026-06-26"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-006",
@@ -253,7 +283,13 @@
           "summary": "Enterprise platforms bundle governance, connectors, and approval workflows but often trade flexibility for vendor lock-in, so no single product covers all seven capabilities well.",
           "assessedAt": "2026-06-26"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-007",
@@ -289,7 +325,13 @@
           "summary": "Individual vendors may use the term consistently inside their own product taxonomies even if their definitions differ from one another.",
           "assessedAt": "2026-06-26"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-008",
@@ -331,7 +373,13 @@
           "summary": "Simple agents with stable, narrow task boundaries may not benefit enough from a separate control plane to justify the added operational complexity.",
           "assessedAt": "2026-06-26"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -500,15 +548,7 @@
   "provenance": {
     "createdAt": "2026-06-26",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-06-26",
-        "inputHash": "sha256:98f24b29680f350d1b34461bb20e21e32209cb79d8ab2e5822575fab2c08df9c",
-        "outputHash": "sha256:98f24b29680f350d1b34461bb20e21e32209cb79d8ab2e5822575fab2c08df9c"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "agent",

@@ -58,7 +58,13 @@
           "summary": "Industry averages hide wide variation by age, region, and income, and the underlying estimates may be platform-derived or self-reported rather than independently measured.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -78,7 +84,13 @@
           "summary": "Users can set time limits, disable autoplay, or choose alternative platforms, so design architecture influences but does not determine behaviour.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -110,7 +122,13 @@
           "summary": "Most evidence is correlational, so reverse causality is possible: people with poorer sleep, anxiety, or executive control may gravitate toward low-friction entertainment.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -136,7 +154,13 @@
           "summary": "Short-form video also supports informal learning, creator livelihoods, and social connection, so the opportunity cost depends on what the displaced activity would have been.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -227,15 +251,7 @@
   "provenance": {
     "createdAt": "2026-07-05",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-05",
-        "inputHash": "sha256:5b3d8146e280bbdbbac9fa6ac82d06bc8404f17ef2ff77e5f7b22ce6520d0ee5",
-        "outputHash": "sha256:5b3d8146e280bbdbbac9fa6ac82d06bc8404f17ef2ff77e5f7b22ce6520d0ee5"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",
@@ -250,6 +266,16 @@
         ],
         "notes": "Human author approved publication.",
         "contentHash": "e79e3653a0aa31910577f9cd85eb541b2733d9911e37fb961f2b359c0bf3d26d"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-17",
+        "status": "approved",
+        "scope": [
+          "article"
+        ],
+        "notes": "Re-approved by maintainer after the meta#61 P1 citation repairs (publish instruction, 2026-07-17).",
+        "contentHash": "00b8f82af3c16ef462ab739b78dd0009012d191bd848899111a124fbe021e8c1"
       }
     ],
     "policy": {

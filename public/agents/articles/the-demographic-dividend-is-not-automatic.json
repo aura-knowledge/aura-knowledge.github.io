@@ -58,7 +58,13 @@
           "summary": "The exact share under 35 varies slightly by source and reference year; the broader point about a youth bulge is robust across estimates.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -90,7 +96,13 @@
           "summary": "Employability is defined differently across surveys; some cohorts and institutions score much higher, and the figure is not a census of all graduates.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -116,7 +128,13 @@
           "summary": "Youth unemployment fluctuates with economic cycles, and the graduate paradox is partly explained by queueing and expectations rather than a pure skills mismatch.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -148,7 +166,13 @@
           "summary": "Screen time is not uniformly low-value; digital platforms also enable peer learning, informal skill acquisition, and entrepreneurship.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -221,15 +245,7 @@
   "provenance": {
     "createdAt": "2026-07-05",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-05",
-        "inputHash": "sha256:3f5533b1c48cd6be01b4b6a5ec35884ecf4ebf1e0a5c71e9f2aff04efaddcdef",
-        "outputHash": "sha256:3f5533b1c48cd6be01b4b6a5ec35884ecf4ebf1e0a5c71e9f2aff04efaddcdef"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",

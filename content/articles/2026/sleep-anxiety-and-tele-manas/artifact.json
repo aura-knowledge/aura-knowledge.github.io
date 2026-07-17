@@ -57,7 +57,13 @@
           "summary": "Helpline callers are self-selected and may not represent the wider population; some calls may be for information rather than clinical distress.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -83,7 +89,13 @@
           "summary": "Survey responses are self-reported and subject to social-desirability and interpretation bias; reported rates vary by region, age, and survey instrument.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -103,7 +115,13 @@
           "summary": "Not all screen content has the same effect; some digital interventions can improve sleep and mental health, and causality is complicated by confounders such as stress and schedule demands.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -129,7 +147,13 @@
           "summary": "Individual choices, family environment, academic pressure, and economic insecurity are also major contributors; framing everything as design can understate personal and social agency.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -197,15 +221,7 @@
   "provenance": {
     "createdAt": "2026-07-05",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-05",
-        "inputHash": "sha256:ab5b360931f7cdfb33bd60184f6c2c37e41b313d075e95b8f3fe8d3a78e5f0a0",
-        "outputHash": "sha256:ab5b360931f7cdfb33bd60184f6c2c37e41b313d075e95b8f3fe8d3a78e5f0a0"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",
@@ -220,6 +236,16 @@
         ],
         "notes": "Human author approved publication.",
         "contentHash": "e8ccd9151baf4e024b495b460d573216a555cab229668ef062e22caa22d02be3"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-17",
+        "status": "approved",
+        "scope": [
+          "article"
+        ],
+        "notes": "Re-approved by maintainer after the meta#61 P1 citation repairs (publish instruction, 2026-07-17).",
+        "contentHash": "f8a2d65f399946e629846ed6b35900e8cf8460a2926577fc798721eae84fc6e7"
       }
     ],
     "policy": {

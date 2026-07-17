@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "sprout",
   "publishedAt": "2026-06-26",
-  "updatedAt": "2026-06-26",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "builders",
     "researchers",
@@ -56,7 +56,13 @@
           "summary": "Prevalence estimates for digital eye strain vary widely (25-93%) depending on population and methodology, so the magnitude of the problem is context-dependent.",
           "assessedAt": "2026-06-26"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -98,7 +104,13 @@
           "summary": "Expertise and task matter: for some learners and materials, reading-only or dual-modality presentations outperform listening-only, so the optimal format is context-dependent.",
           "assessedAt": "2026-06-26"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -128,7 +140,13 @@
           "summary": "Technical feasibility of full-duplex speech does not imply reliable comprehension or accurate summarization for complex professional content; user studies remain sparse.",
           "assessedAt": "2026-06-26"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -170,7 +188,13 @@
           "summary": "In safety-critical or urgent contexts, users may prefer proactive interruption over strict user-initiated control, complicating a one-size-fits-all agency rule.",
           "assessedAt": "2026-06-26"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-005",
@@ -212,7 +236,13 @@
           "summary": "Notification-triggered audio can still become intrusive if volume, frequency, or timing are poorly managed, shifting the problem rather than solving it.",
           "assessedAt": "2026-06-26"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-006",
@@ -248,7 +278,13 @@
           "summary": "Visual interfaces do not eliminate filter bubbles or verification failures; the problem is curation logic and user behavior, not the audio channel alone.",
           "assessedAt": "2026-06-26"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-007",
@@ -290,7 +326,13 @@
           "summary": "The AirPods example is Apple-ecosystem-specific; affordances on Android, Pixel Buds, and other platforms differ, and cross-platform designs may not replicate the same user experience.",
           "assessedAt": "2026-06-26"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -424,15 +466,7 @@
   "provenance": {
     "createdAt": "2026-06-26",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-06-26",
-        "inputHash": "sha256:91df0331a91b7896a885033651191cafd46a7e004776180106c6fbadd6c6851e",
-        "outputHash": "sha256:91df0331a91b7896a885033651191cafd46a7e004776180106c6fbadd6c6851e"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "agent",

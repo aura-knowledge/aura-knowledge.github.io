@@ -57,7 +57,13 @@
           "summary": "Platform metrics may be constrained by competitive pressure and user expectations, so changing one platform's metric does not guarantee users will stay if rivals keep optimizing for engagement.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -77,7 +83,13 @@
           "summary": "Some studies on other platforms find that algorithmic feeds can expose users to more ideologically diverse or reliable news than chronological feeds, suggesting effects are platform- and implementation-specific.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -97,7 +109,13 @@
           "summary": "The experiment was conducted on U.S. Twitter users in 2023; cultural and platform differences may alter the magnitude of effects in India.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -117,7 +135,13 @@
           "summary": "The study observes a learning effect, not a universal law; other factors such as offline events, identity, and media diet also shape expression.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-005",
@@ -143,7 +167,13 @@
           "summary": "The ₹57,472 crore figure is derived from separate ROC filings; combined totals vary by reporting convention and do not capture all domestic or informal digital advertising.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-006",
@@ -169,7 +199,13 @@
           "summary": "Stated-preference ranking in the Milli et al. study also reduced exposure to out-group content, raising echo-chamber concerns; trade-offs between engagement, satisfaction, and civic outcomes remain unresolved.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-007",
@@ -195,7 +231,13 @@
           "summary": "The public-interest framing is a policy judgment, not an empirical claim; reasonable people can disagree about the right balance between platform autonomy and regulation.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -293,15 +335,7 @@
   "provenance": {
     "createdAt": "2026-07-05",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-05",
-        "inputHash": "sha256:62abf31fdeb69c141dccceed503ae0c6af72b0c4eaa1e6c9139490ae052bdb54",
-        "outputHash": "sha256:62abf31fdeb69c141dccceed503ae0c6af72b0c4eaa1e6c9139490ae052bdb54"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",

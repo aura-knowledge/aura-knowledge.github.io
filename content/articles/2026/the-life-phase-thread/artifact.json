@@ -62,7 +62,13 @@
           "summary": "Life-stage effects are shaped by income, education, family structure, and regional variation, not only by platform design.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -88,7 +94,13 @@
           "summary": "LocalCircles is a self-reported, urban, crowd-sourced survey and may over-represent concerned parents; the 8% not-addicted figure comes from a 2023 survey wave and may have shifted since.",
           "assessedAt": "2026-07-17"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -114,7 +126,13 @@
           "summary": "The same device is used for both social and educational purposes; anxiety has many sources beyond screen time, and the survey measures self-reported feelings, not clinical diagnoses.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -134,7 +152,13 @@
           "summary": "Engagement and productivity are also driven by wages, job quality, management, and macroeconomic conditions, not only digital distraction.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-005",
@@ -160,7 +184,13 @@
           "summary": "The vivo study is industry-funded; relationship harm and community participation decline have multiple causes, including the pandemic and urbanisation.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-006",
@@ -180,7 +210,13 @@
           "summary": "The study defines digital exclusion by recent internet and social-media use; some older adults may be supported by family members who transact on their behalf.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-007",
@@ -206,7 +242,13 @@
           "summary": "Generational links are plausible but not proven by the cited studies; other social and economic factors also drive outcomes at each life stage.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -307,15 +349,7 @@
   "provenance": {
     "createdAt": "2026-07-05",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-05",
-        "inputHash": "sha256:e8420e8ea044f5968c083af110f6791b1c08198e7e3f93b0c09343f3b41e25c0",
-        "outputHash": "sha256:e8420e8ea044f5968c083af110f6791b1c08198e7e3f93b0c09343f3b41e25c0"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",
@@ -330,6 +364,16 @@
         ],
         "notes": "Human author approved publication.",
         "contentHash": "738c73fe1a5cb46d123c7d9b52e19887acf36e270af5795c24dc5d651c66f3f3"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-17",
+        "status": "approved",
+        "scope": [
+          "article"
+        ],
+        "notes": "Re-approved by maintainer after the meta#61 P1 citation repairs (publish instruction, 2026-07-17).",
+        "contentHash": "5d8c46060057051bdf7cf9d440fc17b239e9884a28745c2a2528320a8b3bd6ed"
       }
     ],
     "policy": {

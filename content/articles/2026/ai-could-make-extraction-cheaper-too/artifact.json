@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-05",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "general",
     "students",
@@ -52,7 +52,13 @@
           "summary": "High-quality, trustworthy content still requires human judgment, fact-checking, and editorial investment; cheap generation does not automatically equal cheap credibility.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -72,7 +78,13 @@
           "summary": "Personalization can also reduce noise and surface genuinely useful content; the harm depends on the objective function and business model, not personalization alone.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -98,7 +110,13 @@
           "summary": "Specific Indian incidents are still early and unevenly documented; prevalence varies by platform, language, and election cycle, and not every synthetic video is politically consequential.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -118,7 +136,13 @@
           "summary": "Substance-first design may reduce engagement metrics and platform revenue, creating strong commercial pressure against it unless norms or regulation change the incentive structure.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -187,15 +211,7 @@
   "provenance": {
     "createdAt": "2026-07-05",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-05",
-        "inputHash": "sha256:93c071961e55bc3e5e83b250a6ea93053078eca28a74476c4a0caf6b30afc008",
-        "outputHash": "sha256:93c071961e55bc3e5e83b250a6ea93053078eca28a74476c4a0caf6b30afc008"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",

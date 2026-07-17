@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-20",
-  "updatedAt": "2026-06-20",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "general readers",
     "students",
@@ -56,7 +56,13 @@
           "summary": "Formal logic alone did not create computation or AI; engineering, institutions, and other intellectual traditions were also required.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -94,7 +100,13 @@
           "summary": "Hilbert's 1900 problem list is not identical to the later Entscheidungsproblem, and other programs such as logicism and intuitionism also shaped the question.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -120,7 +132,13 @@
           "summary": "Incompleteness applies to specific formal systems containing arithmetic; it does not imply that machines, minds, or AI are generally impossible.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-005",
@@ -152,7 +170,13 @@
           "summary": "These models idealize rule-following and ignore physical costs, memory limits, hardware faults, and engineering constraints.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-006",
@@ -178,7 +202,13 @@
           "summary": "The thesis is informal insofar as effective method is not formally defined; proposed hypercomputational and physical models challenge wider interpretations.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-007",
@@ -204,7 +234,13 @@
           "summary": "Switching logic had prior engineering practice, and logic gates implement operations without understanding propositions.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-008",
@@ -236,7 +272,13 @@
           "summary": "Shannon information ignores meaning, truth, and intentionality; many communication phenomena require semantic and pragmatic analysis.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-009",
@@ -262,7 +304,13 @@
           "summary": "Cybernetics is broad and often overextended; much of later AI developed through symbolic and learning paths rather than cybernetic frameworks.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [

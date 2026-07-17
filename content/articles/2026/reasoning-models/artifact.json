@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-29",
-  "updatedAt": "2026-06-29",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "general",
     "students",
@@ -45,7 +45,13 @@
           "summary": "On trivial or sufficiently familiar tasks, adding explicit reasoning steps increases latency and cost without improving accuracy.",
           "assessedAt": "2026-06-29"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -65,7 +71,13 @@
           "summary": "Classical AI planners and theorem provers also performed step-by-step search, but relied on formal symbolic states rather than natural language.",
           "assessedAt": "2026-06-29"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -85,7 +97,13 @@
           "summary": "Research on chain-of-thought faithfulness finds that visible reasoning traces do not always reflect the true factors determining the model's answer.",
           "assessedAt": "2026-06-29"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -105,7 +123,13 @@
           "summary": "User-facing evaluations show that for many everyday queries, faster non-reasoning models are preferred because of latency and cost.",
           "assessedAt": "2026-06-29"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -157,22 +181,7 @@
   "provenance": {
     "createdAt": "2026-06-29",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-06-29",
-        "inputHash": "sha256:b21dae5f1c44bbe6635b0cf257a7a84cf9ec8eaa3715c432faf4e67e0e572861",
-        "outputHash": "sha256:b21dae5f1c44bbe6635b0cf257a7a84cf9ec8eaa3715c432faf4e67e0e572861"
-      },
-      {
-        "role": "review",
-        "model": "kimi",
-        "invokedAt": "2026-06-29",
-        "inputHash": "sha256:b21dae5f1c44bbe6635b0cf257a7a84cf9ec8eaa3715c432faf4e67e0e572861",
-        "outputHash": "sha256:b21dae5f1c44bbe6635b0cf257a7a84cf9ec8eaa3715c432faf4e67e0e572861"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "agent",

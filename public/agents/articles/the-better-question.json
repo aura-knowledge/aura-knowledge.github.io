@@ -56,7 +56,13 @@
           "summary": "Engagement metrics are measurable and comparable across products; outcome-based metrics vary by domain and can be gamed or paternalistically defined.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -82,7 +88,13 @@
           "summary": "The same platforms are used for peer learning, exam groups, and informal skill discovery, so the boundary between social and educational use is fuzzy.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -102,7 +114,13 @@
           "summary": "These dimensions are interpretive and not derived from a validated framework; other valid dimensions such as emotional well-being, creativity, or autonomy could be added.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -134,7 +152,13 @@
           "summary": "Engagement, mental health, and screen time are influenced by many factors beyond platform design, including income, education, job quality, and family environment.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-005",
@@ -154,7 +178,13 @@
           "summary": "A vague north star may be invoked for marketing without changing underlying business models or metrics.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-006",
@@ -180,7 +210,13 @@
           "summary": "Some platform changes can be driven by a single actor, such as a founder or a regulator; multi-stakeholder alignment is sufficient but not always necessary.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-007",
@@ -206,7 +242,13 @@
           "summary": "Business-model incentives strongly favor extraction; design choices alone may not overcome revenue pressure without accompanying market or regulatory shifts.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -304,15 +346,7 @@
   "provenance": {
     "createdAt": "2026-07-05",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-05",
-        "inputHash": "sha256:1ec6e905e6de8680421cf67e230310b23cdd692295947717b63e91654185ff55",
-        "outputHash": "sha256:1ec6e905e6de8680421cf67e230310b23cdd692295947717b63e91654185ff55"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",
@@ -327,6 +361,16 @@
         ],
         "notes": "Human author approved publication.",
         "contentHash": "5b2dd30ccbdc6b8a0062de9648d4799310202bc46b06a4207a56aba88f3eef70"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-17",
+        "status": "approved",
+        "scope": [
+          "article"
+        ],
+        "notes": "Re-approved by maintainer after the meta#61 P1 citation repairs (publish instruction, 2026-07-17).",
+        "contentHash": "3f8e5a55e42cd999da572d6156f4d8b6ad5e1bc35a1996f49613791c535c95f3"
       }
     ],
     "policy": {

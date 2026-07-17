@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-05",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "general",
     "students",
@@ -57,7 +57,13 @@
           "summary": "Screen-time rankings vary by survey methodology, device definition, and sample population; India's exact global rank is sensitive to these choices.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -83,7 +89,13 @@
           "summary": "Each market has distinct language, income, and regulatory contexts; platform concentration is similar but not identical, and local competitors matter in some regions.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -115,7 +127,13 @@
           "summary": "The US and China differ sharply in legal tradition, enforcement capacity, and speech protections; their regulatory models are not directly transferable to India.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -147,7 +165,13 @@
           "summary": "India's regulatory capacity, judicial backlog, and industry influence may limit enforcement; other global South countries may follow different models, such as ASEAN or African Union frameworks.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -230,15 +254,7 @@
   "provenance": {
     "createdAt": "2026-07-05",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-05",
-        "inputHash": "sha256:ac5d4a415044b04292c46c56f2bed9f5e5e390a7782480a0695e3e8af37e86da",
-        "outputHash": "sha256:ac5d4a415044b04292c46c56f2bed9f5e5e390a7782480a0695e3e8af37e86da"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",

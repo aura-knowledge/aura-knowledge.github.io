@@ -51,7 +51,13 @@
           "summary": "Some platforms use freshness or novelty boosts that can help new creators gain initial traction, though these are usually temporary and smaller than the follower-count signal.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -71,7 +77,13 @@
           "summary": "Ranking systems also use content-level signals, so a post from an unknown creator can still spread if it generates unusually strong engagement early.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -91,7 +103,13 @@
           "summary": "Income concentration is not identical to reach concentration; brand deals and niche monetization can produce income without mass reach.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -111,7 +129,13 @@
           "summary": "Long-term audience trust can decline if popular creators consistently post low-quality content, but the short-term reach advantage remains.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-005",
@@ -131,7 +155,13 @@
           "summary": "AI may also help niche creators produce more efficiently or reach underserved language audiences where competition is lower.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-006",
@@ -151,7 +181,13 @@
           "summary": "Digital platforms have also enabled historically underrepresented voices to find audiences that legacy media excluded.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-007",
@@ -171,7 +207,13 @@
           "summary": "These strategies require time, capital, and skills that not all creators have, so they cannot fully offset structural inequality.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -253,15 +295,7 @@
   "provenance": {
     "createdAt": "2026-07-06",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-06",
-        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-        "outputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",
