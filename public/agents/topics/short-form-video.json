@@ -35,11 +35,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-jio-effect-cheap-data-access-behavior/",
       "agentJsonPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.json",
       "agentMarkdownPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
-      "sourceCount": 4,
+      "sourceCount": 5,
       "tokenEstimate": 372,
-      "contentHash": "a7e6c9e3bb5844fe3469c9ce849cbb547700d9f59e374a603c2292503261f273"
+      "contentHash": "c36715853be62bee203bbb19f19c6ab3c76ba1936f3fdd252ded566969a8eacf"
     },
     {
       "id": "article:the-reel-nation-short-form-video",
@@ -70,11 +70,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-reel-nation-short-form-video/",
       "agentJsonPath": "/agents/articles/the-reel-nation-short-form-video.json",
       "agentMarkdownPath": "/agents/articles/the-reel-nation-short-form-video.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
-      "sourceCount": 6,
-      "tokenEstimate": 265,
-      "contentHash": "e79e3653a0aa31910577f9cd85eb541b2733d9911e37fb961f2b359c0bf3d26d"
+      "sourceCount": 7,
+      "tokenEstimate": 283,
+      "contentHash": "00b8f82af3c16ef462ab739b78dd0009012d191bd848899111a124fbe021e8c1"
     }
   ]
 }

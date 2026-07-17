@@ -6,7 +6,7 @@ slug: attention-substance-ai-moment-tldr
 title: "Agent Brief for Attention, Substance, and the AI Moment: The TLDR"
 tokenBudget: 1200
 status: published
-updated: 2026-07-05
+updated: 2026-07-17
 ---
 
 ## Thesis
@@ -22,12 +22,11 @@ India's digital-access success has created an attention-extraction economy that 
 
 ## Claims
 
-- `claim-001`: India has near-universal digital access, but entertainment and social media dominate online time, crowding out education and production among young users.
-- `claim-002`: Screen time is high, and short-form feeds are engineered to extend engagement beyond user intent.
-- `claim-003`: The costs of the attention economy show up in productivity, youth mental health, and social trust.
-- `claim-004`: AI makes knowledge work dramatically cheaper, but the payoff depends on whether saved time is reinvested in learning and creation rather than recaptured by extraction.
-- `claim-005`: Individuals can redirect small windows of attention toward substance using AI as a journeyman assistant; the main cost is attention reclaimed from low-value consumption.
-
+- `claim-001`: India has near-universal digital access, but entertainment and social media dominate online time across all age groups, crowding out education, planning, and productive use.
+- `claim-002`: Screen time is high across all age groups, and feeds — on phones and laptops — are engineered to extend engagement beyond user intent.
+- `claim-003`: The costs show up in productivity, mental health, and attention capacity — for everyone, not just students.
+- `claim-004`: AI makes productive work dramatically cheaper and more accessible for everyone — but only for people who choose to use it that way.
+- `claim-005`: Small, repeated shifts from consumption to creation can compound into real capability, and the main cost is attention reclaimed from low-value scrolling or bingeing.
 ## Source Families
 
 - Indian digital-access and usage surveys (IAMAI-Kantar, NCAER IHDS, ASER, NSSO Time Use)

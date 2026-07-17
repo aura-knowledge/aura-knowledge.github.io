@@ -47,7 +47,7 @@
       "updatedAt": "2026-07-15",
       "claimCount": 14,
       "sourceCount": 13,
-      "tokenEstimate": 1161,
+      "tokenEstimate": 1369,
       "contentHash": "94fdce2ea87a40ad99477d3e2ced72284d4702de9f713d788f5b05e842a776fa"
     },
     {
@@ -77,10 +77,10 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
       "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
       "agentMarkdownPath": "/agents/articles/the-attention-matthew-effect.md",
-      "updatedAt": "2026-07-06",
+      "updatedAt": "2026-07-17",
       "claimCount": 7,
       "sourceCount": 6,
-      "tokenEstimate": 114,
+      "tokenEstimate": 534,
       "contentHash": "c46ccd41d164bb9938811546da3651408b84b298db94adfa5dd8e24d739243a9"
     },
     {
@@ -174,10 +174,10 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
       "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
       "agentMarkdownPath": "/agents/articles/why-good-content-loses-to-loud-content.md",
-      "updatedAt": "2026-07-06",
+      "updatedAt": "2026-07-17",
       "claimCount": 6,
       "sourceCount": 7,
-      "tokenEstimate": 524,
+      "tokenEstimate": 535,
       "contentHash": "8a50b59d1f86dc1e261cf824a610abebf67ec10b18ec1a93833d46e8cda1edfe"
     }
   ]

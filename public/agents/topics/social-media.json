@@ -38,11 +38,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
       "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json",
       "agentMarkdownPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
       "sourceCount": 5,
-      "tokenEstimate": 277,
-      "contentHash": "21521e52b917b8a7564cddfdbfaf85536a76943b744c02e3c161db15cd5cc3ef"
+      "tokenEstimate": 283,
+      "contentHash": "762bff6be771c33eb2fcb253a58a2e9c5d4f2c8b28902a9935b7e1cf8654d2ec"
     },
     {
       "id": "article:the-attention-extraction",
@@ -71,7 +71,7 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
       "agentJsonPath": "/agents/articles/the-attention-extraction.json",
       "agentMarkdownPath": "/agents/articles/the-attention-extraction.md",
-      "updatedAt": "2026-07-04",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
       "sourceCount": 14,
       "tokenEstimate": 674,

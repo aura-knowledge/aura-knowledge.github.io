@@ -6,7 +6,7 @@ slug: ai-winters-expert-systems
 title: Agent Brief for "Winters, Expert Systems, and the Cost of Overpromising Intelligence"
 tokenBudget: 1200
 status: published
-updated: 2026-06-20
+updated: 2026-07-17
 ---
 
 ## Thesis
@@ -22,10 +22,10 @@ AI winters and expert systems show that progress in AI has repeatedly depended n
 
 ## Claims
 
-- `claim-001`: Public evaluation reports such as ALPAC and Lighthill mattered because they tested AI-adjacent promises against measurable usefulness.
-- `claim-002`: "AI winter" is a contested label for reduced confidence, funding, and commercial enthusiasm, not proof that research stopped.
+- `claim-001`: Public evaluation reports such as ALPAC and Lighthill mattered because they tested AI-adjacent promises against measurable usefulness, not because they proved intelligence research was worthless.
+- `claim-002`: The phrase 'AI winter' should be handled as a contested historical label for reduced confidence, funding, and commercial enthusiasm, not as proof that AI research stopped.
 - `claim-003`: Expert systems produced useful results in narrow domains where domain knowledge could be encoded and maintained.
-- `claim-004`: Expert-system limits included knowledge acquisition, updating, evaluation, user trust, and workflow integration.
+- `claim-004`: Expert-system limits included knowledge acquisition, updating, evaluation, user trust, and workflow integration, not only inference algorithms.
 - `claim-005`: The durable lesson for modern AI is that intelligence claims need grounded tests, maintenance plans, and institution-aware deployment criteria.
 
 ## Source Families

@@ -5,9 +5,9 @@
   "base": "",
   "counts": {
     "claims": 480,
-    "sources": 707,
+    "sources": 711,
     "roadmap": 16,
-    "edges": 2377
+    "edges": 2379
   },
   "files": {
     "claims": {
@@ -16,7 +16,7 @@
     },
     "sources": {
       "path": "/agents/feeds/sources.jsonl",
-      "count": 707
+      "count": 711
     },
     "roadmap": {
       "path": "/agents/feeds/roadmap.jsonl",
@@ -24,7 +24,7 @@
     },
     "edges": {
       "path": "/agents/feeds/edges.jsonl",
-      "count": 2377
+      "count": 2379
     }
   }
 }

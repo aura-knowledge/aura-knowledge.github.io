@@ -6,7 +6,7 @@ slug: why-good-content-loses-to-loud-content
 title: "Agent Brief for Why Good Content Loses to Loud Content"
 tokenBudget: 1200
 status: published
-updated: 2026-07-06
+updated: 2026-07-17
 ---
 
 ## Thesis
@@ -22,7 +22,7 @@ Algorithmic content platforms distribute attention based on predicted engagement
 
 ## Claims
 
-- `claim-001`: Recommendation systems optimize for predicted engagement rather than accuracy, depth, or originality.
+- `claim-001`: Recommendation systems optimize for predicted engagement — watch time, clicks, shares, replays — rather than for accuracy, depth, or originality.
 - `claim-002`: Emotional, surprising, or controversial content spreads faster than neutral, high-quality content because it generates stronger engagement signals.
 - `claim-003`: Creators with large existing audiences get a distribution head start that smaller creators cannot match even with higher engagement rates.
 - `claim-004`: Quality creators face a structural disadvantage unless they also master the engagement signals the platform uses.

@@ -80,6 +80,12 @@ const TEMPLATE_PLACEHOLDER_MARKERS = [
   /^\s*[-*]\s*primary audience member\.?\s*$/im
 ];
 
+const AGENT_CLAIM_LINE_PATTERN = /^\s*[-*]\s*`(claim-\d{3})`:\s*(.+?)\s*$/gm;
+
+function normalizeClaimText(text) {
+  return text.replace(/\s+/g, " ").trim();
+}
+
 function report(message) {
   errors.push(message);
 }
@@ -295,6 +301,29 @@ for (const article of articles) {
         );
       }
     }
+
+    const briefClaimLines = new Map();
+    for (const match of article.agentBody.matchAll(AGENT_CLAIM_LINE_PATTERN)) {
+      briefClaimLines.set(match[1], match[2]);
+    }
+    if (briefClaimLines.size > 0) {
+      for (const [claimId, briefText] of briefClaimLines) {
+        const artifactClaim = article.artifact.claims.find((claim) => claim.id === claimId);
+        if (!artifactClaim) {
+          report(`${prefix}: agent.md states ${claimId}, which is not present in artifact claims.`);
+        } else if (normalizeClaimText(briefText) !== normalizeClaimText(artifactClaim.claim)) {
+          report(
+            `${prefix}: agent.md ${claimId} text does not match the artifact claim text. Sync the brief to the artifact.`
+          );
+        }
+      }
+      for (const claim of article.artifact.claims) {
+        if (!briefClaimLines.has(claim.id)) {
+          reportWarning(`${prefix}: agent.md enumerates claims but omits ${claim.id}.`);
+        }
+      }
+    }
+
     await assertExists(path.join(publicRoot, "agents", "articles", `${article.slug}.json`));
     await assertExists(path.join(publicRoot, "agents", "articles", `${article.slug}.md`));
   }

@@ -32,15 +32,15 @@
       "evidence": [
         {
           "sourceId": "source-agentic-publications-2025",
-          "snippet": "Evidence snippet pending.",
-          "supports": "direct",
-          "assessedAt": "2026-06-17"
+          "snippet": "The system provides interfaces for humans and artificial agents, offering narrative explanations alongside machine-readable outputs.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-17"
         },
         {
           "sourceId": "source-provenance-2026",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "no current agentic framework produces the quantifiable, traceable, and interventionable provenance needed to assign it when harm emerges from compositions no single party designed.",
           "supports": "direct",
-          "assessedAt": "2026-06-17"
+          "assessedAt": "2026-07-17"
         },
         {
           "sourceId": "source-reuters-genai-news-report",
@@ -57,8 +57,9 @@
       ],
       "verification": {
         "status": "verified",
-        "reviewer": "agent",
-        "reviewedAt": "2026-07-15"
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Re-verified 2026-07-17 after P1 evidence refill from live sources (meta#61, site#117)."
       }
     },
     {
@@ -183,15 +184,15 @@
       "evidence": [
         {
           "sourceId": "source-provenance-2026",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Explicit provenance is not a discretionary refinement but the necessary condition for responsible agentic AI, and no stakeholder across its ecosystem can afford to treat it as optional.",
           "supports": "direct",
-          "assessedAt": "2026-06-17"
+          "assessedAt": "2026-07-17"
         },
         {
           "sourceId": "source-agentic-publications-2025",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "addressing ethical considerations through automated validation, expert oversight, and transparent governance",
           "supports": "direct",
-          "assessedAt": "2026-06-17"
+          "assessedAt": "2026-07-17"
         },
         {
           "sourceId": "source-cope-ai-authorship",
@@ -208,8 +209,9 @@
       ],
       "verification": {
         "status": "verified",
-        "reviewer": "agent",
-        "reviewedAt": "2026-07-15"
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Re-verified 2026-07-17 after P1 evidence refill from live sources (meta#61, site#117)."
       }
     },
     {
@@ -220,21 +222,21 @@
       "evidence": [
         {
           "sourceId": "source-nng-cognitive-load",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Forms with branching logic work the same way. This approach — often referred to as a \"wizard\" — dynamically displays relevant fields based on users' prior input, saving users from spending attentional resources to scan and filter irrelevant questions.",
           "supports": "direct",
-          "assessedAt": "2026-06-17"
+          "assessedAt": "2026-07-17"
         },
         {
           "sourceId": "source-digital-gardens-appleton",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "You get to actively choose which curiosity trail to follow, rather than defaulting to the algorithmically-filtered ephemeral stream.",
           "supports": "direct",
-          "assessedAt": "2026-06-17"
+          "assessedAt": "2026-07-17"
         },
         {
           "sourceId": "source-digital-gardens-qu",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Ocean of Books added optional hot spots which, when clicked, lead to different points on the map. The guided points both offload the decision-making of where to explore next and also took me to sections of the map I was unlikely to explore on my own.",
           "supports": "direct",
-          "assessedAt": "2026-06-17"
+          "assessedAt": "2026-07-17"
         },
         {
           "sourceId": "source-ixdf-progressive-disclosure",
@@ -251,8 +253,9 @@
       ],
       "verification": {
         "status": "verified",
-        "reviewer": "agent",
-        "reviewedAt": "2026-07-15"
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Re-verified 2026-07-17 after P1 evidence refill from live sources (meta#61, site#117)."
       }
     }
   ],
@@ -302,9 +305,9 @@
     {
       "id": "source-digital-gardens-appleton",
       "title": "A Brief History & Ethos of the Digital Garden",
-      "url": "https://maggieappleton.com/nontechnical-gardening",
+      "url": "https://maggieappleton.com/garden-history",
       "type": "design",
-      "accessed": "2026-06-17"
+      "accessed": "2026-07-17"
     },
     {
       "id": "source-digital-gardens-qu",

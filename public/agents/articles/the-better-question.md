@@ -6,7 +6,7 @@ slug: the-better-question
 title: "Agent Brief for 'Leave Better Than You Arrived: A North Star for Platform Design'"
 tokenBudget: 1500
 status: published
-updated: 2026-07-05
+updated: 2026-07-17
 ---
 
 ## Thesis
@@ -29,8 +29,7 @@ The most useful single test for a platform, product, or digital service is wheth
 - `claim-004`: Public evidence from student-screen surveys, workplace-engagement data, and official government warnings points to attention extraction as a public design problem, not only a private business decision.
 - `claim-005`: The north star is useful precisely because it is imperfect; it asks teams to pick visible user outcomes they are willing to be judged by.
 - `claim-006`: The north star works only when builders, regulators, investors, educators, and users apply it together.
-- `claim-007`: The shift from extraction to substance is a design choice, not a technological inevitability; the same infrastructure that maximizes engagement could redirect toward learning, creation, and civic action.
-
+- `claim-007`: The shift from extraction to substance is a design choice, not a technological inevitability; the same infrastructure that maximizes engagement could be redirected toward learning, creation, and civic action.
 ## Source Families
 
 - Government policy and surveys: Economic Survey 2025–26, NCAER IHDS Wave 3, ASER 2024, NSSO Time Use Survey 2024, Gallup State of the Global Workplace 2025.

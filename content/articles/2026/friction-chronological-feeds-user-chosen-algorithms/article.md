@@ -43,7 +43,7 @@ The share button is one of the most consequential pieces of interface design in 
 
 <span id="claim-002" class="claim-marker" data-claim="claim-002">Claim C2</span> Friction before sharing—such as asking whether a user wants to share unverified content—reduces misinformation spread.
 
-Research on feed friction, including a large Penn and Stanford study of Facebook users, found that even small delays or prompts can change sharing behavior. When users are asked a simple question—"Are you sure you want to share this?"—or shown that an article is from an outlet that does not meet basic fact-checking standards, a meaningful share of them decide not to proceed. The effect is largest for the most misleading content, which is exactly where the intervention matters most.
+Research on feed friction—including field experiments by Pennycook, Rand, and colleagues on accuracy prompts—found that even small delays or prompts can change sharing behavior. When users are asked a simple question—"Are you sure you want to share this?"—or shown that an article is from an outlet that does not meet basic fact-checking standards, a meaningful share of them decide not to proceed. The effect is largest for the most misleading content, which is exactly where the intervention matters most.
 
 Friction does not have to mean censorship. The user can still share. The platform simply introduces a moment of reflection between impulse and distribution. The design assumption shifts from "maximize shares" to "minimize shares the user will later regret." That shift is especially important in India, where WhatsApp and other platforms have been used to spread rumors that have led to real-world harm.
 
@@ -55,7 +55,7 @@ Chronology and friction are defaults. A deeper form of agency is to let users ch
 
 Imagine a settings panel that lets a user pick among several ranking modes: "engagement-optimized," "chronological," "quality-weighted," or "posts liked by people I follow." The same network and content pool could be sorted by different values depending on what the user wants at that moment. A student preparing for exams might choose chronological or quality mode. Someone looking for entertainment might choose engagement mode. The point is that the choice is visible and reversible.
 
-The European Union's Digital Markets Act has begun to push in this direction for large platforms, requiring more interoperability and user choice around data and ranking. The details will be litigated for years, but the principle is clear: when a platform has become infrastructure, its default ordering should not be the only ordering available.
+The European Union's Digital Services Act has begun to push in this direction: its Article 38 requires very large platforms to offer at least one feed-ranking option that is not based on profiling, such as a chronological feed. The details will be litigated for years, but the principle is clear: when a platform has become infrastructure, its default ordering should not be the only ordering available.
 
 User choice has limits. Most users never open settings. Defaults still shape behavior, so the design of the default menu matters as much as the presence of the menu. But even a minority of users switching to less extractive modes can change the culture of a platform and create market pressure for better options.
 
@@ -82,7 +82,7 @@ flowchart LR
     end
 ```
 
-*Design intervention before-and-after comparison. Sources: Penn/Stanford Facebook friction study (NBER w30214); platform documentation on chronological timelines; EU Digital Markets Act.*
+*Design intervention before-and-after comparison. Sources: Pennycook et al. accuracy-prompt study (Nature, 2021); platform documentation on chronological timelines; EU Digital Services Act, Article 38.*
 
 <h2 id="why-the-changes-are-hard">Why the Changes Are Hard</h2>
 
@@ -98,7 +98,7 @@ This does not mean change is impossible. Regulation, competition, public pressur
 
 <h2 id="sources-and-method">Sources and Method</h2>
 
-This article draws on an NBER working paper by Penn and Stanford researchers on Facebook feed friction, platform documentation on chronological timelines and well-being research, and the EU Digital Markets Act. It also uses Pew Research Center data on social media use as background context. Causal claims are limited to what the underlying studies support; most findings are about behavioral effects in specific experimental or platform settings, not universal laws of human attention.
+This article draws on Pennycook et al.'s 2021 Nature study on accuracy prompts and misinformation sharing, platform documentation on chronological timelines and well-being research, and the EU Digital Services Act (Article 38). It also uses Pew Research Center data on social media use as background context. Causal claims are limited to what the underlying studies support; most findings are about behavioral effects in specific experimental or platform settings, not universal laws of human attention.
 
 <h2 id="related-in-this-series">Related in This Series</h2>
 

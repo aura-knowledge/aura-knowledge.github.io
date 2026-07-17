@@ -6,7 +6,7 @@ slug: product-ideas-that-could-shift-incentives
 title: "Agent Brief for 'Product and Platform Ideas That Could Shift Attention Incentives'"
 tokenBudget: 2200
 status: published
-updated: 2026-07-15
+updated: 2026-07-17
 ---
 
 ## Thesis
@@ -19,21 +19,20 @@ The attention economy is structured by a single dominant question: “Will this 
 
 ## Claims
 
-- `claim-001`: A substance-first platform needs different signals, ranking objectives, and business models than an attention-first platform.
-- `claim-002`: Public-interest algorithms could surface locally relevant, verified, constructive content when stakes are high.
+- `claim-001`: A platform that asks whether content leaves the user more capable, informed, or connected would need different signals, ranking objectives, and business models than one that asks only whether it kept the user watching.
+- `claim-002`: Public-interest algorithms could surface locally relevant, verified, and constructive content when the stakes are high.
 - `claim-003`: Creator reputation economies can reward consistent quality over viral moments.
 - `claim-004`: User-owned attention budgets and time-well-spent dashboards can restore agency without removing choice.
-- `claim-005`: Build-new, change-existing, and protocol-layer strategies each have distinct advantages and barriers.
-- `claim-007`: Agent-mediated attention stewards can defend user intent if aligned, privacy-preserving, and transparent.
-- `claim-008`: Creator-economy realignment can change the metrics that matter.
-- `claim-009`: A quality-weighted ranking protocol could make substance legible to recommendation systems.
-- `claim-010`: A public-interest ranking switch could elevate verified civic information during high-stakes periods.
-- `claim-011`: A cross-platform reputation commons could reward consistent, constructive contribution.
-- `claim-012`: An intent-first attention layer could restore agency through budgets, friction, and defaults.
-- `claim-013`: A delegated attention agent could filter and schedule information against explicit user goals.
-- `claim-014`: Ranking-objective changes fit existing platforms or regulation; market-structure changes fit protocols; startup viability often depends on demonstrating adoptable behaviors.
-- `claim-015`: Every alternative incentive can be gamed; audits, transparency, human judgment, and appeals are required.
-
+- `claim-005`: Build-new platforms can optimize for substance from inception but face cold-start and network-effects barriers; change-existing strategies have distribution but face incumbent incentive resistance; protocol layers can avoid the winner-take-all problem but require coordination and adoption.
+- `claim-007`: Agent-mediated attention stewards can defend user intent if they are genuinely buyer-aligned, privacy-preserving, and transparent about whose interests they serve.
+- `claim-008`: Creator-economy realignment—through subscriptions, patronage, public funding, and cooperative ownership—can change the metrics that matter and reduce dependence on attention extraction.
+- `claim-009`: A quality-weighted ranking protocol could reward completion, citation, source transparency, and reported learning, making substance legible to recommendation systems without requiring a single platform to win.
+- `claim-010`: A public-interest ranking switch could elevate verified civic information during high-stakes periods, but it requires transparent governance to avoid capture.
+- `claim-011`: A cross-platform reputation commons could reward consistent, constructive contribution and reduce the advantage of viral shock over sustained trust.
+- `claim-012`: An intent-first attention layer could restore agency through budgets, friction, and defaults, though its effectiveness depends on design and user commitment.
+- `claim-013`: A delegated attention agent could filter and schedule information against explicit user goals, but only if it remains auditable, contestable, and free from platform or advertiser capture.
+- `claim-014`: Concepts that change ranking objectives are best pursued inside existing platforms or by regulation; concepts that change market structure are best pursued as protocols or interoperability layers; startups are most viable when they demonstrate a behavior incumbents may later adopt.
+- `claim-015`: Every alternative attention incentive can be gamed; safeguards such as audits, transparency, human judgment, and appeal mechanisms are required for any of them to remain trustworthy.
 ## Five Product Concepts
 
 1. **Quality-weighted ranking protocol** — open standard for completion, citation, source transparency, and learning-outcome signals.

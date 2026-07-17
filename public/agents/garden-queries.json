@@ -6,7 +6,7 @@
   "generatedAt": "2026-07-17T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 1429
+    "totalResults": 1433
   },
   "dimensions": [
     {
@@ -4966,7 +4966,7 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/sleep-anxiety-and-tele-manas/",
           "agentJsonPath": "/agents/articles/sleep-anxiety-and-tele-manas.json",
           "claimId": "claim-001",
-          "claim": "Tele-MANAS has received more than 32 lakh calls, with roughly 70% from people aged 18–45.",
+          "claim": "As of March 2026, Tele-MANAS had handled more than 34 lakh calls, with roughly 70% of callers aged 18–45.",
           "confidence": "high",
           "status": "core"
         },
@@ -5559,7 +5559,7 @@
         "groupBy": "sourceType"
       },
       "resultType": "sources",
-      "resultCount": 707,
+      "resultCount": 711,
       "results": [
         {
           "articleId": "article:the-engagement-gap-productivity-india",
@@ -5960,6 +5960,16 @@
           "sourceTitle": "OpenAI: Learning to Reason with LLMs",
           "sourceType": "article",
           "sourceUrl": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "articleId": "article:the-jio-effect-cheap-data-access-behavior",
+          "slug": "the-jio-effect-cheap-data-access-behavior",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-jio-effect-cheap-data-access-behavior/",
+          "agentJsonPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.json",
+          "sourceId": "source-techcrunch-india-400m-2015",
+          "sourceTitle": "TechCrunch: India Set To Overtake U.S. To Become World's Second Largest Internet Market (Nov 2015)",
+          "sourceType": "article",
+          "sourceUrl": "https://techcrunch.com/2015/11/18/report-india-set-to-overtake-u-s-to-become-worlds-second-largest-internet-market/"
         },
         {
           "articleId": "article:user-migration-and-the-exit-problem",
@@ -6479,7 +6489,7 @@
           "sourceId": "source-digital-gardens-appleton",
           "sourceTitle": "A Brief History & Ethos of the Digital Garden",
           "sourceType": "design",
-          "sourceUrl": "https://maggieappleton.com/nontechnical-gardening"
+          "sourceUrl": "https://maggieappleton.com/garden-history"
         },
         {
           "articleId": "article:agent-auditable-research",
@@ -7047,9 +7057,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
           "agentJsonPath": "/agents/articles/a-map-of-levers.json",
           "sourceId": "source-pib-economic-survey",
-          "sourceTitle": "PIB: Economic Survey 2025-26 Press Release on Digital Addiction and Mental Health",
+          "sourceTitle": "PIB: Economic Survey 2025-26 — Public Health, Digital Addiction and Mental Health (Release ID 2219931, 29 Jan 2026)",
           "sourceType": "government-press-release",
-          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2"
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931"
         },
         {
           "articleId": "article:attention-substance-ai-moment-tldr",
@@ -7087,9 +7097,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
           "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json",
           "sourceId": "source-pib-economic-survey",
-          "sourceTitle": "PIB: Economic Survey 2025-26 Press Release",
+          "sourceTitle": "PIB: Economic Survey 2025-26 — Public Health, Digital Addiction and Mental Health (Release ID 2219931, 29 Jan 2026)",
           "sourceType": "government-press-release",
-          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2"
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931"
         },
         {
           "articleId": "article:engagement-is-a-design-choice",
@@ -7097,9 +7107,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
           "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
           "sourceId": "source-pib-economic-survey",
-          "sourceTitle": "PIB: Economic Survey 2025-26 Press Release",
+          "sourceTitle": "PIB: Economic Survey 2025-26 — Public Health, Digital Addiction and Mental Health (Release ID 2219931, 29 Jan 2026)",
           "sourceType": "government-press-release",
-          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2"
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931"
         },
         {
           "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
@@ -7117,9 +7127,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
           "agentJsonPath": "/agents/articles/the-attention-extraction.json",
           "sourceId": "source-pib-economic-survey",
-          "sourceTitle": "PIB: Economic Survey 2025-26 Press Release",
+          "sourceTitle": "PIB: Economic Survey 2025-26 — Public Health, Digital Addiction and Mental Health (Release ID 2219931, 29 Jan 2026)",
           "sourceType": "government-press-release",
-          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2"
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931"
         },
         {
           "articleId": "article:the-attention-extraction",
@@ -7147,9 +7157,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
           "agentJsonPath": "/agents/articles/the-better-question.json",
           "sourceId": "source-pib-economic-survey",
-          "sourceTitle": "PIB: Economic Survey 2025-26 Press Release",
+          "sourceTitle": "PIB: Economic Survey 2025-26 — Public Health, Digital Addiction and Mental Health (Release ID 2219931, 29 Jan 2026)",
           "sourceType": "government-press-release",
-          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2"
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931"
         },
         {
           "articleId": "article:the-compounding-bet",
@@ -7167,9 +7177,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/the-demographic-dividend-is-not-automatic/",
           "agentJsonPath": "/agents/articles/the-demographic-dividend-is-not-automatic.json",
           "sourceId": "source-pib-youth",
-          "sourceTitle": "PIB: Youth in India",
+          "sourceTitle": "PIB: Economic Survey 2025-26 — Public Health, Digital Addiction and Mental Health (Release ID 2219931, 29 Jan 2026)",
           "sourceType": "government-press-release",
-          "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=2219931"
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931"
         },
         {
           "articleId": "article:the-engagement-gap-productivity-india",
@@ -7177,9 +7187,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
           "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json",
           "sourceId": "source-pib-economic-survey-2025-26",
-          "sourceTitle": "PIB: Economic Survey 2025-26 Press Release",
+          "sourceTitle": "PIB: Economic Survey 2025-26 — Public Health, Digital Addiction and Mental Health (Release ID 2219931, 29 Jan 2026)",
           "sourceType": "government-press-release",
-          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2"
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931"
         },
         {
           "articleId": "article:the-generational-bet",
@@ -7217,9 +7227,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
           "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
           "sourceId": "source-pib-economic-survey",
-          "sourceTitle": "PIB: Economic Survey 2025-26 Press Release",
+          "sourceTitle": "PIB: Economic Survey 2025-26 — Public Health, Digital Addiction and Mental Health (Release ID 2219931, 29 Jan 2026)",
           "sourceType": "government-press-release",
-          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2"
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931"
         },
         {
           "articleId": "article:what-ai-makes-cheap",
@@ -7237,9 +7247,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
           "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
           "sourceId": "source-pib-economic-survey",
-          "sourceTitle": "PIB: Economic Survey 2025-26 Press Release",
+          "sourceTitle": "PIB: Economic Survey 2025-26 — Public Health, Digital Addiction and Mental Health (Release ID 2219931, 29 Jan 2026)",
           "sourceType": "government-press-release",
-          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2"
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931"
         },
         {
           "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
@@ -7396,10 +7406,10 @@
           "slug": "friction-chronological-feeds-user-chosen-algorithms",
           "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
           "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json",
-          "sourceId": "source-eu-dma",
-          "sourceTitle": "EU Digital Markets Act",
+          "sourceId": "source-eu-dsa-art38",
+          "sourceTitle": "Regulation (EU) 2022/2065 (Digital Services Act), Article 38 — Recommender systems",
           "sourceType": "government-report",
-          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/digital-markets-act"
+          "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065"
         },
         {
           "articleId": "article:gender-and-the-attention-economy",
@@ -7536,10 +7546,10 @@
           "slug": "sleep-anxiety-and-tele-manas",
           "articleUrl": "https://aura-knowledge.github.io/articles/sleep-anxiety-and-tele-manas/",
           "agentJsonPath": "/agents/articles/sleep-anxiety-and-tele-manas.json",
-          "sourceId": "source-tele-manas-pib",
-          "sourceTitle": "PIB: Tele-MANAS - India's National Tele Mental Health Programme",
+          "sourceId": "source-tele-manas-usq-2806",
+          "sourceTitle": "MoHFW: Rajya Sabha Unstarred Question No. 2806 — Youth Mental Health Crisis (answered 17 March 2026)",
           "sourceType": "government-report",
-          "sourceUrl": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/dec/doc20241228477601.pdf"
+          "sourceUrl": "https://sansad.in/getFile/annex/270/AU2806_g6EFgO.pdf?source=pqars"
         },
         {
           "articleId": "article:sleep-anxiety-and-tele-manas",
@@ -8227,9 +8237,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
           "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
           "sourceId": "source-creatoriq-compensation-2026",
-          "sourceTitle": "CreatorIQ: State of Creator Compensation 2026",
+          "sourceTitle": "CreatorIQ: Top 10% of Creators Earned 62% of Payments in 2025 as Creator Compensation Inequality Widens (State of Creator Compensation, Jan 2026)",
           "sourceType": "industry-report",
-          "sourceUrl": "https://www.creatoriq.com/state-of-creator-compensation-2026"
+          "sourceUrl": "https://www.creatoriq.com/press/releases/state-of-creator-compensation-"
         },
         {
           "articleId": "article:the-attention-matthew-effect",
@@ -8507,9 +8517,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/the-jio-effect-cheap-data-access-behavior/",
           "agentJsonPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.json",
           "sourceId": "source-bain-short-form-india",
-          "sourceTitle": "Bain: The Rise of Short-Form Video in India",
+          "sourceTitle": "Bain & Company: Online Videos in India—The Long and Short of It (Oct 2021)",
           "sourceType": "industry-report",
-          "sourceUrl": "https://www.bain.com/insights/the-rise-of-short-form-video-in-india/"
+          "sourceUrl": "https://www.bain.com/insights/online-video-in-india-the-long-and-the-short-of-it/"
         },
         {
           "articleId": "article:the-life-phase-thread",
@@ -8537,7 +8547,7 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/the-reel-nation-short-form-video/",
           "agentJsonPath": "/agents/articles/the-reel-nation-short-form-video.json",
           "sourceId": "source-bain-short-form-india",
-          "sourceTitle": "Bain & Company: Short-form video in India",
+          "sourceTitle": "Bain & Company: Short-form video is poised to grow to 600 to 650 million users in India by 2025 (press release, Oct 2021)",
           "sourceType": "industry-report",
           "sourceUrl": "https://www.bain.com/about/media-center/press-releases/2022/short-form-video-india/"
         },
@@ -8667,9 +8677,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
           "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
           "sourceId": "source-creatoriq-compensation-2026",
-          "sourceTitle": "CreatorIQ: State of Creator Compensation 2026",
+          "sourceTitle": "CreatorIQ: Top 10% of Creators Earned 62% of Payments in 2025 as Creator Compensation Inequality Widens (State of Creator Compensation, Jan 2026)",
           "sourceType": "industry-report",
-          "sourceUrl": "https://www.creatoriq.com/state-of-creator-compensation-2026"
+          "sourceUrl": "https://www.creatoriq.com/press/releases/state-of-creator-compensation-"
         },
         {
           "articleId": "article:why-good-content-loses-to-loud-content",
@@ -9806,10 +9816,10 @@
           "slug": "friction-chronological-feeds-user-chosen-algorithms",
           "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
           "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json",
-          "sourceId": "source-penn-facebook-friction",
-          "sourceTitle": "Penn/Stanford: The Effects of Facebook Feed Friction",
+          "sourceId": "source-pennycook-accuracy-prompts",
+          "sourceTitle": "Pennycook et al.: Shifting attention to accuracy can reduce misinformation online (Nature, 2021)",
           "sourceType": "paper",
-          "sourceUrl": "https://www.nber.org/papers/w30214"
+          "sourceUrl": "https://www.nature.com/articles/s41586-021-03344-2"
         },
         {
           "articleId": "article:historical-hinges-access-is-not-benefit",
@@ -10447,9 +10457,19 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/the-reel-nation-short-form-video/",
           "agentJsonPath": "/agents/articles/the-reel-nation-short-form-video.json",
           "sourceId": "source-pmc-executive-control",
-          "sourceTitle": "PMC: Short-form video use and executive function in young adults",
+          "sourceTitle": "Luo et al.: Swiping Disrupts Switching: Preliminary Evidence for Reduced Cue-Based Preparation Following Short-Form Video Exposure (Behavioral Sciences, 2025)",
           "sourceType": "peer-reviewed-study",
-          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10876028/"
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12382645/"
+        },
+        {
+          "articleId": "article:the-reel-nation-short-form-video",
+          "slug": "the-reel-nation-short-form-video",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-reel-nation-short-form-video/",
+          "agentJsonPath": "/agents/articles/the-reel-nation-short-form-video.json",
+          "sourceId": "source-pmc-sleep-disruption-ef",
+          "sourceTitle": "Xiao et al.: When Screens Replace Sleep: Short Video Addiction Impairs Executive Function Through Sleep Disruption in Youth—Is Physical Activity the Antidote? (Brain and Behavior, 2026)",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13087538/"
         },
         {
           "articleId": "article:the-small-rep-theory",
@@ -10986,8 +11006,8 @@
           "slug": "from-penny-press-to-infinite-scroll",
           "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
           "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
-          "sourceId": "source-park-penny-press",
-          "sourceTitle": "David Park: The Penny Press and the Origins of Mass Media",
+          "sourceId": "source-britannica-penny-press",
+          "sourceTitle": "Britannica: Penny press",
           "sourceType": "reference",
           "sourceUrl": "https://www.britannica.com/topic/penny-press"
         },
@@ -11250,6 +11270,16 @@
           "sourceTitle": "The 2026 AI Index Report",
           "sourceType": "report",
           "sourceUrl": "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+        },
+        {
+          "articleId": "article:sleep-anxiety-and-tele-manas",
+          "slug": "sleep-anxiety-and-tele-manas",
+          "articleUrl": "https://aura-knowledge.github.io/articles/sleep-anxiety-and-tele-manas/",
+          "agentJsonPath": "/agents/articles/sleep-anxiety-and-tele-manas.json",
+          "sourceId": "source-pib-es2026-health",
+          "sourceTitle": "PIB: Economic Survey 2025-26 — Public Health, Digital Addiction and Mental Health (Release ID 2219931, 29 Jan 2026)",
+          "sourceType": "report",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931"
         },
         {
           "articleId": "article:bhashini-and-the-indic-language-ai-moment",
@@ -12250,6 +12280,16 @@
           "sourceTitle": "LocalCircles: Children, Social Media and Online Gaming Addiction Survey 2025",
           "sourceType": "survey",
           "sourceUrl": "https://www.localcircles.com/a/press/page/children-social-media-addiction"
+        },
+        {
+          "articleId": "article:the-life-phase-thread",
+          "slug": "the-life-phase-thread",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+          "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
+          "sourceId": "source-localcircles-gadget-addiction-2023",
+          "sourceTitle": "LocalCircles: Children Gadget Addiction Survey 2023",
+          "sourceType": "survey",
+          "sourceUrl": "https://www.localcircles.com/a/press/page/children-gadget-addiction-india"
         },
         {
           "articleId": "article:the-student-screen-education-vs-entertainment",

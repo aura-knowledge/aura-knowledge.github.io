@@ -27,11 +27,11 @@ sourcePath: content/articles/2026/the-reel-nation-short-form-video/article.md
 
 If you had to pick one activity that defines India's internet today, it would not be email, search, or online learning. It would be the short-form video feed. On trains, in tea shops, during homework breaks, and before sleep, millions of people swipe through a bottomless stream of clips. The behaviour looks like leisure. But the design behind it is closer to a slot machine: every swipe is a small bet on a rewarding outcome, and the house is built to keep you playing.
 
-<span id="claim-001" class="claim-marker" data-claim="claim-001">Claim C1</span> India has one of the world's largest short-form video user bases, with average daily use reaching 55–60 minutes per user.
+<span id="claim-001" class="claim-marker" data-claim="claim-001">Claim C1</span> India has one of the world's largest short-form video user bases, with daily active users spending up to 45 minutes a day in 2020 and average use projected to reach 55–60 minutes by 2025.
 
 <h2 id="the-scale-of-the-swipe">The Scale of the Swipe</h2>
 
-India's short-form video audience is enormous by any measure. Industry estimates place active users in the hundreds of millions, and a Bain report on the rise of short-form video in India estimates that users spend an average of 55–60 minutes per day on these platforms. That is not fringe behaviour; it is a central feature of the country's digital life.
+India's short-form video audience is enormous by any measure. Industry estimates place active users in the hundreds of millions, and Bain's 2021 report on online video in India measured daily active users spending up to 45 minutes a day in 2020, with average use projected to reach 55–60 minutes by 2025. That is not fringe behaviour; it is a central feature of the country's digital life.
 
 The growth has been driven by cheap data, Indic-language content, and affordable smartphones. A user in a small town can now watch, create, and share clips in her own language for a few rupees a day. The IAMAI-Kantar Internet in India Report 2024 documents how deeply short video has penetrated everyday use. But the numbers are also uneven. Industry averages hide wide variation: some users watch for a few minutes, others for several hours, and heavy use is concentrated among younger audiences. The averages tell us the scale; they do not tell us the distribution.
 

@@ -6,7 +6,7 @@ slug: by-the-numbers-what-indians-do-online
 title: "Agent Brief for 'By the Numbers: What Indians Actually Do Online'"
 tokenBudget: 1500
 status: published
-updated: 2026-07-05
+updated: 2026-07-17
 ---
 
 ## Thesis
@@ -25,7 +25,7 @@ India's digital-access success has produced a usage mix dominated by entertainme
 - `claim-001`: India's digital-access success has produced a usage mix dominated by entertainment and social media, with education and production occupying a far smaller share of online time than the country's demographic dividend requires.
 - `claim-002`: The NCAER India Human Development Survey Wave 3 found that roughly two-thirds of reported internet use is for entertainment while only about one-sixth is for education, a ratio of roughly 4:1.
 - `claim-003`: ASER 2024 reports that 76% of 14–16-year-olds use smartphones for social media while 57% use them for education.
-- `claim-004`: Gen Z Indians are estimated to spend 6–9 hours per day on screens, with a large majority exceeding the two-hour daily screen-time recommendation.
+- `claim-004`: Indian adolescents and young adults are estimated to spend several hours per day on screens, with a large majority exceeding the two-hour daily screen-time recommendation.
 - `claim-005`: The NSSO Time Use Survey 2024 shows that 93% of Indians aged 6 and above participate in mass media or leisure activities, and leisure time has risen about 15% since 2019.
 - `claim-006`: Gallup data places India's employee engagement at 23% and estimates roughly $351 billion in annual losses from disengagement, illustrating the economic opportunity cost of attention fragmentation.
 - `claim-007`: Entertainment is not the problem; the problem is the ratio of entertainment to education, production, and rest, and the opportunity cost that ratio imposes.

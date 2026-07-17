@@ -6,7 +6,7 @@ slug: the-citizens-garden
 title: "Agent Brief for 'The Citizen's Garden: Local Knowledge plus AI'"
 tokenBudget: 1200
 status: published
-updated: 2026-07-05
+updated: 2026-07-17
 ---
 
 ## Thesis
@@ -15,7 +15,7 @@ Citizens can use AI to lower the cost of producing and sharing local knowledge�
 
 ## Key Claims
 
-- `claim-001`: Government schemes, health information, and civic services are often inaccessible because of language barriers, formal language, and fragmentation, not because they do not exist.
+- `claim-001`: Government schemes, health information, and civic services are often inaccessible not because they do not exist, but because of language barriers, formal language, and fragmentation across offices, apps, and deadlines.
 - `claim-002`: AI translation, summarization, and voice generation can lower the cost of turning complex official information into local, spoken, shareable knowledge.
 - `claim-003`: Local volunteers, community organizations, and trusted neighbors remain essential for trust, verification, and last-mile delivery.
 - `claim-004`: Small civic acts—translated, documented, and shared—can compound into neighborhood-level infrastructure that outlasts the person who started them.

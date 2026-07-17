@@ -51,7 +51,7 @@
       "updatedAt": "2026-07-05",
       "claimCount": 5,
       "sourceCount": 5,
-      "tokenEstimate": 225,
+      "tokenEstimate": 292,
       "contentHash": "a546bd6f8a1c89e8d2fc8642d920c6b5326377cabfdec6332b849e1dd5c7abe4"
     },
     {
@@ -118,11 +118,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
       "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json",
       "agentMarkdownPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
       "sourceCount": 5,
-      "tokenEstimate": 277,
-      "contentHash": "21521e52b917b8a7564cddfdbfaf85536a76943b744c02e3c161db15cd5cc3ef"
+      "tokenEstimate": 283,
+      "contentHash": "762bff6be771c33eb2fcb253a58a2e9c5d4f2c8b28902a9935b7e1cf8654d2ec"
     },
     {
       "id": "article:open-questions-the-series-leaves-unresolved",
@@ -197,7 +197,7 @@
       "updatedAt": "2026-07-15",
       "claimCount": 14,
       "sourceCount": 13,
-      "tokenEstimate": 1161,
+      "tokenEstimate": 1369,
       "contentHash": "94fdce2ea87a40ad99477d3e2ced72284d4702de9f713d788f5b05e842a776fa"
     },
     {
@@ -330,11 +330,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-reel-nation-short-form-video/",
       "agentJsonPath": "/agents/articles/the-reel-nation-short-form-video.json",
       "agentMarkdownPath": "/agents/articles/the-reel-nation-short-form-video.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
-      "sourceCount": 6,
-      "tokenEstimate": 265,
-      "contentHash": "e79e3653a0aa31910577f9cd85eb541b2733d9911e37fb961f2b359c0bf3d26d"
+      "sourceCount": 7,
+      "tokenEstimate": 283,
+      "contentHash": "00b8f82af3c16ef462ab739b78dd0009012d191bd848899111a124fbe021e8c1"
     },
     {
       "id": "article:tobacco-seatbelts-food-safety",

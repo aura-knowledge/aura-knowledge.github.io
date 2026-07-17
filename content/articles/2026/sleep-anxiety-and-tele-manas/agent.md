@@ -6,7 +6,7 @@ slug: sleep-anxiety-and-tele-manas
 title: "Agent Brief for 'Sleep, Anxiety, and the Tele-MANAS Signal'"
 tokenBudget: 1200
 status: published
-updated: 2026-07-05
+updated: 2026-07-17
 ---
 
 ## Thesis
@@ -15,7 +15,7 @@ Tele-MANAS and school-based mental-health surveys reveal a large, growing burden
 
 ## Key Claims
 
-- `claim-001`: Tele-MANAS has received more than 32 lakh calls, with roughly 70% from people aged 18–45.
+- `claim-001`: As of March 2026, Tele-MANAS had handled more than 34 lakh calls, with roughly 70% of callers aged 18–45.
 - `claim-002`: NCERT and state surveys report high rates of anxiety, mood disturbance, and sleep problems among Indian adolescents.
 - `claim-003`: Sleep disruption from evening screen use is one documented pathway between heavy smartphone use and next-day distress.
 - `claim-004`: Mental-health data should be read as a public-health signal shaped by design, economics, and social context, not as evidence of individual weakness.

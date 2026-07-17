@@ -6,7 +6,7 @@ slug: agent-auditable-research
 title: Agent Brief for "The Future of Publishing Is Agent-Auditable Research"
 tokenBudget: 1200
 status: published
-updated: 2026-06-17
+updated: 2026-07-17
 ---
 
 ## Thesis
@@ -23,9 +23,9 @@ The future of serious publishing is not merely AI-written content. It is human-a
 ## Claims
 
 - `claim-001`: Polished prose is becoming cheap; inspectable reasoning is becoming scarce.
-- `claim-002`: The core artifact should be a human essay backed by a claim graph, evidence ledger, provenance, revision history, and agent contribution log.
+- `claim-002`: A future-ready publishing artifact should pair a human essay with a claim graph, evidence ledger, provenance, revision history, and agent contribution record.
 - `claim-003`: Research is the best first wedge because the audience already values citations, methods, uncertainty, and credibility.
-- `claim-004`: Current publishing, AI research, and protocol tools solve pieces of the problem but do not yet define the combined readable-plus-auditable source object.
+- `claim-004`: Existing publishing, AI research, and protocol tools solve important pieces but not the combined readable-plus-auditable source object.
 - `claim-005`: AI assistance should be disclosed while the human remains accountable for thesis, source selection, wording, and conclusions.
 - `claim-006`: Attention-aware reading and machine-readable structure are compatible when the page uses progressive disclosure.
 

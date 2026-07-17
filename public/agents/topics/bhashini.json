@@ -38,7 +38,7 @@
       "updatedAt": "2026-07-05",
       "claimCount": 4,
       "sourceCount": 5,
-      "tokenEstimate": 304,
+      "tokenEstimate": 322,
       "contentHash": "6a393859a7b5f8c68f9d6b663a8c104f9381878194747a5b6056966d4ff6e7e8"
     },
     {
@@ -73,7 +73,7 @@
       "updatedAt": "2026-07-05",
       "claimCount": 4,
       "sourceCount": 4,
-      "tokenEstimate": 307,
+      "tokenEstimate": 315,
       "contentHash": "48249a1f571fa817161271612ebe803b794eedd8dc4389c16393b972dde65d1c"
     }
   ]

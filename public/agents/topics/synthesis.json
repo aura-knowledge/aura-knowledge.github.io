@@ -37,10 +37,10 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
       "agentJsonPath": "/agents/articles/a-map-of-levers.json",
       "agentMarkdownPath": "/agents/articles/a-map-of-levers.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 8,
       "sourceCount": 13,
-      "tokenEstimate": 860,
+      "tokenEstimate": 850,
       "contentHash": "6f361b3969e6d350c7c0af935801c329a62bd65a0fb4a9689d43672c369ad00f"
     },
     {
@@ -105,11 +105,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
       "agentJsonPath": "/agents/articles/the-better-question.json",
       "agentMarkdownPath": "/agents/articles/the-better-question.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 7,
       "sourceCount": 7,
-      "tokenEstimate": 797,
-      "contentHash": "5b2dd30ccbdc6b8a0062de9648d4799310202bc46b06a4207a56aba88f3eef70"
+      "tokenEstimate": 798,
+      "contentHash": "3f8e5a55e42cd999da572d6156f4d8b6ad5e1bc35a1996f49613791c535c95f3"
     }
   ]
 }

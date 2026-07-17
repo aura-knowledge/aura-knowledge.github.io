@@ -6,7 +6,7 @@ slug: formal-logic-to-computation
 title: "Agent Brief for 'From Formal Logic to Computation: The Mathematical Road to AI'"
 tokenBudget: 1200
 status: published
-updated: 2026-06-20
+updated: 2026-07-17
 ---
 
 ## Thesis
@@ -24,11 +24,11 @@ Modern computing and AI became thinkable partly because humans developed formal 
 
 - `claim-001`: Algebraic and symbolic treatments of logic helped make reasoning inspectable and manipulable as formal symbol systems.
 - `claim-003`: The formalist ambition around mathematical foundations and decision procedures created the problem setting in which computability could be made precise.
-- `claim-004`: Gödel’s incompleteness theorems showed that consistent formal systems strong enough for arithmetic have intrinsic limits, complicating the dream of complete formal foundations.
+- `claim-004`: Gödel's incompleteness theorems showed that consistent formal systems strong enough for arithmetic have intrinsic limits, complicating the dream of complete formal foundations.
 - `claim-005`: Church, Turing, and Post offered different formalizations of effective procedure, helping turn computation into a mathematical subject before modern computers were common.
 - `claim-006`: The Church-Turing thesis concerns effective methods and is often misunderstood when treated as a claim about all physical machines or minds.
-- `claim-007`: Shannon’s switching-circuit work connected Boolean algebra to relay and switching circuit design, helping make logic part of digital engineering.
-- `claim-008`: Shannon’s communication theory provided a mathematical treatment of messages, channels, noise, and information, but it is not a theory of semantic meaning.
+- `claim-007`: Shannon's switching-circuit work connected Boolean algebra to relay and switching circuit design, helping make logic part of digital engineering.
+- `claim-008`: Shannon's communication theory provided a mathematical treatment of messages, channels, noise, and information, but it is not a theory of semantic meaning.
 - `claim-009`: Cybernetics supplied a language of feedback, control, and communication for thinking about machines and organisms, but feedback alone is not intelligence.
 
 ## Source Families

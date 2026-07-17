@@ -36,7 +36,7 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
       "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
       "agentMarkdownPath": "/agents/articles/engagement-is-a-design-choice.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 879,
@@ -71,11 +71,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
       "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json",
       "agentMarkdownPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 4,
       "sourceCount": 5,
-      "tokenEstimate": 277,
-      "contentHash": "21521e52b917b8a7564cddfdbfaf85536a76943b744c02e3c161db15cd5cc3ef"
+      "tokenEstimate": 283,
+      "contentHash": "762bff6be771c33eb2fcb253a58a2e9c5d4f2c8b28902a9935b7e1cf8654d2ec"
     },
     {
       "id": "article:product-ideas-that-could-shift-incentives",
@@ -113,7 +113,7 @@
       "updatedAt": "2026-07-15",
       "claimCount": 14,
       "sourceCount": 13,
-      "tokenEstimate": 1161,
+      "tokenEstimate": 1369,
       "contentHash": "94fdce2ea87a40ad99477d3e2ced72284d4702de9f713d788f5b05e842a776fa"
     }
   ]

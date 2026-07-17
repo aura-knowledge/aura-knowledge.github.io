@@ -3017,7 +3017,7 @@
   {
     "id": "article:sleep-anxiety-and-tele-manas:claim-001",
     "type": "claim",
-    "label": "Tele-MANAS has received more than 32 lakh calls, with roughly 70% from people aged 18–45.",
+    "label": "As of March 2026, Tele-MANAS had handled more than 34 lakh calls, with roughly 70% of callers aged 18–45.",
     "localId": "claim-001",
     "confidence": "high",
     "status": "core"
@@ -3809,7 +3809,7 @@
   {
     "id": "article:the-reel-nation-short-form-video:claim-001",
     "type": "claim",
-    "label": "India has one of the world's largest short-form video user bases, with average daily use reaching 55–60 minutes per user.",
+    "label": "India has one of the world's largest short-form video user bases, with daily active users spending up to 45 minutes a day in 2020 and average use projected to reach 55–60 minutes by 2025.",
     "localId": "claim-001",
     "confidence": "medium-high",
     "status": "core"
@@ -4899,8 +4899,8 @@
   {
     "id": "source-bain-short-form-india",
     "type": "source",
-    "label": "Bain: The Rise of Short-Form Video in India",
-    "url": "https://www.bain.com/insights/the-rise-of-short-form-video-in-india/",
+    "label": "Bain & Company: Online Videos in India—The Long and Short of It (Oct 2021)",
+    "url": "https://www.bain.com/insights/online-video-in-india-the-long-and-the-short-of-it/",
     "sourceType": "industry-report"
   },
   {
@@ -5035,6 +5035,13 @@
     "label": "Cybernetics",
     "url": "https://www.britannica.com/science/cybernetics",
     "sourceType": "documentation"
+  },
+  {
+    "id": "source-britannica-penny-press",
+    "type": "source",
+    "label": "Britannica: Penny press",
+    "url": "https://www.britannica.com/topic/penny-press",
+    "sourceType": "reference"
   },
   {
     "id": "source-brown-few-shot",
@@ -5312,8 +5319,8 @@
   {
     "id": "source-creatoriq-compensation-2026",
     "type": "source",
-    "label": "CreatorIQ: State of Creator Compensation 2026",
-    "url": "https://www.creatoriq.com/state-of-creator-compensation-2026",
+    "label": "CreatorIQ: Top 10% of Creators Earned 62% of Payments in 2025 as Creator Compensation Inequality Widens (State of Creator Compensation, Jan 2026)",
+    "url": "https://www.creatoriq.com/press/releases/state-of-creator-compensation-",
     "sourceType": "industry-report"
   },
   {
@@ -5411,7 +5418,7 @@
     "id": "source-digital-gardens-appleton",
     "type": "source",
     "label": "A Brief History & Ethos of the Digital Garden",
-    "url": "https://maggieappleton.com/nontechnical-gardening",
+    "url": "https://maggieappleton.com/garden-history",
     "sourceType": "design"
   },
   {
@@ -5595,6 +5602,13 @@
     "label": "European Commission: The Digital Services Act",
     "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act",
     "sourceType": "regulatory-text"
+  },
+  {
+    "id": "source-eu-dsa-art38",
+    "type": "source",
+    "label": "Regulation (EU) 2022/2065 (Digital Services Act), Article 38 — Recommender systems",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065",
+    "sourceType": "government-report"
   },
   {
     "id": "source-eu-dsa-regulation",
@@ -6444,6 +6458,13 @@
     "sourceType": "survey"
   },
   {
+    "id": "source-localcircles-gadget-addiction-2023",
+    "type": "source",
+    "label": "LocalCircles: Children Gadget Addiction Survey 2023",
+    "url": "https://www.localcircles.com/a/press/page/children-gadget-addiction-india",
+    "sourceType": "survey"
+  },
+  {
     "id": "source-localcircles-parents-2025",
     "type": "source",
     "label": "LocalCircles Survey of Urban Indian Parents on Children and Screen Time 2025",
@@ -7046,13 +7067,6 @@
     "sourceType": "practice-guidance"
   },
   {
-    "id": "source-park-penny-press",
-    "type": "source",
-    "label": "David Park: The Penny Press and the Origins of Mass Media",
-    "url": "https://www.britannica.com/topic/penny-press",
-    "sourceType": "reference"
-  },
-  {
     "id": "source-patreon",
     "type": "source",
     "label": "Patreon: Creator Economy",
@@ -7060,10 +7074,10 @@
     "sourceType": "website"
   },
   {
-    "id": "source-penn-facebook-friction",
+    "id": "source-pennycook-accuracy-prompts",
     "type": "source",
-    "label": "Penn/Stanford: The Effects of Facebook Feed Friction",
-    "url": "https://www.nber.org/papers/w30214",
+    "label": "Pennycook et al.: Shifting attention to accuracy can reduce misinformation online (Nature, 2021)",
+    "url": "https://www.nature.com/articles/s41586-021-03344-2",
     "sourceType": "paper"
   },
   {
@@ -7104,16 +7118,23 @@
   {
     "id": "source-pib-economic-survey",
     "type": "source",
-    "label": "PIB: Economic Survey 2025-26 Press Release on Digital Addiction and Mental Health",
-    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2",
+    "label": "PIB: Economic Survey 2025-26 — Public Health, Digital Addiction and Mental Health (Release ID 2219931, 29 Jan 2026)",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931",
     "sourceType": "government-press-release"
   },
   {
     "id": "source-pib-economic-survey-2025-26",
     "type": "source",
-    "label": "PIB: Economic Survey 2025-26 Press Release",
-    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2",
+    "label": "PIB: Economic Survey 2025-26 — Public Health, Digital Addiction and Mental Health (Release ID 2219931, 29 Jan 2026)",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931",
     "sourceType": "government-press-release"
+  },
+  {
+    "id": "source-pib-es2026-health",
+    "type": "source",
+    "label": "PIB: Economic Survey 2025-26 — Public Health, Digital Addiction and Mental Health (Release ID 2219931, 29 Jan 2026)",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931",
+    "sourceType": "report"
   },
   {
     "id": "source-pib-it-rules-faq",
@@ -7146,8 +7167,8 @@
   {
     "id": "source-pib-youth",
     "type": "source",
-    "label": "PIB: Youth in India",
-    "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2219931",
+    "label": "PIB: Economic Survey 2025-26 — Public Health, Digital Addiction and Mental Health (Release ID 2219931, 29 Jan 2026)",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931",
     "sourceType": "government-press-release"
   },
   {
@@ -7195,8 +7216,8 @@
   {
     "id": "source-pmc-executive-control",
     "type": "source",
-    "label": "PMC: Short-form video use and executive function in young adults",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10876028/",
+    "label": "Luo et al.: Swiping Disrupts Switching: Preliminary Evidence for Reduced Cue-Based Preparation Following Short-Form Video Exposure (Behavioral Sciences, 2025)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12382645/",
     "sourceType": "peer-reviewed-study"
   },
   {
@@ -7218,6 +7239,13 @@
     "type": "source",
     "label": "PMC: The adverse impact of mobile phone short-form video addiction on attentional functions and self-control",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11236742/",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
+    "id": "source-pmc-sleep-disruption-ef",
+    "type": "source",
+    "label": "Xiao et al.: When Screens Replace Sleep: Short Video Addiction Impairs Executive Function Through Sleep Disruption in Youth—Is Physical Activity the Antidote? (Brain and Behavior, 2026)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13087538/",
     "sourceType": "peer-reviewed-study"
   },
   {
@@ -7732,10 +7760,17 @@
     "sourceType": "comparison"
   },
   {
-    "id": "source-tele-manas-pib",
+    "id": "source-techcrunch-india-400m-2015",
     "type": "source",
-    "label": "PIB: Tele-MANAS - India's National Tele Mental Health Programme",
-    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2024/dec/doc20241228477601.pdf",
+    "label": "TechCrunch: India Set To Overtake U.S. To Become World's Second Largest Internet Market (Nov 2015)",
+    "url": "https://techcrunch.com/2015/11/18/report-india-set-to-overtake-u-s-to-become-worlds-second-largest-internet-market/",
+    "sourceType": "article"
+  },
+  {
+    "id": "source-tele-manas-usq-2806",
+    "type": "source",
+    "label": "MoHFW: Rajya Sabha Unstarred Question No. 2806 — Youth Mental Health Crisis (answered 17 March 2026)",
+    "url": "https://sansad.in/getFile/annex/270/AU2806_g6EFgO.pdf?source=pqars",
     "sourceType": "government-report"
   },
   {

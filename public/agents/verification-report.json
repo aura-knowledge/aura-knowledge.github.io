@@ -5801,11 +5801,11 @@
       "claims": [
         {
           "id": "claim-001",
-          "claim": "Tele-MANAS has received more than 32 lakh calls, with roughly 70% from people aged 18–45.",
+          "claim": "As of March 2026, Tele-MANAS had handled more than 34 lakh calls, with roughly 70% of callers aged 18–45.",
           "confidence": "high",
           "status": "core",
           "state": "draft",
-          "evidenceCount": 1,
+          "evidenceCount": 2,
           "counterevidenceCount": 1,
           "findings": [
             {
@@ -7215,7 +7215,7 @@
           "confidence": "high",
           "status": "core",
           "state": "draft",
-          "evidenceCount": 1,
+          "evidenceCount": 2,
           "counterevidenceCount": 1,
           "findings": [
             {
@@ -7401,7 +7401,7 @@
       "claims": [
         {
           "id": "claim-001",
-          "claim": "India has one of the world's largest short-form video user bases, with average daily use reaching 55–60 minutes per user.",
+          "claim": "India has one of the world's largest short-form video user bases, with daily active users spending up to 45 minutes a day in 2020 and average use projected to reach 55–60 minutes by 2025.",
           "confidence": "medium-high",
           "status": "core",
           "state": "draft",
@@ -7421,7 +7421,7 @@
           "confidence": "high",
           "status": "core",
           "state": "draft",
-          "evidenceCount": 2,
+          "evidenceCount": 1,
           "counterevidenceCount": 1,
           "findings": [
             {
@@ -7437,7 +7437,7 @@
           "confidence": "medium-high",
           "status": "landscape",
           "state": "draft",
-          "evidenceCount": 2,
+          "evidenceCount": 3,
           "counterevidenceCount": 1,
           "findings": [
             {

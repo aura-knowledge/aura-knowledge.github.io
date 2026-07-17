@@ -149,7 +149,7 @@
       "updatedAt": "2026-07-05",
       "claimCount": 5,
       "sourceCount": 20,
-      "tokenEstimate": 504,
+      "tokenEstimate": 519,
       "contentHash": "638f59058b3f8eab4574cbad934bed651dd925f62ef76a7f5e647b525fb50193"
     },
     {
@@ -182,7 +182,7 @@
       "updatedAt": "2026-07-06",
       "claimCount": 7,
       "sourceCount": 5,
-      "tokenEstimate": 114,
+      "tokenEstimate": 503,
       "contentHash": "9d48635b5b5127574f77ba1c89aa1f5f200188793373e23a601ddf4e3a9bfe5a"
     },
     {
@@ -319,10 +319,10 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
       "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
       "agentMarkdownPath": "/agents/articles/the-attention-matthew-effect.md",
-      "updatedAt": "2026-07-06",
+      "updatedAt": "2026-07-17",
       "claimCount": 7,
       "sourceCount": 6,
-      "tokenEstimate": 114,
+      "tokenEstimate": 534,
       "contentHash": "c46ccd41d164bb9938811546da3651408b84b298db94adfa5dd8e24d739243a9"
     },
     {
@@ -357,7 +357,7 @@
       "updatedAt": "2026-07-05",
       "claimCount": 4,
       "sourceCount": 4,
-      "tokenEstimate": 307,
+      "tokenEstimate": 315,
       "contentHash": "48249a1f571fa817161271612ebe803b794eedd8dc4389c16393b972dde65d1c"
     },
     {
@@ -558,11 +558,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
       "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
       "agentMarkdownPath": "/agents/articles/what-ai-makes-cheap.md",
-      "updatedAt": "2026-07-05",
+      "updatedAt": "2026-07-17",
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 778,
-      "contentHash": "264b2f4d83d62522d93394f82867db70f7c874016f74b377ce9cdc585dfa8269"
+      "contentHash": "fe2c2d3c4f380726825fb1592daf12580bf199a21d223a8f6e9b37b05671a685"
     },
     {
       "id": "article:what-india-is-building-vs-could-build",
@@ -628,10 +628,10 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
       "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
       "agentMarkdownPath": "/agents/articles/why-good-content-loses-to-loud-content.md",
-      "updatedAt": "2026-07-06",
+      "updatedAt": "2026-07-17",
       "claimCount": 6,
       "sourceCount": 7,
-      "tokenEstimate": 524,
+      "tokenEstimate": 535,
       "contentHash": "8a50b59d1f86dc1e261cf824a610abebf67ec10b18ec1a93833d46e8cda1edfe"
     }
   ]

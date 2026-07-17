@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-06",
-  "updatedAt": "2026-07-06",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "general",
     "students",
@@ -40,10 +40,10 @@
       "status": "core",
       "evidence": [
         {
-          "sourceId": "source-park-penny-press",
-          "snippet": "The penny press shifted newspapers from subscription-funded elite media to advertising-funded mass media, lowering prices and increasing sensational coverage.",
+          "sourceId": "source-britannica-penny-press",
+          "snippet": "This Sun demonstrated that a newspaper could succeed on individual sales and advertising instead of high-priced subscriptions, which was the more common marketing strategy most journals used.",
           "supports": "analogous",
-          "assessedAt": "2026-07-06"
+          "assessedAt": "2026-07-17"
         }
       ],
       "counterevidence": [
@@ -60,10 +60,10 @@
       "status": "core",
       "evidence": [
         {
-          "sourceId": "source-park-penny-press",
-          "snippet": "Penny papers emphasized crime, scandal, and human-interest stories as they moved from reader-funded to advertiser-funded models.",
+          "sourceId": "source-britannica-penny-press",
+          "snippet": "Human interest stories with an emphasis on crime news were another hallmark of the penny press; penny newspapers covered sports, crime, sex, society, gossip, and religion on the local, national, and international levels.",
           "supports": "analogous",
-          "assessedAt": "2026-07-06"
+          "assessedAt": "2026-07-17"
         }
       ],
       "counterevidence": [
@@ -176,11 +176,11 @@
   ],
   "sources": [
     {
-      "id": "source-park-penny-press",
-      "title": "David Park: The Penny Press and the Origins of Mass Media",
+      "id": "source-britannica-penny-press",
+      "title": "Britannica: Penny press",
       "url": "https://www.britannica.com/topic/penny-press",
       "type": "reference",
-      "accessed": "2026-07-06"
+      "accessed": "2026-07-17"
     },
     {
       "id": "source-minow-vast-wasteland",
@@ -299,7 +299,7 @@
   "agentMarkdownPath": "/agents/articles/from-penny-press-to-infinite-scroll.md",
   "sourceRepoPath": "content/articles/2026/from-penny-press-to-infinite-scroll/article.md",
   "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/from-penny-press-to-infinite-scroll/article.md",
-  "tokenEstimate": 114,
+  "tokenEstimate": 562,
   "sectionOutline": [
     {
       "id": "the-penny-press",

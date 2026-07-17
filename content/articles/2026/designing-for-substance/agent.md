@@ -6,7 +6,7 @@ slug: designing-for-substance
 title: "Agent Brief for 'Designing for Substance: Platform Incentives and the Attention Economy'"
 tokenBudget: 1200
 status: published
-updated: 2026-07-04
+updated: 2026-07-17
 ---
 
 ## Thesis
@@ -23,10 +23,10 @@ The attention economy is not inevitable. It is the product of specific design ch
 
 ## Claims
 
-- `claim-001`: The attention economy is not an inevitable feature of the internet. It is the product of specific design choices that could be redesigned.
-- `claim-002`: Alternative metrics such as time well spent, creator sustainability, learning outcomes, civic value, and long-term user flourishing can be measured and rewarded.
-- `claim-003`: Accountability for platform design can emerge through regulation, public pressure, and user migration to better-designed platforms.
-- `claim-004`: Substance-friendly design is a category that includes chronological feeds, user-chosen algorithms, expert curation, reputation systems, and friction against virality.
+- `claim-001`: The attention economy is not an inevitable feature of the internet. It is the product of specific design choices—engagement metrics, personalized recommendations, infinite scroll, and advertising-based business models—that could be redesigned.
+- `claim-002`: Alternative metrics such as time well spent, creator sustainability, learning outcomes, civic value, and long-term user flourishing can be measured and rewarded, though none is perfect or easy to game-proof.
+- `claim-003`: Accountability for platform design can emerge through regulation, public pressure, and user migration to better-designed platforms. No single lever is sufficient on its own.
+- `claim-004`: Substance-friendly design is a category that includes chronological feeds, user-chosen algorithms, expert curation, reputation systems, and friction against virality. It is not limited to a single product or business model.
 - `claim-005`: A substance-oriented platform would ask how to help users leave better than they arrived, rather than how to maximize time on platform.
 
 ## Source Families

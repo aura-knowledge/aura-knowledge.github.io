@@ -6,7 +6,7 @@ slug: long-human-road-to-ai
 title: "Agent Brief for The Long Human Road to AI: A Reader’s Guide to Season 1"
 tokenBudget: 1200
 status: published
-updated: 2026-06-20
+updated: 2026-07-17
 ---
 
 ## Thesis
@@ -23,14 +23,13 @@ Artificial intelligence is best understood as the latest chapter in a long human
 
 ## Claims
 
-- `claim-001`: AI is the latest chapter in a long human story of extending memory, calculation, communication, measurement, coordination, prediction, and delegation.
+- `claim-001`: Artificial intelligence is easiest to understand when it is presented as the latest chapter in a much longer human story of extending memory, calculation, communication, measurement, coordination, prediction, and delegation.
 - `claim-002`: Computers and AI emerged from long-running human needs and older tools rather than arriving as a single invention.
-- `claim-003`: Across the season, the recurring pattern is human need → external support → formalization → scale → boundary.
+- `claim-003`: Across the season, the same pattern appears: human need → external support → formalization → scale → boundary.
 - `claim-004`: The 1956 Dartmouth workshop named and helped launch AI as a research agenda, but it was one meeting point among many precursors.
 - `claim-005`: AI progress repeatedly moved from hand-coded rules and symbols toward learning from examples, then toward scaled general-purpose models.
-- `claim-006`: Modern AI capabilities are shaped by data, compute, people, organizations, evaluation, governance, infrastructure, and public trust—not only algorithms.
-- `claim-007`: Analogies help make AI history understandable, but they are teaching devices with limits, not evidence.
-
+- `claim-006`: Modern AI capabilities are shaped by data, compute, people, organizations, evaluation, governance, infrastructure, and public trust—not only by algorithms.
+- `claim-007`: Analogies help make AI history understandable, but they are teaching devices, not evidence, and every analogy has a limit.
 ## Source Families
 
 - Public museum timelines and collections (Computer History Museum, Smithsonian, Science Museum Group).
