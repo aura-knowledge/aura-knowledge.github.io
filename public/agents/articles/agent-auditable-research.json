@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-17",
-  "updatedAt": "2026-07-15",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "independent researchers",
     "students",
@@ -93,9 +93,10 @@
         }
       ],
       "verification": {
-        "status": "verified",
+        "status": "draft",
         "reviewer": "agent",
-        "reviewedAt": "2026-07-15"
+        "reviewedAt": "2026-07-15",
+        "note": "Downgraded 2026-07-17: all evidence snippets are placeholders; re-verification with real evidence required (aura-knowledge/meta#61, site#114)."
       }
     },
     {
@@ -124,9 +125,10 @@
         }
       ],
       "verification": {
-        "status": "verified",
+        "status": "draft",
         "reviewer": "agent",
-        "reviewedAt": "2026-07-15"
+        "reviewedAt": "2026-07-15",
+        "note": "Downgraded 2026-07-17: all evidence snippets are placeholders; re-verification with real evidence required (aura-knowledge/meta#61, site#114)."
       }
     },
     {
@@ -167,9 +169,10 @@
         }
       ],
       "verification": {
-        "status": "verified",
+        "status": "draft",
         "reviewer": "agent",
-        "reviewedAt": "2026-07-15"
+        "reviewedAt": "2026-07-15",
+        "note": "Downgraded 2026-07-17: all evidence snippets are placeholders; re-verification with real evidence required (aura-knowledge/meta#61, site#114)."
       }
     },
     {
@@ -371,7 +374,7 @@
       "version": "1.0.0"
     }
   },
-  "generatedAt": "2026-07-15T00:00:00.000Z",
+  "generatedAt": "2026-07-17T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
   "agentJsonPath": "/agents/articles/agent-auditable-research.json",
   "agentMarkdownPath": "/agents/articles/agent-auditable-research.md",

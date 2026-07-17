@@ -17,6 +17,15 @@ export function runEvalCase(evalCase, data, articlePacketsBySlug) {
     }
   }
 
+  if (
+    typeof evalCase.expected.maxResults === "number" &&
+    resultSlugs.length > evalCase.expected.maxResults
+  ) {
+    failures.push(
+      `result count ${resultSlugs.length} exceeds expected maxResults ${evalCase.expected.maxResults}`
+    );
+  }
+
   const resultClaimIds = new Set();
   for (const entry of results) {
     const packet = articlePacketsBySlug.get(entry.slug);

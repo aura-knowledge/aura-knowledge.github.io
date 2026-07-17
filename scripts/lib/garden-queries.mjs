@@ -22,14 +22,26 @@ export const CLAIM_STATES = new Set([
 ]);
 
 export async function loadGardenData() {
+  const verificationReportPath = path.join(publicRoot, "agents", "verification-report.json");
   const [index, articles, verificationReport, edgesPacket] = await Promise.all([
     readJson(path.join(publicRoot, "agents", "index.json")),
     loadArticles(),
-    readJson(path.join(publicRoot, "agents", "verification-report.json")).catch(() => ({
-      articles: []
-    })),
+    readJson(verificationReportPath).catch((error) => {
+      throw new Error(
+        `Cannot serve verification data: failed to read ${toPosix(path.relative(rootDir, verificationReportPath))} (${error.message}). Run npm run generate to rebuild agent outputs.`
+      );
+    }),
     readJson(path.join(publicRoot, "graph", "edges.json")).catch(() => ({ edges: [] }))
   ]);
+
+  if (
+    verificationReport == null ||
+    ((index.articles?.length ?? 0) > 0 && (verificationReport.articles ?? []).length === 0)
+  ) {
+    throw new Error(
+      `Cannot serve verification data: ${toPosix(path.relative(rootDir, verificationReportPath))} contains no usable verification data. Run npm run generate to rebuild agent outputs.`
+    );
+  }
 
   const edges = edgesPacket.edges ?? edgesPacket ?? [];
   return { index, articles, verificationReport, edges };

@@ -1,6 +1,6 @@
 {
   "schema_version": "sdl-routing-index@1",
-  "count": 2,
+  "count": 3,
   "attestations": [
     {
       "issue": 111,
@@ -13,6 +13,12 @@
       "envelope_hash": "sha256:1f38c611aae096a703e93743bb00cad5a59289d04bb7d0b15aec0f65bd249840",
       "lifecycle_record_id": "",
       "created_at": "2026-07-15T09:07:27+00:00"
+    },
+    {
+      "issue": 114,
+      "envelope_hash": "sha256:d62e5bfe0e7cd58ee7da83a37a5b5c5009567cb8c7f7da9a19973a58227cc36d",
+      "lifecycle_record_id": "",
+      "created_at": "2026-07-17T07:38:07.939532+00:00"
     }
   ]
 }
