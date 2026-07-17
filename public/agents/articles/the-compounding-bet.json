@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-05",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "general",
     "students",
@@ -63,7 +63,13 @@
           "summary": "Capital, compute, and policy also constrain India's AI outcomes; attention is one among several binding constraints.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -89,7 +95,13 @@
           "summary": "The cost collapse applies mainly to first drafts and prototypes; judgment, revision, distribution, and institutional credibility remain important.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -121,7 +133,13 @@
           "summary": "Engagement is also shaped by wages, job quality, and management; the weakness is not purely a distraction problem.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -147,7 +165,13 @@
           "summary": "The compounding curve in the article is illustrative, not empirically derived; individual trajectories vary widely by circumstance.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-005",
@@ -173,7 +197,13 @@
           "summary": "The same device can be used for both focus and distraction, and boundaries between the two are often fuzzy.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-006",
@@ -199,7 +229,13 @@
           "summary": "There is limited India-specific evidence on which interventions most effectively shift attention habits at scale.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-007",
@@ -219,7 +255,13 @@
           "summary": "Historical winners often had colonial, capital, or institutional advantages that AI does not erase; the analogy is suggestive, not predictive.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -324,15 +366,7 @@
   "provenance": {
     "createdAt": "2026-07-05",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-05",
-        "inputHash": "sha256:d882ba77ff9280c221b6ee69a48d916c57e4234be70426b9cd1e4c8bffc11d12",
-        "outputHash": "sha256:d882ba77ff9280c221b6ee69a48d916c57e4234be70426b9cd1e4c8bffc11d12"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",

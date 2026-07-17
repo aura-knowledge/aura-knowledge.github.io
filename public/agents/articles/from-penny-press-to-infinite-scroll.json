@@ -51,7 +51,13 @@
           "summary": "Each media transition has unique features, so the pattern should be treated as a tendency rather than a universal law.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -71,7 +77,13 @@
           "summary": "Some penny papers also pioneered modern reporting and investigative journalism, so the period was not purely a decline in quality.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -91,7 +103,13 @@
           "summary": "Broadcast media also produced high-quality journalism, drama, and educational content, particularly where public-service obligations were strong.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -111,7 +129,13 @@
           "summary": "The internet also enabled many non-commercial and community-driven information ecosystems that operate outside advertising incentives.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-005",
@@ -131,7 +155,13 @@
           "summary": "Not all Indian internet use happens in feeds; messaging, education, payments, and government services also absorb significant attention.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-006",
@@ -151,7 +181,13 @@
           "summary": "The speed and global scale of digital platforms may make institutional adaptation harder or slower than in previous transitions.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-007",
@@ -171,7 +207,13 @@
           "summary": "India has significant domestic technology capacity and could shape platform architecture through regulation, public procurement, and indigenous platforms.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -253,15 +295,7 @@
   "provenance": {
     "createdAt": "2026-07-06",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-06",
-        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-        "outputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",

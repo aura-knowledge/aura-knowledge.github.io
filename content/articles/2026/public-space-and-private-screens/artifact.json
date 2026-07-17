@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-05",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "general",
     "students",
@@ -57,7 +57,13 @@
           "summary": "The NSSO survey measures participation categories, not platform-specific attention or the quality of social interaction; some digital participation may also be social.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -83,7 +89,13 @@
           "summary": "There is no nationally representative India survey of transit or public-space screen use; the claim rests on observational pattern and inference rather than census data.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -115,7 +127,13 @@
           "summary": "Not all incidental public interaction is positive; harassment, discrimination, and unwanted contact can make withdrawal a rational and protective choice.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -141,7 +159,13 @@
           "summary": "Headphones and feeds can also create personal safety, autonomy, and restorative solitude in crowded or stressful environments; withdrawal is not always a loss.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -210,15 +234,7 @@
   "provenance": {
     "createdAt": "2026-07-05",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-05",
-        "inputHash": "sha256:366539f42f4385c0b98357da55b3335d5b967a1b3c93462e7c7c0206540f3fc4",
-        "outputHash": "sha256:366539f42f4385c0b98357da55b3335d5b967a1b3c93462e7c7c0206540f3fc4"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",

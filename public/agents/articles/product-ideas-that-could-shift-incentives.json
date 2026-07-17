@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-15",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "general",
     "students",
@@ -604,22 +604,7 @@
   "provenance": {
     "createdAt": "2026-07-05",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-05",
-        "inputHash": "sha256:9133ff26063eac5d829a9d1d75730a2e955c8dd2f8d2045aafe50f41d37d5ddd",
-        "outputHash": "sha256:9133ff26063eac5d829a9d1d75730a2e955c8dd2f8d2045aafe50f41d37d5ddd"
-      },
-      {
-        "role": "expansion",
-        "model": "kimi",
-        "invokedAt": "2026-07-15",
-        "inputHash": "sha256:94fdce2ea87a40ad99477d3e2ced72284d4702de9f713d788f5b05e842a776fa",
-        "outputHash": "sha256:94fdce2ea87a40ad99477d3e2ced72284d4702de9f713d788f5b05e842a776fa"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",

@@ -1,0 +1,31 @@
+{
+  "schema_version": "sdl-routing-attestation@2",
+  "issue": 119,
+  "chain_id": "119",
+  "node_id": "119",
+  "goal": "[meta#61] Green-up: verification backlog triage and gate ratchets",
+  "allowed_paths": [
+    "scripts",
+    "schemas",
+    "content",
+    "public",
+    "package.json"
+  ],
+  "envelope_hash": "sha256:ed23063f3e95f876c29561a2eeb84b9fc91278fc7704c1fa12d62bbaf8269fe4",
+  "policy_ref": ".stibdedlom/invocation-policy.yaml",
+  "manifest_path": ".stibdedlom/manifest.yaml",
+  "base_ref": "fix/issue-119-green-up",
+  "created_at": "2026-07-17T22:29:06.175114+00:00",
+  "expires_at": "2026-07-24T22:29:06.175114+00:00",
+  "kid": "rk-2026-07-11-27bdb969",
+  "algorithm": "ed25519",
+  "runtime_binding": {
+    "branch": "fix/issue-119-green-up",
+    "worktree_path": "/Users/vishalsingh/Documents/v-i-s-h-a-l/aura-knowledge/site-verification-gates",
+    "base_sha": "b1202649087f5efac636d9535505a3747f107f6e",
+    "base_ref": "fix/issue-119-green-up",
+    "max_commits_ahead": 50
+  },
+  "capability": "capability-client-orchestrator",
+  "signature": "ed25519:vowzdsq1yYSEuv//PU9L6AYapgmkSDgHNO58Jt86bz0mExsOg+eM7JOx5unZFrcI59t9ok9Okiukq5scARekAA=="
+}

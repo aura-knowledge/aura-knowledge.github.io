@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-15",
-  "updatedAt": "2026-07-15",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "builders",
     "indie-developers",
@@ -44,7 +44,13 @@
           "summary": "Third-party provider packages are beta and tied to the OS 27 betas; API stability is not guaranteed until general availability.",
           "assessedAt": "2026-07-15"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -70,7 +76,13 @@
           "summary": "Eligibility also requires the Private Cloud Compute entitlement, which Apple assigns to accounts; not every enrolled developer is automatically approved.",
           "assessedAt": "2026-07-15"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -96,7 +108,13 @@
           "summary": "These limits come from independent reverse-engineering, not Apple's published terms, and may change as PCC scales or as policy updates.",
           "assessedAt": "2026-07-15"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -116,7 +134,13 @@
           "summary": "Apple could expand system access in future releases, especially through user-consented App Intents or MCP servers, but no such broad cross-app API has been announced.",
           "assessedAt": "2026-07-15"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-005",
@@ -136,7 +160,13 @@
           "summary": "The optimal tiering depends on the app's domain and user sensitivity; some apps may never need a third-party frontier model, while others may require it from day one.",
           "assessedAt": "2026-07-15"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-006",
@@ -156,7 +186,13 @@
           "summary": "Model quality, latency, and provider relationships may still differentiate products, especially at the frontier where Apple's models may lag paid alternatives.",
           "assessedAt": "2026-07-15"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [

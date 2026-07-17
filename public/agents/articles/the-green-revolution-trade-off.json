@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-05",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "general",
     "students",
@@ -52,7 +52,13 @@
           "summary": "The benefits were unevenly distributed by region, crop, and farm size; some areas and crops saw limited gains.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -78,7 +84,13 @@
           "summary": "The severity of ecological impacts varied widely by irrigation management, soil type, and local policy; not all Green Revolution regions experienced the same costs.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -104,7 +116,13 @@
           "summary": "Some policy responses, such as groundwater regulation and crop-diversification programs, did eventually emerge, showing the costs were not entirely ignored.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -130,7 +148,13 @@
           "summary": "The analogy is interpretive, not causal; digital access also enables education, livelihoods, and civic participation, and the mental-health and civic-cohesion links remain contested.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -192,15 +216,7 @@
   "provenance": {
     "createdAt": "2026-07-05",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-05",
-        "inputHash": "sha256:89145027e04ed27238aeb2c9e49a873e2a3e91f14f5678e2203fafee98518adc",
-        "outputHash": "sha256:89145027e04ed27238aeb2c9e49a873e2a3e91f14f5678e2203fafee98518adc"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",

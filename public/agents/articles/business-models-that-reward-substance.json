@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-05",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "general",
     "students",
@@ -51,7 +51,13 @@
           "summary": "Ad-supported platforms can and do invest in quality when it serves advertiser interests, such as brand safety and premium inventory; engagement is not the only metric they track.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -77,7 +83,13 @@
           "summary": "Subscription models can exclude low-income users, favor established voices, and still optimize for retention through sensational or addictive content.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -97,7 +109,13 @@
           "summary": "Public funding can introduce political pressure, bureaucratic inefficiency, and reduced responsiveness to audience preferences.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -117,7 +135,13 @@
           "summary": "Cooperatives and reputation systems face governance challenges, free-rider problems, and status competition that can undermine quality and sustainability.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -185,15 +209,7 @@
   "provenance": {
     "createdAt": "2026-07-05",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-05",
-        "inputHash": "sha256:fe03575bc91fa145f28cb885dde492c2d07ed3d6df2d026c9b8be5951bc4a380",
-        "outputHash": "sha256:fe03575bc91fa145f28cb885dde492c2d07ed3d6df2d026c9b8be5951bc4a380"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",

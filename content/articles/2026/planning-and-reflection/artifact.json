@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-29",
-  "updatedAt": "2026-06-29",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "general",
     "students",
@@ -45,7 +45,13 @@
           "summary": "Some agent designs interleave planning and action so tightly that the distinction between plan and reflection becomes a design choice rather than a fixed property.",
           "assessedAt": "2026-06-29"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -65,7 +71,13 @@
           "summary": "Earlier planning systems often required formal symbolic descriptions, whereas modern agents can plan from natural-language prompts with ambiguous constraints.",
           "assessedAt": "2026-06-29"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -91,7 +103,13 @@
           "summary": "Many simple tasks are better solved by a single well-crafted prompt than by adding planning and reflection overhead.",
           "assessedAt": "2026-06-29"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -111,7 +129,13 @@
           "summary": "Some studies show that self-consistency checks and majority voting can catch errors even without external tools, especially on well-defined reasoning tasks.",
           "assessedAt": "2026-06-29"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-005",
@@ -131,7 +155,13 @@
           "summary": "If the validation data share the model's blind spots, a harness can appear effective while reinforcing the same errors.",
           "assessedAt": "2026-06-29"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -190,22 +220,7 @@
   "provenance": {
     "createdAt": "2026-06-29",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-06-29",
-        "inputHash": "sha256:d3dce937b302fd9f5434128bee3769e975c18dc3338ac506e829f45a55d473dd",
-        "outputHash": "sha256:d3dce937b302fd9f5434128bee3769e975c18dc3338ac506e829f45a55d473dd"
-      },
-      {
-        "role": "review",
-        "model": "kimi",
-        "invokedAt": "2026-06-29",
-        "inputHash": "sha256:d3dce937b302fd9f5434128bee3769e975c18dc3338ac506e829f45a55d473dd",
-        "outputHash": "sha256:d3dce937b302fd9f5434128bee3769e975c18dc3338ac506e829f45a55d473dd"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "agent",

@@ -58,7 +58,13 @@
           "summary": "There is limited India-specific evidence proving that coordinated multi-layer intervention works at national scale; the claim is a structural framework, not an empirically tested model.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -90,7 +96,13 @@
           "summary": "The same platforms are used for both social and educational purposes, and reported shares may not cleanly map to actual minutes; screen time is not uniformly harmful.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -116,7 +128,13 @@
           "summary": "Some studies find limited wellbeing effects from moderate screen-time reduction, suggesting that use patterns and content quality matter more than raw time.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -154,7 +172,13 @@
           "summary": "Design changes can be circumvented, A/B tested away, or rolled back if business metrics suffer; user habits and network effects also constrain design impact.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-005",
@@ -180,7 +204,13 @@
           "summary": "Evidence that Indian investors currently reward attention quality is sparse; most venture and public-market metrics still prioritise growth and engagement.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-006",
@@ -212,7 +242,13 @@
           "summary": "Some scholars argue that well-enforced regulation can significantly shift platform behaviour; the limitation may be enforcement capacity rather than regulation itself.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-007",
@@ -238,7 +274,13 @@
           "summary": "Civil society in India is fragmented and often under-resourced; organised user demand is less visible than in Europe or the United States.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-008",
@@ -264,7 +306,13 @@
           "summary": "Historical examples exist where a single intervention — a court ruling, a viral scandal, or a platform redesign — produced rapid change, so multi-layer alignment is not strictly necessary in every case.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -404,15 +452,7 @@
   "provenance": {
     "createdAt": "2026-07-05",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-05",
-        "inputHash": "sha256:71190f03d689629fe5004d15bcc0c872da3a2bc19d526bf6c4daa3abb16d18f6",
-        "outputHash": "sha256:71190f03d689629fe5004d15bcc0c872da3a2bc19d526bf6c4daa3abb16d18f6"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",

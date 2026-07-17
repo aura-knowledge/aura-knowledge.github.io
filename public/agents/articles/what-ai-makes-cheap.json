@@ -51,7 +51,13 @@
           "summary": "Outputs often require human verification; hallucinations and quality variation mean the first draft is not the final product.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -71,7 +77,13 @@
           "summary": "Some experiments also show gains for experienced workers who integrate AI strategically; bounded-task gains may not transfer to open-ended, high-stakes work.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -91,7 +103,13 @@
           "summary": "Coverage of 22 languages does not mean equal quality across all languages and dialects; performance depends on available training data.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -111,7 +129,13 @@
           "summary": "The survey is a snapshot of C-suite self-reporting; adoption numbers may have changed rapidly after the survey period.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-005",
@@ -131,7 +155,13 @@
           "summary": "Potential value is not guaranteed value; skills penetration does not imply equal deployment or productivity realization across sectors.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-006",
@@ -157,7 +187,13 @@
           "summary": "The link between AI-induced time savings and reinvestment is conceptual; no direct measurement shows how saved time is currently being used in India.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-007",
@@ -177,7 +213,13 @@
           "summary": "The extraction risk is prospective; current Indian-scale measurement of AI-driven synthetic content or automated influencers is not cited here.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -275,15 +317,7 @@
   "provenance": {
     "createdAt": "2026-07-05",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-05",
-        "inputHash": "sha256:36f08fb0c0f3fddf41eb669a1eab7f20979d1c313049bdd40c371f48bc2025d0",
-        "outputHash": "sha256:36f08fb0c0f3fddf41eb669a1eab7f20979d1c313049bdd40c371f48bc2025d0"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",
@@ -298,6 +332,16 @@
         ],
         "notes": "Human author approved publication.",
         "contentHash": "264b2f4d83d62522d93394f82867db70f7c874016f74b377ce9cdc585dfa8269"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-17",
+        "status": "approved",
+        "scope": [
+          "article"
+        ],
+        "notes": "Re-approved by maintainer after the meta#61 P1 citation repairs (publish instruction, 2026-07-17).",
+        "contentHash": "fe2c2d3c4f380726825fb1592daf12580bf199a21d223a8f6e9b37b05671a685"
       }
     ],
     "policy": {

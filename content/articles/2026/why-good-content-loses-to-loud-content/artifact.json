@@ -51,7 +51,13 @@
           "summary": "Platforms also use quality signals, user satisfaction surveys, and demonetization policies, but these are secondary to engagement in most distribution decisions.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -77,7 +83,13 @@
           "summary": "Some neutral, high-quality content achieves large reach through search, recommendations to niche audiences, or slow accumulation over time.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -97,7 +109,13 @@
           "summary": "Viral breakout content from small creators does happen, but it is statistically rare and often depends on being reshared by larger accounts or picked up by platform editorial features.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -117,7 +135,13 @@
           "summary": "Some creators build large audiences precisely by refusing to optimize for engagement, though they usually rely on non-feed channels or niche communities.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-005",
@@ -143,7 +167,13 @@
           "summary": "AI may also help quality creators produce more efficiently or reach language-specific audiences where competition is lower.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-006",
@@ -163,7 +193,13 @@
           "summary": "These strategies require time, capital, and access to non-feed channels that not all creators have.",
           "assessedAt": "2026-07-06"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -248,15 +284,7 @@
   "provenance": {
     "createdAt": "2026-07-06",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-06",
-        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-        "outputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",

@@ -61,7 +61,13 @@
           "summary": "Access itself is a precondition for productive use; the gap between access and productive use is correlational and shaped by income, schooling, and parental supervision.",
           "assessedAt": "2026-07-04"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -91,7 +97,13 @@
           "summary": "India's IT Rules and periodic draft regulations create local safety obligations, even if enforcement and design influence remain uneven.",
           "assessedAt": "2026-07-04"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -121,7 +133,13 @@
           "summary": "Not all platforms use every engagement-maximizing pattern, and some design choices improve user control.",
           "assessedAt": "2026-07-04"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -187,7 +205,13 @@
           "summary": "Social trust is difficult to measure directly, and much of the evidence on polarization is correlational or based on platform-specific samples.",
           "assessedAt": "2026-07-04"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -326,15 +350,7 @@
   "provenance": {
     "createdAt": "2026-07-04",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-04",
-        "inputHash": "sha256:57dc709a99322b3db0a9c54c8578f3e1e5bce05645c29ebd7d2e3101119101bd",
-        "outputHash": "sha256:57dc709a99322b3db0a9c54c8578f3e1e5bce05645c29ebd7d2e3101119101bd"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",

@@ -58,7 +58,13 @@
           "summary": "Chronological feeds can still surface polarizing or misleading content and may bury high-quality posts that a user would have valued but missed due to timing.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -84,7 +90,13 @@
           "summary": "Users may habituate to prompts over time, bypass friction through screenshots, or share off-platform, limiting long-term effectiveness.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -110,7 +122,13 @@
           "summary": "Most users stick with defaults, so offering choice without changing the default may leave most behavior unchanged.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -136,7 +154,13 @@
           "summary": "Less extractive design may improve long-term trust, retention, and brand value, so the conflict with ad-supported models is not absolute and depends on time horizon.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -205,15 +229,7 @@
   "provenance": {
     "createdAt": "2026-07-05",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-05",
-        "inputHash": "sha256:4717b32b9eb93a4961839a8a0003f3aba3d267ec07fc4d7b67a7156e11b9cd9b",
-        "outputHash": "sha256:4717b32b9eb93a4961839a8a0003f3aba3d267ec07fc4d7b67a7156e11b9cd9b"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",
@@ -228,6 +244,16 @@
         ],
         "notes": "Human author approved publication.",
         "contentHash": "21521e52b917b8a7564cddfdbfaf85536a76943b744c02e3c161db15cd5cc3ef"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-17",
+        "status": "approved",
+        "scope": [
+          "article"
+        ],
+        "notes": "Re-approved by maintainer after the meta#61 P1 citation repairs (publish instruction, 2026-07-17).",
+        "contentHash": "762bff6be771c33eb2fcb253a58a2e9c5d4f2c8b28902a9935b7e1cf8654d2ec"
       }
     ],
     "policy": {

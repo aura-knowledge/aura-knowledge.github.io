@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-05",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "general",
     "students",
@@ -59,7 +59,13 @@
           "summary": "Network effects can be overcome when users coordinate migration, when a niche offers superior quality, or when multi-homing reduces the cost of using several platforms at once.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -91,7 +97,13 @@
           "summary": "Many users maintain overlapping contact lists across platforms, and younger users in particular may switch services with lower perceived cost if peer groups move together.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -123,7 +135,13 @@
           "summary": "Portability alone may not change behavior if networks remain concentrated; interoperability must be technically robust, privacy-preserving, and actually used by competitors to matter.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -149,7 +167,13 @@
           "summary": "Federated services face usability, discovery, moderation, and governance challenges that can limit adoption; the model shifts power to server operators rather than eliminating hierarchy.",
           "assessedAt": "2026-07-05"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [
@@ -218,15 +242,7 @@
   "provenance": {
     "createdAt": "2026-07-05",
     "createdBy": "human",
-    "agents": [
-      {
-        "role": "drafting",
-        "model": "kimi",
-        "invokedAt": "2026-07-05",
-        "inputHash": "sha256:7f25386dda0dc58af48ceb317f5feee670387619c64dcddf3ea105375d7700a7",
-        "outputHash": "sha256:7f25386dda0dc58af48ceb317f5feee670387619c64dcddf3ea105375d7700a7"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "human",

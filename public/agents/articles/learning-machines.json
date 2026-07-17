@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-20",
-  "updatedAt": "2026-06-20",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "general readers",
     "students",
@@ -61,7 +61,13 @@
           "summary": "Symbolic and rule-based systems remain effective for many tasks where rules are clear, and learning systems still require extensive human design, labels, and evaluation.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-002",
@@ -87,7 +93,13 @@
           "summary": "The proposal was aspirational field framing, not evidence that researchers had already achieved machine learning.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-003",
@@ -113,7 +125,13 @@
           "summary": "Checkers is a narrow domain, and the popular shorthand definition of machine learning as acting without explicit programming is not directly sourced here.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-004",
@@ -139,7 +157,13 @@
           "summary": "The perceptron was a simplified architecture with a bounded biological analogy; it is not equivalent to modern deep learning.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-005",
@@ -165,7 +189,13 @@
           "summary": "The book did not single-handedly end neural-network research; work on multilayer and other architectures continued, and the field's slowdown had multiple causes.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-006",
@@ -197,7 +227,13 @@
           "summary": "Backpropagation had earlier antecedents; the 1986 paper popularized and demonstrated it rather than inventing it, and document recognition remained a specialized application.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-007",
@@ -223,7 +259,13 @@
           "summary": "Benchmarks measure defined tasks and can narrow research attention or encourage overfitting to the test set rather than broader visual understanding.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     },
     {
       "id": "claim-008",
@@ -267,7 +309,13 @@
           "summary": "Parallel deep-learning work existed at the same time; AlexNet's success depended on matching training and test distributions, and benchmark success does not imply general understanding or that compute alone caused progress.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "draft",
+        "reviewedAt": "2026-07-17",
+        "reviewer": "kimi-code-cli",
+        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+      }
     }
   ],
   "sources": [

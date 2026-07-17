@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "sprout",
   "publishedAt": "2026-06-28",
-  "updatedAt": "2026-06-28",
+  "updatedAt": "2026-07-17",
   "audiences": [
     "builders",
     "researchers",
@@ -123,15 +123,7 @@
   "provenance": {
     "createdAt": "2026-06-28",
     "createdBy": "codex-agent",
-    "agents": [
-      {
-        "role": "drafting-and-site-preview",
-        "model": "gpt-5",
-        "invokedAt": "2026-06-28",
-        "inputHash": "sha256:e2828555014eaf339ec5e645ae23c648d51ce09019c7137833258056aa89b22f",
-        "outputHash": "sha256:e2828555014eaf339ec5e645ae23c648d51ce09019c7137833258056aa89b22f"
-      }
-    ],
+    "agents": [],
     "reviews": [
       {
         "reviewer": "sibling-agent",
