@@ -1,4 +1,4 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadArticles, rootDir } from "./lib/content-utils.mjs";
 
@@ -9,6 +9,7 @@ const write = args.includes("--write");
 const today = new Date().toISOString().slice(0, 10);
 
 async function checkUrl(url) {
+  let lastResult = { ok: false, status: 0, error: "unreachable" };
   for (const method of ["HEAD", "GET"]) {
     try {
       const response = await fetch(url, {
@@ -17,13 +18,15 @@ async function checkUrl(url) {
         signal: AbortSignal.timeout(TIMEOUT_MS),
         headers: { "user-agent": "aura-knowledge-source-liveness/1.0" }
       });
-      return { ok: response.status < 400, status: response.status };
-    } catch (error) {
-      if (method === "GET") {
-        return { ok: false, status: 0, error: error.message };
+      if (response.status < 400) {
+        return { ok: true, status: response.status };
       }
+      lastResult = { ok: false, status: response.status };
+    } catch (error) {
+      lastResult = { ok: false, status: 0, error: error.message };
     }
   }
+  return lastResult;
 }
 
 const articles = await loadArticles();
