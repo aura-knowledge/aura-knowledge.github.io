@@ -27,11 +27,20 @@ const indexPath = path.join(process.cwd(), "public", "agents", "index.json");
 const graphHtml = await readFile(graphPath, "utf8");
 const agentIndex = JSON.parse(await readFile(indexPath, "utf8"));
 
+function decodeHtmlEntities(value) {
+  return value
+    .replace(/&#39;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">");
+}
+
 const branchMatches = graphHtml.matchAll(/<section class="graph-branch"[^>]*>[\s\S]*?<h3>\s*<a href="([^"]+)">([^<]+)<\/a>/g);
 const articleBranchCounts = new Map();
 
 for (const match of branchMatches) {
-  const key = `${match[1]}|${match[2]}`;
+  const key = `${match[1]}|${decodeHtmlEntities(match[2])}`;
   articleBranchCounts.set(key, (articleBranchCounts.get(key) ?? 0) + 1);
 }
 

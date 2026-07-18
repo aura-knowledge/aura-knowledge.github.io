@@ -3,10 +3,10 @@
   "schema": "https://aura-knowledge.github.io/schemas/garden-queries.schema.json",
   "site": "https://aura-knowledge.github.io",
   "base": "",
-  "generatedAt": "2026-06-29T00:00:00.000Z",
+  "generatedAt": "2026-07-04T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 523
+    "totalResults": 595
   },
   "dimensions": [
     {
@@ -17,41 +17,60 @@
         "agent-provenance",
         "agentic-commerce",
         "ai-agents",
+        "ai-assisted-creation",
         "ai-governance",
         "ai-history",
         "ai-literacy",
         "ai-native-publishing",
         "ai-society",
+        "artificial-intelligence",
+        "attention-economy",
         "audio",
         "computability",
         "computing-history",
         "consumer-behavior",
         "cybernetics",
+        "deep-work",
         "digital-gardens",
+        "digital-minimalism",
+        "digital-wellbeing",
         "education",
         "evaluation",
         "expert-systems",
+        "fediverse",
         "formal-logic",
         "foundation-models",
+        "generational-responsibility",
         "governance",
+        "habit-formation",
         "human-ai-interaction",
         "human-progress",
         "hype-cycle",
         "incumbent-adjacent-ventures",
+        "india",
         "information-theory",
+        "innovation",
         "institutions",
         "labor",
+        "learning",
         "llm-routing",
         "long-human-road-to-ai",
         "machine-learning",
+        "mental-health",
         "neural-networks",
         "onboarding",
         "open-protocols",
+        "platform-design",
         "privacy",
         "product-truth",
+        "productivity",
         "prompting",
+        "public-interest-technology",
+        "public-policy",
+        "regulation",
         "research-workflows",
         "scaling",
+        "social-media",
         "symbolic-ai",
         "transformers",
         "voice-interfaces"
@@ -66,11 +85,13 @@
         "agent-orchestration",
         "agents",
         "ai-agents",
+        "ai-assisted-creation",
         "ai-history",
         "ai-literacy",
         "ai-society",
         "ai-winters",
         "ambient-computing",
+        "artificial-intelligence",
         "attention-economy",
         "audio",
         "automata",
@@ -87,34 +108,44 @@
         "dartmouth",
         "data",
         "de-hype",
+        "deep-work",
         "delegation",
         "digital-gardens",
+        "digital-minimalism",
+        "digital-wellbeing",
         "early-ai",
         "education",
         "evals",
         "evaluation",
         "evaluations",
         "expert-systems",
+        "fediverse",
         "fine-tuning",
         "function-calling",
+        "generational-responsibility",
         "goals",
         "governance",
+        "habit-formation",
         "history-of-ai",
         "human-ai-interaction",
         "human-computer-interaction",
         "human-computers",
         "human-progress",
         "hype-cycle",
+        "india",
         "information-overload",
         "information-theory",
+        "innovation",
         "institutions",
         "labor",
+        "learning",
         "llm-routing",
         "logic",
         "loops",
         "machine-learning",
         "mechanical-calculation",
         "memory",
+        "mental-health",
         "model-choice",
         "multi-agent-systems",
         "multimodality",
@@ -124,25 +155,31 @@
         "onboarding",
         "open-protocols",
         "planning",
+        "platform-design",
         "pretraining",
         "privacy",
         "product-truth",
+        "productivity",
         "prompt-caching",
         "prompt-engineering",
         "prompt-template",
         "prompting",
+        "public-interest-technology",
+        "public-policy",
         "publishing",
         "rag",
         "reading-guide",
         "reasoning",
         "recipe",
         "reflection",
+        "regulation",
         "research-workflows",
         "retrieval-augmented-generation",
         "scaling",
         "screen-fatigue",
         "series-overview",
         "sessions",
+        "social-media",
         "statistics",
         "summarization",
         "symbolic-ai",
@@ -185,7 +222,9 @@
         "article",
         "benchmark-site",
         "biographical-reference",
+        "blog-post",
         "book",
+        "book-website",
         "case-study",
         "comparison",
         "conference-paper",
@@ -200,6 +239,9 @@
         "essay",
         "expert-system-retrospective",
         "government-history",
+        "government-policy",
+        "government-press-release",
+        "government-report",
         "guidance",
         "guide",
         "historical-analysis",
@@ -208,6 +250,7 @@
         "institutional-history",
         "institutional-report",
         "intergovernmental-principles",
+        "interview-transcript",
         "journal-article",
         "museum-collection",
         "museum-exhibit",
@@ -219,14 +262,18 @@
         "official-guidance",
         "official-report-series",
         "official-statistics",
+        "organization-website",
         "original-paper",
         "paper",
+        "peer-reviewed-study",
         "policy",
         "practice-guidance",
         "preprint",
         "primary",
         "primary-text",
         "product",
+        "product-blog",
+        "product-page",
         "project-document",
         "proposal",
         "protocol",
@@ -234,6 +281,7 @@
         "regulation",
         "regulatory",
         "regulatory-data",
+        "regulatory-text",
         "report",
         "research",
         "research-article",
@@ -241,6 +289,7 @@
         "research-project",
         "research-report",
         "research-synthesis",
+        "research-tool",
         "safety-guide",
         "schema",
         "standard",
@@ -248,6 +297,7 @@
         "survey-topic",
         "technical-report",
         "textbook",
+        "university-news",
         "university-research-summary",
         "working-paper"
       ]
@@ -281,7 +331,7 @@
         "groupBy": "topic"
       },
       "resultType": "articles",
-      "resultCount": 114,
+      "resultCount": 138,
       "results": [
         {
           "articleId": "article:agent-control-planes",
@@ -550,6 +600,13 @@
           "topic": "ai-agents"
         },
         {
+          "articleId": "article:the-substance-builder",
+          "slug": "the-substance-builder",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+          "agentJsonPath": "/agents/articles/the-substance-builder.json",
+          "topic": "ai-assisted-creation"
+        },
+        {
           "articleId": "article:foundation-models",
           "slug": "foundation-models",
           "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
@@ -718,6 +775,34 @@
           "topic": "ai-society"
         },
         {
+          "articleId": "article:the-generational-bet",
+          "slug": "the-generational-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+          "agentJsonPath": "/agents/articles/the-generational-bet.json",
+          "topic": "artificial-intelligence"
+        },
+        {
+          "articleId": "article:designing-for-substance",
+          "slug": "designing-for-substance",
+          "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
+          "agentJsonPath": "/agents/articles/designing-for-substance.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:the-generational-bet",
+          "slug": "the-generational-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+          "agentJsonPath": "/agents/articles/the-generational-bet.json",
+          "topic": "attention-economy"
+        },
+        {
           "articleId": "article:audio-first-voice-consumption",
           "slug": "audio-first-voice-consumption",
           "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
@@ -767,11 +852,46 @@
           "topic": "cybernetics"
         },
         {
+          "articleId": "article:the-generational-bet",
+          "slug": "the-generational-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+          "agentJsonPath": "/agents/articles/the-generational-bet.json",
+          "topic": "deep-work"
+        },
+        {
+          "articleId": "article:the-substance-builder",
+          "slug": "the-substance-builder",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+          "agentJsonPath": "/agents/articles/the-substance-builder.json",
+          "topic": "deep-work"
+        },
+        {
           "articleId": "article:agent-auditable-research",
           "slug": "agent-auditable-research",
           "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
           "agentJsonPath": "/agents/articles/agent-auditable-research.json",
           "topic": "digital-gardens"
+        },
+        {
+          "articleId": "article:the-substance-builder",
+          "slug": "the-substance-builder",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+          "agentJsonPath": "/agents/articles/the-substance-builder.json",
+          "topic": "digital-minimalism"
+        },
+        {
+          "articleId": "article:designing-for-substance",
+          "slug": "designing-for-substance",
+          "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
+          "agentJsonPath": "/agents/articles/designing-for-substance.json",
+          "topic": "digital-wellbeing"
+        },
+        {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "topic": "digital-wellbeing"
         },
         {
           "articleId": "article:before-machines",
@@ -802,6 +922,13 @@
           "topic": "expert-systems"
         },
         {
+          "articleId": "article:designing-for-substance",
+          "slug": "designing-for-substance",
+          "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
+          "agentJsonPath": "/agents/articles/designing-for-substance.json",
+          "topic": "fediverse"
+        },
+        {
           "articleId": "article:formal-logic-to-computation",
           "slug": "formal-logic-to-computation",
           "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
@@ -816,11 +943,25 @@
           "topic": "foundation-models"
         },
         {
+          "articleId": "article:the-generational-bet",
+          "slug": "the-generational-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+          "agentJsonPath": "/agents/articles/the-generational-bet.json",
+          "topic": "generational-responsibility"
+        },
+        {
           "articleId": "article:human-systems",
           "slug": "human-systems",
           "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
           "agentJsonPath": "/agents/articles/human-systems.json",
           "topic": "governance"
+        },
+        {
+          "articleId": "article:the-substance-builder",
+          "slug": "the-substance-builder",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+          "agentJsonPath": "/agents/articles/the-substance-builder.json",
+          "topic": "habit-formation"
         },
         {
           "articleId": "article:ai-delegation-orchestration",
@@ -907,11 +1048,32 @@
           "topic": "incumbent-adjacent-ventures"
         },
         {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:the-generational-bet",
+          "slug": "the-generational-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+          "agentJsonPath": "/agents/articles/the-generational-bet.json",
+          "topic": "india"
+        },
+        {
           "articleId": "article:formal-logic-to-computation",
           "slug": "formal-logic-to-computation",
           "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
           "agentJsonPath": "/agents/articles/formal-logic-to-computation.json",
           "topic": "information-theory"
+        },
+        {
+          "articleId": "article:the-generational-bet",
+          "slug": "the-generational-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+          "agentJsonPath": "/agents/articles/the-generational-bet.json",
+          "topic": "innovation"
         },
         {
           "articleId": "article:human-systems",
@@ -926,6 +1088,13 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
           "agentJsonPath": "/agents/articles/human-systems.json",
           "topic": "labor"
+        },
+        {
+          "articleId": "article:the-substance-builder",
+          "slug": "the-substance-builder",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+          "agentJsonPath": "/agents/articles/the-substance-builder.json",
+          "topic": "learning"
         },
         {
           "articleId": "article:agent-control-planes",
@@ -998,6 +1167,13 @@
           "topic": "machine-learning"
         },
         {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "topic": "mental-health"
+        },
+        {
           "articleId": "article:learning-machines",
           "slug": "learning-machines",
           "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
@@ -1026,6 +1202,13 @@
           "topic": "open-protocols"
         },
         {
+          "articleId": "article:designing-for-substance",
+          "slug": "designing-for-substance",
+          "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
+          "agentJsonPath": "/agents/articles/designing-for-substance.json",
+          "topic": "platform-design"
+        },
+        {
           "articleId": "article:ai-agent-advanced-questions",
           "slug": "ai-agent-advanced-questions",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
@@ -1040,11 +1223,39 @@
           "topic": "product-truth"
         },
         {
+          "articleId": "article:the-substance-builder",
+          "slug": "the-substance-builder",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+          "agentJsonPath": "/agents/articles/the-substance-builder.json",
+          "topic": "productivity"
+        },
+        {
           "articleId": "article:ai-agent-advanced-questions",
           "slug": "ai-agent-advanced-questions",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
           "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json",
           "topic": "prompting"
+        },
+        {
+          "articleId": "article:designing-for-substance",
+          "slug": "designing-for-substance",
+          "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
+          "agentJsonPath": "/agents/articles/designing-for-substance.json",
+          "topic": "public-interest-technology"
+        },
+        {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "topic": "public-policy"
+        },
+        {
+          "articleId": "article:designing-for-substance",
+          "slug": "designing-for-substance",
+          "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
+          "agentJsonPath": "/agents/articles/designing-for-substance.json",
+          "topic": "regulation"
         },
         {
           "articleId": "article:agent-auditable-research",
@@ -1059,6 +1270,13 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
           "agentJsonPath": "/agents/articles/foundation-models.json",
           "topic": "scaling"
+        },
+        {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "topic": "social-media"
         },
         {
           "articleId": "article:birth-of-ai",
@@ -1113,7 +1331,7 @@
         "confidence": "high"
       },
       "resultType": "claims",
-      "resultCount": 63,
+      "resultCount": 70,
       "results": [
         {
           "articleId": "article:agent-auditable-research",
@@ -1244,6 +1462,16 @@
           "claim": "Context management resembles human working memory and attention, but it uses fixed-size, lossy windows rather than flexible human recall.",
           "confidence": "high",
           "status": "landscape"
+        },
+        {
+          "articleId": "article:designing-for-substance",
+          "slug": "designing-for-substance",
+          "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
+          "agentJsonPath": "/agents/articles/designing-for-substance.json",
+          "claimId": "claim-001",
+          "claim": "The attention economy is not an inevitable feature of the internet. It is the product of specific design choices—engagement metrics, personalized recommendations, infinite scroll, and advertising-based business models—that could be redesigned.",
+          "confidence": "high",
+          "status": "core"
         },
         {
           "articleId": "article:evaluations",
@@ -1726,6 +1954,66 @@
           "status": "design"
         },
         {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "claimId": "claim-001",
+          "claim": "India has near-universal digital access, but entertainment and social media use crowd out education and production among young users.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "claimId": "claim-003",
+          "claim": "Short-form feeds use variable rewards, infinite scroll, autoplay, and personalized recommendations to extend engagement beyond user intent.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:the-generational-bet",
+          "slug": "the-generational-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+          "agentJsonPath": "/agents/articles/the-generational-bet.json",
+          "claimId": "claim-001",
+          "claim": "Artificial intelligence has collapsed the cost of creation for individuals in research, writing, coding, designing, translating, and teaching.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:the-generational-bet",
+          "slug": "the-generational-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+          "agentJsonPath": "/agents/articles/the-generational-bet.json",
+          "claimId": "claim-002",
+          "claim": "The attention economy has trained users to consume before they create, and the default behavior of the same devices has not caught up with AI's creative affordances.",
+          "confidence": "high",
+          "status": "behavioral"
+        },
+        {
+          "articleId": "article:the-substance-builder",
+          "slug": "the-substance-builder",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+          "agentJsonPath": "/agents/articles/the-substance-builder.json",
+          "claimId": "claim-001",
+          "claim": "Substance is built through small, repeated acts of writing, coding, designing, translating, or teaching that compound over time.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:the-substance-builder",
+          "slug": "the-substance-builder",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+          "agentJsonPath": "/agents/articles/the-substance-builder.json",
+          "claimId": "claim-005",
+          "claim": "Teaching an idea to someone else turns passive information into owned knowledge.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
           "articleId": "article:tool-use",
           "slug": "tool-use",
           "articleUrl": "https://aura-knowledge.github.io/articles/tool-use/",
@@ -1754,7 +2042,7 @@
         "groupBy": "sourceType"
       },
       "resultType": "sources",
-      "resultCount": 317,
+      "resultCount": 354,
       "results": [
         {
           "articleId": "article:human-systems",
@@ -2007,6 +2295,16 @@
           "sourceUrl": "https://amturing.acm.org/award_winners/feigenbaum_4167235.cfm"
         },
         {
+          "articleId": "article:the-substance-builder",
+          "slug": "the-substance-builder",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+          "agentJsonPath": "/agents/articles/the-substance-builder.json",
+          "sourceId": "source-cal-newport-tao-of-cal",
+          "sourceTitle": "Cal Newport: The Tao of Cal",
+          "sourceType": "blog-post",
+          "sourceUrl": "https://calnewport.com/the-tao-of-cal/"
+        },
+        {
           "articleId": "article:birth-of-ai",
           "slug": "birth-of-ai",
           "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
@@ -2087,6 +2385,16 @@
           "sourceUrl": "https://www.cs.ox.ac.uk/people/michael.wooldridge/pubs/imas/IMAS2e.pdf"
         },
         {
+          "articleId": "article:the-substance-builder",
+          "slug": "the-substance-builder",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+          "agentJsonPath": "/agents/articles/the-substance-builder.json",
+          "sourceId": "source-cal-newport-deep-work",
+          "sourceTitle": "Cal Newport: Deep Work",
+          "sourceType": "book",
+          "sourceUrl": "https://www.calnewport.com/books/deep-work/"
+        },
+        {
           "articleId": "article:tool-use",
           "slug": "tool-use",
           "articleUrl": "https://aura-knowledge.github.io/articles/tool-use/",
@@ -2105,6 +2413,16 @@
           "sourceTitle": "Gibson: The Ecological Approach to Visual Perception",
           "sourceType": "book",
           "sourceUrl": "https://www.hachettebookgroup.com/titles/james-j-gibson/the-ecological-approach-to-visual-perception/9780205238818/"
+        },
+        {
+          "articleId": "article:the-substance-builder",
+          "slug": "the-substance-builder",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+          "agentJsonPath": "/agents/articles/the-substance-builder.json",
+          "sourceId": "source-bj-fogg-tiny-habits",
+          "sourceTitle": "BJ Fogg: Tiny Habits",
+          "sourceType": "book-website",
+          "sourceUrl": "https://tinyhabits.com/"
         },
         {
           "articleId": "article:ai-winters-expert-systems",
@@ -2637,6 +2955,86 @@
           "sourceUrl": "https://www.nist.gov/mathematics-statistics/prehistory-math-tables-project"
         },
         {
+          "articleId": "article:designing-for-substance",
+          "slug": "designing-for-substance",
+          "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
+          "agentJsonPath": "/agents/articles/designing-for-substance.json",
+          "sourceId": "source-digital-services-act",
+          "sourceTitle": "European Commission: Digital Services Act",
+          "sourceType": "government-policy",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act"
+        },
+        {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "sourceId": "source-pib-economic-survey",
+          "sourceTitle": "PIB: Economic Survey 2025-26 Press Release",
+          "sourceType": "government-press-release",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2"
+        },
+        {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "sourceId": "source-pib-ncert-mental-health",
+          "sourceTitle": "PIB: NCERT Mental Health and Well-being Survey of School Students",
+          "sourceType": "government-press-release",
+          "sourceUrl": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1993919"
+        },
+        {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "sourceId": "source-pib-tele-manas",
+          "sourceTitle": "PIB Tele-MANAS Press Note",
+          "sourceType": "government-press-release",
+          "sourceUrl": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=153277"
+        },
+        {
+          "articleId": "article:the-generational-bet",
+          "slug": "the-generational-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+          "agentJsonPath": "/agents/articles/the-generational-bet.json",
+          "sourceId": "source-pib-youth-dividend-ai",
+          "sourceTitle": "PIB: India's Youth Dividend in the AI Era",
+          "sourceType": "government-press-release",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2230044&reg=3&lang=1"
+        },
+        {
+          "articleId": "article:the-generational-bet",
+          "slug": "the-generational-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+          "agentJsonPath": "/agents/articles/the-generational-bet.json",
+          "sourceId": "source-pib-transforming-india-ai",
+          "sourceTitle": "PIB: Transforming India with AI",
+          "sourceType": "government-press-release",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2209737&reg=3&lang=1"
+        },
+        {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "sourceId": "source-india-budget-economic-survey",
+          "sourceTitle": "India Budget: Economic Survey 2025-26 Education and Health Chapter",
+          "sourceType": "government-report",
+          "sourceUrl": "https://www.indiabudget.gov.in/economicsurvey/doc/eschapter/echap11.pdf"
+        },
+        {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "sourceId": "source-nsso-time-use-2024",
+          "sourceTitle": "NSSO Time Use Survey 2024 Factsheet",
+          "sourceType": "government-report",
+          "sourceUrl": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf"
+        },
+        {
           "articleId": "article:audio-first-voice-consumption",
           "slug": "audio-first-voice-consumption",
           "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
@@ -2717,6 +3115,66 @@
           "sourceUrl": "https://www.aboutamazon.com/news/policy-new-views/amazon-brand-protection-report-2024-counterfeit-products"
         },
         {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "sourceId": "source-iamai-kantar-2024",
+          "sourceTitle": "IAMAI-Kantar: Internet in India Report 2024",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf"
+        },
+        {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "sourceId": "source-gallup-global-workplace-india",
+          "sourceTitle": "Gallup State of the Global Workplace: India Country-Level Data",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.gallup.com/workplace/705650/state-global-workplace-india-country-level-data.aspx"
+        },
+        {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "sourceId": "source-ibef-ad-revenue-fy24",
+          "sourceTitle": "IBEF: Tech giants generate over US$7.13 billion in advertising revenue in FY24",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.ibef.org/news/tech-giants-generate-over-us-7-13-billion-rs-60-000-crore-in-advertising-revenue-in-fy24"
+        },
+        {
+          "articleId": "article:the-generational-bet",
+          "slug": "the-generational-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+          "agentJsonPath": "/agents/articles/the-generational-bet.json",
+          "sourceId": "source-nasscom-india-opportunity",
+          "sourceTitle": "NASSCOM: Unlocking Value from Data and AI – The India Opportunity",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://nasscom.in/knowledge-center/publications/unlocking-value-data-and-ai-india-opportunity"
+        },
+        {
+          "articleId": "article:the-generational-bet",
+          "slug": "the-generational-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+          "agentJsonPath": "/agents/articles/the-generational-bet.json",
+          "sourceId": "source-nasscom-ey-ai-adoption",
+          "sourceTitle": "NASSCOM-EY: AI Adoption Index",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/insights/ai/documents/ey-nasscom-ai-adoption-index.pdf"
+        },
+        {
+          "articleId": "article:the-generational-bet",
+          "slug": "the-generational-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+          "agentJsonPath": "/agents/articles/the-generational-bet.json",
+          "sourceId": "source-bcg-creator-economy",
+          "sourceTitle": "BCG: India from Content to Commerce—Mapping India's Creator Economy",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.bcg.com/publications/2025/india-from-content-to-commerce-mapping-indias-creator-economy"
+        },
+        {
           "articleId": "article:ai-winters-expert-systems",
           "slug": "ai-winters-expert-systems",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
@@ -2755,6 +3213,16 @@
           "sourceTitle": "OECD AI Principles",
           "sourceType": "intergovernmental-principles",
           "sourceUrl": "https://oecd.ai/en/ai-principles"
+        },
+        {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "sourceId": "source-steelcase-attention-span",
+          "sourceTitle": "Steelcase: Our 47-Second Attention Span with Gloria Mark (transcript)",
+          "sourceType": "interview-transcript",
+          "sourceUrl": "https://www.steelcase.com/research/articles/our-47-second-attention-span-with-gloria-mark-s5-ep3-transcript/"
         },
         {
           "articleId": "article:audio-first-voice-consumption",
@@ -3065,6 +3533,16 @@
           "sourceTitle": "Measuring Digital Development: Facts and Figures 2025",
           "sourceType": "official-statistics",
           "sourceUrl": "https://www.itu.int/hub/publication/d-ind-ict_mdd-2025-3/"
+        },
+        {
+          "articleId": "article:designing-for-substance",
+          "slug": "designing-for-substance",
+          "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
+          "agentJsonPath": "/agents/articles/designing-for-substance.json",
+          "sourceId": "source-center-humane-tech",
+          "sourceTitle": "Center for Humane Technology",
+          "sourceType": "organization-website",
+          "sourceUrl": "https://www.humanetech.com/"
         },
         {
           "articleId": "article:long-human-road-to-ai",
@@ -3927,6 +4405,66 @@
           "sourceUrl": "https://arxiv.org/abs/2210.03629"
         },
         {
+          "articleId": "article:designing-for-substance",
+          "slug": "designing-for-substance",
+          "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
+          "agentJsonPath": "/agents/articles/designing-for-substance.json",
+          "sourceId": "source-mastodon-admin-motivations",
+          "sourceTitle": "ACM: Trouble in Paradise? Understanding Mastodon Admin's Motivations, Experiences, and Challenges Running Decentralised Social Media",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://dl.acm.org/doi/pdf/10.1145/3687059"
+        },
+        {
+          "articleId": "article:designing-for-substance",
+          "slug": "designing-for-substance",
+          "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
+          "agentJsonPath": "/agents/articles/designing-for-substance.json",
+          "sourceId": "source-engagement-divisive-content",
+          "sourceTitle": "Milli et al.: Engagement, User Satisfaction, and the Amplification of Divisive Content on Social Media (PNAS Nexus)",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://doi.org/10.1093/pnasnexus/pgaf062"
+        },
+        {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "sourceId": "source-pmc-short-video-attention",
+          "sourceTitle": "PMC: The adverse impact of mobile phone short-form video addiction on attentional functions and self-control",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11236742/"
+        },
+        {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "sourceId": "source-pmc-adolescent-mental-health",
+          "sourceTitle": "PMC: Social media and mental health among Indian adolescents",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11438920/"
+        },
+        {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "sourceId": "source-milli-divisive-content",
+          "sourceTitle": "Milli et al.: Engagement, User Satisfaction, and the Amplification of Divisive Content on Social Media (PNAS Nexus)",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://doi.org/10.1093/pnasnexus/pgaf062"
+        },
+        {
+          "articleId": "article:the-substance-builder",
+          "slug": "the-substance-builder",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+          "agentJsonPath": "/agents/articles/the-substance-builder.json",
+          "sourceId": "source-anders-ericsson-deliberate-practice",
+          "sourceTitle": "Anders Ericsson: The Role of Deliberate Practice in the Acquisition of Expert Performance",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://psycnet.apa.org/record/1993-40718-001"
+        },
+        {
           "articleId": "article:foundation-models",
           "slug": "foundation-models",
           "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
@@ -3975,6 +4513,16 @@
           "sourceTitle": "Défossez et al., Moshi: a speech-text foundation model for real-time dialogue (2024)",
           "sourceType": "preprint",
           "sourceUrl": "https://arxiv.org/abs/2410.00037"
+        },
+        {
+          "articleId": "article:designing-for-substance",
+          "slug": "designing-for-substance",
+          "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
+          "agentJsonPath": "/agents/articles/designing-for-substance.json",
+          "sourceId": "source-mastodon-feed-curation",
+          "sourceTitle": "arXiv preprint: Understanding Decentralized Social Feed Curation on Mastodon",
+          "sourceType": "preprint",
+          "sourceUrl": "https://arxiv.org/html/2504.18817v1"
         },
         {
           "articleId": "article:foundation-models",
@@ -4095,6 +4643,26 @@
           "sourceTitle": "Google: Gemini overview",
           "sourceType": "product",
           "sourceUrl": "https://gemini.google.com/"
+        },
+        {
+          "articleId": "article:the-substance-builder",
+          "slug": "the-substance-builder",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+          "agentJsonPath": "/agents/articles/the-substance-builder.json",
+          "sourceId": "source-duolingo-max",
+          "sourceTitle": "Duolingo: Introducing Duolingo Max",
+          "sourceType": "product-blog",
+          "sourceUrl": "https://blog.duolingo.com/duolingo-max/"
+        },
+        {
+          "articleId": "article:the-substance-builder",
+          "slug": "the-substance-builder",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+          "agentJsonPath": "/agents/articles/the-substance-builder.json",
+          "sourceId": "source-khan-academy-khanmigo",
+          "sourceTitle": "Khan Academy: Khanmigo",
+          "sourceType": "product-page",
+          "sourceUrl": "https://www.khanacademy.org/khan-labs/khanmigo"
         },
         {
           "articleId": "article:long-human-road-to-ai",
@@ -4255,6 +4823,16 @@
           "sourceTitle": "Search Products that Meet the Safer Choice Standard",
           "sourceType": "regulatory-data",
           "sourceUrl": "https://www.epa.gov/saferchoice/products"
+        },
+        {
+          "articleId": "article:designing-for-substance",
+          "slug": "designing-for-substance",
+          "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
+          "agentJsonPath": "/agents/articles/designing-for-substance.json",
+          "sourceId": "source-it-rules-2021",
+          "sourceTitle": "MeitY: Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 (updated 10.02.2026)",
+          "sourceType": "regulatory-text",
+          "sourceUrl": "https://www.meity.gov.in/static/uploads/2026/02/550681ab908f8afb135b0ad42816a1c9.pdf"
         },
         {
           "articleId": "article:ai-delegation-orchestration",
@@ -4717,6 +5295,56 @@
           "sourceUrl": "https://arxiv.org/abs/2108.07258"
         },
         {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "sourceId": "source-aser-2024",
+          "sourceTitle": "ASER 2024 National Findings",
+          "sourceType": "research-report",
+          "sourceUrl": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf"
+        },
+        {
+          "articleId": "article:the-generational-bet",
+          "slug": "the-generational-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+          "agentJsonPath": "/agents/articles/the-generational-bet.json",
+          "sourceId": "source-linux-foundation-ai-india",
+          "sourceTitle": "Linux Foundation: AI for Economic and Social Good in India",
+          "sourceType": "research-report",
+          "sourceUrl": "https://www.linuxfoundation.org/hubfs/Research%20Reports/meta_osai_india_report_021626a.pdf?hsLang=en"
+        },
+        {
+          "articleId": "article:the-generational-bet",
+          "slug": "the-generational-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+          "agentJsonPath": "/agents/articles/the-generational-bet.json",
+          "sourceId": "source-aser-2024",
+          "sourceTitle": "ASER 2024 National Findings",
+          "sourceType": "research-report",
+          "sourceUrl": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf"
+        },
+        {
+          "articleId": "article:the-generational-bet",
+          "slug": "the-generational-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+          "agentJsonPath": "/agents/articles/the-generational-bet.json",
+          "sourceId": "source-oecd-genai-productivity",
+          "sourceTitle": "OECD: The effects of generative AI on productivity, innovation and entrepreneurship",
+          "sourceType": "research-report",
+          "sourceUrl": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/the-effects-of-generative-ai-on-productivity-innovation-and-entrepreneurship_da1d085d/b21df222-en.pdf"
+        },
+        {
+          "articleId": "article:the-generational-bet",
+          "slug": "the-generational-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+          "agentJsonPath": "/agents/articles/the-generational-bet.json",
+          "sourceId": "source-stanford-hai-ai-index-2025",
+          "sourceTitle": "Stanford HAI: AI Index Report 2025",
+          "sourceType": "research-report",
+          "sourceUrl": "https://aiindex.stanford.edu/report/"
+        },
+        {
           "articleId": "article:human-systems",
           "slug": "human-systems",
           "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
@@ -4725,6 +5353,16 @@
           "sourceTitle": "Artificial Intelligence in Science",
           "sourceType": "research-synthesis",
           "sourceUrl": "https://doi.org/10.1787/a8d820bd-en"
+        },
+        {
+          "articleId": "article:the-generational-bet",
+          "slug": "the-generational-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+          "agentJsonPath": "/agents/articles/the-generational-bet.json",
+          "sourceId": "source-stanford-ai-vibrancy",
+          "sourceTitle": "Stanford University: Global AI Vibrancy Tool",
+          "sourceType": "research-tool",
+          "sourceUrl": "https://aiindex.stanford.edu/data-governance/global-ai-vibrancy-tool/"
         },
         {
           "articleId": "article:ai-agent-advanced-questions",
@@ -4907,6 +5545,26 @@
           "sourceUrl": "https://www.deeplearningbook.org/"
         },
         {
+          "articleId": "article:designing-for-substance",
+          "slug": "designing-for-substance",
+          "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
+          "agentJsonPath": "/agents/articles/designing-for-substance.json",
+          "sourceId": "source-yale-outrage-amplification",
+          "sourceTitle": "Yale News: Likes and shares teach people to express more outrage online",
+          "sourceType": "university-news",
+          "sourceUrl": "https://news.yale.edu/2021/08/13/likes-and-shares-teach-people-express-more-outrage-online"
+        },
+        {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "sourceId": "source-yale-outrage-online",
+          "sourceTitle": "Yale News: Likes and shares teach people to express more outrage online",
+          "sourceType": "university-news",
+          "sourceUrl": "https://news.yale.edu/2021/08/13/likes-and-shares-teach-people-express-more-outrage-online"
+        },
+        {
           "articleId": "article:before-machines",
           "slug": "before-machines",
           "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
@@ -4936,7 +5594,7 @@
         "status": "published"
       },
       "resultType": "articles",
-      "resultCount": 29,
+      "resultCount": 33,
       "results": [
         {
           "articleId": "article:agent-auditable-research",
@@ -5009,6 +5667,12 @@
           "slug": "context-management",
           "articleUrl": "https://aura-knowledge.github.io/articles/context-management/",
           "agentJsonPath": "/agents/articles/context-management.json"
+        },
+        {
+          "articleId": "article:designing-for-substance",
+          "slug": "designing-for-substance",
+          "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
+          "agentJsonPath": "/agents/articles/designing-for-substance.json"
         },
         {
           "articleId": "article:evaluations",
@@ -5105,6 +5769,24 @@
           "slug": "retrieval-augmented-generation",
           "articleUrl": "https://aura-knowledge.github.io/articles/retrieval-augmented-generation/",
           "agentJsonPath": "/agents/articles/retrieval-augmented-generation.json"
+        },
+        {
+          "articleId": "article:the-attention-extraction",
+          "slug": "the-attention-extraction",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+          "agentJsonPath": "/agents/articles/the-attention-extraction.json"
+        },
+        {
+          "articleId": "article:the-generational-bet",
+          "slug": "the-generational-bet",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+          "agentJsonPath": "/agents/articles/the-generational-bet.json"
+        },
+        {
+          "articleId": "article:the-substance-builder",
+          "slug": "the-substance-builder",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+          "agentJsonPath": "/agents/articles/the-substance-builder.json"
         },
         {
           "articleId": "article:tool-use",
