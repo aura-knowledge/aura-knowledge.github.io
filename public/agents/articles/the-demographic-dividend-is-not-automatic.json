@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 3,
+  "id": "article:the-demographic-dividend-is-not-automatic",
+  "slug": "the-demographic-dividend-is-not-automatic",
+  "title": "The Demographic Dividend Is Not Automatic: Youth, Talent, and Time",
+  "canonicalPath": "/articles/the-demographic-dividend-is-not-automatic/",
+  "sourcePath": "content/articles/2026/the-demographic-dividend-is-not-automatic/article.md",
+  "agentBriefPath": "content/articles/2026/the-demographic-dividend-is-not-automatic/agent.md",
+  "thesis": "India's large working-age population is a necessary but not sufficient condition for economic transformation; the dividend depends on whether young Indians spend their time building skills or being harvested for attention.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "youth",
+    "employment",
+    "skills",
+    "ai"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 21,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Roughly 65% of India's population is under 35, giving it one of the world's youngest workforces.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-pib-youth",
+          "snippet": "PIB youth statistics document that India has one of the world's youngest populations, with a large majority under the age of 35.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-world-bank-india-population",
+          "snippet": "World Bank population data confirms India's median age is around 28 and its age structure is heavily weighted toward younger cohorts.",
+          "supports": "background",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The exact share under 35 varies slightly by source and reference year; the broader point about a youth bulge is robust across estimates.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "India Skills Report and other surveys find employability rates below 55% for many graduate cohorts.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-india-skills-report",
+          "snippet": "India Skills Report 2025 finds employability rates at or below 55% for surveyed graduate cohorts, with variation by degree type and region.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-nasscom-talent",
+          "snippet": "NASSCOM talent gap estimates note a persistent shortage of job-ready digital skills relative to employer demand.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-plfs-india",
+          "snippet": "Elevated youth unemployment in official labour-force data is consistent with a gap between graduate output and job-ready skills.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Employability is defined differently across surveys; some cohorts and institutions score much higher, and the figure is not a census of all graduates.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Youth unemployment, especially among graduates, is elevated relative to overall unemployment.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-plfs-india",
+          "snippet": "Periodic Labour Force Survey data show youth unemployment rates above the overall unemployment rate, with particular concentration among graduates in some periods.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-nasscom-talent",
+          "snippet": "Industry talent-gap reports describe a simultaneous shortage of skilled workers and difficulty placing some graduate cohorts in relevant roles.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Youth unemployment fluctuates with economic cycles, and the graduate paradox is partly explained by queueing and expectations rather than a pure skills mismatch.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "The demographic dividend is therefore a time-use dividend: the same years can build human capital or be absorbed by low-value screen activity.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-india-skills-report",
+          "snippet": "Low employability alongside a young workforce implies that demographic advantage must be converted through skill-building time.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-nasscom-talent",
+          "snippet": "The gap between digital talent demand and supply suggests that how young people allocate learning time affects national competitiveness.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-pib-youth",
+          "snippet": "Government youth statistics frame the demographic dividend as conditional on education, skill development, and employment.",
+          "supports": "background",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Screen time is not uniformly low-value; digital platforms also enable peer learning, informal skill acquisition, and entrepreneurship.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-pib-youth",
+      "title": "PIB: Youth in India",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2219931",
+      "type": "government-press-release",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-india-skills-report",
+      "title": "India Skills Report 2025",
+      "url": "https://www.wheebox.com/wee-projects/India-skills-report-publications.php",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-nasscom-talent",
+      "title": "NASSCOM: India Talent Demand-Supply Gap",
+      "url": "https://nasscom.in/knowledge-center/publications",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-world-bank-india-population",
+      "title": "World Bank: India Population Data",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=IN",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-plfs-india",
+      "title": "Periodic Labour Force Survey (PLFS), Ministry of Statistics and Programme Implementation",
+      "url": "https://www.mospi.gov.in/web/plfs",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:the-generational-bet"
+    },
+    {
+      "type": "article",
+      "id": "article:what-india-is-building-vs-could-build"
+    },
+    {
+      "type": "article",
+      "id": "article:a-map-of-levers"
+    }
+  ],
+  "agentInstructions": [
+    "Treat the demographic dividend as a time-use argument, not a deterministic population story.",
+    "Use only the source IDs and URLs recorded in the artifact; do not invent or generalize beyond the public evidence.",
+    "Preserve the evidence-cautious tone and distinguish survey estimates from census facts.",
+    "Route individual-habit questions to the Building Substance articles and platform-design questions to the Designing for Substance articles.",
+    "When asked about causality, emphasize the structural mismatch between education, skills, and labor demand rather than single-factor explanations.",
+    "The article includes a Mermaid xychart-beta population-pyramid comparison (2024 vs 2050); treat the 2050 figures as illustrative projections, not census forecasts."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:3f5533b1c48cd6be01b4b6a5ec35884ecf4ebf1e0a5c71e9f2aff04efaddcdef",
+        "outputHash": "sha256:3f5533b1c48cd6be01b4b6a5ec35884ecf4ebf1e0a5c71e9f2aff04efaddcdef"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "3046c0bc6ee177dfef3a39376fb328d53b6a95240cb02a5b0fcf3a3f9b829a93"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "3046c0bc6ee177dfef3a39376fb328d53b6a95240cb02a5b0fcf3a3f9b829a93",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/the-demographic-dividend-is-not-automatic/",
+  "agentJsonPath": "/agents/articles/the-demographic-dividend-is-not-automatic.json",
+  "agentMarkdownPath": "/agents/articles/the-demographic-dividend-is-not-automatic.md",
+  "sourceRepoPath": "content/articles/2026/the-demographic-dividend-is-not-automatic/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/the-demographic-dividend-is-not-automatic/article.md",
+  "tokenEstimate": 185,
+  "sectionOutline": [
+    {
+      "id": "the-scale-of-the-youth-bulge",
+      "title": "The Scale of the Youth Bulge"
+    },
+    {
+      "id": "the-skills-gap",
+      "title": "The Skills Gap"
+    },
+    {
+      "id": "youth-unemployment-and-the-graduate-paradox",
+      "title": "Youth Unemployment and the Graduate Paradox"
+    },
+    {
+      "id": "the-time-use-dividend",
+      "title": "The Time-Use Dividend"
+    },
+    {
+      "id": "what-would-make-the-dividend-automatic",
+      "title": "What Would Make the Dividend Automatic?"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    }
+  ]
+}

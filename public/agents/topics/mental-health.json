@@ -2,12 +2,86 @@
   "schemaVersion": 1,
   "topic": "mental-health",
   "articleIds": [
+    "article:open-questions-the-series-leaves-unresolved",
+    "article:sleep-anxiety-and-tele-manas",
     "article:the-attention-extraction",
+    "article:the-reel-nation-short-form-video",
     "article:the-student-screen-education-vs-entertainment"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/mental-health/",
   "agentJsonPath": "/agents/topics/mental-health.json",
   "articles": [
+    {
+      "id": "article:open-questions-the-series-leaves-unresolved",
+      "slug": "open-questions-the-series-leaves-unresolved",
+      "title": "Open Questions the Series Leaves Unresolved",
+      "summary": "Honest uncertainty about the attention economy—causality, culture, regulation, and the choices that will shape India's next decade.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "synthesis",
+        "policy",
+        "mental-health",
+        "design",
+        "artificial-intelligence"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "synthesis",
+        "policy",
+        "mental-health",
+        "design",
+        "artificial-intelligence"
+      ],
+      "canonicalPath": "/articles/open-questions-the-series-leaves-unresolved/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/open-questions-the-series-leaves-unresolved/",
+      "agentJsonPath": "/agents/articles/open-questions-the-series-leaves-unresolved.json",
+      "agentMarkdownPath": "/agents/articles/open-questions-the-series-leaves-unresolved.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 2,
+      "tokenEstimate": 288,
+      "contentHash": "fb0ac32ee6018b8b5be4644aa55dfb3be6c4c9937e5dcd6b75a858627eebc72e"
+    },
+    {
+      "id": "article:sleep-anxiety-and-tele-manas",
+      "slug": "sleep-anxiety-and-tele-manas",
+      "title": "Sleep, Anxiety, and the Tele-MANAS Signal",
+      "summary": "Interprets Tele-MANAS call data and adolescent mental-health surveys as a public-health signal, not moral failure, and connects them to attention-extraction design.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "mental-health",
+        "sleep",
+        "adolescents"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "mental-health",
+        "sleep",
+        "adolescents",
+        "tele-manas"
+      ],
+      "canonicalPath": "/articles/sleep-anxiety-and-tele-manas/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/sleep-anxiety-and-tele-manas/",
+      "agentJsonPath": "/agents/articles/sleep-anxiety-and-tele-manas.json",
+      "agentMarkdownPath": "/agents/articles/sleep-anxiety-and-tele-manas.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 289,
+      "contentHash": "e8ccd9151baf4e024b495b460d573216a555cab229668ef062e22caa22d02be3"
+    },
     {
       "id": "article:the-attention-extraction",
       "slug": "the-attention-extraction",
@@ -39,7 +113,42 @@
       "claimCount": 4,
       "sourceCount": 14,
       "tokenEstimate": 674,
-      "contentHash": "5b81fd168cb7606da30f36bd9a7c235d4b1977f8cae02a9e8ec4e1e628ce5fe9"
+      "contentHash": "a7b6211099e0e919f7287ce0d0569b8a5f13cae6ee9e4bff5b80f00e4aee5cb4"
+    },
+    {
+      "id": "article:the-reel-nation-short-form-video",
+      "slug": "the-reel-nation-short-form-video",
+      "title": "The Reel Nation: Short-Form Video and the Economics of a Swipe",
+      "summary": "Examines the design mechanics and usage scale of short-form video in India, separating documented harms from hype and tracing the opportunity cost.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "short-form-video",
+        "mental-health",
+        "youth",
+        "design"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "short-form-video",
+        "mental-health",
+        "youth",
+        "design"
+      ],
+      "canonicalPath": "/articles/the-reel-nation-short-form-video/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-reel-nation-short-form-video/",
+      "agentJsonPath": "/agents/articles/the-reel-nation-short-form-video.json",
+      "agentMarkdownPath": "/agents/articles/the-reel-nation-short-form-video.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 6,
+      "tokenEstimate": 265,
+      "contentHash": "e79e3653a0aa31910577f9cd85eb541b2733d9911e37fb961f2b359c0bf3d26d"
     },
     {
       "id": "article:the-student-screen-education-vs-entertainment",
@@ -72,7 +181,7 @@
       "claimCount": 8,
       "sourceCount": 10,
       "tokenEstimate": 796,
-      "contentHash": "a90414a4c60ab239eb04f1c458fa852e57f6e757a1fb853939485285b400779e"
+      "contentHash": "ef94b4d3b4278ba525440d5ece26522a3d391e42b5b85fa059fc5338fb4e3cf1"
     }
   ]
 }

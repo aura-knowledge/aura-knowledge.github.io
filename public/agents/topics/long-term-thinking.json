@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "topic": "long-term-thinking",
+  "articleIds": [
+    "article:the-green-revolution-trade-off"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/long-term-thinking/",
+  "agentJsonPath": "/agents/topics/long-term-thinking.json",
+  "articles": [
+    {
+      "id": "article:the-green-revolution-trade-off",
+      "slug": "the-green-revolution-trade-off",
+      "title": "The Green Revolution Trade-Off",
+      "summary": "Uses the Green Revolution as an analogy for solving one urgent problem while creating slower, structural costs that only become visible later.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "agriculture",
+        "analogy",
+        "long-term-thinking"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "agriculture",
+        "analogy",
+        "long-term-thinking"
+      ],
+      "canonicalPath": "/articles/the-green-revolution-trade-off/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-green-revolution-trade-off/",
+      "agentJsonPath": "/agents/articles/the-green-revolution-trade-off.json",
+      "agentMarkdownPath": "/agents/articles/the-green-revolution-trade-off.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 276,
+      "contentHash": "1c2ebd611bacda78168ee5d2f6376ec03f7b8d1fcc2bae2a1dc64bafda5dd2d4"
+    }
+  ]
+}

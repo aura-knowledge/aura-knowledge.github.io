@@ -2,15 +2,90 @@
   "schemaVersion": 1,
   "topic": "artificial-intelligence",
   "articleIds": [
+    "article:ai-as-journeyman-assistant",
+    "article:ai-could-make-extraction-cheaper-too",
     "article:attention-substance-ai-moment",
+    "article:historical-analogies-of-missed-transitions",
+    "article:historical-hinges-access-is-not-benefit",
+    "article:open-questions-the-series-leaves-unresolved",
+    "article:the-citizens-garden",
     "article:the-compounding-bet",
     "article:the-creator-economys-incentive-trap",
     "article:the-generational-bet",
-    "article:what-ai-makes-cheap"
+    "article:the-students-garden",
+    "article:the-workers-garden",
+    "article:what-ai-makes-cheap",
+    "article:what-india-is-building-vs-could-build"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/artificial-intelligence/",
   "agentJsonPath": "/agents/topics/artificial-intelligence.json",
   "articles": [
+    {
+      "id": "article:ai-as-journeyman-assistant",
+      "slug": "ai-as-journeyman-assistant",
+      "title": "AI as a Journeyman Assistant, Not a Replacement",
+      "summary": "Practical guidance on treating AI as a collaborator that drafts, translates, tutors, and debugs, while keeping the human learner in the driver's seat.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "ai-assisted-learning"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "ai-assisted-learning"
+      ],
+      "canonicalPath": "/articles/ai-as-journeyman-assistant/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-as-journeyman-assistant/",
+      "agentJsonPath": "/agents/articles/ai-as-journeyman-assistant.json",
+      "agentMarkdownPath": "/agents/articles/ai-as-journeyman-assistant.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 351,
+      "contentHash": "f903bc9ab7a692495e3c84d51f2db293c6ab2315a047e8b82ebad48b74d07c56"
+    },
+    {
+      "id": "article:ai-could-make-extraction-cheaper-too",
+      "slug": "ai-could-make-extraction-cheaper-too",
+      "title": "AI Could Make Extraction Cheaper Too",
+      "summary": "Surveys how AI can amplify attention extraction through synthetic media, hyper-personalization, and automated influence, and argues for guardrails before scale.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "synthetic-media",
+        "misinformation",
+        "platform-design"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "synthetic-media",
+        "misinformation",
+        "platform-design"
+      ],
+      "canonicalPath": "/articles/ai-could-make-extraction-cheaper-too/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-could-make-extraction-cheaper-too/",
+      "agentJsonPath": "/agents/articles/ai-could-make-extraction-cheaper-too.json",
+      "agentMarkdownPath": "/agents/articles/ai-could-make-extraction-cheaper-too.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 218,
+      "contentHash": "4a8f4a51566f82bb931985a3032e0fb32c4d87f3004971d2d2744db36a5d3da9"
+    },
     {
       "id": "article:attention-substance-ai-moment",
       "slug": "attention-substance-ai-moment",
@@ -40,7 +115,149 @@
       "claimCount": 1,
       "sourceCount": 2,
       "tokenEstimate": 465,
-      "contentHash": "e6e3f46b1414ff04e3dd733429ba07ca3c10aa200bfb968353fb689b19b17da9"
+      "contentHash": "17ed890d4dd63451002e282c8c6150ce6a7648061a0d3fc345b6468874e8f4de"
+    },
+    {
+      "id": "article:historical-analogies-of-missed-transitions",
+      "slug": "historical-analogies-of-missed-transitions",
+      "title": "Historical Analogies of Missed Transitions",
+      "summary": "Uses cross-country historical comparisons to show that missing a technology transition has persistent economic and geopolitical consequences.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "history",
+        "productivity",
+        "economic-development"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "history",
+        "productivity",
+        "economic-development"
+      ],
+      "canonicalPath": "/articles/historical-analogies-of-missed-transitions/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/historical-analogies-of-missed-transitions/",
+      "agentJsonPath": "/agents/articles/historical-analogies-of-missed-transitions.json",
+      "agentMarkdownPath": "/agents/articles/historical-analogies-of-missed-transitions.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 303,
+      "contentHash": "f8d7648a11dc2580fd1d8984244dfc3249c23a4251f1b38b96816b6aec01bafd"
+    },
+    {
+      "id": "article:historical-hinges-access-is-not-benefit",
+      "slug": "historical-hinges-access-is-not-benefit",
+      "title": "Historical Hinges: When Access to a Tool Did Not Guarantee Its Benefits",
+      "summary": "Uses historical technology transitions to show that access alone does not determine benefit; the distribution of gains depends on institutions, literacy, and norms.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "technology",
+        "institutions",
+        "artificial-intelligence"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "technology",
+        "institutions",
+        "artificial-intelligence"
+      ],
+      "canonicalPath": "/articles/historical-hinges-access-is-not-benefit/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/historical-hinges-access-is-not-benefit/",
+      "agentJsonPath": "/agents/articles/historical-hinges-access-is-not-benefit.json",
+      "agentMarkdownPath": "/agents/articles/historical-hinges-access-is-not-benefit.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 392,
+      "contentHash": "5e05ae1fc7c89cf568d073ca3c18568fe28d658608f7ae231604d8780ea934ac"
+    },
+    {
+      "id": "article:open-questions-the-series-leaves-unresolved",
+      "slug": "open-questions-the-series-leaves-unresolved",
+      "title": "Open Questions the Series Leaves Unresolved",
+      "summary": "Honest uncertainty about the attention economy—causality, culture, regulation, and the choices that will shape India's next decade.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "synthesis",
+        "policy",
+        "mental-health",
+        "design",
+        "artificial-intelligence"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "synthesis",
+        "policy",
+        "mental-health",
+        "design",
+        "artificial-intelligence"
+      ],
+      "canonicalPath": "/articles/open-questions-the-series-leaves-unresolved/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/open-questions-the-series-leaves-unresolved/",
+      "agentJsonPath": "/agents/articles/open-questions-the-series-leaves-unresolved.json",
+      "agentMarkdownPath": "/agents/articles/open-questions-the-series-leaves-unresolved.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 2,
+      "tokenEstimate": 288,
+      "contentHash": "fb0ac32ee6018b8b5be4644aa55dfb3be6c4c9937e5dcd6b75a858627eebc72e"
+    },
+    {
+      "id": "article:the-citizens-garden",
+      "slug": "the-citizens-garden",
+      "title": "The Citizen's Garden: Local Knowledge plus AI",
+      "summary": "Shows how ordinary citizens can use AI to produce local knowledge and help neighbors, moving from online consumption to offline civic contribution.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "civic-tech",
+        "artificial-intelligence",
+        "local-knowledge",
+        "bhashini"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "civic-tech",
+        "artificial-intelligence",
+        "local-knowledge",
+        "bhashini"
+      ],
+      "canonicalPath": "/articles/the-citizens-garden/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-citizens-garden/",
+      "agentJsonPath": "/agents/articles/the-citizens-garden.json",
+      "agentMarkdownPath": "/agents/articles/the-citizens-garden.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 307,
+      "contentHash": "48249a1f571fa817161271612ebe803b794eedd8dc4389c16393b972dde65d1c"
     },
     {
       "id": "article:the-compounding-bet",
@@ -73,7 +290,7 @@
       "claimCount": 7,
       "sourceCount": 8,
       "tokenEstimate": 802,
-      "contentHash": "0c0895ce5054a37dcb895f36204883b905464bba6a736b441219cab2911e21d9"
+      "contentHash": "1d9dc1bd1cee040a792048ecab6acad39cf130a561507617cb60d79141158281"
     },
     {
       "id": "article:the-creator-economys-incentive-trap",
@@ -106,7 +323,7 @@
       "claimCount": 7,
       "sourceCount": 8,
       "tokenEstimate": 869,
-      "contentHash": "39150f279bc25f4a7f2c09f7956e4c39706488916f9e976b0bf15f3be98fc41c"
+      "contentHash": "07cbff728144d28565712c71730df2a4bf456f39a87508fc5c2b46826b687362"
     },
     {
       "id": "article:the-generational-bet",
@@ -139,7 +356,79 @@
       "claimCount": 4,
       "sourceCount": 10,
       "tokenEstimate": 658,
-      "contentHash": "d1a2919152f83fe2f55afe29b161b63b6a5679343434f7257e2a3bcae0f26f20"
+      "contentHash": "273af6cb9297a078f5cc75f08c449a484b3b80cec535f6dd191ab2c5ead00571"
+    },
+    {
+      "id": "article:the-students-garden",
+      "slug": "the-students-garden",
+      "title": "The Student's Garden: Learning in Public, Teaching in Private",
+      "summary": "Offers practical guidance for students using AI: active learning, public note-taking, peer teaching, and avoiding the answer-generation trap.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "education",
+        "active-learning",
+        "students"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "education",
+        "active-learning",
+        "students"
+      ],
+      "canonicalPath": "/articles/the-students-garden/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-students-garden/",
+      "agentJsonPath": "/agents/articles/the-students-garden.json",
+      "agentMarkdownPath": "/agents/articles/the-students-garden.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 492,
+      "contentHash": "73fada8fa9f0b4eb3b63b435a796680cbfbe9ab113b43386b4ba069dfbf13d60"
+    },
+    {
+      "id": "article:the-workers-garden",
+      "slug": "the-workers-garden",
+      "title": "The Worker's Garden: Commutes, Side Projects, and Career Capital",
+      "summary": "Practical strategies for working adults to reclaim commute and downtime for small acts of learning and creation.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "career",
+        "productivity",
+        "side-projects",
+        "adult-learning",
+        "artificial-intelligence"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "career",
+        "productivity",
+        "side-projects",
+        "adult-learning",
+        "artificial-intelligence"
+      ],
+      "canonicalPath": "/articles/the-workers-garden/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-workers-garden/",
+      "agentJsonPath": "/agents/articles/the-workers-garden.json",
+      "agentMarkdownPath": "/agents/articles/the-workers-garden.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 526,
+      "contentHash": "f28e4e718becf603328a3254ccea6537818f96b67f15980bfa50fb3ae15d148c"
     },
     {
       "id": "article:what-ai-makes-cheap",
@@ -172,7 +461,44 @@
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 778,
-      "contentHash": "36f08fb0c0f3fddf41eb669a1eab7f20979d1c313049bdd40c371f48bc2025d0"
+      "contentHash": "264b2f4d83d62522d93394f82867db70f7c874016f74b377ce9cdc585dfa8269"
+    },
+    {
+      "id": "article:what-india-is-building-vs-could-build",
+      "slug": "what-india-is-building-vs-could-build",
+      "title": "What India Is Building vs. What It Could Build",
+      "summary": "Compares India's current startup and innovation portfolio with the deep-tech and AI infrastructure it could prioritize.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "deep-tech",
+        "startups",
+        "venture-capital",
+        "innovation-policy"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "deep-tech",
+        "startups",
+        "venture-capital",
+        "innovation-policy"
+      ],
+      "canonicalPath": "/articles/what-india-is-building-vs-could-build/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/what-india-is-building-vs-could-build/",
+      "agentJsonPath": "/agents/articles/what-india-is-building-vs-could-build.json",
+      "agentMarkdownPath": "/agents/articles/what-india-is-building-vs-could-build.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 474,
+      "contentHash": "1c65c2cbfaabb5ee4c87a6d5e05fef5ea438e4fac17145b118be57d675855556"
     }
   ]
 }

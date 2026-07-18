@@ -28,7 +28,7 @@
   "series": {
     "slug": "attention-substance-ai-moment",
     "title": "Attention, Substance, and the AI Moment",
-    "order": 12,
+    "order": 16,
     "role": "chapter"
   },
   "claims": [
@@ -322,7 +322,7 @@
           "sources"
         ],
         "notes": "Human author approved publication.",
-        "contentHash": "e8420e8ea044f5968c083af110f6791b1c08198e7e3f93b0c09343f3b41e25c0"
+        "contentHash": "738c73fe1a5cb46d123c7d9b52e19887acf36e270af5795c24dc5d651c66f3f3"
       }
     ],
     "policy": {
@@ -330,7 +330,7 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "e8420e8ea044f5968c083af110f6791b1c08198e7e3f93b0c09343f3b41e25c0",
+  "contentHash": "738c73fe1a5cb46d123c7d9b52e19887acf36e270af5795c24dc5d651c66f3f3",
   "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
   "agentJsonPath": "/agents/articles/the-life-phase-thread.json",

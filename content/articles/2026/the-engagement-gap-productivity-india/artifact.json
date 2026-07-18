@@ -28,7 +28,7 @@
   "series": {
     "slug": "attention-substance-ai-moment",
     "title": "Attention, Substance, and the AI Moment",
-    "order": 4,
+    "order": 7,
     "role": "chapter"
   },
   "claims": [
@@ -328,7 +328,7 @@
           "sources"
         ],
         "notes": "Human author approved publication.",
-        "contentHash": "37b395d28cc12622855c5d9335ed413a64fb1ca258501f7734dc0ec8c1c29ba8"
+        "contentHash": "c6559982b5bafcebb56f9a83f05dfa123b3000a3c2652673a7aab96516e8eaa7"
       }
     ],
     "policy": {
@@ -336,5 +336,5 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "37b395d28cc12622855c5d9335ed413a64fb1ca258501f7734dc0ec8c1c29ba8"
+  "contentHash": "c6559982b5bafcebb56f9a83f05dfa123b3000a3c2652673a7aab96516e8eaa7"
 }

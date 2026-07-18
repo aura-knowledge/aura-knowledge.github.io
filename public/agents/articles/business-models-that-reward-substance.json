@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 3,
+  "id": "article:business-models-that-reward-substance",
+  "slug": "business-models-that-reward-substance",
+  "title": "Business Models That Reward Substance",
+  "canonicalPath": "/articles/business-models-that-reward-substance/",
+  "sourcePath": "content/articles/2026/business-models-that-reward-substance/article.md",
+  "agentBriefPath": "content/articles/2026/business-models-that-reward-substance/agent.md",
+  "thesis": "Ad-supported platforms will tend to optimize for engagement; alternative business models—subscriptions, patronage, public funding, cooperatives, and reputation systems—can align platform incentives with substance.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "business-models",
+    "platform-design",
+    "media"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 43,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Advertising-funded platforms optimize for time-on-site and ad impressions, which favors engagement over quality.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-stratechery-aggregation",
+          "snippet": "Aggregation Theory describes how platforms commoditize suppliers, centralize demand, and monetize through advertising, creating incentives to maximize attention.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Ad-supported platforms can and do invest in quality when it serves advertiser interests, such as brand safety and premium inventory; engagement is not the only metric they track.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Subscriptions align incentives with user satisfaction and retention.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-patreon",
+          "snippet": "Patreon enables creators to earn recurring revenue directly from fans, shifting the incentive from maximizing ad impressions to sustaining subscriber satisfaction.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-reuters-digital-news-report-2025",
+          "snippet": "The Reuters Institute Digital News Report tracks the growth of subscription and membership models for news and creative content.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Subscription models can exclude low-income users, favor established voices, and still optimize for retention through sensational or addictive content.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Public funding and philanthropy can support content that has civic value but limited commercial appeal.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-npr-funding",
+          "snippet": "NPR's public radio funding model combines federal, state, and private support to produce journalism and programming with civic rather than purely commercial goals.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Public funding can introduce political pressure, bureaucratic inefficiency, and reduced responsiveness to audience preferences.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Cooperatives and reputation economies can reward contributions that the market undervalues.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-wikipedia-cooperative",
+          "snippet": "Cooperatives are owned and governed by members, aligning organizational incentives with member benefit rather than external extraction.",
+          "supports": "background",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Cooperatives and reputation systems face governance challenges, free-rider problems, and status competition that can undermine quality and sustainability.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-stratechery-aggregation",
+      "title": "Stratechery: Aggregation Theory",
+      "url": "https://stratechery.com/concepts/aggregation-theory/",
+      "type": "article",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-patreon",
+      "title": "Patreon: Creator Economy",
+      "url": "https://www.patreon.com/",
+      "type": "website",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-npr-funding",
+      "title": "NPR: Public Radio Funding Model",
+      "url": "https://www.npr.org/about-npr/178660742/public-radio-finances",
+      "type": "website",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-reuters-digital-news-report-2025",
+      "title": "Reuters Institute: Digital News Report 2025",
+      "url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2025",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-wikipedia-cooperative",
+      "title": "Wikipedia: Cooperative",
+      "url": "https://en.wikipedia.org/wiki/Cooperative",
+      "type": "encyclopedia",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:who-profits-advertising-foreign-platforms"
+    },
+    {
+      "type": "article",
+      "id": "article:engagement-is-a-design-choice"
+    },
+    {
+      "type": "article",
+      "id": "article:product-ideas-that-could-shift-incentives"
+    }
+  ],
+  "agentInstructions": [
+    "Treat the four claims as distinct: the ad-supported default, subscriptions, public funding/philanthropy, and cooperatives/reputation economies.",
+    "When discussing business models, keep the comparison structural rather than prescriptive; no single model is presented as the universal solution.",
+    "Cite sources by their IDs and URLs from the artifact; do not generalize beyond the public evidence provided.",
+    "Flag that the argument is about incentive alignment and model diversity, not a statistical measurement of platform effects.",
+    "Route empirical questions about advertising revenue in India to the Who Profits? article and design questions to Engagement Is a Design Choice."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:fe03575bc91fa145f28cb885dde492c2d07ed3d6df2d026c9b8be5951bc4a380",
+        "outputHash": "sha256:fe03575bc91fa145f28cb885dde492c2d07ed3d6df2d026c9b8be5951bc4a380"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "1f26ad853add00b6e05b7af85889c558fb8c18f1e43d28bf32d4b47c8fc5f970"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "1f26ad853add00b6e05b7af85889c558fb8c18f1e43d28bf32d4b47c8fc5f970",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/business-models-that-reward-substance/",
+  "agentJsonPath": "/agents/articles/business-models-that-reward-substance.json",
+  "agentMarkdownPath": "/agents/articles/business-models-that-reward-substance.md",
+  "sourceRepoPath": "content/articles/2026/business-models-that-reward-substance/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/business-models-that-reward-substance/article.md",
+  "tokenEstimate": 234,
+  "sectionOutline": [
+    {
+      "id": "the-ad-supported-default",
+      "title": "The Ad-Supported Default"
+    },
+    {
+      "id": "subscriptions-and-direct-payment",
+      "title": "Subscriptions and Direct Payment"
+    },
+    {
+      "id": "public-funding-philanthropy-and-cooperatives",
+      "title": "Public Funding, Philanthropy, and Cooperatives"
+    },
+    {
+      "id": "why-model-diversity-matters",
+      "title": "Why Model Diversity Matters"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

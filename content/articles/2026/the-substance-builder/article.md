@@ -22,7 +22,7 @@ agentArtifact: /agents/articles/the-substance-builder.json
 sourcePath: content/articles/2026/the-substance-builder/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 4: Building Substance</p>
+<p class="article-kicker">Attention, Substance, and the AI Moment · Part 4</p>
 
 A garden and a junkyard can occupy the same size plot. Both receive sunlight and rain. The difference is what the owner plants, weeds, and returns to each day. The soil does not care; the outcome depends on the gardener's small, repeated choices.
 
@@ -90,7 +90,7 @@ A student stuck on a math problem can ask an AI tutor to ask a simpler question 
 
 The pattern is the same across domains. The first step is no longer a blank slate. It is a rough draft, a wrong answer, a sketch to react against. Reaction is easier than invention. Once you are reacting, you are working.
 
-The risk is that the AI becomes the work. If every paragraph is generated and lightly edited, the builder does not build; the builder curates. The useful pattern is to treat AI as a journeyman assistant: it roughs the board, holds the tool, suggests the cut. The craft still belongs to the human.
+The risk is that the AI becomes the work. If every paragraph is generated and lightly edited, the builder does not build; the builder curates. The useful pattern is to treat AI as a [journeyman assistant](/articles/ai-as-journeyman-assistant/): it roughs the board, holds the tool, suggests the cut. The craft still belongs to the human.
 
 This is the difference between <em>using</em> AI and <em>outsourcing</em> to it. Using AI lowers the hill. Outsourcing removes the climb entirely. Only the first one builds substance.
 
@@ -114,7 +114,7 @@ A child spending long stretches on algorithmic video content is not a separate p
 
 Most early work will not be good. It will not be shared widely. It may not even be finished. This is not a bug; it is how skill accumulates.
 
-The first essays are usually awkward. The first programs have bugs no one else sees. The first translations are wooden. What matters is that each project teaches something specific: how to structure an argument, how to debug, how to hear the rhythm of a sentence in another language. These skills layer on top of one another. Later work succeeds not because the first projects were brilliant, but because they built the stack.
+The first essays are usually awkward. The first programs have bugs no one else sees. The first translations are wooden. What matters is that each project teaches something specific: how to structure an argument, how to debug, how to hear the rhythm of a sentence in another language. These skills layer on top of one another. Later work succeeds not because the first projects were brilliant, but because they built the stack. See [Failure, Teaching, and the Skill Stack](/articles/failure-teaching-and-the-skill-stack/) for the longer view on how bad early work and public explanation compound.
 
 There is a useful humility here. The substance builder does not wait for inspiration or permission. She writes the bad paragraph, writes the next one, and trusts that competence will catch up with intention. The public internet rewards the finished product. Private practice rewards the repetition. The archive of unfinished work is not evidence of failure; it is evidence of showing up.
 
@@ -132,13 +132,13 @@ AI can help here too. Ask it to play the confused reader, the skeptical student,
 
 The same principles look different at different stages of life.
 
-<strong>Student.</strong> Use AI as a tutor that asks questions back, not an answer generator. The goal is understanding, not submission. A student building substance might keep a small notebook of explanations: for every concept learned, write one paragraph as if teaching a younger sibling. The notebook becomes a map of what is actually understood versus what was merely memorized.
+<strong>Student.</strong> Use AI as a tutor that asks questions back, not an answer generator. The goal is understanding, not submission. A [student building substance](/articles/the-students-garden/) might keep a small notebook of explanations: for every concept learned, write one paragraph as if teaching a younger sibling. The notebook becomes a map of what is actually understood versus what was merely memorized.
 
-<strong>Early worker.</strong> Turn commute and waiting time into a creation pocket. One paragraph, one function, one sketch per day. The early worker is building a second skill stack alongside the job. The point is not to start a side business; it is to keep the mind in practice so that future opportunities find a ready mind.
+<strong>Early worker.</strong> Turn commute and waiting time into a creation pocket. One paragraph, one function, one sketch per day. The [early worker](/articles/the-workers-garden/) is building a second skill stack alongside the job. The point is not to start a side business; it is to keep the mind in practice so that future opportunities find a ready mind.
 
-<strong>Parent.</strong> Make attention a family contract. The device goes to a common spot at meals; the child sees the parent read, write, or build, not just scroll. The parent also protects small windows for their own practice, showing the child that attention is a choice. The lesson is caught before it is taught.
+<strong>Parent.</strong> Make attention a family contract. The device goes to a common spot at meals; the child sees the parent read, write, or build, not just scroll. The [parent](/articles/the-familys-garden/) also protects small windows for their own practice, showing the child that attention is a choice. The lesson is caught before it is taught.
 
-<strong>Citizen.</strong> Use local knowledge plus AI to solve a nearby problem. A translated health leaflet, a school timetable, a neighborhood map, a clear explanation of a government scheme. Civic substance is built when private capability becomes public usefulness. The smallest civic act, done repeatedly, can become local infrastructure.
+<strong>Citizen.</strong> Use local knowledge plus AI to solve a nearby problem. A translated health leaflet, a school timetable, a neighborhood map, a clear explanation of a government scheme. [Civic substance](/articles/the-citizens-garden/) is built when private capability becomes public usefulness. The smallest civic act, done repeatedly, can become local infrastructure.
 
 <h2 id="historical-analogies">Historical Analogies</h2>
 

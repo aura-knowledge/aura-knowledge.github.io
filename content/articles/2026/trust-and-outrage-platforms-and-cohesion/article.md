@@ -22,7 +22,7 @@ agentArtifact: /agents/articles/trust-and-outrage-platforms-and-cohesion.json
 sourcePath: content/articles/2026/trust-and-outrage-platforms-and-cohesion/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 1: The Diagnosis</p>
+<p class="article-kicker">Attention, Substance, and the AI Moment · Part 1</p>
 
 Trust is the residue of repeated, reliable interactions. It builds slowly, through classrooms, neighborhoods, workplaces, and shared institutions. Outrage, by contrast, is fast. A single divisive post can travel farther in an hour than a carefully reported story travels in a week. In India, where hundreds of millions of people now get news, entertainment, and political identity from the same algorithmic feeds, the speed asymmetry between trust and outrage has become a structural problem.
 

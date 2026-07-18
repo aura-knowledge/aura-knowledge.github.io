@@ -86,7 +86,19 @@
     },
     {
       "type": "article",
+      "id": "article:the-reel-nation-short-form-video"
+    },
+    {
+      "type": "article",
+      "id": "article:public-space-and-private-screens"
+    },
+    {
+      "type": "article",
       "id": "article:the-student-screen-education-vs-entertainment"
+    },
+    {
+      "type": "article",
+      "id": "article:sleep-anxiety-and-tele-manas"
     },
     {
       "type": "article",
@@ -98,11 +110,43 @@
     },
     {
       "type": "article",
+      "id": "article:the-design-of-extraction"
+    },
+    {
+      "type": "article",
       "id": "article:trust-and-outrage-platforms-and-cohesion"
     },
     {
       "type": "article",
       "id": "article:the-indic-language-internet-and-vernacular-feeds"
+    },
+    {
+      "type": "article",
+      "id": "article:india-in-global-context"
+    },
+    {
+      "type": "article",
+      "id": "article:historical-hinges-access-is-not-benefit"
+    },
+    {
+      "type": "article",
+      "id": "article:the-green-revolution-trade-off"
+    },
+    {
+      "type": "article",
+      "id": "article:tobacco-seatbelts-food-safety"
+    },
+    {
+      "type": "article",
+      "id": "article:the-life-phase-thread"
+    },
+    {
+      "type": "article",
+      "id": "article:the-jio-effect-cheap-data-access-behavior"
+    },
+    {
+      "type": "article",
+      "id": "article:gender-and-the-attention-economy"
     },
     {
       "type": "article",
@@ -114,7 +158,23 @@
     },
     {
       "type": "article",
+      "id": "article:the-demographic-dividend-is-not-automatic"
+    },
+    {
+      "type": "article",
+      "id": "article:what-india-is-building-vs-could-build"
+    },
+    {
+      "type": "article",
       "id": "article:the-creator-economys-incentive-trap"
+    },
+    {
+      "type": "article",
+      "id": "article:ai-could-make-extraction-cheaper-too"
+    },
+    {
+      "type": "article",
+      "id": "article:bhashini-and-the-indic-language-ai-moment"
     },
     {
       "type": "article",
@@ -122,11 +182,7 @@
     },
     {
       "type": "article",
-      "id": "article:the-life-phase-thread"
-    },
-    {
-      "type": "article",
-      "id": "article:gender-and-the-attention-economy"
+      "id": "article:historical-analogies-of-missed-transitions"
     },
     {
       "type": "article",
@@ -138,6 +194,30 @@
     },
     {
       "type": "article",
+      "id": "article:ai-as-journeyman-assistant"
+    },
+    {
+      "type": "article",
+      "id": "article:the-students-garden"
+    },
+    {
+      "type": "article",
+      "id": "article:the-workers-garden"
+    },
+    {
+      "type": "article",
+      "id": "article:the-familys-garden"
+    },
+    {
+      "type": "article",
+      "id": "article:the-citizens-garden"
+    },
+    {
+      "type": "article",
+      "id": "article:failure-teaching-and-the-skill-stack"
+    },
+    {
+      "type": "article",
       "id": "article:designing-for-substance"
     },
     {
@@ -146,7 +226,31 @@
     },
     {
       "type": "article",
+      "id": "article:alternative-metrics-time-well-spent"
+    },
+    {
+      "type": "article",
       "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp"
+    },
+    {
+      "type": "article",
+      "id": "article:public-pressure-and-internal-accountability"
+    },
+    {
+      "type": "article",
+      "id": "article:user-migration-and-the-exit-problem"
+    },
+    {
+      "type": "article",
+      "id": "article:friction-chronological-feeds-user-chosen-algorithms"
+    },
+    {
+      "type": "article",
+      "id": "article:business-models-that-reward-substance"
+    },
+    {
+      "type": "article",
+      "id": "article:age-appropriate-design"
     },
     {
       "type": "article",
@@ -155,6 +259,14 @@
     {
       "type": "article",
       "id": "article:a-map-of-levers"
+    },
+    {
+      "type": "article",
+      "id": "article:product-ideas-that-could-shift-incentives"
+    },
+    {
+      "type": "article",
+      "id": "article:open-questions-the-series-leaves-unresolved"
     },
     {
       "type": "article",
@@ -182,6 +294,13 @@
         "invokedAt": "2026-07-05",
         "inputHash": "sha256:e6e3f46b1414ff04e3dd733429ba07ca3c10aa200bfb968353fb689b19b17da9",
         "outputHash": "sha256:e6e3f46b1414ff04e3dd733429ba07ca3c10aa200bfb968353fb689b19b17da9"
+      },
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:17ed890d4dd63451002e282c8c6150ce6a7648061a0d3fc345b6468874e8f4de",
+        "outputHash": "sha256:17ed890d4dd63451002e282c8c6150ce6a7648061a0d3fc345b6468874e8f4de"
       }
     ],
     "reviews": [
@@ -194,8 +313,8 @@
           "tone",
           "privacy"
         ],
-        "notes": "Human author approved the series guide structure and scope.",
-        "contentHash": "e6e3f46b1414ff04e3dd733429ba07ca3c10aa200bfb968353fb689b19b17da9"
+        "notes": "Updated to include all 50 series articles.",
+        "contentHash": "17ed890d4dd63451002e282c8c6150ce6a7648061a0d3fc345b6468874e8f4de"
       }
     ],
     "policy": {
@@ -203,5 +322,5 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "e6e3f46b1414ff04e3dd733429ba07ca3c10aa200bfb968353fb689b19b17da9"
+  "contentHash": "17ed890d4dd63451002e282c8c6150ce6a7648061a0d3fc345b6468874e8f4de"
 }

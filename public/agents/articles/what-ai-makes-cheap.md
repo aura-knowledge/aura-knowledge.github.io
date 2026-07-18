@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:what-ai-makes-cheap
 articleId: article:what-ai-makes-cheap
 slug: what-ai-makes-cheap
-title: 'Agent Brief for "What AI Makes Cheap"'
+title: "Agent Brief for 'What AI Makes Cheap'"
 tokenBudget: 1500
 status: published
 updated: 2026-07-05

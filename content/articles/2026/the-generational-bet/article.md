@@ -22,7 +22,7 @@ agentArtifact: /agents/articles/the-generational-bet.json
 sourcePath: content/articles/2026/the-generational-bet/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 3: The AI Opportunity Cost</p>
+<p class="article-kicker">Attention, Substance, and the AI Moment · Part 3</p>
 
 When the printing press arrived in Europe, it did not automatically make societies wiser. It made them *capable* of wisdom. The communities that gained power were the ones that built publishing houses, schools, libraries, and habits of argument. The communities that lost ground treated the press as a faster way to circulate what they already believed. The same machine produced science and panic, poetry and propaganda. The difference was the habit of mind that met the machine.
 
@@ -48,9 +48,9 @@ This is the central tension. AI has made it cheap to start a newsletter, build a
 
 <h2 id="historical-hinges">Historical Hinges</h2>
 
-History is full of moments when access to a powerful tool was widely shared but its benefits were not. The printing press is the most obvious. Within a century of Gutenberg, northern Europe had built universities, scientific societies, and a public sphere of pamphlets and books. Other regions acquired presses too, but the institutions that turned presses into progress took longer to build. Access was equal; outcome was not.
+History is full of moments when access to a powerful tool was widely shared but its benefits were not. [Historical Hinges](/articles/historical-hinges-access-is-not-benefit/) traces this pattern across the printing press, industrial revolution, personal computer, and early internet. The printing press is the most obvious. Within a century of Gutenberg, northern Europe had built universities, scientific societies, and a public sphere of pamphlets and books. Other regions acquired presses too, but the institutions that turned presses into progress took longer to build. Access was equal; outcome was not.
 
-The industrial revolution repeated the pattern. Countries that built factories, railways, and technical schools shaped the nineteenth and twentieth centuries. Countries that remained buyers of manufactured goods spent generations catching up. India itself lived through this asymmetry. The cost of missing a technological transition is rarely measured in years; it is measured in generations of lost ground.
+The industrial revolution repeated the pattern. Countries that built factories, railways, and technical schools shaped the nineteenth and twentieth centuries. Countries that remained buyers of manufactured goods spent generations catching up. India itself lived through this asymmetry. [Historical Analogies of Missed Transitions](/articles/historical-analogies-of-missed-transitions/) examines how nations that arrived late to industrialization, computing, or the internet paid a long price. The cost of missing a technological transition is rarely measured in years; it is measured in generations of lost ground.
 
 The personal computer offers a closer analogy. In the 1980s and 1990s, computers entered homes, schools, and offices across the world. The households that prospered were not always the ones that bought the machines first; they were the ones that learned to program, to compose, to analyze, and to build. The gap between the hobbyist who learned to code and the household that used the computer only for games and television became, over time, an economic divide.
 
@@ -96,7 +96,7 @@ The abstraction here is about incentives, not individuals. Many creators produce
 
 A related pattern appears in India's startup ecosystem. The country has built world-class convenience-aggregation platforms in food delivery, ride-hailing, quick commerce, and financial services. These solve real problems at scale and employ large numbers of people. They are genuine achievements.
 
-The open question is whether this pattern translates into globally dominant deep-tech product categories: foundational AI models, semiconductors, enterprise software, scientific tools, or industrial automation. India's startup ecosystem has produced many convenience-aggregation platforms and fewer globally dominant deep-tech product categories. That is an observation, not an accusation. It points to a question of where talent, capital, and attention are being directed.
+The open question is whether this pattern translates into globally dominant deep-tech product categories: foundational AI models, semiconductors, enterprise software, scientific tools, or industrial automation. [What India Is Building vs. What It Could Build](/articles/what-india-is-building-vs-could-build/) examines this tension in more detail. India's startup ecosystem has produced many convenience-aggregation platforms and fewer globally dominant deep-tech product categories. That is an observation, not an accusation. It points to a question of where talent, capital, and attention are being directed.
 
 The same young engineers who could be building scientific tools or open-source infrastructure are often drawn toward the largest, fastest-paying consumer markets. That is rational individual behavior. But aggregated across a generation, it shapes what the country becomes known for. The generational bet is partly a bet on whether enough talented people choose the longer, harder path of building foundational things.
 
@@ -108,7 +108,7 @@ This is the core reframing. The AI moment is not a moment of destiny. It is a mo
 
 The flip side is also true. Small daily acts of creation, when sustained, compound. Writing in public for a year builds clarity and an audience. Building small tools builds judgment about what is possible. Learning one hard thing deeply makes the next hard thing easier. These effects are slow and uneven, which is why they are easy to dismiss in the moment. They are also why they matter.
 
-National capacity is just individual capacity added up and connected. A country with millions of people who know how to use AI to learn, build, and solve problems will produce more innovation, better public services, and stronger institutions than a country with the same tools but a population trained mainly to consume. The demographic dividend is real, but it is not automatic. It pays out only if the young population is doing things that create value.
+National capacity is just individual capacity added up and connected. A country with millions of people who know how to use AI to learn, build, and solve problems will produce more innovation, better public services, and stronger institutions than a country with the same tools but a population trained mainly to consume. The demographic dividend is real, but it is not automatic. [The Demographic Dividend Is Not Automatic](/articles/the-demographic-dividend-is-not-automatic/) argues that youth, talent, and time pay out only if attention is directed toward value-creating activity. It pays out only if the young population is doing things that create value.
 
 <h2 id="systemic-levers-not-silver-bullets">Systemic Levers, Not Silver Bullets</h2>
 
@@ -151,6 +151,7 @@ It is also not a nationalist sermon. India's situation is not unique. Every coun
 - [What AI Makes Cheap](/articles/what-ai-makes-cheap/) — what generative AI lowers the cost of, and where the savings could go.
 - [The Substance Builder](/articles/the-substance-builder/) — practical paths for turning dead time into small acts of creation.
 - [Designing for Substance](/articles/designing-for-substance/) — how platforms and policymakers could make substance the easier path.
+- [AI Could Make Extraction Cheaper Too](/articles/ai-could-make-extraction-cheaper-too/) — synthetic content, hyper-personalized feeds, and the risks of AI-powered extraction.
 - [Attention, Substance, and the AI Moment](/articles/attention-substance-ai-moment/) — the full series guide and reading paths.
 
 <h2 id="the-bet">The Bet</h2>

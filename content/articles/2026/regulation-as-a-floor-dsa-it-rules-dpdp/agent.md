@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:regulation-as-a-floor-dsa-it-rules-dpdp
 articleId: article:regulation-as-a-floor-dsa-it-rules-dpdp
 slug: regulation-as-a-floor-dsa-it-rules-dpdp
-title: 'Agent Brief for "Regulation as a Floor"'
+title: "Agent Brief for 'Regulation as a Floor'"
 tokenBudget: 1500
 status: published
 updated: 2026-07-05

@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 3,
+  "id": "article:what-india-is-building-vs-could-build",
+  "slug": "what-india-is-building-vs-could-build",
+  "title": "What India Is Building vs. What It Could Build",
+  "canonicalPath": "/articles/what-india-is-building-vs-could-build/",
+  "sourcePath": "content/articles/2026/what-india-is-building-vs-could-build/article.md",
+  "agentBriefPath": "content/articles/2026/what-india-is-building-vs-could-build/agent.md",
+  "thesis": "India's digital economy has produced valuable convenience services, but a disproportionate share of capital and talent is going toward aggregation rather than deep tech, foundational AI, and scientific infrastructure.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "artificial-intelligence",
+    "deep-tech",
+    "startups",
+    "venture-capital",
+    "innovation-policy"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 22,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "India's digital economy contributes roughly 11.74% of GDP, led by services and consumer platforms.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-icrier-digital-economy-2024",
+          "snippet": "MeitY/ICRIER estimates India's digital economy at 11.74% of GDP, with services and consumer platforms contributing the largest shares.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The 11.74% figure is an estimate based on a specific methodology; different definitions of the digital economy produce different shares, and the services-heavy composition is consistent across methodologies.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "A large share of venture funding and startup talent has gone into delivery, ride-hailing, and quick commerce.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-ivca-venture",
+          "snippet": "IVCA venture reports show that consumer technology, including delivery, fintech, and mobility, has historically attracted the largest share of Indian venture capital.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Sector classifications vary across reports, and some consumer platforms also build logistics, payments, and data infrastructure that benefits other sectors.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Semiconductors, foundational AI models, scientific instruments, and industrial automation receive far smaller shares of capital and attention.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-nasscom-deep-tech",
+          "snippet": "NASSCOM deep-tech reports note that semiconductor, AI infrastructure, and industrial automation startups represent a small fraction of India's startup and venture ecosystem.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-stanford-hai-2025",
+          "snippet": "Global AI Index data shows that foundational AI model development is concentrated in a small number of countries and institutions, with India underrepresented in frontier model training.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "India has active public initiatives such as IndiaAI and semiconductor incentives, and deep-tech funding is growing from a small base; the gap is relative, not absolute.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "National AI readiness depends on shifting some fraction of talent and capital toward harder, slower problems.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-nasscom-deep-tech",
+          "snippet": "Deep-tech and AI infrastructure require longer development cycles and different capital and talent incentives than consumer platforms.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-stanford-hai-2025",
+          "snippet": "AI readiness indices emphasize compute, data, talent, and institutional capacity as prerequisites for participating in the frontier.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some countries have built strong AI ecosystems through applied innovation and platform adoption without leading in foundational models; readiness can be defined in multiple ways.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-icrier-digital-economy-2024",
+      "title": "MeitY/ICRIER: Estimation and Measurement of India's Digital Economy",
+      "url": "https://www.meity.gov.in/static/uploads/2025/01/5ff397f9e8152d5562ed4cef1a6b767b.pdf",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-nasscom-deep-tech",
+      "title": "NASSCOM: Deep Tech Startups in India",
+      "url": "https://nasscom.in/knowledge-center/publications",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ivca-venture",
+      "title": "IVCA: Indian Private Equity and Venture Capital Report",
+      "url": "https://ivca.in/research-reports/",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-stanford-hai-2025",
+      "title": "Stanford HAI: AI Index Report 2025",
+      "url": "https://aiindex.stanford.edu/report/",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:the-demographic-dividend-is-not-automatic"
+    },
+    {
+      "type": "article",
+      "id": "article:what-ai-makes-cheap"
+    },
+    {
+      "type": "article",
+      "id": "article:ai-could-make-extraction-cheaper-too"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit and distinguish core claims from the argument claim.",
+    "Preserve the portfolio-level framing; do not treat the article as a critique of individual companies.",
+    "When citing sources, use the source IDs and URLs from the artifact; do not generalize beyond the public evidence.",
+    "Flag funding and sector-share figures as directional estimates rather than precise census data.",
+    "Route questions about AI extraction risks to the relevant later chapter and questions about demographics to the preceding chapter.",
+    "The article includes a venture-funding-by-sector SVG visualization inserted after Claim C2; preserve the image path, alt text, and caption when editing."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:f3e05edc3ab6ca368b9b34bced05229f64983b4c1d5cb92eeaa21710e2416d66",
+        "outputHash": "sha256:f3e05edc3ab6ca368b9b34bced05229f64983b4c1d5cb92eeaa21710e2416d66"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "1c65c2cbfaabb5ee4c87a6d5e05fef5ea438e4fac17145b118be57d675855556"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "1c65c2cbfaabb5ee4c87a6d5e05fef5ea438e4fac17145b118be57d675855556"
+}

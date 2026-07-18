@@ -2,11 +2,51 @@
   "schemaVersion": 1,
   "topic": "skill-building",
   "articleIds": [
+    "article:failure-teaching-and-the-skill-stack",
     "article:the-small-rep-theory"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/skill-building/",
   "agentJsonPath": "/agents/topics/skill-building.json",
   "articles": [
+    {
+      "id": "article:failure-teaching-and-the-skill-stack",
+      "slug": "failure-teaching-and-the-skill-stack",
+      "title": "Failure, Teaching, and the Skill Stack",
+      "summary": "Argues that early failure and public teaching are features, not bugs, of building substance over time.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "skill-building",
+        "deliberate-practice",
+        "learning",
+        "ai-assisted-creation",
+        "failure",
+        "teaching"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "skill-building",
+        "deliberate-practice",
+        "learning",
+        "ai-assisted-creation",
+        "failure",
+        "teaching"
+      ],
+      "canonicalPath": "/articles/failure-teaching-and-the-skill-stack/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/failure-teaching-and-the-skill-stack/",
+      "agentJsonPath": "/agents/articles/failure-teaching-and-the-skill-stack.json",
+      "agentMarkdownPath": "/agents/articles/failure-teaching-and-the-skill-stack.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 276,
+      "contentHash": "a95e00e39cc83a61256a5b2cad5c72ac975e7defb21cbcb83bb7357594bfe387"
+    },
     {
       "id": "article:the-small-rep-theory",
       "slug": "the-small-rep-theory",
@@ -38,7 +78,7 @@
       "claimCount": 7,
       "sourceCount": 5,
       "tokenEstimate": 659,
-      "contentHash": "5b21a6af734bb37d8c42799003a7d00fd6d44b82978fd64d2a977c4b8a27e2d1"
+      "contentHash": "7ead4979bac4ecea0e4bb0cc52d08b41293f97697a50c89a3339a93da944ff0e"
     }
   ]
 }

@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:by-the-numbers-what-indians-do-online
 articleId: article:by-the-numbers-what-indians-do-online
 slug: by-the-numbers-what-indians-do-online
-title: 'Agent Brief for "By the Numbers: What Indians Actually Do Online"'
+title: "Agent Brief for 'By the Numbers: What Indians Actually Do Online'"
 tokenBudget: 1500
 status: published
 updated: 2026-07-05

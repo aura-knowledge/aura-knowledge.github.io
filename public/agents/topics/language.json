@@ -2,11 +2,45 @@
   "schemaVersion": 1,
   "topic": "language",
   "articleIds": [
+    "article:bhashini-and-the-indic-language-ai-moment",
     "article:the-indic-language-internet-and-vernacular-feeds"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/language/",
   "agentJsonPath": "/agents/topics/language.json",
   "articles": [
+    {
+      "id": "article:bhashini-and-the-indic-language-ai-moment",
+      "slug": "bhashini-and-the-indic-language-ai-moment",
+      "title": "Bhashini and the Indic-Language AI Moment",
+      "summary": "How Indic-language AI could turn India's language diversity from a barrier into a creative force for substantive content.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "ai",
+        "language",
+        "bhashini"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "ai",
+        "language",
+        "bhashini"
+      ],
+      "canonicalPath": "/articles/bhashini-and-the-indic-language-ai-moment/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/bhashini-and-the-indic-language-ai-moment/",
+      "agentJsonPath": "/agents/articles/bhashini-and-the-indic-language-ai-moment.json",
+      "agentMarkdownPath": "/agents/articles/bhashini-and-the-indic-language-ai-moment.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 304,
+      "contentHash": "6a393859a7b5f8c68f9d6b663a8c104f9381878194747a5b6056966d4ff6e7e8"
+    },
     {
       "id": "article:the-indic-language-internet-and-vernacular-feeds",
       "slug": "the-indic-language-internet-and-vernacular-feeds",
@@ -36,7 +70,7 @@
       "claimCount": 7,
       "sourceCount": 6,
       "tokenEstimate": 763,
-      "contentHash": "2cbd75681869256f55e76d86902ff8f7ca822f828a129971ae66da62ecfaef8d"
+      "contentHash": "34a702fd058cd8a36f46bfec32f7d490c09d2abd2d2de7212490775fb332729b"
     }
   ]
 }

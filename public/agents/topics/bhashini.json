@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "topic": "bhashini",
+  "articleIds": [
+    "article:bhashini-and-the-indic-language-ai-moment",
+    "article:the-citizens-garden"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/bhashini/",
+  "agentJsonPath": "/agents/topics/bhashini.json",
+  "articles": [
+    {
+      "id": "article:bhashini-and-the-indic-language-ai-moment",
+      "slug": "bhashini-and-the-indic-language-ai-moment",
+      "title": "Bhashini and the Indic-Language AI Moment",
+      "summary": "How Indic-language AI could turn India's language diversity from a barrier into a creative force for substantive content.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "ai",
+        "language",
+        "bhashini"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "ai",
+        "language",
+        "bhashini"
+      ],
+      "canonicalPath": "/articles/bhashini-and-the-indic-language-ai-moment/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/bhashini-and-the-indic-language-ai-moment/",
+      "agentJsonPath": "/agents/articles/bhashini-and-the-indic-language-ai-moment.json",
+      "agentMarkdownPath": "/agents/articles/bhashini-and-the-indic-language-ai-moment.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 304,
+      "contentHash": "6a393859a7b5f8c68f9d6b663a8c104f9381878194747a5b6056966d4ff6e7e8"
+    },
+    {
+      "id": "article:the-citizens-garden",
+      "slug": "the-citizens-garden",
+      "title": "The Citizen's Garden: Local Knowledge plus AI",
+      "summary": "Shows how ordinary citizens can use AI to produce local knowledge and help neighbors, moving from online consumption to offline civic contribution.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "civic-tech",
+        "artificial-intelligence",
+        "local-knowledge",
+        "bhashini"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "civic-tech",
+        "artificial-intelligence",
+        "local-knowledge",
+        "bhashini"
+      ],
+      "canonicalPath": "/articles/the-citizens-garden/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-citizens-garden/",
+      "agentJsonPath": "/agents/articles/the-citizens-garden.json",
+      "agentMarkdownPath": "/agents/articles/the-citizens-garden.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 307,
+      "contentHash": "48249a1f571fa817161271612ebe803b794eedd8dc4389c16393b972dde65d1c"
+    }
+  ]
+}

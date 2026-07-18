@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "topic": "youth",
+  "articleIds": [
+    "article:the-demographic-dividend-is-not-automatic",
+    "article:the-reel-nation-short-form-video"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/youth/",
+  "agentJsonPath": "/agents/topics/youth.json",
+  "articles": [
+    {
+      "id": "article:the-demographic-dividend-is-not-automatic",
+      "slug": "the-demographic-dividend-is-not-automatic",
+      "title": "The Demographic Dividend Is Not Automatic: Youth, Talent, and Time",
+      "summary": "Connects India's youth demographics to employment and skill data, arguing that the demographic dividend depends on how young people invest their attention.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "youth",
+        "employment",
+        "skills",
+        "ai"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "youth",
+        "employment",
+        "skills",
+        "ai"
+      ],
+      "canonicalPath": "/articles/the-demographic-dividend-is-not-automatic/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-demographic-dividend-is-not-automatic/",
+      "agentJsonPath": "/agents/articles/the-demographic-dividend-is-not-automatic.json",
+      "agentMarkdownPath": "/agents/articles/the-demographic-dividend-is-not-automatic.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 185,
+      "contentHash": "3046c0bc6ee177dfef3a39376fb328d53b6a95240cb02a5b0fcf3a3f9b829a93"
+    },
+    {
+      "id": "article:the-reel-nation-short-form-video",
+      "slug": "the-reel-nation-short-form-video",
+      "title": "The Reel Nation: Short-Form Video and the Economics of a Swipe",
+      "summary": "Examines the design mechanics and usage scale of short-form video in India, separating documented harms from hype and tracing the opportunity cost.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "short-form-video",
+        "mental-health",
+        "youth",
+        "design"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "short-form-video",
+        "mental-health",
+        "youth",
+        "design"
+      ],
+      "canonicalPath": "/articles/the-reel-nation-short-form-video/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-reel-nation-short-form-video/",
+      "agentJsonPath": "/agents/articles/the-reel-nation-short-form-video.json",
+      "agentMarkdownPath": "/agents/articles/the-reel-nation-short-form-video.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 6,
+      "tokenEstimate": 265,
+      "contentHash": "e79e3653a0aa31910577f9cd85eb541b2733d9911e37fb961f2b359c0bf3d26d"
+    }
+  ]
+}

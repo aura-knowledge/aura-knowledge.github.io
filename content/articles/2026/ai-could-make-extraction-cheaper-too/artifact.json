@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 3,
+  "id": "article:ai-could-make-extraction-cheaper-too",
+  "slug": "ai-could-make-extraction-cheaper-too",
+  "title": "AI Could Make Extraction Cheaper Too",
+  "canonicalPath": "/articles/ai-could-make-extraction-cheaper-too/",
+  "sourcePath": "content/articles/2026/ai-could-make-extraction-cheaper-too/article.md",
+  "agentBriefPath": "content/articles/2026/ai-could-make-extraction-cheaper-too/agent.md",
+  "thesis": "AI lowers the cost of producing persuasive, personalized, and synthetic content, which can deepen attention extraction and misinformation unless platforms, regulators, and users build countervailing norms.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "artificial-intelligence",
+    "synthetic-media",
+    "misinformation",
+    "platform-design"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 24,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Generative AI dramatically lowers the cost of producing video, audio, text, and images at scale.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-stanford-hai-2025",
+          "snippet": "The Stanford HAI AI Index Report 2025 documents rapid improvement and diffusion of generative AI systems and falling training and inference costs for many tasks.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "High-quality, trustworthy content still requires human judgment, fact-checking, and editorial investment; cheap generation does not automatically equal cheap credibility.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "AI-powered recommendation can make feeds more personally addictive and harder to audit.",
+      "confidence": "medium-high",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-wef-deepfakes",
+          "snippet": "The World Economic Forum Global Risks Report 2024 identifies AI-generated misinformation and the erosion of information integrity as major near-term risks, partly because scale and personalization outpace verification capacity.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Personalization can also reduce noise and surface genuinely useful content; the harm depends on the objective function and business model, not personalization alone.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Deepfakes and synthetic influencers are already entering Indian political and consumer discourse.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-microsoft-digital-defense",
+          "snippet": "Microsoft's Digital Defense Report 2024 tracks the expansion of influence operations and synthetic content globally, noting that the barrier to entry for well-resourced disinformation campaigns continues to fall.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-iamai-kantar-2024",
+          "snippet": "The Internet in India Report 2024 documents near-ubiquitous access and a large, linguistically diverse user base, which increases the surface area for synthetic media to spread.",
+          "supports": "background",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Specific Indian incidents are still early and unevenly documented; prevalence varies by platform, language, and election cycle, and not every synthetic video is politically consequential.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "The same technology can be designed toward substance if quality, provenance, and user control become first-class goals.",
+      "confidence": "medium",
+      "status": "design",
+      "evidence": [
+        {
+          "sourceId": "source-eu-ai-act",
+          "snippet": "The EU AI Act and similar regulatory frameworks require transparency, provenance, and user safeguards for high-risk AI applications, showing that guardrails can be built into the design layer.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Substance-first design may reduce engagement metrics and platform revenue, creating strong commercial pressure against it unless norms or regulation change the incentive structure.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-stanford-hai-2025",
+      "title": "Stanford HAI: AI Index Report 2025",
+      "url": "https://aiindex.stanford.edu/report/",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-wef-deepfakes",
+      "title": "WEF: Global Risks Report 2024 - AI-generated misinformation",
+      "url": "https://www.weforum.org/publications/global-risks-report-2024/",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-microsoft-digital-defense",
+      "title": "Microsoft: Digital Defense Report 2024",
+      "url": "https://www.microsoft.com/en-us/security/business/security-insider/intelligence-reports",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-iamai-kantar-2024",
+      "title": "IAMAI-Kantar: Internet in India Report 2024",
+      "url": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-eu-ai-act",
+      "title": "European Union: Artificial Intelligence Act",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:what-ai-makes-cheap"
+    },
+    {
+      "type": "article",
+      "id": "article:bhashini-and-the-indic-language-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:the-attention-extraction"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as retrieval units and distinguish core, landscape, argument, and design claims.",
+    "Treat AI risks as contingent on design and incentives, not as technological inevitabilities.",
+    "Cite source IDs from the artifact when discussing synthetic media, deepfakes, or recommendation systems.",
+    "Always include the counterargument alongside each claim.",
+    "Route productivity-oriented AI questions to article:what-ai-makes-cheap and Indic-language AI questions to article:bhashini-and-the-indic-language-ai-moment.",
+    "Article includes a Mermaid flowchart after Claim C2 illustrating the AI extraction pipeline: user data → AI personalization → synthetic content → hyper-targeted feed → longer sessions."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:93c071961e55bc3e5e83b250a6ea93053078eca28a74476c4a0caf6b30afc008",
+        "outputHash": "sha256:93c071961e55bc3e5e83b250a6ea93053078eca28a74476c4a0caf6b30afc008"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "4a8f4a51566f82bb931985a3032e0fb32c4d87f3004971d2d2744db36a5d3da9"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "4a8f4a51566f82bb931985a3032e0fb32c4d87f3004971d2d2744db36a5d3da9"
+}

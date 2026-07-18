@@ -1,0 +1,11 @@
+{
+  "type": "line",
+  "csv": "tele-manas-calls.csv",
+  "filename": "tele-manas-calls.svg",
+  "title": "Tele-MANAS cumulative calls (India, millions)",
+  "x_key": "month",
+  "y_key": "calls_lakhs",
+  "y_label": "Cumulative calls (lakhs)",
+  "source": "PIB Tele-MANAS releases",
+  "caveat": "Cumulative figures based on press releases; not a month-by-month audit."
+}

@@ -2,11 +2,83 @@
   "schemaVersion": 1,
   "topic": "misinformation",
   "articleIds": [
+    "article:ai-could-make-extraction-cheaper-too",
+    "article:friction-chronological-feeds-user-chosen-algorithms",
     "article:trust-and-outrage-platforms-and-cohesion"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/misinformation/",
   "agentJsonPath": "/agents/topics/misinformation.json",
   "articles": [
+    {
+      "id": "article:ai-could-make-extraction-cheaper-too",
+      "slug": "ai-could-make-extraction-cheaper-too",
+      "title": "AI Could Make Extraction Cheaper Too",
+      "summary": "Surveys how AI can amplify attention extraction through synthetic media, hyper-personalization, and automated influence, and argues for guardrails before scale.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "synthetic-media",
+        "misinformation",
+        "platform-design"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "synthetic-media",
+        "misinformation",
+        "platform-design"
+      ],
+      "canonicalPath": "/articles/ai-could-make-extraction-cheaper-too/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/ai-could-make-extraction-cheaper-too/",
+      "agentJsonPath": "/agents/articles/ai-could-make-extraction-cheaper-too.json",
+      "agentMarkdownPath": "/agents/articles/ai-could-make-extraction-cheaper-too.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 218,
+      "contentHash": "4a8f4a51566f82bb931985a3032e0fb32c4d87f3004971d2d2744db36a5d3da9"
+    },
+    {
+      "id": "article:friction-chronological-feeds-user-chosen-algorithms",
+      "slug": "friction-chronological-feeds-user-chosen-algorithms",
+      "title": "Friction, Chronological Feeds, and User-Chosen Algorithms",
+      "summary": "Surveys evidence on design interventions that reduce extraction: chronological feeds, friction before sharing, and user control over ranking algorithms.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "social-media",
+        "misinformation",
+        "algorithms"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "design",
+        "social-media",
+        "misinformation",
+        "algorithms"
+      ],
+      "canonicalPath": "/articles/friction-chronological-feeds-user-chosen-algorithms/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
+      "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json",
+      "agentMarkdownPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 277,
+      "contentHash": "21521e52b917b8a7564cddfdbfaf85536a76943b744c02e3c161db15cd5cc3ef"
+    },
     {
       "id": "article:trust-and-outrage-platforms-and-cohesion",
       "slug": "trust-and-outrage-platforms-and-cohesion",
@@ -38,7 +110,7 @@
       "claimCount": 8,
       "sourceCount": 7,
       "tokenEstimate": 724,
-      "contentHash": "d4b1a6a3628cd9b1835bf350cceebf1917f37eca7760fb9e497cb23cd800f73a"
+      "contentHash": "58db791880b24a6ac451427a87506af3a68f3a83bb63ca881eb057ad23050116"
     }
   ]
 }

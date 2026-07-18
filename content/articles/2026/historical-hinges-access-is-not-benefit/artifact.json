@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 3,
+  "id": "article:historical-hinges-access-is-not-benefit",
+  "slug": "historical-hinges-access-is-not-benefit",
+  "title": "Historical Hinges: When Access to a Tool Did Not Guarantee Its Benefits",
+  "canonicalPath": "/articles/historical-hinges-access-is-not-benefit/",
+  "sourcePath": "content/articles/2026/historical-hinges-access-is-not-benefit/article.md",
+  "agentBriefPath": "content/articles/2026/historical-hinges-access-is-not-benefit/agent.md",
+  "thesis": "Major communication and productivity technologies have repeatedly created access first and benefits later; the lag is filled by literacy, institutions, and norms that help societies use the tool rather than be used by it.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "history",
+    "technology",
+    "institutions",
+    "artificial-intelligence"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 13,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "The printing press initially produced a flood of pamphlets and misinformation before stabilizing into modern publishing norms.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-eisenstein-printing-press",
+          "snippet": "Eisenstein argues that print technology helped fix and standardize texts, enabling cumulative knowledge, while the first wave of print also amplified pamphlets, libels, and sectarian attacks before editorial institutions matured.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The printing press also sustained scholarly and religious networks from the start; the balance between harmful and helpful output varied sharply by region and social context.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "The industrial revolution raised living standards over generations, but early disruptions included child labor, pollution, and urban squalor.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-thompson-making-of-the-english-working-class",
+          "snippet": "E.P. Thompson documents how industrialization disrupted craft traditions, working conditions, and community life before labor organization and reform gradually reshaped outcomes.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Economic historians debate the timing and distribution of industrial-revolution gains; some regions and groups benefited earlier than the standard narrative suggests.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "The personal computer and early internet had a 'productivity paradox' before organizational practices caught up.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-brynjolfsson-productivity-paradox",
+          "snippet": "Brynjolfsson's research on the productivity J-curve finds that ICT investments often show lagged productivity gains because firms must redesign processes, retrain workers, and change decision-making before benefits appear.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Measurement challenges may partly explain the paradox; some benefits were captured in quality improvements and consumer surplus that productivity statistics undercount.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Smartphones and AI are at a similar hinge: access is here, but the institutions for healthy use are still forming.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-iamai-kantar-2024",
+          "snippet": "The Internet in India Report 2024 documents near-ubiquitous digital access, while public evidence shows that usage is dominated by entertainment and social media rather than education or production.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-postman-technopoly",
+          "snippet": "Postman argues that cultures often cede judgment to new technologies before developing the critical frameworks needed to govern them.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Historical analogies are not predictions; smartphones and AI have features—global scale, algorithmic personalization, network effects—that differ from earlier technologies, so the same institutional lag may resolve differently or faster.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-eisenstein-printing-press",
+      "title": "Elizabeth Eisenstein: The Printing Press as an Agent of Change",
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_L._Eisenstein",
+      "type": "book",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-brynjolfsson-productivity-paradox",
+      "title": "Brynjolfsson: The Productivity J-Curve",
+      "url": "https://www.nber.org/papers/w25189",
+      "type": "paper",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-postman-technopoly",
+      "title": "Neil Postman: Technopoly",
+      "url": "https://en.wikipedia.org/wiki/Technopoly",
+      "type": "book",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-thompson-making-of-the-english-working-class",
+      "title": "E.P. Thompson: The Making of the English Working Class",
+      "url": "https://en.wikipedia.org/wiki/The_Making_of_the_English_Working_Class",
+      "type": "book",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-iamai-kantar-2024",
+      "title": "IAMAI-Kantar: Internet in India Report 2024",
+      "url": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:the-life-phase-thread"
+    },
+    {
+      "type": "article",
+      "id": "article:the-green-revolution-trade-off"
+    },
+    {
+      "type": "article",
+      "id": "article:the-generational-bet"
+    }
+  ],
+  "agentInstructions": [
+    "Treat this article as a historical-analogy chapter, not a causal proof; keep the access-before-benefits frame explicit when answering questions.",
+    "Route factual questions about Indian usage patterns to the Diagnosis articles and AI-specific questions to Part 3.",
+    "Use claim IDs claim-001 through claim-004 as retrieval units; do not collapse them into a single argument.",
+    "Preserve the evidence-cautious, plain-language tone; avoid technological determinism and do not sensationalize historical parallels.",
+    "When citing sources, use the source IDs and URLs from the artifact; do not invent or generalize beyond the public evidence.",
+    "Article includes a Mermaid timeline visualization ('From access to benefit: a long lag across technology hinges') after Claim C2; reference it when explaining the access-to-benefit lag."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:b7a454bb5a9a84fb0c8a3203d28a89a1707d71c4f58eefd9d1a3fd13c5dce8f1",
+        "outputHash": "sha256:b7a454bb5a9a84fb0c8a3203d28a89a1707d71c4f58eefd9d1a3fd13c5dce8f1"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "5e05ae1fc7c89cf568d073ca3c18568fe28d658608f7ae231604d8780ea934ac"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "5e05ae1fc7c89cf568d073ca3c18568fe28d658608f7ae231604d8780ea934ac"
+}

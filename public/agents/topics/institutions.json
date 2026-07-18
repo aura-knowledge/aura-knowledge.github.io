@@ -2,11 +2,47 @@
   "schemaVersion": 1,
   "topic": "institutions",
   "articleIds": [
+    "article:historical-hinges-access-is-not-benefit",
     "article:human-systems"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/institutions/",
   "agentJsonPath": "/agents/topics/institutions.json",
   "articles": [
+    {
+      "id": "article:historical-hinges-access-is-not-benefit",
+      "slug": "historical-hinges-access-is-not-benefit",
+      "title": "Historical Hinges: When Access to a Tool Did Not Guarantee Its Benefits",
+      "summary": "Uses historical technology transitions to show that access alone does not determine benefit; the distribution of gains depends on institutions, literacy, and norms.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "technology",
+        "institutions",
+        "artificial-intelligence"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "technology",
+        "institutions",
+        "artificial-intelligence"
+      ],
+      "canonicalPath": "/articles/historical-hinges-access-is-not-benefit/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/historical-hinges-access-is-not-benefit/",
+      "agentJsonPath": "/agents/articles/historical-hinges-access-is-not-benefit.json",
+      "agentMarkdownPath": "/agents/articles/historical-hinges-access-is-not-benefit.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 392,
+      "contentHash": "5e05ae1fc7c89cf568d073ca3c18568fe28d658608f7ae231604d8780ea934ac"
+    },
     {
       "id": "article:human-systems",
       "slug": "human-systems",

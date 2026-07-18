@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 3,
+  "id": "article:the-citizens-garden",
+  "slug": "the-citizens-garden",
+  "title": "The Citizen's Garden: Local Knowledge plus AI",
+  "canonicalPath": "/articles/the-citizens-garden/",
+  "sourcePath": "content/articles/2026/the-citizens-garden/article.md",
+  "agentBriefPath": "content/articles/2026/the-citizens-garden/agent.md",
+  "thesis": "Citizens can use AI to lower the cost of producing and sharing local knowledge—translated schemes, neighborhood maps, health explainers—and turn online attention into offline civic good.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "civic-tech",
+    "artificial-intelligence",
+    "local-knowledge",
+    "bhashini"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 34,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Government schemes, health information, and civic services are often inaccessible not because they do not exist, but because of language barriers, formal language, and fragmentation across offices, apps, and deadlines.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-iamai-kantar-2024",
+          "snippet": "The Internet in India Report 2024 documents near-ubiquitous digital access and that 98% of users accessed content in Indic languages, while most official and civic information remains in English or formal Hindi.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-ongo-civic-tech",
+          "snippet": "Civic tech guidance notes that public information often fails to reach citizens because of fragmented channels, complex language, and lack of last-mile intermediaries.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some government services have made significant progress in local-language delivery and simplified interfaces; the inaccessibility claim is a broad pattern, not a universal condition.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "AI translation, summarization, and voice generation can lower the cost of turning complex official information into local, spoken, shareable knowledge.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-bhashini",
+          "snippet": "Bhashini provides AI models for translation, automatic speech recognition, and text-to-speech across Indian languages, intended to make digital services accessible in local languages.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Machine translation can misinterpret legal and technical terms; a translated civic document may contain errors that mislead users about eligibility or procedure.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Local volunteers, community organizations, and trusted neighbors remain essential for trust, verification, and last-mile delivery.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-ongo-civic-tech",
+          "snippet": "Successful civic technology is sustained by relationships between citizens, civil society, and government, not by one-off apps or tools alone.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Reliance on local intermediaries can reproduce existing power imbalances and may exclude marginalized groups if the intermediary is not accountable to them.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Small civic acts—translated, documented, and shared—can compound into neighborhood-level infrastructure that outlasts the person who started them.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-ongo-civic-tech",
+          "snippet": "Civic tech ecosystems that document and share local knowledge can create reusable community assets and institutional memory.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Compounding depends on continued curation, trust, and discoverability; many citizen-led information projects stall when the initial volunteer loses interest or moves away.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-bhashini",
+      "title": "Bhashini: Digital India Bhashini",
+      "url": "https://bhashini.gov.in/",
+      "type": "government-website",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ongo-civic-tech",
+      "title": "Open Government Partnership: Civic Tech Guide",
+      "url": "https://www.opengovpartnership.org/topics/civic-tech/",
+      "type": "website",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-iamai-kantar-2024",
+      "title": "IAMAI-Kantar: Internet in India Report 2024",
+      "url": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ncaer-ihds-wave3",
+      "title": "NCAER: The Evolving Landscape of Digital Inclusion in India (IHDS Wave 3)",
+      "url": "https://ncaer.org/wp-content/uploads/2026/06/NCAER_Report_June_26.pdf",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:the-substance-builder"
+    },
+    {
+      "type": "article",
+      "id": "article:bhashini-and-the-indic-language-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:a-map-of-levers"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as retrieval units and keep each claim distinct from platform-design or diagnosis chapters.",
+    "Preserve the evidence-cautious tone; do not overstate what Bhashini or civic AI can achieve without human verification.",
+    "When citing sources, use the source IDs and URLs from the artifact; do not generalize beyond the public evidence.",
+    "Emphasize that AI-assisted civic knowledge requires trust networks and verification; technology alone does not create civic substance.",
+    "Route readers to the series guide and adjacent Building Substance chapters for broader context.",
+    "Includes a civic-act-scaling Mermaid flowchart in the 'Small Acts Compound' section illustrating the feedback loop from small act → AI documentation → community sharing → offline impact → repeat."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:1fae3bd775856bdf772dd8d7ee5dfb5d088f474f6ca77d244e134ef141ed38eb",
+        "outputHash": "sha256:1fae3bd775856bdf772dd8d7ee5dfb5d088f474f6ca77d244e134ef141ed38eb"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "48249a1f571fa817161271612ebe803b794eedd8dc4389c16393b972dde65d1c"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "48249a1f571fa817161271612ebe803b794eedd8dc4389c16393b972dde65d1c"
+}

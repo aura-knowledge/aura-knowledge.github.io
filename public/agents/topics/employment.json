@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "topic": "employment",
+  "articleIds": [
+    "article:the-demographic-dividend-is-not-automatic"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/employment/",
+  "agentJsonPath": "/agents/topics/employment.json",
+  "articles": [
+    {
+      "id": "article:the-demographic-dividend-is-not-automatic",
+      "slug": "the-demographic-dividend-is-not-automatic",
+      "title": "The Demographic Dividend Is Not Automatic: Youth, Talent, and Time",
+      "summary": "Connects India's youth demographics to employment and skill data, arguing that the demographic dividend depends on how young people invest their attention.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "youth",
+        "employment",
+        "skills",
+        "ai"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "youth",
+        "employment",
+        "skills",
+        "ai"
+      ],
+      "canonicalPath": "/articles/the-demographic-dividend-is-not-automatic/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-demographic-dividend-is-not-automatic/",
+      "agentJsonPath": "/agents/articles/the-demographic-dividend-is-not-automatic.json",
+      "agentMarkdownPath": "/agents/articles/the-demographic-dividend-is-not-automatic.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 185,
+      "contentHash": "3046c0bc6ee177dfef3a39376fb328d53b6a95240cb02a5b0fcf3a3f9b829a93"
+    }
+  ]
+}

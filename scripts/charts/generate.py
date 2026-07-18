@@ -154,9 +154,32 @@ def line_chart(csv_path: Path, title: str, x_key: str, y_key: str, y_label: str,
     save_svg(fig, filename, source, caveat, alt_text=alt_text)
 
 
+def multi_series_line_chart(csv_path: Path, title: str, x_key: str, y_label: str,
+                            source: str, caveat: str, filename: str,
+                            alt_text: Optional[str] = None) -> None:
+    rows = read_csv(csv_path)
+    x = [r[x_key] for r in rows]
+    # All other columns are series
+    series_keys = [k for k in rows[0].keys() if k != x_key]
+
+    fig, ax = plt.subplots(figsize=(9, 5))
+    for idx, series_key in enumerate(series_keys):
+        y = [float(r[series_key]) for r in rows]
+        color = COLORS["palette"][idx % len(COLORS["palette"])]
+        ax.plot(x, y, color=color, marker="o", linewidth=2.5, markersize=6, label=series_key)
+    ax.set_ylabel(y_label)
+    ax.set_title(title, fontsize=14, weight="bold", pad=16)
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+    plt.xticks(rotation=30, ha="right")
+    ax.legend(loc="upper left", frameon=False)
+    fig.text(0.5, -0.06, f"Source: {source} — {caveat}", ha="center", fontsize=9, style="italic")
+    save_svg(fig, filename, source, caveat, alt_text=alt_text)
+
+
 def horizontal_bar_chart(csv_path: Path, title: str, x_key: str, y_key: str, x_label: str,
                          source: str, caveat: str, filename: str,
-                         alt_text: Optional[str] = None) -> None:
+                         alt_text: Optional[str] = None, unit: str = "%") -> None:
     rows = read_csv(csv_path)
     labels = [r[x_key] for r in rows]
     values = [float(r[y_key]) for r in rows]
@@ -169,7 +192,7 @@ def horizontal_bar_chart(csv_path: Path, title: str, x_key: str, y_key: str, x_l
     ax.spines["right"].set_visible(False)
     for bar, val in zip(bars, values):
         ax.text(val + max(values) * 0.01, bar.get_y() + bar.get_height() / 2,
-                f"{val:.0f}%", va="center", fontsize=10)
+                f"{val:.0f}{unit}", va="center", fontsize=10)
     ax.set_xlim(0, max(values) * 1.2)
     fig.text(0.5, -0.04, f"Source: {source} — {caveat}", ha="center", fontsize=9, style="italic")
     save_svg(fig, filename, source, caveat, alt_text=alt_text)
@@ -240,6 +263,18 @@ def main() -> None:
             print(f"Skipping {chart['filename']}: missing data file {csv_path}")
             continue
         ctype = chart["type"]
+        if ctype == "multi_series_line":
+            multi_series_line_chart(
+                csv_path=csv_path,
+                title=chart["title"],
+                x_key=chart["x_key"],
+                y_label=chart["y_label"],
+                source=chart["source"],
+                caveat=chart["caveat"],
+                filename=chart["filename"],
+                alt_text=chart.get("alt_text", chart["title"]),
+            )
+            continue
         kwargs = {
             "csv_path": csv_path,
             "title": chart["title"],
@@ -257,7 +292,7 @@ def main() -> None:
         elif ctype == "line":
             line_chart(**kwargs, y_label=chart["y_label"])
         elif ctype == "horizontal_bar":
-            horizontal_bar_chart(**kwargs, x_label=chart["x_label"])
+            horizontal_bar_chart(**kwargs, x_label=chart["x_label"], unit=chart.get("unit", "%"))
         else:
             print(f"Unknown chart type: {ctype}")
 

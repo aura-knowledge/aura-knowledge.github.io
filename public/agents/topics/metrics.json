@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "topic": "metrics",
+  "articleIds": [
+    "article:alternative-metrics-time-well-spent"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/metrics/",
+  "agentJsonPath": "/agents/topics/metrics.json",
+  "articles": [
+    {
+      "id": "article:alternative-metrics-time-well-spent",
+      "slug": "alternative-metrics-time-well-spent",
+      "title": "Alternative Metrics: Time Well Spent, Sustainability, Learning, Civic Value",
+      "summary": "Surveys proposed alternatives to engagement-based metrics and their tradeoffs: time well spent, learning outcomes, civic value, and sustainability.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "metrics",
+        "design",
+        "platform-governance",
+        "civic-tech"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "metrics",
+        "design",
+        "platform-governance",
+        "civic-tech"
+      ],
+      "canonicalPath": "/articles/alternative-metrics-time-well-spent/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/alternative-metrics-time-well-spent/",
+      "agentJsonPath": "/agents/articles/alternative-metrics-time-well-spent.json",
+      "agentMarkdownPath": "/agents/articles/alternative-metrics-time-well-spent.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 5,
+      "tokenEstimate": 270,
+      "contentHash": "c49c8db8fad9468f2f5de96d655457175a9767d0cceb457918fc831a32e0856c"
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 3,
+  "id": "article:age-appropriate-design",
+  "slug": "age-appropriate-design",
+  "title": "Age-Appropriate Design and Protecting Vulnerable Users",
+  "canonicalPath": "/articles/age-appropriate-design/",
+  "sourcePath": "content/articles/2026/age-appropriate-design/article.md",
+  "agentBriefPath": "content/articles/2026/age-appropriate-design/agent.md",
+  "thesis": "Vulnerable users—children, elderly people, and low-literacy users—deserve stronger default protections, age-appropriate design, and limits on data-driven persuasion because their attention and data are not fair targets for extraction.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "design",
+    "children",
+    "elderly",
+    "literacy",
+    "regulation"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 44,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Vulnerable users—children, elderly people, and low-literacy users—deserve stronger default protections, age-appropriate design, and limits on data-driven persuasion because their attention and data are not fair targets for extraction.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-uk-age-design-code",
+          "snippet": "The Age Appropriate Design Code sets out fifteen standards for online services likely to be accessed by children, including high privacy defaults, data minimization, and prohibition of nudging techniques that encourage children to provide unnecessary personal data.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-unicef-child-online",
+          "snippet": "UNICEF guidance on child online safety emphasizes that children require special protections from harmful content, contact, and conduct, as well as from exploitative data practices.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Age-verification and stricter defaults can reduce access to beneficial services and raise privacy risks if they require identity checks.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Children's developing brains are more susceptible to variable rewards and social comparison, which makes engagement-optimized design a disproportionate risk for them.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-apa-adolescent-social-media",
+          "snippet": "The APA health advisory recommends that adolescents use social media after they have received training in social-media literacy and that platforms minimize features designed to maximize time spent, especially for younger users.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-unicef-child-online",
+          "snippet": "Children's cognitive and emotional development affects their ability to assess risk, resist persuasion, and recover from negative online experiences.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Not all children respond identically to screen-based rewards; family context, mental health, and offline activities moderate effects more than screen time alone.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Elderly users face higher risks from scams, misinformation, and platform complexity, so safety defaults and simplified paths matter as much as screen-time limits.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-lasi-elderly",
+          "snippet": "LASI documents a rapidly growing older Indian population with increasing smartphone access but variable digital literacy, making older adults vulnerable to online fraud and misinformation.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-ofcom-online-nation-2024",
+          "snippet": "UK regulator data show that older adults are overrepresented among victims of certain online scams and are more likely to report difficulty distinguishing trustworthy content from misleading material.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Many older adults are experienced, skeptical users; age alone is a weaker predictor of victimization than isolation, financial stress, and prior fraud exposure.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Low-literacy users may not recognize dark patterns or understand data practices, which makes plain-language defaults and friction against harmful choices essential.",
+      "confidence": "medium",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-uk-age-design-code",
+          "snippet": "The Children's Code requires clear, age-appropriate language and prohibits nudging toward weaker privacy settings, principles that also protect adults with low literacy or limited digital experience.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-ofcom-online-nation-2024",
+          "snippet": "Research on digital literacy finds that users with lower reading confidence are less likely to read terms, adjust defaults, or identify manipulative interface patterns.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Visual and audio interfaces, peer assistance, and community norms can compensate for low individual literacy; design is one factor among several.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "Age-appropriate design standards, such as the UK's Age Appropriate Design Code, offer a regulatory template for stronger defaults and limits on data-driven persuasion.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-uk-age-design-code",
+          "snippet": "The UK Age Appropriate Design Code provides an enforceable, principles-based framework that has influenced platform design and legislation in other jurisdictions.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The Code is UK-specific and primarily addresses children; extending similar protections to elderly or low-literacy users requires adaptation and may face enforcement challenges in India.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-uk-age-design-code",
+      "title": "UK ICO: Age Appropriate Design Code",
+      "url": "https://ico.org.uk/for-organisations/childrens-code/",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-lasi-elderly",
+      "title": "LASI: Longitudinal Aging Study in India",
+      "url": "https://iiasd.org/lasi/",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-unicef-child-online",
+      "title": "UNICEF: Child Online Safety",
+      "url": "https://www.unicef.org/end-violence/child-online-safety",
+      "type": "website",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-apa-adolescent-social-media",
+      "title": "American Psychological Association: Health Advisory on Social Media Use in Adolescence",
+      "url": "https://www.apa.org/topics/social-media-internet/health-advisory-adolescent-social-media-use",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ofcom-online-nation-2024",
+      "title": "Ofcom: Online Nation 2024",
+      "url": "https://www.ofcom.org.uk/online-safety/online-nation/",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "article",
+      "id": "article:engagement-is-a-design-choice"
+    },
+    {
+      "type": "article",
+      "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit and keep each claim scoped to vulnerable-user protection.",
+    "Preserve the plain-language, evidence-cautious tone; do not imply causation where the literature is correlational.",
+    "When citing sources, use the source IDs and URLs from the artifact; do not invent evidence.",
+    "Route specific regulatory or design questions to the Designing for Substance arc articles.",
+    "Treat age-appropriate design as a default-protection argument, not a call to ban services for any user group.",
+    "Article includes an age-design-matrix table mapping user groups to primary risks and default protections."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:6943ee4b18f6707751f48e33fc4a7f477e1b20597817bfce8ed84784ccef33f9",
+        "outputHash": "sha256:6943ee4b18f6707751f48e33fc4a7f477e1b20597817bfce8ed84784ccef33f9"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "a546bd6f8a1c89e8d2fc8642d920c6b5326377cabfdec6332b849e1dd5c7abe4"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "a546bd6f8a1c89e8d2fc8642d920c6b5326377cabfdec6332b849e1dd5c7abe4"
+}

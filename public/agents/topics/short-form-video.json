@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "topic": "short-form-video",
+  "articleIds": [
+    "article:the-jio-effect-cheap-data-access-behavior",
+    "article:the-reel-nation-short-form-video"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/short-form-video/",
+  "agentJsonPath": "/agents/topics/short-form-video.json",
+  "articles": [
+    {
+      "id": "article:the-jio-effect-cheap-data-access-behavior",
+      "slug": "the-jio-effect-cheap-data-access-behavior",
+      "title": "The Jio Effect: Cheap Data and the Access-Behavior Paradox",
+      "summary": "Traces how Jio's 2016 launch collapsed data prices, expanded access, and reshaped Indian internet behavior toward entertainment and short-form video.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "infrastructure",
+        "short-form-video"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "history",
+        "infrastructure",
+        "short-form-video"
+      ],
+      "canonicalPath": "/articles/the-jio-effect-cheap-data-access-behavior/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-jio-effect-cheap-data-access-behavior/",
+      "agentJsonPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.json",
+      "agentMarkdownPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 4,
+      "tokenEstimate": 372,
+      "contentHash": "a7e6c9e3bb5844fe3469c9ce849cbb547700d9f59e374a603c2292503261f273"
+    },
+    {
+      "id": "article:the-reel-nation-short-form-video",
+      "slug": "the-reel-nation-short-form-video",
+      "title": "The Reel Nation: Short-Form Video and the Economics of a Swipe",
+      "summary": "Examines the design mechanics and usage scale of short-form video in India, separating documented harms from hype and tracing the opportunity cost.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "short-form-video",
+        "mental-health",
+        "youth",
+        "design"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "short-form-video",
+        "mental-health",
+        "youth",
+        "design"
+      ],
+      "canonicalPath": "/articles/the-reel-nation-short-form-video/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-reel-nation-short-form-video/",
+      "agentJsonPath": "/agents/articles/the-reel-nation-short-form-video.json",
+      "agentMarkdownPath": "/agents/articles/the-reel-nation-short-form-video.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 4,
+      "sourceCount": 6,
+      "tokenEstimate": 265,
+      "contentHash": "e79e3653a0aa31910577f9cd85eb541b2733d9911e37fb961f2b359c0bf3d26d"
+    }
+  ]
+}

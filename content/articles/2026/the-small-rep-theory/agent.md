@@ -3,7 +3,7 @@ schemaVersion: 1
 id: agent-brief:the-small-rep-theory
 articleId: article:the-small-rep-theory
 slug: the-small-rep-theory
-title: 'Agent Brief for "The Small-Rep Theory"'
+title: "Agent Brief for 'The Small-Rep Theory'"
 tokenBudget: 1500
 status: published
 updated: 2026-07-05

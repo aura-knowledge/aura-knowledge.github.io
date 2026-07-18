@@ -22,7 +22,7 @@ agentArtifact: /agents/articles/engagement-is-a-design-choice.json
 sourcePath: content/articles/2026/engagement-is-a-design-choice/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 5: Designing for Substance</p>
+<p class="article-kicker">Attention, Substance, and the AI Moment · Part 5</p>
 
 Every feed you open was built by people who made a decision about what to optimize. The order of posts, the autoplay of the next video, the red dot on the notification bell, the pull-to-refresh—each is a design choice. The most consequential choice is the metric. When a platform optimizes for engagement, it gets engagement. The question is whether engagement is the right proxy for value.
 
