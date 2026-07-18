@@ -2,7 +2,8 @@
   "schemaVersion": 1,
   "topic": "media",
   "articleIds": [
-    "article:business-models-that-reward-substance"
+    "article:business-models-that-reward-substance",
+    "article:from-penny-press-to-infinite-scroll"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/media/",
   "agentJsonPath": "/agents/topics/media.json",
@@ -39,6 +40,39 @@
       "sourceCount": 5,
       "tokenEstimate": 234,
       "contentHash": "1f26ad853add00b6e05b7af85889c558fb8c18f1e43d28bf32d4b47c8fc5f970"
+    },
+    {
+      "id": "article:from-penny-press-to-infinite-scroll",
+      "slug": "from-penny-press-to-infinite-scroll",
+      "title": "From Penny Press to Infinite Scroll: A Brief History of Attention Markets",
+      "summary": "Uses the history of the penny press, radio, television, and early internet to show that attention markets follow a recurring pattern, and that the current feed economy is the latest version of an old bargain.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "history",
+        "media",
+        "platforms",
+        "digital-wellbeing"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "history",
+        "media",
+        "platforms",
+        "digital-wellbeing"
+      ],
+      "canonicalPath": "/articles/from-penny-press-to-infinite-scroll/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
+      "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
+      "agentMarkdownPath": "/agents/articles/from-penny-press-to-infinite-scroll.md",
+      "updatedAt": "2026-07-06",
+      "claimCount": 7,
+      "sourceCount": 6,
+      "tokenEstimate": 114,
+      "contentHash": "6976a5dfa301eefca54a6613a7ac161950bbff440aabe4bfcc3b9f4a372405f4"
     }
   ]
 }

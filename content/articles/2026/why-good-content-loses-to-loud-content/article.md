@@ -6,7 +6,7 @@ title: "Why Good Content Loses to Loud Content"
 dek: "The problem is not that quality work is invisible. It is that the platforms most people watch reward signals that have little to do with quality."
 date: 2026-07-06
 updated: 2026-07-06
-status: draft
+status: published
 maturity: seed
 topic: attention-economy
 tags:

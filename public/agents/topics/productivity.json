@@ -3,6 +3,7 @@
   "topic": "productivity",
   "articleIds": [
     "article:attention-substance-ai-moment-tldr",
+    "article:compound-habits-career-stages",
     "article:historical-analogies-of-missed-transitions",
     "article:the-compounding-bet",
     "article:the-engagement-gap-productivity-india",
@@ -43,6 +44,39 @@
       "sourceCount": 20,
       "tokenEstimate": 504,
       "contentHash": "638f59058b3f8eab4574cbad934bed651dd925f62ef76a7f5e647b525fb50193"
+    },
+    {
+      "id": "article:compound-habits-career-stages",
+      "slug": "compound-habits-career-stages",
+      "title": "Compound Habits Across Career Stages",
+      "summary": "Shows how fragmented attention and shallow work early in a career create compounding costs, while small habits of depth build skill and optionality that shape later career stages and family life.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "productivity",
+        "life-phases",
+        "artificial-intelligence"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "productivity",
+        "life-phases",
+        "artificial-intelligence"
+      ],
+      "canonicalPath": "/articles/compound-habits-career-stages/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
+      "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
+      "agentMarkdownPath": "/agents/articles/compound-habits-career-stages.md",
+      "updatedAt": "2026-07-06",
+      "claimCount": 7,
+      "sourceCount": 5,
+      "tokenEstimate": 114,
+      "contentHash": "9d48635b5b5127574f77ba1c89aa1f5f200188793373e23a601ddf4e3a9bfe5a"
     },
     {
       "id": "article:historical-analogies-of-missed-transitions",

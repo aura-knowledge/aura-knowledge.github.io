@@ -3,10 +3,10 @@
   "schema": "https://aura-knowledge.github.io/schemas/garden-queries.schema.json",
   "site": "https://aura-knowledge.github.io",
   "base": "",
-  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "generatedAt": "2026-07-06T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 1313
+    "totalResults": 1371
   },
   "dimensions": [
     {
@@ -118,6 +118,7 @@
         "platform-design",
         "platform-economics",
         "platform-governance",
+        "platforms",
         "polarization",
         "policy",
         "privacy",
@@ -292,6 +293,7 @@
         "platform-design",
         "platform-economics",
         "platform-governance",
+        "platforms",
         "polarization",
         "policy",
         "pretraining",
@@ -391,6 +393,7 @@
         "comparison",
         "conference-paper",
         "conference-proceeding",
+        "crowdsourced-survey",
         "data-reference",
         "data-report",
         "dataset",
@@ -408,6 +411,7 @@
         "government-press-release",
         "government-regulation",
         "government-report",
+        "government-survey",
         "government-website",
         "guidance",
         "guide",
@@ -452,6 +456,7 @@
         "proposal",
         "protocol",
         "public-report",
+        "reference",
         "regulation",
         "regulatory",
         "regulatory-data",
@@ -468,6 +473,7 @@
         "safety-guide",
         "schema",
         "specification",
+        "speech",
         "standard",
         "standards-framework",
         "survey",
@@ -512,7 +518,7 @@
         "groupBy": "topic"
       },
       "resultType": "articles",
-      "resultCount": 437,
+      "resultCount": 461,
       "results": [
         {
           "articleId": "article:public-pressure-and-internal-accountability",
@@ -1075,6 +1081,13 @@
           "topic": "artificial-intelligence"
         },
         {
+          "articleId": "article:compound-habits-career-stages",
+          "slug": "compound-habits-career-stages",
+          "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
+          "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
+          "topic": "artificial-intelligence"
+        },
+        {
           "articleId": "article:historical-analogies-of-missed-transitions",
           "slug": "historical-analogies-of-missed-transitions",
           "articleUrl": "https://aura-knowledge.github.io/articles/historical-analogies-of-missed-transitions/",
@@ -1093,6 +1106,13 @@
           "slug": "open-questions-the-series-leaves-unresolved",
           "articleUrl": "https://aura-knowledge.github.io/articles/open-questions-the-series-leaves-unresolved/",
           "agentJsonPath": "/agents/articles/open-questions-the-series-leaves-unresolved.json",
+          "topic": "artificial-intelligence"
+        },
+        {
+          "articleId": "article:the-attention-matthew-effect",
+          "slug": "the-attention-matthew-effect",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
+          "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
           "topic": "artificial-intelligence"
         },
         {
@@ -1149,6 +1169,13 @@
           "slug": "what-india-is-building-vs-could-build",
           "articleUrl": "https://aura-knowledge.github.io/articles/what-india-is-building-vs-could-build/",
           "agentJsonPath": "/agents/articles/what-india-is-building-vs-could-build.json",
+          "topic": "artificial-intelligence"
+        },
+        {
+          "articleId": "article:why-good-content-loses-to-loud-content",
+          "slug": "why-good-content-loses-to-loud-content",
+          "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+          "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
           "topic": "artificial-intelligence"
         },
         {
@@ -1229,6 +1256,13 @@
           "topic": "attention-economy"
         },
         {
+          "articleId": "article:compound-habits-career-stages",
+          "slug": "compound-habits-career-stages",
+          "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
+          "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
+          "topic": "attention-economy"
+        },
+        {
           "articleId": "article:designing-for-substance",
           "slug": "designing-for-substance",
           "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
@@ -1254,6 +1288,13 @@
           "slug": "friction-chronological-feeds-user-chosen-algorithms",
           "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
           "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:from-penny-press-to-infinite-scroll",
+          "slug": "from-penny-press-to-infinite-scroll",
+          "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
+          "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
           "topic": "attention-economy"
         },
         {
@@ -1331,6 +1372,13 @@
           "slug": "the-attention-extraction",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
           "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "topic": "attention-economy"
+        },
+        {
+          "articleId": "article:the-attention-matthew-effect",
+          "slug": "the-attention-matthew-effect",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
+          "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
           "topic": "attention-economy"
         },
         {
@@ -1502,6 +1550,13 @@
           "topic": "attention-economy"
         },
         {
+          "articleId": "article:why-good-content-loses-to-loud-content",
+          "slug": "why-good-content-loses-to-loud-content",
+          "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+          "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
+          "topic": "attention-economy"
+        },
+        {
           "articleId": "article:audio-first-voice-consumption",
           "slug": "audio-first-voice-consumption",
           "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
@@ -1614,6 +1669,13 @@
           "topic": "creator-economy"
         },
         {
+          "articleId": "article:the-attention-matthew-effect",
+          "slug": "the-attention-matthew-effect",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
+          "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
+          "topic": "creator-economy"
+        },
+        {
           "articleId": "article:the-creator-economys-incentive-trap",
           "slug": "the-creator-economys-incentive-trap",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
@@ -1625,6 +1687,13 @@
           "slug": "who-profits-advertising-foreign-platforms",
           "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
           "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
+          "topic": "creator-economy"
+        },
+        {
+          "articleId": "article:why-good-content-loses-to-loud-content",
+          "slug": "why-good-content-loses-to-loud-content",
+          "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+          "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
           "topic": "creator-economy"
         },
         {
@@ -1887,6 +1956,13 @@
           "topic": "digital-wellbeing"
         },
         {
+          "articleId": "article:compound-habits-career-stages",
+          "slug": "compound-habits-career-stages",
+          "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
+          "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
+          "topic": "digital-wellbeing"
+        },
+        {
           "articleId": "article:designing-for-substance",
           "slug": "designing-for-substance",
           "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
@@ -1912,6 +1988,13 @@
           "slug": "friction-chronological-feeds-user-chosen-algorithms",
           "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
           "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json",
+          "topic": "digital-wellbeing"
+        },
+        {
+          "articleId": "article:from-penny-press-to-infinite-scroll",
+          "slug": "from-penny-press-to-infinite-scroll",
+          "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
+          "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
           "topic": "digital-wellbeing"
         },
         {
@@ -1982,6 +2065,13 @@
           "slug": "the-attention-extraction",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
           "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "topic": "digital-wellbeing"
+        },
+        {
+          "articleId": "article:the-attention-matthew-effect",
+          "slug": "the-attention-matthew-effect",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
+          "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
           "topic": "digital-wellbeing"
         },
         {
@@ -2115,6 +2205,13 @@
           "slug": "what-india-is-building-vs-could-build",
           "articleUrl": "https://aura-knowledge.github.io/articles/what-india-is-building-vs-could-build/",
           "agentJsonPath": "/agents/articles/what-india-is-building-vs-could-build.json",
+          "topic": "digital-wellbeing"
+        },
+        {
+          "articleId": "article:why-good-content-loses-to-loud-content",
+          "slug": "why-good-content-loses-to-loud-content",
+          "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+          "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
           "topic": "digital-wellbeing"
         },
         {
@@ -2284,6 +2381,13 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
           "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
           "topic": "habits"
+        },
+        {
+          "articleId": "article:from-penny-press-to-infinite-scroll",
+          "slug": "from-penny-press-to-infinite-scroll",
+          "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
+          "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
+          "topic": "history"
         },
         {
           "articleId": "article:historical-analogies-of-missed-transitions",
@@ -2482,6 +2586,13 @@
           "topic": "india"
         },
         {
+          "articleId": "article:compound-habits-career-stages",
+          "slug": "compound-habits-career-stages",
+          "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
+          "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
+          "topic": "india"
+        },
+        {
           "articleId": "article:engagement-is-a-design-choice",
           "slug": "engagement-is-a-design-choice",
           "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
@@ -2500,6 +2611,13 @@
           "slug": "friction-chronological-feeds-user-chosen-algorithms",
           "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
           "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:from-penny-press-to-infinite-scroll",
+          "slug": "from-penny-press-to-infinite-scroll",
+          "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
+          "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
           "topic": "india"
         },
         {
@@ -2577,6 +2695,13 @@
           "slug": "the-attention-extraction",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
           "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "topic": "india"
+        },
+        {
+          "articleId": "article:the-attention-matthew-effect",
+          "slug": "the-attention-matthew-effect",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
+          "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
           "topic": "india"
         },
         {
@@ -2748,6 +2873,13 @@
           "topic": "india"
         },
         {
+          "articleId": "article:why-good-content-loses-to-loud-content",
+          "slug": "why-good-content-loses-to-loud-content",
+          "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+          "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
+          "topic": "india"
+        },
+        {
           "articleId": "article:the-creator-economys-incentive-trap",
           "slug": "the-creator-economys-incentive-trap",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
@@ -2853,6 +2985,13 @@
           "topic": "learning"
         },
         {
+          "articleId": "article:compound-habits-career-stages",
+          "slug": "compound-habits-career-stages",
+          "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
+          "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
+          "topic": "life-phases"
+        },
+        {
           "articleId": "article:the-life-phase-thread",
           "slug": "the-life-phase-thread",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
@@ -2955,6 +3094,13 @@
           "slug": "business-models-that-reward-substance",
           "articleUrl": "https://aura-knowledge.github.io/articles/business-models-that-reward-substance/",
           "agentJsonPath": "/agents/articles/business-models-that-reward-substance.json",
+          "topic": "media"
+        },
+        {
+          "articleId": "article:from-penny-press-to-infinite-scroll",
+          "slug": "from-penny-press-to-infinite-scroll",
+          "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
+          "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
           "topic": "media"
         },
         {
@@ -3168,6 +3314,27 @@
           "topic": "platform-governance"
         },
         {
+          "articleId": "article:from-penny-press-to-infinite-scroll",
+          "slug": "from-penny-press-to-infinite-scroll",
+          "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
+          "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
+          "topic": "platforms"
+        },
+        {
+          "articleId": "article:the-attention-matthew-effect",
+          "slug": "the-attention-matthew-effect",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
+          "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
+          "topic": "platforms"
+        },
+        {
+          "articleId": "article:why-good-content-loses-to-loud-content",
+          "slug": "why-good-content-loses-to-loud-content",
+          "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+          "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
+          "topic": "platforms"
+        },
+        {
           "articleId": "article:trust-and-outrage-platforms-and-cohesion",
           "slug": "trust-and-outrage-platforms-and-cohesion",
           "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
@@ -3207,6 +3374,13 @@
           "slug": "attention-substance-ai-moment-tldr",
           "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
           "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
+          "topic": "productivity"
+        },
+        {
+          "articleId": "article:compound-habits-career-stages",
+          "slug": "compound-habits-career-stages",
+          "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
+          "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
           "topic": "productivity"
         },
         {
@@ -3605,7 +3779,7 @@
         "confidence": "high"
       },
       "resultType": "claims",
-      "resultCount": 153,
+      "resultCount": 159,
       "results": [
         {
           "articleId": "article:a-map-of-levers",
@@ -3928,6 +4102,16 @@
           "status": "landscape"
         },
         {
+          "articleId": "article:compound-habits-career-stages",
+          "slug": "compound-habits-career-stages",
+          "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
+          "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
+          "claimId": "claim-002",
+          "claim": "Complex professional skills require sustained, focused practice; the default digital work environment makes this harder by design.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
           "articleId": "article:context-management",
           "slug": "context-management",
           "articleUrl": "https://aura-knowledge.github.io/articles/context-management/",
@@ -4206,6 +4390,26 @@
           "claim": "Chronological feeds reduce the power of engagement-optimized recommendations by removing the ranking signal that rewards time on site and emotional reactions.",
           "confidence": "high",
           "status": "design"
+        },
+        {
+          "articleId": "article:from-penny-press-to-infinite-scroll",
+          "slug": "from-penny-press-to-infinite-scroll",
+          "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
+          "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
+          "claimId": "claim-004",
+          "claim": "The internet removed production gatekeepers but created new distribution gatekeepers whose advertising-based incentives shaped what content received attention.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:from-penny-press-to-infinite-scroll",
+          "slug": "from-penny-press-to-infinite-scroll",
+          "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
+          "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
+          "claimId": "claim-005",
+          "claim": "The mobile feed turned attention into a continuous, personalized auction, and India's rapid digital access made the scale of that auction enormous.",
+          "confidence": "high",
+          "status": "core"
         },
         {
           "articleId": "article:gender-and-the-attention-economy",
@@ -4614,6 +4818,16 @@
           "agentJsonPath": "/agents/articles/the-attention-extraction.json",
           "claimId": "claim-003",
           "claim": "Short-form feeds use variable rewards, infinite scroll, autoplay, and personalized recommendations to extend engagement beyond user intent.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:the-attention-matthew-effect",
+          "slug": "the-attention-matthew-effect",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
+          "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
+          "claimId": "claim-003",
+          "claim": "Income concentration in the creator economy is extreme, with the top 10% of creators capturing the majority of payments, mirroring the concentration of reach.",
           "confidence": "high",
           "status": "core"
         },
@@ -5136,6 +5350,26 @@
           "claim": "India has an estimated 2–2.5 million active digital creators, but only 8–10% monetize effectively, and most earn less than a living wage from content creation.",
           "confidence": "high",
           "status": "core"
+        },
+        {
+          "articleId": "article:why-good-content-loses-to-loud-content",
+          "slug": "why-good-content-loses-to-loud-content",
+          "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+          "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
+          "claimId": "claim-001",
+          "claim": "Recommendation systems optimize for predicted engagement — watch time, clicks, shares, replays — rather than for accuracy, depth, or originality.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:why-good-content-loses-to-loud-content",
+          "slug": "why-good-content-loses-to-loud-content",
+          "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+          "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
+          "claimId": "claim-002",
+          "claim": "Emotional, surprising, or controversial content spreads faster than neutral, high-quality content because it generates stronger engagement signals.",
+          "confidence": "high",
+          "status": "core"
         }
       ]
     },
@@ -5146,7 +5380,7 @@
         "groupBy": "sourceType"
       },
       "resultType": "sources",
-      "resultCount": 643,
+      "resultCount": 667,
       "results": [
         {
           "articleId": "article:the-engagement-gap-productivity-india",
@@ -5459,6 +5693,26 @@
           "sourceUrl": "https://about.instagram.com/blog/announcements/instagram-well-being-research"
         },
         {
+          "articleId": "article:from-penny-press-to-infinite-scroll",
+          "slug": "from-penny-press-to-infinite-scroll",
+          "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
+          "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
+          "sourceId": "source-historical-hinges",
+          "sourceTitle": "Aura Knowledge: Historical Hinges - When Access to a Tool Did Not Guarantee Its Benefits",
+          "sourceType": "article",
+          "sourceUrl": "https://aura-knowledge.github.io/articles/historical-hinges-access-is-not-benefit/"
+        },
+        {
+          "articleId": "article:from-penny-press-to-infinite-scroll",
+          "slug": "from-penny-press-to-infinite-scroll",
+          "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
+          "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
+          "sourceId": "source-historical-analogies-missed",
+          "sourceTitle": "Aura Knowledge: Historical Analogies of Missed Transitions",
+          "sourceType": "article",
+          "sourceUrl": "https://aura-knowledge.github.io/articles/historical-analogies-of-missed-transitions/"
+        },
+        {
           "articleId": "article:memory-vs-context",
           "slug": "memory-vs-context",
           "articleUrl": "https://aura-knowledge.github.io/articles/memory-vs-context/",
@@ -5557,6 +5811,16 @@
           "sourceTitle": "The Quest for Artificial Intelligence: A History of Ideas and Achievements",
           "sourceType": "book",
           "sourceUrl": "https://ai.stanford.edu/~nilsson/QAI/qai.pdf"
+        },
+        {
+          "articleId": "article:compound-habits-career-stages",
+          "slug": "compound-habits-career-stages",
+          "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
+          "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
+          "sourceId": "source-cal-newport-deep-work",
+          "sourceTitle": "Cal Newport: Deep Work",
+          "sourceType": "book",
+          "sourceUrl": "https://www.calnewport.com/books/deep-work/"
         },
         {
           "articleId": "article:failure-teaching-and-the-skill-stack",
@@ -5709,6 +5973,16 @@
           "sourceUrl": "https://en.wikipedia.org/wiki/Sherry_Turkle"
         },
         {
+          "articleId": "article:the-attention-matthew-effect",
+          "slug": "the-attention-matthew-effect",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
+          "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
+          "sourceId": "source-cal-newport-deep-work",
+          "sourceTitle": "Cal Newport: Deep Work",
+          "sourceType": "book",
+          "sourceUrl": "https://www.calnewport.com/books/deep-work/"
+        },
+        {
           "articleId": "article:the-design-of-extraction",
           "slug": "the-design-of-extraction",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-design-of-extraction/",
@@ -5809,6 +6083,16 @@
           "sourceUrl": "https://www.hachettebookgroup.com/titles/james-j-gibson/the-ecological-approach-to-visual-perception/9780205238818/"
         },
         {
+          "articleId": "article:why-good-content-loses-to-loud-content",
+          "slug": "why-good-content-loses-to-loud-content",
+          "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+          "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
+          "sourceId": "source-cal-newport-deep-work",
+          "sourceTitle": "Cal Newport: Deep Work",
+          "sourceType": "book",
+          "sourceUrl": "https://www.calnewport.com/books/deep-work/"
+        },
+        {
           "articleId": "article:attention-substance-ai-moment-tldr",
           "slug": "attention-substance-ai-moment-tldr",
           "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
@@ -5907,6 +6191,16 @@
           "sourceTitle": "Li et al., Does Algorithmic Filtering Create a Filter Bubble? Evidence from Sina Weibo (2019)",
           "sourceType": "conference-proceeding",
           "sourceUrl": "https://doi.org/10.5465/AMBPP.2019.14168abstract"
+        },
+        {
+          "articleId": "article:compound-habits-career-stages",
+          "slug": "compound-habits-career-stages",
+          "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
+          "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
+          "sourceId": "source-localcircles-parents-2025",
+          "sourceTitle": "LocalCircles Survey of Urban Indian Parents on Children and Screen Time 2025",
+          "sourceType": "crowdsourced-survey",
+          "sourceUrl": "https://www.localcircles.com/"
         },
         {
           "articleId": "article:ai-winters-expert-systems",
@@ -7119,6 +7413,16 @@
           "sourceUrl": "https://www.meity.gov.in/static/uploads/2025/01/5ff397f9e8152d5562ed4cef1a6b767b.pdf"
         },
         {
+          "articleId": "article:compound-habits-career-stages",
+          "slug": "compound-habits-career-stages",
+          "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
+          "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
+          "sourceId": "source-nsso-time-use-2024",
+          "sourceTitle": "NSSO Time Use Survey 2024",
+          "sourceType": "government-survey",
+          "sourceUrl": "https://www.mospi.gov.in/web/mospi/home"
+        },
+        {
           "articleId": "article:bhashini-and-the-indic-language-ai-moment",
           "slug": "bhashini-and-the-indic-language-ai-moment",
           "articleUrl": "https://aura-knowledge.github.io/articles/bhashini-and-the-indic-language-ai-moment/",
@@ -7399,6 +7703,26 @@
           "sourceUrl": "https://www.gallup.com/workplace/705650/state-global-workplace-india-country-level-data.aspx"
         },
         {
+          "articleId": "article:compound-habits-career-stages",
+          "slug": "compound-habits-career-stages",
+          "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
+          "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
+          "sourceId": "source-gallup-global-workplace-2025",
+          "sourceTitle": "Gallup: State of the Global Workplace 2025",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.gallup.com/workplace/391922/state-of-the-global-workplace.aspx"
+        },
+        {
+          "articleId": "article:compound-habits-career-stages",
+          "slug": "compound-habits-career-stages",
+          "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
+          "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
+          "sourceId": "source-vivo-switch-off-2022",
+          "sourceTitle": "vivo Switch Off Study 2022",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.vivo.com/in/about-vivo/newsroom/2022/switch-off-study"
+        },
+        {
           "articleId": "article:engagement-is-a-design-choice",
           "slug": "engagement-is-a-design-choice",
           "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
@@ -7417,6 +7741,16 @@
           "sourceTitle": "IBEF / industry reports: Tech giants' advertising revenue from India",
           "sourceType": "industry-report",
           "sourceUrl": "https://www.ibef.org/news/tech-giants-generate-over-us-7-13-billion-rs-60-000-crore-in-advertising-revenue-in-fy24"
+        },
+        {
+          "articleId": "article:from-penny-press-to-infinite-scroll",
+          "slug": "from-penny-press-to-infinite-scroll",
+          "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
+          "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
+          "sourceId": "source-iamai-kantar-2024",
+          "sourceTitle": "IAMAI-Kantar: Internet in India Report 2024",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.iamai.in/"
         },
         {
           "articleId": "article:gender-and-the-attention-economy",
@@ -7507,6 +7841,26 @@
           "sourceTitle": "IBEF: Tech giants generate over US$7.13 billion in advertising revenue in FY24",
           "sourceType": "industry-report",
           "sourceUrl": "https://www.ibef.org/news/tech-giants-generate-over-us-7-13-billion-rs-60-000-crore-in-advertising-revenue-in-fy24"
+        },
+        {
+          "articleId": "article:the-attention-matthew-effect",
+          "slug": "the-attention-matthew-effect",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
+          "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
+          "sourceId": "source-creatoriq-compensation-2026",
+          "sourceTitle": "CreatorIQ: State of Creator Compensation 2026",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.creatoriq.com/state-of-creator-compensation-2026"
+        },
+        {
+          "articleId": "article:the-attention-matthew-effect",
+          "slug": "the-attention-matthew-effect",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
+          "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
+          "sourceId": "source-bcg-creator-economy-2025",
+          "sourceTitle": "BCG: From Content to Commerce: Mapping India's Creator Economy",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.bcg.com/publications/2025/india-from-content-to-commerce-mapping-indias-creator-economy"
         },
         {
           "articleId": "article:the-better-question",
@@ -7929,6 +8283,36 @@
           "sourceUrl": "https://www.creatoriq.com/press/releases/state-of-creator-compensation-"
         },
         {
+          "articleId": "article:why-good-content-loses-to-loud-content",
+          "slug": "why-good-content-loses-to-loud-content",
+          "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+          "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
+          "sourceId": "source-creatoriq-compensation-2026",
+          "sourceTitle": "CreatorIQ: State of Creator Compensation 2026",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.creatoriq.com/state-of-creator-compensation-2026"
+        },
+        {
+          "articleId": "article:why-good-content-loses-to-loud-content",
+          "slug": "why-good-content-loses-to-loud-content",
+          "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+          "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
+          "sourceId": "source-bcg-creator-economy-2025",
+          "sourceTitle": "BCG: From Content to Commerce: Mapping India's Creator Economy",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://www.bcg.com/publications/2025/india-from-content-to-commerce-mapping-indias-creator-economy"
+        },
+        {
+          "articleId": "article:why-good-content-loses-to-loud-content",
+          "slug": "why-good-content-loses-to-loud-content",
+          "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+          "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
+          "sourceId": "source-realsiteworth-cpm-2026",
+          "sourceTitle": "upGrowth / RealSiteWorth: YouTube CPM benchmarks by country (2026 estimate)",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://upgrowth.in/youtube-cpm-india/"
+        },
+        {
           "articleId": "article:ai-winters-expert-systems",
           "slug": "ai-winters-expert-systems",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
@@ -7977,6 +8361,16 @@
           "sourceTitle": "EUR-Lex: Regulation (EU) 2022/2065 — Digital Services Act",
           "sourceType": "international-regulation",
           "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R2065"
+        },
+        {
+          "articleId": "article:from-penny-press-to-infinite-scroll",
+          "slug": "from-penny-press-to-infinite-scroll",
+          "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
+          "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
+          "sourceId": "source-world-bank-digital-dividends-2016",
+          "sourceTitle": "World Bank: World Development Report 2016 - Digital Dividends",
+          "sourceType": "international-report",
+          "sourceUrl": "https://www.worldbank.org/en/publication/wdr2016"
         },
         {
           "articleId": "article:trust-and-outrage-platforms-and-cohesion",
@@ -9589,6 +9983,36 @@
           "sourceUrl": "https://doi.org/10.1093/pnasnexus/pgaf062"
         },
         {
+          "articleId": "article:the-attention-matthew-effect",
+          "slug": "the-attention-matthew-effect",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
+          "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
+          "sourceId": "source-milli-divisive-content",
+          "sourceTitle": "Milli et al.: Engagement, User Satisfaction, and the Amplification of Divisive Content on Social Media (PNAS Nexus)",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://doi.org/10.1093/pnasnexus/pgaf062"
+        },
+        {
+          "articleId": "article:the-attention-matthew-effect",
+          "slug": "the-attention-matthew-effect",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
+          "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
+          "sourceId": "source-vosoughi-false-news",
+          "sourceTitle": "Vosoughi, Roy, and Aral: The spread of true and false news online (Science, 2018)",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://doi.org/10.1126/science.aap9559"
+        },
+        {
+          "articleId": "article:the-attention-matthew-effect",
+          "slug": "the-attention-matthew-effect",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
+          "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
+          "sourceId": "source-merton-matthew-effect",
+          "sourceTitle": "Robert K. Merton: The Matthew Effect in Science",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://doi.org/10.1126/science.159.3810.56"
+        },
+        {
           "articleId": "article:the-engagement-gap-productivity-india",
           "slug": "the-engagement-gap-productivity-india",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
@@ -9737,6 +10161,26 @@
           "sourceTitle": "Garimella et al., Global Patterns of Viral Content on WhatsApp, ICWSM 2025 (arXiv:2407.08172)",
           "sourceType": "peer-reviewed-study",
           "sourceUrl": "https://arxiv.org/abs/2407.08172"
+        },
+        {
+          "articleId": "article:why-good-content-loses-to-loud-content",
+          "slug": "why-good-content-loses-to-loud-content",
+          "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+          "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
+          "sourceId": "source-milli-divisive-content",
+          "sourceTitle": "Milli et al.: Engagement, User Satisfaction, and the Amplification of Divisive Content on Social Media (PNAS Nexus)",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://doi.org/10.1093/pnasnexus/pgaf062"
+        },
+        {
+          "articleId": "article:why-good-content-loses-to-loud-content",
+          "slug": "why-good-content-loses-to-loud-content",
+          "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+          "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
+          "sourceId": "source-vosoughi-false-news",
+          "sourceTitle": "Vosoughi, Roy, and Aral: The spread of true and false news online (Science, 2018)",
+          "sourceType": "peer-reviewed-study",
+          "sourceUrl": "https://doi.org/10.1126/science.aap9559"
         },
         {
           "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
@@ -10047,6 +10491,16 @@
           "sourceTitle": "Artificial Intelligence: A General Survey",
           "sourceType": "public-report",
           "sourceUrl": "https://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm"
+        },
+        {
+          "articleId": "article:from-penny-press-to-infinite-scroll",
+          "slug": "from-penny-press-to-infinite-scroll",
+          "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
+          "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
+          "sourceId": "source-park-penny-press",
+          "sourceTitle": "David Park: The Penny Press and the Origins of Mass Media",
+          "sourceType": "reference",
+          "sourceUrl": "https://www.britannica.com/topic/penny-press"
         },
         {
           "articleId": "article:human-systems",
@@ -11119,6 +11573,16 @@
           "sourceUrl": "https://www.w3.org/TR/activitypub/"
         },
         {
+          "articleId": "article:from-penny-press-to-infinite-scroll",
+          "slug": "from-penny-press-to-infinite-scroll",
+          "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
+          "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
+          "sourceId": "source-minow-vast-wasteland",
+          "sourceTitle": "Newton Minow: Television and the Public Interest (1961)",
+          "sourceType": "speech",
+          "sourceUrl": "https://www.americanrhetoric.com/speeches/newtonminow.htm"
+        },
+        {
           "articleId": "article:agentic-commerce-product-truth",
           "slug": "agentic-commerce-product-truth",
           "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
@@ -11333,6 +11797,16 @@
           "slug": "the-attention-extraction",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
           "agentJsonPath": "/agents/articles/the-attention-extraction.json",
+          "sourceId": "source-yale-outrage-online",
+          "sourceTitle": "Yale News: Likes and shares teach people to express more outrage online",
+          "sourceType": "university-news",
+          "sourceUrl": "https://news.yale.edu/2021/08/13/likes-and-shares-teach-people-express-more-outrage-online"
+        },
+        {
+          "articleId": "article:why-good-content-loses-to-loud-content",
+          "slug": "why-good-content-loses-to-loud-content",
+          "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+          "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
           "sourceId": "source-yale-outrage-online",
           "sourceTitle": "Yale News: Likes and shares teach people to express more outrage online",
           "sourceType": "university-news",
@@ -11588,7 +12062,7 @@
         "status": "published"
       },
       "resultType": "articles",
-      "resultCount": 80,
+      "resultCount": 84,
       "results": [
         {
           "articleId": "article:a-map-of-levers",
@@ -11723,6 +12197,12 @@
           "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json"
         },
         {
+          "articleId": "article:compound-habits-career-stages",
+          "slug": "compound-habits-career-stages",
+          "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
+          "agentJsonPath": "/agents/articles/compound-habits-career-stages.json"
+        },
+        {
           "articleId": "article:context-management",
           "slug": "context-management",
           "articleUrl": "https://aura-knowledge.github.io/articles/context-management/",
@@ -11775,6 +12255,12 @@
           "slug": "friction-chronological-feeds-user-chosen-algorithms",
           "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
           "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json"
+        },
+        {
+          "articleId": "article:from-penny-press-to-infinite-scroll",
+          "slug": "from-penny-press-to-infinite-scroll",
+          "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
+          "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json"
         },
         {
           "articleId": "article:gender-and-the-attention-economy",
@@ -11913,6 +12399,12 @@
           "slug": "the-attention-extraction",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
           "agentJsonPath": "/agents/articles/the-attention-extraction.json"
+        },
+        {
+          "articleId": "article:the-attention-matthew-effect",
+          "slug": "the-attention-matthew-effect",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
+          "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json"
         },
         {
           "articleId": "article:the-better-question",
@@ -12069,6 +12561,12 @@
           "slug": "who-profits-advertising-foreign-platforms",
           "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
           "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json"
+        },
+        {
+          "articleId": "article:why-good-content-loses-to-loud-content",
+          "slug": "why-good-content-loses-to-loud-content",
+          "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
+          "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json"
         }
       ]
     }

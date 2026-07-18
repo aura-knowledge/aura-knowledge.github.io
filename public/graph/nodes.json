@@ -1266,6 +1266,69 @@
     "status": "core"
   },
   {
+    "id": "article:compound-habits-career-stages",
+    "type": "article",
+    "label": "Compound Habits Across Career Stages",
+    "path": "/articles/compound-habits-career-stages/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:compound-habits-career-stages:claim-001",
+    "type": "claim",
+    "label": "Early-career attention habits compound over time: fragmented focus produces a thinner skill base, while small habits of depth build capabilities that widen later options.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:compound-habits-career-stages:claim-002",
+    "type": "claim",
+    "label": "Complex professional skills require sustained, focused practice; the default digital work environment makes this harder by design.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:compound-habits-career-stages:claim-003",
+    "type": "claim",
+    "label": "Workplaces often reward responsiveness and visibility more than deep output, which can steer mid-career advancement toward people who mastered communication signals rather than core skills.",
+    "localId": "claim-003",
+    "confidence": "medium",
+    "status": "core"
+  },
+  {
+    "id": "article:compound-habits-career-stages:claim-004",
+    "type": "claim",
+    "label": "Work-related attention fragmentation spills into family and community life, weakening the relationships and social participation that support well-being over the life span.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:compound-habits-career-stages:claim-005",
+    "type": "claim",
+    "label": "Adult attention habits are transmitted to children, so the career-stage choices of one generation become the default environment of the next.",
+    "localId": "claim-005",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:compound-habits-career-stages:claim-006",
+    "type": "claim",
+    "label": "Small, sustained habits of depth early in a career produce widening returns in later stages, including autonomy, reputation, and the ability to choose meaningful work.",
+    "localId": "claim-006",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:compound-habits-career-stages:claim-007",
+    "type": "claim",
+    "label": "Changing attention defaults at work and home—through protected focus time, response norms, and modeled behavior—can redirect compounding toward skill and relationships rather than fragmentation.",
+    "localId": "claim-007",
+    "confidence": "medium",
+    "status": "strategy"
+  },
+  {
     "id": "article:context-management",
     "type": "article",
     "label": "Context Management: What the AI Sees Right Now",
@@ -1742,6 +1805,69 @@
     "label": "These design changes are technically feasible but often conflict with ad-supported business models that optimize for engagement, time on site, and viral distribution.",
     "localId": "claim-004",
     "confidence": "medium-high",
+    "status": "argument"
+  },
+  {
+    "id": "article:from-penny-press-to-infinite-scroll",
+    "type": "article",
+    "label": "From Penny Press to Infinite Scroll: A Brief History of Attention Markets",
+    "path": "/articles/from-penny-press-to-infinite-scroll/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:from-penny-press-to-infinite-scroll:claim-001",
+    "type": "claim",
+    "label": "Attention markets have followed a recurring pattern across media revolutions: technological access expands supply, platforms commodify attention, sensational content gains a temporary advantage, and societies later build institutions that reward quality.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:from-penny-press-to-infinite-scroll:claim-002",
+    "type": "claim",
+    "label": "The penny press shows that when attention becomes a commodity, sensational content initially outcompetes careful work, and quality institutions emerge only after the market matures.",
+    "localId": "claim-002",
+    "confidence": "medium",
+    "status": "core"
+  },
+  {
+    "id": "article:from-penny-press-to-infinite-scroll:claim-003",
+    "type": "claim",
+    "label": "Broadcast media concentrated attention power in a small number of gatekeepers, producing both shared cultural goods and a vulnerability to commercial and political capture.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:from-penny-press-to-infinite-scroll:claim-004",
+    "type": "claim",
+    "label": "The internet removed production gatekeepers but created new distribution gatekeepers whose advertising-based incentives shaped what content received attention.",
+    "localId": "claim-004",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:from-penny-press-to-infinite-scroll:claim-005",
+    "type": "claim",
+    "label": "The mobile feed turned attention into a continuous, personalized auction, and India's rapid digital access made the scale of that auction enormous.",
+    "localId": "claim-005",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:from-penny-press-to-infinite-scroll:claim-006",
+    "type": "claim",
+    "label": "The current feed economy is best understood as phase two of a recurring cycle; the open question is whether phase-three institutions will form quickly enough to redirect the attention market toward quality.",
+    "localId": "claim-006",
+    "confidence": "medium",
+    "status": "forecast"
+  },
+  {
+    "id": "article:from-penny-press-to-infinite-scroll:claim-007",
+    "type": "claim",
+    "label": "For India, the attention economy is both a consumption risk and a design opportunity: the country can build institutions that make quality easier to find, or it can remain a market for extraction-oriented platforms designed elsewhere.",
+    "localId": "claim-007",
+    "confidence": "medium",
     "status": "argument"
   },
   {
@@ -2776,6 +2902,69 @@
     "localId": "claim-004",
     "confidence": "medium-high",
     "status": "core"
+  },
+  {
+    "id": "article:the-attention-matthew-effect",
+    "type": "article",
+    "label": "The Attention Matthew Effect: Why Reach Begets Reach",
+    "path": "/articles/the-attention-matthew-effect/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-attention-matthew-effect:claim-001",
+    "type": "claim",
+    "label": "On algorithmic platforms, existing reach functions as a distribution asset that compounds over time, concentrating attention among a small share of creators even when their newer content is not objectively better than work from smaller creators.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-attention-matthew-effect:claim-002",
+    "type": "claim",
+    "label": "Algorithmic seeding favors creators with large existing audiences because their posts generate more engagement signals in absolute terms, which the platform interprets as evidence of higher predicted engagement.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-attention-matthew-effect:claim-003",
+    "type": "claim",
+    "label": "Income concentration in the creator economy is extreme, with the top 10% of creators capturing the majority of payments, mirroring the concentration of reach.",
+    "localId": "claim-003",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-attention-matthew-effect:claim-004",
+    "type": "claim",
+    "label": "Popular creators can distribute mediocre content more widely than unknown creators can distribute excellent content, because distribution depends more on past reach and predicted engagement than on human-judged quality.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "core"
+  },
+  {
+    "id": "article:the-attention-matthew-effect:claim-005",
+    "type": "claim",
+    "label": "Generative AI may deepen the Matthew effect by increasing content supply while leaving distribution concentrated among creators who already have large audiences.",
+    "localId": "claim-005",
+    "confidence": "medium",
+    "status": "forecast"
+  },
+  {
+    "id": "article:the-attention-matthew-effect:claim-006",
+    "type": "claim",
+    "label": "The concentration of reach narrows public discourse by making it harder for new or specialized voices to break through, even when their work is substantively strong.",
+    "localId": "claim-006",
+    "confidence": "medium",
+    "status": "argument"
+  },
+  {
+    "id": "article:the-attention-matthew-effect:claim-007",
+    "type": "claim",
+    "label": "The Matthew effect can be moderated through platform discovery design, audience choices that reward direct relationships, and creators building distribution channels outside algorithmic feeds.",
+    "localId": "claim-007",
+    "confidence": "medium",
+    "status": "strategy"
   },
   {
     "id": "article:the-better-question",
@@ -4072,6 +4261,61 @@
     "status": "framing"
   },
   {
+    "id": "article:why-good-content-loses-to-loud-content",
+    "type": "article",
+    "label": "Why Good Content Loses to Loud Content",
+    "path": "/articles/why-good-content-loses-to-loud-content/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:why-good-content-loses-to-loud-content:claim-001",
+    "type": "claim",
+    "label": "Recommendation systems optimize for predicted engagement — watch time, clicks, shares, replays — rather than for accuracy, depth, or originality.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:why-good-content-loses-to-loud-content:claim-002",
+    "type": "claim",
+    "label": "Emotional, surprising, or controversial content spreads faster than neutral, high-quality content because it generates stronger engagement signals.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:why-good-content-loses-to-loud-content:claim-003",
+    "type": "claim",
+    "label": "Creators with large existing audiences get a distribution head start that smaller creators cannot match even with higher engagement rates.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:why-good-content-loses-to-loud-content:claim-004",
+    "type": "claim",
+    "label": "Quality creators face a structural disadvantage unless they also master the engagement signals the platform uses.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:why-good-content-loses-to-loud-content:claim-005",
+    "type": "claim",
+    "label": "In India's low-payout creator market, the pressure to chase engagement is even stronger, and generative AI may deepen competition without raising average returns.",
+    "localId": "claim-005",
+    "confidence": "medium",
+    "status": "core"
+  },
+  {
+    "id": "article:why-good-content-loses-to-loud-content:claim-006",
+    "type": "claim",
+    "label": "Quality creators can protect themselves by building reputation outside feeds, learning feed mechanics without abandoning substance, and choosing platforms or business models that reward trust over virality.",
+    "localId": "claim-006",
+    "confidence": "medium",
+    "status": "framing"
+  },
+  {
     "id": "source-001",
     "type": "source",
     "label": "Shazeer et al., Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
@@ -4817,7 +5061,7 @@
     "id": "source-creatoriq-compensation-2026",
     "type": "source",
     "label": "CreatorIQ: State of Creator Compensation 2026",
-    "url": "https://www.creatoriq.com/press/releases/state-of-creator-compensation-?hs_amp=true",
+    "url": "https://www.creatoriq.com/state-of-creator-compensation-2026",
     "sourceType": "industry-report"
   },
   {
@@ -5241,6 +5485,13 @@
     "sourceType": "guide"
   },
   {
+    "id": "source-gallup-global-workplace-2025",
+    "type": "source",
+    "label": "Gallup: State of the Global Workplace 2025",
+    "url": "https://www.gallup.com/workplace/391922/state-of-the-global-workplace.aspx",
+    "sourceType": "industry-report"
+  },
+  {
     "id": "source-gallup-global-workplace-india",
     "type": "source",
     "label": "Gallup State of the Global Workplace: India Country-Level Data",
@@ -5463,6 +5714,20 @@
     "label": "Mathematical Problems",
     "url": "https://aleph0.clarku.edu/~djoyce/hilbert/problems.html",
     "sourceType": "documentation"
+  },
+  {
+    "id": "source-historical-analogies-missed",
+    "type": "source",
+    "label": "Aura Knowledge: Historical Analogies of Missed Transitions",
+    "url": "https://aura-knowledge.github.io/articles/historical-analogies-of-missed-transitions/",
+    "sourceType": "article"
+  },
+  {
+    "id": "source-historical-hinges",
+    "type": "source",
+    "label": "Aura Knowledge: Historical Hinges - When Access to a Tool Did Not Guarantee Its Benefits",
+    "url": "https://aura-knowledge.github.io/articles/historical-hinges-access-is-not-benefit/",
+    "sourceType": "article"
   },
   {
     "id": "source-hollan-hutchins-kirsh-distributed-cognition",
@@ -5864,6 +6129,13 @@
     "sourceType": "survey"
   },
   {
+    "id": "source-localcircles-parents-2025",
+    "type": "source",
+    "label": "LocalCircles Survey of Urban Indian Parents on Children and Screen Time 2025",
+    "url": "https://www.localcircles.com/",
+    "sourceType": "crowdsourced-survey"
+  },
+  {
     "id": "source-logic-theory-machine",
     "type": "source",
     "label": "The Logic Theory Machine: A Complex Information Processing System",
@@ -5969,6 +6241,13 @@
     "sourceType": "industry-report"
   },
   {
+    "id": "source-merton-matthew-effect",
+    "type": "source",
+    "label": "Robert K. Merton: The Matthew Effect in Science",
+    "url": "https://doi.org/10.1126/science.159.3810.56",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
     "id": "source-meta-google-ad-revenue-india",
     "type": "source",
     "label": "IBEF / industry reports: Tech giants' advertising revenue from India",
@@ -6016,6 +6295,13 @@
     "label": "Milli et al.: Engagement, User Satisfaction, and the Amplification of Divisive Content on Social Media (PNAS Nexus / Knight First Amendment Institute)",
     "url": "https://knightcolumbia.org/content/engagement-user-satisfaction-and-the-amplification-of-divisive-content-on-social-media",
     "sourceType": "peer-reviewed-study"
+  },
+  {
+    "id": "source-minow-vast-wasteland",
+    "type": "source",
+    "label": "Newton Minow: Television and the Public Interest (1961)",
+    "url": "https://www.americanrhetoric.com/speeches/newtonminow.htm",
+    "sourceType": "speech"
   },
   {
     "id": "source-minsky-papert-1969",
@@ -6401,6 +6687,13 @@
     "label": "Responsible Sourcing Across the Data Supply Line",
     "url": "https://partnershiponai.org/workstream/responsible-sourcing/",
     "sourceType": "practice-guidance"
+  },
+  {
+    "id": "source-park-penny-press",
+    "type": "source",
+    "label": "David Park: The Penny Press and the Origins of Mass Media",
+    "url": "https://www.britannica.com/topic/penny-press",
+    "sourceType": "reference"
   },
   {
     "id": "source-patreon",
@@ -7189,9 +7482,16 @@
   {
     "id": "source-vivo-switch-off-2022",
     "type": "source",
-    "label": "vivo Switch Off Study on Impact of Smartphones on Spousal Relationships",
-    "url": "https://vivonewsroom.in/press-release/smartphone-addiction-88-married-indians-feel-that-excessive-usage-of-smartphones-is-hurting-their-relationship-vivo-switch-off-study-on-impact-of-smartphones-on-spousal-relationships/",
+    "label": "vivo Switch Off Study 2022",
+    "url": "https://www.vivo.com/in/about-vivo/newsroom/2022/switch-off-study",
     "sourceType": "industry-report"
+  },
+  {
+    "id": "source-vosoughi-false-news",
+    "type": "source",
+    "label": "Vosoughi, Roy, and Aral: The spread of true and false news online (Science, 2018)",
+    "url": "https://doi.org/10.1126/science.aap9559",
+    "sourceType": "peer-reviewed-study"
   },
   {
     "id": "source-w3c-bbs",
@@ -7318,6 +7618,13 @@
     "label": "World Bank: World Development Report 2016 - Digital Dividends",
     "url": "https://www.worldbank.org/en/publication/wdr2016",
     "sourceType": "government-report"
+  },
+  {
+    "id": "source-world-bank-digital-dividends-2016",
+    "type": "source",
+    "label": "World Bank: World Development Report 2016 - Digital Dividends",
+    "url": "https://www.worldbank.org/en/publication/wdr2016",
+    "sourceType": "international-report"
   },
   {
     "id": "source-world-bank-india-population",
@@ -7892,6 +8199,11 @@
     "id": "topic:platform-governance",
     "type": "topic",
     "label": "platform-governance"
+  },
+  {
+    "id": "topic:platforms",
+    "type": "topic",
+    "label": "platforms"
   },
   {
     "id": "topic:polarization",

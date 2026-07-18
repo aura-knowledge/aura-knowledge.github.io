@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 3,
+  "id": "article:compound-habits-career-stages",
+  "slug": "compound-habits-career-stages",
+  "title": "Compound Habits Across Career Stages",
+  "canonicalPath": "/articles/compound-habits-career-stages/",
+  "sourcePath": "content/articles/2026/compound-habits-career-stages/article.md",
+  "agentBriefPath": "content/articles/2026/compound-habits-career-stages/agent.md",
+  "thesis": "Attention habits compound across career stages: early fragmentation erodes the deep-skill foundation that later-stage autonomy and impact depend on, while small deliberate habits of depth produce widening returns over time.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-06",
+  "updatedAt": "2026-07-06",
+  "audiences": [
+    "general",
+    "students",
+    "workers",
+    "parents",
+    "policy"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "productivity",
+    "life-phases",
+    "artificial-intelligence"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 52,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Early-career attention habits compound over time: fragmented focus produces a thinner skill base, while small habits of depth build capabilities that widen later options.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-cal-newport-deep-work",
+          "snippet": "Deep work is the ability to focus without distraction on cognitively demanding tasks and is becoming increasingly rare and valuable.",
+          "supports": "direct",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some careers value adaptability and broad exposure more than deep specialization, so fragmentation may not always be costly.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Complex professional skills require sustained, focused practice; the default digital work environment makes this harder by design.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-cal-newport-deep-work",
+          "snippet": "Complex skills are built through deliberate, sustained effort rather than scattered exposure.",
+          "supports": "direct",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Microlearning and spaced practice can also build skills, though they may be less suited to the most complex cognitive tasks.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Workplaces often reward responsiveness and visibility more than deep output, which can steer mid-career advancement toward people who mastered communication signals rather than core skills.",
+      "confidence": "medium",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-gallup-global-workplace-2025",
+          "snippet": "Employee engagement in India is low and disengagement imposes large economic losses, suggesting misalignment between workplace signals and productive output.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Many organizations do evaluate long-term output and impact, especially in technical or creative fields.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Work-related attention fragmentation spills into family and community life, weakening the relationships and social participation that support well-being over the life span.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-vivo-switch-off-2022",
+          "snippet": "88% of married Indian couples agreed excessive smartphone use was hurting their relationship with their spouse.",
+          "supports": "direct",
+          "assessedAt": "2026-07-06"
+        },
+        {
+          "sourceId": "source-nsso-time-use-2024",
+          "snippet": "Volunteer and community participation fell by more than half since 2019.",
+          "supports": "direct",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Smartphones also strengthen some relationships and communities through messaging and coordination, so the net effect varies by use pattern.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "Adult attention habits are transmitted to children, so the career-stage choices of one generation become the default environment of the next.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-localcircles-parents-2025",
+          "snippet": "49% of urban Indian children aged 9–17 spend three or more hours a day on social media, video streaming, or online games.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Children are also influenced by peers, schools, and platform design, so parental modeling is one factor among many.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "Small, sustained habits of depth early in a career produce widening returns in later stages, including autonomy, reputation, and the ability to choose meaningful work.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-cal-newport-deep-work",
+          "snippet": "Rare and valuable skills compound over time and create career capital.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Career outcomes also depend on luck, networks, structural inequality, and industry demand, so depth is not a guarantee of success.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "Changing attention defaults at work and home—through protected focus time, response norms, and modeled behavior—can redirect compounding toward skill and relationships rather than fragmentation.",
+      "confidence": "medium",
+      "status": "strategy",
+      "evidence": [
+        {
+          "sourceId": "source-cal-newport-deep-work",
+          "snippet": "Protecting focused time and changing work defaults can increase deep work capacity.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some roles and industries genuinely require rapid response, so focus norms must be adapted to context.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-cal-newport-deep-work",
+      "title": "Cal Newport: Deep Work",
+      "url": "https://www.calnewport.com/books/deep-work/",
+      "type": "book",
+      "accessed": "2026-07-06"
+    },
+    {
+      "id": "source-gallup-global-workplace-2025",
+      "title": "Gallup: State of the Global Workplace 2025",
+      "url": "https://www.gallup.com/workplace/391922/state-of-the-global-workplace.aspx",
+      "type": "industry-report",
+      "accessed": "2026-07-06"
+    },
+    {
+      "id": "source-vivo-switch-off-2022",
+      "title": "vivo Switch Off Study 2022",
+      "url": "https://www.vivo.com/in/about-vivo/newsroom/2022/switch-off-study",
+      "type": "industry-report",
+      "accessed": "2026-07-06"
+    },
+    {
+      "id": "source-nsso-time-use-2024",
+      "title": "NSSO Time Use Survey 2024",
+      "url": "https://www.mospi.gov.in/web/mospi/home",
+      "type": "government-survey",
+      "accessed": "2026-07-06"
+    },
+    {
+      "id": "source-localcircles-parents-2025",
+      "title": "LocalCircles Survey of Urban Indian Parents on Children and Screen Time 2025",
+      "url": "https://www.localcircles.com/",
+      "type": "crowdsourced-survey",
+      "accessed": "2026-07-06"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:the-life-phase-thread"
+    },
+    {
+      "type": "article",
+      "id": "article:the-workers-garden"
+    },
+    {
+      "type": "article",
+      "id": "article:the-familys-garden"
+    },
+    {
+      "type": "article",
+      "id": "article:the-small-rep-theory"
+    },
+    {
+      "type": "article",
+      "id": "article:the-compounding-bet"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    }
+  ],
+  "agentInstructions": [
+    "Route evidentiary questions about workplace attention and productivity to the cited research.",
+    "Distinguish between individual attention management and organizational design choices.",
+    "Point readers to related life-phase and substance-building articles for practical next steps.",
+    "Avoid prescribing one-size-fits-all schedules; acknowledge that different roles require different response norms."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-06",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-06",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-06",
+        "status": "approved",
+        "scope": [
+          "content",
+          "claims",
+          "sources",
+          "privacy"
+        ],
+        "notes": "Reviewed and approved for publication as part of issue 104 expansion.",
+        "contentHash": "9d48635b5b5127574f77ba1c89aa1f5f200188793373e23a601ddf4e3a9bfe5a"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "9d48635b5b5127574f77ba1c89aa1f5f200188793373e23a601ddf4e3a9bfe5a",
+  "generatedAt": "2026-07-06T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
+  "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
+  "agentMarkdownPath": "/agents/articles/compound-habits-career-stages.md",
+  "sourceRepoPath": "content/articles/2026/compound-habits-career-stages/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/compound-habits-career-stages/article.md",
+  "tokenEstimate": 114,
+  "sectionOutline": [
+    {
+      "id": "the-early-career-foundation",
+      "title": "The Early-Career Foundation"
+    },
+    {
+      "id": "the-mid-career-credit-problem",
+      "title": "The Mid-Career Credit Problem"
+    },
+    {
+      "id": "the-family-stage-overflow",
+      "title": "The Family-Stage Overflow"
+    },
+    {
+      "id": "the-generational-transfer",
+      "title": "The Generational Transfer"
+    },
+    {
+      "id": "the-later-career-dividend",
+      "title": "The Later-Career Dividend"
+    },
+    {
+      "id": "what-can-be-done",
+      "title": "What Can Be Done"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

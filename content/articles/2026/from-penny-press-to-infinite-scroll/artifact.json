@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 3,
+  "id": "article:from-penny-press-to-infinite-scroll",
+  "slug": "from-penny-press-to-infinite-scroll",
+  "title": "From Penny Press to Infinite Scroll: A Brief History of Attention Markets",
+  "canonicalPath": "/articles/from-penny-press-to-infinite-scroll/",
+  "sourcePath": "content/articles/2026/from-penny-press-to-infinite-scroll/article.md",
+  "agentBriefPath": "content/articles/2026/from-penny-press-to-infinite-scroll/agent.md",
+  "thesis": "Attention markets have repeated the same structural pattern across media revolutions: technological access expands supply, platforms commodify attention, sensational content outcompetes careful work, and societies eventually build institutions that restore quality incentives.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-06",
+  "updatedAt": "2026-07-06",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "history",
+    "media",
+    "platforms",
+    "digital-wellbeing"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 53,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Attention markets have followed a recurring pattern across media revolutions: technological access expands supply, platforms commodify attention, sensational content gains a temporary advantage, and societies later build institutions that reward quality.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-park-penny-press",
+          "snippet": "The penny press shifted newspapers from subscription-funded elite media to advertising-funded mass media, lowering prices and increasing sensational coverage.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Each media transition has unique features, so the pattern should be treated as a tendency rather than a universal law.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "The penny press shows that when attention becomes a commodity, sensational content initially outcompetes careful work, and quality institutions emerge only after the market matures.",
+      "confidence": "medium",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-park-penny-press",
+          "snippet": "Penny papers emphasized crime, scandal, and human-interest stories as they moved from reader-funded to advertiser-funded models.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some penny papers also pioneered modern reporting and investigative journalism, so the period was not purely a decline in quality.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Broadcast media concentrated attention power in a small number of gatekeepers, producing both shared cultural goods and a vulnerability to commercial and political capture.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-minow-vast-wasteland",
+          "snippet": "FCC chairman Newton Minow criticized American television as a 'vast wasteland' of commercial programming despite its educational potential.",
+          "supports": "direct",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Broadcast media also produced high-quality journalism, drama, and educational content, particularly where public-service obligations were strong.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "The internet removed production gatekeepers but created new distribution gatekeepers whose advertising-based incentives shaped what content received attention.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-world-bank-digital-dividends-2016",
+          "snippet": "Digital technologies spread rapidly but economic payoffs were uneven; access alone was not enough to capture productivity gains.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The internet also enabled many non-commercial and community-driven information ecosystems that operate outside advertising incentives.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "The mobile feed turned attention into a continuous, personalized auction, and India's rapid digital access made the scale of that auction enormous.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-iamai-kantar-2024",
+          "snippet": "India had roughly 886 million internet users by 2024, with rural India driving much of the growth.",
+          "supports": "direct",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Not all Indian internet use happens in feeds; messaging, education, payments, and government services also absorb significant attention.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "The current feed economy is best understood as phase two of a recurring cycle; the open question is whether phase-three institutions will form quickly enough to redirect the attention market toward quality.",
+      "confidence": "medium",
+      "status": "forecast",
+      "evidence": [
+        {
+          "sourceId": "source-historical-hinges",
+          "snippet": "Historical technology transitions show that access precedes benefit until institutions and norms catch up.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The speed and global scale of digital platforms may make institutional adaptation harder or slower than in previous transitions.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "For India, the attention economy is both a consumption risk and a design opportunity: the country can build institutions that make quality easier to find, or it can remain a market for extraction-oriented platforms designed elsewhere.",
+      "confidence": "medium",
+      "status": "argument",
+      "evidence": [
+        {
+          "sourceId": "source-historical-analogies-missed",
+          "snippet": "Countries that arrive late to technology transitions often remain consumers rather than shapers of the underlying architecture.",
+          "supports": "analogous",
+          "assessedAt": "2026-07-06"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "India has significant domestic technology capacity and could shape platform architecture through regulation, public procurement, and indigenous platforms.",
+          "assessedAt": "2026-07-06"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-park-penny-press",
+      "title": "David Park: The Penny Press and the Origins of Mass Media",
+      "url": "https://www.britannica.com/topic/penny-press",
+      "type": "reference",
+      "accessed": "2026-07-06"
+    },
+    {
+      "id": "source-minow-vast-wasteland",
+      "title": "Newton Minow: Television and the Public Interest (1961)",
+      "url": "https://www.americanrhetoric.com/speeches/newtonminow.htm",
+      "type": "speech",
+      "accessed": "2026-07-06"
+    },
+    {
+      "id": "source-world-bank-digital-dividends-2016",
+      "title": "World Bank: World Development Report 2016 - Digital Dividends",
+      "url": "https://www.worldbank.org/en/publication/wdr2016",
+      "type": "international-report",
+      "accessed": "2026-07-06"
+    },
+    {
+      "id": "source-iamai-kantar-2024",
+      "title": "IAMAI-Kantar: Internet in India Report 2024",
+      "url": "https://www.iamai.in/",
+      "type": "industry-report",
+      "accessed": "2026-07-06"
+    },
+    {
+      "id": "source-historical-hinges",
+      "title": "Aura Knowledge: Historical Hinges - When Access to a Tool Did Not Guarantee Its Benefits",
+      "url": "https://aura-knowledge.github.io/articles/historical-hinges-access-is-not-benefit/",
+      "type": "article",
+      "accessed": "2026-07-06"
+    },
+    {
+      "id": "source-historical-analogies-missed",
+      "title": "Aura Knowledge: Historical Analogies of Missed Transitions",
+      "url": "https://aura-knowledge.github.io/articles/historical-analogies-of-missed-transitions/",
+      "type": "article",
+      "accessed": "2026-07-06"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:historical-hinges-access-is-not-benefit"
+    },
+    {
+      "type": "article",
+      "id": "article:historical-analogies-of-missed-transitions"
+    },
+    {
+      "type": "article",
+      "id": "article:the-jio-effect-cheap-data-access-behavior"
+    },
+    {
+      "type": "article",
+      "id": "article:the-reel-nation-short-form-video"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    }
+  ],
+  "agentInstructions": [
+    "Route historical questions to the cited media-history sources and analogies.",
+    "Distinguish between the structural pattern and the specific details of each media transition.",
+    "Point readers to related historical-hinges and design-for-substance articles for context.",
+    "Avoid treating historical analogies as predictions; use them to illuminate risks and opportunities."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-06",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-06",
+        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "outputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-06",
+        "status": "approved",
+        "scope": [
+          "content",
+          "claims",
+          "sources",
+          "privacy"
+        ],
+        "notes": "Reviewed and approved for publication as part of issue 104 expansion.",
+        "contentHash": "6976a5dfa301eefca54a6613a7ac161950bbff440aabe4bfcc3b9f4a372405f4"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "6976a5dfa301eefca54a6613a7ac161950bbff440aabe4bfcc3b9f4a372405f4"
+}
