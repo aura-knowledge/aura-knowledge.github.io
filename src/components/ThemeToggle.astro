@@ -1,5 +1,17 @@
-<button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle color theme">
-  <span data-theme-label>Theme</span>
+<button
+  class="theme-toggle"
+  type="button"
+  data-theme-toggle
+  role="switch"
+  aria-checked="false"
+  aria-label="Dark theme"
+>
+  <span class="theme-toggle-icon" data-theme-sun aria-hidden="true">☀</span>
+  <span class="theme-toggle-track" aria-hidden="true">
+    <span class="theme-toggle-thumb"></span>
+  </span>
+  <span class="theme-toggle-icon" data-theme-moon aria-hidden="true">☾</span>
+  <span class="sr-only" data-theme-label>Theme: light</span>
 </button>
 
 <script is:inline>
@@ -10,8 +22,9 @@
 
     const updateLabel = () => {
       const current = document.documentElement.dataset.theme === "dark" ? "dark" : "light";
-      label.textContent = current === "dark" ? "Light" : "Dark";
-      button.setAttribute("aria-label", `Switch to ${current === "dark" ? "light" : "dark"} theme`);
+      const isDark = current === "dark";
+      label.textContent = `Theme: ${current}`;
+      button.setAttribute("aria-checked", String(isDark));
     };
 
     updateLabel();
