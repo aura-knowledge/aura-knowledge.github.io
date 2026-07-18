@@ -24,6 +24,13 @@
     "information-theory",
     "cybernetics"
   ],
+  "series": {
+    "slug": "long-human-road-to-ai",
+    "title": "The Long Human Road to AI",
+    "season": "Season 1",
+    "order": 2,
+    "role": "chapter"
+  },
   "claims": [
     {
       "id": "claim-001",

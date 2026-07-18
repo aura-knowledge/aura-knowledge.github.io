@@ -1,10 +1,13 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import EmptyState from "../../components/EmptyState.astro";
-import { getArticles, getYearEntries } from "../../lib/content";
+import { getArticles, getSeriesEntries, getStandaloneArticles, getYearEntries } from "../../lib/content";
 
 const base = import.meta.env.BASE_URL;
 const articles = getArticles();
+const seriesEntries = getSeriesEntries(articles);
+const standaloneArticles = getStandaloneArticles(articles);
+const totalSeriesArticles = seriesEntries.reduce((total, series) => total + series.articles.length, 0);
 const yearEntries = getYearEntries(articles);
 ---
 
@@ -18,8 +21,22 @@ const yearEntries = getYearEntries(articles);
       <h1>Every published essay.</h1>
       <p class="lede">
         Each article is a human-readable argument backed by a claim map, evidence ledger, and
-        machine-readable artifact. Start with the latest or browse by topic.
+        machine-readable artifact. Start with a reading path, the latest standalone essay, or a topic.
       </p>
+      <nav class="article-view-switcher" aria-label="Article groups">
+        <a href="#series-index-title">
+          <span>Reading paths</span>
+          <strong>{totalSeriesArticles}</strong>
+        </a>
+        <a href="#article-index-title">
+          <span>Standalone</span>
+          <strong>{standaloneArticles.length}</strong>
+        </a>
+        <a href="#archive-years-title">
+          <span>Archives</span>
+          <strong>{yearEntries.length}</strong>
+        </a>
+      </nav>
     </header>
 
     {yearEntries.length > 0 && (
@@ -34,11 +51,61 @@ const yearEntries = getYearEntries(articles);
       </section>
     )}
 
+    {seriesEntries.length > 0 && (
+      <section class="series-index" aria-labelledby="series-index-title">
+        <p class="eyebrow">Reading paths</p>
+        <h2 id="series-index-title">Article series</h2>
+        <div class="series-index-list">
+          {seriesEntries.map((series) => {
+            const guide = series.articles.find((article) => article.series?.role === "guide") ?? series.articles[0];
+            const chapterCount = series.articles.filter((article) => article.series?.role === "chapter").length;
+
+            return (
+              <details class="series-index-group">
+                <summary class="series-index-header">
+                  <div>
+                    <p>
+                      <span>Series</span>
+                      {series.season && <span>{series.season}</span>}
+                    </p>
+                    <h3>{series.title}</h3>
+                    <span>{guide.summary}</span>
+                  </div>
+                  <div class="series-index-actions">
+                    <a href={`${base}articles/${guide.slug}/`}>Start reading</a>
+                    <span>{chapterCount} chapter{chapterCount === 1 ? "" : "s"}</span>
+                  </div>
+                </summary>
+                <ol class="series-entry-list">
+                  {series.articles.map((article) => (
+                    <li>
+                      <span class="series-entry-order">
+                        {article.series?.role === "guide"
+                          ? "Guide"
+                          : String(article.series?.order ?? 0).padStart(2, "0")}
+                      </span>
+                      <div>
+                        <h4>
+                          <a href={`${base}articles/${article.slug}/`}>{article.title}</a>
+                        </h4>
+                        <p>{article.summary}</p>
+                      </div>
+                    </li>
+                  ))}
+                </ol>
+              </details>
+            );
+          })}
+        </div>
+      </section>
+    )}
+
     <section class="article-index" aria-labelledby="article-index-title">
-      <h2 id="article-index-title" class="visually-hidden">Article list</h2>
+      <p class="eyebrow">Standalone</p>
+      <h2 id="article-index-title">Standalone essays</h2>
       <div class="article-index-list">
-        {articles.length > 0 ? (
-          articles.map((article) => (
+        {standaloneArticles.length > 0 ? (
+          standaloneArticles.map((article) => (
             <article class="article-index-card">
               <div class="article-index-meta">
                 <span>{article.date}</span>
@@ -58,13 +125,22 @@ const yearEntries = getYearEntries(articles);
           ))
         ) : (
           <EmptyState
-            heading="No articles yet"
+            heading={articles.length > 0 ? "No standalone essays yet" : "No articles yet"}
             headingLevel={3}
-            message="No articles have been published yet. New essays will appear here once they are reviewed and marked published."
+            message={articles.length > 0
+              ? "Published articles currently belong to reading paths. Standalone essays will appear here when they are published."
+              : "No articles have been published yet. New essays will appear here once they are reviewed and marked published."}
             action={{ href: `${base}roadmap/`, text: "See the roadmap" }}
           />
         )}
       </div>
     </section>
   </div>
+  <script>
+    document.querySelectorAll(".series-index-actions a").forEach((link) => {
+      link.addEventListener("click", (event) => {
+        event.stopPropagation();
+      });
+    });
+  </script>
 </BaseLayout>

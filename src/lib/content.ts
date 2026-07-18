@@ -22,6 +22,14 @@ export type ArticleFrontmatter = {
   sourcePath: string;
 };
 
+export type ArticleSeries = {
+  slug: string;
+  title: string;
+  season?: string;
+  order: number;
+  role: "guide" | "chapter" | "companion" | "appendix";
+};
+
 export type EvidencePacket = {
   sourceId: string;
   snippet: string;
@@ -111,6 +119,7 @@ export type ArticleArtifact = {
   updatedAt: string;
   audiences: string[];
   topics: string[];
+  series?: ArticleSeries;
   claims: ArtifactClaim[];
   sources: Array<{
     id: string;
@@ -129,10 +138,26 @@ export type Article = ArticleFrontmatter & {
   year: string;
   sourceDir: string;
   canonicalPath: string;
+  series?: ArticleSeries;
   Content: unknown;
   headings: Array<{ depth: number; slug: string; text: string }>;
   artifact: ArticleArtifact;
   agentBrief: string;
+};
+
+export type ArticleSeriesEntry = {
+  slug: string;
+  title: string;
+  season?: string;
+  articles: Article[];
+  latestDate: string;
+};
+
+export type ArticleSeriesNavigation = {
+  series: ArticleSeries;
+  previous: Article | null;
+  next: Article | null;
+  entries: Article[];
 };
 
 const articles = import.meta.glob<MarkdownModule>("../../content/articles/*/*/article.md", {
@@ -196,6 +221,7 @@ function loadArticles(): Article[] {
         year,
         sourceDir,
         canonicalPath: `/articles/${frontmatter.slug}/`,
+        series: artifact.series,
         Content: module.Content,
         headings: module.headings ?? [],
         artifact,
@@ -246,6 +272,74 @@ export function getTopicEntries(articles: Article[]): [string, Article[]][] {
 
 export function getArticlesByTopic(articles: Article[], topic: string): Article[] {
   return articles.filter((article) => article.artifact.topics.includes(topic));
+}
+
+function sortSeriesArticles(left: Article, right: Article) {
+  const orderDelta = (left.series?.order ?? Number.MAX_SAFE_INTEGER) - (right.series?.order ?? Number.MAX_SAFE_INTEGER);
+  if (orderDelta !== 0) {
+    return orderDelta;
+  }
+
+  return left.date < right.date ? 1 : -1;
+}
+
+export function getSeriesEntries(articles: Article[]): ArticleSeriesEntry[] {
+  const groups = new Map<string, Article[]>();
+
+  for (const article of articles) {
+    if (!article.series) {
+      continue;
+    }
+
+    const current = groups.get(article.series.slug) ?? [];
+    current.push(article);
+    groups.set(article.series.slug, current);
+  }
+
+  return Array.from(groups.entries())
+    .map(([slug, groupArticles]) => {
+      const sortedArticles = [...groupArticles].sort(sortSeriesArticles);
+      const firstArticle = sortedArticles[0];
+      const latestDate = sortedArticles.reduce(
+        (latest, article) => (article.date > latest ? article.date : latest),
+        sortedArticles[0]?.date ?? ""
+      );
+
+      return {
+        slug,
+        title: firstArticle?.series?.title ?? slug,
+        season: firstArticle?.series?.season,
+        articles: sortedArticles,
+        latestDate
+      };
+    })
+    .sort((left, right) => (left.latestDate < right.latestDate ? 1 : -1));
+}
+
+export function getStandaloneArticles(articles: Article[]): Article[] {
+  return articles.filter((article) => !article.series);
+}
+
+export function getSeriesNavigation(article: Article, articles: Article[]): ArticleSeriesNavigation | null {
+  if (!article.series) {
+    return null;
+  }
+
+  const entries = articles
+    .filter((candidate) => candidate.series?.slug === article.series?.slug)
+    .sort(sortSeriesArticles);
+  const currentIndex = entries.findIndex((candidate) => candidate.slug === article.slug);
+
+  if (currentIndex === -1) {
+    return null;
+  }
+
+  return {
+    series: article.series,
+    previous: entries[currentIndex - 1] ?? null,
+    next: entries[currentIndex + 1] ?? null,
+    entries
+  };
 }
 
 export function groupArticlesByYear(articles: Article[]): Map<string, Article[]> {

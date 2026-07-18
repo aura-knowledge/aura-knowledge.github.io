@@ -2,7 +2,7 @@
   "schemaVersion": 3,
   "id": "article:long-human-road-to-ai",
   "slug": "long-human-road-to-ai",
-  "title": "The Long Human Road to AI: A Reader\u2019s Guide to Season 1",
+  "title": "The Long Human Road to AI: A Reader’s Guide to Season 1",
   "canonicalPath": "/articles/long-human-road-to-ai/",
   "sourcePath": "content/articles/2026/long-human-road-to-ai/article.md",
   "agentBriefPath": "content/articles/2026/long-human-road-to-ai/agent.md",
@@ -24,6 +24,13 @@
     "human-progress",
     "education"
   ],
+  "series": {
+    "slug": "long-human-road-to-ai",
+    "title": "The Long Human Road to AI",
+    "season": "Season 1",
+    "order": 0,
+    "role": "guide"
+  },
   "claims": [
     {
       "id": "claim-001",
@@ -97,7 +104,7 @@
     },
     {
       "id": "claim-003",
-      "claim": "Across the season, the same pattern appears: human need \u2192 external support \u2192 formalization \u2192 scale \u2192 boundary.",
+      "claim": "Across the season, the same pattern appears: human need → external support → formalization → scale → boundary.",
       "confidence": "medium",
       "status": "framing",
       "evidence": [
@@ -135,7 +142,7 @@
         },
         {
           "sourceId": "source-dartmouth-ai-coined",
-          "snippet": "Dartmouth\u2019s institutional account records the 1956 workshop as the place where the term artificial intelligence was coined.",
+          "snippet": "Dartmouth’s institutional account records the 1956 workshop as the place where the term artificial intelligence was coined.",
           "supports": "direct",
           "assessedAt": "2026-06-19"
         },
@@ -161,7 +168,7 @@
       "evidence": [
         {
           "sourceId": "source-samuel-1959",
-          "snippet": "Samuel\u2019s 1959 checkers work showed a program improving its play through learning from experience, an early move away from hand-coded rules.",
+          "snippet": "Samuel’s 1959 checkers work showed a program improving its play through learning from experience, an early move away from hand-coded rules.",
           "supports": "direct",
           "assessedAt": "2026-06-19"
         },
@@ -199,7 +206,7 @@
     },
     {
       "id": "claim-006",
-      "claim": "Modern AI capabilities are shaped by data, compute, people, organizations, evaluation, governance, infrastructure, and public trust\u2014not only by algorithms.",
+      "claim": "Modern AI capabilities are shaped by data, compute, people, organizations, evaluation, governance, infrastructure, and public trust—not only by algorithms.",
       "confidence": "medium-high",
       "status": "risk",
       "evidence": [
