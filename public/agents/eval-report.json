@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-20T00:00:00.000Z",
+  "generatedAt": "2026-07-15T00:00:00.000Z",
   "summary": {
     "total": 5,
-    "passed": 5,
-    "failed": 0
+    "passed": 4,
+    "failed": 1
   },
   "cases": [
     {
@@ -123,7 +123,7 @@
     {
       "id": "eval-draft-claims",
       "description": "Both published articles currently contain draft-state claims.",
-      "passed": true,
+      "passed": false,
       "query": {
         "claimState": "draft"
       },
@@ -135,52 +135,19 @@
       },
       "actual": {
         "slugs": [
-          "agent-auditable-research",
-          "agentic-commerce-product-truth",
           "ai-winters-expert-systems",
-          "before-machines",
           "birth-of-ai",
           "formal-logic-to-computation",
-          "foundation-models",
           "human-systems",
           "learning-machines",
           "long-human-road-to-ai"
         ],
         "claimIds": [
-          "article:agent-auditable-research:claim-001",
-          "article:agent-auditable-research:claim-002",
-          "article:agent-auditable-research:claim-003",
-          "article:agent-auditable-research:claim-004",
-          "article:agent-auditable-research:claim-005",
-          "article:agent-auditable-research:claim-006",
-          "article:agentic-commerce-product-truth:claim-001",
-          "article:agentic-commerce-product-truth:claim-002",
-          "article:agentic-commerce-product-truth:claim-003",
-          "article:agentic-commerce-product-truth:claim-004",
-          "article:agentic-commerce-product-truth:claim-005",
-          "article:agentic-commerce-product-truth:claim-006",
-          "article:agentic-commerce-product-truth:claim-007",
-          "article:agentic-commerce-product-truth:claim-008",
-          "article:agentic-commerce-product-truth:claim-009",
-          "article:agentic-commerce-product-truth:claim-010",
-          "article:agentic-commerce-product-truth:claim-011",
-          "article:agentic-commerce-product-truth:claim-012",
-          "article:agentic-commerce-product-truth:claim-013",
-          "article:agentic-commerce-product-truth:claim-014",
-          "article:agentic-commerce-product-truth:claim-015",
           "article:ai-winters-expert-systems:claim-001",
           "article:ai-winters-expert-systems:claim-002",
           "article:ai-winters-expert-systems:claim-003",
           "article:ai-winters-expert-systems:claim-004",
           "article:ai-winters-expert-systems:claim-005",
-          "article:before-machines:claim-001",
-          "article:before-machines:claim-002",
-          "article:before-machines:claim-003",
-          "article:before-machines:claim-004",
-          "article:before-machines:claim-005",
-          "article:before-machines:claim-006",
-          "article:before-machines:claim-007",
-          "article:before-machines:claim-008",
           "article:birth-of-ai:claim-001",
           "article:birth-of-ai:claim-002",
           "article:birth-of-ai:claim-003",
@@ -194,18 +161,6 @@
           "article:formal-logic-to-computation:claim-007",
           "article:formal-logic-to-computation:claim-008",
           "article:formal-logic-to-computation:claim-009",
-          "article:foundation-models:claim-001",
-          "article:foundation-models:claim-002",
-          "article:foundation-models:claim-003",
-          "article:foundation-models:claim-004",
-          "article:foundation-models:claim-005",
-          "article:foundation-models:claim-006",
-          "article:foundation-models:claim-007",
-          "article:foundation-models:claim-008",
-          "article:foundation-models:claim-009",
-          "article:foundation-models:claim-010",
-          "article:foundation-models:claim-011",
-          "article:foundation-models:claim-012",
           "article:human-systems:claim-001",
           "article:human-systems:claim-002",
           "article:human-systems:claim-003",
@@ -229,7 +184,10 @@
           "article:long-human-road-to-ai:claim-007"
         ]
       },
-      "failures": []
+      "failures": [
+        "missing slug agent-auditable-research",
+        "missing slug agentic-commerce-product-truth"
+      ]
     },
     {
       "id": "eval-related-to-auditable-research",

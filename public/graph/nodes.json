@@ -787,6 +787,13 @@
     "sourceType": "product"
   },
   {
+    "id": "source-behavioral-economics-choice-overload",
+    "type": "source",
+    "label": "Choice overload - Mini Encyclopedia of Behavioral Economics",
+    "url": "https://www.behavioraleconomics.com/resources/mini-encyclopedia-of-be/choice-overload/",
+    "sourceType": "encyclopedia"
+  },
+  {
     "id": "source-bert-2018",
     "type": "source",
     "label": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
@@ -799,6 +806,13 @@
     "label": "An Investigation of the Laws of Thought",
     "url": "https://archive.org/details/investigationofl01bool",
     "sourceType": "book"
+  },
+  {
+    "id": "source-britannica-abacus",
+    "type": "source",
+    "label": "Abacus",
+    "url": "https://www.britannica.com/technology/abacus",
+    "sourceType": "encyclopedia"
   },
   {
     "id": "source-britannica-automaton",
@@ -920,6 +934,13 @@
     "sourceType": "product"
   },
   {
+    "id": "source-cope-ai-authorship",
+    "type": "source",
+    "label": "Authorship and AI Tools",
+    "url": "https://publicationethics.org/cope-position-statements/ai-author",
+    "sourceType": "guidance"
+  },
+  {
     "id": "source-cornell-perceptron",
     "type": "source",
     "label": "Professor's perceptron paved the way for AI - 60 years too soon",
@@ -960,6 +981,13 @@
     "label": "Deep Learning",
     "url": "https://www.deeplearningbook.org/",
     "sourceType": "textbook"
+  },
+  {
+    "id": "source-deepmind-chinchilla-blog",
+    "type": "source",
+    "label": "An empirical analysis of compute-optimal large language model training",
+    "url": "https://deepmind.google/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/",
+    "sourceType": "blog"
   },
   {
     "id": "source-deloitte-cpo-2025",
@@ -1023,6 +1051,13 @@
     "label": "AI Act",
     "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
     "sourceType": "policy"
+  },
+  {
+    "id": "source-eu-ai-act-gpai-news",
+    "type": "source",
+    "label": "General-purpose AI obligations under the EU AI Act kick in from 2 August 2025",
+    "url": "https://www.lexology.com/library/detail.aspx?g=2b7f17a1-73bf-4338-a76e-16fc4ed394c5",
+    "sourceType": "industry-news"
   },
   {
     "id": "source-eu-ai-code",
@@ -1144,6 +1179,13 @@
     "sourceType": "standard"
   },
   {
+    "id": "source-gs1-vc-did-landscape",
+    "type": "source",
+    "label": "Verifiable Credentials and Decentralised Identifiers",
+    "url": "https://ref.gs1.org/docs/2025/VCs-and-DIDs-tech-landscape",
+    "sourceType": "industry-report"
+  },
+  {
     "id": "source-hai-ai-index",
     "type": "source",
     "label": "The 2026 AI Index Report",
@@ -1172,11 +1214,25 @@
     "sourceType": "research"
   },
   {
+    "id": "source-helm-readthedocs",
+    "type": "source",
+    "label": "HELM: Holistic Evaluation of Language Models",
+    "url": "https://crfm-helm.readthedocs.io/",
+    "sourceType": "documentation"
+  },
+  {
     "id": "source-hilbert-problems",
     "type": "source",
     "label": "Mathematical Problems",
     "url": "https://aleph0.clarku.edu/~djoyce/hilbert/problems.html",
     "sourceType": "documentation"
+  },
+  {
+    "id": "source-huggingface-bert-101",
+    "type": "source",
+    "label": "BERT 101: How does BERT work?",
+    "url": "https://huggingface.co/blog/bert-101",
+    "sourceType": "blog"
   },
   {
     "id": "source-iea-energy-ai",
@@ -1219,6 +1275,13 @@
     "label": "Measuring Digital Development: Facts and Figures 2025",
     "url": "https://www.itu.int/hub/publication/d-ind-ict_mdd-2025-3/",
     "sourceType": "official-statistics"
+  },
+  {
+    "id": "source-ixdf-progressive-disclosure",
+    "type": "source",
+    "label": "What is Progressive Disclosure?",
+    "url": "https://ixdf.org/literature/topics/progressive-disclosure",
+    "sourceType": "encyclopedia"
   },
   {
     "id": "source-lecun-docrec-1998",
@@ -1326,6 +1389,13 @@
     "sourceType": "guidance"
   },
   {
+    "id": "source-nist-genai-profile-release",
+    "type": "source",
+    "label": "NIST releases its Generative Artificial Intelligence Profile",
+    "url": "https://www.dlapiper.com/en-hk/insights/publications/ai-outlook/2024/nist-releases-its-generative-artificial-intelligence-profile",
+    "sourceType": "industry-news"
+  },
+  {
     "id": "source-nist-math-tables",
     "type": "source",
     "label": "Prehistory: The Math Tables Project",
@@ -1366,6 +1436,20 @@
     "label": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
     "url": "https://openai.com/index/buy-it-in-chatgpt/",
     "sourceType": "product"
+  },
+  {
+    "id": "source-openai-function-calling",
+    "type": "source",
+    "label": "OpenAI Function Calling Guide",
+    "url": "https://developers.openai.com/api/docs/guides/function-calling",
+    "sourceType": "documentation"
+  },
+  {
+    "id": "source-openai-instructgpt",
+    "type": "source",
+    "label": "Aligning language models to follow instructions",
+    "url": "https://openai.com/research/instruction-following",
+    "sourceType": "blog"
   },
   {
     "id": "source-openai-merchants",
@@ -1424,6 +1508,13 @@
     "sourceType": "standard"
   },
   {
+    "id": "source-privacy-preserving-auth",
+    "type": "source",
+    "label": "Privacy-Preserving Authentication: Theory vs. Practice",
+    "url": "https://arxiv.org/abs/2501.07209",
+    "sourceType": "research"
+  },
+  {
     "id": "source-provenance-2026",
     "type": "source",
     "label": "Responsible Agentic AI Requires Explicit Provenance",
@@ -1457,6 +1548,20 @@
     "label": "ReAct: Synergizing Reasoning and Acting in Language Models",
     "url": "https://arxiv.org/abs/2210.03629",
     "sourceType": "research"
+  },
+  {
+    "id": "source-redhat-foundation-models",
+    "type": "source",
+    "label": "What are foundation models for AI?",
+    "url": "https://www.redhat.com/en/topics/ai/what-are-foundation-models",
+    "sourceType": "documentation"
+  },
+  {
+    "id": "source-reuters-genai-news-report",
+    "type": "source",
+    "label": "Generative AI and News Report 2025: How people think about AI's role in journalism and society",
+    "url": "https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2025-how-people-think-about-ais-role-journalism-and-society",
+    "sourceType": "report"
   },
   {
     "id": "source-rlhf-2022",
@@ -1611,6 +1716,13 @@
     "label": "Punch Cards",
     "url": "https://www.si.edu/spotlight/punch-cards",
     "sourceType": "museum-exhibit"
+  },
+  {
+    "id": "source-stanford-ai-index-news",
+    "type": "source",
+    "label": "Inside the AI Index: 12 takeaways from the 2026 report",
+    "url": "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report",
+    "sourceType": "news"
   },
   {
     "id": "source-status-quo-bias",
