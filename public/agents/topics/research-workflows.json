@@ -30,9 +30,9 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
       "agentJsonPath": "/agents/articles/agent-auditable-research.json",
       "agentMarkdownPath": "/agents/articles/agent-auditable-research.md",
-      "updatedAt": "2026-06-17",
+      "updatedAt": "2026-07-15",
       "claimCount": 6,
-      "sourceCount": 9,
+      "sourceCount": 12,
       "tokenEstimate": 473,
       "contentHash": "9cc411aa12445fd609490b32242da73e065ef4052557270e21a9f0ef8b724aa4"
     }

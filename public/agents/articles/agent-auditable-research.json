@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-17",
-  "updatedAt": "2026-06-17",
+  "updatedAt": "2026-07-15",
   "audiences": [
     "independent researchers",
     "students",
@@ -41,6 +41,12 @@
           "snippet": "Evidence snippet pending.",
           "supports": "direct",
           "assessedAt": "2026-06-17"
+        },
+        {
+          "sourceId": "source-reuters-genai-news-report",
+          "snippet": "The Reuters Institute report examines public attitudes toward generative AI in journalism, noting concerns about accuracy and trust as AI-generated content becomes abundant.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
         }
       ],
       "counterevidence": [
@@ -48,7 +54,12 @@
           "summary": "High-quality human judgment and taste remain hard to automate; the claim is about the marginal cost of competent prose, not the end of authorship.",
           "assessedAt": "2026-06-17"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-002",
@@ -80,7 +91,12 @@
           "summary": "The exact schema is not standardized and may vary by community.",
           "assessedAt": "2026-06-17"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-003",
@@ -106,7 +122,12 @@
           "summary": "Mainstream publishing may adopt agent workflows faster if distribution incentives are stronger.",
           "assessedAt": "2026-06-17"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-004",
@@ -144,7 +165,12 @@
           "summary": "Some tools may evolve into this combined artifact quickly.",
           "assessedAt": "2026-06-17"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-005",
@@ -163,6 +189,12 @@
           "snippet": "Evidence snippet pending.",
           "supports": "direct",
           "assessedAt": "2026-06-17"
+        },
+        {
+          "sourceId": "source-cope-ai-authorship",
+          "snippet": "COPE's position statement clarifies that AI tools cannot be listed as authors because they cannot take responsibility for the work, and human authors must disclose AI use.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
         }
       ],
       "counterevidence": [
@@ -170,7 +202,12 @@
           "summary": "Disclosure norms differ by venue and are still evolving.",
           "assessedAt": "2026-06-17"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-006",
@@ -195,6 +232,12 @@
           "snippet": "Evidence snippet pending.",
           "supports": "direct",
           "assessedAt": "2026-06-17"
+        },
+        {
+          "sourceId": "source-ixdf-progressive-disclosure",
+          "snippet": "The Interaction Design Foundation describes progressive disclosure as a UX technique that defers advanced features to reduce cognitive load while keeping functionality accessible.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
         }
       ],
       "counterevidence": [
@@ -202,7 +245,12 @@
           "summary": "Badly implemented progressive disclosure can hide important context.",
           "assessedAt": "2026-06-17"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     }
   ],
   "sources": [
@@ -268,6 +316,27 @@
       "url": "https://www.nngroup.com/articles/4-principles-reduce-cognitive-load/",
       "type": "design",
       "accessed": "2026-06-17"
+    },
+    {
+      "id": "source-reuters-genai-news-report",
+      "title": "Generative AI and News Report 2025: How people think about AI's role in journalism and society",
+      "url": "https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2025-how-people-think-about-ais-role-journalism-and-society",
+      "type": "report",
+      "accessed": "2026-07-15"
+    },
+    {
+      "id": "source-cope-ai-authorship",
+      "title": "Authorship and AI Tools",
+      "url": "https://publicationethics.org/cope-position-statements/ai-author",
+      "type": "guidance",
+      "accessed": "2026-07-15"
+    },
+    {
+      "id": "source-ixdf-progressive-disclosure",
+      "title": "What is Progressive Disclosure?",
+      "url": "https://ixdf.org/literature/topics/progressive-disclosure",
+      "type": "encyclopedia",
+      "accessed": "2026-07-15"
     }
   ],
   "related": [],
@@ -302,7 +371,7 @@
       "version": "1.0.0"
     }
   },
-  "generatedAt": "2026-06-20T00:00:00.000Z",
+  "generatedAt": "2026-07-15T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
   "agentJsonPath": "/agents/articles/agent-auditable-research.json",
   "agentMarkdownPath": "/agents/articles/agent-auditable-research.md",

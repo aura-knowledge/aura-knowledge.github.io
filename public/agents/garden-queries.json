@@ -3,10 +3,10 @@
   "schema": "https://aura-knowledge.github.io/schemas/garden-queries.schema.json",
   "site": "https://aura-knowledge.github.io",
   "base": "",
-  "generatedAt": "2026-06-20T00:00:00.000Z",
+  "generatedAt": "2026-07-15T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 259
+    "totalResults": 271
   },
   "dimensions": [
     {
@@ -125,6 +125,7 @@
         "article",
         "benchmark-site",
         "biographical-reference",
+        "blog",
         "book",
         "case-study",
         "conference-paper",
@@ -141,6 +142,7 @@
         "guidance",
         "historical-analysis",
         "historiographic-commentary",
+        "industry-news",
         "industry-report",
         "institutional-history",
         "institutional-report",
@@ -151,6 +153,7 @@
         "museum-research-project",
         "museum-story",
         "museum-timeline",
+        "news",
         "official-framework",
         "official-guidance",
         "official-report-series",
@@ -912,7 +915,7 @@
         "groupBy": "sourceType"
       },
       "resultType": "sources",
-      "resultCount": 170,
+      "resultCount": 186,
       "results": [
         {
           "articleId": "article:human-systems",
@@ -1073,6 +1076,36 @@
           "sourceTitle": "Edward A. Feigenbaum: A.M. Turing Award Laureate profile",
           "sourceType": "biographical-reference",
           "sourceUrl": "https://amturing.acm.org/award_winners/feigenbaum_4167235.cfm"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-huggingface-bert-101",
+          "sourceTitle": "BERT 101: How does BERT work?",
+          "sourceType": "blog",
+          "sourceUrl": "https://huggingface.co/blog/bert-101"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-deepmind-chinchilla-blog",
+          "sourceTitle": "An empirical analysis of compute-optimal large language model training",
+          "sourceType": "blog",
+          "sourceUrl": "https://deepmind.google/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-openai-instructgpt",
+          "sourceTitle": "Aligning language models to follow instructions",
+          "sourceType": "blog",
+          "sourceUrl": "https://openai.com/research/instruction-following"
         },
         {
           "articleId": "article:birth-of-ai",
@@ -1295,6 +1328,56 @@
           "sourceUrl": "https://www.britannica.com/science/cybernetics"
         },
         {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-redhat-foundation-models",
+          "sourceTitle": "What are foundation models for AI?",
+          "sourceType": "documentation",
+          "sourceUrl": "https://www.redhat.com/en/topics/ai/what-are-foundation-models"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-openai-function-calling",
+          "sourceTitle": "OpenAI Function Calling Guide",
+          "sourceType": "documentation",
+          "sourceUrl": "https://developers.openai.com/api/docs/guides/function-calling"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-helm-readthedocs",
+          "sourceTitle": "HELM: Holistic Evaluation of Language Models",
+          "sourceType": "documentation",
+          "sourceUrl": "https://crfm-helm.readthedocs.io/"
+        },
+        {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "sourceId": "source-ixdf-progressive-disclosure",
+          "sourceTitle": "What is Progressive Disclosure?",
+          "sourceType": "encyclopedia",
+          "sourceUrl": "https://ixdf.org/literature/topics/progressive-disclosure"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-behavioral-economics-choice-overload",
+          "sourceTitle": "Choice overload - Mini Encyclopedia of Behavioral Economics",
+          "sourceType": "encyclopedia",
+          "sourceUrl": "https://www.behavioraleconomics.com/resources/mini-encyclopedia-of-be/choice-overload/"
+        },
+        {
           "articleId": "article:before-machines",
           "slug": "before-machines",
           "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
@@ -1323,6 +1406,16 @@
           "sourceTitle": "The Modern History of Computing",
           "sourceType": "encyclopedia",
           "sourceUrl": "https://plato.stanford.edu/entries/computing-history/"
+        },
+        {
+          "articleId": "article:before-machines",
+          "slug": "before-machines",
+          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
+          "agentJsonPath": "/agents/articles/before-machines.json",
+          "sourceId": "source-britannica-abacus",
+          "sourceTitle": "Abacus",
+          "sourceType": "encyclopedia",
+          "sourceUrl": "https://www.britannica.com/technology/abacus"
         },
         {
           "articleId": "article:long-human-road-to-ai",
@@ -1395,6 +1488,16 @@
           "sourceUrl": "https://www.nist.gov/mathematics-statistics/prehistory-math-tables-project"
         },
         {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "sourceId": "source-cope-ai-authorship",
+          "sourceTitle": "Authorship and AI Tools",
+          "sourceType": "guidance",
+          "sourceUrl": "https://publicationethics.org/cope-position-statements/ai-author"
+        },
+        {
           "articleId": "article:foundation-models",
           "slug": "foundation-models",
           "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
@@ -1445,6 +1548,26 @@
           "sourceUrl": "https://cacm.acm.org/opinion/how-the-ai-boom-went-bust/"
         },
         {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-nist-genai-profile-release",
+          "sourceTitle": "NIST releases its Generative Artificial Intelligence Profile",
+          "sourceType": "industry-news",
+          "sourceUrl": "https://www.dlapiper.com/en-hk/insights/publications/ai-outlook/2024/nist-releases-its-generative-artificial-intelligence-profile"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-eu-ai-act-gpai-news",
+          "sourceTitle": "General-purpose AI obligations under the EU AI Act kick in from 2 August 2025",
+          "sourceType": "industry-news",
+          "sourceUrl": "https://www.lexology.com/library/detail.aspx?g=2b7f17a1-73bf-4338-a76e-16fc4ed394c5"
+        },
+        {
           "articleId": "article:agentic-commerce-product-truth",
           "slug": "agentic-commerce-product-truth",
           "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
@@ -1453,6 +1576,16 @@
           "sourceTitle": "How Amazon uses AI innovations to stop fraud and counterfeits",
           "sourceType": "industry-report",
           "sourceUrl": "https://www.aboutamazon.com/news/policy-new-views/amazon-brand-protection-report-2024-counterfeit-products"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-gs1-vc-did-landscape",
+          "sourceTitle": "Verifiable Credentials and Decentralised Identifiers",
+          "sourceType": "industry-report",
+          "sourceUrl": "https://ref.gs1.org/docs/2025/VCs-and-DIDs-tech-landscape"
         },
         {
           "articleId": "article:ai-winters-expert-systems",
@@ -1673,6 +1806,16 @@
           "sourceTitle": "Timeline of Computer History",
           "sourceType": "museum-timeline",
           "sourceUrl": "https://www.computerhistory.org/timeline/"
+        },
+        {
+          "articleId": "article:foundation-models",
+          "slug": "foundation-models",
+          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
+          "agentJsonPath": "/agents/articles/foundation-models.json",
+          "sourceId": "source-stanford-ai-index-news",
+          "sourceTitle": "Inside the AI Index: 12 takeaways from the 2026 report",
+          "sourceType": "news",
+          "sourceUrl": "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report"
         },
         {
           "articleId": "article:human-systems",
@@ -2075,6 +2218,16 @@
           "sourceUrl": "https://www.epa.gov/saferchoice/products"
         },
         {
+          "articleId": "article:agent-auditable-research",
+          "slug": "agent-auditable-research",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
+          "agentJsonPath": "/agents/articles/agent-auditable-research.json",
+          "sourceId": "source-reuters-genai-news-report",
+          "sourceTitle": "Generative AI and News Report 2025: How people think about AI's role in journalism and society",
+          "sourceType": "report",
+          "sourceUrl": "https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2025-how-people-think-about-ais-role-journalism-and-society"
+        },
+        {
           "articleId": "article:birth-of-ai",
           "slug": "birth-of-ai",
           "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
@@ -2243,6 +2396,16 @@
           "sourceTitle": "Bayesian Truth Serum",
           "sourceType": "research",
           "sourceUrl": "https://nel.mit.edu/bayesian-truth-serum/"
+        },
+        {
+          "articleId": "article:agentic-commerce-product-truth",
+          "slug": "agentic-commerce-product-truth",
+          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
+          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
+          "sourceId": "source-privacy-preserving-auth",
+          "sourceTitle": "Privacy-Preserving Authentication: Theory vs. Practice",
+          "sourceType": "research",
+          "sourceUrl": "https://arxiv.org/abs/2501.07209"
         },
         {
           "articleId": "article:foundation-models",
@@ -2624,31 +2787,13 @@
         "status": "published"
       },
       "resultType": "articles",
-      "resultCount": 10,
+      "resultCount": 6,
       "results": [
-        {
-          "articleId": "article:agent-auditable-research",
-          "slug": "agent-auditable-research",
-          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
-          "agentJsonPath": "/agents/articles/agent-auditable-research.json"
-        },
-        {
-          "articleId": "article:agentic-commerce-product-truth",
-          "slug": "agentic-commerce-product-truth",
-          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
-          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json"
-        },
         {
           "articleId": "article:ai-winters-expert-systems",
           "slug": "ai-winters-expert-systems",
           "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
           "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json"
-        },
-        {
-          "articleId": "article:before-machines",
-          "slug": "before-machines",
-          "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
-          "agentJsonPath": "/agents/articles/before-machines.json"
         },
         {
           "articleId": "article:birth-of-ai",
@@ -2661,12 +2806,6 @@
           "slug": "formal-logic-to-computation",
           "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
           "agentJsonPath": "/agents/articles/formal-logic-to-computation.json"
-        },
-        {
-          "articleId": "article:foundation-models",
-          "slug": "foundation-models",
-          "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
-          "agentJsonPath": "/agents/articles/foundation-models.json"
         },
         {
           "articleId": "article:human-systems",

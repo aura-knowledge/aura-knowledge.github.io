@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-18",
-  "updatedAt": "2026-06-18",
+  "updatedAt": "2026-07-15",
   "audiences": [
     "consumer product builders",
     "commerce platform teams",
@@ -62,7 +62,12 @@
           "summary": "Back-end recommendation and personalization systems already influence buying, so the claim is about the dominant customer-facing interface rather than the whole commerce stack.",
           "assessedAt": "2026-06-18"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-002",
@@ -81,6 +86,12 @@
           "snippet": "Evidence snippet pending.",
           "supports": "direct",
           "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-behavioral-economics-choice-overload",
+          "snippet": "BehavioralEconomics.com defines choice overload as the phenomenon where too many available options lead consumers to delay decisions or experience lower satisfaction.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
         }
       ],
       "counterevidence": [
@@ -88,7 +99,12 @@
           "summary": "Some brand loyalty is genuine preference, identity, trust, or satisfaction rather than exploration friction.",
           "assessedAt": "2026-06-18"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-003",
@@ -133,7 +149,12 @@
           "summary": "AI shopping traffic is growing quickly but still competes with entrenched search, marketplace, social, and brand channels.",
           "assessedAt": "2026-06-18"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-004",
@@ -177,7 +198,12 @@
           "summary": "Existing product feeds and marketplace data may evolve fast enough to cover many agent needs without a separate public layer.",
           "assessedAt": "2026-06-18"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-005",
@@ -221,7 +247,12 @@
           "summary": "Open protocols can still be captured by dominant implementations, ranking power, merchant incentives, or payment platforms.",
           "assessedAt": "2026-06-18"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-006",
@@ -259,7 +290,12 @@
           "summary": "Structured feedback may reduce nuance, and automated summaries can misrepresent the user's actual experience without explicit consent.",
           "assessedAt": "2026-06-18"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-007",
@@ -298,7 +334,12 @@
           "summary": "Operational constraints, approval workflows, contracts, integration risk, product compatibility, and messy catalog data can still slow even narrow B2B procurement experiments.",
           "assessedAt": "2026-06-18"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-008",
@@ -342,7 +383,12 @@
           "summary": "A product built mainly for acquisition can become weak if it does not create independent user value.",
           "assessedAt": "2026-06-18"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-009",
@@ -380,7 +426,12 @@
           "summary": "Claim ledgers can become complex, hard for consumers to inspect directly, and vulnerable to capture if the agents or schemas are controlled by dominant platforms.",
           "assessedAt": "2026-06-18"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-010",
@@ -418,7 +469,12 @@
           "summary": "Offline proof can be forged or colluded around, and evidence-tier systems can become compliance overhead that favors large brands if not designed carefully.",
           "assessedAt": "2026-06-18"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-011",
@@ -462,7 +518,12 @@
           "summary": "Strong enforcement, signed credentials, selective disclosure, independent audits, and dispute penalties can reduce manipulation even if they cannot eliminate it.",
           "assessedAt": "2026-06-18"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-012",
@@ -493,6 +554,12 @@
           "snippet": "Evidence snippet pending.",
           "supports": "direct",
           "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-privacy-preserving-auth",
+          "snippet": "The survey discusses anonymous credential systems that let subjects prove possession of a credential under a verifier-specific pseudonym while remaining unlinkable across interactions.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
         }
       ],
       "counterevidence": [
@@ -500,7 +567,12 @@
           "summary": "Private tokens can still be abused through token resale, issuer collusion, metadata leakage, redemption timing, device fingerprinting, or overly narrow product scopes.",
           "assessedAt": "2026-06-18"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-013",
@@ -538,7 +610,12 @@
           "summary": "Social proof is highly manipulable, sponsored content can be hidden, and media provenance standards only help when adopted and displayed clearly.",
           "assessedAt": "2026-06-18"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-014",
@@ -569,6 +646,12 @@
           "snippet": "Evidence snippet pending.",
           "supports": "direct",
           "assessedAt": "2026-06-18"
+        },
+        {
+          "sourceId": "source-gs1-vc-did-landscape",
+          "snippet": "GS1's technical landscape describes how Verifiable Credentials and Decentralised Identifiers can provide signed, verifiable product provenance and scoped claims.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
         }
       ],
       "counterevidence": [
@@ -576,7 +659,12 @@
           "summary": "Even scoped claim infrastructure can be captured by dominant platforms, schema owners, or verifier markets if governance and portability are weak.",
           "assessedAt": "2026-06-18"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-015",
@@ -626,7 +714,12 @@
           "summary": "Liability, auditor, and dispute layers can become expensive compliance overhead, creating incumbent advantage if applied too broadly or without small-seller paths.",
           "assessedAt": "2026-06-18"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     }
   ],
   "sources": [
@@ -867,6 +960,27 @@
       "url": "https://www.epa.gov/saferchoice/products",
       "type": "regulatory-data",
       "accessed": "2026-06-18"
+    },
+    {
+      "id": "source-behavioral-economics-choice-overload",
+      "title": "Choice overload - Mini Encyclopedia of Behavioral Economics",
+      "url": "https://www.behavioraleconomics.com/resources/mini-encyclopedia-of-be/choice-overload/",
+      "type": "encyclopedia",
+      "accessed": "2026-07-15"
+    },
+    {
+      "id": "source-privacy-preserving-auth",
+      "title": "Privacy-Preserving Authentication: Theory vs. Practice",
+      "url": "https://arxiv.org/abs/2501.07209",
+      "type": "research",
+      "accessed": "2026-07-15"
+    },
+    {
+      "id": "source-gs1-vc-did-landscape",
+      "title": "Verifiable Credentials and Decentralised Identifiers",
+      "url": "https://ref.gs1.org/docs/2025/VCs-and-DIDs-tech-landscape",
+      "type": "industry-report",
+      "accessed": "2026-07-15"
     }
   ],
   "related": [
@@ -917,7 +1031,7 @@
       "version": "1.0.0"
     }
   },
-  "generatedAt": "2026-06-20T00:00:00.000Z",
+  "generatedAt": "2026-07-15T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
   "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
   "agentMarkdownPath": "/agents/articles/agentic-commerce-product-truth.md",

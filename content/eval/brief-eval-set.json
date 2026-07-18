@@ -28,11 +28,11 @@
       }
     },
     {
-      "id": "eval-draft-claims",
-      "description": "Both published articles currently contain draft-state claims.",
-      "query": { "claimState": "draft" },
+      "id": "eval-verified-claims",
+      "description": "The four articles whose evidence was strengthened now contain only verified-state claims.",
+      "query": { "claimState": "verified" },
       "expected": {
-        "slugs": ["agent-auditable-research", "agentic-commerce-product-truth"]
+        "slugs": ["agent-auditable-research", "agentic-commerce-product-truth", "before-machines", "foundation-models"]
       }
     },
     {

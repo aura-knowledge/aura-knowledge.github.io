@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-06-20T00:00:00.000Z",
+  "generatedAt": "2026-07-15T00:00:00.000Z",
   "site": "https://aura-knowledge.github.io",
   "base": "",
   "articles": [
@@ -27,9 +27,9 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
       "agentJsonPath": "/agents/articles/agent-auditable-research.json",
       "agentMarkdownPath": "/agents/articles/agent-auditable-research.md",
-      "updatedAt": "2026-06-17",
+      "updatedAt": "2026-07-15",
       "claimCount": 6,
-      "sourceCount": 9,
+      "sourceCount": 12,
       "tokenEstimate": 473,
       "contentHash": "9cc411aa12445fd609490b32242da73e065ef4052557270e21a9f0ef8b724aa4"
     },
@@ -58,9 +58,9 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
       "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
       "agentMarkdownPath": "/agents/articles/agentic-commerce-product-truth.md",
-      "updatedAt": "2026-06-18",
+      "updatedAt": "2026-07-15",
       "claimCount": 15,
-      "sourceCount": 34,
+      "sourceCount": 37,
       "tokenEstimate": 1431,
       "contentHash": "4014d7d5a97200dd5194fd5c82e83c9d74f602ccc90fc5ec9abf2e393643e302"
     },
@@ -126,9 +126,9 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/before-machines/",
       "agentJsonPath": "/agents/articles/before-machines.json",
       "agentMarkdownPath": "/agents/articles/before-machines.md",
-      "updatedAt": "2026-06-20",
+      "updatedAt": "2026-07-15",
       "claimCount": 8,
-      "sourceCount": 21,
+      "sourceCount": 22,
       "tokenEstimate": 698,
       "contentHash": "62d909d5e9f88204dabd2fb1f284d1077e805963e509747a07706e9d8ade9c38"
     },
@@ -226,9 +226,9 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
       "agentJsonPath": "/agents/articles/foundation-models.json",
       "agentMarkdownPath": "/agents/articles/foundation-models.md",
-      "updatedAt": "2026-06-20",
+      "updatedAt": "2026-07-15",
       "claimCount": 12,
-      "sourceCount": 19,
+      "sourceCount": 28,
       "tokenEstimate": 801,
       "contentHash": "14bbae6f14e0ba003b3697a100f866d7f411d8720590344a4c3d1a72dad84f25"
     },
@@ -654,16 +654,23 @@
       "pageUrl": "https://aura-knowledge.github.io/articles/2026/",
       "months": [
         {
-          "yearMonth": "2026-06",
-          "monthName": "June",
+          "yearMonth": "2026-07",
+          "monthName": "July",
           "articleIds": [
             "article:agent-auditable-research",
             "article:agentic-commerce-product-truth",
-            "article:ai-winters-expert-systems",
             "article:before-machines",
+            "article:foundation-models"
+          ],
+          "pageUrl": "https://aura-knowledge.github.io/articles/2026/07/"
+        },
+        {
+          "yearMonth": "2026-06",
+          "monthName": "June",
+          "articleIds": [
+            "article:ai-winters-expert-systems",
             "article:birth-of-ai",
             "article:formal-logic-to-computation",
-            "article:foundation-models",
             "article:human-systems",
             "article:learning-machines",
             "article:long-human-road-to-ai"
