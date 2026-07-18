@@ -36,11 +36,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-demographic-dividend-is-not-automatic/",
       "agentJsonPath": "/agents/articles/the-demographic-dividend-is-not-automatic.json",
       "agentMarkdownPath": "/agents/articles/the-demographic-dividend-is-not-automatic.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 185,
-      "contentHash": "3046c0bc6ee177dfef3a39376fb328d53b6a95240cb02a5b0fcf3a3f9b829a93"
+      "contentHash": "5e3ffb6ea9e815b8fd8ce026449c64f16eec6ec2bf392591adfe5b87dd9ab015"
     }
   ]
 }

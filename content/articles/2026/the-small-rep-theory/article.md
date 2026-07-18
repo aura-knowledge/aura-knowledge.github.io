@@ -6,8 +6,8 @@ title: "The Small-Rep Theory"
 dek: "A practical theory of skill-building for an attention-extraction age: small, focused, repeated work beats heroic intensity."
 date: 2026-07-05
 updated: 2026-07-05
-status: published
-maturity: seed
+status: archived
+maturity: superseded
 topic: attention-economy
 tags:
   - attention-economy

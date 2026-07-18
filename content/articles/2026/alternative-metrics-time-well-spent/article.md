@@ -23,7 +23,6 @@ agentArtifact: /agents/articles/alternative-metrics-time-well-spent.json
 sourcePath: content/articles/2026/alternative-metrics-time-well-spent/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 38</p>
 
 Every platform has a dashboard. Somewhere, a team watches numbers move: daily active users, watch time, scroll depth, retention, ad impressions. Those numbers are treated as truth, but they are choices. What gets measured gets made.
 

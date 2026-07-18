@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-18",
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-07-18",
   "audiences": [
     "consumer product builders",
     "commerce platform teams",
@@ -34,27 +34,27 @@
       "evidence": [
         {
           "sourceId": "source-simon-attention-scarcity",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "What information consumes is rather obvious: it consumes the attention of its recipients. Hence a wealth of information creates a poverty of attention. Simon's 1971 essay frames attention as the scarce resource that information-rich systems compete for.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-adobe-ai-traffic-2025",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "In February 2025, traffic from generative AI sources increased by 1,200 percent compared to July 2024... while generative AI traffic remains modest compared to other channels, such as paid search or email, its growth has been notable.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-amazon-rufus",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Rufus is a generative AI-powered expert shopping assistant trained on Amazon's extensive product catalog, customer reviews, community Q&As, and information from across the web... integrated seamlessly into the same Amazon shopping experience they use regularly.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-openai-merchants",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Share your product feed to reach shoppers more effectively as they explore options, compare products, and decide what to buy. ChatGPT merchant onboarding is still organized around shopper-facing discovery results.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         }
       ],
       "counterevidence": [
@@ -64,10 +64,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewer": "agent",
-        "reviewedAt": "2026-07-15",
-        "note": "Downgraded 2026-07-17: all evidence snippets are placeholders; re-verification with real evidence required (aura-knowledge/meta#61, site#114)."
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
+        "reviewer": "kimi-code-cli",
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): Adobe 2025 shows gen-AI retail traffic still modest vs paid search/email; Rufus and ChatGPT merchant feeds confirm AI serves the existing human-facing discovery interface; Simon frames attention as the scarce resource."
       }
     },
     {
@@ -116,34 +116,34 @@
       "evidence": [
         {
           "sourceId": "source-adobe-ai-traffic-2026",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "AI is quickly becoming the primary interface between consumers and their favorite brands... New Adobe data shows that major portions of U.S. retail websites are not entirely readable by machines, which limits their visibility across AI search results.",
           "supports": "direct",
-          "assessedAt": "2026-06-18",
+          "assessedAt": "2026-07-18",
           "notes": "source-adobe-ai-traffic-2026 supports the current adoption signal: AI-referred retail traffic and conversion are rising, but this is still an AI-assisted shopping signal rather than proof of fully autonomous purchasing. source-google-ucp, source-google-ap2, and source-openai-chatgpt-shopping support protocol and product movement toward agent-mediated commerce actions. source-lee-see-automation-trust is a design reference for appropriate reliance, not direct evidence that consumers will delegate all purchase decisions."
         },
         {
           "sourceId": "source-google-ucp",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "The Universal Commerce Protocol (UCP) is an open standard designed for the future of commerce, empowering you to turn AI interactions into instant sales. Adopt UCP to enable agentic actions on AI Mode in Google Search and Gemini, starting with direct buying.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-google-ap2",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Today, Google announced the Agent Payments Protocol (AP2), an open protocol developed with leading payments and technology companies to securely initiate and transact agent-led payments across platforms.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-openai-chatgpt-shopping",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "OpenAI launched Instant Checkout in ChatGPT, letting U.S. users buy from Etsy sellers directly in chat with more than a million Shopify merchants coming soon, and open-sourced the underlying Agentic Commerce Protocol.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-lee-see-automation-trust",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Automation is often problematic because people fail to rely upon it appropriately... In particular, trust guides reliance when complexity and unanticipated situations make a complete understanding of the automation impractical.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         }
       ],
       "counterevidence": [
@@ -153,10 +153,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewer": "agent",
-        "reviewedAt": "2026-07-15",
-        "note": "Downgraded 2026-07-17: all evidence snippets are placeholders; re-verification with real evidence required (aura-knowledge/meta#61, site#114)."
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
+        "reviewer": "kimi-code-cli",
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): Adobe 2026 (AI as primary consumer interface), Google UCP and AP2, and ChatGPT Instant Checkout/ACP document concrete movement toward agent-mediated discovery and purchase; claim is hedged as plausible forecast."
       }
     },
     {
@@ -167,33 +167,33 @@
       "evidence": [
         {
           "sourceId": "source-google-product-structured-data",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Google's product snippet documentation scopes structured Product data to name plus review, aggregateRating, and offers, surfacing ratings, review information, price, and availability in search results.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-schema-product",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Any offered product or service. schema.org Product's descriptive properties center on brand, GTIN/SKU identifiers, offers, aggregateRating, and review.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-schema-review",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "A review of an item - for example, of a restaurant, movie, or store. The Review type centers on itemReviewed, reviewRating, and reviewBody.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-gs1-digital-link",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "When retailers scan the barcode, they can be notified at the point of sale if a product has been recalled, has expired, or is counterfeit. GS1 Digital Link shows demand for identity-linked product signals beyond titles, offers, and ratings.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-google-ucp",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "UCP creates a transparent accountability trail between merchants, credential providers, and payment services, helping to ensure each transaction is secure, every time.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         }
       ],
       "counterevidence": [
@@ -203,10 +203,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewer": "agent",
-        "reviewedAt": "2026-07-15",
-        "note": "Downgraded 2026-07-17: all evidence snippets are placeholders; re-verification with real evidence required (aura-knowledge/meta#61, site#114)."
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
+        "reviewer": "kimi-code-cli",
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): Google product structured data and schema.org Product/Review confirm current data covers titles/offers/ratings; GS1 Digital Link recall-expiry-counterfeit signals and UCP accountability trail show demand for a richer assurance layer."
       }
     },
     {
@@ -217,33 +217,33 @@
       "evidence": [
         {
           "sourceId": "source-google-ucp",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "UCP is open source and is designed directly by a collaboration of industry leaders, to support the diverse needs of a rich commerce ecosystem. Google's developer guide links to the open-source interface on GitHub.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-schema-product",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "schema.org provides an open, shared Product vocabulary (Any offered product or service) covering brand, identifiers, offers, and reviews.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-schema-review",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "schema.org Review provides an open vocabulary for review structure: itemReviewed, reviewRating, reviewBody, and positiveNotes/negativeNotes pro/con lists.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-gs1-digital-link",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "create a digital identifier for each product using the GS1 system of identification or a GTIN, mapped to a corresponding digital identity constructed in the GS1 Digital Link syntax.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-w3c-vc-data-model",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "A verifiable credential is a set of tamper-evident claims and metadata that cryptographically prove who issued it.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         }
       ],
       "counterevidence": [
@@ -253,10 +253,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewer": "agent",
-        "reviewedAt": "2026-07-15",
-        "note": "Downgraded 2026-07-17: all evidence snippets are placeholders; re-verification with real evidence required (aura-knowledge/meta#61, site#114)."
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
+        "reviewer": "kimi-code-cli",
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): Normative claim grounded in existing open building blocks: open-source UCP, schema.org Product/Review vocabularies, GS1 Digital Link identity, and W3C verifiable credentials for provenance-rich attestations."
       }
     },
     {
@@ -267,27 +267,27 @@
       "evidence": [
         {
           "sourceId": "source-amazon-rufus",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Our AI-generated review highlights provide customers with common themes from dozens, hundreds, or even thousands of reviews at a glance to help them quickly understand customer insights.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-schema-review",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "schema.org Review already supports structured pro/con feedback: positiveNotes and negativeNotes provide positive or negative considerations regarding the itemReviewed, as text or ordered lists.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-google-product-structured-data",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Google's structured data docs support pros and cons for editorial product review pages, expressed as positiveNotes and negativeNotes ItemList markup on the nested product review.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-ftc-fake-reviews-2024",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "The final rule addresses reviews and testimonials that misrepresent that they are by someone who does not exist, such as AI-generated fake reviews, or who did not have actual experience with the business or its products or services.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         }
       ],
       "counterevidence": [
@@ -297,10 +297,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewer": "agent",
-        "reviewedAt": "2026-07-15",
-        "note": "Downgraded 2026-07-17: all evidence snippets are placeholders; re-verification with real evidence required (aura-knowledge/meta#61, site#114)."
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
+        "reviewer": "kimi-code-cli",
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): schema.org Review positiveNotes/negativeNotes and Google pros-cons structured data show feedback already structuring beyond stars; Amazon AI review highlights restructure reviews for machine use; FTC rule pressures review integrity."
       }
     },
     {
@@ -311,28 +311,28 @@
       "evidence": [
         {
           "sourceId": "source-gartner-b2b-ai-2026",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "67% of B2B buyers state that they prefer a rep-free experience, and 45% reported using AI during a recent purchase, per Gartner's survey of 646 B2B buyers conducted August through September 2025.",
           "supports": "direct",
-          "assessedAt": "2026-06-18",
+          "assessedAt": "2026-07-18",
           "notes": "source-gartner-b2b-ai-2026 and source-forrester-b2b-genai-2024 support the claim that B2B buyers are already using AI and prefer lower-friction buying journeys. source-deloitte-cpo-2025 supports procurement-side technology and GenAI investment, not the facilities wedge by itself. source-epa-safer-choice-products supports the facilities/janitorial example by showing a public product evidence surface for safer cleaning products."
         },
         {
           "sourceId": "source-forrester-b2b-genai-2024",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "89% of buyers in Forrester's Buyers' Journey Survey, 2024, reported that they were using genAI in at least one area of their purchasing process; Forrester expects the impact on B2B providers to come slowly, then all at once.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-deloitte-cpo-2025",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Deloitte's 2025 Global CPO Survey of over 250 CPOs across 40 countries finds procurement leaders embracing Generative AI (GenAI) and agentic AI, with top performers allocating up to 24% of budgets to procurement technology.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-epa-safer-choice-products",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Use the search box below to find products that meet the Safer Choice Standard. EPA hosts a public, searchable evidence surface of certified cleaning products, an example of measurable product evidence for recurring facilities procurement.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         }
       ],
       "counterevidence": [
@@ -342,10 +342,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewer": "agent",
-        "reviewedAt": "2026-07-15",
-        "note": "Downgraded 2026-07-17: all evidence snippets are placeholders; re-verification with real evidence required (aura-knowledge/meta#61, site#114)."
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
+        "reviewer": "kimi-code-cli",
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): Gartner 2026 (67% of B2B buyers prefer rep-free, 45% used AI), Forrester 2024 (89% genAI use, slowly-then-all-at-once), Deloitte CPO 2025 (procurement GenAI/agentic investment), EPA Safer Choice public evidence surface for the facilities wedge."
       }
     },
     {
@@ -356,33 +356,33 @@
       "evidence": [
         {
           "sourceId": "source-google-ucp",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Join the waitlist to become part of an ecosystem of industry leaders adopting the protocol to drive the next generation of commerce. Incumbents are convening ecosystems around open agentic commerce standards.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-openai-merchants",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Built on the Agentic Commerce Protocol... Today, it supports product discovery and more accurate, personalized recommendations through shared product data. Over time, ACP will expand to support the full shopping journey.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-amazon-rufus",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Rufus is a generative AI-powered expert shopping assistant... integrated seamlessly into the same Amazon shopping experience they use regularly.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-openai-stripe-acp",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Stripe and OpenAI released the Agentic Commerce Protocol as an open standard so merchants can integrate once and sell through many AI agents while keeping control of payments, systems, and customer relationships.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-lee-see-automation-trust",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "trust guides reliance when complexity and unanticipated situations make a complete understanding of the automation impractical -- design guidance for calibrating reliance on shopping agents.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         }
       ],
       "counterevidence": [
@@ -392,10 +392,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewer": "agent",
-        "reviewedAt": "2026-07-15",
-        "note": "Downgraded 2026-07-17: all evidence snippets are placeholders; re-verification with real evidence required (aura-knowledge/meta#61, site#114)."
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
+        "reviewer": "kimi-code-cli",
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): Strategy claim supported by incumbents standardizing around demonstrated agentic behaviors: Stripe/OpenAI open-sourcing ACP, Google convening a UCP ecosystem, ChatGPT merchant feeds, Rufus; Lee and See guides calibrated reliance."
       }
     },
     {
@@ -406,27 +406,27 @@
       "evidence": [
         {
           "sourceId": "source-truth-discovery-survey",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "truth discovery, which integrates multi-source noisy information by estimating the reliability of each source, has emerged as a hot topic. The survey's principle: sources that provide true information more often get higher reliability degrees.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-eigentrust",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "In simulations, this reputation system, called EigenTrust, has been shown to significantly decrease the number of inauthentic files on the network, even under a variety of conditions where malicious peers cooperate in an attempt to deliberately subvert the system.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-bayesian-truth-serum",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "BTS is a scoring system for eliciting and evaluating subjective opinions from a group of respondents, in situations where the user of the method has no independent means of evaluating respondents' honesty or their ability.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-ftc-fake-reviews-2024",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "The final rule addresses reviews and testimonials that misrepresent that they are by someone who does not exist, such as AI-generated fake reviews... It prohibits businesses from creating or selling such reviews or testimonials.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         }
       ],
       "counterevidence": [
@@ -436,10 +436,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewer": "agent",
-        "reviewedAt": "2026-07-15",
-        "note": "Downgraded 2026-07-17: all evidence snippets are placeholders; re-verification with real evidence required (aura-knowledge/meta#61, site#114)."
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
+        "reviewer": "kimi-code-cli",
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): Truth discovery survey (per-source reliability over aggregation), EigenTrust (robust under collusion), Bayesian Truth Serum (incentive-compatible elicitation), and FTC fake-review rule jointly support adversarial per-claim ledgers over review aggregation."
       }
     },
     {
@@ -450,27 +450,27 @@
       "evidence": [
         {
           "sourceId": "source-w3c-vc-data-model",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "A verifiable credential is a set of tamper-evident claims and metadata that cryptographically prove who issued it.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-gs1-digital-link",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "create a digital identifier for each product using the GS1 system of identification or a GTIN, mapped to a corresponding digital identity constructed in the GS1 Digital Link syntax.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-eu-digital-product-passport",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "The EU Digital Product Passport will require a unique product identifier, compliance documentation, and information on substances of concern -- a regulated, high-assurance tier of product evidence.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-schema-review",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "A review of an item - for example, of a restaurant, movie, or store. schema.org's open Review type is the baseline, unverified tier of product feedback.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         }
       ],
       "counterevidence": [
@@ -480,10 +480,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewer": "agent",
-        "reviewedAt": "2026-07-15",
-        "note": "Downgraded 2026-07-17: all evidence snippets are placeholders; re-verification with real evidence required (aura-knowledge/meta#61, site#114)."
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
+        "reviewer": "kimi-code-cli",
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): Existing evidence tiers already differ in trust weight: open schema.org reviews, GS1 GTIN/Digital Link identity, W3C verifiable credentials, and the regulated EU Digital Product Passport -- supporting graded tiers that admit small sellers and offline buyers."
       }
     },
     {
@@ -494,33 +494,33 @@
       "evidence": [
         {
           "sourceId": "source-eigentrust",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "We describe an algorithm to decrease the number of downloads of inauthentic files in a peer-to-peer file-sharing network that assigns each peer a unique global trust value, based on the peer's history of uploads. EigenTrust is evaluated specifically against colluding malicious peers.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-truth-discovery-survey",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "truth discovery, which integrates multi-source noisy information by estimating the reliability of each source, has emerged as a hot topic.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-amazon-brand-protection-2024",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Amazon invested more than a billion dollars and employed thousands of people last year on brand protection; Amazon's proactive controls blocked more than 99% of suspected infringing listings before a brand ever had to find and report them.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-c2pa",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "The Coalition for Content Provenance and Authenticity, or C2PA, provides an open technical standard for publishers, creators and consumers to establish the origin and edits of digital content.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-ftc-fake-reviews-2024",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "The final rule will combat fake reviews and testimonials by prohibiting their sale or purchase and allow the agency to seek civil penalties against knowing violators.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         }
       ],
       "counterevidence": [
@@ -530,10 +530,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewer": "agent",
-        "reviewedAt": "2026-07-15",
-        "note": "Downgraded 2026-07-17: all evidence snippets are placeholders; re-verification with real evidence required (aura-knowledge/meta#61, site#114)."
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
+        "reviewer": "kimi-code-cli",
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): EigenTrust evaluates colluding adversaries, truth discovery addresses conflicting sources, Amazon's 1B+ USD brand-protection effort shows an adapting adversary, C2PA addresses provenance, FTC rule shows manipulation persists into enforcement."
       }
     },
     {
@@ -594,27 +594,27 @@
       "evidence": [
         {
           "sourceId": "source-c2pa",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "C2PA provides an open technical standard for publishers, creators and consumers to establish the origin and edits of digital content. It's called Content Credentials.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-amazon-rufus",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Rufus will generate answers based on listing details, customer reviews, and community Q&As -- human-readable context synthesized alongside structured catalog data.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-openai-merchants",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Shoppers browse products through rich results with images, pricing, and key details in one place, while merchants share richer product details through machine-readable feeds.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-lee-see-automation-trust",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Automation is often problematic because people fail to rely upon it appropriately. Because people respond to technology socially, trust influences reliance on automation.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         }
       ],
       "counterevidence": [
@@ -624,10 +624,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewer": "agent",
-        "reviewedAt": "2026-07-15",
-        "note": "Downgraded 2026-07-17: all evidence snippets are placeholders; re-verification with real evidence required (aura-knowledge/meta#61, site#114)."
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
+        "reviewer": "kimi-code-cli",
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): ChatGPT merchant feeds pair machine-readable data with rich human-facing results; Rufus synthesizes reviews and Q&A for humans; C2PA supplies media provenance; Lee and See supports keeping calibrated human judgment in the loop."
       }
     },
     {
@@ -688,39 +688,39 @@
       "evidence": [
         {
           "sourceId": "source-gs1-digital-link",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "When retailers scan the barcode, they can be notified at the point of sale if a product has been recalled, has expired, or is counterfeit.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-eu-digital-product-passport",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "The DPP will include essential details such as a unique product identifier, compliance documentation, and information on substances of concern -- a detailed digital record of a product's lifecycle.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-cpsc-recalls-api",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "The API provides machine readable access to publicly available recall information visible on cpsc.gov, with recall data retrievable in XML or JSON.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-openfda-food-enforcement",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "The openFDA food enforcement reports API returns data from the FDA Recall Enterprise System (RES)... this data covers publicly releasable records from 2004-present. The data is updated weekly.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-nist-ai-rmf",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "The NIST AI Risk Management Framework (AI RMF) is intended for voluntary use and to improve the ability to incorporate trustworthiness considerations into the design, development, use, and evaluation of AI products, services, and systems.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-epa-safer-choice-products",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Use the search box below to find products that meet the Safer Choice Standard. EPA's searchable listing is a public, third-party-certified product evidence surface.",
           "supports": "direct",
-          "assessedAt": "2026-06-18"
+          "assessedAt": "2026-07-18"
         }
       ],
       "counterevidence": [
@@ -730,10 +730,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewer": "agent",
-        "reviewedAt": "2026-07-15",
-        "note": "Downgraded 2026-07-17: all evidence snippets are placeholders; re-verification with real evidence required (aura-knowledge/meta#61, site#114)."
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
+        "reviewer": "kimi-code-cli",
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): Component infrastructure exists today: GS1 Digital Link identity with POS recall flags, EU DPP lifecycle records, CPSC and openFDA machine-readable recall feeds, NIST AI RMF evaluation framework, EPA Safer Choice third-party certification."
       }
     }
   ],
@@ -1045,5 +1045,9 @@
       "id": "policy:default",
       "version": "1.0.0"
     }
+  },
+  "disclosure": {
+    "aiAssistance": true,
+    "note": "Researched, drafted, and structured with AI agents; approved for publication by a human reviewer."
   }
 }

@@ -25,7 +25,9 @@ jobs:
           python-version: '3.11'
 
       - name: Install Python dependencies
-        run: python3 -m pip install --user "pyyaml>=6.0"
+        # cryptography: ed25519 attestation verification in
+        # .stibdedlom/lib/sdl_hooks.py (validate-attestations step, #123).
+        run: python3 -m pip install --user "pyyaml>=6.0" "cryptography>=42.0"
 
       - name: Resolve SDL surface pin
         # Symlinked clients carry .stibdedlom/{bin,lib,invocation-policy.yaml}

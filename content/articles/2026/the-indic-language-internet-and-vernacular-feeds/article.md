@@ -21,7 +21,6 @@ agentArtifact: /agents/articles/the-indic-language-internet-and-vernacular-feeds
 sourcePath: content/articles/2026/the-indic-language-internet-and-vernacular-feeds/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 1</p>
 
 For the first two decades of India's internet, the default user was imagined as English-speaking, urban, and male. That image is now outdated. The country's internet has become rural-majority, mobile-first, and—above all—Indic-language. The shift is a genuine access success: hundreds of millions of people can now read, watch, and speak in the languages they use at home. But the same infrastructure has also become a much larger surface for attention extraction.
 

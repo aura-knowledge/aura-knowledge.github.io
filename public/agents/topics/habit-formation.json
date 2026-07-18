@@ -34,11 +34,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
       "agentJsonPath": "/agents/articles/the-substance-builder.json",
       "agentMarkdownPath": "/agents/articles/the-substance-builder.md",
-      "updatedAt": "2026-07-17",
-      "claimCount": 5,
-      "sourceCount": 6,
-      "tokenEstimate": 500,
-      "contentHash": "c9c9a05577503f9c699e6b4b1f24f3fbe510bc6c5cdebefa2eb53eb7369e0323"
+      "updatedAt": "2026-07-18",
+      "claimCount": 8,
+      "sourceCount": 8,
+      "tokenEstimate": 584,
+      "contentHash": "00f35f6a83626b2b70f441f53b4a018ed34d1a97e227f94d3129f73923050533"
     }
   ]
 }

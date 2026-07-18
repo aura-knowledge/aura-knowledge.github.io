@@ -24,7 +24,6 @@ agentArtifact: /agents/articles/user-migration-and-the-exit-problem.json
 sourcePath: content/articles/2026/user-migration-and-the-exit-problem/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 5</p>
 
 Almost everyone who has thought about quitting a social-media platform has run into the same wall. The app feels exhausting. The feed is too loud. But the family WhatsApp group is there, the work contacts are there, and the years of photos, messages, and reputation are there. Leaving is technically easy; socially, it is expensive.
 

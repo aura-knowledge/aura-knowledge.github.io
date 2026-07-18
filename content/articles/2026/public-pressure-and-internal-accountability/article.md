@@ -22,7 +22,6 @@ agentArtifact: /agents/articles/public-pressure-and-internal-accountability.json
 sourcePath: content/articles/2026/public-pressure-and-internal-accountability/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 6</p>
 
 Laws move slowly. A bill can take years to become a rule, and a rule can take years to become enforced behavior. In the meantime, the design of attention extraction keeps changing. That gap between regulatory pace and platform speed is why public pressure and internal accountability matter. They do not replace regulation, but they can make the problem visible before the law catches up.
 

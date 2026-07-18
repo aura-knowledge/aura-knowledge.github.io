@@ -5,7 +5,7 @@ articleId: article:the-small-rep-theory
 slug: the-small-rep-theory
 title: "Agent Brief for 'The Small-Rep Theory'"
 tokenBudget: 1500
-status: published
+status: archived
 updated: 2026-07-05
 ---
 

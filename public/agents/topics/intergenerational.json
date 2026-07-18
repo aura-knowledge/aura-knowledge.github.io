@@ -32,11 +32,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
       "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
       "agentMarkdownPath": "/agents/articles/the-life-phase-thread.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 8,
       "tokenEstimate": 690,
-      "contentHash": "5d8c46060057051bdf7cf9d440fc17b239e9884a28745c2a2528320a8b3bd6ed"
+      "contentHash": "3471bb1dd7bfd21ace295741d0d06f2899bc059077270681fa031285d03ee5f4"
     }
   ]
 }

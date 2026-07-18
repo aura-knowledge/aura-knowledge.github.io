@@ -38,11 +38,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/what-india-is-building-vs-could-build/",
       "agentJsonPath": "/agents/articles/what-india-is-building-vs-could-build.json",
       "agentMarkdownPath": "/agents/articles/what-india-is-building-vs-could-build.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 4,
       "tokenEstimate": 474,
-      "contentHash": "1c65c2cbfaabb5ee4c87a6d5e05fef5ea438e4fac17145b118be57d675855556"
+      "contentHash": "773f8377e25308905e0cb8cf5d200ccf4d053be082d17811dcebf46be51cf622"
     }
   ]
 }

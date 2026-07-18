@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-17",
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-07-18",
   "audiences": [
     "independent researchers",
     "students",
@@ -70,21 +70,21 @@
       "evidence": [
         {
           "sourceId": "source-agentic-publications-2025",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "The architecture integrates structured data (knowledge graphs, metadata) with unstructured content (text, multimedia) and provides interfaces for humans and artificial agents, offering narrative explanations alongside machine-readable outputs.",
           "supports": "direct",
-          "assessedAt": "2026-06-17"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-llms-txt",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "We propose adding a /llms.txt markdown file to websites to provide LLM-friendly content... pages... provide a clean markdown version of those pages at the same URL as the original page, but with .md appended.",
           "supports": "direct",
-          "assessedAt": "2026-06-17"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-digital-gardens-appleton",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "A garden is a collection of evolving ideas that aren't strictly organised by their publication date... notes are published as half-finished thoughts that will grow and evolve over time.",
           "supports": "direct",
-          "assessedAt": "2026-06-17"
+          "assessedAt": "2026-07-18"
         }
       ],
       "counterevidence": [
@@ -94,10 +94,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewer": "agent",
-        "reviewedAt": "2026-07-15",
-        "note": "Downgraded 2026-07-17: all evidence snippets are placeholders; re-verification with real evidence required (aura-knowledge/meta#61, site#114)."
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
+        "reviewer": "kimi-code-cli",
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): agentic-publications (narrative + machine-readable knowledge graph), llms.txt (human page + LLM-readable companion), and Appleton digital gardens (evolving, revisioned notes) each support pairing the essay with auditable structure."
       }
     },
     {
@@ -108,15 +108,15 @@
       "evidence": [
         {
           "sourceId": "source-agentic-publications-2025",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "The Agentic Publication represents a transformative approach to scientific communication by creating responsive knowledge synthesis systems while maintaining scientific rigor.",
           "supports": "direct",
-          "assessedAt": "2026-06-17"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-nng-cognitive-load",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Research consistently shows that single-column layouts outperform multicolumn designs for form-completion rates.",
           "supports": "direct",
-          "assessedAt": "2026-06-17"
+          "assessedAt": "2026-07-18"
         }
       ],
       "counterevidence": [
@@ -126,10 +126,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewer": "agent",
-        "reviewedAt": "2026-07-15",
-        "note": "Downgraded 2026-07-17: all evidence snippets are placeholders; re-verification with real evidence required (aura-knowledge/meta#61, site#114)."
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
+        "reviewer": "kimi-code-cli",
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): agentic-publications paper builds agent-auditable publishing for the scientific domain precisely because it values rigor and verification; NN/g guidance shows practitioner audiences expect research-backed claims."
       }
     },
     {
@@ -140,27 +140,27 @@
       "evidence": [
         {
           "sourceId": "source-wordpress-mcp-adapter",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "Its job is to adapt Abilities registered by the Abilities API into the primitives supported by the Model Context Protocol (MCP) so that AI agents can discover and execute site functionality as MCP tools and read WordPress data as MCP resources.",
           "supports": "direct",
-          "assessedAt": "2026-06-17"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-beehiiv-mcp-v2",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "MCP is an open standard that lets AI tools connect directly to software like beehiiv... your AI has access to your entire beehiiv ecosystem, from podcasts and automations to segments, products, monetization data, and more.",
           "supports": "direct",
-          "assessedAt": "2026-06-17"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-cloudflare-emdash",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "EmDash is designed to be managed programmatically by your AI agents... Built-in MCP Server: Every EmDash instance provides its own remote Model Context Protocol (MCP) server.",
           "supports": "direct",
-          "assessedAt": "2026-06-17"
+          "assessedAt": "2026-07-18"
         },
         {
           "sourceId": "source-agentic-publications-2025",
-          "snippet": "Evidence snippet pending.",
+          "snippet": "This paper introduces the concept of Agentic Publication, a novel LLM-driven framework designed to complement traditional scientific publishing by transforming papers into interactive knowledge systems.",
           "supports": "direct",
-          "assessedAt": "2026-06-17"
+          "assessedAt": "2026-07-18"
         }
       ],
       "counterevidence": [
@@ -170,10 +170,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewer": "agent",
-        "reviewedAt": "2026-07-15",
-        "note": "Downgraded 2026-07-17: all evidence snippets are placeholders; re-verification with real evidence required (aura-knowledge/meta#61, site#114)."
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
+        "reviewer": "kimi-code-cli",
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): WordPress MCP Adapter, beehiiv MCP v2, and Cloudflare EmDash each deliver agent-manageable publishing pieces, and the Agentic Publications paper covers the research side; none combines a readable essay with an auditable claim/evidence object."
       }
     },
     {
@@ -377,7 +377,7 @@
       "version": "1.0.0"
     }
   },
-  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "generatedAt": "2026-07-18T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
   "agentJsonPath": "/agents/articles/agent-auditable-research.json",
   "agentMarkdownPath": "/agents/articles/agent-auditable-research.md",

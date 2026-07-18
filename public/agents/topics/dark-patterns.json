@@ -36,11 +36,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-design-of-extraction/",
       "agentJsonPath": "/agents/articles/the-design-of-extraction.json",
       "agentMarkdownPath": "/agents/articles/the-design-of-extraction.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 273,
-      "contentHash": "5e44c5454d692f76da527fa8e3ee7063c9465f8bc85a1e00aa48e2444050a219"
+      "contentHash": "ca4541d3ded3bb49dc257b566f7c34e2a0eb29c7739a40c79be031b456f901fe"
     }
   ]
 }

@@ -38,11 +38,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/age-appropriate-design/",
       "agentJsonPath": "/agents/articles/age-appropriate-design.json",
       "agentMarkdownPath": "/agents/articles/age-appropriate-design.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 5,
       "sourceCount": 5,
       "tokenEstimate": 292,
-      "contentHash": "a546bd6f8a1c89e8d2fc8642d920c6b5326377cabfdec6332b849e1dd5c7abe4"
+      "contentHash": "fa92f979d3b62f7bea4ee7b9a9984fa9cb2f8c661adedeb50e83c419993aa11c"
     }
   ]
 }

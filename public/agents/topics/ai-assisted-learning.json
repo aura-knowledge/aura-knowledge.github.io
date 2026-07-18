@@ -32,11 +32,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/ai-as-journeyman-assistant/",
       "agentJsonPath": "/agents/articles/ai-as-journeyman-assistant.json",
       "agentMarkdownPath": "/agents/articles/ai-as-journeyman-assistant.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 4,
       "tokenEstimate": 351,
-      "contentHash": "f903bc9ab7a692495e3c84d51f2db293c6ab2315a047e8b82ebad48b74d07c56"
+      "contentHash": "86948d2f426032a6eeee39e7fecf0237058a371716bc97329ba03769651d4cfc"
     }
   ]
 }

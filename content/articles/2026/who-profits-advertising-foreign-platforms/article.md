@@ -21,7 +21,6 @@ agentArtifact: /agents/articles/who-profits-advertising-foreign-platforms.json
 sourcePath: content/articles/2026/who-profits-advertising-foreign-platforms/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 1</p>
 
 India's internet users spend roughly 1.1 trillion hours on smartphones each year. That attention is not free. It is sold, mostly to advertisers, and the proceeds are booked by a small number of platforms. The question is who profits from the sale.
 

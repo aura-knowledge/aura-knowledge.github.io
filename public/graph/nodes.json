@@ -3839,69 +3839,6 @@
     "status": "argument"
   },
   {
-    "id": "article:the-small-rep-theory",
-    "type": "article",
-    "label": "The Small-Rep Theory",
-    "path": "/articles/the-small-rep-theory/",
-    "maturity": "seed"
-  },
-  {
-    "id": "article:the-small-rep-theory:claim-001",
-    "type": "claim",
-    "label": "Lasting skill and substance build from small, focused, deliberately designed repetitions rather than from heroic intensity or passive consumption.",
-    "localId": "claim-001",
-    "confidence": "medium-high",
-    "status": "core"
-  },
-  {
-    "id": "article:the-small-rep-theory:claim-002",
-    "type": "claim",
-    "label": "Ericsson's research emphasizes deliberate, goal-directed practice with feedback, not a magic 10,000-hour threshold.",
-    "localId": "claim-002",
-    "confidence": "high",
-    "status": "core"
-  },
-  {
-    "id": "article:the-small-rep-theory:claim-003",
-    "type": "claim",
-    "label": "Newport's deep-work research shows that the quality and undividedness of attention matter more than the raw number of hours spent, especially for cognitively demanding tasks.",
-    "localId": "claim-003",
-    "confidence": "medium-high",
-    "status": "core"
-  },
-  {
-    "id": "article:the-small-rep-theory:claim-004",
-    "type": "claim",
-    "label": "Fogg's behavior model shows that small, well-prompted behaviors matched to current ability are more reliable than motivation-dependent willpower.",
-    "localId": "claim-004",
-    "confidence": "high",
-    "status": "core"
-  },
-  {
-    "id": "article:the-small-rep-theory:claim-005",
-    "type": "claim",
-    "label": "The practical form of the small-rep theory is: shrink the session, sharpen the goal, anchor it to an existing prompt, and repeat.",
-    "localId": "claim-005",
-    "confidence": "medium-high",
-    "status": "core"
-  },
-  {
-    "id": "article:the-small-rep-theory:claim-006",
-    "type": "claim",
-    "label": "In an attention-extraction environment, small reps are a counter-pattern to binge-scrolling because they reclaim brief windows of dead time for deliberate creation and learning.",
-    "localId": "claim-006",
-    "confidence": "medium",
-    "status": "framing"
-  },
-  {
-    "id": "article:the-small-rep-theory:claim-007",
-    "type": "claim",
-    "label": "Small reps do not guarantee elite expertise, but they raise the probability of sustained skill growth and reduce the friction that normally kills new habits.",
-    "localId": "claim-007",
-    "confidence": "medium-high",
-    "status": "core"
-  },
-  {
     "id": "article:the-student-screen-education-vs-entertainment",
     "type": "article",
     "label": "The Student Screen",
@@ -4055,6 +3992,30 @@
     "type": "claim",
     "label": "Teaching an idea to someone else turns passive information into owned knowledge.",
     "localId": "claim-005",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-substance-builder:claim-006",
+    "type": "claim",
+    "label": "Ericsson's research emphasizes deliberate, goal-directed practice with feedback, not a magic 10,000-hour threshold.",
+    "localId": "claim-006",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-substance-builder:claim-007",
+    "type": "claim",
+    "label": "Newport's deep-work research shows that the quality and undividedness of attention matter more than the raw number of hours spent, especially for cognitively demanding tasks.",
+    "localId": "claim-007",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-substance-builder:claim-008",
+    "type": "claim",
+    "label": "Fogg's behavior model shows that small, well-prompted behaviors matched to current ability are more reliable than motivation-dependent willpower.",
+    "localId": "claim-008",
     "confidence": "high",
     "status": "core"
   },
@@ -5061,7 +5022,7 @@
     "id": "source-brynjolfsson-productivity-paradox",
     "type": "source",
     "label": "Brynjolfsson: The Productivity J-Curve",
-    "url": "https://www.nber.org/papers/w25189",
+    "url": "https://www.nber.org/papers/w25148",
     "sourceType": "paper"
   },
   {
@@ -5275,10 +5236,10 @@
     "sourceType": "peer-reviewed-study"
   },
   {
-    "id": "source-commonsense-media-screens-2024",
+    "id": "source-commonsense-media-screens-2019",
     "type": "source",
-    "label": "Common Sense Media: The New Normal: Parents, Teens, Screens, and Sleep in 2024",
-    "url": "https://www.commonsensemedia.org/research/the-new-normal-parents-teens-screens-and-sleep-in-2024",
+    "label": "Common Sense Media: The New Normal — Parents, Teens, Screens, and Sleep (2019)",
+    "url": "https://www.commonsensemedia.org/sites/default/files/research/report/2019-new-normal-parents-teens-screens-and-sleep-united-states-report.pdf",
     "sourceType": "industry-report"
   },
   {
@@ -5527,13 +5488,6 @@
     "sourceType": "regulatory-data"
   },
   {
-    "id": "source-ericsson-1993-deliberate-practice",
-    "type": "source",
-    "label": "Ericsson, Krampe, and Tesch-Römer (1993): The Role of Deliberate Practice in the Acquisition of Expert Performance",
-    "url": "https://doi.org/10.1037/0033-295X.100.3.363",
-    "sourceType": "peer-reviewed-study"
-  },
-  {
     "id": "source-ericsson-deliberate-practice",
     "type": "source",
     "label": "Ericsson: The Role of Deliberate Practice in the Acquisition of Expert Performance",
@@ -5676,8 +5630,8 @@
   {
     "id": "source-fda-history",
     "type": "source",
-    "label": "FDA: The 1906 Food and Drugs Act and Its Enforcement",
-    "url": "https://www.fda.gov/about-fda/fda-history-exhibits/1906-food-and-drugs-act-and-its-enforcement",
+    "label": "FDA: Part I — The 1906 Food and Drugs Act and Its Enforcement",
+    "url": "https://www.fda.gov/about-fda/changes-science-law-and-regulatory-authorities/part-i-1906-food-and-drugs-act-and-its-enforcement",
     "sourceType": "government-report"
   },
   {
@@ -5720,13 +5674,6 @@
     "type": "source",
     "label": "BJ Fogg: Tiny Habits",
     "url": "https://www.tinyhabits.com/",
-    "sourceType": "book"
-  },
-  {
-    "id": "source-fogg-tiny-habits-2019",
-    "type": "source",
-    "label": "Fogg (2019): Tiny Habits: The Small Changes That Change Everything",
-    "url": "https://tinyhabits.com/",
     "sourceType": "book"
   },
   {
@@ -6181,7 +6128,7 @@
     "id": "source-india-dpdp-2023",
     "type": "source",
     "label": "India: Digital Personal Data Protection Act, 2023",
-    "url": "https://www.meity.gov.in/writereaddata/files/Digital%20Personal%20Data%20Protection%20Act%202023.pdf",
+    "url": "https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf",
     "sourceType": "government-report"
   },
   {
@@ -6195,7 +6142,7 @@
     "id": "source-india-it-rules-2021",
     "type": "source",
     "label": "India: Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021",
-    "url": "https://www.meity.gov.in/writereaddata/files/Intermediary_Guidelines_and_Digital_Media_Ethics_Code_Rules_2021.pdf",
+    "url": "https://www.meity.gov.in/static/uploads/2024/02/Information-Technology-Intermediary-Guidelines-and-Digital-Media-Ethics-Code-Rules-2021-updated-06.04.2023-.pdf",
     "sourceType": "government-report"
   },
   {
@@ -6222,8 +6169,8 @@
   {
     "id": "source-instagram-well-being",
     "type": "source",
-    "label": "Instagram: Hidden likes and well-being research",
-    "url": "https://about.instagram.com/blog/announcements/instagram-well-being-research",
+    "label": "Meta: Giving People More Control on Instagram and Facebook (May 2021)",
+    "url": "https://about.fb.com/news/2021/05/giving-people-more-control/",
     "sourceType": "article"
   },
   {
@@ -6271,8 +6218,8 @@
   {
     "id": "source-itu-affordability",
     "type": "source",
-    "label": "ITU: Affordability of ICT services",
-    "url": "https://www.itu.int/itu-d/reports/statistics/affordability-of-ict-services-2023/",
+    "label": "ITU: The affordability of ICT services 2023 (Policy Brief, March 2024)",
+    "url": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/prices2023/ICTPriceBrief2023.pdf",
     "sourceType": "government-report"
   },
   {
@@ -6292,8 +6239,8 @@
   {
     "id": "source-ivca-venture",
     "type": "source",
-    "label": "IVCA: Indian Private Equity and Venture Capital Report",
-    "url": "https://ivca.in/research-reports/",
+    "label": "IVCA: Recent Reports",
+    "url": "https://www.ivca.in/resources/recent-reports",
     "sourceType": "industry-report"
   },
   {
@@ -6376,8 +6323,8 @@
   {
     "id": "source-lasi-elderly",
     "type": "source",
-    "label": "LASI: Longitudinal Aging Study in India",
-    "url": "https://iiasd.org/lasi/",
+    "label": "IIPS: Longitudinal Ageing Study in India (LASI)",
+    "url": "https://www.iipsindia.ac.in/lasi",
     "sourceType": "research-report"
   },
   {
@@ -6663,15 +6610,15 @@
   {
     "id": "source-mosseri-time-well-spent",
     "type": "source",
-    "label": "Adam Mosseri: Defining Time Well Spent",
-    "url": "https://about.instagram.com/blog/announcements/defining-time-well-spent",
+    "label": "Meta: New Tools to Manage Your Time on Facebook and Instagram (Aug 2018)",
+    "url": "https://about.fb.com/news/2018/08/manage-your-time/",
     "sourceType": "article"
   },
   {
     "id": "source-mozilla-youtube-regrets",
     "type": "source",
-    "label": "Mozilla Foundation: YouTube Regrets Research",
-    "url": "https://foundation.mozilla.org/en/campaigns/youtube-regrets/",
+    "label": "Mozilla Foundation: YouTube Regrets",
+    "url": "https://www.mozillafoundation.org/en/youtube/regrets/",
     "sourceType": "research-report"
   },
   {
@@ -6712,8 +6659,8 @@
   {
     "id": "source-nasscom-deep-tech",
     "type": "source",
-    "label": "NASSCOM: Deep Tech Startups in India",
-    "url": "https://nasscom.in/knowledge-center/publications",
+    "label": "nasscom: Insights & Perspectives (reports listing)",
+    "url": "https://nasscom.in/perspectives",
     "sourceType": "industry-report"
   },
   {
@@ -6726,8 +6673,8 @@
   {
     "id": "source-nasscom-india-ai-adoption",
     "type": "source",
-    "label": "NASSCOM: India AI Adoption and Technology Industry Reports",
-    "url": "https://nasscom.in/knowledge-center/publications",
+    "label": "nasscom: Insights & Perspectives (reports listing)",
+    "url": "https://nasscom.in/perspectives",
     "sourceType": "industry-report"
   },
   {
@@ -6740,8 +6687,8 @@
   {
     "id": "source-nasscom-talent",
     "type": "source",
-    "label": "NASSCOM: India Talent Demand-Supply Gap",
-    "url": "https://nasscom.in/knowledge-center/publications",
+    "label": "nasscom: Insights & Perspectives (reports listing)",
+    "url": "https://nasscom.in/perspectives",
     "sourceType": "industry-report"
   },
   {
@@ -6769,7 +6716,7 @@
     "id": "source-ncert-mental-health-2022",
     "type": "source",
     "label": "NCERT: Mental Health and Well-being of School Students Survey",
-    "url": "https://ncert.nic.in/pdf/announcement/Mental_Health_Survey.pdf",
+    "url": "https://ncert.nic.in/pdf/Mental_Health_WSS_A_Survey_new.pdf",
     "sourceType": "government-report"
   },
   {
@@ -6784,13 +6731,6 @@
     "type": "source",
     "label": "Cal Newport: Deep Work",
     "url": "https://www.calnewport.com/books/deep-work/",
-    "sourceType": "book"
-  },
-  {
-    "id": "source-newport-deep-work-2016",
-    "type": "source",
-    "label": "Newport (2016): Deep Work: Rules for Focused Success in a Distracted World",
-    "url": "https://calnewport.com/books/deep-work/",
     "sourceType": "book"
   },
   {
@@ -6922,8 +6862,8 @@
   {
     "id": "source-ofcom-online-nation-2024",
     "type": "source",
-    "label": "Ofcom: Online Nation 2024",
-    "url": "https://www.ofcom.org.uk/online-safety/online-nation/",
+    "label": "Ofcom: Online Nation 2024 Report",
+    "url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/online-research/online-nation/2024/online-nation-2024-report.pdf?v=386238",
     "sourceType": "government-report"
   },
   {
@@ -7251,8 +7191,8 @@
   {
     "id": "source-pmc-sleep-screen",
     "type": "source",
-    "label": "PMC: Screen time and sleep quality in adolescents",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7774621/",
+    "label": "Xiao et al.: When Screens Replace Sleep: Short Video Addiction Impairs Executive Function Through Sleep Disruption in Youth (Brain and Behavior, 2026)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13087538/",
     "sourceType": "peer-reviewed-study"
   },
   {
@@ -7490,7 +7430,7 @@
     "id": "source-schull-addiction-by-design",
     "type": "source",
     "label": "Natasha Dow Schüll: Addiction by Design",
-    "url": "https://press.princeton.edu/books/paperback/9780691166960/addiction-by-design",
+    "url": "https://press.princeton.edu/books/paperback/9780691160887/addiction-by-design",
     "sourceType": "book"
   },
   {
@@ -7860,8 +7800,8 @@
   {
     "id": "source-uk-age-design-code",
     "type": "source",
-    "label": "UK ICO: Age Appropriate Design Code",
-    "url": "https://ico.org.uk/for-organisations/childrens-code/",
+    "label": "ICO: Age appropriate design — a code of practice for online services",
+    "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/",
     "sourceType": "government-report"
   },
   {
@@ -7916,15 +7856,15 @@
   {
     "id": "source-vivo-study",
     "type": "source",
-    "label": "Vivo and CMR: Impact of Smartphones on Human Relationships",
-    "url": "https://www.vivo.com/in/about-vivo/newsroom/2020/1907",
+    "label": "vivo and CMR: Impact of Smartphones on Human Relationships (Dec 2020)",
+    "url": "https://vivonewsroom.in/press-release/25-increase-in-average-time-spent-daily-on-smartphones-post-covid-excessive-usage-affecting-human-relationships/",
     "sourceType": "industry-report"
   },
   {
     "id": "source-vivo-switch-off-2022",
     "type": "source",
-    "label": "vivo Switch Off Study 2022",
-    "url": "https://www.vivo.com/in/about-vivo/newsroom/2022/switch-off-study",
+    "label": "vivo Switch Off Study 2022 (4th edition): Impact of Smartphones on Spousal Relationships",
+    "url": "https://vivonewsroom.in/press-release/smartphone-addiction-88-married-indians-feel-that-excessive-usage-of-smartphones-is-hurting-their-relationship-vivo-switch-off-study-on-impact-of-smartphones-on-spousal-relationships/",
     "sourceType": "industry-report"
   },
   {
@@ -8112,8 +8052,8 @@
   {
     "id": "source-youtube-research",
     "type": "source",
-    "label": "YouTube: Responsibility research",
-    "url": "https://research.youtube/categories/responsibility/",
+    "label": "YouTube Research",
+    "url": "https://research.youtube/",
     "sourceType": "website"
   },
   {
@@ -8472,11 +8412,6 @@
     "id": "topic:habit-formation",
     "type": "topic",
     "label": "habit-formation"
-  },
-  {
-    "id": "topic:habits",
-    "type": "topic",
-    "label": "habits"
   },
   {
     "id": "topic:history",

@@ -38,11 +38,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/ai-could-make-extraction-cheaper-too/",
       "agentJsonPath": "/agents/articles/ai-could-make-extraction-cheaper-too.json",
       "agentMarkdownPath": "/agents/articles/ai-could-make-extraction-cheaper-too.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 218,
-      "contentHash": "4a8f4a51566f82bb931985a3032e0fb32c4d87f3004971d2d2744db36a5d3da9"
+      "contentHash": "8bad2e76b25932825d6bf390298c27c9b1a62ef9ecfaf5f9f7140f90593ef08c"
     },
     {
       "id": "article:friction-chronological-feeds-user-chosen-algorithms",
@@ -73,11 +73,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
       "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json",
       "agentMarkdownPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 283,
-      "contentHash": "762bff6be771c33eb2fcb253a58a2e9c5d4f2c8b28902a9935b7e1cf8654d2ec"
+      "contentHash": "240f4f93701d76c1985f3b5426064b8e2507663aef7eae54de6a38f39d50bf65"
     },
     {
       "id": "article:trust-and-outrage-platforms-and-cohesion",
@@ -106,11 +106,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
       "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
       "agentMarkdownPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 8,
       "sourceCount": 7,
       "tokenEstimate": 724,
-      "contentHash": "58db791880b24a6ac451427a87506af3a68f3a83bb63ca881eb057ad23050116"
+      "contentHash": "3f5c870f80e0ce1824adb7acc364d5543a20f7a01d84bbc0a4e62f8ff96dbbb8"
     }
   ]
 }

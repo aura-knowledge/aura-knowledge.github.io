@@ -28,6 +28,18 @@ export type ArticleSeries = {
   season?: string;
   order: number;
   role: "guide" | "chapter" | "companion" | "appendix";
+  arc?: string;
+};
+
+export const SERIES_ARCS: Record<string, { slug: string; title: string }[]> = {
+  "attention-substance-ai-moment": [
+    { slug: "diagnosis", title: "The Diagnosis" },
+    { slug: "historical-frames", title: "Historical and Human Frames" },
+    { slug: "ai-opportunity-cost", title: "The AI Opportunity Cost" },
+    { slug: "building-substance", title: "Building Substance" },
+    { slug: "designing-for-substance", title: "Designing for Substance" },
+    { slug: "synthesis", title: "Synthesis and Action" }
+  ]
 };
 
 export type EvidencePacket = {

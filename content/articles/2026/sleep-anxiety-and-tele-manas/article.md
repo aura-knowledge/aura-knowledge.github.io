@@ -23,7 +23,6 @@ agentArtifact: /agents/articles/sleep-anxiety-and-tele-manas.json
 sourcePath: content/articles/2026/sleep-anxiety-and-tele-manas/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 6</p>
 
 India's national mental-health helpline, Tele-MANAS, was launched in 2022 to give anyone a free, anonymous phone line to a trained counselor. A few years later, as of March 2026, it had handled more than 34 lakh calls. Roughly seven in ten of those calls came from people aged 18 to 45. Those numbers do not prove that smartphones are making India anxious. They do show that distress is common, that young adults are the most likely to reach out, and that the country's existing mental-health infrastructure is being measured against a demand far larger than it was built for.
 

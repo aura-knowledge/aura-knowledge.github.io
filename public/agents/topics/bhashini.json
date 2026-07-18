@@ -35,11 +35,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/bhashini-and-the-indic-language-ai-moment/",
       "agentJsonPath": "/agents/articles/bhashini-and-the-indic-language-ai-moment.json",
       "agentMarkdownPath": "/agents/articles/bhashini-and-the-indic-language-ai-moment.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 322,
-      "contentHash": "6a393859a7b5f8c68f9d6b663a8c104f9381878194747a5b6056966d4ff6e7e8"
+      "contentHash": "3c3b3722eb3c5606dd480e945021aecc92edfe17281204f2d9d85d09cb4cfa5e"
     },
     {
       "id": "article:the-citizens-garden",
@@ -70,11 +70,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-citizens-garden/",
       "agentJsonPath": "/agents/articles/the-citizens-garden.json",
       "agentMarkdownPath": "/agents/articles/the-citizens-garden.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 4,
       "tokenEstimate": 315,
-      "contentHash": "48249a1f571fa817161271612ebe803b794eedd8dc4389c16393b972dde65d1c"
+      "contentHash": "9c2a6b3b2e4a6f7736ccab6460ea920b528110842fa09cc39666d6ef3f11cf9c"
     }
   ]
 }

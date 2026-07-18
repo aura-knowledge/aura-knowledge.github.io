@@ -41,11 +41,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
       "agentJsonPath": "/agents/articles/a-map-of-levers.json",
       "agentMarkdownPath": "/agents/articles/a-map-of-levers.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 8,
       "sourceCount": 13,
       "tokenEstimate": 850,
-      "contentHash": "6f361b3969e6d350c7c0af935801c329a62bd65a0fb4a9689d43672c369ad00f"
+      "contentHash": "067eb4ea3ce5dcf72259e1c56ac0558928ec19d519dcfdd5eb01abd4115723ae"
     },
     {
       "id": "article:age-appropriate-design",
@@ -78,11 +78,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/age-appropriate-design/",
       "agentJsonPath": "/agents/articles/age-appropriate-design.json",
       "agentMarkdownPath": "/agents/articles/age-appropriate-design.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 5,
       "sourceCount": 5,
       "tokenEstimate": 292,
-      "contentHash": "a546bd6f8a1c89e8d2fc8642d920c6b5326377cabfdec6332b849e1dd5c7abe4"
+      "contentHash": "fa92f979d3b62f7bea4ee7b9a9984fa9cb2f8c661adedeb50e83c419993aa11c"
     },
     {
       "id": "article:designing-for-substance",
@@ -111,11 +111,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
       "agentJsonPath": "/agents/articles/designing-for-substance.json",
       "agentMarkdownPath": "/agents/articles/designing-for-substance.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 5,
       "sourceCount": 7,
       "tokenEstimate": 644,
-      "contentHash": "776a597d5a9045184d75499b50b88b35a5a7ef2378a72ce17e300f6967a070c3"
+      "contentHash": "da00c11504df3e7824678001d565d7c5f5bea144bdfac5dd515d90b385a445e8"
     },
     {
       "id": "article:india-in-global-context",
@@ -144,11 +144,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/india-in-global-context/",
       "agentJsonPath": "/agents/articles/india-in-global-context.json",
       "agentMarkdownPath": "/agents/articles/india-in-global-context.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 7,
       "tokenEstimate": 195,
-      "contentHash": "5742b77c6207ba7ffde81785f57dfc69e8dd1490b315ccb7a83c1bf3fbe6e635"
+      "contentHash": "c6198bc61d361dc04a48b39d809cedcab289e14ab6177b84d98597405d36dd68"
     },
     {
       "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
@@ -177,11 +177,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
       "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json",
       "agentMarkdownPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 9,
       "tokenEstimate": 751,
-      "contentHash": "f27b70499ea313a69588d6ad39220eda04243bb0e25eb05587b79e9d7183ed89"
+      "contentHash": "d521b4881a4842b91c929edd566f3de69fcd3c6fbd1408eaadc298aeb1f069e0"
     },
     {
       "id": "article:tobacco-seatbelts-food-safety",
@@ -214,11 +214,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/tobacco-seatbelts-food-safety/",
       "agentJsonPath": "/agents/articles/tobacco-seatbelts-food-safety.json",
       "agentMarkdownPath": "/agents/articles/tobacco-seatbelts-food-safety.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 4,
       "tokenEstimate": 258,
-      "contentHash": "6807ba8589523997378deff3df9378a6210845cf01ed345ea8478510f1674d32"
+      "contentHash": "f9c99d72589e207fa6cee0ddab188bb0ce686b60533f5084b4d65ce5f7813c67"
     },
     {
       "id": "article:user-migration-and-the-exit-problem",
@@ -251,11 +251,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/user-migration-and-the-exit-problem/",
       "agentJsonPath": "/agents/articles/user-migration-and-the-exit-problem.json",
       "agentMarkdownPath": "/agents/articles/user-migration-and-the-exit-problem.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 161,
-      "contentHash": "126c5c98a26bf36a5dbcf056e09c2c2ec6c9220b7d23f311afa87ac893a5857a"
+      "contentHash": "7f7e68765f83c95f6458928c57b7879e96286a3c01c1430d75707518423228ea"
     }
   ]
 }

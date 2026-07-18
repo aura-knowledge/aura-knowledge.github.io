@@ -22,7 +22,7 @@ Regulation is necessary but slow; a healthier attention ecosystem also requires 
 
 ## Instructions
 
-- Treat this article as a synthesis chapter in the Attention, Substance, and the AI Moment series (Part 6: Synthesis and Action).
+- Treat this article as a design chapter in the Attention, Substance, and the AI Moment series (Part 5: Designing for Substance).
 - Route factual questions about specific platforms to the relevant source IDs in the artifact; do not invent internal documents or leaks.
 - Preserve the evidence-cautious tone: informal accountability complements but does not replace regulation.
 - When discussing India, prioritize public sources from organizations such as CIS India and the Internet Freedom Foundation.

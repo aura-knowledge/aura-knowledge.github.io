@@ -23,7 +23,6 @@ agentArtifact: /agents/articles/friction-chronological-feeds-user-chosen-algorit
 sourcePath: content/articles/2026/friction-chronological-feeds-user-chosen-algorithms/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 42</p>
 
 The attention economy is not a law of nature. It is a set of design choices—ranking algorithms, share buttons, autoplay, notifications—repeated billions of times a day. Those choices can be changed. This article looks at three interventions that have enough real-world testing to be taken seriously: chronological feeds, friction before sharing, and user-chosen algorithms. None of them require banning platforms, breaking encryption, or asking users to leave the services their friends already use.
 

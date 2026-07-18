@@ -35,11 +35,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
       "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
       "agentMarkdownPath": "/agents/articles/the-student-screen-education-vs-entertainment.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 8,
       "sourceCount": 10,
       "tokenEstimate": 793,
-      "contentHash": "ef94b4d3b4278ba525440d5ece26522a3d391e42b5b85fa059fc5338fb4e3cf1"
+      "contentHash": "9625101fc086096686adf8610a3c7b73c4ab2e926f8e21182b7648f6fca4d0f1"
     },
     {
       "id": "article:the-students-garden",
@@ -70,11 +70,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-students-garden/",
       "agentJsonPath": "/agents/articles/the-students-garden.json",
       "agentMarkdownPath": "/agents/articles/the-students-garden.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 4,
       "tokenEstimate": 492,
-      "contentHash": "73fada8fa9f0b4eb3b63b435a796680cbfbe9ab113b43386b4ba069dfbf13d60"
+      "contentHash": "33c249c6c530a333ca0c75161d23aafce5bc9dee5fc10dadf115fc4552e95e1b"
     }
   ]
 }

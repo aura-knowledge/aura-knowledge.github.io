@@ -34,11 +34,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
       "agentJsonPath": "/agents/articles/designing-for-substance.json",
       "agentMarkdownPath": "/agents/articles/designing-for-substance.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 5,
       "sourceCount": 7,
       "tokenEstimate": 644,
-      "contentHash": "776a597d5a9045184d75499b50b88b35a5a7ef2378a72ce17e300f6967a070c3"
+      "contentHash": "da00c11504df3e7824678001d565d7c5f5bea144bdfac5dd515d90b385a445e8"
     }
   ]
 }

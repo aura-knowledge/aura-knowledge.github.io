@@ -22,7 +22,6 @@ agentArtifact: /agents/articles/the-jio-effect-cheap-data-access-behavior.json
 sourcePath: content/articles/2026/the-jio-effect-cheap-data-access-behavior/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 17</p>
 
 In September 2016, Reliance Jio launched commercial services with free voice calls and data prices that undercut the market by an order of magnitude. Within months, India had gone from a data-scarce country to one where a gigabyte cost less than a cup of chai. The event is often celebrated as a digital-access miracle. Less discussed is what happened next: the same cheap data that connected hundreds of millions of people also built the runway for an attention-extraction economy on an unprecedented scale.
 

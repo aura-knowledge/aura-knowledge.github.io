@@ -33,11 +33,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
       "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
       "agentMarkdownPath": "/agents/articles/a-readers-guide-to-the-series.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 5,
       "sourceCount": 7,
       "tokenEstimate": 543,
-      "contentHash": "9a4cba9103f7f8abdd9b275013c8a883635d88fbda37325216e7767a0140eb59"
+      "contentHash": "0306c67527d16ea38726e620e64713376b602f6f30626c1eaee455f7ee09d0d8"
     },
     {
       "id": "article:attention-substance-ai-moment",
@@ -64,11 +64,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
       "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json",
       "agentMarkdownPath": "/agents/articles/attention-substance-ai-moment.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 1,
       "sourceCount": 2,
       "tokenEstimate": 465,
-      "contentHash": "f8fa1f6c19c5e76080bc618bc8dfc1dfd23d40ed328ef59af61c87539e5ae6e4"
+      "contentHash": "86d4309bd07aa9b2ff4fd9c3eb1103cb06f3f4477cdcb5d698cf60afab884531"
     }
   ]
 }

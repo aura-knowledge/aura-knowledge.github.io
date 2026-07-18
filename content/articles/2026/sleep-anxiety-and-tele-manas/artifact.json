@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-07-18",
   "audiences": [
     "general",
     "students",
@@ -30,7 +30,8 @@
     "slug": "attention-substance-ai-moment",
     "title": "Attention, Substance, and the AI Moment",
     "order": 6,
-    "role": "chapter"
+    "role": "chapter",
+    "arc": "diagnosis"
   },
   "claims": [
     {
@@ -59,10 +60,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -73,9 +74,9 @@
       "evidence": [
         {
           "sourceId": "source-ncert-mental-health-2022",
-          "snippet": "The NCERT Mental Health and Well-being of School Students Survey found high levels of anxiety, mood disturbance, and sleep problems among over 3.5 lakh surveyed students.",
+          "snippet": "Frequent mood swings along with feeling anxious about studies, examinations and results were reported widely among students; changes in sleeping pattern were reported by 39%.",
           "supports": "direct",
-          "assessedAt": "2026-07-05"
+          "assessedAt": "2026-07-17"
         },
         {
           "sourceId": "source-who-adolescent-mental-health",
@@ -91,10 +92,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -105,9 +106,9 @@
       "evidence": [
         {
           "sourceId": "source-pmc-sleep-screen",
-          "snippet": "A review of studies on screen time and sleep quality in adolescents finds that evening screen use is associated with delayed sleep onset, shorter sleep duration, and poorer sleep quality.",
+          "snippet": "Short video addiction was negatively associated with sleep quality, physical activity, and executive function; sleep quality was a significant partial mediator in the addiction–executive-function relationship.",
           "supports": "direct",
-          "assessedAt": "2026-07-05"
+          "assessedAt": "2026-07-18"
         }
       ],
       "counterevidence": [
@@ -117,10 +118,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18: re-sourced to PMC13087538 (screen-time sleep-disruption study); snippet supports claim."
       }
     },
     {
@@ -137,9 +138,9 @@
         },
         {
           "sourceId": "source-ncert-mental-health-2022",
-          "snippet": "High prevalence of anxiety and sleep problems across a large national school sample points to environmental and structural contributors, not only personal failing.",
+          "snippet": "Frequent mood swings along with feeling anxious about studies, examinations and results were reported widely among students; changes in sleeping pattern were reported by 39%.",
           "supports": "indirect",
-          "assessedAt": "2026-07-05"
+          "assessedAt": "2026-07-17"
         }
       ],
       "counterevidence": [
@@ -149,10 +150,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     }
   ],
@@ -166,17 +167,17 @@
     },
     {
       "id": "source-ncert-mental-health-2022",
-      "title": "NCERT: Mental Health and Well-being of School Students Survey",
-      "url": "https://ncert.nic.in/pdf/announcement/Mental_Health_Survey.pdf",
+      "url": "https://ncert.nic.in/pdf/Mental_Health_WSS_A_Survey_new.pdf",
       "type": "government-report",
-      "accessed": "2026-07-05"
+      "accessed": "2026-07-17",
+      "title": "NCERT: Mental Health and Well-being of School Students Survey"
     },
     {
       "id": "source-pmc-sleep-screen",
-      "title": "PMC: Screen time and sleep quality in adolescents",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7774621/",
+      "title": "Xiao et al.: When Screens Replace Sleep: Short Video Addiction Impairs Executive Function Through Sleep Disruption in Youth (Brain and Behavior, 2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13087538/",
       "type": "peer-reviewed-study",
-      "accessed": "2026-07-05"
+      "accessed": "2026-07-18"
     },
     {
       "id": "source-who-adolescent-mental-health",
@@ -246,6 +247,16 @@
         ],
         "notes": "Re-approved by maintainer after the meta#61 P1 citation repairs (publish instruction, 2026-07-17).",
         "contentHash": "f8a2d65f399946e629846ed6b35900e8cf8460a2926577fc798721eae84fc6e7"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-18",
+        "status": "approved",
+        "scope": [
+          "article"
+        ],
+        "notes": "Re-approved by maintainer after the meta#61 P2 series migration (hardcoded kicker strip + arc reorder; no prose change beyond the kicker line; issue #124 instruction).",
+        "contentHash": "71cb1a8cfc23de566a88dee73ee6df59b4f881e52080b048ecc42a1438ebb068"
       }
     ],
     "policy": {
@@ -253,7 +264,7 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "f8a2d65f399946e629846ed6b35900e8cf8460a2926577fc798721eae84fc6e7",
+  "contentHash": "71cb1a8cfc23de566a88dee73ee6df59b4f881e52080b048ecc42a1438ebb068",
   "diagnostics": {
     "accepted": [
       {

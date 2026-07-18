@@ -22,7 +22,6 @@ agentArtifact: /agents/articles/why-good-content-loses-to-loud-content.json
 sourcePath: content/articles/2026/why-good-content-loses-to-loud-content/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 50</p>
 
 Spend ten minutes on any short-form video platform and you will see it. A clip with shaky camera work and a shouted headline gets millions of views. A carefully researched explainer on the same topic gets a few thousand. The first creator looks like they are winning. The second creator wonders what they are doing wrong.
 

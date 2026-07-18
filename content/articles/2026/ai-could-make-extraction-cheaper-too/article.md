@@ -23,7 +23,6 @@ agentArtifact: /agents/articles/ai-could-make-extraction-cheaper-too.json
 sourcePath: content/articles/2026/ai-could-make-extraction-cheaper-too/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 24</p>
 
 The most useful way to think about artificial intelligence is not as a friend or a threat, but as a cheapening machine. It makes some expensive things cheap: translation, coding help, medical information, lesson plans, image editing. But it also makes some harmful things cheap: fake video, personalized manipulation, synthetic celebrities, and infinitely replenished outrage feeds. The same general ability that can power a tutor can power a persuasion engine. The difference is not in the model. It is in what the surrounding system rewards.
 

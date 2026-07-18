@@ -22,7 +22,6 @@ agentArtifact: /agents/articles/from-penny-press-to-infinite-scroll.json
 sourcePath: content/articles/2026/from-penny-press-to-infinite-scroll/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 53</p>
 
 The feeling that the current attention economy is unprecedented is itself one of its tricks. The scale is new, but the structure is old. Every medium that has ever expanded the supply of information has also created a market for attention, and every attention market has gone through a similar cycle: access explodes, quality is briefly drowned out, and societies eventually build institutions that help audiences find what is worth their time.
 

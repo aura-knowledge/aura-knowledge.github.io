@@ -22,7 +22,6 @@ agentArtifact: /agents/articles/the-generational-bet.json
 sourcePath: content/articles/2026/the-generational-bet/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 3</p>
 
 When the printing press arrived in Europe, it did not automatically make societies wiser. It made them *capable* of wisdom. The communities that gained power were the ones that built publishing houses, schools, libraries, and habits of argument. The communities that lost ground treated the press as a faster way to circulate what they already believed. The same machine produced science and panic, poetry and propaganda. The difference was the habit of mind that met the machine.
 

@@ -22,7 +22,6 @@ agentArtifact: /agents/articles/india-in-global-context.json
 sourcePath: content/articles/2026/india-in-global-context/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 12</p>
 
 India is often described as the world's largest open internet market. That scale makes its attention economy hard to ignore. But the mechanics behind it are not Indian. Autoplay, infinite scroll, variable rewards, and algorithmic recommendations were perfected elsewhere and imported on cheap data plans. India is a high-resolution version of a global story.
 

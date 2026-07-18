@@ -23,7 +23,6 @@ agentArtifact: /agents/articles/the-reel-nation-short-form-video.json
 sourcePath: content/articles/2026/the-reel-nation-short-form-video/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 3</p>
 
 If you had to pick one activity that defines India's internet today, it would not be email, search, or online learning. It would be the short-form video feed. On trains, in tea shops, during homework breaks, and before sleep, millions of people swipe through a bottomless stream of clips. The behaviour looks like leisure. But the design behind it is closer to a slot machine: every swipe is a small bet on a rewarding outcome, and the house is built to keep you playing.
 

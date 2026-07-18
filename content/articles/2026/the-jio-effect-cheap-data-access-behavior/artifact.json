@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-07-18",
   "audiences": [
     "general",
     "students",
@@ -29,8 +29,9 @@
   "series": {
     "slug": "attention-substance-ai-moment",
     "title": "Attention, Substance, and the AI Moment",
-    "order": 17,
-    "role": "chapter"
+    "order": 19,
+    "role": "chapter",
+    "arc": "historical-frames"
   },
   "claims": [
     {
@@ -47,9 +48,9 @@
         },
         {
           "sourceId": "source-itu-affordability",
-          "snippet": "ITU affordability data consistently ranks India among the cheapest large markets for mobile broadband relative to income.",
+          "snippet": "Globally, ICT services became more affordable in 2023 and the rate of improvement exceeded the long-term trend observed for broadband services; 114 economies met the Broadband Commission affordability target.",
           "supports": "direct",
-          "assessedAt": "2026-07-05"
+          "assessedAt": "2026-07-17"
         }
       ],
       "counterevidence": [
@@ -59,10 +60,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -91,10 +92,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -123,10 +124,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -143,9 +144,9 @@
         },
         {
           "sourceId": "source-itu-affordability",
-          "snippet": "Affordability removed a binding constraint on access, shifting the policy question from connectivity to quality and use of access.",
+          "snippet": "Globally, ICT services became more affordable in 2023 and the rate of improvement exceeded the long-term trend observed for broadband services; 114 economies met the Broadband Commission affordability target.",
           "supports": "indirect",
-          "assessedAt": "2026-07-05"
+          "assessedAt": "2026-07-17"
         }
       ],
       "counterevidence": [
@@ -155,10 +156,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     }
   ],
@@ -179,10 +180,10 @@
     },
     {
       "id": "source-itu-affordability",
-      "title": "ITU: Affordability of ICT services",
-      "url": "https://www.itu.int/itu-d/reports/statistics/affordability-of-ict-services-2023/",
+      "title": "ITU: The affordability of ICT services 2023 (Policy Brief, March 2024)",
+      "url": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/prices2023/ICTPriceBrief2023.pdf",
       "type": "government-report",
-      "accessed": "2026-07-05"
+      "accessed": "2026-07-17"
     },
     {
       "id": "source-bain-short-form-india",
@@ -251,6 +252,16 @@
         ],
         "notes": "Re-approved by maintainer after the meta#61 P1 citation repairs (publish instruction, 2026-07-17).",
         "contentHash": "c36715853be62bee203bbb19f19c6ab3c76ba1936f3fdd252ded566969a8eacf"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-18",
+        "status": "approved",
+        "scope": [
+          "article"
+        ],
+        "notes": "Re-approved by maintainer after the meta#61 P2 series migration (hardcoded kicker strip + arc reorder; no prose change beyond the kicker line; issue #124 instruction).",
+        "contentHash": "b8757a00ca710a4af96d527db56205d3a2e233dbdbf4c6b6ed51776aacc9b70e"
       }
     ],
     "policy": {
@@ -258,7 +269,7 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "c36715853be62bee203bbb19f19c6ab3c76ba1936f3fdd252ded566969a8eacf",
+  "contentHash": "b8757a00ca710a4af96d527db56205d3a2e233dbdbf4c6b6ed51776aacc9b70e",
   "diagnostics": {
     "accepted": [
       {

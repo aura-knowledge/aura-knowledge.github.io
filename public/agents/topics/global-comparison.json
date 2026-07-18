@@ -34,11 +34,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/india-in-global-context/",
       "agentJsonPath": "/agents/articles/india-in-global-context.json",
       "agentMarkdownPath": "/agents/articles/india-in-global-context.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 7,
       "tokenEstimate": 195,
-      "contentHash": "5742b77c6207ba7ffde81785f57dfc69e8dd1490b315ccb7a83c1bf3fbe6e635"
+      "contentHash": "c6198bc61d361dc04a48b39d809cedcab289e14ab6177b84d98597405d36dd68"
     }
   ]
 }

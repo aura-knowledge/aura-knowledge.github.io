@@ -24,7 +24,6 @@ agentArtifact: /agents/articles/age-appropriate-design.json
 sourcePath: content/articles/2026/age-appropriate-design/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 44</p>
 
 Most platform design assumes a fully capable adult: someone who can read the fine print, resist a variable-reward loop, spot a scam, and walk away from a feed whenever they choose. In reality, a large share of any internet population does not fit that profile. Children are still developing the cognitive controls that make resistance possible. Elderly users may be encountering scams and manipulative interfaces for the first time. Low-literacy users can be nudged into choices they do not fully understand. Designing for the average user means extracting from the most vulnerable.
 

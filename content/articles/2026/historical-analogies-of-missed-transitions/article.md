@@ -23,7 +23,6 @@ agentArtifact: /agents/articles/historical-analogies-of-missed-transitions.json
 sourcePath: content/articles/2026/historical-analogies-of-missed-transitions/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 27</p>
 
 History does not repeat, but it rhymes. Every few generations a technology arrives that reshapes what economies produce, who leads, and who follows. The countries that recognized the hinge early—industrialization in Britain, electrification in Germany and the United States, personal computing and the internet in the United States and East Asia—gained compounding advantages that lasted for decades. The countries that arrived late, or that treated the new technology as someone else's story, often spent a century catching up. India now stands at another such hinge. The question is not whether AI will matter; it is whether India will be among the shapers or the shaped.
 

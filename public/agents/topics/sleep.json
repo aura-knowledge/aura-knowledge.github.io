@@ -35,11 +35,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/sleep-anxiety-and-tele-manas/",
       "agentJsonPath": "/agents/articles/sleep-anxiety-and-tele-manas.json",
       "agentMarkdownPath": "/agents/articles/sleep-anxiety-and-tele-manas.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 295,
-      "contentHash": "f8a2d65f399946e629846ed6b35900e8cf8460a2926577fc798721eae84fc6e7"
+      "contentHash": "71cb1a8cfc23de566a88dee73ee6df59b4f881e52080b048ecc42a1438ebb068"
     }
   ]
 }

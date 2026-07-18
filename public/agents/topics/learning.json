@@ -41,11 +41,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/failure-teaching-and-the-skill-stack/",
       "agentJsonPath": "/agents/articles/failure-teaching-and-the-skill-stack.json",
       "agentMarkdownPath": "/agents/articles/failure-teaching-and-the-skill-stack.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 4,
       "tokenEstimate": 276,
-      "contentHash": "a95e00e39cc83a61256a5b2cad5c72ac975e7defb21cbcb83bb7357594bfe387"
+      "contentHash": "fb5327fe15116bdcd157a514f2a97a0e18b0c488b520bcd9803af7a6e3aae69d"
     },
     {
       "id": "article:the-substance-builder",
@@ -74,11 +74,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
       "agentJsonPath": "/agents/articles/the-substance-builder.json",
       "agentMarkdownPath": "/agents/articles/the-substance-builder.md",
-      "updatedAt": "2026-07-17",
-      "claimCount": 5,
-      "sourceCount": 6,
-      "tokenEstimate": 500,
-      "contentHash": "c9c9a05577503f9c699e6b4b1f24f3fbe510bc6c5cdebefa2eb53eb7369e0323"
+      "updatedAt": "2026-07-18",
+      "claimCount": 8,
+      "sourceCount": 8,
+      "tokenEstimate": 584,
+      "contentHash": "00f35f6a83626b2b70f441f53b4a018ed34d1a97e227f94d3129f73923050533"
     }
   ]
 }

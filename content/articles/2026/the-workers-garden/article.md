@@ -24,7 +24,6 @@ agentArtifact: /agents/articles/the-workers-garden.json
 sourcePath: content/articles/2026/the-workers-garden/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 4</p>
 
 The average working adult in India loses a small fortune of attention every year. Not to scams, not to outrage, but to the gaps between obligations: the metro ride, the auto queue, the waiting room, the lunch break that drifts into scrolling. These windows feel too short to matter, so we hand them over to feeds designed to take whatever remains. But the same twenty minutes, reclaimed and repeated, can become a garden.
 

@@ -21,7 +21,6 @@ agentArtifact: /agents/articles/the-better-question.json
 sourcePath: content/articles/2026/the-better-question/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 6</p>
 
 After dozens of data points, source caveats, and design arguments, the series lands on a question simple enough to fit on a whiteboard: does this platform, policy, or product leave the user better than it found them? If the answer is no, attention is being harvested rather than cultivated. If the answer is yes, the same infrastructure that now extracts can instead compound into learning, skill, and civic capacity.
 

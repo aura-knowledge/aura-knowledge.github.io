@@ -34,11 +34,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/public-space-and-private-screens/",
       "agentJsonPath": "/agents/articles/public-space-and-private-screens.json",
       "agentMarkdownPath": "/agents/articles/public-space-and-private-screens.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 343,
-      "contentHash": "a6b188c0cb5f28a1ccc4d40f2d8ad67ceb0a27e23ab576b5d5b15efb7d6997c8"
+      "contentHash": "2ad83fe98f4f4cb746f682950ff167cdaf998b4564f2c46d990b0c2efd24f9c7"
     }
   ]
 }

@@ -23,7 +23,6 @@ agentArtifact: /agents/articles/the-design-of-extraction.json
 sourcePath: content/articles/2026/the-design-of-extraction/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 9</p>
 
 Most people who open a short-form video app do not decide, in any deliberate sense, to spend the next forty minutes there. They decide to watch one clip. Then another. Then the app decides for them. By the time they look up, the train stop has arrived, the coffee is cold, or the hour set aside for study has disappeared.
 

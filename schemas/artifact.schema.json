@@ -111,6 +111,10 @@
         },
         "role": {
           "enum": ["guide", "chapter", "companion", "appendix"]
+        },
+        "arc": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
         }
       }
     },
@@ -271,6 +275,20 @@
       "type": "array",
       "items": {
         "type": "string"
+      }
+    },
+    "disclosure": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["aiAssistance", "note"],
+      "properties": {
+        "aiAssistance": {
+          "type": "boolean"
+        },
+        "note": {
+          "type": "string",
+          "minLength": 12
+        }
       }
     },
     "diagnostics": {

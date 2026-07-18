@@ -36,11 +36,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-students-garden/",
       "agentJsonPath": "/agents/articles/the-students-garden.json",
       "agentMarkdownPath": "/agents/articles/the-students-garden.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 4,
       "tokenEstimate": 492,
-      "contentHash": "73fada8fa9f0b4eb3b63b435a796680cbfbe9ab113b43386b4ba069dfbf13d60"
+      "contentHash": "33c249c6c530a333ca0c75161d23aafce5bc9dee5fc10dadf115fc4552e95e1b"
     }
   ]
 }

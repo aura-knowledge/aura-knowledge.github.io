@@ -34,11 +34,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
       "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
       "agentMarkdownPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 8,
       "sourceCount": 7,
       "tokenEstimate": 724,
-      "contentHash": "58db791880b24a6ac451427a87506af3a68f3a83bb63ca881eb057ad23050116"
+      "contentHash": "3f5c870f80e0ce1824adb7acc364d5543a20f7a01d84bbc0a4e62f8ff96dbbb8"
     }
   ]
 }

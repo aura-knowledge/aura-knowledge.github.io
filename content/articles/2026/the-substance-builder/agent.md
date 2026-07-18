@@ -6,7 +6,7 @@ slug: the-substance-builder
 title: "Agent Brief for 'The Substance Builder: How to Turn Dead Time into Small Acts of Creation'"
 tokenBudget: 1200
 status: published
-updated: 2026-07-04
+updated: 2026-07-18
 ---
 
 ## Thesis
@@ -27,6 +27,9 @@ Building substance is not about dramatic discipline or quitting the internet. It
 - `claim-003`: The main cost of building substance is redirecting attention from consumption, not purchasing equipment or changing schedules dramatically.
 - `claim-004`: Unfinished or unnoticed early projects still build the skill stack for later work.
 - `claim-005`: Teaching an idea to someone else turns passive information into owned knowledge.
+- `claim-006`: Ericsson's research emphasizes deliberate, goal-directed practice with feedback, not a magic 10,000-hour threshold.
+- `claim-007`: Newport's deep-work research shows that the quality and undividedness of attention matter more than the raw number of hours spent, especially for cognitively demanding tasks.
+- `claim-008`: Fogg's behavior model shows that small, well-prompted behaviors matched to current ability are more reliable than motivation-dependent willpower.
 
 ## Source Families
 

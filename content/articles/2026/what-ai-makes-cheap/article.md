@@ -22,7 +22,6 @@ agentArtifact: /agents/articles/what-ai-makes-cheap.json
 sourcePath: content/articles/2026/what-ai-makes-cheap/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 3</p>
 
 The last few years have turned the cost of producing a draft, a line of code, a translation, or a voiceover upside down. Tasks that once required a trained professional, a studio, or a team can now be started with a prompt and finished with human judgment. The technology is not perfect, but it is already good enough to change the economics of knowledge work.
 

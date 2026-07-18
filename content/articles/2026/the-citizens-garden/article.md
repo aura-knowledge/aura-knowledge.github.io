@@ -23,7 +23,6 @@ agentArtifact: /agents/articles/the-citizens-garden.json
 sourcePath: content/articles/2026/the-citizens-garden/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 4</p>
 
 Most civic problems in India are not waiting for a genius inventor. They are waiting for someone to explain things clearly, in the right language, at the right time, and then share that explanation with ten neighbors. A pension scheme no one understands. A drain that floods every monsoon. A vaccination schedule that arrives as a poster no one can read. These are information problems more often than money problems. And information problems are exactly where a citizen with a phone and a little help from AI can begin.
 

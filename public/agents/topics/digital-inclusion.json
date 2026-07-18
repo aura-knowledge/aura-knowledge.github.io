@@ -32,11 +32,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
       "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json",
       "agentMarkdownPath": "/agents/articles/gender-and-the-attention-economy.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 6,
       "tokenEstimate": 901,
-      "contentHash": "9293a231c785b90054853fa00438bddc4f8aaf91e35cbf580211c88327b2b44f"
+      "contentHash": "211e0a1c8244d345388638ddeee63bc67bd6844f5423090b3e15b17566b3d095"
     }
   ]
 }

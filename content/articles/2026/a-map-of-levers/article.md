@@ -22,7 +22,6 @@ agentArtifact: /agents/articles/a-map-of-levers.json
 sourcePath: content/articles/2026/a-map-of-levers/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 6</p>
 
 India's digital infrastructure is a remarkable public good: nearly 900 million internet users, more than 650 million smartphones, and some of the cheapest data on earth. The same infrastructure, however, is now tuned to harvest attention at industrial scale. The diagnosis in this series is clear: a 4:1 entertainment-to-education ratio, adolescents more likely to open social media than a learning app, and workers who lose focus before the quarter-hour mark.
 

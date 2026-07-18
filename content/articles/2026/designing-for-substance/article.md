@@ -22,7 +22,6 @@ agentArtifact: /agents/articles/designing-for-substance.json
 sourcePath: content/articles/2026/designing-for-substance/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 5</p>
 
 Before food-safety laws, a factory could sell almost anything that fit in a can. Before tobacco warnings, a company could market cigarettes to children. Before seatbelts were standard, carmakers could treat safety as the driver's private responsibility. In each case, the design of a product was treated as a purely commercial decision until the public costs grew too large to ignore. Then the frame shifted: some design choices are not merely business choices; they are civic choices.
 

@@ -36,11 +36,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
       "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
       "agentMarkdownPath": "/agents/articles/engagement-is-a-design-choice.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 879,
-      "contentHash": "7585c03a336b10fe1b3acc19fdafc0bf8de138d8c6de08d781f634649a090e94"
+      "contentHash": "20222aa061e1f7c1af698ef9b9be2474262a53817c458be08c6a2336948be0cf"
     },
     {
       "id": "article:friction-chronological-feeds-user-chosen-algorithms",
@@ -71,11 +71,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
       "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json",
       "agentMarkdownPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 283,
-      "contentHash": "762bff6be771c33eb2fcb253a58a2e9c5d4f2c8b28902a9935b7e1cf8654d2ec"
+      "contentHash": "240f4f93701d76c1985f3b5426064b8e2507663aef7eae54de6a38f39d50bf65"
     },
     {
       "id": "article:product-ideas-that-could-shift-incentives",
@@ -110,11 +110,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
       "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
       "agentMarkdownPath": "/agents/articles/product-ideas-that-could-shift-incentives.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 14,
       "sourceCount": 13,
       "tokenEstimate": 1369,
-      "contentHash": "94fdce2ea87a40ad99477d3e2ced72284d4702de9f713d788f5b05e842a776fa"
+      "contentHash": "ef6fa472592af0deadde67354db01aa4c5bba3a721faf07b0542cbdf5b8f4ef6"
     }
   ]
 }

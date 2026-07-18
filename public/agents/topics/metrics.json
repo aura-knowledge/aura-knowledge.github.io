@@ -36,11 +36,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/alternative-metrics-time-well-spent/",
       "agentJsonPath": "/agents/articles/alternative-metrics-time-well-spent.json",
       "agentMarkdownPath": "/agents/articles/alternative-metrics-time-well-spent.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 270,
-      "contentHash": "c49c8db8fad9468f2f5de96d655457175a9767d0cceb457918fc831a32e0856c"
+      "contentHash": "0a83dcd9eae0d6d43d8ad42ab516221fc1d2ac4add91d898b6e60ea722885af5"
     }
   ]
 }

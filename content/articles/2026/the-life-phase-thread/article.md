@@ -21,7 +21,6 @@ agentArtifact: /agents/articles/the-life-phase-thread.json
 sourcePath: content/articles/2026/the-life-phase-thread/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 2</p>
 
 Much of the public debate about screens and attention treats the problem as if it were one thing: too much time on phones, too many reels, too little sleep. The numbers are real, but the framing is incomplete. Attention extraction in India is not a single crisis. It is a thread that changes colour as it moves through a human life.
 

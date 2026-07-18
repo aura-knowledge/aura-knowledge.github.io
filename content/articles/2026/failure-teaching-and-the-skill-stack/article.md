@@ -25,7 +25,6 @@ agentArtifact: /agents/articles/failure-teaching-and-the-skill-stack.json
 sourcePath: content/articles/2026/failure-teaching-and-the-skill-stack/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 35</p>
 
 The hardest part of learning anything worth learning is the beginning. Your taste runs ahead of your ability. You can tell what good writing, good code, or good design looks like, but what you produce is not yet good. That gap is uncomfortable, and the attention economy offers an easy escape: a feed where the rewards are instant and the failure is invisible. The first skill, then, is not talent. It is learning to stay in the gap long enough for ability to catch up.
 
@@ -86,7 +85,7 @@ This article draws on research on deliberate practice, the learning-by-teaching 
 
 <h2 id="related-in-this-series">Related in This Series</h2>
 
-- [The Small-Rep Theory](/articles/the-small-rep-theory/) — why small, focused repetitions beat heroic intensity.
+- [The Small-Rep Theory](/articles/the-substance-builder/#the-small-rep-theory) — why small, focused repetitions beat heroic intensity.
 - [The Student's Garden](/articles/the-students-garden/) — how students can use AI as a tutor rather than a ghostwriter.
 - [The Compounding Bet](/articles/the-compounding-bet/) — how daily attention choices aggregate into national capacity.
 - [Attention, Substance, and the AI Moment](/articles/attention-substance-ai-moment/) — the full series guide and reading paths.

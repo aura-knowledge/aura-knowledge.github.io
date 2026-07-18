@@ -36,11 +36,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
       "agentJsonPath": "/agents/articles/the-compounding-bet.json",
       "agentMarkdownPath": "/agents/articles/the-compounding-bet.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 8,
       "tokenEstimate": 802,
-      "contentHash": "1d9dc1bd1cee040a792048ecab6acad39cf130a561507617cb60d79141158281"
+      "contentHash": "050f5145615e847b65a73101c166919ad3768fe88862d49a2624aa3b1a4429fc"
     },
     {
       "id": "article:the-generational-bet",
@@ -69,11 +69,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
       "agentJsonPath": "/agents/articles/the-generational-bet.json",
       "agentMarkdownPath": "/agents/articles/the-generational-bet.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 10,
       "tokenEstimate": 658,
-      "contentHash": "273af6cb9297a078f5cc75f08c449a484b3b80cec535f6dd191ab2c5ead00571"
+      "contentHash": "6f30fcdd394d7dffefb39acb82474c9159c55f6f093af5a9e23b89b488c569c0"
     },
     {
       "id": "article:the-substance-builder",
@@ -102,11 +102,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
       "agentJsonPath": "/agents/articles/the-substance-builder.json",
       "agentMarkdownPath": "/agents/articles/the-substance-builder.md",
-      "updatedAt": "2026-07-17",
-      "claimCount": 5,
-      "sourceCount": 6,
-      "tokenEstimate": 500,
-      "contentHash": "c9c9a05577503f9c699e6b4b1f24f3fbe510bc6c5cdebefa2eb53eb7369e0323"
+      "updatedAt": "2026-07-18",
+      "claimCount": 8,
+      "sourceCount": 8,
+      "tokenEstimate": 584,
+      "contentHash": "00f35f6a83626b2b70f441f53b4a018ed34d1a97e227f94d3129f73923050533"
     }
   ]
 }

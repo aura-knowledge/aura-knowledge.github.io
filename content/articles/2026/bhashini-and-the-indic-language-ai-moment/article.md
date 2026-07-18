@@ -22,7 +22,6 @@ agentArtifact: /agents/articles/bhashini-and-the-indic-language-ai-moment.json
 sourcePath: content/articles/2026/bhashini-and-the-indic-language-ai-moment/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 25</p>
 
 India's internet is not an English internet. Roughly nine in ten users now access content in Indic languages, and that share is growing as rural and first-time users come online. For decades, this linguistic diversity was treated as a friction—something to be overcome with English literacy or dubbed content. AI is beginning to offer a different path: instead of forcing users into one language, it can bring knowledge to them in their own.
 

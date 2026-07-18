@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-07-18",
   "audiences": [
     "general",
     "students",
@@ -30,8 +30,9 @@
   "series": {
     "slug": "attention-substance-ai-moment",
     "title": "Attention, Substance, and the AI Moment",
-    "order": 27,
-    "role": "chapter"
+    "order": 31,
+    "role": "chapter",
+    "arc": "ai-opportunity-cost"
   },
   "claims": [
     {
@@ -60,10 +61,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -86,10 +87,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -112,10 +113,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -126,9 +127,9 @@
       "evidence": [
         {
           "sourceId": "source-nasscom-india-ai-adoption",
-          "snippet": "NASSCOM reports document India's large technology workforce, startup ecosystem, and growing AI adoption across services and enterprises.",
+          "snippet": "The Deloitte-nasscom report 'Advancing India's AI Skills' (Aug 2024) projects India's AI talent demand rising from 600,000-650,000 to over 1,250,000 during 2022-27, signalling a growing demand-supply gap unless skilling accelerates; nasscom estimates India's AI market could reach $17B by 2027 with 420,000+ professionals already in AI roles.",
           "supports": "indirect",
-          "assessedAt": "2026-07-05"
+          "assessedAt": "2026-07-18"
         }
       ],
       "counterevidence": [
@@ -138,10 +139,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): nasscom-published research (Deloitte-nasscom AI skills report, nasscom AI market estimates) indirectly supports the claim - large AI talent base/market window plus a growing demand-supply gap that makes the window time-bound."
       }
     }
   ],
@@ -176,10 +177,10 @@
     },
     {
       "id": "source-nasscom-india-ai-adoption",
-      "title": "NASSCOM: India AI Adoption and Technology Industry Reports",
-      "url": "https://nasscom.in/knowledge-center/publications",
+      "title": "nasscom: Insights & Perspectives (reports listing)",
+      "url": "https://nasscom.in/perspectives",
       "type": "industry-report",
-      "accessed": "2026-07-05"
+      "accessed": "2026-07-17"
     }
   ],
   "related": [
@@ -226,6 +227,16 @@
         ],
         "notes": "Human author reviewed and approved the draft.",
         "contentHash": "f8d7648a11dc2580fd1d8984244dfc3249c23a4251f1b38b96816b6aec01bafd"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-18",
+        "status": "approved",
+        "scope": [
+          "article"
+        ],
+        "notes": "Re-approved by maintainer after the meta#61 P2 series migration (hardcoded kicker strip + arc reorder; no prose change beyond the kicker line; issue #124 instruction).",
+        "contentHash": "53835364f5884f98e35909f0592e6bfafced4d620f88fe7e09e535bc55807994"
       }
     ],
     "policy": {
@@ -233,7 +244,7 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "f8d7648a11dc2580fd1d8984244dfc3249c23a4251f1b38b96816b6aec01bafd",
+  "contentHash": "53835364f5884f98e35909f0592e6bfafced4d620f88fe7e09e535bc55807994",
   "diagnostics": {
     "accepted": [
       {
