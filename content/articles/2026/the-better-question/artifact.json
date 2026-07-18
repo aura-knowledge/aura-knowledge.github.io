@@ -334,5 +334,15 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "5b2dd30ccbdc6b8a0062de9648d4799310202bc46b06a4207a56aba88f3eef70"
+  "contentHash": "5b2dd30ccbdc6b8a0062de9648d4799310202bc46b06a4207a56aba88f3eef70",
+  "diagnostics": {
+    "accepted": [
+      {
+        "rule": "low-source-diversity",
+        "scope": "article",
+        "rationale": "Accepted as a quality backlog item per docs/diagnostics-triage-2026-07-15.md. The claim rests on sources that are sufficient for the current published version; additional independent sources will be added in a future research wave.",
+        "documentedAt": "2026-07-15"
+      }
+    ]
+  }
 }

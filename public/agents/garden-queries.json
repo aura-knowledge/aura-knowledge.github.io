@@ -6,7 +6,7 @@
   "generatedAt": "2026-07-15T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 1392
+    "totalResults": 1391
   },
   "dimensions": [
     {
@@ -12313,7 +12313,7 @@
         "status": "published"
       },
       "resultType": "articles",
-      "resultCount": 80,
+      "resultCount": 79,
       "results": [
         {
           "articleId": "article:a-map-of-levers",
@@ -12566,12 +12566,6 @@
           "slug": "planning-and-reflection",
           "articleUrl": "https://aura-knowledge.github.io/articles/planning-and-reflection/",
           "agentJsonPath": "/agents/articles/planning-and-reflection.json"
-        },
-        {
-          "articleId": "article:product-ideas-that-could-shift-incentives",
-          "slug": "product-ideas-that-could-shift-incentives",
-          "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
-          "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json"
         },
         {
           "articleId": "article:prompt-caching",

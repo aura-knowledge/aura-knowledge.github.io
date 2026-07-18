@@ -65,13 +65,7 @@
           "state": "draft",
           "evidenceCount": 3,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/a-map-of-levers: claim-006 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-007",
@@ -116,18 +110,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/a-readers-guide-to-the-series: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/a-readers-guide-to-the-series: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -137,13 +120,7 @@
           "state": "draft",
           "evidenceCount": 5,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/a-readers-guide-to-the-series: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -153,18 +130,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/a-readers-guide-to-the-series: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/a-readers-guide-to-the-series: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -174,13 +140,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/a-readers-guide-to-the-series: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -190,18 +150,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/a-readers-guide-to-the-series: claim-005 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/a-readers-guide-to-the-series: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -256,13 +205,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/age-appropriate-design: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -272,18 +215,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/age-appropriate-design: claim-005 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/age-appropriate-design: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -393,13 +325,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 2,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agent-control-planes: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -409,13 +335,7 @@
           "state": "draft",
           "evidenceCount": 4,
           "counterevidenceCount": 2,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agent-control-planes: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -425,13 +345,7 @@
           "state": "draft",
           "evidenceCount": 4,
           "counterevidenceCount": 2,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agent-control-planes: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -441,13 +355,7 @@
           "state": "draft",
           "evidenceCount": 4,
           "counterevidenceCount": 2,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agent-control-planes: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-006",
@@ -667,13 +575,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agents: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -683,18 +585,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agents: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agents: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -704,13 +595,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agents: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -720,18 +605,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agents: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agents: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -741,18 +615,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agents: claim-005 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/agents: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -777,18 +640,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-advanced-questions: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-advanced-questions: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -798,18 +650,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-advanced-questions: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-advanced-questions: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -819,18 +660,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-advanced-questions: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-advanced-questions: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -840,18 +670,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-advanced-questions: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-advanced-questions: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -861,18 +680,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-advanced-questions: claim-005 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-advanced-questions: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-006",
@@ -882,18 +690,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-advanced-questions: claim-006 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-advanced-questions: claim-006 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-007",
@@ -903,18 +700,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-advanced-questions: claim-007 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-advanced-questions: claim-007 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -939,18 +725,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-first-conversation: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-first-conversation: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -960,18 +735,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-first-conversation: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-first-conversation: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -981,18 +745,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-first-conversation: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-first-conversation: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -1002,18 +755,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-first-conversation: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-agent-first-conversation: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -1093,18 +835,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-could-make-extraction-cheaper-too: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-could-make-extraction-cheaper-too: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -1114,18 +845,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-could-make-extraction-cheaper-too: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-could-make-extraction-cheaper-too: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -1135,13 +855,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-could-make-extraction-cheaper-too: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -1151,18 +865,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-could-make-extraction-cheaper-too: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-could-make-extraction-cheaper-too: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -1212,13 +915,7 @@
           "state": "verified",
           "evidenceCount": 4,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-delegation-orchestration-01-from-conversation-to-delegation: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -1393,18 +1090,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-demystified: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-demystified: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -1414,18 +1100,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-demystified: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-demystified: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -1435,18 +1110,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-demystified: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/ai-demystified: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -1691,13 +1355,7 @@
           "state": "draft",
           "evidenceCount": 4,
           "counterevidenceCount": 2,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/audio-first-voice-consumption: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -1707,13 +1365,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 2,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/audio-first-voice-consumption: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -1873,18 +1525,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/bhashini-and-the-indic-language-ai-moment: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/bhashini-and-the-indic-language-ai-moment: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -1914,13 +1555,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/bhashini-and-the-indic-language-ai-moment: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -2010,18 +1645,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/business-models-that-reward-substance: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/business-models-that-reward-substance: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -2041,18 +1665,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/business-models-that-reward-substance: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/business-models-that-reward-substance: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -2062,18 +1675,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/business-models-that-reward-substance: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/business-models-that-reward-substance: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -2108,18 +1710,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/by-the-numbers-what-indians-do-online: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/by-the-numbers-what-indians-do-online: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -2129,18 +1720,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/by-the-numbers-what-indians-do-online: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/by-the-numbers-what-indians-do-online: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -2150,13 +1730,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/by-the-numbers-what-indians-do-online: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -2166,18 +1740,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/by-the-numbers-what-indians-do-online: claim-005 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/by-the-numbers-what-indians-do-online: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-006",
@@ -2187,18 +1750,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/by-the-numbers-what-indians-do-online: claim-006 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/by-the-numbers-what-indians-do-online: claim-006 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-007",
@@ -2233,18 +1785,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/compound-habits-career-stages: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/compound-habits-career-stages: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -2254,18 +1795,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/compound-habits-career-stages: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/compound-habits-career-stages: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -2275,18 +1805,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/compound-habits-career-stages: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/compound-habits-career-stages: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -2306,18 +1825,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/compound-habits-career-stages: claim-005 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/compound-habits-career-stages: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-006",
@@ -2327,18 +1835,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/compound-habits-career-stages: claim-006 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/compound-habits-career-stages: claim-006 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-007",
@@ -2348,18 +1845,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/compound-habits-career-stages: claim-007 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/compound-habits-career-stages: claim-007 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -2384,18 +1870,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/context-management: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/context-management: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -2405,18 +1880,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/context-management: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/context-management: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -2426,18 +1890,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/context-management: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/context-management: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -2447,18 +1900,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/context-management: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/context-management: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -2493,18 +1935,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/designing-for-substance: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/designing-for-substance: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -2534,18 +1965,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/designing-for-substance: claim-005 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/designing-for-substance: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -2580,18 +2000,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/engagement-is-a-design-choice: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/engagement-is-a-design-choice: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -2601,18 +2010,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/engagement-is-a-design-choice: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/engagement-is-a-design-choice: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -2622,18 +2020,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/engagement-is-a-design-choice: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/engagement-is-a-design-choice: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -2643,13 +2030,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/engagement-is-a-design-choice: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-006",
@@ -2694,18 +2075,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/evaluations: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/evaluations: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -2715,18 +2085,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/evaluations: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/evaluations: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -2736,13 +2095,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/evaluations: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -2752,13 +2105,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/evaluations: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -2838,18 +2185,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/fine-tuning: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/fine-tuning: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -2859,18 +2195,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/fine-tuning: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/fine-tuning: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -2890,18 +2215,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/fine-tuning: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/fine-tuning: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -3211,18 +2525,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/from-penny-press-to-infinite-scroll: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/from-penny-press-to-infinite-scroll: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -3232,18 +2535,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/from-penny-press-to-infinite-scroll: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/from-penny-press-to-infinite-scroll: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -3253,18 +2545,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/from-penny-press-to-infinite-scroll: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/from-penny-press-to-infinite-scroll: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -3274,18 +2555,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/from-penny-press-to-infinite-scroll: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/from-penny-press-to-infinite-scroll: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -3295,18 +2565,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/from-penny-press-to-infinite-scroll: claim-005 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/from-penny-press-to-infinite-scroll: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-006",
@@ -3316,18 +2575,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/from-penny-press-to-infinite-scroll: claim-006 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/from-penny-press-to-infinite-scroll: claim-006 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-007",
@@ -3337,18 +2585,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/from-penny-press-to-infinite-scroll: claim-007 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/from-penny-press-to-infinite-scroll: claim-007 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -3383,18 +2620,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/gender-and-the-attention-economy: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/gender-and-the-attention-economy: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -3414,18 +2640,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/gender-and-the-attention-economy: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/gender-and-the-attention-economy: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -3435,18 +2650,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/gender-and-the-attention-economy: claim-005 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/gender-and-the-attention-economy: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-006",
@@ -3456,18 +2660,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/gender-and-the-attention-economy: claim-006 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/gender-and-the-attention-economy: claim-006 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-007",
@@ -3477,18 +2670,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/gender-and-the-attention-economy: claim-007 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/gender-and-the-attention-economy: claim-007 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -3523,18 +2705,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/historical-analogies-of-missed-transitions: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/historical-analogies-of-missed-transitions: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -3544,18 +2715,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/historical-analogies-of-missed-transitions: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/historical-analogies-of-missed-transitions: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -3565,18 +2725,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/historical-analogies-of-missed-transitions: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/historical-analogies-of-missed-transitions: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -3601,18 +2750,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/historical-hinges-access-is-not-benefit: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/historical-hinges-access-is-not-benefit: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -3622,18 +2760,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/historical-hinges-access-is-not-benefit: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/historical-hinges-access-is-not-benefit: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -3643,18 +2770,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/historical-hinges-access-is-not-benefit: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/historical-hinges-access-is-not-benefit: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -3784,13 +2900,7 @@
           "state": "draft",
           "evidenceCount": 3,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/india-in-global-context: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -3800,13 +2910,7 @@
           "state": "draft",
           "evidenceCount": 3,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/india-in-global-context: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -4011,18 +3115,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/long-running-sessions: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/long-running-sessions: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -4032,18 +3125,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/long-running-sessions: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/long-running-sessions: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -4053,13 +3135,7 @@
           "state": "draft",
           "evidenceCount": 3,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/long-running-sessions: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -4069,13 +3145,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/long-running-sessions: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -4085,18 +3155,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/long-running-sessions: claim-005 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/long-running-sessions: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -4121,18 +3180,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/loops-vs-goals: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/loops-vs-goals: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -4142,18 +3190,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/loops-vs-goals: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/loops-vs-goals: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -4163,13 +3200,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/loops-vs-goals: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -4179,18 +3210,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/loops-vs-goals: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/loops-vs-goals: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -4215,18 +3235,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/memory-vs-context: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/memory-vs-context: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -4236,13 +3245,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/memory-vs-context: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -4252,13 +3255,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/memory-vs-context: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -4268,18 +3265,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/memory-vs-context: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/memory-vs-context: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -4304,18 +3290,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/multi-agent-systems: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/multi-agent-systems: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -4325,18 +3300,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/multi-agent-systems: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/multi-agent-systems: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -4346,13 +3310,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/multi-agent-systems: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -4362,18 +3320,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/multi-agent-systems: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/multi-agent-systems: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -4398,18 +3345,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/open-questions-the-series-leaves-unresolved: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/open-questions-the-series-leaves-unresolved: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -4419,18 +3355,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/open-questions-the-series-leaves-unresolved: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/open-questions-the-series-leaves-unresolved: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -4440,18 +3365,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/open-questions-the-series-leaves-unresolved: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/open-questions-the-series-leaves-unresolved: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -4461,18 +3375,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/open-questions-the-series-leaves-unresolved: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/open-questions-the-series-leaves-unresolved: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -4497,18 +3400,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/planning-and-reflection: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/planning-and-reflection: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -4518,18 +3410,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/planning-and-reflection: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/planning-and-reflection: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -4539,13 +3420,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/planning-and-reflection: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -4555,18 +3430,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/planning-and-reflection: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/planning-and-reflection: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -4576,18 +3440,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/planning-and-reflection: claim-005 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/planning-and-reflection: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -4609,258 +3462,149 @@
           "claim": "A platform that asks whether content leaves the user more capable, informed, or connected would need different signals, ranking objectives, and business models than one that asks only whether it kept the user watching.",
           "confidence": "medium-high",
           "status": "framing",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "published-article-with-draft-claim",
-              "severity": "warning",
-              "message": "2026/product-ideas-that-could-shift-incentives: claim-001 is draft-verified but the article is published."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
           "claim": "Public-interest algorithms could surface locally relevant, verified, and constructive content when the stakes are high.",
           "confidence": "medium",
           "status": "design",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "published-article-with-draft-claim",
-              "severity": "warning",
-              "message": "2026/product-ideas-that-could-shift-incentives: claim-002 is draft-verified but the article is published."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
           "claim": "Creator reputation economies can reward consistent quality over viral moments.",
           "confidence": "medium-high",
           "status": "design",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "published-article-with-draft-claim",
-              "severity": "warning",
-              "message": "2026/product-ideas-that-could-shift-incentives: claim-003 is draft-verified but the article is published."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
           "claim": "User-owned attention budgets and time-well-spent dashboards can restore agency without removing choice.",
           "confidence": "medium",
           "status": "design",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "published-article-with-draft-claim",
-              "severity": "warning",
-              "message": "2026/product-ideas-that-could-shift-incentives: claim-004 is draft-verified but the article is published."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
           "claim": "Build-new platforms can optimize for substance from inception but face cold-start and network-effects barriers; change-existing strategies have distribution but face incumbent incentive resistance; protocol layers can avoid the winner-take-all problem but require coordination and adoption.",
           "confidence": "medium-high",
           "status": "strategy",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "published-article-with-draft-claim",
-              "severity": "warning",
-              "message": "2026/product-ideas-that-could-shift-incentives: claim-005 is draft-verified but the article is published."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-007",
           "claim": "Agent-mediated attention stewards can defend user intent if they are genuinely buyer-aligned, privacy-preserving, and transparent about whose interests they serve.",
           "confidence": "medium",
           "status": "forecast",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "published-article-with-draft-claim",
-              "severity": "warning",
-              "message": "2026/product-ideas-that-could-shift-incentives: claim-007 is draft-verified but the article is published."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/product-ideas-that-could-shift-incentives: claim-007 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/product-ideas-that-could-shift-incentives: claim-007 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-008",
           "claim": "Creator-economy realignment—through subscriptions, patronage, public funding, and cooperative ownership—can change the metrics that matter and reduce dependence on attention extraction.",
           "confidence": "medium-high",
           "status": "argument",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 3,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "published-article-with-draft-claim",
-              "severity": "warning",
-              "message": "2026/product-ideas-that-could-shift-incentives: claim-008 is draft-verified but the article is published."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-009",
           "claim": "A quality-weighted ranking protocol could reward completion, citation, source transparency, and reported learning, making substance legible to recommendation systems without requiring a single platform to win.",
           "confidence": "medium",
           "status": "proposal",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 3,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "published-article-with-draft-claim",
-              "severity": "warning",
-              "message": "2026/product-ideas-that-could-shift-incentives: claim-009 is draft-verified but the article is published."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-010",
           "claim": "A public-interest ranking switch could elevate verified civic information during high-stakes periods, but it requires transparent governance to avoid capture.",
           "confidence": "medium",
           "status": "proposal",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "published-article-with-draft-claim",
-              "severity": "warning",
-              "message": "2026/product-ideas-that-could-shift-incentives: claim-010 is draft-verified but the article is published."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-011",
           "claim": "A cross-platform reputation commons could reward consistent, constructive contribution and reduce the advantage of viral shock over sustained trust.",
           "confidence": "medium",
           "status": "proposal",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "published-article-with-draft-claim",
-              "severity": "warning",
-              "message": "2026/product-ideas-that-could-shift-incentives: claim-011 is draft-verified but the article is published."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/product-ideas-that-could-shift-incentives: claim-011 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-012",
           "claim": "An intent-first attention layer could restore agency through budgets, friction, and defaults, though its effectiveness depends on design and user commitment.",
           "confidence": "medium",
           "status": "proposal",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "published-article-with-draft-claim",
-              "severity": "warning",
-              "message": "2026/product-ideas-that-could-shift-incentives: claim-012 is draft-verified but the article is published."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-013",
           "claim": "A delegated attention agent could filter and schedule information against explicit user goals, but only if it remains auditable, contestable, and free from platform or advertiser capture.",
           "confidence": "medium",
           "status": "proposal",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "published-article-with-draft-claim",
-              "severity": "warning",
-              "message": "2026/product-ideas-that-could-shift-incentives: claim-013 is draft-verified but the article is published."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/product-ideas-that-could-shift-incentives: claim-013 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/product-ideas-that-could-shift-incentives: claim-013 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-014",
           "claim": "Concepts that change ranking objectives are best pursued inside existing platforms or by regulation; concepts that change market structure are best pursued as protocols or interoperability layers; startups are most viable when they demonstrate a behavior incumbents may later adopt.",
           "confidence": "medium",
           "status": "strategy",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "published-article-with-draft-claim",
-              "severity": "warning",
-              "message": "2026/product-ideas-that-could-shift-incentives: claim-014 is draft-verified but the article is published."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-015",
           "claim": "Every alternative attention incentive can be gamed; safeguards such as audits, transparency, human judgment, and appeal mechanisms are required for any of them to remain trustworthy.",
           "confidence": "medium-high",
           "status": "risk",
-          "state": "draft",
+          "state": "verified",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "published-article-with-draft-claim",
-              "severity": "warning",
-              "message": "2026/product-ideas-that-could-shift-incentives: claim-015 is draft-verified but the article is published."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
-        "verified": 0,
+        "verified": 14,
         "contested": 0,
         "stale": 0,
         "needs-evidence": 0,
         "missing-counterevidence": 0,
-        "draft": 14
+        "draft": 0
       }
     },
     {
@@ -4886,18 +3630,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/prompt-caching: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/prompt-caching: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -4942,18 +3675,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/prompt-engineering: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/prompt-engineering: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -4963,18 +3685,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/prompt-engineering: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/prompt-engineering: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -4984,13 +3695,7 @@
           "state": "draft",
           "evidenceCount": 3,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/prompt-engineering: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -5000,18 +3705,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/prompt-engineering: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/prompt-engineering: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -5146,18 +3840,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/reasoning-models: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/reasoning-models: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -5167,18 +3850,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/reasoning-models: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/reasoning-models: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -5188,18 +3860,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/reasoning-models: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/reasoning-models: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -5209,18 +3870,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/reasoning-models: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/reasoning-models: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -5275,18 +3925,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/regulation-as-a-floor-dsa-it-rules-dpdp: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/regulation-as-a-floor-dsa-it-rules-dpdp: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -5296,13 +3935,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/regulation-as-a-floor-dsa-it-rules-dpdp: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-006",
@@ -5347,18 +3980,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/retrieval-augmented-generation: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/retrieval-augmented-generation: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -5368,13 +3990,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/retrieval-augmented-generation: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -5384,13 +4000,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/retrieval-augmented-generation: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -5400,18 +4010,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/retrieval-augmented-generation: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/retrieval-augmented-generation: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -5436,18 +4035,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/sleep-anxiety-and-tele-manas: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/sleep-anxiety-and-tele-manas: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -5457,13 +4045,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/sleep-anxiety-and-tele-manas: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -5473,18 +4055,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/sleep-anxiety-and-tele-manas: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/sleep-anxiety-and-tele-manas: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -5494,13 +4065,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/sleep-anxiety-and-tele-manas: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -5535,13 +4100,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 2,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-attention-extraction: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -5586,18 +4145,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-attention-matthew-effect: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-attention-matthew-effect: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -5607,18 +4155,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-attention-matthew-effect: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-attention-matthew-effect: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -5628,18 +4165,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-attention-matthew-effect: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-attention-matthew-effect: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -5649,18 +4175,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-attention-matthew-effect: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-attention-matthew-effect: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -5670,18 +4185,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-attention-matthew-effect: claim-005 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-attention-matthew-effect: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-006",
@@ -5691,18 +4195,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-attention-matthew-effect: claim-006 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-attention-matthew-effect: claim-006 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-007",
@@ -5712,18 +4205,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-attention-matthew-effect: claim-007 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-attention-matthew-effect: claim-007 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -5758,13 +4240,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-better-question: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -5774,18 +4250,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-better-question: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-better-question: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -5805,18 +4270,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-better-question: claim-005 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-better-question: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-006",
@@ -5871,18 +4325,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-citizens-garden: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-citizens-garden: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -5892,18 +4335,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-citizens-garden: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-citizens-garden: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -5913,18 +4345,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-citizens-garden: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-citizens-garden: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -5959,13 +4380,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-compounding-bet: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -6015,18 +4430,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-compounding-bet: claim-007 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-compounding-bet: claim-007 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -6051,13 +4455,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-creator-economys-incentive-trap: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -6067,18 +4465,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-creator-economys-incentive-trap: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-creator-economys-incentive-trap: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -6088,18 +4475,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-creator-economys-incentive-trap: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-creator-economys-incentive-trap: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -6109,18 +4485,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-creator-economys-incentive-trap: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-creator-economys-incentive-trap: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -6130,13 +4495,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-creator-economys-incentive-trap: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-006",
@@ -6146,18 +4505,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-creator-economys-incentive-trap: claim-006 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-creator-economys-incentive-trap: claim-006 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-007",
@@ -6167,18 +4515,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-creator-economys-incentive-trap: claim-007 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-creator-economys-incentive-trap: claim-007 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -6313,13 +4650,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-engagement-gap-productivity-india: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -6339,18 +4670,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-engagement-gap-productivity-india: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-engagement-gap-productivity-india: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -6360,13 +4680,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-engagement-gap-productivity-india: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -6376,18 +4690,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-engagement-gap-productivity-india: claim-005 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-engagement-gap-productivity-india: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-006",
@@ -6407,18 +4710,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-engagement-gap-productivity-india: claim-007 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-engagement-gap-productivity-india: claim-007 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -6463,18 +4755,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-familys-garden: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-familys-garden: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -6484,18 +4765,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-familys-garden: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-familys-garden: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -6520,13 +4790,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-generational-bet: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -6546,18 +4810,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-generational-bet: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-generational-bet: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -6592,18 +4845,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-green-revolution-trade-off: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-green-revolution-trade-off: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -6668,18 +4910,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-indic-language-internet-and-vernacular-feeds: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-indic-language-internet-and-vernacular-feeds: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -6689,18 +4920,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-indic-language-internet-and-vernacular-feeds: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-indic-language-internet-and-vernacular-feeds: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -6740,18 +4960,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-indic-language-internet-and-vernacular-feeds: claim-007 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-indic-language-internet-and-vernacular-feeds: claim-007 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -6776,13 +4985,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-jio-effect-cheap-data-access-behavior: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -6792,18 +4995,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-jio-effect-cheap-data-access-behavior: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-jio-effect-cheap-data-access-behavior: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -6813,13 +5005,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-jio-effect-cheap-data-access-behavior: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -6884,18 +5070,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-life-phase-thread: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-life-phase-thread: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -6915,18 +5090,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-life-phase-thread: claim-006 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-life-phase-thread: claim-006 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-007",
@@ -6961,13 +5125,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-reel-nation-short-form-video: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -6987,13 +5145,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-reel-nation-short-form-video: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -7003,13 +5155,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-reel-nation-short-form-video: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -7054,18 +5200,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-small-rep-theory: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-small-rep-theory: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -7085,13 +5220,7 @@
           "state": "draft",
           "evidenceCount": 3,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-small-rep-theory: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-006",
@@ -7111,13 +5240,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-small-rep-theory: claim-007 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -7152,18 +5275,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-student-screen-education-vs-entertainment: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-student-screen-education-vs-entertainment: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -7173,18 +5285,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-student-screen-education-vs-entertainment: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-student-screen-education-vs-entertainment: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -7194,13 +5295,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-student-screen-education-vs-entertainment: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -7210,18 +5305,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-student-screen-education-vs-entertainment: claim-005 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-student-screen-education-vs-entertainment: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-006",
@@ -7231,18 +5315,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-student-screen-education-vs-entertainment: claim-006 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-student-screen-education-vs-entertainment: claim-006 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-007",
@@ -7307,13 +5380,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-students-garden: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -7433,18 +5500,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-workers-garden: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-workers-garden: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -7454,18 +5510,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-workers-garden: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/the-workers-garden: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -7490,18 +5535,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/tobacco-seatbelts-food-safety: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/tobacco-seatbelts-food-safety: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -7511,13 +5545,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/tobacco-seatbelts-food-safety: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -7527,13 +5555,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/tobacco-seatbelts-food-safety: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -7543,13 +5565,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/tobacco-seatbelts-food-safety: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -7574,18 +5590,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/tool-use: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/tool-use: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -7595,18 +5600,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/tool-use: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/tool-use: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -7616,18 +5610,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/tool-use: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/tool-use: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -7637,18 +5620,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/tool-use: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/tool-use: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -7673,13 +5645,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -7689,18 +5655,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -7710,18 +5665,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -7731,18 +5675,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -7752,18 +5685,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-005 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-006",
@@ -7773,18 +5695,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-006 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-006 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-007",
@@ -7794,18 +5705,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-007 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-007 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-008",
@@ -7815,18 +5715,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-008 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/trust-and-outrage-platforms-and-cohesion: claim-008 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -7906,18 +5795,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/what-ai-makes-cheap: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/what-ai-makes-cheap: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -7927,18 +5805,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/what-ai-makes-cheap: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/what-ai-makes-cheap: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -7948,18 +5815,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/what-ai-makes-cheap: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/what-ai-makes-cheap: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -7969,18 +5825,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/what-ai-makes-cheap: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/what-ai-makes-cheap: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -7990,18 +5835,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/what-ai-makes-cheap: claim-005 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/what-ai-makes-cheap: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-006",
@@ -8021,18 +5855,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/what-ai-makes-cheap: claim-007 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/what-ai-makes-cheap: claim-007 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -8057,18 +5880,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/what-india-is-building-vs-could-build: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/what-india-is-building-vs-could-build: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -8078,18 +5890,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/what-india-is-building-vs-could-build: claim-002 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/what-india-is-building-vs-could-build: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -8099,13 +5900,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/what-india-is-building-vs-could-build: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -8115,13 +5910,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/what-india-is-building-vs-could-build: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -8156,13 +5945,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/who-profits-advertising-foreign-platforms: claim-002 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-003",
@@ -8172,13 +5955,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/who-profits-advertising-foreign-platforms: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -8208,13 +5985,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/who-profits-advertising-foreign-platforms: claim-006 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {
@@ -8239,18 +6010,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/why-good-content-loses-to-loud-content: claim-001 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/why-good-content-loses-to-loud-content: claim-001 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-002",
@@ -8270,18 +6030,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/why-good-content-loses-to-loud-content: claim-003 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/why-good-content-loses-to-loud-content: claim-003 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-004",
@@ -8291,18 +6040,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/why-good-content-loses-to-loud-content: claim-004 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/why-good-content-loses-to-loud-content: claim-004 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-005",
@@ -8312,13 +6050,7 @@
           "state": "draft",
           "evidenceCount": 2,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/why-good-content-loses-to-loud-content: claim-005 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         },
         {
           "id": "claim-006",
@@ -8328,18 +6060,7 @@
           "state": "draft",
           "evidenceCount": 1,
           "counterevidenceCount": 1,
-          "findings": [
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/why-good-content-loses-to-loud-content: claim-006 relies on a single source for evidence."
-            },
-            {
-              "rule": "low-source-diversity",
-              "severity": "warning",
-              "message": "2026/why-good-content-loses-to-loud-content: claim-006 relies on a single source type for evidence."
-            }
-          ]
+          "findings": []
         }
       ],
       "summary": {

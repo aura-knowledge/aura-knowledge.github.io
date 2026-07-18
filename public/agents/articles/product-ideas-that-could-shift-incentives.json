@@ -44,7 +44,7 @@
       "verification": {
         "reviewedAt": "2026-07-15",
         "reviewer": "agent",
-        "status": "draft"
+        "status": "verified"
       },
       "evidence": [
         {
@@ -75,7 +75,7 @@
       "verification": {
         "reviewedAt": "2026-07-15",
         "reviewer": "agent",
-        "status": "draft"
+        "status": "verified"
       },
       "evidence": [
         {
@@ -106,7 +106,7 @@
       "verification": {
         "reviewedAt": "2026-07-15",
         "reviewer": "agent",
-        "status": "draft"
+        "status": "verified"
       },
       "evidence": [
         {
@@ -137,7 +137,7 @@
       "verification": {
         "reviewedAt": "2026-07-15",
         "reviewer": "agent",
-        "status": "draft"
+        "status": "verified"
       },
       "evidence": [
         {
@@ -168,7 +168,7 @@
       "verification": {
         "reviewedAt": "2026-07-15",
         "reviewer": "agent",
-        "status": "draft"
+        "status": "verified"
       },
       "evidence": [
         {
@@ -199,7 +199,7 @@
       "verification": {
         "reviewedAt": "2026-07-15",
         "reviewer": "agent",
-        "status": "draft"
+        "status": "verified"
       },
       "evidence": [
         {
@@ -224,7 +224,7 @@
       "verification": {
         "reviewedAt": "2026-07-15",
         "reviewer": "agent",
-        "status": "draft"
+        "status": "verified"
       },
       "evidence": [
         {
@@ -261,7 +261,7 @@
       "verification": {
         "reviewedAt": "2026-07-15",
         "reviewer": "agent",
-        "status": "draft"
+        "status": "verified"
       },
       "evidence": [
         {
@@ -298,7 +298,7 @@
       "verification": {
         "reviewedAt": "2026-07-15",
         "reviewer": "agent",
-        "status": "draft"
+        "status": "verified"
       },
       "evidence": [
         {
@@ -329,7 +329,7 @@
       "verification": {
         "reviewedAt": "2026-07-15",
         "reviewer": "agent",
-        "status": "draft"
+        "status": "verified"
       },
       "evidence": [
         {
@@ -360,7 +360,7 @@
       "verification": {
         "reviewedAt": "2026-07-15",
         "reviewer": "agent",
-        "status": "draft"
+        "status": "verified"
       },
       "evidence": [
         {
@@ -391,7 +391,7 @@
       "verification": {
         "reviewedAt": "2026-07-15",
         "reviewer": "agent",
-        "status": "draft"
+        "status": "verified"
       },
       "evidence": [
         {
@@ -416,7 +416,7 @@
       "verification": {
         "reviewedAt": "2026-07-15",
         "reviewer": "agent",
-        "status": "draft"
+        "status": "verified"
       },
       "evidence": [
         {
@@ -447,7 +447,7 @@
       "verification": {
         "reviewedAt": "2026-07-15",
         "reviewer": "agent",
-        "status": "draft"
+        "status": "verified"
       },
       "evidence": [
         {
@@ -656,6 +656,16 @@
     }
   },
   "contentHash": "94fdce2ea87a40ad99477d3e2ced72284d4702de9f713d788f5b05e842a776fa",
+  "diagnostics": {
+    "accepted": [
+      {
+        "rule": "low-source-diversity",
+        "scope": "article",
+        "rationale": "Accepted as a quality backlog item per docs/diagnostics-triage-2026-07-15.md. The claim rests on sources that are sufficient for the current published version; additional independent sources will be added in a future research wave.",
+        "documentedAt": "2026-07-15"
+      }
+    ]
+  },
   "generatedAt": "2026-07-15T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
   "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",

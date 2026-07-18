@@ -314,6 +314,16 @@
     }
   },
   "contentHash": "9293a231c785b90054853fa00438bddc4f8aaf91e35cbf580211c88327b2b44f",
+  "diagnostics": {
+    "accepted": [
+      {
+        "rule": "low-source-diversity",
+        "scope": "article",
+        "rationale": "Accepted as a quality backlog item per docs/diagnostics-triage-2026-07-15.md. The claim rests on sources that are sufficient for the current published version; additional independent sources will be added in a future research wave.",
+        "documentedAt": "2026-07-15"
+      }
+    ]
+  },
   "generatedAt": "2026-07-15T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
   "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json",

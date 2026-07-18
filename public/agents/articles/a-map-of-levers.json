@@ -435,6 +435,16 @@
     }
   },
   "contentHash": "6f361b3969e6d350c7c0af935801c329a62bd65a0fb4a9689d43672c369ad00f",
+  "diagnostics": {
+    "accepted": [
+      {
+        "rule": "low-source-diversity",
+        "scope": "article",
+        "rationale": "Accepted as a quality backlog item per docs/diagnostics-triage-2026-07-15.md. The claim rests on sources that are sufficient for the current published version; additional independent sources will be added in a future research wave.",
+        "documentedAt": "2026-07-15"
+      }
+    ]
+  },
   "generatedAt": "2026-07-15T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
   "agentJsonPath": "/agents/articles/a-map-of-levers.json",

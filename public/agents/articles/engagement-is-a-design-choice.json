@@ -324,6 +324,16 @@
     }
   },
   "contentHash": "7585c03a336b10fe1b3acc19fdafc0bf8de138d8c6de08d781f634649a090e94",
+  "diagnostics": {
+    "accepted": [
+      {
+        "rule": "low-source-diversity",
+        "scope": "article",
+        "rationale": "Accepted as a quality backlog item per docs/diagnostics-triage-2026-07-15.md. The claim rests on sources that are sufficient for the current published version; additional independent sources will be added in a future research wave.",
+        "documentedAt": "2026-07-15"
+      }
+    ]
+  },
   "generatedAt": "2026-07-15T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
   "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
