@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-20",
-  "updatedAt": "2026-06-20",
+  "updatedAt": "2026-07-15",
   "audiences": [
     "general readers",
     "students",
@@ -44,6 +44,12 @@
           "snippet": "The 2021 Stanford report defines foundation models as models trained on broad data at scale that can be adapted to a wide range of downstream tasks, and highlights the homogenization risks of a shared base.",
           "supports": "direct",
           "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-redhat-foundation-models",
+          "snippet": "Red Hat describes foundation models as pretrained machine-learning models trained on large datasets and adaptable to a range of downstream tasks.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
         }
       ],
       "counterevidence": [
@@ -51,7 +57,12 @@
           "summary": "The term is still contested; some practitioners reserve it for very large language models or require specific adaptation mechanisms, while others use it more loosely.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-002",
@@ -83,7 +94,12 @@
           "summary": "Success on a broad range of tasks does not demonstrate understanding; foundation models can produce fluent, confident errors and fail tasks that require grounded reasoning or causal knowledge.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-003",
@@ -96,6 +112,12 @@
           "snippet": "Attention Is All You Need proposes the Transformer architecture, relying entirely on attention mechanisms for sequence transduction and allowing greater parallelization during training.",
           "supports": "direct",
           "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-huggingface-bert-101",
+          "snippet": "The Hugging Face BERT 101 blog explains that the Transformer architecture replaced recurrence and convolution with attention, enabling massive training parallelization.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
         }
       ],
       "counterevidence": [
@@ -103,7 +125,12 @@
           "summary": "The Transformer was one factor among many; data scale, compute, engineering practices, and deployment also contributed to later large-model successes.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-004",
@@ -122,6 +149,12 @@
           "snippet": "GPT-3 demonstrates that scaling autoregressive language models improves few-shot learning through text prompts without fine-tuning.",
           "supports": "direct",
           "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-huggingface-bert-101",
+          "snippet": "The Hugging Face BERT 101 blog notes that BERT uses deep bidirectional pretraining and a task-specific head to adapt to many downstream language tasks.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
         }
       ],
       "counterevidence": [
@@ -129,7 +162,12 @@
           "summary": "Prompting and fine-tuning are brittle; small changes in prompt wording can produce large performance swings, and adaptation does not work equally well for all tasks or languages.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-005",
@@ -148,6 +186,12 @@
           "snippet": "Training Compute-Optimal Large Language Models argues that many large models are undertrained and that data scale should grow alongside model size for compute-optimal training.",
           "supports": "direct",
           "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-deepmind-chinchilla-blog",
+          "snippet": "DeepMind's Chinchilla blog describes training a compute-optimal model with 70 billion parameters on 1.3 trillion tokens, showing data scale should grow alongside model size.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
         }
       ],
       "counterevidence": [
@@ -155,7 +199,12 @@
           "summary": "Scaling laws describe predictive loss on specific datasets, not general intelligence, safety, or real-world utility; the optimal allocation also depends on inference cost and application constraints.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-006",
@@ -168,6 +217,12 @@
           "snippet": "Training language models to follow instructions with human feedback shows that RLHF improves instruction following while the authors note remaining mistakes and incomplete alignment.",
           "supports": "direct",
           "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-openai-instructgpt",
+          "snippet": "OpenAI's InstructGPT research blog describes using RLHF to improve instruction following while acknowledging remaining mistakes and limitations.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
         }
       ],
       "counterevidence": [
@@ -175,7 +230,12 @@
           "summary": "Post-training can suppress some harmful outputs but may also create new failure modes, such as sycophancy, overrefusal, or reward hacking, that are not present in the base model.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-007",
@@ -201,7 +261,12 @@
           "summary": "Multimodal behavior does not imply humanlike sensory grounding; models can associate patterns across modalities without embodied perception or causal models of the world.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-008",
@@ -226,6 +291,12 @@
           "snippet": "Toolformer shows that language models can learn to call external tools such as search engines and calculators through self-supervised training.",
           "supports": "direct",
           "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-openai-function-calling",
+          "snippet": "OpenAI's function-calling documentation explains how models can connect to external tools and APIs through a multi-step tool-calling loop.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
         }
       ],
       "counterevidence": [
@@ -233,7 +304,12 @@
           "summary": "Tool use increases capability but also expands the failure surface; models can invoke tools incorrectly, trust unreliable outputs, or expose systems to security and misuse risks.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-009",
@@ -246,6 +322,12 @@
           "snippet": "Holistic Evaluation of Language Models evaluates models across multiple metrics and scenarios, revealing tradeoffs hidden by single benchmarks.",
           "supports": "direct",
           "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-helm-readthedocs",
+          "snippet": "The HELM documentation states the framework evaluates foundation models across multiple metrics, including efficiency, bias, and toxicity, not just accuracy.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
         }
       ],
       "counterevidence": [
@@ -253,7 +335,12 @@
           "summary": "Holistic evaluation is expensive and may still miss real-world harms; simpler benchmarks remain common because they are cheaper to run and easier to compare across papers.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-010",
@@ -266,6 +353,12 @@
           "snippet": "The 2026 AI Index Report from Stanford HAI tracks rapid changes in capabilities, adoption, incidents, and responsible-AI measurement as of the report's release.",
           "supports": "direct",
           "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-stanford-ai-index-news",
+          "snippet": "Stanford HAI's news summary of the 2026 AI Index highlights rapid changes in capabilities, adoption, incidents, and responsible-AI measurement gaps.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
         }
       ],
       "counterevidence": [
@@ -273,7 +366,12 @@
           "summary": "AI Index aggregates third-party data and reflects available metrics and reporting practices; some categories have incomplete global coverage and definitions that change year to year.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-011",
@@ -292,6 +390,12 @@
           "snippet": "The NIST AI Risk Management Framework 1.0 provides a lifecycle governance and risk-management foundation used by the generative AI profile.",
           "supports": "background",
           "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-nist-genai-profile-release",
+          "snippet": "DLA Piper's summary reports that NIST released NIST AI 600-1, the Generative AI Profile companion to the AI Risk Management Framework, in July 2024.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
         }
       ],
       "counterevidence": [
@@ -299,7 +403,12 @@
           "summary": "NIST guidance is voluntary in the United States and may be superseded or supplemented by sector-specific rules or future framework versions.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     },
     {
       "id": "claim-012",
@@ -318,6 +427,12 @@
           "snippet": "The EU Code of Practice page states that the general-purpose AI Code of Practice became effective on 1 August 2025 as a voluntary compliance tool.",
           "supports": "direct",
           "assessedAt": "2026-06-20"
+        },
+        {
+          "sourceId": "source-eu-ai-act-gpai-news",
+          "snippet": "Lexology reports that EU AI Act obligations for general-purpose AI models entered force on 2 August 2025 and that the Commission approved the GPAI Code of Practice.",
+          "supports": "direct",
+          "assessedAt": "2026-07-15"
         }
       ],
       "counterevidence": [
@@ -325,7 +440,12 @@
           "summary": "Regulatory timing and interpretation evolve; the exact scope and enforcement of GPAI rules may change and should be rechecked after 2026-12-31.",
           "assessedAt": "2026-06-20"
         }
-      ]
+      ],
+      "verification": {
+        "status": "verified",
+        "reviewer": "agent",
+        "reviewedAt": "2026-07-15"
+      }
     }
   ],
   "sources": [
@@ -461,6 +581,69 @@
       "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-code-practice",
       "type": "policy",
       "accessed": "2026-06-19"
+    },
+    {
+      "id": "source-redhat-foundation-models",
+      "title": "What are foundation models for AI?",
+      "url": "https://www.redhat.com/en/topics/ai/what-are-foundation-models",
+      "type": "documentation",
+      "accessed": "2026-07-15"
+    },
+    {
+      "id": "source-huggingface-bert-101",
+      "title": "BERT 101: How does BERT work?",
+      "url": "https://huggingface.co/blog/bert-101",
+      "type": "blog",
+      "accessed": "2026-07-15"
+    },
+    {
+      "id": "source-deepmind-chinchilla-blog",
+      "title": "An empirical analysis of compute-optimal large language model training",
+      "url": "https://deepmind.google/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/",
+      "type": "blog",
+      "accessed": "2026-07-15"
+    },
+    {
+      "id": "source-openai-instructgpt",
+      "title": "Aligning language models to follow instructions",
+      "url": "https://openai.com/research/instruction-following",
+      "type": "blog",
+      "accessed": "2026-07-15"
+    },
+    {
+      "id": "source-openai-function-calling",
+      "title": "OpenAI Function Calling Guide",
+      "url": "https://developers.openai.com/api/docs/guides/function-calling",
+      "type": "documentation",
+      "accessed": "2026-07-15"
+    },
+    {
+      "id": "source-helm-readthedocs",
+      "title": "HELM: Holistic Evaluation of Language Models",
+      "url": "https://crfm-helm.readthedocs.io/",
+      "type": "documentation",
+      "accessed": "2026-07-15"
+    },
+    {
+      "id": "source-stanford-ai-index-news",
+      "title": "Inside the AI Index: 12 takeaways from the 2026 report",
+      "url": "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report",
+      "type": "news",
+      "accessed": "2026-07-15"
+    },
+    {
+      "id": "source-nist-genai-profile-release",
+      "title": "NIST releases its Generative Artificial Intelligence Profile",
+      "url": "https://www.dlapiper.com/en-hk/insights/publications/ai-outlook/2024/nist-releases-its-generative-artificial-intelligence-profile",
+      "type": "industry-news",
+      "accessed": "2026-07-15"
+    },
+    {
+      "id": "source-eu-ai-act-gpai-news",
+      "title": "General-purpose AI obligations under the EU AI Act kick in from 2 August 2025",
+      "url": "https://www.lexology.com/library/detail.aspx?g=2b7f17a1-73bf-4338-a76e-16fc4ed394c5",
+      "type": "industry-news",
+      "accessed": "2026-07-15"
     }
   ],
   "related": [
@@ -535,7 +718,7 @@
       "version": "1.0.0"
     }
   },
-  "generatedAt": "2026-07-06T00:00:00.000Z",
+  "generatedAt": "2026-07-15T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/foundation-models/",
   "agentJsonPath": "/agents/articles/foundation-models.json",
   "agentMarkdownPath": "/agents/articles/foundation-models.md",

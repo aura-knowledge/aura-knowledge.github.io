@@ -32,9 +32,9 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
       "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json",
       "agentMarkdownPath": "/agents/articles/agentic-commerce-product-truth.md",
-      "updatedAt": "2026-06-18",
+      "updatedAt": "2026-07-15",
       "claimCount": 15,
-      "sourceCount": 34,
+      "sourceCount": 37,
       "tokenEstimate": 1431,
       "contentHash": "4014d7d5a97200dd5194fd5c82e83c9d74f602ccc90fc5ec9abf2e393643e302"
     }
