@@ -22,7 +22,6 @@ agentArtifact: /agents/articles/public-space-and-private-screens.json
 sourcePath: content/articles/2026/public-space-and-private-screens/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 4</p>
 
 Step into a Mumbai local at rush hour, a Bengaluru metro carriage, or a bus stop in a small-town market. A decade ago these places hummed with argument, gossip, card games, and the accidental conversations that strangers fall into when they are packed together with nothing else to do. Today the same bodies are present, but the hum has changed. It is quieter, more fragmented, and directed inward. The shared physical space has not disappeared; it has been redecorated as a collection of private screens.
 

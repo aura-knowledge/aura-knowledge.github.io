@@ -22,7 +22,6 @@ agentArtifact: /agents/articles/the-attention-matthew-effect.json
 sourcePath: content/articles/2026/the-attention-matthew-effect/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 51</p>
 
 The sociologist Robert K. Merton coined the term "Matthew effect" to describe how scientific credit tends to accrue to already-famous researchers. The name comes from the Gospel of Matthew: "For to every one who has, more will be given." The same dynamic runs through today's content platforms, but faster and at a much larger scale. A creator with ten million followers does not merely have more fans. They have a structural advantage that makes the next million easier to reach than the first ten thousand were for a newcomer.
 

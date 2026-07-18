@@ -36,11 +36,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
       "agentJsonPath": "/agents/articles/a-map-of-levers.json",
       "agentMarkdownPath": "/agents/articles/a-map-of-levers.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 8,
       "sourceCount": 13,
       "tokenEstimate": 850,
-      "contentHash": "6f361b3969e6d350c7c0af935801c329a62bd65a0fb4a9689d43672c369ad00f"
+      "contentHash": "067eb4ea3ce5dcf72259e1c56ac0558928ec19d519dcfdd5eb01abd4115723ae"
     },
     {
       "id": "article:open-questions-the-series-leaves-unresolved",
@@ -73,11 +73,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/open-questions-the-series-leaves-unresolved/",
       "agentJsonPath": "/agents/articles/open-questions-the-series-leaves-unresolved.json",
       "agentMarkdownPath": "/agents/articles/open-questions-the-series-leaves-unresolved.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 2,
       "tokenEstimate": 288,
-      "contentHash": "fb0ac32ee6018b8b5be4644aa55dfb3be6c4c9937e5dcd6b75a858627eebc72e"
+      "contentHash": "f676d2c88daa4007abe851e18d1f2b76e6461cd27ea7ab1f39ae52e34e6005d0"
     }
   ]
 }

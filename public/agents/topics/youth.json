@@ -37,11 +37,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-demographic-dividend-is-not-automatic/",
       "agentJsonPath": "/agents/articles/the-demographic-dividend-is-not-automatic.json",
       "agentMarkdownPath": "/agents/articles/the-demographic-dividend-is-not-automatic.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 185,
-      "contentHash": "3046c0bc6ee177dfef3a39376fb328d53b6a95240cb02a5b0fcf3a3f9b829a93"
+      "contentHash": "5e3ffb6ea9e815b8fd8ce026449c64f16eec6ec2bf392591adfe5b87dd9ab015"
     },
     {
       "id": "article:the-reel-nation-short-form-video",
@@ -72,11 +72,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-reel-nation-short-form-video/",
       "agentJsonPath": "/agents/articles/the-reel-nation-short-form-video.json",
       "agentMarkdownPath": "/agents/articles/the-reel-nation-short-form-video.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 7,
       "tokenEstimate": 283,
-      "contentHash": "00b8f82af3c16ef462ab739b78dd0009012d191bd848899111a124fbe021e8c1"
+      "contentHash": "930e72585a5f7bb72f648f41d5b4a93c03d4f729f6cd1ed08891d1ab3280e9da"
     }
   ]
 }

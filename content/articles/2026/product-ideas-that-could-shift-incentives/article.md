@@ -25,7 +25,6 @@ agentArtifact: /agents/articles/product-ideas-that-could-shift-incentives.json
 sourcePath: content/articles/2026/product-ideas-that-could-shift-incentives/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 47</p>
 
 Most social platforms are still built around one question: “Will this keep the user scrolling?” That question built a trillion-dollar industry and gave billions of people a voice, but it is narrow. It treats attention as the only scarce resource and rarely asks what the attention produces. The forty-nine-article series behind this piece argues that the cost of that narrowness is now visible: sleep loss, learning displacement, civic disengagement, and a creator economy that rewards outrage over reliability.
 

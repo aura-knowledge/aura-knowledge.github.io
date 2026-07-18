@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-07-18",
   "audiences": [
     "general",
     "students",
@@ -30,8 +30,9 @@
   "series": {
     "slug": "attention-substance-ai-moment",
     "title": "Attention, Substance, and the AI Moment",
-    "order": 38,
-    "role": "chapter"
+    "order": 41,
+    "role": "chapter",
+    "arc": "designing-for-substance"
   },
   "claims": [
     {
@@ -48,15 +49,15 @@
         },
         {
           "sourceId": "source-youtube-research",
-          "snippet": "YouTube's responsibility research acknowledges that optimizing purely for watch time can surface content that keeps users watching but that they later regret.",
+          "snippet": "YouTube is equipping researchers from around the world with data, tools, and support to advance the public's understanding of our platform and its impact.",
           "supports": "direct",
-          "assessedAt": "2026-07-05"
+          "assessedAt": "2026-07-17"
         },
         {
           "sourceId": "source-mozilla-youtube-regrets",
-          "snippet": "Mozilla Foundation's YouTube Regrets research found that watch-time optimization surfaces misleading or harmful content because extreme material captures attention.",
+          "snippet": "The YouTube Regrets collection gathers user stories of recommendation spirals, from innocuous searches to extreme and harmful content.",
           "supports": "analogous",
-          "assessedAt": "2026-07-05"
+          "assessedAt": "2026-07-17"
         }
       ],
       "counterevidence": [
@@ -66,10 +67,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -80,9 +81,9 @@
       "evidence": [
         {
           "sourceId": "source-mosseri-time-well-spent",
-          "snippet": "Adam Mosseri's 2018 post on 'Defining Time Well Spent' describes Instagram's intent to measure the value users feel after a session rather than only the time spent.",
+          "snippet": "Today we are announcing new tools to help people manage their time on Facebook and Instagram: an activity dashboard, a daily reminder and a new way to limit notifications.",
           "supports": "direct",
-          "assessedAt": "2026-07-05"
+          "assessedAt": "2026-07-17"
         },
         {
           "sourceId": "source-humane-tech",
@@ -98,10 +99,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -112,9 +113,9 @@
       "evidence": [
         {
           "sourceId": "source-mozilla-youtube-regrets",
-          "snippet": "Mozilla Foundation's YouTube Regrets research found that watch-time optimization can surface misleading, hateful, or disturbing content because extreme material captures attention.",
+          "snippet": "The YouTube Regrets collection gathers user stories of recommendation spirals, from innocuous searches to extreme and harmful content.",
           "supports": "analogous",
-          "assessedAt": "2026-07-05"
+          "assessedAt": "2026-07-17"
         },
         {
           "sourceId": "source-eu-digital-services-act",
@@ -130,10 +131,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -162,10 +163,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     }
   ],
@@ -179,24 +180,24 @@
     },
     {
       "id": "source-mosseri-time-well-spent",
-      "title": "Adam Mosseri: Defining Time Well Spent",
-      "url": "https://about.instagram.com/blog/announcements/defining-time-well-spent",
+      "title": "Meta: New Tools to Manage Your Time on Facebook and Instagram (Aug 2018)",
+      "url": "https://about.fb.com/news/2018/08/manage-your-time/",
       "type": "article",
-      "accessed": "2026-07-05"
+      "accessed": "2026-07-17"
     },
     {
       "id": "source-youtube-research",
-      "title": "YouTube: Responsibility research",
-      "url": "https://research.youtube/categories/responsibility/",
+      "title": "YouTube Research",
+      "url": "https://research.youtube/",
       "type": "website",
-      "accessed": "2026-07-05"
+      "accessed": "2026-07-17"
     },
     {
       "id": "source-mozilla-youtube-regrets",
-      "title": "Mozilla Foundation: YouTube Regrets Research",
-      "url": "https://foundation.mozilla.org/en/campaigns/youtube-regrets/",
+      "title": "Mozilla Foundation: YouTube Regrets",
+      "url": "https://www.mozillafoundation.org/en/youtube/regrets/",
       "type": "research-report",
-      "accessed": "2026-07-05"
+      "accessed": "2026-07-17"
     },
     {
       "id": "source-eu-digital-services-act",
@@ -249,6 +250,16 @@
         ],
         "notes": "Human author approved publication.",
         "contentHash": "c49c8db8fad9468f2f5de96d655457175a9767d0cceb457918fc831a32e0856c"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-18",
+        "status": "approved",
+        "scope": [
+          "article"
+        ],
+        "notes": "Re-approved by maintainer after the meta#61 P2 series migration (hardcoded kicker strip + arc reorder; no prose change beyond the kicker line; issue #124 instruction).",
+        "contentHash": "0a83dcd9eae0d6d43d8ad42ab516221fc1d2ac4add91d898b6e60ea722885af5"
       }
     ],
     "policy": {
@@ -256,8 +267,8 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "c49c8db8fad9468f2f5de96d655457175a9767d0cceb457918fc831a32e0856c",
-  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "contentHash": "0a83dcd9eae0d6d43d8ad42ab516221fc1d2ac4add91d898b6e60ea722885af5",
+  "generatedAt": "2026-07-18T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/alternative-metrics-time-well-spent/",
   "agentJsonPath": "/agents/articles/alternative-metrics-time-well-spent.json",
   "agentMarkdownPath": "/agents/articles/alternative-metrics-time-well-spent.md",

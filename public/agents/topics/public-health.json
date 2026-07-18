@@ -38,11 +38,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/tobacco-seatbelts-food-safety/",
       "agentJsonPath": "/agents/articles/tobacco-seatbelts-food-safety.json",
       "agentMarkdownPath": "/agents/articles/tobacco-seatbelts-food-safety.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 4,
       "tokenEstimate": 258,
-      "contentHash": "6807ba8589523997378deff3df9378a6210845cf01ed345ea8478510f1674d32"
+      "contentHash": "f9c99d72589e207fa6cee0ddab188bb0ce686b60533f5084b4d65ce5f7813c67"
     }
   ]
 }

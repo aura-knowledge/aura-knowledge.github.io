@@ -39,11 +39,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
       "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
       "agentMarkdownPath": "/agents/articles/from-penny-press-to-infinite-scroll.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 6,
       "tokenEstimate": 562,
-      "contentHash": "6976a5dfa301eefca54a6613a7ac161950bbff440aabe4bfcc3b9f4a372405f4"
+      "contentHash": "9466887e3859e5521150c3090eec2194d91aec682cc5b5318022e33b2a3d846a"
     },
     {
       "id": "article:historical-analogies-of-missed-transitions",
@@ -74,11 +74,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/historical-analogies-of-missed-transitions/",
       "agentJsonPath": "/agents/articles/historical-analogies-of-missed-transitions.json",
       "agentMarkdownPath": "/agents/articles/historical-analogies-of-missed-transitions.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 303,
-      "contentHash": "f8d7648a11dc2580fd1d8984244dfc3249c23a4251f1b38b96816b6aec01bafd"
+      "contentHash": "53835364f5884f98e35909f0592e6bfafced4d620f88fe7e09e535bc55807994"
     },
     {
       "id": "article:historical-hinges-access-is-not-benefit",
@@ -109,11 +109,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/historical-hinges-access-is-not-benefit/",
       "agentJsonPath": "/agents/articles/historical-hinges-access-is-not-benefit.json",
       "agentMarkdownPath": "/agents/articles/historical-hinges-access-is-not-benefit.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 392,
-      "contentHash": "5e05ae1fc7c89cf568d073ca3c18568fe28d658608f7ae231604d8780ea934ac"
+      "contentHash": "e839e29a6d5c94f81958ea634951e02a6912c1eb6cb79bfe788bb57b9dfcb616"
     },
     {
       "id": "article:the-green-revolution-trade-off",
@@ -144,11 +144,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-green-revolution-trade-off/",
       "agentJsonPath": "/agents/articles/the-green-revolution-trade-off.json",
       "agentMarkdownPath": "/agents/articles/the-green-revolution-trade-off.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 4,
       "tokenEstimate": 276,
-      "contentHash": "1c2ebd611bacda78168ee5d2f6376ec03f7b8d1fcc2bae2a1dc64bafda5dd2d4"
+      "contentHash": "d78941e6eda157f35b9146d6a54035abb7a27100a15fe99d546e2a1a726fec6a"
     },
     {
       "id": "article:the-jio-effect-cheap-data-access-behavior",
@@ -177,11 +177,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-jio-effect-cheap-data-access-behavior/",
       "agentJsonPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.json",
       "agentMarkdownPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 372,
-      "contentHash": "c36715853be62bee203bbb19f19c6ab3c76ba1936f3fdd252ded566969a8eacf"
+      "contentHash": "b8757a00ca710a4af96d527db56205d3a2e233dbdbf4c6b6ed51776aacc9b70e"
     },
     {
       "id": "article:tobacco-seatbelts-food-safety",
@@ -214,11 +214,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/tobacco-seatbelts-food-safety/",
       "agentJsonPath": "/agents/articles/tobacco-seatbelts-food-safety.json",
       "agentMarkdownPath": "/agents/articles/tobacco-seatbelts-food-safety.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 4,
       "tokenEstimate": 258,
-      "contentHash": "6807ba8589523997378deff3df9378a6210845cf01ed345ea8478510f1674d32"
+      "contentHash": "f9c99d72589e207fa6cee0ddab188bb0ce686b60533f5084b4d65ce5f7813c67"
     }
   ]
 }

@@ -24,7 +24,6 @@ agentArtifact: /agents/articles/tobacco-seatbelts-food-safety.json
 sourcePath: content/articles/2026/tobacco-seatbelts-food-safety/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 15</p>
 
 For most of the twentieth century, smoking was sold as a personal choice and even a health aid. Seatbelts were treated as an intrusion on driver freedom. America's meatpacking industry argued that buyers should simply inspect their own food. In each case, the argument was the same: informed adults could look after themselves, so manufacturers and the state had no business redesigning products. Today the same argument is applied, almost word for word, to attention-extraction platforms.
 

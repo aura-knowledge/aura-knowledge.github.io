@@ -36,11 +36,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
       "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
       "agentMarkdownPath": "/agents/articles/from-penny-press-to-infinite-scroll.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 6,
       "tokenEstimate": 562,
-      "contentHash": "6976a5dfa301eefca54a6613a7ac161950bbff440aabe4bfcc3b9f4a372405f4"
+      "contentHash": "9466887e3859e5521150c3090eec2194d91aec682cc5b5318022e33b2a3d846a"
     },
     {
       "id": "article:the-attention-matthew-effect",
@@ -69,11 +69,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
       "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
       "agentMarkdownPath": "/agents/articles/the-attention-matthew-effect.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 6,
       "tokenEstimate": 534,
-      "contentHash": "c46ccd41d164bb9938811546da3651408b84b298db94adfa5dd8e24d739243a9"
+      "contentHash": "d38724447e685af9ee4b7ada34ca6f400b09340da06073550b40fc7c2ce8c064"
     },
     {
       "id": "article:why-good-content-loses-to-loud-content",
@@ -102,11 +102,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
       "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
       "agentMarkdownPath": "/agents/articles/why-good-content-loses-to-loud-content.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 6,
       "sourceCount": 7,
       "tokenEstimate": 535,
-      "contentHash": "8a50b59d1f86dc1e261cf824a610abebf67ec10b18ec1a93833d46e8cda1edfe"
+      "contentHash": "f1f13e69ddc449d133015c32d40f1339faf06f314b3dec106bc6348f991ce405"
     }
   ]
 }

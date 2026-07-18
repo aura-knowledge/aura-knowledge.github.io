@@ -24,7 +24,6 @@ agentArtifact: /agents/articles/what-india-is-building-vs-could-build.json
 sourcePath: content/articles/2026/what-india-is-building-vs-could-build/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 22</p>
 
 India's digital economy is large, fast-growing, and impossible to ignore. It contributes an estimated **11.74% of GDP**, or roughly **$400 billion**, by recent government and ICRIER estimates. That is a genuine achievement. But size is not the same as depth. Most of that value comes from services, consumer platforms, and digital aggregation: payments, delivery, ride-hailing, e-commerce, and entertainment. These are useful. They also leave a question unanswered: where is the deep tech?
 

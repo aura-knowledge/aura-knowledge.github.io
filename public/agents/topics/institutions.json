@@ -37,11 +37,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/historical-hinges-access-is-not-benefit/",
       "agentJsonPath": "/agents/articles/historical-hinges-access-is-not-benefit.json",
       "agentMarkdownPath": "/agents/articles/historical-hinges-access-is-not-benefit.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 392,
-      "contentHash": "5e05ae1fc7c89cf568d073ca3c18568fe28d658608f7ae231604d8780ea934ac"
+      "contentHash": "e839e29a6d5c94f81958ea634951e02a6912c1eb6cb79bfe788bb57b9dfcb616"
     },
     {
       "id": "article:human-systems",
@@ -71,7 +71,7 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
       "agentJsonPath": "/agents/articles/human-systems.json",
       "agentMarkdownPath": "/agents/articles/human-systems.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 6,
       "sourceCount": 13,
       "tokenEstimate": 655,

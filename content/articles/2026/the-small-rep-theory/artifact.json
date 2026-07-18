@@ -7,10 +7,10 @@
   "sourcePath": "content/articles/2026/the-small-rep-theory/article.md",
   "agentBriefPath": "content/articles/2026/the-small-rep-theory/agent.md",
   "thesis": "Lasting skill and substance build from small, focused, deliberately designed repetitions rather than from heroic intensity or passive consumption.",
-  "status": "published",
-  "maturity": "seed",
+  "status": "archived",
+  "maturity": "superseded",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-07-18",
   "audiences": [
     "general",
     "students",
@@ -59,10 +59,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "stale",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Stale 2026-07-18 (meta#61, site#124 item 11): article archived and folded into the-substance-builder; claims no longer maintained."
       }
     },
     {
@@ -91,10 +91,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "stale",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Stale 2026-07-18 (meta#61, site#124 item 11): article archived and folded into the-substance-builder; claims no longer maintained."
       }
     },
     {
@@ -117,10 +117,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "stale",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Stale 2026-07-18 (meta#61, site#124 item 11): article archived and folded into the-substance-builder; claims no longer maintained."
       }
     },
     {
@@ -149,10 +149,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "stale",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Stale 2026-07-18 (meta#61, site#124 item 11): article archived and folded into the-substance-builder; claims no longer maintained."
       }
     },
     {
@@ -187,10 +187,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "stale",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Stale 2026-07-18 (meta#61, site#124 item 11): article archived and folded into the-substance-builder; claims no longer maintained."
       }
     },
     {
@@ -219,10 +219,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "stale",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Stale 2026-07-18 (meta#61, site#124 item 11): article archived and folded into the-substance-builder; claims no longer maintained."
       }
     },
     {
@@ -251,10 +251,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "stale",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Stale 2026-07-18 (meta#61, site#124 item 11): article archived and folded into the-substance-builder; claims no longer maintained."
       }
     }
   ],
@@ -354,6 +354,16 @@
         ],
         "notes": "Human author approved publication.",
         "contentHash": "7ead4979bac4ecea0e4bb0cc52d08b41293f97697a50c89a3339a93da944ff0e"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-18",
+        "status": "approved",
+        "scope": [
+          "article"
+        ],
+        "notes": "Re-approved by maintainer after the meta#61 P2 fold of the-small-rep-theory into the-substance-builder (issue #124 instruction, 2026-07-18).",
+        "contentHash": "a501695a746cdf253a19ae31e6018c1218f0737a58daa1b01956226ed96b6b45"
       }
     ],
     "policy": {
@@ -361,7 +371,7 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "7ead4979bac4ecea0e4bb0cc52d08b41293f97697a50c89a3339a93da944ff0e",
+  "contentHash": "a501695a746cdf253a19ae31e6018c1218f0737a58daa1b01956226ed96b6b45",
   "diagnostics": {
     "accepted": [
       {
@@ -371,5 +381,9 @@
         "documentedAt": "2026-07-15"
       }
     ]
+  },
+  "disclosure": {
+    "aiAssistance": true,
+    "note": "Researched, drafted, and structured with AI agents; approved for publication by a human reviewer."
   }
 }

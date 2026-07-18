@@ -21,7 +21,6 @@ agentArtifact: /agents/articles/ai-as-journeyman-assistant.json
 sourcePath: content/articles/2026/ai-as-journeyman-assistant/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 30</p>
 
 The first draft of anything is intimidating. A blank page, a broken function, a sentence in a language you are still learning, a design that refuses to balance. Generative AI changes the economics of this first step. In seconds it can produce a paragraph, a translation, a debug suggestion, or a layout option. The question is no longer whether AI can help. It is where the help stops and the human work begins.
 

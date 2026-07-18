@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "sprout",
   "publishedAt": "2026-06-26",
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-07-18",
   "audiences": [
     "builders",
     "researchers",
@@ -58,10 +58,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -106,10 +106,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -142,10 +142,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -190,10 +190,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -238,10 +238,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -280,10 +280,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -328,10 +328,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     }
   ],
@@ -509,7 +509,7 @@
       }
     ]
   },
-  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "generatedAt": "2026-07-18T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
   "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json",
   "agentMarkdownPath": "/agents/articles/audio-first-voice-consumption.md",

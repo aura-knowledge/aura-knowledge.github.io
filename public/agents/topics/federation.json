@@ -38,11 +38,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/user-migration-and-the-exit-problem/",
       "agentJsonPath": "/agents/articles/user-migration-and-the-exit-problem.json",
       "agentMarkdownPath": "/agents/articles/user-migration-and-the-exit-problem.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 161,
-      "contentHash": "126c5c98a26bf36a5dbcf056e09c2c2ec6c9220b7d23f311afa87ac893a5857a"
+      "contentHash": "7f7e68765f83c95f6458928c57b7879e96286a3c01c1430d75707518423228ea"
     }
   ]
 }

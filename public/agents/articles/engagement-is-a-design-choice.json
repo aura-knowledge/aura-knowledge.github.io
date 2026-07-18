@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-07-18",
   "audiences": [
     "general",
     "students",
@@ -29,8 +29,9 @@
   "series": {
     "slug": "attention-substance-ai-moment",
     "title": "Attention, Substance, and the AI Moment",
-    "order": 37,
-    "role": "chapter"
+    "order": 40,
+    "role": "chapter",
+    "arc": "designing-for-substance"
   },
   "claims": [
     {
@@ -59,10 +60,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -85,10 +86,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -111,10 +112,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -137,10 +138,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -169,10 +170,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -201,10 +202,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -233,10 +234,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     }
   ],
@@ -350,6 +351,16 @@
         ],
         "notes": "Human author approved publication.",
         "contentHash": "7585c03a336b10fe1b3acc19fdafc0bf8de138d8c6de08d781f634649a090e94"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-18",
+        "status": "approved",
+        "scope": [
+          "article"
+        ],
+        "notes": "Re-approved by maintainer after the meta#61 P2 series migration (hardcoded kicker strip + arc reorder; no prose change beyond the kicker line; issue #124 instruction).",
+        "contentHash": "20222aa061e1f7c1af698ef9b9be2474262a53817c458be08c6a2336948be0cf"
       }
     ],
     "policy": {
@@ -357,7 +368,7 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "7585c03a336b10fe1b3acc19fdafc0bf8de138d8c6de08d781f634649a090e94",
+  "contentHash": "20222aa061e1f7c1af698ef9b9be2474262a53817c458be08c6a2336948be0cf",
   "diagnostics": {
     "accepted": [
       {
@@ -368,7 +379,11 @@
       }
     ]
   },
-  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "disclosure": {
+    "aiAssistance": true,
+    "note": "Researched, drafted, and structured with AI agents; approved for publication by a human reviewer."
+  },
+  "generatedAt": "2026-07-18T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
   "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
   "agentMarkdownPath": "/agents/articles/engagement-is-a-design-choice.md",

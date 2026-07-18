@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-15",
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-07-18",
   "audiences": [
     "builders",
     "indie-developers",
@@ -46,10 +46,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -78,10 +78,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -110,10 +110,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -136,10 +136,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -162,10 +162,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -188,10 +188,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     }
   ],
@@ -346,5 +346,9 @@
         "documentedAt": "2026-07-15"
       }
     ]
+  },
+  "disclosure": {
+    "aiAssistance": true,
+    "note": "Researched, drafted, and structured with AI agents; approved for publication by a human reviewer."
   }
 }

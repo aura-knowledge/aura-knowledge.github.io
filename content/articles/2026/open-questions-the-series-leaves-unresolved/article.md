@@ -24,7 +24,6 @@ agentArtifact: /agents/articles/open-questions-the-series-leaves-unresolved.json
 sourcePath: content/articles/2026/open-questions-the-series-leaves-unresolved/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 48</p>
 
 Every argument in this series rests on evidence that is partial, contested, or still emerging. That is not a weakness to hide; it is the honest frame within which any serious discussion of the attention economy must sit. This article does not try to resolve the series. It names the questions that remain open after the evidence has been laid out.
 

@@ -23,7 +23,6 @@ agentArtifact: /agents/articles/historical-hinges-access-is-not-benefit.json
 sourcePath: content/articles/2026/historical-hinges-access-is-not-benefit/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 2</p>
 
 Every few centuries, a new tool arrives that promises to change everything. Usually, it does—but not in the first decade, and rarely in the way its inventors imagined. Access comes first. The benefits arrive later, unevenly, and only after societies build the habits, rules, and institutions that steer the tool toward useful ends. The smartphone and artificial intelligence are the latest in this long line of historical hinges.
 

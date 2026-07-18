@@ -40,11 +40,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
       "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
       "agentMarkdownPath": "/agents/articles/product-ideas-that-could-shift-incentives.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 14,
       "sourceCount": 13,
       "tokenEstimate": 1369,
-      "contentHash": "94fdce2ea87a40ad99477d3e2ced72284d4702de9f713d788f5b05e842a776fa"
+      "contentHash": "ef6fa472592af0deadde67354db01aa4c5bba3a721faf07b0542cbdf5b8f4ef6"
     }
   ]
 }

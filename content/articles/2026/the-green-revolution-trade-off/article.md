@@ -23,7 +23,6 @@ agentArtifact: /agents/articles/the-green-revolution-trade-off.json
 sourcePath: content/articles/2026/the-green-revolution-trade-off/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 14</p>
 
 In the 1960s, India faced a food crisis. Drought, population growth, and stagnant yields made famine a real possibility. The Green Revolution arrived as a technological package: high-yielding wheat and rice varieties, irrigation expansion, chemical fertilizers, and pesticides. Production soared. Imports fell. The threat of mass hunger receded. The immediate problem was solved.
 

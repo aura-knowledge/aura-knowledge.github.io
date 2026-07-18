@@ -22,7 +22,6 @@ agentArtifact: /agents/articles/the-attention-extraction.json
 sourcePath: content/articles/2026/the-attention-extraction/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 1</p>
 
 India dug canals of cheap data across the country. The water reached everywhere—villages, railway platforms, late-night kitchens, school corridors. But the channels were not built to irrigate fields. They were built to carry away attention. The same infrastructure that could have turned a young, connected population into a productive force is now, in large part, a harvesting machine. The crop is not wheat or rice; it is hours.
 

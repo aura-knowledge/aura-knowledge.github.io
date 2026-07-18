@@ -34,11 +34,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
       "agentJsonPath": "/agents/articles/the-attention-extraction.json",
       "agentMarkdownPath": "/agents/articles/the-attention-extraction.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 14,
       "tokenEstimate": 674,
-      "contentHash": "a7b6211099e0e919f7287ce0d0569b8a5f13cae6ee9e4bff5b80f00e4aee5cb4"
+      "contentHash": "1de4d8d9b777d1cba54a52d5cb89b856067e25b35223c6d7d7e6cbfd3965c702"
     }
   ]
 }

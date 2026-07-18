@@ -22,7 +22,6 @@ agentArtifact: /agents/articles/compound-habits-career-stages.json
 sourcePath: content/articles/2026/compound-habits-career-stages/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 52</p>
 
 A career is not a sequence of disconnected jobs. It is a compounding process in which the habits built in one stage become the constraints or opportunities of the next. The attention choices made in the first years of work are especially consequential because they shape what skills develop, what reputation forms, and what options remain open later.
 
@@ -100,5 +99,5 @@ This article draws on productivity research (Cal Newport, <em>Deep Work</em>), I
 - [The Life-Phase Thread](/articles/the-life-phase-thread/) — how attention extraction shapes each life stage.
 - [The Worker's Garden](/articles/the-workers-garden/) — practical ways to reclaim time for skill-building.
 - [The Family's Garden](/articles/the-familys-garden/) — attention contracts at home.
-- [The Small-Rep Theory](/articles/the-small-rep-theory/) — why small, deliberate practices matter more than viral moments.
+- [The Small-Rep Theory](/articles/the-substance-builder/#the-small-rep-theory) — why small, deliberate practices matter more than viral moments.
 - [The Compounding Bet](/articles/the-compounding-bet/) — why sustained investments in substance compound over time.

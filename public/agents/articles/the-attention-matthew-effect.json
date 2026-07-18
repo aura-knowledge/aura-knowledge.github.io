@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-06",
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-07-18",
   "audiences": [
     "general",
     "students",
@@ -29,8 +29,9 @@
   "series": {
     "slug": "attention-substance-ai-moment",
     "title": "Attention, Substance, and the AI Moment",
-    "order": 51,
-    "role": "chapter"
+    "order": 27,
+    "role": "chapter",
+    "arc": "ai-opportunity-cost"
   },
   "claims": [
     {
@@ -53,10 +54,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -79,10 +80,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -105,10 +106,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -131,10 +132,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -157,10 +158,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -183,10 +184,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -209,10 +210,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     }
   ],
@@ -309,6 +310,16 @@
         ],
         "notes": "Reviewed and approved for publication as part of issue 104 expansion.",
         "contentHash": "c46ccd41d164bb9938811546da3651408b84b298db94adfa5dd8e24d739243a9"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-18",
+        "status": "approved",
+        "scope": [
+          "article"
+        ],
+        "notes": "Re-approved by maintainer after the meta#61 P2 series migration (hardcoded kicker strip + arc reorder; no prose change beyond the kicker line; issue #124 instruction).",
+        "contentHash": "d38724447e685af9ee4b7ada34ca6f400b09340da06073550b40fc7c2ce8c064"
       }
     ],
     "policy": {
@@ -316,7 +327,7 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "c46ccd41d164bb9938811546da3651408b84b298db94adfa5dd8e24d739243a9",
+  "contentHash": "d38724447e685af9ee4b7ada34ca6f400b09340da06073550b40fc7c2ce8c064",
   "diagnostics": {
     "accepted": [
       {
@@ -327,7 +338,7 @@
       }
     ]
   },
-  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "generatedAt": "2026-07-18T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
   "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
   "agentMarkdownPath": "/agents/articles/the-attention-matthew-effect.md",

@@ -42,11 +42,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/open-questions-the-series-leaves-unresolved/",
       "agentJsonPath": "/agents/articles/open-questions-the-series-leaves-unresolved.json",
       "agentMarkdownPath": "/agents/articles/open-questions-the-series-leaves-unresolved.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 2,
       "tokenEstimate": 288,
-      "contentHash": "fb0ac32ee6018b8b5be4644aa55dfb3be6c4c9937e5dcd6b75a858627eebc72e"
+      "contentHash": "f676d2c88daa4007abe851e18d1f2b76e6461cd27ea7ab1f39ae52e34e6005d0"
     },
     {
       "id": "article:sleep-anxiety-and-tele-manas",
@@ -76,11 +76,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/sleep-anxiety-and-tele-manas/",
       "agentJsonPath": "/agents/articles/sleep-anxiety-and-tele-manas.json",
       "agentMarkdownPath": "/agents/articles/sleep-anxiety-and-tele-manas.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 295,
-      "contentHash": "f8a2d65f399946e629846ed6b35900e8cf8460a2926577fc798721eae84fc6e7"
+      "contentHash": "71cb1a8cfc23de566a88dee73ee6df59b4f881e52080b048ecc42a1438ebb068"
     },
     {
       "id": "article:the-attention-extraction",
@@ -109,11 +109,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
       "agentJsonPath": "/agents/articles/the-attention-extraction.json",
       "agentMarkdownPath": "/agents/articles/the-attention-extraction.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 14,
       "tokenEstimate": 674,
-      "contentHash": "a7b6211099e0e919f7287ce0d0569b8a5f13cae6ee9e4bff5b80f00e4aee5cb4"
+      "contentHash": "1de4d8d9b777d1cba54a52d5cb89b856067e25b35223c6d7d7e6cbfd3965c702"
     },
     {
       "id": "article:the-reel-nation-short-form-video",
@@ -144,11 +144,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-reel-nation-short-form-video/",
       "agentJsonPath": "/agents/articles/the-reel-nation-short-form-video.json",
       "agentMarkdownPath": "/agents/articles/the-reel-nation-short-form-video.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 7,
       "tokenEstimate": 283,
-      "contentHash": "00b8f82af3c16ef462ab739b78dd0009012d191bd848899111a124fbe021e8c1"
+      "contentHash": "930e72585a5f7bb72f648f41d5b4a93c03d4f729f6cd1ed08891d1ab3280e9da"
     },
     {
       "id": "article:the-student-screen-education-vs-entertainment",
@@ -177,11 +177,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
       "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json",
       "agentMarkdownPath": "/agents/articles/the-student-screen-education-vs-entertainment.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 8,
       "sourceCount": 10,
       "tokenEstimate": 793,
-      "contentHash": "ef94b4d3b4278ba525440d5ece26522a3d391e42b5b85fa059fc5338fb4e3cf1"
+      "contentHash": "9625101fc086096686adf8610a3c7b73c4ab2e926f8e21182b7648f6fca4d0f1"
     }
   ]
 }

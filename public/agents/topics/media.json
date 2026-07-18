@@ -35,11 +35,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/business-models-that-reward-substance/",
       "agentJsonPath": "/agents/articles/business-models-that-reward-substance.json",
       "agentMarkdownPath": "/agents/articles/business-models-that-reward-substance.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 234,
-      "contentHash": "1f26ad853add00b6e05b7af85889c558fb8c18f1e43d28bf32d4b47c8fc5f970"
+      "contentHash": "050ebdca39e411eda0afc1256c33f077d5f7bfa2759a5ec9aaae0b1d5a3496e1"
     },
     {
       "id": "article:from-penny-press-to-infinite-scroll",
@@ -68,11 +68,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
       "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json",
       "agentMarkdownPath": "/agents/articles/from-penny-press-to-infinite-scroll.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 6,
       "tokenEstimate": 562,
-      "contentHash": "6976a5dfa301eefca54a6613a7ac161950bbff440aabe4bfcc3b9f4a372405f4"
+      "contentHash": "9466887e3859e5521150c3090eec2194d91aec682cc5b5318022e33b2a3d846a"
     }
   ]
 }

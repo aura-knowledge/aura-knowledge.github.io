@@ -34,11 +34,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/public-pressure-and-internal-accountability/",
       "agentJsonPath": "/agents/articles/public-pressure-and-internal-accountability.json",
       "agentMarkdownPath": "/agents/articles/public-pressure-and-internal-accountability.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 245,
-      "contentHash": "68bec887e19009714f520ce36bd33d54455a39d01f99a87004882009f3703e43"
+      "contentHash": "cfcec91295bd6110d5ad0d8d9ac4593c78cf6eabb1be07d66dcd2018b32f332c"
     }
   ]
 }

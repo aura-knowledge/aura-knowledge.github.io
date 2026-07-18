@@ -2,8 +2,7 @@
   "schemaVersion": 1,
   "topic": "skill-building",
   "articleIds": [
-    "article:failure-teaching-and-the-skill-stack",
-    "article:the-small-rep-theory"
+    "article:failure-teaching-and-the-skill-stack"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/skill-building/",
   "agentJsonPath": "/agents/topics/skill-building.json",
@@ -41,44 +40,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/failure-teaching-and-the-skill-stack/",
       "agentJsonPath": "/agents/articles/failure-teaching-and-the-skill-stack.json",
       "agentMarkdownPath": "/agents/articles/failure-teaching-and-the-skill-stack.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 4,
       "tokenEstimate": 276,
-      "contentHash": "a95e00e39cc83a61256a5b2cad5c72ac975e7defb21cbcb83bb7357594bfe387"
-    },
-    {
-      "id": "article:the-small-rep-theory",
-      "slug": "the-small-rep-theory",
-      "title": "The Small-Rep Theory",
-      "summary": "Synthesizes research on deliberate practice, deep work, and tiny habits into a practical framework for building substance one small repetition at a time.",
-      "status": "published",
-      "maturity": "seed",
-      "topics": [
-        "attention-economy",
-        "india",
-        "digital-wellbeing",
-        "skill-building",
-        "deliberate-practice",
-        "habits"
-      ],
-      "tags": [
-        "attention-economy",
-        "india",
-        "digital-wellbeing",
-        "skill-building",
-        "deliberate-practice",
-        "habits"
-      ],
-      "canonicalPath": "/articles/the-small-rep-theory/",
-      "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
-      "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
-      "agentMarkdownPath": "/agents/articles/the-small-rep-theory.md",
-      "updatedAt": "2026-07-17",
-      "claimCount": 7,
-      "sourceCount": 5,
-      "tokenEstimate": 659,
-      "contentHash": "7ead4979bac4ecea0e4bb0cc52d08b41293f97697a50c89a3339a93da944ff0e"
+      "contentHash": "fb5327fe15116bdcd157a514f2a97a0e18b0c488b520bcd9803af7a6e3aae69d"
     }
   ]
 }

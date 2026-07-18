@@ -21,7 +21,6 @@ agentArtifact: /agents/articles/a-readers-guide-to-the-series.json
 sourcePath: content/articles/2026/a-readers-guide-to-the-series/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 6</p>
 
 A long series is useful only if readers can find the part that answers their question. This guide is a map, not a summary. It explains how the [Attention, Substance, and the AI Moment](/articles/attention-substance-ai-moment/) series is organized, which published articles answer which questions, and how different readers—parents, students, builders, policymakers, educators—might move through it without reading every chapter in order.
 

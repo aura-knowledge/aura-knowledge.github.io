@@ -23,7 +23,6 @@ agentArtifact: /agents/articles/the-students-garden.json
 sourcePath: content/articles/2026/the-students-garden/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 31</p>
 
 The first time a student pastes an essay prompt into an AI and gets back a finished paragraph, the temptation is real. The work looks done. The deadline is met. The grade may even be fine. But something quieter has happened: the student has traded the struggle of thinking for the ease of receiving. That trade, repeated often enough, is how AI becomes a substitute for learning rather than a scaffold for it.
 

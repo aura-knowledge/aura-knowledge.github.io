@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-06-29",
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-07-18",
   "audiences": [
     "general",
     "students",
@@ -47,10 +47,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): Toolformer abstract (arXiv:2302.04761) confirms verbatim that the model learns to decide which APIs to call, when, and with what arguments, extending the LM with external capabilities it lacks."
       }
     },
     {
@@ -73,10 +73,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): Russell & Norvig agent definition quote confirmed verbatim (AIMA ch.2); cited as background support for the agent-acts-on-environment framing underlying the delegation/RPC/instrument analogy."
       }
     },
     {
@@ -99,10 +99,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): ReAct abstract (arXiv:2210.03629) confirms interleaved reasoning traces + task-specific actions via a Wikipedia API and environment interaction; together with Toolformer's calculator/search/translation/calendar APIs it grounds the enumerated tool-use patterns."
       }
     },
     {
@@ -125,10 +125,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): Gibson's affordance theory (mismatch between perceived and actual action possibilities leads to action errors) genuinely grounds the wrong-selection failure mode at the labeled 'indirect' support level; claim is medium-confidence and its counterevidence notes mitigations."
       }
     }
   ],
@@ -225,5 +225,9 @@
         "documentedAt": "2026-07-15"
       }
     ]
+  },
+  "disclosure": {
+    "aiAssistance": true,
+    "note": "Researched, drafted, and structured with AI agents; approved for publication by a human reviewer."
   }
 }

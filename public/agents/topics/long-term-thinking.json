@@ -36,11 +36,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-green-revolution-trade-off/",
       "agentJsonPath": "/agents/articles/the-green-revolution-trade-off.json",
       "agentMarkdownPath": "/agents/articles/the-green-revolution-trade-off.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 4,
       "tokenEstimate": 276,
-      "contentHash": "1c2ebd611bacda78168ee5d2f6376ec03f7b8d1fcc2bae2a1dc64bafda5dd2d4"
+      "contentHash": "d78941e6eda157f35b9146d6a54035abb7a27100a15fe99d546e2a1a726fec6a"
     }
   ]
 }

@@ -39,7 +39,7 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
       "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
       "agentMarkdownPath": "/agents/articles/attention-substance-ai-moment-tldr.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 5,
       "sourceCount": 20,
       "tokenEstimate": 519,
@@ -72,11 +72,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
       "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
       "agentMarkdownPath": "/agents/articles/compound-habits-career-stages.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 5,
       "tokenEstimate": 503,
-      "contentHash": "9d48635b5b5127574f77ba1c89aa1f5f200188793373e23a601ddf4e3a9bfe5a"
+      "contentHash": "e35dd8de9489d45450a9ceb013c5330fe62c3f68d25c5404ec5270201de99dc9"
     },
     {
       "id": "article:historical-analogies-of-missed-transitions",
@@ -107,11 +107,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/historical-analogies-of-missed-transitions/",
       "agentJsonPath": "/agents/articles/historical-analogies-of-missed-transitions.json",
       "agentMarkdownPath": "/agents/articles/historical-analogies-of-missed-transitions.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 303,
-      "contentHash": "f8d7648a11dc2580fd1d8984244dfc3249c23a4251f1b38b96816b6aec01bafd"
+      "contentHash": "53835364f5884f98e35909f0592e6bfafced4d620f88fe7e09e535bc55807994"
     },
     {
       "id": "article:the-compounding-bet",
@@ -140,11 +140,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
       "agentJsonPath": "/agents/articles/the-compounding-bet.json",
       "agentMarkdownPath": "/agents/articles/the-compounding-bet.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 8,
       "tokenEstimate": 802,
-      "contentHash": "1d9dc1bd1cee040a792048ecab6acad39cf130a561507617cb60d79141158281"
+      "contentHash": "050f5145615e847b65a73101c166919ad3768fe88862d49a2624aa3b1a4429fc"
     },
     {
       "id": "article:the-engagement-gap-productivity-india",
@@ -171,11 +171,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
       "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json",
       "agentMarkdownPath": "/agents/articles/the-engagement-gap-productivity-india.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 9,
       "tokenEstimate": 885,
-      "contentHash": "7037d815e4a17cda07eb01aaca1aebae845447aed1b4bf42b856b795f4db753c"
+      "contentHash": "5fa1160b0466956be90832bb7df86ebcb3a1c27479689400991b448f3aa1b3f1"
     },
     {
       "id": "article:the-substance-builder",
@@ -204,11 +204,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
       "agentJsonPath": "/agents/articles/the-substance-builder.json",
       "agentMarkdownPath": "/agents/articles/the-substance-builder.md",
-      "updatedAt": "2026-07-17",
-      "claimCount": 5,
-      "sourceCount": 6,
-      "tokenEstimate": 500,
-      "contentHash": "c9c9a05577503f9c699e6b4b1f24f3fbe510bc6c5cdebefa2eb53eb7369e0323"
+      "updatedAt": "2026-07-18",
+      "claimCount": 8,
+      "sourceCount": 8,
+      "tokenEstimate": 584,
+      "contentHash": "00f35f6a83626b2b70f441f53b4a018ed34d1a97e227f94d3129f73923050533"
     },
     {
       "id": "article:the-workers-garden",
@@ -241,11 +241,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-workers-garden/",
       "agentJsonPath": "/agents/articles/the-workers-garden.json",
       "agentMarkdownPath": "/agents/articles/the-workers-garden.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 526,
-      "contentHash": "f28e4e718becf603328a3254ccea6537818f96b67f15980bfa50fb3ae15d148c"
+      "contentHash": "3a1e5a21d0d3c9d4657bc675892519207af7bdc7da2b336f013323b08b87018c"
     },
     {
       "id": "article:what-ai-makes-cheap",
@@ -274,11 +274,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
       "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
       "agentMarkdownPath": "/agents/articles/what-ai-makes-cheap.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 778,
-      "contentHash": "fe2c2d3c4f380726825fb1592daf12580bf199a21d223a8f6e9b37b05671a685"
+      "contentHash": "3752ac0c2405fa4b6b8702eebdbff8d60c78c05d2e9fd85046918a2b0f781337"
     }
   ]
 }

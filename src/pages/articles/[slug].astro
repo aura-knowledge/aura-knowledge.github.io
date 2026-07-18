@@ -10,7 +10,7 @@ import MermaidRenderer from "../../components/MermaidRenderer.astro";
 import MaturityBadge from "../../components/MaturityBadge.astro";
 import StatusBadge from "../../components/StatusBadge.astro";
 import EmptyState from "../../components/EmptyState.astro";
-import { getArticles, getSeriesNavigation } from "../../lib/content";
+import { getArticles, getSeriesNavigation, SERIES_ARCS } from "../../lib/content";
 
 export function getStaticPaths() {
   return getArticles().map((article) => ({
@@ -24,6 +24,12 @@ const Content = article.Content;
 const base = import.meta.env.BASE_URL;
 const allArticles = getArticles();
 const seriesNavigation = getSeriesNavigation(article, allArticles);
+const seriesArcs = article.series?.slug ? SERIES_ARCS[article.series.slug] : undefined;
+const arcIndex = seriesArcs?.findIndex((arc) => arc.slug === article.series?.arc) ?? -1;
+const kicker =
+  article.series && seriesArcs && arcIndex >= 0
+    ? `${article.series.title} · Part ${arcIndex + 1}: ${seriesArcs[arcIndex].title}`
+    : null;
 const sourceById = new Map(article.artifact.sources.map((source) => [source.id, source]));
 const relatedArticles = allArticles
   .filter(
@@ -57,6 +63,7 @@ const jsonLd = {
       <p class="eyebrow">
         <TopicChip topic={article.topic} href={`${base}topics/#topic-${article.topic}`} />
       </p>
+      {kicker && <p class="article-kicker">{kicker}</p>}
       <h1 id="article-title">{article.title}</h1>
       <p class="lede">{article.dek}</p>
       <div class="article-meta" aria-label="Article metadata">
@@ -140,7 +147,7 @@ const jsonLd = {
           </div>
         </details>
 
-        <ProvenancePanel provenance={article.artifact.provenance} contentHash={article.artifact.contentHash} />
+        <ProvenancePanel provenance={article.artifact.provenance} contentHash={article.artifact.contentHash} disclosure={article.artifact.disclosure} />
 
         <section class="related-reading" aria-labelledby="related-title">
           <p class="eyebrow">Continue reading</p>

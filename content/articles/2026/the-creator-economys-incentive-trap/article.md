@@ -22,7 +22,6 @@ agentArtifact: /agents/articles/the-creator-economys-incentive-trap.json
 sourcePath: content/articles/2026/the-creator-economys-incentive-trap/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 3</p>
 
 For a generation coming of age on short-form video, the path to success looks open. A phone, an idea, and persistence are said to be enough. The creator economy is sold as a democratized career: no gatekeepers, no degrees, no capital. In India, that story has real scale behind it. But scale is not the same as sustainability, and access to a platform is not the same as a living wage.
 

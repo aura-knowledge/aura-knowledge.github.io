@@ -3,10 +3,10 @@
   "schema": "https://aura-knowledge.github.io/schemas/garden-queries.schema.json",
   "site": "https://aura-knowledge.github.io",
   "base": "",
-  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "generatedAt": "2026-07-18T00:00:00.000Z",
   "catalogSize": {
     "queryCount": 6,
-    "totalResults": 1433
+    "totalResults": 1342
   },
   "dimensions": [
     {
@@ -83,7 +83,6 @@
         "global-comparison",
         "governance",
         "habit-formation",
-        "habits",
         "history",
         "human-ai-interaction",
         "human-progress",
@@ -260,7 +259,6 @@
         "goals",
         "governance",
         "habit-formation",
-        "habits",
         "history",
         "history-of-ai",
         "human-ai-interaction",
@@ -552,7 +550,7 @@
         "groupBy": "topic"
       },
       "resultType": "articles",
-      "resultCount": 476,
+      "resultCount": 470,
       "results": [
         {
           "articleId": "article:public-pressure-and-internal-accountability",
@@ -1549,13 +1547,6 @@
           "topic": "attention-economy"
         },
         {
-          "articleId": "article:the-small-rep-theory",
-          "slug": "the-small-rep-theory",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
-          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
-          "topic": "attention-economy"
-        },
-        {
           "articleId": "article:the-student-screen-education-vs-entertainment",
           "slug": "the-student-screen-education-vs-entertainment",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
@@ -1819,13 +1810,6 @@
           "slug": "failure-teaching-and-the-skill-stack",
           "articleUrl": "https://aura-knowledge.github.io/articles/failure-teaching-and-the-skill-stack/",
           "agentJsonPath": "/agents/articles/failure-teaching-and-the-skill-stack.json",
-          "topic": "deliberate-practice"
-        },
-        {
-          "articleId": "article:the-small-rep-theory",
-          "slug": "the-small-rep-theory",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
-          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
           "topic": "deliberate-practice"
         },
         {
@@ -2228,13 +2212,6 @@
           "topic": "digital-wellbeing"
         },
         {
-          "articleId": "article:the-small-rep-theory",
-          "slug": "the-small-rep-theory",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
-          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
-          "topic": "digital-wellbeing"
-        },
-        {
           "articleId": "article:the-student-screen-education-vs-entertainment",
           "slug": "the-student-screen-education-vs-entertainment",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
@@ -2443,13 +2420,6 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
           "agentJsonPath": "/agents/articles/the-substance-builder.json",
           "topic": "habit-formation"
-        },
-        {
-          "articleId": "article:the-small-rep-theory",
-          "slug": "the-small-rep-theory",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
-          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
-          "topic": "habits"
         },
         {
           "articleId": "article:from-penny-press-to-infinite-scroll",
@@ -2869,13 +2839,6 @@
           "slug": "the-reel-nation-short-form-video",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-reel-nation-short-form-video/",
           "agentJsonPath": "/agents/articles/the-reel-nation-short-form-video.json",
-          "topic": "india"
-        },
-        {
-          "articleId": "article:the-small-rep-theory",
-          "slug": "the-small-rep-theory",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
-          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
           "topic": "india"
         },
         {
@@ -3705,13 +3668,6 @@
           "topic": "skill-building"
         },
         {
-          "articleId": "article:the-small-rep-theory",
-          "slug": "the-small-rep-theory",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
-          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
-          "topic": "skill-building"
-        },
-        {
           "articleId": "article:the-demographic-dividend-is-not-automatic",
           "slug": "the-demographic-dividend-is-not-automatic",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-demographic-dividend-is-not-automatic/",
@@ -3908,8 +3864,19 @@
         ]
       },
       "resultType": "claims",
-      "resultCount": 0,
-      "results": []
+      "resultCount": 1,
+      "results": [
+        {
+          "articleId": "article:the-indic-language-internet-and-vernacular-feeds",
+          "slug": "the-indic-language-internet-and-vernacular-feeds",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
+          "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json",
+          "claimId": "claim-006",
+          "claim": "Indic-language content ecosystems have fewer local fact-checkers, moderators, and creator-economy supports than English/Hindi ecosystems, creating weaker quality and safety signals.",
+          "confidence": "medium",
+          "status": "core"
+        }
+      ]
     },
     {
       "name": "high-confidence-claims",
@@ -5251,26 +5218,6 @@
           "status": "core"
         },
         {
-          "articleId": "article:the-small-rep-theory",
-          "slug": "the-small-rep-theory",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
-          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
-          "claimId": "claim-002",
-          "claim": "Ericsson's research emphasizes deliberate, goal-directed practice with feedback, not a magic 10,000-hour threshold.",
-          "confidence": "high",
-          "status": "core"
-        },
-        {
-          "articleId": "article:the-small-rep-theory",
-          "slug": "the-small-rep-theory",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
-          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
-          "claimId": "claim-004",
-          "claim": "Fogg's behavior model shows that small, well-prompted behaviors matched to current ability are more reliable than motivation-dependent willpower.",
-          "confidence": "high",
-          "status": "core"
-        },
-        {
           "articleId": "article:the-student-screen-education-vs-entertainment",
           "slug": "the-student-screen-education-vs-entertainment",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
@@ -5337,6 +5284,26 @@
           "agentJsonPath": "/agents/articles/the-substance-builder.json",
           "claimId": "claim-005",
           "claim": "Teaching an idea to someone else turns passive information into owned knowledge.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:the-substance-builder",
+          "slug": "the-substance-builder",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+          "agentJsonPath": "/agents/articles/the-substance-builder.json",
+          "claimId": "claim-006",
+          "claim": "Ericsson's research emphasizes deliberate, goal-directed practice with feedback, not a magic 10,000-hour threshold.",
+          "confidence": "high",
+          "status": "core"
+        },
+        {
+          "articleId": "article:the-substance-builder",
+          "slug": "the-substance-builder",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+          "agentJsonPath": "/agents/articles/the-substance-builder.json",
+          "claimId": "claim-008",
+          "claim": "Fogg's behavior model shows that small, well-prompted behaviors matched to current ability are more reliable than motivation-dependent willpower.",
           "confidence": "high",
           "status": "core"
         },
@@ -5559,7 +5526,7 @@
         "groupBy": "sourceType"
       },
       "resultType": "sources",
-      "resultCount": 711,
+      "resultCount": 708,
       "results": [
         {
           "articleId": "article:the-engagement-gap-productivity-india",
@@ -5572,10 +5539,10 @@
           "sourceUrl": "https://gloriamark.com/attention-span/"
         },
         {
-          "articleId": "article:the-small-rep-theory",
-          "slug": "the-small-rep-theory",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
-          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
+          "articleId": "article:the-substance-builder",
+          "slug": "the-substance-builder",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+          "agentJsonPath": "/agents/articles/the-substance-builder.json",
           "sourceId": "source-fogg-behavior-model",
           "sourceTitle": "Fogg Behavior Model",
           "sourceType": "academic-website",
@@ -5727,9 +5694,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/alternative-metrics-time-well-spent/",
           "agentJsonPath": "/agents/articles/alternative-metrics-time-well-spent.json",
           "sourceId": "source-mosseri-time-well-spent",
-          "sourceTitle": "Adam Mosseri: Defining Time Well Spent",
+          "sourceTitle": "Meta: New Tools to Manage Your Time on Facebook and Instagram (Aug 2018)",
           "sourceType": "article",
-          "sourceUrl": "https://about.instagram.com/blog/announcements/defining-time-well-spent"
+          "sourceUrl": "https://about.fb.com/news/2018/08/manage-your-time/"
         },
         {
           "articleId": "article:birth-of-ai",
@@ -5887,9 +5854,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
           "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json",
           "sourceId": "source-instagram-well-being",
-          "sourceTitle": "Instagram: Hidden likes and well-being research",
+          "sourceTitle": "Meta: Giving People More Control on Instagram and Facebook (May 2021)",
           "sourceType": "article",
-          "sourceUrl": "https://about.instagram.com/blog/announcements/instagram-well-being-research"
+          "sourceUrl": "https://about.fb.com/news/2021/05/giving-people-more-control/"
         },
         {
           "articleId": "article:from-penny-press-to-infinite-scroll",
@@ -6249,37 +6216,7 @@
           "sourceId": "source-schull-addiction-by-design",
           "sourceTitle": "Natasha Dow Schüll: Addiction by Design",
           "sourceType": "book",
-          "sourceUrl": "https://press.princeton.edu/books/paperback/9780691166960/addiction-by-design"
-        },
-        {
-          "articleId": "article:the-small-rep-theory",
-          "slug": "the-small-rep-theory",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
-          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
-          "sourceId": "source-ericsson-pool-peak-2016",
-          "sourceTitle": "Ericsson and Pool (2016): Peak: Secrets from the New Science of Expertise",
-          "sourceType": "book",
-          "sourceUrl": "https://www.goodreads.com/book/show/26312997-peak"
-        },
-        {
-          "articleId": "article:the-small-rep-theory",
-          "slug": "the-small-rep-theory",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
-          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
-          "sourceId": "source-newport-deep-work-2016",
-          "sourceTitle": "Newport (2016): Deep Work: Rules for Focused Success in a Distracted World",
-          "sourceType": "book",
-          "sourceUrl": "https://calnewport.com/books/deep-work/"
-        },
-        {
-          "articleId": "article:the-small-rep-theory",
-          "slug": "the-small-rep-theory",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
-          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
-          "sourceId": "source-fogg-tiny-habits-2019",
-          "sourceTitle": "Fogg (2019): Tiny Habits: The Small Changes That Change Everything",
-          "sourceType": "book",
-          "sourceUrl": "https://tinyhabits.com/"
+          "sourceUrl": "https://press.princeton.edu/books/paperback/9780691160887/addiction-by-design"
         },
         {
           "articleId": "article:the-substance-builder",
@@ -6290,6 +6227,16 @@
           "sourceTitle": "Cal Newport: Deep Work",
           "sourceType": "book",
           "sourceUrl": "https://www.calnewport.com/books/deep-work/"
+        },
+        {
+          "articleId": "article:the-substance-builder",
+          "slug": "the-substance-builder",
+          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+          "agentJsonPath": "/agents/articles/the-substance-builder.json",
+          "sourceId": "source-ericsson-pool-peak-2016",
+          "sourceTitle": "Ericsson and Pool (2016): Peak: Secrets from the New Science of Expertise",
+          "sourceType": "book",
+          "sourceUrl": "https://www.goodreads.com/book/show/26312997-peak"
         },
         {
           "articleId": "article:the-workers-garden",
@@ -7317,9 +7264,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/age-appropriate-design/",
           "agentJsonPath": "/agents/articles/age-appropriate-design.json",
           "sourceId": "source-uk-age-design-code",
-          "sourceTitle": "UK ICO: Age Appropriate Design Code",
+          "sourceTitle": "ICO: Age appropriate design — a code of practice for online services",
           "sourceType": "government-report",
-          "sourceUrl": "https://ico.org.uk/for-organisations/childrens-code/"
+          "sourceUrl": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/"
         },
         {
           "articleId": "article:age-appropriate-design",
@@ -7327,9 +7274,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/age-appropriate-design/",
           "agentJsonPath": "/agents/articles/age-appropriate-design.json",
           "sourceId": "source-ofcom-online-nation-2024",
-          "sourceTitle": "Ofcom: Online Nation 2024",
+          "sourceTitle": "Ofcom: Online Nation 2024 Report",
           "sourceType": "government-report",
-          "sourceUrl": "https://www.ofcom.org.uk/online-safety/online-nation/"
+          "sourceUrl": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/online-research/online-nation/2024/online-nation-2024-report.pdf?v=386238"
         },
         {
           "articleId": "article:ai-could-make-extraction-cheaper-too",
@@ -7499,7 +7446,7 @@
           "sourceId": "source-india-dpdp-2023",
           "sourceTitle": "India: Digital Personal Data Protection Act, 2023",
           "sourceType": "government-report",
-          "sourceUrl": "https://www.meity.gov.in/writereaddata/files/Digital%20Personal%20Data%20Protection%20Act%202023.pdf"
+          "sourceUrl": "https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf"
         },
         {
           "articleId": "article:india-in-global-context",
@@ -7509,7 +7456,7 @@
           "sourceId": "source-india-it-rules-2021",
           "sourceTitle": "India: Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021",
           "sourceType": "government-report",
-          "sourceUrl": "https://www.meity.gov.in/writereaddata/files/Intermediary_Guidelines_and_Digital_Media_Ethics_Code_Rules_2021.pdf"
+          "sourceUrl": "https://www.meity.gov.in/static/uploads/2024/02/Information-Technology-Intermediary-Guidelines-and-Digital-Media-Ethics-Code-Rules-2021-updated-06.04.2023-.pdf"
         },
         {
           "articleId": "article:open-questions-the-series-leaves-unresolved",
@@ -7559,7 +7506,7 @@
           "sourceId": "source-ncert-mental-health-2022",
           "sourceTitle": "NCERT: Mental Health and Well-being of School Students Survey",
           "sourceType": "government-report",
-          "sourceUrl": "https://ncert.nic.in/pdf/announcement/Mental_Health_Survey.pdf"
+          "sourceUrl": "https://ncert.nic.in/pdf/Mental_Health_WSS_A_Survey_new.pdf"
         },
         {
           "articleId": "article:sleep-anxiety-and-tele-manas",
@@ -7637,9 +7584,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/the-jio-effect-cheap-data-access-behavior/",
           "agentJsonPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.json",
           "sourceId": "source-itu-affordability",
-          "sourceTitle": "ITU: Affordability of ICT services",
+          "sourceTitle": "ITU: The affordability of ICT services 2023 (Policy Brief, March 2024)",
           "sourceType": "government-report",
-          "sourceUrl": "https://www.itu.int/itu-d/reports/statistics/affordability-of-ict-services-2023/"
+          "sourceUrl": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/prices2023/ICTPriceBrief2023.pdf"
         },
         {
           "articleId": "article:the-life-phase-thread",
@@ -7727,9 +7674,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/tobacco-seatbelts-food-safety/",
           "agentJsonPath": "/agents/articles/tobacco-seatbelts-food-safety.json",
           "sourceId": "source-fda-history",
-          "sourceTitle": "FDA: The 1906 Food and Drugs Act and Its Enforcement",
+          "sourceTitle": "FDA: Part I — The 1906 Food and Drugs Act and Its Enforcement",
           "sourceType": "government-report",
-          "sourceUrl": "https://www.fda.gov/about-fda/fda-history-exhibits/1906-food-and-drugs-act-and-its-enforcement"
+          "sourceUrl": "https://www.fda.gov/about-fda/changes-science-law-and-regulatory-authorities/part-i-1906-food-and-drugs-act-and-its-enforcement"
         },
         {
           "articleId": "article:user-migration-and-the-exit-problem",
@@ -8107,9 +8054,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
           "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
           "sourceId": "source-vivo-switch-off-2022",
-          "sourceTitle": "vivo Switch Off Study 2022",
+          "sourceTitle": "vivo Switch Off Study 2022 (4th edition): Impact of Smartphones on Spousal Relationships",
           "sourceType": "industry-report",
-          "sourceUrl": "https://www.vivo.com/in/about-vivo/newsroom/2022/switch-off-study"
+          "sourceUrl": "https://vivonewsroom.in/press-release/smartphone-addiction-88-married-indians-feel-that-excessive-usage-of-smartphones-is-hurting-their-relationship-vivo-switch-off-study-on-impact-of-smartphones-on-spousal-relationships/"
         },
         {
           "articleId": "article:engagement-is-a-design-choice",
@@ -8167,9 +8114,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/historical-analogies-of-missed-transitions/",
           "agentJsonPath": "/agents/articles/historical-analogies-of-missed-transitions.json",
           "sourceId": "source-nasscom-india-ai-adoption",
-          "sourceTitle": "NASSCOM: India AI Adoption and Technology Industry Reports",
+          "sourceTitle": "nasscom: Insights & Perspectives (reports listing)",
           "sourceType": "industry-report",
-          "sourceUrl": "https://nasscom.in/knowledge-center/publications"
+          "sourceUrl": "https://nasscom.in/perspectives"
         },
         {
           "articleId": "article:historical-hinges-access-is-not-benefit",
@@ -8377,9 +8324,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/the-demographic-dividend-is-not-automatic/",
           "agentJsonPath": "/agents/articles/the-demographic-dividend-is-not-automatic.json",
           "sourceId": "source-nasscom-talent",
-          "sourceTitle": "NASSCOM: India Talent Demand-Supply Gap",
+          "sourceTitle": "nasscom: Insights & Perspectives (reports listing)",
           "sourceType": "industry-report",
-          "sourceUrl": "https://nasscom.in/knowledge-center/publications"
+          "sourceUrl": "https://nasscom.in/perspectives"
         },
         {
           "articleId": "article:the-engagement-gap-productivity-india",
@@ -8437,19 +8384,19 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/the-familys-garden/",
           "agentJsonPath": "/agents/articles/the-familys-garden.json",
           "sourceId": "source-vivo-study",
-          "sourceTitle": "Vivo and CMR: Impact of Smartphones on Human Relationships",
+          "sourceTitle": "vivo and CMR: Impact of Smartphones on Human Relationships (Dec 2020)",
           "sourceType": "industry-report",
-          "sourceUrl": "https://www.vivo.com/in/about-vivo/newsroom/2020/1907"
+          "sourceUrl": "https://vivonewsroom.in/press-release/25-increase-in-average-time-spent-daily-on-smartphones-post-covid-excessive-usage-affecting-human-relationships/"
         },
         {
           "articleId": "article:the-familys-garden",
           "slug": "the-familys-garden",
           "articleUrl": "https://aura-knowledge.github.io/articles/the-familys-garden/",
           "agentJsonPath": "/agents/articles/the-familys-garden.json",
-          "sourceId": "source-commonsense-media-screens-2024",
-          "sourceTitle": "Common Sense Media: The New Normal: Parents, Teens, Screens, and Sleep in 2024",
+          "sourceId": "source-commonsense-media-screens-2019",
+          "sourceTitle": "Common Sense Media: The New Normal — Parents, Teens, Screens, and Sleep (2019)",
           "sourceType": "industry-report",
-          "sourceUrl": "https://www.commonsensemedia.org/research/the-new-normal-parents-teens-screens-and-sleep-in-2024"
+          "sourceUrl": "https://www.commonsensemedia.org/sites/default/files/research/report/2019-new-normal-parents-teens-screens-and-sleep-united-states-report.pdf"
         },
         {
           "articleId": "article:the-generational-bet",
@@ -8627,9 +8574,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/what-india-is-building-vs-could-build/",
           "agentJsonPath": "/agents/articles/what-india-is-building-vs-could-build.json",
           "sourceId": "source-nasscom-deep-tech",
-          "sourceTitle": "NASSCOM: Deep Tech Startups in India",
+          "sourceTitle": "nasscom: Insights & Perspectives (reports listing)",
           "sourceType": "industry-report",
-          "sourceUrl": "https://nasscom.in/knowledge-center/publications"
+          "sourceUrl": "https://nasscom.in/perspectives"
         },
         {
           "articleId": "article:what-india-is-building-vs-could-build",
@@ -8637,9 +8584,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/what-india-is-building-vs-could-build/",
           "agentJsonPath": "/agents/articles/what-india-is-building-vs-could-build.json",
           "sourceId": "source-ivca-venture",
-          "sourceTitle": "IVCA: Indian Private Equity and Venture Capital Report",
+          "sourceTitle": "IVCA: Recent Reports",
           "sourceType": "industry-report",
-          "sourceUrl": "https://ivca.in/research-reports/"
+          "sourceUrl": "https://www.ivca.in/resources/recent-reports"
         },
         {
           "articleId": "article:what-india-is-building-vs-could-build",
@@ -8859,7 +8806,7 @@
           "sourceId": "source-dpdp-act-2023",
           "sourceTitle": "Ministry of Electronics and Information Technology: Digital Personal Data Protection Act, 2023",
           "sourceType": "legislation",
-          "sourceUrl": "https://www.meity.gov.in/writereaddata/files/Digital%20Personal%20Data%20Protection%20Act%202023.pdf"
+          "sourceUrl": "https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf"
         },
         {
           "articleId": "article:long-human-road-to-ai",
@@ -9829,7 +9776,7 @@
           "sourceId": "source-brynjolfsson-productivity-paradox",
           "sourceTitle": "Brynjolfsson: The Productivity J-Curve",
           "sourceType": "paper",
-          "sourceUrl": "https://www.nber.org/papers/w25189"
+          "sourceUrl": "https://www.nber.org/papers/w25148"
         },
         {
           "articleId": "article:long-running-sessions",
@@ -10347,9 +10294,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/sleep-anxiety-and-tele-manas/",
           "agentJsonPath": "/agents/articles/sleep-anxiety-and-tele-manas.json",
           "sourceId": "source-pmc-sleep-screen",
-          "sourceTitle": "PMC: Screen time and sleep quality in adolescents",
+          "sourceTitle": "Xiao et al.: When Screens Replace Sleep: Short Video Addiction Impairs Executive Function Through Sleep Disruption in Youth (Brain and Behavior, 2026)",
           "sourceType": "peer-reviewed-study",
-          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7774621/"
+          "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13087538/"
         },
         {
           "articleId": "article:the-attention-extraction",
@@ -10470,16 +10417,6 @@
           "sourceTitle": "Xiao et al.: When Screens Replace Sleep: Short Video Addiction Impairs Executive Function Through Sleep Disruption in Youth—Is Physical Activity the Antidote? (Brain and Behavior, 2026)",
           "sourceType": "peer-reviewed-study",
           "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13087538/"
-        },
-        {
-          "articleId": "article:the-small-rep-theory",
-          "slug": "the-small-rep-theory",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
-          "agentJsonPath": "/agents/articles/the-small-rep-theory.json",
-          "sourceId": "source-ericsson-1993-deliberate-practice",
-          "sourceTitle": "Ericsson, Krampe, and Tesch-Römer (1993): The Role of Deliberate Practice in the Acquisition of Expert Performance",
-          "sourceType": "peer-reviewed-study",
-          "sourceUrl": "https://doi.org/10.1037/0033-295X.100.3.363"
         },
         {
           "articleId": "article:the-student-screen-education-vs-entertainment",
@@ -11029,7 +10966,7 @@
           "sourceId": "source-it-rules-2021",
           "sourceTitle": "Ministry of Electronics and Information Technology: Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021",
           "sourceType": "regulation",
-          "sourceUrl": "https://www.meity.gov.in/writereaddata/files/Intermediary_Guidelines_and_Digital_Media_Ethics_Code_Rules_2021.pdf"
+          "sourceUrl": "https://www.meity.gov.in/static/uploads/2024/02/Information-Technology-Intermediary-Guidelines-and-Digital-Media-Ethics-Code-Rules-2021-updated-06.04.2023-.pdf"
         },
         {
           "articleId": "article:the-better-question",
@@ -11687,9 +11624,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/age-appropriate-design/",
           "agentJsonPath": "/agents/articles/age-appropriate-design.json",
           "sourceId": "source-lasi-elderly",
-          "sourceTitle": "LASI: Longitudinal Aging Study in India",
+          "sourceTitle": "IIPS: Longitudinal Ageing Study in India (LASI)",
           "sourceType": "research-report",
-          "sourceUrl": "https://iiasd.org/lasi/"
+          "sourceUrl": "https://www.iipsindia.ac.in/lasi"
         },
         {
           "articleId": "article:age-appropriate-design",
@@ -11717,9 +11654,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/alternative-metrics-time-well-spent/",
           "agentJsonPath": "/agents/articles/alternative-metrics-time-well-spent.json",
           "sourceId": "source-mozilla-youtube-regrets",
-          "sourceTitle": "Mozilla Foundation: YouTube Regrets Research",
+          "sourceTitle": "Mozilla Foundation: YouTube Regrets",
           "sourceType": "research-report",
-          "sourceUrl": "https://foundation.mozilla.org/en/campaigns/youtube-regrets/"
+          "sourceUrl": "https://www.mozillafoundation.org/en/youtube/regrets/"
         },
         {
           "articleId": "article:attention-substance-ai-moment",
@@ -11837,9 +11774,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
           "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
           "sourceId": "source-mozilla-youtube-regrets",
-          "sourceTitle": "Mozilla Foundation: YouTube Regrets Research",
+          "sourceTitle": "Mozilla Foundation: Does This Button Work? Investigating YouTube's ineffective user controls",
           "sourceType": "research-report",
-          "sourceUrl": "https://foundation.mozilla.org/en/youtube-regrets/"
+          "sourceUrl": "https://www.mozillafoundation.org/en/youtube/user-controls/"
         },
         {
           "articleId": "article:product-ideas-that-could-shift-incentives",
@@ -12487,9 +12424,9 @@
           "articleUrl": "https://aura-knowledge.github.io/articles/alternative-metrics-time-well-spent/",
           "agentJsonPath": "/agents/articles/alternative-metrics-time-well-spent.json",
           "sourceId": "source-youtube-research",
-          "sourceTitle": "YouTube: Responsibility research",
+          "sourceTitle": "YouTube Research",
           "sourceType": "website",
-          "sourceUrl": "https://research.youtube/categories/responsibility/"
+          "sourceUrl": "https://research.youtube/"
         },
         {
           "articleId": "article:business-models-that-reward-substance",
@@ -12681,507 +12618,8 @@
         "status": "published"
       },
       "resultType": "articles",
-      "resultCount": 83,
-      "results": [
-        {
-          "articleId": "article:a-map-of-levers",
-          "slug": "a-map-of-levers",
-          "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
-          "agentJsonPath": "/agents/articles/a-map-of-levers.json"
-        },
-        {
-          "articleId": "article:a-readers-guide-to-the-series",
-          "slug": "a-readers-guide-to-the-series",
-          "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
-          "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json"
-        },
-        {
-          "articleId": "article:age-appropriate-design",
-          "slug": "age-appropriate-design",
-          "articleUrl": "https://aura-knowledge.github.io/articles/age-appropriate-design/",
-          "agentJsonPath": "/agents/articles/age-appropriate-design.json"
-        },
-        {
-          "articleId": "article:agent-auditable-research",
-          "slug": "agent-auditable-research",
-          "articleUrl": "https://aura-knowledge.github.io/articles/agent-auditable-research/",
-          "agentJsonPath": "/agents/articles/agent-auditable-research.json"
-        },
-        {
-          "articleId": "article:agent-control-planes",
-          "slug": "agent-control-planes",
-          "articleUrl": "https://aura-knowledge.github.io/articles/agent-control-planes/",
-          "agentJsonPath": "/agents/articles/agent-control-planes.json"
-        },
-        {
-          "articleId": "article:agentic-commerce-product-truth",
-          "slug": "agentic-commerce-product-truth",
-          "articleUrl": "https://aura-knowledge.github.io/articles/agentic-commerce-product-truth/",
-          "agentJsonPath": "/agents/articles/agentic-commerce-product-truth.json"
-        },
-        {
-          "articleId": "article:agents",
-          "slug": "agents",
-          "articleUrl": "https://aura-knowledge.github.io/articles/agents/",
-          "agentJsonPath": "/agents/articles/agents.json"
-        },
-        {
-          "articleId": "article:ai-agent-advanced-questions",
-          "slug": "ai-agent-advanced-questions",
-          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-advanced-questions/",
-          "agentJsonPath": "/agents/articles/ai-agent-advanced-questions.json"
-        },
-        {
-          "articleId": "article:ai-agent-first-conversation",
-          "slug": "ai-agent-first-conversation",
-          "articleUrl": "https://aura-knowledge.github.io/articles/ai-agent-first-conversation/",
-          "agentJsonPath": "/agents/articles/ai-agent-first-conversation.json"
-        },
-        {
-          "articleId": "article:ai-as-journeyman-assistant",
-          "slug": "ai-as-journeyman-assistant",
-          "articleUrl": "https://aura-knowledge.github.io/articles/ai-as-journeyman-assistant/",
-          "agentJsonPath": "/agents/articles/ai-as-journeyman-assistant.json"
-        },
-        {
-          "articleId": "article:ai-could-make-extraction-cheaper-too",
-          "slug": "ai-could-make-extraction-cheaper-too",
-          "articleUrl": "https://aura-knowledge.github.io/articles/ai-could-make-extraction-cheaper-too/",
-          "agentJsonPath": "/agents/articles/ai-could-make-extraction-cheaper-too.json"
-        },
-        {
-          "articleId": "article:ai-demystified",
-          "slug": "ai-demystified",
-          "articleUrl": "https://aura-knowledge.github.io/articles/ai-demystified/",
-          "agentJsonPath": "/agents/articles/ai-demystified.json"
-        },
-        {
-          "articleId": "article:ai-winters-expert-systems",
-          "slug": "ai-winters-expert-systems",
-          "articleUrl": "https://aura-knowledge.github.io/articles/ai-winters-expert-systems/",
-          "agentJsonPath": "/agents/articles/ai-winters-expert-systems.json"
-        },
-        {
-          "articleId": "article:alternative-metrics-time-well-spent",
-          "slug": "alternative-metrics-time-well-spent",
-          "articleUrl": "https://aura-knowledge.github.io/articles/alternative-metrics-time-well-spent/",
-          "agentJsonPath": "/agents/articles/alternative-metrics-time-well-spent.json"
-        },
-        {
-          "articleId": "article:attention-substance-ai-moment",
-          "slug": "attention-substance-ai-moment",
-          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
-          "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json"
-        },
-        {
-          "articleId": "article:attention-substance-ai-moment-tldr",
-          "slug": "attention-substance-ai-moment-tldr",
-          "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
-          "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json"
-        },
-        {
-          "articleId": "article:audio-first-voice-consumption",
-          "slug": "audio-first-voice-consumption",
-          "articleUrl": "https://aura-knowledge.github.io/articles/audio-first-voice-consumption/",
-          "agentJsonPath": "/agents/articles/audio-first-voice-consumption.json"
-        },
-        {
-          "articleId": "article:bhashini-and-the-indic-language-ai-moment",
-          "slug": "bhashini-and-the-indic-language-ai-moment",
-          "articleUrl": "https://aura-knowledge.github.io/articles/bhashini-and-the-indic-language-ai-moment/",
-          "agentJsonPath": "/agents/articles/bhashini-and-the-indic-language-ai-moment.json"
-        },
-        {
-          "articleId": "article:birth-of-ai",
-          "slug": "birth-of-ai",
-          "articleUrl": "https://aura-knowledge.github.io/articles/birth-of-ai/",
-          "agentJsonPath": "/agents/articles/birth-of-ai.json"
-        },
-        {
-          "articleId": "article:business-models-that-reward-substance",
-          "slug": "business-models-that-reward-substance",
-          "articleUrl": "https://aura-knowledge.github.io/articles/business-models-that-reward-substance/",
-          "agentJsonPath": "/agents/articles/business-models-that-reward-substance.json"
-        },
-        {
-          "articleId": "article:by-the-numbers-what-indians-do-online",
-          "slug": "by-the-numbers-what-indians-do-online",
-          "articleUrl": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
-          "agentJsonPath": "/agents/articles/by-the-numbers-what-indians-do-online.json"
-        },
-        {
-          "articleId": "article:compound-habits-career-stages",
-          "slug": "compound-habits-career-stages",
-          "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
-          "agentJsonPath": "/agents/articles/compound-habits-career-stages.json"
-        },
-        {
-          "articleId": "article:context-management",
-          "slug": "context-management",
-          "articleUrl": "https://aura-knowledge.github.io/articles/context-management/",
-          "agentJsonPath": "/agents/articles/context-management.json"
-        },
-        {
-          "articleId": "article:designing-for-substance",
-          "slug": "designing-for-substance",
-          "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
-          "agentJsonPath": "/agents/articles/designing-for-substance.json"
-        },
-        {
-          "articleId": "article:engagement-is-a-design-choice",
-          "slug": "engagement-is-a-design-choice",
-          "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
-          "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json"
-        },
-        {
-          "articleId": "article:evaluations",
-          "slug": "evaluations",
-          "articleUrl": "https://aura-knowledge.github.io/articles/evaluations/",
-          "agentJsonPath": "/agents/articles/evaluations.json"
-        },
-        {
-          "articleId": "article:failure-teaching-and-the-skill-stack",
-          "slug": "failure-teaching-and-the-skill-stack",
-          "articleUrl": "https://aura-knowledge.github.io/articles/failure-teaching-and-the-skill-stack/",
-          "agentJsonPath": "/agents/articles/failure-teaching-and-the-skill-stack.json"
-        },
-        {
-          "articleId": "article:fine-tuning",
-          "slug": "fine-tuning",
-          "articleUrl": "https://aura-knowledge.github.io/articles/fine-tuning/",
-          "agentJsonPath": "/agents/articles/fine-tuning.json"
-        },
-        {
-          "articleId": "article:formal-logic-to-computation",
-          "slug": "formal-logic-to-computation",
-          "articleUrl": "https://aura-knowledge.github.io/articles/formal-logic-to-computation/",
-          "agentJsonPath": "/agents/articles/formal-logic-to-computation.json"
-        },
-        {
-          "articleId": "article:friction-chronological-feeds-user-chosen-algorithms",
-          "slug": "friction-chronological-feeds-user-chosen-algorithms",
-          "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
-          "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json"
-        },
-        {
-          "articleId": "article:from-penny-press-to-infinite-scroll",
-          "slug": "from-penny-press-to-infinite-scroll",
-          "articleUrl": "https://aura-knowledge.github.io/articles/from-penny-press-to-infinite-scroll/",
-          "agentJsonPath": "/agents/articles/from-penny-press-to-infinite-scroll.json"
-        },
-        {
-          "articleId": "article:gender-and-the-attention-economy",
-          "slug": "gender-and-the-attention-economy",
-          "articleUrl": "https://aura-knowledge.github.io/articles/gender-and-the-attention-economy/",
-          "agentJsonPath": "/agents/articles/gender-and-the-attention-economy.json"
-        },
-        {
-          "articleId": "article:historical-analogies-of-missed-transitions",
-          "slug": "historical-analogies-of-missed-transitions",
-          "articleUrl": "https://aura-knowledge.github.io/articles/historical-analogies-of-missed-transitions/",
-          "agentJsonPath": "/agents/articles/historical-analogies-of-missed-transitions.json"
-        },
-        {
-          "articleId": "article:historical-hinges-access-is-not-benefit",
-          "slug": "historical-hinges-access-is-not-benefit",
-          "articleUrl": "https://aura-knowledge.github.io/articles/historical-hinges-access-is-not-benefit/",
-          "agentJsonPath": "/agents/articles/historical-hinges-access-is-not-benefit.json"
-        },
-        {
-          "articleId": "article:human-systems",
-          "slug": "human-systems",
-          "articleUrl": "https://aura-knowledge.github.io/articles/human-systems/",
-          "agentJsonPath": "/agents/articles/human-systems.json"
-        },
-        {
-          "articleId": "article:india-in-global-context",
-          "slug": "india-in-global-context",
-          "articleUrl": "https://aura-knowledge.github.io/articles/india-in-global-context/",
-          "agentJsonPath": "/agents/articles/india-in-global-context.json"
-        },
-        {
-          "articleId": "article:learning-machines",
-          "slug": "learning-machines",
-          "articleUrl": "https://aura-knowledge.github.io/articles/learning-machines/",
-          "agentJsonPath": "/agents/articles/learning-machines.json"
-        },
-        {
-          "articleId": "article:long-human-road-to-ai",
-          "slug": "long-human-road-to-ai",
-          "articleUrl": "https://aura-knowledge.github.io/articles/long-human-road-to-ai/",
-          "agentJsonPath": "/agents/articles/long-human-road-to-ai.json"
-        },
-        {
-          "articleId": "article:long-running-sessions",
-          "slug": "long-running-sessions",
-          "articleUrl": "https://aura-knowledge.github.io/articles/long-running-sessions/",
-          "agentJsonPath": "/agents/articles/long-running-sessions.json"
-        },
-        {
-          "articleId": "article:loops-vs-goals",
-          "slug": "loops-vs-goals",
-          "articleUrl": "https://aura-knowledge.github.io/articles/loops-vs-goals/",
-          "agentJsonPath": "/agents/articles/loops-vs-goals.json"
-        },
-        {
-          "articleId": "article:memory-vs-context",
-          "slug": "memory-vs-context",
-          "articleUrl": "https://aura-knowledge.github.io/articles/memory-vs-context/",
-          "agentJsonPath": "/agents/articles/memory-vs-context.json"
-        },
-        {
-          "articleId": "article:modern-ai-stack",
-          "slug": "modern-ai-stack",
-          "articleUrl": "https://aura-knowledge.github.io/articles/modern-ai-stack/",
-          "agentJsonPath": "/agents/articles/modern-ai-stack.json"
-        },
-        {
-          "articleId": "article:multi-agent-systems",
-          "slug": "multi-agent-systems",
-          "articleUrl": "https://aura-knowledge.github.io/articles/multi-agent-systems/",
-          "agentJsonPath": "/agents/articles/multi-agent-systems.json"
-        },
-        {
-          "articleId": "article:open-questions-the-series-leaves-unresolved",
-          "slug": "open-questions-the-series-leaves-unresolved",
-          "articleUrl": "https://aura-knowledge.github.io/articles/open-questions-the-series-leaves-unresolved/",
-          "agentJsonPath": "/agents/articles/open-questions-the-series-leaves-unresolved.json"
-        },
-        {
-          "articleId": "article:planning-and-reflection",
-          "slug": "planning-and-reflection",
-          "articleUrl": "https://aura-knowledge.github.io/articles/planning-and-reflection/",
-          "agentJsonPath": "/agents/articles/planning-and-reflection.json"
-        },
-        {
-          "articleId": "article:post-subscription-ai-assistant",
-          "slug": "post-subscription-ai-assistant",
-          "articleUrl": "https://aura-knowledge.github.io/articles/post-subscription-ai-assistant/",
-          "agentJsonPath": "/agents/articles/post-subscription-ai-assistant.json"
-        },
-        {
-          "articleId": "article:prompt-caching",
-          "slug": "prompt-caching",
-          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-caching/",
-          "agentJsonPath": "/agents/articles/prompt-caching.json"
-        },
-        {
-          "articleId": "article:prompt-engineering",
-          "slug": "prompt-engineering",
-          "articleUrl": "https://aura-knowledge.github.io/articles/prompt-engineering/",
-          "agentJsonPath": "/agents/articles/prompt-engineering.json"
-        },
-        {
-          "articleId": "article:public-pressure-and-internal-accountability",
-          "slug": "public-pressure-and-internal-accountability",
-          "articleUrl": "https://aura-knowledge.github.io/articles/public-pressure-and-internal-accountability/",
-          "agentJsonPath": "/agents/articles/public-pressure-and-internal-accountability.json"
-        },
-        {
-          "articleId": "article:public-space-and-private-screens",
-          "slug": "public-space-and-private-screens",
-          "articleUrl": "https://aura-knowledge.github.io/articles/public-space-and-private-screens/",
-          "agentJsonPath": "/agents/articles/public-space-and-private-screens.json"
-        },
-        {
-          "articleId": "article:reasoning-models",
-          "slug": "reasoning-models",
-          "articleUrl": "https://aura-knowledge.github.io/articles/reasoning-models/",
-          "agentJsonPath": "/agents/articles/reasoning-models.json"
-        },
-        {
-          "articleId": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
-          "slug": "regulation-as-a-floor-dsa-it-rules-dpdp",
-          "articleUrl": "https://aura-knowledge.github.io/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
-          "agentJsonPath": "/agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json"
-        },
-        {
-          "articleId": "article:retrieval-augmented-generation",
-          "slug": "retrieval-augmented-generation",
-          "articleUrl": "https://aura-knowledge.github.io/articles/retrieval-augmented-generation/",
-          "agentJsonPath": "/agents/articles/retrieval-augmented-generation.json"
-        },
-        {
-          "articleId": "article:sleep-anxiety-and-tele-manas",
-          "slug": "sleep-anxiety-and-tele-manas",
-          "articleUrl": "https://aura-knowledge.github.io/articles/sleep-anxiety-and-tele-manas/",
-          "agentJsonPath": "/agents/articles/sleep-anxiety-and-tele-manas.json"
-        },
-        {
-          "articleId": "article:the-attention-extraction",
-          "slug": "the-attention-extraction",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
-          "agentJsonPath": "/agents/articles/the-attention-extraction.json"
-        },
-        {
-          "articleId": "article:the-attention-matthew-effect",
-          "slug": "the-attention-matthew-effect",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
-          "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json"
-        },
-        {
-          "articleId": "article:the-better-question",
-          "slug": "the-better-question",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
-          "agentJsonPath": "/agents/articles/the-better-question.json"
-        },
-        {
-          "articleId": "article:the-citizens-garden",
-          "slug": "the-citizens-garden",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-citizens-garden/",
-          "agentJsonPath": "/agents/articles/the-citizens-garden.json"
-        },
-        {
-          "articleId": "article:the-compounding-bet",
-          "slug": "the-compounding-bet",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
-          "agentJsonPath": "/agents/articles/the-compounding-bet.json"
-        },
-        {
-          "articleId": "article:the-creator-economys-incentive-trap",
-          "slug": "the-creator-economys-incentive-trap",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
-          "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json"
-        },
-        {
-          "articleId": "article:the-demographic-dividend-is-not-automatic",
-          "slug": "the-demographic-dividend-is-not-automatic",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-demographic-dividend-is-not-automatic/",
-          "agentJsonPath": "/agents/articles/the-demographic-dividend-is-not-automatic.json"
-        },
-        {
-          "articleId": "article:the-design-of-extraction",
-          "slug": "the-design-of-extraction",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-design-of-extraction/",
-          "agentJsonPath": "/agents/articles/the-design-of-extraction.json"
-        },
-        {
-          "articleId": "article:the-engagement-gap-productivity-india",
-          "slug": "the-engagement-gap-productivity-india",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-engagement-gap-productivity-india/",
-          "agentJsonPath": "/agents/articles/the-engagement-gap-productivity-india.json"
-        },
-        {
-          "articleId": "article:the-familys-garden",
-          "slug": "the-familys-garden",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-familys-garden/",
-          "agentJsonPath": "/agents/articles/the-familys-garden.json"
-        },
-        {
-          "articleId": "article:the-generational-bet",
-          "slug": "the-generational-bet",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
-          "agentJsonPath": "/agents/articles/the-generational-bet.json"
-        },
-        {
-          "articleId": "article:the-green-revolution-trade-off",
-          "slug": "the-green-revolution-trade-off",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-green-revolution-trade-off/",
-          "agentJsonPath": "/agents/articles/the-green-revolution-trade-off.json"
-        },
-        {
-          "articleId": "article:the-indic-language-internet-and-vernacular-feeds",
-          "slug": "the-indic-language-internet-and-vernacular-feeds",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
-          "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json"
-        },
-        {
-          "articleId": "article:the-jio-effect-cheap-data-access-behavior",
-          "slug": "the-jio-effect-cheap-data-access-behavior",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-jio-effect-cheap-data-access-behavior/",
-          "agentJsonPath": "/agents/articles/the-jio-effect-cheap-data-access-behavior.json"
-        },
-        {
-          "articleId": "article:the-life-phase-thread",
-          "slug": "the-life-phase-thread",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
-          "agentJsonPath": "/agents/articles/the-life-phase-thread.json"
-        },
-        {
-          "articleId": "article:the-reel-nation-short-form-video",
-          "slug": "the-reel-nation-short-form-video",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-reel-nation-short-form-video/",
-          "agentJsonPath": "/agents/articles/the-reel-nation-short-form-video.json"
-        },
-        {
-          "articleId": "article:the-small-rep-theory",
-          "slug": "the-small-rep-theory",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-small-rep-theory/",
-          "agentJsonPath": "/agents/articles/the-small-rep-theory.json"
-        },
-        {
-          "articleId": "article:the-student-screen-education-vs-entertainment",
-          "slug": "the-student-screen-education-vs-entertainment",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-student-screen-education-vs-entertainment/",
-          "agentJsonPath": "/agents/articles/the-student-screen-education-vs-entertainment.json"
-        },
-        {
-          "articleId": "article:the-students-garden",
-          "slug": "the-students-garden",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-students-garden/",
-          "agentJsonPath": "/agents/articles/the-students-garden.json"
-        },
-        {
-          "articleId": "article:the-substance-builder",
-          "slug": "the-substance-builder",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-substance-builder/",
-          "agentJsonPath": "/agents/articles/the-substance-builder.json"
-        },
-        {
-          "articleId": "article:the-workers-garden",
-          "slug": "the-workers-garden",
-          "articleUrl": "https://aura-knowledge.github.io/articles/the-workers-garden/",
-          "agentJsonPath": "/agents/articles/the-workers-garden.json"
-        },
-        {
-          "articleId": "article:tobacco-seatbelts-food-safety",
-          "slug": "tobacco-seatbelts-food-safety",
-          "articleUrl": "https://aura-knowledge.github.io/articles/tobacco-seatbelts-food-safety/",
-          "agentJsonPath": "/agents/articles/tobacco-seatbelts-food-safety.json"
-        },
-        {
-          "articleId": "article:tool-use",
-          "slug": "tool-use",
-          "articleUrl": "https://aura-knowledge.github.io/articles/tool-use/",
-          "agentJsonPath": "/agents/articles/tool-use.json"
-        },
-        {
-          "articleId": "article:trust-and-outrage-platforms-and-cohesion",
-          "slug": "trust-and-outrage-platforms-and-cohesion",
-          "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
-          "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json"
-        },
-        {
-          "articleId": "article:user-migration-and-the-exit-problem",
-          "slug": "user-migration-and-the-exit-problem",
-          "articleUrl": "https://aura-knowledge.github.io/articles/user-migration-and-the-exit-problem/",
-          "agentJsonPath": "/agents/articles/user-migration-and-the-exit-problem.json"
-        },
-        {
-          "articleId": "article:what-ai-makes-cheap",
-          "slug": "what-ai-makes-cheap",
-          "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
-          "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json"
-        },
-        {
-          "articleId": "article:what-india-is-building-vs-could-build",
-          "slug": "what-india-is-building-vs-could-build",
-          "articleUrl": "https://aura-knowledge.github.io/articles/what-india-is-building-vs-could-build/",
-          "agentJsonPath": "/agents/articles/what-india-is-building-vs-could-build.json"
-        },
-        {
-          "articleId": "article:who-profits-advertising-foreign-platforms",
-          "slug": "who-profits-advertising-foreign-platforms",
-          "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
-          "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json"
-        },
-        {
-          "articleId": "article:why-good-content-loses-to-loud-content",
-          "slug": "why-good-content-loses-to-loud-content",
-          "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
-          "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json"
-        }
-      ]
+      "resultCount": 0,
+      "results": []
     }
   ]
 }

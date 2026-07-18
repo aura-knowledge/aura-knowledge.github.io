@@ -22,7 +22,6 @@ agentArtifact: /agents/articles/the-familys-garden.json
 sourcePath: content/articles/2026/the-familys-garden/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 33</p>
 
 The largest arguments about attention and technology—platform regulation, digital literacy, AI policy—often feel far from the kitchen table. But the smallest unit of attention reform is not a ministry or a company. It is the household. A family decides, dozens of times a day, whether a phone stays face-down during dinner, whether a child watches one more video, whether a parent answers a work message during homework time. These small choices add up to the culture a child carries into the world.
 

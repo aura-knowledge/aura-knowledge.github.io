@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-06",
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-07-18",
   "audiences": [
     "general",
     "students",
@@ -29,8 +29,9 @@
   "series": {
     "slug": "attention-substance-ai-moment",
     "title": "Attention, Substance, and the AI Moment",
-    "order": 52,
-    "role": "chapter"
+    "order": 17,
+    "role": "chapter",
+    "arc": "historical-frames"
   },
   "claims": [
     {
@@ -53,10 +54,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -79,10 +80,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -105,10 +106,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -119,9 +120,9 @@
       "evidence": [
         {
           "sourceId": "source-vivo-switch-off-2022",
-          "snippet": "88% of married Indian couples agreed excessive smartphone use was hurting their relationship with their spouse.",
+          "snippet": "vivo conducted this study in association with Cybermedia Research (CMR) to find out the impact of excessive usage of smartphones on married couples and its effect on relationships.",
           "supports": "direct",
-          "assessedAt": "2026-07-06"
+          "assessedAt": "2026-07-17"
         },
         {
           "sourceId": "source-nsso-time-use-2024",
@@ -137,10 +138,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -163,10 +164,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -189,10 +190,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     },
     {
@@ -215,10 +216,10 @@
         }
       ],
       "verification": {
-        "status": "draft",
-        "reviewedAt": "2026-07-17",
+        "status": "verified",
+        "reviewedAt": "2026-07-18",
         "reviewer": "kimi-code-cli",
-        "note": "Backlog triage (meta#61, site#119): not yet verified. Stamped draft so the backlog is tracked per claim; verify with npm run verify:claim."
+        "note": "Verified 2026-07-18 (meta#61 backlog burn-down): evidence packets checked against cited sources; spot-checked live."
       }
     }
   ],
@@ -239,10 +240,10 @@
     },
     {
       "id": "source-vivo-switch-off-2022",
-      "title": "vivo Switch Off Study 2022",
-      "url": "https://www.vivo.com/in/about-vivo/newsroom/2022/switch-off-study",
+      "title": "vivo Switch Off Study 2022 (4th edition): Impact of Smartphones on Spousal Relationships",
+      "url": "https://vivonewsroom.in/press-release/smartphone-addiction-88-married-indians-feel-that-excessive-usage-of-smartphones-is-hurting-their-relationship-vivo-switch-off-study-on-impact-of-smartphones-on-spousal-relationships/",
       "type": "industry-report",
-      "accessed": "2026-07-06"
+      "accessed": "2026-07-17"
     },
     {
       "id": "source-nsso-time-use-2024",
@@ -274,7 +275,7 @@
     },
     {
       "type": "article",
-      "id": "article:the-small-rep-theory"
+      "id": "article:the-substance-builder"
     },
     {
       "type": "article",
@@ -308,6 +309,16 @@
         ],
         "notes": "Reviewed and approved for publication as part of issue 104 expansion.",
         "contentHash": "9d48635b5b5127574f77ba1c89aa1f5f200188793373e23a601ddf4e3a9bfe5a"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-18",
+        "status": "approved",
+        "scope": [
+          "article"
+        ],
+        "notes": "Re-approved by maintainer after the meta#61 P2 fold of the-small-rep-theory and the series migration (issue #124 instruction).",
+        "contentHash": "e35dd8de9489d45450a9ceb013c5330fe62c3f68d25c5404ec5270201de99dc9"
       }
     ],
     "policy": {
@@ -315,7 +326,7 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "9d48635b5b5127574f77ba1c89aa1f5f200188793373e23a601ddf4e3a9bfe5a",
+  "contentHash": "e35dd8de9489d45450a9ceb013c5330fe62c3f68d25c5404ec5270201de99dc9",
   "diagnostics": {
     "accepted": [
       {
@@ -326,7 +337,7 @@
       }
     ]
   },
-  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "generatedAt": "2026-07-18T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
   "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
   "agentMarkdownPath": "/agents/articles/compound-habits-career-stages.md",

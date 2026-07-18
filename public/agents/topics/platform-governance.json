@@ -38,11 +38,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/alternative-metrics-time-well-spent/",
       "agentJsonPath": "/agents/articles/alternative-metrics-time-well-spent.json",
       "agentMarkdownPath": "/agents/articles/alternative-metrics-time-well-spent.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 270,
-      "contentHash": "c49c8db8fad9468f2f5de96d655457175a9767d0cceb457918fc831a32e0856c"
+      "contentHash": "0a83dcd9eae0d6d43d8ad42ab516221fc1d2ac4add91d898b6e60ea722885af5"
     },
     {
       "id": "article:india-in-global-context",
@@ -71,11 +71,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/india-in-global-context/",
       "agentJsonPath": "/agents/articles/india-in-global-context.json",
       "agentMarkdownPath": "/agents/articles/india-in-global-context.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 7,
       "tokenEstimate": 195,
-      "contentHash": "5742b77c6207ba7ffde81785f57dfc69e8dd1490b315ccb7a83c1bf3fbe6e635"
+      "contentHash": "c6198bc61d361dc04a48b39d809cedcab289e14ab6177b84d98597405d36dd68"
     },
     {
       "id": "article:public-pressure-and-internal-accountability",
@@ -104,11 +104,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/public-pressure-and-internal-accountability/",
       "agentJsonPath": "/agents/articles/public-pressure-and-internal-accountability.json",
       "agentMarkdownPath": "/agents/articles/public-pressure-and-internal-accountability.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 245,
-      "contentHash": "68bec887e19009714f520ce36bd33d54455a39d01f99a87004882009f3703e43"
+      "contentHash": "cfcec91295bd6110d5ad0d8d9ac4593c78cf6eabb1be07d66dcd2018b32f332c"
     }
   ]
 }

@@ -34,11 +34,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
       "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
       "agentMarkdownPath": "/agents/articles/what-ai-makes-cheap.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 778,
-      "contentHash": "fe2c2d3c4f380726825fb1592daf12580bf199a21d223a8f6e9b37b05671a685"
+      "contentHash": "3752ac0c2405fa4b6b8702eebdbff8d60c78c05d2e9fd85046918a2b0f781337"
     }
   ]
 }

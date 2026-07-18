@@ -10,7 +10,7 @@
   "status": "published",
   "maturity": "seed",
   "publishedAt": "2026-07-05",
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-07-18",
   "audiences": [
     "general",
     "students",
@@ -32,8 +32,9 @@
   "series": {
     "slug": "attention-substance-ai-moment",
     "title": "Attention, Substance, and the AI Moment",
-    "order": 47,
-    "role": "chapter"
+    "order": 50,
+    "role": "chapter",
+    "arc": "synthesis"
   },
   "claims": [
     {
@@ -49,9 +50,9 @@
       "evidence": [
         {
           "sourceId": "source-mozilla-youtube-regrets",
-          "snippet": "Mozilla Foundation research documented cases in which engagement-based recommendations pushed users toward harmful or misleading content, suggesting that ranking objectives can have public consequences.",
+          "snippet": "Our main recommendation is that YouTube should enable people to shape what they see. YouTube's user controls should be easy to understand and access.",
           "supports": "indirect",
-          "assessedAt": "2026-07-15"
+          "assessedAt": "2026-07-17"
         },
         {
           "sourceId": "source-humanetech-impact",
@@ -80,9 +81,9 @@
       "evidence": [
         {
           "sourceId": "source-mozilla-youtube-regrets",
-          "snippet": "Mozilla Foundation research documented cases in which engagement-based recommendations pushed users toward harmful or misleading content, suggesting that ranking objectives can have public consequences.",
+          "snippet": "Our main recommendation is that YouTube should enable people to shape what they see. YouTube's user controls should be easy to understand and access.",
           "supports": "indirect",
-          "assessedAt": "2026-07-15"
+          "assessedAt": "2026-07-17"
         },
         {
           "sourceId": "source-stack-exchange",
@@ -148,9 +149,9 @@
         },
         {
           "sourceId": "source-mozilla-youtube-regrets",
-          "snippet": "Research on recommendation harms highlights that users often lack meaningful controls over what algorithms show them next.",
+          "snippet": "Our main recommendation is that YouTube should enable people to shape what they see. YouTube's user controls should be easy to understand and access.",
           "supports": "indirect",
-          "assessedAt": "2026-07-15"
+          "assessedAt": "2026-07-17"
         }
       ],
       "counterevidence": [
@@ -309,9 +310,9 @@
         },
         {
           "sourceId": "source-mozilla-youtube-regrets",
-          "snippet": "Mozilla Foundation research documented cases in which engagement-based recommendations pushed users toward harmful or misleading content, suggesting that ranking objectives can have public consequences.",
+          "snippet": "Our main recommendation is that YouTube should enable people to shape what they see. YouTube's user controls should be easy to understand and access.",
           "supports": "indirect",
-          "assessedAt": "2026-07-15"
+          "assessedAt": "2026-07-17"
         }
       ],
       "counterevidence": [
@@ -371,9 +372,9 @@
         },
         {
           "sourceId": "source-mozilla-youtube-regrets",
-          "snippet": "Research on recommendation harms highlights that users often lack meaningful controls over what algorithms show them next.",
+          "snippet": "Our main recommendation is that YouTube should enable people to shape what they see. YouTube's user controls should be easy to understand and access.",
           "supports": "indirect",
-          "assessedAt": "2026-07-15"
+          "assessedAt": "2026-07-17"
         }
       ],
       "counterevidence": [
@@ -452,9 +453,9 @@
       "evidence": [
         {
           "sourceId": "source-mozilla-youtube-regrets",
-          "snippet": "Mozilla Foundation research found that watch-time optimization can surface misleading, hateful, or disturbing content because extreme material captures attention, showing how any metric can be gamed.",
+          "snippet": "Our main recommendation is that YouTube should enable people to shape what they see. YouTube's user controls should be easy to understand and access.",
           "supports": "analogous",
-          "assessedAt": "2026-07-15"
+          "assessedAt": "2026-07-17"
         },
         {
           "sourceId": "source-eu-digital-services-act",
@@ -495,10 +496,10 @@
     },
     {
       "id": "source-mozilla-youtube-regrets",
-      "title": "Mozilla Foundation: YouTube Regrets Research",
-      "url": "https://foundation.mozilla.org/en/youtube-regrets/",
+      "title": "Mozilla Foundation: Does This Button Work? Investigating YouTube's ineffective user controls",
+      "url": "https://www.mozillafoundation.org/en/youtube/user-controls/",
       "type": "research-report",
-      "accessed": "2026-07-15"
+      "accessed": "2026-07-17"
     },
     {
       "id": "source-humanetech-impact",
@@ -633,6 +634,16 @@
         ],
         "notes": "Expanded draft produced for human review. All claims marked as draft pending verification. No private client or personal details included.",
         "contentHash": "94fdce2ea87a40ad99477d3e2ced72284d4702de9f713d788f5b05e842a776fa"
+      },
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-18",
+        "status": "approved",
+        "scope": [
+          "article"
+        ],
+        "notes": "Re-approved by maintainer after the meta#61 P2 series migration (hardcoded kicker strip + arc reorder; no prose change beyond the kicker line; issue #124 instruction).",
+        "contentHash": "ef6fa472592af0deadde67354db01aa4c5bba3a721faf07b0542cbdf5b8f4ef6"
       }
     ],
     "policy": {
@@ -640,7 +651,7 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "94fdce2ea87a40ad99477d3e2ced72284d4702de9f713d788f5b05e842a776fa",
+  "contentHash": "ef6fa472592af0deadde67354db01aa4c5bba3a721faf07b0542cbdf5b8f4ef6",
   "diagnostics": {
     "accepted": [
       {

@@ -21,7 +21,6 @@ agentArtifact: /agents/articles/attention-substance-ai-moment.json
 sourcePath: content/articles/2026/attention-substance-ai-moment/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Series Guide</p>
 
 India built one of the world's largest digital-access stories. Cheap data, cheap phones, and Indic-language content brought hundreds of millions online. The infrastructure was built for connection. What grew on top of it was largely an attention-extraction economy: feeds, reels, games, and infinite scroll designed to capture time rather than cultivate it.
 
@@ -104,7 +103,7 @@ If you only have a few minutes, start with the one-article summary:
 ### Part 4: Building Substance
 
 - **[The Substance Builder](/articles/the-substance-builder/)** — How to turn dead time into small acts of creation and learning.
-- **[The Small-Rep Theory](/articles/the-small-rep-theory/)** — Why deliberate practice, deep work, and tiny habits matter more than viral moments.
+- **[The Small-Rep Theory](/articles/the-substance-builder/#the-small-rep-theory)** — Why deliberate practice, deep work, and tiny habits matter more than viral moments.
 - **[AI as a Journeyman Assistant](/articles/ai-as-journeyman-assistant/)** — Using AI to lower the first step of hard work without outsourcing the thinking.
 - **[The Student's Garden](/articles/the-students-garden/)** — Learning in public, teaching in private, and avoiding the answer-generation trap.
 - **[The Worker's Garden](/articles/the-workers-garden/)** — Commutes, side projects, and career capital from reclaimed time.

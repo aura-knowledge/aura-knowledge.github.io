@@ -48,11 +48,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/age-appropriate-design/",
       "agentJsonPath": "/agents/articles/age-appropriate-design.json",
       "agentMarkdownPath": "/agents/articles/age-appropriate-design.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 5,
       "sourceCount": 5,
       "tokenEstimate": 292,
-      "contentHash": "a546bd6f8a1c89e8d2fc8642d920c6b5326377cabfdec6332b849e1dd5c7abe4"
+      "contentHash": "fa92f979d3b62f7bea4ee7b9a9984fa9cb2f8c661adedeb50e83c419993aa11c"
     },
     {
       "id": "article:alternative-metrics-time-well-spent",
@@ -83,11 +83,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/alternative-metrics-time-well-spent/",
       "agentJsonPath": "/agents/articles/alternative-metrics-time-well-spent.json",
       "agentMarkdownPath": "/agents/articles/alternative-metrics-time-well-spent.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 270,
-      "contentHash": "c49c8db8fad9468f2f5de96d655457175a9767d0cceb457918fc831a32e0856c"
+      "contentHash": "0a83dcd9eae0d6d43d8ad42ab516221fc1d2ac4add91d898b6e60ea722885af5"
     },
     {
       "id": "article:friction-chronological-feeds-user-chosen-algorithms",
@@ -118,11 +118,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/friction-chronological-feeds-user-chosen-algorithms/",
       "agentJsonPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.json",
       "agentMarkdownPath": "/agents/articles/friction-chronological-feeds-user-chosen-algorithms.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 283,
-      "contentHash": "762bff6be771c33eb2fcb253a58a2e9c5d4f2c8b28902a9935b7e1cf8654d2ec"
+      "contentHash": "240f4f93701d76c1985f3b5426064b8e2507663aef7eae54de6a38f39d50bf65"
     },
     {
       "id": "article:open-questions-the-series-leaves-unresolved",
@@ -155,11 +155,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/open-questions-the-series-leaves-unresolved/",
       "agentJsonPath": "/agents/articles/open-questions-the-series-leaves-unresolved.json",
       "agentMarkdownPath": "/agents/articles/open-questions-the-series-leaves-unresolved.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 2,
       "tokenEstimate": 288,
-      "contentHash": "fb0ac32ee6018b8b5be4644aa55dfb3be6c4c9937e5dcd6b75a858627eebc72e"
+      "contentHash": "f676d2c88daa4007abe851e18d1f2b76e6461cd27ea7ab1f39ae52e34e6005d0"
     },
     {
       "id": "article:product-ideas-that-could-shift-incentives",
@@ -194,11 +194,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
       "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
       "agentMarkdownPath": "/agents/articles/product-ideas-that-could-shift-incentives.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 14,
       "sourceCount": 13,
       "tokenEstimate": 1369,
-      "contentHash": "94fdce2ea87a40ad99477d3e2ced72284d4702de9f713d788f5b05e842a776fa"
+      "contentHash": "ef6fa472592af0deadde67354db01aa4c5bba3a721faf07b0542cbdf5b8f4ef6"
     },
     {
       "id": "article:public-space-and-private-screens",
@@ -227,11 +227,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/public-space-and-private-screens/",
       "agentJsonPath": "/agents/articles/public-space-and-private-screens.json",
       "agentMarkdownPath": "/agents/articles/public-space-and-private-screens.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 343,
-      "contentHash": "a6b188c0cb5f28a1ccc4d40f2d8ad67ceb0a27e23ab576b5d5b15efb7d6997c8"
+      "contentHash": "2ad83fe98f4f4cb746f682950ff167cdaf998b4564f2c46d990b0c2efd24f9c7"
     },
     {
       "id": "article:the-design-of-extraction",
@@ -262,11 +262,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-design-of-extraction/",
       "agentJsonPath": "/agents/articles/the-design-of-extraction.json",
       "agentMarkdownPath": "/agents/articles/the-design-of-extraction.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 273,
-      "contentHash": "5e44c5454d692f76da527fa8e3ee7063c9465f8bc85a1e00aa48e2444050a219"
+      "contentHash": "ca4541d3ded3bb49dc257b566f7c34e2a0eb29c7739a40c79be031b456f901fe"
     },
     {
       "id": "article:the-familys-garden",
@@ -295,11 +295,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-familys-garden/",
       "agentJsonPath": "/agents/articles/the-familys-garden.json",
       "agentMarkdownPath": "/agents/articles/the-familys-garden.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 4,
       "tokenEstimate": 226,
-      "contentHash": "ff968f9345e84b466ac9e4d40307874bf36fae6549dc6c21cd1eb640324c3502"
+      "contentHash": "3fd243b82ba205842690e389fe20599cb3138178b2aa3473c27dd988004c38f8"
     },
     {
       "id": "article:the-reel-nation-short-form-video",
@@ -330,11 +330,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-reel-nation-short-form-video/",
       "agentJsonPath": "/agents/articles/the-reel-nation-short-form-video.json",
       "agentMarkdownPath": "/agents/articles/the-reel-nation-short-form-video.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 7,
       "tokenEstimate": 283,
-      "contentHash": "00b8f82af3c16ef462ab739b78dd0009012d191bd848899111a124fbe021e8c1"
+      "contentHash": "930e72585a5f7bb72f648f41d5b4a93c03d4f729f6cd1ed08891d1ab3280e9da"
     },
     {
       "id": "article:tobacco-seatbelts-food-safety",
@@ -367,11 +367,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/tobacco-seatbelts-food-safety/",
       "agentJsonPath": "/agents/articles/tobacco-seatbelts-food-safety.json",
       "agentMarkdownPath": "/agents/articles/tobacco-seatbelts-food-safety.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 4,
       "tokenEstimate": 258,
-      "contentHash": "6807ba8589523997378deff3df9378a6210845cf01ed345ea8478510f1674d32"
+      "contentHash": "f9c99d72589e207fa6cee0ddab188bb0ce686b60533f5084b4d65ce5f7813c67"
     },
     {
       "id": "article:user-migration-and-the-exit-problem",
@@ -404,11 +404,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/user-migration-and-the-exit-problem/",
       "agentJsonPath": "/agents/articles/user-migration-and-the-exit-problem.json",
       "agentMarkdownPath": "/agents/articles/user-migration-and-the-exit-problem.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 161,
-      "contentHash": "126c5c98a26bf36a5dbcf056e09c2c2ec6c9220b7d23f311afa87ac893a5857a"
+      "contentHash": "7f7e68765f83c95f6458928c57b7879e96286a3c01c1430d75707518423228ea"
     }
   ]
 }

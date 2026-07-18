@@ -42,11 +42,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/a-map-of-levers/",
       "agentJsonPath": "/agents/articles/a-map-of-levers.json",
       "agentMarkdownPath": "/agents/articles/a-map-of-levers.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 8,
       "sourceCount": 13,
       "tokenEstimate": 850,
-      "contentHash": "6f361b3969e6d350c7c0af935801c329a62bd65a0fb4a9689d43672c369ad00f"
+      "contentHash": "067eb4ea3ce5dcf72259e1c56ac0558928ec19d519dcfdd5eb01abd4115723ae"
     },
     {
       "id": "article:ai-could-make-extraction-cheaper-too",
@@ -77,11 +77,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/ai-could-make-extraction-cheaper-too/",
       "agentJsonPath": "/agents/articles/ai-could-make-extraction-cheaper-too.json",
       "agentMarkdownPath": "/agents/articles/ai-could-make-extraction-cheaper-too.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 218,
-      "contentHash": "4a8f4a51566f82bb931985a3032e0fb32c4d87f3004971d2d2744db36a5d3da9"
+      "contentHash": "8bad2e76b25932825d6bf390298c27c9b1a62ef9ecfaf5f9f7140f90593ef08c"
     },
     {
       "id": "article:business-models-that-reward-substance",
@@ -110,11 +110,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/business-models-that-reward-substance/",
       "agentJsonPath": "/agents/articles/business-models-that-reward-substance.json",
       "agentMarkdownPath": "/agents/articles/business-models-that-reward-substance.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 234,
-      "contentHash": "1f26ad853add00b6e05b7af85889c558fb8c18f1e43d28bf32d4b47c8fc5f970"
+      "contentHash": "050ebdca39e411eda0afc1256c33f077d5f7bfa2759a5ec9aaae0b1d5a3496e1"
     },
     {
       "id": "article:designing-for-substance",
@@ -143,11 +143,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/designing-for-substance/",
       "agentJsonPath": "/agents/articles/designing-for-substance.json",
       "agentMarkdownPath": "/agents/articles/designing-for-substance.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 5,
       "sourceCount": 7,
       "tokenEstimate": 644,
-      "contentHash": "776a597d5a9045184d75499b50b88b35a5a7ef2378a72ce17e300f6967a070c3"
+      "contentHash": "da00c11504df3e7824678001d565d7c5f5bea144bdfac5dd515d90b385a445e8"
     },
     {
       "id": "article:engagement-is-a-design-choice",
@@ -176,11 +176,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
       "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
       "agentMarkdownPath": "/agents/articles/engagement-is-a-design-choice.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 879,
-      "contentHash": "7585c03a336b10fe1b3acc19fdafc0bf8de138d8c6de08d781f634649a090e94"
+      "contentHash": "20222aa061e1f7c1af698ef9b9be2474262a53817c458be08c6a2336948be0cf"
     },
     {
       "id": "article:product-ideas-that-could-shift-incentives",
@@ -215,11 +215,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
       "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
       "agentMarkdownPath": "/agents/articles/product-ideas-that-could-shift-incentives.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 14,
       "sourceCount": 13,
       "tokenEstimate": 1369,
-      "contentHash": "94fdce2ea87a40ad99477d3e2ced72284d4702de9f713d788f5b05e842a776fa"
+      "contentHash": "ef6fa472592af0deadde67354db01aa4c5bba3a721faf07b0542cbdf5b8f4ef6"
     },
     {
       "id": "article:the-better-question",
@@ -246,11 +246,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-better-question/",
       "agentJsonPath": "/agents/articles/the-better-question.json",
       "agentMarkdownPath": "/agents/articles/the-better-question.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 798,
-      "contentHash": "3f8e5a55e42cd999da572d6156f4d8b6ad5e1bc35a1996f49613791c535c95f3"
+      "contentHash": "9d1cdf983ed0d8dff4165aee0a6299001059180e74ea2cf458f918ea10a8d6d1"
     },
     {
       "id": "article:trust-and-outrage-platforms-and-cohesion",
@@ -279,11 +279,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/trust-and-outrage-platforms-and-cohesion/",
       "agentJsonPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.json",
       "agentMarkdownPath": "/agents/articles/trust-and-outrage-platforms-and-cohesion.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 8,
       "sourceCount": 7,
       "tokenEstimate": 724,
-      "contentHash": "58db791880b24a6ac451427a87506af3a68f3a83bb63ca881eb057ad23050116"
+      "contentHash": "3f5c870f80e0ce1824adb7acc364d5543a20f7a01d84bbc0a4e62f8ff96dbbb8"
     }
   ]
 }

@@ -29,12 +29,18 @@ interface ArtifactProvenance {
   policy: ProvenancePolicy;
 }
 
+interface ArtifactDisclosure {
+  aiAssistance: boolean;
+  note: string;
+}
+
 interface Props {
   provenance: ArtifactProvenance;
   contentHash: string;
+  disclosure?: ArtifactDisclosure;
 }
 
-const { provenance, contentHash } = Astro.props;
+const { provenance, contentHash, disclosure } = Astro.props;
 const approvedReviews = (provenance?.reviews ?? [])
   .filter((review) => review.reviewer === "human" && review.status === "approved")
   .sort((left, right) => right.reviewedAt.localeCompare(left.reviewedAt));
@@ -61,6 +67,11 @@ const hashAligned = latestApproved?.contentHash === contentHash;
       Created {provenance.createdAt} by {provenance.createdBy}.
       Policy: <code>{provenance.policy.id}</code> v{provenance.policy.version}.
     </p>
+    {
+      disclosure?.aiAssistance && (
+        <p class="provenance-disclosure">{disclosure.note}</p>
+      )
+    }
     {
       latestApproved && (
         <p class={`provenance-status ${hashAligned ? "aligned" : "misaligned"}`}>

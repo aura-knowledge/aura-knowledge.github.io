@@ -36,11 +36,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/historical-analogies-of-missed-transitions/",
       "agentJsonPath": "/agents/articles/historical-analogies-of-missed-transitions.json",
       "agentMarkdownPath": "/agents/articles/historical-analogies-of-missed-transitions.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 303,
-      "contentHash": "f8d7648a11dc2580fd1d8984244dfc3249c23a4251f1b38b96816b6aec01bafd"
+      "contentHash": "53835364f5884f98e35909f0592e6bfafced4d620f88fe7e09e535bc55807994"
     }
   ]
 }

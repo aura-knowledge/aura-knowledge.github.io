@@ -49,11 +49,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/ai-as-journeyman-assistant/",
       "agentJsonPath": "/agents/articles/ai-as-journeyman-assistant.json",
       "agentMarkdownPath": "/agents/articles/ai-as-journeyman-assistant.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 4,
       "tokenEstimate": 351,
-      "contentHash": "f903bc9ab7a692495e3c84d51f2db293c6ab2315a047e8b82ebad48b74d07c56"
+      "contentHash": "86948d2f426032a6eeee39e7fecf0237058a371716bc97329ba03769651d4cfc"
     },
     {
       "id": "article:ai-could-make-extraction-cheaper-too",
@@ -84,11 +84,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/ai-could-make-extraction-cheaper-too/",
       "agentJsonPath": "/agents/articles/ai-could-make-extraction-cheaper-too.json",
       "agentMarkdownPath": "/agents/articles/ai-could-make-extraction-cheaper-too.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 218,
-      "contentHash": "4a8f4a51566f82bb931985a3032e0fb32c4d87f3004971d2d2744db36a5d3da9"
+      "contentHash": "8bad2e76b25932825d6bf390298c27c9b1a62ef9ecfaf5f9f7140f90593ef08c"
     },
     {
       "id": "article:attention-substance-ai-moment",
@@ -115,11 +115,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
       "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json",
       "agentMarkdownPath": "/agents/articles/attention-substance-ai-moment.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 1,
       "sourceCount": 2,
       "tokenEstimate": 465,
-      "contentHash": "f8fa1f6c19c5e76080bc618bc8dfc1dfd23d40ed328ef59af61c87539e5ae6e4"
+      "contentHash": "86d4309bd07aa9b2ff4fd9c3eb1103cb06f3f4477cdcb5d698cf60afab884531"
     },
     {
       "id": "article:attention-substance-ai-moment-tldr",
@@ -146,7 +146,7 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment-tldr/",
       "agentJsonPath": "/agents/articles/attention-substance-ai-moment-tldr.json",
       "agentMarkdownPath": "/agents/articles/attention-substance-ai-moment-tldr.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 5,
       "sourceCount": 20,
       "tokenEstimate": 519,
@@ -179,11 +179,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/compound-habits-career-stages/",
       "agentJsonPath": "/agents/articles/compound-habits-career-stages.json",
       "agentMarkdownPath": "/agents/articles/compound-habits-career-stages.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 5,
       "tokenEstimate": 503,
-      "contentHash": "9d48635b5b5127574f77ba1c89aa1f5f200188793373e23a601ddf4e3a9bfe5a"
+      "contentHash": "e35dd8de9489d45450a9ceb013c5330fe62c3f68d25c5404ec5270201de99dc9"
     },
     {
       "id": "article:historical-analogies-of-missed-transitions",
@@ -214,11 +214,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/historical-analogies-of-missed-transitions/",
       "agentJsonPath": "/agents/articles/historical-analogies-of-missed-transitions.json",
       "agentMarkdownPath": "/agents/articles/historical-analogies-of-missed-transitions.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 303,
-      "contentHash": "f8d7648a11dc2580fd1d8984244dfc3249c23a4251f1b38b96816b6aec01bafd"
+      "contentHash": "53835364f5884f98e35909f0592e6bfafced4d620f88fe7e09e535bc55807994"
     },
     {
       "id": "article:historical-hinges-access-is-not-benefit",
@@ -249,11 +249,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/historical-hinges-access-is-not-benefit/",
       "agentJsonPath": "/agents/articles/historical-hinges-access-is-not-benefit.json",
       "agentMarkdownPath": "/agents/articles/historical-hinges-access-is-not-benefit.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 392,
-      "contentHash": "5e05ae1fc7c89cf568d073ca3c18568fe28d658608f7ae231604d8780ea934ac"
+      "contentHash": "e839e29a6d5c94f81958ea634951e02a6912c1eb6cb79bfe788bb57b9dfcb616"
     },
     {
       "id": "article:open-questions-the-series-leaves-unresolved",
@@ -286,11 +286,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/open-questions-the-series-leaves-unresolved/",
       "agentJsonPath": "/agents/articles/open-questions-the-series-leaves-unresolved.json",
       "agentMarkdownPath": "/agents/articles/open-questions-the-series-leaves-unresolved.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 2,
       "tokenEstimate": 288,
-      "contentHash": "fb0ac32ee6018b8b5be4644aa55dfb3be6c4c9937e5dcd6b75a858627eebc72e"
+      "contentHash": "f676d2c88daa4007abe851e18d1f2b76e6461cd27ea7ab1f39ae52e34e6005d0"
     },
     {
       "id": "article:the-attention-matthew-effect",
@@ -319,11 +319,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
       "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
       "agentMarkdownPath": "/agents/articles/the-attention-matthew-effect.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 6,
       "tokenEstimate": 534,
-      "contentHash": "c46ccd41d164bb9938811546da3651408b84b298db94adfa5dd8e24d739243a9"
+      "contentHash": "d38724447e685af9ee4b7ada34ca6f400b09340da06073550b40fc7c2ce8c064"
     },
     {
       "id": "article:the-citizens-garden",
@@ -354,11 +354,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-citizens-garden/",
       "agentJsonPath": "/agents/articles/the-citizens-garden.json",
       "agentMarkdownPath": "/agents/articles/the-citizens-garden.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 4,
       "tokenEstimate": 315,
-      "contentHash": "48249a1f571fa817161271612ebe803b794eedd8dc4389c16393b972dde65d1c"
+      "contentHash": "9c2a6b3b2e4a6f7736ccab6460ea920b528110842fa09cc39666d6ef3f11cf9c"
     },
     {
       "id": "article:the-compounding-bet",
@@ -387,11 +387,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
       "agentJsonPath": "/agents/articles/the-compounding-bet.json",
       "agentMarkdownPath": "/agents/articles/the-compounding-bet.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 8,
       "tokenEstimate": 802,
-      "contentHash": "1d9dc1bd1cee040a792048ecab6acad39cf130a561507617cb60d79141158281"
+      "contentHash": "050f5145615e847b65a73101c166919ad3768fe88862d49a2624aa3b1a4429fc"
     },
     {
       "id": "article:the-creator-economys-incentive-trap",
@@ -420,11 +420,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
       "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
       "agentMarkdownPath": "/agents/articles/the-creator-economys-incentive-trap.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 8,
       "tokenEstimate": 869,
-      "contentHash": "07cbff728144d28565712c71730df2a4bf456f39a87508fc5c2b46826b687362"
+      "contentHash": "763f8954ff688e16e2bc1ac58613538138008e0bf9f41c322223f26e892a77a2"
     },
     {
       "id": "article:the-generational-bet",
@@ -453,11 +453,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
       "agentJsonPath": "/agents/articles/the-generational-bet.json",
       "agentMarkdownPath": "/agents/articles/the-generational-bet.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 10,
       "tokenEstimate": 658,
-      "contentHash": "273af6cb9297a078f5cc75f08c449a484b3b80cec535f6dd191ab2c5ead00571"
+      "contentHash": "6f30fcdd394d7dffefb39acb82474c9159c55f6f093af5a9e23b89b488c569c0"
     },
     {
       "id": "article:the-students-garden",
@@ -488,11 +488,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-students-garden/",
       "agentJsonPath": "/agents/articles/the-students-garden.json",
       "agentMarkdownPath": "/agents/articles/the-students-garden.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 4,
       "tokenEstimate": 492,
-      "contentHash": "73fada8fa9f0b4eb3b63b435a796680cbfbe9ab113b43386b4ba069dfbf13d60"
+      "contentHash": "33c249c6c530a333ca0c75161d23aafce5bc9dee5fc10dadf115fc4552e95e1b"
     },
     {
       "id": "article:the-workers-garden",
@@ -525,11 +525,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-workers-garden/",
       "agentJsonPath": "/agents/articles/the-workers-garden.json",
       "agentMarkdownPath": "/agents/articles/the-workers-garden.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 526,
-      "contentHash": "f28e4e718becf603328a3254ccea6537818f96b67f15980bfa50fb3ae15d148c"
+      "contentHash": "3a1e5a21d0d3c9d4657bc675892519207af7bdc7da2b336f013323b08b87018c"
     },
     {
       "id": "article:what-ai-makes-cheap",
@@ -558,11 +558,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/what-ai-makes-cheap/",
       "agentJsonPath": "/agents/articles/what-ai-makes-cheap.json",
       "agentMarkdownPath": "/agents/articles/what-ai-makes-cheap.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 7,
       "tokenEstimate": 778,
-      "contentHash": "fe2c2d3c4f380726825fb1592daf12580bf199a21d223a8f6e9b37b05671a685"
+      "contentHash": "3752ac0c2405fa4b6b8702eebdbff8d60c78c05d2e9fd85046918a2b0f781337"
     },
     {
       "id": "article:what-india-is-building-vs-could-build",
@@ -595,11 +595,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/what-india-is-building-vs-could-build/",
       "agentJsonPath": "/agents/articles/what-india-is-building-vs-could-build.json",
       "agentMarkdownPath": "/agents/articles/what-india-is-building-vs-could-build.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 4,
       "tokenEstimate": 474,
-      "contentHash": "1c65c2cbfaabb5ee4c87a6d5e05fef5ea438e4fac17145b118be57d675855556"
+      "contentHash": "773f8377e25308905e0cb8cf5d200ccf4d053be082d17811dcebf46be51cf622"
     },
     {
       "id": "article:why-good-content-loses-to-loud-content",
@@ -628,11 +628,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
       "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
       "agentMarkdownPath": "/agents/articles/why-good-content-loses-to-loud-content.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 6,
       "sourceCount": 7,
       "tokenEstimate": 535,
-      "contentHash": "8a50b59d1f86dc1e261cf824a610abebf67ec10b18ec1a93833d46e8cda1edfe"
+      "contentHash": "f1f13e69ddc449d133015c32d40f1339faf06f314b3dec106bc6348f991ce405"
     }
   ]
 }

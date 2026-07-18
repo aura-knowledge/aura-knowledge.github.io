@@ -44,11 +44,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/product-ideas-that-could-shift-incentives/",
       "agentJsonPath": "/agents/articles/product-ideas-that-could-shift-incentives.json",
       "agentMarkdownPath": "/agents/articles/product-ideas-that-could-shift-incentives.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 14,
       "sourceCount": 13,
       "tokenEstimate": 1369,
-      "contentHash": "94fdce2ea87a40ad99477d3e2ced72284d4702de9f713d788f5b05e842a776fa"
+      "contentHash": "ef6fa472592af0deadde67354db01aa4c5bba3a721faf07b0542cbdf5b8f4ef6"
     },
     {
       "id": "article:the-attention-matthew-effect",
@@ -77,11 +77,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-attention-matthew-effect/",
       "agentJsonPath": "/agents/articles/the-attention-matthew-effect.json",
       "agentMarkdownPath": "/agents/articles/the-attention-matthew-effect.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 6,
       "tokenEstimate": 534,
-      "contentHash": "c46ccd41d164bb9938811546da3651408b84b298db94adfa5dd8e24d739243a9"
+      "contentHash": "d38724447e685af9ee4b7ada34ca6f400b09340da06073550b40fc7c2ce8c064"
     },
     {
       "id": "article:the-creator-economys-incentive-trap",
@@ -110,11 +110,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
       "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
       "agentMarkdownPath": "/agents/articles/the-creator-economys-incentive-trap.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 8,
       "tokenEstimate": 869,
-      "contentHash": "07cbff728144d28565712c71730df2a4bf456f39a87508fc5c2b46826b687362"
+      "contentHash": "763f8954ff688e16e2bc1ac58613538138008e0bf9f41c322223f26e892a77a2"
     },
     {
       "id": "article:who-profits-advertising-foreign-platforms",
@@ -141,11 +141,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/who-profits-advertising-foreign-platforms/",
       "agentJsonPath": "/agents/articles/who-profits-advertising-foreign-platforms.json",
       "agentMarkdownPath": "/agents/articles/who-profits-advertising-foreign-platforms.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 6,
       "sourceCount": 8,
       "tokenEstimate": 859,
-      "contentHash": "442c5c2d56bf142244756bfae0cd34f39d8f8c762ee19c6bd96fd0bf95d226e5"
+      "contentHash": "4d84cf9494e9b8000e27001763d64e05c0b8f6629e1f275bea5838c0c022a347"
     },
     {
       "id": "article:why-good-content-loses-to-loud-content",
@@ -174,11 +174,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/why-good-content-loses-to-loud-content/",
       "agentJsonPath": "/agents/articles/why-good-content-loses-to-loud-content.json",
       "agentMarkdownPath": "/agents/articles/why-good-content-loses-to-loud-content.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 6,
       "sourceCount": 7,
       "tokenEstimate": 535,
-      "contentHash": "8a50b59d1f86dc1e261cf824a610abebf67ec10b18ec1a93833d46e8cda1edfe"
+      "contentHash": "f1f13e69ddc449d133015c32d40f1339faf06f314b3dec106bc6348f991ce405"
     }
   ]
 }

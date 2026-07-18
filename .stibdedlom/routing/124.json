@@ -1,0 +1,32 @@
+{
+  "schema_version": "sdl-routing-attestation@2",
+  "issue": 124,
+  "chain_id": "124",
+  "node_id": "124",
+  "goal": "[meta#61 P2] Structure & trust surface: disclosure, series arcs, habit-cluster fold",
+  "allowed_paths": [
+    "scripts",
+    "schemas",
+    "content",
+    "public",
+    "src",
+    "package.json"
+  ],
+  "envelope_hash": "sha256:3b751db3e687b3bf5f94e86675c5dc5c2e02c881bc5e39ebdd8e57cbaf6547ba",
+  "policy_ref": ".stibdedlom/invocation-policy.yaml",
+  "manifest_path": ".stibdedlom/manifest.yaml",
+  "base_ref": "origin/main",
+  "created_at": "2026-07-18T10:13:16.992473+00:00",
+  "expires_at": "2026-07-25T10:13:16.992473+00:00",
+  "kid": "rk-2026-07-11-27bdb969",
+  "algorithm": "ed25519",
+  "runtime_binding": {
+    "branch": "fix/issue-124-p2-structural",
+    "worktree_path": "/Users/vishalsingh/Documents/v-i-s-h-a-l/aura-knowledge/site-verification-gates",
+    "base_sha": "5131acb7e02fadedc41262af3c473e0ce27e9479",
+    "base_ref": "origin/main",
+    "max_commits_ahead": 50
+  },
+  "capability": "capability-client-orchestrator",
+  "signature": "ed25519:giJfZtHooWqGkQ4NxghiE062gyaO0CXeMR/Xx4HPpvj5JtVoH2RK5Q8QBgHPLElCEv/u+nVycarlSLSaWG2IDg=="
+}

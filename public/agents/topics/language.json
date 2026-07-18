@@ -35,11 +35,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/bhashini-and-the-indic-language-ai-moment/",
       "agentJsonPath": "/agents/articles/bhashini-and-the-indic-language-ai-moment.json",
       "agentMarkdownPath": "/agents/articles/bhashini-and-the-indic-language-ai-moment.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 5,
       "tokenEstimate": 322,
-      "contentHash": "6a393859a7b5f8c68f9d6b663a8c104f9381878194747a5b6056966d4ff6e7e8"
+      "contentHash": "3c3b3722eb3c5606dd480e945021aecc92edfe17281204f2d9d85d09cb4cfa5e"
     },
     {
       "id": "article:the-indic-language-internet-and-vernacular-feeds",
@@ -66,11 +66,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/the-indic-language-internet-and-vernacular-feeds/",
       "agentJsonPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.json",
       "agentMarkdownPath": "/agents/articles/the-indic-language-internet-and-vernacular-feeds.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 7,
       "sourceCount": 6,
       "tokenEstimate": 763,
-      "contentHash": "34a702fd058cd8a36f46bfec32f7d490c09d2abd2d2de7212490775fb332729b"
+      "contentHash": "7d387f32e4a3846d6c9cb8d1876c4bf74716b7f04b915dff17a377165a404b7b"
     }
   ]
 }

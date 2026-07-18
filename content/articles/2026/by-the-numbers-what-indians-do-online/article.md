@@ -21,7 +21,6 @@ agentArtifact: /agents/articles/by-the-numbers-what-indians-do-online.json
 sourcePath: content/articles/2026/by-the-numbers-what-indians-do-online/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 1</p>
 
 India crossed two milestones in the last few years: it became one of the world's largest internet populations, and it became one of the world's cheapest places to be online. The first story is about access. The second story is about use. This article stays with the numbers of use.
 

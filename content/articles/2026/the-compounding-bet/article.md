@@ -22,7 +22,6 @@ agentArtifact: /agents/articles/the-compounding-bet.json
 sourcePath: content/articles/2026/the-compounding-bet/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 3</p>
 
 India's AI moment is usually described as a technology race: more chips, more models, more startups, more funding. That story is not wrong, but it is incomplete. The country already has much of what the technology story requires — a large young population, deep software talent, cheap data, and a government mission spending more than ₹10,000 crore on AI infrastructure. The scarcer resource is sustained attention.
 

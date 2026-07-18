@@ -40,11 +40,11 @@
       "articleUrl": "https://aura-knowledge.github.io/articles/failure-teaching-and-the-skill-stack/",
       "agentJsonPath": "/agents/articles/failure-teaching-and-the-skill-stack.json",
       "agentMarkdownPath": "/agents/articles/failure-teaching-and-the-skill-stack.md",
-      "updatedAt": "2026-07-17",
+      "updatedAt": "2026-07-18",
       "claimCount": 4,
       "sourceCount": 4,
       "tokenEstimate": 276,
-      "contentHash": "a95e00e39cc83a61256a5b2cad5c72ac975e7defb21cbcb83bb7357594bfe387"
+      "contentHash": "fb5327fe15116bdcd157a514f2a97a0e18b0c488b520bcd9803af7a6e3aae69d"
     }
   ]
 }

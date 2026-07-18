@@ -521,5 +521,9 @@
       "id": "policy:default",
       "version": "1.0.0"
     }
+  },
+  "disclosure": {
+    "aiAssistance": true,
+    "note": "Researched, drafted, and structured with AI agents; approved for publication by a human reviewer."
   }
 }

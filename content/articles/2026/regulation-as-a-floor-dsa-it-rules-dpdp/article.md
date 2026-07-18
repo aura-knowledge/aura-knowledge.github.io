@@ -22,7 +22,6 @@ agentArtifact: /agents/articles/regulation-as-a-floor-dsa-it-rules-dpdp.json
 sourcePath: content/articles/2026/regulation-as-a-floor-dsa-it-rules-dpdp/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 5</p>
 
 Every country that has built a large digital population eventually faces the same question: what should platforms be required to do, and what is left to users, markets, and design? India is no exception. It now has nearly 900 million internet users, foreign platforms that collect billions of dollars in domestic advertising, and a legal framework that is still catching up with the speed and scale of attention extraction.
 

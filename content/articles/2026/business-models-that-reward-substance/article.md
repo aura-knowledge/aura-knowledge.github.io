@@ -22,7 +22,6 @@ agentArtifact: /agents/articles/business-models-that-reward-substance.json
 sourcePath: content/articles/2026/business-models-that-reward-substance/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 43</p>
 
 The design of a platform is inseparable from how it makes money. A service that earns revenue by keeping eyes on ads will optimize for engagement: scroll time, clicks, shares, and returns. A service that earns revenue by satisfying users directly can optimize for satisfaction, learning, or trust. This article compares the incentive structures behind different revenue models and asks what a business ecology that rewards substance would look like.
 

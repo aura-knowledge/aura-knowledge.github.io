@@ -23,7 +23,6 @@ agentArtifact: /agents/articles/the-demographic-dividend-is-not-automatic.json
 sourcePath: content/articles/2026/the-demographic-dividend-is-not-automatic/article.md
 ---
 
-<p class="article-kicker">Attention, Substance, and the AI Moment · Part 21</p>
 
 India is young. That fact is repeated in budget speeches, investor decks, and startup pitch meetings. A young population is supposed to mean a larger workforce, more consumers, faster growth, and a demographic dividend that lifts the country for decades. But the dividend is not automatic. It depends on what those young people do with their time.
 
