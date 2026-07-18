@@ -1,5 +1,123 @@
 [
   {
+    "id": "article:a-map-of-levers",
+    "type": "article",
+    "label": "A Map of Levers",
+    "path": "/articles/a-map-of-levers/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:a-map-of-levers:claim-001",
+    "type": "claim",
+    "label": "India's attention crisis is not solvable by any single actor, but it is movable by the combined leverage of individuals, households, platforms, investors, regulators, and citizens making substance-oriented choices at each layer.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:a-map-of-levers:claim-002",
+    "type": "claim",
+    "label": "India has built near-universal digital access, but the dominant use of that access is entertainment and social extraction rather than education, work, creation, or rest.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:a-map-of-levers:claim-003",
+    "type": "claim",
+    "label": "Individual attention practices can reduce personal extraction, but their effect is bounded by platform defaults, social norms, and economic pressure; they work best when supported by household and design changes.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:a-map-of-levers:claim-004",
+    "type": "claim",
+    "label": "Platform design is the highest-leverage intervention in the attention economy because a single design default can reshape the behaviour of millions of users at once.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:a-map-of-levers:claim-005",
+    "type": "claim",
+    "label": "Investor pressure can shift platform incentives when fiduciaries begin to value long-term attention quality, civic trust, and user autonomy alongside reach and revenue.",
+    "localId": "claim-005",
+    "confidence": "medium",
+    "status": "landscape"
+  },
+  {
+    "id": "article:a-map-of-levers:claim-006",
+    "type": "claim",
+    "label": "Regulation is a necessary floor for the attention economy, but it is insufficient on its own because rules lag design, enforcement is uneven, and platforms can comply without changing their core extraction model.",
+    "localId": "claim-006",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:a-map-of-levers:claim-007",
+    "type": "claim",
+    "label": "Civic accountability — research, journalism, whistleblowing, organised user demand, and alternative-platform adoption — is the layer that makes regulation and investor pressure credible.",
+    "localId": "claim-007",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:a-map-of-levers:claim-008",
+    "type": "claim",
+    "label": "Sustained change requires aligned movement across all six layers; any single-layer intervention will be absorbed, gamed, or exhausted by the others.",
+    "localId": "claim-008",
+    "confidence": "medium",
+    "status": "framing"
+  },
+  {
+    "id": "article:a-readers-guide-to-the-series",
+    "type": "article",
+    "label": "A Reader's Guide to the Series",
+    "path": "/articles/a-readers-guide-to-the-series/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:a-readers-guide-to-the-series:claim-001",
+    "type": "claim",
+    "label": "The series is organized into six arcs that move from diagnosis through historical framing, the AI opportunity cost, individual practice, systemic design, and synthesis.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:a-readers-guide-to-the-series:claim-002",
+    "type": "claim",
+    "label": "The four seed articles cover the core arguments of diagnosis, generational stakes, individual practice, and systemic design.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:a-readers-guide-to-the-series:claim-003",
+    "type": "claim",
+    "label": "Most readers will find the series more useful if they enter by question or role rather than reading front to back, because the articles are designed to be self-contained.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "framing"
+  },
+  {
+    "id": "article:a-readers-guide-to-the-series:claim-004",
+    "type": "claim",
+    "label": "The series explicitly distinguishes India-specific survey data from global benchmarks and industry estimates.",
+    "localId": "claim-004",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:a-readers-guide-to-the-series:claim-005",
+    "type": "claim",
+    "label": "This guide links only to articles that are already published and will be updated as new articles go live.",
+    "localId": "claim-005",
+    "confidence": "high",
+    "status": "framing"
+  },
+  {
     "id": "article:agent-auditable-research",
     "type": "article",
     "label": "The Future of Publishing Is Agent-Auditable Research",
@@ -600,6 +718,21 @@
     "status": "argument"
   },
   {
+    "id": "article:attention-substance-ai-moment",
+    "type": "article",
+    "label": "Attention, Substance, and the AI Moment: A Series Index",
+    "path": "/articles/attention-substance-ai-moment/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:attention-substance-ai-moment:claim-001",
+    "type": "claim",
+    "label": "India's digital-access success has created an attention-extraction economy that diverts time and talent away from learning, creation, and civic problem-solving, but the same infrastructure could be redirected toward substance if individuals, platforms, and policymakers make different choices.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "framing"
+  },
+  {
     "id": "article:audio-first-voice-consumption",
     "type": "article",
     "label": "Listening to the Firehose: Can Voice-First, Two-Way Audio Become a Legitimate Assistive Medium?",
@@ -781,6 +914,69 @@
     "status": "argument"
   },
   {
+    "id": "article:by-the-numbers-what-indians-do-online",
+    "type": "article",
+    "label": "By the Numbers: What Indians Actually Do Online",
+    "path": "/articles/by-the-numbers-what-indians-do-online/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:by-the-numbers-what-indians-do-online:claim-001",
+    "type": "claim",
+    "label": "India's digital-access success has produced a usage mix dominated by entertainment and social media, with education and production occupying a far smaller share of online time than the country's demographic dividend requires.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:by-the-numbers-what-indians-do-online:claim-002",
+    "type": "claim",
+    "label": "The NCAER India Human Development Survey Wave 3 found that roughly two-thirds of reported internet use is for entertainment while only about one-sixth is for education, a ratio of roughly 4:1.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:by-the-numbers-what-indians-do-online:claim-003",
+    "type": "claim",
+    "label": "ASER 2024 reports that 76% of 14–16-year-olds use smartphones for social media while 57% use them for education.",
+    "localId": "claim-003",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:by-the-numbers-what-indians-do-online:claim-004",
+    "type": "claim",
+    "label": "Indian adolescents and young adults are estimated to spend several hours per day on screens, with a large majority exceeding the two-hour daily screen-time recommendation.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "landscape"
+  },
+  {
+    "id": "article:by-the-numbers-what-indians-do-online:claim-005",
+    "type": "claim",
+    "label": "The NSSO Time Use Survey 2024 shows that 93% of Indians aged 6 and above participate in mass media or leisure activities, and leisure time has risen about 15% since 2019.",
+    "localId": "claim-005",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:by-the-numbers-what-indians-do-online:claim-006",
+    "type": "claim",
+    "label": "Gallup data places India's employee engagement at 23% and estimates roughly $351 billion in annual losses from disengagement, illustrating the economic opportunity cost of attention fragmentation.",
+    "localId": "claim-006",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:by-the-numbers-what-indians-do-online:claim-007",
+    "type": "claim",
+    "label": "Entertainment is not the problem; the problem is the ratio of entertainment to education, production, and rest, and the opportunity cost that ratio imposes.",
+    "localId": "claim-007",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
     "id": "article:context-management",
     "type": "article",
     "label": "Context Management: What the AI Sees Right Now",
@@ -865,6 +1061,69 @@
     "localId": "claim-005",
     "confidence": "medium",
     "status": "normative"
+  },
+  {
+    "id": "article:engagement-is-a-design-choice",
+    "type": "article",
+    "label": "Engagement Is a Design Choice",
+    "path": "/articles/engagement-is-a-design-choice/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:engagement-is-a-design-choice:claim-001",
+    "type": "claim",
+    "label": "Engagement is a design choice, not a natural law; it emerges from the metric a platform chooses to optimize, and that metric can be changed.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:engagement-is-a-design-choice:claim-002",
+    "type": "claim",
+    "label": "When a platform ranks content by predicted engagement, it systematically favors content that triggers strong emotional reactions, often at the expense of accuracy, civility, and long-term user well-being.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:engagement-is-a-design-choice:claim-003",
+    "type": "claim",
+    "label": "Engagement-based ranking algorithms amplify emotionally charged and out-group-hostile content compared with reverse-chronological feeds, and users do not prefer the political content the algorithm selects.",
+    "localId": "claim-003",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:engagement-is-a-design-choice:claim-004",
+    "type": "claim",
+    "label": "Likes, shares, and retweets act as reinforcement signals: users learn to produce the content that the platform rewards, and the platform then ranks that content more highly, creating a self-reinforcing feedback loop.",
+    "localId": "claim-004",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:engagement-is-a-design-choice:claim-005",
+    "type": "claim",
+    "label": "The ad-supported attention economy concentrates rewards among top creators and foreign platforms while turning most users' attention into inventory.",
+    "localId": "claim-005",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:engagement-is-a-design-choice:claim-006",
+    "type": "claim",
+    "label": "Alternative ranking signals, friction, and business models can reduce divisive amplification, but only if platforms are willing to measure success differently.",
+    "localId": "claim-006",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:engagement-is-a-design-choice:claim-007",
+    "type": "claim",
+    "label": "At India's scale, the choice of engagement metric is a public-interest question: the same design shapes national attention, social trust, youth learning, and the creator economy.",
+    "localId": "claim-007",
+    "confidence": "medium-high",
+    "status": "framing"
   },
   {
     "id": "article:evaluations",
@@ -1115,6 +1374,69 @@
     "type": "claim",
     "label": "As of 2026-06-19, European Commission pages state that EU general-purpose AI model rules became effective in August 2025 and that the Code of Practice supports compliance.",
     "localId": "claim-012",
+    "confidence": "medium",
+    "status": "landscape"
+  },
+  {
+    "id": "article:gender-and-the-attention-economy",
+    "type": "article",
+    "label": "Gender and the Attention Economy",
+    "path": "/articles/gender-and-the-attention-economy/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:gender-and-the-attention-economy:claim-001",
+    "type": "claim",
+    "label": "Women in India face a double bind in the attention economy: lower access and digital skills limit participation, while those who do participate encounter disproportionate care burdens, safety risks, and economic inequality.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:gender-and-the-attention-economy:claim-002",
+    "type": "claim",
+    "label": "NSSO CAMS 2022-23 data show a sharp gender gap at the point of digital entry: roughly eight in ten women had recently used a mobile phone, compared with over nine in ten men, and roughly half of women had recently used the internet, compared with about two-thirds of men.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:gender-and-the-attention-economy:claim-003",
+    "type": "claim",
+    "label": "GSMA's Mobile Gender Gap Report 2024 shows that women in low- and middle-income countries are about 15% less likely than men to use mobile internet, with roughly 60% of unconnected women concentrated in South Asia and Sub-Saharan Africa; India-specific estimates show women are 33% less likely than men to use mobile internet.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:gender-and-the-attention-economy:claim-004",
+    "type": "claim",
+    "label": "NSSO Time Use Survey 2024 found that women who performed unpaid domestic services spent 289 minutes a day on them, compared with 88 minutes for men, and women spent 137 minutes on caregiving versus men's 75 minutes.",
+    "localId": "claim-004",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:gender-and-the-attention-economy:claim-005",
+    "type": "claim",
+    "label": "Women's leisure and mass-media time is more fragmented by unpaid care work than men's, so the attention economy extracts a scarcer, more interrupted resource from women even when raw minutes look similar.",
+    "localId": "claim-005",
+    "confidence": "medium",
+    "status": "framing"
+  },
+  {
+    "id": "article:gender-and-the-attention-economy:claim-006",
+    "type": "claim",
+    "label": "A 2026 parliamentary committee report summarised by PRS Legislative Research noted that cybercrimes against women in India rose 239% between 2017 and 2022.",
+    "localId": "claim-006",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:gender-and-the-attention-economy:claim-007",
+    "type": "claim",
+    "label": "The creator economy and high-skill digital work remain unevenly accessible to women: only about 2.2% of employed Indian women work in business services, partly due to the digital-skills gap.",
+    "localId": "claim-007",
     "confidence": "medium",
     "status": "landscape"
   },
@@ -1636,6 +1958,69 @@
     "status": "risk"
   },
   {
+    "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp",
+    "type": "article",
+    "label": "Regulation as a Floor",
+    "path": "/articles/regulation-as-a-floor-dsa-it-rules-dpdp/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-001",
+    "type": "claim",
+    "label": "Regulation can set a floor for platform accountability by mandating transparency, due process, and data protection, but it cannot by itself make substance-oriented design the default.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-002",
+    "type": "claim",
+    "label": "The IT Rules 2021 focus on content takedown, user grievances, and traceability rather than on the design defaults—autoplay, infinite scroll, algorithmic ranking—that drive attention extraction.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-003",
+    "type": "claim",
+    "label": "The DPDP Act 2023 establishes individual rights over digital personal data; the DPDP Rules, 2025, and the Data Protection Board became operational in late 2025, but phased implementation and enforcement capacity are still unfolding.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-004",
+    "type": "claim",
+    "label": "The EU Digital Services Act goes further than India’s current framework by requiring systemic risk assessments, algorithmic transparency, and independent oversight for very large online platforms.",
+    "localId": "claim-004",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-005",
+    "type": "claim",
+    "label": "The UK Online Safety Act and Australia’s eSafety model introduce duty-of-care or safety-standard approaches that India has not yet adopted for attention-economy harms.",
+    "localId": "claim-005",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-006",
+    "type": "claim",
+    "label": "Regulation is better at removing illegal content and protecting personal data than at changing the engagement metrics, ad-supported business models, and default designs that drive attention extraction.",
+    "localId": "claim-006",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp:claim-007",
+    "type": "claim",
+    "label": "Effective protection of attention and promotion of substance likely requires regulation plus design changes, alternative business models, public pressure, and internal platform accountability.",
+    "localId": "claim-007",
+    "confidence": "medium-high",
+    "status": "framing"
+  },
+  {
     "id": "article:retrieval-augmented-generation",
     "type": "article",
     "label": "Retrieval-Augmented Generation: Looking Things Up Before Answering",
@@ -1714,6 +2099,258 @@
     "status": "core"
   },
   {
+    "id": "article:the-better-question",
+    "type": "article",
+    "label": "Leave Better Than You Arrived: A North Star for Platform Design",
+    "path": "/articles/the-better-question/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-better-question:claim-001",
+    "type": "claim",
+    "label": "The most useful single test for a platform, product, or digital service is whether the typical user leaves better than they arrived—more informed, more skilled, more connected to real people and real problems—and that test can guide design choices, regulation, and personal use more reliably than engagement metrics alone.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-better-question:claim-002",
+    "type": "claim",
+    "label": "India's digital-access success has produced a usage mix in which entertainment and social media dominate education and productive use, especially among adolescents.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-better-question:claim-003",
+    "type": "claim",
+    "label": "\"Leaving better\" can be defined across at least four dimensions: cognitive clarity, practical skill, social connection, and civic relevance.",
+    "localId": "claim-003",
+    "confidence": "medium",
+    "status": "framing"
+  },
+  {
+    "id": "article:the-better-question:claim-004",
+    "type": "claim",
+    "label": "Public evidence from student-screen surveys, workplace-engagement data, and official government warnings points to attention extraction as a public design problem, not only a private business decision.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-better-question:claim-005",
+    "type": "claim",
+    "label": "The north star is useful precisely because it is imperfect; it asks teams to pick visible user outcomes they are willing to be judged by.",
+    "localId": "claim-005",
+    "confidence": "medium",
+    "status": "framing"
+  },
+  {
+    "id": "article:the-better-question:claim-006",
+    "type": "claim",
+    "label": "The north star works only when builders, regulators, investors, educators, and users apply it together.",
+    "localId": "claim-006",
+    "confidence": "medium",
+    "status": "framing"
+  },
+  {
+    "id": "article:the-better-question:claim-007",
+    "type": "claim",
+    "label": "The shift from extraction to substance is a design choice, not a technological inevitability; the same infrastructure that maximizes engagement could be redirected toward learning, creation, and civic action.",
+    "localId": "claim-007",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-compounding-bet",
+    "type": "article",
+    "label": "The Compounding Bet",
+    "path": "/articles/the-compounding-bet/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-compounding-bet:claim-001",
+    "type": "claim",
+    "label": "India's AI opportunity is not mainly a technology or capital problem; it is a compounding attention problem whose payoff depends on whether millions of small daily choices tilt toward learning, creation, and deep work.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-compounding-bet:claim-002",
+    "type": "claim",
+    "label": "Generative AI has collapsed the cost of first drafts, first prototypes, first translations, and first tutoring sessions, which makes individual creation less dependent on institutional gatekeepers than it was even five years ago.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-compounding-bet:claim-003",
+    "type": "claim",
+    "label": "India's AI readiness is strong on talent, enterprise intent, and policy infrastructure, but weak on the sustained attention and deep-work habits required to convert access into productive capability at scale.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-compounding-bet:claim-004",
+    "type": "claim",
+    "label": "Small daily choices about attention compound over years into large differences in individual skill; multiplied across a young population, those differences become differences in national capacity.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "core"
+  },
+  {
+    "id": "article:the-compounding-bet:claim-005",
+    "type": "claim",
+    "label": "The compounding bet is made in three ordinary arenas — schools, workplaces, and households — where the same AI tools can either deepen focus or deepen distraction depending on default habits and environmental design.",
+    "localId": "claim-005",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:the-compounding-bet:claim-006",
+    "type": "claim",
+    "label": "Public policy, platform design, and education can tilt the compounding curve toward substance, but no single lever is sufficient; the curve bends only when individual habit and systemic design move together.",
+    "localId": "claim-006",
+    "confidence": "medium",
+    "status": "framing"
+  },
+  {
+    "id": "article:the-compounding-bet:claim-007",
+    "type": "claim",
+    "label": "Historical analogies suggest that societies which build creation habits around a new general-purpose technology tend to gain more than societies that treat it mainly as a consumption device, though colonial, capital, and institutional advantages mean the analogy is a shape, not a guarantee.",
+    "localId": "claim-007",
+    "confidence": "medium",
+    "status": "framing"
+  },
+  {
+    "id": "article:the-creator-economys-incentive-trap",
+    "type": "article",
+    "label": "The Creator Economy's Incentive Trap",
+    "path": "/articles/the-creator-economys-incentive-trap/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-creator-economys-incentive-trap:claim-001",
+    "type": "claim",
+    "label": "India's creator economy has reached mainstream scale, yet its promise of accessible entrepreneurship masks a power-law payout structure that diverts young talent from skill-building at the very moment India needs to compound its AI opportunity.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-creator-economys-incentive-trap:claim-002",
+    "type": "claim",
+    "label": "BCG estimates that India has 2–2.5 million monetized creators influencing $350–400 billion in annual consumer spending, with that influence projected to exceed $1 trillion by 2030.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-creator-economys-incentive-trap:claim-003",
+    "type": "claim",
+    "label": "A November 2025 survey found that 83% of Gen Z respondents in India identify as creators, making creator culture a default aspiration rather than a niche ambition.",
+    "localId": "claim-003",
+    "confidence": "medium",
+    "status": "core"
+  },
+  {
+    "id": "article:the-creator-economys-incentive-trap:claim-004",
+    "type": "claim",
+    "label": "Global creator-compensation data shows extreme income concentration: the top 10% of creators earned 62% of payments and the top 1% earned 21% in 2025, while median campaign earnings remained far below the average.",
+    "localId": "claim-004",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:the-creator-economys-incentive-trap:claim-005",
+    "type": "claim",
+    "label": "India's digital advertising payouts are structurally lower than those in mature markets, with industry estimates placing YouTube CPM in India around $0.77 compared with roughly $36 in the US — a roughly 47-fold gap.",
+    "localId": "claim-005",
+    "confidence": "medium",
+    "status": "core"
+  },
+  {
+    "id": "article:the-creator-economys-incentive-trap:claim-006",
+    "type": "claim",
+    "label": "Generative AI lowers the cost of producing content, which can increase competition and flood feeds with synthetic media, deepening the incentive trap rather than solving it.",
+    "localId": "claim-006",
+    "confidence": "medium",
+    "status": "framing"
+  },
+  {
+    "id": "article:the-creator-economys-incentive-trap:claim-007",
+    "type": "claim",
+    "label": "For India's young population, time spent chasing algorithmic visibility is time not spent building the rare, compoundable skills that the AI age rewards.",
+    "localId": "claim-007",
+    "confidence": "medium",
+    "status": "core"
+  },
+  {
+    "id": "article:the-engagement-gap-productivity-india",
+    "type": "article",
+    "label": "The Engagement Gap",
+    "path": "/articles/the-engagement-gap-productivity-india/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-engagement-gap-productivity-india:claim-001",
+    "type": "claim",
+    "label": "India's employee engagement fell to 23% in 2025, a seven-point drop from the prior rolling average and the lowest level in four years, and Gallup estimates the annual cost of disengagement at roughly $351 billion, or about 9% of GDP.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-engagement-gap-productivity-india:claim-002",
+    "type": "claim",
+    "label": "Knowledge workers in digital environments face an interruption economy characterized by frequent interruptions, long recovery times, and scarce uninterrupted focus windows.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-engagement-gap-productivity-india:claim-003",
+    "type": "claim",
+    "label": "Workplace social-media use is associated with measurable productivity losses; one India-focused study estimates employees spend roughly 40–45 minutes on social media at work and lose about 9.5% of daily productivity.",
+    "localId": "claim-003",
+    "confidence": "medium",
+    "status": "landscape"
+  },
+  {
+    "id": "article:the-engagement-gap-productivity-india:claim-004",
+    "type": "claim",
+    "label": "Indian graduate employability remains limited—the India Skills Report 2025 estimates 54.81% employability while a separate Mercer-Mettl index places 2024 graduate employability at 42.6%—suggesting that attention and skill deficits show up in workforce readiness.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:the-engagement-gap-productivity-india:claim-005",
+    "type": "claim",
+    "label": "Global attention-span research shows average screen focus duration falling from 150 seconds in 2004 to 47 seconds in recent years; this global benchmark likely applies with at least equal force in India's high-screen-time context, though direct national measurement is unavailable.",
+    "localId": "claim-005",
+    "confidence": "medium",
+    "status": "landscape"
+  },
+  {
+    "id": "article:the-engagement-gap-productivity-india:claim-006",
+    "type": "claim",
+    "label": "The combined cost of disengagement, distraction, and skill gaps is large enough to weigh on India's demographic-dividend ambitions; the problem is structural—shaped by work design, platform incentives, and managerial support—and not merely individual willpower.",
+    "localId": "claim-006",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-engagement-gap-productivity-india:claim-007",
+    "type": "claim",
+    "label": "Institutional responses are beginning to emerge—from court-directed phone bans to employer focus-time policies—but evidence on what works at scale in India is still thin.",
+    "localId": "claim-007",
+    "confidence": "medium",
+    "status": "framing"
+  },
+  {
     "id": "article:the-generational-bet",
     "type": "article",
     "label": "The Generational Bet: Will India Build the AI Age or Scroll Through It?",
@@ -1751,6 +2388,266 @@
     "localId": "claim-004",
     "confidence": "medium",
     "status": "argument"
+  },
+  {
+    "id": "article:the-indic-language-internet-and-vernacular-feeds",
+    "type": "article",
+    "label": "The Indic-Language Internet and the Vernacular Feed",
+    "path": "/articles/the-indic-language-internet-and-vernacular-feeds/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-indic-language-internet-and-vernacular-feeds:claim-001",
+    "type": "claim",
+    "label": "The shift to an Indic-language, mobile-first internet multiplied India's online population, but it also multiplied the surface area for attention extraction, because the same engagement-optimized feed designs now operate across dozens of languages with weaker local safety, quality, and creator-economy supports.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-indic-language-internet-and-vernacular-feeds:claim-002",
+    "type": "claim",
+    "label": "The IAMAI-Kantar Internet in India Report 2024 found that 98 percent of Indian internet users accessed content in Indic languages, with 57 percent of urban users preferring regional-language content.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-indic-language-internet-and-vernacular-feeds:claim-003",
+    "type": "claim",
+    "label": "Rural India accounted for 488 million internet users, or 55 percent of the total active user base, in 2024, and rural growth outpaced urban growth.",
+    "localId": "claim-003",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:the-indic-language-internet-and-vernacular-feeds:claim-004",
+    "type": "claim",
+    "label": "Vernacular platforms such as ShareChat and Dailyhunt operate at national scale, with ShareChat reporting more than 350 million active users and 90 percent of them consuming local-language content as of 2025.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "landscape"
+  },
+  {
+    "id": "article:the-indic-language-internet-and-vernacular-feeds:claim-005",
+    "type": "claim",
+    "label": "The same engagement-optimized designs—infinite scroll, autoplay, algorithmic recommendations, push notifications, and streaks—that shape English and Hindi feeds now operate across dozens of Indic languages.",
+    "localId": "claim-005",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-indic-language-internet-and-vernacular-feeds:claim-006",
+    "type": "claim",
+    "label": "Indic-language content ecosystems have fewer local fact-checkers, moderators, and creator-economy supports than English/Hindi ecosystems, creating weaker quality and safety signals.",
+    "localId": "claim-006",
+    "confidence": "medium",
+    "status": "core"
+  },
+  {
+    "id": "article:the-indic-language-internet-and-vernacular-feeds:claim-007",
+    "type": "claim",
+    "label": "Government language-technology initiatives such as Bhashini and AI translation could lower friction for quality vernacular content, but access and translation alone do not guarantee substance.",
+    "localId": "claim-007",
+    "confidence": "medium",
+    "status": "framing"
+  },
+  {
+    "id": "article:the-life-phase-thread",
+    "type": "article",
+    "label": "The Life-Phase Thread",
+    "path": "/articles/the-life-phase-thread/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-life-phase-thread:claim-001",
+    "type": "claim",
+    "label": "The attention economy does not affect Indians uniformly; it imposes distinct harms at each life stage, and those harms compound across generations.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-life-phase-thread:claim-002",
+    "type": "claim",
+    "label": "Heavy recreational screen use begins in childhood, with nearly half of urban parents reporting children 9–17 spend three or more hours daily on social media, video, and games.",
+    "localId": "claim-002",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-life-phase-thread:claim-003",
+    "type": "claim",
+    "label": "Indian students face a split-screen adolescence in which recreational smartphone use outpaces educational use and academic anxiety is reported by a large majority.",
+    "localId": "claim-003",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-life-phase-thread:claim-004",
+    "type": "claim",
+    "label": "India's young workers enter labour markets where engagement is low, attention is fragmented, and digital distraction imposes a large economic cost.",
+    "localId": "claim-004",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:the-life-phase-thread:claim-005",
+    "type": "claim",
+    "label": "Heavy smartphone use is associated with harm to marital relationships and a weakening of community participation, suggesting the attention economy extracts from social fabric as well as individual time.",
+    "localId": "claim-005",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:the-life-phase-thread:claim-006",
+    "type": "claim",
+    "label": "Older Indians are largely left out of the digital infrastructure, with roughly nine in ten older adults digitally excluded.",
+    "localId": "claim-006",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-life-phase-thread:claim-007",
+    "type": "claim",
+    "label": "The harms of attention extraction are connected across generations, so solutions that only fix one life stage are likely to leak back into the others.",
+    "localId": "claim-007",
+    "confidence": "medium",
+    "status": "core"
+  },
+  {
+    "id": "article:the-small-rep-theory",
+    "type": "article",
+    "label": "The Small-Rep Theory",
+    "path": "/articles/the-small-rep-theory/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-small-rep-theory:claim-001",
+    "type": "claim",
+    "label": "Lasting skill and substance build from small, focused, deliberately designed repetitions rather than from heroic intensity or passive consumption.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-small-rep-theory:claim-002",
+    "type": "claim",
+    "label": "Ericsson's research emphasizes deliberate, goal-directed practice with feedback, not a magic 10,000-hour threshold.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-small-rep-theory:claim-003",
+    "type": "claim",
+    "label": "Newport's deep-work research shows that the quality and undividedness of attention matter more than the raw number of hours spent, especially for cognitively demanding tasks.",
+    "localId": "claim-003",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-small-rep-theory:claim-004",
+    "type": "claim",
+    "label": "Fogg's behavior model shows that small, well-prompted behaviors matched to current ability are more reliable than motivation-dependent willpower.",
+    "localId": "claim-004",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-small-rep-theory:claim-005",
+    "type": "claim",
+    "label": "The practical form of the small-rep theory is: shrink the session, sharpen the goal, anchor it to an existing prompt, and repeat.",
+    "localId": "claim-005",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-small-rep-theory:claim-006",
+    "type": "claim",
+    "label": "In an attention-extraction environment, small reps are a counter-pattern to binge-scrolling because they reclaim brief windows of dead time for deliberate creation and learning.",
+    "localId": "claim-006",
+    "confidence": "medium",
+    "status": "framing"
+  },
+  {
+    "id": "article:the-small-rep-theory:claim-007",
+    "type": "claim",
+    "label": "Small reps do not guarantee elite expertise, but they raise the probability of sustained skill growth and reduce the friction that normally kills new habits.",
+    "localId": "claim-007",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-student-screen-education-vs-entertainment",
+    "type": "article",
+    "label": "The Student Screen",
+    "path": "/articles/the-student-screen-education-vs-entertainment/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:the-student-screen-education-vs-entertainment:claim-001",
+    "type": "claim",
+    "label": "The smartphone has become the default study tool and entertainment console for Indian teenagers, but platform design and social incentives tilt daily use toward entertainment and social media, widening the gap between access to learning and actual learning.",
+    "localId": "claim-001",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-student-screen-education-vs-entertainment:claim-002",
+    "type": "claim",
+    "label": "ASER 2024 reports that among 14–16-year-olds who can use a smartphone, 76% used it for social media in the reference week while 57% used it for education.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-student-screen-education-vs-entertainment:claim-003",
+    "type": "claim",
+    "label": "The broader Indian internet-use mix is roughly 4:1 entertainment to education, suggesting that the student pattern reflects a national default rather than an adolescent quirk.",
+    "localId": "claim-003",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:the-student-screen-education-vs-entertainment:claim-004",
+    "type": "claim",
+    "label": "Heavy daily screen time is common among Indian youth: one Indian review reports 4–5 hours per day for adolescents, and a rural school study found 83% of secondary students exceeded the two-hour recommendation.",
+    "localId": "claim-004",
+    "confidence": "medium",
+    "status": "landscape"
+  },
+  {
+    "id": "article:the-student-screen-education-vs-entertainment:claim-005",
+    "type": "claim",
+    "label": "A LocalCircles survey of urban parents (n=57,000+) found that 49% of children aged 9–17 spend 3+ hours per day on social media, videos/OTT, and online games.",
+    "localId": "claim-005",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:the-student-screen-education-vs-entertainment:claim-006",
+    "type": "claim",
+    "label": "NCERT's 2022 survey of roughly 379,000 students found 81% anxious about studies/exams and 43% reporting mood swings, showing the pressure context in which student screen use happens.",
+    "localId": "claim-006",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-student-screen-education-vs-entertainment:claim-007",
+    "type": "claim",
+    "label": "Excessive screen time and night-time device use are associated with poorer sleep, concentration, and mental-health symptoms in Indian adolescents, though causality is not established.",
+    "localId": "claim-007",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:the-student-screen-education-vs-entertainment:claim-008",
+    "type": "claim",
+    "label": "The same device and connectivity could support learning if defaults change — through school-led digital literacy, parental mediation, and design friction that makes educational use easier to start and entertainment easier to pause.",
+    "localId": "claim-008",
+    "confidence": "medium",
+    "status": "framing"
   },
   {
     "id": "article:the-substance-builder",
@@ -1837,6 +2734,195 @@
     "localId": "claim-004",
     "confidence": "medium",
     "status": "risk"
+  },
+  {
+    "id": "article:trust-and-outrage-platforms-and-cohesion",
+    "type": "article",
+    "label": "Trust and Outrage",
+    "path": "/articles/trust-and-outrage-platforms-and-cohesion/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:trust-and-outrage-platforms-and-cohesion:claim-001",
+    "type": "claim",
+    "label": "On major social platforms, engagement-based ranking systematically amplifies emotionally charged and divisive content because anger and moral outrage generate more likes, shares, and comments than neutral or constructive material.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:trust-and-outrage-platforms-and-cohesion:claim-002",
+    "type": "claim",
+    "label": "Users who receive more likes and shares for expressing moral outrage tend to express more outrage over time, especially in politically moderate networks.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:trust-and-outrage-platforms-and-cohesion:claim-003",
+    "type": "claim",
+    "label": "On Twitter/X, engagement-based feeds contained a higher share of angry political tweets than chronological feeds in a large-scale audit.",
+    "localId": "claim-003",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:trust-and-outrage-platforms-and-cohesion:claim-004",
+    "type": "claim",
+    "label": "Indian influencers on Twitter received higher retweet rates for polarizing-event tweets than for their other tweets in a 2022 Microsoft Research Bengaluru study.",
+    "localId": "claim-004",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:trust-and-outrage-platforms-and-cohesion:claim-005",
+    "type": "claim",
+    "label": "The World Economic Forum's Global Risks Report 2024 ranked India highest among surveyed countries for misinformation and disinformation risk over the next two years.",
+    "localId": "claim-005",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:trust-and-outrage-platforms-and-cohesion:claim-006",
+    "type": "claim",
+    "label": "India Hate Lab documented a 74.4% increase in hate-speech events targeting religious minorities in 2024, with digital platforms playing a significant amplification role.",
+    "localId": "claim-006",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:trust-and-outrage-platforms-and-cohesion:claim-007",
+    "type": "claim",
+    "label": "In a sampled set of viral WhatsApp groups in India, only one in 158 instances of misinformation was actively corrected inside the group chat.",
+    "localId": "claim-007",
+    "confidence": "medium",
+    "status": "landscape"
+  },
+  {
+    "id": "article:trust-and-outrage-platforms-and-cohesion:claim-008",
+    "type": "claim",
+    "label": "Central and South Asia accounted for only 5% of cases selected by the Meta Oversight Board in 2023, despite India being Meta's largest user market.",
+    "localId": "claim-008",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:what-ai-makes-cheap",
+    "type": "article",
+    "label": "What AI Makes Cheap",
+    "path": "/articles/what-ai-makes-cheap/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:what-ai-makes-cheap:claim-001",
+    "type": "claim",
+    "label": "Generative AI can now produce acceptable first drafts of text, code, translation, images, and voice at a small fraction of the previous cost and time.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:what-ai-makes-cheap:claim-002",
+    "type": "claim",
+    "label": "The largest productivity gains from generative AI show up for less experienced workers and in well-defined, bounded tasks, narrowing some skill gaps while raising the premium on judgment and verification.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:what-ai-makes-cheap:claim-003",
+    "type": "claim",
+    "label": "India's Bhashini platform is an example of making multilingual AI a public good, offering translation and speech-to-text across 22 scheduled Indian languages.",
+    "localId": "claim-003",
+    "confidence": "high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:what-ai-makes-cheap:claim-004",
+    "type": "claim",
+    "label": "Indian enterprise adoption of generative AI remains early: a minority have production workloads or can fully measure AI returns, suggesting the cost savings are not yet system-wide.",
+    "localId": "claim-004",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:what-ai-makes-cheap:claim-005",
+    "type": "claim",
+    "label": "NASSCOM's AI Adoption Index estimates that four sectors—BFSI, retail and CPG, healthcare, and industrials/automotive—could contribute roughly 60% of India's potential AI-driven GDP value by FY2026, and that India's AI skills penetration is above the global average.",
+    "localId": "claim-005",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:what-ai-makes-cheap:claim-006",
+    "type": "claim",
+    "label": "Because attention is the limiting input, the economic value of cheaper knowledge work depends on whether saved time is reinvested in learning, creation, and problem-solving or recaptured by extraction.",
+    "localId": "claim-006",
+    "confidence": "medium-high",
+    "status": "core"
+  },
+  {
+    "id": "article:what-ai-makes-cheap:claim-007",
+    "type": "claim",
+    "label": "Without deliberate redirection, AI could also make extraction cheaper—through hyper-personalized feeds, synthetic content, and automated influencers—lowering the cost of capturing attention.",
+    "localId": "claim-007",
+    "confidence": "medium",
+    "status": "core"
+  },
+  {
+    "id": "article:who-profits-advertising-foreign-platforms",
+    "type": "article",
+    "label": "Who Profits?",
+    "path": "/articles/who-profits-advertising-foreign-platforms/",
+    "maturity": "seed"
+  },
+  {
+    "id": "article:who-profits-advertising-foreign-platforms:claim-001",
+    "type": "claim",
+    "label": "Google and Meta captured roughly 64% of India's ₹94,700 crore digital advertising market in 2025, leaving the domestic platform ecosystem with a minority share of the revenue generated from Indian attention.",
+    "localId": "claim-001",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:who-profits-advertising-foreign-platforms:claim-002",
+    "type": "claim",
+    "label": "Meta India's gross advertising revenue reached ₹22,730 crore in FY24, while Google India's gross advertising revenue reached ₹34,742 crore in FY25, putting the two firms' combined India gross ad sales at roughly ₹57,500 crore in the latest available filings.",
+    "localId": "claim-002",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:who-profits-advertising-foreign-platforms:claim-003",
+    "type": "claim",
+    "label": "Because Google and Meta India operate as advertising resellers, most of the gross ad revenue they report flows back to global parent entities as inter-company costs, so the net economic benefit retained in India is far smaller than the headline sales figure suggests.",
+    "localId": "claim-003",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:who-profits-advertising-foreign-platforms:claim-004",
+    "type": "claim",
+    "label": "India has an estimated 2–2.5 million active digital creators, but only 8–10% monetize effectively, and most earn less than a living wage from content creation.",
+    "localId": "claim-004",
+    "confidence": "high",
+    "status": "core"
+  },
+  {
+    "id": "article:who-profits-advertising-foreign-platforms:claim-005",
+    "type": "claim",
+    "label": "Creator income is highly concentrated, with the largest share of payments going to a small top tier; most creators depend on brand deals and ad revenue in a market where per-view rates are low and unpredictable.",
+    "localId": "claim-005",
+    "confidence": "medium-high",
+    "status": "landscape"
+  },
+  {
+    "id": "article:who-profits-advertising-foreign-platforms:claim-006",
+    "type": "claim",
+    "label": "The current structure creates an extraction dynamic: advertising value generated from Indian attention disproportionately benefits foreign platforms and a small top tier of creators, while domestic platforms and mid-tier creators operate on thinner margins.",
+    "localId": "claim-006",
+    "confidence": "medium-high",
+    "status": "framing"
   },
   {
     "id": "source-001",
@@ -2028,6 +3114,13 @@
     "sourceType": "research"
   },
   {
+    "id": "source-ahmad-social-media-work-2022",
+    "type": "source",
+    "label": "PMC: The use of social media at workplace and its influence on productivity in the era of COVID-19",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9516508/",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
     "id": "source-alexnet-2012",
     "type": "source",
     "label": "ImageNet Classification with Deep Convolutional Neural Networks",
@@ -2070,6 +3163,13 @@
     "sourceType": "peer-reviewed-study"
   },
   {
+    "id": "source-angel-one-google-india-fy25",
+    "type": "source",
+    "label": "Angel One: Google India Gross Ads Revenue Rises 11% in FY25",
+    "url": "https://www.angelone.in/news/unlisted-companies/google-india-gross-ads-revenue-rises-11-in-fy25-net-income-slips-on-higher-costs",
+    "sourceType": "news-report"
+  },
+  {
     "id": "source-anthropic-building-effective-agents",
     "type": "source",
     "label": "Anthropic, Building effective agents",
@@ -2098,11 +3198,25 @@
     "sourceType": "research-report"
   },
   {
+    "id": "source-attention-extraction",
+    "type": "source",
+    "label": "The Attention Extraction: How India's Digital Dividend Is Becoming a Cognitive Deficit",
+    "url": "https://aura-knowledge.github.io/articles/the-attention-extraction/",
+    "sourceType": "article"
+  },
+  {
     "id": "source-attention-is-all-you-need",
     "type": "source",
     "label": "Attention Is All You Need",
     "url": "https://arxiv.org/abs/1706.03762",
     "sourceType": "paper"
+  },
+  {
+    "id": "source-australia-osa-factsheet",
+    "type": "source",
+    "label": "eSafety Commissioner: Online Safety Act 2021 Fact Sheet",
+    "url": "https://www.esafety.gov.au/sites/default/files/2021-07/Online%20Safety%20Act%20-%20Fact%20sheet.pdf",
+    "sourceType": "government-regulation"
   },
   {
     "id": "source-autogen",
@@ -2154,6 +3268,34 @@
     "sourceType": "industry-report"
   },
   {
+    "id": "source-bcg-creator-economy-2025",
+    "type": "source",
+    "label": "BCG: From Content to Commerce: Mapping India's Creator Economy",
+    "url": "https://www.bcg.com/publications/2025/india-from-content-to-commerce-mapping-indias-creator-economy",
+    "sourceType": "industry-report"
+  },
+  {
+    "id": "source-bcg-gen-z-india-2024",
+    "type": "source",
+    "label": "BCG: The $2 Trillion Opportunity: How Gen Z Is Shaping the New India",
+    "url": "https://www.bcg.com/publications/2024/india-the-2-trillion-opportunity-how-gen-z-is-shaping-the-new-india",
+    "sourceType": "industry-report"
+  },
+  {
+    "id": "source-bcg-publication-creator-economy-2025",
+    "type": "source",
+    "label": "BCG: From Content to Commerce: Mapping India's Creator Economy (publication page)",
+    "url": "https://www.bcg.com/publications/2025/india-from-content-to-commerce-mapping-indias-creator-economy",
+    "sourceType": "industry-report"
+  },
+  {
+    "id": "source-bcig-creator-economy",
+    "type": "source",
+    "label": "BCG: From Content to Commerce — Mapping India's Creator Economy",
+    "url": "https://web-assets.bcg.com/c8/35/2a008ddf4e049d99a901b17233f0/gift-report.pdf",
+    "sourceType": "industry-report"
+  },
+  {
     "id": "source-beehiiv-mcp-v2",
     "type": "source",
     "label": "beehiiv MCP v2",
@@ -2166,6 +3308,13 @@
     "label": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
     "url": "https://arxiv.org/abs/1810.04805",
     "sourceType": "research"
+  },
+  {
+    "id": "source-bhashini-website",
+    "type": "source",
+    "label": "Bhashini: AI-driven Indian language translation services",
+    "url": "https://bhashini.gov.in/",
+    "sourceType": "government-website"
   },
   {
     "id": "source-big-bench",
@@ -2187,6 +3336,13 @@
     "label": "An Investigation of the Laws of Thought",
     "url": "https://archive.org/details/investigationofl01bool",
     "sourceType": "book"
+  },
+  {
+    "id": "source-brady-science-advances-2021",
+    "type": "source",
+    "label": "Brady et al.: How social learning amplifies moral outrage expression in online social networks (Science Advances / Yale)",
+    "url": "https://news.yale.edu/2021/08/13/likes-and-shares-teach-people-express-more-outrage-online",
+    "sourceType": "peer-reviewed-study"
   },
   {
     "id": "source-britannica-automaton",
@@ -2215,6 +3371,34 @@
     "label": "Bsharat et al.: Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4",
     "url": "https://arxiv.org/abs/2312.16171",
     "sourceType": "paper"
+  },
+  {
+    "id": "source-business-today-bcg-creators",
+    "type": "source",
+    "label": "Business Today: BCG report reveals harsh truth about India's creators",
+    "url": "https://www.businesstoday.in/technology/news/story/not-everyone-making-youtube-videos-is-rich-bcg-report-reveals-harsh-truth-about-indias-creators-474634-2025-05-04",
+    "sourceType": "news-report"
+  },
+  {
+    "id": "source-businessworld-iamai-summary",
+    "type": "source",
+    "label": "BW Businessworld: India Set To Reach 900 Mn Internet Users By 2025",
+    "url": "https://www.businessworld.in/article/india-set-to-reach-900-mn-internet-users-by-2025-report-545106",
+    "sourceType": "news-article"
+  },
+  {
+    "id": "source-bwmarketingworld-gen-z-creators-2025",
+    "type": "source",
+    "label": "BW Marketing World: Most Gen Z Are Now Content Creators, With 80% Seeking Brand Involvement",
+    "url": "https://www.bwmarketingworld.com/article/most-gen-z-are-now-content-creators-with-80-seeking-brand-involvement-survey-579969",
+    "sourceType": "news-report"
+  },
+  {
+    "id": "source-by-the-numbers",
+    "type": "source",
+    "label": "By the Numbers: What Indians Actually Do Online",
+    "url": "https://aura-knowledge.github.io/articles/by-the-numbers-what-indians-do-online/",
+    "sourceType": "article"
   },
   {
     "id": "source-c2pa",
@@ -2385,6 +3569,20 @@
     "sourceType": "regulatory-data"
   },
   {
+    "id": "source-creatoriq-compensation-2026",
+    "type": "source",
+    "label": "CreatorIQ: State of Creator Compensation 2026",
+    "url": "https://www.creatoriq.com/press/releases/state-of-creator-compensation-?hs_amp=true",
+    "sourceType": "industry-report"
+  },
+  {
+    "id": "source-dailyhunt-forbes",
+    "type": "source",
+    "label": "Forbes India: We solved ML for vernacular Indian languages early on—Dailyhunt",
+    "url": "https://ms.forbesindia.com/article/one-ceo-club/we-solved-ml-for-vernacular-indian-languages-early-on-dailyhunt/",
+    "sourceType": "news-article"
+  },
+  {
     "id": "source-dartmouth-1955",
     "type": "source",
     "label": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
@@ -2406,6 +3604,13 @@
     "sourceType": "institutional-history"
   },
   {
+    "id": "source-dash-icwsm-2022",
+    "type": "source",
+    "label": "Dash et al., Divided We Rule: Influencer Polarization on Twitter during Political Crises in India, ICWSM (2022)",
+    "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/19279",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
     "id": "source-deep-learning-book",
     "type": "source",
     "label": "Deep Learning",
@@ -2418,6 +3623,13 @@
     "label": "2025 Global Chief Procurement Officer Survey",
     "url": "https://www.deloitte.com/us/en/about/press-room/2025-chief-procurement-officer-survey.html",
     "sourceType": "research"
+  },
+  {
+    "id": "source-designing-for-substance",
+    "type": "source",
+    "label": "Designing for Substance: Platform Incentives and the Attention Economy",
+    "url": "https://aura-knowledge.github.io/articles/designing-for-substance/",
+    "sourceType": "article"
   },
   {
     "id": "source-dick-ai-history",
@@ -2446,6 +3658,20 @@
     "label": "European Commission: Digital Services Act",
     "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act",
     "sourceType": "government-policy"
+  },
+  {
+    "id": "source-dpdp-act-2023",
+    "type": "source",
+    "label": "Ministry of Electronics and IT: Digital Personal Data Protection Act, 2023",
+    "url": "https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf",
+    "sourceType": "regulatory-text"
+  },
+  {
+    "id": "source-dpdp-rules-2025",
+    "type": "source",
+    "label": "Ministry of Electronics and IT: Digital Personal Data Protection Rules, 2025",
+    "url": "https://www.meity.gov.in/documents/act-and-policies/digital-personal-data-protection-rules-2025-gDOxUjMtQWa?pageTitle=Digital-Personal-Data-Protection-Rules-2025",
+    "sourceType": "regulatory-text"
   },
   {
     "id": "source-dpr-karpukhin-2020",
@@ -2511,6 +3737,20 @@
     "sourceType": "regulatory-data"
   },
   {
+    "id": "source-ericsson-1993-deliberate-practice",
+    "type": "source",
+    "label": "Ericsson, Krampe, and Tesch-Römer (1993): The Role of Deliberate Practice in the Acquisition of Expert Performance",
+    "url": "https://doi.org/10.1037/0033-295X.100.3.363",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
+    "id": "source-ericsson-pool-peak-2016",
+    "type": "source",
+    "label": "Ericsson and Pool (2016): Peak: Secrets from the New Science of Expertise",
+    "url": "https://www.goodreads.com/book/show/26312997-peak",
+    "sourceType": "book"
+  },
+  {
     "id": "source-eu-ai-act",
     "type": "source",
     "label": "AI Act",
@@ -2539,11 +3779,46 @@
     "sourceType": "regulatory"
   },
   {
+    "id": "source-eu-dsa",
+    "type": "source",
+    "label": "European Commission: The Digital Services Act",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act",
+    "sourceType": "regulatory-text"
+  },
+  {
+    "id": "source-eu-dsa-transparency",
+    "type": "source",
+    "label": "European Commission: How the Digital Services Act Enhances Transparency Online",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/dsa-brings-transparency",
+    "sourceType": "regulatory-text"
+  },
+  {
     "id": "source-eval-survey",
     "type": "source",
     "label": "Evaluating Large Language Models: A Comprehensive Survey",
     "url": "https://arxiv.org/abs/2310.19736",
     "sourceType": "paper"
+  },
+  {
+    "id": "source-exchange4media-gen-z-creators-2025",
+    "type": "source",
+    "label": "Exchange4Media: 83% Gen Z create content and 80% want brands playing along",
+    "url": "https://www.exchange4media.com/marketing-news/83-gen-z-create-content-and-80-want-brands-playing-along-survey-149389.html",
+    "sourceType": "news-report"
+  },
+  {
+    "id": "source-ey-aidea-india-2025",
+    "type": "source",
+    "label": "EY India: The AIdea of India 2025 — How much productivity can GenAI unlock in India?",
+    "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/services/ai/aidea/2025/01/ey-the-aidea-of-india-2025-how-much-productivity-can-genai-unlock-in-india.pdf",
+    "sourceType": "industry-report"
+  },
+  {
+    "id": "source-ey-sensor-tower-hours",
+    "type": "source",
+    "label": "EY: A Studio Called India / Sensor Tower (hours spent on phones)",
+    "url": "https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/pdf/2025/ey-a-studio-called-india-content-and-media-services-for-the-world.pdf",
+    "sourceType": "industry-report"
   },
   {
     "id": "source-feigenbaum-1977",
@@ -2558,6 +3833,27 @@
     "label": "Edward A. Feigenbaum: A.M. Turing Award Laureate profile",
     "url": "https://amturing.acm.org/award_winners/feigenbaum_4167235.cfm",
     "sourceType": "biographical-reference"
+  },
+  {
+    "id": "source-ficci-ey-me-2026",
+    "type": "source",
+    "label": "EY: India’s media and entertainment sector grew 9% to INR2.78 trillion in 2025",
+    "url": "https://www.ey.com/en_in/newsroom/2026/03/india-s-media-and-entertainment-sector-grew-9-percent-to-inr-2-point-78-trillion-in-2025-driven-by-digital-and-live-experiences-ficci-ey-report",
+    "sourceType": "industry-report"
+  },
+  {
+    "id": "source-fogg-behavior-model",
+    "type": "source",
+    "label": "Fogg Behavior Model",
+    "url": "https://behaviormodel.org/",
+    "sourceType": "academic-website"
+  },
+  {
+    "id": "source-fogg-tiny-habits-2019",
+    "type": "source",
+    "label": "Fogg (2019): Tiny Habits: The Small Changes That Change Everything",
+    "url": "https://tinyhabits.com/",
+    "sourceType": "book"
   },
   {
     "id": "source-forrester-b2b-genai-2024",
@@ -2602,6 +3898,27 @@
     "sourceType": "industry-report"
   },
   {
+    "id": "source-gallup-india-country-data",
+    "type": "source",
+    "label": "Gallup: State of the Global Workplace — India Country-Level Data",
+    "url": "https://www.gallup.com/workplace/705650/state-global-workplace-india-country-level-data.aspx",
+    "sourceType": "industry-report"
+  },
+  {
+    "id": "source-gallup-quiet-quitting-india",
+    "type": "source",
+    "label": "Gallup: Quiet Quitting Is on the Rise in India",
+    "url": "https://www.gallup.com/workplace/709277/quiet-quitting-rise-india.aspx",
+    "sourceType": "industry-report"
+  },
+  {
+    "id": "source-garimella-whatsapp-2025",
+    "type": "source",
+    "label": "Garimella et al., Global Patterns of Viral Content on WhatsApp, ICWSM 2025 (arXiv:2407.08172)",
+    "url": "https://arxiv.org/abs/2407.08172",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
     "id": "source-gartner-b2b-ai-2026",
     "type": "source",
     "label": "Gartner Sales Survey Finds 67% of B2B Buyers Prefer a Rep-Free Experience",
@@ -2616,6 +3933,13 @@
     "sourceType": "product"
   },
   {
+    "id": "source-generational-bet",
+    "type": "source",
+    "label": "The Generational Bet: Will India Build the AI Age or Scroll Through It?",
+    "url": "https://aura-knowledge.github.io/articles/the-generational-bet/",
+    "sourceType": "article"
+  },
+  {
     "id": "source-generative-agents",
     "type": "source",
     "label": "Generative Agents: Interactive Simulacra of Human Behavior",
@@ -2628,6 +3952,13 @@
     "label": "Gibson: The Ecological Approach to Visual Perception",
     "url": "https://www.hachettebookgroup.com/titles/james-j-gibson/the-ecological-approach-to-visual-perception/9780205238818/",
     "sourceType": "book"
+  },
+  {
+    "id": "source-gloria-mark-attention-span",
+    "type": "source",
+    "label": "Gloria Mark: Attention Span — Research Overview",
+    "url": "https://gloriamark.com/attention-span/",
+    "sourceType": "academic-research"
   },
   {
     "id": "source-godel",
@@ -2698,6 +4029,13 @@
     "label": "GS1 Digital Link for Brand Owners",
     "url": "https://www.gs1us.org/industries-and-insights/gs1-digital-link/for-brands",
     "sourceType": "standard"
+  },
+  {
+    "id": "source-gsma-gender-gap-2024",
+    "type": "source",
+    "label": "GSMA: The Mobile Gender Gap Report 2024",
+    "url": "https://www.gsma.com/gender-gap-2024/",
+    "sourceType": "industry-report"
   },
   {
     "id": "source-gutwin-greenberg-workspace-awareness",
@@ -2798,11 +4136,32 @@
     "sourceType": "industry-report"
   },
   {
+    "id": "source-icrier-digital-economy-2024",
+    "type": "source",
+    "label": "MeitY/ICRIER: Estimation and Measurement of India's Digital Economy",
+    "url": "https://www.meity.gov.in/static/uploads/2025/01/5ff397f9e8152d5562ed4cef1a6b767b.pdf",
+    "sourceType": "government-report"
+  },
+  {
+    "id": "source-ideasforindia-gender-digital-divide",
+    "type": "source",
+    "label": "Ideas for India: Digital gender divide amidst India's service-led growth",
+    "url": "https://www.ideasforindia.in/topics/social-identity/digital-gender-divide-amidst-india-s-service-led-growth",
+    "sourceType": "research-report"
+  },
+  {
     "id": "source-iea-energy-ai",
     "type": "source",
     "label": "Key Questions on Energy and AI",
     "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
     "sourceType": "energy-analysis"
+  },
+  {
+    "id": "source-ijip-adolescent-screen-time",
+    "type": "source",
+    "label": "International Journal of Indian Psychology: Impact of Digital Screen Time on Adolescents",
+    "url": "https://ijip.in/wp-content/uploads/2024/09/18.01.171.20241203.pdf",
+    "sourceType": "peer-reviewed-study"
   },
   {
     "id": "source-ilo-genai-jobs",
@@ -2833,6 +4192,27 @@
     "sourceType": "government-report"
   },
   {
+    "id": "source-india-hate-lab-2024",
+    "type": "source",
+    "label": "India Hate Lab, Hate Speech Events in India 2024 Report",
+    "url": "https://www.csohate.org/2025/02/10/hate-speech-report-india-2024/",
+    "sourceType": "watchdog-report"
+  },
+  {
+    "id": "source-india-skills-report-2025",
+    "type": "source",
+    "label": "Taggd: Insights from India Skills Report 2025",
+    "url": "https://taggd.in/industry-reports/isr/india-skills-report-2025/",
+    "sourceType": "industry-report"
+  },
+  {
+    "id": "source-indiaai-mission",
+    "type": "source",
+    "label": "Digital India: IndiaAI Mission Expands AI Ecosystem with Affordable Compute and Startup Support",
+    "url": "https://www.digitalindia.gov.in/press_release/indiaai-mission-expands-ai-ecosystem-with-affordable-compute-and-startup-support/",
+    "sourceType": "government-press-release"
+  },
+  {
     "id": "source-instructgpt-paper",
     "type": "source",
     "label": "Training language models to follow instructions with human feedback",
@@ -2849,9 +4229,16 @@
   {
     "id": "source-it-rules-2021",
     "type": "source",
-    "label": "MeitY: Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 (updated 10.02.2026)",
-    "url": "https://www.meity.gov.in/static/uploads/2026/02/550681ab908f8afb135b0ad42816a1c9.pdf",
+    "label": "Ministry of Electronics and IT: Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 (updated 28.10.2022)",
+    "url": "https://www.meity.gov.in/static/uploads/2024/02/IT-Intermediary-Rules-2021-updated-on-28.10.2022-2.pdf",
     "sourceType": "regulatory-text"
+  },
+  {
+    "id": "source-ita-india-digital-economy",
+    "type": "source",
+    "label": "U.S. International Trade Administration: India Digital Economy",
+    "url": "https://www.trade.gov/country-commercial-guides/india-digital-economy",
+    "sourceType": "government-report"
   },
   {
     "id": "source-itu-facts-2025",
@@ -2859,6 +4246,20 @@
     "label": "Measuring Digital Development: Facts and Figures 2025",
     "url": "https://www.itu.int/hub/publication/d-ind-ict_mdd-2025-3/",
     "sourceType": "official-statistics"
+  },
+  {
+    "id": "source-kerala-hc-phone-ban",
+    "type": "source",
+    "label": "LiveLaw: Kerala High Court restricts personal mobile-phone use during work hours",
+    "url": "https://www.livelaw.in/high-court/kerala-high-court/kerala-high-court-registrar-general-mobile-phone-use-ban-277365",
+    "sourceType": "news-report"
+  },
+  {
+    "id": "source-kerala-hc-phone-ban-2024",
+    "type": "source",
+    "label": "LiveLaw: Kerala High Court Registrar General Mobile Phone Use Ban",
+    "url": "https://www.livelaw.in/high-court/kerala-high-court/kerala-high-court-registrar-general-mobile-phone-use-ban-277365",
+    "sourceType": "news-report"
   },
   {
     "id": "source-khan-academy-khanmigo",
@@ -2887,6 +4288,13 @@
     "label": "LangGraph human-in-the-loop documentation",
     "url": "https://docs.langchain.com/oss/python/langchain/human-in-the-loop",
     "sourceType": "documentation"
+  },
+  {
+    "id": "source-lasi-digital-exclusion-2023",
+    "type": "source",
+    "label": "MDPI Sustainability: Ensuring Sustainable Digital Inclusion among the Elderly (LASI-based analysis)",
+    "url": "https://www.mdpi.com/2071-1050/16/17/7485",
+    "sourceType": "peer-reviewed-study"
   },
   {
     "id": "source-lecun-docrec-1998",
@@ -2950,6 +4358,20 @@
     "label": "llms.txt proposal",
     "url": "https://github.com/answerdotai/llms-txt",
     "sourceType": "protocol"
+  },
+  {
+    "id": "source-localcircles-2025",
+    "type": "source",
+    "label": "LocalCircles: 1 in 2 parents have children addicted to social media, OTT & gaming",
+    "url": "https://www.localcircles.com/a/press/page/children-social-media-addiction",
+    "sourceType": "survey"
+  },
+  {
+    "id": "source-localcircles-children-screentime-2025",
+    "type": "source",
+    "label": "LocalCircles: Children, Social Media and Online Gaming Addiction Survey 2025",
+    "url": "https://www.localcircles.com/a/press/page/children-social-media-addiction",
+    "sourceType": "survey"
   },
   {
     "id": "source-logic-theory-machine",
@@ -3036,10 +4458,52 @@
     "sourceType": "paper"
   },
   {
+    "id": "source-mercer-mettl-graduate-skill-index-2025",
+    "type": "source",
+    "label": "PERSOLKELLY India: The Employability Gap",
+    "url": "https://www.persolindia.com/articles/the-employability-gap",
+    "sourceType": "industry-report"
+  },
+  {
+    "id": "source-meta-google-ad-revenue-india",
+    "type": "source",
+    "label": "IBEF / industry reports: Tech giants' advertising revenue from India",
+    "url": "https://www.ibef.org/news/tech-giants-generate-over-us-7-13-billion-rs-60-000-crore-in-advertising-revenue-in-fy24",
+    "sourceType": "industry-report"
+  },
+  {
+    "id": "source-meta-oversight-board-2023",
+    "type": "source",
+    "label": "Meta Oversight Board: 2023 Annual Report Shows Board’s Impact on Meta",
+    "url": "https://www.oversightboard.com/news/2023-annual-report-shows-boards-impact-on-meta/",
+    "sourceType": "platform-accountability-report"
+  },
+  {
+    "id": "source-microsoft-research-bengaluru-polarization",
+    "type": "source",
+    "label": "Dash et al. (2022): Divided We Rule — Influencer Polarization on Twitter during Political Crises in India, ICWSM",
+    "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/19279",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
+    "id": "source-microsoft-work-trend-index-2025",
+    "type": "source",
+    "label": "Microsoft: 2025 Work Trend Index Annual Report",
+    "url": "https://assets-c4akfrf5b4d3f4b7.z01.azurefd.net/assets/2025/04/2025_Work_Trend_Index_Annual_Report_680aaa7fe52dd.pdf",
+    "sourceType": "industry-report"
+  },
+  {
     "id": "source-milli-divisive-content",
     "type": "source",
     "label": "Milli et al.: Engagement, User Satisfaction, and the Amplification of Divisive Content on Social Media (PNAS Nexus)",
     "url": "https://doi.org/10.1093/pnasnexus/pgaf062",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
+    "id": "source-milli-pnas-nexus-2025",
+    "type": "source",
+    "label": "Milli et al.: Engagement, User Satisfaction, and the Amplification of Divisive Content on Social Media (PNAS Nexus / Knight First Amendment Institute)",
+    "url": "https://knightcolumbia.org/content/engagement-user-satisfaction-and-the-amplification-of-divisive-content-on-social-media",
     "sourceType": "peer-reviewed-study"
   },
   {
@@ -3078,6 +4542,20 @@
     "sourceType": "expert-system-retrospective"
   },
   {
+    "id": "source-nasscom-ai-adoption-index",
+    "type": "source",
+    "label": "NASSCOM-EY: AI Adoption Index 2.0 — Tracking India's Sectoral Progress in AI Adoption",
+    "url": "https://nasscom.in/knowledge-center/publications/ai-adoption-index-20-tracking-indias-sectoral-progress-ai-adoption",
+    "sourceType": "industry-report"
+  },
+  {
+    "id": "source-nasscom-bcg-ai-market",
+    "type": "source",
+    "label": "NASSCOM-BCG: AI Powered Tech Services — A Roadmap for Future Ready Firms",
+    "url": "https://nasscom.in/knowledge-center/publications/ai-powered-tech-services-roadmap-future-ready-firms",
+    "sourceType": "industry-report"
+  },
+  {
     "id": "source-nasscom-ey-ai-adoption",
     "type": "source",
     "label": "NASSCOM-EY: AI Adoption Index",
@@ -3097,6 +4575,34 @@
     "label": "Decoding the ancient Greek astronomical calculator known as the Antikythera Mechanism",
     "url": "https://www.nature.com/articles/nature05357",
     "sourceType": "research-article"
+  },
+  {
+    "id": "source-ncaer-ihds-wave3",
+    "type": "source",
+    "label": "NCAER: The Evolving Landscape of Digital Inclusion in India (IHDS Wave 3)",
+    "url": "https://ncaer.org/wp-content/uploads/2026/06/NCAER_Report_June_26.pdf",
+    "sourceType": "research-report"
+  },
+  {
+    "id": "source-ncert-2022",
+    "type": "source",
+    "label": "NCERT: Mental Health and Well-being of School Students – A Survey, 2022",
+    "url": "https://www.ncert.nic.in/pdf/Mental_Health_WSS_A_Survey_new.pdf",
+    "sourceType": "government-report"
+  },
+  {
+    "id": "source-ncert-mental-health-2022",
+    "type": "source",
+    "label": "Ministry of Education: NCERT Student Mental Health Survey 2022 (Parliamentary Release)",
+    "url": "https://sansad.in/getFile/annex/260/AU1478.pdf?source=pqars",
+    "sourceType": "government-report"
+  },
+  {
+    "id": "source-newport-deep-work-2016",
+    "type": "source",
+    "label": "Newport (2016): Deep Work: Rules for Focused Success in a Distracted World",
+    "url": "https://calnewport.com/books/deep-work/",
+    "sourceType": "book"
   },
   {
     "id": "source-nilsson-quest-ai",
@@ -3141,7 +4647,21 @@
     "sourceType": "institutional-history"
   },
   {
+    "id": "source-nsso-cams-dataforindia",
+    "type": "source",
+    "label": "Data For India: Access to phones and the internet (based on NSSO CAMS 2022-23)",
+    "url": "https://www.dataforindia.com/comm-tech/",
+    "sourceType": "research-report"
+  },
+  {
     "id": "source-nsso-time-use-2024",
+    "type": "source",
+    "label": "NSSO Time Use Survey 2024 Factsheet",
+    "url": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf",
+    "sourceType": "government-report"
+  },
+  {
+    "id": "source-nsso-tus-2024",
     "type": "source",
     "label": "NSSO Time Use Survey 2024 Factsheet",
     "url": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf",
@@ -3163,6 +4683,13 @@
   },
   {
     "id": "source-oecd-genai-productivity",
+    "type": "source",
+    "label": "OECD: The effects of generative AI on productivity, innovation and entrepreneurship",
+    "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/the-effects-of-generative-ai-on-productivity-innovation-and-entrepreneurship_da1d085d/b21df222-en.pdf",
+    "sourceType": "research-report"
+  },
+  {
+    "id": "source-oecd-genai-productivity-2025",
     "type": "source",
     "label": "OECD: The effects of generative AI on productivity, innovation and entrepreneurship",
     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/the-effects-of-generative-ai-on-productivity-innovation-and-entrepreneurship_da1d085d/b21df222-en.pdf",
@@ -3274,10 +4801,38 @@
     "sourceType": "survey-topic"
   },
   {
+    "id": "source-pib-bhashini-2024",
+    "type": "source",
+    "label": "PIB: Year End Review 2024 of Ministry of Electronics & Information Technology",
+    "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2088268",
+    "sourceType": "government-press-release"
+  },
+  {
+    "id": "source-pib-bhashini-2025",
+    "type": "source",
+    "label": "PIB: 22 Languages, Digitally Reimagined — Bhashini under the National Language Translation Mission",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251025675501.pdf",
+    "sourceType": "government-press-release"
+  },
+  {
     "id": "source-pib-economic-survey",
+    "type": "source",
+    "label": "PIB: Economic Survey 2025-26 Press Release on Digital Addiction and Mental Health",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2",
+    "sourceType": "government-press-release"
+  },
+  {
+    "id": "source-pib-economic-survey-2025-26",
     "type": "source",
     "label": "PIB: Economic Survey 2025-26 Press Release",
     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2",
+    "sourceType": "government-press-release"
+  },
+  {
+    "id": "source-pib-it-rules-faq",
+    "type": "source",
+    "label": "PIB FAQs on Part II of the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2021/nov/doc202111171.pdf",
     "sourceType": "government-press-release"
   },
   {
@@ -3309,10 +4864,31 @@
     "sourceType": "government-press-release"
   },
   {
+    "id": "source-pitchonnet-jiostar-comparison",
+    "type": "source",
+    "label": "PitchOnNet: JioStar emerges as India's challenger to Google and Meta in the revenue race",
+    "url": "https://www.pitchonnet.com/pitch-feature/the-third-force-jiostar-emerges-indias-challenger-to-google-and-meta-in-the-revenue-race-39804.html",
+    "sourceType": "news-report"
+  },
+  {
+    "id": "source-pitchonnet-meta-india-fy24",
+    "type": "source",
+    "label": "PitchOnNet: Meta India gross advertising revenue reached ₹22,730 crore in FY24",
+    "url": "https://www.pitchonnet.com/pitch-feature/the-third-force-jiostar-emerges-indias-challenger-to-google-and-meta-in-the-revenue-race-39804.html",
+    "sourceType": "news-report"
+  },
+  {
     "id": "source-pmc-adolescent-mental-health",
     "type": "source",
     "label": "PMC: Social media and mental health among Indian adolescents",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11438920/",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
+    "id": "source-pmc-rural-screen-time",
+    "type": "source",
+    "label": "PMC: Prevalence of excess screen time among secondary school children in rural India",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10876028/",
     "sourceType": "peer-reviewed-study"
   },
   {
@@ -3349,6 +4925,13 @@
     "label": "Responsible Agentic AI Requires Explicit Provenance",
     "url": "https://arxiv.org/abs/2605.17169",
     "sourceType": "research"
+  },
+  {
+    "id": "source-prs-cybercrimes-women",
+    "type": "source",
+    "label": "PRS Legislative Research: Cyber Crimes and Cyber Security of Women (Committee on the Empowerment of Women, 2026)",
+    "url": "https://prsindia.org/policy/report-summaries/cyber-crimes-and-cyber-security-of-women",
+    "sourceType": "government-report"
   },
   {
     "id": "source-r1-1980",
@@ -3405,6 +4988,20 @@
     "label": "ReAct: Synergizing Reasoning and Acting in Language Models",
     "url": "https://arxiv.org/abs/2210.03629",
     "sourceType": "paper"
+  },
+  {
+    "id": "source-readers-guide",
+    "type": "source",
+    "label": "A Reader's Guide to the Series",
+    "url": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+    "sourceType": "article"
+  },
+  {
+    "id": "source-realsiteworth-cpm-2026",
+    "type": "source",
+    "label": "Real Site Worth: YouTube RPM vs CPM — what each one actually means",
+    "url": "https://realsiteworth.com/blog/youtube-rpm-vs-cpm-explained",
+    "sourceType": "industry-report"
   },
   {
     "id": "source-reflexion-paper",
@@ -3470,6 +5067,13 @@
     "sourceType": "paper"
   },
   {
+    "id": "source-science-advances-outrage",
+    "type": "source",
+    "label": "Brady et al. (2021): How Social Learning Amplifies Moral Outrage Expression in Online Social Networks, Science Advances",
+    "url": "https://www.science.org/doi/10.1126/sciadv.abe5641",
+    "sourceType": "peer-reviewed-study"
+  },
+  {
     "id": "source-science-museum-automata",
     "type": "source",
     "label": "Marvellous Machines: Early Robots",
@@ -3519,11 +5123,25 @@
     "sourceType": "article"
   },
   {
+    "id": "source-series-index",
+    "type": "source",
+    "label": "Attention, Substance, and the AI Moment: A Series Index",
+    "url": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
+    "sourceType": "article"
+  },
+  {
     "id": "source-series-proposal",
     "type": "source",
     "label": "AI, De-Mystified Series Proposal",
     "url": "https://github.com/aura-knowledge/meta/blob/main/proposals/ai-demystified/README.md",
     "sourceType": "article"
+  },
+  {
+    "id": "source-sflc-takedown-analysis",
+    "type": "source",
+    "label": "SFLC.in: Data Analysis of Meta, X, and ShareChat on Content Takedown",
+    "url": "https://sflc.in/data-analysis-of-meta-x-and-sharechat-on-content-takedown/",
+    "sourceType": "watchdog-report"
   },
   {
     "id": "source-shannon-info-1948",
@@ -3545,6 +5163,13 @@
     "label": "A Symbolic Analysis of Relay and Switching Circuits",
     "url": "https://doi.org/10.1109/T-AIEE.1938.5057767",
     "sourceType": "article"
+  },
+  {
+    "id": "source-sharechat-2025",
+    "type": "source",
+    "label": "AtomComm: Why Regional Language Content is the Next Big Thing for Indian Digital Campaigns",
+    "url": "https://atomcomm.in/regional-language-content-indian-digital-campaigns/",
+    "sourceType": "industry-article"
   },
   {
     "id": "source-simon-attention-scarcity",
@@ -3603,11 +5228,18 @@
     "sourceType": "museum-exhibit"
   },
   {
+    "id": "source-stanford-ai-index",
+    "type": "source",
+    "label": "Stanford HAI: The 2025 AI Index Report — Technical Performance",
+    "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance",
+    "sourceType": "research-report"
+  },
+  {
     "id": "source-stanford-ai-vibrancy",
     "type": "source",
-    "label": "Stanford University: Global AI Vibrancy Tool",
-    "url": "https://aiindex.stanford.edu/data-governance/global-ai-vibrancy-tool/",
-    "sourceType": "research-tool"
+    "label": "Stanford HAI: The Global AI Vibrancy Tool 2025",
+    "url": "https://hai.stanford.edu/research/the-global-ai-vibrancy-tool-2024",
+    "sourceType": "research-report"
   },
   {
     "id": "source-stanford-hai-ai-index-2025",
@@ -3629,6 +5261,20 @@
     "label": "Steelcase: Our 47-Second Attention Span with Gloria Mark (transcript)",
     "url": "https://www.steelcase.com/research/articles/our-47-second-attention-span-with-gloria-mark-s5-ep3-transcript/",
     "sourceType": "interview-transcript"
+  },
+  {
+    "id": "source-storyboard18-google-meta-share",
+    "type": "source",
+    "label": "Storyboard18: Google and Meta hold 64% of India's digital ad market",
+    "url": "https://www.storyboard18.com/advertising/google-meta-claim-64-of-india-digital-ads-as-e-commerce-surges-93065.htm",
+    "sourceType": "news-report"
+  },
+  {
+    "id": "source-substance-builder",
+    "type": "source",
+    "label": "The Substance Builder: How to Turn Dead Time into Small Acts of Creation",
+    "url": "https://aura-knowledge.github.io/articles/the-substance-builder/",
+    "sourceType": "article"
   },
   {
     "id": "source-sutton-barto-rl",
@@ -3708,6 +5354,13 @@
     "sourceType": "article"
   },
   {
+    "id": "source-uk-osa",
+    "type": "source",
+    "label": "UK Government: Online Safety Act 2023 Explainer",
+    "url": "https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer",
+    "sourceType": "government-regulation"
+  },
+  {
     "id": "source-unesco-genai-edu",
     "type": "source",
     "label": "Guidance for Generative AI in Education and Research",
@@ -3729,6 +5382,13 @@
     "sourceType": "official-report-series"
   },
   {
+    "id": "source-vivo-switch-off-2022",
+    "type": "source",
+    "label": "vivo Switch Off Study on Impact of Smartphones on Spousal Relationships",
+    "url": "https://vivonewsroom.in/press-release/smartphone-addiction-88-married-indians-feel-that-excessive-usage-of-smartphones-is-hurting-their-relationship-vivo-switch-off-study-on-impact-of-smartphones-on-spousal-relationships/",
+    "sourceType": "industry-report"
+  },
+  {
     "id": "source-w3c-bbs",
     "type": "source",
     "label": "Data Integrity BBS Cryptosuites v1.0",
@@ -3748,6 +5408,13 @@
     "label": "Verifiable Credentials Data Model v2.0",
     "url": "https://www.w3.org/TR/vc-data-model-2.0/",
     "sourceType": "standard"
+  },
+  {
+    "id": "source-wef-global-risks-2024",
+    "type": "source",
+    "label": "World Economic Forum, Global Risks Report 2024",
+    "url": "https://www.weforum.org/publications/global-risks-report-2024/",
+    "sourceType": "international-report"
   },
   {
     "id": "source-wei-cot",
@@ -3827,6 +5494,13 @@
     "sourceType": "paper"
   },
   {
+    "id": "source-ytface-cpm-2026",
+    "type": "source",
+    "label": "YTface: YouTube CPM and RPM Rates by Country (2026 Guide)",
+    "url": "https://www.ytface.com/cpm-rates-by-country.html",
+    "sourceType": "industry-report"
+  },
+  {
     "id": "topic:agent-orchestration",
     "type": "topic",
     "label": "agent-orchestration"
@@ -3877,6 +5551,11 @@
     "label": "ai-society"
   },
   {
+    "id": "topic:algorithms",
+    "type": "topic",
+    "label": "algorithms"
+  },
+  {
     "id": "topic:artificial-intelligence",
     "type": "topic",
     "label": "artificial-intelligence"
@@ -3890,6 +5569,11 @@
     "id": "topic:audio",
     "type": "topic",
     "label": "audio"
+  },
+  {
+    "id": "topic:business-models",
+    "type": "topic",
+    "label": "business-models"
   },
   {
     "id": "topic:computability",
@@ -3907,9 +5591,19 @@
     "label": "consumer-behavior"
   },
   {
+    "id": "topic:creator-economy",
+    "type": "topic",
+    "label": "creator-economy"
+  },
+  {
     "id": "topic:cybernetics",
     "type": "topic",
     "label": "cybernetics"
+  },
+  {
+    "id": "topic:data",
+    "type": "topic",
+    "label": "data"
   },
   {
     "id": "topic:deep-work",
@@ -3917,9 +5611,29 @@
     "label": "deep-work"
   },
   {
+    "id": "topic:deliberate-practice",
+    "type": "topic",
+    "label": "deliberate-practice"
+  },
+  {
+    "id": "topic:digital-advertising",
+    "type": "topic",
+    "label": "digital-advertising"
+  },
+  {
+    "id": "topic:digital-economy",
+    "type": "topic",
+    "label": "digital-economy"
+  },
+  {
     "id": "topic:digital-gardens",
     "type": "topic",
     "label": "digital-gardens"
+  },
+  {
+    "id": "topic:digital-inclusion",
+    "type": "topic",
+    "label": "digital-inclusion"
   },
   {
     "id": "topic:digital-minimalism",
@@ -3927,9 +5641,19 @@
     "label": "digital-minimalism"
   },
   {
+    "id": "topic:digital-services-act",
+    "type": "topic",
+    "label": "digital-services-act"
+  },
+  {
     "id": "topic:digital-wellbeing",
     "type": "topic",
     "label": "digital-wellbeing"
+  },
+  {
+    "id": "topic:dpdp",
+    "type": "topic",
+    "label": "dpdp"
   },
   {
     "id": "topic:education",
@@ -3962,9 +5686,19 @@
     "label": "foundation-models"
   },
   {
+    "id": "topic:gender",
+    "type": "topic",
+    "label": "gender"
+  },
+  {
     "id": "topic:generational-responsibility",
     "type": "topic",
     "label": "generational-responsibility"
+  },
+  {
+    "id": "topic:generative-ai",
+    "type": "topic",
+    "label": "generative-ai"
   },
   {
     "id": "topic:governance",
@@ -3975,6 +5709,11 @@
     "id": "topic:habit-formation",
     "type": "topic",
     "label": "habit-formation"
+  },
+  {
+    "id": "topic:habits",
+    "type": "topic",
+    "label": "habits"
   },
   {
     "id": "topic:human-ai-interaction",
@@ -4002,6 +5741,11 @@
     "label": "india"
   },
   {
+    "id": "topic:inequality",
+    "type": "topic",
+    "label": "inequality"
+  },
+  {
     "id": "topic:information-theory",
     "type": "topic",
     "label": "information-theory"
@@ -4017,14 +5761,34 @@
     "label": "institutions"
   },
   {
+    "id": "topic:intergenerational",
+    "type": "topic",
+    "label": "intergenerational"
+  },
+  {
+    "id": "topic:internet-use",
+    "type": "topic",
+    "label": "internet-use"
+  },
+  {
     "id": "topic:labor",
     "type": "topic",
     "label": "labor"
   },
   {
+    "id": "topic:language",
+    "type": "topic",
+    "label": "language"
+  },
+  {
     "id": "topic:learning",
     "type": "topic",
     "label": "learning"
+  },
+  {
+    "id": "topic:life-phases",
+    "type": "topic",
+    "label": "life-phases"
   },
   {
     "id": "topic:llm-routing",
@@ -4047,6 +5811,11 @@
     "label": "mental-health"
   },
   {
+    "id": "topic:misinformation",
+    "type": "topic",
+    "label": "misinformation"
+  },
+  {
     "id": "topic:neural-networks",
     "type": "topic",
     "label": "neural-networks"
@@ -4062,9 +5831,29 @@
     "label": "open-protocols"
   },
   {
+    "id": "topic:platform-accountability",
+    "type": "topic",
+    "label": "platform-accountability"
+  },
+  {
     "id": "topic:platform-design",
     "type": "topic",
     "label": "platform-design"
+  },
+  {
+    "id": "topic:platform-economics",
+    "type": "topic",
+    "label": "platform-economics"
+  },
+  {
+    "id": "topic:polarization",
+    "type": "topic",
+    "label": "polarization"
+  },
+  {
+    "id": "topic:policy",
+    "type": "topic",
+    "label": "policy"
   },
   {
     "id": "topic:privacy",
@@ -4097,6 +5886,11 @@
     "label": "public-policy"
   },
   {
+    "id": "topic:reading-paths",
+    "type": "topic",
+    "label": "reading-paths"
+  },
+  {
     "id": "topic:regulation",
     "type": "topic",
     "label": "regulation"
@@ -4112,9 +5906,24 @@
     "label": "scaling"
   },
   {
+    "id": "topic:series-guide",
+    "type": "topic",
+    "label": "series-guide"
+  },
+  {
+    "id": "topic:skill-building",
+    "type": "topic",
+    "label": "skill-building"
+  },
+  {
     "id": "topic:social-media",
     "type": "topic",
     "label": "social-media"
+  },
+  {
+    "id": "topic:students",
+    "type": "topic",
+    "label": "students"
   },
   {
     "id": "topic:symbolic-ai",
@@ -4122,13 +5931,28 @@
     "label": "symbolic-ai"
   },
   {
+    "id": "topic:synthesis",
+    "type": "topic",
+    "label": "synthesis"
+  },
+  {
     "id": "topic:transformers",
     "type": "topic",
     "label": "transformers"
   },
   {
+    "id": "topic:vernacular-internet",
+    "type": "topic",
+    "label": "vernacular-internet"
+  },
+  {
     "id": "topic:voice-interfaces",
     "type": "topic",
     "label": "voice-interfaces"
+  },
+  {
+    "id": "topic:workplace",
+    "type": "topic",
+    "label": "workplace"
   }
 ]

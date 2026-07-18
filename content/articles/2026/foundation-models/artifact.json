@@ -500,7 +500,8 @@
           "tone",
           "privacy"
         ],
-        "notes": "Initial seed draft reviewed against the source map, agent brief, and privacy contract. No client-specific or proprietary information detected. High-volatility current-state claims flagged for recheck after 2026-12-31. Approved for publication after final review."
+        "notes": "Initial seed draft reviewed against the source map, agent brief, and privacy contract. No client-specific or proprietary information detected. High-volatility current-state claims flagged for recheck after 2026-12-31. Approved for publication after final review.",
+        "contentHash": "14bbae6f14e0ba003b3697a100f866d7f411d8720590344a4c3d1a72dad84f25"
       },
       {
         "reviewer": "sibling-agent",

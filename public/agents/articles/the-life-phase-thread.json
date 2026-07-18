@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 3,
+  "id": "article:the-life-phase-thread",
+  "slug": "the-life-phase-thread",
+  "title": "The Life-Phase Thread",
+  "canonicalPath": "/articles/the-life-phase-thread/",
+  "sourcePath": "content/articles/2026/the-life-phase-thread/article.md",
+  "agentBriefPath": "content/articles/2026/the-life-phase-thread/agent.md",
+  "thesis": "The attention economy does not affect Indians uniformly; it imposes distinct harms at each life stage, and those harms compound across generations.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "life-phases",
+    "intergenerational"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 12,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "The attention economy does not affect Indians uniformly; it imposes distinct harms at each life stage, and those harms compound across generations.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-aser-2024",
+          "snippet": "ASER 2024 finds that 76% of 14–16-year-olds use smartphones for social media while 57% use them for education, and only 8% of parents see children as addiction-free.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-gallup-global-workplace-india",
+          "snippet": "Gallup places India's employee engagement at 23% and estimates $351 billion in annual disengagement losses.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-lasi-digital-exclusion-2023",
+          "snippet": "A LASI-based comparative study finds 91% of older Indian adults are digitally excluded, the highest among lower-middle-income countries studied.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Life-stage effects are shaped by income, education, family structure, and regional variation, not only by platform design.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Heavy recreational screen use begins in childhood, with nearly half of urban parents reporting children 9–17 spend three or more hours daily on social media, video, and games.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-localcircles-children-screentime-2025",
+          "snippet": "LocalCircles 2025 survey of 57,000+ urban parents: 49% of children aged 9–17 spend 3+ hours/day on social media, video/OTT, and online games; 22% spend more than 6 hours/day.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-aser-2024",
+          "snippet": "ASER 2024 reports only 8% of parents of 14–16-year-olds see their children as addiction-free.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "LocalCircles is a self-reported, urban, crowd-sourced survey and may over-represent concerned parents; ASER covers rural districts and different age framing.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Indian students face a split-screen adolescence in which recreational smartphone use outpaces educational use and academic anxiety is reported by a large majority.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-aser-2024",
+          "snippet": "Among 14–16-year-olds who can use a smartphone, 76% used it for social media while 57% used it for education in the reference week.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-ncert-mental-health-2022",
+          "snippet": "NCERT 2022 student mental-health survey (n=379,013) found 81% of students anxious about studies, exams, and results, and 43% reported mood swings.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The same device is used for both social and educational purposes; anxiety has many sources beyond screen time, and the survey measures self-reported feelings, not clinical diagnoses.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "India's young workers enter labour markets where engagement is low, attention is fragmented, and digital distraction imposes a large economic cost.",
+      "confidence": "high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-gallup-global-workplace-india",
+          "snippet": "Gallup State of the Global Workplace 2025 India data: 23% employee engagement, $351 billion annual disengagement cost.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Engagement and productivity are also driven by wages, job quality, management, and macroeconomic conditions, not only digital distraction.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "Heavy smartphone use is associated with harm to marital relationships and a weakening of community participation, suggesting the attention economy extracts from social fabric as well as individual time.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-vivo-switch-off-2022",
+          "snippet": "vivo Switch Off Study 2022 (n=1,000+ married couples): 88% agreed excessive smartphone use is hurting their relationship with their spouse.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-nsso-time-use-2024",
+          "snippet": "NSSO Time Use Survey 2024 reports volunteer/community participation down more than 50% since 2019.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The vivo study is industry-funded; relationship harm and community participation decline have multiple causes, including the pandemic and urbanisation.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "Older Indians are largely left out of the digital infrastructure, with roughly nine in ten older adults digitally excluded.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-lasi-digital-exclusion-2023",
+          "snippet": "LASI-based comparative analysis (MDPI 2024) finds 91% of older adults in India digitally excluded, defined by lack of internet and social-media use over the past month.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The study defines digital exclusion by recent internet and social-media use; some older adults may be supported by family members who transact on their behalf.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "The harms of attention extraction are connected across generations, so solutions that only fix one life stage are likely to leak back into the others.",
+      "confidence": "medium",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-aser-2024",
+          "snippet": "ASER 2024 shows adolescent entertainment-first phone use, suggesting childhood defaults shape later educational and work behaviour.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-lasi-digital-exclusion-2023",
+          "snippet": "High elderly digital exclusion sits at the far end of the same digital transition that captures youth attention.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Generational links are plausible but not proven by the cited studies; other social and economic factors also drive outcomes at each life stage.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-aser-2024",
+      "title": "ASER 2024 National Findings",
+      "url": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-ncert-mental-health-2022",
+      "title": "Ministry of Education: NCERT Student Mental Health Survey 2022 (Parliamentary Release)",
+      "url": "https://sansad.in/getFile/annex/260/AU1478.pdf?source=pqars",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-localcircles-children-screentime-2025",
+      "title": "LocalCircles: Children, Social Media and Online Gaming Addiction Survey 2025",
+      "url": "https://www.localcircles.com/a/press/page/children-social-media-addiction",
+      "type": "survey",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-gallup-global-workplace-india",
+      "title": "Gallup State of the Global Workplace: India Country-Level Data",
+      "url": "https://www.gallup.com/workplace/705650/state-global-workplace-india-country-level-data.aspx",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-vivo-switch-off-2022",
+      "title": "vivo Switch Off Study on Impact of Smartphones on Spousal Relationships",
+      "url": "https://vivonewsroom.in/press-release/smartphone-addiction-88-married-indians-feel-that-excessive-usage-of-smartphones-is-hurting-their-relationship-vivo-switch-off-study-on-impact-of-smartphones-on-spousal-relationships/",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-nsso-time-use-2024",
+      "title": "NSSO Time Use Survey 2024 Factsheet",
+      "url": "https://www.mospi.gov.in/sites/default/files/publication_reports/TUS_Factsheet_25022025.pdf",
+      "type": "government-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-lasi-digital-exclusion-2023",
+      "title": "MDPI Sustainability: Ensuring Sustainable Digital Inclusion among the Elderly (LASI-based analysis)",
+      "url": "https://www.mdpi.com/2071-1050/16/17/7485",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:the-attention-extraction"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:the-generational-bet"
+    },
+    {
+      "type": "article",
+      "id": "article:the-substance-builder"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    },
+    {
+      "type": "topic",
+      "id": "topic:india"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit and keep each life-stage claim separate from the others.",
+    "Preserve the plain-language, evidence-cautious tone; do not shame individuals for screen use.",
+    "When citing sources, use the source IDs and URLs from the artifact; flag industry-funded or self-reported data.",
+    "Distinguish India-specific measurements from global benchmarks, especially for workplace interruption and focus-session data.",
+    "Link back to related series articles only when the user asks for the broader arc."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:e8420e8ea044f5968c083af110f6791b1c08198e7e3f93b0c09343f3b41e25c0",
+        "outputHash": "sha256:e8420e8ea044f5968c083af110f6791b1c08198e7e3f93b0c09343f3b41e25c0"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "e8420e8ea044f5968c083af110f6791b1c08198e7e3f93b0c09343f3b41e25c0"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "e8420e8ea044f5968c083af110f6791b1c08198e7e3f93b0c09343f3b41e25c0",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/the-life-phase-thread/",
+  "agentJsonPath": "/agents/articles/the-life-phase-thread.json",
+  "agentMarkdownPath": "/agents/articles/the-life-phase-thread.md",
+  "sourceRepoPath": "content/articles/2026/the-life-phase-thread/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/the-life-phase-thread/article.md",
+  "tokenEstimate": 690,
+  "sectionOutline": [
+    {
+      "id": "childhood",
+      "title": "Childhood: The First Default"
+    },
+    {
+      "id": "student-life",
+      "title": "Student Life: Anxiety in the Feed"
+    },
+    {
+      "id": "early-work-life",
+      "title": "Early Work Life: Interrupted Focus"
+    },
+    {
+      "id": "family-life",
+      "title": "Family Life: The Screen at the Table"
+    },
+    {
+      "id": "old-age",
+      "title": "Old Age: Exclusion at the Other End"
+    },
+    {
+      "id": "the-thread-not-the-stages",
+      "title": "The Thread, Not the Stages"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}

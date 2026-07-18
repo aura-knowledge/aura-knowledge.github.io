@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 3,
+  "id": "article:trust-and-outrage-platforms-and-cohesion",
+  "slug": "trust-and-outrage-platforms-and-cohesion",
+  "title": "Trust and Outrage",
+  "canonicalPath": "/articles/trust-and-outrage-platforms-and-cohesion/",
+  "sourcePath": "content/articles/2026/trust-and-outrage-platforms-and-cohesion/article.md",
+  "agentBriefPath": "content/articles/2026/trust-and-outrage-platforms-and-cohesion/agent.md",
+  "thesis": "In India, engagement-based ranking and weak accountability mechanisms systematically amplify outrage and divisive content, eroding the social trust that public problem-solving requires.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "social-media",
+    "misinformation",
+    "polarization",
+    "platform-design"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 6,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "On major social platforms, engagement-based ranking systematically amplifies emotionally charged and divisive content because anger and moral outrage generate more likes, shares, and comments than neutral or constructive material.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-milli-pnas-nexus-2025",
+          "snippet": "Milli et al. found that Twitter's engagement-based ranking algorithm amplifies emotionally charged, out-group hostile content compared with a chronological timeline.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-brady-science-advances-2021",
+          "snippet": "Yale researchers found that social-media rewards (likes and shares) reinforce moral outrage expression over time.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Platform-specific results vary by user base, content type, and ranking objective; not every platform uses pure engagement ranking, and some experiments show that alternative feeds can preserve user satisfaction.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "Users who receive more likes and shares for expressing moral outrage tend to express more outrage over time, especially in politically moderate networks.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-brady-science-advances-2021",
+          "snippet": "A Science Advances study of 12.7 million tweets found that users who received more social rewards for outrage expressed more outrage later; the effect was strongest in politically moderate networks.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The study is based on Twitter data and may not generalize to other platforms or to non-English Indian users; some users may express outrage regardless of rewards.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "On Twitter/X, engagement-based feeds contained a higher share of angry political tweets than chronological feeds in a large-scale audit.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-milli-pnas-nexus-2025",
+          "snippet": "In the Milli et al. audit, 62% of political tweets in the engagement-based timeline expressed anger, compared with 52% in the chronological timeline.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The finding is platform- and time-specific; chronological feeds may have other downsides such as increased exposure to harassment or spam.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Indian influencers on Twitter received higher retweet rates for polarizing-event tweets than for their other tweets in a 2022 Microsoft Research Bengaluru study.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-dash-icwsm-2022",
+          "snippet": "Dash et al. found that 84% of influencers had a higher median retweet rate for tweets related to polarizing events compared with their other tweets.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The study focuses on influencers and politicians on Twitter during crises; results may not extend to ordinary users or to platforms like Meta, YouTube, or WhatsApp.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "The World Economic Forum's Global Risks Report 2024 ranked India highest among surveyed countries for misinformation and disinformation risk over the next two years.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-wef-global-risks-2024",
+          "snippet": "The WEF Global Risks Report 2024 identifies misinformation and disinformation as the top risk in India among surveyed countries over the two-year horizon.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The WEF ranking is based on expert perception, not a direct measurement of misinformation exposure or harm; perceptions may reflect media salience rather than objective prevalence.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "India Hate Lab documented a 74.4% increase in hate-speech events targeting religious minorities in 2024, with digital platforms playing a significant amplification role.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-india-hate-lab-2024",
+          "snippet": "India Hate Lab documented 1,165 hate-speech events targeting religious minorities in 2024, up 74.4% from 668 events in 2023, and noted platform amplification.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "India Hate Lab is an advocacy-oriented watchdog; its event definition and sampling methodology may be challenged by other observers, and offline political organization also drives the trend.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "In a sampled set of viral WhatsApp groups in India, only one in 158 instances of misinformation was actively corrected inside the group chat.",
+      "confidence": "medium",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-garimella-whatsapp-2025",
+          "snippet": "Garimella et al. identified 158 instances of misinformation in India and found only one instance of active correction or rebuttal within the group.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The sample was limited to consenting private WhatsApp groups and may not represent all Indian WhatsApp use; corrections may also occur through private replies or outside the studied groups.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-008",
+      "claim": "Central and South Asia accounted for only 5% of cases selected by the Meta Oversight Board in 2023, despite India being Meta's largest user market.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-meta-oversight-board-2023",
+          "snippet": "The Meta Oversight Board 2023 annual report states that Central and South Asia represented 5% of selected cases.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The Oversight Board selects a tiny fraction of appeals for review, and case-share is an imperfect proxy for safety investment, staffing, or user harm in the region.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-brady-science-advances-2021",
+      "title": "Brady et al., How social learning amplifies moral outrage expression in online social networks, Science Advances (2021)",
+      "url": "https://www.science.org/doi/10.1126/sciadv.abe5641",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-milli-pnas-nexus-2025",
+      "title": "Milli et al., Engagement, user satisfaction, and the amplification of divisive content on social media, PNAS Nexus (2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11894805/",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-dash-icwsm-2022",
+      "title": "Dash et al., Divided We Rule: Influencer Polarization on Twitter during Political Crises in India, ICWSM (2022)",
+      "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/19279",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-wef-global-risks-2024",
+      "title": "World Economic Forum, Global Risks Report 2024",
+      "url": "https://www.weforum.org/publications/global-risks-report-2024/",
+      "type": "international-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-india-hate-lab-2024",
+      "title": "India Hate Lab, Hate Speech Events in India 2024 Report",
+      "url": "https://www.csohate.org/2025/02/10/hate-speech-report-india-2024/",
+      "type": "watchdog-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-garimella-whatsapp-2025",
+      "title": "Garimella et al., Global Patterns of Viral Content on WhatsApp, ICWSM 2025 (arXiv:2407.08172)",
+      "url": "https://arxiv.org/abs/2407.08172",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-meta-oversight-board-2023",
+      "title": "Meta Oversight Board, 2023 Annual Report",
+      "url": "https://www.oversightboard.com/wp-content/uploads/2024/06/Oversight-Board-2023-Annual-Report.pdf",
+      "type": "transparency-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:the-attention-extraction"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:the-generational-bet"
+    },
+    {
+      "type": "article",
+      "id": "article:the-substance-builder"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    },
+    {
+      "type": "topic",
+      "id": "topic:india"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit and distinguish core claims about platform mechanisms from landscape claims about India-specific risk data.",
+    "Preserve the evidence-cautious tone; do not present correlation as causation or global platform studies as India-specific findings.",
+    "When citing sources, use the source IDs and URLs from the artifact; do not generalize beyond the public evidence.",
+    "Flag any source that is advocacy-oriented, industry-funded, or based on limited samples when answering questions about confidence.",
+    "Route questions about platform-design alternatives to the Designing for Substance article and series guide."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:d4b1a6a3628cd9b1835bf350cceebf1917f37eca7760fb9e497cb23cd800f73a",
+        "outputHash": "sha256:d4b1a6a3628cd9b1835bf350cceebf1917f37eca7760fb9e497cb23cd800f73a"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "d4b1a6a3628cd9b1835bf350cceebf1917f37eca7760fb9e497cb23cd800f73a"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "d4b1a6a3628cd9b1835bf350cceebf1917f37eca7760fb9e497cb23cd800f73a"
+}

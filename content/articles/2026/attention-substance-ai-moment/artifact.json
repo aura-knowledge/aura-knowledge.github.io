@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 3,
+  "id": "article:attention-substance-ai-moment",
+  "slug": "attention-substance-ai-moment",
+  "title": "Attention, Substance, and the AI Moment: A Series Index",
+  "canonicalPath": "/articles/attention-substance-ai-moment/",
+  "sourcePath": "content/articles/2026/attention-substance-ai-moment/article.md",
+  "agentBriefPath": "content/articles/2026/attention-substance-ai-moment/agent.md",
+  "thesis": "India's digital-access success has created an attention-extraction economy that diverts time and talent away from learning, creation, and civic problem-solving; the same infrastructure could be redirected toward substance if individuals, platforms, and policymakers make different choices.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "artificial-intelligence",
+    "series-guide"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 0,
+    "role": "guide"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "India's digital-access success has created an attention-extraction economy that diverts time and talent away from learning, creation, and civic problem-solving, but the same infrastructure could be redirected toward substance if individuals, platforms, and policymakers make different choices.",
+      "confidence": "high",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-iamai-kantar-2024",
+          "snippet": "The Internet in India Report 2024 documents near-ubiquitous digital access and a usage mix dominated by entertainment and social media.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-aser-2024",
+          "snippet": "ASER 2024 finds that 76% of 14–16-year-olds use smartphones for social media while 57% use them for education.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Educational and civic uses of the same infrastructure are growing, and access itself is a precondition for productive use; the gap is shaped by design and incentives, not only by access.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-iamai-kantar-2024",
+      "title": "IAMAI-Kantar: Internet in India Report 2024",
+      "url": "https://www.iamai.in/sites/default/files/research/Kantar_%20IAMAI%20report_2024_.pdf",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-aser-2024",
+      "title": "ASER 2024 National Findings",
+      "url": "https://asercentre.org/wp-content/uploads/2022/12/ASER-2024-National-findings.pdf",
+      "type": "research-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:the-attention-extraction"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:the-student-screen-education-vs-entertainment"
+    },
+    {
+      "type": "article",
+      "id": "article:the-engagement-gap-productivity-india"
+    },
+    {
+      "type": "article",
+      "id": "article:who-profits-advertising-foreign-platforms"
+    },
+    {
+      "type": "article",
+      "id": "article:trust-and-outrage-platforms-and-cohesion"
+    },
+    {
+      "type": "article",
+      "id": "article:the-indic-language-internet-and-vernacular-feeds"
+    },
+    {
+      "type": "article",
+      "id": "article:the-generational-bet"
+    },
+    {
+      "type": "article",
+      "id": "article:what-ai-makes-cheap"
+    },
+    {
+      "type": "article",
+      "id": "article:the-creator-economys-incentive-trap"
+    },
+    {
+      "type": "article",
+      "id": "article:the-compounding-bet"
+    },
+    {
+      "type": "article",
+      "id": "article:the-life-phase-thread"
+    },
+    {
+      "type": "article",
+      "id": "article:gender-and-the-attention-economy"
+    },
+    {
+      "type": "article",
+      "id": "article:the-substance-builder"
+    },
+    {
+      "type": "article",
+      "id": "article:the-small-rep-theory"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "article",
+      "id": "article:engagement-is-a-design-choice"
+    },
+    {
+      "type": "article",
+      "id": "article:regulation-as-a-floor-dsa-it-rules-dpdp"
+    },
+    {
+      "type": "article",
+      "id": "article:the-better-question"
+    },
+    {
+      "type": "article",
+      "id": "article:a-map-of-levers"
+    },
+    {
+      "type": "article",
+      "id": "article:a-readers-guide-to-the-series"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    }
+  ],
+  "agentInstructions": [
+    "This is a series guide, not a primary evidence article; route specific evidentiary questions to the relevant Diagnosis articles.",
+    "Use the six-arc structure when describing how the series is organized.",
+    "Point readers to the seed articles that match their role or question.",
+    "Do not use internal lane labels; refer to articles by their titles and canonical paths.",
+    "Keep the tone welcoming and navigational rather than argumentative."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "structuring",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:e6e3f46b1414ff04e3dd733429ba07ca3c10aa200bfb968353fb689b19b17da9",
+        "outputHash": "sha256:e6e3f46b1414ff04e3dd733429ba07ca3c10aa200bfb968353fb689b19b17da9"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "series structure",
+          "tone",
+          "privacy"
+        ],
+        "notes": "Human author approved the series guide structure and scope.",
+        "contentHash": "e6e3f46b1414ff04e3dd733429ba07ca3c10aa200bfb968353fb689b19b17da9"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "e6e3f46b1414ff04e3dd733429ba07ca3c10aa200bfb968353fb689b19b17da9"
+}

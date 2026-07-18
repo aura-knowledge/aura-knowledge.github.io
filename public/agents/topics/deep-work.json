@@ -2,12 +2,46 @@
   "schemaVersion": 1,
   "topic": "deep-work",
   "articleIds": [
+    "article:the-compounding-bet",
     "article:the-generational-bet",
     "article:the-substance-builder"
   ],
   "pageUrl": "https://aura-knowledge.github.io/topics/deep-work/",
   "agentJsonPath": "/agents/topics/deep-work.json",
   "articles": [
+    {
+      "id": "article:the-compounding-bet",
+      "slug": "the-compounding-bet",
+      "title": "The Compounding Bet",
+      "summary": "Reframes India's AI opportunity as a compounding function of attention. Uses Gallup, NASSCOM, and public AI-readiness data to show how small shifts in daily learning, work, and creation habits could aggregate into large differences in national capacity over the next decade.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "artificial-intelligence",
+        "deep-work",
+        "generational-responsibility",
+        "productivity"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "artificial-intelligence",
+        "deep-work",
+        "generational-responsibility",
+        "productivity"
+      ],
+      "canonicalPath": "/articles/the-compounding-bet/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-compounding-bet/",
+      "agentJsonPath": "/agents/articles/the-compounding-bet.json",
+      "agentMarkdownPath": "/agents/articles/the-compounding-bet.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 8,
+      "tokenEstimate": 802,
+      "contentHash": "d882ba77ff9280c221b6ee69a48d916c57e4234be70426b9cd1e4c8bffc11d12"
+    },
     {
       "id": "article:the-generational-bet",
       "slug": "the-generational-bet",
@@ -38,8 +72,8 @@
       "updatedAt": "2026-07-04",
       "claimCount": 4,
       "sourceCount": 10,
-      "tokenEstimate": 647,
-      "contentHash": "22aeb909b1d890d78041bfc206c3e8e7ef1eeb84195252f33e73f2c1e714e74d"
+      "tokenEstimate": 658,
+      "contentHash": "d1a2919152f83fe2f55afe29b161b63b6a5679343434f7257e2a3bcae0f26f20"
     },
     {
       "id": "article:the-substance-builder",
@@ -71,8 +105,8 @@
       "updatedAt": "2026-07-04",
       "claimCount": 5,
       "sourceCount": 6,
-      "tokenEstimate": 497,
-      "contentHash": "ea4c8423c8a7c7eff937808f5d1e7793ee9f661ffdfc333a3fa1dd7ba28c6f4b"
+      "tokenEstimate": 500,
+      "contentHash": "89751bead595b585f40cba7b08703aff1ab7e2a80c2df9a023c603fbbdc321e0"
     }
   ]
 }

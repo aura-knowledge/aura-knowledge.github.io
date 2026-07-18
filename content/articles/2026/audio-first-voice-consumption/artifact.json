@@ -6,7 +6,7 @@
   "canonicalPath": "/articles/audio-first-voice-consumption/",
   "sourcePath": "content/articles/2026/audio-first-voice-consumption/article.md",
   "agentBriefPath": "content/articles/2026/audio-first-voice-consumption/agent.md",
-  "thesis": "Voice-first, two-way audio agents are technically ready to become a useful complement to screen-based reading for knowledge workers, but only if designers treat them as assistive, user-controlled, and hearing-safe tools\u2014not as replacements for reading or as always-listening ambient companions.",
+  "thesis": "Voice-first, two-way audio agents are technically ready to become a useful complement to screen-based reading for knowledge workers, but only if designers treat them as assistive, user-controlled, and hearing-safe tools—not as replacements for reading or as always-listening ambient companions.",
   "status": "published",
   "maturity": "sprout",
   "publishedAt": "2026-06-26",
@@ -72,7 +72,7 @@
         },
         {
           "sourceId": "source-007",
-          "snippet": "Sweller, van Merri\u00ebnboer and Paas describe the transient information effect: spoken content disappears and must be held in working memory, increasing cognitive load compared with self-paced text.",
+          "snippet": "Sweller, van Merriënboer and Paas describe the transient information effect: spoken content disappears and must be held in working memory, increasing cognitive load compared with self-paced text.",
           "supports": "direct",
           "assessedAt": "2026-06-26"
         },
@@ -114,7 +114,7 @@
         },
         {
           "sourceId": "source-009",
-          "snippet": "D\u00e9fossez et al. describe Moshi, an open full-duplex speech-text foundation model that models user and agent audio streams simultaneously with about 160 ms theoretical latency and about 200 ms practical latency on an L4 GPU.",
+          "snippet": "Défossez et al. describe Moshi, an open full-duplex speech-text foundation model that models user and agent audio streams simultaneously with about 160 ms theoretical latency and about 200 ms practical latency on an L4 GPU.",
           "supports": "direct",
           "assessedAt": "2026-06-26"
         }
@@ -132,7 +132,7 @@
     },
     {
       "id": "claim-004",
-      "claim": "The value of voice-first audio agents depends more on interaction design\u2014turn-taking, interruption, proactivity, and user agency\u2014than on raw conversational naturalness.",
+      "claim": "The value of voice-first audio agents depends more on interaction design—turn-taking, interruption, proactivity, and user agency—than on raw conversational naturalness.",
       "confidence": "medium",
       "status": "argument",
       "evidence": [
@@ -303,7 +303,7 @@
     },
     {
       "id": "source-002",
-      "title": "Kaur et al., Digital Eye Strain \u2013 A Comprehensive Review (2022)",
+      "title": "Kaur et al., Digital Eye Strain – A Comprehensive Review (2022)",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9434525/",
       "type": "journal-article",
       "accessed": "2026-06-26"
@@ -338,7 +338,7 @@
     },
     {
       "id": "source-007",
-      "title": "Sweller, van Merri\u00ebnboer & Paas, Cognitive Architecture and Instructional Design: 20 Years Later (2019)",
+      "title": "Sweller, van Merriënboer & Paas, Cognitive Architecture and Instructional Design: 20 Years Later (2019)",
       "url": "https://doi.org/10.1007/s10648-019-09465-5",
       "type": "journal-article",
       "accessed": "2026-06-26"
@@ -352,7 +352,7 @@
     },
     {
       "id": "source-009",
-      "title": "D\u00e9fossez et al., Moshi: a speech-text foundation model for real-time dialogue (2024)",
+      "title": "Défossez et al., Moshi: a speech-text foundation model for real-time dialogue (2024)",
       "url": "https://arxiv.org/abs/2410.00037",
       "type": "preprint",
       "accessed": "2026-06-26"
@@ -429,8 +429,8 @@
         "role": "drafting",
         "model": "kimi",
         "invokedAt": "2026-06-26",
-        "inputHash": "sha256:6fb5066de6aa13617120074e2d4cf2e8d6602881048df9500e56e2d8207d3b20",
-        "outputHash": "sha256:c3bd3e681ca805aba641e0d6f617bbf291e46a68ce97705abaeae20c89cf5031"
+        "inputHash": "sha256:91df0331a91b7896a885033651191cafd46a7e004776180106c6fbadd6c6851e",
+        "outputHash": "sha256:91df0331a91b7896a885033651191cafd46a7e004776180106c6fbadd6c6851e"
       }
     ],
     "reviews": [

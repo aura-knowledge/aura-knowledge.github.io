@@ -26,9 +26,9 @@
     "innovation"
   ],
   "series": {
-    "slug": "attention-extraction",
+    "slug": "attention-substance-ai-moment",
     "title": "Attention, Substance, and the AI Moment",
-    "order": 2,
+    "order": 8,
     "role": "chapter"
   },
   "claims": [
@@ -118,7 +118,7 @@
         },
         {
           "sourceId": "source-nasscom-india-opportunity",
-          "snippet": "NASSCOM estimated that data and AI could add $450–500 billion to India's GDP by 2025, underscoring the economic stakes of how the technology is used.",
+          "snippet": "NASSCOM estimated that data and AI could add $450–500 billion to India's GDP by around 2025; the figure is now treated as a prior forecast and benchmark rather than a live prediction.",
           "supports": "background",
           "assessedAt": "2026-07-04"
         }
@@ -229,8 +229,8 @@
     "Use claim IDs as the retrieval unit and preserve the distinction between core claims and supporting observations.",
     "Treat maturity=seed as an explicit uncertainty marker; do not overstate empirical certainty.",
     "Do not reduce the argument to nationalist boosterism or to a critique of specific companies.",
-    "When summarizing, preserve the article's habit-problem framing and its Lane B role in the series.",
-    "Point practical-strategy questions toward Lane C and platform-design questions toward Lane D.",
+    "When summarizing, preserve the article's habit-problem framing and its role as the generational-stakes article in the series.",
+    "Point practical-strategy questions toward The Substance Builder and platform-design questions toward Designing for Substance.",
     "Do not present AI as a substitute for skill, education, or institutional investment."
   ],
   "provenance": {
@@ -241,14 +241,14 @@
         "role": "drafting",
         "model": "kimi",
         "invokedAt": "2026-07-04",
-        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-        "outputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+        "inputHash": "sha256:564b35c6a265645334922f7195829908b465a94b8da33391e957deb76244f522",
+        "outputHash": "sha256:564b35c6a265645334922f7195829908b465a94b8da33391e957deb76244f522"
       }
     ],
     "reviews": [
       {
         "reviewer": "human",
-        "reviewedAt": "2026-07-04",
+        "reviewedAt": "2026-07-05",
         "status": "approved",
         "scope": [
           "thesis",
@@ -258,7 +258,7 @@
           "sources"
         ],
         "notes": "Human author approved publication.",
-        "contentHash": "22aeb909b1d890d78041bfc206c3e8e7ef1eeb84195252f33e73f2c1e714e74d"
+        "contentHash": "d1a2919152f83fe2f55afe29b161b63b6a5679343434f7257e2a3bcae0f26f20"
       }
     ],
     "policy": {
@@ -266,14 +266,14 @@
       "version": "1.0.0"
     }
   },
-  "contentHash": "22aeb909b1d890d78041bfc206c3e8e7ef1eeb84195252f33e73f2c1e714e74d",
-  "generatedAt": "2026-07-04T00:00:00.000Z",
+  "contentHash": "d1a2919152f83fe2f55afe29b161b63b6a5679343434f7257e2a3bcae0f26f20",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
   "articleUrl": "https://aura-knowledge.github.io/articles/the-generational-bet/",
   "agentJsonPath": "/agents/articles/the-generational-bet.json",
   "agentMarkdownPath": "/agents/articles/the-generational-bet.md",
   "sourceRepoPath": "content/articles/2026/the-generational-bet/article.md",
   "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/the-generational-bet/article.md",
-  "tokenEstimate": 647,
+  "tokenEstimate": 658,
   "sectionOutline": [
     {
       "id": "the-narrow-window",
@@ -318,6 +318,10 @@
     {
       "id": "open-questions",
       "title": "Open Questions"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
     },
     {
       "id": "the-bet",

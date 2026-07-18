@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "topic": "series-guide",
+  "articleIds": [
+    "article:a-readers-guide-to-the-series",
+    "article:attention-substance-ai-moment"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/series-guide/",
+  "agentJsonPath": "/agents/topics/series-guide.json",
+  "articles": [
+    {
+      "id": "article:a-readers-guide-to-the-series",
+      "slug": "a-readers-guide-to-the-series",
+      "title": "A Reader's Guide to the Series",
+      "summary": "Helps readers choose where to start in the series based on their question or role, explains the six arcs, and points only to published articles.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "series-guide",
+        "reading-paths"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "series-guide",
+        "reading-paths"
+      ],
+      "canonicalPath": "/articles/a-readers-guide-to-the-series/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/a-readers-guide-to-the-series/",
+      "agentJsonPath": "/agents/articles/a-readers-guide-to-the-series.json",
+      "agentMarkdownPath": "/agents/articles/a-readers-guide-to-the-series.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 5,
+      "sourceCount": 7,
+      "tokenEstimate": 532,
+      "contentHash": "fcbc0027046f452e0114248491dbb9c4cf1afbe846dc59443bf67b78583548d7"
+    },
+    {
+      "id": "article:attention-substance-ai-moment",
+      "slug": "attention-substance-ai-moment",
+      "title": "Attention, Substance, and the AI Moment: A Series Index",
+      "summary": "A guide to the Attention, Substance, and the AI Moment series: the diagnosis, the generational stakes, individual practice, systemic design, and curated reading paths.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "series-guide"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "series-guide"
+      ],
+      "canonicalPath": "/articles/attention-substance-ai-moment/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/attention-substance-ai-moment/",
+      "agentJsonPath": "/agents/articles/attention-substance-ai-moment.json",
+      "agentMarkdownPath": "/agents/articles/attention-substance-ai-moment.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 1,
+      "sourceCount": 2,
+      "tokenEstimate": 465,
+      "contentHash": "e6e3f46b1414ff04e3dd733429ba07ca3c10aa200bfb968353fb689b19b17da9"
+    }
+  ]
+}

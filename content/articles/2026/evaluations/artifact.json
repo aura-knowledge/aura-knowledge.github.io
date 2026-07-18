@@ -174,14 +174,14 @@
         "role": "drafting",
         "model": "kimi",
         "invokedAt": "2026-06-29",
-        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "inputHash": "sha256:9f1fe31ae9a3d4bfef02a406351557274a80a908bfcd2068fde08603799f939d",
         "outputHash": "sha256:9f1fe31ae9a3d4bfef02a406351557274a80a908bfcd2068fde08603799f939d"
       },
       {
         "role": "review",
         "model": "kimi",
         "invokedAt": "2026-06-29",
-        "inputHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "inputHash": "sha256:9f1fe31ae9a3d4bfef02a406351557274a80a908bfcd2068fde08603799f939d",
         "outputHash": "sha256:9f1fe31ae9a3d4bfef02a406351557274a80a908bfcd2068fde08603799f939d"
       }
     ],

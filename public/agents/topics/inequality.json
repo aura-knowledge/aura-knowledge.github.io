@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "topic": "inequality",
+  "articleIds": [
+    "article:the-creator-economys-incentive-trap"
+  ],
+  "pageUrl": "https://aura-knowledge.github.io/topics/inequality/",
+  "agentJsonPath": "/agents/topics/inequality.json",
+  "articles": [
+    {
+      "id": "article:the-creator-economys-incentive-trap",
+      "slug": "the-creator-economys-incentive-trap",
+      "title": "The Creator Economy's Incentive Trap",
+      "summary": "India's creator economy is reaching massive scale, yet few monetize well and income concentrates at the top. This article examines the gap between aspiration and livelihood, and asks what the AI moment means for young Indians betting on viral attention.",
+      "status": "published",
+      "maturity": "seed",
+      "topics": [
+        "attention-economy",
+        "creator-economy",
+        "india",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "inequality"
+      ],
+      "tags": [
+        "attention-economy",
+        "india",
+        "creator-economy",
+        "digital-wellbeing",
+        "artificial-intelligence",
+        "inequality"
+      ],
+      "canonicalPath": "/articles/the-creator-economys-incentive-trap/",
+      "articleUrl": "https://aura-knowledge.github.io/articles/the-creator-economys-incentive-trap/",
+      "agentJsonPath": "/agents/articles/the-creator-economys-incentive-trap.json",
+      "agentMarkdownPath": "/agents/articles/the-creator-economys-incentive-trap.md",
+      "updatedAt": "2026-07-05",
+      "claimCount": 7,
+      "sourceCount": 8,
+      "tokenEstimate": 869,
+      "contentHash": "39150f279bc25f4a7f2c09f7956e4c39706488916f9e976b0bf15f3be98fc41c"
+    }
+  ]
+}

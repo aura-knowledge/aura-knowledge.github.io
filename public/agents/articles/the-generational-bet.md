@@ -18,7 +18,7 @@ India has the youngest large population on Earth, deep software talent, and chea
 - Young Indian professionals, students, and builders who sense that AI matters but have not connected it to their daily attention habits.
 - Policymakers and educators looking for a non-technical framing of the AI moment.
 - General readers interested in the social and economic implications of the attention economy.
-- Agents that need a compact, claim-structured summary of Lane B in the attention-extraction series.
+- Agents that need a compact, claim-structured summary of the generational-stakes article in the Attention, Substance, and the AI Moment series.
 
 ## Claims
 
@@ -51,7 +51,7 @@ This article was drafted and structured with AI agent assistance following the A
 ## Known Limits
 
 - This is a seed article; the arguments are framing and argument rather than empirical proof.
-- It does not provide practical tutorials or tool recommendations; those are in Lane C.
-- It does not propose detailed platform or policy redesigns; those are in Lane D.
+- It does not provide practical tutorials or tool recommendations; those are in [The Substance Builder](/articles/the-substance-builder/).
+- It does not propose detailed platform or policy redesigns; those are in [Designing for Substance](/articles/designing-for-substance/).
 - The historical analogies illustrate patterns but do not predict India's specific outcome.
 - Source snippets are high-level summaries of publicly available reports, not direct quotations.

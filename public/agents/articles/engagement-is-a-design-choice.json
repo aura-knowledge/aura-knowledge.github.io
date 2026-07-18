@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 3,
+  "id": "article:engagement-is-a-design-choice",
+  "slug": "engagement-is-a-design-choice",
+  "title": "Engagement Is a Design Choice",
+  "canonicalPath": "/articles/engagement-is-a-design-choice/",
+  "sourcePath": "content/articles/2026/engagement-is-a-design-choice/article.md",
+  "agentBriefPath": "content/articles/2026/engagement-is-a-design-choice/agent.md",
+  "thesis": "Engagement is a design choice shaped by business model and metric; the same platforms could choose ranking signals, friction, and business models that reward substance over extraction, but doing so requires changing what success is measured by.",
+  "status": "published",
+  "maturity": "seed",
+  "publishedAt": "2026-07-05",
+  "updatedAt": "2026-07-05",
+  "audiences": [
+    "general",
+    "students",
+    "builders",
+    "policy",
+    "researchers"
+  ],
+  "topics": [
+    "attention-economy",
+    "india",
+    "digital-wellbeing",
+    "platform-design",
+    "algorithms",
+    "business-models"
+  ],
+  "series": {
+    "slug": "attention-substance-ai-moment",
+    "title": "Attention, Substance, and the AI Moment",
+    "order": 17,
+    "role": "chapter"
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "Engagement is a design choice, not a natural law; it emerges from the metric a platform chooses to optimize, and that metric can be changed.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-milli-pnas-nexus-2025",
+          "snippet": "Milli et al. compare Twitter's engagement-based ranking with a reverse-chronological baseline, showing that the ranking signal itself drives the content users see.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-eu-dsa",
+          "snippet": "The EU Digital Services Act requires large platforms to offer users a non-personalised recommender-system option, treating the choice of ranking as a regulable design decision.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Platform metrics may be constrained by competitive pressure and user expectations, so changing one platform's metric does not guarantee users will stay if rivals keep optimizing for engagement.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "claim": "When a platform ranks content by predicted engagement, it systematically favors content that triggers strong emotional reactions, often at the expense of accuracy, civility, and long-term user well-being.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-milli-pnas-nexus-2025",
+          "snippet": "The engagement-based algorithm amplified tweets expressing anger, sadness, and anxiety, and significantly increased out-group animosity relative to a chronological timeline.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Some studies on other platforms find that algorithmic feeds can expose users to more ideologically diverse or reliable news than chronological feeds, suggesting effects are platform- and implementation-specific.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "claim": "Engagement-based ranking algorithms amplify emotionally charged and out-group-hostile content compared with reverse-chronological feeds, and users do not prefer the political content the algorithm selects.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-milli-pnas-nexus-2025",
+          "snippet": "Of political tweets selected by Twitter's engagement-based algorithm, 62% expressed anger (vs. 52% chronological) and 46% contained out-group animosity (vs. 38% chronological); users rated political tweets from the algorithm lower on stated preference.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The experiment was conducted on U.S. Twitter users in 2023; cultural and platform differences may alter the magnitude of effects in India.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "claim": "Likes, shares, and retweets act as reinforcement signals: users learn to produce the content that the platform rewards, and the platform then ranks that content more highly, creating a self-reinforcing feedback loop.",
+      "confidence": "high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-brady-science-advances-2021",
+          "snippet": "Users who received more likes and retweets for outrage-expressing tweets went on to express more outrage over time, especially in politically moderate networks.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The study observes a learning effect, not a universal law; other factors such as offline events, identity, and media diet also shape expression.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "claim": "The ad-supported attention economy concentrates rewards among top creators and foreign platforms while turning most users' attention into inventory.",
+      "confidence": "medium-high",
+      "status": "landscape",
+      "evidence": [
+        {
+          "sourceId": "source-meta-google-ad-revenue-india",
+          "snippet": "Meta and Google India together reported gross advertising revenue of roughly ₹57,472 crore (~$6.8 billion) in FY24–25.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-bcg-creator-economy-2025",
+          "snippet": "Only 8–10% of India's 2–2.5 million active digital creators monetize effectively, while the ecosystem influences over $350 billion in consumer spending.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The ₹57,472 crore figure is derived from separate ROC filings; combined totals vary by reporting convention and do not capture all domestic or informal digital advertising.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "claim": "Alternative ranking signals, friction, and business models can reduce divisive amplification, but only if platforms are willing to measure success differently.",
+      "confidence": "medium-high",
+      "status": "core",
+      "evidence": [
+        {
+          "sourceId": "source-milli-pnas-nexus-2025",
+          "snippet": "An exploratory ranking by users' stated preferences reduced angry, partisan, and out-group-hostile content relative to the engagement-based timeline.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-eu-dsa",
+          "snippet": "The EU Digital Services Act requires large platforms to provide a non-personalised feed option, a regulatory recognition that ranking design can be changed.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "Stated-preference ranking in the Milli et al. study also reduced exposure to out-group content, raising echo-chamber concerns; trade-offs between engagement, satisfaction, and civic outcomes remain unresolved.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "claim": "At India's scale, the choice of engagement metric is a public-interest question: the same design shapes national attention, social trust, youth learning, and the creator economy.",
+      "confidence": "medium-high",
+      "status": "framing",
+      "evidence": [
+        {
+          "sourceId": "source-pib-economic-survey",
+          "snippet": "The Economic Survey 2025–26 flags digital addiction as a public-health challenge with real economic and social costs for India's demographic dividend.",
+          "supports": "direct",
+          "assessedAt": "2026-07-05"
+        },
+        {
+          "sourceId": "source-kerala-hc-phone-ban",
+          "snippet": "The Kerala High Court restricted personal mobile-phone use during work hours in December 2024, reflecting institutional recognition of attention-design harms.",
+          "supports": "indirect",
+          "assessedAt": "2026-07-05"
+        }
+      ],
+      "counterevidence": [
+        {
+          "summary": "The public-interest framing is a policy judgment, not an empirical claim; reasonable people can disagree about the right balance between platform autonomy and regulation.",
+          "assessedAt": "2026-07-05"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-milli-pnas-nexus-2025",
+      "title": "Milli et al.: Engagement, User Satisfaction, and the Amplification of Divisive Content on Social Media (PNAS Nexus / Knight First Amendment Institute)",
+      "url": "https://knightcolumbia.org/content/engagement-user-satisfaction-and-the-amplification-of-divisive-content-on-social-media",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-brady-science-advances-2021",
+      "title": "Brady et al.: How social learning amplifies moral outrage expression in online social networks (Science Advances / Yale)",
+      "url": "https://news.yale.edu/2021/08/13/likes-and-shares-teach-people-express-more-outrage-online",
+      "type": "peer-reviewed-study",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-bcg-creator-economy-2025",
+      "title": "BCG: From Content to Commerce: Mapping India's Creator Economy",
+      "url": "https://www.bcg.com/publications/2025/india-from-content-to-commerce-mapping-indias-creator-economy",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-meta-google-ad-revenue-india",
+      "title": "IBEF / industry reports: Tech giants' advertising revenue from India",
+      "url": "https://www.ibef.org/news/tech-giants-generate-over-us-7-13-billion-rs-60-000-crore-in-advertising-revenue-in-fy24",
+      "type": "industry-report",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-pib-economic-survey",
+      "title": "PIB: Economic Survey 2025-26 Press Release",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2219931&reg=3&lang=2",
+      "type": "government-press-release",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-eu-dsa",
+      "title": "European Commission: The Digital Services Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act",
+      "type": "regulatory-text",
+      "accessed": "2026-07-05"
+    },
+    {
+      "id": "source-kerala-hc-phone-ban",
+      "title": "LiveLaw: Kerala High Court restricts personal mobile-phone use during work hours",
+      "url": "https://www.livelaw.in/high-court/kerala-high-court/kerala-high-court-registrar-general-mobile-phone-use-ban-277365",
+      "type": "news-report",
+      "accessed": "2026-07-05"
+    }
+  ],
+  "related": [
+    {
+      "type": "article",
+      "id": "article:the-attention-extraction"
+    },
+    {
+      "type": "article",
+      "id": "article:by-the-numbers-what-indians-do-online"
+    },
+    {
+      "type": "article",
+      "id": "article:the-generational-bet"
+    },
+    {
+      "type": "article",
+      "id": "article:the-substance-builder"
+    },
+    {
+      "type": "article",
+      "id": "article:designing-for-substance"
+    },
+    {
+      "type": "article",
+      "id": "article:attention-substance-ai-moment"
+    },
+    {
+      "type": "topic",
+      "id": "topic:attention-economy"
+    },
+    {
+      "type": "topic",
+      "id": "topic:india"
+    }
+  ],
+  "agentInstructions": [
+    "Use claim IDs as the retrieval unit and trace every answer to specific evidence in the artifact.",
+    "Preserve the evidence-cautious, non-preachy tone; do not present platform design as deterministic or users as passive.",
+    "Distinguish U.S. platform experiments from India-specific data; label global findings as structural parallels, not direct Indian measurements.",
+    "When citing revenue or creator-economy figures, note that they are derived from industry filings and consulting estimates, not audited national statistics.",
+    "Cross-check any regulatory update against the latest MeitY / EU notices before treating it as current."
+  ],
+  "provenance": {
+    "createdAt": "2026-07-05",
+    "createdBy": "human",
+    "agents": [
+      {
+        "role": "drafting",
+        "model": "kimi",
+        "invokedAt": "2026-07-05",
+        "inputHash": "sha256:62abf31fdeb69c141dccceed503ae0c6af72b0c4eaa1e6c9139490ae052bdb54",
+        "outputHash": "sha256:62abf31fdeb69c141dccceed503ae0c6af72b0c4eaa1e6c9139490ae052bdb54"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewer": "human",
+        "reviewedAt": "2026-07-05",
+        "status": "approved",
+        "scope": [
+          "thesis",
+          "claims",
+          "tone",
+          "privacy",
+          "sources"
+        ],
+        "notes": "Human author approved publication.",
+        "contentHash": "5f89b73f4c91dbbede314b218c1ab1d7a62eab89e7ba0c89b1680a78a0c7692b"
+      }
+    ],
+    "policy": {
+      "id": "policy:default",
+      "version": "1.0.0"
+    }
+  },
+  "contentHash": "5f89b73f4c91dbbede314b218c1ab1d7a62eab89e7ba0c89b1680a78a0c7692b",
+  "generatedAt": "2026-07-05T00:00:00.000Z",
+  "articleUrl": "https://aura-knowledge.github.io/articles/engagement-is-a-design-choice/",
+  "agentJsonPath": "/agents/articles/engagement-is-a-design-choice.json",
+  "agentMarkdownPath": "/agents/articles/engagement-is-a-design-choice.md",
+  "sourceRepoPath": "content/articles/2026/engagement-is-a-design-choice/article.md",
+  "sourceGitHubUrl": "https://github.com/aura-knowledge/aura-knowledge.github.io/blob/main/content/articles/2026/engagement-is-a-design-choice/article.md",
+  "tokenEstimate": 879,
+  "sectionOutline": [
+    {
+      "id": "the-metric-is-the-message",
+      "title": "The Metric Is the Message"
+    },
+    {
+      "id": "what-engagement-based-ranking-amplifies",
+      "title": "What Engagement-Based Ranking Amplifies"
+    },
+    {
+      "id": "the-outrage-feedback-loop",
+      "title": "The Outrage Feedback Loop"
+    },
+    {
+      "id": "the-business-model-behind-the-metric",
+      "title": "The Business Model Behind the Metric"
+    },
+    {
+      "id": "alternative-design-choices",
+      "title": "Alternative Design Choices"
+    },
+    {
+      "id": "what-substance-first-metrics-would-ask",
+      "title": "What Substance-First Metrics Would Ask"
+    },
+    {
+      "id": "sources-and-method",
+      "title": "Sources and Method"
+    },
+    {
+      "id": "open-questions",
+      "title": "Open Questions"
+    },
+    {
+      "id": "related-in-this-series",
+      "title": "Related in This Series"
+    }
+  ]
+}
