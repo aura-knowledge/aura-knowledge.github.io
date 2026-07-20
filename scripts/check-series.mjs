@@ -15,12 +15,22 @@ async function loadArticleArtifacts() {
 
     for (const slugEntry of slugs.filter((entry) => entry.isDirectory())) {
       const artifactPath = path.join(yearDir, slugEntry.name, "artifact.json");
-      const raw = await readFile(artifactPath, "utf8");
+      const relativePath = path.relative(rootDir, artifactPath);
 
-      articles.push({
-        path: path.relative(rootDir, artifactPath),
-        artifact: JSON.parse(raw)
-      });
+      let artifact;
+      try {
+        artifact = JSON.parse(await readFile(artifactPath, "utf8"));
+      } catch (error) {
+        errors.push(`${relativePath}: unreadable or invalid JSON (${error.message}).`);
+        continue;
+      }
+
+      if (artifact === null || typeof artifact !== "object" || Array.isArray(artifact)) {
+        errors.push(`${relativePath}: artifact must be a JSON object.`);
+        continue;
+      }
+
+      articles.push({ path: relativePath, artifact });
     }
   }
 

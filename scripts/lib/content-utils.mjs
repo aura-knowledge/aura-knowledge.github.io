@@ -1,5 +1,5 @@
-import { createHash } from "node:crypto";
-import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
+import { createHash, randomUUID } from "node:crypto";
+import { mkdir, readdir, readFile, rename, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import yaml from "js-yaml";
 
@@ -14,7 +14,10 @@ export function toPosix(filePath) {
 
 export function toDateString(value) {
   if (value instanceof Date || Object.prototype.toString.call(value) === "[object Date]") {
-    return value.toISOString().slice(0, 10);
+    // Take everything before the time component instead of a fixed 10-char slice:
+    // years outside 0000-9999 serialize with a signed six-digit year ("+010000-01-01"),
+    // which a fixed slice would truncate into a malformed date.
+    return value.toISOString().split("T")[0];
   }
 
   return String(value).slice(0, 10);
@@ -36,9 +39,13 @@ export function parseFrontmatter(raw, filePath) {
     throw new Error(`Missing YAML frontmatter: ${filePath}`);
   }
 
-  const data = yaml.load(match[1]) ?? {};
+  const loaded = yaml.load(match[1]) ?? {};
+  if (typeof loaded !== "object" || Array.isArray(loaded)) {
+    throw new Error(`Frontmatter must be a YAML mapping, got ${Array.isArray(loaded) ? "an array" : typeof loaded}: ${filePath}`);
+  }
+
   return {
-    data: normalizeDates(data),
+    data: normalizeDates(loaded),
     body: raw.slice(match[0].length)
   };
 }
@@ -48,12 +55,32 @@ export function sha256(value) {
 }
 
 export async function readJson(filePath) {
-  return JSON.parse(await readFile(filePath, "utf8"));
+  try {
+    return JSON.parse(await readFile(filePath, "utf8"));
+  } catch (error) {
+    if (error instanceof SyntaxError) {
+      throw new SyntaxError(`Invalid JSON in ${filePath}: ${error.message}`);
+    }
+    throw error;
+  }
 }
 
 export async function writeJson(filePath, data) {
+  const serialized = JSON.stringify(data, null, 2);
+  if (serialized === undefined) {
+    throw new TypeError(`writeJson: value is not JSON-serializable (undefined, function, or symbol) for ${filePath}`);
+  }
   await mkdir(path.dirname(filePath), { recursive: true });
-  await writeFile(filePath, `${JSON.stringify(data, null, 2)}\n`);
+  // Atomic publish: same-directory temp file + rename, so concurrent readers
+  // never observe a torn (partially written) JSON document.
+  const tempPath = `${filePath}.${process.pid}.${randomUUID()}.tmp`;
+  try {
+    await writeFile(tempPath, `${serialized}\n`);
+    await rename(tempPath, filePath);
+  } catch (error) {
+    await rm(tempPath, { force: true });
+    throw error;
+  }
 }
 
 export async function findArticleDirs() {

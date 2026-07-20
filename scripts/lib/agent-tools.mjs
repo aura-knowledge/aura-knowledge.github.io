@@ -41,7 +41,16 @@ async function getCurrentBranch() {
     });
     return stdout.trim();
   } catch {
-    return "unknown";
+    // rev-parse fails on an unborn branch (fresh repo, no commits yet);
+    // symbolic-ref still resolves the branch name in that state.
+    try {
+      const { stdout } = await execFileAsync("git", ["symbolic-ref", "--short", "HEAD"], {
+        cwd: rootDir
+      });
+      return stdout.trim();
+    } catch {
+      return "unknown";
+    }
   }
 }
 
@@ -333,6 +342,9 @@ const promoteSource = {
 
 async function executePromoteSource(input, { dryRun, confirm }) {
   if (!input.candidateId) throw new Error("candidateId is required.");
+  if (!/^[a-z0-9-]+$/.test(input.candidateId)) {
+    throw new Error(`Invalid candidate id: ${input.candidateId}. Use lowercase letters, numbers, and hyphens only.`);
+  }
   assertSafeSlug(input.article, "article");
   const year = input.year ?? new Date().getFullYear().toString();
 

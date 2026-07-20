@@ -265,8 +265,9 @@ async function main() {
     slice = inspectArticle(packet);
   } else if (options.claim) {
     mode = "claim";
-    const [slug, localClaimId] = options.claim.split(":");
-    if (!slug || !localClaimId) {
+    const parts = options.claim.split(":");
+    const [slug, localClaimId] = parts;
+    if (parts.length !== 2 || !slug || !localClaimId) {
       throw new Error("--claim must be in the form slug:claimId.");
     }
     const packet = await loadArticlePacket(slug, data);

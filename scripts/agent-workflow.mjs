@@ -103,8 +103,12 @@ function validateInput(schema, input) {
     }
   }
   for (const key of Object.keys(input)) {
-    if (!schema.properties[key]) {
+    const property = schema.properties[key];
+    if (!property) {
       throw new Error(`Unknown workflow input: ${key}`);
+    }
+    if (property.type === "array" && !Array.isArray(input[key])) {
+      throw new Error(`Workflow input ${key} must be an array.`);
     }
   }
 }
@@ -150,7 +154,7 @@ async function runComposeArticle(input, flags) {
       if (importResult.preview && !confirm) {
         return { workflow: "composeArticle", confirmed: false, stoppedAfter: "importSource", steps };
       }
-      const candidateMatch = importResult.stdout?.match(/candidate[-\w]+/);
+      const candidateMatch = importResult.stdout?.match(/candidate-source-[\w-]+/);
       if (candidateMatch) {
         importedCandidateIds.push(candidateMatch[0]);
       }

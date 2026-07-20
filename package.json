@@ -16,6 +16,7 @@
     "validate:evidence": "node scripts/validate-content.mjs",
     "validate:build": "node scripts/validate-build.mjs",
     "verify": "node scripts/verify-claims.mjs",
+    "test:unit": "node --test \"scripts/tests/*.test.mjs\"",
     "verify:claim": "node scripts/verify-claim.mjs",
     "check:sources": "node scripts/check-source-liveness.mjs",
     "agent:record": "node scripts/record-agent-run.mjs",
@@ -32,7 +33,7 @@
     "eval:briefs": "node scripts/eval-briefs.mjs",
     "inspect:packet": "node scripts/inspect-packet.mjs",
     "inspect:packet:smoke": "node scripts/inspect-packet.mjs --article agent-auditable-research --format json >/dev/null && node scripts/inspect-packet.mjs --source source-agentic-publications-2025 --format markdown >/dev/null && node scripts/inspect-packet.mjs --graph-slice article:agent-auditable-research --format json >/dev/null",
-    "check": "npm run generate && npm run validate && npm run check:series && astro build && npm run postprocess:reader-copy && npm run generate-sw && npm run validate:build && npm run garden:query:smoke && npm run eval:briefs && npm run inspect:packet:smoke && npm run agent:tools:smoke && npm run verify -- --max-draft 0 && npm run audit -- --check"
+    "check": "npm run generate && npm run validate && npm run check:series && npm run test:unit && astro build && npm run postprocess:reader-copy && npm run generate-sw && npm run validate:build && npm run garden:query:smoke && npm run eval:briefs && npm run inspect:packet:smoke && npm run agent:tools:smoke && npm run verify -- --max-draft 0 && npm run audit -- --check"
   },
   "overrides": {
     "esbuild": "0.28.1"
