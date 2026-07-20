@@ -5,6 +5,7 @@ import { sha256, toPosix, writeJson } from "./lib/content-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = process.cwd();
+const VALID_KINDS = new Set(["url", "arxiv", "doi", "github"]);
 
 function parseArgs(argv) {
   const args = {};
@@ -214,6 +215,10 @@ async function main() {
   }
 
   const kind = args.kind ?? detectKind(args.value);
+  if (!VALID_KINDS.has(kind)) {
+    console.error(`Invalid kind: ${kind}. Use url, arxiv, doi, or github.`);
+    process.exit(1);
+  }
   const resolved = await resolveInput(kind, args.value);
   const url = normalizeUrl(resolved.url);
   const title = args.title ?? resolved.title;

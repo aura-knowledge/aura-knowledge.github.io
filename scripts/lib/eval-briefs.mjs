@@ -17,13 +17,17 @@ export function runEvalCase(evalCase, data, articlePacketsBySlug) {
     }
   }
 
-  if (
-    typeof evalCase.expected.maxResults === "number" &&
-    resultSlugs.length > evalCase.expected.maxResults
-  ) {
-    failures.push(
-      `result count ${resultSlugs.length} exceeds expected maxResults ${evalCase.expected.maxResults}`
-    );
+  if (evalCase.expected.maxResults !== undefined && evalCase.expected.maxResults !== null) {
+    if (typeof evalCase.expected.maxResults !== "number" || !Number.isFinite(evalCase.expected.maxResults)) {
+      throw new Error(
+        `Eval case ${evalCase.id}: expected.maxResults must be a finite number, got ${JSON.stringify(evalCase.expected.maxResults)}.`
+      );
+    }
+    if (resultSlugs.length > evalCase.expected.maxResults) {
+      failures.push(
+        `result count ${resultSlugs.length} exceeds expected maxResults ${evalCase.expected.maxResults}`
+      );
+    }
   }
 
   const resultClaimIds = new Set();

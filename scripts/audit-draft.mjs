@@ -7,7 +7,11 @@ function parseArgs(argv) {
   for (let index = 2; index < argv.length; index += 1) {
     const arg = argv[index];
     if (arg === "--slug") {
-      args.slug = argv[index + 1];
+      const value = argv[index + 1];
+      if (value === undefined) {
+        throw new Error("--slug requires a value.");
+      }
+      args.slug = value;
       index += 1;
     } else if (arg === "--check") {
       args.check = true;

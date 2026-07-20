@@ -68,7 +68,12 @@ async function loadPolicies() {
   return knownPolicies;
 }
 
-const knownPolicies = await loadPolicies();
+let knownPolicies;
+try {
+  knownPolicies = await loadPolicies();
+} catch (error) {
+  reportFatalLoad(error);
+}
 const errors = [];
 const warnings = [];
 
@@ -92,6 +97,16 @@ function report(message) {
 
 function reportWarning(message) {
   warnings.push(message);
+}
+
+function asArray(value) {
+  return Array.isArray(value) ? value : [];
+}
+
+function reportFatalLoad(error) {
+  console.error("Content validation failed:");
+  console.error(`- Unable to load garden content: ${error.message}`);
+  process.exit(1);
 }
 
 function formatAjvErrors(prefix, validator) {
@@ -118,24 +133,33 @@ function reportDuplicates(prefix, label, values) {
   }
 }
 
-const articles = await loadArticles();
-const roadmaps = await loadRoadmaps();
+let articles;
+let roadmaps;
+try {
+  articles = await loadArticles();
+  roadmaps = await loadRoadmaps();
+} catch (error) {
+  reportFatalLoad(error);
+}
 const publishedArticles = articles.filter((article) =>
-  article.articleFrontmatter.status === "published" && article.artifact.status === "published"
+  article.articleFrontmatter.status === "published" && article.artifact?.status === "published"
 );
 const publishedRoadmaps = roadmaps.filter((roadmap) => roadmap.status === "published");
 const knownIds = new Set();
 
 for (const article of articles) {
+  if (article.artifact === null || typeof article.artifact !== "object") {
+    continue; // schema errors are reported in the main loop below
+  }
   knownIds.add(article.artifact.id);
-  for (const topic of article.artifact.topics) {
+  for (const topic of asArray(article.artifact.topics)) {
     knownIds.add(`topic:${topic}`);
   }
-  for (const claim of article.artifact.claims) {
-    knownIds.add(claim.id);
+  for (const claim of asArray(article.artifact.claims)) {
+    knownIds.add(claim?.id);
   }
-  for (const source of article.artifact.sources) {
-    knownIds.add(source.id);
+  for (const source of asArray(article.artifact.sources)) {
+    knownIds.add(source?.id);
   }
 }
 
@@ -151,17 +175,23 @@ for (const roadmap of roadmaps) {
     report(`${prefix}: id must be roadmap:${roadmap.slug}.`);
   }
 
-  const ideaIds = roadmap.ideas?.map((idea) => idea.id) ?? [];
+  const ideaIds = asArray(roadmap.ideas).map((idea) => idea?.id);
   reportDuplicates(prefix, "idea id", ideaIds);
   const knownIdeaIds = new Set(ideaIds);
 
   const priorityCounts = { P0: 0, P1: 0, P2: 0 };
-  for (const idea of roadmap.ideas ?? []) {
+  for (const idea of asArray(roadmap.ideas)) {
+    if (idea === null || typeof idea !== "object") {
+      continue; // schema errors were already reported above
+    }
     if (idea.priority in priorityCounts) {
       priorityCounts[idea.priority] += 1;
     }
 
-    for (const sourcePath of idea.sourcePaths ?? []) {
+    for (const sourcePath of asArray(idea.sourcePaths)) {
+      if (typeof sourcePath !== "string") {
+        continue; // schema errors were already reported above
+      }
       if (!sourcePath.endsWith("README.md") && !sourcePath.endsWith("SKILL.md") && !sourcePath.endsWith(".py")) {
         report(`${prefix}: ${idea.id} has a source path that is not a README, skill, or code reference: ${sourcePath}.`);
       }
@@ -174,10 +204,10 @@ for (const roadmap of roadmaps) {
     }
   }
 
-  for (const phase of roadmap.phases ?? []) {
-    for (const ideaId of phase.ideaIds ?? []) {
+  for (const phase of asArray(roadmap.phases)) {
+    for (const ideaId of asArray(phase?.ideaIds)) {
       if (!knownIdeaIds.has(ideaId)) {
-        report(`${prefix}: ${phase.id} references unknown idea ${ideaId}.`);
+        report(`${prefix}: ${phase?.id} references unknown idea ${ideaId}.`);
       }
     }
   }
@@ -218,6 +248,10 @@ for (const article of articles) {
 
   if (article.articleFrontmatter.sourcePath !== expectedSource) {
     report(`${prefix}: frontmatter sourcePath must be ${expectedSource}.`);
+  }
+
+  if (article.artifact === null || typeof article.artifact !== "object") {
+    continue; // schema errors for the artifact were already reported above
   }
 
   if (article.artifact.slug !== article.slug) {
@@ -267,12 +301,18 @@ for (const article of articles) {
     }
   }
 
-  const claimIds = article.artifact.claims.map((claim) => claim.id);
-  const sourceIdsList = article.artifact.sources.map((source) => source.id);
+  const claimIds = asArray(article.artifact.claims).map((claim) => claim?.id);
+  const sourceIdsList = asArray(article.artifact.sources).map((source) => source?.id);
   reportDuplicates(prefix, "claim id", claimIds);
   reportDuplicates(prefix, "source id", sourceIdsList);
 
-  const findings = assessArticle(article, article.articleBody, { prefix, knownPolicies });
+  let findings;
+  try {
+    findings = assessArticle(article, article.articleBody, { prefix, knownPolicies });
+  } catch (error) {
+    findings = [];
+    report(`${prefix}: evidence diagnostics failed on malformed artifact data: ${error.message}`);
+  }
   for (const finding of findings) {
     if (finding.severity === "error") {
       report(finding.message);
@@ -281,9 +321,9 @@ for (const article of articles) {
     }
   }
 
-  for (const relation of article.artifact.related) {
-    if (!knownIds.has(relation.id)) {
-      report(`${prefix}: related ${relation.id} is not present in article, topic, claim, or source IDs.`);
+  for (const relation of asArray(article.artifact.related)) {
+    if (!knownIds.has(relation?.id)) {
+      report(`${prefix}: related ${relation?.id} is not present in article, topic, claim, or source IDs.`);
     }
   }
 
@@ -308,7 +348,7 @@ for (const article of articles) {
     }
     if (briefClaimLines.size > 0) {
       for (const [claimId, briefText] of briefClaimLines) {
-        const artifactClaim = article.artifact.claims.find((claim) => claim.id === claimId);
+        const artifactClaim = asArray(article.artifact.claims).find((claim) => claim?.id === claimId);
         if (!artifactClaim) {
           report(`${prefix}: agent.md states ${claimId}, which is not present in artifact claims.`);
         } else if (normalizeClaimText(briefText) !== normalizeClaimText(artifactClaim.claim)) {
@@ -317,9 +357,9 @@ for (const article of articles) {
           );
         }
       }
-      for (const claim of article.artifact.claims) {
-        if (!briefClaimLines.has(claim.id)) {
-          reportWarning(`${prefix}: agent.md enumerates claims but omits ${claim.id}.`);
+      for (const claim of asArray(article.artifact.claims)) {
+        if (!briefClaimLines.has(claim?.id)) {
+          reportWarning(`${prefix}: agent.md enumerates claims but omits ${claim?.id}.`);
         }
       }
     }

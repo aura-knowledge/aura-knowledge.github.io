@@ -98,7 +98,7 @@ function buildRelatedSet(targetArticle, articles, edges) {
     if (!isTarget) continue;
     const otherId = edge.from === targetId ? edge.to : edge.from;
     const other = articles.find((article) => article.artifact.id === otherId);
-    if (other) {
+    if (other && other.slug !== targetArticle.slug) {
       related.add(other.slug);
     }
   }
@@ -248,7 +248,7 @@ export function buildQueryCatalog(data, site, base, generatedAt) {
 
   const topicGroups = new Map();
   for (const article of publishedArticles) {
-    for (const topic of article.artifact.topics) {
+    for (const topic of new Set(article.artifact.topics)) {
       if (!topicGroups.has(topic)) topicGroups.set(topic, []);
       topicGroups.get(topic).push(articleEntry(article));
     }

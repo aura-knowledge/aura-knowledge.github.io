@@ -1,6 +1,6 @@
-import { writeFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import path from "node:path";
-import { loadArticles, rootDir } from "./lib/content-utils.mjs";
+import { loadArticles, rootDir, writeJson } from "./lib/content-utils.mjs";
 
 const STATUSES = new Set(["draft", "verified", "contested", "stale"]);
 const PLACEHOLDER_SNIPPET = /evidence snippet pending/i;
@@ -51,19 +51,29 @@ if (!article) {
   console.error(`Article not found: ${args.slug}`);
   process.exit(1);
 }
-const claim = article.artifact.claims.find((entry) => entry.id === args.claim);
+
+const artifactPath = path.join(rootDir, "content", "articles", String(article.year), article.slug, "artifact.json");
+// Re-read the artifact immediately before modifying it. The full-garden load
+// above takes long enough that a concurrent writer (another verify-claim run
+// on a sibling claim, npm run generate) could have changed the file since;
+// writing back the stale in-memory copy would silently drop those updates.
+const artifact = JSON.parse(await readFile(artifactPath, "utf8"));
+const claim = artifact.claims.find((entry) => entry.id === args.claim);
 if (!claim) {
   console.error(`Claim not found: ${args.slug} ${args.claim}`);
   process.exit(1);
 }
 
-if (
-  args.status === "verified" &&
-  (claim.evidence.length === 0 ||
-    claim.evidence.every((packet) => PLACEHOLDER_SNIPPET.test(packet.snippet ?? "")))
-) {
+function hasRealEvidence(candidate) {
+  return candidate.evidence.some((packet) => {
+    const snippet = (packet.snippet ?? "").trim();
+    return snippet.length > 0 && !PLACEHOLDER_SNIPPET.test(snippet);
+  });
+}
+
+if (args.status === "verified" && !hasRealEvidence(claim)) {
   console.error(
-    `Refusing to mark ${args.slug} ${args.claim} verified: ${claim.evidence.length === 0 ? "the claim has no evidence packets" : "every evidence snippet is a placeholder"}. Fill real evidence first.`
+    `Refusing to mark ${args.slug} ${args.claim} verified: ${claim.evidence.length === 0 ? "the claim has no evidence packets" : "every evidence snippet is missing or a placeholder"}. Fill real evidence first.`
   );
   process.exit(1);
 }
@@ -76,12 +86,11 @@ claim.verification = {
   ...(args.note ? { note: args.note } : {})
 };
 
-const artifactPath = path.join(rootDir, "content", "articles", String(article.year), article.slug, "artifact.json");
 const today = new Date().toISOString().slice(0, 10);
-if (article.artifact.updatedAt < today) {
-  article.artifact.updatedAt = today;
+if (artifact.updatedAt < today) {
+  artifact.updatedAt = today;
 }
-await writeFile(artifactPath, JSON.stringify(article.artifact, null, 2) + "\n");
+await writeJson(artifactPath, artifact);
 
 console.log(
   `${args.slug} ${args.claim}: verification ${previous ? `${previous.status} -> ${args.status}` : `(none) -> ${args.status}`} by ${args.reviewer} on ${reviewedAt}.`

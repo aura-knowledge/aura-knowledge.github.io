@@ -1,7 +1,19 @@
 import { assessArticle } from "./evidence-diagnostics.mjs";
 
+// Findings produced by assessClaim carry an exact claimId. Matching on
+// message substrings misattributes findings whose text merely mentions
+// another claim's id (e.g. claim-002 citing a source named
+// "source-claim-001-replication" would taint claim-001's state).
+// orphan-claim findings carry no claimId, so they keep the message match.
+function findingBelongsToClaim(finding, claimId) {
+  if (finding.claimId) {
+    return finding.claimId === claimId;
+  }
+  return finding.rule === "orphan-claim" && finding.message.includes(claimId);
+}
+
 export function computeClaimState(claim, findings) {
-  const claimFindings = findings.filter((f) => f.message.includes(claim.id));
+  const claimFindings = findings.filter((f) => findingBelongsToClaim(f, claim.id));
   const rules = new Set(claimFindings.map((f) => f.rule));
 
   if (claim.verification?.status === "verified") return "verified";
@@ -34,7 +46,7 @@ export function buildVerificationReport(articles, generatedAt = new Date().toISO
       evidenceCount: claim.evidence.length,
       counterevidenceCount: claim.counterevidence.length,
       findings: findings
-        .filter((f) => f.message.includes(claim.id))
+        .filter((f) => findingBelongsToClaim(f, claim.id))
         .map((f) => ({ rule: f.rule, severity: f.severity, message: f.message }))
     }));
 
