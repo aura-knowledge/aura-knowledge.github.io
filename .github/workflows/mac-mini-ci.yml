@@ -14,6 +14,10 @@ jobs:
     # registered self-hosted runners, so this workflow cannot execute until the
     # Mac mini is enrolled in GitHub Actions.
     runs-on: [self-hosted, macOS, mac-mini]
+    # Fork PRs must never execute on the self-hosted runner: its UID can read
+    # the SDL signing keys in project-memory and the maintainer's home dir
+    # (cross-agent review, zai/glm-5.2, 2026-07-20).
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
     steps:
       - name: Checkout
         uses: actions/checkout@v4
